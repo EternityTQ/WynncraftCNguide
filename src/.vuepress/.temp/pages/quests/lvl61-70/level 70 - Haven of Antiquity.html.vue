@@ -1,0 +1,18 @@
+<template><div><h1 id="haven-of-antiquity-level-70" tabindex="-1"><a class="header-anchor" href="#haven-of-antiquity-level-70" aria-hidden="true">#</a> Haven of Antiquity(level 70)</h1>
+<p><strong>古代天堂</strong></p>
+<p>1.和Dead Island 的Cinfras[770,  -3880)说话</p>
+<p>2.和岛上的在Dead Mansion里的Old Siwel说话[833,  -4009)</p>
+<p>3.带[3个Severed Hearts]给 Old Siwel。(岛上的 僵 尸 会掉)</p>
+<p>4.进入地下室教堂，进入死者的记忆。(教堂入口：[901,  -3846) ，走到里面墓碑上的黑块 就进入死者的记忆了)</p>
+<p>5.和Siwel[-9333,  -10487)说话</p>
+<p>6.带回5个Monster Hide (由x -9332 z-10589洞穴深处的小黑 掉落)给Siwel</p>
+<p>7.回到现实(再去一次墓碑)，再次和Old Siwel 说话</p>
+<p>8.和Dead Island 的Cinfras[770,  -3880)说话</p>
+<p>奖励</p>
+<ul>
+<li>300000 经验</li>
+<li>1408 绿宝石</li>
+</ul>
+</div></template>
+
+

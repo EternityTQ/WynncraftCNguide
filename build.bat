@@ -1,0 +1,2 @@
+pnpm docs:build
+cmd
