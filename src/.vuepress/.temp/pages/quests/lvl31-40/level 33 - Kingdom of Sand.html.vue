@@ -1,5 +1,9 @@
 <template><div><h1 id="kingdom-of-sand-level-33" tabindex="-1"><a class="header-anchor" href="#kingdom-of-sand-level-33" aria-hidden="true">#</a> Kingdom of Sand (level 33)</h1>
 <p><strong>沙海国度</strong></p>
+<div class="hint-container tip">
+<p class="hint-container-title">重要任务</p>
+<p>解锁Sand-Swept Tomb副本</p>
+</div>
 <p>1.前往<code v-pre>[1408 94 -1830]</code>调查发生了什么事</p>
 <p>2.进入逃犯的藏身处调查<code v-pre>[1314 90 -1660]</code></p>
 <p>3 在出口和<em>Geo</em>和<em>Tarek</em>说话</p>

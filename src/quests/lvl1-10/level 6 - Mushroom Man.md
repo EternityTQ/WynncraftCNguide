@@ -1,7 +1,7 @@
 # Mushroom Man (level 6)
 **蘑菇人**
 
-任务前置：[Infested Plants](/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
+任务前置：[Infested Plants](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
 
 1 和*Tasim*`[-158 73 -1621]`对话
 

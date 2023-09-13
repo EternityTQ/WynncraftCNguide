@@ -1,7 +1,7 @@
 # Taking the tower (level 8)
 **突袭塔楼**
 
-任务前置：Mushroom Man (level 6)
+任务前置：[Mushroom Man](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
 
 1.与*Aledar*`[511 67 -1613]`对话(记得按选项1)
 

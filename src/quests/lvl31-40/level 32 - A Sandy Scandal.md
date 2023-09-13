@@ -1,8 +1,8 @@
 # A Sandy Scandal (level 32)
 **沙城劫案**
 
-:::tip
-重要任务:可以解锁Almuj的银行
+:::tip 重要任务
+解锁Almuj的银行
 :::
 
 1.在**Almuj**城和*Almuj Bank Guard*`[976 83 -1963]`对话

@@ -1,6 +1,6 @@
 <template><div><h1 id="mushroom-man-level-6" tabindex="-1"><a class="header-anchor" href="#mushroom-man-level-6" aria-hidden="true">#</a> Mushroom Man (level 6)</h1>
 <p><strong>蘑菇人</strong></p>
-<p>任务前置：<a href="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html" target="_blank" rel="noopener noreferrer">Infested Plants<ExternalLinkIcon/></a></p>
+<p>任务前置：<RouterLink to="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html">Infested Plants</RouterLink></p>
 <p>1 和<em>Tasim</em><code v-pre>[-158 73 -1621]</code>对话</p>
 <p>2 和<em>Yahya</em><code v-pre>[-174 74 -1632]</code>对话</p>
 <p>3 跟随<em>Yahya</em>来到他被感染的采蘑菇点<code v-pre>[-214 76 -1692]</code>，对话后清理12只蜘蛛</p>

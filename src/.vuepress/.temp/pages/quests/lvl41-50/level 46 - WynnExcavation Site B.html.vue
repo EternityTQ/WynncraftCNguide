@@ -1,6 +1,6 @@
 <template><div><h1 id="wynnexcavation-site-b-level-46" tabindex="-1"><a class="header-anchor" href="#wynnexcavation-site-b-level-46" aria-hidden="true">#</a> WynnExcavation Site B (level 46)</h1>
 <p><strong>Wynn考古集团 地点B</strong></p>
-<p>前置任务：<a href="/quests/lvl31-40/level%2036%20-%20WynnExcavation%20Site%20A.html" target="_blank" rel="noopener noreferrer">WynnExcavation Site A<ExternalLinkIcon/></a></p>
+<p>前置任务：<RouterLink to="/quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html">WynnExcavation Site A</RouterLink></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>记得带好前置任务给的黄色水晶</p>

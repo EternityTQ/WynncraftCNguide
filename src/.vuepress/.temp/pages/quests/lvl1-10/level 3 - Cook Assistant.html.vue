@@ -3,10 +3,14 @@
 <p>1.到Ragni城里和厨师<code v-pre>[-846 67 -1561]</code>对话</p>
 <p>2.到Ragni北部的<strong>Katoa Ranch</strong><code v-pre>[-814 66 -1910]</code>收集厨师要的材料</p>
 <ul>
-<li>[2 egg]鸡蛋可以在该地点杀鸡掉落</li>
-<li>[1 Bucket of milk]可以在这里的牛奶商[-808 67 -1916]购买</li>
-<li>[3 Wheat Grains]用锄头工具对准小麦<strong>右键</strong></li>
+<li><code v-pre>[2 egg]</code>鸡蛋可以在该地点杀鸡掉落</li>
+<li><code v-pre>[1 Bucket of milk]</code>可以在这里的牛奶商<code v-pre>[-808 67 -1916]</code>购买</li>
+<li><code v-pre>[3 Wheat Grains]</code>用锄头工具对准小麦<strong>右键</strong></li>
 </ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>锄头工具可在一旁的Tool Merchant购买</p>
+</div>
 <p>3.材料收集完毕后回去找厨师</p>
 <p>奖励</p>
 <ul>

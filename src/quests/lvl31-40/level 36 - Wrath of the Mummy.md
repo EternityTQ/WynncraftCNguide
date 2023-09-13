@@ -14,7 +14,7 @@
 
 1. 杀死在Deltas城西门的外面的羊圈的羊(或粉色羊，很小几率会生成，必掉)有小几率掉落，建议不停杀羊
 
-2. 粉色羊毛商人`[1329 32 -1274]`要32个gold bar，你可以使用在[Tribal Aggression](/quests/lvl31-40.html#tribal-aggression-level-35)中获得的gold bar来购买，也可以在`[1295 31 -1302]`处使用绿宝石来兑换gold bar
+2. 粉色羊毛商人`[1329 32 -1274]`要32个gold bar，你可以使用在[Tribal Aggression](/WynncraftCNguide/quests/lvl31-40/level%2035%20-%20Tribal%20Aggression.html)中获得的gold bar来购买，也可以在`[1295 31 -1302]`处使用绿宝石来兑换gold bar，周围怪物也会掉落
 :::
 
 5.进入这个tomb然后杀死Mummy

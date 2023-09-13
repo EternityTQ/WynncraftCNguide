@@ -1,6 +1,6 @@
 <template><div><h1 id="supply-and-delivery-level-16" tabindex="-1"><a class="header-anchor" href="#supply-and-delivery-level-16" aria-hidden="true">#</a> Supply and Delivery ( level 16 )</h1>
 <p><strong>物资采购</strong></p>
-<p>任务前置：<a href="/quests/lvl1-10.html#mushroom-man-level-6" target="_blank" rel="noopener noreferrer">Mushroom Man<ExternalLinkIcon/></a></p>
+<p>任务前置：<RouterLink to="/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html">Mushroom Man</RouterLink></p>
 <p>1.在<strong>Detlas</strong>内与<em>Ope</em>[492 67 -1588]对话</p>
 <p>2.在<em>Ope</em>对面的玩家市场上购买第一格的物资，再次和<em>Ope</em>对话</p>
 <figure><img src="@source/.vuepress/public/assets/img/lvl16-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>

@@ -1,8 +1,8 @@
 <template><div><h1 id="a-sandy-scandal-level-32" tabindex="-1"><a class="header-anchor" href="#a-sandy-scandal-level-32" aria-hidden="true">#</a> A Sandy Scandal (level 32)</h1>
 <p><strong>沙城劫案</strong></p>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>重要任务:可以解锁Almuj的银行</p>
+<p class="hint-container-title">重要任务</p>
+<p>解锁Almuj的银行</p>
 </div>
 <p>1.在<strong>Almuj</strong>城和<em>Almuj Bank Guard</em><code v-pre>[976 83 -1963]</code>对话</p>
 <p>2.去第一个目击证人所报告的地点<code v-pre>[954 75 -1985]</code></p>

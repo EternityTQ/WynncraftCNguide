@@ -1,5 +1,8 @@
 # Kingdom of Sand (level 33)
 **沙海国度**
+:::tip 重要任务
+解锁Sand-Swept Tomb副本
+:::
 
 1.前往`[1408 94 -1830]`调查发生了什么事
 

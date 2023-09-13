@@ -12,7 +12,7 @@
 <p>杀死在Deltas城西门的外面的羊圈的羊(或粉色羊，很小几率会生成，必掉)有小几率掉落，建议不停杀羊</p>
 </li>
 <li>
-<p>粉色羊毛商人<code v-pre>[1329 32 -1274]</code>要32个gold bar，你可以使用在<a href="/quests/lvl31-40.html#tribal-aggression-level-35" target="_blank" rel="noopener noreferrer">Tribal Aggression<ExternalLinkIcon/></a>中获得的gold bar来购买，也可以在<code v-pre>[1295 31 -1302]</code>处使用绿宝石来兑换gold bar</p>
+<p>粉色羊毛商人<code v-pre>[1329 32 -1274]</code>要32个gold bar，你可以使用在<RouterLink to="/quests/lvl31-40/level%2035%20-%20Tribal%20Aggression.html">Tribal Aggression</RouterLink>中获得的gold bar来购买，也可以在<code v-pre>[1295 31 -1302]</code>处使用绿宝石来兑换gold bar，周围怪物也会掉落</p>
 </li>
 </ol>
 </div>

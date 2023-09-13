@@ -1,6 +1,10 @@
 <template><div><h1 id="arachnids-ascent-level-14" tabindex="-1"><a class="header-anchor" href="#arachnids-ascent-level-14" aria-hidden="true">#</a> Arachnids' Ascent ( level 14 )</h1>
 <p><strong>熔丝</strong></p>
-<p>任务前置：<a href="/quests/lvl1-10.html#taking-the-tower-level-8" target="_blank" rel="noopener noreferrer">Taking the tower<ExternalLinkIcon/></a>；<a href="/quests/lvl11-20.html#elemental-exercise-level-11" target="_blank" rel="noopener noreferrer">Elemental Exercise<ExternalLinkIcon/></a></p>
+<div class="hint-container tip">
+<p class="hint-container-title">重要任务</p>
+<p>解锁Infested Pit副本</p>
+</div>
+<p>任务前置：<RouterLink to="/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html">Taking the tower</RouterLink>；<RouterLink to="/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html">Elemental Exercise</RouterLink></p>
 <p>1.与<em>Admiral Aegis</em> <code v-pre>[519 67 -1628]</code>对话，然后跟随他前往军营的顶层<code v-pre>[521 83 -1627]</code>再次对话</p>
 <p>2.和<em>Private Cob</em><code v-pre>[682 74 -1714]</code>对话</p>
 <p>3.沿着地上烧焦的痕迹走，在山洞口和<em>Captain Enduyn</em><code v-pre>[-192 44 -1822]</code>对话</p>

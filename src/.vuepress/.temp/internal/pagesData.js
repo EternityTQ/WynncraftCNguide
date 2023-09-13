@@ -3,6 +3,8 @@ export const pagesData = {
   "v-8daa1a0e": () => import(/* webpackChunkName: "v-8daa1a0e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/index.html.js").then(({ data }) => data),
   // path: /slides.html
   "v-2e3eac9e": () => import(/* webpackChunkName: "v-2e3eac9e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/slides.html.js").then(({ data }) => data),
+  // path: /guide/
+  "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /quests/
   "v-dddc2d36": () => import(/* webpackChunkName: "v-dddc2d36" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/index.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/level%201%20-%20King's%20Recruit.html
@@ -63,30 +65,6 @@ export const pagesData = {
   "v-4091e7ae": () => import(/* webpackChunkName: "v-4091e7ae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 28 - The Corrupted Village.html.js").then(({ data }) => data),
   // path: /quests/lvl21-30/level%2030%20-%20The%20Mercenary.html
   "v-1f3c5211": () => import(/* webpackChunkName: "v-1f3c5211" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 30 - The Mercenary.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2041%20-%20Heart%20of%20Llevigar.html
-  "v-2df2ed86": () => import(/* webpackChunkName: "v-2df2ed86" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 41 - Heart of Llevigar.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2042%20-%20Star%20Thief.html
-  "v-586f19d9": () => import(/* webpackChunkName: "v-586f19d9" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 42 - Star Thief.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2043%20-%20Fate%20of%20the%20Fallen.html
-  "v-763bf9b4": () => import(/* webpackChunkName: "v-763bf9b4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Fate of the Fallen.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2043%20-%20Underice.html
-  "v-64977eac": () => import(/* webpackChunkName: "v-64977eac" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Underice.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html
-  "v-12b0d2d7": () => import(/* webpackChunkName: "v-12b0d2d7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 44 - Blazing Retribution.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html
-  "v-0e79cb61": () => import(/* webpackChunkName: "v-0e79cb61" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 45 - Bob's Lost Soul.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html
-  "v-1f890e79": () => import(/* webpackChunkName: "v-1f890e79" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 46 - WynnExcavation Site B.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2048%20-%20Frost%20Bite.html
-  "v-7d29be6d": () => import(/* webpackChunkName: "v-7d29be6d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 48 - Frost Bite.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html
-  "v-6e80106a": () => import(/* webpackChunkName: "v-6e80106a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - An Iron Heart Part I.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2049%20-%20Rise%20of%20the%20Quartron.html
-  "v-55ecfb6f": () => import(/* webpackChunkName: "v-55ecfb6f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - Rise of the Quartron.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html
-  "v-a0caa08e": () => import(/* webpackChunkName: "v-a0caa08e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - The House of Twain.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html
-  "v-ab3b52ce": () => import(/* webpackChunkName: "v-ab3b52ce" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 50 - A Grave Mistake.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2031%20-%20Green%20Gloop.html
   "v-a67883ee": () => import(/* webpackChunkName: "v-a67883ee" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 31 - Green Gloop.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2032%20-%20A%20Sandy%20Scandal.html
@@ -111,6 +89,30 @@ export const pagesData = {
   "v-3082357c": () => import(/* webpackChunkName: "v-3082357c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 40 - Ice Nations.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2040%20-%20Tower%20of%20Ascension.html
   "v-21dc5d7f": () => import(/* webpackChunkName: "v-21dc5d7f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 40 - Tower of Ascension.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2041%20-%20Heart%20of%20Llevigar.html
+  "v-2df2ed86": () => import(/* webpackChunkName: "v-2df2ed86" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 41 - Heart of Llevigar.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2042%20-%20Star%20Thief.html
+  "v-586f19d9": () => import(/* webpackChunkName: "v-586f19d9" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 42 - Star Thief.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2043%20-%20Fate%20of%20the%20Fallen.html
+  "v-763bf9b4": () => import(/* webpackChunkName: "v-763bf9b4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Fate of the Fallen.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2043%20-%20Underice.html
+  "v-64977eac": () => import(/* webpackChunkName: "v-64977eac" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Underice.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html
+  "v-12b0d2d7": () => import(/* webpackChunkName: "v-12b0d2d7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 44 - Blazing Retribution.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html
+  "v-0e79cb61": () => import(/* webpackChunkName: "v-0e79cb61" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 45 - Bob's Lost Soul.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html
+  "v-1f890e79": () => import(/* webpackChunkName: "v-1f890e79" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 46 - WynnExcavation Site B.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2048%20-%20Frost%20Bite.html
+  "v-7d29be6d": () => import(/* webpackChunkName: "v-7d29be6d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 48 - Frost Bite.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html
+  "v-6e80106a": () => import(/* webpackChunkName: "v-6e80106a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - An Iron Heart Part I.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2049%20-%20Rise%20of%20the%20Quartron.html
+  "v-55ecfb6f": () => import(/* webpackChunkName: "v-55ecfb6f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - Rise of the Quartron.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html
+  "v-a0caa08e": () => import(/* webpackChunkName: "v-a0caa08e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - The House of Twain.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html
+  "v-ab3b52ce": () => import(/* webpackChunkName: "v-ab3b52ce" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 50 - A Grave Mistake.html.js").then(({ data }) => data),
   // path: /quests/lvl51-60/level%2051%20-%20The%20Maiden%20Tower.html
   "v-252c470c": () => import(/* webpackChunkName: "v-252c470c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl51-60/level 51 - The Maiden Tower.html.js").then(({ data }) => data),
   // path: /quests/lvl51-60/level%2052%20-%20Corrupted%20Betrayal.html
@@ -181,10 +183,10 @@ export const pagesData = {
   "v-612d8761": () => import(/* webpackChunkName: "v-612d8761" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl11-20/index.html.js").then(({ data }) => data),
   // path: /quests/lvl21-30/
   "v-62e263c1": () => import(/* webpackChunkName: "v-62e263c1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/
-  "v-664c1c81": () => import(/* webpackChunkName: "v-664c1c81" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/index.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/
   "v-64974021": () => import(/* webpackChunkName: "v-64974021" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/
+  "v-664c1c81": () => import(/* webpackChunkName: "v-664c1c81" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/index.html.js").then(({ data }) => data),
   // path: /quests/lvl51-60/
   "v-6800f8e1": () => import(/* webpackChunkName: "v-6800f8e1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl51-60/index.html.js").then(({ data }) => data),
   // path: /quests/lvl61-70/

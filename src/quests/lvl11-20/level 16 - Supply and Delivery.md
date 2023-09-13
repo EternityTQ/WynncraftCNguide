@@ -1,7 +1,7 @@
 # Supply and Delivery ( level 16 )
 **物资采购**
 
-任务前置：[Mushroom Man](/quests/lvl1-10.html#mushroom-man-level-6)
+任务前置：[Mushroom Man](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
 
 1.在**Detlas**内与*Ope*[492 67 -1588]对话
 

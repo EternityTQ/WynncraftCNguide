@@ -1,7 +1,11 @@
 # Arachnids' Ascent ( level 14 )
 **熔丝**
 
-任务前置：[Taking the tower](/quests/lvl1-10.html#taking-the-tower-level-8)；[Elemental Exercise](/quests/lvl11-20.html#elemental-exercise-level-11)
+:::tip 重要任务
+解锁Infested Pit副本
+:::
+
+任务前置：[Taking the tower](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)；[Elemental Exercise](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
 
 1.与*Admiral Aegis* `[519 67 -1628]`对话，然后跟随他前往军营的顶层`[521 83 -1627]`再次对话
 
