@@ -1,7 +1,7 @@
 # A Grave Mistake(level 50)
 **庄严的引魂人**
 
-前置任务:[The House of Twain](/quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html)
+前置任务:[The House of Twain](/WynncraftCNguide/quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html)
 
 :::tip
 万圣节感人鬼故事,无战斗,但是**很吓人**

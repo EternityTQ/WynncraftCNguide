@@ -1,7 +1,7 @@
 # Jungle Fever (level 52)
-**穷病**
+**穷0热**
 
-前置任务: [A Sandy Scandal](/quests/lvl31-40/level%2032%20-%20A%20Sandy%20Scandal.html)
+前置任务: [A Sandy Scandal](/WynncraftCNguide/quests/lvl31-40/level%2032%20-%20A%20Sandy%20Scandal.html)
 
 >建议走位风骚的人做，带上足够血药。
 

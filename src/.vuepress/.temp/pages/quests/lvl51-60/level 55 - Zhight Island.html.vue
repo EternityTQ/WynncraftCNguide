@@ -1,6 +1,6 @@
 <template><div><h1 id="zhight-island-level-55" tabindex="-1"><a class="header-anchor" href="#zhight-island-level-55" aria-hidden="true">#</a> Zhight Island (level 55)</h1>
 <p><strong>Zhight岛</strong></p>
-<p>前置：<a href="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html" target="_blank" rel="noopener noreferrer">Ice Nations<ExternalLinkIcon/></a></p>
+<p>前置：<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nations</RouterLink></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>最好提前拿上在前置任务中获得的Climbing Helmet，同时你的装备最好不要依赖于头盔给予的点数，后面会更换</p>

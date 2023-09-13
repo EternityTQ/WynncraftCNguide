@@ -1,8 +1,8 @@
 <template><div><h1 id="realm-of-light-i-the-worm-holes-level-54" tabindex="-1"><a class="header-anchor" href="#realm-of-light-i-the-worm-holes-level-54" aria-hidden="true">#</a> Realm of Light I - The Worm Holes (level 54)</h1>
 <p><strong>光之领域 Part I - 地下虫洞</strong></p>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>重要任务: 解锁RAID - Nest of the Grootslangs</p>
+<p class="hint-container-title">重要任务</p>
+<p>解锁RAID - Nest of the Grootslangs</p>
 <p>解锁Tomes机制</p>
 </div>
 <p>1.去<code v-pre>[-2039 55 -5434]</code>附近看看发生了什么，然后和<em>Malo</em>对话</p>
@@ -23,7 +23,7 @@
 <p>6.坚持一分半</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>![]../../.vuepress/public/assets/img/lvl54-1.jpg)<br>
+<p><img src="@source/.vuepress/public/assets/img/lvl54-1.jpg" alt="" loading="lazy"><br>
 你可以沿着路径上来这个地方挂机，非常安全</p>
 </div>
 <p>7.触发剧情进入虫虫的胃里，然后看Lari表演就行了</p>

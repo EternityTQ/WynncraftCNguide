@@ -1,6 +1,6 @@
 <template><div><h1 id="a-grave-mistake-level-50" tabindex="-1"><a class="header-anchor" href="#a-grave-mistake-level-50" aria-hidden="true">#</a> A Grave Mistake(level 50)</h1>
 <p><strong>庄严的引魂人</strong></p>
-<p>前置任务:<a href="/quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html" target="_blank" rel="noopener noreferrer">The House of Twain<ExternalLinkIcon/></a></p>
+<p>前置任务:<RouterLink to="/quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html">The House of Twain</RouterLink></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>万圣节感人鬼故事,无战斗,但是<strong>很吓人</strong><br>

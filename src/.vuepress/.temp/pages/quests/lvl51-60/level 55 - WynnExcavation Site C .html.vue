@@ -1,6 +1,6 @@
 <template><div><h1 id="wynnexcavation-site-c-level-55" tabindex="-1"><a class="header-anchor" href="#wynnexcavation-site-c-level-55" aria-hidden="true">#</a> WynnExcavation Site C (level 55)</h1>
 <p><strong>Wynn考古集团 地点C</strong></p>
-<p>前置任务：<a href="/quests/lvl41-50.html#wynnexcavation-site-b-level-46" target="_blank" rel="noopener noreferrer">WynnExcavation Site B<ExternalLinkIcon/></a></p>
+<p>前置任务：<RouterLink to="/quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html">WynnExcavation Site B</RouterLink></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>此任务的NPC在Volcanic Isles岛上 在selchar或者llevigar购买船票</p>

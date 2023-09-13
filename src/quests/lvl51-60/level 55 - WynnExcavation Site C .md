@@ -1,7 +1,7 @@
 # WynnExcavation Site C (level 55)
 **Wynn考古集团 地点C**
 
-前置任务：[WynnExcavation Site B](/quests/lvl41-50.html#wynnexcavation-site-b-level-46)
+前置任务：[WynnExcavation Site B](/WynncraftCNguide/quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html)
 
 :::tip
 此任务的NPC在Volcanic Isles岛上 在selchar或者llevigar购买船票

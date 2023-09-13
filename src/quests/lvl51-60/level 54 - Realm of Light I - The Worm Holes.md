@@ -1,7 +1,7 @@
 # Realm of Light I - The Worm Holes (level 54)
 **光之领域 Part I - 地下虫洞**
-:::tip
-重要任务: 解锁RAID - Nest of the Grootslangs
+:::tip 重要任务
+解锁RAID - Nest of the Grootslangs
 
 解锁Tomes机制
 :::
@@ -24,7 +24,7 @@
 6.坚持一分半
 
 :::tip
-![]../../.vuepress/public/assets/img/lvl54-1.jpg)
+![](../../.vuepress/public/assets/img/lvl54-1.jpg)
 你可以沿着路径上来这个地方挂机，非常安全
 :::
 

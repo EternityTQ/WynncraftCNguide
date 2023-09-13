@@ -1,8 +1,8 @@
 # Corrupted Betrayal (level 52)
-**得陇望蜀**
+**恶堕的复仇**
 
-:::tip
-重要任务:Undergrowth Ruins 副本前置任务
+:::tip 重要任务
+Undergrowth Ruins 副本前置任务
 :::
 
 1.和*Troms Mage*`[-641 59 -872]`对话，触发剧情

@@ -1,6 +1,6 @@
 <template><div><h1 id="an-iron-heart-part-ii-level-58" tabindex="-1"><a class="header-anchor" href="#an-iron-heart-part-ii-level-58" aria-hidden="true">#</a> An Iron Heart Part II(level 58)</h1>
 <p><strong>钢铁之心</strong></p>
-<p>前置任务：<a href="/quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html" target="_blank" rel="noopener noreferrer">An Iron Heart Part I<ExternalLinkIcon/></a></p>
+<p>前置任务：<RouterLink to="/quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html">An Iron Heart Part I</RouterLink></p>
 <blockquote>
 <p>接受我的贿赂?/还是说出真相!</p>
 </blockquote>

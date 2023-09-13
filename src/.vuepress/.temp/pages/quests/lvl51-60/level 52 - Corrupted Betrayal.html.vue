@@ -1,8 +1,8 @@
 <template><div><h1 id="corrupted-betrayal-level-52" tabindex="-1"><a class="header-anchor" href="#corrupted-betrayal-level-52" aria-hidden="true">#</a> Corrupted Betrayal (level 52)</h1>
-<p><strong>得陇望蜀</strong></p>
+<p><strong>恶堕的复仇</strong></p>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>重要任务:Undergrowth Ruins 副本前置任务</p>
+<p class="hint-container-title">重要任务</p>
+<p>Undergrowth Ruins 副本前置任务</p>
 </div>
 <p>1.和<em>Troms Mage</em><code v-pre>[-641 59 -872]</code>对话，触发剧情</p>
 <p>2.解决法师给你的难题</p>
