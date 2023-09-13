@@ -1,6 +1,6 @@
 <template><div><h1 id="realm-of-light-iii-a-headless-history-level-65" tabindex="-1"><a class="header-anchor" href="#realm-of-light-iii-a-headless-history-level-65" aria-hidden="true">#</a> Realm of Light III - A Headless History (level 65)</h1>
 <p><strong>光之领域 Part III - 无头骑士的往事</strong></p>
-<p>前置任务:<a href="/quests/lvl61-70/level%2062%20-%20Realm%20of%20Light%20II%20-%20Taproot.html" target="_blank" rel="noopener noreferrer">Realm of Light II - Taproot (level 62)<ExternalLinkIcon/></a></p>
+<p>前置任务:<RouterLink to="/quests/lvl61-70/level%2062%20-%20Realm%20of%20Light%20II%20-%20Taproot.html">Realm of Light II - Taproot (level 62)</RouterLink></p>
 <blockquote>
 <p>本任务全是剧情，又臭又长</p>
 </blockquote>

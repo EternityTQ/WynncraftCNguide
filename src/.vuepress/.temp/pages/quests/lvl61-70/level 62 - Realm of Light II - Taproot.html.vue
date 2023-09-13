@@ -1,6 +1,6 @@
 <template><div><h1 id="realm-of-light-ii-taproot-level-62" tabindex="-1"><a class="header-anchor" href="#realm-of-light-ii-taproot-level-62" aria-hidden="true">#</a> Realm of Light II - Taproot (level 62)</h1>
 <p><strong>光之领域 Part II - 主根</strong></p>
-<p>前置任务:<a href="/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html" target="_blank" rel="noopener noreferrer">Realm of Light I -  The Worn Holes<ExternalLinkIcon/></a></p>
+<p>前置任务:<RouterLink to="/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html">Realm of Light I -  The Worn Holes</RouterLink></p>
 <p>1 在Dark Forest与Lari对话<code v-pre>[-1257 43 -5474]</code></p>
 <p>2 跟着Lari走到旁边的腐化点<code v-pre>[-1296 44 -5481]</code></p>
 <p>3 跟着魔法路径到<code v-pre>[-1329 85 -5606]</code> 和Lari对话</p>

@@ -1,9 +1,9 @@
 <template><div><h1 id="all-roads-to-peace-level-64" tabindex="-1"><a class="header-anchor" href="#all-roads-to-peace-level-64" aria-hidden="true">#</a> All Roads to Peace (level 64)</h1>
 <p><strong>和平之路</strong></p>
 <p>前置任务：</p>
-<p><a href="/quests/lvl31-40/level%2039%20-%20Clearing%20the%20Camps.html" target="_blank" rel="noopener noreferrer">Clearing the Camps (level 39)<ExternalLinkIcon/></a></p>
-<p><a href="/quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html" target="_blank" rel="noopener noreferrer">Blazing Retribution (level 44)<ExternalLinkIcon/></a></p>
-<p><a href="/quests/lvl61-70/level%2061%20-%20Reclaiming%20the%20House.html" target="_blank" rel="noopener noreferrer">Reclaiming the House (level 61)<ExternalLinkIcon/></a></p>
+<p><RouterLink to="/quests/lvl31-40/level%2039%20-%20Clearing%20the%20Camps.html">Clearing the Camps (level 39)</RouterLink></p>
+<p><RouterLink to="/quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html">Blazing Retribution (level 44)</RouterLink></p>
+<p><RouterLink to="/quests/lvl61-70/level%2061%20-%20Reclaiming%20the%20House.html">Reclaiming the House (level 61)</RouterLink></p>
 <p>1.和<strong>Bucie</strong>大门前的<em>Captain Goruca</em><code v-pre>[-1392 43 -4701]</code>对话</p>
 <p>2.跟着<em>Captain Goruca</em>来到伤兵连<code v-pre>[-1421 43 -4688]</code></p>
 <p>3.前往兽人要塞<code v-pre>[-1310 59 -4866]</code></p>

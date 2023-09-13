@@ -1,7 +1,7 @@
 <template><div><h2 id="wynncraft中文任务攻略" tabindex="-1"><a class="header-anchor" href="#wynncraft中文任务攻略" aria-hidden="true">#</a> Wynncraft中文任务攻略</h2>
 <p>以下是一些介绍，你可以通过左侧导航栏快速查找任务</p>
 <ol>
-<li>在下方更新进度中没有提及的部分均为老攻略，存在过时/缺失，敬请留意。</li>
+<li>部分任务存在缺失，待更新。</li>
 <li>如果你发现某些任务的某些步骤有误，请向编者指出以便及时修改，谢谢</li>
 <li>注意NPC位置若无再次说明，则仍然为前面步骤中提到的位置</li>
 <li>本攻略重在流程，若想了解细节和剧情，请翻阅<a href="https://wynncraft.fandom.com/wiki/Quests" target="_blank" rel="noopener noreferrer">wiki<ExternalLinkIcon/></a></li>
@@ -29,13 +29,6 @@
 <p>虽然我相信愿意自己解密的玩家应该也不会打开这个攻略了</p>
 </blockquote>
 </div>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>目前所有任务内跳转链接、图片均失效，待修复</p>
-</div>
-<p>更新进度：</p>
-<p>2023/9/9：完成了截止50级以前的所有任务的更新</p>
-<p>2023/9/10：完成了51~60级的任务更新</p>
 </div></template>
 
 
