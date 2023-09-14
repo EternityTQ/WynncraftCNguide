@@ -6,5 +6,4 @@ icon: lightbulb
 
 敬请期待！
 
-如果想要投稿的话可以用以下链接！！！！！欢迎投稿！！！！
-https://send2me.cn/vjVqvU2j/T-2RMiGnl3K0fw
+如果想要投稿的话可以用[这个链接](https://send2me.cn/vjVqvU2j/T-2RMiGnl3K0fw)！！！！！欢迎投稿！！！！
