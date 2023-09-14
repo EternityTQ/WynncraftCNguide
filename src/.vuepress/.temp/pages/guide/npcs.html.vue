@@ -9,9 +9,9 @@
 <p>简单学会辨识NPC的标志能帮助你快速在城镇中找到他们！</p>
 </div>
 <h2 id="emerald-merchant" tabindex="-1"><a class="header-anchor" href="#emerald-merchant" aria-hidden="true">#</a> Emerald Merchant</h2>
-<p>这绝对是最重要的NPC。Emerald Merchant能帮助你交换绿宝石与绿宝石块，比例为<code v-pre>1绿宝石块=64绿宝石</code></p>
+<p>这绝对是最重要的NPC。Emerald Merchant能帮助你交换绿宝石(简称<code v-pre>e</code>)与绿宝石块(简称<code v-pre>eb</code>)，比例为<code v-pre>1eb=64e</code></p>
 <figure><img src="@source/.vuepress/public/assets/img/bank1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>同时在绿宝石块之上，你还可以和Liquid Merchant交换<code v-pre>Liquid Emerald</code>(俗称<code v-pre>LE</code>)，比例为<code v-pre>1LE=64绿宝石块</code></p>
+<p>同时在绿宝石块之上，你还可以和Liquid Merchant交换<code v-pre>Liquid Emerald</code>(俗称<code v-pre>LE</code>)，比例为<code v-pre>1LE=64eb</code></p>
 <p>Liquid Merchant只有部分城镇存在。至少Ragni城是没有的。</p>
 <p>为什么说Emerald Merchant是最重要的NPC呢？因为有Emerald Merchant的存在就必定有<code v-pre>Bank</code>(上图右侧的末影箱)，你肯定能在Emerald Merchant附近找到Bank</p>
 <p>银行能存储你的物品，并且还能随着战斗等级解锁购买更多页数的资格，总上限是21页</p>
@@ -33,12 +33,23 @@
 <p class="hint-container-title">提示</p>
 <p>Item Identifier的标志是末影之眼</p>
 </div>
-<h3 id="额外内容" tabindex="-1"><a class="header-anchor" href="#额外内容" aria-hidden="true">#</a> 额外内容</h3>
+<h3 id="提升鉴定值" tabindex="-1"><a class="header-anchor" href="#提升鉴定值" aria-hidden="true">#</a> 提升鉴定值</h3>
 <p>在鉴定时，如果你的背包内放有<code v-pre>Corkian Amplifier</code>(简称amp)，你可以在鉴定时右键确认键来应用amp</p>
 <p>使用amp会提高你的<strong>正面属性</strong>鉴定数值(尽管不是很明显，但是效果确实有)</p>
 <p>需要注意的是，如果你希望同时鉴定多个装备，你需要将你的amp分开来放在数个格子上，一个格子的amp对应一个装备，有多的装备则不会应用amp</p>
 <h2 id="powder-master" tabindex="-1"><a class="header-anchor" href="#powder-master" aria-hidden="true">#</a> Powder Master</h2>
-<p>关于粉末，你可以跳到这一章</p>
+<p>关于粉末的机制，你可以跳到<RouterLink to="/guide/powder.html">这一章</RouterLink></p>
+<h2 id="blacksmith" tabindex="-1"><a class="header-anchor" href="#blacksmith" aria-hidden="true">#</a> Blacksmith</h2>
+<p>铁匠一共有三种功能：</p>
+<ol>
+<li>出售装备：出售的平均价格为<code v-pre>41.1+4.6*(所有装备等级的总和)</code></li>
+<li>分解装备：将装备分解为scrap，scrap可用于修复物品</li>
+<li>修复物品：自制装备与采集工具均有耐久度，你可以用scrap来修复它们</li>
+</ol>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>scrap还可以从玩家市场上进行购买</p>
+</div>
 </div></template>
 
 

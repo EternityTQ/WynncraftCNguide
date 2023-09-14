@@ -12,11 +12,11 @@
 
 ## Emerald Merchant
 
-这绝对是最重要的NPC。Emerald Merchant能帮助你交换绿宝石与绿宝石块，比例为`1绿宝石块=64绿宝石`
+这绝对是最重要的NPC。Emerald Merchant能帮助你交换绿宝石(简称`e`)与绿宝石块(简称`eb`)，比例为`1eb=64e`
 
 ![](../.vuepress/public/assets/img/bank1.jpg)
 
-同时在绿宝石块之上，你还可以和Liquid Merchant交换`Liquid Emerald`(俗称`LE`)，比例为`1LE=64绿宝石块`
+同时在绿宝石块之上，你还可以和Liquid Merchant交换`Liquid Emerald`(俗称`LE`)，比例为`1LE=64eb`
 
 Liquid Merchant只有部分城镇存在。至少Ragni城是没有的。
 
@@ -52,7 +52,7 @@ Item Identifier的功能很简单：鉴定，和重新鉴定
 Item Identifier的标志是末影之眼
 :::
 
-### 额外内容
+### 提升鉴定值
 在鉴定时，如果你的背包内放有`Corkian Amplifier`(简称amp)，你可以在鉴定时右键确认键来应用amp
 
 使用amp会提高你的**正面属性**鉴定数值(尽管不是很明显，但是效果确实有)
@@ -61,8 +61,18 @@ Item Identifier的标志是末影之眼
 
 ## Powder Master
 
-关于粉末，你可以跳到这一章
+关于粉末的机制，你可以跳到[这一章](/WynncraftCNguide/guide/powder.html)
 
+## Blacksmith
 
+铁匠一共有三种功能：
+
+1. 出售装备：出售的平均价格为`41.1+4.6*(所有装备等级的总和)`
+2. 分解装备：将装备分解为scrap，scrap可用于修复物品
+3. 修复物品：自制装备与采集工具均有耐久度，你可以用scrap来修复它们
+   
+:::tip
+scrap还可以从玩家市场上进行购买
+:::
 
 
