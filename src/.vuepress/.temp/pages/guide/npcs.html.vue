@@ -1,8 +1,4 @@
 <template><div><h1 id="npc" tabindex="-1"><a class="header-anchor" href="#npc" aria-hidden="true">#</a> NPC</h1>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>这个页面正在施工中</p>
-</div>
 <p>在城镇中，你可以找到许多功能性NPC，他们会帮助你的旅途过的更顺利。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -16,7 +12,8 @@
 <p>有Emerald Merchant的存在就必定有<code v-pre>Bank</code>(上图右侧的末影箱)，你肯定能在Emerald Merchant附近找到Bank</p>
 <h3 id="银行" tabindex="-1"><a class="header-anchor" href="#银行" aria-hidden="true">#</a> 银行</h3>
 <p>银行能存储你的物品，并且还能随着战斗等级解锁购买更多页数的资格，总上限是21页</p>
-<p>但是需要注意的是，购买的价格会随着页数的增长越来越贵，后面可以想一下自己是不是真的需要额外的存储空间(因为实在是太贵了)</p>
+<p>银行账号共用，也就是说如果你创建了另一个角色，你仍然可以使用新角色在银行拿取上个角色存放的物品，反之一样。</p>
+<p>但是需要注意的是，购买的价格会随着页数的增长越来越贵，中后期可以想一下自己是不是真的需要额外的存储空间(因为实在是太贵了)</p>
 <p>存储空间是非常重要的资源。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -27,11 +24,12 @@
 </div>
 <h2 id="item-identifier" tabindex="-1"><a class="header-anchor" href="#item-identifier" aria-hidden="true">#</a> Item Identifier</h2>
 <p><s>知名绿宝石诈骗商</s></p>
-<p>算是第二重要的NPC，你所有未获得的unidentified物品(未鉴定的物品，简称unid)都需要在Item Identifier鉴定词条才可以装备/使用</p>
+<p>你所有获得的unidentified物品(未鉴定的物品，简称unid)都需要在Item Identifier鉴定词条才可以装备/使用</p>
 <p>关于鉴定词条，可以转到这一栏去看一眼</p>
 <p>Item Identifier的功能很简单：鉴定，和重新鉴定</p>
-<p>需要注意的是，重新鉴定并不是往前面的基础加属性，而是相当于<strong>重新再roll一次</strong>。</p>
-<p>每一次重新鉴定的费用是<strong>上一次的5倍</strong>，一般来说最多重新鉴定一次就可以了，请不要浪费过多绿宝石在赌博上。</p>
+<p>需要注意的是，重新鉴定并不是往上一次的基础加属性，而是相当于<strong>重新再roll一次</strong>。</p>
+<p>每一次重新鉴定的费用是<strong>上一次的5倍</strong>，一般来说最多重新鉴定一次就可以了，请不要浪费过多绿宝石在<s>赌博</s>重新鉴定上。</p>
+<p><s>鲁迅云：不赌博玩什么wynncraft</s></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>Item Identifier的标志是末影之眼+紫色地毯<br>
@@ -96,7 +94,7 @@
 <img src="/assets/img/scroll.jpg" alt="" loading="lazy"></p>
 </div>
 <h3 id="dungeon-scroll-merchants" tabindex="-1"><a class="header-anchor" href="#dungeon-scroll-merchants" aria-hidden="true">#</a> Dungeon Scroll Merchants</h3>
-<p>Scroll Merchant的一个变体，Dungeon Scroll Merchants一定会存在于副本入口的区域。</p>
+<p>Scroll Merchant的一个变体，Dungeon Scroll Merchants一定会存在于副本入口的区域，同时部分城镇也会有</p>
 <p>玩家可以消耗2个副本碎片来兑换1个Dungeon Scroll，作用是快速传送到副本门口且<strong>不消耗灵魂点</strong></p>
 <p>在The forgery兑换的副本卷轴则是传送到The forgery</p>
 <h2 id="weapon-merchant-armour-merchant" tabindex="-1"><a class="header-anchor" href="#weapon-merchant-armour-merchant" aria-hidden="true">#</a> Weapon Merchant / Armour Merchant</h2>
@@ -108,6 +106,11 @@
 <p>Weapon Merchant的标志是铁剑</p>
 <p>Armour Merchant的标志是铁胸甲</p>
 </div>
+<h2 id="tool-merchant" tabindex="-1"><a class="header-anchor" href="#tool-merchant" aria-hidden="true">#</a> Tool Merchant</h2>
+<p>这个NPC并不在城里边，但是也算有1点重要，所以也放进来了</p>
+<p>你可以在部分地方找到Tool Merchant，他们会出售1~2级的采集工具。</p>
+<p>注意Tool Merchant没有任何标志<br>
+<img src="/assets/img/toolmerchant1.jpg" alt="" loading="lazy"></p>
 </div></template>
 
 
