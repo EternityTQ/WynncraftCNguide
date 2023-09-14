@@ -6,7 +6,6 @@ export default sidebar({
       text: "目录",
       icon: "laptop-code",
       prefix: "",
-      link: "./",
       children: [
         {
           text: "level 1~10",
@@ -88,4 +87,13 @@ export default sidebar({
       ],
     },
   ],
+  "/guide/": [
+    {
+      text: "目录",
+      icon: "laptop-code",
+      prefix: "",
+      link: "./",
+      children: "structure",
+    },
+],
 });
