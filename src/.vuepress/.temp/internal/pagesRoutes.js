@@ -8,7 +8,6 @@ export const pagesRoutes = [
   ["v-28bebabf","/guide/identification.html",{"y":"a","t":""},[":md"]],
   ["v-2e1b3ac2","/guide/lootrun.html",{"y":"a","t":""},[":md"]],
   ["v-0a9bdefb","/guide/npcs.html",{"y":"a","t":"NPC"},[":md"]],
-  ["v-1b1c9558","/guide/powder.html",{"y":"a","t":""},[":md"]],
   ["v-52a6221e","/guide/profession.html",{"y":"a","t":""},[":md"]],
   ["v-3df8bb46","/guide/qa.html",{"y":"a","t":""},[":md"]],
   ["v-1c3f3e4c","/guide/questbook.html",{"y":"a","t":""},[":md"]],
@@ -16,7 +15,6 @@ export const pagesRoutes = [
   ["v-fffb8e28","/guide/",{"y":"a","t":"游戏指南","i":"lightbulb"},["/guide/README.md"]],
   ["v-0c3f2ec5","/guide/secretdiscovery.html",{"y":"a","t":""},[":md"]],
   ["v-07f00fee","/guide/skillpoint.html",{"y":"a","t":""},[":md"]],
-  ["v-ae351930","/guide/soulpoint.html",{"y":"a","t":"Soul Point"},[":md"]],
   ["v-5ada49b6","/guide/trademarket.html",{"y":"a","t":""},[":md"]],
   ["v-dddc2d36","/quests/",{"y":"a","t":"任务攻略","i":"book"},["/quests/README.md"]],
   ["v-2850e43d","/quests/lvl1-10/level%201%20-%20King's%20Recruit.html",{"y":"a","t":"King's Recruit (level 1)"},["/quests/lvl1-10/level 1 - King's Recruit.html","/quests/lvl1-10/level 1 - King's Recruit.md",":md"]],
@@ -134,4 +132,6 @@ export const pagesRoutes = [
   ["v-6800f8e1","/quests/lvl51-60/",{"y":"p","t":"Lvl51 60"},[]],
   ["v-69b5d541","/quests/lvl61-70/",{"y":"p","t":"Lvl61 70"},[]],
   ["v-6b6ab1a1","/quests/lvl71-80/",{"y":"p","t":"Lvl71 80"},[]],
+  ["v-590551bf","/guide/basesystem/soulpoint.html",{"y":"a","t":"Soul Point"},[":md"]],
+  ["v-2a434e5d","/guide/basesystem/powder.html",{"y":"a","t":""},[":md"]],
 ]
