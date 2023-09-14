@@ -92,7 +92,6 @@ export default sidebar({
       text: "目录",
       icon: "laptop-code",
       prefix: "",
-      link: "./",
       children: "structure",
     },
 ],
