@@ -1,4 +1,8 @@
 <template><div><h1 id="npc" tabindex="-1"><a class="header-anchor" href="#npc" aria-hidden="true">#</a> NPC</h1>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>这个页面正在施工中</p>
+</div>
 <p>在城镇中，你可以找到许多功能性NPC，他们会帮助你的旅途过的更顺利。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
