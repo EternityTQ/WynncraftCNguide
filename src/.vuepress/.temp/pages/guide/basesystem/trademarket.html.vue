@@ -1,8 +1,4 @@
-<template><div><div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>本页面待施工！</p>
-</div>
-<p>本来应该放在城镇NPC，但是其实交易市场功能还挺多的，所以单独拎出来说了。</p>
+<template><div><p>本来应该放在城镇NPC，但是其实交易市场功能还挺多的，所以单独拎出来说了。</p>
 <p>游戏中在部分大城市会有Trade Market的存在<br>
 <img src="/assets/img/TM1.jpg" alt="" loading="lazy"></p>
 <p>跟其对话就可以打开交易市场的界面了</p>
@@ -14,9 +10,7 @@
 <p>可以用于筛选主界面的物品等级</p>
 <p>左键来更改等级区间，选定后使用右键来设为默认</p>
 <p>设为默认后每次打开都会是这个设置</p>
-<ul>
-<li>揭露装备(书与笔)</li>
-</ul>
+<h2 id="揭露装备-书与笔" tabindex="-1"><a class="header-anchor" href="#揭露装备-书与笔" aria-hidden="true">#</a> 揭露装备(书与笔)</h2>
 <p><s>伟大的揭幕表演！出来吧！Dawnbreak！</s></p>
 <p>可以用于将未鉴定的盒子揭露成对应的未鉴定装备</p>
 <p>即得知这个盒子装的是什么物品</p>
@@ -24,13 +18,29 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>揭露费用并不算在鉴定费用内</p>
+<p>揭露后不能折扣鉴定费用！</p>
 </div>
 <h2 id="搜索物品-指南针" tabindex="-1"><a class="header-anchor" href="#搜索物品-指南针" aria-hidden="true">#</a> 搜索物品(指南针)</h2>
 <p>点击后即可打开搜索物品界面<br>
 <img src="/assets/img/TM5.jpg" alt="" loading="lazy"></p>
 <p>要说的只有第一个是搜索物品名称，没了！</p>
 <p>在搜索物品名称之后是一系列筛选条件，包括物品等级、品质、种类等等</p>
+<p>这里就不细讲了，建议最好自己去探索一下搜索条件</p>
 <p>学会搜索能让你更快购买到想要的物品！</p>
+<p>在搜索后，在右下方同样有一个排序器：<br>
+<img src="/assets/img/TM6.jpg" alt="" loading="lazy"></p>
+<p>鼠标移上去后就可以看到排序种类了<br>
+<img src="/assets/img/TM7.jpg" alt="" loading="lazy"></p>
+<p>从上到下分别是：</p>
+<ul>
+<li>最近上架</li>
+<li>最早上架</li>
+<li>价格降序</li>
+<li>价格升序</li>
+<li>等级降序</li>
+<li>等级升序</li>
+</ul>
+<p>用鼠标左键点击该按钮就是下一种排序方法，鼠标右键点击则是上一种排序方法。</p>
 <h2 id="出售物品-绿色加号" tabindex="-1"><a class="header-anchor" href="#出售物品-绿色加号" aria-hidden="true">#</a> 出售物品(绿色加号)</h2>
 <blockquote>
 <p>如果你不知道这个小标题是咋回事，可以连着上面的内容一起往下看看？</p>
@@ -42,7 +52,7 @@
 <p>若想取消可以输入&quot;cancel&quot;来取消输入。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>不要搞混这数量和价格了！</p>
+<p>不要搞混数量和价格了！</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -61,7 +71,26 @@
 <p>对于下方的Trade Shares，对你来说应该不是特别重要的内容。</p>
 <p>如果你实在在意，可以跳到这一章去了解一下</p>
 </div>
-<h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a> </h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>标有untradable和quest的物品无法出售。</p>
+</div>
+<h2 id="管理交易-绿宝石" tabindex="-1"><a class="header-anchor" href="#管理交易-绿宝石" aria-hidden="true">#</a> 管理交易(绿宝石)</h2>
+<figure><img src="/assets/img/TM8.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>这个界面可以查看你在这个市场上出售的物品，并且进行管理。</p>
+<p>功能很简单，点击已上架的物品再点击红X就可以将其撤回</p>
+<figure><img src="/assets/img/TM9.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>对于空置槽位，左键为出售物品(和上文中出售物品一致)</p>
+<p>右键为求购物品</p>
+<p>求购方法与上面提到的出售方法相似，不过不同的是，设置价格时设置的是我想要购入的这个物品的最高价格（就是我买这个东西能接受的最高的价格）</p>
+<p>小于等于我所设置的价格的物品都会按我设置的数量被我购入，剩余的钱则会返还给我，其他的在这里也不过多赘述。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在求购时，如果我们设置的是已鉴定物品的求购</p>
+<p>此时若有符合所设置的条件（价格低于我设置的求购价格）的物品</p>
+<p>它只会购入与求购一模一样的物品，即鉴定度完全一致</p>
+<p>所以如果我挂了一个已鉴定的物品求购，它就只会购入整个游戏中仅有的与求购相同的那一个物品。</p>
+</div>
 </div></template>
 
 

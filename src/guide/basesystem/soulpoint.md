@@ -9,6 +9,7 @@ icon: ghost
 
 灵魂点数相当于你的危险等级。
 
+## 灵魂点数的获得与丢失
 每次死亡时，会降低2点灵魂点数；使用城镇传送卷轴时，会降低1点灵魂点数；创建/离开公会将会降低3点灵魂点数。
 
 注意灵魂点数分存档，不公用。
@@ -31,7 +32,7 @@ icon: ghost
 
 你可以查看灵魂点数的情况来查看当前的掉率
 
-对于Soul Point Regen词条，可以看这一章
+对于Soul Point Regen词条，可以看[这一章](/WynncraftCNguide/guide/identification.html#soul-point-regen)
 
 :::warning
 非常不建议在当前灵魂点数低于一半的情况下继续游戏！
