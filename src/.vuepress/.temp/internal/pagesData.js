@@ -21,20 +21,28 @@ export const pagesData = {
   "v-52a6221e": () => import(/* webpackChunkName: "v-52a6221e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/profession.html.js").then(({ data }) => data),
   // path: /guide/qa.html
   "v-3df8bb46": () => import(/* webpackChunkName: "v-3df8bb46" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/qa.html.js").then(({ data }) => data),
-  // path: /guide/questbook.html
-  "v-1c3f3e4c": () => import(/* webpackChunkName: "v-1c3f3e4c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/questbook.html.js").then(({ data }) => data),
   // path: /guide/raid.html
   "v-6948ac23": () => import(/* webpackChunkName: "v-6948ac23" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid.html.js").then(({ data }) => data),
   // path: /guide/
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
-  // path: /guide/secretdiscovery.html
-  "v-0c3f2ec5": () => import(/* webpackChunkName: "v-0c3f2ec5" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/secretdiscovery.html.js").then(({ data }) => data),
   // path: /guide/skillpoint.html
   "v-07f00fee": () => import(/* webpackChunkName: "v-07f00fee" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/skillpoint.html.js").then(({ data }) => data),
-  // path: /guide/trademarket.html
-  "v-5ada49b6": () => import(/* webpackChunkName: "v-5ada49b6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/trademarket.html.js").then(({ data }) => data),
   // path: /quests/
   "v-dddc2d36": () => import(/* webpackChunkName: "v-dddc2d36" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/index.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/powder.html
+  "v-2a434e5d": () => import(/* webpackChunkName: "v-2a434e5d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/powder.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/questbook.html
+  "v-bbff819e": () => import(/* webpackChunkName: "v-bbff819e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/questbook.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/
+  "v-7d15eb83": () => import(/* webpackChunkName: "v-7d15eb83" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/index.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/secretdiscovery.html
+  "v-ea82a048": () => import(/* webpackChunkName: "v-ea82a048" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/secretdiscovery.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/soulpoint.html
+  "v-590551bf": () => import(/* webpackChunkName: "v-590551bf" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/soulpoint.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/trademarket.html
+  "v-0b970088": () => import(/* webpackChunkName: "v-0b970088" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/trademarket.html.js").then(({ data }) => data),
+  // path: /guide/developmentroute/
+  "v-6c4c5895": () => import(/* webpackChunkName: "v-6c4c5895" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/developmentroute/index.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/level%201%20-%20King's%20Recruit.html
   "v-2850e43d": () => import(/* webpackChunkName: "v-2850e43d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/level 1 - King's Recruit.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/level%2010%20-%20Maltic's%20Well.html
@@ -265,8 +273,4 @@ export const pagesData = {
   "v-69b5d541": () => import(/* webpackChunkName: "v-69b5d541" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl61-70/index.html.js").then(({ data }) => data),
   // path: /quests/lvl71-80/
   "v-6b6ab1a1": () => import(/* webpackChunkName: "v-6b6ab1a1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/index.html.js").then(({ data }) => data),
-  // path: /guide/basesystem/soulpoint.html
-  "v-590551bf": () => import(/* webpackChunkName: "v-590551bf" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/soulpoint.html.js").then(({ data }) => data),
-  // path: /guide/basesystem/powder.html
-  "v-2a434e5d": () => import(/* webpackChunkName: "v-2a434e5d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/powder.html.js").then(({ data }) => data),
 }

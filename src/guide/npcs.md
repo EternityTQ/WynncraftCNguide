@@ -1,4 +1,7 @@
-# NPC
+---
+title: NPCs
+icon: user-large
+---
 
 在城镇中，你可以找到许多功能性NPC，他们会帮助你的旅途过的更顺利。
 

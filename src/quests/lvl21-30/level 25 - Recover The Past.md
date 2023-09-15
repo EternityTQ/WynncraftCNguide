@@ -1,7 +1,15 @@
+---
+icon: exclamation
+---
+
 # Recover The Past (level 25)
 **追忆往昔**
 
 ~~Back to Fruma~~
+
+:::tip 重要任务
+解锁能力树洗点
+:::
 
 1.和*Dr. Picard* `[103 90 -1200]` 对话
 

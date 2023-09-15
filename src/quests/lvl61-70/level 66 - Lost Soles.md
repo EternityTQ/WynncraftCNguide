@@ -1,7 +1,8 @@
+
 # Lost Soles(level 66)
 **遗失的鞋底**
 
-前置：[Beneath the Depths](/quests/lvl51-60/level%2060%20-%20Beneath%20the%20Depths.html)
+前置：[Beneath the Depths](/WynncraftCNguide/quests/lvl51-60/level%2060%20-%20Beneath%20the%20Depths.html)
 
 1 通过`[-791 84 -657]`的通道进入Dernel Jungle，把Abysso Galoshes(Beneath the Depths任务奖励)给Ferndor`[-915 33 -750]`(本任务有很多解谜内容，有兴趣的可以不看攻略)
 
@@ -18,7 +19,7 @@
 7.来到`[-930 31 -795]`的地方，要从房子外面走。我选择直接从顶楼跳出去。解开密码门{密码：6218}.进去，通过迷宫，打死boss，原路返回带回掉落物给Ferndor[-915 33  -750]。
 
 迷宫地图如下：
-![](../../.vuepress/public/assets/img/lvl66-1.jpg)
+![](assets/img/lvl66-1.jpg)
 
 奖励
 + 352000 经验

@@ -1,3 +1,8 @@
+---
+icon: triangle-exclamation
+---
+
+
 # Tower of Ascension (level 40-75)
 **通天塔**
 

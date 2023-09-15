@@ -1,6 +1,10 @@
 <template><div><h1 id="recover-the-past-level-25" tabindex="-1"><a class="header-anchor" href="#recover-the-past-level-25" aria-hidden="true">#</a> Recover The Past (level 25)</h1>
 <p><strong>追忆往昔</strong></p>
 <p><s>Back to Fruma</s></p>
+<div class="hint-container tip">
+<p class="hint-container-title">重要任务</p>
+<p>解锁能力树洗点</p>
+</div>
 <p>1.和<em>Dr. Picard</em> <code v-pre>[103 90 -1200]</code> 对话</p>
 <p>2.和<em>sailor Caid</em><code v-pre>[-45 65 -1217]</code>对话</p>
 <p>3.跟<em>Alchemist</em> <code v-pre>[22 75 -1166]</code> 对话，在<code v-pre>[-9 72 -1229]</code>的房子后院找到Bloom of Doom，回去交给<em>Alchemist</em></p>

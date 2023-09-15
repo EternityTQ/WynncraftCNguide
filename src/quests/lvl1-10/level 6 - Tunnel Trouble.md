@@ -1,5 +1,13 @@
+---
+icon: route
+---
+
 # Tunnel Trouble ( level 6 )
 **棘手的隧道**
+
+:::tip 重要任务
+解锁快速旅行
+:::
 
 1.和**Detlas**西大门的*Captain Fenor*`[379 67 -1569]`交谈，进入旁边的隧道
 

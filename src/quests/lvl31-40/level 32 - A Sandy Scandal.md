@@ -1,3 +1,6 @@
+---
+icon: exclamation
+---
 # A Sandy Scandal (level 32)
 **沙城劫案**
 

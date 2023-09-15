@@ -1,5 +1,9 @@
 <template><div><h1 id="the-dark-descent-level-21" tabindex="-1"><a class="header-anchor" href="#the-dark-descent-level-21" aria-hidden="true">#</a> The Dark Descent (level 21)</h1>
 <p><strong>黑暗后裔</strong></p>
+<div class="hint-container tip">
+<p class="hint-container-title">重要任务</p>
+<p>解锁Underworld Crypt副本</p>
+</div>
 <p>1.与<em>General Graken</em><code v-pre>[227 45 -1958]</code>对话</p>
 <p>2.探索位于<code v-pre>[226 49 -1910]</code>的房子，找到第二颗宝石</p>
 <p>3.探索奇怪的领域</p>

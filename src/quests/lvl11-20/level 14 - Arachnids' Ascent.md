@@ -1,3 +1,7 @@
+---
+icon: skull
+---
+
 # Arachnids' Ascent ( level 14 )
 **熔丝**
 

@@ -1,3 +1,7 @@
+---
+icon: skull
+---
+
 # Kingdom of Sand (level 33)
 **沙海国度**
 :::tip 重要任务

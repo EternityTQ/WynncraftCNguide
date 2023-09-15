@@ -1,3 +1,7 @@
+---
+icon: bookmark
+---
+
 # WynnExcavation Site A (level 36)
 **Wynn考古集团   地点A**
 

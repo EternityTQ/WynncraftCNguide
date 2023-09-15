@@ -1,5 +1,4 @@
-<template><div><h1 id="soul-point" tabindex="-1"><a class="header-anchor" href="#soul-point" aria-hidden="true">#</a> Soul Point</h1>
-<p>你应该也已经注意到了，你的物品栏第九格存放着这么一个东西</p>
+<template><div><p>你应该也已经注意到了，你的物品栏第九格存放着这么一个东西</p>
 <figure><img src="/assets/img/soulpoint1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>灵魂点数相当于你的危险等级。</p>
 <p>每次死亡时，会降低2点灵魂点数；使用城镇传送卷轴时，会降低1点灵魂点数；创建/离开公会将会降低3点灵魂点数。</p>
