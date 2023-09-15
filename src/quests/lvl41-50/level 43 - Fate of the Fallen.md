@@ -1,5 +1,13 @@
+---
+icon: skull
+---
+
 # Fate of the Fallen (level 43)
 **衰落的注定**
+
+:::tip 重要任务
+解锁Ice Barrows副本
+:::
 
 1.和*Telvu*`[165, 74, -675]`对话
 

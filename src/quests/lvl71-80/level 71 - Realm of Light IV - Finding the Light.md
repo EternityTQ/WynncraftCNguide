@@ -1,3 +1,8 @@
+---
+icon: bookmark
+---
+
+
 # Realm of Light IV - Finding the Light (level 71)
 **光之领域IV - 寻找光明**
 

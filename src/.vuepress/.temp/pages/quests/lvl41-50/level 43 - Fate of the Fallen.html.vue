@@ -1,5 +1,9 @@
 <template><div><h1 id="fate-of-the-fallen-level-43" tabindex="-1"><a class="header-anchor" href="#fate-of-the-fallen-level-43" aria-hidden="true">#</a> Fate of the Fallen (level 43)</h1>
 <p><strong>衰落的注定</strong></p>
+<div class="hint-container tip">
+<p class="hint-container-title">重要任务</p>
+<p>解锁Ice Barrows副本</p>
+</div>
 <p>1.和<em>Telvu</em><code v-pre>[165, 74, -675]</code>对话</p>
 <p>2.在<strong>Nesaak</strong>的银行内拿到<em>Theorick</em>的权杖</p>
 <blockquote>

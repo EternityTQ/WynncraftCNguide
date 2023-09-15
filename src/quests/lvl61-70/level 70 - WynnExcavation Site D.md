@@ -1,3 +1,8 @@
+---
+icon: bookmark
+---
+
+
 # WynnExcavation Site D(level 70)
 **Wynn考古集团 地点D**
 

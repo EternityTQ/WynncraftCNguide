@@ -1,3 +1,7 @@
+---
+icon: bookmark
+---
+
 # WynnExcavation Site B (level 46)
 **Wynn考古集团 地点B**
 

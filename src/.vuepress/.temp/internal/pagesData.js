@@ -7,6 +7,8 @@ export const pagesData = {
   "v-4180a5c8": () => import(/* webpackChunkName: "v-4180a5c8" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/beforegame.html.js").then(({ data }) => data),
   // path: /guide/class.html
   "v-1b6bc44d": () => import(/* webpackChunkName: "v-1b6bc44d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/class.html.js").then(({ data }) => data),
+  // path: /guide/developmentroute.html
+  "v-46b6f63f": () => import(/* webpackChunkName: "v-46b6f63f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/developmentroute.html.js").then(({ data }) => data),
   // path: /guide/dungeon.html
   "v-6e52814b": () => import(/* webpackChunkName: "v-6e52814b" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/dungeon.html.js").then(({ data }) => data),
   // path: /guide/earnle.html
@@ -27,22 +29,26 @@ export const pagesData = {
   "v-fffb8e28": () => import(/* webpackChunkName: "v-fffb8e28" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/index.html.js").then(({ data }) => data),
   // path: /guide/skillpoint.html
   "v-07f00fee": () => import(/* webpackChunkName: "v-07f00fee" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/skillpoint.html.js").then(({ data }) => data),
+  // path: /guide/VIP.html
+  "v-e82d1030": () => import(/* webpackChunkName: "v-e82d1030" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/VIP.html.js").then(({ data }) => data),
   // path: /quests/
   "v-dddc2d36": () => import(/* webpackChunkName: "v-dddc2d36" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/index.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/guild.html
+  "v-a2bdaeee": () => import(/* webpackChunkName: "v-a2bdaeee" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/guild.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/itemlevel.html
+  "v-0993416b": () => import(/* webpackChunkName: "v-0993416b" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/itemlevel.html.js").then(({ data }) => data),
   // path: /guide/basesystem/powder.html
   "v-2a434e5d": () => import(/* webpackChunkName: "v-2a434e5d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/powder.html.js").then(({ data }) => data),
   // path: /guide/basesystem/questbook.html
   "v-bbff819e": () => import(/* webpackChunkName: "v-bbff819e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/questbook.html.js").then(({ data }) => data),
-  // path: /guide/basesystem/
-  "v-7d15eb83": () => import(/* webpackChunkName: "v-7d15eb83" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/index.html.js").then(({ data }) => data),
   // path: /guide/basesystem/secretdiscovery.html
   "v-ea82a048": () => import(/* webpackChunkName: "v-ea82a048" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/secretdiscovery.html.js").then(({ data }) => data),
   // path: /guide/basesystem/soulpoint.html
   "v-590551bf": () => import(/* webpackChunkName: "v-590551bf" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/soulpoint.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/tome.html
+  "v-45b60b43": () => import(/* webpackChunkName: "v-45b60b43" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/tome.html.js").then(({ data }) => data),
   // path: /guide/basesystem/trademarket.html
   "v-0b970088": () => import(/* webpackChunkName: "v-0b970088" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/trademarket.html.js").then(({ data }) => data),
-  // path: /guide/developmentroute/
-  "v-6c4c5895": () => import(/* webpackChunkName: "v-6c4c5895" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/developmentroute/index.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/level%201%20-%20King's%20Recruit.html
   "v-2850e43d": () => import(/* webpackChunkName: "v-2850e43d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/level 1 - King's Recruit.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/level%2010%20-%20Maltic's%20Well.html
@@ -79,28 +85,6 @@ export const pagesData = {
   "v-5e4e20ae": () => import(/* webpackChunkName: "v-5e4e20ae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl11-20/level 20 - Grave Digger.html.js").then(({ data }) => data),
   // path: /quests/lvl11-20/level%2020%20-%20Pit%20of%20the%20Dead.html
   "v-577b349a": () => import(/* webpackChunkName: "v-577b349a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl11-20/level 20 - Pit of the Dead.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html
-  "v-20817320": () => import(/* webpackChunkName: "v-20817320" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 21 - The Dark Descent.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2022%20-%20Dwelling%20Walls.html
-  "v-d05c5a6c": () => import(/* webpackChunkName: "v-d05c5a6c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 22 - Dwelling Walls.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html
-  "v-6d8bc28c": () => import(/* webpackChunkName: "v-6d8bc28c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 23 - Cluck Cluck.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2024%20-%20Lost%20Tower.html
-  "v-5e346410": () => import(/* webpackChunkName: "v-5e346410" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 24 - Lost Tower.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html
-  "v-94deaf0a": () => import(/* webpackChunkName: "v-94deaf0a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 25 - Creeper Infiltration.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html
-  "v-4ff48300": () => import(/* webpackChunkName: "v-4ff48300" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 25 - Recover The Past.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2025%20-%20Tempo%20Town%20Trouble.html
-  "v-ad266bd6": () => import(/* webpackChunkName: "v-ad266bd6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 25 - Tempo Town Trouble.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2027%20-%20D%C3%A9j%C3%A0%20vu.html
-  "v-08f9baf0": () => import(/* webpackChunkName: "v-08f9baf0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 27 - Déjà vu.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html
-  "v-900a9e6e": () => import(/* webpackChunkName: "v-900a9e6e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 28 - Misadventure on the Sea.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2028%20-%20The%20Corrupted%20Village.html
-  "v-4091e7ae": () => import(/* webpackChunkName: "v-4091e7ae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 28 - The Corrupted Village.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/level%2030%20-%20The%20Mercenary.html
-  "v-1f3c5211": () => import(/* webpackChunkName: "v-1f3c5211" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 30 - The Mercenary.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2031%20-%20Green%20Gloop.html
   "v-a67883ee": () => import(/* webpackChunkName: "v-a67883ee" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 31 - Green Gloop.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2032%20-%20A%20Sandy%20Scandal.html
@@ -125,6 +109,28 @@ export const pagesData = {
   "v-3082357c": () => import(/* webpackChunkName: "v-3082357c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 40 - Ice Nations.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2040%20-%20Tower%20of%20Ascension.html
   "v-21dc5d7f": () => import(/* webpackChunkName: "v-21dc5d7f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 40 - Tower of Ascension.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html
+  "v-20817320": () => import(/* webpackChunkName: "v-20817320" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 21 - The Dark Descent.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2022%20-%20Dwelling%20Walls.html
+  "v-d05c5a6c": () => import(/* webpackChunkName: "v-d05c5a6c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 22 - Dwelling Walls.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html
+  "v-6d8bc28c": () => import(/* webpackChunkName: "v-6d8bc28c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 23 - Cluck Cluck.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2024%20-%20Lost%20Tower.html
+  "v-5e346410": () => import(/* webpackChunkName: "v-5e346410" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 24 - Lost Tower.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html
+  "v-94deaf0a": () => import(/* webpackChunkName: "v-94deaf0a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 25 - Creeper Infiltration.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html
+  "v-4ff48300": () => import(/* webpackChunkName: "v-4ff48300" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 25 - Recover The Past.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2025%20-%20Tempo%20Town%20Trouble.html
+  "v-ad266bd6": () => import(/* webpackChunkName: "v-ad266bd6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 25 - Tempo Town Trouble.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2027%20-%20D%C3%A9j%C3%A0%20vu.html
+  "v-08f9baf0": () => import(/* webpackChunkName: "v-08f9baf0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 27 - Déjà vu.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html
+  "v-900a9e6e": () => import(/* webpackChunkName: "v-900a9e6e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 28 - Misadventure on the Sea.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2028%20-%20The%20Corrupted%20Village.html
+  "v-4091e7ae": () => import(/* webpackChunkName: "v-4091e7ae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 28 - The Corrupted Village.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/level%2030%20-%20The%20Mercenary.html
+  "v-1f3c5211": () => import(/* webpackChunkName: "v-1f3c5211" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 30 - The Mercenary.html.js").then(({ data }) => data),
   // path: /quests/lvl41-50/level%2041%20-%20Heart%20of%20Llevigar.html
   "v-2df2ed86": () => import(/* webpackChunkName: "v-2df2ed86" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 41 - Heart of Llevigar.html.js").then(({ data }) => data),
   // path: /quests/lvl41-50/level%2042%20-%20Star%20Thief.html
@@ -257,14 +263,16 @@ export const pagesData = {
   "v-6be59e40": () => import(/* webpackChunkName: "v-6be59e40" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/level 80 - Z？？？.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/
+  "v-7d15eb83": () => import(/* webpackChunkName: "v-7d15eb83" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/index.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/
   "v-af6bf052": () => import(/* webpackChunkName: "v-af6bf052" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/index.html.js").then(({ data }) => data),
   // path: /quests/lvl11-20/
   "v-612d8761": () => import(/* webpackChunkName: "v-612d8761" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl11-20/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/
-  "v-62e263c1": () => import(/* webpackChunkName: "v-62e263c1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/index.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/
   "v-64974021": () => import(/* webpackChunkName: "v-64974021" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/
+  "v-62e263c1": () => import(/* webpackChunkName: "v-62e263c1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/index.html.js").then(({ data }) => data),
   // path: /quests/lvl41-50/
   "v-664c1c81": () => import(/* webpackChunkName: "v-664c1c81" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/index.html.js").then(({ data }) => data),
   // path: /quests/lvl51-60/

@@ -1,5 +1,9 @@
 <template><div><h1 id="redbeard-s-booty-level-61" tabindex="-1"><a class="header-anchor" href="#redbeard-s-booty-level-61" aria-hidden="true">#</a> Redbeard's Booty (level 61)</h1>
 <p><strong>红胡子的宝藏</strong></p>
+<div class="hint-container tip">
+<p class="hint-container-title">重要任务</p>
+<p>解锁Galleon’s Graveyard副本</p>
+</div>
 <p>1 跟<em>Marston</em>在<code v-pre>[-608 40 -3546]</code>谈话</p>
 <blockquote>
 <p>(在<strong>Galleon's Graveyard</strong>，海盗湾和Selchar可以坐船去)</p>

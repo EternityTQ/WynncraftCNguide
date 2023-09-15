@@ -92,7 +92,13 @@ export default sidebar({
       text: "目录",
       icon: "laptop-code",
       prefix: "",
-      children: "structure",
+      children: [{
+        text: "基础系统",
+        prefix: "basesystem/",
+        icon: "scroll",
+        collapsible: true,
+        children:"structure",
+      },"beforegame","class","developmentroute","npcs","skillpoint","identification","dungeon","profession","lootrun","raid","earnle","VIP","qa"],
     },
 ],
 });

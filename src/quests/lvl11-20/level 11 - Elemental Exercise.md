@@ -1,7 +1,7 @@
 # Elemental Exercise ( level 11)
 **元素相克**
 
-任务前置：[Mushroom Man](/quests/lvl1-10.html#mushroom-man-level-6)
+任务前置：[Mushroom Man](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
 
 1.与*Captain Ragon*`[518 67 -1631]`对话，跟着他前往训练场`[531 52 -1671]`
 

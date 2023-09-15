@@ -1,3 +1,7 @@
+---
+icon: route
+---
+
 # The Order of the Grook (level 59)
 **魔法学院**
 

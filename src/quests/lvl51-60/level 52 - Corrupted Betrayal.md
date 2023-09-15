@@ -1,3 +1,7 @@
+---
+icon: skull
+---
+
 # Corrupted Betrayal (level 52)
 **恶堕的复仇**
 

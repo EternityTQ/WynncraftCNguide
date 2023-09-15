@@ -1,6 +1,12 @@
+---
+icon: skull
+---
+
 # Redbeard's Booty (level 61)
 **红胡子的宝藏**
-
+:::tip 重要任务
+解锁Galleon’s Graveyard副本
+:::
 1 跟*Marston*在`[-608 40 -3546]`谈话
 >(在**Galleon's Graveyard**，海盗湾和Selchar可以坐船去)
 

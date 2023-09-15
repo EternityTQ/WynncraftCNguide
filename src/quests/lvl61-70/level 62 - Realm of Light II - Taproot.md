@@ -1,3 +1,8 @@
+---
+icon: bookmark
+---
+
+
 # Realm of Light II - Taproot (level 62)
 
 **光之领域 Part II - 主根**  

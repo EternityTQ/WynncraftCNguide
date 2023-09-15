@@ -1,3 +1,7 @@
+---
+icon: exclamation
+---
+
 # Stable Story (level 13)
 **马棚那点事**
 :::tip 重要任务

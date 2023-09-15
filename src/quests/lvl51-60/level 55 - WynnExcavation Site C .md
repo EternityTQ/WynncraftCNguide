@@ -1,3 +1,8 @@
+---
+icon: bookmark
+---
+
+
 # WynnExcavation Site C (level 55)
 **Wynn考古集团 地点C**
 
