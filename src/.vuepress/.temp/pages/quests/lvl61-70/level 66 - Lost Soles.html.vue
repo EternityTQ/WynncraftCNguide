@@ -9,7 +9,7 @@
 <p>6.按下<code v-pre>[-912 31 -773]</code>的按钮，从<code v-pre>[-891 39 -755]</code>的地方上2楼。不要原路返回，小心被卡。有地方可以上顶楼，房间里四处看看也好，有很多细节。</p>
 <p>7.来到<code v-pre>[-930 31 -795]</code>的地方，要从房子外面走。我选择直接从顶楼跳出去。解开密码门{密码：6218}.进去，通过迷宫，打死boss，原路返回带回掉落物给Ferndor[-915 33  -750]。</p>
 <p>迷宫地图如下：<br>
-<img src="@source/quests/lvl61-70/assets/img/lvl66-1.jpg" alt="" loading="lazy"></p>
+<img src="/assets/img/lvl66-1.jpg" alt="" loading="lazy"></p>
 <p>奖励</p>
 <ul>
 <li>352000 经验</li>
