@@ -1,3 +1,67 @@
-<template><div></div></template>
+<template><div><div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>本页面待施工！</p>
+</div>
+<p>本来应该放在城镇NPC，但是其实交易市场功能还挺多的，所以单独拎出来说了。</p>
+<p>游戏中在部分大城市会有Trade Market的存在<br>
+<img src="/assets/img/TM1.jpg" alt="" loading="lazy"></p>
+<p>跟其对话就可以打开交易市场的界面了</p>
+<figure><img src="/assets/img/TM2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>首先来从上到下介绍一下右侧的按钮</p>
+<ul>
+<li>筛选器(黄色环形箭头)</li>
+</ul>
+<p>可以用于筛选主界面的物品等级</p>
+<p>左键来更改等级区间，选定后使用右键来设为默认</p>
+<p>设为默认后每次打开都会是这个设置</p>
+<ul>
+<li>揭露装备(书与笔)</li>
+</ul>
+<p><s>伟大的揭幕表演！出来吧！Dawnbreak！</s></p>
+<p>可以用于将未鉴定的盒子揭露成对应的未鉴定装备</p>
+<p>即得知这个盒子装的是什么物品</p>
+<p>并且揭露后可以摆上交易市场售卖</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>揭露费用并不算在鉴定费用内</p>
+</div>
+<h2 id="搜索物品-指南针" tabindex="-1"><a class="header-anchor" href="#搜索物品-指南针" aria-hidden="true">#</a> 搜索物品(指南针)</h2>
+<p>点击后即可打开搜索物品界面<br>
+<img src="/assets/img/TM5.jpg" alt="" loading="lazy"></p>
+<p>要说的只有第一个是搜索物品名称，没了！</p>
+<p>在搜索物品名称之后是一系列筛选条件，包括物品等级、品质、种类等等</p>
+<p>学会搜索能让你更快购买到想要的物品！</p>
+<h2 id="出售物品-绿色加号" tabindex="-1"><a class="header-anchor" href="#出售物品-绿色加号" aria-hidden="true">#</a> 出售物品(绿色加号)</h2>
+<blockquote>
+<p>如果你不知道这个小标题是咋回事，可以连着上面的内容一起往下看看？</p>
+</blockquote>
+<figure><img src="/assets/img/TM3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>这里会打开出售界面。</p>
+<p>在背包里点击你想要出售的物品，物品就会进入待出售栏中，再点击一下即可取消</p>
+<p>绿色加号为出售数量，绿宝石则为设置出售价格，选择后都是在聊天框内输入数值</p>
+<p>若想取消可以输入&quot;cancel&quot;来取消输入。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>不要搞混这数量和价格了！</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>若你安装了wynntils，你还可以在输入价格的时候以&quot;<code v-pre>__stx __le __eb</code>&quot;的形式来输入</p>
+<p>tils会帮你自动折算为数值填入</p>
+</div>
+<p>都确认完毕后点击勾号来确认就可以出售了</p>
+<p>如果你不确定价格，你还可以通过查看价格确认(书与笔)来参考价格</p>
+<figure><img src="/assets/img/TM4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>其中紫色的推荐价格为推荐价格(<s>什么废话</s>)</p>
+<p>快速出售价格为你挂上去能更快出售的低价</p>
+<p>最高求购价格为当前买家正在挂的最高求购的价格(后面会介绍)</p>
+<p>最低出售价格则是当前市场上该物品的最低出售价</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>对于下方的Trade Shares，对你来说应该不是特别重要的内容。</p>
+<p>如果你实在在意，可以跳到这一章去了解一下</p>
+</div>
+<h2 id="" tabindex="-1"><a class="header-anchor" href="#" aria-hidden="true">#</a> </h2>
+</div></template>
 
 
