@@ -6,7 +6,7 @@
 <p>尽管如此，整个任务流程还是非常漫长，正常做需要一个小时的时长，时间基本都在跑图上。</p>
 <p>建议提前阅读该攻略，第九步中的材料可以提前去拿好</p>
 </div>
-<p>前置任务：<a href="/quests/lvl21-30.html#creeper-infiltration-level-25" target="_blank" rel="noopener noreferrer">Creeper Infiltration<ExternalLinkIcon/></a>、<a href="/quests/lvl31-40.html#ice-nations-level-40" target="_blank" rel="noopener noreferrer">Ice Nations<ExternalLinkIcon/></a></p>
+<p>前置任务：<RouterLink to="/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html">Creeper Infiltration</RouterLink>、<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nations</RouterLink></p>
 <p>1.与在Troms东南角的<strong>Temple of Legends</strong>[-693 63 -976]的<em>Kelight</em>对话，</p>
 <p>对话时五个选项中选择第四个</p>
 <p>2.和在<strong>Nether Portal</strong>里的<em>Jorkin</em><code v-pre>[338 41 -1241]</code>,在山谷里有个洞可以进去谈论关于Lightdust(光之尘埃)的事情</p>
@@ -15,7 +15,7 @@
 <p>5.找到Magic Teacher<code v-pre>[846, 87, -2906]</code>并拜托他净化Lightdust</p>
 <p>6.到岛下面的洞里刷怪 刷12个sky vapor，然后把12个sky vapor以及Light Dust给魔法导师.别想着先打好东西再上去</p>
 <p>7.把净化过的Light Dust带给在Temple of the Legends的入口的Kelight</p>
-<p>8.找到对苦力怕着迷的科学家Garull<code v-pre>[-918, 81, -1222]</code>（你可以在<a href="/quests/lvl21-30.html#creeper-infiltration-level-25" target="_blank" rel="noopener noreferrer">Creeper Infiltration<ExternalLinkIcon/></a>任务中找到如何进去的方法</p>
+<p>8.找到对苦力怕着迷的科学家Garull<code v-pre>[-918, 81, -1222]</code>（你可以在<RouterLink to="/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html">Creeper Infiltration</RouterLink>任务中找到如何进去的方法</p>
 <p>9.带回：</p>
 <ul>
 <li>
@@ -25,7 +25,7 @@
 <p>Aseado Leaf 在<code v-pre>[-696 25 -589]</code>的洞穴里拿</p>
 </li>
 <li>
-<p>Maro's Eye Jewel<code v-pre>[149 40 -4075]</code>(在Maro Peaks上 需要登山帽 可以在selchar或者llevigar坐船过去)</p>
+<p>Maro's Eye Jewel<code v-pre>[149 40 -4075]</code>(在Maro Peaks上 需要<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nations</RouterLink>中获得的登山帽 可以在selchar或者llevigar坐船过去)</p>
 </li>
 <li>
 <p>Coral of Nelfors{在Seavale Reef像一个蓝色回旋镖[ 250,  -3200] Selchar西找宝藏的海底掉落物随机出现， }给Garull</p>
