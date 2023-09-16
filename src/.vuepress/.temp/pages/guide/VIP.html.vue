@@ -124,8 +124,8 @@
 <p>饰品箱可以开出玩家特效 / 武器皮肤 / 攻击特效 / 宠物 / 马匹皮肤 / 头饰 等等</p>
 <p>同时饰品箱还存在等级</p>
 <ul>
-<li>T1和T2饰品箱至多开出Godly</li>
-<li>T3和T4饰品箱至多开出Black Market</li>
+<li>T1和T2饰品箱至多开出Godly，至低开出Common</li>
+<li>T3和T4饰品箱至多开出Black Market，至低开出Rare</li>
 </ul>
 <p>T3、T4饰品箱的来源只有在商城购买</p>
 <div class="hint-container tip">

@@ -13,7 +13,7 @@
 <p>3.找到位于<strong>Nether Portal</strong>里的Lightdust Cavern<code v-pre>[265, 39, -1365]</code>。带来[1个Lightdust]给Jorkin</p>
 <p>4.拜托住在<strong>Mage Island</strong>的<em>Rayshyroth</em><code v-pre>[846 87 -2906]</code>去净化Lightdust</p>
 <p>5.找到Magic Teacher<code v-pre>[846, 87, -2906]</code>并拜托他净化Lightdust</p>
-<p>6.到岛下面的洞里刷怪 刷12个sky vapor，然后把12个sky vapor以及Light Dust给魔法导师.别想着先打好东西再上去</p>
+<p>6.到浮岛下面的洞里刷怪 刷12个sky vapor，然后把12个sky vapor以及Light Dust给魔法导师.别想着先打好东西再上去</p>
 <p>7.把净化过的Light Dust带给在Temple of the Legends的入口的Kelight</p>
 <p>8.找到对苦力怕着迷的科学家Garull<code v-pre>[-918, 81, -1222]</code>（你可以在<RouterLink to="/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html">Creeper Infiltration</RouterLink>任务中找到如何进去的方法</p>
 <p>9.带回：</p>

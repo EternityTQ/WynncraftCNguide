@@ -87,8 +87,8 @@ Share可以在游戏内通过le购买
 
 同时饰品箱还存在等级
 
-+ T1和T2饰品箱至多开出Godly
-+ T3和T4饰品箱至多开出Black Market
++ T1和T2饰品箱至多开出Godly，至低开出Common
++ T3和T4饰品箱至多开出Black Market，至低开出Rare
 
 T3、T4饰品箱的来源只有在商城购买
 

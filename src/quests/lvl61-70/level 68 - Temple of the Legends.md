@@ -23,7 +23,7 @@
 
 5.找到Magic Teacher`[846, 87, -2906]`并拜托他净化Lightdust
 
-6.到岛下面的洞里刷怪 刷12个sky vapor，然后把12个sky vapor以及Light Dust给魔法导师.别想着先打好东西再上去
+6.到浮岛下面的洞里刷怪 刷12个sky vapor，然后把12个sky vapor以及Light Dust给魔法导师.别想着先打好东西再上去
 
 7.把净化过的Light Dust带给在Temple of the Legends的入口的Kelight
 

@@ -1,0 +1,26 @@
+<template><div><h1 id="the-envoy-part-ii-level-89" tabindex="-1"><a class="header-anchor" href="#the-envoy-part-ii-level-89" aria-hidden="true">#</a> The Envoy Part II (Level 89)</h1>
+<p><strong>使节 下篇</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>此页面有待更新！</p>
+</div>
+<p>1找到任务书上的坐标的房子</p>
+<p>2跟在二楼的Maxie谈话</p>
+<p>3找到弹射器 ,随便按两下,然后等Maxie说完话之后坐上去,按按钮启动</p>
+<p>4跟Avos市民谈话,-1872,-3100→-1812,-3064</p>
+<p>5去找Grandmaster Shaman并和他谈话 X -1587 Y 147 Z -3321</p>
+<p>6打开旁边的木门，然后通过Grandmaster Shaman帮你搭的路进入神殿</p>
+<p 先冲刺，再跑酷，再刷几波怪用掉落物扔到重甲漏斗然后打最后一个boss掉落一个key="">7拿到钥匙</p>
+<p>8把钥匙给Maxie</p>
+<p>9去X -1495 Y 69 Z -2879跟NPC对话</p>
+<p>10跟着地上的食物走 进入洞里(-1448,-2731)</p>
+<p 基地里的门可以在二楼按按钮打开，地下室在一楼进门左转.进入基地的时候沿着地毯走，不知道路就沿着铁轨走，注意有的地方要跳史莱姆方块="">11穿过洞穴，跟Maxie谈话 然后进入地下基地,打死很强的一个技能7000的boss拿到钥匙</p>
+<p X="" -1707="" Y="" 75="" Z="" -2610="">12拿着钥匙跟Maxie谈话</p>
+<p>奖励<br>
+305000经验<br>
+Electro Mage's Boots｛一个鞋子｝<br>
+可以坐热气球了{Corkus City到Kandon-Beda}<br>
+可以进入Fallen Factory副本了</p>
+</div></template>
+
+
