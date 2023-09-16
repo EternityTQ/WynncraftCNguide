@@ -17,7 +17,7 @@
 <ul>
 <li>1750000经验</li>
 <li>9152绿宝石</li>
-<li part="" 2会用到="">1 Maxie's House Key</li>
+<li>1 Maxie's House Key<code v-pre>{part 2会用到}</code></li>
 <li>进入C.S.S. Wavebreaker的权限(是一艘船，应该可以快速旅行)</li>
 </ul>
 </div></template>

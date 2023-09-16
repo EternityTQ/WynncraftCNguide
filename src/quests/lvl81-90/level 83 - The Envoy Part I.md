@@ -30,5 +30,5 @@ icon: route
 奖励
 + 1750000经验
 + 9152绿宝石
-+ 1 Maxie's House Key{part 2会用到}
++ 1 Maxie's House Key`{part 2会用到}`
 + 进入C.S.S. Wavebreaker的权限(是一艘船，应该可以快速旅行)

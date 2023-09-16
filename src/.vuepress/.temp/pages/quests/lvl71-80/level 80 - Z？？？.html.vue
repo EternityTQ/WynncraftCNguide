@@ -5,8 +5,8 @@
 <p>本任务为多人合作解密任务，任务途中在游戏内全程没有任何提示</p>
 </div>
 <p>在开始流程前，先去准备好这三样东西</p>
-<p><RouterLink to="/quests/lvl71-80/lvl61-70.html#memory-paranoia-level-67">Memory Paranoia</RouterLink>中在儿子射壁炉的场景拿到汤勺</p>
-<p><a href="/quests/lvl71-80.html#the-bigger-picture-level-76" target="_blank" rel="noopener noreferrer">The Bigger Picture<ExternalLinkIcon/></a>中先去洞穴入口<code v-pre>[-172 46 -4395]</code>缩小自己后，再去<code v-pre>[-305 91 -7705]</code>拿到Tiny Mushroom</p>
+<p><RouterLink to="/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html">Memory Paranoia</RouterLink>中在儿子射壁炉的场景拿到汤勺</p>
+<p><RouterLink to="/quests/lvl71-80/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html">The Bigger Picture</RouterLink>中先去洞穴入口<code v-pre>[-172 46 -4395]</code>缩小自己后，再去<code v-pre>[-305 91 -7705]</code>拿到Tiny Mushroom</p>
 <p>然后要去Skien Island拿到一幅画<code v-pre>[388 87 -3529]</code></p>
 <p>只要有任意玩家准备好这三样东西就行了</p>
 <p>你可以多屯点，以后就不用再跑一趟去拿了</p>
@@ -16,9 +16,9 @@
 <p><strong>蓝色陨石</strong></p>
 <p>前往<strong>Aldorei Valley Outskirts</strong><code v-pre>[-754 102 -4416]</code></p>
 <p>打死下图的NPC，拿到一个锄头，当拿着锄头时，玩家可以推动田间的干草捆</p>
-<figure><img src="@source/.vuepress/public/assets/img/lvl80-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="/assets/img/lvl80-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>将干草堆推动成如下的形状</p>
-<figure><img src="@source/.vuepress/public/assets/img/lvl80-2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="/assets/img/lvl80-2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>完成后会出现一个限时跑酷，通过跑酷可以来到瀑布上，此时一面墙会破开，进去即可</p>
 <p>如果你来得及的话，完全可以直接通过瀑布游上去来到暗门内</p>
 <p>然后会进入一个记忆游戏，五个回合，你需要在记忆环节过后复原形状，通过后沿着生成的道路直接走即可</p>

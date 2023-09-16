@@ -7,9 +7,9 @@
 
 在开始流程前，先去准备好这三样东西
 
-[Memory Paranoia](lvl61-70.html#memory-paranoia-level-67)中在儿子射壁炉的场景拿到汤勺
+[Memory Paranoia](/WynncraftCNguide/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html)中在儿子射壁炉的场景拿到汤勺
 
-[The Bigger Picture](/quests/lvl71-80.html#the-bigger-picture-level-76)中先去洞穴入口`[-172 46 -4395]`缩小自己后，再去`[-305 91 -7705]`拿到Tiny Mushroom
+[The Bigger Picture](WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html)中先去洞穴入口`[-172 46 -4395]`缩小自己后，再去`[-305 91 -7705]`拿到Tiny Mushroom
 
 然后要去Skien Island拿到一幅画`[388 87 -3529]`
 
@@ -28,11 +28,11 @@
 
 打死下图的NPC，拿到一个锄头，当拿着锄头时，玩家可以推动田间的干草捆
 
-![](../../.vuepress/public/assets/img/lvl80-1.jpg)
+![](/assets/img/lvl80-1.jpg)
 
 将干草堆推动成如下的形状
 
-![](../../.vuepress/public/assets/img/lvl80-2.jpg)
+![](/assets/img/lvl80-2.jpg)
 
 完成后会出现一个限时跑酷，通过跑酷可以来到瀑布上，此时一面墙会破开，进去即可
 
