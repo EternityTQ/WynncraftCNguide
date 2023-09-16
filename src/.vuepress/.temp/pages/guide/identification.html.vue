@@ -101,8 +101,8 @@
 <p>数值与百分比的计算顺序为先计算百分比，再计算数值（即数值不享受百分比加成）</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>正数raw cost能抵消重复施法带来的蓝耗惩罚</p>
-<p>而cost%只作用于第一次施法时的蓝耗</p>
+<p>正数raw cost能抵消重复施法带来的蓝耗惩罚，为最终加算</p>
+<p>而cost%作用于基础蓝耗(类似于技能树中的减蓝耗)</p>
 <p>两者均有最低消耗蓝耗(1点)。</p>
 </div>
 <h2 id="生存类词条" tabindex="-1"><a class="header-anchor" href="#生存类词条" aria-hidden="true">#</a> 生存类词条</h2>
