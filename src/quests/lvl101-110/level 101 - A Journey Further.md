@@ -4,14 +4,15 @@ icon: skull
 
 
 # A Journey Further (level 101)
-(Eldritch Outlook 地牢前置)
 **深堕之旅**
-:::warning
-本页面有待更新！
+:::tip 重要任务
+解锁Eldritch Outlook副本
+解锁RAID - The Nameless Anomaly
 :::
-1在X 977 Y 75 Z -732和Aledar谈话
 
-2出门,带着Aledar往大路一直走,中途有几次谈话同时击杀周围怪物
+1 在[977 75 -732]和Aledar谈话
+
+2 出门,带着Aledar往大路一直走,中途有几次谈话同时击杀周围怪物
 
 3 跳进虚空洞里
 
@@ -20,7 +21,8 @@ icon: skull
 5 出屏障后,继续和Aledar对话,在祭坛旁边用剑杀死Aledar
 
 奖励
-7500000 经验值
-20480 绿宝石
-1 Eldritch Outlook Key(在任务途中给的)
-进入 Eldritch Outlook Dungeon的权限
++ 7500000 经验值
++ 20480 绿宝石
++ 1 Eldritch Outlook Key(在任务途中给的)
++ 可以进入 Eldritch Outlook Dungeon了
++ 可以进入The Nameless Anomaly了

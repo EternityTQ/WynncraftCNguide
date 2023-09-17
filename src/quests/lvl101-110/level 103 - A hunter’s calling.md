@@ -7,6 +7,7 @@ icon: exclamation
 :::warning
 本页面有待更新！
 :::
+
 1 从Eldritch Outlook Dungeon门口走到底,和???谈话
 
 2 去Ragni,传送后你要杀掉10个红名的居民
@@ -37,8 +38,14 @@ icon: exclamation
 
 
 奖励
-10008000 经验值
-1 Corrupted Soul Token
-解锁 Hunted Mode(开启pvp,死亡额外掉落,副职业经验加成)
-提示:该任务在第8步有前置任务,前置任务为: [Mushroom Man][Completing Maltic's Well][The Angry Village][Bob's Lost Soul][Grave Digger][Wrath of the Mummy][Temple of the Legends](由于第八步要进入神殿,而进入神殿的权限在做完Temple of the Legends才能解锁,而这个任务又有6个前置任务,并且Bob’s Lost Soul需要多人协作完成,因此需要7个前置任务)
-同时第10步有前置任务,前置任务为Dwarves and Doguns Part I-II(在part II的时候可以串任务进入A hunter’s calling剧情[禁止套娃])
++ 10008000 经验值
++ 1 Corrupted Soul Token
++ 解锁 Hunted Mode
+
+:::tip 关于Hunted mode
+相当于PVP模式
+
+开启后，你可以被任何其他处于PVP模式的非队友玩家攻击
+
+PVP状态下拥有50%的采集经验加成和战斗经验加成
+:::
