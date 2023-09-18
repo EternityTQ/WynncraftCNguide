@@ -46,7 +46,7 @@ icon: exclamation
 
 10.带回Garull给你的帽子给在Temple of Lengends入口的Kelight
 
-11.鉴定帽子之后找到神殿前的小洞`[-713 61 -965]`，在一直走杀死3波小怪后杀死 the Corrupter of Worlds(世界吞噬者){游戏中强的boss之一}然后带着Corrupted Heart(腐败的心，BOSS掉落物)给Kelight
+11.鉴定帽子之后找到神殿前的小洞`[-713 61 -965]`，在一直走杀死3波小怪后杀死 the Corrupter of Worlds然后带着Corrupted Heart(腐败的心，BOSS掉落物)给Kelight
 :::tip
 BOSS难度较高，你可以叫上朋友帮忙一起打打
 

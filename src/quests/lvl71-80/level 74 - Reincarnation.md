@@ -1,11 +1,18 @@
 # Reincarnation (level 74)
 **重生**
 
-前置任务:[Cluck Cluck]()、[Ice Nation]()
+前置任务:[Bob's Lost Soul](/WynncraftCNguide/quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html)、[Cluck Cluck](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html)、[Ice Nation](/WynncraftCNguide/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
 
-1.与在Bob'sTomb(Bob的坟墓)中的Batelu[ 372,  -774]对话
+1.与在Bob'sTomb中的Batelu`[372 54 -775]`对话
 
-2.带回`[1个Cuckles最爱的羽毛]`(如果你做了Cluck Cluck这个任务 那么你已经获得这个羽毛了 如果没有或把他扔掉了 请去再杀一次][Baab的毛(杀死Baab获得 Baab位于Maro Peaks{X:238,Y:7,Z-3975} )]和[Mooington的皮(杀死Mooington获得 Mooington位于SkiensIsland的{X:424 Y:16 Z:-3567})给Batelu
+2.带回下列物品：
++ Cluckles' Favourite Feather(前置任务Cluck Cluck中获得)
+  
++ Baab's Wool(Baab位于Maro Peaks`[238 7 -3975]`
+  从`[-181 58 -4060]`的洞口下去，走到底后左拐)
+
++ Mooington's Skin(Mooington位于SkiensIsland的`[424 16 -3567]`
+  任务书找Skien's Prison Block的Cave就可以了)
 
 3.杀死Bob的化身
 :::tip
@@ -13,12 +20,17 @@
 
 但是这个曾经的毕业任务并没有做对应的强度修改...
 
-因此你可以轻松地通过这个任务
+因此你大概可以轻松地通过这个任务
+
+实在不行记得找个人带捏
 :::
 
-4.带回[Bob's Seal of Approval(Bob的认可)]给Batelu
+4.带回`Bob's Seal of Approval`给Batelu
 
 奖励
-750000XP丨Corrupted Treasure[破碎的宝藏 用于在传说的神殿兑换75蓝武器]
++ 750000 经验值
++ Stone of Myths
 
-提示 Maro Peaks{别忘记带登山帽}和SkiensIsland可以坐船去Nemract没有船票的话就去selchar或者llevigar买船票
+:::tip
+Stone of Myths可以在做完[Temple of the Legends](/WynncraftCNguide/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html)后在Temple of the Legends内兑换非常强力的75级传奇武器，曾经版本的毕业装
+:::
