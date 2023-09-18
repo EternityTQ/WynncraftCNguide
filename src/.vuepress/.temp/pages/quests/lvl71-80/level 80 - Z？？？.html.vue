@@ -2,7 +2,12 @@
 <p><strong>来自疯狂科学家的解密挑战</strong></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
+<p>蓝色陨石和黄色陨石尚未完善，请知悉</p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
 <p>本任务为多人合作解密任务，任务途中在游戏内全程没有任何提示</p>
+<p>在开始任务前，强烈建议身上携带若干Detlas和Cinfras卷轴！</p>
 </div>
 <p>在开始流程前，先去准备好这三样东西</p>
 <p><RouterLink to="/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html">Memory Paranoia</RouterLink>中在儿子射壁炉的场景拿到汤勺</p>
@@ -51,17 +56,17 @@
 <p>6.推到外面的木桩后按按钮，继续进另一条岔路<br>
 <img src="/assets/img/lvl80-11.jpg" alt="" loading="lazy"></p>
 <p>7.矿车抵达终点后下车，使用旁边的加号，此时矿车会变为TNT矿车并转移到另一条轨道上，推动矿车会开到一处岩石，炸开后进入暗门，拿到<code v-pre>Mechanical Chip</code></p>
-<p>8.来到<code v-pre>[16 120 -5634]</code>，你会看到一朵小黄花，把上一步拿到的<code v-pre>Mechanical Chip</code>丢到花上，会在旁边开启一扇门，进去就完事了</p>
+<p>8.来到<code v-pre>[16 120 -5634]</code>，你会看到一朵小黄花，把上一步拿到的<code v-pre>Mechanical Chip</code>丢到花上，会在旁边开启一扇门，进去经过一小段下水道来到解密区</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>内含跳吓</p>
+<p>下水道内含跳吓</p>
 </div>
 <p>9.用心感受↓</p>
 <figure><img src="/assets/img/lvl80-4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>10.找红色羊毛<code v-pre>[115 129 -5716]</code>丢入如图所示的装置内，进入传送装置传送至流星区域<br>
 <img src="/assets/img/lvl80-12.jpg" alt="" loading="lazy"></p>
 <p>11.拿到shard后进入陨石内待命<br>
-从<code v-pre>[-2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
+从shard的刷新点往下走，来到<code v-pre>[-2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>拿到shard之后在流星区域class会导致身上的shard消失</p>
@@ -157,8 +162,8 @@
 <p>三阶段对配合要求很高</p>
 <p>如果你是不会做或者没做过，最好听指挥</p>
 </div>
-<p>在这个谜题中，总共有7个房间，每个房间至少有一个有彩色标记的压力板，踩在压力板上时你的位置会被锁定，当然可以用跳跃来解锁。</p>
-<p>当踩在对应颜色的压力板上时，对应颜色的门将会解锁</p>
+<p>在这个谜题中，总共有7个房间，每个房间至少有一个有彩色标记的压力板，踩在压力板上时你的位置会被锁定，可以用跳跃来解锁。</p>
+<p>当<strong>所有</strong>对应颜色的压力板均激活时，对应颜色的门将会解锁</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>你可以参考下面的文字攻略来完成这关<br>
