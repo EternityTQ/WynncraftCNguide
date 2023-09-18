@@ -1,5 +1,9 @@
 <template><div><h1 id="general-s-order-level-80" tabindex="-1"><a class="header-anchor" href="#general-s-order-level-80" aria-hidden="true">#</a> General's Order(Level 80)</h1>
 <p><strong>长官的命令</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">过时的任务</p>
+<p>本页面有待更新！</p>
+</div>
 <p>1.找到Private Tylas [115,53,-5439]</p>
 <p>2.跟General Lecade(133,-5493)对话</p>
 <p>3.爬上酒馆顶层最高的塔，(读告示牌，Mountain Spring Tavern,从149,-5491的梯子上去，然后一路跑酷跑到几乎塔顶，四处看看)</p>

@@ -1,3 +1,8 @@
+---
+icon: exclamation
+---
+
+
 # Temple of the Legends (level 68)
 **传奇神殿**
 

@@ -1,6 +1,8 @@
 # From The Bottom(Level 80)
 **来自地底**
-
+:::warning 过时的任务
+本页面有待更新！
+:::
 很简单，去Thanos市集找NPC
 1.找到想要[10 Troll Hair]的npc(troll hunter, cave troll掉落,在thanos东有很多这些怪)——Nakoba(47,-5148)
 

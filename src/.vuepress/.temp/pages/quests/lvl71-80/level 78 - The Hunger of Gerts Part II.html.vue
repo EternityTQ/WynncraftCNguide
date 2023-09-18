@@ -1,5 +1,9 @@
 <template><div><h1 id="the-hunger-of-gerts-part-ii-level-78" tabindex="-1"><a class="header-anchor" href="#the-hunger-of-gerts-part-ii-level-78" aria-hidden="true">#</a> The Hunger of Gerts Part II (level 78)</h1>
 <p><strong>饥饿的Gerts们</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">过时的任务</p>
+<p>本页面有待更新！</p>
+</div>
 <p>Big Butch: They are made of meat. Butchering animals all day is lonely work. I need friends. Why do you care about them? They are just pests to us. They care only for hunger.<br>
 前置任务：Part I ←Gert Mask</p>
 <p>1.找到Gerten Chief[-141,82,-5607]</p>

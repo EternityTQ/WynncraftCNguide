@@ -1,5 +1,9 @@
 <template><div><h1 id="from-the-bottom-level-80" tabindex="-1"><a class="header-anchor" href="#from-the-bottom-level-80" aria-hidden="true">#</a> From The Bottom(Level 80)</h1>
 <p><strong>来自地底</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">过时的任务</p>
+<p>本页面有待更新！</p>
+</div>
 <p>很简单，去Thanos市集找NPC<br>
 1.找到想要[10 Troll Hair]的npc(troll hunter, cave troll掉落,在thanos东有很多这些怪)——Nakoba(47,-5148)</p>
 <p>2.上一个NPC给了你个[Unusual Egg]，找到想要这个的另一个NPC——Dobile(13,-5066)</p>

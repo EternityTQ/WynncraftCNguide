@@ -1,5 +1,9 @@
 <template><div><h1 id="purple-and-blue-level77" tabindex="-1"><a class="header-anchor" href="#purple-and-blue-level77" aria-hidden="true">#</a> Purple and Blue(level77)</h1>
 <p><strong>紫与蓝</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">过时的任务</p>
+<p>本页面有待更新！</p>
+</div>
 <p>1.找到Korun[-236,-5225]</p>
 <p>2.检查[-163,-5388]里的房子(床上扔东西开机关门)</p>
 <p>3.找到[Lost Helmet] -278 -5295，洞穴上方有大树树上有按钮，按了下洞穴去找</p>

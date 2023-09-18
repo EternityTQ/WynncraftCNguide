@@ -1,6 +1,8 @@
 # The Hunger of Gerts Part II (level 78)
 **饥饿的Gerts们**
-
+:::warning 过时的任务
+本页面有待更新！
+:::
 Big Butch: They are made of meat. Butchering animals all day is lonely work. I need friends. Why do you care about them? They are just pests to us. They care only for hunger.
 前置任务：Part I ←Gert Mask
 

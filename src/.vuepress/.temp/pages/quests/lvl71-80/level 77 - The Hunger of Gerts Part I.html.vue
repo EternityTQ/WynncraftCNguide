@@ -1,5 +1,9 @@
 <template><div><h1 id="the-hunger-of-gerts-part-i-level77" tabindex="-1"><a class="header-anchor" href="#the-hunger-of-gerts-part-i-level77" aria-hidden="true">#</a> The Hunger of Gerts Part I (level77)</h1>
 <p><strong>饥饿的Gerts们</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">过时的任务</p>
+<p>本页面有待更新！</p>
+</div>
 <p>1.跟Cikal说话<a href="%E5%A1%94%E9%A1%B6">-35,68,-5413</a></p>
 <p>2.去周围两个农场调查线索(过桥有个房子，和村民对话，旁边有血迹，顺着下去杀怪获得一个密码.过桥的路继续往前还有房子,从东边走，和村民Jitak交谈，然后，房子后面有洞，看看。)</p>
 <p>3.去第二个房子东边的Gert营地，进入营地后面的洞</p>

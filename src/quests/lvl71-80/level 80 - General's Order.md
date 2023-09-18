@@ -1,6 +1,8 @@
 # General's Order(Level 80)
 **长官的命令**
-
+:::warning 过时的任务
+本页面有待更新！
+:::
 1.找到Private Tylas [115,53,-5439]
 
 2.跟General Lecade(133,-5493)对话
