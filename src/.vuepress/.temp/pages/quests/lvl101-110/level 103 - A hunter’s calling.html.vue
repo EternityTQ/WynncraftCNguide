@@ -18,12 +18,18 @@
 <p>12爬上Corkus的钟塔 跟着地毯就行,然后击杀Maxie</p>
 <p>13进入Detlas的军营(有测试伤害小人那里)然后直走到底向左走,走到底之后再向左，然后走到底上楼,上楼后在转角稍微向前一点点的右边那个入口触发剧情,然后击杀Aledar和Tasim</p>
 <p>14结束</p>
-<p>奖励<br>
-10008000 经验值<br>
-1 Corrupted Soul Token<br>
-解锁 Hunted Mode(开启pvp,死亡额外掉落,副职业经验加成)<br>
-提示:该任务在第8步有前置任务,前置任务为: [Mushroom Man][Completing Maltic's Well][The Angry Village][Bob's Lost Soul][Grave Digger][Wrath of the Mummy][Temple of the Legends](由于第八步要进入神殿,而进入神殿的权限在做完Temple of the Legends才能解锁,而这个任务又有6个前置任务,并且Bob’s Lost Soul需要多人协作完成,因此需要7个前置任务)<br>
-同时第10步有前置任务,前置任务为Dwarves and Doguns Part I-II(在part II的时候可以串任务进入A hunter’s calling剧情[禁止套娃])</p>
+<p>奖励</p>
+<ul>
+<li>10008000 经验值</li>
+<li>1 Corrupted Soul Token</li>
+<li>解锁 Hunted Mode</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">关于Hunted mode</p>
+<p>相当于PVP模式</p>
+<p>开启后，你可以被任何其他处于PVP模式的非队友玩家攻击</p>
+<p>PVP状态下拥有50%的采集经验加成和战斗经验加成</p>
+</div>
 </div></template>
 
 

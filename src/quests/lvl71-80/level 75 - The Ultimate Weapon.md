@@ -1,16 +1,24 @@
 # The Ultimate Weapon (level 75)
 **终极武器**
 
-1找到Dodegar`[-987,42,-4593]`
+1找到*Dodegar*`[-987,42,-4593]`
 
-2杀死亭子里的远程获得10 `Wood Scrap``[-1073,47,-4619]`，然后回去Dodegar那里
+2.在`[-1068 45 -4622]`的树洞内拿到1个`Enchanted Stick`，带回去给*Dodegar*
 
-3获得[20 Iron Bars][-755,45，4549进入-768,48,-4516]，然后回去Dodegar那里
+3.来到霍比特人村庄 找到*Gogedar*`[-928 43 -4529]`，然后跟着下一个要找的NPC一路找，直到拿到`Sacred Hobbit Metal`..
+>我超这帮人真的好烦
 
-4获得[50 Soft Whetstone]`[-1142,43,-4432]`，然后回去Dodegar那里
+4.来到`[-981 40 -4574]`的洞，下去打到`Diplacus Aurantiacus`，然后通过*Dodegar*的小跑酷，记得拿完再跑！
+>我合理怀疑我被这帮人整蛊了
 
-5获得[100 Blue Blood]`[-642,47,-4735]`，然后回去Dodegar那里
+5.进到`[-834 27 -4628]`的洞，进去打到`Crate of 2000 Luster Blood`，然后回去找*Dodegar*
 
 奖励
-450000 经验
-1 Ultimate Weapon(可以在手工艺商人-897 -4525(一个NPC)那里卖得7LE)
++ 450000 经验值
++ 500 Weaponsmithing 经验值
++ 500 Woodworking 经验值
++ 1 Ultimate Weapon
+
+:::tip
+Ultimate Weapon可以在`[-895 43 -4525]`的NPC卖得7le
+:::

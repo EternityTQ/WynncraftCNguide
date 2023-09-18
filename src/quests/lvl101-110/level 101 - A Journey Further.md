@@ -10,7 +10,7 @@ icon: skull
 解锁RAID - The Nameless Anomaly
 :::
 
-1 在[977 75 -732]和Aledar谈话
+1 在`[977 75 -732]`和Aledar谈话
 
 2 出门,带着Aledar往大路一直走,中途有几次谈话同时击杀周围怪物
 
