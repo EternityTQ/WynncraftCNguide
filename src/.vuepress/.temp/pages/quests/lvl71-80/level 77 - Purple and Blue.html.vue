@@ -1,9 +1,5 @@
 <template><div><h1 id="purple-and-blue-level77" tabindex="-1"><a class="header-anchor" href="#purple-and-blue-level77" aria-hidden="true">#</a> Purple and Blue(level77)</h1>
 <p><strong>紫与蓝</strong></p>
-<div class="hint-container warning">
-<p class="hint-container-title">过时的任务</p>
-<p>本页面有待更新！</p>
-</div>
 <p>1.和<em>Korun</em>对话<code v-pre>[-236 34 -5224]</code></p>
 <p>2.跟随<em>Korun</em>进入地下室，然后进入旁边的通道，被劝退后触发剧情</p>
 <p>3.前往Nikoler的房子寻找线索<code v-pre>[-163 29 -5388]</code></p>
@@ -43,7 +39,7 @@
 <p>13.小跑酷，对着绿色粒子右键就可以启用平台，一路往前就行了</p>
 <p>14.追上Nikoler</p>
 <p>15.作出选择</p>
-<Tabs id="103" :data='[{"id":"1.救出Nikoler"},{"id":"2.抢走陨石碎片"},{"id":"3.直接跑路"}]'>
+<Tabs id="98" :data='[{"id":"1.救出Nikoler"},{"id":"2.抢走陨石碎片"},{"id":"3.直接跑路"}]'>
 <template #title0="{ value, isActive }">1.救出Nikoler</template>
 <template #title1="{ value, isActive }">2.抢走陨石碎片</template>
 <template #title2="{ value, isActive }">3.直接跑路</template>
