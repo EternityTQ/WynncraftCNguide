@@ -1,5 +1,6 @@
 # The Hunger of Gerts Part I (level77)
 **饥饿的Gerts们**
+
 1.跟Cikal说话`[-27 73 -5413]`(从塔楼中间的电梯按按钮上去)
 
 2.和Jitak交谈`[-174 32 -5469]`

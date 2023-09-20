@@ -1,41 +1,38 @@
 # The Hunger of Gerts Part II (level 78)
 **饥饿的Gerts们**
-:::warning 过时的任务
-本页面有待更新！
+
+前置任务：[The Hunger of Gerts Part I (level77)](/WynncraftCNguide/quests/lvl71-80/level%2077%20-%20The%20Hunger%20of%20Gerts%20Part%20I.html)
+
+1.到Gert的营地看看发生了什么`[-33 34 -5502]`
+>如果你前置任务中选择了跟gert首领通报且等级够了，出来就会直接触发这一步
+
+2.去Gylia哨塔跟*Cikal*`[-19, 36, -5425]`发出警报
+
+3.跟一楼的*Winie*`[-14 36 -5411]`交谈
+:::warning 警告
+可以直接跳过Cikal直接和Winie对话，但是会导致无法继续后续步骤
+
+如果出现了这个问题，你可以使用/class重置步骤
 :::
-Big Butch: They are made of meat. Butchering animals all day is lonely work. I need friends. Why do you care about them? They are just pests to us. They care only for hunger.
-前置任务：Part I ←Gert Mask
+4.和庭院的*Alie/Colry*`[-33 36 -5396]`对话
 
-1.找到Gerten Chief[-141,82,-5607]
 
-2.去Jitak的房子[-169,32-5470]
+5.在旁边的用餐区`[-2 38 -5402]`拿到Meat，随后跟前置任务中引诱gert的步骤一样，放在绿色粒子引诱NPC离开
 
-3.尝试进去Jitak的房子,(在房子后面的坑附近走走任务书会更新到下一步)
+6.坐电梯去二楼和*Bory*`[-12 73 -5413]`对话
+:::tip 关于选项
+按顺序选择2 1 2 1
+:::
 
-4.跟Gerten Excavator对话[-181,22-5472]
+7.到地下室门口`[-30 36 -5422]`触发剧情
 
-5.用Gerten Excavator打的地洞进去Jitak房子的地下室
+8.到门外`[-30 36 -5422]`查看情况(右键灰色粒子)
 
-6.尝试从Jitak的地下室进去地下农场(墙上有按钮, 跟着血迹发现地道)
+9.通过隧道
+>挖石头用的棍子可以击杀小怪掉落
 
-7.出去农场一楼 → 跟着血迹走,有的血迹附近找不到是因为在空中的木板上，暗示你要跑酷
-
-8.出去农场二楼,过一堆怪。如果找不到路记得走楼梯上去看看。怪刷新很快，小心。
-
-9.跟被捉住的Gert说话
-
-10.关掉电源[-1011,18,-7870]
-
-11.回去被捉住的Gert那里
-
-12.出去三楼
-
-13.击败屠夫(组装Gert的人)用[Security Card]开门
-
-14.离开地下农场
-
-15.跟Gerten Chief Lobo对话
+10.与隧道入口破碎的栏杆交互，埋掉隧道，然后再次回到Gylia哨塔
 
 奖励
-730000 经验
-Gerten Ritual Mask(不知道是什么东西)
++ 930000 经验
++ Gerten Ritual Mask(头盔)
