@@ -127,7 +127,7 @@ Tool Merchant会出售1~2级的采集工具
 ## 附录 - 关于采集推荐地点以及工具兑换点
 
 >数据来源：https://www.youtube.com/@Olinus10
-### Woodcutting:
+### Woodcutting
 +	Lv.1 NIVLA Forest `[-366,67,-1729]`
 +	Lv.10 Detlas Suburbs `[335,67,-1580]`
 +	Lv.20 Nemract Outskirts `[88,46,-2132]`
@@ -142,7 +142,7 @@ Tool Merchant会出售1~2级的采集工具
 +	Lv.100 Wybel Island `[1296,66,-4693]`
 +	Lv.110 Lutho Gate `[971,74,-628]`
 	
-### Farming:
+### Farming
 +	Lv.1 Ragni Wheat Fields `[-776,67,-1736]`
 +	Lv.10 Durum Isles `[541,35,-2956]`
 +	Lv.20 Durum Isles `[500,35,-2838]`
@@ -158,7 +158,7 @@ Tool Merchant会出售1~2级的采集工具
 +	Lv.110 Void Valley Upper `[1089,135,-1130] `
 
 
-### Mining:
+### Mining
 +	Lv.1 Ragni Mine `[-572,69,-1556]`
 +	Lv.10 Corrupted Mines `[786,86,-1242]`
 +	Lv.20 Corrupted Mines `[685,89,-1217]`
@@ -175,7 +175,7 @@ Tool Merchant会出售1~2级的采集工具
 +	Lv.100 Kandon Beda Cave `[850,40,-4423]`
 +	Lv.110 Olmic Mine `[492,93,-525]`
 
-### Fishing:
+### Fishing
 +	Lv.1 Ragni Pond `[-634,67,-1536]`
 +	Lv.10 Wynn Plains River `[53,58,-1494]`
 +	Lv.20 Saint’s Row Beach `[371,34,-2126]`
@@ -192,7 +192,7 @@ Tool Merchant会出售1~2级的采集工具
 +	Lv.100 Sky Falls `[1432,127,-4574]`
 +	Lv.110 Toxic Hill Upper `[786,148,-983]`
 
-### Tools:
+### Tools
 + Tier 3: Decrepit Sewers & Infested Pit
 	Cost: 1 Fragment
 
