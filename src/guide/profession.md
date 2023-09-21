@@ -124,6 +124,105 @@ Tool Merchant会出售1~2级的采集工具
 
 :::
 
+## 附录 - 关于采集推荐地点以及工具兑换点
+
+>数据来源：https://www.youtube.com/@Olinus10
+### Woodcutting:
++	Lv.1 NIVLA Forest `[-366,67,-1729]`
++	Lv.10 Detlas Suburbs `[335,67,-1580]`
++	Lv.20 Nemract Outskirts `[88,46,-2132]`
++	Lv.30 Bremminglar `[665,73,-2016]`
++	Lv.40 Nesaak Entrance `[85,68,-945]`
++	Lv.50 Dernel Mansion `[-941,23,-725]`
++	Lv.60 Dark Forest Border `[-1387,44,-5051]`
++	Lv.70 Forgery Grove `[-856,45,-4990]`
++	Lv.80 Thesead Entrance `[693,78,-5085]`
++	Lv.90 Lighthouse Mountain `[-1362,122,-3029]`
++	Lv.100 Kandon Mountain `[750,113,-4600]`
++	Lv.100 Wybel Island `[1296,66,-4693]`
++	Lv.110 Lutho Gate `[971,74,-628]`
+	
+### Farming:
++	Lv.1 Ragni Wheat Fields `[-776,67,-1736]`
++	Lv.10 Durum Isles `[541,35,-2956]`
++	Lv.20 Durum Isles `[500,35,-2838]`
++	Lv.30 Durum Isles `[385,35,-2836]`
++	Lv.40 Olux Farms `[-1630,51,-5428]`
++	Lv.50 Wormhole Farms `[-2068,53,-5462]`
++	Lv.50/60 Forgotten Burrows `[-2041,57,-5388]` (+50%XP,Quest Needed)
++	Lv.60 Forgery Farms `[-724,44,-5014]`	
++	Lv.70 Forgery Farms `[-724,44,-5014]`
++	Lv.80 Hobgoblin Flelds `[79,42,-4838]`
++	Lv.90 Lighthouse Farm `[-1378,123,-3013]`
++	Lv.100 Kandon Caverns `[850,40,-4423]`
++	Lv.110 Void Valley Upper `[1089,135,-1130] `
+
+
+### Mining:
++	Lv.1 Ragni Mine `[-572,69,-1556]`
++	Lv.10 Corrupted Mines `[786,86,-1242]`
++	Lv.20 Corrupted Mines `[685,89,-1217]`
++	Lv.30 Bandit Barracks `[1478,91,-2178]`
++	Lv.40 Nesaak Mountain Side `[260,89,-700]`
++	Lv.40 Karoc Quarry `[-1655,76,-4347]` (+50%XP,Quest Needed)
++	Lv.50 Troms Silver Mine `[620,83,-1009]`
++	Lv.60 Olux River Source `[-1444,48,-5367]`
++	Lv.70 Prison Caverns `[-790,108,-5628]`
++	Lv.80 Colossus Mines `[560,120,-4355]`
++	Lv.80/90 Maex Mine `[1535,61,-5339]` (+50%XP,Quest Needed)
++	Lv.90 Molten Upper Mine `[1433,142,-5106]`	
++	Lv.100 Sky Caverns `[872,34,-4775]`
++	Lv.100 Kandon Beda Cave `[850,40,-4423]`
++	Lv.110 Olmic Mine `[492,93,-525]`
+
+### Fishing:
++	Lv.1 Ragni Pond `[-634,67,-1536]`
++	Lv.10 Wynn Plains River `[53,58,-1494]`
++	Lv.20 Saint’s Row Beach `[371,34,-2126]`
++	Lv.30 Desert River Source `[1182,154,-2248]`
++	Lv.40 Nodguj Island `[891,34,-3372]`
++	Lv.50 Iboju Waterfall `[-780,74,-724]`
++	Lv.50 Forgotten Burrows `[-2041,57,-5388]` (+50%XP,Quest Needed)
++	Lv.60 Willow Pond `[-1303,51,-5194]`
++	Lv.70 Lake Gylia `[-207,29,-5204]`
++	Lv.80 Relos Coast `[-1860,37,-2191]`
++	Lv.90 Molten Heights Lake `[1435,139,-5091]`
++	Lv.90 Maex Mine `[1535,61,-5339]` (+50%XP,Quest Needed)
++	Lv.100 Kandon Pond Lower `[689,88,-4605]`
++	Lv.100 Sky Falls `[1432,127,-4574]`
++	Lv.110 Toxic Hill Upper `[786,148,-983]`
+
+### Tools:
+T3: Decrepit Sewers & Infested Pit
+	Cost: 1 Fragment
+
+T4: Timelost Sanctum & Underworld Crypt
+	Cost: 2 Fragment
+
+T5: Sand-Swept Tomb
+	Cost: 3 Fragment +64e
+
+T6: Ice Barrows
+	Cost: 4 Fragment + 128e
+
+T7: Undergrowth Ruins
+	Cost: 5 Fragment + 256e
+
+T8: Galleon's Graveyard & CDS
+	Cost: 6 Fragment + 512e
+
+T9: CIP & CLS
+	Cost: 7 Fragment + 1024e
+
+T10: CUC & CSST
+	Cost: 8 Fragment + 2048e
+
+T11: CIB & CUR & Fallen Factory
+	Cost: 9 Fragment + 4096e
+
+T12: Eldritch Outlook
+	Cost: 9 Fragment + 4096e
+
 :::tip 
 本文作者:kotoko
 :::
