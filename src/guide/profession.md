@@ -193,34 +193,34 @@ Tool Merchant会出售1~2级的采集工具
 +	Lv.110 Toxic Hill Upper `[786,148,-983]`
 
 ### Tools:
-T3: Decrepit Sewers & Infested Pit
++ Tier 3: Decrepit Sewers & Infested Pit
 	Cost: 1 Fragment
 
-T4: Timelost Sanctum & Underworld Crypt
++ Tier 4: Timelost Sanctum & Underworld Crypt
 	Cost: 2 Fragment
 
-T5: Sand-Swept Tomb
++ Tier 5: Sand-Swept Tomb
 	Cost: 3 Fragment +64e
 
-T6: Ice Barrows
++ Tier 6: Ice Barrows
 	Cost: 4 Fragment + 128e
 
-T7: Undergrowth Ruins
++ Tier 7: Undergrowth Ruins
 	Cost: 5 Fragment + 256e
 
-T8: Galleon's Graveyard & CDS
++ Tier 8: Galleon's Graveyard & CDS
 	Cost: 6 Fragment + 512e
 
-T9: CIP & CLS
++ Tier 9: CIP & CLS
 	Cost: 7 Fragment + 1024e
 
-T10: CUC & CSST
++ Tier 10: CUC & CSST
 	Cost: 8 Fragment + 2048e
 
-T11: CIB & CUR & Fallen Factory
++ Tier 11: CIB & CUR & Fallen Factory
 	Cost: 9 Fragment + 4096e
 
-T12: Eldritch Outlook
++ Tier 12: Eldritch Outlook
 	Cost: 9 Fragment + 4096e
 
 :::tip 
