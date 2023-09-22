@@ -102,6 +102,121 @@
 </tbody>
 </table>
 </details>
+<h2 id="附录-关于采集推荐地点以及工具兑换点" tabindex="-1"><a class="header-anchor" href="#附录-关于采集推荐地点以及工具兑换点" aria-hidden="true">#</a> 附录 - 关于采集推荐地点以及工具兑换点</h2>
+<blockquote>
+<p>数据来源：<a href="https://www.youtube.com/@Olinus10" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Olinus10<ExternalLinkIcon/></a></p>
+</blockquote>
+<h3 id="woodcutting" tabindex="-1"><a class="header-anchor" href="#woodcutting" aria-hidden="true">#</a> Woodcutting</h3>
+<ul>
+<li>Lv.1 NIVLA Forest <code v-pre>[-366,67,-1729]</code></li>
+<li>Lv.10 Detlas Suburbs <code v-pre>[335,67,-1580]</code></li>
+<li>Lv.20 Nemract Outskirts <code v-pre>[88,46,-2132]</code></li>
+<li>Lv.30 Bremminglar <code v-pre>[665,73,-2016]</code></li>
+<li>Lv.40 Nesaak Entrance <code v-pre>[85,68,-945]</code></li>
+<li>Lv.50 Dernel Mansion <code v-pre>[-941,23,-725]</code></li>
+<li>Lv.60 Dark Forest Border <code v-pre>[-1387,44,-5051]</code></li>
+<li>Lv.70 Forgery Grove <code v-pre>[-856,45,-4990]</code></li>
+<li>Lv.80 Thesead Entrance <code v-pre>[693,78,-5085]</code></li>
+<li>Lv.90 Lighthouse Mountain <code v-pre>[-1362,122,-3029]</code></li>
+<li>Lv.100 Kandon Mountain <code v-pre>[750,113,-4600]</code></li>
+<li>Lv.100 Wybel Island <code v-pre>[1296,66,-4693]</code></li>
+<li>Lv.110 Lutho Gate <code v-pre>[971,74,-628]</code></li>
+</ul>
+<h3 id="farming" tabindex="-1"><a class="header-anchor" href="#farming" aria-hidden="true">#</a> Farming</h3>
+<ul>
+<li>Lv.1 Ragni Wheat Fields <code v-pre>[-776,67,-1736]</code></li>
+<li>Lv.10 Durum Isles <code v-pre>[541,35,-2956]</code></li>
+<li>Lv.20 Durum Isles <code v-pre>[500,35,-2838]</code></li>
+<li>Lv.30 Durum Isles <code v-pre>[385,35,-2836]</code></li>
+<li>Lv.40 Olux Farms <code v-pre>[-1630,51,-5428]</code></li>
+<li>Lv.50 Wormhole Farms <code v-pre>[-2068,53,-5462]</code></li>
+<li>Lv.50/60 Forgotten Burrows <code v-pre>[-2041,57,-5388]</code> (+50%XP,Quest Needed)</li>
+<li>Lv.60 Forgery Farms <code v-pre>[-724,44,-5014]</code></li>
+<li>Lv.70 Forgery Farms <code v-pre>[-724,44,-5014]</code></li>
+<li>Lv.80 Hobgoblin Flelds <code v-pre>[79,42,-4838]</code></li>
+<li>Lv.90 Lighthouse Farm <code v-pre>[-1378,123,-3013]</code></li>
+<li>Lv.100 Kandon Caverns <code v-pre>[850,40,-4423]</code></li>
+<li>Lv.110 Void Valley Upper <code v-pre>[1089,135,-1130] </code></li>
+</ul>
+<h3 id="mining" tabindex="-1"><a class="header-anchor" href="#mining" aria-hidden="true">#</a> Mining</h3>
+<ul>
+<li>Lv.1 Ragni Mine <code v-pre>[-572,69,-1556]</code></li>
+<li>Lv.10 Corrupted Mines <code v-pre>[786,86,-1242]</code></li>
+<li>Lv.20 Corrupted Mines <code v-pre>[685,89,-1217]</code></li>
+<li>Lv.30 Bandit Barracks <code v-pre>[1478,91,-2178]</code></li>
+<li>Lv.40 Nesaak Mountain Side <code v-pre>[260,89,-700]</code></li>
+<li>Lv.40 Karoc Quarry <code v-pre>[-1655,76,-4347]</code> (+50%XP,Quest Needed)</li>
+<li>Lv.50 Troms Silver Mine <code v-pre>[620,83,-1009]</code></li>
+<li>Lv.60 Olux River Source <code v-pre>[-1444,48,-5367]</code></li>
+<li>Lv.70 Prison Caverns <code v-pre>[-790,108,-5628]</code></li>
+<li>Lv.80 Colossus Mines <code v-pre>[560,120,-4355]</code></li>
+<li>Lv.80/90 Maex Mine <code v-pre>[1535,61,-5339]</code> (+50%XP,Quest Needed)</li>
+<li>Lv.90 Molten Upper Mine <code v-pre>[1433,142,-5106]</code></li>
+<li>Lv.100 Sky Caverns <code v-pre>[872,34,-4775]</code></li>
+<li>Lv.100 Kandon Beda Cave <code v-pre>[850,40,-4423]</code></li>
+<li>Lv.110 Olmic Mine <code v-pre>[492,93,-525]</code></li>
+</ul>
+<h3 id="fishing" tabindex="-1"><a class="header-anchor" href="#fishing" aria-hidden="true">#</a> Fishing</h3>
+<ul>
+<li>Lv.1 Ragni Pond <code v-pre>[-634,67,-1536]</code></li>
+<li>Lv.10 Wynn Plains River <code v-pre>[53,58,-1494]</code></li>
+<li>Lv.20 Saint’s Row Beach <code v-pre>[371,34,-2126]</code></li>
+<li>Lv.30 Desert River Source <code v-pre>[1182,154,-2248]</code></li>
+<li>Lv.40 Nodguj Island <code v-pre>[891,34,-3372]</code></li>
+<li>Lv.50 Iboju Waterfall <code v-pre>[-780,74,-724]</code></li>
+<li>Lv.50 Forgotten Burrows <code v-pre>[-2041,57,-5388]</code> (+50%XP,Quest Needed)</li>
+<li>Lv.60 Willow Pond <code v-pre>[-1303,51,-5194]</code></li>
+<li>Lv.70 Lake Gylia <code v-pre>[-207,29,-5204]</code></li>
+<li>Lv.80 Relos Coast <code v-pre>[-1860,37,-2191]</code></li>
+<li>Lv.90 Molten Heights Lake <code v-pre>[1435,139,-5091]</code></li>
+<li>Lv.90 Maex Mine <code v-pre>[1535,61,-5339]</code> (+50%XP,Quest Needed)</li>
+<li>Lv.100 Kandon Pond Lower <code v-pre>[689,88,-4605]</code></li>
+<li>Lv.100 Sky Falls <code v-pre>[1432,127,-4574]</code></li>
+<li>Lv.110 Toxic Hill Upper <code v-pre>[786,148,-983]</code></li>
+</ul>
+<h3 id="tools" tabindex="-1"><a class="header-anchor" href="#tools" aria-hidden="true">#</a> Tools</h3>
+<ul>
+<li>
+<p>Tier 3: Decrepit Sewers &amp; Infested Pit<br>
+Cost: 1 Fragment</p>
+</li>
+<li>
+<p>Tier 4: Timelost Sanctum &amp; Underworld Crypt<br>
+Cost: 2 Fragment</p>
+</li>
+<li>
+<p>Tier 5: Sand-Swept Tomb<br>
+Cost: 3 Fragment +64e</p>
+</li>
+<li>
+<p>Tier 6: Ice Barrows<br>
+Cost: 4 Fragment + 128e</p>
+</li>
+<li>
+<p>Tier 7: Undergrowth Ruins<br>
+Cost: 5 Fragment + 256e</p>
+</li>
+<li>
+<p>Tier 8: Galleon's Graveyard &amp; CDS<br>
+Cost: 6 Fragment + 512e</p>
+</li>
+<li>
+<p>Tier 9: CIP &amp; CLS<br>
+Cost: 7 Fragment + 1024e</p>
+</li>
+<li>
+<p>Tier 10: CUC &amp; CSST<br>
+Cost: 8 Fragment + 2048e</p>
+</li>
+<li>
+<p>Tier 11: CIB &amp; CUR &amp; Fallen Factory<br>
+Cost: 9 Fragment + 4096e</p>
+</li>
+<li>
+<p>Tier 12: Eldritch Outlook<br>
+Cost: 9 Fragment + 4096e</p>
+</li>
+</ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>本文作者:kotoko</p>
