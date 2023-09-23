@@ -165,7 +165,7 @@ Tool Merchant会出售1~2级的采集工具
 +	Lv.30 Bandit Barracks `[1478,91,-2178]`
 +	Lv.40 Nesaak Mountain Side `[260,89,-700]`
 +	Lv.40 Karoc Quarry `[-1655,76,-4347]` (+50%XP,Quest Needed)
-+	Lv.50 Troms Silver Mine `[620,83,-1009]`
++	Lv.50 Troms Silver Mine `[-620,83,-1009]`
 +	Lv.60 Olux River Source `[-1444,48,-5367]`
 +	Lv.70 Prison Caverns `[-790,108,-5628]`
 +	Lv.80 Colossus Mines `[560,120,-4355]`
