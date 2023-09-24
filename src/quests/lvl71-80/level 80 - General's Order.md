@@ -1,38 +1,43 @@
 # General's Order(Level 80)
 **长官的命令**
-:::warning 过时的任务
-本页面有待更新！
+1.和*Private Tylas*`[-121 49 -5437]`对话
+
+2.跟*General Lecade*`[174 71 -5496]`对话
+
+3.去外面`[86 44 -5374]`确认一下装备
+
+4.回去和*General Lecade*`[174 71 -5496]`汇报
+
+5.去总部外面的下水道`[127 68 -5488]`找到`Good-Luck Charm`
+:::tip
+下水道内含地图 跟着走就行了
+
+注意找到后不要原路返回
+
+跟着地图上左上角的出口走
 :::
-1.找到Private Tylas [115,53,-5439]
 
-2.跟General Lecade(133,-5493)对话
+6.离开下水道后，直走进另一条黑色通道，然后回去和*General Lecade*汇报
 
-3.爬上酒馆顶层最高的塔，(读告示牌，Mountain Spring Tavern,从149,-5491的梯子上去，然后一路跑酷跑到几乎塔顶，四处看看)
+7.右拐直走上楼，来到`[158 76 -5456]`表演一下走绳索(栏杆)
 
-4.想办法下去(笑)和General Lecade交谈
+8.回去和*General Lecade*汇报
+>这人真疯了吧
 
-5.去下水道(162,-5446旁边有传送门)找到Good Luck Charm(自带下水道地图)
+9.一样右拐直走上楼，跟着蹦床一路走就行了！一路找蹦床直到来到山顶看到一个类似发射器的头颅，右键！
 
-6.回去General Lecade那里
+10.回去和*General Lecade*汇报
 
-7.把山涂成紫色[207,178-,5499]
+11.和*Lieutenant Gren*`[146 70 -5470]`对话(出来后左拐)
 
-8.回去General Lecade那里
+12.进入左边的时间机器
 
-9.爬楼梯上去走钢丝(铁栅栏)
+13.时间机器爆炸后，进入后面露出来的楼梯
 
-10.回去General Lecade那里
-
-11.跟Lieutenant Gren说话，然后按墙角的按钮
-
-12.门炸开，进去和npc对话
-
-13.把东西扔在两边桌子的压力版上,进入地下室
-
-14.打死Corpus Accipientis(替身,变化多，但是很脆)
-
-15.把Malleable Slime拿给真的General Lecade
-
+14.旁边打到钥匙，开启监狱门，触发剧情
+:::tip
+选项可以乱选，没有影响
+:::
 奖励
-1300000 经验
-1 Changeling's Chestplate(xp加成胸甲)
++ 1300000 经验
++ 1 Changeling's Chestplate(胸甲)

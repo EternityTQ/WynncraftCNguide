@@ -146,7 +146,7 @@
 <li>Lv.30 Bandit Barracks <code v-pre>[1478,91,-2178]</code></li>
 <li>Lv.40 Nesaak Mountain Side <code v-pre>[260,89,-700]</code></li>
 <li>Lv.40 Karoc Quarry <code v-pre>[-1655,76,-4347]</code> (+50%XP,Quest Needed)</li>
-<li>Lv.50 Troms Silver Mine <code v-pre>[620,83,-1009]</code></li>
+<li>Lv.50 Troms Silver Mine <code v-pre>[-620,83,-1009]</code></li>
 <li>Lv.60 Olux River Source <code v-pre>[-1444,48,-5367]</code></li>
 <li>Lv.70 Prison Caverns <code v-pre>[-790,108,-5628]</code></li>
 <li>Lv.80 Colossus Mines <code v-pre>[560,120,-4355]</code></li>

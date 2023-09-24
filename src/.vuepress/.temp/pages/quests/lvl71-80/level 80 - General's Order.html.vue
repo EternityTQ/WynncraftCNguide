@@ -1,27 +1,37 @@
 <template><div><h1 id="general-s-order-level-80" tabindex="-1"><a class="header-anchor" href="#general-s-order-level-80" aria-hidden="true">#</a> General's Order(Level 80)</h1>
-<p><strong>长官的命令</strong></p>
-<div class="hint-container warning">
-<p class="hint-container-title">过时的任务</p>
-<p>本页面有待更新！</p>
+<p><strong>长官的命令</strong><br>
+1.和<em>Private Tylas</em><code v-pre>[-121 49 -5437]</code>对话</p>
+<p>2.跟<em>General Lecade</em><code v-pre>[174 71 -5496]</code>对话</p>
+<p>3.去外面<code v-pre>[86 44 -5374]</code>确认一下装备</p>
+<p>4.回去和<em>General Lecade</em><code v-pre>[174 71 -5496]</code>汇报</p>
+<p>5.去总部外面的下水道<code v-pre>[127 68 -5488]</code>找到<code v-pre>Good-Luck Charm</code></p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>下水道内含地图 跟着走就行了</p>
+<p>注意找到后不要原路返回</p>
+<p>跟着地图上左上角的出口走</p>
 </div>
-<p>1.找到Private Tylas [115,53,-5439]</p>
-<p>2.跟General Lecade(133,-5493)对话</p>
-<p>3.爬上酒馆顶层最高的塔，(读告示牌，Mountain Spring Tavern,从149,-5491的梯子上去，然后一路跑酷跑到几乎塔顶，四处看看)</p>
-<p>4.想办法下去(笑)和General Lecade交谈</p>
-<p>5.去下水道(162,-5446旁边有传送门)找到Good Luck Charm(自带下水道地图)</p>
-<p>6.回去General Lecade那里</p>
-<p>7.把山涂成紫色[207,178-,5499]</p>
-<p>8.回去General Lecade那里</p>
-<p>9.爬楼梯上去走钢丝(铁栅栏)</p>
-<p>10.回去General Lecade那里</p>
-<p>11.跟Lieutenant Gren说话，然后按墙角的按钮</p>
-<p>12.门炸开，进去和npc对话</p>
-<p>13.把东西扔在两边桌子的压力版上,进入地下室</p>
-<p>14.打死Corpus Accipientis(替身,变化多，但是很脆)</p>
-<p>15.把Malleable Slime拿给真的General Lecade</p>
-<p>奖励<br>
-1300000 经验<br>
-1 Changeling's Chestplate(xp加成胸甲)</p>
+<p>6.离开下水道后，直走进另一条黑色通道，然后回去和<em>General Lecade</em>汇报</p>
+<p>7.右拐直走上楼，来到<code v-pre>[158 76 -5456]</code>表演一下走绳索(栏杆)</p>
+<p>8.回去和<em>General Lecade</em>汇报</p>
+<blockquote>
+<p>这人真疯了吧</p>
+</blockquote>
+<p>9.一样右拐直走上楼，跟着蹦床一路走就行了！一路找蹦床直到来到山顶看到一个类似发射器的头颅，右键！</p>
+<p>10.回去和<em>General Lecade</em>汇报</p>
+<p>11.和<em>Lieutenant Gren</em><code v-pre>[146 70 -5470]</code>对话(出来后左拐)</p>
+<p>12.进入左边的时间机器</p>
+<p>13.时间机器爆炸后，进入后面露出来的楼梯</p>
+<p>14.旁边打到钥匙，开启监狱门，触发剧情</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>选项可以乱选，没有影响</p>
+</div>
+<p>奖励</p>
+<ul>
+<li>1300000 经验</li>
+<li>1 Changeling's Chestplate(胸甲)</li>
+</ul>
 </div></template>
 
 
