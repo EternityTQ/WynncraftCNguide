@@ -30,6 +30,17 @@
 <p>特例为100级和110级原材料<br>
 100级原材料只能制作100-103级物品，110原材料只能制作103-105级物品。</p>
 </div>
+<div class="hint-container warning">
+<p class="hint-container-title">警告</p>
+<p>在采集过程中，你的背包不能同时存放两把相同类型的工具</p>
+<p>即使其中一把超过了你的采集等级！</p>
+<p>如果你这么做了，你的采集成功率会大幅度降低。</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">关于工具耐久</p>
+<p>在工具耐久归零后，你仍然可以得到采集经验</p>
+<p>但此时你将不会得到任何采集原料</p>
+</div>
 <h2 id="制作" tabindex="-1"><a class="header-anchor" href="#制作" aria-hidden="true">#</a> 制作</h2>
 <p>在城镇中，我们会看到这样的东西，比如这个是药水制造的酿造台：<br>
 <img src="/assets/img/prof4.jpg" alt="每种制造业都有一个类似的工作台" loading="lazy"></p>
