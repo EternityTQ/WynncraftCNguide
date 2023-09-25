@@ -1,4 +1,4 @@
-<template><div><h1 id="the-thanos-vault-level-81" tabindex="-1"><a class="header-anchor" href="#the-thanos-vault-level-81" aria-hidden="true">#</a> The Thanos Vault (level 81)</h1>
+<template><div><h1 id="the-thanos-depository-level-81" tabindex="-1"><a class="header-anchor" href="#the-thanos-depository-level-81" aria-hidden="true">#</a> The Thanos Depository (level 81)</h1>
 <p><strong>Thanos的宝库</strong></p>
 <p>1.跟Dolem说话</p>
 <p>2.打开金库的密门<code v-pre>[153,6,-5434]</code>,记得在门口的木质压力板上丢绿宝石</p>
