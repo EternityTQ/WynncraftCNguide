@@ -1,0 +1,1 @@
+import{_ as e}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as r}from"./app-f80e00aa.js";const t={};function c(_,a){return o(),r("div")}const n=e(t,[["render",c],["__file","beforegame.html.vue"]]);export{n as default};
