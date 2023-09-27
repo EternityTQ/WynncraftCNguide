@@ -100,6 +100,7 @@
 </div>
 <h2 id="sliverbull-share" tabindex="-1"><a class="header-anchor" href="#sliverbull-share" aria-hidden="true">#</a> SliverBull &amp; Share</h2>
 <p>类似于月卡机制</p>
+<p>在中国玩家群体中，通常称为&quot;银牛&quot;</p>
 <p>主要效果如下：</p>
 <ul>
 <li>降低市场税收至2%</li>
@@ -116,6 +117,16 @@
 <p>Share可以在游戏内通过le购买</p>
 <p>也就是说，你可以只花费游戏内货币来开通SliverBull</p>
 <p>为什么还要花现实货币呢？</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">在交易市场上出售/购买银牛</p>
+<p>银牛并不会以物品的形式存放在你的物品栏中</p>
+<p>在出售界面，你可以通过点击右下角的纸条来出售银牛</p>
+<figure><img src="/assets/img/shares1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>其他操作与出售物品类似。</p>
+<p>同理，你可以通过搜索&quot;Share&quot;来购买银牛</p>
+<figure><img src="/assets/img/shares2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>默认会直接购买最低价，并且会返还多余的绿宝石。</p>
 </div>
 <h2 id="crates" tabindex="-1"><a class="header-anchor" href="#crates" aria-hidden="true">#</a> Crates</h2>
 <p>饰品箱</p>
@@ -147,6 +158,12 @@
 <p>比较不建议在这里购买，太贵了。</p>
 <p>但是有些比较整蛊的宠物只能在这里入手</p>
 <p><s>比如aLEdar车车</s></p>
+<p>宠物还可以在Crates中开出，通常在节日Crates中能开出更多不同的宠物</p>
+<div class="hint-container tip">
+<p class="hint-container-title">领取你的免费宠物！</p>
+<figure><img src="/assets/img/pets.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>在官网上的PETS一栏中，你可以在这里领取一只免费的宠物鸡</p>
+</div>
 <h2 id="bombs" tabindex="-1"><a class="header-anchor" href="#bombs" aria-hidden="true">#</a> Bombs</h2>
 <p>炸弹</p>
 <p>这可不是什么伤害道具，而是一种全服增益</p>

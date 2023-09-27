@@ -9,9 +9,12 @@
 <h2 id="海底捞-非常推荐" tabindex="-1"><a class="header-anchor" href="#海底捞-非常推荐" aria-hidden="true">#</a> 海底捞(非常推荐)</h2>
 <p><s>名字听起来可能像是吃的，但是实际上，他真的是海底捞，就是在海底捞东西卖钱。</s></p>
 <p>海底捞具体要怎么操作呢？对于新手而言，我们可以前往Nemract镇的港口，坐船前往Selchar</p>
-<p>并在Selchar附近的一片名为Seavalue Reef的海域潜水，通过拾取海底的一些物品</p>
-<p>并将它们带到Selchar的商人处<code v-pre>[110，66，-315]</code>出售</p>
+<p>并在Selchar附近的一片名为Seavalue Reef的海域潜水<br>
+<img src="/assets/img/earnle1.jpg" alt="" loading="lazy"></p>
+<p>通过拾取海底的一些杂物，将它们带到Selchar的商人处<code v-pre>[110，66，-315]</code>出售<br>
+<img src="/assets/img/earnle2.jpg" alt="" loading="lazy"></p>
 <p>这也是前期获得绿宝石最简单的途径。</p>
+<p>需要注意的是，杂物也有三六九等，具体哪个比较值钱就请读者自行挖掘了</p>
 <h2 id="任务" tabindex="-1"><a class="header-anchor" href="#任务" aria-hidden="true">#</a> 任务</h2>
 <p>部分中后期任务的奖励的绿宝石非常丰厚，有些甚至一次性可以给好几个液态绿宝石（LE）</p>
 <p>有些任务会给予非常强大实用的装备，我们可以通过创建不同的档来完成这些任务以获得其高额的任务奖励。</p>
@@ -26,6 +29,7 @@
 <p>如果你在升采集副职，得到的材料千万别丢！</p>
 <p>市场上可能会有需要升制作副职的人需要大量采购原料</p>
 <p>虽然单价不高，但是走量的话也是一笔不小的钱</p>
+<p>同时，在后期采集副职中，三星材料就算量不多，也能卖出一个非常好的价格</p>
 <h2 id="通过刷怪物掉落的材料-装备来售卖" tabindex="-1"><a class="header-anchor" href="#通过刷怪物掉落的材料-装备来售卖" aria-hidden="true">#</a> 通过刷怪物掉落的材料/装备来售卖</h2>
 <p>部分怪物掉落的素材效果强劲，且市场出售数量并不算多</p>
 <p>你可以抓住这些商机，如果没事干了就去特定的刷怪点刷取特定素材</p>
@@ -34,7 +38,7 @@
 <h2 id="完成腐化地牢-raid" tabindex="-1"><a class="header-anchor" href="#完成腐化地牢-raid" aria-hidden="true">#</a> 完成腐化地牢/raid</h2>
 <p>在完成8/8 run或者raid后</p>
 <p>你可以通过售卖最终奖励中的值钱物品来赚取绿宝石</p>
-<p>众所周知的值钱货有88 run中的<code v-pre>gale's sight</code>和tna中的<code v-pre>Aleph Null</code></p>
+<p>众所周知的值钱货有88 run中的<code v-pre>gale's sight</code>和tna中的<code v-pre>Aleph Null</code>以及各类马</p>
 <p>并且88 run还有机会出神话</p>
 <p>当然，以上两种方式均需要入场费</p>
 <p>腐化地牢需要runes和keys，raid需要runes</p>
