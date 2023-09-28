@@ -7,9 +7,9 @@ icon: route
 
 >不要忘了可以从Selchar前往绝大部分岛屿
 
-1 在**Mage Island**和*Seasum*`[940 77 2866]`对话
+1 在**Mage Island**和*Seasum*`[940 77 -2866]`对话
 
-2 进入房间，拿Invitation Letter并交还给Seasum`[940 77 2866]`
+2 进入房间，拿Invitation Letter并交还给Seasum`[940 77 -2866]`
 
 3 在`[893 37 -2777]`找到魔法学院的船
 
