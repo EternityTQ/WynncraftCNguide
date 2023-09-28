@@ -3,8 +3,8 @@
 <blockquote>
 <p>不要忘了可以从Selchar前往绝大部分岛屿</p>
 </blockquote>
-<p>1 在<strong>Mage Island</strong>和<em>Seasum</em><code v-pre>[940 77 2866]</code>对话</p>
-<p>2 进入房间，拿Invitation Letter并交还给Seasum<code v-pre>[940 77 2866]</code></p>
+<p>1 在<strong>Mage Island</strong>和<em>Seasum</em><code v-pre>[940 77 -2866]</code>对话</p>
+<p>2 进入房间，拿Invitation Letter并交还给Seasum<code v-pre>[940 77 -2866]</code></p>
 <p>3 在<code v-pre>[893 37 -2777]</code>找到魔法学院的船</p>
 <p>4 等待和Boat Captain的对话结束后上船</p>
 <p>5 找到<code v-pre>[6372 15 4513]</code>处的隐藏洞口进入</p>
