@@ -13,13 +13,16 @@
 <li>5650 经验值</li>
 <li>1 Time Fragment</li>
 <li>可以协助击败Time Trouble了</li>
-<li>可以使用往返于Nemract和Tempo Town之间的快速旅行了(石柱)</li>
+<li>可以使用往返于Nemract和Tempo Town之间的快速旅行了(石柱)<br>
+<img src="/assets/img/lvl25-1.jpg" alt="" loading="lazy"></li>
 </ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>Time Trouble会每隔24小时于下列地点刷新</p>
-<p>[-454 75 -1207]; [-410 73 -1132]; [-192 67 -1324]; [-470 74 -1030]; [-500 83 -1150]</p>
-<p>Time Fragment兑换的装备非常强力，可以慢慢攒一套给小号用</p>
+<p><code v-pre>[-454 75 -1207]</code>; <code v-pre>[-410 73 -1132]</code>; <code v-pre>[-192 67 -1324]</code>; <code v-pre>[-470 74 -1030]</code>; <code v-pre>[-500 83 -1150]</code><br>
+<img src="/assets/img/lvl25-2.jpg" alt="" loading="lazy"></p>
+<p>Time Fragment可以于<code v-pre>[-290 43 -1146]</code>兑换装备</p>
+<p>兑换的装备非常强力，可以慢慢攒一套给小号用</p>
 </div>
 </div></template>
 

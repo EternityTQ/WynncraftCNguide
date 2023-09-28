@@ -43,6 +43,13 @@
 <figure><img src="/assets/img/qa2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>如上设置，在对话中你就可以看到机翻了。</p>
 <p>需要注意的是，如果你选了GOOGLEAPI，则翻译必须要开启加速器才能起效。</p>
+<h2 id="_1-12没有任务书怎么办啊" tabindex="-1"><a class="header-anchor" href="#_1-12没有任务书怎么办啊" aria-hidden="true">#</a> 1.12没有任务书怎么办啊？</h2>
+<blockquote>
+<p>我的1.12显示任务书失效</p>
+</blockquote>
+<p>这是Wynntils太蠢逼的问题。</p>
+<p>你可以在ESC菜单中找到tils的设置，找到如下界面，全关闭即可<br>
+<img src="/assets/img/qa4.jpg" alt="" loading="lazy"></p>
 </div></template>
 
 
