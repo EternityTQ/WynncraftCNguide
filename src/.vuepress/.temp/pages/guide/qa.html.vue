@@ -56,8 +56,22 @@
 <p>我的信标全是镐子/稿子/我的任务书显示错误</p>
 </blockquote>
 <p>你的服务器资源包版本太低了。</p>
-<p><img src="/assets/img/qa5.jpg" alt="" loading="lazy"><br>
-在服务器设置界面勾选启用服务器资源包，即可自动更新</p>
+<figure><img src="/assets/img/qa5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>在服务器设置界面勾选启用服务器资源包，即可自动更新你的资源包</p>
+<h2 id="我的每日任务领取消息刷上去了怎么办" tabindex="-1"><a class="header-anchor" href="#我的每日任务领取消息刷上去了怎么办" aria-hidden="true">#</a> 我的每日任务领取消息刷上去了怎么办？</h2>
+<blockquote>
+<p>Objective/我的每周任务领取不了/周常/日常</p>
+</blockquote>
+<p>如果你的日常周常任务做完后，领取消息被刷上去了</p>
+<p>输入<code v-pre>/daily</code>来领取你的每日任务奖励</p>
+<p>输入<code v-pre>/guild</code>来领取周常奖励</p>
+<h2 id="我的任务道具不见了怎么办" tabindex="-1"><a class="header-anchor" href="#我的任务道具不见了怎么办" aria-hidden="true">#</a> 我的任务道具不见了怎么办？</h2>
+<blockquote>
+<p>Quest Item</p>
+</blockquote>
+<p>一般来说，如果不是刻意作死，你是丢弃不了任务道具的</p>
+<p>你可以在银行里面查找是否放在某处了</p>
+<p>如果确定丢失了，可以输入<code v-pre>/fixquests</code>来找回所有丢失的任务道具</p>
 </div></template>
 
 

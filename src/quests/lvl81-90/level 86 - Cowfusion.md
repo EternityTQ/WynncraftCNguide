@@ -3,6 +3,9 @@
 :::warning 
 此页面有待更新！
 :::
+
+前置任务：[Tunnel Trouble ( level 6 )](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html)
+
 1.跟Ranol对话
 
 2.去前面的实验室[803,50,-5592]

@@ -4,6 +4,7 @@
 <p class="hint-container-title">注意</p>
 <p>此页面有待更新！</p>
 </div>
+<p>前置任务：<RouterLink to="/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html">Tunnel Trouble ( level 6 )</RouterLink></p>
 <p>1.跟Ranol对话</p>
 <p>2.去前面的实验室[803,50,-5592]</p>
 <p>3.跟Veekhat对话[796,48,-5620]</p>
