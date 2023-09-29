@@ -1,21 +1,45 @@
 <template><div><h1 id="the-lost-level-85" tabindex="-1"><a class="header-anchor" href="#the-lost-level-85" aria-hidden="true">#</a> The Lost (level 85)</h1>
 <p><strong>失联</strong></p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>本页面有待更新</p>
+<p>1.跟<em>Dejol</em>说话<code v-pre>[452 28 -4456]</code></p>
+<blockquote>
+<p>你可以找一下巨大的蓝色旗帜</p>
+</blockquote>
+<p>2.在附近通过红色旗帜找到<em>Dejol</em>的队友</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p><img src="/assets/img/lvl85-1.jpg" alt="" loading="lazy"><br>
+其实可以沿着山路一直走上去，就可以依次找到三个队友了</p>
+<p>下面的攻略也会按照这个顺序编写</p>
 </div>
-<p>1.跟Dejol说话(蓝色旗帜下)</p>
-<p>2~6找到Dejol的队员(红色旗帜)<br>
-Ansei <a href="%E6%88%91%E6%98%AF%E4%BB%8Edejol%E8%A5%BF%E8%BE%B9%E5%B1%B1%E8%B7%AF%E4%B8%8A%E5%8E%BB%E7%9A%84%EF%BC%8C%E8%BF%99%E5%B1%B1%E8%B7%AF%E7%9C%9F%E7%9A%84%E6%8A%98%E8%BD%AC%E5%A4%AA%E6%80%A5">479, 81, -4347</a><br>
-Felim <a href="%E5%9C%A8%E4%B8%80%E4%B8%AA%E6%B4%9E%E7%A9%B4%E9%87%8C%EF%BC%8C%E6%9C%89%E4%B8%AA90%E7%9A%84%E6%80%AA%EF%BC%8C%E7%9B%B4%E6%8E%A5%E5%86%B2%E8%BF%9B%E5%8E%BB%E5%B0%B1%E8%A1%8C">294, 87, -4541</a><br>
-Kofis <a href="%E8%BF%87%E6%A1%A5%E5%B0%B1%E6%98%AF%E4%BA%86">505, 51, -4463</a><br>
-Sytis<a href="%E4%B8%80%E5%BA%A7%E8%A2%AB%E6%80%AA%E5%8D%A0%E9%A2%86%E7%9A%84%E5%A1%94%E4%B8%8A%EF%BC%8C%E4%BD%A0%E5%8F%AF%E4%BB%A5%E4%BB%8E%E4%B8%9C%E8%BE%B9%E6%B2%BF%E7%9D%80%E5%B1%B1%E8%B7%AF%E4%B8%8A%E5%8E%BB">324, 156, -4526</a><br>
-Yuge <a href="%E8%A6%81%E8%B7%91%E9%85%B7%E4%B8%8A%E5%8E%BB%EF%BC%8C%E6%97%81%E8%BE%B9%E6%98%AFsytis%E7%9A%84%E5%A1%94">335, 128, -4488</a></p>
-<p>7.回去Dejol那里</p>
-<p>奖励<br>
-1575000 经验<br>
-2048 绿宝石<br>
-Canyon Chart(地图)</p>
+<p>3.在<code v-pre>[447 59 -4507]</code>找到<em>Fetu</em>，他被巨鸟抓走了，想办法救他下来</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>为了救出<em>Fetu</em>，你需要在附近找到四个鸟蛋</p>
+<p>如果你没有触发剧情，可以走远点再次来到坐标处触发！</p>
+<p>鸟蛋分别位于：</p>
+<ul>
+<li><code v-pre>[451 54 -4492]</code>(鸟巢下面的石头)</li>
+<li><code v-pre>[457 58 -4513]</code>(树叶下面)</li>
+<li><code v-pre>[445 59 -4515]</code>(桥旁边)</li>
+<li><code v-pre>[440 61 -4502]</code>(该坐标为跑酷起点，通过跑酷即可看到第四个鸟蛋)</li>
+</ul>
+<p>完成后，对着投掷鸟蛋的触发点右键即可完成任务</p>
+</div>
+<p>4.继续前进，来到第二座红色旗帜下<code v-pre>[338 104 -4463]</code>，通过一段山路跑酷，注意绿色平台会触发地震，别给整下去了</p>
+<p>一路跟着棕色地毯走就行，然后和<em>Yuge</em><code v-pre>[347 147 -4482]</code>对话，左键推他下去</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如果你跟下来后没在水池边上看到Yuge，建议回到<code v-pre>[347 147 -4482]</code>后/class</p>
+</div>
+<p>5.继续沿着山路走，来到第三座红色旗帜附近<code v-pre>[328 123 -4352]</code>，在屋子内找到<em>Gordon</em>，触发地震剧情</p>
+<p>6.收集绳索、木头、石头后做一个...投石机？然后和<em>Gordon</em>对话，选项任意，之后坐上去就行了</p>
+<p>7.回去<em>Dejol</em>那里</p>
+<p>奖励</p>
+<ul>
+<li>1575000 经验</li>
+<li>2048 绿宝石</li>
+<li>Canyon Chart(地图)</li>
+</ul>
 </div></template>
 
 
