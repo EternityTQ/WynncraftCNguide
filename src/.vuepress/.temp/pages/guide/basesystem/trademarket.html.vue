@@ -42,9 +42,6 @@
 </ul>
 <p>用鼠标左键点击该按钮就是下一种排序方法，鼠标右键点击则是上一种排序方法。</p>
 <h2 id="出售物品-绿色加号" tabindex="-1"><a class="header-anchor" href="#出售物品-绿色加号" aria-hidden="true">#</a> 出售物品(绿色加号)</h2>
-<blockquote>
-<p>如果你不知道这个小标题是咋回事，可以连着上面的内容一起往下看看？</p>
-</blockquote>
 <figure><img src="/assets/img/TM3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这里会打开出售界面。</p>
 <p>在背包里点击你想要出售的物品，物品就会进入待出售栏中，再点击一下即可取消</p>
@@ -58,6 +55,7 @@
 <p class="hint-container-title">提示</p>
 <p>若你安装了wynntils，你还可以在输入价格的时候以&quot;<code v-pre>__stx __le __eb</code>&quot;的形式来输入</p>
 <p>tils会帮你自动折算为数值填入</p>
+<p>举个例子：在输入价格的时候输入<code v-pre>7.5le</code>，则tils会自动帮你填入<code v-pre>30720</code>的数值。</p>
 </div>
 <p>都确认完毕后点击勾号来确认就可以出售了</p>
 <p>如果你不确定价格，你还可以通过查看价格确认(书与笔)来参考价格</p>
@@ -69,7 +67,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>对于下方的Trade Shares，对你来说应该不是特别重要的内容。</p>
-<p>如果你实在在意，可以跳到这一章去了解一下</p>
+<p>如果你实在在意，可以跳到<RouterLink to="/guide/VIP.html#sliverbull-share">这一章</RouterLink>去了解一下</p>
 </div>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>

@@ -1,4 +1,9 @@
-<template><div><p>Raid(袭击)是一种特殊的多人高难副本，您可以在Raid中获取到大量资源，且对于完整游戏体验来说，Raid是必要的游戏内容。</p>
+<template><div><div class="hint-container warning">
+<p class="hint-container-title">待施工的页面！</p>
+<p>此页面内容尚在施工</p>
+<p>请知悉！</p>
+</div>
+<p>Raid(袭击)是一种特殊的多人高难副本，您可以在Raid中获取到大量资源，且对于完整游戏体验来说，Raid是必要的游戏内容。</p>
 <p>在这里，我会对Raid进行详尽的讲解，包括如何解锁各个Raid，以及各个Raid的机制、奖励等。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>

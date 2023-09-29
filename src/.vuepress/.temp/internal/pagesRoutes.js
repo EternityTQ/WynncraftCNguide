@@ -4,7 +4,7 @@ export const pagesRoutes = [
   ["v-4180a5c8","/guide/beforegame.html",{"y":"a","t":"开始游戏前","i":"gamepad"},[":md"]],
   ["v-1b6bc44d","/guide/class.html",{"y":"a","t":"职业与分支","i":"hat-wizard"},[":md"]],
   ["v-46b6f63f","/guide/developmentroute.html",{"y":"a","t":"发展路线","i":"route"},[":md"]],
-  ["v-6e52814b","/guide/dungeon.html",{"y":"a","t":"副本","i":"dragon"},[":md"]],
+  ["v-6e52814b","/guide/dungeon.html",{"y":"a","t":"地牢","i":"dragon"},[":md"]],
   ["v-93a7e888","/guide/earnle.html",{"y":"a","t":"如何赚钱","i":"coins"},[":md"]],
   ["v-28bebabf","/guide/identification.html",{"y":"a","t":"词条介绍","i":"magnifying-glass"},[":md"]],
   ["v-2e1b3ac2","/guide/lootrun.html",{"y":"a","t":"Lootrun","i":"wheelchair-move"},[":md"]],
