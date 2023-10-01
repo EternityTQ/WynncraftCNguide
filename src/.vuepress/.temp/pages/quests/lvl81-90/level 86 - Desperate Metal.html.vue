@@ -4,7 +4,7 @@
 <p class="hint-container-title">注意</p>
 <p>此页面有待更新！</p>
 </div>
-<p>1跟Phinas在Corkus上对话<code v-pre>{-1672 Y 38 Z -2083}</code></p>
+<p>1跟<em>Phinas</em>在<strong>Corkus</strong>南边对话<code v-pre>[-1672 38 -2083]</code></p>
 <p>2跟着地上的工具到三个不同的洞穴里 杀掉boss并拿起掉落物<code v-pre>{有湖的洞可能解谜很麻烦 wiki攻略https://wiki.wynncraft.com/index.php?title=File:Oie_wH86FqEhKBWV.png }</code>这截图技术零分↓</p>
 <p>3把掉落物给Phinas</p>
 <p>4去Nettik的灯塔并跟他对话</p>

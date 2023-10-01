@@ -1,44 +1,45 @@
 <template><div><h1 id="cowfusion-level-86" tabindex="-1"><a class="header-anchor" href="#cowfusion-level-86" aria-hidden="true">#</a> Cowfusion (Level 86)</h1>
 <p><strong>变牛记</strong></p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>此页面有待更新！</p>
-</div>
 <p>前置任务：<RouterLink to="/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html">Tunnel Trouble ( level 6 )</RouterLink></p>
-<p>1.跟Ranol对话</p>
-<p>2.去前面的实验室[803,50,-5592]</p>
-<p>3.跟Veekhat对话[796,48,-5620]</p>
-<p>4.试图把牛带走</p>
-<ol start="5">
-<li>？？？？？？？</li>
-</ol>
-<p>6.跟human对话(你变成牛了)</p>
-<p>7.跟Veekhat对话</p>
-<p>8.找到Ranol[649,32-9381]</p>
-<p>9.跟Ibele(就是旁边的牛)对话</p>
-<p>10.找到牛的秘密巢穴(对面有个牛棚600,-9375)</p>
-<p>11.向东走找到这个巢穴的负责人</p>
-<p>12.跟Drale对话</p>
-<p>13.去Drale的取奶机里(100,-9378墙上有按钮)</p>
-<p>14.Wait To Be Milked</p>
-<p>15.告诉Drale</p>
-<p>16.拿着[1 Drale’s Permission]给守卫(Cow Guard,45,-9378)</p>
-<p>17.去Drale后面的房间拿走一个<a href="%E6%8C%89%E5%8F%B3%E8%BE%B9%E5%A2%99%E4%B8%8A%E6%8C%89%E9%92%AE%E5%BC%80%E9%97%A8">1 Sacred Hay</a></p>
-<p>18.听取避难所里的忠告然后离开</p>
-<p>19.到[503,51,-10031]的洞穴里</p>
-<p>20.找到能炸掉巨石的火药(418,-10090)，扔到(461,10082)</p>
-<p>21.进去通道，慢慢走慢慢听</p>
-<p>22.离开通道</p>
-<p>23.等待</p>
-<p>24.调查Veekhats的地下实验室</p>
-<p>25.击败牛头人Veekhat，拿着[1 Veekhat’s Cabinet Key]和漏斗对话,然后撞上那彩色玻璃墙(小心，boss攻击力比较高)</p>
-<p>26missing</p>
-<p>27.回去Ranol那里</p>
-<p>奖励<br>
-2300000 经验<br>
-4096 绿宝石<br>
-Veekhat's Udders<br>
-Veekhat's Horns(这2个是套装)</p>
+<p>1.跟Ranol对话<code v-pre>[768 45 -5425]</code></p>
+<p>2.往北走，找路进入实验室[803,50,-5592]</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>跟着右边的棕色地毯就能找到门的开关</p>
+</div>
+<p>3.进入实验室，进入实验舱内带走钥匙，然后...</p>
+<p>你变成牛了。</p>
+<p>4.回去找Ranol</p>
+<p>5.和栅栏里面的<em>Suspicous Cow</em>对话，选项选1或3</p>
+<p>6.把干草堆推到有台阶和栅栏的地方，让你可以走上去(右键推)</p>
+<p>第二个地方这么推，然后从旁边走上来<br>
+<img src="/assets/img/lvl86-1.jpg" alt="" loading="lazy"></p>
+<p>7.进到谷仓里面，找到下图按钮，按下去等一会就行<br>
+<img src="/assets/img/lvl86-2.jpg" alt="" loading="lazy"></p>
+<p>8.和<em>Receptionist</em>对话</p>
+<p>9.沿着走廊一直走到走廊尽头找到Drale</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>这里的选项不会影响奖励</p>
+<p>但是会稍微影响到后续的对话</p>
+<p>就不细讲了，有兴趣可以查阅wiki</p>
+</div>
+<p>10.离开焚化炉</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>这像一个小型地牢，慢慢杀出去就好了</p>
+<p>虽然还是不能跳跃</p>
+<p>注意最终BOSS不能直接打，要引诱它经过十次火堆</p>
+<p>有点疼的，血药得备好</p>
+</div>
+<p>11.和<em>worker</em>对话，进入管道</p>
+<p>12.和<em>Drale</em>对话，回到实验室</p>
+<p>13.进入实验舱，然后再次和Drale对话</p>
+<p>奖励</p>
+<ul>
+<li>2300000 经验</li>
+<li>4096 绿宝石</li>
+</ul>
 </div></template>
 
 

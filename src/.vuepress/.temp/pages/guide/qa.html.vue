@@ -53,7 +53,7 @@
 <img src="/assets/img/qa4.jpg" alt="" loading="lazy"></p>
 <h2 id="我的任务书全是红叉该怎么办" tabindex="-1"><a class="header-anchor" href="#我的任务书全是红叉该怎么办" aria-hidden="true">#</a> 我的任务书全是红叉该怎么办？</h2>
 <blockquote>
-<p>我的信标全是镐子/稿子/我的任务书显示错误</p>
+<p>我的信标全是镐子/稿子/我的任务书显示错误/材质包/如何更新资源包？</p>
 </blockquote>
 <p>你的服务器资源包版本太低了。</p>
 <figure><img src="/assets/img/qa5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
