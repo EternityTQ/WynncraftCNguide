@@ -64,7 +64,7 @@
 </blockquote>
 <p>如果你的日常周常任务做完后，领取消息被刷上去了</p>
 <p>输入<code v-pre>/daily</code>来领取你的每日任务奖励</p>
-<p>输入<code v-pre>/guild</code>来领取周常奖励</p>
+<p>输入<code v-pre>/guild rewards</code>来领取周常奖励</p>
 <h2 id="我的任务道具不见了怎么办" tabindex="-1"><a class="header-anchor" href="#我的任务道具不见了怎么办" aria-hidden="true">#</a> 我的任务道具不见了怎么办？</h2>
 <blockquote>
 <p>Quest Item</p>
