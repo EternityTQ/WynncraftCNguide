@@ -1,6 +1,10 @@
 <template><div><h1 id="level" tabindex="-1"><a class="header-anchor" href="#level" aria-hidden="true">#</a> ??? (level ???)</h1>
 <p><strong>来自疯狂科学家的解密挑战</strong></p>
 <div class="hint-container warning">
+<p class="hint-container-title">恐怖任务</p>
+<p>本任务部分阶段内含跳吓</p>
+</div>
+<div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>本任务为多人合作解密任务，任务途中在游戏内全程没有任何提示</p>
 <p>在开始任务前，强烈建议身上携带若干Detlas和Cinfras卷轴！</p>
@@ -238,7 +242,7 @@
 <p>之后你可以通过这个地方使用羽毛来传送回Lab N</p>
 </div>
 <h2 id="阶段四" tabindex="-1"><a class="header-anchor" href="#阶段四" aria-hidden="true">#</a> ??? - 阶段四</h2>
-<p><strong>这个阶段不再需要额外玩家</strong></p>
+<p><strong>这个阶段一个人就可以完成</strong></p>
 <p>当通过了Lab N的谜题后，快速前往Cinfras附近找到白色陨石<code v-pre>[7 42 -5018]</code>，然后把红黄蓝的陨石碎片丢进棕色地毯<code v-pre>[7 43 -5019]</code>，进入陨石(注意，门开的时间很短)，然后用上面提到的钥匙在后面开门</p>
 <blockquote>
 <p>红黄蓝陨石碎片一定要接近同时丢！</p>

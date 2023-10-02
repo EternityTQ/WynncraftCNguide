@@ -1,5 +1,9 @@
 <template><div><h1 id="the-canary-calls-level-86" tabindex="-1"><a class="header-anchor" href="#the-canary-calls-level-86" aria-hidden="true">#</a> The Canary Calls (level 86)</h1>
 <p><strong>金丝雀的呼唤</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">恐怖任务</p>
+<p>本任务部分阶段内含跳吓</p>
+</div>
 <p>1到<strong>Thesead</strong>矿洞外看看发生了什么<code v-pre>[677 78 -5017]</code></p>
 <p>2.进入煤矿，左转上山，和<em>Chief Clight</em>对话<code v-pre>[734 104 -4996]</code></p>
 <blockquote>
@@ -60,7 +64,7 @@
 <p>boss一共有两个阶段</p>
 <p>第一阶段是躲避球，直接躲开就行了，伤害不高</p>
 <p>第二阶段是拆塔，场边会刷出一圈水晶</p>
-<p>注意你此时仍然使用技能，但是仍然可以左键对水晶造成伤害</p>
+<p>注意你此时仍然无法使用技能，但是可以左键对水晶造成伤害</p>
 <p>在打剩大约3个水晶的时候，中心会刷出一个信标，必须快速击破，否则会直接打残玩家</p>
 <p>在结束后，BOSS会问你是否终结它，如果选择是，则打10下，如果选择否，会不停问这个问题，直到选了10次否。。。</p>
 <p>需要注意的是，BOSS在最后有可能会飞到天上去，这就没救了，只能/class重新来过，然后再被跳吓一次。</p>
