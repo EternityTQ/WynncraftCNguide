@@ -22,6 +22,7 @@
 <p class="hint-container-title">提示</p>
 <p>除了秘密发现以外，你都可以通过单击图标来追踪目标</p>
 <p>游戏内会以信标的形式显示目标与你的相对位置</p>
+<p>请注意，未到指定等级是无法追踪目标的</p>
 </div>
 <h2 id="quest" tabindex="-1"><a class="header-anchor" href="#quest" aria-hidden="true">#</a> Quest</h2>
 <p>信标颜色：绿色</p>
@@ -68,7 +69,8 @@
 <p>每个洞穴内都一定会含有T3~T4的宝箱，而且数量可能不止一个</p>
 <p>如果你希望改善装备的话，不妨打开任务书，通过寻找洞穴来得到更新装备的机会</p>
 <p>注意！已经完成的洞穴同样无法再次追踪</p>
-<p>因此强烈建议在洞穴门口使用小地图模组或者tils自带的地图来进行标记</p>
+<p>因此强烈建议第一次导航完成后<br>
+在洞穴门口使用小地图模组或者tils自带的地图来进行标记</p>
 <h2 id="dungeon" tabindex="-1"><a class="header-anchor" href="#dungeon" aria-hidden="true">#</a> Dungeon</h2>
 <p>信标颜色：红色</p>
 <p>如果你实在不清楚某个副本的解锁条件或者地理位置的话</p>

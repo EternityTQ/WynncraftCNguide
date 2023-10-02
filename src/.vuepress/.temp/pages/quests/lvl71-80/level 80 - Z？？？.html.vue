@@ -2,17 +2,13 @@
 <p><strong>来自疯狂科学家的解密挑战</strong></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>蓝色陨石和黄色陨石尚未完善，请知悉</p>
-</div>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
 <p>本任务为多人合作解密任务，任务途中在游戏内全程没有任何提示</p>
 <p>在开始任务前，强烈建议身上携带若干Detlas和Cinfras卷轴！</p>
 </div>
 <p>在开始流程前，先去准备好这三样东西</p>
 <p><RouterLink to="/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html">Memory Paranoia</RouterLink>中在儿子射壁炉的场景拿到汤勺</p>
 <p><RouterLink to="/quests/lvl71-80/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html">The Bigger Picture</RouterLink>中先去洞穴入口<code v-pre>[-172 46 -4395]</code>缩小自己后，再去<code v-pre>[-305 91 -7705]</code>拿到Tiny Mushroom</p>
-<p>然后要去Skien Island拿到一幅画<code v-pre>[388 87 -3529]</code></p>
+<p>然后要去<strong>Skien Island</strong>拿到一幅画<code v-pre>[388 87 -3529]</code></p>
 <p>只要有任意玩家准备好这三样东西就行了</p>
 <p>你可以多屯点，以后就不用再跑一趟去拿了</p>
 <h2 id="阶段一" tabindex="-1"><a class="header-anchor" href="#阶段一" aria-hidden="true">#</a> ??? - 阶段一</h2>
@@ -21,22 +17,44 @@
 <p>三名玩家需要分别前往红黄蓝三个陨石点，完成解密后一起站在指定位置，方可传送至接取任务的地方</p>
 <h3 id="蓝色陨石" tabindex="-1"><a class="header-anchor" href="#蓝色陨石" aria-hidden="true">#</a> 蓝色陨石</h3>
 <p>前往<strong>Aldorei Valley Outskirts</strong><code v-pre>[-754 102 -4416]</code></p>
-<p>打死下图的NPC，拿到一个锄头，当拿着锄头时，玩家可以推动田间的干草捆</p>
-<figure><img src="/assets/img/lvl80-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>打死下图的NPC，拿到一个锄头，当拿着锄头时，玩家可以推动田间的干草捆(靠近就行)</p>
+<figure><img src="/assets/img/lvl80-13.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>将干草堆推动成如下的形状</p>
 <figure><img src="/assets/img/lvl80-2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>完成后会出现一个限时跑酷，通过跑酷可以来到瀑布上，此时一面墙会破开，进去即可</p>
-<p>如果你来得及的话，完全可以直接通过瀑布游上去来到暗门内</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>似乎位置也需要一样，注意看清楚了</p>
+<p>如果推错了，可以使用/class来重置</p>
+</div>
+<p>完成后会出现一个由红色粒子组成的平台构成的限时跑酷</p>
+<p>同时你会获得跳跃提升buff</p>
+<p>通过跑酷可以来到瀑布上<code v-pre>[-765 148 -4352]</code>，此时一面墙会破开，进去即可</p>
+<p>如果你来得及的话，完全可以直接通过瀑布游上去来到暗门内(直接用位移技能就行了...)</p>
 <p>然后会进入一个记忆游戏，五个回合，你需要在记忆环节过后复原形状，通过后沿着生成的道路直接走即可</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>可以使用截图</p>
 </div>
 <p>然后在房间内找到蓝色羊毛，丢进铁栏杆装置内，进入传送装置后即可传送至流星区域</p>
-<p>先在流星区域获得蓝色陨石碎片(非常重要)</p>
-<p>然后往下走，有块比较大的平台（所有陨石都是）然后水里按按钮，门就开了（持续很久不用慌）</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>羊毛可以在从<code v-pre>[-815 123 -4330]</code>进入的洞穴内找到</p>
+<p>铁栏杆装置如下图所示</p>
+<figure><img src="/assets/img/lvl80-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</div>
+<p>先在流星区域获得蓝色陨石碎片</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>陨石碎片非常重要！</p>
+<p>强烈建议在这里多打几个</p>
+</div>
+<p>然后往下走，有块比较大的平台（所有陨石都是）</p>
+<p>然后找到下图的地方<br>
+<img src="/assets/img/lvl80-14.jpg" alt="" loading="lazy"></p>
+<p>水里有个按钮，按下去后就会开扇门，进去就是了</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
+<p>拿到<code v-pre>Meteor shard</code>之后在流星区域class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
 <p>如果你在这里掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
 </div>
 <h3 id="红色陨石" tabindex="-1"><a class="header-anchor" href="#红色陨石" aria-hidden="true">#</a> 红色陨石</h3>
@@ -46,7 +64,7 @@
 </div>
 <p>按照以下步骤做<br>
 1.进入<code v-pre>[-2084 77 -4473]</code>的洞内，在上面的脚手架找到钥匙</p>
-<p>2.出来后一路直走，来到<code v-pre>[-1914 77 -4472]</code>的洞内，将拿到的钥匙丢入漏斗内</p>
+<p>2.出来后一路直走，来到<code v-pre>[-1914 77 -4472]</code>的洞内，将拿到的钥匙丢入漏斗内，然后触发一下机关在下面直到看到下面的洞有矿车经过</p>
 <p>3.进入旁边的矿洞，来到入口旁边的平台上<code v-pre>[-1879 80 -4422]</code>，会有一辆矿车，推它！<br>
 <img src="/assets/img/lvl80-8.jpg" alt="" loading="lazy"></p>
 <p>4.快要到铁道岔路的时候停下来，按按钮，然后快速推过岔路<br>
@@ -65,25 +83,26 @@
 <figure><img src="/assets/img/lvl80-4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>10.找红色羊毛<code v-pre>[115 129 -5716]</code>丢入如图所示的装置内，进入传送装置传送至流星区域<br>
 <img src="/assets/img/lvl80-12.jpg" alt="" loading="lazy"></p>
-<p>11.拿到shard后进入陨石内待命<br>
-从shard的刷新点往下走，来到<code v-pre>[-2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
+<p>11.拿到<code v-pre>Meteor shard</code>后进入陨石内待命<br>
+从<code v-pre>Meteor shard</code>的刷新点往下走，来到<code v-pre>[-2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>拿到shard之后在流星区域class会导致身上的shard消失</p>
+<p>拿到<code v-pre>Meteor shard</code>之后在流星区域class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
 <p>如果你在这里掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
 </div>
 <h3 id="黄色陨石" tabindex="-1"><a class="header-anchor" href="#黄色陨石" aria-hidden="true">#</a> 黄色陨石</h3>
 <p>1.前往<code v-pre>[-1357 47 -5575]</code>的洞内敲完花盆</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
+<p>中间桥上有1个</p>
 <p>地图房间有2个</p>
-<p>棚上面有1个，沿着树叶爬上去还有1个</p>
-<p>洞口入口的水流藏着1个</p>
-<p>木楼梯上有1个</p>
-<p>桥上有1个</p>
-<p>地图房间外的货物有1个</p>
+<p>地图房间旁边T1宝箱有1个</p>
+<p>地图房间旁边的藤蔓上去有1个</p>
+<p>楼梯右下方有1个</p>
+<p>左边楼梯上去T1宝箱旁边有1个</p>
 </div>
-<p>敲完花盆往洞内的地图扔一个物品，会有音效，接着去洞外面找入口<code v-pre>[-1341 59 -5603]</code></p>
+<p>敲完花盆往洞内的地图扔一个物品，会有铁砧的音效(比较响)，接着去洞外面找入口<code v-pre>[-1341 59 -5603]</code></p>
+<p>如果听到像熄火的声音那就是你没打完花盆</p>
 <ol start="2">
 <li></li>
 </ol>
@@ -136,14 +155,24 @@
 <p>即将箭头所指的蓝色方块往左移动1格即可</p>
 <p>一直重复这个操作，直到胜利为止</p>
 </div>
-<p>3.找黄色羊毛丢铁栏杆的装置内，进入传送装置传送至流星区域</p>
-<p>4.找到碎片后找落脚点往下走，穿过岩浆进入陨石内待命</p>
+<p>3.找黄色羊毛<code v-pre>[-1430 57 -5631]</code>丢下图铁栏杆的装置内，进入传送装置传送至流星区域<br>
+<img src="/assets/img/lvl80-15.jpg" alt="" loading="lazy"><br>
+4.找到碎片后找落脚点往下走，穿过岩浆进入陨石内待命</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>拿到<code v-pre>Meteor shard</code>之后在流星区域class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
+<p>如果你在这里掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
+</div>
 <p>当三个人全部进入陨石内待命后，同时踩下压力板，即可传送至接取任务的地点</p>
 <p>和面前的<em>Computer</em>对话</p>
 <p>切记切记，只有接取任务后才能继续下面的步骤</p>
 <h2 id="阶段二" tabindex="-1"><a class="header-anchor" href="#阶段二" aria-hidden="true">#</a> ??? - 阶段二</h2>
 <p><strong>这个阶段需要一名玩家</strong></p>
 <p>1.收集齐开头提到过的三个物品后，前往Yahya的家<code v-pre>[-282 69 -1694]</code></p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>建议使用Detlas传送卷轴</p>
+</div>
 <p>由一个人拿着，此时就会触发一小段剧情，由拿有物品的玩家右键屋子内的蘑菇，然后会开启暗门，进入Lab Y</p>
 <p>2.在Lab Y内完成两个小解密</p>
 <p>①、见下图</p>
@@ -162,6 +191,8 @@
 <p>三阶段对配合要求很高</p>
 <p>如果你是不会做或者没做过，最好听指挥</p>
 </div>
+<p>刚进到Lab N时，地上会刷出羽毛</p>
+<p>羽毛不是必需品，但是后面如果想要快速回到Lab N时，需要用到羽毛</p>
 <p>在这个谜题中，总共有7个房间，每个房间至少有一个有彩色标记的压力板，踩在压力板上时你的位置会被锁定，可以用跳跃来解锁。</p>
 <p>当<strong>所有</strong>对应颜色的压力板均激活时，对应颜色的门将会解锁</p>
 <div class="hint-container tip">
@@ -202,7 +233,9 @@
 <p>进入传送装置后，所有人都会被传送至<strong>Rooster Island</strong>的地下室</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>之后可以通过这个地方传送回Lab N</p>
+<p>如果你没做<RouterLink to="/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html">Cluck Cluck（level 23）</RouterLink>任务，那么你在这个地方将会被困住</p>
+<p>除非使用传送卷轴或者/kill</p>
+<p>之后你可以通过这个地方使用羽毛来传送回Lab N</p>
 </div>
 <h2 id="阶段四" tabindex="-1"><a class="header-anchor" href="#阶段四" aria-hidden="true">#</a> ??? - 阶段四</h2>
 <p><strong>这个阶段不再需要额外玩家</strong></p>

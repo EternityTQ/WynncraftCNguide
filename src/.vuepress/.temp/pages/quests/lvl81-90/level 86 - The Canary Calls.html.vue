@@ -1,4 +1,4 @@
-<template><div><h1 id="the-canary-calls-level-85" tabindex="-1"><a class="header-anchor" href="#the-canary-calls-level-85" aria-hidden="true">#</a> The Canary Calls (level 85)</h1>
+<template><div><h1 id="the-canary-calls-level-86" tabindex="-1"><a class="header-anchor" href="#the-canary-calls-level-86" aria-hidden="true">#</a> The Canary Calls (level 86)</h1>
 <p><strong>金丝雀的呼唤</strong></p>
 <p>1到<strong>Thesead</strong>矿洞外看看发生了什么<code v-pre>[677 78 -5017]</code></p>
 <p>2.进入煤矿，左转上山，和<em>Chief Clight</em>对话<code v-pre>[734 104 -4996]</code></p>
@@ -31,6 +31,7 @@
 <p><code v-pre>Old Drill</code>可用于左键挖掘圆石</p>
 <p>在开始挖掘后，你会发现地上有木地板的轨迹</p>
 <p><strong>跟着木地板走，你就能找到所有拉杆</strong></p>
+<p>前三个拉杆跟着木地板走就能找到</p>
 <p>然后你会来到一个放着tnt的房间，tnt是无限拿的不要紧。</p>
 <p>第四个拉杆在tnt房间右侧的深板岩里面，拿tnt炸开就可以了</p>
 <p>第五个拉杆在tnt房间直走，一样要用tnt炸开好几道墙，跟着木板走就行了</p>
