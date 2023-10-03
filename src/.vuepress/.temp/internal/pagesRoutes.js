@@ -141,7 +141,6 @@ export const pagesRoutes = [
   ["v-109f6de7","/quests/lvl81-90/level%2085%20-%20The%20Lost.html",{"y":"a","t":"The Lost (level 85)"},["/quests/lvl81-90/level 85 - The Lost.html","/quests/lvl81-90/level 85 - The Lost.md",":md"]],
   ["v-18cac336","/quests/lvl81-90/level%2086%20-%20Cowfusion.html",{"y":"a","t":"Cowfusion (Level 86)"},["/quests/lvl81-90/level 86 - Cowfusion.html","/quests/lvl81-90/level 86 - Cowfusion.md",":md"]],
   ["v-77508aae","/quests/lvl81-90/level%2086%20-%20Desperate%20Metal.html",{"y":"a","t":"Desperate Metal (Level 86)"},["/quests/lvl81-90/level 86 - Desperate Metal.html","/quests/lvl81-90/level 86 - Desperate Metal.md",":md"]],
-  ["v-bb4d497c","/quests/lvl81-90/level%2086%20-%20The%20Canary%20Calls.html",{"y":"a","t":"The Canary Calls (level 86)","i":"face-tired"},["/quests/lvl81-90/level 86 - The Canary Calls.html","/quests/lvl81-90/level 86 - The Canary Calls.md",":md"]],
   ["v-cf9efa00","/quests/lvl81-90/level%2087%20-%20Beyond%20the%20Grave.html",{"y":"a","t":"Beyond the Grave (Level 87)"},["/quests/lvl81-90/level 87 - Beyond the Grave.html","/quests/lvl81-90/level 87 - Beyond the Grave.md",":md"]],
   ["v-79d46800","/quests/lvl81-90/level%2087%20-%20Mixed%20Feelings.html",{"y":"a","t":"Mixed Feelings (Level 87)"},["/quests/lvl81-90/level 87 - Mixed Feelings.html","/quests/lvl81-90/level 87 - Mixed Feelings.md",":md"]],
   ["v-11815140","/quests/lvl81-90/level%2088%20-%20The%20Hidden%20City.html",{"y":"a","t":"The Hidden City (Level 88)"},["/quests/lvl81-90/level 88 - The Hidden City.html","/quests/lvl81-90/level 88 - The Hidden City.md",":md"]],
@@ -174,4 +173,5 @@ export const pagesRoutes = [
   ["v-6b6ab1a1","/quests/lvl71-80/",{"y":"p","t":"Lvl71 80"},[]],
   ["v-6d1f8e01","/quests/lvl81-90/",{"y":"p","t":"Lvl81 90"},[]],
   ["v-6bb4cab6","/quests/lvl91-100/",{"y":"p","t":"Lvl91 100"},[]],
+  ["v-bb4d497c","/quests/lvl81-90/level%2086%20-%20The%20Canary%20Calls.html",{"y":"a","t":"The Canary Calls (level 86)","i":"face-tired"},["/quests/lvl81-90/level 86 - The Canary Calls.html","/quests/lvl81-90/level 86 - The Canary Calls.md",":md"]],
 ]

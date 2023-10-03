@@ -285,8 +285,6 @@ export const pagesComponents = {
   "v-18cac336": defineAsyncComponent(() => import(/* webpackChunkName: "v-18cac336" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - Cowfusion.html.vue")),
   // path: /quests/lvl81-90/level%2086%20-%20Desperate%20Metal.html
   "v-77508aae": defineAsyncComponent(() => import(/* webpackChunkName: "v-77508aae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - Desperate Metal.html.vue")),
-  // path: /quests/lvl81-90/level%2086%20-%20The%20Canary%20Calls.html
-  "v-bb4d497c": defineAsyncComponent(() => import(/* webpackChunkName: "v-bb4d497c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - The Canary Calls.html.vue")),
   // path: /quests/lvl81-90/level%2087%20-%20Beyond%20the%20Grave.html
   "v-cf9efa00": defineAsyncComponent(() => import(/* webpackChunkName: "v-cf9efa00" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 87 - Beyond the Grave.html.vue")),
   // path: /quests/lvl81-90/level%2087%20-%20Mixed%20Feelings.html
@@ -351,4 +349,6 @@ export const pagesComponents = {
   "v-6d1f8e01": defineAsyncComponent(() => import(/* webpackChunkName: "v-6d1f8e01" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/index.html.vue")),
   // path: /quests/lvl91-100/
   "v-6bb4cab6": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb4cab6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/index.html.vue")),
+  // path: /quests/lvl81-90/level%2086%20-%20The%20Canary%20Calls.html
+  "v-bb4d497c": defineAsyncComponent(() => import(/* webpackChunkName: "v-bb4d497c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - The Canary Calls.html.vue")),
 }

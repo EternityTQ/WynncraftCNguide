@@ -11,10 +11,12 @@
 </div>
 <p>在开始流程前，先去准备好这三样东西</p>
 <p><RouterLink to="/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html">Memory Paranoia</RouterLink>中在儿子射壁炉的场景拿到汤勺</p>
-<p><RouterLink to="/quests/lvl71-80/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html">The Bigger Picture</RouterLink>中先去洞穴入口<code v-pre>[-172 46 -4395]</code>缩小自己后，再去<code v-pre>[-305 91 -7705]</code>拿到Tiny Mushroom</p>
-<p>然后要去<strong>Skien Island</strong>拿到一幅画<code v-pre>[388 87 -3529]</code></p>
+<p><RouterLink to="/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html">The Bigger Picture</RouterLink>中先去洞穴入口<code v-pre>[-201 37 -4553]</code>进入洞穴，在<code v-pre>[-167 47 -4394]</code>缩小自己后，再去<code v-pre>[-305 91 -7705]</code>拿到Tiny Mushroom</p>
+<p>然后要去<strong>Skien Island</strong>拿到一幅画<code v-pre>[371 84 -3512]</code>，注意入口在顶楼<code v-pre>[389 87 -3527]</code>，建议直接TP到顶楼然后进去，注意那个特别亮的石头是地图，直接穿过去就行</p>
 <p>只要有任意玩家准备好这三样东西就行了</p>
-<p>你可以多屯点，以后就不用再跑一趟去拿了</p>
+<p>在2.0版本后，这些材料均不会消耗！只用存一套就好了！</p>
+<p>但是如果你存的是老版本的材料，那么仍然会消耗，建议去存一套新的</p>
+<p>新版本材料的标识是有&quot;右键使用&quot;的字样</p>
 <h2 id="阶段一" tabindex="-1"><a class="header-anchor" href="#阶段一" aria-hidden="true">#</a> ??? - 阶段一</h2>
 <p><strong>这个阶段需要三名玩家</strong><br>
 <strong>但最好要四个人！！！方便一起完成后面的任务</strong></p>

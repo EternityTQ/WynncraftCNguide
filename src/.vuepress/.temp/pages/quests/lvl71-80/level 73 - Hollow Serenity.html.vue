@@ -3,6 +3,12 @@
 <blockquote>
 <p>编者注: 此任务大赞，强烈建议不看本攻略做一遍</p>
 </blockquote>
+<div class="hint-container warning">
+<p class="hint-container-title">恐怖任务</p>
+<p>本任务部分阶段内含跳吓</p>
+<p>同时氛围整体偏恐怖</p>
+<p>敬请留意。</p>
+</div>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>推荐游戏时间晚上来做这个任务，拉低亮度，效果更佳...</p>

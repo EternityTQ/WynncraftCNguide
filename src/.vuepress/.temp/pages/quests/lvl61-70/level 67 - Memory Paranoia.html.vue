@@ -1,31 +1,36 @@
 <template><div><h1 id="memory-paranoia-level-67" tabindex="-1"><a class="header-anchor" href="#memory-paranoia-level-67" aria-hidden="true">#</a> Memory Paranoia(level 67)</h1>
 <p><strong>偏执狂的回忆</strong></p>
-<p>1 在Caritat Mansion前找到Atisun[-1192 46 -5198]</p>
-<p>2 进入Caritat Mansion</p>
+<p>1 在Caritat Mansion前找到Atisun<code v-pre>[-1192 46 -5198]</code></p>
+<p>2 进入<em>Caritat Mansion</em></p>
 <p>3 知悉Caritat家族的故事，和Timmy Caritat<code v-pre>[-1238 14 -7745]</code>对话</p>
-<p>4 去地下室<code v-pre>[-1216 12 -7694]</code>回收图书室钥匙</p>
-<p>5 去Caritat Mansion图书室<code v-pre>[-1240 14 -7758]</code></p>
-<p>6 阅读<code v-pre>[-1532 4 -8063]``[-1518 5 -8050]``[-1521 4 -8031]``[-1555 4 -8030]``[-1564 5 -8041]</code>的笔记后去<code v-pre>[-1534 16 -8070]</code>的洞</p>
-<p>7 从壁炉<code v-pre>[-1473 9 -8448]</code>回收一个汤勺，前往[-1474 9 -8308]的厨房</p>
+<p>4 去地下室(进来右后方的位置下楼)<code v-pre>[-1216 12 -7694]</code>回收图书室钥匙</p>
+<p>5 去Caritat Mansion的图书室<code v-pre>[-1240 14 -7758]</code></p>
+<p>6 在房间内找到所有笔记，然后去<code v-pre>[-1534 16 -8070]</code>的洞</p>
+<div class="hint-container tip">
+<p class="hint-container-title">笔记位置</p>
+<p><code v-pre>[-1532 4 -8063]</code> <code v-pre>[-1518 5 -8050]</code> <code v-pre>[-1521 4 -8031]</code> <code v-pre>[-1555 4 -8030]</code> <code v-pre>[-1564 5 -8041]</code></p>
+<p>其实逛一圈就能全部找到，推荐自己逛，对着坐标一个个找太麻烦了</p>
+</div>
+<p>7 从壁炉<code v-pre>[-1473 9 -8448]</code>回收一个汤勺，然后离开图书馆，直走前往厨房<code v-pre>[-1474 9 -8308]</code></p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>这一步拿到的汤勺就是<RouterLink to="/quests/lvl71-80/level%2080%20-%20Z%EF%BC%9F%EF%BC%9F%EF%BC%9F.html">？？？</RouterLink>任务中的前置用品</p>
+<p>注意：拿一个就好了，三问中不会消耗</p>
+</div>
 <p>8 听Mr. Caritat的通告</p>
 <p>9 去厨房里</p>
 <p>10 逃出厨房(boss不用打，你打不死的，直接出去就可以继续)</p>
-<p>11 在<code v-pre>[-1242 5 -7897]</code>获得书房钥匙</p>
-<p>12 上二楼在做手边打开Mr. Caritat的书房</p>
-<p>13 进去书房(壁炉内部有按钮)(笔记说他把头转向壁炉)</p>
-<p>14 出去房间</p>
-<p>15 跟着魔的Mr. Caritat说话</p>
-<p>16 离开书房</p>
-<p>17 拿起钥匙去Tim的房间(在掉下的吊灯回收钥匙)</p>
-<p>18 进去Timothy的房间(房门是个NPC，听到踏板声就说明你走对地方</p>
-<p>19 在Tim的房间寻找主人房钥匙Tim打破的墙有主人房钥匙</p>
-<p>20 去主人房(门是个npc</p>
-<p>21 进去主人房</p>
-<p>22 从后门逃离(从哪里来就从哪里出去)</p>
-<p>23 探索地下室</p>
-<p>24 打败Mr. Caritat的遗骸</p>
-<p>25 从裂痕里逃出去</p>
-<p>26 跟Antisun说话</p>
+<p>11 在桌子上<code v-pre>[-1242 5 -7897]</code>获得书房钥匙</p>
+<p>12 上二楼在左手边打开Mr. Caritat的书房</p>
+<p>13 进去书房密室(右边壁炉内部有开门按钮)</p>
+<p>14 出去房间，跟着魔的Mr. Caritat说话</p>
+<p>15 找到Tim的房间钥匙(在一楼掉下的吊灯回收钥匙)</p>
+<p>16 进去Timo的房间(二楼上去右拐)</p>
+<p>17 剧情结束后，在Tim开出的洞里面拿到主卧钥匙</p>
+<p>18 去主人房(二楼另一边，书房继续往下走)</p>
+<p>19 从后门逃离(二楼上楼中间的大门)</p>
+<p>20 探索地下室，走到最里面触发剧情</p>
+<p>21 跟Antisun说话</p>
 <p>奖励</p>
 <ul>
 <li>375000 经验</li>
