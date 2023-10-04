@@ -72,6 +72,34 @@
 <p>一般来说，如果不是刻意作死，你是丢弃不了任务道具的</p>
 <p>你可以在银行里面查找是否放在某处了</p>
 <p>如果确定丢失了，可以输入<code v-pre>/fixquests</code>来找回所有丢失的任务道具</p>
+<h2 id="我被困住了怎么办" tabindex="-1"><a class="header-anchor" href="#我被困住了怎么办" aria-hidden="true">#</a> 我被困住了怎么办？</h2>
+<blockquote>
+<p>我进卡点了/我出不来了</p>
+</blockquote>
+<p>如果你被困在了任务场景或其他场景，可以尝试使用<code v-pre>/class</code></p>
+<p>如果<code v-pre>/class</code>也无效，则尝试使用<code v-pre>/kill</code></p>
+<p>90%的问题都能通过使用<code v-pre>/class</code>来解决</p>
+<h2 id="马匹要怎么获得" tabindex="-1"><a class="header-anchor" href="#马匹要怎么获得" aria-hidden="true">#</a> 马匹要怎么获得？</h2>
+<blockquote>
+<p>坐骑要怎么获得？</p>
+</blockquote>
+<p>在完成<RouterLink to="/quests/lvl11-20/level%2013%20-%20Stable%20Story.html">Stable Story (level 13)</RouterLink>任务后，你就可以获得马匹了</p>
+<h2 id="马匹要怎么升级" tabindex="-1"><a class="header-anchor" href="#马匹要怎么升级" aria-hidden="true">#</a> 马匹要怎么升级？</h2>
+<blockquote>
+<p>高级马要怎么获得？</p>
+</blockquote>
+<p>马共有四个品质：棕马、黑马、栗子马和白马。</p>
+<p>等级可以通过骑马提升，满级分别为10/20/30/40</p>
+<p>棕马、黑马、栗子马可以在一些特定的副本升级为原等级+5的马，同时转变成不可交易形态</p>
+<p>品质需要用两匹同品质的马在物品栏内的合成栏进行合成</p>
+<p>有20%的概率升级，50%的概率保级，30%的概率降级，其中棕马不会降级</p>
+<h2 id="丛林要怎么过去" tabindex="-1"><a class="header-anchor" href="#丛林要怎么过去" aria-hidden="true">#</a> 丛林要怎么过去？</h2>
+<blockquote>
+<p>Troms要怎么过去？</p>
+</blockquote>
+<figure><img src="/assets/img/qa6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>从如图所示的路径过去即可</p>
+<p>注意：这里是一座桥，伤害较高，建议骑马或者直接用技能冲过去</p>
 </div></template>
 
 

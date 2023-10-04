@@ -31,7 +31,7 @@
 </blockquote>
 <p>Wynntils是一个由玩家群体自行制作的专门用于大幅提升Wynncraft游戏体验的MOD</p>
 <p><a href="https://modrinth.com/mod/wynntils/" target="_blank" rel="noopener noreferrer">下载地址<ExternalLinkIcon/></a></p>
-<p>你只要在你的客户端内安一个wynntils即可愉快地开始游戏！</p>
+<p>你甚至只需要安装一个wynntils就可以愉快的开始游戏！</p>
 <p>Wynntils包含了游戏地图、装备鉴定度显示、特色HUD等多种功能</p>
 <p>与此同时，如果你实在懒得找客户端</p>
 <p>你可以在交流群内搜索&quot;cake&quot;，即可直接下载由大神配置好的客户端。</p>

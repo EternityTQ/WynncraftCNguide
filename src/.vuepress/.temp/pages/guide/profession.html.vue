@@ -4,6 +4,7 @@
 <p>在这里，我只会对副职进行简单的介绍（部分摘自moe_block的自制系统简介）。</p>
 <p>打开物品栏的指南针后，我们将鼠标移动至铁斧的图标上，可以看到我们所有的副职等级，<br>
 <img src="/assets/img/prof1.jpg" alt="" loading="lazy"></p>
+<p>副职主要分为<strong>采集</strong>和<strong>制作</strong>两大板块</p>
 <h2 id="采集" tabindex="-1"><a class="header-anchor" href="#采集" aria-hidden="true">#</a> 采集</h2>
 <p>想要提升采集等级，最开始你需要先找到<RouterLink to="/guide/npcs.html#tool-merchant">Tool Merchant</RouterLink></p>
 <p>Tool Merchant会出售1~2级的采集工具<br>
@@ -42,8 +43,8 @@
 <p>但此时你将不会得到任何采集原料</p>
 </div>
 <h2 id="制作" tabindex="-1"><a class="header-anchor" href="#制作" aria-hidden="true">#</a> 制作</h2>
-<p>在城镇中，我们会看到这样的东西，比如这个是药水制造的酿造台：<br>
-<img src="/assets/img/prof4.jpg" alt="每种制造业都有一个类似的工作台" loading="lazy"></p>
+<p>在城镇中，我们会看到这样的东西，比如这个是药水制造的酿造台：</p>
+<figure><img src="/assets/img/prof4.jpg" alt="每种制造业都有一个类似的工作台" tabindex="0" loading="lazy"><figcaption>每种制造业都有一个类似的工作台</figcaption></figure>
 <p>与其交互后即可打开制作GUI界面(每种制作副职都有一样的界面！)</p>
 <figure><img src="/assets/img/prof5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>在这个界面的左边两格，是用于存放原材料（即采集获得的材料）</p>
@@ -181,17 +182,6 @@
 <td></td>
 </tr>
 <tr>
-<td>种类</td>
-<td><strong>Ingot</strong></td>
-<td><strong>Gem</strong></td>
-<td><strong>Wood</strong></td>
-<td><strong>Paper</strong></td>
-<td><strong>Grain</strong></td>
-<td><strong>String</strong></td>
-<td><strong>Meat</strong></td>
-<td><strong>Oil</strong></td>
-</tr>
-<tr>
 <td>靴子　(纺织)</td>
 <td>1X</td>
 <td></td>
@@ -201,6 +191,17 @@
 <td>2X</td>
 <td></td>
 <td></td>
+</tr>
+<tr>
+<td>种类</td>
+<td><strong>Ingot</strong></td>
+<td><strong>Gem</strong></td>
+<td><strong>Wood</strong></td>
+<td><strong>Paper</strong></td>
+<td><strong>Grain</strong></td>
+<td><strong>String</strong></td>
+<td><strong>Meat</strong></td>
+<td><strong>Oil</strong></td>
 </tr>
 <tr>
 <td>指环　(饰品)</td>
@@ -216,24 +217,24 @@
 <tr>
 <td>手镯　(饰品)</td>
 <td></td>
-<td>1X</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td>2X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1X</td>
 </tr>
 <tr>
 <td>项链　(饰品)</td>
 <td></td>
-<td>1X</td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
 <td>3X</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td>1X</td>
 </tr>
 <tr>
 <td>药水</td>

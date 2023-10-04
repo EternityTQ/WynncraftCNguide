@@ -5,7 +5,7 @@
 <p>3 知悉Caritat家族的故事，和Timmy Caritat<code v-pre>[-1238 14 -7745]</code>对话</p>
 <p>4 去地下室(进来右后方的位置下楼)<code v-pre>[-1216 12 -7694]</code>回收图书室钥匙</p>
 <p>5 去Caritat Mansion的图书室<code v-pre>[-1240 14 -7758]</code></p>
-<p>6 在房间内找到所有笔记，然后去<code v-pre>[-1534 16 -8070]</code>的洞</p>
+<p>6 在房间内找到所有笔记，然后去上面的洞<code v-pre>[-1534 16 -8070]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">笔记位置</p>
 <p><code v-pre>[-1532 4 -8063]</code> <code v-pre>[-1518 5 -8050]</code> <code v-pre>[-1521 4 -8031]</code> <code v-pre>[-1555 4 -8030]</code> <code v-pre>[-1564 5 -8041]</code></p>

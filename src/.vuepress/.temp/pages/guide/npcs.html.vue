@@ -10,11 +10,13 @@
 <p>Liquid Merchant只有部分城镇存在。至少Ragni城是没有的。</p>
 <p>有Emerald Merchant的存在就必定有<code v-pre>Bank</code>(上图右侧的末影箱)，你肯定能在Emerald Merchant附近找到Bank</p>
 <h3 id="银行" tabindex="-1"><a class="header-anchor" href="#银行" aria-hidden="true">#</a> 银行</h3>
-<p>银行能存储你的物品，并且还能随着战斗等级解锁购买更多页数的资格，总上限是21页</p>
-<figure><img src="/assets/img/bank3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>银行为账号共用，也就是说如果你创建了另一个角色，你仍然可以使用新角色在银行拿取上个角色存放的物品，反之一样。</p>
+<p>银行能存储你的物品，并且还能随着战斗等级解锁购买更多页数的资格</p>
+<figure><img src="/assets/img/bank4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>银行分为账号公用以及角色专用</p>
+<p>账号公用银行为全角色共享，但是角色银行之间不互通</p>
+<p>灵魂绑定的物品仅可放置在角色专用的银行中</p>
+<p>公用银行上限为21页，角色银行上限由rank决定，至高为10页</p>
 <p>但是需要注意的是，购买的价格会随着页数的增长越来越贵，中后期可以想一下自己是不是真的需要额外的存储空间(因为实在是太贵了)</p>
-<p>存储空间是非常重要的资源。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>Emerald Merchant的标志是绿宝石</p>
