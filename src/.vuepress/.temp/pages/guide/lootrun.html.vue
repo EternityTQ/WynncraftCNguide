@@ -205,7 +205,7 @@
 <p>结算效果等于直接放弃接下来所有挑战数</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>只有在成功完成4轮挑战后才算成功</p>
+<p>只有在成功完成4轮挑战后，整局lootrun才算成功</p>
 <p>在此之前若你失败过多次或找NPC直接结算，都会直接判Lootrun Failed且不会有任何奖励</p>
 </div>
 <h3 id="计时器" tabindex="-1"><a class="header-anchor" href="#计时器" aria-hidden="true">#</a> 计时器</h3>
@@ -321,7 +321,7 @@
 </tr>
 <tr>
 <td>红色信标</td>
-<td>只会连续出现1次</td>
+<td>只会连续出现1次；给予的不加时间的轮次从下一轮开始算起</td>
 </tr>
 </tbody>
 </table>
@@ -509,6 +509,22 @@
 </tr>
 </tbody>
 </table>
+<p>增益效果如下列所示</p>
+<ul>
+<li>生命上限</li>
+<li>生命恢复</li>
+<li>生命恢复%</li>
+<li>移动速度</li>
+<li>伤害</li>
+<li>元素伤害</li>
+<li>暴击伤害</li>
+<li>法术伤害</li>
+<li>属性点</li>
+<li>mana恢复</li>
+<li>战利品加成</li>
+<li>战利品质量</li>
+<li>生命窃取</li>
+</ul>
 <h3 id="任务" tabindex="-1"><a class="header-anchor" href="#任务" aria-hidden="true">#</a> 任务</h3>
 <p>在2.0.4版本中，新增加了任务系统</p>
 <p>在第4轮完成后，你可以从3个任务中选择一个进行接取</p>
