@@ -42,7 +42,8 @@
 <p>在wynntils中，你可以设置任务对话自动机翻</p>
 <figure><img src="/assets/img/qa2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>如上设置，在对话中你就可以看到机翻了。</p>
-<p>需要注意的是，如果你选了GOOGLEAPI，则翻译必须要开启加速器才能起效。</p>
+<p>需要注意的是，如果你选了GOOGLEAPI，则翻译必须要能连上谷歌翻译才能起效</p>
+<p>你可以<a href="https://51.ruyo.net/18131.html" target="_blank" rel="noopener noreferrer">参考这里<ExternalLinkIcon/></a>来解决连不上谷歌翻译的问题</p>
 <h2 id="_1-12没有任务书怎么办啊" tabindex="-1"><a class="header-anchor" href="#_1-12没有任务书怎么办啊" aria-hidden="true">#</a> 1.12没有任务书怎么办啊？</h2>
 <blockquote>
 <p>我的1.12显示任务书失效</p>
@@ -100,6 +101,11 @@
 <figure><img src="/assets/img/qa6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>从如图所示的路径过去即可</p>
 <p>注意：这里是一座桥，伤害较高，建议骑马或者直接用技能冲过去</p>
+<h2 id="这游戏可以组队玩吗" tabindex="-1"><a class="header-anchor" href="#这游戏可以组队玩吗" aria-hidden="true">#</a> 这游戏可以组队玩吗？</h2>
+<blockquote>
+<p>组队有什么收益/可以和朋友一起玩吗</p>
+</blockquote>
+<h2 id="快速旅行要怎么使用" tabindex="-1"><a class="header-anchor" href="#快速旅行要怎么使用" aria-hidden="true">#</a> 快速旅行要怎么使用？</h2>
 </div></template>
 
 

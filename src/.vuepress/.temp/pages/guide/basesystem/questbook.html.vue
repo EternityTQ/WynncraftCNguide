@@ -64,9 +64,11 @@
 <p>同样，已经去过的地方不能再追踪</p>
 <h2 id="cave" tabindex="-1"><a class="header-anchor" href="#cave" aria-hidden="true">#</a> Cave</h2>
 <p>信标颜色：橙色</p>
+<figure><img src="/assets/img/questbook4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>2.0.3加入的新机制</p>
 <p>现在你可以特别方便地使用任务书来定位洞穴了</p>
 <p>每个洞穴内都一定会含有T3~T4的宝箱，而且数量可能不止一个</p>
+<p>同时，第一次探索完洞穴还会给予一些一次性奖励</p>
 <p>如果你希望改善装备的话，不妨打开任务书，通过寻找洞穴来得到更新装备的机会</p>
 <p>注意！已经完成的洞穴同样无法再次追踪</p>
 <p>因此强烈建议第一次导航完成后<br>
@@ -91,6 +93,7 @@
 <p>关于BOSS祭坛，你可以看看<a href="www.baidu.com">这里</a>？</p>
 <h2 id="lootrun-camp" tabindex="-1"><a class="header-anchor" href="#lootrun-camp" aria-hidden="true">#</a> Lootrun Camp</h2>
 <p>信标颜色：蓝色</p>
+<figure><img src="/assets/img/questbook5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>2.0.3加入的新功能</p>
 <p>如果你不识路，强烈建议使用这个功能来找到camp</p>
 <p>关于lootrun，你可以看<RouterLink to="/guide/lootrun.html">这一章</RouterLink></p>
