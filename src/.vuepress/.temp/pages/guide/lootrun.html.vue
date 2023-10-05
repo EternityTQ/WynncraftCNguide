@@ -301,7 +301,7 @@
 <tbody>
 <tr>
 <td>蓝色信标</td>
-<td>青色信标和Vibrant增益选数且每+100%为+1选数；选数上限为5</td>
+<td>青色信标和Vibrant增益的是选数且每+100%为+1选数；选数上限为5</td>
 </tr>
 <tr>
 <td>青色信标</td>
@@ -309,7 +309,7 @@
 </tr>
 <tr>
 <td>橙色信标</td>
-<td>青色信标和Vibrant增益挑战轮数</td>
+<td>青色信标和Vibrant增益的是挑战轮数</td>
 </tr>
 <tr>
 <td>绿色信标</td>
@@ -352,7 +352,7 @@
 <td>指定目标不一定第一轮就刷新</td>
 </tr>
 <tr>
-<td>DesTroy</td>
+<td>Destroy</td>
 <td>消灭指定目标</td>
 <td>类似于拆塔，目标不会攻击没有AI且血量极高</td>
 </tr>
@@ -433,7 +433,7 @@
 <td>Clockworker</td>
 <td>Dynamic</td>
 <td>在这次挑战后, 计时器剩余的每一分钟都会获得一层 <code v-pre>增益效果</code></td>
-<td>x15</td>
+<td>-</td>
 </tr>
 <tr>
 <td>Looter</td>
@@ -481,7 +481,7 @@
 <td>Parsimonious</td>
 <td>Static</td>
 <td>截止这次挑战前，每共计见到4个物品都会获得一层 <code v-pre>增益效果</code></td>
-<td>x15</td>
+<td>x12</td>
 </tr>
 <tr>
 <td>Madman</td>
@@ -499,7 +499,7 @@
 <td>Mob Slaughter</td>
 <td>Static</td>
 <td>截止这次挑战前，每共计击杀10只怪物都会获得一层 <code v-pre>增益效果</code></td>
-<td>x20</td>
+<td>x15</td>
 </tr>
 <tr>
 <td>Retrograde Champion</td>
@@ -605,6 +605,8 @@
 <p>若你下一局失败了，则sac保留的pulls数会直接作废！</p>
 </div>
 <p>在确认开启后，你就不能进行任何操作了，包括rr和sac</p>
+<h3 id="跑法策略" tabindex="-1"><a class="header-anchor" href="#跑法策略" aria-hidden="true">#</a> 跑法策略</h3>
+<p>待更新！！！</p>
 </div></template>
 
 

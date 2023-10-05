@@ -87,7 +87,7 @@
 <img src="/assets/img/potion1.jpg" alt="" loading="lazy"></p>
 </div>
 <h2 id="scroll-merchant" tabindex="-1"><a class="header-anchor" href="#scroll-merchant" aria-hidden="true">#</a> Scroll Merchant</h2>
-<p>卷轴商人能出售当前城市的传送卷轴，玩家可以通过在任意安全区域使用传送卷轴来进行快速传送，注意每次使用都需要消耗1点灵狐点</p>
+<p>卷轴商人能出售当前城市的传送卷轴，玩家可以通过在任意安全区域使用传送卷轴来进行快速传送，注意每次使用都需要消耗1点灵魂点</p>
 <p>只有大城市例如Ragni、Detlas才存在Scroll Merchant，较小的城市是没有Scroll Merchant的。</p>
 <p>你还可以在Scroll Merchant买到其他城市的传送卷轴，但是注意会比其他城市高几倍的价格，最好只买当前城市的。</p>
 <div class="hint-container tip">
