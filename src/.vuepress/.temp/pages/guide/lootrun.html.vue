@@ -210,15 +210,11 @@
 </div>
 <h3 id="计时器" tabindex="-1"><a class="header-anchor" href="#计时器" aria-hidden="true">#</a> 计时器</h3>
 <p>一旦计时器耗尽或者轮次数耗尽，你都会被立刻结算并且传送回Lootrun Camp</p>
-<p>当每轮开始时，都会获得1min或2min的时间</p>
-<p>当挑战成功后，获得2min的时间</p>
+<p>当挑战开始时，都会获得1min或2min的时间，视地区而定</p>
+<p>当挑战成功后，都会获得2min的时间</p>
 <p>若任何时候死亡或挑战失败，均会扣除1min的时间</p>
 <p>总时间上限为15分钟，除了绿信标以外，其他任何正常方式均无法使计时器超过15分钟</p>
-<p>在超过15分钟时，进出挑战仅会获得1s的时间加成</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>若持有红信标给的轮次，此时仅可通过绿信标来获取时间，无法从其他任何途径来额外增加时间</p>
-</div>
+<p>在计时器超过15分钟时，进出挑战仅会获得1s的时间加成(以此来显示是否处于红信标的轮次)</p>
 <h3 id="信标" tabindex="-1"><a class="header-anchor" href="#信标" aria-hidden="true">#</a> 信标</h3>
 <figure><img src="/assets/img/lootrun10.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>在开始挑战后，你会被随机分配2个(升级后为3个)信标，通过走到信标处开启挑战并完成，你就可以得到信标的效果</p>
@@ -471,7 +467,7 @@
 <td>Killstreak</td>
 <td>Dynamic</td>
 <td>在这次挑战后, 在60s内每当你杀了3只怪物，获得一层 <code v-pre>增益效果</code>，持续时间在每次完成条件后都会重置至60s</td>
-<td>-</td>
+<td>x60</td>
 </tr>
 <tr>
 <td>Persistent Champion</td>
@@ -533,6 +529,12 @@
 <li>战利品质量</li>
 <li>生命窃取</li>
 </ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>增益效果的数值也和增益种类相关</p>
+<p>例如<code v-pre>Bad Omen</code>目前是最高级的增益，对于同种增益效果来说，数值较高</p>
+<p>而像<code v-pre>Mob Slaughter</code>是比较低级的增益，数值较低</p>
+</div>
 <h3 id="任务" tabindex="-1"><a class="header-anchor" href="#任务" aria-hidden="true">#</a> 任务</h3>
 <p>在2.0.4版本中，新增加了任务系统</p>
 <p>在完成4轮挑战后，你可以从3个任务中选择一个进行接取</p>
