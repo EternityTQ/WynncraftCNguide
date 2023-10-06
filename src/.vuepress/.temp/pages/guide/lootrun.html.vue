@@ -608,6 +608,10 @@
 </div>
 <p>在确认开启后，你就不能进行任何操作了，包括rr和sac</p>
 <h3 id="跑法策略" tabindex="-1"><a class="header-anchor" href="#跑法策略" aria-hidden="true">#</a> 跑法策略</h3>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>以下策略在2.0.4版本中编写，存在过时风险！</p>
+</div>
 <p>待更新！！！</p>
 </div></template>
 

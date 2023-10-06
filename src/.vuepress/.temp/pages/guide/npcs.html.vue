@@ -29,6 +29,7 @@
 <p>你所有获得的unidentified物品(未鉴定的物品，简称unid)都需要在Item Identifier鉴定词条才可以装备/使用</p>
 <p>关于鉴定词条，可以转到这一栏去看一眼</p>
 <p>Item Identifier的功能很简单：鉴定，和重新鉴定</p>
+<figure><img src="/assets/img/npc1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>需要注意的是，重新鉴定并不是往上一次的基础加属性，而是相当于<strong>重新再roll一次</strong>。</p>
 <p>每一次重新鉴定的费用是<strong>上一次的5倍</strong>，一般来说最多重新鉴定一次就可以了，请不要浪费过多绿宝石在<s>赌博</s>重新鉴定上。</p>
 <p><s>鲁迅云：不赌博玩什么wynncraft</s></p>
