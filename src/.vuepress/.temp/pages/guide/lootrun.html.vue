@@ -34,9 +34,9 @@
 <p>现在来说，效率比较高的lr方式就是一直跑洞穴，同时路上顺手开启一些T1-T2箱子</p>
 <p>同时，Mythic品质仅存在于66-104级，如果开箱的区域等级不在这些等级里面，你是跑不到Mythic装备的</p>
 <h3 id="提高效率的方法" tabindex="-1"><a class="header-anchor" href="#提高效率的方法" aria-hidden="true">#</a> 提高效率的方法</h3>
-<p>有两个非常影响效率的词条，<code v-pre>Loot Bouns</code>以及<code v-pre>Loot Quality</code></p>
-<p>你可以在大部分装备上发现<code v-pre>Loot Bouns</code>词条</p>
-<p><code v-pre>Loot Bouns</code>能提高箱子的物品数量，也就是说你能开到更多的物品</p>
+<p>有两个非常影响效率的词条，<code v-pre>Loot Bonus</code>以及<code v-pre>Loot Quality</code></p>
+<p>你可以在大部分装备上发现<code v-pre>Loot Bonus</code>词条</p>
+<p><code v-pre>Loot Bonus</code>能提高箱子的物品数量，也就是说你能开到更多的物品</p>
 <figure><img src="/assets/img/lootrun4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>而<code v-pre>Loot Quality</code>仅存在于素材当中，你只能通过自制装备来获取<code v-pre>Loot Quality</code></p>
 <figure><img src="/assets/img/lootrun5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -601,7 +601,7 @@
 <p>你可以花费最终奖励刷新机会(以下简称rr)来刷新物品</p>
 <p>rr相当于重抽一次，并不会保留你当前的任何物品</p>
 <p>在确认开启前，你可以随时选择牺牲奖励(以下简称sac)</p>
-<p>sac会根据你的sac数来保留当前的一部分pulls至下一局</p>
+<p>sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>若你下一局失败了，则sac保留的pulls数会直接作废！</p>
