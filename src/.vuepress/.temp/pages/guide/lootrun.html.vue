@@ -223,70 +223,72 @@
 <figure><img src="/assets/img/lootrun10.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>在开始挑战后，你会被随机分配2个(升级后为3个)信标，通过走到信标处开启挑战并完成，你就可以得到信标的效果</p>
 <p>每轮挑战都会给你随机分配当前信标选数的信标，并且信标不会重复</p>
-<p>信标效果如下表所示</p>
+<p>对于每个信标，在没有彩虹信标且满级的情况下，有10%的概率升级为Vibrant信标</p>
+<p>Vibrant信标拥有原信标的双倍效果</p>
+<p>基础信标效果如下表所示</p>
 <table>
 <thead>
 <tr>
 <th>信标名称</th>
 <th>效果</th>
-<th>最大获取上限</th>
+<th style="text-align:center">最大获取上限</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>蓝色信标</td>
 <td>从3个增益效果中选择1个</td>
-<td>无上限</td>
+<td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>紫色信标</td>
 <td>获得1个随机诅咒，同时最终奖励抽取物品数+1</td>
-<td>无上限</td>
+<td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>黄色信标</td>
 <td>生成一个Flying Chest</td>
-<td>无上限</td>
+<td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>青色信标</td>
 <td>下一个信标的效果+100%</td>
-<td>无上限</td>
+<td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>橙色信标</td>
 <td>在接下来的5轮挑战中，信标选数+1</td>
-<td>无上限</td>
+<td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>绿色信标</td>
-<td>获得120s的时间，且本轮怪物不会有轮次增益</td>
-<td>无上限</td>
+<td>获得120s的时间，且本轮怪物不会增加属性</td>
+<td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>暗灰色信标</td>
 <td>获得3个随机诅咒，同时最终奖励抽取物品数+3</td>
-<td>1</td>
+<td style="text-align:center">1</td>
 </tr>
 <tr>
 <td>白色信标</td>
 <td>挑战轮数+5</td>
-<td>1</td>
+<td style="text-align:center">1</td>
 </tr>
 <tr>
 <td>灰色信标</td>
 <td>从3个任务中选择1个接取</td>
-<td>3</td>
+<td style="text-align:center">3</td>
 </tr>
 <tr>
 <td>红色信标</td>
 <td>挑战轮数+2，且2轮内不会有时间奖励</td>
-<td>无上限</td>
+<td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>彩虹信标</td>
-<td>本次lootrun中出现的信标均升级为Vibrant(双倍效果)</td>
-<td>1</td>
+<td>本次lootrun中出现的信标均升级为Vibrant</td>
+<td style="text-align:center">1</td>
 </tr>
 </tbody>
 </table>
@@ -305,7 +307,7 @@
 </tr>
 <tr>
 <td>青色信标</td>
-<td>只会连续出现1次</td>
+<td>只会连续出现1次；死亡会导致已持有的青色信标状态清空</td>
 </tr>
 <tr>
 <td>橙色信标</td>
@@ -313,11 +315,11 @@
 </tr>
 <tr>
 <td>绿色信标</td>
-<td>只会连续出现1次；青信标会增益取消怪物增益的轮次数而Vibrant不会</td>
+<td>只会连续出现1次；青信标会增益<code v-pre>怪物不加属性</code>的轮次数而Vibrant不会</td>
 </tr>
 <tr>
 <td>灰色信标</td>
-<td>和蓝色信标相同；出现一定次数且一直不选择后会消失；第5轮开始才会出现</td>
+<td>和蓝色信标相同；第5轮开始才会出现；第20轮后消失</td>
 </tr>
 <tr>
 <td>红色信标</td>
@@ -325,6 +327,12 @@
 </tr>
 </tbody>
 </table>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>对于有上限的信标，当你走进挑战时，就已经计入总数了</p>
+<p>若你挑战失败，你不会得到该信标的效果</p>
+<p>同时意味着你会少吃一个该信标</p>
+</div>
 <h3 id="挑战" tabindex="-1"><a class="header-anchor" href="#挑战" aria-hidden="true">#</a> 挑战</h3>
 <p>挑战一共分为5大类</p>
 <table>
@@ -487,7 +495,7 @@
 <td>Madman</td>
 <td>Static</td>
 <td>截止这次挑战前，你拥有的每一个诅咒都会获得一层 <code v-pre>增益效果</code></td>
-<td>x10</td>
+<td>x8</td>
 </tr>
 <tr>
 <td>Lightbringer</td>
@@ -527,7 +535,7 @@
 </ul>
 <h3 id="任务" tabindex="-1"><a class="header-anchor" href="#任务" aria-hidden="true">#</a> 任务</h3>
 <p>在2.0.4版本中，新增加了任务系统</p>
-<p>在第4轮完成后，你可以从3个任务中选择一个进行接取</p>
+<p>在完成4轮挑战后，你可以从3个任务中选择一个进行接取</p>
 <p>任务同样也能通过灰信标接取，总任务上限是4个</p>
 <p>在当前接取任务未完成之前，你无法再看到灰信标</p>
 <p>任务目标是随机的，包括获得时间、获得Pulls、打开箱子、获得增益、获得诅咒以及见到信标</p>
@@ -586,10 +594,15 @@
 </tr>
 <tr>
 <td>Ultimate Sacrifice</td>
-<td>获得1次最终奖励牺牲机会以及2次最终奖励刷新机会；每当计时器减少2min时，随机清除一个已有增益，获得时间可以抵消已减少的时间</td>
+<td>获得1次最终奖励牺牲机会以及2次最终奖励刷新机会；每当计时器减少2min时，随机清除一个已有增益，从任意途径获得时间重置该倒计时</td>
 </tr>
 </tbody>
 </table>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在完成<code v-pre>获得时间</code>的条件时</p>
+<p>使用<code v-pre>/kill</code>快速减少时间是非常不错的选择</p>
+</div>
 <h3 id="最终奖励" tabindex="-1"><a class="header-anchor" href="#最终奖励" aria-hidden="true">#</a> 最终奖励</h3>
 <p>在完成lootrun后，你可以开启最终奖励宝箱</p>
 <p>最终奖励宝箱会根据你的最终奖励抽取物品数(以下简称pulls)来抽取物品</p>
@@ -602,6 +615,7 @@
 <p>rr相当于重抽一次，并不会保留你当前的任何物品</p>
 <p>在确认开启前，你可以随时选择牺牲奖励(以下简称sac)</p>
 <p>sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局</p>
+<figure><img src="/assets/img/lootrun13.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>若你下一局失败了，则sac保留的pulls数会直接作废！</p>
