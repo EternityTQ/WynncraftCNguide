@@ -60,11 +60,11 @@ T3-T4箱子均在洞穴内，你可以在任务书上轻松找到洞穴的位置
 
 ### 提高效率的方法
 
-有两个非常影响效率的词条，`Loot Bouns`以及`Loot Quality`
+有两个非常影响效率的词条，`Loot Bonus`以及`Loot Quality`
 
-你可以在大部分装备上发现`Loot Bouns`词条
+你可以在大部分装备上发现`Loot Bonus`词条
 
-`Loot Bouns`能提高箱子的物品数量，也就是说你能开到更多的物品
+`Loot Bonus`能提高箱子的物品数量，也就是说你能开到更多的物品
 
 ![](/assets/img/lootrun4.jpg)
 
