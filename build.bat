@@ -1,2 +1,1 @@
-pnpm docs:build
-cmd
+npm run build
