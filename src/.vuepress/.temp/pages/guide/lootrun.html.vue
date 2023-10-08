@@ -402,8 +402,11 @@
 </div>
 <p>在吃到蓝信标时，你可以从一定选数内选择你想要的增益</p>
 <p>每个增益由触发条件、触发效果以及增益种类三部分组成</p>
-<p>其中，Dynamic为成长型增益，你有机会提高该增益的数值</p>
-<p>Static为固定增益，该增益的数值在拿到瞬间就固定了</p>
+<p>其中，Dynamic为动态增益，你有机会提高该增益的数值</p>
+<blockquote>
+<p>减少数值也是有可能的...</p>
+</blockquote>
+<p>Static为静态增益，该增益的数值在拿到瞬间就固定了</p>
 <table>
 <thead>
 <tr>
@@ -540,6 +543,33 @@
 <p>例如<code v-pre>Bad Omen</code>目前是最高级的增益，对于同种增益效果来说，数值较高</p>
 <p>而像<code v-pre>Mob Slaughter</code>是比较低级的增益，数值较低</p>
 </div>
+<p>其中，部分增益种类有一些需要注意的特性：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>特性</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Killstreak</td>
+<td>退出重登会直接清除所有层数</td>
+</tr>
+<tr>
+<td>Bad Omen</td>
+<td>消除诅咒同样会导致叠加层数减小</td>
+</tr>
+<tr>
+<td>Midas Touch</td>
+<td>消除增益同样会导致叠加层数减小</td>
+</tr>
+<tr>
+<td>Clockworker</td>
+<td>游戏内标有上限，实际上没有上限</td>
+</tr>
+</tbody>
+</table>
 <h3 id="任务" tabindex="-1"><a class="header-anchor" href="#任务" aria-hidden="true">#</a> 任务</h3>
 <p>在2.0.4版本中，新增加了任务系统</p>
 <p>在完成4轮挑战后，你可以从3个任务中选择一个进行接取</p>
@@ -561,7 +591,7 @@
 </tr>
 <tr>
 <td>High Roller</td>
-<td>获得2次最终奖励刷新机会</td>
+<td>获得2次最终奖励刷新机会(End Reward Reroll)</td>
 </tr>
 <tr>
 <td>Materialism</td>
@@ -593,7 +623,7 @@
 </tr>
 <tr>
 <td>Gambling Beast</td>
-<td>每次挑战结束后，可以消费300s换取1次最终奖励刷新机会。时间花费每轮增加60s</td>
+<td>每次挑战结束后，可以消费300s换取1次最终奖励刷新机会(End Reward Reroll)。时间花费每轮增加60s</td>
 </tr>
 <tr>
 <td>Redemption</td>
@@ -609,6 +639,7 @@
 <p class="hint-container-title">提示</p>
 <p>在完成<code v-pre>获得时间</code>的条件时</p>
 <p>使用<code v-pre>/kill</code>快速减少时间是非常不错的选择</p>
+<p>但是要注意退出重登会导致<code v-pre>获得时间</code>的进度清零！(疑似BUG)</p>
 </div>
 <h3 id="最终奖励" tabindex="-1"><a class="header-anchor" href="#最终奖励" aria-hidden="true">#</a> 最终奖励</h3>
 <p>在完成lootrun后，你可以开启最终奖励宝箱</p>
@@ -618,7 +649,7 @@
 <p>总物品数上限为36</p>
 <p>如果你的pulls超过了36，则会根据优先级截断优先级较低的物品，保留优先级较高的物品</p>
 </div>
-<p>你可以花费最终奖励刷新机会(以下简称rr)来刷新物品</p>
+<p>你可以花费最终奖励刷新机会(End Reward Reroll，以下简称rr)来刷新物品</p>
 <p>rr相当于重抽一次，并不会保留你当前的任何物品</p>
 <p>在确认开启前，你可以随时选择牺牲奖励(以下简称sac)</p>
 <p>sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局</p>
