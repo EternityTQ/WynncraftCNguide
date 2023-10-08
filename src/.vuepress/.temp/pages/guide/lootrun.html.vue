@@ -208,6 +208,11 @@
 <p>只有在成功完成4轮挑战后，整局lootrun才算成功</p>
 <p>在此之前若你失败过多次或找NPC直接结算，都会直接判Lootrun Failed且不会有任何奖励</p>
 </div>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在开始游戏后，当你离线/切换其他存档时，你当前的游戏将会暂停</p>
+<p>若你已经进入挑战，在上线后你当前的挑战将会重置</p>
+</div>
 <h3 id="计时器" tabindex="-1"><a class="header-anchor" href="#计时器" aria-hidden="true">#</a> 计时器</h3>
 <p>一旦计时器耗尽或者轮次数耗尽，你都会被立刻结算并且传送回Lootrun Camp</p>
 <p>当挑战开始时，都会获得1min或2min的时间，视地区而定</p>
@@ -466,8 +471,8 @@
 <tr>
 <td>Killstreak</td>
 <td>Dynamic</td>
-<td>在这次挑战后, 在60s内每当你杀了3只怪物，获得一层 <code v-pre>增益效果</code>，持续时间在每次完成条件后都会重置至60s</td>
-<td>x60</td>
+<td>在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 <code v-pre>增益效果</code>，持续时间在每次击杀怪物后都会重置至60s</td>
+<td>x100</td>
 </tr>
 <tr>
 <td>Persistent Champion</td>
@@ -580,7 +585,7 @@
 </tr>
 <tr>
 <td>Backup Beat</td>
-<td>每次获得360s的时间后，增加一次信标刷新机会</td>
+<td>每累计获得360s的时间后，增加一次信标刷新机会</td>
 </tr>
 <tr>
 <td>Stasis</td>
@@ -623,6 +628,10 @@
 <p>若你下一局失败了，则sac保留的pulls数会直接作废！</p>
 </div>
 <p>在确认开启后，你就不能进行任何操作了，包括rr和sac</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>sac所保存的pulls一样可以被下一局的sac一起继承</p>
+</div>
 <h3 id="跑法策略" tabindex="-1"><a class="header-anchor" href="#跑法策略" aria-hidden="true">#</a> 跑法策略</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
