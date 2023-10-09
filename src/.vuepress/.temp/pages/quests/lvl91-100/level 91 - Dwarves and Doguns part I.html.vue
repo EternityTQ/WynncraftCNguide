@@ -3,7 +3,7 @@
 <p class="hint-container-title">注意</p>
 <p>此页面有待更新！</p>
 </div>
-<p>接任务地点[1021 -5149 18]</p>
+<p>1.手持<code v-pre>1 Emerald Block</code>和<em>Lozeg</em><code v-pre>[1021 18 -5149]</code>对话</p>
 <p>1 接完任务到旁边上楼看戏</p>
 <p>2 看完后去另一地点看戏[1575 8 -5355]，对话会自己播放，靠近即可</p>
 <p>3 看完后去Rodoroc的监狱找到Axelus[1109 26 -5230]</p>

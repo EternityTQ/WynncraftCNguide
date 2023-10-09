@@ -7,7 +7,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "Wynncraft中文攻略",
-  description: "vuepress-theme-hope 的文档演示",
+  description: "Wynncraft中文攻略",
 
   theme,
 

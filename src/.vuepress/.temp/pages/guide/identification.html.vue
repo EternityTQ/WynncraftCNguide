@@ -1,5 +1,6 @@
 <template><div><p>想要玩明白各种流派或者玩法，了解词条必然是不可少的，游戏里有数量庞大的词条，在这里我会讲述如何正确的查看一件装备以及<s>随便</s>详细说明各种词条的用法。</p>
-<h1 id="学会看懂装备词条" tabindex="-1"><a class="header-anchor" href="#学会看懂装备词条" aria-hidden="true">#</a> 学会看懂装备词条</h1>
+<p>关于鉴定，可以看看<RouterLink to="/guide/npcs.html#item-identifier">这一章</RouterLink></p>
+<h2 id="学会看懂装备词条" tabindex="-1"><a class="header-anchor" href="#学会看懂装备词条" aria-hidden="true">#</a> 学会看懂装备词条</h2>
 <p>对于一件装备，我们拿到之后应该先看什么东西呢？接下来我会以几件装备为例子详细展开说明</p>
 <p>建议安装wynntils这个模组，因为可以查看词条的鉴定度，非常方便。先以武器为例：</p>
 <figure><img src="/assets/img/id1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -26,7 +27,7 @@
 <p>在武器最下方一般还会有介绍，讲述了该件装备/武器的历史<br>
 <s>萨满武器没有介绍</s></p>
 <p>对于装备而言就不过多占篇幅介绍了，区别就在装备一般会有血量属性和元素防御属性，很好理解，元素防御会在下文介绍。</p>
-<h1 id="元素防御" tabindex="-1"><a class="header-anchor" href="#元素防御" aria-hidden="true">#</a> 元素防御</h1>
+<h2 id="元素防御" tabindex="-1"><a class="header-anchor" href="#元素防御" aria-hidden="true">#</a> 元素防御</h2>
 <p>护甲是带有基础元素防御的属性的，这些防御可以用来为我们提供对应元素伤害的抗性</p>
 <p>但与加点系统的防御点不同，元素防御如果是负数，则会增加自身受到那种元素属性的伤害</p>
 <p>所以在配置装备时，我们最好不要将元素防御负太多</p>
@@ -42,7 +43,7 @@
 <p>依然以上面的这件装备为例子，我们可以看到这件装备对于地属性防御的加成是500%<br>
 假设此时我们的地属性防御数值在其他装备的影响下变成了负数，那我们最后得到的地属性防御数值就是0。</p>
 </div>
-<h1 id="鉴定词条" tabindex="-1"><a class="header-anchor" href="#鉴定词条" aria-hidden="true">#</a> 鉴定词条</h1>
+<h2 id="鉴定词条" tabindex="-1"><a class="header-anchor" href="#鉴定词条" aria-hidden="true">#</a> 鉴定词条</h2>
 <p>这个章节会介绍武器、装备的一些词条功能作用</p>
 <p>由于词条总数实在过多，下面会根据功能性进行分类</p>
 <blockquote>
@@ -54,9 +55,9 @@
 <p>raw指纯数值，例如<code v-pre>+260 Health regen</code>就是raw</p>
 <p>%指百分比，例如<code v-pre>+50% Health regen</code>就是%</p>
 </div>
-<h2 id="战斗类词条" tabindex="-1"><a class="header-anchor" href="#战斗类词条" aria-hidden="true">#</a> 战斗类词条</h2>
-<h3 id="attack-speed" tabindex="-1"><a class="header-anchor" href="#attack-speed" aria-hidden="true">#</a> Attack speed</h3>
-<p>攻击速度，每点数值提升一级攻速，该数值可为负数（即反过来减攻速），攻速最快与攻速最慢的差距为6，多于6或少于-6的数值无额外效果。</p>
+<h3 id="战斗类词条" tabindex="-1"><a class="header-anchor" href="#战斗类词条" aria-hidden="true">#</a> 战斗类词条</h3>
+<p><strong>Attack speed</strong><br>
+攻击速度，每点数值提升一级攻速，该数值可为负数（即反过来减攻速），攻速最快与攻速最慢的差距为6，多于6或少于-6的数值无额外效果。</p>
 <details class="hint-container details"><summary>每级攻速的攻击间隔(单位: hit/sec)</summary>
 <ul>
 <li>Super Fast: 4.3</li>
@@ -68,34 +69,34 @@
 <li>Super Slow: 0.51</li>
 </ul>
 </details>
-<h3 id="mana-regen" tabindex="-1"><a class="header-anchor" href="#mana-regen" aria-hidden="true">#</a> Mana Regen</h3>
-<p>魔力恢复，每有x点数值给予x/5s的魔力回复，该数值可为负数（即会反过来扣蓝）。</p>
-<h3 id="mana-steal" tabindex="-1"><a class="header-anchor" href="#mana-steal" aria-hidden="true">#</a> Mana steal</h3>
-<p>魔力窃取，每次进行普通攻击时，会根据自身的攻速（受鉴定词条影响，并非武器面板基础攻速）来决定单次吸取的魔力</p>
+<p><strong>Mana Regen</strong><br>
+魔力恢复，每有x点数值给予x/5s的魔力回复，该数值可为负数（即会反过来扣蓝）。</p>
+<p><strong>Mana steal</strong><br>
+魔力窃取，每次进行普通攻击时，会根据自身的攻速（受鉴定词条影响，并非武器面板基础攻速）来决定单次吸取的魔力</p>
 <p>该数值可为负数（即攻击时会反过来扣蓝）。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>在攻速最慢时，每次攻击能够吸取的魔力值等于词条的显示数值。</p>
 </div>
-<h3 id="poison" tabindex="-1"><a class="header-anchor" href="#poison" aria-hidden="true">#</a> Poison</h3>
-<p>毒伤，每次攻击时会赋予敌人x/3s的毒伤，若为负数不会有任何效果</p>
+<p><strong>Poison</strong><br>
+毒伤，每次攻击时会赋予敌人x/3s的毒伤，若为负数不会有任何效果</p>
 <p>该毒伤不会因为再次攻击而延续时间或叠加伤害，同时不能被力量或暴击点数影响，且不享受任何额外伤害加成，只能够通过叠加装备的毒伤数值来增加伤害。</p>
 <blockquote>
 <p>纯飞舞</p>
 </blockquote>
-<h3 id="exploding" tabindex="-1"><a class="header-anchor" href="#exploding" aria-hidden="true">#</a> Exploding%</h3>
-<p>附加爆炸，每次击杀时会有x%的概率使敌人爆炸</p>
+<p><strong>Exploding%</strong><br>
+附加爆炸，每次击杀时会有x%的概率使敌人爆炸</p>
 <p>概率最多为100%（若该数值为负数则无任何效果），超过100%的数值不生效。</p>
-<h3 id="main-attack-damage-raw" tabindex="-1"><a class="header-anchor" href="#main-attack-damage-raw" aria-hidden="true">#</a> Main attack damage（raw/%）</h3>
-<p>普通攻击伤害加成，简称MD，分为伤害加成数值与伤害加成百分比两种</p>
+<p><strong>Main attack damage（raw/%）</strong><br>
+普通攻击伤害加成，简称MD，分为伤害加成数值与伤害加成百分比两种</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>Main attack damage计算顺序为先计算百分比加成，再加上数值加成（即数值不享受百分比加成）。</p>
 </div>
-<h3 id="spell-damage-raw" tabindex="-1"><a class="header-anchor" href="#spell-damage-raw" aria-hidden="true">#</a> Spell damage（raw/%）</h3>
-<p>技能伤害加成，与普通攻击伤害加成相似（数值不享受百分比加成）。</p>
-<h3 id="_1st-2nd-3rd-4th-spell-cost-raw" tabindex="-1"><a class="header-anchor" href="#_1st-2nd-3rd-4th-spell-cost-raw" aria-hidden="true">#</a> 1st/2nd/3rd/4th spell cost(raw/%)</h3>
-<p>1/2/3/4技能的费用减耗，分为数值与百分比两种</p>
+<p><strong>Spell damage（raw/%）</strong><br>
+技能伤害加成，与普通攻击伤害加成相似（数值不享受百分比加成）。</p>
+<p><strong>1st/2nd/3rd/4th spell cost(raw/%)</strong><br>
+1/2/3/4技能的费用减耗，分为数值与百分比两种</p>
 <p>当数字为正数时，表示该技能会有对应的额外魔力消耗数值加成（或百分比加成）</p>
 <p>当数字为负数时，表示该技能会有对应的额外魔力消耗数值减少（或百分比减少）</p>
 <p>数值与百分比的计算顺序为先计算百分比，再计算数值（即数值不享受百分比加成）</p>
@@ -105,11 +106,11 @@
 <p>而cost%作用于基础蓝耗(类似于技能树中的减蓝耗)</p>
 <p>两者均有最低消耗蓝耗(1点)。</p>
 </div>
-<h2 id="生存类词条" tabindex="-1"><a class="header-anchor" href="#生存类词条" aria-hidden="true">#</a> 生存类词条</h2>
-<h3 id="health" tabindex="-1"><a class="header-anchor" href="#health" aria-hidden="true">#</a> Health</h3>
-<p>生命值，增加自身最大生命值。</p>
-<h3 id="health-regen-raw" tabindex="-1"><a class="header-anchor" href="#health-regen-raw" aria-hidden="true">#</a> Health regen（raw/%）</h3>
-<p>生命恢复，简称<code v-pre>hpr</code>和<code v-pre>hpr%</code>，每有x点数值给予x/4s的生命恢复，该数值可为负数（即会反过来扣血），恢复的生命值计算方式为先计算数值再计算百分比（即数值可享受百分比加成）。</p>
+<h3 id="生存类词条" tabindex="-1"><a class="header-anchor" href="#生存类词条" aria-hidden="true">#</a> 生存类词条</h3>
+<p><strong>Health</strong><br>
+生命值，增加自身最大生命值。</p>
+<p><strong>Health regen（raw/%）</strong><br>
+生命恢复，简称<code v-pre>hpr</code>和<code v-pre>hpr%</code>，每有x点数值给予x/4s的生命恢复，该数值可为负数（即会反过来扣血），恢复的生命值计算方式为先计算数值再计算百分比（即数值可享受百分比加成）。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>hpr的机制有点特殊</p>
@@ -117,47 +118,47 @@
 <p>若hpr%很高，则raw hpr为负数也不会使总hpr为负数</p>
 <p>反之，若hpr%过低，则就算raw hpr为正数也不会使总hpr为正数</p>
 </div>
-<h3 id="life-steal" tabindex="-1"><a class="header-anchor" href="#life-steal" aria-hidden="true">#</a> Life steal</h3>
-<p>生命窃取，具体效果与魔力窃取类似，计算方式与魔力窃取相同。</p>
-<h3 id="thorn" tabindex="-1"><a class="header-anchor" href="#thorn" aria-hidden="true">#</a> Thorn%</h3>
-<p>荆棘，每次受到近战攻击时有x%的概率反弹该伤害</p>
+<p><strong>Life steal</strong><br>
+生命窃取，具体效果与魔力窃取类似，计算方式与魔力窃取相同。</p>
+<p><strong>Thorn%</strong><br>
+荆棘，每次受到近战攻击时有x%的概率反弹该伤害</p>
 <p>反弹成功并不会使自己免受伤害，概率最多为100%（若该数值为负数则无任何效果），超过100%的数值不生效。</p>
-<h3 id="reflection" tabindex="-1"><a class="header-anchor" href="#reflection" aria-hidden="true">#</a> Reflection%</h3>
-<p>反射，与荆棘类似，但反弹的是远程伤害。</p>
-<h3 id="water-fire-earth-thunder-air-defence" tabindex="-1"><a class="header-anchor" href="#water-fire-earth-thunder-air-defence" aria-hidden="true">#</a> Water/Fire/Earth/Thunder/Air defence%</h3>
-<p>水/火/地/电/气属性防御百分比加成（数值可享受百分比加成）。</p>
-<h2 id="移动类加成词条" tabindex="-1"><a class="header-anchor" href="#移动类加成词条" aria-hidden="true">#</a> 移动类加成词条</h2>
-<h3 id="walk-speed" tabindex="-1"><a class="header-anchor" href="#walk-speed" aria-hidden="true">#</a> Walk speed%</h3>
-<p>移动速度加成，上限为400%</p>
+<p><strong>Reflection%</strong><br>
+反射，与荆棘类似，但反弹的是远程伤害。</p>
+<p><strong>Water/Fire/Earth/Thunder/Air defence%</strong><br>
+水/火/地/电/气属性防御百分比加成（数值可享受百分比加成）。</p>
+<h3 id="移动类加成词条" tabindex="-1"><a class="header-anchor" href="#移动类加成词条" aria-hidden="true">#</a> 移动类加成词条</h3>
+<p><strong>Walk speed%</strong><br>
+移动速度加成，上限为400%</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>特别地，弓箭手的移速buff为百分比提升，可以突破这个上限</p>
 </div>
-<h3 id="jump-height" tabindex="-1"><a class="header-anchor" href="#jump-height" aria-hidden="true">#</a> Jump height</h3>
-<p>跳跃高度加成，每1点数值会提升跳跃高度</p>
+<p><strong>Jump height</strong><br>
+跳跃高度加成，每1点数值会提升跳跃高度</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>每级数值介于0.5~1格之间</p>
 </div>
-<h3 id="sprint" tabindex="-1"><a class="header-anchor" href="#sprint" aria-hidden="true">#</a> Sprint%</h3>
-<p>体力上限，按百分比增加自身最大体力值。</p>
-<h3 id="sprint-regen" tabindex="-1"><a class="header-anchor" href="#sprint-regen" aria-hidden="true">#</a> Sprint regen%</h3>
-<p>体力恢复，按百分比提高自身体力恢复速度。</p>
-<h2 id="其他类词条" tabindex="-1"><a class="header-anchor" href="#其他类词条" aria-hidden="true">#</a> 其他类词条</h2>
-<h3 id="xp-bonus" tabindex="-1"><a class="header-anchor" href="#xp-bonus" aria-hidden="true">#</a> Xp bonus%</h3>
-<p>经验加成，按百分比提高自己击杀怪物所获得的经验量。</p>
-<h3 id="loot-bonus" tabindex="-1"><a class="header-anchor" href="#loot-bonus" aria-hidden="true">#</a> Loot bonus%</h3>
-<p>掠夺数量加成，增加自己打开野外的箱子时可获得的物品数量（非线性，并且衰减严重）。</p>
-<h3 id="loot-quality" tabindex="-1"><a class="header-anchor" href="#loot-quality" aria-hidden="true">#</a> Loot quality%</h3>
-<p>掠夺质量，增加自己打开野外箱子时获得高品质物品的概率（非线性，并且衰减严重）。</p>
-<h3 id="gathering-xp-bonus" tabindex="-1"><a class="header-anchor" href="#gathering-xp-bonus" aria-hidden="true">#</a> Gathering xp bonus%：</h3>
-<p>采集经验加成，与经验加成类似，只对采集副职经验起效</p>
-<h3 id="gathering-speed" tabindex="-1"><a class="header-anchor" href="#gathering-speed" aria-hidden="true">#</a> Gathering speed%</h3>
-<p>采集速度加成，增加自己采集时的速度。</p>
-<h3 id="stealing" tabindex="-1"><a class="header-anchor" href="#stealing" aria-hidden="true">#</a> Stealing%</h3>
-<p>偷取，增加自己对敌人造成伤害时使敌人掉落绿宝石的概率（掉的不多，被削弱过好几次）。</p>
-<h3 id="soul-point-regen" tabindex="-1"><a class="header-anchor" href="#soul-point-regen" aria-hidden="true">#</a> Soul point regen%</h3>
-<p>灵魂点恢复加成，增加自己在游戏内每天黎明时获得额外灵魂点的概率，上限为100%</p>
+<p><strong>Sprint%</strong><br>
+体力上限，按百分比增加自身最大体力值。</p>
+<p><strong>Sprint regen%</strong><br>
+体力恢复，按百分比提高自身体力恢复速度。</p>
+<h3 id="其他类词条" tabindex="-1"><a class="header-anchor" href="#其他类词条" aria-hidden="true">#</a> 其他类词条</h3>
+<p><strong>Xp bonus%</strong><br>
+经验加成，按百分比提高自己击杀怪物所获得的经验量。</p>
+<p><strong>Loot bonus%</strong><br>
+掠夺数量加成，增加自己打开野外的箱子时可获得的物品数量（非线性，并且衰减严重）。</p>
+<p><strong>Loot quality%</strong><br>
+掠夺质量，增加自己打开野外箱子时获得高品质物品的概率（非线性，并且衰减严重）。</p>
+<p><strong>Gathering xp bonus%</strong><br>
+采集经验加成，与经验加成类似，只对采集副职经验起效</p>
+<p><strong>Gathering speed%</strong><br>
+采集速度加成，增加自己采集时的速度。</p>
+<p><strong>Stealing%</strong><br>
+偷取，增加自己对敌人造成伤害时使敌人掉落绿宝石的概率（掉的不多，被削弱过好几次）。</p>
+<p><strong>Soul point regen%</strong><br>
+灵魂点恢复加成，增加自己在游戏内每天黎明时获得额外灵魂点的概率，上限为100%</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>高于上限并不会使你获得更多灵魂点，单次获得灵魂点的上限为2</p>
