@@ -5,6 +5,13 @@ icon: route
 # The Order of the Grook (level 59)
 **魔法学院**
 
+:::warning
+本页面部分内容存在缺失/过时
+
+敬请留意！
+:::
+
+
 >不要忘了可以从Selchar前往绝大部分岛屿
 
 1 在**Mage Island**和*Seasum*`[940 77 -2866]`对话

@@ -1,24 +1,38 @@
 # Enter the Dojo (Level 89)
 **道场试练**
-:::warning 
-此页面有待更新！
+
+1.跟在**Sakura Dojo**的*Sensei Miyagi*对话`[495 109 -5571]`
+>在Gavel的最北边....具体位置在HIVE的右边
+
+2.穿过大房子，跳进水池
+
+3完成3个挑战
+:::tip
+第一个挑战是简单的跑酷，黄色的平台是存档点不要忘了踩
+
+要注意较浅的原木踩上去会塌陷
+
+第二个挑战是刷怪，如果你嫌怪物刷太慢了可以放个mob totem下去
+
+第三个挑战你需要按顺序按如下按钮
+
+其中，DOWN和UP在两边，中间十字的上下对应的是FORWARDS和BACKWARDS
+
++ 第一小关: RIGHT - UP - BACKWARDS - RIGHT - UP - FORWARDS - DOWN - RIGHT
++ 第二小关: RIGHT - UP - BACKWARDS - RIGHT - DOWN - RIGHT
++ 第三小关: UP - RIGHT - UP - LEFT - BACKWARDS - DOWN - BACKWARDS - UP - FORWARDS - RIGHT - DOWN - FORWARDS - RIGHT
+
+>说实话我真没看懂这关是啥意思
 :::
-1跟在Sakura Dojo的Sensei Miyagi对话X 495 Y 109 Z -5570
 
-2穿过大房子，跳进水池
+4在书架上找到绿茶的食谱(书架左边第一本)
 
-3完成3个挑战{第三个挑战:1. RIGHT - UP - BACKWARDS - RIGHT - UP - FORWARDS - DOWN – RIGHT 2. RIGHT - UP - BACKWARDS - RIGHT - DOWN – RIGHT 3. UP - RIGHT - UP - LEFT - BACKWARDS - DOWN - BACKWARDS - UP - FORWARDS - RIGHT - DOWN - FORWARDS – RIGHT}右上后右上前下右,右上后右下右,上右上左后下后上前右下前右,然后就进入一座古朴的房子
+5在房子外面收集除了`Lavender`和`Ginger`以外的所有材料(包括水) 然后去厨房做出绿茶来
 
-4在书架上找到Green tea的食谱
+6用绿茶喂动物
 
-5在房子外面收集四种材料 然后去厨房做出Green tea来
-
-6用Green tea喂动物
-
-7离开Xingzhi cave然后穿过通道
-
-8跟Sensei Miyagi对话
+7离开这个地方，跟*Sensei Miyagi*对话
 
 奖励
-2900000经验
-Master's Gi(一个胸甲)
++ 2900000 经验值
++ Master's Gi(胸甲)
