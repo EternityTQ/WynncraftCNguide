@@ -22,7 +22,7 @@
 <p>说实话我真没看懂这关是啥意思</p>
 </blockquote>
 </div>
-<p>4在书架上找到绿茶的食谱(书架左边第一本)</p>
+<p>4在书架上找到绿茶的食谱(图书馆书架右起第二本)</p>
 <p>5在房子外面收集除了<code v-pre>Lavender</code>和<code v-pre>Ginger</code>以外的所有材料(包括水) 然后去厨房做出绿茶来</p>
 <p>6用绿茶喂动物</p>
 <p>7离开这个地方，跟<em>Sensei Miyagi</em>对话</p>
