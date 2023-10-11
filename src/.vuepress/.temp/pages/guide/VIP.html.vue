@@ -106,12 +106,11 @@
 <li>降低市场税收至2%</li>
 <li>可以顺便增幅公会奖励</li>
 <li>增幅ranks的每日奖励(图腾、饰品箱)</li>
-<li>可以进入测试服</li>
 <li>隐藏盔甲的权限</li>
 <li>合成饰品时只需要三合一而非五合一</li>
 </ul>
 <p>订阅价格是8刀一个月，80刀一年</p>
-<p>Share价格是5刀一个</p>
+<p>Share价格是5刀一个，一个可以在游戏中订阅2周的SliverBull</p>
 <div class="hint-container warning">
 <p class="hint-container-title">非常不建议购买这个项目</p>
 <p>Share可以在游戏内通过le购买</p>
