@@ -242,17 +242,17 @@
 <tbody>
 <tr>
 <td>蓝色信标</td>
-<td>从3个增益效果中选择1个</td>
+<td>从<strong>3</strong>个增益效果中选择1个</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>紫色信标</td>
-<td>获得1个随机诅咒，同时最终奖励抽取物品数+1</td>
+<td>获得<strong>1</strong>个随机诅咒，同时最终奖励抽取物品数+<strong>1</strong></td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>黄色信标</td>
-<td>生成一个Flying Chest</td>
+<td>生成<strong>1</strong>个Flying Chest</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
@@ -262,32 +262,32 @@
 </tr>
 <tr>
 <td>橙色信标</td>
-<td>在接下来的5轮挑战中，信标选数+1</td>
+<td>在接下来的<strong>5</strong>轮挑战中，信标选数+1</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>绿色信标</td>
-<td>获得120s的时间，且本轮怪物不会增加属性</td>
+<td>获得<strong>120s</strong>的时间，且本轮怪物不会增加属性</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
 <td>暗灰色信标</td>
-<td>获得3个随机诅咒，同时最终奖励抽取物品数+3</td>
+<td>获得<strong>3</strong>个随机诅咒，同时最终奖励抽取物品数+<strong>3</strong></td>
 <td style="text-align:center">1</td>
 </tr>
 <tr>
 <td>白色信标</td>
-<td>挑战轮数+5</td>
+<td>挑战轮数+<strong>5</strong></td>
 <td style="text-align:center">1</td>
 </tr>
 <tr>
 <td>灰色信标</td>
-<td>从3个任务中选择1个接取</td>
+<td>从<strong>3</strong>个任务中选择1个接取</td>
 <td style="text-align:center">3</td>
 </tr>
 <tr>
 <td>红色信标</td>
-<td>挑战轮数+2，且2轮内不会有时间奖励</td>
+<td>挑战轮数+<strong>2</strong>，且<strong>2</strong>轮内不会有时间奖励</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
