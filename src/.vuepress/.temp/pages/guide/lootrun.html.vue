@@ -200,6 +200,11 @@
 <p>每个账号在每天第一次lootrun完成时，都能获得每日奖励</p>
 <p>在开始游戏后，你可以看到计分板出现计时器以及轮次数</p>
 <figure><img src="/assets/img/lootrun9.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在开始游戏后，当你离线/切换其他存档时，你当前的游戏将会暂停</p>
+<p>若你已经进入挑战，在上线后你当前的挑战将会重置</p>
+</div>
 <p>同时，你可以在任何时候找NPC结算(或者投降。)</p>
 <figure><img src="/assets/img/lootrun12.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>结算效果等于直接放弃接下来所有挑战数</p>
@@ -208,10 +213,14 @@
 <p>只有在成功完成4轮挑战后，整局lootrun才算成功</p>
 <p>在此之前若你失败过多次或找NPC直接结算，都会直接判Lootrun Failed且不会有任何奖励</p>
 </div>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>在开始游戏后，当你离线/切换其他存档时，你当前的游戏将会暂停</p>
-<p>若你已经进入挑战，在上线后你当前的挑战将会重置</p>
+<div class="hint-container danger">
+<p class="hint-container-title">关于游玩区域限制</p>
+<p>每个lootrun地区都有限制一定游玩区域</p>
+<p>当你离开这个区域后，会显示<code v-pre>return to playable area in X second</code></p>
+<p>千万不要以为这是提示，<strong>这是警告</strong></p>
+<p>在倒计时结束后，你就会被<strong>强制结算</strong>并传送回camp</p>
+<p>注意当你出现了这个提示并且限时内无法回去时，一定要使用<code v-pre>/kill</code>来回到camp</p>
+<p>这个真的很重要！！！</p>
 </div>
 <h3 id="计时器" tabindex="-1"><a class="header-anchor" href="#计时器" aria-hidden="true">#</a> 计时器</h3>
 <p>一旦计时器耗尽或者轮次数耗尽，你都会被立刻结算并且传送回Lootrun Camp</p>
