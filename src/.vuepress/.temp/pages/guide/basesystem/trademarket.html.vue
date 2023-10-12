@@ -4,9 +4,7 @@
 <p>跟其对话就可以打开交易市场的界面了</p>
 <figure><img src="/assets/img/TM2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>首先来从上到下介绍一下右侧的按钮</p>
-<ul>
-<li>筛选器(黄色环形箭头)</li>
-</ul>
+<h2 id="筛选器-黄色环形箭头" tabindex="-1"><a class="header-anchor" href="#筛选器-黄色环形箭头" aria-hidden="true">#</a> 筛选器(黄色环形箭头)</h2>
 <p>可以用于筛选主界面的物品等级</p>
 <p>左键来更改等级区间，选定后使用右键来设为默认</p>
 <p>设为默认后每次打开都会是这个设置</p>
@@ -89,6 +87,12 @@
 <p>它只会购入与求购一模一样的物品，即鉴定度完全一致</p>
 <p>所以如果我挂了一个已鉴定的物品求购，它就只会购入整个游戏中仅有的与求购相同的那一个物品。</p>
 </div>
+<h2 id="购买物品" tabindex="-1"><a class="header-anchor" href="#购买物品" aria-hidden="true">#</a> 购买物品</h2>
+<figure><img src="/assets/img/TM10.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>你可以在主界面进行购买物品</p>
+<p>注意购买时，买家需要额外支付5%的交易税(有银牛的情况下为2%)</p>
+<p>购买时，若存在更低价格的同种物品，会优先购买更低价格的，并且退回多余支付的绿宝石</p>
+<p>支付时，若背包内绿宝石不足时，会自动使用银行内的绿宝石</p>
 </div></template>
 
 
