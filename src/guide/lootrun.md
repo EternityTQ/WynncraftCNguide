@@ -2,7 +2,43 @@
 title: Lootrun
 icon: wheelchair-move
 ---
+每周奖池(2023.10.14)
+::: tabs
+@tab SE
++ ==Shiny== Cataclysm :star: dungeons won
++ boreal
++ thrundacrack 
++ warchief 
++ moontower 
++ lament
 
+@tab Sky Island
++ ==Shiny== Convergence :star: Lootruns Completed
++ moontower 
++ Sunstar 
++ Spring 
++ Aftershock 
++ Az 
++ Boreal
+
+@tab Corkus
++ ==Shiny== Warp :star: Wars Won
++ Collapse 
++ Idol 
++ Weathered 
++ Archangel 
++ Az 
++ Warp
+
+@tab 火山
++ ==Shiny== Epoch :star: Raids Won
++ Az 
++ Spring 
++ Nirvana 
++ Collapse 
++ Crusade Sabatons
++ Discoverer
+:::
 首先先解释一下，何谓lootrun?
 
 lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启，以此来获取装备，一般简称lr

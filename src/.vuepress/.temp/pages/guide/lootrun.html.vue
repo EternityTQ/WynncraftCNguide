@@ -1,4 +1,54 @@
-<template><div><p>首先先解释一下，何谓lootrun?</p>
+<template><div><p>每周奖池(2023.10.14)</p>
+<Tabs id="3" :data='[{"id":"SE"},{"id":"Sky Island"},{"id":"Corkus"},{"id":"火山"}]'>
+<template #title0="{ value, isActive }">SE</template>
+<template #title1="{ value, isActive }">Sky Island</template>
+<template #title2="{ value, isActive }">Corkus</template>
+<template #title3="{ value, isActive }">火山</template>
+<template #tab0="{ value, isActive }">
+<ul>
+<li><mark>Shiny</mark> Cataclysm ⭐ dungeons won</li>
+<li>boreal</li>
+<li>thrundacrack</li>
+<li>warchief</li>
+<li>moontower</li>
+<li>lament</li>
+</ul>
+</template>
+<template #tab1="{ value, isActive }">
+<ul>
+<li><mark>Shiny</mark> Convergence ⭐ Lootruns Completed</li>
+<li>moontower</li>
+<li>Sunstar</li>
+<li>Spring</li>
+<li>Aftershock</li>
+<li>Az</li>
+<li>Boreal</li>
+</ul>
+</template>
+<template #tab2="{ value, isActive }">
+<ul>
+<li><mark>Shiny</mark> Warp ⭐ Wars Won</li>
+<li>Collapse</li>
+<li>Idol</li>
+<li>Weathered</li>
+<li>Archangel</li>
+<li>Az</li>
+<li>Warp</li>
+</ul>
+</template>
+<template #tab3="{ value, isActive }">
+<ul>
+<li><mark>Shiny</mark> Epoch ⭐ Raids Won</li>
+<li>Az</li>
+<li>Spring</li>
+<li>Nirvana</li>
+<li>Collapse</li>
+<li>Crusade Sabatons</li>
+<li>Discoverer</li>
+</ul>
+</template>
+</Tabs>
+<p>首先先解释一下，何谓lootrun?</p>
 <p>lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启，以此来获取装备，一般简称lr</p>
 <p>通常情况下，lr的终极目标即获取稀有度最高的Mythic品质装备</p>
 <p>大部分Mythic装备都拥有高于其他品质的属性以及价值</p>
