@@ -55,7 +55,7 @@ Wynntils是一个由玩家群体自行制作的专门用于大幅提升Wynncraft
 
 [下载地址](https://modrinth.com/mod/wynntils/)
 
-你甚至只需要安装一个wynntils就可以愉快的开始游戏！
+你甚至==只需要==安装一个wynntils就可以愉快的开始游戏！
 
 Wynntils包含了游戏地图、装备鉴定度显示、特色HUD甚至自动翻译等多种功能
 

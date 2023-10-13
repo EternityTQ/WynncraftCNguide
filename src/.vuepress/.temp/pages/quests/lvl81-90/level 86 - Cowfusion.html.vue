@@ -2,13 +2,15 @@
 <p><strong>变牛记</strong></p>
 <p>前置任务：<RouterLink to="/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html">Tunnel Trouble ( level 6 )</RouterLink></p>
 <p>1.跟Ranol对话<code v-pre>[768 45 -5425]</code></p>
-<p>2.往北走，找路进入实验室[803,50,-5592]</p>
+<p>2.往北走，找路进入实验室<code v-pre>[803,50,-5592]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>跟着右边的棕色地毯就能找到门的开关</p>
 </div>
 <p>3.进入实验室，进入实验舱内带走钥匙，然后...</p>
+<blockquote>
 <p>你变成牛了。</p>
+</blockquote>
 <p>4.回去找Ranol</p>
 <p>5.和栅栏里面的<em>Suspicous Cow</em>对话，选项选1或3</p>
 <p>6.把干草堆推到有台阶和栅栏的地方，让你可以走上去(右键推)</p>
