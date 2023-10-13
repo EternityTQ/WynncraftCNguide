@@ -105,7 +105,26 @@
 <blockquote>
 <p>组队有什么收益/可以和朋友一起玩吗</p>
 </blockquote>
+<figure><img src="/assets/img/qa7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>你可以在邀请界面邀请你的好友</p>
+<p>与被邀请的玩家一同组队可以获得30%的额外经验加成</p>
+<p>同时，所有任务/副本均支持多人一起游玩，也强烈建议多人一起游玩</p>
+<blockquote>
+<p>当然，部分任务多人在一起可能会有BUG...</p>
+</blockquote>
+<p>输入<code v-pre>/party ID</code>即可快速邀请你的朋友入队</p>
 <h2 id="快速旅行要怎么使用" tabindex="-1"><a class="header-anchor" href="#快速旅行要怎么使用" aria-hidden="true">#</a> 快速旅行要怎么使用？</h2>
+<figure><img src="/assets/img/qa8.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>快速旅行一般是做完特定任务后解锁</p>
+<p>你可以在wiki上查阅快速旅行的位置</p>
+<p>当然本攻略也会标出(大概)</p>
+<p>快速旅行即快速在两地之间免费传送(或仅限单向传送)</p>
+<p>一般是走到特定区域即可传送(洞穴/热气球等)</p>
+<h2 id="人太多的地方放不出技能怎么办" tabindex="-1"><a class="header-anchor" href="#人太多的地方放不出技能怎么办" aria-hidden="true">#</a> 人太多的地方放不出技能怎么办？</h2>
+<p>你可以使用<code v-pre>/stream</code>开启直播模式</p>
+<p>直播模式下，会自动屏蔽非好友、队友玩家以及任何特效</p>
+<p>如果还是不能解决问题，推荐换个好点的加速器</p>
+<p>有可能是你的加速器限制了下载带宽导致人多卡顿</p>
 </div></template>
 
 
