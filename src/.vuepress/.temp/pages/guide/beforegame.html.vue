@@ -24,8 +24,8 @@
 <h2 id="客户端" tabindex="-1"><a class="header-anchor" href="#客户端" aria-hidden="true">#</a> 客户端</h2>
 <p>其实客户端并不需要怎么刻意找</p>
 <p>你只需要随便找一个客户端就能进入游戏了</p>
-<p>Wynncraft的准入游戏版本为1.9~1.20，强烈推荐使用1.12.2版本以及1.19.4版本</p>
-<p>在这两个版本下，你可以使用非常强力的第三方MOD<code v-pre>Wynntils</code></p>
+<p>Wynncraft的准入游戏版本为1.9~1.20，强烈推荐使用1.12.2、1.19.4以及1.20.2</p>
+<p>在这几个版本下，你可以使用非常强力的第三方MOD<code v-pre>Wynntils</code></p>
 <blockquote>
 <p>什么是Wynntils？</p>
 </blockquote>
