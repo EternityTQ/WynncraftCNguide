@@ -4,7 +4,7 @@
 <li>如果你发现某些任务的某些步骤有误，请向编者指出以便及时修改，谢谢</li>
 <li>注意NPC位置若无再次说明，则仍然为前面步骤中提到的位置</li>
 <li>本攻略重在流程，若想了解细节和剧情，请翻阅<a href="https://wynncraft.fandom.com/wiki/Quests" target="_blank" rel="noopener noreferrer">wiki<ExternalLinkIcon/></a></li>
-<li>非常感谢各位前人制作的攻略，本网站仅仅只是将大家的成果整理及更新以便查阅，以及后续bot对接等工作tes</li>
+<li>非常感谢各位前人制作的攻略，本网站仅仅只是将大家的成果整理及更新以便查阅，以及后续bot对接等工作test</li>
 </ol>
 <div class="hint-container tip">
 <p class="hint-container-title">如何使用本攻略?</p>
