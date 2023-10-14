@@ -125,6 +125,11 @@
 <p>直播模式下，会自动屏蔽非好友、队友玩家以及任何特效</p>
 <p>如果还是不能解决问题，推荐换个好点的加速器</p>
 <p>有可能是你的加速器限制了下载带宽导致人多卡顿</p>
+<h2 id="我无法使用位移技能了" tabindex="-1"><a class="header-anchor" href="#我无法使用位移技能了" aria-hidden="true">#</a> 我无法使用位移技能了？</h2>
+<blockquote>
+<p>位移技能失效</p>
+</blockquote>
+<p>可以尝试重登服务器解决</p>
 </div></template>
 
 
