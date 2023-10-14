@@ -469,7 +469,15 @@
 <blockquote>
 <p>减少数值也是有可能的...</p>
 </blockquote>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>进行到一定轮次时，不会出现Dynamic增益</p>
+</div>
 <p>Static为静态增益，该增益的数值在拿到瞬间就固定了</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>选择增益时的数值会随着轮次缓慢增加</p>
+</div>
 <table>
 <thead>
 <tr>
