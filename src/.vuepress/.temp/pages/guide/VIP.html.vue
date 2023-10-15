@@ -89,6 +89,7 @@
 </details>
 <p>如果你希望小氪一点的话，真诚建议你别氪！</p>
 <p>VIP实在没什么用，最好从VIP+以上还是考虑</p>
+<p>与此同时，史低促销为7折</p>
 <p>顺便还是文章开始的话：<strong>不提倡氪金！</strong></p>
 <div class="hint-container tip">
 <p class="hint-container-title">图腾是什么?</p>
@@ -110,7 +111,7 @@
 <li>合成饰品时只需要三合一而非五合一</li>
 </ul>
 <p>订阅价格是8刀一个月，80刀一年</p>
-<p>Share价格是5刀一个，一个可以在游戏中订阅2周的SliverBull</p>
+<p>Share价格是5刀一个，一个Share可以在游戏中订阅2周的SliverBull</p>
 <div class="hint-container warning">
 <p class="hint-container-title">非常不建议购买这个项目</p>
 <p>Share可以在游戏内通过le购买</p>
@@ -152,6 +153,10 @@
 <p>在活动期间，商城将会出售节日Crates</p>
 <p>节日Crates中仅会包含限时饰品，且<strong>没有Common品质！</strong></p>
 <p>注意不同的节日饰品和常驻饰品之间不能混搭合成</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>每个节日开始时，你都可以在线上商城领取3个免费的节日Crates!</p>
+</div>
 <h2 id="pets" tabindex="-1"><a class="header-anchor" href="#pets" aria-hidden="true">#</a> Pets</h2>
 <p>宠物</p>
 <p>比较不建议在这里购买，太贵了。</p>
@@ -169,19 +174,19 @@
 <p>Bombs一般可以为当前线路带来10分钟或20分钟的增益</p>
 <p>也可以是一次性给当前线路的玩家发放道具</p>
 <p>同种炸弹不能在持续期间内再次丢掷</p>
-<p>具体可以看下文</p>
+<p>炸弹具体效果可以看下文</p>
 <details class="hint-container details"><summary>炸弹种类</summary>
 <ul>
 <li>
-<p>Combat XP Bombs<br>
+<p>Combat XP Bombs(dxp)<br>
 为当前线路带来20分钟的双倍的战斗经验</p>
 </li>
 <li>
-<p>Profession XP Bombs<br>
+<p>Profession XP Bombs(pxp)<br>
 为当前线路带来20分钟的双倍的副职经验</p>
 </li>
 <li>
-<p>Profession Speed Bombs<br>
+<p>Profession Speed Bombs(psp/psb)<br>
 为当前线路带来10分钟的双倍的副职采集速度以及制作原料减半</p>
 </li>
 <li>
@@ -189,7 +194,7 @@
 可以向全服(跨线路)发送一条消息</p>
 </li>
 <li>
-<p>Loot Bombs<br>
+<p>Loot Bombs(dl)<br>
 为当前线路带来20分钟的怪物双倍掉落</p>
 </li>
 <li>
@@ -197,11 +202,11 @@
 为当前线路的每一个玩家赠送2个随机装备/物品</p>
 </li>
 <li>
-<p>Dungeon Bombs<br>
+<p>Dungeon Bombs(db)<br>
 为当前线路开启10分钟的副本免钥匙资格</p>
 </li>
 <li>
-<p>Soul Point Bombs<br>
+<p>Soul Point Bombs(spb)<br>
 为当前线路的每一个玩家增加2点灵魂点数</p>
 </li>
 <li>

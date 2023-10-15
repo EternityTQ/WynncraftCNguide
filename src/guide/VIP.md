@@ -39,6 +39,8 @@ icon: gem
 
 VIP实在没什么用，最好从VIP+以上还是考虑
 
+与此同时，史低促销为7折
+
 顺便还是文章开始的话：**不提倡氪金！**
 
 :::tip 图腾是什么?
@@ -67,7 +69,7 @@ VIP实在没什么用，最好从VIP+以上还是考虑
   
 订阅价格是8刀一个月，80刀一年
 
-Share价格是5刀一个，一个可以在游戏中订阅2周的SliverBull
+Share价格是5刀一个，一个Share可以在游戏中订阅2周的SliverBull
 
 :::warning 非常不建议购买这个项目
 Share可以在游戏内通过le购买
@@ -133,6 +135,10 @@ T3、T4饰品箱的来源只有在商城购买
 
 注意不同的节日饰品和常驻饰品之间不能混搭合成
 
+:::tip
+每个节日开始时，你都可以在线上商城领取3个免费的节日Crates!
+:::
+
 ## Pets
 宠物
 
@@ -161,31 +167,31 @@ Bombs一般可以为当前线路带来10分钟或20分钟的增益
 
 同种炸弹不能在持续期间内再次丢掷
 
-具体可以看下文
+炸弹具体效果可以看下文
 
 :::details 炸弹种类
-+ Combat XP Bombs
++ Combat XP Bombs(dxp)
   为当前线路带来20分钟的双倍的战斗经验
   
-+ Profession XP Bombs
++ Profession XP Bombs(pxp)
   为当前线路带来20分钟的双倍的副职经验
 
-+ Profession Speed Bombs
++ Profession Speed Bombs(psp/psb)
   为当前线路带来10分钟的双倍的副职采集速度以及制作原料减半
 
 + Shout Bombs
   可以向全服(跨线路)发送一条消息
 
-+ Loot Bombs
++ Loot Bombs(dl)
   为当前线路带来20分钟的怪物双倍掉落
 
 + Item Bombs
   为当前线路的每一个玩家赠送2个随机装备/物品
 
-+ Dungeon Bombs
++ Dungeon Bombs(db)
   为当前线路开启10分钟的副本免钥匙资格
 
-+ Soul Point Bombs
++ Soul Point Bombs(spb)
   为当前线路的每一个玩家增加2点灵魂点数
 
 + Ingredient Bombs
