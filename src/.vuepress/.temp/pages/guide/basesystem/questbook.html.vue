@@ -21,6 +21,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">追踪任务</p>
 <p>除了秘密发现以外，你都可以通过<strong>单击图标</strong>来追踪目标</p>
+<figure><img src="/assets/img/questbook6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>游戏内会以信标的形式显示目标与你的相对位置</p>
 <p>请注意，未到指定等级是无法追踪目标的</p>
 </div>

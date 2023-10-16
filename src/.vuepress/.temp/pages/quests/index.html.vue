@@ -1,7 +1,6 @@
 <template><div><p>以下是一些介绍，你可以通过左侧导航栏快速查找任务</p>
 <ol>
 <li>部分任务存在缺失，待更新。</li>
-<li>如果你发现某些任务的某些步骤有误，请向编者指出以便及时修改，谢谢</li>
 <li><strong>注意NPC位置若无再次说明，则仍然为前面步骤中提到的位置</strong></li>
 <li>本攻略重在流程，若想了解细节和剧情，请翻阅<a href="https://wynncraft.fandom.com/wiki/Quests" target="_blank" rel="noopener noreferrer">wiki<ExternalLinkIcon/></a></li>
 <li>非常感谢各位前人制作的攻略，本网站仅仅只是将大家的成果整理及更新以便查阅，以及后续bot对接等工作</li>
