@@ -106,6 +106,7 @@
 前置任务：<br>
 坐标：<br>
 简称：</p>
+<p>第一次打非常浪费时间的副本</p>
 <h3 id="undergrowth-ruins" tabindex="-1"><a class="header-anchor" href="#undergrowth-ruins" aria-hidden="true">#</a> Undergrowth Ruins</h3>
 <p>建议等级：<br>
 入场等级：<br>

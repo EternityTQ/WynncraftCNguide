@@ -19,8 +19,8 @@
 <p>通过过滤器，你就可以非常直观地使用任务书了！</p>
 <p>下面是介绍每一项的用途</p>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>除了秘密发现以外，你都可以通过单击图标来追踪目标</p>
+<p class="hint-container-title">追踪任务</p>
+<p>除了秘密发现以外，你都可以通过<strong>单击图标</strong>来追踪目标</p>
 <p>游戏内会以信标的形式显示目标与你的相对位置</p>
 <p>请注意，未到指定等级是无法追踪目标的</p>
 </div>

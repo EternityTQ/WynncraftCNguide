@@ -11,7 +11,7 @@
 <p class="hint-container-title">提示</p>
 <p>锄头工具可在一旁的Tool Merchant购买</p>
 </div>
-<p>3.材料收集完毕后回去找厨师</p>
+<p>3.材料收集完毕后回去找厨师<code v-pre>[-846 67 -1561]</code></p>
 <p>奖励</p>
 <ul>
 <li>200 exp</li>
