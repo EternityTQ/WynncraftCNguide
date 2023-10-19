@@ -368,8 +368,8 @@ Static为静态增益，该增益的数值在拿到瞬间就固定了
 | Clockworker           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | -        |
 | Looter                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `增益效果`                      | x15        |
 | Serendipity           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `增益效果`                                          | x15        |
-| Bad Omen              | Dynamic   | 在这次挑战后, 每次获得诅咒都会获得一层 `增益效果`                                           | x10        |
-| Midas Touch           | Dynamic   | 在这次挑战后, 每次获得增益都会获得一层 `增益效果`                                           | x8         |
+| Bad Omen              | Dynamic   | 在这次挑战后, 每个诅咒都会获得一层 `增益效果`                                           | x10        |
+| Midas Touch           | Dynamic   | 在这次挑战后, 每个增益都会获得一层 `增益效果`                                           | x8         |
 | Killstreak            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
 | Persistent Champion   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | -          |
 | Patient Champion      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
