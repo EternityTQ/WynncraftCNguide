@@ -58,10 +58,12 @@ icon: route
 
 ![](/assets/img/route3.jpg)
 
-他可以直接按照鉴定价格的0.5-1.5倍收购你的装备
+他可以直接按照初始鉴定价格的0.5-1.5倍收购你的装备
 
 :::tip
 出售未鉴定的物品时，出售价格非常低
+
+当然，如果你想要先鉴定后出售的话，是有可能亏损鉴定费的
 :::
 
 然后在铁匠的旁边，还有药水商店
@@ -120,7 +122,16 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 关于秘密发现，可以看[这一章](/WynncraftCNguide/guide/basesystem/secretdiscovery.html)
 
+接下来，等你做到[Cook Assistant (level 3)](/WynncraftCNguide/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html)任务后，你将会第一次体验到采集系统
 
+稍微知道一下怎么做就行了！不用花太多时间去采集
+
+之后记得完成[Infested Plants (level 4)](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)任务！这是后面一系列任务的起头，不完成的话你将体验不到后续的部分教程任务
+
+:::tip
+为了篇幅安排，关于武器加点、打粉的部分将会安排在之后讲解
+
+:::
 
 
 

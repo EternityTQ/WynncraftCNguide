@@ -533,13 +533,13 @@
 <tr>
 <td>Bad Omen</td>
 <td>Dynamic</td>
-<td>在这次挑战后, 每次获得诅咒都会获得一层 <code v-pre>增益效果</code></td>
+<td>在这次挑战后, 每个诅咒都会获得一层 <code v-pre>增益效果</code></td>
 <td>x10</td>
 </tr>
 <tr>
 <td>Midas Touch</td>
 <td>Dynamic</td>
-<td>在这次挑战后, 每次获得增益都会获得一层 <code v-pre>增益效果</code></td>
+<td>在这次挑战后, 每个增益都会获得一层 <code v-pre>增益效果</code></td>
 <td>x8</td>
 </tr>
 <tr>
@@ -639,6 +639,10 @@
 <td>Clockworker</td>
 <td>游戏内标有上限，实际上没有上限</td>
 </tr>
+<tr>
+<td>Picky Looter</td>
+<td>只看真·黄信标，不看Materialism带来的附加黄信标效果</td>
+</tr>
 </tbody>
 </table>
 <h3 id="任务" tabindex="-1"><a class="header-anchor" href="#任务" aria-hidden="true">#</a> 任务</h3>
@@ -674,7 +678,7 @@
 </tr>
 <tr>
 <td>Cleansing Ritual</td>
-<td>每次完成挑战后，可以消费1个诅咒换取1个额外挑战轮数，上限为109轮</td>
+<td>每次完成挑战后，可以消费1个诅咒换取1个额外挑战轮数</td>
 </tr>
 <tr>
 <td>Equilibrium</td>
@@ -712,6 +716,13 @@
 <p>使用<code v-pre>/kill</code>快速减少时间是非常不错的选择</p>
 <p>但是要注意退出重登会导致<code v-pre>获得时间</code>的进度清零！(疑似BUG)</p>
 </div>
+<div class="hint-container tip">
+<p class="hint-container-title">关于Ultimate Sacrifice</p>
+<p>Ultimate Sacrifice的实际效果是：</p>
+<p>获取该效果后，立刻给当前计时器时间的-2min处打上标记</p>
+<p>一旦时间减少至低于标记时间，则立刻消除一个随机增益，并且再根据新的时间-2min处打上新的标记</p>
+<p>若当前时间距离标记时间大于2min，则会再次打上新的标记</p>
+</div>
 <h3 id="最终奖励" tabindex="-1"><a class="header-anchor" href="#最终奖励" aria-hidden="true">#</a> 最终奖励</h3>
 <p>在完成lootrun后，你可以开启最终奖励宝箱</p>
 <p>对于每个区域的最终奖励宝箱，都会有每周刷新的神话、传奇等物品</p>
@@ -721,6 +732,7 @@
 <p class="hint-container-title">提示</p>
 <p>总物品数上限为36</p>
 <p>如果你的pulls超过了36，则会根据优先级截断优先级较低的物品，保留优先级较高的物品</p>
+<p><strong>注意最终奖励宝箱的奖励抽取不受任何lb、lq的影响！</strong></p>
 </div>
 <p>你可以消耗最终奖励刷新机会(End Reward Reroll，以下简称rr)来刷新物品</p>
 <p>rr相当于重抽一次，并不会保留你当前的任何物品</p>

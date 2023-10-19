@@ -32,10 +32,11 @@
 <figure><img src="/assets/img/route2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>你其实只需要用到铁匠的第一个功能——<strong>出售物品</strong></p>
 <figure><img src="/assets/img/route3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>他可以直接按照鉴定价格的0.5-1.5倍收购你的装备</p>
+<p>他可以直接按照初始鉴定价格的0.5-1.5倍收购你的装备</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>出售未鉴定的物品时，出售价格非常低</p>
+<p>当然，如果你想要先鉴定后出售的话，是有可能亏损鉴定费的</p>
 </div>
 <p>然后在铁匠的旁边，还有药水商店</p>
 <p>每次回城镇的时候都要记得补给一下噢</p>
@@ -66,6 +67,13 @@
 <figure><img src="/assets/img/route7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>进去后，你会发现这是个秘密发现(Secret Discovery)</p>
 <p>关于秘密发现，可以看<RouterLink to="/guide/basesystem/secretdiscovery.html">这一章</RouterLink></p>
+<p>接下来，等你做到<RouterLink to="/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html">Cook Assistant (level 3)</RouterLink>任务后，你将会第一次体验到采集系统</p>
+<p>稍微知道一下怎么做就行了！不用花太多时间去采集</p>
+<p>之后记得完成<RouterLink to="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html">Infested Plants (level 4)</RouterLink>任务！这是后面一系列任务的起头，不完成的话你将体验不到后续的部分教程任务</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>为了篇幅安排，关于武器加点、打粉的部分将会安排在之后讲解</p>
+</div>
 </div></template>
 
 
