@@ -41,6 +41,12 @@
 <p>下文中的推荐装备角度是从经验加成以及高属性饰品来考虑的</p>
 <p>如果你实在没有合适的装备，不用管推荐，直接换！</p>
 </div>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>地牢中没有复活机会</p>
+<p>一旦死亡，将会直接遣回地牢入口处！</p>
+<p>同时，进入BOSS房后离线或切换存档将会导致直接遣回入口处！</p>
+</div>
 <h2 id="常规地牢" tabindex="-1"><a class="header-anchor" href="#常规地牢" aria-hidden="true">#</a> 常规地牢</h2>
 <h3 id="decrepit-sewers" tabindex="-1"><a class="header-anchor" href="#decrepit-sewers" aria-hidden="true">#</a> Decrepit Sewers</h3>
 <p>建议等级: lvl 9<br>
@@ -132,39 +138,114 @@
 坐标：<br>
 简称：</p>
 <h2 id="腐化地牢" tabindex="-1"><a class="header-anchor" href="#腐化地牢" aria-hidden="true">#</a> 腐化地牢</h2>
-<h3 id="the-forgery" tabindex="-1"><a class="header-anchor" href="#the-forgery" aria-hidden="true">#</a> The Forgery</h3>
+<figure><img src="/assets/img/forgery.png" alt="The forgery" tabindex="0" loading="lazy"><figcaption>The forgery</figcaption></figure>
+<p>想进行腐化地牢，你首先需要前往<strong>The Forgery</strong><code v-pre>[-845 122 -4913]</code></p>
+<p>腐化地牢相当于原版地牢的困难版本，怪物拥有更高的属性，同时关卡的部分内容会有所改动</p>
+<div class="hint-container tip">
+<p class="hint-container-title">关于入场钥匙</p>
+<p>腐化地牢的入场钥匙与原版地牢相比有所不同</p>
+<p>你需要先收集破损的钥匙</p>
+<p>然后在Forgery的<code v-pre>Key Forge Merchant</code>处将钥匙用rune进行修复，才是可以进入副本的完整的钥匙</p>
+<p>一把腐化钥匙同样可以供4名玩家使用</p>
+<p><strong>破损的钥匙强烈建议在玩家市场上购买，产出量大且便宜</strong></p>
+</div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>腐化副本中，每条线路的每个BOSS房在开始后，直到结束前，其他玩家都不能再进入</p>
+<p>其中，BOSS的等级将会根据玩家团队中的<strong>最高等级</strong>进行动态调整</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>介于本攻略是正经攻略</p>
+<p>以下所有副本均只介绍正常情况下的过法和注意点</p>
+<p><strong>不会针对任何非法skip点、逃课点进行介绍</strong></p>
+</div>
+<h3 id="forgery-chest" tabindex="-1"><a class="header-anchor" href="#forgery-chest" aria-hidden="true">#</a> Forgery Chest</h3>
+<p>腐化副本独有的特殊机制</p>
+<p>在完成各不相同的腐化地牢后，你可以根据完成数目进行腐化箱的抽取</p>
+<p>完成数目越多，<strong>抽取到神话的概率就越高</strong></p>
+<p>与此同时，你还可以获得经验、绿宝石等奖励</p>
+<figure><img src="/assets/img/forgery2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在升级时，通过完成不同地牢来蹭腐化箱的经验奖励也是一个不错的选择</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">神话保底</p>
+<p>在每一次跑完一轮<strong>所有的</strong>腐化副本后，如果你没抽到神话，你的神话抽取概率将会提升</p>
+<p>当抽取到神话后，额外提升的概率将会清空</p>
+</div>
 <h3 id="corrupted-decrepit-sewers" tabindex="-1"><a class="header-anchor" href="#corrupted-decrepit-sewers" aria-hidden="true">#</a> Corrupted Decrepit Sewers</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 70<br>
+入场等级：lvl 65<br>
+简称：CDS</p>
+<p>第一个腐化副本 但是难度不简单！</p>
+<p>前面的阶段与原版副本大致相同，但是中间踩了就会关上的压力板删了</p>
+<p>要注意的是BOSS的攻击和攻速非常非常高，强烈建议绕圈打，会特别疼！</p>
+<p>推荐兑换：栗子马升级(等级上限+5，不可交易)</p>
 <h3 id="corrupted-infested-pit" tabindex="-1"><a class="header-anchor" href="#corrupted-infested-pit" aria-hidden="true">#</a> Corrupted Infested Pit</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 74<br>
+入场等级：lvl 69<br>
+简称：CIP</p>
+<p>相较CDS来说，难度降低了，但是耗时长了很多</p>
+<p>基本没啥生存压力，BOSS主要是肉点，伤害不高</p>
+<p>但是BOSS目前有概率刷不出来，遇到这种情况只能/class出去了</p>
+<p>推荐兑换：Vanguard(+10%法伤，+15%经验加成，<strong>强烈推荐兑换</strong>)</p>
 <h3 id="corrupted-lost-sanctuary" tabindex="-1"><a class="header-anchor" href="#corrupted-lost-sanctuary" aria-hidden="true">#</a> Corrupted Lost Sanctuary</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 78<br>
+入场等级：lvl 73<br>
+简称：CLS</p>
+<p>今后可能会重制为CTS</p>
+<p>也没啥难度的副本，稍微耗点时间</p>
+<p><strong>需要特别注意BOSS是机制杀</strong>，在场地中生存直到收集齐9个tnt后放在中间，然后引诱BOSS下去</p>
+<p>正常杀BOSS也可以，但是血特别特别特别特别厚，中间炸开后岩浆伤害高一点</p>
+<p>推荐兑换：Rainbow Sanctuary(+85%全属性伤害，彩虹套适配极佳)</p>
 <h3 id="corrupted-underworld-crypt" tabindex="-1"><a class="header-anchor" href="#corrupted-underworld-crypt" aria-hidden="true">#</a> Corrupted Underworld Crypt</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 82<br>
+入场等级：lvl 77<br>
+简称：CUC</p>
+<p>稍微有点生存压力！</p>
+<p>前面三个阶段的生存需要有一定的生存能力，有点难</p>
+<p>后面就轻松很多了</p>
+<p>BOSS同样存在机制，如果不能及时灌伤击杀BOSS的话，一定要及时去处理机制</p>
 <h3 id="corrupted-sand-swept-tomb" tabindex="-1"><a class="header-anchor" href="#corrupted-sand-swept-tomb" aria-hidden="true">#</a> Corrupted Sand-Swept Tomb</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 86<br>
+入场等级：lvl 81<br>
+简称：CSST</p>
+<p>没啥尿点，比较简单</p>
+<p>但是如果带人的话，中间的单刷阶段一样可能会有难度，这个要注意</p>
+<p>其他就没什么了</p>
+<p>推荐兑换：Dune Storm(有一点强的地气头盔，但是扣血)</p>
 <h3 id="corrupted-ice-barrows" tabindex="-1"><a class="header-anchor" href="#corrupted-ice-barrows" aria-hidden="true">#</a> Corrupted Ice Barrows</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 90<br>
+入场等级：lvl 85<br>
+简称：CIB</p>
+<p><strong>如果你是在练级，不要打这个地牢</strong></p>
+<p>究极下头的跑酷机制和难度，打起来非常非常折磨</p>
+<p>BOSS难度颇高，稍不注意容易被秒杀</p>
+<p>总之非常难，快跑</p>
+<p>推荐兑换: Conduit of Spirit(非常非常强的气系盔甲)</p>
 <h3 id="corrupted-undergrowth-ruins" tabindex="-1"><a class="header-anchor" href="#corrupted-undergrowth-ruins" aria-hidden="true">#</a> Corrupted Undergrowth Ruins</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 94<br>
+入场等级：lvl 89<br>
+简称：CUR</p>
+<p>非常亲民，曾经的版本几乎是住在里面刷级的</p>
+<p>前半段难度不高，只要避开怪杀杀杀就可以了</p>
+<p><strong>跑酷非常吃熟练度!</strong> 如果你的网络不好的话，那么对于这个地牢来说可能存在一定难度</p>
+<p>BOSS请注意务必不要吃满陷阱，只要不吃陷阱你是相当安全的</p>
+<p>最后需要通过史莱姆跳板左键攻击到BOSS</p>
+<blockquote>
+<p>其实只要飞上去打一下就行了...</p>
+</blockquote>
 <h3 id="corrupted-galleon-s-graveyard" tabindex="-1"><a class="header-anchor" href="#corrupted-galleon-s-graveyard" aria-hidden="true">#</a> Corrupted Galleon's Graveyard</h3>
-<p>建议等级：<br>
-入场等级：<br>
-简称：</p>
+<p>建议等级：lvl 98<br>
+入场等级：lvl 93<br>
+简称：CGG</p>
+<blockquote>
+<p>笔者不好评价该关卡正常流程难度<br>
+此处先略过哈，见谅</p>
+</blockquote>
+<p>推荐兑换：Skidbladnir(很强的气系鞋子)</p>
 </div></template>
 
 

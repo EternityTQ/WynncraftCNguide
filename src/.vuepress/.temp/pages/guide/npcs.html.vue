@@ -38,10 +38,36 @@
 <p>Item Identifier的标志是末影之眼+紫色地毯<br>
 <img src="/assets/img/identification1.jpg" alt="" loading="lazy"></p>
 </div>
-<h3 id="提升鉴定值" tabindex="-1"><a class="header-anchor" href="#提升鉴定值" aria-hidden="true">#</a> 提升鉴定值</h3>
-<p>在鉴定时，如果你的背包内放有<code v-pre>Corkian Amplifier</code>(简称amp)，你可以在鉴定时右键确认键来应用amp</p>
-<p>使用amp会提高你的<strong>正面属性</strong>鉴定数值(尽管不是很明显，但是效果确实有)</p>
-<p>需要注意的是，如果你希望同时鉴定多个装备，你需要将你的amp分开来放在数个格子上，一个格子的amp对应一个装备，有多的装备则不会应用amp</p>
+<h3 id="使用鉴定道具" tabindex="-1"><a class="header-anchor" href="#使用鉴定道具" aria-hidden="true">#</a> 使用鉴定道具</h3>
+<p>在鉴定时，你可以选择切换至副鉴定屏来添加鉴定道具</p>
+<p>每一次只能对一个装备进行附带鉴定道具的鉴定，同时至多应用3个鉴定道具</p>
+<p>鉴定道具效果如下：</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>用途</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Corkian Amplifier</td>
+<td>提高本次鉴定的正面属性鉴定值</td>
+<td>Tier1-3的效果分别对应5%-15%</td>
+</tr>
+<tr>
+<td>Corkian Insulator</td>
+<td>鉴定时可选择一个指定词条锁定数值</td>
+<td>与Corkian Simulator冲突</td>
+</tr>
+<tr>
+<td>Corkian Simulator</td>
+<td>本次鉴定不会提高鉴定次数及费用</td>
+<td>与Corkian Insulator冲突</td>
+</tr>
+</tbody>
+</table>
 <h2 id="powder-master" tabindex="-1"><a class="header-anchor" href="#powder-master" aria-hidden="true">#</a> Powder Master</h2>
 <p>关于粉末的机制，你可以跳到<RouterLink to="/guide/powder.html">这一章</RouterLink></p>
 <div class="hint-container tip">

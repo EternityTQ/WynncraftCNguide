@@ -62,6 +62,11 @@
 <p>BOSS战共有五个阶段，每次击杀BOSS的一个阶段后，平台上会随机刷新小怪，每次转阶段黑屏后，平台范围会缩小。</p>
 <p>需要小心的是，当你身边出现“upcomming attack”字样时，请尽快躲开，这是一个伤害很高的技能。</p>
 <h3 id="buff" tabindex="-1"><a class="header-anchor" href="#buff" aria-hidden="true">#</a> buff</h3>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>wynn制作组会不定时修改部分buff数值<br>
+如遇到数值与游戏内不对应，请提醒作者更新！</p>
+</div>
 <table>
 <thead>
 <tr>
@@ -164,8 +169,53 @@
 <p class="hint-container-title">提示</p>
 <p>显示Raid completed 后，玩家依旧可以跟Orphion交互。</p>
 </div>
-<h3 id="buff-1" tabindex="-1"><a class="header-anchor" href="#buff-1" aria-hidden="true">#</a> buff</h3>
-<p><em><strong>更新中</strong></em></p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>wynn制作组会不定时修改部分buff数值<br>
+如遇到数值与游戏内不对应，请提醒作者更新！</p>
+</div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Tier 1</th>
+<th>Tier 2</th>
+<th>Tier 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Cherubim</td>
+<td>+75% Walk Speed<br>+150% Main Attack Damage</td>
+<td>+50% Thorns<br>+50% Reflection<br>+1000/4s Life Steal</td>
+<td>+40 All Skill Points</td>
+</tr>
+<tr>
+<td>Seraphim</td>
+<td>+55% Spell Damage<br>+Sorcery Major ID</td>
+<td>+55% Spell Damage<br>+25/4s Mana Regen</td>
+<td>+55% Spell Damage<br>+35/4s Mana Regen<br>+130 Dexterity</td>
+</tr>
+<tr>
+<td>Ophanim</td>
+<td>+50 Agility<br>+50% Water Damage</td>
+<td>+50 Agility<br>+75% Water Damage<br>+350% Health Regen</td>
+<td>+10000 Health<br>+Guardian Major ID</td>
+</tr>
+<tr>
+<td>Throne</td>
+<td>+80 Intelligence<br>+50/3s Mana Steal</td>
+<td>+50/3s Mana Steal<br>+25/4s Mana Regen<br>+50% All Element Damage</td>
+<td>+70 Intelligence<br>+Transcendence Major ID</td>
+</tr>
+<tr>
+<td>Anti</td>
+<td>+616% Exploding<br>+Explosive Impact Major ID</td>
+<td>+100 Strength<br>+9000/3s Poison</td>
+<td>+80 Defense<br>+300% Sprint<br>+2 tier Attack Speed</td>
+</tr>
+</tbody>
+</table>
 <h2 id="the-canyon-colossus-tcc-峡谷巨像" tabindex="-1"><a class="header-anchor" href="#the-canyon-colossus-tcc-峡谷巨像" aria-hidden="true">#</a> The Canyon Colossus(TCC) 峡谷巨像</h2>
 <p>Tcc是当前游戏流程内最难的raid之一，其前置任务为The breaking point，入场费用为4 Tol Runes。</p>
 <p>Tcc可以产出当前版本的毕业防具tome，是游戏必要流程之一。</p>
@@ -240,8 +290,54 @@
 <p>巨像的嘴会根据玩家的攻击次数进行伤害反射，请额外注意这一点。</p>
 <p>在四个部分都被击败后，巨像脖子处的入口将会开启，<strong>在第二阶段内被标记的玩家需进入巨像内部完成解密，因此，第二阶段被标记的玩家请务必保护自己，不要在第三阶段阵亡</strong>。</p>
 <p>解密内容是根据地板上的图案按下墙上对应位置的按钮。</p>
-<h3 id="buff-2" tabindex="-1"><a class="header-anchor" href="#buff-2" aria-hidden="true">#</a> buff</h3>
-<p><em><strong>更新中</strong></em></p>
+<h3 id="buff-1" tabindex="-1"><a class="header-anchor" href="#buff-1" aria-hidden="true">#</a> buff</h3>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>wynn制作组会不定时修改部分buff数值<br>
+如遇到数值与游戏内不对应，请提醒作者更新！</p>
+</div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Tier 1</th>
+<th>Tier 2</th>
+<th>Tier 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Monk</td>
+<td>+70 Agility<br>+40 Intelligence<br>+100% Reflection</td>
+<td>+20/4s Mana Regen<br>+60 Intelligence<br>+100% Water Damage</td>
+<td>+35/4s Mana Regen<br>+100% Spell Damage<br>+100% Water Damage</td>
+</tr>
+<tr>
+<td>Stonewalker</td>
+<td>+60 Defense<br>+100% Thorns<br>+3500 Main Attack Damage</td>
+<td>+60 Strength<br>+35% Exploding<br>+200% Main Attack Damage</td>
+<td>+4500 Main Attack Damage<br>+300% Main Attack Damage<br>+Explosive Impact Major ID</td>
+</tr>
+<tr>
+<td>Giant</td>
+<td>+3000 Health Bonus<br>+50 Defense</td>
+<td>+5000 Health Bonus<br>+400 Health Regen Raw</td>
+<td>+7000 Health Bonus<br>+1000 Raw Health Regen<br>+50% Health Regen</td>
+</tr>
+<tr>
+<td>Intrepid</td>
+<td>+40 Dexterity<br>+80% Walk Speed<br>+Guardian Major ID</td>
+<td>+75% Spell Damage<br>+2 Attack Speed Tiers<br>Saviour's Sacrifice Major ID</td>
+<td>+50 Agility<br>+80 Dexterity<br>+Heart of the Pack Major ID</td>
+</tr>
+<tr>
+<td>Pestilent</td>
+<td>+5000/3s Poison<br>+50 Strength<br>+750 Life Steal</td>
+<td>+7500/3s Poison<br>+25/3s Mana Steal<br>+100 Strength</td>
+<td>+10000/3s Poison<br>+1250 Lifesteal<br>+Plague Major ID</td>
+</tr>
+</tbody>
+</table>
 <h2 id="the-nameless-anomaly-tna-无名异常" tabindex="-1"><a class="header-anchor" href="#the-nameless-anomaly-tna-无名异常" aria-hidden="true">#</a> The Nameless Anomaly(TNA) 无名异常</h2>
 <p>Tna是当前游戏流程内最难的raid之一，其前置任务为A journey further，入场费用为5 Tol Runus。</p>
 <p>Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且能产出当前版本的毕业武器tome以及强力装备Aleph null，是游戏必要的流程之一。</p>
@@ -317,8 +413,54 @@
 <p>一秒后，greg会向其瞄准的位置发射一道眼球激光，<strong>对半径八格内的所有玩家造成其最大生命值25%的真实伤害，对半径六格内的所有玩家</strong><em><strong>额外造成</strong></em><strong>其30%最大生命值的真实伤害</strong>。</p>
 <p>在这一阶段，玩家需要有足够的灵活性来规避greg的伤害，且需要避免聚集扎堆。</p>
 <p>greg在进入这一阶段时血量越低，这一阶段持续时间越长。</p>
-<h3 id="buff-3" tabindex="-1"><a class="header-anchor" href="#buff-3" aria-hidden="true">#</a> buff</h3>
-<p><em><strong>更新中</strong></em></p>
+<h3 id="buff-2" tabindex="-1"><a class="header-anchor" href="#buff-2" aria-hidden="true">#</a> buff</h3>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>wynn制作组会不定时修改部分buff数值<br>
+如遇到数值与游戏内不对应，请提醒作者更新！</p>
+</div>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Tier 1</th>
+<th>Tier 2</th>
+<th>Tier 3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hollowed</td>
+<td>+2000 Health Bonus<br>+20 Defense<br>+50% Reflection</td>
+<td>+Guardian Major ID<br>+30/4s Mana Regen<br>+50% Thorns</td>
+<td>+4000 Health Bonus<br>+650 Health Regen Raw<br>-40% Damage Bonus</td>
+</tr>
+<tr>
+<td>Sojourner</td>
+<td>+20 Dexterity<br>+20/4s Mana Regen<br>+80% Sprint Regen</td>
+<td>+Freerunner Major ID<br>+30 Defense<br>+40% Spell Damage</td>
+<td>+40 Intelligence<br>+40 Strength<br>-300 Health Regen Raw</td>
+</tr>
+<tr>
+<td>Fading</td>
+<td>+80% Health Regen<br>+40% Walk Speed<br>+Heart of the Pack Major ID</td>
+<td>+60% Water Damage<br>+30 Agility<br>+25/3s Mana Steal</td>
+<td>+Saviour's Sacrifice Major ID<br>-1200 Health Bonus<br>+40 Agility</td>
+</tr>
+<tr>
+<td>Insidious</td>
+<td>+20/3s Mana Steal<br>+20 Intelligence<br>+40% Spell Damage</td>
+<td>-2 Attack Speed Tier<br>+325/4s Life Steal<br>+60% Spell Damage</td>
+<td>+Sorcery Major ID<br>-40% Walk Speed<br>+80% Spell Damage</td>
+</tr>
+<tr>
+<td>Hopeless</td>
+<td>+20 Strength<br>+80% Exploding<br>+100% Main Attack Damage</td>
+<td>+1 Attack Speed Tier<br>+Fission Major ID<br>+30 Dexterity</td>
+<td>+80% Walk Speed<br>-20/4s Mana Regen<br>+250% Main Attack Damage</td>
+</tr>
+</tbody>
+</table>
 </div></template>
 
 

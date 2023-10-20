@@ -68,12 +68,19 @@ Item Identifier的标志是末影之眼+紫色地毯
 ![](/assets/img/identification1.jpg)
 :::
 
-### 提升鉴定值
-在鉴定时，如果你的背包内放有`Corkian Amplifier`(简称amp)，你可以在鉴定时右键确认键来应用amp
+### 使用鉴定道具
 
-使用amp会提高你的**正面属性**鉴定数值(尽管不是很明显，但是效果确实有)
+在鉴定时，你可以选择切换至副鉴定屏来添加鉴定道具
 
-需要注意的是，如果你希望同时鉴定多个装备，你需要将你的amp分开来放在数个格子上，一个格子的amp对应一个装备，有多的装备则不会应用amp
+每一次只能对一个装备进行附带鉴定道具的鉴定，同时至多应用3个鉴定道具
+
+鉴定道具效果如下：
+
+|名称|用途|备注|
+|---|---|---|
+|Corkian Amplifier|提高本次鉴定的正面属性鉴定值|Tier1-3的效果分别对应5%-15%|
+|Corkian Insulator|鉴定时可选择一个指定词条锁定数值|与Corkian Simulator冲突|
+|Corkian Simulator|本次鉴定不会提高鉴定次数及费用|与Corkian Insulator冲突|
 
 ## Powder Master
 
