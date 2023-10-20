@@ -74,6 +74,8 @@
 <p class="hint-container-title">提示</p>
 <p>为了篇幅安排，关于武器加点、打粉的部分将会安排在之后讲解</p>
 </div>
+<h3 id="第一个副本" tabindex="-1"><a class="header-anchor" href="#第一个副本" aria-hidden="true">#</a> 第一个副本</h3>
+<p>在完成<RouterLink to="/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html">Sewers of Ragni (level 5)</RouterLink>任务后，你将会解锁你旅途上的第一个副本</p>
 </div></template>
 
 

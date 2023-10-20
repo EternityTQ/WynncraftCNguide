@@ -18,7 +18,7 @@ icon: ghost
 
 对于Soul Point Regen词条，可以看[这一章](/WynncraftCNguide/guide/identification.html#soul-point-regen)
 
-:::warning
+:::danger
 非常不建议在当前灵魂点数低于一半的情况下继续游戏！
 
 这种情况下一旦死亡，损失惨重！

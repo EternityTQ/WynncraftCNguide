@@ -6,8 +6,8 @@
 <p>包括素材/绿宝石/其他物品/未鉴定的物品/已鉴定的物品</p>
 <p>你可以查看灵魂点数的情况来查看当前的掉率</p>
 <p>对于Soul Point Regen词条，可以看<RouterLink to="/guide/identification.html#soul-point-regen">这一章</RouterLink></p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
 <p>非常不建议在当前灵魂点数低于一半的情况下继续游戏！</p>
 <p>这种情况下一旦死亡，损失惨重！</p>
 </div>

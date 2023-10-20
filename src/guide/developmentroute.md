@@ -133,6 +133,8 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 :::
 
+### 第一个副本
+在完成[Sewers of Ragni (level 5)](/WynncraftCNguide/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html)任务后，你将会解锁你旅途上的第一个副本
 
 
 

@@ -38,6 +38,8 @@
 <li>提高同时召唤宠物上限至4个</li>
 <li>允许离线时家园来访客</li>
 <li>可以使用忍者、黑暗法师的皮肤职业了</li>
+<li>允许使用/rename(给自己做的自制物品更名)</li>
+<li>允许使用/changetag(将自己的rank标更换为不高于原rank的rank标)</li>
 </ul>
 <p>HERO $59.99</p>
 <ul>
@@ -52,6 +54,7 @@
 <li>允许切换皮肤职业与原皮职业</li>
 <li>允许使用/switch(无需/hub切换线路)</li>
 <li>可以使用占星师的皮肤职业了</li>
+<li>允许使用/relore(给自己做的自制物品添加介绍)</li>
 </ul>
 <p>CHAMPION $170.99</p>
 <ul>
@@ -84,6 +87,10 @@
 <p><strong>注意在城镇内使用图腾是违规的！</strong></p>
 <p>图腾只能通过ranks的每日奖励以及邀请活动来获取</p>
 </div>
+<p>:::皮肤职业是什么?<br>
+五个职业都有对应的皮肤职业</p>
+<p>皮肤职业与原职业的区别<strong>仅有特效区别</strong><br>
+:::</p>
 <h2 id="sliverbull-share" tabindex="-1"><a class="header-anchor" href="#sliverbull-share" aria-hidden="true">#</a> SliverBull &amp; Share</h2>
 <p>类似于月卡机制</p>
 <p>在中国玩家群体中，通常称为&quot;银牛&quot;</p>
