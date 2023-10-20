@@ -114,11 +114,14 @@ BOSS战共有五个阶段，每次击杀BOSS的一个阶段后，平台上会随
 需要小心的是，当你身边出现“upcomming attack”字样时，请尽快躲开，这是一个伤害很高的技能。
 
 ### buff
-|  | Spellcaster | Skill Master | Berserk | Racer | Vampire |
-| ------ | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| Tier 1 | +30 Intelligence +40% Water Damage | +10 All Skill Points +50% All Element Defenses | +20% Exploding +50% Main Attack Damage +Explosive Impact Major ID | +30 Agility +40% Walk Speed | +1500 Health +10/3s Mana Steal +250/3s Life Steal |
-| Tier 2 | +15/4s Mana Regen +50% Spell Damage | +15 All Skill Points +50% Spell Damage +75% Main Attack Damage | +20% Exploding +100% Sprint Regen +200 Main Attack Damage | +40 Agility +100% Sprint +60% Walk Speed | +1500 Health +400/3s Life Steal +300 Health Regen |
-| Tier 3 | +40 Intelligence +85% Water Damage +Transcendence Major ID | +25 All Skill Points +100% All Element Defenses +Saviour’s Sacrifice Major ID | +100 Strength +125% Main Attack Damage +400 Main Attack Damage | +80 Agility +2000 Health +Freerunner Major ID | +30/3s Mana Steal +500 Health Regen +Heart of the Pack Major ID |
+|          | Tier 1                         | Tier 2                                  | Tier 3                                   |
+| -------- | ------------------------------ | --------------------------------------- | ---------------------------------------- |
+| Spellcaster | +30 Intelligence <br>+40% Water Damage | +15/4s Mana Regen<br> +50% Spell Damage | +40 Intelligence<br> +85% Water Damage <br>+Transcendence Major ID |
+| Skill Master | +10 All Skill Points <br>+50% All Element Defenses | +15 All Skill Points <br>+50% Spell Damage <br>+75% Main Attack Damage | +25 All Skill Points <br>+100% All Element Defenses <br>+Saviour’s Sacrifice Major ID |
+| Berserk | +20% Exploding <br>+50% Main Attack Damage <br>+Explosive Impact Major ID | +20% Exploding <br>+100% Sprint Regen <br>+200 Main Attack Damage | +100 Strength <br>+125% Main Attack Damage <br>+400 Main Attack Damage |
+| Racer | +30 Agility <br>+40% Walk Speed | +40 Agility<br> +100% Sprint <br>+60% Walk Speed | +80 Agility <br>+2000 Health <br>+Freerunner Major ID |
+| Vampire | +1500 Health <br>+10/3s Mana Steal <br>+250/3s Life Steal | +1500 Health <br>+400/3s Life Steal <br>+300 Health Regen | +30/3s Mana Steal <br>+500 Health Regen <br>+Heart of the Pack Major ID |
+
 ## Orphion's Nexus of Light(Nol) 光之枢纽
 Nol是整个游戏流程中，等级限制第二低的raid，其前置任务为光之领域5：光之领域，入场费用为3 Uth Runes。
 
