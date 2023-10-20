@@ -114,6 +114,10 @@ BOSS战共有五个阶段，每次击杀BOSS的一个阶段后，平台上会随
 需要小心的是，当你身边出现“upcomming attack”字样时，请尽快躲开，这是一个伤害很高的技能。
 
 ### buff
+:::warning 
+wynn制作组会不定时修改部分buff数值
+如遇到数值与游戏内不对应，请提醒作者更新！
+:::
 |          | Tier 1                         | Tier 2                                  | Tier 3                                   |
 | -------- | ------------------------------ | --------------------------------------- | ---------------------------------------- |
 | Spellcaster | +30 Intelligence <br>+40% Water Damage | +15/4s Mana Regen<br> +50% Spell Damage | +40 Intelligence<br> +85% Water Damage <br>+Transcendence Major ID |
@@ -220,8 +224,17 @@ Sanitizing Void不会吸引超过一名玩家。
 显示Raid completed 后，玩家依旧可以跟Orphion交互。
 :::
 
-### buff
-***更新中***
+:::warning 
+wynn制作组会不定时修改部分buff数值
+如遇到数值与游戏内不对应，请提醒作者更新！
+:::
+|          | Tier 1                         | Tier 2                                  | Tier 3                                   |
+| -------- | ------------------------------ | --------------------------------------- | ---------------------------------------- |
+| Cherubim | +75% Walk Speed<br>+150% Main Attack Damage | +50% Thorns<br>+50% Reflection<br>+1000/4s Life Steal | +40 All Skill Points |
+| Seraphim | +55% Spell Damage<br>+Sorcery Major ID | +55% Spell Damage<br>+25/4s Mana Regen | +55% Spell Damage<br>+35/4s Mana Regen<br>+130 Dexterity |
+| Ophanim | +50 Agility<br>+50% Water Damage | +50 Agility<br>+75% Water Damage<br>+350% Health Regen | +10000 Health<br>+Guardian Major ID |
+| Throne | +80 Intelligence<br>+50/3s Mana Steal | +50/3s Mana Steal<br>+25/4s Mana Regen<br>+50% All Element Damage | +70 Intelligence<br>+Transcendence Major ID |
+| Anti | +616% Exploding<br>+Explosive Impact Major ID | +100 Strength<br>+9000/3s Poison | +80 Defense<br>+300% Sprint<br>+2 tier Attack Speed |
 ## The Canyon Colossus(TCC) 峡谷巨像
 Tcc是当前游戏流程内最难的raid之一，其前置任务为The breaking point，入场费用为4 Tol Runes。
 
@@ -340,8 +353,17 @@ BOSS站会在多个浮空的平台上进行，如果您不慎跌落，您会失�
 
 
 ### buff
-***更新中***
-
+:::warning 
+wynn制作组会不定时修改部分buff数值
+如遇到数值与游戏内不对应，请提醒作者更新！
+:::
+|          | Tier 1                         | Tier 2                                  | Tier 3                                   |
+| -------- | ------------------------------ | --------------------------------------- | ---------------------------------------- |
+| Monk | +70 Agility<br>+40 Intelligence<br>+100% Reflection | +20/4s Mana Regen<br>+60 Intelligence<br>+100% Water Damage | +35/4s Mana Regen<br>+100% Spell Damage<br>+100% Water Damage |
+| Stonewalker | +60 Defense<br>+100% Thorns<br>+3500 Main Attack Damage | +60 Strength<br>+35% Exploding<br>+200% Main Attack Damage | +4500 Main Attack Damage<br>+300% Main Attack Damage<br>+Explosive Impact Major ID |
+| Giant | +3000 Health Bonus<br>+50 Defense | +5000 Health Bonus<br>+400 Health Regen Raw | +7000 Health Bonus<br>+1000 Raw Health Regen<br>+50% Health Regen |
+| Intrepid | +40 Dexterity<br>+80% Walk Speed<br>+Guardian Major ID | +75% Spell Damage<br>+2 Attack Speed Tiers<br>Saviour's Sacrifice Major ID | +50 Agility<br>+80 Dexterity<br>+Heart of the Pack Major ID |
+| Pestilent | +5000/3s Poison<br>+50 Strength<br>+750 Life Steal | +7500/3s Poison<br>+25/3s Mana Steal<br>+100 Strength | +10000/3s Poison<br>+1250 Lifesteal<br>+Plague Major ID |
 ## The Nameless Anomaly(TNA) 无名异常
 Tna是当前游戏流程内最难的raid之一，其前置任务为A journey further，入场费用为5 Tol Runus。
 
@@ -466,4 +488,14 @@ BOSS技能众多，但对于一般打法在平时需要特别注意的只有四�
 greg在进入这一阶段时血量越低，这一阶段持续时间越长。
 
 ### buff
-***更新中***
+:::warning 
+wynn制作组会不定时修改部分buff数值
+如遇到数值与游戏内不对应，请提醒作者更新！
+:::
+|          | Tier 1                         | Tier 2                                  | Tier 3                                   |
+| -------- | ------------------------------ | --------------------------------------- | ---------------------------------------- |
+| Hollowed | +2000 Health Bonus<br>+20 Defense<br>+50% Reflection | +Guardian Major ID<br>+30/4s Mana Regen<br>+50% Thorns | +4000 Health Bonus<br>+650 Health Regen Raw<br>-40% Damage Bonus |
+| Sojourner | +20 Dexterity<br>+20/4s Mana Regen<br>+80% Sprint Regen | +Freerunner Major ID<br>+30 Defense<br>+40% Spell Damage | +40 Intelligence<br>+40 Strength<br>-300 Health Regen Raw |
+| Fading | +80% Health Regen<br>+40% Walk Speed<br>+Heart of the Pack Major ID | +60% Water Damage<br>+30 Agility<br>+25/3s Mana Steal | +Saviour's Sacrifice Major ID<br>-1200 Health Bonus<br>+40 Agility |
+| Insidious | +20/3s Mana Steal<br>+20 Intelligence<br>+40% Spell Damage | -2 Attack Speed Tier<br>+325/4s Life Steal<br>+60% Spell Damage | +Sorcery Major ID<br>-40% Walk Speed<br>+80% Spell Damage |
+| Hopeless | +20 Strength<br>+80% Exploding<br>+100% Main Attack Damage | +1 Attack Speed Tier<br>+Fission Major ID<br>+30 Dexterity | +80% Walk Speed<br>-20/4s Mana Regen<br>+250% Main Attack Damage |
