@@ -2,93 +2,78 @@
 <p class="hint-container-title">注意</p>
 <p>不提倡氪金</p>
 </div>
-<p>你可以通过访问<a href="https://store.wynncraft.com/" target="_blank" rel="noopener noreferrer">线上商店<ExternalLinkIcon/></a>来查看所有氪金项目</p>
-<p>进去只用输入用户名即可</p>
+<p>你可以通过访问<a href="https://store.wynncraft.com/" target="_blank" rel="noopener noreferrer"><strong>线上商店</strong><ExternalLinkIcon/></a>来查看所有氪金项目</p>
+<p>购买前只需输入用户名即可，无需另外注册</p>
 <p>支持支付宝。</p>
 <h2 id="ranks" tabindex="-1"><a class="header-anchor" href="#ranks" aria-hidden="true">#</a> Ranks</h2>
 <p>相当于VIP</p>
 <p>一共有四个等级：<code v-pre>VIP</code>、<code v-pre>VIP+</code>、<code v-pre>HERO</code>、<code v-pre>CHAMPION</code></p>
-<details class="hint-container details"><summary>不同ranks之间的主要区别</summary>
-<table>
-<thead>
-<tr>
-<th>项目</th>
-<th>VIP</th>
-<th>VIP+</th>
-<th>HERO</th>
-<th>CHAMPION</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>价格</td>
-<td>9刀</td>
-<td>28刀</td>
-<td>60刀</td>
-<td>171刀</td>
-</tr>
-<tr>
-<td>每日饰品箱</td>
-<td>无</td>
-<td>1个T1</td>
-<td>1个T2</td>
-<td>1个T2</td>
-</tr>
-<tr>
-<td>自定义存档名字</td>
-<td>无</td>
-<td>无</td>
-<td>无</td>
-<td>有</td>
-</tr>
-<tr>
-<td>每日图腾</td>
-<td>2个</td>
-<td>4个</td>
-<td>6个</td>
-<td>8个</td>
-</tr>
-<tr>
-<td>存档槽追加</td>
-<td>3个</td>
-<td>5个</td>
-<td>8个</td>
-<td>8个</td>
-</tr>
-<tr>
-<td>交易槽追加</td>
-<td>5个</td>
-<td>5个</td>
-<td>10个</td>
-<td>10个</td>
-</tr>
-<tr>
-<td>直接切换线路</td>
-<td>无</td>
-<td>无</td>
-<td>有</td>
-<td>有</td>
-</tr>
-<tr>
-<td>炸弹钟</td>
-<td>无</td>
-<td>无</td>
-<td>无</td>
-<td>有</td>
-</tr>
-<tr>
-<td>测试服权限</td>
-<td>无</td>
-<td>无</td>
-<td>有</td>
-<td>有</td>
-</tr>
-</tbody>
-</table>
+<details class="hint-container details"><summary>rank的主要功能</summary>
+<p><strong>更高级的rank均包含低级rank的所有内容</strong></p>
+<p>VIP $8.99</p>
+<ul>
+<li>每日图腾: 2个</li>
+<li>职业存档数+3(共9个)</li>
+<li>角色银行页数+2(共4页)</li>
+<li>交易市场槽位+5(共10个)</li>
+<li>家园杂货箱、书柜页数+2(共4页)</li>
+<li>允许进入论坛VIP板块</li>
+<li>允许进入Discord的VIP频道</li>
+<li>登录通知(给登录点周围玩家播报)</li>
+<li>可以使用猎人、骑士的皮肤职业了</li>
+<li>大厅允许飞行且不再隐身</li>
+<li>允许给自制物品加上本人制作者ID信息</li>
+<li>允许给宠物/马匹更名</li>
+</ul>
+<p>VIP+ $27.99</p>
+<ul>
+<li>每日饰品箱：T1*1</li>
+<li>每日图腾: 4个</li>
+<li>职业存档数+5(共11个)</li>
+<li>角色银行页数+4(共6页)</li>
+<li>交易市场槽位+5(共10个)</li>
+<li>家园杂货箱、书柜页数+4(共6页)</li>
+<li>家园NPC个数+10(共20个)</li>
+<li>允许使用音符盒(自定义当前播放的bgm)</li>
+<li>提高同时召唤宠物上限至4个</li>
+<li>允许离线时家园来访客</li>
+<li>可以使用忍者、黑暗法师的皮肤职业了</li>
+</ul>
+<p>HERO $59.99</p>
+<ul>
+<li>每日饰品箱：T2*1</li>
+<li>每日图腾: 6个</li>
+<li>职业存档数+8(共14个)</li>
+<li>角色银行页数+6(共8页)</li>
+<li>交易市场槽位+10(共15个)</li>
+<li>家园杂货箱、书柜页数+6(共8页)</li>
+<li>家园NPC个数+20(共30个)</li>
+<li>允许进入HERO BETA测试服</li>
+<li>允许切换皮肤职业与原皮职业</li>
+<li>允许使用/switch(无需/hub切换线路)</li>
+<li>可以使用占星师的皮肤职业了</li>
+</ul>
+<p>CHAMPION $170.99</p>
+<ul>
+<li>每日饰品箱：T2*1</li>
+<li>每日图腾: 8个</li>
+<li>职业存档数+8(共14个)</li>
+<li>角色银行页数+8(共10页)</li>
+<li>交易市场槽位+10(共15个)</li>
+<li>家园杂货箱、书柜页数+8(共10页)</li>
+<li>家园NPC个数+50(共60个)</li>
+<li>允许自定义角色名字(在聊天窗口出现的斜体ID)</li>
+<li>删除角色无考虑期</li>
+<li>可以使用删除角色找回功能(上限5个)</li>
+<li>可以使用炸弹钟(可以得知其他线路的持续性炸弹投掷情况)</li>
+<li>可以设立个人摊位</li>
+<li>每条线路爆满时仍允许进入(上限5人)</li>
+<li>宠物等级提升至100(增加四种新功能)</li>
+</ul>
 <p>这里仅列举部分区别，需要详细列表可以前往商城查看！</p>
 </details>
 <p>如果你希望小氪一点的话，真诚建议你别氪！</p>
-<p>VIP实在没什么用，最好从VIP+以上还是考虑</p>
+<p>VIP实在没什么用，最好从VIP+以上还是考虑，因为只有VIP+才开始有每日饰品箱</p>
 <p>与此同时，史低促销为7折</p>
 <p>顺便还是文章开始的话：<strong>不提倡氪金！</strong></p>
 <div class="hint-container tip">
