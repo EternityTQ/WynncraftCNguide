@@ -1,50 +1,54 @@
-<template><div><p>每周奖池(2023.10.14)</p>
-<Tabs id="3" :data='[{"id":"SE"},{"id":"Sky Island"},{"id":"Corkus"},{"id":"火山"}]'>
+<template><div><p>每周奖池 (2023.10.21)</p>
+<Tabs id="3" :data='[{"id":"SE"},{"id":"Corkus"},{"id":"Sky Island"},{"id":"Molten Heights Hike"}]'>
 <template #title0="{ value, isActive }">SE</template>
-<template #title1="{ value, isActive }">Sky Island</template>
-<template #title2="{ value, isActive }">Corkus</template>
-<template #title3="{ value, isActive }">火山</template>
+<template #title1="{ value, isActive }">Corkus</template>
+<template #title2="{ value, isActive }">Sky Island</template>
+<template #title3="{ value, isActive }">Molten Heights Hike</template>
 <template #tab0="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Cataclysm ⭐ dungeons won</li>
-<li>boreal</li>
-<li>thrundacrack</li>
-<li>warchief</li>
-<li>moontower</li>
-<li>lament</li>
+<li><mark>Shiny</mark> Guardian ⭐ Players Killed</li>
+<li>Hadal</li>
+<li>Alkatraz</li>
+<li>Gaia</li>
+<li>Grimtrap</li>
+<li>Freedom</li>
+<li>Stratiformis</li>
+<li>Simulator</li>
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Convergence ⭐ Lootruns Completed</li>
-<li>moontower</li>
-<li>Sunstar</li>
-<li>Spring</li>
-<li>Aftershock</li>
-<li>Az</li>
-<li>Boreal</li>
+<li><mark>Shiny</mark> Divzer ⭐ Chests Opened</li>
+<li>Absolution</li>
+<li>Nirvana</li>
+<li>Grandmother</li>
+<li>Stratiformis</li>
+<li>Galleon</li>
+<li>Singularity</li>
+<li>Insulator</li>
+<li>Simulator</li>
 </ul>
 </template>
 <template #tab2="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Warp ⭐ Wars Won</li>
-<li>Collapse</li>
-<li>Idol</li>
-<li>Weathered</li>
-<li>Archangel</li>
-<li>Az</li>
-<li>Warp</li>
+<li><mark>Shiny</mark> Hero ⭐ Wars Won</li>
+<li>Hadal</li>
+<li>Absolution</li>
+<li>Gaia</li>
+<li>Cataclysm</li>
+<li>Guardian</li>
+<li>Thrundacrack</li>
 </ul>
 </template>
 <template #tab3="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Epoch ⭐ Raids Won</li>
-<li>Az</li>
-<li>Spring</li>
-<li>Nirvana</li>
-<li>Collapse</li>
-<li>Crusade Sabatons</li>
-<li>Discoverer</li>
+<li><mark>Shiny</mark> Lament ⭐ Deaths</li>
+<li>Warchief</li>
+<li>Absolution</li>
+<li>Convergence</li>
+<li>Divzer</li>
+<li>Toxoplasmosis</li>
+<li>Insulator</li>
 </ul>
 </template>
 </Tabs>

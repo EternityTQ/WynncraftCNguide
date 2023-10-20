@@ -223,7 +223,7 @@ Sanitizing Void不会吸引超过一名玩家。
 :::tip
 显示Raid completed 后，玩家依旧可以跟Orphion交互。
 :::
-
+### buff
 :::warning 
 wynn制作组会不定时修改部分buff数值
 如遇到数值与游戏内不对应，请提醒作者更新！

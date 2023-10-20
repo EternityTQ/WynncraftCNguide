@@ -169,6 +169,7 @@
 <p class="hint-container-title">提示</p>
 <p>显示Raid completed 后，玩家依旧可以跟Orphion交互。</p>
 </div>
+<h3 id="buff-1" tabindex="-1"><a class="header-anchor" href="#buff-1" aria-hidden="true">#</a> buff</h3>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>wynn制作组会不定时修改部分buff数值<br>
@@ -290,7 +291,7 @@
 <p>巨像的嘴会根据玩家的攻击次数进行伤害反射，请额外注意这一点。</p>
 <p>在四个部分都被击败后，巨像脖子处的入口将会开启，<strong>在第二阶段内被标记的玩家需进入巨像内部完成解密，因此，第二阶段被标记的玩家请务必保护自己，不要在第三阶段阵亡</strong>。</p>
 <p>解密内容是根据地板上的图案按下墙上对应位置的按钮。</p>
-<h3 id="buff-1" tabindex="-1"><a class="header-anchor" href="#buff-1" aria-hidden="true">#</a> buff</h3>
+<h3 id="buff-2" tabindex="-1"><a class="header-anchor" href="#buff-2" aria-hidden="true">#</a> buff</h3>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>wynn制作组会不定时修改部分buff数值<br>
@@ -413,7 +414,7 @@
 <p>一秒后，greg会向其瞄准的位置发射一道眼球激光，<strong>对半径八格内的所有玩家造成其最大生命值25%的真实伤害，对半径六格内的所有玩家</strong><em><strong>额外造成</strong></em><strong>其30%最大生命值的真实伤害</strong>。</p>
 <p>在这一阶段，玩家需要有足够的灵活性来规避greg的伤害，且需要避免聚集扎堆。</p>
 <p>greg在进入这一阶段时血量越低，这一阶段持续时间越长。</p>
-<h3 id="buff-2" tabindex="-1"><a class="header-anchor" href="#buff-2" aria-hidden="true">#</a> buff</h3>
+<h3 id="buff-3" tabindex="-1"><a class="header-anchor" href="#buff-3" aria-hidden="true">#</a> buff</h3>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>wynn制作组会不定时修改部分buff数值<br>

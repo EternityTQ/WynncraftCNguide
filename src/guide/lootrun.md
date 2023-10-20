@@ -2,42 +2,46 @@
 title: Lootrun
 icon: wheelchair-move
 ---
-每周奖池(2023.10.14)
+每周奖池 (2023.10.21)
 ::: tabs
 @tab SE
-+ ==Shiny== Cataclysm :star: dungeons won
-+ boreal
-+ thrundacrack 
-+ warchief 
-+ moontower 
-+ lament
-
-@tab Sky Island
-+ ==Shiny== Convergence :star: Lootruns Completed
-+ moontower 
-+ Sunstar 
-+ Spring 
-+ Aftershock 
-+ Az 
-+ Boreal
++ ==Shiny== Guardian :star: Players Killed
++ Hadal 
++ Alkatraz 
++ Gaia 
++ Grimtrap 
++ Freedom 
++ Stratiformis 
++ Simulator
 
 @tab Corkus
-+ ==Shiny== Warp :star: Wars Won
-+ Collapse 
-+ Idol 
-+ Weathered 
-+ Archangel 
-+ Az 
-+ Warp
-
-@tab 火山
-+ ==Shiny== Epoch :star: Raids Won
-+ Az 
-+ Spring 
++ ==Shiny== Divzer :star: Chests Opened
++ Absolution 
 + Nirvana 
-+ Collapse 
-+ Crusade Sabatons
-+ Discoverer
++ Grandmother 
++ Stratiformis 
++ Galleon 
++ Singularity 
++ Insulator 
++ Simulator
+
+@tab Sky Island
++ ==Shiny== Hero :star: Wars Won
++ Hadal 
++ Absolution 
++ Gaia 
++ Cataclysm 
++ Guardian 
++ Thrundacrack
+
+@tab Molten Heights Hike
++ ==Shiny== Lament :star: Deaths
++ Warchief 
++ Absolution 
++ Convergence 
++ Divzer 
++ Toxoplasmosis 
++ Insulator
 :::
 首先先解释一下，何谓lootrun?
 

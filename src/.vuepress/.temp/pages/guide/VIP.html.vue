@@ -2,7 +2,7 @@
 <p class="hint-container-title">注意</p>
 <p>不提倡氪金</p>
 </div>
-<p>你可以通过访问<a href="https://store.wynncraft.com/" target="_blank" rel="noopener noreferrer"><strong>线上商店</strong><ExternalLinkIcon/></a>来查看所有氪金项目</p>
+<p>你可以通过访问<strong>线上商店</strong><a href="https://store.wynncraft.com" target="_blank" rel="noopener noreferrer">https://store.wynncraft.com<ExternalLinkIcon/></a>来查看所有氪金项目</p>
 <p>购买前只需输入用户名即可，无需另外注册</p>
 <p>支持支付宝。</p>
 <h2 id="ranks" tabindex="-1"><a class="header-anchor" href="#ranks" aria-hidden="true">#</a> Ranks</h2>
@@ -87,10 +87,11 @@
 <p><strong>注意在城镇内使用图腾是违规的！</strong></p>
 <p>图腾只能通过ranks的每日奖励以及邀请活动来获取</p>
 </div>
-<p>:::皮肤职业是什么?<br>
-五个职业都有对应的皮肤职业</p>
-<p>皮肤职业与原职业的区别<strong>仅有特效区别</strong><br>
-:::</p>
+<div class="hint-container tip">
+<p class="hint-container-title">皮肤职业是什么?</p>
+<p>五个职业都有对应的皮肤职业</p>
+<p>皮肤职业与原职业的区别<strong>仅有特效区别</strong></p>
+</div>
 <h2 id="sliverbull-share" tabindex="-1"><a class="header-anchor" href="#sliverbull-share" aria-hidden="true">#</a> SliverBull &amp; Share</h2>
 <p>类似于月卡机制</p>
 <p>在中国玩家群体中，通常称为&quot;银牛&quot;</p>

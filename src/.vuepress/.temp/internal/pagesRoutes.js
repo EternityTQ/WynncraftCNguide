@@ -16,7 +16,7 @@ export const pagesRoutes = [
   ["v-fffb8e28","/guide/",{"y":"a","t":"游戏指南","i":"lightbulb"},["/guide/README.md"]],
   ["v-07f00fee","/guide/skillpoint.html",{"y":"a","t":"属性点数","i":"fire"},[":md"]],
   ["v-e82d1030","/guide/VIP.html",{"y":"a","t":"氪金项目","i":"gem"},[":md"]],
-  ["v-25f6844f","/guide/wynntils.html",{"y":"a","t":"wynntils","i":"handshake-angle"},[":md"]],
+  ["v-25f6844f","/guide/wynntils.html",{"y":"a","t":"Wynntils","i":"handshake-angle"},[":md"]],
   ["v-dddc2d36","/quests/",{"y":"a","t":"任务攻略","i":"book"},["/quests/README.md"]],
   ["v-a2bdaeee","/guide/basesystem/guild.html",{"y":"a","t":"公会系统","i":"house"},[":md"]],
   ["v-0993416b","/guide/basesystem/itemlevel.html",{"y":"a","t":"物品品质","i":"dice-d20"},[":md"]],
