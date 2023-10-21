@@ -3,6 +3,18 @@
 <p>本篇文章正在施工中</p>
 <p>请知悉！</p>
 </div>
+<div class="hint-container tip">
+<p class="hint-container-title">地图黑屏怎么解决？</p>
+<p>大部分人可能都想问这个问题，于是把这个问题置顶了</p>
+<p>打开hosts文件<br>
+(Windows下路径：C:\Windows\System32\drivers\etc)<br>
+可以用记事本/其他文本编辑工具打开</p>
+<p>输入199.232.68.133 <a href="http://raw.githubusercontent.com" target="_blank" rel="noopener noreferrer">raw.githubusercontent.com<ExternalLinkIcon/></a></p>
+<p>然后Win+R 输入cmd<br>
+在命令行窗口输入ipconfig /flushdns</p>
+<p>随后重进服务器(没用的话就重启客户端)</p>
+<p>理论上应该可以使用地图和鉴定度了</p>
+</div>
 <h2 id="wynntils是什么" tabindex="-1"><a class="header-anchor" href="#wynntils是什么" aria-hidden="true">#</a> Wynntils是什么？</h2>
 <p>Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD</p>
 <p>目前除1.20.2版本以外<strong>均已停更</strong></p>

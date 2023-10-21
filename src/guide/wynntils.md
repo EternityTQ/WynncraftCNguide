@@ -9,6 +9,25 @@ icon: handshake-angle
 
 :::
 
+:::tip 地图黑屏怎么解决？
+
+大部分人可能都想问这个问题，于是把这个问题置顶了
+
+打开hosts文件
+(Windows下路径：C:\Windows\System32\drivers\etc)
+可以用记事本/其他文本编辑工具打开
+
+输入199.232.68.133 raw.githubusercontent.com
+
+然后Win+R 输入cmd
+在命令行窗口输入ipconfig /flushdns
+
+随后重进服务器(没用的话就重启客户端)
+
+理论上应该可以使用地图和鉴定度了
+
+:::
+
 
 ## Wynntils是什么？
 Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD
