@@ -175,6 +175,12 @@
 <p>在每一次跑完一轮<strong>所有的</strong>腐化副本后，如果你没抽到神话，你的神话抽取概率将会提升</p>
 <p>当抽取到神话后，额外提升的概率将会清空</p>
 </div>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>目前一共有8个不同的腐化副本</p>
+<p>当你跑满腐化箱后，上面的副本数量也会显示为8/8</p>
+<p>因此，跑腐化箱也被简称为 88run 或者 88</p>
+</div>
 <h3 id="corrupted-decrepit-sewers" tabindex="-1"><a class="header-anchor" href="#corrupted-decrepit-sewers" aria-hidden="true">#</a> Corrupted Decrepit Sewers</h3>
 <p>建议等级：lvl 70<br>
 入场等级：lvl 65<br>
@@ -246,6 +252,7 @@
 此处先略过哈，见谅</p>
 </blockquote>
 <p>推荐兑换：Skidbladnir(很强的气系鞋子)</p>
+<p><RouterLink to="/guide/illegal_skip.html">这是什么?</RouterLink></p>
 </div></template>
 
 

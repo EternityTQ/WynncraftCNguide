@@ -258,6 +258,14 @@ BOSS内含多阶段
 当抽取到神话后，额外提升的概率将会清空
 :::
 
+:::tip
+目前一共有8个不同的腐化副本
+
+当你跑满腐化箱后，上面的副本数量也会显示为8/8
+
+因此，跑腐化箱也被简称为 88run 或者 88
+:::
+
 
 ### Corrupted Decrepit Sewers
 建议等级：lvl 70
@@ -368,7 +376,7 @@ BOSS请注意务必不要吃满陷阱，只要不吃陷阱你是相当安全的
 
 推荐兑换：Skidbladnir(很强的气系鞋子)
 
-
+[这是什么?](/WynncraftCNguide/guide/illegal_skip.html)
 
 
 
