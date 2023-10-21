@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/WynncraftCNguide/\",\"lang\":\"zh-CN\",\"title\":\"Wynncraft中文攻略\",\"description\":\"Wynncraft中文攻略\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/WynncraftCNguide/\",\"lang\":\"zh-CN\",\"title\":\"Wynncraft中文攻略\",\"description\":\"Wynncraft中文攻略\",\"head\":[[\"link\",{\"rel\":\"icon\",\"href\":\"/WynncraftCNguide/favicon.ico\"}]],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
