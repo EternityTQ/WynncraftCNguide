@@ -40,7 +40,7 @@ Super Slow: 0.51</p>
 <li>④：武器需求，一般包括职业需求、等级需求以及属性点需求。部分武器还会有任务需求，即完成对应任务才能使用</li>
 </ul>
 <div class="hint-container tip">
-<p class="hint-container-title">关于翻译:</p>
+<p class="hint-container-title">关于装备需求的解释</p>
 <p>Class Req: 职业需求，一般只出现在武器上</p>
 <p>Combat Lv. Min: 等级需求，只看战斗等级</p>
 <p>Str/Dex/Int/Def/Agi Min: 属性点需求，你在指南针内的加点与<strong>装备提供</strong>的属性点总和需不小于这个数值</p>
@@ -70,6 +70,11 @@ Super Slow: 0.51</p>
 <p>在武器最下方一般还会有介绍，讲述了该件装备/武器的历史<br>
 <s>萨满武器没有介绍</s></p>
 <p>对于装备而言就不过多占篇幅介绍了，区别就在装备一般会有血量属性和元素防御属性，很好理解，元素防御会在下文介绍。</p>
+<h2 id="装备品质" tabindex="-1"><a class="header-anchor" href="#装备品质" aria-hidden="true">#</a> 装备品质</h2>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>待更新</p>
+</div>
 <h2 id="元素防御" tabindex="-1"><a class="header-anchor" href="#元素防御" aria-hidden="true">#</a> 元素防御</h2>
 <p>护甲是带有基础元素防御的属性的，这些防御可以用来为我们提供对应元素伤害的抗性</p>
 <p>但与加点系统的防御点不同，元素防御如果是负数，则会增加自身受到那种元素属性的伤害</p>
