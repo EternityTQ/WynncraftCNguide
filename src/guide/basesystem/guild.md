@@ -110,7 +110,7 @@ guild obj相较于daily obj，会有更高的完成条件，同时存在Raid Com
   拥有所有权限
 
 ## 公会银行
-在末影箱的一定范围内，你可以打开公会银行
+在`Emerald Merchant`的一定范围内，你可以打开公会银行
 
 ![](/assets/img/guild2.jpg)
 

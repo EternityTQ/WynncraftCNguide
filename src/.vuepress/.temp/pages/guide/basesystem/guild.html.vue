@@ -78,7 +78,7 @@
 </li>
 </ul>
 <h2 id="公会银行" tabindex="-1"><a class="header-anchor" href="#公会银行" aria-hidden="true">#</a> 公会银行</h2>
-<p>在末影箱的一定范围内，你可以打开公会银行</p>
+<p>在<code v-pre>Emerald Merchant</code>的一定范围内，你可以打开公会银行</p>
 <figure><img src="/assets/img/guild2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>公会银行有两个等级的页面：Everyone及High Ranked</p>
 <p>Everyone等级的银行任何人都可以使用</p>

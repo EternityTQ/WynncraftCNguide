@@ -19,7 +19,7 @@
 <p>5.进入这个tomb然后杀死Mummy</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>门的密码是63814275,你也可以通过解谜知道。</p>
+<p>门的宝石颜色顺序是蓝色、紫色、红色、黄色,为首字母顺序</p>
 <p>Mummy很强，是个远程炮台，会把玩家拉向他，拉到一定次数瞬移至仇恨目标附近，远程攻击十分痛，建议卡位。附近蠹虫会不停刷，先清理掉。</p>
 </div>
 <p>6.给<em>Ormrod</em>看The Mummy's Bandage</p>
