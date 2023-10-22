@@ -41,6 +41,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">玩家要怎么捐献公会经验?</p>
 <p>输入<code v-pre>/guild xp [number]</code>，即可将<strong>战斗经验</strong>的一部分(输入的百分比数值)转化为公会经验</p>
+<p>当玩家加入公会时，这个数值默认为5%</p>
 </div>
 <h2 id="成员权限" tabindex="-1"><a class="header-anchor" href="#成员权限" aria-hidden="true">#</a> 成员权限</h2>
 <p>公会中，一共拥有6种权限等级</p>
@@ -87,7 +88,7 @@
 <p>需要注意的是，公会银行界面是点一下就会立即拿走/放进该格全部物品</p>
 <p>因此如果你希望只拿出一个物品，需要先全部取出，在背包内分离一个后，再将剩余物品重新放回银行内</p>
 <h2 id="公会战" tabindex="-1"><a class="header-anchor" href="#公会战" aria-hidden="true">#</a> 公会战</h2>
-<p>关于公会战的内容，这里不再加以讲解，这是整个公会系统的核心所在(纯大便。。)</p>
+<p>关于公会战的内容，这里不再加以讲解，但是这是整个公会系统的核心所在(纯大便。。)</p>
 <p>如果有兴趣，可以移步来自<strong>Tankofpacer</strong>大神的视频讲解</p>
 <p><a href="https://www.bilibili.com/video/BV1KD4y1Y7hH/" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1KD4y1Y7hH/<ExternalLinkIcon/></a></p>
 </div></template>

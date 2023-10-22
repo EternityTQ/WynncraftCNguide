@@ -1,50 +1,4 @@
-<template><div><p>想要玩明白各种流派或者玩法，了解词条必然是不可少的，游戏里有数量庞大的词条，在这里我会讲述如何正确的查看一件装备以及<s>随便</s>详细说明各种词条的用法。</p>
-<p>关于鉴定，可以看看<RouterLink to="/guide/npcs.html#item-identifier">这一章</RouterLink></p>
-<h2 id="学会看懂装备词条" tabindex="-1"><a class="header-anchor" href="#学会看懂装备词条" aria-hidden="true">#</a> 学会看懂装备词条</h2>
-<p>对于一件装备，我们拿到之后应该先看什么东西呢？接下来我会以几件装备为例子详细展开说明</p>
-<p>建议安装wynntils这个模组，因为可以查看词条的鉴定度，非常方便。先以武器为例：</p>
-<figure><img src="/assets/img/id1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<ul>
-<li>①：武器的名称，右侧百分比为Wynntils的功能，代表武器的总鉴定度</li>
-<li>②：武器的原始攻速(可被攻速词条影响)</li>
-<li>③：代表这个武器的面板，即元素种类、攻击力以及折算后的平均输出(DPS Damage Per Second)</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>绝大部分武器在原始形态都持有Neutral Damage，即中性伤害<br>
-中性伤害可以被粉末转化为对应的元素伤害</p>
-</div>
-<ul>
-<li>④：武器需求，一般包括职业需求、等级需求以及技能点需求。部分武器还会有任务需求，即完成对应任务才能使用</li>
-<li>⑤：武器词条，最关键的部分。这些词条的数值会被鉴定所影响，在安装了wynntils模组后，按住shift则可以看到这些词条的浮动范围。</li>
-<li>⑥：武器粉槽，代表这个武器至多能装备多少个粉末</li>
-<li>⑦：武器的品质，右侧的数字为鉴定费用</li>
-</ul>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>在重新鉴定后，品质右侧将会出现数字，代表这件装备被重新鉴定了几次</p>
-</div>
-<p>在武器最下方一般还会有介绍，讲述了该件装备/武器的历史<br>
-<s>萨满武器没有介绍</s></p>
-<p>对于装备而言就不过多占篇幅介绍了，区别就在装备一般会有血量属性和元素防御属性，很好理解，元素防御会在下文介绍。</p>
-<h2 id="元素防御" tabindex="-1"><a class="header-anchor" href="#元素防御" aria-hidden="true">#</a> 元素防御</h2>
-<p>护甲是带有基础元素防御的属性的，这些防御可以用来为我们提供对应元素伤害的抗性</p>
-<p>但与加点系统的防御点不同，元素防御如果是负数，则会增加自身受到那种元素属性的伤害</p>
-<p>所以在配置装备时，我们最好不要将元素防御负太多</p>
-<p>否则一遇到对应元素的伤害，我们将会变得及其脆弱。</p>
-<p>以一个非常经典的装备为例：</p>
-<figure><img src="/assets/img/id2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>我们可以看到，这件装备的水属性防御是-850<br>
-也就是说，穿着这件装备的时候，我们会大幅度增加自己受到的水属性伤害。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">关于元素防御%</p>
-<p>假设我们的元素防御数值是负数，若我们通过装备获得了高于100%的对应元素防御加成，此时我们的元素防御值会变成0。</p>
-<p>反过来也一样，当我们此时的元素防御数值是正数，若我们通过装备获得了低于-100%的对应元素防御加成，此时我们的元素防御值同样会变成0。</p>
-<p>依然以上面的这件装备为例子，我们可以看到这件装备对于地属性防御的加成是500%<br>
-假设此时我们的地属性防御数值在其他装备的影响下变成了负数，那我们最后得到的地属性防御数值就是0。</p>
-</div>
-<h2 id="鉴定词条" tabindex="-1"><a class="header-anchor" href="#鉴定词条" aria-hidden="true">#</a> 鉴定词条</h2>
-<p>这个章节会介绍武器、装备的一些词条功能作用</p>
+<template><div><p>这个章节会介绍武器、装备的一些词条功能作用</p>
 <p>由于词条总数实在过多，下面会根据功能性进行分类</p>
 <blockquote>
 <p><s>由于是纯文字所以超级无聊枯燥乏味繁冗复杂，写的好累好烦好困好饿好精神好饱好吃好玩好有意思，我好懒我不想动脑子但是我又要长脑子了脑子又要爆了，看得懂就看，看不懂可以多玩一会再回来看，再看不懂就不用看了直接脑补（真的）。</s></p>
@@ -115,8 +69,8 @@
 <p class="hint-container-title">提示</p>
 <p>hpr的机制有点特殊</p>
 <p>简单来说可以将hpr%视作拉高/拖累总hpr的指标</p>
-<p>若hpr%很高，则raw hpr为负数也不会使总hpr为负数</p>
-<p>反之，若hpr%过低，则就算raw hpr为正数也不会使总hpr为正数</p>
+<p>若从装备获得的hpr%很高(<code v-pre>&gt;100%</code>)，则raw hpr为负数也不会使总hpr为负数</p>
+<p>反之，若hpr%过低(<code v-pre>&lt;-100%</code>)，则就算raw hpr为正数也不会使总hpr为正数</p>
 </div>
 <p><strong>Life steal</strong><br>
 生命窃取，具体效果与魔力窃取类似，计算方式与魔力窃取相同。</p>
@@ -164,7 +118,7 @@
 <p>高于上限并不会使你获得更多灵魂点，单次获得灵魂点的上限为2</p>
 <p>同时，若你的spr为负数，则相对的效果为概率不回复灵魂点</p>
 </div>
-<h2 id="major-id" tabindex="-1"><a class="header-anchor" href="#major-id" aria-hidden="true">#</a> Major ID</h2>
+<h3 id="major-id" tabindex="-1"><a class="header-anchor" href="#major-id" aria-hidden="true">#</a> Major ID</h3>
 <p>在Wynncraft中，有一些物品鉴定后，会在所有波动的鉴定词条之后附带一条固定不变Major ID（大部分为虚幻品质的物品）</p>
 <p>我们可以把Major ID理解为MOBA游戏中的唯一被动效果，详细来说，就是它是一个被动技能，一直生效且与同名的其他被动不可叠加。</p>
 <p>游戏中有许多Major ID，而不同的Major ID有着不同的效果，下面会按照Major ID列出它的效果和有这条Major ID的所有物品。</p>

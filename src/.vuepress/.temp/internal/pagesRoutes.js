@@ -20,7 +20,7 @@ export const pagesRoutes = [
   ["v-25f6844f","/guide/wynntils.html",{"y":"a","t":"Wynntils","i":"handshake-angle"},[":md"]],
   ["v-dddc2d36","/quests/",{"y":"a","t":"任务攻略","i":"book"},["/quests/README.md"]],
   ["v-a2bdaeee","/guide/basesystem/guild.html",{"y":"a","t":"公会系统","i":"house"},[":md"]],
-  ["v-0993416b","/guide/basesystem/itemlevel.html",{"y":"a","t":"物品品质","i":"dice-d20"},[":md"]],
+  ["v-0993416b","/guide/basesystem/itemlevel.html",{"y":"a","t":"物品条目介绍","i":"dice-d20"},[":md"]],
   ["v-2a434e5d","/guide/basesystem/powder.html",{"y":"a","t":"粉末系统","i":"star-of-david"},[":md"]],
   ["v-bbff819e","/guide/basesystem/questbook.html",{"y":"a","t":"任务书介绍","i":"book"},[":md"]],
   ["v-ea82a048","/guide/basesystem/secretdiscovery.html",{"y":"a","t":"秘密发现","i":"magnifying-glass-location"},[":md"]],
