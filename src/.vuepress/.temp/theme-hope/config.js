@@ -3,7 +3,7 @@ import { VPLink } from "F:/WynncraftCNguide/node_modules/vuepress-shared/lib/cli
 
 import { HopeIcon, Layout, NotFound, useScrollPromise, injectDarkmode, setupDarkmode, setupSidebarItems } from "F:/WynncraftCNguide/node_modules/vuepress-theme-hope/lib/bundle/export.js";
 
-import { defineAutoCatalogIconComponent } from "F:/WynncraftCNguide/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
+import { defineAutoCatalogIconComponent } from "F:/WynncraftCNguide/node_modules/vuepress-theme-hope/node_modules/vuepress-plugin-auto-catalog/lib/client/index.js"
 import { GlobalEncrypt, LocalEncrypt } from "F:/WynncraftCNguide/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/export.js";
 import "F:/WynncraftCNguide/node_modules/vuepress-theme-hope/lib/bundle/modules/encrypt/styles/all.scss"
 import Slide from "F:/WynncraftCNguide/node_modules/vuepress-plugin-md-enhance/lib/client/SlidePage.js";
