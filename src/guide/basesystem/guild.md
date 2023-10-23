@@ -99,13 +99,11 @@ guild obj相较于daily obj，会有更高的完成条件，同时存在Raid Com
 + Strategist(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)
   可以将成员的等级在Captain及以下调整，同时可以请离Captain及以下的成员
   可以发起攻击/发起防御
-  可以改变领地上的产出奖励
   可以使用高等级的公会银行
 
 + Chief(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)
   可以将成员的等级在Strategist及以下调整，同时可以请离Strategist及以下的成员
   可以编辑公会旗帜
-  可以转送领地
 
 + Owner(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)
   公会的唯一创始人
@@ -130,7 +128,7 @@ Everyone等级的银行任何人都可以使用
 
 ## 公会战
 
-关于公会战的内容，这里不再加以讲解，但是这是整个公会系统的核心所在(纯大便。。)
+关于公会战的内容，由于笔者技艺不精，这里不再加以讲解，但是这是整个公会系统的核心所在(纯大便。。)
 
 如果有兴趣，可以移步来自**Tankofpacer**大神的视频讲解
 

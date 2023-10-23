@@ -19,8 +19,8 @@
 <p>通过过滤器，你就可以非常直观地使用任务书了！</p>
 <p>下面是介绍每一项的用途</p>
 <div class="hint-container tip">
-<p class="hint-container-title">追踪任务</p>
-<p>除了秘密发现以外，你都可以通过<strong>单击图标</strong>来追踪目标</p>
+<p class="hint-container-title">追踪目标</p>
+<p>除了秘密发现以外，你都可以通过<mark>单击图标</mark>来追踪目标</p>
 <figure><img src="/assets/img/questbook6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>游戏内会以信标的形式显示目标与你的相对位置</p>
 <p>请注意，未到指定等级是无法追踪目标的</p>
@@ -85,13 +85,14 @@
 <p>和副本一样，就不过多介绍了</p>
 <h2 id="boss-altar" tabindex="-1"><a class="header-anchor" href="#boss-altar" aria-hidden="true">#</a> Boss Altar</h2>
 <p>信标颜色：粉色</p>
+<figure><img src="/assets/img/questbook7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>BOSS祭坛通常较为隐蔽，在这之前如果没有wiki的话</p>
 <p>玩家大概只能“碰巧找到”或依靠口口相传</p>
 <p>但是现在如果你想找到BOSS ALTAR来获取装备的话</p>
 <p>直接在任务书内查找就可以了。</p>
 <p>注意：只有到达地点后才知道BOSS祭坛的材料是什么</p>
 <p>一般都会在附近掉落</p>
-<p>关于BOSS祭坛，你可以看看<a href="www.baidu.com">这里</a>？</p>
+<p>关于BOSS祭坛，你可以看看<RouterLink to="/guide/basesystem/bossaltar.html">这里</RouterLink>？</p>
 <h2 id="lootrun-camp" tabindex="-1"><a class="header-anchor" href="#lootrun-camp" aria-hidden="true">#</a> Lootrun Camp</h2>
 <p>信标颜色：蓝色</p>
 <figure><img src="/assets/img/questbook5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>

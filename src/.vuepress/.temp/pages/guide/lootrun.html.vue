@@ -442,6 +442,12 @@
 <p>在每次挑战完成或者失败后，怪物都会受到轮次增益(获得绿信标效果时除外)</p>
 <figure><img src="/assets/img/lootrun11.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这个数值在不同的地区而不同，低等级的地区会有更高的轮次增益来补偿难度</p>
+<div class="hint-container danger">
+<p class="hint-container-title">防卡点机制</p>
+<p>大部分挑战均有防卡点机制，以防止你站在无敌点来减小过关难度</p>
+<p>具体机制为到达一定y轴高度(非常低)时，会刷新额外的飞行怪物，大多数为远程，会对玩家造成干扰</p>
+<p>总之，请尽量不要尝试找寻无敌点通过挑战</p>
+</div>
 <h3 id="诅咒" tabindex="-1"><a class="header-anchor" href="#诅咒" aria-hidden="true">#</a> 诅咒</h3>
 <p>在吃到紫信标或暗灰信标后，你会受到随机诅咒(Curses)</p>
 <p>诅咒会给怪物带来加成以提高挑战难度</p>

@@ -34,8 +34,8 @@ icon: book
 
 下面是介绍每一项的用途
 
-:::tip 追踪任务
-除了秘密发现以外，你都可以通过**单击图标**来追踪目标
+:::tip 追踪目标
+除了秘密发现以外，你都可以通过==单击图标==来追踪目标
 
 ![](/assets/img/questbook6.jpg)
 
@@ -161,6 +161,8 @@ icon: book
 
 信标颜色：粉色
 
+![](/assets/img/questbook7.jpg)
+
 BOSS祭坛通常较为隐蔽，在这之前如果没有wiki的话
 
 玩家大概只能“碰巧找到”或依靠口口相传
@@ -173,7 +175,7 @@ BOSS祭坛通常较为隐蔽，在这之前如果没有wiki的话
 
 一般都会在附近掉落
 
-关于BOSS祭坛，你可以看看[这里](www.baidu.com)？
+关于BOSS祭坛，你可以看看[这里](/WynncraftCNguide/guide/basesystem/bossaltar.html)？
 
 ## Lootrun Camp
 

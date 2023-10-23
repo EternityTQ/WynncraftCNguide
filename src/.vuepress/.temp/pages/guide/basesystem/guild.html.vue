@@ -63,14 +63,12 @@
 <p>Strategist(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)<br>
 可以将成员的等级在Captain及以下调整，同时可以请离Captain及以下的成员<br>
 可以发起攻击/发起防御<br>
-可以改变领地上的产出奖励<br>
 可以使用高等级的公会银行</p>
 </li>
 <li>
 <p>Chief(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)<br>
 可以将成员的等级在Strategist及以下调整，同时可以请离Strategist及以下的成员<br>
-可以编辑公会旗帜<br>
-可以转送领地</p>
+可以编辑公会旗帜</p>
 </li>
 <li>
 <p>Owner(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)<br>
@@ -88,7 +86,7 @@
 <p>需要注意的是，公会银行界面是点一下就会立即拿走/放进该格全部物品</p>
 <p>因此如果你希望只拿出一个物品，需要先全部取出，在背包内分离一个后，再将剩余物品重新放回银行内</p>
 <h2 id="公会战" tabindex="-1"><a class="header-anchor" href="#公会战" aria-hidden="true">#</a> 公会战</h2>
-<p>关于公会战的内容，这里不再加以讲解，但是这是整个公会系统的核心所在(纯大便。。)</p>
+<p>关于公会战的内容，由于笔者技艺不精，这里不再加以讲解，但是这是整个公会系统的核心所在(纯大便。。)</p>
 <p>如果有兴趣，可以移步来自<strong>Tankofpacer</strong>大神的视频讲解</p>
 <p><a href="https://www.bilibili.com/video/BV1KD4y1Y7hH/" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1KD4y1Y7hH/<ExternalLinkIcon/></a></p>
 </div></template>
