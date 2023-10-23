@@ -486,7 +486,7 @@
 <p>Static为静态增益，该增益的数值在拿到瞬间就固定了</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>选择增益时的数值会随着轮次缓慢增加</p>
+<p>Static增益选择时，数值并非固定</p>
 </div>
 <table>
 <thead>
