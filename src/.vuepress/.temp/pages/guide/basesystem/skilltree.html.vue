@@ -11,6 +11,13 @@
 <p>同时，部分能力还存在冲突(多个能力只允许点其中一个)以及前置(点亮上一个指定能力才可以点亮这个能力)</p>
 <figure><img src="/assets/img/tree2.jpg" alt="该图包含了上述所有情况" tabindex="0" loading="lazy"><figcaption>该图包含了上述所有情况</figcaption></figure>
 <p>你将在104级时获得所有的技能点</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>并非所有的能力都能提高游戏体验！</p>
+<p>有部分能力改变了技能的效果</p>
+<p>例如：法师右路的<code v-pre>Arcane Transfer</code>能力中，将治疗效果削除，转化为了法力转换</p>
+<p>如果你需要治疗效果，那么点了这个技能点就没有治疗了！</p>
+</div>
 <h2 id="重置技能树" tabindex="-1"><a class="header-anchor" href="#重置技能树" aria-hidden="true">#</a> 重置技能树</h2>
 <p>在账号的任意存档完成<RouterLink to="/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html">Recover The Past (level 25)</RouterLink>后，即可解锁技能树洗点能力</p>
 <p>洗点需要消耗3个<code v-pre>Ability Shard</code>，其来源包括每日签到、每日任务、Raid产出等等，强烈建议通过交易市场购买，不算很贵</p>

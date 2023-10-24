@@ -29,6 +29,17 @@ icon: tree
 
 你将在104级时获得所有的技能点
 
+:::warning
+并非所有的能力都能提高游戏体验！
+
+有部分能力改变了技能的效果
+
+例如：法师右路的`Arcane Transfer`能力中，将治疗效果削除，转化为了法力转换
+
+如果你需要治疗效果，那么点了这个技能点就没有治疗了！
+
+:::
+
 ## 重置技能树
 
 在账号的任意存档完成[Recover The Past (level 25)](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html)后，即可解锁技能树洗点能力
