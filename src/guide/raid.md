@@ -494,8 +494,8 @@ wynn制作组会不定时修改部分buff数值
 :::
 |          | Tier 1                         | Tier 2                                  | Tier 3                                   |
 | -------- | ------------------------------ | --------------------------------------- | ---------------------------------------- |
-| Hollowed | +2000 Health Bonus<br>+20 Defense<br>+50% Reflection | +Guardian Major ID<br>+30/4s Mana Regen<br>+50% Thorns | +4000 Health Bonus<br>+650 Health Regen Raw<br>-40% Damage Bonus |
-| Sojourner | +20 Dexterity<br>+20/4s Mana Regen<br>+80% Sprint Regen | +Freerunner Major ID<br>+30 Defense<br>+40% Spell Damage | +40 Intelligence<br>+40 Strength<br>-300 Health Regen Raw |
-| Fading | +80% Health Regen<br>+40% Walk Speed<br>+Heart of the Pack Major ID | +60% Water Damage<br>+30 Agility<br>+25/3s Mana Steal | +Saviour's Sacrifice Major ID<br>-1200 Health Bonus<br>+40 Agility |
-| Insidious | +20/3s Mana Steal<br>+20 Intelligence<br>+40% Spell Damage | -2 Attack Speed Tier<br>+325/4s Life Steal<br>+60% Spell Damage | +Sorcery Major ID<br>-40% Walk Speed<br>+80% Spell Damage |
-| Hopeless | +20 Strength<br>+80% Exploding<br>+100% Main Attack Damage | +1 Attack Speed Tier<br>+Fission Major ID<br>+30 Dexterity | +80% Walk Speed<br>-20/4s Mana Regen<br>+250% Main Attack Damage |
+| Hollowed | +2000 Health Bonus<br>+20 Defense<br>+50% Reflection | +Guardian Major ID<br>+30/4s Mana Regen<br>+50% Thorns | +4000 Health Bonus<br>+650 Health Regen Raw<br><font color = "red">-40% Damage Bonus</font> |
+| Sojourner | +20 Dexterity<br>+20/4s Mana Regen<br>+80% Sprint Regen | +Freerunner Major ID<br>+30 Defense<br>+40% Spell Damage | +40 Intelligence<br>+40 Strength<br> <font color = "red">-300 Health Regen Raw </font> |
+| Fading | +80% Health Regen<br>+40% Walk Speed<br>+Heart of the Pack Major ID | +60% Water Damage<br>+30 Agility<br>+25/3s Mana Steal | +Saviour's Sacrifice Major ID<br><font color = "red">-1200 Health Bonus</font><br>+40 Agility |
+| Insidious | +20/3s Mana Steal<br>+20 Intelligence<br>+40% Spell Damage | -2 Attack Speed Tier<br>+325/4s Life Steal<br>+60% Spell Damage | +Sorcery Major ID <br> <font color = "red">-40% Walk Speed</font> <br>+80% Spell Damage |
+| Hopeless | +20 Strength<br>+80% Exploding<br>+100% Main Attack Damage | +1 Attack Speed Tier<br>+Fission Major ID<br>+30 Dexterity | +80% Walk Speed<br> <font color = "red">-20/4s Mana Regen</font> <br>+250% Main Attack Damage |

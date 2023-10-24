@@ -434,31 +434,31 @@
 <td>Hollowed</td>
 <td>+2000 Health Bonus<br>+20 Defense<br>+50% Reflection</td>
 <td>+Guardian Major ID<br>+30/4s Mana Regen<br>+50% Thorns</td>
-<td>+4000 Health Bonus<br>+650 Health Regen Raw<br>-40% Damage Bonus</td>
+<td>+4000 Health Bonus<br>+650 Health Regen Raw<br><font color = "red">-40% Damage Bonus</font></td>
 </tr>
 <tr>
 <td>Sojourner</td>
 <td>+20 Dexterity<br>+20/4s Mana Regen<br>+80% Sprint Regen</td>
 <td>+Freerunner Major ID<br>+30 Defense<br>+40% Spell Damage</td>
-<td>+40 Intelligence<br>+40 Strength<br>-300 Health Regen Raw</td>
+<td>+40 Intelligence<br>+40 Strength<br> <font color = "red">-300 Health Regen Raw </font></td>
 </tr>
 <tr>
 <td>Fading</td>
 <td>+80% Health Regen<br>+40% Walk Speed<br>+Heart of the Pack Major ID</td>
 <td>+60% Water Damage<br>+30 Agility<br>+25/3s Mana Steal</td>
-<td>+Saviour's Sacrifice Major ID<br>-1200 Health Bonus<br>+40 Agility</td>
+<td>+Saviour's Sacrifice Major ID<br><font color = "red">-1200 Health Bonus</font><br>+40 Agility</td>
 </tr>
 <tr>
 <td>Insidious</td>
 <td>+20/3s Mana Steal<br>+20 Intelligence<br>+40% Spell Damage</td>
 <td>-2 Attack Speed Tier<br>+325/4s Life Steal<br>+60% Spell Damage</td>
-<td>+Sorcery Major ID<br>-40% Walk Speed<br>+80% Spell Damage</td>
+<td>+Sorcery Major ID <br> <font color = "red">-40% Walk Speed</font> <br>+80% Spell Damage</td>
 </tr>
 <tr>
 <td>Hopeless</td>
 <td>+20 Strength<br>+80% Exploding<br>+100% Main Attack Damage</td>
 <td>+1 Attack Speed Tier<br>+Fission Major ID<br>+30 Dexterity</td>
-<td>+80% Walk Speed<br>-20/4s Mana Regen<br>+250% Main Attack Damage</td>
+<td>+80% Walk Speed<br> <font color = "red">-20/4s Mana Regen</font> <br>+250% Main Attack Damage</td>
 </tr>
 </tbody>
 </table>
