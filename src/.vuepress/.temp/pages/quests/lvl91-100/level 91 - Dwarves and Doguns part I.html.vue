@@ -1,26 +1,58 @@
 <template><div><h1 id="dwarves-and-doguns-part-i-level-91" tabindex="-1"><a class="header-anchor" href="#dwarves-and-doguns-part-i-level-91" aria-hidden="true">#</a> Dwarves and Doguns part I(level 91)</h1>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>此页面有待更新！</p>
+<p><strong>矮人族与多贡族的纷争 Part I</strong></p>
+<div class="hint-container tip">
+<p class="hint-container-title">重要任务</p>
+<p>解锁Molten Heights的电梯</p>
 </div>
-<p>1.手持<code v-pre>1 Emerald Block</code>和<em>Lozeg</em><code v-pre>[1021 18 -5149]</code>对话</p>
-<p>1 接完任务到旁边上楼看戏</p>
-<p>2 看完后去另一地点看戏[1575 8 -5355]，对话会自己播放，靠近即可</p>
-<p>3 看完后去Rodoroc的监狱找到Axelus[1109 26 -5230]</p>
-<p>4 对话完后去Maex城[1416 67 -5356]</p>
-<p>5 寻找81号房[1510 67 -5356]</p>
-<p>6 上2楼跟着红地毯跑酷</p>
-<p>到达[1485 62 -5267]前方有木按钮，按下窗户破碎继续红地毯跑酷</p>
-<p>到达[1485 62 -5267]到达此后右转，进入房间，触发金质压力板，进入传送门和Axelus对话，完毕后直走，传送</p>
-<p>7 解密 方法[就是将对应的颜色粘土块与玻璃相连接，连接方式即按完按钮准心所对方向即链接线路方向，有延迟，另外建议4格高跳下，鉴定有问题]解完原路返回</p>
-<p>8 与Axelus对话</p>
-<p>9 进入东边房间触发剧情，需要3个怪掉落物投入漏斗中</p>
-<p>10 随后出来到达Dogun Village<a href="%E6%B3%A8%E6%84%8F%E5%87%BA%E6%9D%A5%E5%90%8E%E6%98%AF%E5%BE%80%E4%B8%8A%E8%B5%B0%EF%BC%81%EF%BC%81">1378 -5305 141</a></p>
-<p>11 进入较深地方[即Plario前方左右]触发剧情</p>
-<p>奖励<br>
-3300000 经验<br>
-1 Dogun Badge of Trust<br>
-Access to the Molten Heights elevators</p>
+<p>1.在<strong>Rodoroc</strong>城内手持<code v-pre>1 Emerald Block</code>和<em>Lozeg</em><code v-pre>[1021 18 -5149]</code>对话</p>
+<p>2.接完任务到旁边上楼看戏</p>
+<p>3.看完后离开<strong>Rodoroc</strong>城，去另一地点看戏<code v-pre>[1522 78 -5055]</code>，对话会自己播放，靠近中间的火堆即可</p>
+<p>4.似乎想要制止大家的<em>Axelus</em>被抓起来了，去Rodoroc的北方监狱找到<em>Axelus</em><code v-pre>[1109 26 -5230]</code>了解情况</p>
+<p>5.找到Axelus后，跟随他留下的纸条前往图书馆的入口<code v-pre>[1024 13 -5050]</code></p>
+<p>6.进入左侧的通道，将大炮对准大门(默认应该是对准的)，点击绿宝石按钮发射</p>
+<figure><img src="/assets/img/lvl91-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>7.进入地下图书馆，分别进入左右侧的四个墓室，击败小BOSS拿到遗物</p>
+<p>拿到四个遗物后来到中间的墓室，全部丢在漏斗内，即可开门</p>
+<p>8.进入火之图书馆内部，翻看记录</p>
+<p>9.出来后，前往Maex寻找81号房<code v-pre>[1510 67 -5356]</code></p>
+<p>10.一直跟着红色地毯走</p>
+<p>注意路上有扇窗户需要用下面的木按钮打开</p>
+<p>到尽头右侧有一个被炸开的洞，进去就行</p>
+<p>11.和联盟内的<em>Axelus</em>对话</p>
+<p>12.径直离开房间，通过隧道</p>
+<p>13.修理机器</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>你可以将其看作平面的不重复连线</p>
+<p>手持操纵器，按下起点的按钮，即可对铁块进行涂色</p>
+<p>将起点与终点玻璃相连即可完成</p>
+<p>以下是平面视图，其中第一面为红蓝黄起点的那一面，上下灰格子为定位每面的位置</p>
+<figure><img src="/assets/img/lvl91-2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>如果你实在看不懂。。。你可以把它当成一个涂色游戏就行了</p>
+<details class="hint-container details"><summary>每面单独的表示</summary>
+<Presentation id="presentation-82" code="eJzjUlZWeL5mzZMdDS/nLuJSjI7V0E8sLk4tKdbPzE3XzynLsTTUNdI11MsqSNfk4tLV1eWC6djVg0+HERYdOzrx6TDG1PF09mx8OkyQdAAA8KxEUQ==" theme="auto"></Presentation></details>
+</div>
+<p>14.修理完机器后，返回基地，记得右键一下刚才出来隧道的黑色地板才可以进去</p>
+<p>15.和Axelus对话</p>
+<p>16.进入东边房间触发剧情，需要3个怪掉落物投入漏斗中</p>
+<p>17.从打架的房间离开，随后出来到达<strong>Dogun Village</strong><code v-pre>[1378 -5305 141]</code>，<strong>注意出来后是往上走！！</strong></p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>注意别跑的太快了，你需要在<code v-pre>[1366 142 -5453]</code>附近触发剧情才能得到龙骨碎片</p>
+<p>如果你得不到龙骨碎片，你无法继续接下来的步骤</p>
+</div>
+<p>18.和<strong>Plario</strong><code v-pre>[1379 142 -5305]</code>对话</p>
+<p>奖励</p>
+<ul>
+<li>3300000 经验</li>
+<li>1 Dogun Badge of Trust</li>
+<li>可以使用Molten Heights的电梯了</li>
+</ul>
+<div class="hint-container tip">
+<p class="hint-container-title">电梯入口</p>
+<p>高层：<code v-pre>[1352 138 -5463]</code></p>
+<p>下层：<code v-pre>[1348 8 -5463]</code></p>
+</div>
 </div></template>
 
 
