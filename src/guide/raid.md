@@ -23,7 +23,11 @@ Raid(袭击)是一种特殊的多人高难副本，您可以在Raid中获取到�
 ## 共有机制
 当前版本的所有raid都有部分共同机制，会进行简要介绍：
 
-首先，进入raid需要支付门票费(runes)，如果使用匹配，通常情况下携带最多数量的runes的玩家会成为队长，门票费需要由队长支付，通常情况下，队长会向每个队友各索取一个rune作为门票。
+首先，进入raid需要支付门票费(runes)，门票费需要由队长支付，通常情况下，队长会向每个队友各索取一个rune作为门票。
+
+:::tip
+如果使用匹配，通常情况下携带最多数量的runes的玩家会成为队长
+:::
 
 需注意，raid的难度取决于队伍内等级最高的成员的等级，如：三个Lv80的玩家挑战notg的难度，比两个Lv100的玩家和一个Lv60的玩家挑战notg时难度更低。
 
@@ -44,7 +48,15 @@ Raid中的死亡并不会丢失灵魂点，且您会在这一面结束时重生�
 当前版本的wynncraft共有四个有着不同特色的raid：
 
 ## Nest of the Grootslangs(Notg) 异虫之穴
-Notg是整个游戏流程中，最低等级限制的raid，其前置任务为光之领域1：蠕虫洞，入场费用为2 Az Runes。
+名称：Nest of the Grootslangs
+简称：NOTG
+玩家等级限制：54
+团队总等级上限：320
+团队人数限制：3-4
+入场费用：2 Az Runes
+前置任务：[Realm of Light I - The Worm Holes (level 54)](/WynncraftCNguide/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)
+
+Notg是整个游戏流程中，最低等级限制的raid
 
 作为教程级别的raid，Notg整体难度较低。
 
@@ -126,8 +138,16 @@ wynn制作组会不定时修改部分buff数值
 | Racer | +30 Agility <br>+40% Walk Speed | +40 Agility<br> +100% Sprint <br>+60% Walk Speed | +80 Agility <br>+2000 Health <br>+Freerunner Major ID |
 | Vampire | +1500 Health <br>+10/3s Mana Steal <br>+250/3s Life Steal | +1500 Health <br>+400/3s Life Steal <br>+300 Health Regen | +30/3s Mana Steal <br>+500 Health Regen <br>+Heart of the Pack Major ID |
 
-## Orphion's Nexus of Light(Nol) 光之枢纽
-Nol是整个游戏流程中，等级限制第二低的raid，其前置任务为光之领域5：光之领域，入场费用为3 Uth Runes。
+## Orphion's Nexus of Light 光之枢纽
+名称：Orphion's Nexus of Light
+简称：NOL
+玩家等级限制：79
+团队总等级上限：500
+团队人数限制：4-6
+入场费用：3 Uth Runes
+前置任务：[Realm of Light V - The Realm of Light (level 79)](/WynncraftCNguide/quests/lvl71-80/level%2079%20-%20Realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html)
+
+Nol是整个游戏流程中，等级限制第二低的raid
 
 Nol曾经是整个游戏中最难的Raid，目前其难度依旧是数一数二的，虽然能在Lv 80 解锁，但不建议在这个等级区间挑战。
 
@@ -235,8 +255,15 @@ wynn制作组会不定时修改部分buff数值
 | Ophanim | +50 Agility<br>+50% Water Damage | +50 Agility<br>+75% Water Damage<br>+350% Health Regen | +10000 Health<br>+Guardian Major ID |
 | Throne | +80 Intelligence<br>+50/3s Mana Steal | +50/3s Mana Steal<br>+25/4s Mana Regen<br>+50% All Element Damage | +70 Intelligence<br>+Transcendence Major ID |
 | Anti | +616% Exploding<br>+Explosive Impact Major ID | +100 Strength<br>+9000/3s Poison | +80 Defense<br>+300% Sprint<br>+2 tier Attack Speed |
-## The Canyon Colossus(TCC) 峡谷巨像
-Tcc是当前游戏流程内最难的raid之一，其前置任务为The breaking point，入场费用为4 Tol Runes。
+## The Canyon Colossus 峡谷巨像
+名称：The Canyon Colossus
+简称：TCC
+玩家等级限制：95
+团队总等级上限：500
+团队人数限制：4
+入场费用：4 Tol Runes
+前置任务：[The Breaking Point (level 97)](/WynncraftCNguide/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html)
+Tcc是当前游戏流程内最难的raid之一
 
 Tcc可以产出当前版本的毕业防具tome，是游戏必要流程之一。
 
@@ -364,14 +391,22 @@ wynn制作组会不定时修改部分buff数值
 | Giant | +3000 Health Bonus<br>+50 Defense | +5000 Health Bonus<br>+400 Health Regen Raw | +7000 Health Bonus<br>+1000 Raw Health Regen<br>+50% Health Regen |
 | Intrepid | +40 Dexterity<br>+80% Walk Speed<br>+Guardian Major ID | +75% Spell Damage<br>+2 Attack Speed Tiers<br>Saviour's Sacrifice Major ID | +50 Agility<br>+80 Dexterity<br>+Heart of the Pack Major ID |
 | Pestilent | +5000/3s Poison<br>+50 Strength<br>+750 Life Steal | +7500/3s Poison<br>+25/3s Mana Steal<br>+100 Strength | +10000/3s Poison<br>+1250 Lifesteal<br>+Plague Major ID |
-## The Nameless Anomaly(TNA) 无名异常
-Tna是当前游戏流程内最难的raid之一，其前置任务为A journey further，入场费用为5 Tol Runus。
+## The Nameless Anomaly 无名异常
+名称：The Nameless Anomaly
+简称：TNA
+玩家等级限制：103
+团队总等级上限：500
+团队人数限制：4
+入场费用：5 Tol Runes
+前置任务：[A Journey Further (level 101)](/WynncraftCNguide/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)
+
+Tna是当前游戏流程内最难的raid之一
 
 Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且能产出当前版本的毕业武器tome以及强力装备Aleph null，是游戏必要的流程之一。
 
 如果您觉得riad困难，请不要吝惜各类消耗品。
 
-上面那话句的错别字是故意的。
+>上面那话句的错别字是故意的。
 
 
 ### Room1

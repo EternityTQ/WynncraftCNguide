@@ -13,7 +13,11 @@
 </div>
 <h2 id="共有机制" tabindex="-1"><a class="header-anchor" href="#共有机制" aria-hidden="true">#</a> 共有机制</h2>
 <p>当前版本的所有raid都有部分共同机制，会进行简要介绍：</p>
-<p>首先，进入raid需要支付门票费(runes)，如果使用匹配，通常情况下携带最多数量的runes的玩家会成为队长，门票费需要由队长支付，通常情况下，队长会向每个队友各索取一个rune作为门票。</p>
+<p>首先，进入raid需要支付门票费(runes)，门票费需要由队长支付，通常情况下，队长会向每个队友各索取一个rune作为门票。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如果使用匹配，通常情况下携带最多数量的runes的玩家会成为队长</p>
+</div>
 <p>需注意，raid的难度取决于队伍内等级最高的成员的等级，如：三个Lv80的玩家挑战notg的难度，比两个Lv100的玩家和一个Lv60的玩家挑战notg时难度更低。</p>
 <p>每个raid有队伍挑战的总战斗等级上限，但是并没有最大人数限制(有最少限制)，也就意味着，四个低于Lv 80的玩家可以组队四人挑战Notg，其他raid同理(因为等级上限和前置任务需求，我们默认认为Tcc/Tna只能由四名玩家组队挑战)。</p>
 <p>每个raid的主流程均有四步：三面从二选一的挑战中随机出现的一面，以及最后的BOSS面。</p>
@@ -24,7 +28,14 @@
 <p>注意：每个raid均有自己的解锁条件，会在各个raid中单独说明。</p>
 <p>当前版本的wynncraft共有四个有着不同特色的raid：</p>
 <h2 id="nest-of-the-grootslangs-notg-异虫之穴" tabindex="-1"><a class="header-anchor" href="#nest-of-the-grootslangs-notg-异虫之穴" aria-hidden="true">#</a> Nest of the Grootslangs(Notg) 异虫之穴</h2>
-<p>Notg是整个游戏流程中，最低等级限制的raid，其前置任务为光之领域1：蠕虫洞，入场费用为2 Az Runes。</p>
+<p>名称：Nest of the Grootslangs<br>
+简称：NOTG<br>
+玩家等级限制：54<br>
+团队总等级上限：320<br>
+团队人数限制：3-4<br>
+入场费用：2 Az Runes<br>
+前置任务：<RouterLink to="/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html">Realm of Light I - The Worm Holes (level 54)</RouterLink></p>
+<p>Notg是整个游戏流程中，最低等级限制的raid</p>
 <p>作为教程级别的raid，Notg整体难度较低。</p>
 <h3 id="room1" tabindex="-1"><a class="header-anchor" href="#room1" aria-hidden="true">#</a> Room1</h3>
 <p>Notg的第一面可能出现以下两个房间之一：</p>
@@ -109,8 +120,15 @@
 </tr>
 </tbody>
 </table>
-<h2 id="orphion-s-nexus-of-light-nol-光之枢纽" tabindex="-1"><a class="header-anchor" href="#orphion-s-nexus-of-light-nol-光之枢纽" aria-hidden="true">#</a> Orphion's Nexus of Light(Nol) 光之枢纽</h2>
-<p>Nol是整个游戏流程中，等级限制第二低的raid，其前置任务为光之领域5：光之领域，入场费用为3 Uth Runes。</p>
+<h2 id="orphion-s-nexus-of-light-光之枢纽" tabindex="-1"><a class="header-anchor" href="#orphion-s-nexus-of-light-光之枢纽" aria-hidden="true">#</a> Orphion's Nexus of Light 光之枢纽</h2>
+<p>名称：Orphion's Nexus of Light<br>
+简称：NOL<br>
+玩家等级限制：79<br>
+团队总等级上限：500<br>
+团队人数限制：4-6<br>
+入场费用：3 Uth Runes<br>
+前置任务：<RouterLink to="/quests/lvl71-80/level%2079%20-%20Realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html">Realm of Light V - The Realm of Light (level 79)</RouterLink></p>
+<p>Nol是整个游戏流程中，等级限制第二低的raid</p>
 <p>Nol曾经是整个游戏中最难的Raid，目前其难度依旧是数一数二的，虽然能在Lv 80 解锁，但不建议在这个等级区间挑战。</p>
 <h3 id="room1-1" tabindex="-1"><a class="header-anchor" href="#room1-1" aria-hidden="true">#</a> Room1</h3>
 <h4 id="decay-cloud" tabindex="-1"><a class="header-anchor" href="#decay-cloud" aria-hidden="true">#</a> Decay cloud</h4>
@@ -217,8 +235,15 @@
 </tr>
 </tbody>
 </table>
-<h2 id="the-canyon-colossus-tcc-峡谷巨像" tabindex="-1"><a class="header-anchor" href="#the-canyon-colossus-tcc-峡谷巨像" aria-hidden="true">#</a> The Canyon Colossus(TCC) 峡谷巨像</h2>
-<p>Tcc是当前游戏流程内最难的raid之一，其前置任务为The breaking point，入场费用为4 Tol Runes。</p>
+<h2 id="the-canyon-colossus-峡谷巨像" tabindex="-1"><a class="header-anchor" href="#the-canyon-colossus-峡谷巨像" aria-hidden="true">#</a> The Canyon Colossus 峡谷巨像</h2>
+<p>名称：The Canyon Colossus<br>
+简称：TCC<br>
+玩家等级限制：95<br>
+团队总等级上限：500<br>
+团队人数限制：4<br>
+入场费用：4 Tol Runes<br>
+前置任务：<RouterLink to="/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html">The Breaking Point (level 97)</RouterLink><br>
+Tcc是当前游戏流程内最难的raid之一</p>
 <p>Tcc可以产出当前版本的毕业防具tome，是游戏必要流程之一。</p>
 <h3 id="room1-2" tabindex="-1"><a class="header-anchor" href="#room1-2" aria-hidden="true">#</a> Room1</h3>
 <h4 id="minigame" tabindex="-1"><a class="header-anchor" href="#minigame" aria-hidden="true">#</a> Minigame</h4>
@@ -339,11 +364,20 @@
 </tr>
 </tbody>
 </table>
-<h2 id="the-nameless-anomaly-tna-无名异常" tabindex="-1"><a class="header-anchor" href="#the-nameless-anomaly-tna-无名异常" aria-hidden="true">#</a> The Nameless Anomaly(TNA) 无名异常</h2>
-<p>Tna是当前游戏流程内最难的raid之一，其前置任务为A journey further，入场费用为5 Tol Runus。</p>
+<h2 id="the-nameless-anomaly-无名异常" tabindex="-1"><a class="header-anchor" href="#the-nameless-anomaly-无名异常" aria-hidden="true">#</a> The Nameless Anomaly 无名异常</h2>
+<p>名称：The Nameless Anomaly<br>
+简称：TNA<br>
+玩家等级限制：103<br>
+团队总等级上限：500<br>
+团队人数限制：4<br>
+入场费用：5 Tol Runes<br>
+前置任务：<RouterLink to="/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html">A Journey Further (level 101)</RouterLink></p>
+<p>Tna是当前游戏流程内最难的raid之一</p>
 <p>Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且能产出当前版本的毕业武器tome以及强力装备Aleph null，是游戏必要的流程之一。</p>
 <p>如果您觉得riad困难，请不要吝惜各类消耗品。</p>
+<blockquote>
 <p>上面那话句的错别字是故意的。</p>
+</blockquote>
 <h3 id="room1-3" tabindex="-1"><a class="header-anchor" href="#room1-3" aria-hidden="true">#</a> Room1</h3>
 <h4 id="flooding-canyon" tabindex="-1"><a class="header-anchor" href="#flooding-canyon" aria-hidden="true">#</a> Flooding Canyon</h4>
 <p><strong>这一面内，机制十分重要</strong><br>

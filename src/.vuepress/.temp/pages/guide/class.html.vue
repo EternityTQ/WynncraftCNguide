@@ -43,19 +43,23 @@
 <p></p>
 </template>
 <template #tab4="{ value, isActive }">
-<p>与战士相反，萨满的舒适曲线反而是越来越低</p>
-<p>萨满的战斗方式为依赖召唤物图腾进行超大范围AOE攻击</p>
-<p>前中期萨满能获得神挡杀神，佛挡杀佛的体验，练级就像捏蚂蚁</p>
-<p>但是后期开始乏力，同时萨满还拥有全职业最低的防御补正，导致萨满皮很脆</p>
-<p>总之萨满也很适合入坑体验，但是练到满级了可能需要尝试换一个新档？</p>
+<p>萨满是五个职业中上手难度最高的一个</p>
+<p>萨满的战斗方式为依赖召唤物图腾进行超大范围AOE攻击，技能树中也可以强化图腾的能力，拥有召唤额外召唤物以及治疗的能力。</p>
+<p>前中期的萨满有着不错的AOE伤害，适合快速练级，<strong>但如果萌新玩家想要体验完整的游戏内容，并不建议在第一个档使用萨满</strong>。</p>
+<p>萨满拥有全职业最低的防御补正，导致萨满皮很脆，并且其位移技能的设计手感较差，加上需要在较高等级才能解锁图腾治疗，对于刚入坑的玩家不算友好。</p>
+<p>如果将其作为游戏中的第二个档进行游玩，并主动跳过不必要的剧情等内容，那萨满将是刷到满级速度最快的职业<s>当然满级游戏体验也好不到哪去</s>。</p>
 </template>
 </Tabs>
 <p>对于每个职业，你都可以在技能树中体验到三种流派</p>
 <p>以下为各个职业流派的介绍</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>您并不一定需要按照一条技能树一路点到底，有时候技能树混搭反而能达到更好的效果</p>
+</div>
 <ul>
 <li>战士</li>
 </ul>
-<Tabs id="123" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道家</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
+<Tabs id="128" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道家</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
 <template #title0="{ value, isActive }"><font color="red">Fallen 腐化者</font></template>
 <template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道家</font></template>
 <template #title2="{ value, isActive }"><font color=18c7f0> Paladin 圣骑士</font></template>
@@ -63,19 +67,57 @@
 <p>腐化者拥有战士分支中最高的输出，并且会在受伤时变得更加强大</p>
 <p>腐化者的机制为施放战吼进入腐化状态</p>
 <p>期间根据失去生命值提升额外攻击，并且失去所有恢复手段</p>
-<p>这意味着腐化者在拥有极高伤害的同时，也会有极高的风险</p>
+<p>腐化者的终极技能允许玩家利用血量代替能量施法</p>
+<p>这意味着腐化者在拥有极高伤害的同时，也会有极高的风险，需要一定的操作能力</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Bak'al's Grasp：施放战吼将会进入腐化状态，期间失去任何回血能力，且根据释放后的损失生命值得到加伤</p>
+</li>
+<li>
+<p>Enraged Blow：进入腐化状态后，每损失1%的生命值将会增加1.5%的伤害</p>
+</li>
+<li>
+<p>Intoxicating Blood：腐化状态期间每杀死一个怪物，在退出腐化后会恢复5%的生命值</p>
+</li>
+<li>
+<p>Ragnarokkr：提高战吼的持续时间，同时给周围友军施加20%的伤害增加buff</p>
+</li>
+</ul>
 </template>
 <template #tab1="{ value, isActive }">
-<p></p>
+<p>武道士拥有游戏内独特的技能循环与操作机制，能轻松的在长线作战中维持持续输出能力，但有一定的上手难度</p>
+<p>其独特的技能机制允许武道士在有序操作下每第三个技能仅消耗1点能量，搭配斧踢(上挑蓝耗增加，伤害增加)可以在低蓝耗的技能循环中打出高输出</p>
+<p>当前版本，即使将武道士的关键技能都点亮，仍然会有较多技能点富余，这允许玩家进行技能树之间的搭配</p>
+<p>武道士更需要的是玩家的游戏思路，而非操作</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Generalist：每施放3个不同的技能后，下一个技能只需1法力消耗</p>
+</li>
+<li>
+<p>Aerodynamics：冲锋期间，可以调整方向</p>
+</li>
+<li>
+<p>Whiriwind Strike：上挑现在会将周围敌人与自己挑飞滞空</p>
+</li>
+<li>
+<p>Discombobulate：攻击怪物将会叠加5点Discombobulated，攻击该怪物会根据该debuff数值额外追加元素伤害</p>
+</li>
+</ul>
 </template>
 <template #tab2="{ value, isActive }">
-<p></p>
+<p>圣骑士能达到比另外两条技能分支更高的基础抗性，这也意味着圣骑士拥有全游戏最高的基础抗性</p>
+<p>防御能力方面，圣骑士拥有更高基础抗性的同时，可以通过战吼召唤格挡70%伤害的小盾，亦能通过秘银皮肤获得完全的击退抗性</p>
+<p>辅助能力方面，圣骑士拥有嘲讽、可以净化队友身上的负面状态，并且拥有全游戏仅有的词条增益：Radience，范围增强友方装备中的全部词条<s>非常好词条使我Revenant掉大血</s></p>
+<p>圣骑士的终极技能，是每10分钟可以使用一次的被动复活，并且可以再度增益，在触发复活时为全体队友附加无敌效果</p>
+<p>作为代价，圣骑士的输出能力相较另两条技能树更低，如果不是为了追求终极技能的复活能力和团队增益，建议与其他分支进行适当搭配</p>
 </template>
 </Tabs>
 <ul>
 <li>法师</li>
 </ul>
-<Tabs id="156" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
+<Tabs id="235" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
 <template #title0="{ value, isActive }"><font color=18c7f0> Riftwalker 时空行者</font></template>
 <template #title1="{ value, isActive }"><font color="grey"> Light Bender 圣光使者</font></template>
 <template #title2="{ value, isActive }"><font color="purple"> Arcanist 奥术法师</font></template>
@@ -103,16 +145,38 @@
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
-<p></p>
+<p>圣光使者能召唤光之力辅助自己的输出，作为代价，其牺牲了召唤陨石的能力</p>
+<p>圣光使者使用陨石将会召唤数个光球，每次使用普通攻击，光球都会同步进行输出</p>
+<p>圣光使者的治疗能力会被光之力大幅增强，治疗能力增加，甚至能造成伤害，并且召唤的光球也会受到自己的治疗而恢复生命</p>
+<p>根据自身短期内造成的治疗量，圣光使者能为友方施加不同的增益，甚至可以通过治疗过量为友方附加短暂的无敌</p>
+<p>相应的，失去了陨石能力的圣光使者也损失了大量的群伤能力，更适合单体作战或辅助队友</p>
+<p><strong>重要能力点：</strong></p>
+<ul>
+<li>
+<p>Ophanim：陨石将会转换为召唤2个光球，光球将会在你平A时一起攻击敌人，光球的每次攻击会减少20%的血量，光球可以被治疗</p>
+</li>
+<li>
+<p>Fortitude：每当在10秒内治疗相当于自身120%生命上限的血量后，下一次治疗会给范围内友军施加60%的伤害加成</p>
+</li>
+<li>
+<p>Orphion's Pulse：治疗将会额外施加两次，每次间隔1.5s，额外治疗拥有更高的奶量</p>
+</li>
+<li>
+<p>Divination：光球的数量+3，减少每一个光球的伤害</p>
+</li>
+</ul>
 </template>
 <template #tab2="{ value, isActive }">
-<p></p>
+<p>奥术法师牺牲了治疗能力，并可以进行奥术转化，将输出转化为贮存能量再通过奥术转化利用贮存能量输出，能轻松达成电表倒转的同时也有极高的爆发伤害</p>
+<p>牺牲治疗能力，使得奥术法师使用技能、技能命中都会为自己特殊的&quot;能量库&quot;进行充能，而使用已经被替换为奥术转化的治疗，会将能量库提取为可用能量</p>
+<p>而奥术法师的终极技能，使得奥术法师在能量库存储量足够高时使用奥术转化，能直接消耗能量库打出先前使用的多个技能，快速运转能量与输出</p>
+<p>输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发</p>
 </template>
 </Tabs>
 <ul>
 <li>弓手</li>
 </ul>
-<Tabs id="220" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<Tabs id="345" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Boltslinger 闪击射手</font></template>
 <template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
 <template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
@@ -121,58 +185,95 @@
 <p>闪击射手主要依赖箭雨进行输出，可以轻易地打出非常高的伤害</p>
 <p>其还具有速度加成，因此相当灵活</p>
 <p>需要注意的是，在没有点出Elusive之前，箭雨拥有非常大的后坐力，需要小心！</p>
-<p>同时，闪击射手拥有一个非常舒适的自动攻击的天使，非常适合跑图<s>捏蚂蚁</s></p>
+<p>同时，闪击射手拥有一个非常舒适的自动攻击的守护天使，非常适合跑图<s>捏蚂蚁</s></p>
 <p><strong>重要技能点：</strong></p>
 <ul>
 <li>
-<p>Guradian Angels：将剑盾转化为召唤数个天使，天使会自动攻击周围的怪物，有一定攻击次数限制</p>
+<p>Guradian Angels：将剑盾转化为召唤数个守护天使，守护天使会自动攻击周围的怪物，有一定攻击次数限制</p>
 </li>
 <li>
-<p>Arrow Hurricane：箭雨将额外射出2道箭流</p>
+<p>Windstorm：箭暴将额外射出1道箭流，每道箭流+2额外箭矢数量</p>
 </li>
 <li>
-<p>Elusive：在持续4秒没受到攻击后，箭雨将取消后坐力</p>
+<p>Arrow Hurricane：箭暴将额外射出2道箭流</p>
+</li>
+<li>
+<p>Elusive：在持续4秒没受到攻击后，箭暴将取消后坐力</p>
 </li>
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
-<p></p>
+<p>设陷者并不对自身的箭暴进行提升，而是提升炸弹箭的属性，并且能在炸弹箭的落点处放置地雷对目标再度造成伤害</p>
+<p>设陷者也可以将自身后跳能力转化为抓钩，这是一个更适合设陷者技能树的位移技能</p>
+<p>版本更新后，设陷者的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼</p>
+<p>设陷者的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出</p>
 </template>
 <template #tab2="{ value, isActive }">
-<p></p>
+<p>鹰眼射手是一个独具特色的分支，其独特的“专注”能力决定了它是一个上限极高的分支</p>
+<p>鹰眼的核心能力在于命中敌人时叠加专注，未命中时失去专注，专注维持的越高，输出也会越高</p>
+<p>其箭雨技能也将被转化为特殊的激光，没有后坐力的同时精准度更高，更容易维持专注</p>
+<p>鹰眼的终极技能可以在叠满专注时化身雷霆战机<s>飞行木桩</s>造成高额爆发<s>并牺牲持续输出能力</s></p>
 </template>
 </Tabs>
 <ul>
 <li>刺客</li>
 </ul>
-<Tabs id="276" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法客 </font>"}]'>
+<Tabs id="424" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
 <template #title0="{ value, isActive }"><font color=AA0000> Shadestepper 影步者 </font></template>
 <template #title1="{ value, isActive }"><font color=FF55FF> Trickster 幻术师 </font></template>
-<template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法客 </font></template>
+<template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法刺 </font></template>
 <template #tab0="{ value, isActive }">
-<p></p>
+<p>影步者的核心能力在于替换多重斩的背刺，通过破隐增伤+背刺增伤+印记增伤+重斩增伤的多段<strong>倍率叠加</strong>打出全游戏最高的单次爆发伤害</p>
+<p>但是由于MC本身的机制限制，在部分战斗(如TCC BOSS战)中背刺的判定很诡异，甚至无法触发</p>
+<p>游戏后期的影步者能轻松打出六位数甚至七位数的单次爆发输出</p>
 </template>
 <template #tab1="{ value, isActive }">
-<p></p>
+<p>幻术师的核心能力在于利用隐身召唤分身，再利用分身与本体共同输出以造成多次伤害</p>
+<p>分身也能在本体受伤时，通过消耗分身的方式抵消一定伤害</p>
+<p>幻术师还拥有独特的诱饵标记(类似于嘲讽)，可以主动吸引敌人仇恨</p>
+<p>幻术师还可以将自身的负面状态转移给敌人，并且还可以通过击杀被转移了诱饵标记的敌人来获取金血资源</p>
 </template>
 <template #tab2="{ value, isActive }">
-<p></p>
+<p>身法刺并不需要隐身的机制，其核心机制在于浮空并利用茉莉印记对下方的怪物造成伤害，同时利用浮空时造成伤害恢复能量进行续航，从而达成有效循环</p>
+<p>虽然茉莉印记是身法刺的核心机制来源，但身法刺的核心输出在多重斩上，不多多利用多重斩的话输出并不出色</p>
 </template>
 </Tabs>
 <ul>
 <li>萨满</li>
 </ul>
-<Tabs id="300" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 大祭司 </font>"},{"id":"<font color=\"red\"> Acolyte 血教士 </font>"}]'>
+<Tabs id="466" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 大祭司 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
 <template #title1="{ value, isActive }"><font color=16d108> Ritualist 大祭司 </font></template>
-<template #title2="{ value, isActive }"><font color="red"> Acolyte 血教士 </font></template>
+<template #title2="{ value, isActive }"><font color="red"> Acolyte 血教徒 </font></template>
 <template #tab0="{ value, isActive }">
-<p>召唤师使用图腾和召唤物来压制敌人</p>
+<p>召唤师使用图腾和召唤物来压制敌人，其技能树上的多个节点都是增强召唤物强度的。</p>
+<p>召唤师还可以同时召唤多个图腾，利用多个图腾的多倍召唤物打出更多输出。</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Puppet Master：图腾每3秒将会召唤1只Puppet协助你战斗</p>
+</li>
+<li>
+<p>Exploding Puppets：当Puppet的剩余3秒时，它们将高速冲向敌人并且自爆</p>
+</li>
+<li>
+<p>Bullwhip：使用Uproot将会给敌人打上标记，你的召唤物攻击标记敌人时会有增伤</p>
+</li>
+<li>
+<p>Crimson Effigy：使用Uproot击打图腾时，会召唤Effigy，它们拥有更高的攻击且会将敌人向图腾拉扯</p>
+</li>
+</ul>
 </template>
 <template #tab1="{ value, isActive }">
-<p></p>
+<p>圣祭祀拥有召唤圣假面的能力，每个面具都会降低自身某种属性来增强另一项(移速，伤害，防御)</p>
+<p>在每一个圣假面的加持之下，圣祭司的技能也会获得不同的加成，而面具能力会牺牲圣祭司的其中一个技能：uproot</p>
+<p>圣祭司的终极技能则允许其在特定条件下召唤觉醒假面一段时间，觉醒假面拥有所有圣假面的增益，但会清除其减益</p>
 </template>
 <template #tab2="{ value, isActive }">
+<p>血教徒是上手难度最高的技能分支之一，其核心机制为血池——通过图腾牺牲自己的生命值填充血池，再利用血池进行输出和治疗</p>
+<p>虽然血池的治疗在熟练掌握后是非常强大的续航手段，但是不熟练血池节奏的情况下，很有可能因为血池意外将自己抽干而失去续航能力</p>
+<p>血教徒亦可通过普攻标记敌人与敌人&quot;共命&quot;，自身血量下降的同时也会让敌人受到伤害</p>
+<p>血教徒的终极技能是一个极端的辅助技，能提供稀有的金血资源，但也会让自己变成木桩</p>
 <p></p>
 </template>
 </Tabs>
