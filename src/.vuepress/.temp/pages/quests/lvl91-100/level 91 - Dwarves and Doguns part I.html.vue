@@ -45,7 +45,7 @@
 <p>奖励</p>
 <ul>
 <li>3300000 经验</li>
-<li>1 Dogun Badge of Trust</li>
+<li>1 Dogun Badge of Trust(Quest Item)</li>
 <li>可以使用Molten Heights的电梯了</li>
 </ul>
 <div class="hint-container tip">
