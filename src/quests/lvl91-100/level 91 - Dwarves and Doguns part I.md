@@ -56,34 +56,32 @@ icon: route
 
 如果你实在看不懂。。。你可以把它当成一个涂色游戏就行了
 
-
-:::
-
 :::details 每面单独的表示
 @slidestart
 
 ## 第一面
-![](/assets/img/lvl91-2-1.jpg)
+![](/WynncraftCNguide/assets/img/lvl91-2-1.jpg)
 
 ---
 
 ## 第二面
-![](/assets/img/lvl91-2-2.jpg)
+![](/WynncraftCNguide/assets/img/lvl91-2-2.jpg)
 
 ---
 
 ## 第三面
-![](/assets/img/lvl91-2-3.jpg)
+![](/WynncraftCNguide/assets/img/lvl91-2-3.jpg)
 
 ---
 
 ## 第四面
-![](/assets/img/lvl91-2-4.jpg)
+![](/WynncraftCNguide/assets/img/lvl91-2-4.jpg)
 
 ---
 
 @slideend
 :::
+
 
 
 14.修理完机器后，返回基地，记得右键一下刚才出来隧道的黑色地板才可以进去
