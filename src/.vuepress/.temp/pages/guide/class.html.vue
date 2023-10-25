@@ -27,10 +27,20 @@
 <p></p>
 </template>
 <template #tab2="{ value, isActive }">
-<p>*待补充</p>
+<p>弓箭手拥有全游戏最大的攻击范围(废话)且拥有独特的后跳位移技能，自身技能中缺乏续航，但输出够高够暴力</p>
+<p>一般来说，弓箭手和前期敌人都是比谁先死，只要输出够高就能在被打死之前打死对手，当然，弓箭手的基础防御值偏低，遇到可能被秒杀的情况依旧要注意躲避。</p>
+<p>弓箭手的后期武器大多拥有不低的agi(敏捷)属性，提供闪避率从而提高自身一定的生存能力，但也有更极端的打法来打出更高的输出。</p>
+<p>弓箭手存在一定的上手难度，但胜在输出够高。</p>
+<p></p>
 </template>
 <template #tab3="{ value, isActive }">
-<p>*待补充</p>
+<p>刺客是一个独具特色的职业，拥有全游戏独一无二的隐身机制，但也受限于自身机制，被游戏策划卡死了上限。</p>
+<p>刺客的技能树设计的十分割裂，左线几乎全部围绕隐身后破隐背刺秒杀敌人而设计，中间则完全依赖于破隐召唤的分身，右线完全抛弃隐身的能力，通过在敌人头上“跳舞”打出不俗的输出。</p>
+<p>当前版本的刺客，对于新玩家来说是一个弱势角色，在缺乏续航能力的同时，相同坦度下输出不如战士，相同输出能力下生存环境不如弓箭手，前期和后期游玩体验都比较差，但因为有一把——</p>
+<p><em><strong>神话品质的，传说中的，万众瞩目的，公会战战唯一指定输出的，不祥的，数据完全不符合游戏内其他武器设计曲线的，总之就是非常超模的</strong></em></p>
+<p>终极武器存在，刺客的上限依旧不低。</p>
+<p><s>也就因此刺客的强度是断层的，此处必须说是游戏策划设计不合理——编者注</s></p>
+<p></p>
 </template>
 <template #tab4="{ value, isActive }">
 <p>与战士相反，萨满的舒适曲线反而是越来越低</p>
@@ -41,6 +51,131 @@
 </template>
 </Tabs>
 <p>对于每个职业，你都可以在技能树中体验到三种流派</p>
+<p>以下为各个职业流派的介绍</p>
+<ul>
+<li>战士</li>
+</ul>
+<Tabs id="123" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道家</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
+<template #title0="{ value, isActive }"><font color="red">Fallen 腐化者</font></template>
+<template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道家</font></template>
+<template #title2="{ value, isActive }"><font color=18c7f0> Paladin 圣骑士</font></template>
+<template #tab0="{ value, isActive }">
+<p>腐化者拥有战士分支中最高的输出，并且会在受伤时变得更加强大</p>
+<p>腐化者的机制为施放战吼进入腐化状态</p>
+<p>期间根据失去生命值提升额外攻击，并且失去所有恢复手段</p>
+<p>这意味着腐化者在拥有极高伤害的同时，也会有极高的风险</p>
+</template>
+<template #tab1="{ value, isActive }">
+<p></p>
+</template>
+<template #tab2="{ value, isActive }">
+<p></p>
+</template>
+</Tabs>
+<ul>
+<li>法师</li>
+</ul>
+<Tabs id="156" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
+<template #title0="{ value, isActive }"><font color=18c7f0> Riftwalker 时空行者</font></template>
+<template #title1="{ value, isActive }"><font color="grey"> Light Bender 圣光使者</font></template>
+<template #title2="{ value, isActive }"><font color="purple"> Arcanist 奥术法师</font></template>
+<template #tab0="{ value, isActive }">
+<p>随着战斗的进行，时空行者会扭曲时间，变得更加强大</p>
+<p>时空行者的主要机制是给敌人叠加Winded，同时自己的技能会根据Winded叠加伤害</p>
+<p><strong>说白了就是需要暖机</strong></p>
+<p>叠加Winded的方式有施放冰蛇/平A，同时陨石会根据Winded增加伤害</p>
+<p>在敌人没有Winded的情况下，时空行者的伤害不算很高</p>
+<p>但是在Winded叠满时，时空行者将会拥有非常可观的输出</p>
+<blockquote>
+<p>尽管大多数时候在你叠满Winded之前就已经把怪物解决了</p>
+</blockquote>
+<p><strong>重要能力点：</strong></p>
+<ul>
+<li>
+<p>Windsweeper：你的每次平A会给敌人叠加1层Winded</p>
+</li>
+<li>
+<p>Breathless：陨石会根据敌人已有的Winded造成额外伤害</p>
+</li>
+<li>
+<p>Gust：冰蛇会给敌人叠加1层Winded，同时造成更多伤害</p>
+</li>
+</ul>
+</template>
+<template #tab1="{ value, isActive }">
+<p></p>
+</template>
+<template #tab2="{ value, isActive }">
+<p></p>
+</template>
+</Tabs>
+<ul>
+<li>弓手</li>
+</ul>
+<Tabs id="220" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<template #title0="{ value, isActive }"><font color="orange"> Boltslinger 闪击射手</font></template>
+<template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
+<template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
+<template #tab0="{ value, isActive }">
+<p>闪击射手可以在近距离打出成吨的伤害</p>
+<p>闪击射手主要依赖箭雨进行输出，可以轻易地打出非常高的伤害</p>
+<p>其还具有速度加成，因此相当灵活</p>
+<p>需要注意的是，在没有点出Elusive之前，箭雨拥有非常大的后坐力，需要小心！</p>
+<p>同时，闪击射手拥有一个非常舒适的自动攻击的天使，非常适合跑图<s>捏蚂蚁</s></p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Guradian Angels：将剑盾转化为召唤数个天使，天使会自动攻击周围的怪物，有一定攻击次数限制</p>
+</li>
+<li>
+<p>Arrow Hurricane：箭雨将额外射出2道箭流</p>
+</li>
+<li>
+<p>Elusive：在持续4秒没受到攻击后，箭雨将取消后坐力</p>
+</li>
+</ul>
+</template>
+<template #tab1="{ value, isActive }">
+<p></p>
+</template>
+<template #tab2="{ value, isActive }">
+<p></p>
+</template>
+</Tabs>
+<ul>
+<li>刺客</li>
+</ul>
+<Tabs id="276" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法客 </font>"}]'>
+<template #title0="{ value, isActive }"><font color=AA0000> Shadestepper 影步者 </font></template>
+<template #title1="{ value, isActive }"><font color=FF55FF> Trickster 幻术师 </font></template>
+<template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法客 </font></template>
+<template #tab0="{ value, isActive }">
+<p></p>
+</template>
+<template #tab1="{ value, isActive }">
+<p></p>
+</template>
+<template #tab2="{ value, isActive }">
+<p></p>
+</template>
+</Tabs>
+<ul>
+<li>萨满</li>
+</ul>
+<Tabs id="300" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 大祭司 </font>"},{"id":"<font color=\"red\"> Acolyte 血教士 </font>"}]'>
+<template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
+<template #title1="{ value, isActive }"><font color=16d108> Ritualist 大祭司 </font></template>
+<template #title2="{ value, isActive }"><font color="red"> Acolyte 血教士 </font></template>
+<template #tab0="{ value, isActive }">
+<p>召唤师使用图腾和召唤物来压制敌人</p>
+</template>
+<template #tab1="{ value, isActive }">
+<p></p>
+</template>
+<template #tab2="{ value, isActive }">
+<p></p>
+</template>
+</Tabs>
 </div></template>
 
 
