@@ -103,7 +103,7 @@ icon: route
 
 奖励
 + 3300000 经验
-+ 1 Dogun Badge of Trust
++ 1 Dogun Badge of Trust(Quest Item)
 + 可以使用Molten Heights的电梯了
 
 
