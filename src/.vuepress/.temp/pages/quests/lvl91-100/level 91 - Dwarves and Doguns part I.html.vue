@@ -30,7 +30,7 @@
 <figure><img src="/assets/img/lvl91-2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>如果你实在看不懂。。。你可以把它当成一个涂色游戏就行了</p>
 <details class="hint-container details"><summary>每面单独的表示</summary>
-<Presentation id="presentation-82" code="eJzjUlZWeL5mzZMdDS/nLuJSjI7V0A+vzMtLLkpMK3H2Sy/NTEnVTywuTi0p1s/MTdfPKcuxNNQ10jXUyypI1+Ti0tXV5YIZsauHJCOMsBixo5MkI4wxjXg6ezZJRpggGQEAUaleeQ==" theme="auto"></Presentation></details>
+<Presentation id="presentation-82" code="eJzjUlZWeL5mzZMdDS/nLuJSjI7V0A+vzMtLLkpMK3H2Sy/NTEnVTywuTi0p1s/MTdfPKcuxNNQ10jXUyypI1+Ti0tXV5YIZsauHJCOMsBixo5MkI4wxjXg6ezZJRphAjAAAemRd3g==" theme="auto"></Presentation></details>
 </div>
 <p>14.修理完机器后，返回基地，记得右键一下刚才出来隧道的黑色地板才可以进去</p>
 <p>15.和Axelus对话</p>

@@ -438,18 +438,18 @@ Static增益选择时，数值并非固定
 
 | 名称               | 效果                                                                                                                         |
 |---------------------|-------------------------------------------------------------------------------------------|
-| Cleansing Greed     | 每次开启Flying Chest后，随机清除一个已有的诅咒                                                                              |
-| High Roller         | 获得2次最终奖励刷新机会(End Reward Reroll)                                                                                                            |
-| Materialism         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现                                  |
-| Orphion's Grace     | 增益拥有50%额外效果                                                                                                      |
-| Cleansing Ritual    | 每次完成挑战后，可以消费1个诅咒换取1个额外挑战轮数                                            |
-| Equilibrium         | 每次得到1个诅咒后，获得1个随机增益                                                                                         |
-| Inner Peace         | 诅咒效果折半                                                                                                      |
-| Backup Beat         | 每累计获得360s的时间后，增加一次信标刷新机会                                                                         |
-| Stasis              | 在信标选择阶段，计时器不会减少时间(持续上限5min)                                                                         |
-| Gambling Beast      | 每次挑战结束后，可以消费300s换取1次最终奖励刷新机会(End Reward Reroll)。时间花费每轮增加60s                                               |
-| Redemption          | 获得1次最终奖励献祭机会                                                                                                          |
-| Ultimate Sacrifice  | 获得1次最终奖励献祭机会以及2次最终奖励刷新机会；每当计时器减少2min时，随机清除一个已有增益，从任意途径获得时间延缓该倒计时       |
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启Flying Chest后，随机清除一个已有的诅咒                                                                              |
+| <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)                                                                                                            |
+| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现                                  |
+| <font color='5555FF'> **Orphion's Grace** </font>     | 增益拥有50%额外效果                                                                                                      |
+| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消费1个诅咒换取1个额外挑战轮数                                            |
+| <font color='AA00AA'> **Equilibrium** </font>         | 每次得到1个诅咒后，获得1个随机增益                                                                                         |
+| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半                                                                                                      |
+| <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会                                                                         |
+| <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)                                                                         |
+| <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，可以消费300s换取1次最终奖励刷新机会(End Reward Reroll)。消费成功后，下一次花费增加60s                                               |
+| <font color='FF5555'> **Redemption** </font>          | 获得1次最终奖励献祭机会                                                                                                          |
+| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次最终奖励献祭机会以及2次最终奖励刷新机会；每当计时器减少2min时，随机清除一个已有增益，从任意途径获得时间延缓该倒计时       |
 
 :::tip
 在完成`获得时间`的条件时
@@ -499,7 +499,11 @@ sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pu
 在确认开启后，你就不能进行任何操作了，包括rr和sac
 
 :::tip
+若下一局failed了，sac所继承的pulls会继续保留，直到成功结算为止
+
 sac所保存的pulls一样可以被下一局的sac一起继承
+
+
 :::
 
 ### 跑法策略
@@ -610,7 +614,7 @@ LR非常考验你的运营水平
 
 这两个任务组效果互斥，连携起来效果变差，尽量别三个一起拿 (但是其实可以Cleansing Ritual + Materialism)
 
-同时，以上任务组均可以搭配Equilibrium，形成非常强力的连招
+同时，Equilibrium在任何时候都是必拿，其出率极低，拿到之后可以完全改变游戏体验
 
 你只需要分配2~3个任务给提高游戏体验即可
 

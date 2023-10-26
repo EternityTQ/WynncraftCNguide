@@ -671,51 +671,51 @@
 </thead>
 <tbody>
 <tr>
-<td>Cleansing Greed</td>
+<td><font color='FFCC00'> <strong>Cleansing Greed</strong> </font></td>
 <td>每次开启Flying Chest后，随机清除一个已有的诅咒</td>
 </tr>
 <tr>
-<td>High Roller</td>
+<td><font color='FFCC00'> <strong>High Roller</strong> </font></td>
 <td>获得2次最终奖励刷新机会(End Reward Reroll)</td>
 </tr>
 <tr>
-<td>Materialism</td>
+<td><font color='FFCC00'> <strong>Materialism</strong> </font></td>
 <td>所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现</td>
 </tr>
 <tr>
-<td>Orphion's Grace</td>
+<td><font color='5555FF'> <strong>Orphion's Grace</strong> </font></td>
 <td>增益拥有50%额外效果</td>
 </tr>
 <tr>
-<td>Cleansing Ritual</td>
+<td><font color='AA00AA'> <strong>Cleansing Ritual</strong> </font></td>
 <td>每次完成挑战后，可以消费1个诅咒换取1个额外挑战轮数</td>
 </tr>
 <tr>
-<td>Equilibrium</td>
+<td><font color='AA00AA'> <strong>Equilibrium</strong> </font></td>
 <td>每次得到1个诅咒后，获得1个随机增益</td>
 </tr>
 <tr>
-<td>Inner Peace</td>
+<td><font color='AA00AA'> <strong>Inner Peace</strong> </font></td>
 <td>诅咒效果折半</td>
 </tr>
 <tr>
-<td>Backup Beat</td>
+<td><font color='00BB00'> <strong>Backup Beat</strong> </font></td>
 <td>每累计获得360s的时间后，增加一次信标刷新机会</td>
 </tr>
 <tr>
-<td>Stasis</td>
+<td><font color='00BB00'> <strong>Stasis</strong> </font></td>
 <td>在信标选择阶段，计时器不会减少时间(持续上限5min)</td>
 </tr>
 <tr>
-<td>Gambling Beast</td>
-<td>每次挑战结束后，可以消费300s换取1次最终奖励刷新机会(End Reward Reroll)。时间花费每轮增加60s</td>
+<td><font color='FF5555'> <strong>Gambling Beast</strong> </font></td>
+<td>每次挑战完成后，可以消费300s换取1次最终奖励刷新机会(End Reward Reroll)。消费成功后，下一次花费增加60s</td>
 </tr>
 <tr>
-<td>Redemption</td>
+<td><font color='FF5555'> <strong>Redemption</strong> </font></td>
 <td>获得1次最终奖励献祭机会</td>
 </tr>
 <tr>
-<td>Ultimate Sacrifice</td>
+<td><font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font></td>
 <td>获得1次最终奖励献祭机会以及2次最终奖励刷新机会；每当计时器减少2min时，随机清除一个已有增益，从任意途径获得时间延缓该倒计时</td>
 </tr>
 </tbody>
@@ -752,6 +752,7 @@
 <p>在确认开启后，你就不能进行任何操作了，包括rr和sac</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
+<p>若下一局failed了，sac所继承的pulls会继续保留，直到成功结算为止</p>
 <p>sac所保存的pulls一样可以被下一局的sac一起继承</p>
 </div>
 <h3 id="跑法策略" tabindex="-1"><a class="header-anchor" href="#跑法策略" aria-hidden="true">#</a> 跑法策略</h3>
@@ -830,7 +831,7 @@
 </li>
 </ul>
 <p>这两个任务组效果互斥，连携起来效果变差，尽量别三个一起拿 (但是其实可以Cleansing Ritual + Materialism)</p>
-<p>同时，以上任务组均可以搭配Equilibrium，形成非常强力的连招</p>
+<p>同时，Equilibrium在任何时候都是必拿，其出率极低，拿到之后可以完全改变游戏体验</p>
 <p>你只需要分配2~3个任务给提高游戏体验即可</p>
 <p>剩下的任务你可以选择分配给sac或rr来提高抽取神话的机会</p>
 <p><strong>关于Gambling Beast</strong>：Gambling Beast最好应该配合Stasis一起使用</p>

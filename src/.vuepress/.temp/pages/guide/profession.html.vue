@@ -302,116 +302,390 @@
 <p>数据来源：<a href="https://www.youtube.com/@Olinus10" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Olinus10<ExternalLinkIcon/></a></p>
 </blockquote>
 <h3 id="woodcutting" tabindex="-1"><a class="header-anchor" href="#woodcutting" aria-hidden="true">#</a> Woodcutting</h3>
-<ul>
-<li>Lv.1 NIVLA Forest <code v-pre>[-366,67,-1729]</code></li>
-<li>Lv.10 Detlas Suburbs <code v-pre>[335,67,-1580]</code></li>
-<li>Lv.20 Nemract Outskirts <code v-pre>[88,46,-2132]</code></li>
-<li>Lv.30 Bremminglar <code v-pre>[665,73,-2016]</code></li>
-<li>Lv.40 Nesaak Entrance <code v-pre>[85,68,-945]</code></li>
-<li>Lv.50 Dernel Mansion <code v-pre>[-941,23,-725]</code></li>
-<li>Lv.60 Dark Forest Border <code v-pre>[-1387,44,-5051]</code></li>
-<li>Lv.70 Forgery Grove <code v-pre>[-856,45,-4990]</code></li>
-<li>Lv.80 Thesead Entrance <code v-pre>[693,78,-5085]</code></li>
-<li>Lv.90 Lighthouse Mountain <code v-pre>[-1362,122,-3029]</code></li>
-<li>Lv.100 Kandon Mountain <code v-pre>[750,113,-4600]</code></li>
-<li>Lv.100 Wybel Island <code v-pre>[1296,66,-4693]</code></li>
-<li>Lv.110 Lutho Gate <code v-pre>[971,74,-628]</code></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>等级</th>
+<th>地点</th>
+<th>坐标</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lv.1</td>
+<td>NIVLA Forest</td>
+<td><code v-pre>[-366,67,-1729]</code></td>
+</tr>
+<tr>
+<td>Lv.10</td>
+<td>Detlas Suburbs</td>
+<td><code v-pre>[335,67,-1580]</code></td>
+</tr>
+<tr>
+<td>Lv.20</td>
+<td>Nemract Outskirts</td>
+<td><code v-pre>[88,46,-2132]</code></td>
+</tr>
+<tr>
+<td>Lv.30</td>
+<td>Bremminglar</td>
+<td><code v-pre>[665,73,-2016]</code></td>
+</tr>
+<tr>
+<td>Lv.40</td>
+<td>Nesaak Entrance</td>
+<td><code v-pre>[85,68,-945]</code></td>
+</tr>
+<tr>
+<td>Lv.50</td>
+<td>Dernel Mansion</td>
+<td><code v-pre>[-941,23,-725]</code></td>
+</tr>
+<tr>
+<td>Lv.60</td>
+<td>Dark Forest Border</td>
+<td><code v-pre>[-1387,44,-5051]</code></td>
+</tr>
+<tr>
+<td>Lv.70</td>
+<td>Forgery Grove</td>
+<td><code v-pre>[-856,45,-4990]</code></td>
+</tr>
+<tr>
+<td>Lv.80</td>
+<td>Thesead Entrance</td>
+<td><code v-pre>[693,78,-5085]</code></td>
+</tr>
+<tr>
+<td>Lv.90</td>
+<td>Lighthouse Mountain</td>
+<td><code v-pre>[-1362,122,-3029]</code></td>
+</tr>
+<tr>
+<td>Lv.100</td>
+<td>Kandon Mountain</td>
+<td><code v-pre>[750,113,-4600]</code></td>
+</tr>
+<tr>
+<td>Lv.100</td>
+<td>Wybel Island</td>
+<td><code v-pre>[1296,66,-4693]</code></td>
+</tr>
+<tr>
+<td>Lv.110</td>
+<td>Lutho Gate</td>
+<td><code v-pre>[971,74,-628]</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="farming" tabindex="-1"><a class="header-anchor" href="#farming" aria-hidden="true">#</a> Farming</h3>
-<ul>
-<li>Lv.1 Ragni Wheat Fields <code v-pre>[-776,67,-1736]</code></li>
-<li>Lv.10 Durum Isles <code v-pre>[541,35,-2956]</code></li>
-<li>Lv.20 Durum Isles <code v-pre>[500,35,-2838]</code></li>
-<li>Lv.30 Durum Isles <code v-pre>[385,35,-2836]</code></li>
-<li>Lv.40 Olux Farms <code v-pre>[-1630,51,-5428]</code></li>
-<li>Lv.50 Wormhole Farms <code v-pre>[-2068,53,-5462]</code></li>
-<li>Lv.50/60 Forgotten Burrows <code v-pre>[-2041,57,-5388]</code> (+50%XP,Quest Needed)</li>
-<li>Lv.60 Forgery Farms <code v-pre>[-724,44,-5014]</code></li>
-<li>Lv.70 Forgery Farms <code v-pre>[-724,44,-5014]</code></li>
-<li>Lv.80 Hobgoblin Flelds <code v-pre>[79,42,-4838]</code></li>
-<li>Lv.90 Lighthouse Farm <code v-pre>[-1378,123,-3013]</code></li>
-<li>Lv.100 Kandon Caverns <code v-pre>[850,40,-4423]</code></li>
-<li>Lv.110 Void Valley Upper <code v-pre>[1089,135,-1130] </code></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>等级</th>
+<th>地点</th>
+<th>坐标</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lv.1</td>
+<td>Ragni Wheat Fields</td>
+<td><code v-pre>[-776,67,-1736]</code></td>
+</tr>
+<tr>
+<td>Lv.10</td>
+<td>Durum Isles</td>
+<td><code v-pre>[541,35,-2956]</code></td>
+</tr>
+<tr>
+<td>Lv.20</td>
+<td>Durum Isles</td>
+<td><code v-pre>[500,35,-2838]</code></td>
+</tr>
+<tr>
+<td>Lv.30</td>
+<td>Durum Isles</td>
+<td><code v-pre>[385,35,-2836]</code></td>
+</tr>
+<tr>
+<td>Lv.40</td>
+<td>Olux Farms</td>
+<td><code v-pre>[-1630,51,-5428]</code></td>
+</tr>
+<tr>
+<td>Lv.50</td>
+<td>Wormhole Farms</td>
+<td><code v-pre>[-2068,53,-5462]</code></td>
+</tr>
+<tr>
+<td>Lv.50/60</td>
+<td>Forgotten Burrows</td>
+<td><code v-pre>[-2041,57,-5388]</code></td>
+</tr>
+<tr>
+<td>Lv.60</td>
+<td>Forgery Farms</td>
+<td><code v-pre>[-724,44,-5014]</code></td>
+</tr>
+<tr>
+<td>Lv.70</td>
+<td>Forgery Farms</td>
+<td><code v-pre>[-724,44,-5014]</code></td>
+</tr>
+<tr>
+<td>Lv.80</td>
+<td>Hobgoblin Fields</td>
+<td><code v-pre>[79,42,-4838]</code></td>
+</tr>
+<tr>
+<td>Lv.90</td>
+<td>Lighthouse Farm</td>
+<td><code v-pre>[-1378,123,-3013]</code></td>
+</tr>
+<tr>
+<td>Lv.100</td>
+<td>Kandon Caverns</td>
+<td><code v-pre>[850,40,-4423]</code></td>
+</tr>
+<tr>
+<td>Lv.110</td>
+<td>Void Valley Upper</td>
+<td><code v-pre>[1089,135,-1130]</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="mining" tabindex="-1"><a class="header-anchor" href="#mining" aria-hidden="true">#</a> Mining</h3>
-<ul>
-<li>Lv.1 Ragni Mine <code v-pre>[-572,69,-1556]</code></li>
-<li>Lv.10 Corrupted Mines <code v-pre>[786,86,-1242]</code></li>
-<li>Lv.20 Corrupted Mines <code v-pre>[685,89,-1217]</code></li>
-<li>Lv.30 Bandit Barracks <code v-pre>[1478,91,-2178]</code></li>
-<li>Lv.40 Nesaak Mountain Side <code v-pre>[260,89,-700]</code></li>
-<li>Lv.40 Karoc Quarry <code v-pre>[-1655,76,-4347]</code> (+50%XP,Quest Needed)</li>
-<li>Lv.50 Troms Silver Mine <code v-pre>[-620,83,-1009]</code></li>
-<li>Lv.60 Olux River Source <code v-pre>[-1444,48,-5367]</code></li>
-<li>Lv.70 Prison Caverns <code v-pre>[-790,108,-5628]</code></li>
-<li>Lv.80 Colossus Mines <code v-pre>[560,120,-4355]</code></li>
-<li>Lv.80/90 Maex Mine <code v-pre>[1535,61,-5339]</code> (+50%XP,Quest Needed)</li>
-<li>Lv.90 Molten Upper Mine <code v-pre>[1433,142,-5106]</code></li>
-<li>Lv.100 Sky Caverns <code v-pre>[872,34,-4775]</code></li>
-<li>Lv.100 Kandon Beda Cave <code v-pre>[850,40,-4423]</code></li>
-<li>Lv.110 Olmic Mine <code v-pre>[492,93,-525]</code></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>等级</th>
+<th>地点</th>
+<th>坐标</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lv.1</td>
+<td>Ragni Mine</td>
+<td><code v-pre>[-572,69,-1556]</code></td>
+</tr>
+<tr>
+<td>Lv.10</td>
+<td>Corrupted Mines</td>
+<td><code v-pre>[786,86,-1242]</code></td>
+</tr>
+<tr>
+<td>Lv.20</td>
+<td>Corrupted Mines</td>
+<td><code v-pre>[685,89,-1217]</code></td>
+</tr>
+<tr>
+<td>Lv.30</td>
+<td>Bandit Barracks</td>
+<td><code v-pre>[1478,91,-2178]</code></td>
+</tr>
+<tr>
+<td>Lv.40</td>
+<td>Nesaak Mountain Side</td>
+<td><code v-pre>[260,89,-700]</code></td>
+</tr>
+<tr>
+<td>Lv.40</td>
+<td>Karoc Quarry</td>
+<td><code v-pre>[-1655,76,-4347]</code></td>
+</tr>
+<tr>
+<td>Lv.50</td>
+<td>Troms Silver Mine</td>
+<td><code v-pre>[-620,83,-1009]</code></td>
+</tr>
+<tr>
+<td>Lv.60</td>
+<td>Olux River Source</td>
+<td><code v-pre>[-1444,48,-5367]</code></td>
+</tr>
+<tr>
+<td>Lv.70</td>
+<td>Prison Caverns</td>
+<td><code v-pre>[-790,108,-5628]</code></td>
+</tr>
+<tr>
+<td>Lv.80</td>
+<td>Colossus Mines</td>
+<td><code v-pre>[560,120,-4355]</code></td>
+</tr>
+<tr>
+<td>Lv.80/90</td>
+<td>Maex Mine</td>
+<td><code v-pre>[1535,61,-5339]</code></td>
+</tr>
+<tr>
+<td>Lv.90</td>
+<td>Molten Upper Mine</td>
+<td><code v-pre>[1433,142,-5106]</code></td>
+</tr>
+<tr>
+<td>Lv.100</td>
+<td>Sky Caverns</td>
+<td><code v-pre>[872,34,-4775]</code></td>
+</tr>
+<tr>
+<td>Lv.100</td>
+<td>Kandon Beda Cave</td>
+<td><code v-pre>[850,40,-4423]</code></td>
+</tr>
+<tr>
+<td>Lv.110</td>
+<td>Olmic Mine</td>
+<td><code v-pre>[492,93,-525]</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="fishing" tabindex="-1"><a class="header-anchor" href="#fishing" aria-hidden="true">#</a> Fishing</h3>
-<ul>
-<li>Lv.1 Ragni Pond <code v-pre>[-634,67,-1536]</code></li>
-<li>Lv.10 Wynn Plains River <code v-pre>[53,58,-1494]</code></li>
-<li>Lv.20 Saint’s Row Beach <code v-pre>[371,34,-2126]</code></li>
-<li>Lv.30 Desert River Source <code v-pre>[1182,154,-2248]</code></li>
-<li>Lv.40 Nodguj Island <code v-pre>[891,34,-3372]</code></li>
-<li>Lv.50 Iboju Waterfall <code v-pre>[-780,74,-724]</code></li>
-<li>Lv.50 Forgotten Burrows <code v-pre>[-2041,57,-5388]</code> (+50%XP,Quest Needed)</li>
-<li>Lv.60 Willow Pond <code v-pre>[-1303,51,-5194]</code></li>
-<li>Lv.70 Lake Gylia <code v-pre>[-207,29,-5204]</code></li>
-<li>Lv.80 Relos Coast <code v-pre>[-1860,37,-2191]</code></li>
-<li>Lv.90 Molten Heights Lake <code v-pre>[1435,139,-5091]</code></li>
-<li>Lv.90 Maex Mine <code v-pre>[1535,61,-5339]</code> (+50%XP,Quest Needed)</li>
-<li>Lv.100 Kandon Pond Lower <code v-pre>[689,88,-4605]</code></li>
-<li>Lv.100 Sky Falls <code v-pre>[1432,127,-4574]</code></li>
-<li>Lv.110 Toxic Hill Upper <code v-pre>[786,148,-983]</code></li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>等级</th>
+<th>地点</th>
+<th>坐标</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Lv.1</td>
+<td>Ragni Pond</td>
+<td><code v-pre>[-634,67,-1536]</code></td>
+</tr>
+<tr>
+<td>Lv.10</td>
+<td>Wynn Plains River</td>
+<td><code v-pre>[53,58,-1494]</code></td>
+</tr>
+<tr>
+<td>Lv.20</td>
+<td>Saint’s Row Beach</td>
+<td><code v-pre>[371,34,-2126]</code></td>
+</tr>
+<tr>
+<td>Lv.30</td>
+<td>Desert River Source</td>
+<td><code v-pre>[1182,154,-2248]</code></td>
+</tr>
+<tr>
+<td>Lv.40</td>
+<td>Nodguj Island</td>
+<td><code v-pre>[891,34,-3372]</code></td>
+</tr>
+<tr>
+<td>Lv.50</td>
+<td>Iboju Waterfall</td>
+<td><code v-pre>[-780,74,-724]</code></td>
+</tr>
+<tr>
+<td>Lv.50</td>
+<td>Forgotten Burrows</td>
+<td><code v-pre>[-2041,57,-5388]</code></td>
+</tr>
+<tr>
+<td>Lv.60</td>
+<td>Willow Pond</td>
+<td><code v-pre>[-1303,51,-5194]</code></td>
+</tr>
+<tr>
+<td>Lv.70</td>
+<td>Lake Gylia</td>
+<td><code v-pre>[-207,29,-5204]</code></td>
+</tr>
+<tr>
+<td>Lv.80</td>
+<td>Relos Coast</td>
+<td><code v-pre>[-1860,37,-2191]</code></td>
+</tr>
+<tr>
+<td>Lv.90</td>
+<td>Molten Heights Lake</td>
+<td><code v-pre>[1435,139,-5091]</code></td>
+</tr>
+<tr>
+<td>Lv.90</td>
+<td>Maex Mine</td>
+<td><code v-pre>[1535,61,-5339]</code></td>
+</tr>
+<tr>
+<td>Lv.100</td>
+<td>Kandon Pond Lower</td>
+<td><code v-pre>[689,88,-4605]</code></td>
+</tr>
+<tr>
+<td>Lv.110</td>
+<td>Toxic Hill Upper</td>
+<td><code v-pre>[786,148,-983]</code></td>
+</tr>
+</tbody>
+</table>
 <h3 id="tools" tabindex="-1"><a class="header-anchor" href="#tools" aria-hidden="true">#</a> Tools</h3>
-<ul>
-<li>
-<p>Tier 3: Decrepit Sewers &amp; Infested Pit<br>
-Cost: 1 Fragment</p>
-</li>
-<li>
-<p>Tier 4: Timelost Sanctum &amp; Underworld Crypt<br>
-Cost: 2 Fragment</p>
-</li>
-<li>
-<p>Tier 5: Sand-Swept Tomb<br>
-Cost: 3 Fragment +64e</p>
-</li>
-<li>
-<p>Tier 6: Ice Barrows<br>
-Cost: 4 Fragment + 128e</p>
-</li>
-<li>
-<p>Tier 7: Undergrowth Ruins<br>
-Cost: 5 Fragment + 256e</p>
-</li>
-<li>
-<p>Tier 8: Galleon's Graveyard &amp; CDS<br>
-Cost: 6 Fragment + 512e</p>
-</li>
-<li>
-<p>Tier 9: CIP &amp; CLS<br>
-Cost: 7 Fragment + 1024e</p>
-</li>
-<li>
-<p>Tier 10: CUC &amp; CSST<br>
-Cost: 8 Fragment + 2048e</p>
-</li>
-<li>
-<p>Tier 11: CIB &amp; CUR &amp; Fallen Factory<br>
-Cost: 9 Fragment + 4096e</p>
-</li>
-<li>
-<p>Tier 12: Eldritch Outlook<br>
-Cost: 9 Fragment + 4096e</p>
-</li>
-</ul>
+<table>
+<thead>
+<tr>
+<th>等级</th>
+<th>地点</th>
+<th>花费</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tier.3</td>
+<td>Decrepit Sewers</td>
+<td>1 Fragment</td>
+</tr>
+<tr>
+<td>Tier.4</td>
+<td>Timelost Sanctum</td>
+<td>2 Fragment</td>
+</tr>
+<tr>
+<td>Tier.5</td>
+<td>Sand-Swept Tomb</td>
+<td>3 Fragment +64e</td>
+</tr>
+<tr>
+<td>Tier.6</td>
+<td>Ice Barrows</td>
+<td>4 Fragment +128e</td>
+</tr>
+<tr>
+<td>Tier.7</td>
+<td>Undergrowth Ruins</td>
+<td>5 Fragment +256e</td>
+</tr>
+<tr>
+<td>Tier.8</td>
+<td>Galleon's Graveyard &amp; CDS</td>
+<td>6 Fragment +512e</td>
+</tr>
+<tr>
+<td>Tier.9</td>
+<td>CIP &amp; CLS</td>
+<td>7 Fragment +1024e</td>
+</tr>
+<tr>
+<td>Tier.10</td>
+<td>CUC &amp; CSST</td>
+<td>8 Fragment +2048e</td>
+</tr>
+<tr>
+<td>Tier.11</td>
+<td>CIB &amp; CUR &amp; Fallen Factory</td>
+<td>9 Fragment +4096e</td>
+</tr>
+<tr>
+<td>Tier.12</td>
+<td>Eldritch Outlook</td>
+<td>9 Fragment +4096e</td>
+</tr>
+</tbody>
+</table>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>本文作者:kotoko</p>

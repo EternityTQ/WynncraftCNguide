@@ -59,9 +59,9 @@
 <ul>
 <li>战士</li>
 </ul>
-<Tabs id="128" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道家</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
+<Tabs id="128" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
 <template #title0="{ value, isActive }"><font color="red">Fallen 腐化者</font></template>
-<template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道家</font></template>
+<template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道士</font></template>
 <template #title2="{ value, isActive }"><font color=18c7f0> Paladin 圣骑士</font></template>
 <template #tab0="{ value, isActive }">
 <p>腐化者拥有战士分支中最高的输出，并且会在受伤时变得更加强大</p>
@@ -102,7 +102,7 @@
 <p>Whiriwind Strike：上挑现在会将周围敌人与自己挑飞滞空</p>
 </li>
 <li>
-<p>Discombobulate：攻击怪物将会叠加5点Discombobulated，攻击该怪物会根据该debuff数值额外追加元素伤害</p>
+<p>Discombobulate：攻击怪物将会给怪物叠加Discombobulated，攻击该怪物会根据该debuff数值额外追加元素伤害</p>
 </li>
 </ul>
 </template>
@@ -241,9 +241,9 @@
 <ul>
 <li>萨满</li>
 </ul>
-<Tabs id="466" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 大祭司 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
+<Tabs id="466" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
-<template #title1="{ value, isActive }"><font color=16d108> Ritualist 大祭司 </font></template>
+<template #title1="{ value, isActive }"><font color=16d108> Ritualist 圣祭祀 </font></template>
 <template #title2="{ value, isActive }"><font color="red"> Acolyte 血教徒 </font></template>
 <template #tab0="{ value, isActive }">
 <p>召唤师使用图腾和召唤物来压制敌人，其技能树上的多个节点都是增强召唤物强度的。</p>

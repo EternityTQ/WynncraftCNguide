@@ -27,7 +27,7 @@
 <p>如果队伍中仅剩一名玩家存活，则会判定Raid失败。</p>
 <p>注意：每个raid均有自己的解锁条件，会在各个raid中单独说明。</p>
 <p>当前版本的wynncraft共有四个有着不同特色的raid：</p>
-<h2 id="nest-of-the-grootslangs-notg-异虫之穴" tabindex="-1"><a class="header-anchor" href="#nest-of-the-grootslangs-notg-异虫之穴" aria-hidden="true">#</a> Nest of the Grootslangs(Notg) 异虫之穴</h2>
+<h2 id="nest-of-the-grootslangs-异虫之穴" tabindex="-1"><a class="header-anchor" href="#nest-of-the-grootslangs-异虫之穴" aria-hidden="true">#</a> Nest of the Grootslangs 异虫之穴</h2>
 <p>名称：Nest of the Grootslangs<br>
 简称：NOTG<br>
 玩家等级限制：54<br>
@@ -269,7 +269,7 @@ Tcc是当前游戏流程内最难的raid之一</p>
 <h4 id="maze-1" tabindex="-1"><a class="header-anchor" href="#maze-1" aria-hidden="true">#</a> Maze</h4>
 <p>玩家会被传送至一个迷宫中心，周围共有四条路——红橙绿蓝。</p>
 <p>地图中心有一个翅膀，队伍中有一名玩家需要拾起翅膀，以上帝视角遍历整个迷宫，为队友找到终点。</p>
-<p>迷宫终点由紫色和白的粒子组成的圈进行标记，请确保您开启了粒子效果。</p>
+<p>迷宫终点由紫色和白色的粒子组成的圈进行标记，<strong>请确保您开启了粒子效果</strong>。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>处于上帝视角的玩家视为已死亡，请注意raid失败条件。</p>

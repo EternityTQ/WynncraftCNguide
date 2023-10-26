@@ -77,8 +77,6 @@ icon: route
 ## 第四面
 ![](/WynncraftCNguide/assets/img/lvl91-2-4.jpg)
 
----
-
 @slideend
 :::
 

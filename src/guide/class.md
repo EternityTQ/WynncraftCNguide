@@ -111,7 +111,7 @@ icon: hat-wizard
   
 + Ragnarokkr：提高战吼的持续时间，同时给周围友军施加20%的伤害增加buff
 
-@tab <font color="orange">Battle Monk 武道家</font>
+@tab <font color="orange">Battle Monk 武道士</font>
 武道士拥有游戏内独特的技能循环与操作机制，能轻松的在长线作战中维持持续输出能力，但有一定的上手难度
 
 其独特的技能机制允许武道士在有序操作下每第三个技能仅消耗1点能量，搭配斧踢(上挑蓝耗增加，伤害增加)可以在低蓝耗的技能循环中打出高输出
@@ -128,7 +128,7 @@ icon: hat-wizard
   
 + Whiriwind Strike：上挑现在会将周围敌人与自己挑飞滞空
   
-+ Discombobulate：攻击怪物将会叠加5点Discombobulated，攻击该怪物会根据该debuff数值额外追加元素伤害
++ Discombobulate：攻击怪物将会给怪物叠加Discombobulated，攻击该怪物会根据该debuff数值额外追加元素伤害
 
 @tab <font color=18c7f0> Paladin 圣骑士</font>
 圣骑士能达到比另外两条技能分支更高的基础抗性，这也意味着圣骑士拥有全游戏最高的基础抗性
@@ -289,7 +289,7 @@ icon: hat-wizard
 
 + Crimson Effigy：使用Uproot击打图腾时，会召唤Effigy，它们拥有更高的攻击且会将敌人向图腾拉扯
 
-@tab <font color=16d108> Ritualist 大祭司 </font>
+@tab <font color=16d108> Ritualist 圣祭祀 </font>
 圣祭祀拥有召唤圣假面的能力，每个面具都会降低自身某种属性来增强另一项(移速，伤害，防御)
 
 在每一个圣假面的加持之下，圣祭司的技能也会获得不同的加成，而面具能力会牺牲圣祭司的其中一个技能：uproot

@@ -1,7 +1,9 @@
 ---
 icon: bookmark
 ---
-
+:::warning
+这个界面有待更新！
+:::
 # Dwarves and Doguns Part IV (level 94)
 
 1 在Sanba的屋子[1509 45 -5339]二楼和Korzim对话
@@ -16,8 +18,12 @@ icon: bookmark
 
 6 入祭坛，看剧情
 
-7 进入garaheth的身体，用冰杖冰冻四个器官
+7 进入garaheth的身体，用`The Staff of Ture Ice`冰冻四个器官
+:::tip
+沿路一直走，就能看到第一个心脏
+:::
 
-6000000 经验
-20480 绿宝石
-进入Maex商店的权限
+奖励
++ 6000000 经验
++ 20480 绿宝石
++ 进入Maex商店的权限
