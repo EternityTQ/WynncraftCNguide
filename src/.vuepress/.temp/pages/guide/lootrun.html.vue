@@ -568,7 +568,7 @@
 <td>Persistent Champion</td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每次完成挑战都会获得一层 <code v-pre>增益效果</code></td>
-<td>-</td>
+<td>x15</td>
 </tr>
 <tr>
 <td>Patient Champion</td>
@@ -714,7 +714,7 @@
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Gambling Beast</strong> </font></td>
-<td>每次挑战完成后，可以消费300s换取1次最终奖励刷新机会(End Reward Reroll)。消费成功后，下一次花费增加60s</td>
+<td>每次挑战完成后，会强制扣除300s换取1次最终奖励刷新机会(End Reward Reroll)。每一轮结束后，下一轮花费增加60s</td>
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Redemption</strong> </font></td>

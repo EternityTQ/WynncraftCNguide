@@ -390,7 +390,7 @@ Static增益选择时，数值并非固定
 | Bad Omen              | Dynamic   | 在这次挑战后, 每个诅咒都会获得一层 `增益效果`                                           | x10        |
 | Midas Touch           | Dynamic   | 在这次挑战后, 每个增益都会获得一层 `增益效果`                                           | x8         |
 | Killstreak            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
-| Persistent Champion   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | -          |
+| Persistent Champion   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
 | Patient Champion      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
 | Parsimonious          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x12        |
 | Madman                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
@@ -454,7 +454,7 @@ Static增益选择时，数值并非固定
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半                                                                                                      |
 | <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会                                                                         |
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)                                                                         |
-| <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，可以消费300s换取1次最终奖励刷新机会(End Reward Reroll)。消费成功后，下一次花费增加60s                                               |
+| <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，会强制扣除300s换取1次最终奖励刷新机会(End Reward Reroll)。每一轮结束后，下一轮花费增加60s                                               |
 | <font color='FF5555'> **Redemption** </font>          | 获得1次最终奖励献祭机会                                                                                                          |
 | <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次最终奖励献祭机会以及2次最终奖励刷新机会；每当计时器减少2min时，随机清除一个已有增益，从任意途径获得时间延缓该倒计时       |
 

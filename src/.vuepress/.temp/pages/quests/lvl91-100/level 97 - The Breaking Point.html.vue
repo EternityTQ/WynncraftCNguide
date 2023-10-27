@@ -52,6 +52,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>只要有任意角色完成该任务，其他角色就可以直接解锁tcc</p>
+<p>这个水晶...其他存档其实根本不会用到，不需要另外买</p>
 </div>
 </div></template>
 

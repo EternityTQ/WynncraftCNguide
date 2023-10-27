@@ -45,6 +45,7 @@
 </div>
 <h2 id="成员权限" tabindex="-1"><a class="header-anchor" href="#成员权限" aria-hidden="true">#</a> 成员权限</h2>
 <p>公会中，一共拥有6种权限等级</p>
+<p>以下介绍均为默认内容，四星及以上的成员可以更改权限内容</p>
 <ul>
 <li>
 <p>Recruit<br>
@@ -81,12 +82,13 @@
 <figure><img src="/assets/img/guild2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>公会银行有两个等级的页面：Everyone及High Ranked</p>
 <p>Everyone等级的银行任何人都可以使用</p>
-<p>而High Ranked则需要三星及以上的权限才可以使用</p>
+<p>而High Ranked则需要指定权限等级以上才可以使用</p>
 <p>任何取/出操作都会有纪录，请注意</p>
 <p>需要注意的是，公会银行界面是点一下就会立即拿走/放进该格全部物品</p>
 <p>因此如果你希望只拿出一个物品，需要先全部取出，在背包内分离一个后，再将剩余物品重新放回银行内</p>
 <h2 id="公会战" tabindex="-1"><a class="header-anchor" href="#公会战" aria-hidden="true">#</a> 公会战</h2>
 <p>关于公会战的内容，由于笔者技艺不精，这里不再加以讲解，但是这是整个公会系统的核心所在(纯大便。。)</p>
+<p>公会战是老外公会的重要社交方式，俗话说不打不相识</p>
 <p>如果有兴趣，可以移步来自<strong>Tankofpacer</strong>大神的视频讲解</p>
 <p><a href="https://www.bilibili.com/video/BV1KD4y1Y7hH/" target="_blank" rel="noopener noreferrer">https://www.bilibili.com/video/BV1KD4y1Y7hH/<ExternalLinkIcon/></a></p>
 </div></template>
