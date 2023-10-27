@@ -326,7 +326,7 @@
 </tr>
 <tr>
 <td><font color = 00CCFF><strong>青色信标</strong></font></td>
-<td>下一个信标的效果+100%</td>
+<td>下一个信标的效果 <strong>+100%(200%)</strong></td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
@@ -377,7 +377,7 @@
 <tbody>
 <tr>
 <td><font color = "blue"><strong>蓝色信标</strong></font></td>
-<td>青色信标和Vibrant增益的是选数且每+100%为+1选数；选数上限为5</td>
+<td>选数上限为5；青信标为每100%选数+1</td>
 </tr>
 <tr>
 <td><font color = 00CCFF><strong>青色信标</strong></font></td>
