@@ -2,46 +2,46 @@
 title: Lootrun
 icon: wheelchair-move
 ---
-每周奖池 (2023.10.21)
+每周奖池 (2023.10.28)
 ::: tabs
 @tab SE
-+ ==Shiny== Guardian :star: Players Killed
-+ Hadal 
-+ Alkatraz 
-+ Gaia 
-+ Grimtrap 
-+ Freedom 
-+ Stratiformis 
-+ Simulator
++ **<font color=FFCC00> Shiny </font>** Immolation :star: Players Killed 
++ Archangel 
++ Boreal 
++ Olympic 
++ Toxoplasmosis 
++ Thrundacrack 
++ Insulator
 
 @tab Corkus
-+ ==Shiny== Divzer :star: Chests Opened
-+ Absolution 
++ **<font color=FFCC00> Shiny </font>** Galleon :star: Deaths
 + Nirvana 
-+ Grandmother 
-+ Stratiformis 
-+ Galleon 
-+ Singularity 
++ Quetzalcoatl 
++ Pure 
++ Gaia 
++ Warp 
 + Insulator 
 + Simulator
 
 @tab Sky Island
-+ ==Shiny== Hero :star: Wars Won
-+ Hadal 
-+ Absolution 
-+ Gaia 
++ **<font color=FFCC00> Shiny </font>** Monster :star: Raids Won
++ Archangel 
 + Cataclysm 
-+ Guardian 
-+ Thrundacrack
++ Monster 
++ Oblivion  
++ Warp 
++ Insulator 
++ Simulator
 
 @tab Molten Heights Hike
-+ ==Shiny== Lament :star: Deaths
-+ Warchief 
-+ Absolution 
-+ Convergence 
-+ Divzer 
-+ Toxoplasmosis 
-+ Insulator
++ **<font color=FFCC00> Shiny </font>** Olympic :star: Lootruns Completed
++ Lament 
++ Archangel 
++ Hero 
++ Singularity 
++ Idol 
++ Divzer
++ Simulator
 :::
 首先先解释一下，何谓lootrun?
 
@@ -379,7 +379,7 @@ Static为静态增益，该增益的数值在拿到瞬间就固定了
 | 名称                  | 种类 | 描述                                                                                                    | 最大层数 |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------------------------|------------|
 | <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 `增益效果`                | -          |
-| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x15        |
+| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x12        |
 | <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `增益效果`                                            | x15        |
 | <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `增益效果`                            | -          |
 | <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | -        |
@@ -390,11 +390,11 @@ Static为静态增益，该增益的数值在拿到瞬间就固定了
 | <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
 | <font color = FFCC00>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
 | <font color = "CCCCCC">**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
-| <font color = "CCCCCC">**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x12        |
+| <font color = "CCCCCC">**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x10        |
 | <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
-| <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个增益都会获得一层 `增益效果`                                    | x6         |
-| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `增益效果`                               | x15        |
-|<font color = "CCCCCC"> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `增益效果`                    | x15        |
+| <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个增益都会获得一层 `增益效果`                                    | x5        |
+| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `增益效果`                               | x12        |
+|<font color = "CCCCCC"> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `增益效果`                    | x10        |
 
 增益效果如下列所示
 + 生命上限

@@ -1,4 +1,4 @@
-<template><div><p>每周奖池 (2023.10.21)</p>
+<template><div><p>每周奖池 (2023.10.28)</p>
 <Tabs id="3" :data='[{"id":"SE"},{"id":"Corkus"},{"id":"Sky Island"},{"id":"Molten Heights Hike"}]'>
 <template #title0="{ value, isActive }">SE</template>
 <template #title1="{ value, isActive }">Corkus</template>
@@ -6,49 +6,49 @@
 <template #title3="{ value, isActive }">Molten Heights Hike</template>
 <template #tab0="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Guardian ⭐ Players Killed</li>
-<li>Hadal</li>
-<li>Alkatraz</li>
-<li>Gaia</li>
-<li>Grimtrap</li>
-<li>Freedom</li>
-<li>Stratiformis</li>
-<li>Simulator</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Immolation ⭐ Players Killed</li>
+<li>Archangel</li>
+<li>Boreal</li>
+<li>Olympic</li>
+<li>Toxoplasmosis</li>
+<li>Thrundacrack</li>
+<li>Insulator</li>
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Divzer ⭐ Chests Opened</li>
-<li>Absolution</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Galleon ⭐ Deaths</li>
 <li>Nirvana</li>
-<li>Grandmother</li>
-<li>Stratiformis</li>
-<li>Galleon</li>
-<li>Singularity</li>
+<li>Quetzalcoatl</li>
+<li>Pure</li>
+<li>Gaia</li>
+<li>Warp</li>
 <li>Insulator</li>
 <li>Simulator</li>
 </ul>
 </template>
 <template #tab2="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Hero ⭐ Wars Won</li>
-<li>Hadal</li>
-<li>Absolution</li>
-<li>Gaia</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Monster ⭐ Raids Won</li>
+<li>Archangel</li>
 <li>Cataclysm</li>
-<li>Guardian</li>
-<li>Thrundacrack</li>
+<li>Monster</li>
+<li>Oblivion</li>
+<li>Warp</li>
+<li>Insulator</li>
+<li>Simulator</li>
 </ul>
 </template>
 <template #tab3="{ value, isActive }">
 <ul>
-<li><mark>Shiny</mark> Lament ⭐ Deaths</li>
-<li>Warchief</li>
-<li>Absolution</li>
-<li>Convergence</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Olympic ⭐ Lootruns Completed</li>
+<li>Lament</li>
+<li>Archangel</li>
+<li>Hero</li>
+<li>Singularity</li>
+<li>Idol</li>
 <li>Divzer</li>
-<li>Toxoplasmosis</li>
-<li>Insulator</li>
+<li>Simulator</li>
 </ul>
 </template>
 </Tabs>
@@ -510,7 +510,7 @@
 <td><font color = FFAA00><strong>Picky Looter</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后，每当你见到一个黄色信标，获得一层 <code v-pre>增益效果</code></td>
-<td>x15</td>
+<td>x12</td>
 </tr>
 <tr>
 <td><font color = FFAA00><strong>Heavensent</strong></font></td>
@@ -576,7 +576,7 @@
 <td><font color = "CCCCCC"><strong>Parsimonious</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每共计见到4个物品都会获得一层 <code v-pre>增益效果</code></td>
-<td>x12</td>
+<td>x10</td>
 </tr>
 <tr>
 <td><font color = FF55FF><strong>Madman</strong></font></td>
@@ -588,19 +588,19 @@
 <td><font color = 5555FF><strong>Lightbringer</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，你拥有的每一个增益都会获得一层 <code v-pre>增益效果</code></td>
-<td>x6</td>
+<td>x5</td>
 </tr>
 <tr>
 <td><font color = FF5555><strong>Mob Slaughter</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每共计击杀10只怪物都会获得一层 <code v-pre>增益效果</code></td>
-<td>x15</td>
+<td>x12</td>
 </tr>
 <tr>
 <td><font color = "CCCCCC"> <strong>Retrograde Champion</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每完成一次挑战都会获得一层 <code v-pre>增益效果</code></td>
-<td>x15</td>
+<td>x10</td>
 </tr>
 </tbody>
 </table>
