@@ -267,6 +267,12 @@
 <p>只有在成功完成4轮挑战后，整局lootrun才算成功</p>
 <p>在此之前若你失败过多次或找NPC直接结算，都会直接判Lootrun Failed且不会有任何奖励</p>
 </div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>在lr期间，你不能跟除了铁匠、鉴定商、lr大师以外的npc交互</p>
+<p>同时，你也无法骑马，只能通过正常跑步进行跑步</p>
+<p>这意味着，你唯一存放身上物品的方式是通过使用champion的宠物运送功能</p>
+</div>
 <div class="hint-container danger">
 <p class="hint-container-title">关于游玩区域限制</p>
 <p>每个lootrun地区都有限制一定游玩区域</p>
