@@ -299,7 +299,7 @@
 <p>每轮挑战都会给你随机分配当前信标选数的信标，并且信标不会重复</p>
 <p>对于每个信标，在没有彩虹信标且满级的情况下，有10%的概率升级为Vibrant信标</p>
 <p>Vibrant信标拥有原信标的双倍效果</p>
-<p>基础信标效果如下表所示</p>
+<p>基础信标效果如下表所示(括号内的数值为Vibrant数值)</p>
 <table>
 <thead>
 <tr>
@@ -310,57 +310,57 @@
 </thead>
 <tbody>
 <tr>
-<td>蓝色信标</td>
-<td>从<strong>3</strong>个增益效果中选择1个</td>
+<td><font color = "blue"><strong>蓝色信标</strong></font></td>
+<td>从 <strong>3(4)</strong> 个增益效果中选择1个</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
-<td>紫色信标</td>
-<td>获得<strong>1</strong>个随机诅咒，同时最终奖励抽取物品数+<strong>1</strong></td>
+<td><font color = "purple"><strong>紫色信标</strong></font></td>
+<td>获得 <strong>1(2)</strong> 个随机诅咒，同时最终奖励抽取物品数 <strong>+1(2)</strong></td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
-<td>黄色信标</td>
-<td>生成<strong>1</strong>个Flying Chest</td>
+<td><font color = FFCC00><strong>黄色信标</strong></font></td>
+<td>生成 <strong>1(2)</strong> 个Flying Chest</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
-<td>青色信标</td>
+<td><font color = 00CCFF><strong>青色信标</strong></font></td>
 <td>下一个信标的效果+100%</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
-<td>橙色信标</td>
-<td>在接下来的<strong>5</strong>轮挑战中，信标选数+1</td>
+<td><font color = "orange"><strong>橙色信标</strong></font></td>
+<td>在接下来的 <strong>5(10)</strong> 轮挑战中，信标选数+1</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
-<td>绿色信标</td>
-<td>获得<strong>120s</strong>的时间，且本轮怪物不会增加属性</td>
+<td><font color = 00BB00><strong>绿色信标</strong></font></td>
+<td>获得 <strong>120s(240s)</strong> 的时间，且本轮怪物不会增加属性</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
-<td>暗灰色信标</td>
-<td>获得<strong>3</strong>个随机诅咒，同时最终奖励抽取物品数+<strong>3</strong></td>
+<td><font color = "555555"><strong>暗灰色信标</strong></font></td>
+<td>获得 <strong>3(4)</strong> 个随机诅咒，同时最终奖励抽取物品数 <strong>+3(4)</strong></td>
 <td style="text-align:center">1</td>
 </tr>
 <tr>
-<td>白色信标</td>
-<td>挑战轮数+<strong>5</strong></td>
+<td><font color = "CCCCCC"><strong>白色信标</strong></font></td>
+<td>挑战轮数 <strong>+5(10)</strong></td>
 <td style="text-align:center">1</td>
 </tr>
 <tr>
-<td>灰色信标</td>
-<td>从<strong>3</strong>个任务中选择1个接取</td>
+<td><font color = "grey"><strong>灰色信标</strong></font></td>
+<td>从 <strong>3(4)</strong> 个任务中选择1个接取</td>
 <td style="text-align:center">3</td>
 </tr>
 <tr>
-<td>红色信标</td>
-<td>挑战轮数+<strong>2</strong>，且<strong>2</strong>轮内不会有时间奖励</td>
+<td><font color = "red"><strong>红色信标</strong></font></td>
+<td>挑战轮数 <strong>+2(4)</strong>，且 <strong>2(4)</strong> 轮内不会有时间奖励</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>
-<td>彩虹信标</td>
+<td><font color = FF66FF><strong>彩虹信标</strong></font></td>
 <td>本次lootrun中出现的信标均升级为Vibrant</td>
 <td style="text-align:center">1</td>
 </tr>
@@ -376,27 +376,27 @@
 </thead>
 <tbody>
 <tr>
-<td>蓝色信标</td>
+<td><font color = "blue"><strong>蓝色信标</strong></font></td>
 <td>青色信标和Vibrant增益的是选数且每+100%为+1选数；选数上限为5</td>
 </tr>
 <tr>
-<td>青色信标</td>
+<td><font color = 00CCFF><strong>青色信标</strong></font></td>
 <td>只会连续出现1次；死亡会导致已持有的青色信标状态清空</td>
 </tr>
 <tr>
-<td>橙色信标</td>
+<td><font color = "orange"><strong>橙色信标</strong></font></td>
 <td>青色信标和Vibrant增益的是挑战轮数</td>
 </tr>
 <tr>
-<td>绿色信标</td>
+<td><font color = 00BB00><strong>绿色信标</strong></font></td>
 <td>只会连续出现1次；青信标会增益<code v-pre>怪物不加属性</code>的轮次数而Vibrant不会</td>
 </tr>
 <tr>
-<td>灰色信标</td>
-<td>和蓝色信标大致相同但青信标为选数翻倍；第5轮开始出现；第29轮后消失；任务进行时不会出现</td>
+<td><font color = "grey"><strong>灰色信标</strong></font></td>
+<td>青信标会使其选数翻倍；第5轮开始出现；第29轮后消失；任务进行时不会出现</td>
 </tr>
 <tr>
-<td>红色信标</td>
+<td><font color = "red"><strong>红色信标</strong></font></td>
 <td>只会连续出现1次；给予的不加时间的轮次从下一轮开始算起</td>
 </tr>
 </tbody>
@@ -490,10 +490,6 @@
 <p>进行到一定轮次时，不会出现Dynamic增益</p>
 </div>
 <p>Static为静态增益，该增益的数值在拿到瞬间就固定了</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>Static增益选择时，数值并非固定</p>
-</div>
 <table>
 <thead>
 <tr>
@@ -505,103 +501,103 @@
 </thead>
 <tbody>
 <tr>
-<td>Persnickety</td>
+<td><font color = FFAA00><strong>Persnickety</strong></font></td>
 <td>Dynamic</td>
 <td>当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 <code v-pre>增益效果</code></td>
 <td>-</td>
 </tr>
 <tr>
-<td>Picky Looter</td>
+<td><font color = FFAA00><strong>Picky Looter</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后，每当你见到一个黄色信标，获得一层 <code v-pre>增益效果</code></td>
 <td>x15</td>
 </tr>
 <tr>
-<td>Heavensent</td>
+<td><font color = FFAA00><strong>Heavensent</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每当你见到一个信标，获得一层 <code v-pre>增益效果</code></td>
 <td>x15</td>
 </tr>
 <tr>
-<td>Slowrunner</td>
+<td><font color = 00BB00><strong>Slowrunner</strong></font></td>
 <td>Dynamic</td>
 <td>当计时器少于6min时，获得 <code v-pre>增益效果</code></td>
 <td>-</td>
 </tr>
 <tr>
-<td>Clockworker</td>
+<td><font color = 00BB00><strong>Clockworker</strong></font></td>
 <td>Dynamic</td>
 <td>计时器剩余的每一分钟都会获得一层 <code v-pre>增益效果</code></td>
 <td>-</td>
 </tr>
 <tr>
-<td>Looter</td>
+<td><font color = FFCC00><strong>Looter</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每从箱子里见到4个物品都会获得一层 <code v-pre>增益效果</code></td>
 <td>x15</td>
 </tr>
 <tr>
-<td>Serendipity</td>
+<td><font color = FFCC00><strong>Serendipity</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每次开启箱子都会获得一层 <code v-pre>增益效果</code></td>
 <td>x15</td>
 </tr>
 <tr>
-<td>Bad Omen</td>
+<td><font color = FF55FF><strong>Bad Omen</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每个诅咒都会获得一层 <code v-pre>增益效果</code></td>
 <td>x10</td>
 </tr>
 <tr>
-<td>Midas Touch</td>
+<td><font color = 5555FF><strong>Midas Touch</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每个增益都会获得一层 <code v-pre>增益效果</code></td>
 <td>x8</td>
 </tr>
 <tr>
-<td>Killstreak</td>
+<td><font color = FF5555><strong>Killstreak</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 <code v-pre>增益效果</code>，持续时间在每次击杀怪物后都会重置至60s</td>
 <td>x100</td>
 </tr>
 <tr>
-<td>Persistent Champion</td>
+<td><font color = FFCC00><strong>Persistent Champion</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后, 每次完成挑战都会获得一层 <code v-pre>增益效果</code></td>
 <td>x15</td>
 </tr>
 <tr>
-<td>Patient Champion</td>
+<td><font color = "CCCCCC"><strong>Patient Champion</strong></font></td>
 <td>Dynamic</td>
 <td>当你总共完成了5个挑战后，获得 <code v-pre>增益效果</code></td>
 <td>-</td>
 </tr>
 <tr>
-<td>Parsimonious</td>
+<td><font color = "CCCCCC"><strong>Parsimonious</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每共计见到4个物品都会获得一层 <code v-pre>增益效果</code></td>
 <td>x12</td>
 </tr>
 <tr>
-<td>Madman</td>
+<td><font color = FF55FF><strong>Madman</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，你拥有的每一个诅咒都会获得一层 <code v-pre>增益效果</code></td>
 <td>x8</td>
 </tr>
 <tr>
-<td>Lightbringer</td>
+<td><font color = 5555FF><strong>Lightbringer</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，你拥有的每一个增益都会获得一层 <code v-pre>增益效果</code></td>
 <td>x6</td>
 </tr>
 <tr>
-<td>Mob Slaughter</td>
+<td><font color = FF5555><strong>Mob Slaughter</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每共计击杀10只怪物都会获得一层 <code v-pre>增益效果</code></td>
 <td>x15</td>
 </tr>
 <tr>
-<td>Retrograde Champion</td>
+<td><font color = "CCCCCC"> <strong>Retrograde Champion</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每完成一次挑战都会获得一层 <code v-pre>增益效果</code></td>
 <td>x15</td>
@@ -626,9 +622,10 @@
 </ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>增益效果的数值也和增益种类相关</p>
+<p>增益效果的数值也和增益名称相关</p>
 <p>例如<code v-pre>Bad Omen</code>目前是最高级的增益，对于同种增益效果来说，数值较高</p>
 <p>而像<code v-pre>Mob Slaughter</code>是比较低级的增益，数值较低</p>
+<p>同时，就算是同一个增益名称，其增益效果的数值也非固定</p>
 </div>
 <p>其中，部分增益种类有一些需要注意的特性：</p>
 <table>
@@ -640,23 +637,23 @@
 </thead>
 <tbody>
 <tr>
-<td>Killstreak</td>
+<td><font color = FF5555><strong>Killstreak</strong></font></td>
 <td>退出重登会直接清除所有层数</td>
 </tr>
 <tr>
-<td>Bad Omen</td>
+<td><font color = FF55FF><strong>Bad Omen</strong></font></td>
 <td>消除诅咒同样会导致叠加层数减小</td>
 </tr>
 <tr>
-<td>Midas Touch</td>
+<td><font color = 5555FF><strong>Midas Touch</strong></font></td>
 <td>消除增益同样会导致叠加层数减小</td>
 </tr>
 <tr>
-<td>Clockworker</td>
+<td><font color = 00BB00><strong>Clockworker</strong></font></td>
 <td>游戏内标有上限，实际上没有上限</td>
 </tr>
 <tr>
-<td>Picky Looter</td>
+<td><font color = FFAA00><strong>Picky Looter</strong></font></td>
 <td>只看真·黄信标，不看Materialism带来的附加黄信标效果</td>
 </tr>
 </tbody>

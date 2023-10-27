@@ -267,32 +267,32 @@ T3-T4箱子均在洞穴内，你可以在任务书上轻松找到洞穴的位置
 
 Vibrant信标拥有原信标的双倍效果
 
-基础信标效果如下表所示
+基础信标效果如下表所示(括号内的数值为Vibrant数值)
 
 | 信标名称 | 效果 | 最大获取上限 |
 | --- | --- | :---: |
-| 蓝色信标 | 从**3**个增益效果中选择1个 | 无上限 |
-| 紫色信标 | 获得**1**个随机诅咒，同时最终奖励抽取物品数+**1** | 无上限 |
-| 黄色信标 | 生成**1**个Flying Chest | 无上限 |
-| 青色信标 | 下一个信标的效果+100% | 无上限 |
-| 橙色信标 | 在接下来的**5**轮挑战中，信标选数+1 | 无上限 |
-| 绿色信标 | 获得**120s**的时间，且本轮怪物不会增加属性 | 无上限 |
-| 暗灰色信标 | 获得**3**个随机诅咒，同时最终奖励抽取物品数+**3** | 1 |
-| 白色信标 | 挑战轮数+**5** | 1 |
-| 灰色信标 | 从**3**个任务中选择1个接取 | 3 |
-| 红色信标 | 挑战轮数+**2**，且**2**轮内不会有时间奖励 | 无上限 |
-| 彩虹信标 | 本次lootrun中出现的信标均升级为Vibrant | 1 |
+| <font color = "blue">**蓝色信标**</font> | 从 **3(4)** 个增益效果中选择1个 | 无上限 |
+| <font color = "purple">**紫色信标**</font> | 获得 **1(2)** 个随机诅咒，同时最终奖励抽取物品数 **+1(2)** | 无上限 |
+| <font color = FFCC00>**黄色信标**</font> | 生成 **1(2)** 个Flying Chest | 无上限 |
+| <font color = 00CCFF>**青色信标**</font> | 下一个信标的效果+100% | 无上限 |
+| <font color = "orange">**橙色信标**</font> | 在接下来的 **5(10)** 轮挑战中，信标选数+1 | 无上限 |
+| <font color = 00BB00>**绿色信标**</font> | 获得 **120s(240s)** 的时间，且本轮怪物不会增加属性 | 无上限 |
+| <font color = "555555">**暗灰色信标**</font> | 获得 **3(4)** 个随机诅咒，同时最终奖励抽取物品数 **+3(4)** | 1 |
+| <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+5(10)** | 1 |
+| <font color = "grey">**灰色信标**</font> | 从 **3(4)** 个任务中选择1个接取 | 3 |
+| <font color = "red">**红色信标**</font> | 挑战轮数 **+2(4)**，且 **2(4)** 轮内不会有时间奖励 | 无上限 |
+| <font color = FF66FF>**彩虹信标**</font> | 本次lootrun中出现的信标均升级为Vibrant | 1 |
 
 部分信标有一点需要注意的特性
 
 | 信标名称 | 特性 |
 | --- | --- |
-| 蓝色信标 | 青色信标和Vibrant增益的是选数且每+100%为+1选数；选数上限为5 |
-| 青色信标 | 只会连续出现1次；死亡会导致已持有的青色信标状态清空 |
-| 橙色信标 | 青色信标和Vibrant增益的是挑战轮数 |
-| 绿色信标 | 只会连续出现1次；青信标会增益`怪物不加属性`的轮次数而Vibrant不会 |
-| 灰色信标 | 和蓝色信标大致相同但青信标为选数翻倍；第5轮开始出现；第29轮后消失；任务进行时不会出现 |
-| 红色信标 | 只会连续出现1次；给予的不加时间的轮次从下一轮开始算起 |
+| <font color = "blue">**蓝色信标**</font> | 青色信标和Vibrant增益的是选数且每+100%为+1选数；选数上限为5 |
+| <font color = 00CCFF>**青色信标**</font> | 只会连续出现1次；死亡会导致已持有的青色信标状态清空 |
+| <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant增益的是挑战轮数 |
+| <font color = 00BB00>**绿色信标**</font> | 只会连续出现1次；青信标会增益`怪物不加属性`的轮次数而Vibrant不会 |
+| <font color = "grey">**灰色信标**</font> | 青信标会使其选数翻倍；第5轮开始出现；第29轮后消失；任务进行时不会出现 |
+| <font color = "red">**红色信标**</font> | 只会连续出现1次；给予的不加时间的轮次从下一轮开始算起 |
 
 :::warning
 对于有上限的信标，当你走进挑战时，就已经计入总数了
@@ -373,30 +373,28 @@ Vibrant信标拥有原信标的双倍效果
 
 Static为静态增益，该增益的数值在拿到瞬间就固定了
 
-:::tip
-Static增益选择时，数值并非固定
-:::
+
 
 
 | 名称                  | 种类 | 描述                                                                                                    | 最大层数 |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------------------------|------------|
-| Persnickety           | Dynamic   | 当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 `增益效果`                | -          |
-| Picky Looter          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x15        |
-| Heavensent            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `增益效果`                                            | x15        |
-| Slowrunner            | Dynamic   | 当计时器少于6min时，获得 `增益效果`                            | -          |
-| Clockworker           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | -        |
-| Looter                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `增益效果`                      | x15        |
-| Serendipity           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `增益效果`                                          | x15        |
-| Bad Omen              | Dynamic   | 在这次挑战后, 每个诅咒都会获得一层 `增益效果`                                           | x10        |
-| Midas Touch           | Dynamic   | 在这次挑战后, 每个增益都会获得一层 `增益效果`                                           | x8         |
-| Killstreak            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
-| Persistent Champion   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
-| Patient Champion      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
-| Parsimonious          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x12        |
-| Madman                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
-| Lightbringer          | Static    | 截止这次挑战前，你拥有的每一个增益都会获得一层 `增益效果`                                    | x6         |
-| Mob Slaughter         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `增益效果`                               | x15        |
-| Retrograde Champion   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `增益效果`                    | x15        |
+| <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 `增益效果`                | -          |
+| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x15        |
+| <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `增益效果`                                            | x15        |
+| <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `增益效果`                            | -          |
+| <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | -        |
+| <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `增益效果`                      | x15        |
+| <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `增益效果`                                          | x15        |
+| <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每个诅咒都会获得一层 `增益效果`                                           | x10        |
+| <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每个增益都会获得一层 `增益效果`                                           | x8         |
+| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
+| <font color = FFCC00>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
+| <font color = "CCCCCC">**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
+| <font color = "CCCCCC">**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x12        |
+| <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
+| <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个增益都会获得一层 `增益效果`                                    | x6         |
+| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `增益效果`                               | x15        |
+|<font color = "CCCCCC"> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `增益效果`                    | x15        |
 
 增益效果如下列所示
 + 生命上限
@@ -414,21 +412,23 @@ Static增益选择时，数值并非固定
 + 生命窃取
 
 :::tip
-增益效果的数值也和增益种类相关
+增益效果的数值也和增益名称相关
 
 例如`Bad Omen`目前是最高级的增益，对于同种增益效果来说，数值较高
 
 而像`Mob Slaughter`是比较低级的增益，数值较低
+
+同时，就算是同一个增益名称，其增益效果的数值也非固定
 :::
 
 其中，部分增益种类有一些需要注意的特性：
 | 名称 | 特性 |
 | --- | --- |
-| Killstreak | 退出重登会直接清除所有层数 |
-| Bad Omen | 消除诅咒同样会导致叠加层数减小 |
-| Midas Touch | 消除增益同样会导致叠加层数减小 |
-| Clockworker | 游戏内标有上限，实际上没有上限 |
-| Picky Looter | 只看真·黄信标，不看Materialism带来的附加黄信标效果 |
+| <font color = FF5555>**Killstreak**</font> | 退出重登会直接清除所有层数 |
+| <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小 |
+| <font color = 5555FF>**Midas Touch**</font> | 消除增益同样会导致叠加层数减小 |
+| <font color = 00BB00>**Clockworker**</font>  | 游戏内标有上限，实际上没有上限 |
+| <font color = FFAA00>**Picky Looter**</font> | 只看真·黄信标，不看Materialism带来的附加黄信标效果 |
 
 ### 任务
 在2.0.4版本中，新增加了任务系统
