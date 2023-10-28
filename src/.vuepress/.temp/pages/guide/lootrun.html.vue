@@ -510,7 +510,7 @@
 <td><font color = FFAA00><strong>Picky Looter</strong></font></td>
 <td>Dynamic</td>
 <td>在这次挑战后，每当你见到一个黄色信标，获得一层 <code v-pre>增益效果</code></td>
-<td>x12</td>
+<td>x15</td>
 </tr>
 <tr>
 <td><font color = FFAA00><strong>Heavensent</strong></font></td>

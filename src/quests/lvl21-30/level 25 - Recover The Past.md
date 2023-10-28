@@ -15,11 +15,11 @@ icon: exclamation
 
 2.和*sailor Caid*`[-45 65 -1217]`对话
 
-3.跟*Alchemist* `[22 75 -1166]` 对话，在`[-9 72 -1229]`的房子后院找到Bloom of Doom，回去交给*Alchemist*
+3.跟*Alchemist* `[22 75 -1166]` 对话，在`[-9 72 -1229]`的房子后院找到`Bloom of Doom`，回去交给*Alchemist*
 
 4.回去找*sailor Caid*
 
-5.把*Caid*带回*Dr. Picard*
+5.把*sailor Caid*带回*Dr. Picard*
 
 6.阅读完记忆后，跟*Scout Reynauld*`[28 66 -1247]`对话
 
@@ -37,7 +37,7 @@ icon: exclamation
 
 11.站在水晶球前触发剧情
 
-12.和Tasim`[86 76 -1194]`对话
+12.在屋子外和Tasim`[86 76 -1194]`对话
 
 奖励
 + 7000 经验 
@@ -50,5 +50,5 @@ icon: exclamation
 
 Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 
-只要有一个存档做完此任务，所有存档均可以解锁该功能
+只要有一个角色做完此任务，所有角色均可以解锁该功能
 :::

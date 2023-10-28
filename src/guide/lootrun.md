@@ -379,7 +379,7 @@ Static为静态增益，该增益的数值在拿到瞬间就固定了
 | 名称                  | 种类 | 描述                                                                                                    | 最大层数 |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------------------------|------------|
 | <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 `增益效果`                | -          |
-| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x12        |
+| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x15        |
 | <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `增益效果`                                            | x15        |
 | <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `增益效果`                            | -          |
 | <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | -        |
