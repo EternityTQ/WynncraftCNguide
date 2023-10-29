@@ -77,7 +77,7 @@
 <p>材料的等级表示其只能用于对应等级或者更高的配方中合成，<br>
 例如一个96级材料，若用于制作93-95的物品，则无法使用该材料；<br>
 若用于制作95-97或者更高的等级，则可以使用。</p>
-<details class="hint-container details"><summary>制造业的全部基础配方</summary>
+<h3 id="制造业的全部基础配方" tabindex="-1"><a class="header-anchor" href="#制造业的全部基础配方" aria-hidden="true">#</a> 制造业的全部基础配方</h3>
 <table>
 <thead>
 <tr>
@@ -94,7 +94,7 @@
 </thead>
 <tbody>
 <tr>
-<td>长矛 　(武器)</td>
+<td>长矛<br>(武器)</td>
 <td>1X</td>
 <td></td>
 <td>2X</td>
@@ -105,7 +105,7 @@
 <td></td>
 </tr>
 <tr>
-<td>匕首 　(武器)</td>
+<td>匕首<br>(武器)</td>
 <td>2X</td>
 <td></td>
 <td>1X</td>
@@ -116,7 +116,7 @@
 <td></td>
 </tr>
 <tr>
-<td>弓 (木工)</td>
+<td>弓<br>(木工)</td>
 <td></td>
 <td></td>
 <td>1X</td>
@@ -127,7 +127,7 @@
 <td></td>
 </tr>
 <tr>
-<td>法杖 　(木工)</td>
+<td>法杖<br>(木工)</td>
 <td></td>
 <td></td>
 <td>2X</td>
@@ -138,7 +138,7 @@
 <td></td>
 </tr>
 <tr>
-<td>巫杖 　(木工)</td>
+<td>巫杖<br>(木工)</td>
 <td></td>
 <td></td>
 <td>1X</td>
@@ -149,7 +149,7 @@
 <td>2X</td>
 </tr>
 <tr>
-<td>头盔 　(盔甲)</td>
+<td>头盔<br>(盔甲)</td>
 <td>1X</td>
 <td></td>
 <td></td>
@@ -160,7 +160,7 @@
 <td></td>
 </tr>
 <tr>
-<td>胸甲 　(盔甲)</td>
+<td>胸甲<br>(盔甲)</td>
 <td>2X</td>
 <td></td>
 <td></td>
@@ -171,7 +171,7 @@
 <td></td>
 </tr>
 <tr>
-<td>护腿 　(纺织)</td>
+<td>护腿<br>(纺织)</td>
 <td>2X</td>
 <td></td>
 <td></td>
@@ -182,7 +182,7 @@
 <td></td>
 </tr>
 <tr>
-<td>靴子　(纺织)</td>
+<td>靴子<br>(纺织)</td>
 <td>1X</td>
 <td></td>
 <td></td>
@@ -204,7 +204,7 @@
 <td><strong>Oil</strong></td>
 </tr>
 <tr>
-<td>指环　(饰品)</td>
+<td>指环<br>(饰品)</td>
 <td></td>
 <td>1X</td>
 <td></td>
@@ -215,7 +215,7 @@
 <td>1X</td>
 </tr>
 <tr>
-<td>手镯　(饰品)</td>
+<td>手镯<br>(饰品)</td>
 <td></td>
 <td>2X</td>
 <td></td>
@@ -226,7 +226,7 @@
 <td>1X</td>
 </tr>
 <tr>
-<td>项链　(饰品)</td>
+<td>项链<br>(饰品)</td>
 <td></td>
 <td>3X</td>
 <td></td>
@@ -296,7 +296,6 @@
 </tr>
 </tbody>
 </table>
-</details>
 <h2 id="附录-关于采集推荐地点以及工具兑换点" tabindex="-1"><a class="header-anchor" href="#附录-关于采集推荐地点以及工具兑换点" aria-hidden="true">#</a> 附录 - 关于采集推荐地点以及工具兑换点</h2>
 <blockquote>
 <p>数据来源：<a href="https://www.youtube.com/@Olinus10" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Olinus10<ExternalLinkIcon/></a></p>

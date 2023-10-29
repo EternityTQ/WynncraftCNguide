@@ -390,7 +390,7 @@ Static为静态增益，该增益的数值在拿到瞬间就固定了
 | <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
 | <font color = FFCC00>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
 | <font color = "CCCCCC">**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
-| <font color = "CCCCCC">**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x10        |
+| <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x10        |
 | <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
 | <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个增益都会获得一层 `增益效果`                                    | x5        |
 | <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `增益效果`                               | x12        |
