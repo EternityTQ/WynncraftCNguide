@@ -761,7 +761,7 @@
 <h3 id="跑法策略" tabindex="-1"><a class="header-anchor" href="#跑法策略" aria-hidden="true">#</a> 跑法策略</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>以下策略在2.0.4#0版本中编写，存在过时风险！</p>
+<p>以下策略在2.0.4#2版本中编写，存在过时风险！</p>
 </div>
 <p>新lr和传统lr区别最大的一点是：</p>
 <p><strong>请不留余力的穿上你最强的战斗装</strong></p>
