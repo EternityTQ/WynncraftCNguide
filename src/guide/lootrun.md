@@ -543,7 +543,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 对于新手来说，强烈推荐练一个战士职业，起步成本非常低！
 
-#### 总体思路
+#### 信标思路
 ------------------
 首先是最重要的事：蓝信标，或者说boon是你LR的核心所在
 怪物的轮次增益非常恐怖，你如果拿不到足够的boon极其容易被滚雪球
@@ -581,8 +581,6 @@ LR非常考验你的运营水平
 + 阶段二：11~29轮
 
   这一阶段请不留余力地将重心放在完成任务上
-  
-  灰信标在29轮就会完全消失
 
   在灰信标消失轮次再次放宽后，这个阶段算是能比较安稳的完成
 
@@ -613,37 +611,22 @@ LR非常考验你的运营水平
 
 但是任务如果选好了，能让你这趟长途跑的十分舒服(尽管还是坐牢)
 
-首先是两个核心任务(组合):
+以下是关于每个任务的锐评，**注意其具有编者极其强烈的主观色彩**，仅供参考
 
-+ Cleansing Ritual ：T0级别任务，见到就拿，只要身上有诅咒就一定能拖到100轮
-
-+ Materialism + Cleansing Greed：无条件清除紫信标负面作用
-
-这两个任务组效果互斥，连携起来效果变差，尽量别三个一起拿 (但是其实可以Cleansing Ritual + Materialism)
-
-同时，Equilibrium在任何时候都是必拿，其出率极低，拿到之后可以完全改变游戏体验
-
-你只需要分配2~3个任务给提高游戏体验即可
-
-剩下的任务你可以选择分配给sac或rr来提高抽取神话的机会
-
-**关于Gambling Beast**：Gambling Beast最好应该配合Stasis一起使用
-
-同时，请不要无脑拿Gambling Beast
-
-最好可以选择有curse条件的Gambling Beast，然后卡着不完成
-
-期间一直往上叠剩余时间，直到叠到合适的时间后，再来完成Gambling Beast
-
-这样你就可以有充足的rr数了
-
-如果直接拿去Gambling Beast，要注意时间
-
-
-
-
-
-
+| 名称               | 锐评                                                                                                                         |
+|---------------------|-------------------------------------------------------------------------------------------|
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 在没有其他信标配合的情况下千万别拿，编者会选择与<font color='FFCC00'> **Materialism** </font>进行搭配来达到无脑消紫，或者和<font color='AA00AA'> **Equilibrium** </font>搭配来确保无脑吃青紫的时候仍然保持curse在一定舒适区间内<br>但是请注意：这个任务最好不要和<font color='AA00AA'> **Cleansing Ritual** </font>一起使用，其效果结算优先于<font color='AA00AA'> **Cleansing Ritual** </font>，会导致后者无法增长回合|
+| <font color='FFCC00'> **High Roller** </font>         | 比较平庸的效果，但是如果没有sac和end rr的话，这个任务值得去拿 |
+| <font color='FFCC00'> **Materialism** </font>         | 非常实用的效果，如果你这趟决定跑长途了，那么这个任务的收益将会大大提高(每个挑战都能有额外的奖励) |
+| <font color='5555FF'> **Orphion's Grace** </font>     | **废，千万别拿**，当前版本有BUG，离线重登后会导致该任务效果失效|
+| <font color='AA00AA'> **Cleansing Ritual** </font>    | 看到就拿！出率垫底的神任务，只要拿到了就能保证你这把一定能安安稳稳地走完100轮|
+| <font color='AA00AA'> **Equilibrium** </font>         | 看到就拿！同样是出率垫底，只要拿到了就能直接删除蓝信标，让你无脑吃紫，非常的实用，甚至能直接吃掉暗灰信标！|
+| <font color='AA00AA'> **Inner Peace** </font>         | **废，千万别拿**，当前版本有BUG，离线重登后会导致该任务效果失效|
+| <font color='00BB00'> **Backup Beat** </font>         | 比较利于运营，但对获取奖励没有什么帮助，编者个人认为比较废。<br>如果你实在拿不到橙且一直保持3选的情况，可以选择拿这个任务来保证能吃到想要的信标|
+| <font color='00BB00'> **Stasis** </font>              | 比较利于运营，但是在<font color='FF5555'> **Gambling Beast** </font>削废的当下，这个任务似乎也没有什么必要去拿了。<br>如果你挑战打的比较拖拉的话，可以拿这个任务来降低超时风险|
+| <font color='FF5555'> **Gambling Beast** </font>      | **废，千万别拿**，目前<font color='FF5555'> **Gambling Beast** </font>被砍成了时间不足直接结束游戏，这意味着你只要拿到了这个任务就等于直接宣告游戏结束！<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化 |
+| <font color='FF5555'> **Redemption** </font>          | 比较平庸的效果，但是如果没有sac和end rr的话，这个任务值得去拿|
+| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 如果你没有拿到<font color='AA00AA'> **Cleansing Ritual** </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！|
 
 
 

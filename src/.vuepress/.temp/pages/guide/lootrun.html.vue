@@ -573,7 +573,7 @@
 <td>-</td>
 </tr>
 <tr>
-<td><font color = "CCCCCC"><strong>Parsimonious</strong></font></td>
+<td><font color = FFCC00><strong>Parsimonious</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每共计见到4个物品都会获得一层 <code v-pre>增益效果</code></td>
 <td>x10</td>
@@ -777,7 +777,7 @@
 <p>如果二者缺少之一，可能会导致挑战失败 ( 输出不足导致超时 / 生存不足导致被秒杀 )</p>
 <p>当前版本下，法师、战士是比较吃香的lr职业，萨满、刺客其次，弓手非常乏力(缺少生存能力)</p>
 <p>对于新手来说，强烈推荐练一个战士职业，起步成本非常低！</p>
-<h4 id="总体思路" tabindex="-1"><a class="header-anchor" href="#总体思路" aria-hidden="true">#</a> 总体思路</h4>
+<h4 id="信标思路" tabindex="-1"><a class="header-anchor" href="#信标思路" aria-hidden="true">#</a> 信标思路</h4>
 <hr>
 <p>首先是最重要的事：蓝信标，或者说boon是你LR的核心所在<br>
 怪物的轮次增益非常恐怖，你如果拿不到足够的boon极其容易被滚雪球<br>
@@ -805,7 +805,6 @@
 <li>
 <p>阶段二：11~29轮</p>
 <p>这一阶段请不留余力地将重心放在完成任务上</p>
-<p>灰信标在29轮就会完全消失</p>
 <p>在灰信标消失轮次再次放宽后，这个阶段算是能比较安稳的完成</p>
 </li>
 <li>
@@ -824,25 +823,65 @@
 <p><strong>关于任务</strong></p>
 <p>对于任务而言，介于任务的随机性，大多数情况是根据任务选玩法，而非根据玩法选任务</p>
 <p>但是任务如果选好了，能让你这趟长途跑的十分舒服(尽管还是坐牢)</p>
-<p>首先是两个核心任务(组合):</p>
-<ul>
-<li>
-<p>Cleansing Ritual ：T0级别任务，见到就拿，只要身上有诅咒就一定能拖到100轮</p>
-</li>
-<li>
-<p>Materialism + Cleansing Greed：无条件清除紫信标负面作用</p>
-</li>
-</ul>
-<p>这两个任务组效果互斥，连携起来效果变差，尽量别三个一起拿 (但是其实可以Cleansing Ritual + Materialism)</p>
-<p>同时，Equilibrium在任何时候都是必拿，其出率极低，拿到之后可以完全改变游戏体验</p>
-<p>你只需要分配2~3个任务给提高游戏体验即可</p>
-<p>剩下的任务你可以选择分配给sac或rr来提高抽取神话的机会</p>
-<p><strong>关于Gambling Beast</strong>：Gambling Beast最好应该配合Stasis一起使用</p>
-<p>同时，请不要无脑拿Gambling Beast</p>
-<p>最好可以选择有curse条件的Gambling Beast，然后卡着不完成</p>
-<p>期间一直往上叠剩余时间，直到叠到合适的时间后，再来完成Gambling Beast</p>
-<p>这样你就可以有充足的rr数了</p>
-<p>如果直接拿去Gambling Beast，要注意时间</p>
+<p>以下是关于每个任务的锐评，<strong>注意其具有编者极其强烈的主观色彩</strong>，仅供参考</p>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>锐评</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><font color='FFCC00'> <strong>Cleansing Greed</strong> </font></td>
+<td>在没有其他信标配合的情况下千万别拿，编者会选择与<font color='FFCC00'> <strong>Materialism</strong> </font>进行搭配来达到无脑消紫，或者和<font color='AA00AA'> <strong>Equilibrium</strong> </font>搭配来确保无脑吃青紫的时候仍然保持curse在一定舒适区间内<br>但是请注意：这个任务最好不要和<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>一起使用，其效果结算优先于<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>，会导致后者无法增长回合</td>
+</tr>
+<tr>
+<td><font color='FFCC00'> <strong>High Roller</strong> </font></td>
+<td>比较平庸的效果，但是如果没有sac和end rr的话，这个任务值得去拿</td>
+</tr>
+<tr>
+<td><font color='FFCC00'> <strong>Materialism</strong> </font></td>
+<td>非常实用的效果，如果你这趟决定跑长途了，那么这个任务的收益将会大大提高(每个挑战都能有额外的奖励)</td>
+</tr>
+<tr>
+<td><font color='5555FF'> <strong>Orphion's Grace</strong> </font></td>
+<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效</td>
+</tr>
+<tr>
+<td><font color='AA00AA'> <strong>Cleansing Ritual</strong> </font></td>
+<td>看到就拿！出率垫底的神任务，只要拿到了就能保证你这把一定能安安稳稳地走完100轮</td>
+</tr>
+<tr>
+<td><font color='AA00AA'> <strong>Equilibrium</strong> </font></td>
+<td>看到就拿！同样是出率垫底，只要拿到了就能直接删除蓝信标，让你无脑吃紫，非常的实用，甚至能直接吃掉暗灰信标！</td>
+</tr>
+<tr>
+<td><font color='AA00AA'> <strong>Inner Peace</strong> </font></td>
+<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效</td>
+</tr>
+<tr>
+<td><font color='00BB00'> <strong>Backup Beat</strong> </font></td>
+<td>比较利于运营，但对获取奖励没有什么帮助，编者个人认为比较废。<br>如果你实在拿不到橙且一直保持3选的情况，可以选择拿这个任务来保证能吃到想要的信标</td>
+</tr>
+<tr>
+<td><font color='00BB00'> <strong>Stasis</strong> </font></td>
+<td>比较利于运营，但是在<font color='FF5555'> <strong>Gambling Beast</strong> </font>削废的当下，这个任务似乎也没有什么必要去拿了。<br>如果你挑战打的比较拖拉的话，可以拿这个任务来降低超时风险</td>
+</tr>
+<tr>
+<td><font color='FF5555'> <strong>Gambling Beast</strong> </font></td>
+<td><strong>废，千万别拿</strong>，目前<font color='FF5555'> <strong>Gambling Beast</strong> </font>被砍成了时间不足直接结束游戏，这意味着你只要拿到了这个任务就等于直接宣告游戏结束！<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化</td>
+</tr>
+<tr>
+<td><font color='FF5555'> <strong>Redemption</strong> </font></td>
+<td>比较平庸的效果，但是如果没有sac和end rr的话，这个任务值得去拿</td>
+</tr>
+<tr>
+<td><font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font></td>
+<td>如果你没有拿到<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！</td>
+</tr>
+</tbody>
+</table>
 </div></template>
 
 
