@@ -35,7 +35,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <figure><img src="/assets/img/lvl92-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>快速传送就不多讲了，就只有这一个</p>
+<p>快速传送就不多讲了，两个地区就只有这一个，很好找</p>
 </div>
 </div></template>
 

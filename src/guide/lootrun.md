@@ -159,6 +159,9 @@ T3-T4箱子均在洞穴内，你可以在任务书上轻松找到洞穴的位置
 每一局lr的成功结算都可以增加`Silverbull Syndicate`的等级，经验上限为500(每日奖励的100经验不包含在上限内)
 
 同时随着`Silverbull Syndicate`等级的提升，你都可以在lr中体验到新的内容
+:::tip
+`Silverbull Syndicate`等级为账号通用
+:::
 
 :::details 升级追加内容一览
 | 等级 | 名称 | 所需经验 | 总计经验 | 效果 |
@@ -290,9 +293,10 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = "blue">**蓝色信标**</font> | 选数上限为5；青信标为每100%选数+1 |
 | <font color = 00CCFF>**青色信标**</font> | 只会连续出现1次；死亡会导致已持有的青色信标状态清空 |
 | <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant增益的是挑战轮数 |
+| <font color = "CCCCCC">**白色信标**</font> | 总轮数到达100轮时消失 |
 | <font color = 00BB00>**绿色信标**</font> | 只会连续出现1次；青信标会增益`怪物不加属性`的轮次数而Vibrant不会 |
-| <font color = "grey">**灰色信标**</font> | 青信标会使其选数翻倍；第5轮开始出现；第29轮后消失；任务进行时不会出现 |
-| <font color = "red">**红色信标**</font> | 只会连续出现1次；给予的不加时间的轮次从下一轮开始算起 |
+| <font color = "grey">**灰色信标**</font> | 青信标会使其选数翻倍；第5轮开始出现；<br>第27~35轮后消失；任务进行时不会出现 |
+| <font color = "red">**红色信标**</font> | 只会连续出现1次；给予的不加时间的轮次从下一轮开始算起；<br>总轮数到达100轮时消失 |
 
 :::warning
 对于有上限的信标，当你走进挑战时，就已经计入总数了
@@ -418,7 +422,7 @@ Static为静态增益，该增益的数值在拿到瞬间就固定了
 
 而像`Mob Slaughter`是比较低级的增益，数值较低
 
-同时，就算是同一个增益名称，其增益效果的数值也非固定
+
 :::
 
 其中，部分增益种类有一些需要注意的特性：
@@ -615,7 +619,7 @@ LR非常考验你的运营水平
 
 | 名称               | 锐评                                                                                                                         |
 |---------------------|-------------------------------------------------------------------------------------------|
-| <font color='FFCC00'> **Cleansing Greed** </font>     | 在没有其他信标配合的情况下千万别拿，编者会选择与<font color='FFCC00'> **Materialism** </font>进行搭配来达到无脑消紫，或者和<font color='AA00AA'> **Equilibrium** </font>搭配来确保无脑吃青紫的时候仍然保持curse在一定舒适区间内<br>但是请注意：这个任务最好不要和<font color='AA00AA'> **Cleansing Ritual** </font>一起使用，其效果结算优先于<font color='AA00AA'> **Cleansing Ritual** </font>，会导致后者无法增长回合|
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 在没有其他信标配合的情况下最好别提前拿，编者会选择与<font color='FFCC00'> **Materialism** </font>进行搭配来达到无脑消紫，或者和<font color='AA00AA'> **Equilibrium** </font>搭配来确保无脑吃青紫的时候仍然保持curse在一定舒适区间内<br>但是请注意：这个任务最好不要和<font color='AA00AA'> **Cleansing Ritual** </font>一起使用，其效果结算优先于<font color='AA00AA'> **Cleansing Ritual** </font>，会导致后者无法增长回合|
 | <font color='FFCC00'> **High Roller** </font>         | 比较平庸的效果，但是如果没有sac和end rr的话，这个任务值得去拿 |
 | <font color='FFCC00'> **Materialism** </font>         | 非常实用的效果，如果你这趟决定跑长途了，那么这个任务的收益将会大大提高(每个挑战都能有额外的奖励) |
 | <font color='5555FF'> **Orphion's Grace** </font>     | **废，千万别拿**，当前版本有BUG，离线重登后会导致该任务效果失效|

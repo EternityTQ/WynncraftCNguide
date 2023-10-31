@@ -120,6 +120,10 @@
 <figure><img src="/assets/img/lootrun7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>每一局lr的成功结算都可以增加<code v-pre>Silverbull Syndicate</code>的等级，经验上限为500(每日奖励的100经验不包含在上限内)</p>
 <p>同时随着<code v-pre>Silverbull Syndicate</code>等级的提升，你都可以在lr中体验到新的内容</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p><code v-pre>Silverbull Syndicate</code>等级为账号通用</p>
+</div>
 <details class="hint-container details"><summary>升级追加内容一览</summary>
 <table>
 <thead>
@@ -388,16 +392,20 @@
 <td>青色信标和Vibrant增益的是挑战轮数</td>
 </tr>
 <tr>
+<td><font color = "CCCCCC"><strong>白色信标</strong></font></td>
+<td>总轮数到达100轮时消失</td>
+</tr>
+<tr>
 <td><font color = 00BB00><strong>绿色信标</strong></font></td>
 <td>只会连续出现1次；青信标会增益<code v-pre>怪物不加属性</code>的轮次数而Vibrant不会</td>
 </tr>
 <tr>
 <td><font color = "grey"><strong>灰色信标</strong></font></td>
-<td>青信标会使其选数翻倍；第5轮开始出现；第29轮后消失；任务进行时不会出现</td>
+<td>青信标会使其选数翻倍；第5轮开始出现；<br>第27~35轮后消失；任务进行时不会出现</td>
 </tr>
 <tr>
 <td><font color = "red"><strong>红色信标</strong></font></td>
-<td>只会连续出现1次；给予的不加时间的轮次从下一轮开始算起</td>
+<td>只会连续出现1次；给予的不加时间的轮次从下一轮开始算起；<br>总轮数到达100轮时消失</td>
 </tr>
 </tbody>
 </table>
@@ -625,7 +633,6 @@
 <p>增益效果的数值也和增益名称相关</p>
 <p>例如<code v-pre>Bad Omen</code>目前是最高级的增益，对于同种增益效果来说，数值较高</p>
 <p>而像<code v-pre>Mob Slaughter</code>是比较低级的增益，数值较低</p>
-<p>同时，就算是同一个增益名称，其增益效果的数值也非固定</p>
 </div>
 <p>其中，部分增益种类有一些需要注意的特性：</p>
 <table>
@@ -834,7 +841,7 @@
 <tbody>
 <tr>
 <td><font color='FFCC00'> <strong>Cleansing Greed</strong> </font></td>
-<td>在没有其他信标配合的情况下千万别拿，编者会选择与<font color='FFCC00'> <strong>Materialism</strong> </font>进行搭配来达到无脑消紫，或者和<font color='AA00AA'> <strong>Equilibrium</strong> </font>搭配来确保无脑吃青紫的时候仍然保持curse在一定舒适区间内<br>但是请注意：这个任务最好不要和<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>一起使用，其效果结算优先于<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>，会导致后者无法增长回合</td>
+<td>在没有其他信标配合的情况下最好别提前拿，编者会选择与<font color='FFCC00'> <strong>Materialism</strong> </font>进行搭配来达到无脑消紫，或者和<font color='AA00AA'> <strong>Equilibrium</strong> </font>搭配来确保无脑吃青紫的时候仍然保持curse在一定舒适区间内<br>但是请注意：这个任务最好不要和<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>一起使用，其效果结算优先于<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>，会导致后者无法增长回合</td>
 </tr>
 <tr>
 <td><font color='FFCC00'> <strong>High Roller</strong> </font></td>
