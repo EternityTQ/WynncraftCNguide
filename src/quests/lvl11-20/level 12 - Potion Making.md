@@ -1,5 +1,5 @@
 # Potion Making (level 12)
-**炼药者**
+**春药集团**
 
 1 和**Detlas**城的*The Assistant*`[491 67 -1575]`说话
 
