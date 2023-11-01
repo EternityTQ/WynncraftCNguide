@@ -15,8 +15,9 @@
 <template #tab0="{ value, isActive }">
 <p>战士相当于肉盾角色，对于伤害而言，战士的伤害可能不是很可观</p>
 <p>但是战士的基础防御补正是所有职业中最高的，同时拥有一定的辅助能力</p>
-<p>虽然话是这么说，但前期一般不需要肉盾，导致战士前期的练级体验有点难评...</p>
-<p>但是战士是一个后期发力的角色</p>
+<p>虽然话是这么说，但前期一般不需要肉盾，而且前期的装备也不足以当肉盾</p>
+<p>导致战士前期的练级体验有点尴尬，要肉没肉要打不能打..</p>
+<p>但是战士是一个后期发力的角色，后期非常强悍！</p>
 <p></p>
 </template>
 <template #tab1="{ value, isActive }">
@@ -59,7 +60,7 @@
 <ul>
 <li>战士</li>
 </ul>
-<Tabs id="128" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
+<Tabs id="131" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
 <template #title0="{ value, isActive }"><font color="red">Fallen 腐化者</font></template>
 <template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道士</font></template>
 <template #title2="{ value, isActive }"><font color=18c7f0> Paladin 圣骑士</font></template>
@@ -117,7 +118,7 @@
 <ul>
 <li>法师</li>
 </ul>
-<Tabs id="235" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
+<Tabs id="238" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
 <template #title0="{ value, isActive }"><font color=18c7f0> Riftwalker 时空行者</font></template>
 <template #title1="{ value, isActive }"><font color="grey"> Light Bender 圣光使者</font></template>
 <template #title2="{ value, isActive }"><font color="purple"> Arcanist 奥术法师</font></template>
@@ -176,7 +177,7 @@
 <ul>
 <li>弓手</li>
 </ul>
-<Tabs id="345" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<Tabs id="348" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Boltslinger 闪击射手</font></template>
 <template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
 <template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
@@ -218,7 +219,7 @@
 <ul>
 <li>刺客</li>
 </ul>
-<Tabs id="424" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
+<Tabs id="427" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
 <template #title0="{ value, isActive }"><font color=AA0000> Shadestepper 影步者 </font></template>
 <template #title1="{ value, isActive }"><font color=FF55FF> Trickster 幻术师 </font></template>
 <template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法刺 </font></template>
@@ -241,7 +242,7 @@
 <ul>
 <li>萨满</li>
 </ul>
-<Tabs id="466" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
+<Tabs id="469" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
 <template #title1="{ value, isActive }"><font color=16d108> Ritualist 圣祭祀 </font></template>
 <template #title2="{ value, isActive }"><font color="red"> Acolyte 血教徒 </font></template>

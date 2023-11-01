@@ -79,19 +79,38 @@
 <p>VIP实在没什么用，最好从VIP+以上还是考虑，因为只有VIP+才开始有每日饰品箱</p>
 <p>与此同时，史低促销为7折</p>
 <p>顺便还是文章开始的话：<strong>不提倡氪金！</strong></p>
-<div class="hint-container tip">
-<p class="hint-container-title">图腾是什么?</p>
-<p>这里不是指萨满的图腾，而是指Mob Totem</p>
-<p>插在任意地点后可以大幅度增加范围内怪物的刷新速度和刷新数量</p>
-<p>可以对刷经验和刷素材起到不小的帮助</p>
-<p><strong>注意在城镇内使用图腾是违规的！</strong></p>
-<p>图腾只能通过ranks的每日奖励以及邀请活动来获取</p>
+<p>对于Rank来说，有几点特殊功能值得介绍一下</p>
+<h3 id="mob-totem" tabindex="-1"><a class="header-anchor" href="#mob-totem" aria-hidden="true">#</a> Mob Totem</h3>
+<p>这里指的并不是萨满的图腾，而是一种持续性增益道具</p>
+<p>你可以在游戏内输入/totem来查看和使用你当前所持的图腾</p>
+<p>在使用后，每个图腾有5分钟的持续时间，作用半径为20格</p>
+<p>在图腾有效范围内，红名怪物的刷新速度和刷新数量将会大幅度增加</p>
+<p>如果配合<code v-pre>Double XP</code>或者<code v-pre>Double Loot</code>，效率将会大幅度提高！</p>
+<p><strong>请注意，在安全区内使用图腾是违规的</strong></p>
+<p>当前图腾的主要来源为Rank的每日奖励</p>
+<p>在持有Silverbull订阅状态时，每日图腾的数量将会翻倍</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>Mob Totem若当天没有使用完，剩余数量不会保留到隔天！</p>
 </div>
-<div class="hint-container tip">
-<p class="hint-container-title">皮肤职业是什么?</p>
-<p>五个职业都有对应的皮肤职业</p>
-<p>皮肤职业与原职业的区别<strong>仅有特效区别</strong></p>
+<h3 id="皮肤职业" tabindex="-1"><a class="header-anchor" href="#皮肤职业" aria-hidden="true">#</a> 皮肤职业</h3>
+<p>在解锁了皮肤职业后，你可以在创建职业时选择皮肤职业</p>
+<p>皮肤职业对于原生职业来说，仅有特效和名字的区别</p>
+<p>在购买了HERO及以上的Rank后，你可以将现有的职业进行原生-皮肤之间的切换</p>
+<h3 id="每日饰品箱" tabindex="-1"><a class="header-anchor" href="#每日饰品箱" aria-hidden="true">#</a> 每日饰品箱</h3>
+<p>在购买了VIP+及以上的Rank后，你就可以获得每日饰品箱</p>
+<p>其为最基础的饰品箱，在节日期间也不会转化为节日饰品箱</p>
+<p>在持有Silverbull订阅状态时，每日将会额外获得一个饰品箱</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>当天没有开启的每日饰品箱不会保留到隔天！</p>
 </div>
+<h3 id="炸弹钟" tabindex="-1"><a class="header-anchor" href="#炸弹钟" aria-hidden="true">#</a> 炸弹钟</h3>
+<p>非常实用的功能</p>
+<p>在购买Champion后，该功能默认开启</p>
+<p>当其他线路有玩家投掷了持续性炸弹(即：除了Item Bomb、Soul Point Bomb、Ingredient Bomb、Party Bomb以外的炸弹)时，</p>
+<p>你在当前线路将会收到通知</p>
+<figure><img src="/assets/img/bombbell.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2 id="sliverbull-share" tabindex="-1"><a class="header-anchor" href="#sliverbull-share" aria-hidden="true">#</a> SliverBull &amp; Share</h2>
 <p>类似于月卡机制</p>
 <p>在中国玩家群体中，通常称为&quot;银牛&quot;</p>
@@ -121,9 +140,13 @@
 <figure><img src="/assets/img/shares2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>默认会直接购买最低价，并且会返还多余的绿宝石。</p>
 </div>
+<h3 id="silverbull-shop" tabindex="-1"><a class="header-anchor" href="#silverbull-shop" aria-hidden="true">#</a> Silverbull Shop</h3>
+<p>在游戏内获得Share时，你可以在Silverbull Shop内购买Bomb、Crates等氪金道具</p>
+<p>其价值约等于线上商店内购买的价格</p>
 <h2 id="crates" tabindex="-1"><a class="header-anchor" href="#crates" aria-hidden="true">#</a> Crates</h2>
 <p>饰品箱</p>
 <p>购买后可以在游戏内开启，跟抽卡一样</p>
+<p>你可以通过在游戏内输入<code v-pre>/crate</code>来查看你当前持有的饰品箱</p>
 <p>饰品同样具有品质：Common / Rare / Epic / Godly / Black Market</p>
 <p>饰品箱可以开出玩家特效 / 武器皮肤 / 攻击特效 / 宠物 / 马匹皮肤 / 头饰 等等</p>
 <p>同时饰品箱还存在等级</p>
@@ -139,23 +162,39 @@
 <p>领取后30天刷新，品质为T1~T3随机</p>
 <p>笔者曾经在这里领到过T3饰品箱！</p>
 </div>
-<p>同时，你也可以在游戏内合成饰品</p>
-<p>正常情况下你可以将五个同品质的饰品合成为一个随机高一级的饰品</p>
-<p>在有SliverBull的情况下为三合一</p>
+<h3 id="scrap-rewards" tabindex="-1"><a class="header-anchor" href="#scrap-rewards" aria-hidden="true">#</a> Scrap Rewards</h3>
+<p>你可以在游戏内对饰品进行合成</p>
+<p>五个同等级的饰品可以合成为一个高一级的饰品</p>
+<p>对于最高等级的Black Market饰品，合成将会得到10个Epic饰品</p>
+<p>在持有Silverbull订阅状态时，合成饰品仅需要三合一</p>
 <h3 id="节日crates" tabindex="-1"><a class="header-anchor" href="#节日crates" aria-hidden="true">#</a> 节日Crates</h3>
 <p>在活动期间，商城将会出售节日Crates</p>
-<p>节日Crates中仅会包含限时饰品，且<strong>没有Common品质！</strong></p>
+<p>节日Crates中仅会包含非常特别的限时饰品，且<strong>没有Common品质！</strong></p>
 <p>注意不同的节日饰品和常驻饰品之间不能混搭合成</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>每个节日开始时，你都可以在线上商城领取3个免费的节日Crates!</p>
 </div>
 <h2 id="pets" tabindex="-1"><a class="header-anchor" href="#pets" aria-hidden="true">#</a> Pets</h2>
-<p>宠物</p>
-<p>比较不建议在这里购买，太贵了。</p>
-<p>但是有些比较整蛊的宠物只能在这里入手</p>
-<p><s>比如aLEdar车车</s></p>
-<p>宠物还可以在Crates中开出，通常在节日Crates中能开出更多不同的宠物</p>
+<p>宠物有两种获取途径</p>
+<p>比较常见的是在Crates中开出，注意刚获得时为Token形式<br>
+<img src="/assets/img/pets1.jpg" alt="" loading="lazy"></p>
+<p>只有在使用后，你才可以真正使用该宠物</p>
+<p>注意，使用后无法再对该宠物进行Scrap</p>
+<p>同时，宠物还可以在线上商店和Silverbull Shop中直接购买，但是稍贵</p>
+<p>直接购买的宠物无法从Crates开出</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>不同宠物仅有品质、模型的区别，其他没有任何区别！</p>
+</div>
+<p>宠物可以通过击杀和玩家等级相近的怪物来获取经验，在没有Champion前只能提升至20级</p>
+<p>同时，宠物还可以和玩家并肩作战(尽管伤害感人)</p>
+<p>宠物在20级前将会逐渐提升伤害</p>
+<p>在购买Champion后，你可以将宠物提升至最多100级</p>
+<p><strong>但是，20级后宠物只会获得额外的辅助性功能，不会增加任何攻击力</strong></p>
+<p>辅助性功能分别为：派送宠物运送东西、售卖东西、分解东西和修理装备</p>
+<p>每个玩家最多只能同时召唤1只宠物，在购买VIP+后，可以同时召唤3只</p>
+<p>分派任务也仅能同时分配3只宠物</p>
 <div class="hint-container tip">
 <p class="hint-container-title">领取你的免费宠物！</p>
 <figure><img src="/assets/img/pets.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
