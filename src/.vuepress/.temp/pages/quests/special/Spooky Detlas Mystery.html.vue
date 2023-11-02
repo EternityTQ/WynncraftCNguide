@@ -64,7 +64,7 @@
 </div>
 <p>奖励</p>
 <ul>
-<li>3 Spiritual Shards</li>
+<li>8 Spiritual Shards</li>
 <li>Deceptive Rat Plushie</li>
 </ul>
 </div></template>

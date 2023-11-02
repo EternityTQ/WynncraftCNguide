@@ -107,7 +107,7 @@ icon: clock
 :::
 
 奖励
-+ 3 Spiritual Shards
++ 8 Spiritual Shards
 + Deceptive Rat Plushie
 
 

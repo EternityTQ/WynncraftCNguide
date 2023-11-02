@@ -17,8 +17,9 @@ icon: book
 + <HopeIcon icon="bookmark" /> 这个任务是一个系列任务(可能存在前后置任务)
 + <HopeIcon icon="skull" /> 这个任务会解锁一个地牢/RAID
 + <HopeIcon icon="face-tired" /> 这个任务存在惊悚/恐怖成分
-+ <HopeIcon icon="exclamation" /> 这个任务会解锁一些重要的新功能，或者会得到非常重要的装备
++ <HopeIcon icon="exclamation" /> 这个任务会解锁一些重要的新功能
 + <HopeIcon icon="triangle-exclamation" /> 这个任务为长线战斗任务，难度较高且并非能在接取任务的等级就完成
++ <HopeIcon icon="clock" /> 这个任务是一个限时任务，你只能在指定日期前完成
 :::
 
 

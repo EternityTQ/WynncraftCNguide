@@ -14,9 +14,11 @@
 <li>
 <HopeIcon icon="face-tired" /> 这个任务存在惊悚/恐怖成分</li>
 <li>
-<HopeIcon icon="exclamation" /> 这个任务会解锁一些重要的新功能，或者会得到非常重要的装备</li>
+<HopeIcon icon="exclamation" /> 这个任务会解锁一些重要的新功能</li>
 <li>
 <HopeIcon icon="triangle-exclamation" /> 这个任务为长线战斗任务，难度较高且并非能在接取任务的等级就完成</li>
+<li>
+<HopeIcon icon="clock" /> 这个任务是一个限时任务，你只能在指定日期前完成</li>
 </ul>
 </div>
 <div class="hint-container tip">
