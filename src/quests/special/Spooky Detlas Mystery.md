@@ -3,13 +3,15 @@ title: Spooky Detlas Mystery
 icon: clock
 ---
 
+**Detlas的惊奇谜团**
+
 :::danger 这是一个限时任务
 你只能在2023.11.5之前完成
 :::
 
 ## 前言&准备工作
 
-这个任务为2023年灵魂节限时隐藏任务，完成这个任务前，你首先需要换取`Gravedigger's Spade`和`Well of Power`
+这个任务为2023年灵魂节限时隐藏任务，开始这个任务前，你首先需要换取`Gravedigger's Spade`和`Well of Power`
 
 前者可以在**Deltas**的*The Guide*通过找到9个Bounty Spirits得到，后者可以在灵魂节小游戏区域使用3个`Spiritual Shards`来换取
 

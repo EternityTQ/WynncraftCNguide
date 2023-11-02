@@ -1,9 +1,10 @@
-<template><div><div class="hint-container danger">
+<template><div><p><strong>Detlas的惊奇谜团</strong></p>
+<div class="hint-container danger">
 <p class="hint-container-title">这是一个限时任务</p>
 <p>你只能在2023.11.5之前完成</p>
 </div>
 <h2 id="前言-准备工作" tabindex="-1"><a class="header-anchor" href="#前言-准备工作" aria-hidden="true">#</a> 前言&amp;准备工作</h2>
-<p>这个任务为2023年灵魂节限时隐藏任务，完成这个任务前，你首先需要换取<code v-pre>Gravedigger's Spade</code>和<code v-pre>Well of Power</code></p>
+<p>这个任务为2023年灵魂节限时隐藏任务，开始这个任务前，你首先需要换取<code v-pre>Gravedigger's Spade</code>和<code v-pre>Well of Power</code></p>
 <p>前者可以在<strong>Deltas</strong>的<em>The Guide</em>通过找到9个Bounty Spirits得到，后者可以在灵魂节小游戏区域使用3个<code v-pre>Spiritual Shards</code>来换取</p>
 <p>本任务翻译自wiki</p>
 <h2 id="part-i-打开图书馆" tabindex="-1"><a class="header-anchor" href="#part-i-打开图书馆" aria-hidden="true">#</a> Part I - 打开图书馆</h2>
