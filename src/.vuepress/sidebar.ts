@@ -84,6 +84,13 @@ export default sidebar({
           children:"structure",
           collapsible: true,
         },
+        {
+          text: "特殊/过时任务",
+          icon: "book",
+          prefix: "special/",
+          children:"structure",
+          collapsible: true,
+        },
       ],
     },
   ],
