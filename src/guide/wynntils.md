@@ -13,11 +13,13 @@ icon: handshake-angle
 
 大部分人可能都想问这个问题，于是把这个问题置顶了
 
-打开hosts文件
+打开`hosts`文件
 (Windows下路径：`C:\Windows\System32\drivers\etc`)
 可以用记事本/其他文本编辑工具打开
 
-输入`199.232.68.133 raw.githubusercontent.com`
+具体编辑方法建议自行百度！
+
+新输入一行`185.199.108.133 raw.githubusercontent.com`
 
 然后Win+R 输入`cmd`
 在命令行窗口输入`ipconfig /flushdns`

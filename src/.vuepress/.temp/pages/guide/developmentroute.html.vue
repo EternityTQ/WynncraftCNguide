@@ -74,8 +74,25 @@
 <p class="hint-container-title">提示</p>
 <p>为了篇幅安排，关于武器加点、打粉的部分将会安排在之后讲解</p>
 </div>
-<h3 id="第一个副本" tabindex="-1"><a class="header-anchor" href="#第一个副本" aria-hidden="true">#</a> 第一个副本</h3>
-<p>在完成<RouterLink to="/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html">Sewers of Ragni (level 5)</RouterLink>任务后，你将会解锁你旅途上的第一个副本</p>
+<h3 id="第一个地牢" tabindex="-1"><a class="header-anchor" href="#第一个地牢" aria-hidden="true">#</a> 第一个地牢</h3>
+<p>在完成<RouterLink to="/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html">Sewers of Ragni (level 5)</RouterLink>任务后，你将会解锁你旅途上的第一个地牢</p>
+<p>在进入这个地牢前，最好做足准备！</p>
+<p>地牢的推荐进入等级为9级，强烈建议获取一套不低于6-7级的装备！</p>
+<p>如果实在没法从loot chest里面获取，可以考虑在Ragni内购买一套白装</p>
+<p>但是注意，仅限过渡，请不要用太久，白装的属性很差！</p>
+<p>然后，你可以开始考虑加点的问题了</p>
+<p>这里<strong>暂时</strong>建议将你的属性点全部均摊到力量(Strength)和防御(Defence)上，可以保证既拥有足够攻击的同时又拥有足够防御</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>属性点是为武器和装备服务的！</p>
+<p>今后你的属性点应该优先考虑是否能穿上一套装备，而不是追求其基本效果！</p>
+</div>
+<p>同时，请务必要在Ragni内的药水商店补齐药水，在地牢门口的药水商店是奸商，<strong>千万别买</strong></p>
+<p>做好以上准备之后，你就可以进入DS了！</p>
+<p>第一个副本非常简单，小怪部分你只需要平A即可过关</p>
+<p>需要注意BOSS稍微有点难度，别忘了用你的技能！</p>
+<p>过关后，会给予一个骨头和3个骨灰(?)</p>
+<p>这两个东西强烈建议存起来！可以用于兑换副本装备</p>
 </div></template>
 
 

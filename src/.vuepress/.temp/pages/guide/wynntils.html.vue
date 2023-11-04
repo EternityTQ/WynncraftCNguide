@@ -6,10 +6,11 @@
 <div class="hint-container tip">
 <p class="hint-container-title">地图黑屏怎么解决？</p>
 <p>大部分人可能都想问这个问题，于是把这个问题置顶了</p>
-<p>打开hosts文件<br>
+<p>打开<code v-pre>hosts</code>文件<br>
 (Windows下路径：<code v-pre>C:\Windows\System32\drivers\etc</code>)<br>
 可以用记事本/其他文本编辑工具打开</p>
-<p>输入<code v-pre>199.232.68.133 raw.githubusercontent.com</code></p>
+<p>具体编辑方法建议自行百度！</p>
+<p>新输入一行<code v-pre>185.199.108.133 raw.githubusercontent.com</code></p>
 <p>然后Win+R 输入<code v-pre>cmd</code><br>
 在命令行窗口输入<code v-pre>ipconfig /flushdns</code></p>
 <p>随后重进服务器(没用的话就重启客户端)</p>
