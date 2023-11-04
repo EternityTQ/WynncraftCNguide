@@ -48,7 +48,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>他会把桥打断然后跳下去。。继续跟就完事了</p>
-<p>你也可以提前到达<code v-pre>[-619 64 -4501]</code>的电梯这</p>
+<p>如果找不到人了，你也可以到达<code v-pre>[-619 64 -4501]</code>的电梯这看看，他最后会跑来这里</p>
 </div>
 <p>13.选择放走Korben或者举报Korben</p>
 <div class="hint-container tip">
