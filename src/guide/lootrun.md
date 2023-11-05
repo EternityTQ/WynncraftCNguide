@@ -1,7 +1,7 @@
 ---
 title: Lootrun
 icon: wheelchair-move
-pageview: false
+pageview: true
 ---
 每周奖池 (2023.11.6)
 ::: tabs
