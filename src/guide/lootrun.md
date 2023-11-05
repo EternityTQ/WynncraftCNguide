@@ -2,45 +2,46 @@
 title: Lootrun
 icon: wheelchair-move
 ---
-每周奖池 (2023.10.28)
+每周奖池 (2023.11.6)
 ::: tabs
 @tab SE
-+ **<font color=FFCC00> Shiny </font>** Immolation :star: Players Killed 
-+ Archangel 
-+ Boreal 
-+ Olympic 
-+ Toxoplasmosis 
++ **<font color=FFCC00> Shiny </font>** Weathered :star: Raids Won 
 + Thrundacrack 
-+ Insulator
++ Dawnbreak 
++ Apocalypse 
++ Oblivion 
++ Idol 
++ Insulator 
++ Simulator
 
 @tab Corkus
-+ **<font color=FFCC00> Shiny </font>** Galleon :star: Deaths
-+ Nirvana 
-+ Quetzalcoatl 
-+ Pure 
-+ Gaia 
-+ Warp 
-+ Insulator 
++ **<font color=FFCC00> Shiny </font>** Spring :star: Players Killed
++ Warchief
++ Singularity
++ Az
++ Cataclysm
++ Immolation
++ Insulator
 + Simulator
 
 @tab Sky Island
-+ **<font color=FFCC00> Shiny </font>** Monster :star: Raids Won
-+ Archangel 
-+ Cataclysm 
-+ Monster 
-+ Oblivion  
-+ Warp 
-+ Insulator 
-+ Simulator
++ **<font color=FFCC00> Shiny </font>** Alkatraz :star: Chests Opened
++ Grandmother
++ Crusade Sabatons
++ Warp
++ Apocalypse
++ Lament
++ Insulator
 
 @tab Molten Heights Hike
-+ **<font color=FFCC00> Shiny </font>** Olympic :star: Lootruns Completed
-+ Lament 
-+ Archangel 
-+ Hero 
-+ Singularity 
-+ Idol 
-+ Divzer
++ **<font color=FFCC00> Shiny </font>** Boreal :star: Mobs killed
++ Sunstar
++ Convergence
++ Revenant
++ Collapse
++ Archangel
++ Resurgence
++ Insulator
 + Simulator
 :::
 首先先解释一下，何谓lootrun?
@@ -369,13 +370,15 @@ Vibrant信标拥有原信标的双倍效果
 
 每个增益由触发条件、触发效果以及增益种类三部分组成
 
-其中，Dynamic为动态增益，你有机会提高该增益的数值
->减少数值也是有可能的...
+其中，Dynamic为动态增益，你有机会提高该增益的层数
+
 :::tip
 进行到一定轮次时，不会出现Dynamic增益
+
+**Dynamic是有可能减少层数的**
 :::
 
-Static为静态增益，该增益的数值在拿到瞬间就固定了
+Static为静态增益，该增益的层数在拿到瞬间就固定了
 
 
 
@@ -393,12 +396,12 @@ Static为静态增益，该增益的数值在拿到瞬间就固定了
 | <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每个增益都会获得一层 `增益效果`                                           | x8         |
 | <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
 | <font color = FFCC00>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
-| <font color = "CCCCCC">**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
+| <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
 | <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x10        |
 | <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
 | <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个增益都会获得一层 `增益效果`                                    | x5        |
 | <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `增益效果`                               | x12        |
-|<font color = "CCCCCC"> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `增益效果`                    | x10        |
+|<font color = CCCCCC> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `增益效果`                    | x10        |
 
 增益效果如下列所示
 + 生命上限

@@ -7,7 +7,7 @@
 <p>本任务所有的岛屿都可以在Selchar岛前往，你可以将这个岛作为中转站</p>
 </div>
 <p>1 和<strong>Zhight</strong>岛上的<em>Zhight</em><code v-pre>[-542 38 -2755]</code>说话</p>
-<p>2 和<strong>Mage Island</strong>上的<em>Phief</em><code v-pre>[-228 63 2958]</code>说话</p>
+<p>2 和<strong>Mage Island</strong>上的<em>Phief</em><code v-pre>[-228 63 -2958]</code>说话</p>
 <p>3 在<code v-pre>[1016 38 -3101]</code>找到<em>Phief</em>的船，并和船上的的<em>Tirt</em>对话</p>
 <p>4 和<strong>Maro Peaks</strong>上的<em>Czytash</em><code v-pre>[258 80 -3913]</code>说话</p>
 <div class="hint-container tip">

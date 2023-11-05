@@ -1,4 +1,4 @@
-<template><div><p>每周奖池 (2023.10.28)</p>
+<template><div><p>每周奖池 (2023.11.6)</p>
 <Tabs id="3" :data='[{"id":"SE"},{"id":"Corkus"},{"id":"Sky Island"},{"id":"Molten Heights Hike"}]'>
 <template #title0="{ value, isActive }">SE</template>
 <template #title1="{ value, isActive }">Corkus</template>
@@ -6,48 +6,49 @@
 <template #title3="{ value, isActive }">Molten Heights Hike</template>
 <template #tab0="{ value, isActive }">
 <ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Immolation ⭐ Players Killed</li>
-<li>Archangel</li>
-<li>Boreal</li>
-<li>Olympic</li>
-<li>Toxoplasmosis</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Weathered ⭐ Raids Won</li>
 <li>Thrundacrack</li>
+<li>Dawnbreak</li>
+<li>Apocalypse</li>
+<li>Oblivion</li>
+<li>Idol</li>
 <li>Insulator</li>
+<li>Simulator</li>
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
 <ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Galleon ⭐ Deaths</li>
-<li>Nirvana</li>
-<li>Quetzalcoatl</li>
-<li>Pure</li>
-<li>Gaia</li>
-<li>Warp</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Spring ⭐ Players Killed</li>
+<li>Warchief</li>
+<li>Singularity</li>
+<li>Az</li>
+<li>Cataclysm</li>
+<li>Immolation</li>
 <li>Insulator</li>
 <li>Simulator</li>
 </ul>
 </template>
 <template #tab2="{ value, isActive }">
 <ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Monster ⭐ Raids Won</li>
-<li>Archangel</li>
-<li>Cataclysm</li>
-<li>Monster</li>
-<li>Oblivion</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Alkatraz ⭐ Chests Opened</li>
+<li>Grandmother</li>
+<li>Crusade Sabatons</li>
 <li>Warp</li>
+<li>Apocalypse</li>
+<li>Lament</li>
 <li>Insulator</li>
-<li>Simulator</li>
 </ul>
 </template>
 <template #tab3="{ value, isActive }">
 <ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Olympic ⭐ Lootruns Completed</li>
-<li>Lament</li>
+<li><strong><font color=FFCC00> Shiny </font></strong> Boreal ⭐ Mobs killed</li>
+<li>Sunstar</li>
+<li>Convergence</li>
+<li>Revenant</li>
+<li>Collapse</li>
 <li>Archangel</li>
-<li>Hero</li>
-<li>Singularity</li>
-<li>Idol</li>
-<li>Divzer</li>
+<li>Resurgence</li>
+<li>Insulator</li>
 <li>Simulator</li>
 </ul>
 </template>
@@ -489,15 +490,13 @@
 </div>
 <p>在吃到蓝信标时，你可以从一定选数内选择你想要的增益</p>
 <p>每个增益由触发条件、触发效果以及增益种类三部分组成</p>
-<p>其中，Dynamic为动态增益，你有机会提高该增益的数值</p>
-<blockquote>
-<p>减少数值也是有可能的...</p>
-</blockquote>
+<p>其中，Dynamic为动态增益，你有机会提高该增益的层数</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>进行到一定轮次时，不会出现Dynamic增益</p>
+<p><strong>Dynamic是有可能减少层数的</strong></p>
 </div>
-<p>Static为静态增益，该增益的数值在拿到瞬间就固定了</p>
+<p>Static为静态增益，该增益的层数在拿到瞬间就固定了</p>
 <table>
 <thead>
 <tr>
@@ -575,7 +574,7 @@
 <td>x15</td>
 </tr>
 <tr>
-<td><font color = "CCCCCC"><strong>Patient Champion</strong></font></td>
+<td><font color = CCCCCC><strong>Patient Champion</strong></font></td>
 <td>Dynamic</td>
 <td>当你总共完成了5个挑战后，获得 <code v-pre>增益效果</code></td>
 <td>-</td>
@@ -605,7 +604,7 @@
 <td>x12</td>
 </tr>
 <tr>
-<td><font color = "CCCCCC"> <strong>Retrograde Champion</strong></font></td>
+<td><font color = CCCCCC> <strong>Retrograde Champion</strong></font></td>
 <td>Static</td>
 <td>截止这次挑战前，每完成一次挑战都会获得一层 <code v-pre>增益效果</code></td>
 <td>x10</td>
