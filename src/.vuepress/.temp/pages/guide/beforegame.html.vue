@@ -33,6 +33,8 @@
 <p>Wynntils包含了游戏地图、装备鉴定度显示、特色HUD甚至自动翻译等多种功能</p>
 <p>与此同时，如果你实在懒得找客户端</p>
 <p>你可以在交流群内搜索&quot;cake&quot;，即可直接下载由大神配置好的客户端。</p>
+<p>或者在启动器内搜&quot;cake&quot;，下载Wynncraft Cakedition客户端。</p>
+<p><a href="https://modrinth.com/modpack/wynncake" target="_blank" rel="noopener noreferrer">Modrinth Cake客户端页面<ExternalLinkIcon/></a></p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <p>Wynncraft官方计划在2023年底前废弃1.15及以前的所有版本</p>
