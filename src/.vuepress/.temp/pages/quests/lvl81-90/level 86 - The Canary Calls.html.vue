@@ -54,10 +54,10 @@
 <p>第六个在<code v-pre>[-14381 18 6094]</code>，在上一个秘密记录的门口(就是木地板)往右走，沿着这条路直走，最后要用两个tnt炸开</p>
 </div>
 <p>7.在矿洞内走到最里面，然后...</p>
-<p><strong>内含跳吓</strong></p>
+<p><strong><font color = "red">内含全游戏最高规格最高质量的跳吓</font></strong></p>
 <p>跟金丝雀聊会天，选第一个选项才能继续剧情<br>
 选二三选项都会死</p>
-<p>如果你死了，你可以回到这个矿洞，<strong>然后再被跳吓一遍</strong></p>
+<p>如果你死了，你可以回到这个矿洞继续任务，<strong>然后再被跳吓一遍</strong></p>
 <p>8.击败Canary</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
