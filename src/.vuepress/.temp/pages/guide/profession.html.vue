@@ -6,22 +6,46 @@
 <img src="/assets/img/prof1.jpg" alt="" loading="lazy"></p>
 <p>副职主要分为<strong>采集</strong>和<strong>制作</strong>两大板块</p>
 <h2 id="采集" tabindex="-1"><a class="header-anchor" href="#采集" aria-hidden="true">#</a> 采集</h2>
-<p>想要提升采集等级，最开始你需要先找到<RouterLink to="/guide/npcs.html#tool-merchant">Tool Merchant</RouterLink></p>
-<p>Tool Merchant会出售1~2级的采集工具<br>
-<img src="/assets/img/prof2.jpg" alt="" loading="lazy"><br>
-从上到下为鱼竿、木斧、木镐、木锄</p>
-<p>分别对应钓鱼、伐木、挖矿和农业。</p>
-<p>更高级的工具需要通过完成地牢并使用对应的代币与绿宝石在地牢商人处兑换</p>
-<p>或直接使用交易市场进行购买。</p>
-<p>注意，等级越高的工具，使用时所需要的对应采集等级需求就越高。</p>
-<p>有了这些工具，我们就可以走到对应的地方，到了可以采集的目标附近之后，我们会看到类似于这样的字：<br>
-<img src="/assets/img/prof3.jpg" alt="" loading="lazy"></p>
-<p>此时我们使用工具左键可以获得该目标的直接产物（如木头、矿石、鱼肉、小麦）</p>
-<p>而我们右键则是会获得该目标处理过后的产物（如纸、宝石、鱼油、绳子）。而这些产物都可以用于制造业。</p>
-<p>以上介绍了四种采集，共有八种原材料。</p>
-<p>原材料分为1~3星级，一次采集中，若采集成功（成功率随采集等级提高）：</p>
-<p>89%的概率掉落1星原材料，10%的概率掉落2星原材料，1%概率掉落3星原材料。</p>
-<p>原材料的星级影响其制作出的物品的耐久度，面板数值。</p>
+<p>首先，你需要找到<RouterLink to="/guide/npcs.html#tool-merchant">Tool Merchant</RouterLink>购买1-2级的工具</p>
+<p>有了工具后，你就可以对资源进行开采了</p>
+<p>需要注意的是，对于每一类资源来说，左键与右键对应着不同的产物，在下面会有介绍</p>
+<p>采集所得到的原料都将用于制造副职中</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>截止110级前，等级每逢5的尾数将会解锁新的工具等级</p>
+<p>而每逢0的尾数将会解锁新的资源</p>
+</div>
+<p>在开采时，有概率失败。</p>
+<p>当你的工具耐久越低时，失败概率越高，失去耐久时不会得到产物</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>携带同职业的工具会导致你的开采失败概率大幅度提高！</p>
+</div>
+<p>当你开采成功后，将会得到随机品质的原料</p>
+<p>89%得到1星，10%得到2星，1%得到三星</p>
+<p>星级将会影响到制造所得到的装备属性、耐久。</p>
+<p>采集一共分为四种副职</p>
+<h3 id="mining-矿业" tabindex="-1"><a class="header-anchor" href="#mining-矿业" aria-hidden="true">#</a> Mining(矿业)</h3>
+<p><strong>左键：Ingot 右键：Gem</strong></p>
+<p>矿物资源点比较集中，一般以矿场形式呈现</p>
+<p>通常来讲，只要你看到了类似矿场一样的建筑，一般都会有矿物资源点</p>
+<h3 id="woodcuting-伐木" tabindex="-1"><a class="header-anchor" href="#woodcuting-伐木" aria-hidden="true">#</a> WoodCuting(伐木)</h3>
+<p><strong>左键：Wood 右键：Paper</strong></p>
+<p>树木资源点非常分散且非常常见，只要你能找到有森林的地方就能进行伐木</p>
+<h3 id="farming-农业" tabindex="-1"><a class="header-anchor" href="#farming-农业" aria-hidden="true">#</a> Farming(农业)</h3>
+<p><strong>左键：String 右键：Grain</strong></p>
+<p>农业资源点与矿业相似，比较集中，且一般以农田的形式呈现</p>
+<p>只要你能找到农田，一般都会有农业资源点</p>
+<h3 id="fishing-渔业" tabindex="-1"><a class="header-anchor" href="#fishing-渔业" aria-hidden="true">#</a> Fishing(渔业)</h3>
+<p><strong>左键：Oil 右键：Meat</strong></p>
+<p>与伐木资源点相似，渔业资源点非常常见</p>
+<p>只要你能找到有河流的地方，一般都能找到渔业资源点</p>
+<p>需要另外注意的是，Meat用处非常小，一般请建议只开采Oil</p>
+<h3 id="工具来源" tabindex="-1"><a class="header-anchor" href="#工具来源" aria-hidden="true">#</a> 工具来源</h3>
+<p>除了1-2级的工具可以在<RouterLink to="/guide/npcs.html#tool-merchant">Tool Merchant</RouterLink>购买以外</p>
+<p>3级及以上的工具均需要在副本商店通过副本碎片来兑换</p>
+<p>具体位置请看文末</p>
+<p>当然，你也可以通过交易市场来购买其他玩家已经兑换好的工具，不过多少都是要多花点钱的</p>
 <div class="hint-container tip">
 <p class="hint-container-title">原料对应的制作物品等级</p>
 <p>原材料分为1级，10级，20级……110级。</p>
@@ -31,16 +55,14 @@
 <p>特例为100级和110级原材料<br>
 100级原材料只能制作100-103级物品，110原材料只能制作103-105级物品。</p>
 </div>
-<div class="hint-container warning">
-<p class="hint-container-title">警告</p>
-<p>在采集过程中，你的背包不能同时存放两把相同类型的工具</p>
-<p>即使其中一把超过了你的采集等级！</p>
-<p>如果你这么做了，你的采集成功率会大幅度降低。</p>
-</div>
 <div class="hint-container tip">
-<p class="hint-container-title">关于工具耐久</p>
-<p>在工具耐久归零后，你仍然可以得到采集经验</p>
-<p>但此时你将不会得到任何采集原料</p>
+<p class="hint-container-title">提升效率的方法</p>
+<p>在有着pxp+psb(bomb)的情况下，你的采集副职练级效率将会提升至4倍</p>
+<p>因此，不是很建议在没有bomb的情况下进行副职练级</p>
+<p>关于Bombs可以看<RouterLink to="/guide/VIP.html#bombs">这一章</RouterLink></p>
+<p>同时，一些自制素材也能提供采集经验加成</p>
+<p>你可以购买素材让大佬帮忙制作带有高额采集经验加成的装备(最高可以额外提供约150%的采集经验加成)</p>
+<p>当然，这些素材和材料<strong>相当非常无比贵</strong>，请注意衡量成本</p>
 </div>
 <h2 id="制作" tabindex="-1"><a class="header-anchor" href="#制作" aria-hidden="true">#</a> 制作</h2>
 <p>在城镇中，我们会看到这样的东西，比如这个是药水制造的酿造台：</p>
@@ -300,6 +322,7 @@
 <blockquote>
 <p>数据来源：<a href="https://www.youtube.com/@Olinus10" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Olinus10<ExternalLinkIcon/></a></p>
 </blockquote>
+<p>此处推荐点基本为少干扰、安心采集的点位</p>
 <h3 id="woodcutting" tabindex="-1"><a class="header-anchor" href="#woodcutting" aria-hidden="true">#</a> Woodcutting</h3>
 <table>
 <thead>

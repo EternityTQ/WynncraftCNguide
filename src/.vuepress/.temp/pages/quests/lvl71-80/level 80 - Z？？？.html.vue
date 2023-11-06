@@ -73,7 +73,7 @@
 <p>2.出来后一路直走，来到<code v-pre>[-1914 77 -4472]</code>的洞内，将拿到的钥匙丢入漏斗内，然后触发一下机关在下面直到看到下面的洞有矿车经过</p>
 <p>3.进入旁边的矿洞，来到入口旁边的平台上<code v-pre>[-1879 80 -4422]</code>，会有一辆矿车，推它！<br>
 <img src="/assets/img/lvl80-8.jpg" alt="" loading="lazy"></p>
-<p>4.快要到铁道岔路的时候停下来，按按钮，然后快速推过岔路<br>
+<p>4.快要到铁道岔路的时候停下来，按按钮，然后快速推过左边的岔路<br>
 <img src="/assets/img/lvl80-9.jpg" alt="" loading="lazy"></p>
 <p>5.矿车推到底部后会有另一个按钮，按了之后让它弹射起步进入另一条岔路，这里需要坐上去前进，不然动力不足<br>
 <img src="/assets/img/lvl80-10.jpg" alt="" loading="lazy"></p>
@@ -81,6 +81,7 @@
 <img src="/assets/img/lvl80-11.jpg" alt="" loading="lazy"></p>
 <p>7.矿车抵达终点后下车，使用旁边的加号，此时矿车会变为TNT矿车并转移到另一条轨道上，推动矿车会开到一处岩石，炸开后进入暗门，拿到<code v-pre>Mechanical Chip</code></p>
 <p>8.来到<code v-pre>[16 120 -5634]</code>，你会看到一朵小黄花，把上一步拿到的<code v-pre>Mechanical Chip</code>丢到花上，会在旁边开启一扇门，进去经过一小段下水道来到解密区</p>
+<figure><img src="/assets/img/lvl80-16.jpg" alt="从这条山路上去" tabindex="0" loading="lazy"><figcaption>从这条山路上去</figcaption></figure>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>下水道内含跳吓</p>
@@ -90,7 +91,7 @@
 <p>10.找红色羊毛<code v-pre>[115 129 -5716]</code>丢入如图所示的装置内，进入传送装置传送至流星区域<br>
 <img src="/assets/img/lvl80-12.jpg" alt="" loading="lazy"></p>
 <p>11.拿到<code v-pre>Meteor shard</code>后进入陨石内待命<br>
-从<code v-pre>Meteor shard</code>的刷新点往下走，来到<code v-pre>[-2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
+从<code v-pre>Meteor shard</code>的刷新点往下走，来到<code v-pre>[2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>拿到<code v-pre>Meteor shard</code>之后在流星区域class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
@@ -179,7 +180,7 @@
 <p class="hint-container-title">提示</p>
 <p>建议使用Detlas传送卷轴</p>
 </div>
-<p>由一个人拿着，此时就会触发一小段剧情，由拿有物品的玩家右键屋子内的蘑菇，然后会开启暗门，进入Lab Y</p>
+<p>由拿有物品的玩家分别手持三个物品在房子内右t/键，然后会开启暗门，进入Lab Y</p>
 <p>2.在Lab Y内完成两个小解密</p>
 <p>①、见下图</p>
 <figure><img src="/assets/img/lvl80-5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -242,6 +243,11 @@
 <p>如果你没做<RouterLink to="/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html">Cluck Cluck（level 23）</RouterLink>任务，那么你在这个地方将会被困住</p>
 <p>除非使用传送卷轴或者/kill</p>
 <p>之后你可以通过这个地方使用羽毛来传送回Lab N</p>
+</div>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>在开始下个阶段前，请确保你的背包有充足的空间(建议至少保留7格)</p>
+<p>否则你将无法领取所有奖励!</p>
 </div>
 <h2 id="阶段四" tabindex="-1"><a class="header-anchor" href="#阶段四" aria-hidden="true">#</a> ??? - 阶段四</h2>
 <p><strong>这个阶段一个人就可以完成</strong></p>
