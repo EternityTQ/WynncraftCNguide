@@ -547,13 +547,13 @@
 <tr>
 <td><font color = FF55FF><strong>Bad Omen</strong></font></td>
 <td>Dynamic</td>
-<td>在这次挑战后, 每个诅咒都会获得一层 <code v-pre>增益效果</code></td>
+<td>在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 <code v-pre>增益效果</code></td>
 <td>x10</td>
 </tr>
 <tr>
 <td><font color = 5555FF><strong>Midas Touch</strong></font></td>
 <td>Dynamic</td>
-<td>在这次挑战后, 每个增益都会获得一层 <code v-pre>增益效果</code></td>
+<td>在这次挑战后, 每次获得/消除增益都会增加/减少一层 <code v-pre>增益效果</code></td>
 <td>x8</td>
 </tr>
 <tr>

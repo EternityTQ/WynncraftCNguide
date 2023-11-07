@@ -388,8 +388,8 @@ Static为静态增益，该增益的层数在拿到瞬间就固定了
 | <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | -        |
 | <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `增益效果`                      | x15        |
 | <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `增益效果`                                          | x15        |
-| <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每个诅咒都会获得一层 `增益效果`                                           | x10        |
-| <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每个增益都会获得一层 `增益效果`                                           | x8         |
+| <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `增益效果`                                           | x10        |
+| <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除增益都会增加/减少一层 `增益效果`                                           | x8         |
 | <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`，持续时间在每次击杀怪物后都会重置至60s | x100          |
 | <font color = FFCC00>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
 | <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
