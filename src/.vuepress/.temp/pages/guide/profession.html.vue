@@ -323,11 +323,13 @@
 <p>数据来源：<a href="https://www.youtube.com/@Olinus10" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Olinus10<ExternalLinkIcon/></a></p>
 </blockquote>
 <p>此处推荐点基本为少干扰、安心采集的点位</p>
+<p>对于标粗的地点名称，代表需要前置任务才可进入，通常会有+50%的采集经验加成</p>
 <h3 id="woodcutting" tabindex="-1"><a class="header-anchor" href="#woodcutting" aria-hidden="true">#</a> Woodcutting</h3>
 <table>
 <thead>
 <tr>
 <th>等级</th>
+<th>资源名称</th>
 <th>地点</th>
 <th>坐标</th>
 </tr>
@@ -335,66 +337,73 @@
 <tbody>
 <tr>
 <td>Lv.1</td>
+<td>Oak</td>
 <td>NIVLA Forest</td>
 <td><code v-pre>[-366,67,-1729]</code></td>
 </tr>
 <tr>
 <td>Lv.10</td>
+<td>Birch</td>
 <td>Detlas Suburbs</td>
 <td><code v-pre>[335,67,-1580]</code></td>
 </tr>
 <tr>
 <td>Lv.20</td>
+<td>Willow</td>
 <td>Nemract Outskirts</td>
 <td><code v-pre>[88,46,-2132]</code></td>
 </tr>
 <tr>
 <td>Lv.30</td>
+<td>Acacia</td>
 <td>Bremminglar</td>
 <td><code v-pre>[665,73,-2016]</code></td>
 </tr>
 <tr>
 <td>Lv.40</td>
+<td>Spruce</td>
 <td>Nesaak Entrance</td>
 <td><code v-pre>[85,68,-945]</code></td>
 </tr>
 <tr>
 <td>Lv.50</td>
+<td>Jungle</td>
 <td>Dernel Mansion</td>
 <td><code v-pre>[-941,23,-725]</code></td>
 </tr>
 <tr>
 <td>Lv.60</td>
+<td>Dark</td>
 <td>Dark Forest Border</td>
 <td><code v-pre>[-1387,44,-5051]</code></td>
 </tr>
 <tr>
 <td>Lv.70</td>
+<td>Light</td>
 <td>Forgery Grove</td>
 <td><code v-pre>[-856,45,-4990]</code></td>
 </tr>
 <tr>
 <td>Lv.80</td>
+<td>Pine</td>
 <td>Thesead Entrance</td>
 <td><code v-pre>[693,78,-5085]</code></td>
 </tr>
 <tr>
 <td>Lv.90</td>
+<td>Avo</td>
 <td>Lighthouse Mountain</td>
 <td><code v-pre>[-1362,122,-3029]</code></td>
 </tr>
 <tr>
 <td>Lv.100</td>
-<td>Kandon Mountain</td>
-<td><code v-pre>[750,113,-4600]</code></td>
-</tr>
-<tr>
-<td>Lv.100</td>
-<td>Wybel Island</td>
-<td><code v-pre>[1296,66,-4693]</code></td>
+<td>Sky</td>
+<td>Kandon Mountain<br>Wybel Island</td>
+<td><code v-pre>[750,113,-4600]</code><br><code v-pre>[1296,66,-4693]</code></td>
 </tr>
 <tr>
 <td>Lv.110</td>
+<td>Dernic</td>
 <td>Lutho Gate</td>
 <td><code v-pre>[971,74,-628]</code></td>
 </tr>
@@ -405,6 +414,7 @@
 <thead>
 <tr>
 <th>等级</th>
+<th>资源名称</th>
 <th>地点</th>
 <th>坐标</th>
 </tr>
@@ -412,66 +422,73 @@
 <tbody>
 <tr>
 <td>Lv.1</td>
+<td>Wheat</td>
 <td>Ragni Wheat Fields</td>
 <td><code v-pre>[-776,67,-1736]</code></td>
 </tr>
 <tr>
 <td>Lv.10</td>
+<td>Barley</td>
 <td>Durum Isles</td>
 <td><code v-pre>[541,35,-2956]</code></td>
 </tr>
 <tr>
 <td>Lv.20</td>
+<td>Oat</td>
 <td>Durum Isles</td>
 <td><code v-pre>[500,35,-2838]</code></td>
 </tr>
 <tr>
 <td>Lv.30</td>
+<td>Malt</td>
 <td>Durum Isles</td>
 <td><code v-pre>[385,35,-2836]</code></td>
 </tr>
 <tr>
 <td>Lv.40</td>
+<td>Hops</td>
 <td>Olux Farms</td>
 <td><code v-pre>[-1630,51,-5428]</code></td>
 </tr>
 <tr>
 <td>Lv.50</td>
-<td>Wormhole Farms</td>
-<td><code v-pre>[-2068,53,-5462]</code></td>
-</tr>
-<tr>
-<td>Lv.50/60</td>
-<td>Forgotten Burrows</td>
-<td><code v-pre>[-2041,57,-5388]</code></td>
+<td>Rye</td>
+<td>Wormhole Farms<br><strong>Forgotten Burrows</strong></td>
+<td><code v-pre>[-2068,53,-5462]</code><br><code v-pre>[-2041,57,-5388]</code></td>
 </tr>
 <tr>
 <td>Lv.60</td>
-<td>Forgery Farms</td>
-<td><code v-pre>[-724,44,-5014]</code></td>
+<td>Millet</td>
+<td>Forgery Farms<br><strong>Forgotten Burrows</strong></td>
+<td><code v-pre>[-724,44,-5014]</code><br><code v-pre>[-2041,57,-5388]</code></td>
 </tr>
 <tr>
 <td>Lv.70</td>
+<td>Decay Roots</td>
 <td>Forgery Farms</td>
 <td><code v-pre>[-724,44,-5014]</code></td>
 </tr>
 <tr>
 <td>Lv.80</td>
+<td>Rice</td>
 <td>Hobgoblin Fields</td>
 <td><code v-pre>[79,42,-4838]</code></td>
 </tr>
 <tr>
 <td>Lv.90</td>
+<td>Sorghum</td>
 <td>Lighthouse Farm</td>
 <td><code v-pre>[-1378,123,-3013]</code></td>
 </tr>
 <tr>
 <td>Lv.100</td>
+<td>Hemp</td>
 <td>Kandon Caverns</td>
 <td><code v-pre>[850,40,-4423]</code></td>
 </tr>
 <tr>
 <td>Lv.110</td>
+<td>Dernic Seed</td>
 <td>Void Valley Upper</td>
 <td><code v-pre>[1089,135,-1130]</code></td>
 </tr>
@@ -482,6 +499,7 @@
 <thead>
 <tr>
 <th>等级</th>
+<th>资源名称</th>
 <th>地点</th>
 <th>坐标</th>
 </tr>
@@ -489,76 +507,73 @@
 <tbody>
 <tr>
 <td>Lv.1</td>
+<td>Copper</td>
 <td>Ragni Mine</td>
 <td><code v-pre>[-572,69,-1556]</code></td>
 </tr>
 <tr>
 <td>Lv.10</td>
+<td>Granite</td>
 <td>Corrupted Mines</td>
 <td><code v-pre>[786,86,-1242]</code></td>
 </tr>
 <tr>
 <td>Lv.20</td>
+<td>Gold</td>
 <td>Corrupted Mines</td>
 <td><code v-pre>[685,89,-1217]</code></td>
 </tr>
 <tr>
 <td>Lv.30</td>
+<td>Sandstone</td>
 <td>Bandit Barracks</td>
 <td><code v-pre>[1478,91,-2178]</code></td>
 </tr>
 <tr>
 <td>Lv.40</td>
-<td>Nesaak Mountain Side</td>
-<td><code v-pre>[260,89,-700]</code></td>
-</tr>
-<tr>
-<td>Lv.40</td>
-<td>Karoc Quarry</td>
-<td><code v-pre>[-1655,76,-4347]</code></td>
+<td>Iron</td>
+<td>Nesaak Mountain Side<br><strong>Karoc Quarry</strong></td>
+<td><code v-pre>[260,89,-700]</code><br><code v-pre>[-1655,76,-4347]</code></td>
 </tr>
 <tr>
 <td>Lv.50</td>
+<td>Silver</td>
 <td>Troms Silver Mine</td>
 <td><code v-pre>[-620,83,-1009]</code></td>
 </tr>
 <tr>
 <td>Lv.60</td>
+<td>Cobalt</td>
 <td>Olux River Source</td>
 <td><code v-pre>[-1444,48,-5367]</code></td>
 </tr>
 <tr>
 <td>Lv.70</td>
+<td>Kanderstone</td>
 <td>Prison Caverns</td>
 <td><code v-pre>[-790,108,-5628]</code></td>
 </tr>
 <tr>
 <td>Lv.80</td>
-<td>Colossus Mines</td>
-<td><code v-pre>[560,120,-4355]</code></td>
-</tr>
-<tr>
-<td>Lv.80/90</td>
-<td>Maex Mine</td>
-<td><code v-pre>[1535,61,-5339]</code></td>
+<td>Diamond</td>
+<td>Colossus Mines<br><strong>Maex Mine</strong></td>
+<td><code v-pre>[560,120,-4355]</code><br><code v-pre>[1535,61,-5339]</code></td>
 </tr>
 <tr>
 <td>Lv.90</td>
-<td>Molten Upper Mine</td>
-<td><code v-pre>[1433,142,-5106]</code></td>
+<td>Molten</td>
+<td><strong>Maex Mine</strong><br>Molten Upper Mine</td>
+<td><code v-pre>[1535,61,-5339]</code><br><code v-pre>[1433,142,-5106]</code></td>
 </tr>
 <tr>
 <td>Lv.100</td>
-<td>Sky Caverns</td>
-<td><code v-pre>[872,34,-4775]</code></td>
-</tr>
-<tr>
-<td>Lv.100</td>
-<td>Kandon Beda Cave</td>
-<td><code v-pre>[850,40,-4423]</code></td>
+<td>Voidstone</td>
+<td>Sky Caverns<br>Kandon Beda Cave</td>
+<td><code v-pre>[872,34,-4775]</code><br><code v-pre>[850,40,-4423]</code></td>
 </tr>
 <tr>
 <td>Lv.110</td>
+<td>Dernic</td>
 <td>Olmic Mine</td>
 <td><code v-pre>[492,93,-525]</code></td>
 </tr>
@@ -569,6 +584,7 @@
 <thead>
 <tr>
 <th>等级</th>
+<th>资源名称</th>
 <th>地点</th>
 <th>坐标</th>
 </tr>
@@ -576,71 +592,73 @@
 <tbody>
 <tr>
 <td>Lv.1</td>
+<td>Gudgeon</td>
 <td>Ragni Pond</td>
 <td><code v-pre>[-634,67,-1536]</code></td>
 </tr>
 <tr>
 <td>Lv.10</td>
+<td>Trout</td>
 <td>Wynn Plains River</td>
 <td><code v-pre>[53,58,-1494]</code></td>
 </tr>
 <tr>
 <td>Lv.20</td>
+<td>Salmon</td>
 <td>Saint’s Row Beach</td>
 <td><code v-pre>[371,34,-2126]</code></td>
 </tr>
 <tr>
 <td>Lv.30</td>
+<td>Carp</td>
 <td>Desert River Source</td>
 <td><code v-pre>[1182,154,-2248]</code></td>
 </tr>
 <tr>
 <td>Lv.40</td>
+<td>Icefish</td>
 <td>Nodguj Island</td>
 <td><code v-pre>[891,34,-3372]</code></td>
 </tr>
 <tr>
 <td>Lv.50</td>
-<td>Iboju Waterfall</td>
-<td><code v-pre>[-780,74,-724]</code></td>
-</tr>
-<tr>
-<td>Lv.50</td>
-<td>Forgotten Burrows</td>
-<td><code v-pre>[-2041,57,-5388]</code></td>
+<td>Piranha</td>
+<td>Iboju Waterfall<br>Forgotten Burrows</td>
+<td><code v-pre>[-780,74,-724]</code><br><code v-pre>[-2041,57,-5388]</code></td>
 </tr>
 <tr>
 <td>Lv.60</td>
+<td>Koi</td>
 <td>Willow Pond</td>
 <td><code v-pre>[-1303,51,-5194]</code></td>
 </tr>
 <tr>
 <td>Lv.70</td>
+<td>Gylia Fish</td>
 <td>Lake Gylia</td>
 <td><code v-pre>[-207,29,-5204]</code></td>
 </tr>
 <tr>
 <td>Lv.80</td>
+<td>Bass</td>
 <td>Relos Coast</td>
 <td><code v-pre>[-1860,37,-2191]</code></td>
 </tr>
 <tr>
 <td>Lv.90</td>
-<td>Molten Heights Lake</td>
-<td><code v-pre>[1435,139,-5091]</code></td>
-</tr>
-<tr>
-<td>Lv.90</td>
-<td>Maex Mine</td>
-<td><code v-pre>[1535,61,-5339]</code></td>
+<td>Molten Eel</td>
+<td>Molten Heights Lake<br>Maex Mine</td>
+<td><code v-pre>[1435,139,-5091]</code><br><code v-pre>[1535,61,-5339]</code></td>
 </tr>
 <tr>
 <td>Lv.100</td>
+<td>Starfish</td>
 <td>Kandon Pond Lower</td>
 <td><code v-pre>[689,88,-4605]</code></td>
 </tr>
 <tr>
 <td>Lv.110</td>
+<td>Dernic Fish</td>
 <td>Toxic Hill Upper</td>
 <td><code v-pre>[786,148,-983]</code></td>
 </tr>

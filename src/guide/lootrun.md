@@ -11,7 +11,6 @@ pageview: true
 + Dawnbreak 
 + Apocalypse 
 + Oblivion 
-+ Idol 
 + Insulator 
 + Simulator
 
@@ -21,7 +20,6 @@ pageview: true
 + Singularity
 + Az
 + Cataclysm
-+ Immolation
 + Insulator
 + Simulator
 
@@ -31,7 +29,6 @@ pageview: true
 + Crusade Sabatons
 + Warp
 + Apocalypse
-+ Lament
 + Insulator
 
 @tab Molten Heights Hike
@@ -41,8 +38,6 @@ pageview: true
 + Revenant
 + Collapse
 + Archangel
-+ Resurgence
-+ Insulator
 + Simulator
 :::
 首先先解释一下，何谓lootrun?

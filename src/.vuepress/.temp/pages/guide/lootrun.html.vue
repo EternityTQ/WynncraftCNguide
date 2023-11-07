@@ -11,7 +11,6 @@
 <li>Dawnbreak</li>
 <li>Apocalypse</li>
 <li>Oblivion</li>
-<li>Idol</li>
 <li>Insulator</li>
 <li>Simulator</li>
 </ul>
@@ -23,7 +22,6 @@
 <li>Singularity</li>
 <li>Az</li>
 <li>Cataclysm</li>
-<li>Immolation</li>
 <li>Insulator</li>
 <li>Simulator</li>
 </ul>
@@ -35,7 +33,6 @@
 <li>Crusade Sabatons</li>
 <li>Warp</li>
 <li>Apocalypse</li>
-<li>Lament</li>
 <li>Insulator</li>
 </ul>
 </template>
@@ -47,8 +44,6 @@
 <li>Revenant</li>
 <li>Collapse</li>
 <li>Archangel</li>
-<li>Resurgence</li>
-<li>Insulator</li>
 <li>Simulator</li>
 </ul>
 </template>

@@ -198,81 +198,76 @@ icon: flask
 
 此处推荐点基本为少干扰、安心采集的点位
 
+对于标粗的地点名称，代表需要前置任务才可进入，通常会有+50%的采集经验加成
+
 ### Woodcutting
-| 等级 | 地点                   | 坐标                |
-|------|------------------------|---------------------|
-| Lv.1    | NIVLA Forest           | `[-366,67,-1729]`   |
-| Lv.10   | Detlas Suburbs         | `[335,67,-1580]`    |
-| Lv.20   | Nemract Outskirts      | `[88,46,-2132]`     |
-| Lv.30   | Bremminglar            | `[665,73,-2016]`    |
-| Lv.40   | Nesaak Entrance        | `[85,68,-945]`      |
-| Lv.50   | Dernel Mansion         | `[-941,23,-725]`    |
-| Lv.60   | Dark Forest Border     | `[-1387,44,-5051]`  |
-| Lv.70   | Forgery Grove          | `[-856,45,-4990]`   |
-| Lv.80   | Thesead Entrance       | `[693,78,-5085]`    |
-| Lv.90   | Lighthouse Mountain    | `[-1362,122,-3029]` |
-| Lv.100  | Kandon Mountain        | `[750,113,-4600]`   |
-| Lv.100  | Wybel Island           | `[1296,66,-4693]`   |
-| Lv.110  | Lutho Gate             | `[971,74,-628]`     |
+| 等级 | 资源名称 | 地点                   | 坐标                |
+|------|-----|-------------------|---------------------|
+| Lv.1    | Oak |NIVLA Forest           | `[-366,67,-1729]`   |
+| Lv.10   | Birch | Detlas Suburbs         | `[335,67,-1580]`    |
+| Lv.20   | Willow | Nemract Outskirts      | `[88,46,-2132]`     |
+| Lv.30   | Acacia | Bremminglar            | `[665,73,-2016]`    |
+| Lv.40   | Spruce | Nesaak Entrance        | `[85,68,-945]`      |
+| Lv.50   | Jungle | Dernel Mansion         | `[-941,23,-725]`    |
+| Lv.60   | Dark | Dark Forest Border     | `[-1387,44,-5051]`  |
+| Lv.70   | Light | Forgery Grove          | `[-856,45,-4990]`   |
+| Lv.80   | Pine | Thesead Entrance       | `[693,78,-5085]`    |
+| Lv.90   | Avo | Lighthouse Mountain    | `[-1362,122,-3029]` |
+| Lv.100  | Sky | Kandon Mountain<br>Wybel Island        | `[750,113,-4600]`<br>`[1296,66,-4693]`   |
+| Lv.110  | Dernic | Lutho Gate             | `[971,74,-628]`     |
 
 
 	
 ### Farming
-| 等级   | 地点                   | 坐标                   |
-|--------|------------------------|------------------------|
-| Lv.1   | Ragni Wheat Fields     | `[-776,67,-1736]`      |
-| Lv.10  | Durum Isles            | `[541,35,-2956]`       |
-| Lv.20  | Durum Isles            | `[500,35,-2838]`       |
-| Lv.30  | Durum Isles            | `[385,35,-2836]`       |
-| Lv.40  | Olux Farms             | `[-1630,51,-5428]`     |
-| Lv.50  | Wormhole Farms         | `[-2068,53,-5462]`     |
-| Lv.50/60 | Forgotten Burrows     | `[-2041,57,-5388]`     |
-| Lv.60  | Forgery Farms          | `[-724,44,-5014]`      |
-| Lv.70  | Forgery Farms          | `[-724,44,-5014]`      |
-| Lv.80  | Hobgoblin Fields       | `[79,42,-4838]`        |
-| Lv.90  | Lighthouse Farm        | `[-1378,123,-3013]`    |
-| Lv.100 | Kandon Caverns         | `[850,40,-4423]`       |
-| Lv.110 | Void Valley Upper      | `[1089,135,-1130]`     |
+| 等级   | 资源名称 |地点                   | 坐标                   |
+|--------|---|---------------------|------------------------|
+| Lv.1   | Wheat |Ragni Wheat Fields     | `[-776,67,-1736]`      |
+| Lv.10  | Barley |Durum Isles            | `[541,35,-2956]`       |
+| Lv.20  | Oat |Durum Isles            | `[500,35,-2838]`       |
+| Lv.30  | Malt |Durum Isles            | `[385,35,-2836]`       |
+| Lv.40  | Hops |Olux Farms             | `[-1630,51,-5428]`     |
+| Lv.50  | Rye |Wormhole Farms<br>**Forgotten Burrows**         | `[-2068,53,-5462]`<br>`[-2041,57,-5388]`     |
+| Lv.60  | Millet |Forgery Farms<br>**Forgotten Burrows**          | `[-724,44,-5014]`<br>`[-2041,57,-5388]`      |
+| Lv.70  | Decay Roots |Forgery Farms          | `[-724,44,-5014]`      |
+| Lv.80  | Rice |Hobgoblin Fields       | `[79,42,-4838]`        |
+| Lv.90  | Sorghum |Lighthouse Farm        | `[-1378,123,-3013]`    |
+| Lv.100 | Hemp |Kandon Caverns         | `[850,40,-4423]`       |
+| Lv.110 | Dernic Seed	 |Void Valley Upper      | `[1089,135,-1130]`     |
 
 
 
 ### Mining
-| 等级   | 地点                   | 坐标                   |
-|--------|------------------------|------------------------|
-| Lv.1   | Ragni Mine             | `[-572,69,-1556]`      |
-| Lv.10  | Corrupted Mines        | `[786,86,-1242]`       |
-| Lv.20  | Corrupted Mines        | `[685,89,-1217]`       |
-| Lv.30  | Bandit Barracks        | `[1478,91,-2178]`      |
-| Lv.40  | Nesaak Mountain Side   | `[260,89,-700]`        |
-| Lv.40  | Karoc Quarry           | `[-1655,76,-4347]`     |
-| Lv.50  | Troms Silver Mine      | `[-620,83,-1009]`      |
-| Lv.60  | Olux River Source      | `[-1444,48,-5367]`     |
-| Lv.70  | Prison Caverns         | `[-790,108,-5628]`     |
-| Lv.80  | Colossus Mines         | `[560,120,-4355]`      |
-| Lv.80/90 | Maex Mine             | `[1535,61,-5339]`      |
-| Lv.90  | Molten Upper Mine      | `[1433,142,-5106]`     |
-| Lv.100 | Sky Caverns            | `[872,34,-4775]`       |
-| Lv.100 | Kandon Beda Cave       | `[850,40,-4423]`       |
-| Lv.110 | Olmic Mine             | `[492,93,-525]`        |
+| 等级   | 资源名称 | 地点                   | 坐标                   |
+|--------|---|---------------------|------------------------|
+| Lv.1   | Copper |Ragni Mine             | `[-572,69,-1556]`      |
+| Lv.10  | Granite |Corrupted Mines        | `[786,86,-1242]`       |
+| Lv.20  | Gold |Corrupted Mines        | `[685,89,-1217]`       |
+| Lv.30  | Sandstone | Bandit Barracks        | `[1478,91,-2178]`      |
+| Lv.40  | Iron |Nesaak Mountain Side<br>**Karoc Quarry**   | `[260,89,-700]`<br>`[-1655,76,-4347]`        |
+| Lv.50  | Silver | Troms Silver Mine      | `[-620,83,-1009]`      |
+| Lv.60  | Cobalt | Olux River Source      | `[-1444,48,-5367]`     |
+| Lv.70  | Kanderstone |Prison Caverns         | `[-790,108,-5628]`     |
+| Lv.80  | Diamond |Colossus Mines<br>**Maex Mine**          | `[560,120,-4355]`<br>`[1535,61,-5339]`      |
+| Lv.90 | Molten | **Maex Mine**<br>Molten Upper Mine    | `[1535,61,-5339]`<br>`[1433,142,-5106]`      |
+| Lv.100 | Voidstone | Sky Caverns<br>Kandon Beda Cave   | `[872,34,-4775]`<br>`[850,40,-4423]`       |
+| Lv.110 | Dernic | Olmic Mine             | `[492,93,-525]`        |
 
 
 ### Fishing
-| 等级   | 地点                   | 坐标                   |
-|--------|------------------------|------------------------|
-| Lv.1   | Ragni Pond             | `[-634,67,-1536]`      |
-| Lv.10  | Wynn Plains River      | `[53,58,-1494]`        |
-| Lv.20  | Saint’s Row Beach      | `[371,34,-2126]`       |
-| Lv.30  | Desert River Source    | `[1182,154,-2248]`     |
-| Lv.40  | Nodguj Island          | `[891,34,-3372]`       |
-| Lv.50  | Iboju Waterfall        | `[-780,74,-724]`       |
-| Lv.50  | Forgotten Burrows      | `[-2041,57,-5388]`     |
-| Lv.60  | Willow Pond            | `[-1303,51,-5194]`     |
-| Lv.70  | Lake Gylia             | `[-207,29,-5204]`      |
-| Lv.80  | Relos Coast            | `[-1860,37,-2191]`     |
-| Lv.90  | Molten Heights Lake    | `[1435,139,-5091]`     |
-| Lv.90  | Maex Mine              | `[1535,61,-5339]`      |
-| Lv.100 | Kandon Pond Lower      | `[689,88,-4605]`       |
-| Lv.110 | Toxic Hill Upper       | `[786,148,-983]`       |
+| 等级   | 资源名称 | 地点                   | 坐标                   |
+|--------|-----|-------------------|------------------------|
+| Lv.1   | Gudgeon |Ragni Pond             | `[-634,67,-1536]`      |
+| Lv.10  | Trout |Wynn Plains River      | `[53,58,-1494]`        |
+| Lv.20  | Salmon |Saint’s Row Beach      | `[371,34,-2126]`       |
+| Lv.30  | Carp |Desert River Source    | `[1182,154,-2248]`     |
+| Lv.40  | Icefish |Nodguj Island          | `[891,34,-3372]`       |
+| Lv.50  | Piranha |Iboju Waterfall<br>Forgotten Burrows        | `[-780,74,-724]`<br>`[-2041,57,-5388]`       |
+| Lv.60  | Koi |Willow Pond            | `[-1303,51,-5194]`     |
+| Lv.70  | Gylia Fish |Lake Gylia             | `[-207,29,-5204]`      |
+| Lv.80  | Bass |Relos Coast            | `[-1860,37,-2191]`     |
+| Lv.90  | Molten Eel |Molten Heights Lake<br>Maex Mine    | `[1435,139,-5091]`<br>`[1535,61,-5339]`     |
+| Lv.100 | Starfish |Kandon Pond Lower      | `[689,88,-4605]`       |
+| Lv.110 | Dernic Fish |Toxic Hill Upper       | `[786,148,-983]`       |
 
 ### Tools
 | 等级 | 地点                  | 花费            |
