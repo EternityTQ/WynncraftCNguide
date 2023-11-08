@@ -1,7 +1,7 @@
 <template><div><p>在指南针界面的左侧，你可以打开技能树</p>
 <figure><img src="/assets/img/tree1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2 id="基础介绍" tabindex="-1"><a class="header-anchor" href="#基础介绍" aria-hidden="true">#</a> 基础介绍</h2>
-<p>随着战斗等级的提升，你将会慢慢得到技能带你</p>
+<p>随着战斗等级的提升，你将会慢慢得到技能点</p>
 <p>一个能力一般会消耗1-2个技能点</p>
 <p>通常来说，白色小能力以及技能会消耗1点技能点，其余大能力会消耗1-2技能点不等</p>
 <p>一个职业的技能树通常分为三个流派，但是介于wynncraft技能树的设计，你不一定需要一条线路往死里点</p>
