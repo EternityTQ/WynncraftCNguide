@@ -1,1 +1,0 @@
-import{_ as t}from"./plugin-vue_export-helper-c27b6911.js";import{o,c as n,d as e}from"./app-f36a6bb4.js";const _={},s=e("p",null,"这里是游戏指南",-1),c=e("p",null,"你可以找到这个游戏的一些系统机制讲解以及发展建议",-1),l=e("p",null,"请从左侧侧边栏进入文章",-1),r=[s,c,l];function d(i,a){return o(),n("div",null,r)}const p=t(_,[["render",d],["__file","index.html.vue"]]);export{p as default};
