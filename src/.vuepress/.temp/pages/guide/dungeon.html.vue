@@ -1,9 +1,4 @@
-<template><div><div class="hint-container warning">
-<p class="hint-container-title">待施工的页面！</p>
-<p>此页面内容尚在施工</p>
-<p>请知悉！</p>
-</div>
-<p>在游戏中，地牢(dungeon)是一种获取经验值以及装备、材料的重要途径。</p>
+<template><div><p>在游戏中，地牢(dungeon)是一种获取经验值以及装备、材料的重要途径。</p>
 <p>你可以在旅途上解锁各类地牢</p>
 <p>地牢可容纳的玩家无上限，但是每把钥匙只能给4名玩家进入权限</p>
 <p><strong>强烈建议叫朋友一起下地牢，大部分地牢对于推荐等级来说仍然有些困难。</strong></p>
@@ -14,13 +9,31 @@
 <p>如果你想查找RAID，可以到<RouterLink to="/guide/raid.html">这一章</RouterLink></p>
 </div>
 <h2 id="总体介绍" tabindex="-1"><a class="header-anchor" href="#总体介绍" aria-hidden="true">#</a> 总体介绍</h2>
-<p>每个地牢都包含有战斗、跑酷</p>
+<h3 id="进入地牢前" tabindex="-1"><a class="header-anchor" href="#进入地牢前" aria-hidden="true">#</a> 进入地牢前</h3>
+<p>玩家群体间交流副本往往用简称的形式，即副本名称的首字母大写</p>
 <p>地牢门口一般都会有药水商人的副本商人</p>
-<p>药水商人会以在城镇中贵一截的价格出售治疗药水</p>
+<p>药水商人会以在城镇中贵一截(数倍?)的价格出售治疗药水</p>
 <p>副本商人会出售副本特色武器装备以及部分道具</p>
-<p>地牢在通关时，会给予一定的经验值以及1个地牢核心和3个地牢碎片<br>
-地牢核心可以兑换武器和装备，地牢碎片可以兑换一些道具以及采集工具<br>
-需要注意的是，地牢核心与地牢碎片仅可用于对应的地牢！</p>
+<p>在进入地牢前，你需要准备钥匙(相当于入场券)</p>
+<p>钥匙一般可以在副本对应等级的区域(不一定要在副本周围)通过击杀钥匙怪(Key Guardian)来获取</p>
+<p>一把钥匙可供4名玩家使用，提交给<em>Key Collector</em>后在1分钟内进入即可</p>
+<blockquote>
+<p>其实也不一定要给4名不同的玩家...你在1分钟内不小心死出来了也能继续用...</p>
+</blockquote>
+<h3 id="进入地牢" tabindex="-1"><a class="header-anchor" href="#进入地牢" aria-hidden="true">#</a> 进入地牢</h3>
+<p>每个地牢都包含有一定的战斗、跑酷元素</p>
+<p>玩家需要通过线性小关卡，直至击败BOSS</p>
+<p>战斗元素一般为收集怪物的掉落物(Token，黄色/蓝色小方块)，将其提交到指定地点</p>
+<p>跑酷元素就很好理解了，跑到终点就是了</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>地牢中没有复活机会</p>
+<p>一旦死亡，将会直接遣回地牢入口处！</p>
+<p>同时，进入BOSS房后离线或切换存档同样会导致直接遣回入口处！</p>
+</div>
+<h3 id="完成地牢" tabindex="-1"><a class="header-anchor" href="#完成地牢" aria-hidden="true">#</a> 完成地牢</h3>
+<p>地牢在通关时，会给予经验值以及1个对应的地牢核心和3个对应的地牢碎片</p>
+<p>地牢核心可以兑换武器和装备，地牢碎片可以兑换一些道具以及采集工具</p>
 <p>地牢关底经验值能够受到任何经验加成的增幅</p>
 <p>对于每个地牢，入场等级是建议等级的-5级<br>
 例如89级的地牢在84级就可以进入了</p>
@@ -28,26 +41,18 @@
 <p class="hint-container-title">注意</p>
 <p>玩家等级若高于推荐等级过多，则会大幅降低关底经验奖励！</p>
 </div>
-<p>玩家群体间交流副本往往用简称的形式，即副本名称的首字母大写</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>高级采集工具来源全都是通过地牢碎片+绿宝石兑换</p>
 <p>强烈建议保留所有地牢碎片，以便之后升采集等级时可以随手拿去换</p>
 </div>
-<div class="hint-container tip">
-<p class="hint-container-title">关于副本装备</p>
-<p>一些副本装备其实非常强力</p>
-<p>如果你实在没有合适的装备，可以考虑刷一套在副本商店内出售的武器装备！</p>
-<p>下文中的推荐装备角度是从经验加成以及高属性饰品来考虑的</p>
-<p>如果你实在没有合适的装备，不用管推荐，直接换！</p>
-</div>
-<div class="hint-container danger">
-<p class="hint-container-title">警告</p>
-<p>地牢中没有复活机会</p>
-<p>一旦死亡，将会直接遣回地牢入口处！</p>
-<p>同时，进入BOSS房后离线或切换存档将会导致直接遣回入口处！</p>
-</div>
 <h2 id="常规地牢" tabindex="-1"><a class="header-anchor" href="#常规地牢" aria-hidden="true">#</a> 常规地牢</h2>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>介于地牢的特殊性质(基本都是无脑跑酷/战斗)</p>
+<p>下面并不会给出具体的攻略(因为也完全没必要吧...)</p>
+<p>只会对每个地牢的特点、注意点进行介绍</p>
+</div>
 <h3 id="decrepit-sewers" tabindex="-1"><a class="header-anchor" href="#decrepit-sewers" aria-hidden="true">#</a> Decrepit Sewers</h3>
 <p>建议等级: lvl 9<br>
 入场等级: lvl 5<br>
@@ -57,8 +62,6 @@
 <p>DS一般都是玩家第一个会遇到的地牢</p>
 <p>没啥难度，你只需要保证你身上的装备都是跟你等级差不多的就行了！</p>
 <p>记得带足血药！关底boss稍微有一点痛，大概</p>
-<p>推荐兑换：<br>
-<code v-pre>Witherhead's Talisman</code>(吊坠)——1个副本核心</p>
 <h3 id="infested-pit" tabindex="-1"><a class="header-anchor" href="#infested-pit" aria-hidden="true">#</a> Infested Pit</h3>
 <p>建议等级：lvl 18<br>
 入场等级：lvl 14<br>
@@ -67,7 +70,6 @@
 简称：IP</p>
 <p>在2.0.3更新中，IP的前置任务加了一堆前置的前置，导致不做任务的新手大概率会错过这个地牢<code v-pre>:(</code></p>
 <p>副本依旧没有什么难度，最终BOSS血量厚，攻击低，慢慢磨就行了</p>
-<p>推荐兑换：无</p>
 <h3 id="underworld-crypt" tabindex="-1"><a class="header-anchor" href="#underworld-crypt" aria-hidden="true">#</a> Underworld Crypt</h3>
 <p>建议等级：lvl 24<br>
 入场等级：lvl 21<br>
@@ -79,7 +81,6 @@
 <p>最终BOSS算是玩家流程上第一个会遇到的带有机制的BOSS，如果DPS不足以快速击杀，则需要处理机制</p>
 <p>当最终BOSS说出<code v-pre>Rise my minions!  An undead army at my service, do you really think you stand a chance?</code>时，周围会出现若干坟墓，右键封闭，否则会出现召唤物</p>
 <p>其他的机制基本都是范围攻击，开粒子效果看着躲就行了</p>
-<p>推荐兑换：无</p>
 <h3 id="timelost-sanctum" tabindex="-1"><a class="header-anchor" href="#timelost-sanctum" aria-hidden="true">#</a> Timelost Sanctum</h3>
 <p>建议等级：lvl 27<br>
 入场等级：lvl 22<br>
@@ -91,10 +92,6 @@
 <p>和其他地牢完全不同，由四个可自由选择挑战顺序的小关和一个最终关卡组成，如果几个人一起打的话，可以分散开来挑战，效率比较高</p>
 <p>锐评就是 跑酷很折磨人...其他没啥难度</p>
 <p>BOSS注意不要掉下去了，会拆地板</p>
-<p>推荐兑换：<br>
-<code v-pre>Gold Digger</code>(裤子)——3个副本核心<br>
-<code v-pre>Field</code>(戒指)——5个副本核心</p>
-<p>注：尽管这两件属性还不错，但是依然不建议刷这个副本，钥匙比较难以获得</p>
 <h3 id="sand-swept-tomb" tabindex="-1"><a class="header-anchor" href="#sand-swept-tomb" aria-hidden="true">#</a> Sand-Swept Tomb</h3>
 <p>建议等级：lvl 36<br>
 入场等级：lvl 33<br>
@@ -105,38 +102,67 @@
 <p>注意里面内含单刷阶段，如果带人的话可能会面临单刷打不过的风险</p>
 <p>跑酷比较折磨人，很耗时间</p>
 <p>BOSS内含多阶段</p>
-<p>推荐兑换：无</p>
 <h3 id="ice-barrows" tabindex="-1"><a class="header-anchor" href="#ice-barrows" aria-hidden="true">#</a> Ice Barrows</h3>
-<p>建议等级：<br>
-入场等级：<br>
-前置任务：<br>
-坐标：<br>
-简称：</p>
+<p>建议等级：lvl 45<br>
+入场等级：lvl 43<br>
+前置任务：<RouterLink to="/quests/lvl41-50/level%2043%20-%20Fate%20of%20the%20Fallen.html">Fate of the Fallen (level 43)</RouterLink><br>
+坐标：<code v-pre>[131 86 -664]</code><br>
+简称：IB</p>
 <p>第一次打非常浪费时间的副本</p>
+<p>战斗部分没什么需要注意的，但是两个跑酷关卡都千万不要轻敌</p>
+<p>第二个跑酷关卡需要注意：从入口方向直走，一直走到眼球处，然后跟着眼球的方向拐弯走</p>
+<p>第二小关是跟着眼球走后，需要拐一次弯</p>
+<p>大概路线看下图<br>
+<img src="/assets/img/ib.jpg" alt="" loading="lazy"></p>
 <h3 id="undergrowth-ruins" tabindex="-1"><a class="header-anchor" href="#undergrowth-ruins" aria-hidden="true">#</a> Undergrowth Ruins</h3>
-<p>建议等级：<br>
-入场等级：<br>
-前置任务：<br>
-坐标：<br>
-简称：</p>
+<p>建议等级：lvl 54<br>
+入场等级：lvl 52<br>
+前置任务：<RouterLink to="/quests/lvl51-60/level%2052%20-%20Corrupted%20Betrayal.html">Corrupted Betrayal (level 52)</RouterLink><br>
+坐标：<code v-pre>[-638 59 -869]</code><br>
+简称：UR</p>
+<p>与IB相同，战斗方面没什么需要注意的，但是跑酷比较蛋疼</p>
+<p>如果你有较高的延迟，那么攻略UR可能难度较高(...)</p>
+<p>UR的跑酷部分全部由史莱姆踏板组成，当你贴到墙面的史莱姆块，你会被沿着相同的方向弹飞</p>
+<p>但是！这个过程如果你延迟较高，会非常坐牢...</p>
+<p>建议适当使用位移技能逃课...</p>
 <h3 id="galleon-s-graveyard" tabindex="-1"><a class="header-anchor" href="#galleon-s-graveyard" aria-hidden="true">#</a> Galleon's Graveyard</h3>
-<p>建议等级：<br>
-入场等级：<br>
-前置任务：<br>
-坐标：<br>
-简称：</p>
+<p>建议等级：lvl 63<br>
+入场等级：lvl 61<br>
+前置任务：<RouterLink to="/quests/lvl61-70/level%2061%20-%20Redbeard's%20Booty.html">Redbeard's Booty (level 61)</RouterLink><br>
+坐标：<code v-pre>[-587 39 -3535]</code><br>
+简称：GG</p>
+<p>现在可能和IP一样是存在感极低的地牢...</p>
+<p>唯一一个拥有故事模式、speedrun数据的地牢(cgg甚至都没这东西)</p>
+<p>目前第一关似乎有点小BUG，至少编者莫名其妙跳关了...</p>
+<p>没有跑酷元素，反而是小游戏元素居多</p>
+<p>如果是在没有游泳的版本游玩服务器的话，会有&quot;假游泳&quot;，水中疾跑即可拥有高版本游泳的速度</p>
+<p>在大炮环节，建议换个比较流畅的线路，否则你可能会被极大的出怪量和极高的延迟创死..</p>
+<p>建议提前预判！</p>
+<p>其他没什么好说的了，比较简单</p>
 <h3 id="fallen-factory" tabindex="-1"><a class="header-anchor" href="#fallen-factory" aria-hidden="true">#</a> Fallen Factory</h3>
-<p>建议等级：<br>
-入场等级：<br>
-前置任务：<br>
-坐标：<br>
-简称：</p>
+<p>建议等级：lvl 90<br>
+入场等级：lvl 89<br>
+前置任务：<RouterLink to="/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html">The Envoy Part II (Level 89)</RouterLink><br>
+坐标：<code v-pre>[-1676 80 -2604]</code><br>
+简称：FF</p>
+<p>Corkus岛上唯一的地牢</p>
+<p>跑酷机制逆天到令人发指，建议谨慎游玩</p>
+<p>注意关卡内的怪物掉落物分为<code v-pre>Scrap</code>和<code v-pre>Core</code></p>
+<p>要看好开门材料分别是哪个！</p>
+<p>FF的时长非常长，法师、弓手可能会比较舒服(因为可以靠位移技能完全规避中途大段的跑酷关)</p>
+<p>可能会迷路，注意跑酷关的目标在上面，你的目标是按下每层的红色按钮开启电梯上楼！</p>
 <h3 id="eldritch-outlook" tabindex="-1"><a class="header-anchor" href="#eldritch-outlook" aria-hidden="true">#</a> Eldritch Outlook</h3>
-<p>建议等级：<br>
-入场等级：<br>
-前置任务：<br>
-坐标：<br>
-简称：</p>
+<p>建议等级：lvl 101<br>
+入场等级：lvl 101<br>
+前置任务：<RouterLink to="/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html">A Journey Further (level 101)</RouterLink><br>
+坐标：<code v-pre>[1291 87 -758]</code><br>
+简称：EO</p>
+<p>目前全游戏难度最高的地牢</p>
+<p>无论是战斗难度、跑酷难度都是一流水平</p>
+<p>但还算是比较无脑，建议拥有一定战斗水平的配装后再来进行挑战，EO不像先前的地牢一样单人随随便便过，还是有点难度的</p>
+<p>对于跑酷关，相当初见杀，需要你根据地板的形状，踩在屏障上过关</p>
+<p>BOSS需要注意，三阶段的时候要格外注意聊天框的文字，一旦出现了红字提醒<code v-pre>...kill it!</code>，需要尽快来到场地后端击杀出现的眼睛</p>
+<p>否则眼睛一旦抵达BOSS所在点，则会直接将在场玩家扣至残血，配合BOSS的技能很有可能会死亡！</p>
 <h2 id="腐化地牢" tabindex="-1"><a class="header-anchor" href="#腐化地牢" aria-hidden="true">#</a> 腐化地牢</h2>
 <figure><img src="/assets/img/forgery.png" alt="The forgery" tabindex="0" loading="lazy"><figcaption>The forgery</figcaption></figure>
 <p>想进行腐化地牢，你首先需要前往<strong>The Forgery</strong><code v-pre>[-845 122 -4913]</code></p>
@@ -188,7 +214,6 @@
 <p>第一个腐化副本 但是难度不简单！</p>
 <p>前面的阶段与原版副本大致相同，但是中间踩了就会关上的压力板删了</p>
 <p>要注意的是BOSS的攻击和攻速非常非常高，强烈建议绕圈打，会特别疼！</p>
-<p>推荐兑换：栗子马升级(等级上限+5，不可交易)</p>
 <h3 id="corrupted-infested-pit" tabindex="-1"><a class="header-anchor" href="#corrupted-infested-pit" aria-hidden="true">#</a> Corrupted Infested Pit</h3>
 <p>建议等级：lvl 74<br>
 入场等级：lvl 69<br>
@@ -196,7 +221,6 @@
 <p>相较CDS来说，难度降低了，但是耗时长了很多</p>
 <p>基本没啥生存压力，BOSS主要是肉点，伤害不高</p>
 <p>但是BOSS目前有概率刷不出来，遇到这种情况只能/class出去了</p>
-<p>推荐兑换：Vanguard(+10%法伤，+15%经验加成，<strong>强烈推荐兑换</strong>)</p>
 <h3 id="corrupted-lost-sanctuary" tabindex="-1"><a class="header-anchor" href="#corrupted-lost-sanctuary" aria-hidden="true">#</a> Corrupted Lost Sanctuary</h3>
 <p>建议等级：lvl 78<br>
 入场等级：lvl 73<br>
@@ -205,7 +229,6 @@
 <p>也没啥难度的副本，稍微耗点时间</p>
 <p><strong>需要特别注意BOSS是机制杀</strong>，在场地中生存直到收集齐9个tnt后放在中间，然后引诱BOSS下去</p>
 <p>正常杀BOSS也可以，但是血特别特别特别特别厚，中间炸开后岩浆伤害高一点</p>
-<p>推荐兑换：Rainbow Sanctuary(+85%全属性伤害，彩虹套适配极佳)</p>
 <h3 id="corrupted-underworld-crypt" tabindex="-1"><a class="header-anchor" href="#corrupted-underworld-crypt" aria-hidden="true">#</a> Corrupted Underworld Crypt</h3>
 <p>建议等级：lvl 82<br>
 入场等级：lvl 77<br>
@@ -221,7 +244,6 @@
 <p>没啥尿点，比较简单</p>
 <p>但是如果带人的话，中间的单刷阶段一样可能会有难度，这个要注意</p>
 <p>其他就没什么了</p>
-<p>推荐兑换：Dune Storm(有一点强的地气头盔，但是扣血)</p>
 <h3 id="corrupted-ice-barrows" tabindex="-1"><a class="header-anchor" href="#corrupted-ice-barrows" aria-hidden="true">#</a> Corrupted Ice Barrows</h3>
 <p>建议等级：lvl 90<br>
 入场等级：lvl 85<br>
@@ -230,7 +252,6 @@
 <p>究极下头的跑酷机制和难度，打起来非常非常折磨</p>
 <p>BOSS难度颇高，稍不注意容易被秒杀</p>
 <p>总之非常难，快跑</p>
-<p>推荐兑换: Conduit of Spirit(非常非常强的气系盔甲)</p>
 <h3 id="corrupted-undergrowth-ruins" tabindex="-1"><a class="header-anchor" href="#corrupted-undergrowth-ruins" aria-hidden="true">#</a> Corrupted Undergrowth Ruins</h3>
 <p>建议等级：lvl 94<br>
 入场等级：lvl 89<br>
@@ -251,8 +272,6 @@
 <p>笔者不好评价该关卡正常流程难度<br>
 此处先略过哈，见谅</p>
 </blockquote>
-<p>推荐兑换：Skidbladnir(很强的气系鞋子)</p>
-<p><RouterLink to="/guide/illegal_skip.html">这是什么?</RouterLink></p>
 </div></template>
 
 
