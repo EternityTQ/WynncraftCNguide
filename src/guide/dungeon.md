@@ -1,6 +1,7 @@
 ---
 title: 地牢
 icon: dragon
+pageview: true
 ---
 在游戏中，地牢(dungeon)是一种获取经验值以及装备、材料的重要途径。
 
