@@ -113,7 +113,7 @@
 <p>第二个跑酷关卡需要注意：从入口方向直走，一直走到眼球处，然后跟着眼球的方向拐弯走</p>
 <p>第二小关是跟着眼球走后，需要拐一次弯</p>
 <p>大概路线看下图<br>
-<img src="/assets/img/ib.jpg" alt="" loading="lazy"></p>
+<img src="/assets/img/ib.jpg" alt="注意看好咯，这里和cib不一样噢，不要学某个缺心眼缺营养缺母爱的傻逼杠精来找骂噢！" loading="lazy"></p>
 <h3 id="undergrowth-ruins" tabindex="-1"><a class="header-anchor" href="#undergrowth-ruins" aria-hidden="true">#</a> Undergrowth Ruins</h3>
 <p>建议等级：lvl 54<br>
 入场等级：lvl 52<br>
