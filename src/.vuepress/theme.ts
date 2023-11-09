@@ -31,6 +31,7 @@ export default hopeTheme({
 
   sidebarSorter:["readme", "order", "filename"],
 
+
   encrypt: {
     config: {
       "/demo/encrypt.html": ["1234"],
@@ -42,13 +43,18 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
     lastUpdated: true,
   },
-  
+
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
   
  
 
   plugins: {
-
+    comment: {
+      provider: "Waline",
+  
+      // waline 模式下
+      serverURL: "https://wcg-comment-ke0jv9vn9-eternitytqs-projects.vercel.app/", // your serverURL
+    },
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
