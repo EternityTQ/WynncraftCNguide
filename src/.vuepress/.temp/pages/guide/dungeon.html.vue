@@ -163,6 +163,12 @@
 <p>对于跑酷关，相当初见杀，需要你根据地板的形状，踩在屏障上过关</p>
 <p>BOSS需要注意，三阶段的时候要格外注意聊天框的文字，一旦出现了红字提醒<code v-pre>...kill it!</code>，需要尽快来到场地后端击杀出现的眼睛</p>
 <p>否则眼睛一旦抵达BOSS所在点，则会直接将在场玩家扣至残血，配合BOSS的技能很有可能会死亡！</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>EO非常特殊</p>
+<p>只有在完成EO后，你才能通过EO，继续前往深处</p>
+<p>同时深处也是AHC的任务接取点，可以说EO就是AHC的前置</p>
+</div>
 <h2 id="腐化地牢" tabindex="-1"><a class="header-anchor" href="#腐化地牢" aria-hidden="true">#</a> 腐化地牢</h2>
 <figure><img src="/assets/img/forgery.png" alt="The forgery" tabindex="0" loading="lazy"><figcaption>The forgery</figcaption></figure>
 <p>想进行腐化地牢，你首先需要前往<strong>The Forgery</strong><code v-pre>[-845 122 -4913]</code></p>
