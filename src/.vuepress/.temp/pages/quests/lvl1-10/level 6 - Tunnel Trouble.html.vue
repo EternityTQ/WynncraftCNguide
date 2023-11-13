@@ -16,6 +16,13 @@
 <li>55 绿宝石</li>
 <li>可以使用往返于Ragni和Detlas之间的隧道了</li>
 </ul>
+<div class="hint-container tip">
+<p class="hint-container-title">快速旅行是什么?</p>
+<p>一般来说，快速旅行是指两地往返(或者单向)快速免费传送</p>
+<p>通常为任务解锁</p>
+<p>在完成任务后，你就可以前往Wynntils地图上的标点，直接进入快速旅行了</p>
+<p>对于本任务来说，快速旅行解锁的隧道就是你在任务路上使用的隧道</p>
+</div>
 </div></template>
 
 

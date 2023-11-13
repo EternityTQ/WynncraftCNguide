@@ -58,7 +58,7 @@
 <p>这一步不需要戴头盔进入！</p>
 </div>
 <p>注意离开洞穴时，需要排列Runes，排列成Nii、Uth、Tol。低版本可能会看不到！</p>
-<p>9.在Olux旁边<code v-pre>[-2114 55 -5553]</code> 进入房子触发剧情,和科学家对话,然后和下列NPC对话</p>
+<p>9.在Olux旁边<code v-pre>[-2114 55 -5553]</code> 进入房子触发剧情,和科学家对话,然后和下列NPC对话，拉进工厂</p>
 <ul>
 <li>
 <p>Anast <code v-pre>[11572 59 7071]</code></p>
@@ -82,11 +82,13 @@
 <p>然后放到弹射器上，跟着箭头偷走图腾并从左边窗户出来</p>
 <p>12.爬上Corkus的钟塔，跟着地毯就行,然后击杀Maxie</p>
 <p>13.进入Detlas的军营(有测试伤害小人那里)然后直走到底向左走,走到底之后再向左，然后走到底上楼,上楼后在转角稍微向前一点点的右边那个入口<code v-pre>[523 77 -1631]</code>触发剧情,然后击杀Aledar和Tasim</p>
-<p>14.击杀最终的Aledar</p>
+<p>14.击杀最终的BOSS Aledar/Tasim</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>Aledar强度非常高</p>
+<p>最终BOSS强度非常高</p>
 <p>建议做好十足准备后再来攻克！</p>
+<p>其中，Tasim比Aledar好打一点</p>
+<p>这个最终BOSS是你上阶段先击杀的另一个人</p>
 </div>
 <p>15.结束</p>
 <p>奖励</p>
