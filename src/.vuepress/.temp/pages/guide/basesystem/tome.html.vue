@@ -19,17 +19,40 @@
 <p>nol会产出2级的武器tome</p>
 <p>tna会产出3级的武器tome</p>
 <p>目前的版本来说，毕业防具tome和武器tome分别需要在tcc和tna刷取</p>
+<p>公会tome需要在公会系统中由有权限的成员给予</p>
+<p>lootrun tome需要在lr中获取</p>
 </div>
 <p>同时，每个位置可装备的tome效果也不同</p>
 <figure><img src="/assets/img/tome3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ul>
-<li>红色：武器tome槽</li>
-<li>紫色：杀敌经验加成tome槽</li>
-<li>黄色：防具tome槽</li>
-<li>蓝色：采集经验加成tome槽</li>
-<li>黑色：完成地牢给予的经验加成tome槽</li>
-<li>最上面的为公会tome槽</li>
-<li>最下面的为Lootrun tome槽</li>
+<li>
+<p>红色：武器tome槽<br>
+武器tome会最终加算你对怪物造成的伤害，同时给予部分攻击相关的属性(mr,元素伤等等)</p>
+</li>
+<li>
+<p>紫色：杀敌经验加成tome槽<br>
+杀敌经验加成顾名思义，会增加你从怪物身上获得的战斗经验</p>
+</li>
+<li>
+<p>黄色：防具tome槽<br>
+防具tome会最终加算怪物对你造成的减伤，同时给予部分辅助相关的属性(技伤,lb,ls等等...)</p>
+</li>
+<li>
+<p>蓝色：采集经验加成tome槽<br>
+采集经验加成会增加你进行副职采集时获得的经验</p>
+</li>
+<li>
+<p>黑色：完成地牢给予的经验加成tome槽<br>
+地牢tome会增加你在完成地牢时获得的经验奖励</p>
+</li>
+<li>
+<p>最上面的为公会tome槽<br>
+公会tome会给予一定的属性点数</p>
+</li>
+<li>
+<p>最下面的为Lootrun tome槽<br>
+lootrun tome会给予一定的lb加成以及元素伤害/元素防御加成</p>
+</li>
 </ul>
 <p>通常来说，你只需要关注武器tome和防具tome即可</p>
 </div></template>

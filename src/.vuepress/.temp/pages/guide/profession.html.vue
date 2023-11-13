@@ -8,6 +8,8 @@
 <h2 id="采集" tabindex="-1"><a class="header-anchor" href="#采集" aria-hidden="true">#</a> 采集</h2>
 <p>首先，你需要找到<RouterLink to="/guide/npcs.html#tool-merchant">Tool Merchant</RouterLink>购买1-2级的工具</p>
 <p>有了工具后，你就可以对资源进行开采了</p>
+<p>当你靠近可开采的资源点后，你就可以看到开采提示了</p>
+<figure><img src="/assets/img/prof6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>需要注意的是，对于每一类资源来说，左键与右键对应着不同的产物，在下面会有介绍</p>
 <p>采集所得到的原料都将用于制造副职中</p>
 <div class="hint-container tip">
@@ -19,7 +21,7 @@
 <p>当你的工具耐久越低时，失败概率越高，失去耐久时不会得到产物</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>携带同职业的工具会导致你的开采失败概率大幅度提高！</p>
+<p>携带同职业的可用工具会导致你的开采失败概率大幅度提高！</p>
 </div>
 <p>当你开采成功后，将会得到随机品质的原料</p>
 <p>89%得到1星，10%得到2星，1%得到三星</p>
