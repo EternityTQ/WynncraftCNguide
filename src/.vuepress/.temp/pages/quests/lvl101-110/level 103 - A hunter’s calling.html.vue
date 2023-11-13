@@ -31,7 +31,7 @@
 <li>Nesaak</li>
 <li>Troms</li>
 <li>Olux</li>
-<li>Rodroc</li>
+<li>Rodoroc</li>
 <li>Corkus</li>
 </ul>
 <p>同时，在开始任务前，最好在包内带绿宝石(零散的)</p>

@@ -31,7 +31,7 @@ icon: exclamation
 + Nesaak
 + Troms
 + Olux
-+ Rodroc
++ Rodoroc
 + Corkus
 
 同时，在开始任务前，最好在包内带绿宝石(零散的)
