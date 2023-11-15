@@ -33,7 +33,7 @@
 <p class="hint-container-title">提示</p>
 <p>对于任何名字显示<br>
 <strong>粗体</strong>为地名<br>
-<em>斜体</em>为人名<br>
+<em>斜体</em>或者<font color=00AA00><strong>绿色字体</strong></font>为人名<br>
 <code v-pre>注释</code>为坐标或是物品名</p>
 </div>
 <div class="hint-container warning">

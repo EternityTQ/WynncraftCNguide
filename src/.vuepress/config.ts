@@ -9,6 +9,11 @@ export default defineUserConfig({
   title: "Wynncraft中文攻略",
   description: "Wynncraft中文攻略",
 
+  extendsMarkdown: (md) => {
+    md.use(plugin1)
+    md.linkify.set({ fuzzyEmail: false })
+  },
+  
   theme,
   head: [
     // ...

@@ -1,11 +1,11 @@
 # Enzan's Brother (level 1)
 **Enzan的兄弟**
   
-1.与**Ragni**城门前的*Enzan*`[-771 67 -1573]`对话
+1.与**Ragni**城门前的<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话
 
-2.在城外绿宝石小径的鉴定师旁，和*Therck*`[-535 69 -1588]`对话
+2.在城外绿宝石小径的鉴定师旁，和<font color=00AA00>**Therck**</font>`[-535 69 -1588]`对话
 
-3.在Therck右侧的洞穴深处，击杀怪物，带回一个`Energy Mushroom`，回去找*Therck*对话
+3.在<font color=00AA00>**Therck**</font>右侧的洞穴深处，击杀怪物，带回一个`Energy Mushroom`，回去找<font color=00AA00>**Therck**</font>对话
  
 奖励：
 + 100 exp
@@ -16,7 +16,7 @@
 
 
 :::tip
-任务中，Therck和你提到了台阶上的钥匙
+任务中，<font color=00AA00>**Therck**</font>和你提到了台阶上的钥匙
 
 在拿完钥匙后，你也许可以在附近找找这把钥匙可以用在哪里..?
 :::
