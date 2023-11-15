@@ -22,7 +22,7 @@
 <p>一共可以找四套衣服</p>
 <p>当你拿好衣服后，直接和Ava对话即可进入选择界面</p>
 <p>需要注意Power Outfit的选项在后方</p>
-<p>选择的衣服会直接影响后续的任务分支</p>
+<p>选择的衣服会影响后续的任务支线(但本攻略没有提及，随便选)</p>
 </div>
 <Tabs id="62" :data='[{"id":"Azure"},{"id":"Emerald"},{"id":"Mechanic"},{"id":"Power"}]' tab-id="Outfit">
 <template #title0="{ value, isActive }">Azure Outfit</template>
@@ -58,7 +58,7 @@
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">关于支线</p>
-<p>这一步有非常多的支线且会根据你所选的服装有不同选项</p>
+<p>这一步有非常多的支线且会根据你所选的服装有不同支线</p>
 <p>碍于篇幅关系，这里不会给出</p>
 <blockquote>
 <p>(是真麻烦 我真不想做)</p>
