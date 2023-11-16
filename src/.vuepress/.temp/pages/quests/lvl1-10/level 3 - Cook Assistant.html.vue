@@ -4,8 +4,8 @@
 <p class="hint-container-title">教程任务</p>
 <p>这个任务会带你体验副职系统</p>
 </div>
-<p>1.到Ragni城里和厨师<code v-pre>[-846 67 -1561]</code>对话</p>
-<p>2.到Ragni北部的<strong>Katoa Ranch</strong><code v-pre>[-814 66 -1910]</code>收集厨师要的材料</p>
+<p>1.到Ragni城里和<font color=00AA00><strong>厨师</strong></font><code v-pre>[-846 67 -1561]</code>对话</p>
+<p>2.到Ragni北部的<strong>Katoa Ranch</strong><code v-pre>[-814 66 -1910]</code>收集<font color=00AA00><strong>厨师</strong></font>要的材料</p>
 <ul>
 <li><code v-pre>2 egg</code>鸡蛋可以在该地点杀鸡掉落</li>
 <li><code v-pre>1 Bucket of milk</code>可以在这里的牛奶商<code v-pre>[-808 67 -1916]</code>购买</li>
@@ -16,7 +16,7 @@
 <p>锄头工具可在一旁的Tool Merchant购买</p>
 <figure><img src="/assets/img/lvl4-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
-<p>3.材料收集完毕后回去找厨师<code v-pre>[-846 67 -1561]</code></p>
+<p>3.材料收集完毕后回去找<font color=00AA00><strong>厨师</strong></font><code v-pre>[-846 67 -1561]</code></p>
 <p>奖励</p>
 <ul>
 <li>200 exp</li>

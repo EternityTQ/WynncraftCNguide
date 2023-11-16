@@ -1,17 +1,18 @@
 <template><div><h1 id="king-s-recruit-level-1" tabindex="-1"><a class="header-anchor" href="#king-s-recruit-level-1" aria-hidden="true">#</a> King's Recruit (level 1)</h1>
 <p><strong>国王的招兵</strong></p>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
+<p class="hint-container-title">教程任务</p>
 <p>此任务为新手教程，可用<code v-pre>/skiptutorial</code>跳过至最后步骤</p>
 </div>
 <p>1.在马车撞到石头后，下车，和<code v-pre>[-1573 51 -1626]</code>的大篷车司机对话。通过按下潜行键(默认为shift)来继续对话。</p>
-<p>2.对话结束后，带领<em>Tasim</em>沿着道路往前走，直到和大门前的<em>Aledar</em>自动触发剧情，随后大门打开。</p>
+<p>2.对话结束后，带领<font color=00AA00><strong>Tasim</strong></font>沿着道路往前走，直到和大门前的<font color=00AA00><strong>Aledar</strong></font>自动触发剧情，随后大门打开。</p>
 <p>3.同<code v-pre>[-1457 51 -1531]</code>的士兵对话。对于冒有绿色粒子的NPC，<strong>右键</strong>即可与其对话。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">关于NPC</p>
 <p>对于任何NPC，你都可以右键与其对话</p>
 <p>白名NPC一般为只会闲聊，又或者可能给出某些信息</p>
 <p>绿名NPC一般是任务NPC或者是重要NPC</p>
+<p>粉名NPC一般是商人</p>
 </div>
 <p>4.进入右手边的山洞，在经过一小段跑酷后，<strong>左键</strong>击破石柱，到达箱子处打开箱子以获得8枚绿宝石和1个未鉴定的头盔，然后进入黑色地块离开</p>
 <div class="hint-container tip">
@@ -40,7 +41,8 @@
 <p class="hint-container-title">提示</p>
 <p>关于鉴定师，不妨看看<RouterLink to="/guide/npcs.html#item-identifier">这里</RouterLink>?</p>
 </div>
-<p>6.在鉴定完头盔并装备后，在断桥边触发剧情对话，结束后来到左手边<code v-pre>[-1391 50 -1554]</code>的树这里，右键推倒后通过倒塌的树干过桥，过桥后继续直走来到前面的隧道入口，与门口士兵对话获取武器后进入隧道。</p>
+<p>6.在鉴定完头盔并装备后，在断桥边触发剧情对话，结束后来到左手边<code v-pre>[-1391 50 -1554]</code>的树这里</p>
+<p>右键推倒后通过倒塌的树干过桥，过桥后继续直走来到前面的隧道入口，与门口士兵对话获取武器后进入隧道。</p>
 <p>7.进入隧道后触发剧情，杀死出现的僵尸。击杀完毕后继续前进，触发遭遇战后击杀最前面的骷髅法师即可。路上的其他僵尸可以不用管。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
