@@ -4,10 +4,10 @@
 <p class="hint-container-title">重要任务</p>
 <p>解锁Decrepit Sewers副本</p>
 </div>
-<p>1.和Ragni下水道旁边的<em>Jenprest</em><code v-pre>[-890 60 -1874]</code>谈话，对话结束后按选项直接来到隧道口。</p>
+<p>1.和Ragni下水道旁边的<font color=00AA00><strong>Jenprest</strong></font><code v-pre>[-890 60 -1874]</code>谈话，对话结束后按选项直接来到隧道口。</p>
 <p>2.进入下水道后一直走，直到触发剧情后右拐来到引爆点，放置炸药后被冲走。</p>
 <p>3.继续探索，触发精英怪战斗后解决并获取掉落物，右键铁门继续探索</p>
-<p>4.经过一段时限跑酷后触发剧情，随后离开下水道大门找Jenprest交差</p>
+<p>4.经过一段时限跑酷后触发剧情，随后离开下水道大门找<font color=00AA00><strong>Jenprest</strong></font>交差</p>
 <p>奖励</p>
 <ul>
 <li>350 exp</li>
