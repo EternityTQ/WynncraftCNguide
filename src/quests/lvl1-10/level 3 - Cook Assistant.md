@@ -5,6 +5,14 @@
 这个任务会带你体验副职系统
 :::
 
+:::danger
+采集时，请一定要注意左右键的区别
+
+左右键的产物不同
+
+本次任务中，需要的产物是<font color='red'>**右键**</font>得到的`Wheat Grains`
+:::
+
 1.到Ragni城里和<font color=00AA00>**厨师**</font>`[-846 67 -1561]`对话
 
 2.到Ragni北部的**Katoa Ranch**`[-814 66 -1910]`收集<font color=00AA00>**厨师**</font>要的材料
@@ -17,6 +25,8 @@
 锄头工具可在一旁的Tool Merchant购买
 
 ![](/assets/img/lvl4-1.jpg)
+
+![](/assets/img/lvl3-1.jpg)
 :::
 
 

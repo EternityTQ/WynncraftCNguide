@@ -4,6 +4,12 @@
 <p class="hint-container-title">教程任务</p>
 <p>这个任务会带你体验副职系统</p>
 </div>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>采集时，请一定要注意左右键的区别</p>
+<p>左右键的产物不同</p>
+<p>本次任务中，需要的产物是<font color='red'><strong>右键</strong></font>得到的<code v-pre>Wheat Grains</code></p>
+</div>
 <p>1.到Ragni城里和<font color=00AA00><strong>厨师</strong></font><code v-pre>[-846 67 -1561]</code>对话</p>
 <p>2.到Ragni北部的<strong>Katoa Ranch</strong><code v-pre>[-814 66 -1910]</code>收集<font color=00AA00><strong>厨师</strong></font>要的材料</p>
 <ul>
@@ -15,6 +21,7 @@
 <p class="hint-container-title">提示</p>
 <p>锄头工具可在一旁的Tool Merchant购买</p>
 <figure><img src="/assets/img/lvl4-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="/assets/img/lvl3-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
 <p>3.材料收集完毕后回去找<font color=00AA00><strong>厨师</strong></font><code v-pre>[-846 67 -1561]</code></p>
 <p>奖励</p>
