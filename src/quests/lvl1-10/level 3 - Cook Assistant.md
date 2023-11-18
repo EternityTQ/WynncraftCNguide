@@ -25,8 +25,6 @@
 锄头工具可在一旁的Tool Merchant购买
 
 ![](/assets/img/lvl4-1.jpg)
-
-![](/assets/img/lvl3-1.jpg)
 :::
 
 
