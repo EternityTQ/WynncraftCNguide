@@ -17,6 +17,11 @@
 <p>在2.0版本后，这些材料均不会消耗！只用存一套就好了！</p>
 <p>但是如果你存的是老版本的材料，那么仍然会消耗，建议去存一套新的</p>
 <p>新版本材料的标识是有&quot;右键使用&quot;的字样</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>如果你身上有<code v-pre>Meteor shard</code>，在任何地方下线重登或者/class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
+<p>如果你在陨石上掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
+</div>
 <h2 id="阶段一" tabindex="-1"><a class="header-anchor" href="#阶段一" aria-hidden="true">#</a> ??? - 阶段一</h2>
 <p><strong>这个阶段需要三名玩家</strong><br>
 <strong>但最好要四个人！！！方便一起完成后面的任务</strong></p>
@@ -29,7 +34,7 @@
 <figure><img src="/assets/img/lvl80-2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>似乎位置也需要一样，注意看清楚了</p>
+<p>位置和方向也需要一样，注意看清楚了，可以参考旁边的石块位置</p>
 <p>如果推错了，可以使用/class来重置</p>
 </div>
 <p>完成后会出现一个由红色粒子组成的平台构成的限时跑酷</p>
@@ -58,11 +63,6 @@
 <p>然后找到下图的地方<br>
 <img src="/assets/img/lvl80-14.jpg" alt="" loading="lazy"></p>
 <p>水里有个按钮(在左边)，按下去后就会开扇门，进去就是了</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>拿到<code v-pre>Meteor shard</code>之后在流星区域class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
-<p>如果你在这里掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
-</div>
 <h3 id="红色陨石" tabindex="-1"><a class="header-anchor" href="#红色陨石" aria-hidden="true">#</a> 红色陨石</h3>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
@@ -92,11 +92,6 @@
 <img src="/assets/img/lvl80-12.jpg" alt="" loading="lazy"></p>
 <p>11.拿到<code v-pre>Meteor shard</code>后进入陨石内待命<br>
 从<code v-pre>Meteor shard</code>的刷新点往下走，来到<code v-pre>[2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>拿到<code v-pre>Meteor shard</code>之后在流星区域class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
-<p>如果你在这里掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
-</div>
 <h3 id="黄色陨石" tabindex="-1"><a class="header-anchor" href="#黄色陨石" aria-hidden="true">#</a> 黄色陨石</h3>
 <p>1.前往<code v-pre>[-1357 47 -5575]</code>的洞内敲完花盆</p>
 <div class="hint-container tip">
@@ -165,11 +160,6 @@
 <p>3.找黄色羊毛<code v-pre>[-1430 57 -5631]</code>丢下图铁栏杆的装置内，进入传送装置传送至流星区域<br>
 <img src="/assets/img/lvl80-15.jpg" alt="" loading="lazy"><br>
 4.找到碎片后找落脚点往下走，穿过岩浆进入陨石内待命</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>拿到<code v-pre>Meteor shard</code>之后在流星区域class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
-<p>如果你在这里掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
-</div>
 <p>当三个人全部进入陨石内待命后，同时踩下压力板，即可传送至接取任务的地点</p>
 <p>和面前的<em>Computer</em>对话</p>
 <p>切记切记，只有接取任务后才能继续下面的步骤</p>
@@ -200,41 +190,83 @@
 </div>
 <p>刚进到Lab N时，地上会刷出羽毛</p>
 <p>羽毛不是必需品，但是后面如果想要快速回到Lab N时，需要用到羽毛</p>
-<p>在这个谜题中，总共有7个房间，每个房间至少有一个有彩色标记的压力板，踩在压力板上时你的位置会被锁定，可以用跳跃来解锁。</p>
+<p>在这个谜题中，总共有7个房间，每个房间至少有一个有彩色标记的压力板</p>
+<p>踩在压力板上时你的位置会被锁定，可以用跳跃来解锁。</p>
 <p>当<strong>所有</strong>对应颜色的压力板均激活时，对应颜色的门将会解锁</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>你可以参考下面的文字攻略来完成这关<br>
-<strong>色盲注意：下面提到的青色在游戏中更接近灰色！</strong></p>
+<p>你可以参考下面的文字攻略来完成这关</p>
 <p>先给你和猪队友们命名为ABCD</p>
-<p>1 A B C 踩在红圈</p>
-<p>2 D过去红色门</p>
-<p>3 D站在紫色</p>
-<p>4 A 紫门  绿色圈</p>
-<p>5 D 蓝色圈</p>
-<p>6 B C 蓝门</p>
-<p>7 B 绿圈</p>
-<p>8 C绿门</p>
-<p>9 B 出去蓝门 橙圈</p>
-<p>10 D 橙门 粉圈 C也要踩粉圈</p>
-<p>11 A 粉门 淡蓝色圈</p>
-<p>12 C D 橙门</p>
-<p>13 C 淡蓝色圈</p>
-<p>14 D 青色圈</p>
-<p>15 B 蓝门 青色圈</p>
-<p>16 A 青色圈</p>
-<p>17 C 青色门 黄圈</p>
-<p>18 A D 淡蓝色圈</p>
-<p>19 B 淡蓝色门</p>
-<p>20 A 棕圈</p>
-<p>21 B 棕门</p>
-<p>22 全员通过 黄门！</p>
-<p><strong>先拿到钥匙再传送！！！！</strong></p>
+<p>比较建议指挥员站在D位，活比较少</p>
+<p>请注意，玩家标号十分重要</p>
+<figure><img src="/assets/img/lvl80-17.jpg" alt="颜色标号以及区域标号用于方便指挥" tabindex="0" loading="lazy"><figcaption>颜色标号以及区域标号用于方便指挥</figcaption></figure>
+<ol>
+<li>
+<p>A B C 踩在红圈</p>
+</li>
+<li>
+<p>D 经过红门，站在紫色圈</p>
+</li>
+<li>
+<p>A 经过紫门，站在绿色圈</p>
+</li>
+<li>
+<p>D 站在蓝色圈</p>
+</li>
+<li>
+<p>B 经过蓝门，站在绿圈</p>
+</li>
+<li>
+<p>C 经过蓝门、绿门，到达双粉圈一灰圈的房间就位</p>
+</li>
+<li>
+<p>B 经过蓝门，站在橙圈</p>
+</li>
+<li>
+<p>D 经过橙门，站在粉圈；C 站在粉圈</p>
+</li>
+<li>
+<p>A 经过粉门，站在淡蓝色圈</p>
+</li>
+<li>
+<p>C 经过橙门，站在淡蓝色圈；D 经过橙门，站在灰色圈</p>
+</li>
+<li>
+<p>B 经过淡蓝门，站在灰色圈</p>
+</li>
+<li>
+<p>A 站在灰色圈</p>
+</li>
+<li>
+<p>C 经过灰色门，站在黄圈</p>
+</li>
+<li>
+<p>A D 站在淡蓝色圈</p>
+</li>
+<li>
+<p>B 经过淡蓝色门回到初始大厅</p>
+</li>
+<li>
+<p>A 站在棕圈</p>
+</li>
+<li>
+<p>B 通过棕门去往终点</p>
+</li>
+<li>
+<p>C别动，其他人可以前往终点了</p>
+</li>
+</ol>
 </div>
 <p>完成后进入下一个谜题</p>
 <p>这个谜题的要求是四个玩家在白色底板上从起点前往终点，且路径不能相交重合</p>
 <p>你可以参考下图</p>
 <figure><img src="/assets/img/lvl80-7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如果这一步中，队伍有玩家不熟练的话</p>
+<p>可以尝试将不熟练的玩家安排在黄绿</p>
+<p>由路线较为复杂的红蓝先移动</p>
+</div>
 <p>当解决了谜题之后，可以进入阶段最终房间</p>
 <p>里面有一把钥匙和四个传送装置，注意并不是每个玩家都必须要拿到钥匙，<strong>但是这个钥匙在之后的阶段会用到，必须留着</strong></p>
 <p>进入传送装置后，所有人都会被传送至<strong>Rooster Island</strong>的地下室</p>

@@ -21,7 +21,6 @@
 <p class="hint-container-title">提示</p>
 <p>锄头工具可在一旁的Tool Merchant购买</p>
 <figure><img src="/assets/img/lvl4-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="/assets/img/lvl3-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
 <p>3.材料收集完毕后回去找<font color=00AA00><strong>厨师</strong></font><code v-pre>[-846 67 -1561]</code></p>
 <p>奖励</p>
