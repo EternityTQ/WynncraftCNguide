@@ -1,4 +1,4 @@
-<template><div><h1 id="level" tabindex="-1"><a class="header-anchor" href="#level" aria-hidden="true">#</a> ??? (level ???)</h1>
+<template><div><h1 id="level-80" tabindex="-1"><a class="header-anchor" href="#level-80" aria-hidden="true">#</a> ??? (level 80)</h1>
 <p><strong>来自疯狂科学家的解密挑战</strong></p>
 <div class="hint-container warning">
 <p class="hint-container-title">恐怖任务</p>
@@ -17,15 +17,15 @@
 <p>在2.0版本后，这些材料均不会消耗！只用存一套就好了！</p>
 <p>但是如果你存的是老版本的材料，那么仍然会消耗，建议去存一套新的</p>
 <p>新版本材料的标识是有&quot;右键使用&quot;的字样</p>
+<h2 id="阶段一" tabindex="-1"><a class="header-anchor" href="#阶段一" aria-hidden="true">#</a> ??? - 阶段一</h2>
+<p><strong>这个阶段需要三名玩家</strong><br>
+<strong>但最好要四个人！！！方便一起完成后面的任务</strong></p>
+<p>三名玩家需要分别前往红黄蓝三个陨石点，完成解密后一起站在指定位置，方可传送至接取任务的地方</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <p>如果你身上有<code v-pre>Meteor shard</code>，在任何地方下线重登或者/class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
 <p>如果你在陨石上掉下去了，你将会传送至Lake Gylia，需要重新完成所有谜题，非常浪费时间</p>
 </div>
-<h2 id="阶段一" tabindex="-1"><a class="header-anchor" href="#阶段一" aria-hidden="true">#</a> ??? - 阶段一</h2>
-<p><strong>这个阶段需要三名玩家</strong><br>
-<strong>但最好要四个人！！！方便一起完成后面的任务</strong></p>
-<p>三名玩家需要分别前往红黄蓝三个陨石点，完成解密后一起站在指定位置，方可传送至接取任务的地方</p>
 <h3 id="蓝色陨石" tabindex="-1"><a class="header-anchor" href="#蓝色陨石" aria-hidden="true">#</a> 蓝色陨石</h3>
 <p>前往<strong>Aldorei Valley Outskirts</strong><code v-pre>[-754 102 -4416]</code></p>
 <p>打死下图的NPC，拿到一个锄头，当拿着锄头时，玩家可以推动田间的干草捆(靠近就行)</p>
@@ -170,12 +170,12 @@
 <p class="hint-container-title">提示</p>
 <p>建议使用Detlas传送卷轴</p>
 </div>
-<p>由拿有物品的玩家分别手持三个物品在房子内右t/键，然后会开启暗门，进入Lab Y</p>
+<p>由拿有物品的玩家分别手持三个物品在房子内右键，然后会开启暗门，进入Lab Y</p>
 <p>2.在Lab Y内完成两个小解密</p>
 <p>①、见下图</p>
 <figure><img src="/assets/img/lvl80-5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>②、按顺序踩房间四个角落的压力板：<br>
-石 金 木 金 铁 石 木 铁</p>
+<p>②、按顺序踩房间四个角落的压力板：</p>
+<p>石 金 木 金 铁 石 木 铁</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>如果你在踩压力板的时候踩错了，可以按reset重置</p>
