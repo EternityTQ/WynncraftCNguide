@@ -1,5 +1,5 @@
 <template><div><h1 id="fate-of-the-fallen-level-43" tabindex="-1"><a class="header-anchor" href="#fate-of-the-fallen-level-43" aria-hidden="true">#</a> Fate of the Fallen (level 43)</h1>
-<p><strong>衰落的注定</strong></p>
+<p><strong>陨落者的命运</strong></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Ice Barrows副本</p>
@@ -15,16 +15,13 @@
 <p>5.探索过去的<strong>Nesaak</strong>，和NPC<code v-pre>[3796 73 1185]</code>对话</p>
 <p>6.来到<code v-pre>[3651 69 1208]</code>触发剧情</p>
 <p>7.在<em>Theorick</em>的基地和众人回合<code v-pre>[3738 67 1265]</code></p>
-<p>8.在<em>Theorick</em>进入传送门后，自己被弹走至断桥前，保护传送门</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>往里杀怪就行了，注意要收集指定的掉落物</p>
-</div>
+<p>8.在<em>Theorick</em>进入传送门后，自己被弹走至断桥前，保护传送门，击杀怪物，将指定掉落物丢进漏斗内</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>在<em>Theorick</em>的进去前的对话结束后，如果你能在被弹走前使用位移技能快速冲到传送门前，则可以直接跳过杀怪的流程</p>
 </div>
-<p>9.告诉<em>Telvu</em>过去发生了什么</p>
+<p>9.桥建好后，靠近传送门触发剧情</p>
+<p>10.告诉<em>Telvu</em>过去发生了什么</p>
 <p>奖励</p>
 <ul>
 <li>20000 经验值</li>
