@@ -1,54 +1,4 @@
-<template><div><p>每周奖池 (2023.11.6)</p>
-<Tabs id="3" :data='[{"id":"SE"},{"id":"Corkus"},{"id":"Sky Island"},{"id":"Molten Heights Hike"}]'>
-<template #title0="{ value, isActive }">SE</template>
-<template #title1="{ value, isActive }">Corkus</template>
-<template #title2="{ value, isActive }">Sky Island</template>
-<template #title3="{ value, isActive }">Molten Heights Hike</template>
-<template #tab0="{ value, isActive }">
-<ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Weathered ⭐ Raids Won</li>
-<li>Thrundacrack</li>
-<li>Dawnbreak</li>
-<li>Apocalypse</li>
-<li>Oblivion</li>
-<li>Insulator</li>
-<li>Simulator</li>
-</ul>
-</template>
-<template #tab1="{ value, isActive }">
-<ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Spring ⭐ Players Killed</li>
-<li>Warchief</li>
-<li>Singularity</li>
-<li>Az</li>
-<li>Cataclysm</li>
-<li>Insulator</li>
-<li>Simulator</li>
-</ul>
-</template>
-<template #tab2="{ value, isActive }">
-<ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Alkatraz ⭐ Chests Opened</li>
-<li>Grandmother</li>
-<li>Crusade Sabatons</li>
-<li>Warp</li>
-<li>Apocalypse</li>
-<li>Insulator</li>
-</ul>
-</template>
-<template #tab3="{ value, isActive }">
-<ul>
-<li><strong><font color=FFCC00> Shiny </font></strong> Boreal ⭐ Mobs killed</li>
-<li>Sunstar</li>
-<li>Convergence</li>
-<li>Revenant</li>
-<li>Collapse</li>
-<li>Archangel</li>
-<li>Simulator</li>
-</ul>
-</template>
-</Tabs>
-<p>首先先解释一下，何谓lootrun?</p>
+<template><div><p>首先先解释一下，何谓lootrun?</p>
 <p>lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启，以此来获取装备，一般简称lr</p>
 <p>通常情况下，lr的终极目标即获取稀有度最高的Mythic品质装备</p>
 <p>大部分Mythic装备都拥有高于其他品质的属性以及价值</p>
@@ -458,6 +408,11 @@
 <p>具体机制为到达一定y轴高度(非常低)时，会刷新额外的飞行怪物，大多数为远程，会对玩家造成干扰</p>
 <p>总之，请尽量不要尝试找寻无敌点通过挑战</p>
 </div>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>若你在挑战中死亡，或者Defend目标被大破，你本次挑战将会被判失败</p>
+<p>失败后，你的总轮数上限-1，同时你不会得到该次挑战的信标效果</p>
+</div>
 <h3 id="诅咒" tabindex="-1"><a class="header-anchor" href="#诅咒" aria-hidden="true">#</a> 诅咒</h3>
 <p>在吃到紫信标或暗灰信标后，你会受到随机诅咒(Curses)</p>
 <p>诅咒会给怪物带来加成以提高挑战难度</p>
@@ -484,14 +439,21 @@
 <p>否则你将被滚雪球，存在反复挑战失败的风险</p>
 </div>
 <p>在吃到蓝信标时，你可以从一定选数内选择你想要的增益</p>
-<p>每个增益由触发条件、触发效果以及增益种类三部分组成</p>
-<p>其中，Dynamic为动态增益，你有机会提高该增益的层数</p>
+<p>每个增益由增益种类、增益名称以及增益效果三部分组成</p>
+<p>增益种类决定了该增益是否可增长数值</p>
+<p>Dynamic为动态增益，你有机会提高该增益的层数</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>进行到一定轮次时，不会出现Dynamic增益</p>
 <p><strong>Dynamic是有可能减少层数的</strong></p>
 </div>
 <p>Static为静态增益，该增益的层数在拿到瞬间就固定了</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>Static增益的数值会随着轮次逐渐提高数值</p>
+</div>
+<p>增益的名称决定了该增益的最大层数/生效条件等</p>
+<p>而增益效果决定了该增益能够增幅哪条属性，其数值也和增益名称有关</p>
 <table>
 <thead>
 <tr>
@@ -559,7 +521,7 @@
 <tr>
 <td><font color = FF5555><strong>Killstreak</strong></font></td>
 <td>Dynamic</td>
-<td>在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 <code v-pre>增益效果</code>，持续时间在每次击杀怪物后都会重置至60s</td>
+<td>在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 <code v-pre>增益效果</code>；<br>在每次击杀怪物后，持续时间都会重置至60s</td>
 <td>x100</td>
 </tr>
 <tr>
@@ -617,10 +579,11 @@
 <li>暴击伤害</li>
 <li>法术伤害</li>
 <li>属性点</li>
-<li>mana恢复</li>
+<li>发力恢复</li>
 <li>战利品加成</li>
 <li>战利品质量</li>
 <li>生命窃取</li>
+<li>虚弱</li>
 </ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -712,7 +675,7 @@
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Gambling Beast</strong> </font></td>
-<td>每次挑战完成后，会强制扣除300s换取1次最终奖励刷新机会(End Reward Reroll)。每一轮结束后，下一轮花费增加60s</td>
+<td>每次挑战完成后，会强制扣除300s换取1次最终奖励刷新机会。<br>每一轮结束后，下一次花费增加60s</td>
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Redemption</strong> </font></td>
@@ -720,7 +683,7 @@
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font></td>
-<td>获得1次最终奖励献祭机会以及2次最终奖励刷新机会；每当计时器减少2min时，随机清除一个已有增益，从任意途径获得时间延缓该倒计时</td>
+<td>获得1次最终奖励献祭机会以及2次最终奖励刷新机会；<br>每当计时器减少2min时，随机清除一个已有增益；<br>从任意途径获得时间延缓该倒计时</td>
 </tr>
 </tbody>
 </table>
