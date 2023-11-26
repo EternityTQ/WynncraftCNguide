@@ -291,7 +291,7 @@
 </tr>
 <tr>
 <td><font color = "555555"><strong>暗灰色信标</strong></font></td>
-<td>获得 <strong>3(4)</strong> 个随机诅咒，同时最终奖励抽取物品数 <strong>+3(4)</strong></td>
+<td>获得 <strong>3(6)</strong> 个随机诅咒，同时最终奖励抽取物品数 <strong>+3(6)</strong></td>
 <td style="text-align:center">1</td>
 </tr>
 <tr>

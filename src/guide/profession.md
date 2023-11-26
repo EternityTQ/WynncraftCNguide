@@ -32,6 +32,8 @@ icon: flask
 截止110级前，等级每逢5的尾数将会解锁新的工具等级
 
 而每逢0的尾数将会解锁新的资源
+
+为了提高练级效率，强烈建议你在刚解锁新工具/新资源时就进行切换
 :::
 
 在开采时，有概率失败。
@@ -40,6 +42,10 @@ icon: flask
 
 :::warning
 携带同职业的可用工具会导致你的开采失败概率大幅度提高！
+
+请注意请不要在采集时携带备用工具，低等级的工具也是不允许的
+
+但是你可以提前带高等级的工具，未到使用等级的工具不会被视作可用工具
 :::
 
 当你开采成功后，将会得到随机品质的原料
@@ -109,7 +115,7 @@ icon: flask
 100级原材料只能制作100-103级物品，110原材料只能制作103-105级物品。
 :::
 
-:::tip 提升效率的方法
+### 提升效率的方法
 在有着pxp+psb(bomb)的情况下，你的采集副职练级效率将会提升至4倍
 
 因此，不是很建议在没有bomb的情况下进行副职练级
@@ -121,7 +127,7 @@ icon: flask
 你可以购买素材让大佬帮忙制作带有高额采集经验加成的装备(最高可以额外提供约150%的采集经验加成)
 
 当然，这些素材和材料**相当非常无比贵**，请注意衡量成本
-:::
+
 
 ## 制作
 在城镇中，我们会看到这样的东西，比如这个是药水制造的酿造台：
@@ -177,30 +183,30 @@ icon: flask
 ### 制造业的全部基础配方
 | 种类     | Ingot | Gem | Wood | Paper | Grain | String | Meat | Oil |
 | ---------- | ----- | --- | ---- | ----- | ----- | ------ | ---- | --- |
-| 长矛<br>(武器) | 1X    |     | 2X   |       |       |        |      |     |
-| 匕首<br>(武器) | 2X    |     | 1X   |       |       |        |      |     |
-| 弓<br>(木工) |       |     | 1X   |       |       | 2X     |      |     |
-| 法杖<br>(木工) |       |     | 2X   |       |       | 1X     |      |     |
-| 巫杖<br>(木工) |       |     | 1X   |       |       |        |      | 2X  |
-| 头盔<br>(盔甲) | 1X    |     |      | 2X    |       |        |      |     |
-| 胸甲<br>(盔甲) | 2X    |     |      | 1X    |       |        |      |     |
-| 护腿<br>(纺织) | 2X    |     |      |       |       | 1X     |      |     |
-| 靴子<br>(纺织) | 1X    |     |      |       |       | 2X     |      |     |
+| 长矛<br>(武器) | <HopeIcon icon="splotch" />    |     | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |       |       |        |      |     |
+| 匕首<br>(武器) | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |     | <HopeIcon icon="splotch" />   |       |       |        |      |     |
+| 弓<br>(木工) |       |     | <HopeIcon icon="splotch" />   |       |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />     |      |     |
+| 法杖<br>(木工) |       |     | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |       |       | <HopeIcon icon="splotch" />     |      |     |
+| 巫杖<br>(木工) |       |     | <HopeIcon icon="splotch" />   |       |       |        |      | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />  |
+| 头盔<br>(盔甲) | <HopeIcon icon="splotch" />    |     |      | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |       |        |      |     |
+| 胸甲<br>(盔甲) | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |     |      | <HopeIcon icon="splotch" />    |       |        |      |     |
+| 护腿<br>(纺织) | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |     |      |       |       | <HopeIcon icon="splotch" />     |      |     |
+| 靴子<br>(纺织) | <HopeIcon icon="splotch" />    |     |      |       |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />     |      |     |
 | 种类     | **Ingot** | **Gem** | **Wood** | **Paper** | **Grain** | **String** | **Meat** | **Oil** |
-| 指环<br>(饰品) |       | 1X  |      |       |       |        |      | 1X  |
-| 手镯<br>(饰品) |       | 2X  |      |       |       |        |      | 1X  |
-| 项链<br>(饰品) |       | 3X  |      |       |       |        |      | 1X  |
-| 药水     |       |     |      |       | 2X    |        |      | 1X  |
-| 卷轴     |       |     |      | 1X    |       |        |      | 1X  |
-| 食物     |       |     |      |       | 1X    |        | 2X   |     |
+| 指环<br>(饰品) |       | <HopeIcon icon="splotch" />  |      |       |       |        |      | <HopeIcon icon="splotch" />  |
+| 手镯<br>(饰品) |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />  |      |       |       |        |      | <HopeIcon icon="splotch" />  |
+| 项链<br>(饰品) |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" /><HopeIcon icon="splotch" />  |      |       |       |        |      | <HopeIcon icon="splotch" />  |
+| 药水     |       |     |      |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |        |      | <HopeIcon icon="splotch" />  |
+| 卷轴     |       |     |      | <HopeIcon icon="splotch" />    |       |        |      | <HopeIcon icon="splotch" />  |
+| 食物     |       |     |      |       | <HopeIcon icon="splotch" />    |        | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |     |
   
-以上X的取值根据原材料等级取值
+以上<HopeIcon icon="splotch" />的取值根据原材料等级取值
 | 原料等级 | 1 | 10-20 | 30-40 | 50-60 | 70-80 | 90+ |
 | --- | --- | --- | --- | --- | --- | --- |
-| X | 1 | 2 | 3 | 4 | 5 | 6 |
+| <HopeIcon icon="splotch" /> | 1 | 2 | 3 | 4 | 5 | 6 |
 
 
-## 附录 - 关于采集推荐地点以及工具兑换点
+## 采集推荐地点&工具兑换点
 
 >数据来源：https://www.youtube.com/@Olinus10
 
@@ -289,7 +295,7 @@ icon: flask
 | Tier.9    | CIP & CLS             | 7 Fragment +1024e|
 | Tier.10   | CUC & CSST            | 8 Fragment +2048e|
 | Tier.11   | CIB & CUR & Fallen Factory | 9 Fragment +4096e|
-| Tier.12   | Eldritch Outlook      | 9 Fragment +4096e|
+| Tier.12   | CGG & Eldritch Outlook      | 9 Fragment +4096e|
 
 
 

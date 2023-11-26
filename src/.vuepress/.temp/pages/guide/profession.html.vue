@@ -16,12 +16,15 @@
 <p class="hint-container-title">提示</p>
 <p>截止110级前，等级每逢5的尾数将会解锁新的工具等级</p>
 <p>而每逢0的尾数将会解锁新的资源</p>
+<p>为了提高练级效率，强烈建议你在刚解锁新工具/新资源时就进行切换</p>
 </div>
 <p>在开采时，有概率失败。</p>
 <p>当你的工具耐久越低时，失败概率越高，失去耐久时不会得到产物</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>携带同职业的可用工具会导致你的开采失败概率大幅度提高！</p>
+<p>请注意请不要在采集时携带备用工具，低等级的工具也是不允许的</p>
+<p>但是你可以提前带高等级的工具，未到使用等级的工具不会被视作可用工具</p>
 </div>
 <p>当你开采成功后，将会得到随机品质的原料</p>
 <p>89%得到1星，10%得到2星，1%得到三星</p>
@@ -33,7 +36,9 @@
 <p>通常来讲，只要你看到了类似矿场一样的建筑，一般都会有矿物资源点</p>
 <h3 id="woodcuting-伐木" tabindex="-1"><a class="header-anchor" href="#woodcuting-伐木" aria-hidden="true">#</a> WoodCuting(伐木)</h3>
 <p><strong>左键：Wood 右键：Paper</strong></p>
-<p>树木资源点非常分散且非常常见，只要你能找到有森林的地方就能进行伐木</p>
+<p>伐木资源点非常分散且非常常见，只要你能找到有森林的地方就能进行伐木</p>
+<p>伐木资源点由于太过分散，是四个采集副职里面效率最低的一个</p>
+<p>通常比起其他采集副职需要花费更多的时间在跑图上</p>
 <h3 id="farming-农业" tabindex="-1"><a class="header-anchor" href="#farming-农业" aria-hidden="true">#</a> Farming(农业)</h3>
 <p><strong>左键：String 右键：Grain</strong></p>
 <p>农业资源点与矿业相似，比较集中，且一般以农田的形式呈现</p>
@@ -57,15 +62,13 @@
 <p>特例为100级和110级原材料<br>
 100级原材料只能制作100-103级物品，110原材料只能制作103-105级物品。</p>
 </div>
-<div class="hint-container tip">
-<p class="hint-container-title">提升效率的方法</p>
+<h3 id="提升效率的方法" tabindex="-1"><a class="header-anchor" href="#提升效率的方法" aria-hidden="true">#</a> 提升效率的方法</h3>
 <p>在有着pxp+psb(bomb)的情况下，你的采集副职练级效率将会提升至4倍</p>
 <p>因此，不是很建议在没有bomb的情况下进行副职练级</p>
 <p>关于Bombs可以看<RouterLink to="/guide/VIP.html#bombs">这一章</RouterLink></p>
 <p>同时，一些自制素材也能提供采集经验加成</p>
 <p>你可以购买素材让大佬帮忙制作带有高额采集经验加成的装备(最高可以额外提供约150%的采集经验加成)</p>
 <p>当然，这些素材和材料<strong>相当非常无比贵</strong>，请注意衡量成本</p>
-</div>
 <h2 id="制作" tabindex="-1"><a class="header-anchor" href="#制作" aria-hidden="true">#</a> 制作</h2>
 <p>在城镇中，我们会看到这样的东西，比如这个是药水制造的酿造台：</p>
 <figure><img src="/assets/img/prof4.jpg" alt="每种制造业都有一个类似的工作台" tabindex="0" loading="lazy"><figcaption>每种制造业都有一个类似的工作台</figcaption></figure>
@@ -119,9 +122,9 @@
 <tbody>
 <tr>
 <td>长矛<br>(武器)</td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
@@ -130,9 +133,9 @@
 </tr>
 <tr>
 <td>匕首<br>(武器)</td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
@@ -143,10 +146,10 @@
 <td>弓<br>(木工)</td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 </tr>
@@ -154,10 +157,10 @@
 <td>法杖<br>(木工)</td>
 <td></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 </tr>
@@ -165,19 +168,19 @@
 <td>巫杖<br>(木工)</td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 </tr>
 <tr>
 <td>头盔<br>(盔甲)</td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
@@ -185,10 +188,10 @@
 </tr>
 <tr>
 <td>胸甲<br>(盔甲)</td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
@@ -196,23 +199,23 @@
 </tr>
 <tr>
 <td>护腿<br>(纺织)</td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 </tr>
 <tr>
 <td>靴子<br>(纺织)</td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 </tr>
@@ -230,35 +233,35 @@
 <tr>
 <td>指环<br>(饰品)</td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 </tr>
 <tr>
 <td>手镯<br>(饰品)</td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 </tr>
 <tr>
 <td>项链<br>(饰品)</td>
 <td></td>
-<td>3X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 </tr>
 <tr>
 <td>药水</td>
@@ -266,21 +269,21 @@
 <td></td>
 <td></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 </tr>
 <tr>
 <td>卷轴</td>
 <td></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 </tr>
 <tr>
 <td>食物</td>
@@ -288,14 +291,14 @@
 <td></td>
 <td></td>
 <td></td>
-<td>1X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td></td>
-<td>2X</td>
+<td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p>以上X的取值根据原材料等级取值</p>
+<p>以上<HopeIcon icon="splotch" />的取值根据原材料等级取值</p>
 <table>
 <thead>
 <tr>
@@ -310,7 +313,7 @@
 </thead>
 <tbody>
 <tr>
-<td>X</td>
+<td><HopeIcon icon="splotch" /></td>
 <td>1</td>
 <td>2</td>
 <td>3</td>
@@ -320,11 +323,11 @@
 </tr>
 </tbody>
 </table>
-<h2 id="附录-关于采集推荐地点以及工具兑换点" tabindex="-1"><a class="header-anchor" href="#附录-关于采集推荐地点以及工具兑换点" aria-hidden="true">#</a> 附录 - 关于采集推荐地点以及工具兑换点</h2>
+<h2 id="采集推荐地点-工具兑换点" tabindex="-1"><a class="header-anchor" href="#采集推荐地点-工具兑换点" aria-hidden="true">#</a> 采集推荐地点&amp;工具兑换点</h2>
 <blockquote>
 <p>数据来源：<a href="https://www.youtube.com/@Olinus10" target="_blank" rel="noopener noreferrer">https://www.youtube.com/@Olinus10<ExternalLinkIcon/></a></p>
 </blockquote>
-<p>此处推荐点基本为少干扰、安心采集的点位</p>
+<p>此处推荐点基本为少干扰、资源点密集的点位</p>
 <p>对于标粗的地点名称，代表需要前置任务才可进入，通常会有+50%的采集经验加成</p>
 <h3 id="woodcutting" tabindex="-1"><a class="header-anchor" href="#woodcutting" aria-hidden="true">#</a> Woodcutting</h3>
 <table>
@@ -649,7 +652,7 @@
 <tr>
 <td>Lv.90</td>
 <td>Molten Eel</td>
-<td>Molten Heights Lake<br>Maex Mine</td>
+<td>Molten Heights Lake<br><strong>Maex Mine</strong></td>
 <td><code v-pre>[1435,139,-5091]</code><br><code v-pre>[1535,61,-5339]</code></td>
 </tr>
 <tr>
@@ -723,7 +726,7 @@
 </tr>
 <tr>
 <td>Tier.12</td>
-<td>Eldritch Outlook</td>
+<td>CGG &amp; Eldritch Outlook</td>
 <td>9 Fragment +4096e</td>
 </tr>
 </tbody>

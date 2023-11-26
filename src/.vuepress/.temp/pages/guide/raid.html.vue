@@ -5,8 +5,8 @@
 </div>
 <p>Raid(袭击)是一种特殊的多人高难副本，您可以在Raid中获取到大量资源，且对于完整游戏体验来说，Raid是必要的游戏内容。</p>
 <p>在这里，我会对Raid进行详尽的讲解，包括如何解锁各个Raid，以及各个Raid的机制、奖励等。</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
 <p>非常不建议在不了解机制的情况下匹配路人打Raid</p>
 <p>因为部分Raid机制会因为一个人的失误导致全队失败</p>
 <p>(部分机制在自己遇到之前不好描述)</p>
@@ -130,6 +130,13 @@
 前置任务：<RouterLink to="/quests/lvl71-80/level%2079%20-%20Realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html">Realm of Light V - The Realm of Light (level 79)</RouterLink></p>
 <p>Nol是整个游戏流程中，等级限制第二低的raid</p>
 <p>Nol曾经是整个游戏中最难的Raid，目前其难度依旧是数一数二的，虽然能在Lv 80 解锁，但不建议在这个等级区间挑战。</p>
+<p>Nol会产出2级武器Tome</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>由于Nol的机制难度非常高</p>
+<p>因此非常不建议匹配野队</p>
+<p>要么会匹配很长时间都没人，要么大概率翻车！</p>
+</div>
 <h3 id="room1-1" tabindex="-1"><a class="header-anchor" href="#room1-1" aria-hidden="true">#</a> Room1</h3>
 <h4 id="decay-cloud" tabindex="-1"><a class="header-anchor" href="#decay-cloud" aria-hidden="true">#</a> Decay cloud</h4>
 <p>在这一面，您会看到很多的云并获得跳跃提升X，并收到提示：即将有云产生腐化，请尽快移动到纯净云中。</p>
@@ -242,9 +249,9 @@
 团队总等级上限：500<br>
 团队人数限制：4<br>
 入场费用：4 Tol Runes<br>
-前置任务：<RouterLink to="/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html">The Breaking Point (level 97)</RouterLink><br>
-Tcc是当前游戏流程内最难的raid之一</p>
-<p>Tcc可以产出当前版本的毕业防具tome，是游戏必要流程之一。</p>
+前置任务：<RouterLink to="/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html">The Breaking Point (level 97)</RouterLink></p>
+<p>Tcc是当前游戏流程内最难的raid之一</p>
+<p>Tcc可以产出当前版本的毕业防具tome(2级)，是游戏必要流程之一。</p>
 <h3 id="room1-2" tabindex="-1"><a class="header-anchor" href="#room1-2" aria-hidden="true">#</a> Room1</h3>
 <h4 id="minigame" tabindex="-1"><a class="header-anchor" href="#minigame" aria-hidden="true">#</a> Minigame</h4>
 <p>这一面，玩家会被传送至一个封闭空间内，周围会有五个被巨石封住的道路，周围的五个通道每次会开启三个，完成通道内的挑战即可获得资源，将资源提交至中央的洞穴上，提交十个资源后洞穴开启，进入下一面。</p>
@@ -373,7 +380,7 @@ Tcc是当前游戏流程内最难的raid之一</p>
 入场费用：5 Tol Runes<br>
 前置任务：<RouterLink to="/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html">A Journey Further (level 101)</RouterLink></p>
 <p>Tna是当前游戏流程内最难的raid之一</p>
-<p>Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且能产出当前版本的毕业武器tome以及强力装备Aleph null，是游戏必要的流程之一。</p>
+<p>Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且能产出当前版本的毕业武器tome(3级)以及强力装备Aleph null，是游戏必要的流程之一。</p>
 <p>如果您觉得riad困难，请不要吝惜各类消耗品。</p>
 <blockquote>
 <p>上面那话句的错别字是故意的。</p>
