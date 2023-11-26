@@ -62,7 +62,11 @@ icon: flask
 
 **左键：Wood 右键：Paper**
 
-树木资源点非常分散且非常常见，只要你能找到有森林的地方就能进行伐木
+伐木资源点非常分散且非常常见，只要你能找到有森林的地方就能进行伐木
+
+伐木资源点由于太过分散，是四个采集副职里面效率最低的一个
+
+通常比起其他采集副职需要花费更多的时间在跑图上
 
 ### Farming(农业)
 
@@ -200,7 +204,7 @@ icon: flask
 
 >数据来源：https://www.youtube.com/@Olinus10
 
-此处推荐点基本为少干扰、安心采集的点位
+此处推荐点基本为少干扰、资源点密集的点位
 
 对于标粗的地点名称，代表需要前置任务才可进入，通常会有+50%的采集经验加成
 
@@ -269,7 +273,7 @@ icon: flask
 | Lv.60  | Koi |Willow Pond            | `[-1303,51,-5194]`     |
 | Lv.70  | Gylia Fish |Lake Gylia             | `[-207,29,-5204]`      |
 | Lv.80  | Bass |Relos Coast            | `[-1860,37,-2191]`     |
-| Lv.90  | Molten Eel |Molten Heights Lake<br>Maex Mine    | `[1435,139,-5091]`<br>`[1535,61,-5339]`     |
+| Lv.90  | Molten Eel |Molten Heights Lake<br>**Maex Mine**    | `[1435,139,-5091]`<br>`[1535,61,-5339]`     |
 | Lv.100 | Starfish |Kandon Pond Lower      | `[689,88,-4605]`       |
 | Lv.110 | Dernic Fish |Toxic Hill Upper       | `[786,148,-983]`       |
 
