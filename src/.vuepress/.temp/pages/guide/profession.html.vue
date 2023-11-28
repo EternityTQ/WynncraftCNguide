@@ -108,6 +108,31 @@
 <table>
 <thead>
 <tr>
+<th>原料等级</th>
+<th>1</th>
+<th>10-20</th>
+<th>30-40</th>
+<th>50-60</th>
+<th>70-80</th>
+<th>90+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><HopeIcon icon="splotch" /></td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+</tbody>
+</table>
+<p>以下每颗<HopeIcon icon="splotch" />代表的原料数量根据原材料等级而定，见上表</p>
+<table>
+<thead>
+<tr>
 <th>种类</th>
 <th>Ingot</th>
 <th>Gem</th>
@@ -295,31 +320,6 @@
 <td></td>
 <td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
-</tr>
-</tbody>
-</table>
-<p>以上<HopeIcon icon="splotch" />的取值根据原材料等级取值</p>
-<table>
-<thead>
-<tr>
-<th>原料等级</th>
-<th>1</th>
-<th>10-20</th>
-<th>30-40</th>
-<th>50-60</th>
-<th>70-80</th>
-<th>90+</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><HopeIcon icon="splotch" /></td>
-<td>1</td>
-<td>2</td>
-<td>3</td>
-<td>4</td>
-<td>5</td>
-<td>6</td>
 </tr>
 </tbody>
 </table>

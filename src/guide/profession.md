@@ -181,6 +181,14 @@ icon: flask
 若用于制作95-97或者更高的等级，则可以使用。
 
 ### 制造业的全部基础配方
+
+
+| 原料等级 | 1 | 10-20 | 30-40 | 50-60 | 70-80 | 90+ |
+| --- | --- | --- | --- | --- | --- | --- |
+| <HopeIcon icon="splotch" /> | 1 | 2 | 3 | 4 | 5 | 6 |
+
+以下每颗<HopeIcon icon="splotch" />代表的原料数量根据原材料等级而定，见上表
+
 | 种类     | Ingot | Gem | Wood | Paper | Grain | String | Meat | Oil |
 | ---------- | ----- | --- | ---- | ----- | ----- | ------ | ---- | --- |
 | 长矛<br>(武器) | <HopeIcon icon="splotch" />    |     | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |       |       |        |      |     |
@@ -200,10 +208,7 @@ icon: flask
 | 卷轴     |       |     |      | <HopeIcon icon="splotch" />    |       |        |      | <HopeIcon icon="splotch" />  |
 | 食物     |       |     |      |       | <HopeIcon icon="splotch" />    |        | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |     |
   
-以上<HopeIcon icon="splotch" />的取值根据原材料等级取值
-| 原料等级 | 1 | 10-20 | 30-40 | 50-60 | 70-80 | 90+ |
-| --- | --- | --- | --- | --- | --- | --- |
-| <HopeIcon icon="splotch" /> | 1 | 2 | 3 | 4 | 5 | 6 |
+
 
 
 ## 采集推荐地点&工具兑换点
