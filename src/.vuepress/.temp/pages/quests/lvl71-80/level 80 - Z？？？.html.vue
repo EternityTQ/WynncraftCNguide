@@ -8,18 +8,17 @@
 <p class="hint-container-title">注意</p>
 <p>本任务为多人合作解密任务，任务途中在游戏内全程没有任何提示</p>
 <p>在开始任务前，强烈建议身上携带若干Detlas和Cinfras卷轴！</p>
+<p><strong>任务整体流程需要四个人一起完成</strong></p>
 </div>
 <p>在开始流程前，先去准备好这三样东西</p>
 <p><RouterLink to="/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html">Memory Paranoia</RouterLink>中在儿子射壁炉的场景拿到汤勺</p>
 <p><RouterLink to="/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html">The Bigger Picture</RouterLink>中先去洞穴入口<code v-pre>[-201 37 -4553]</code>进入洞穴，在<code v-pre>[-167 47 -4394]</code>缩小自己后，再去<code v-pre>[-305 91 -7705]</code>拿到Tiny Mushroom</p>
-<p>然后要去<strong>Skien Island</strong>拿到一幅画<code v-pre>[371 84 -3512]</code>，注意入口在顶楼<code v-pre>[389 87 -3527]</code>，建议直接TP到顶楼然后进去，注意那个特别亮的石头是地图，直接穿过去就行</p>
+<p>然后要去<strong>Skien Island</strong>拿到一幅画<code v-pre>[371 84 -3512]</code>，注意入口在顶楼<code v-pre>[389 87 -3527]</code>，建议直接TP到顶楼然后进去，有个特别亮的石头墙是地图，直接穿过去就行</p>
 <p>只要有任意玩家准备好这三样东西就行了</p>
 <p>在2.0版本后，这些材料均不会消耗！只用存一套就好了！</p>
 <p>但是如果你存的是老版本的材料，那么仍然会消耗，建议去存一套新的</p>
-<p>新版本材料的标识是有&quot;右键使用&quot;的字样</p>
+<p>新版本材料的标识是有<code v-pre>Right-click to use</code>的字样</p>
 <h2 id="阶段一" tabindex="-1"><a class="header-anchor" href="#阶段一" aria-hidden="true">#</a> ??? - 阶段一</h2>
-<p><strong>这个阶段需要三名玩家</strong><br>
-<strong>但最好要四个人！！！方便一起完成后面的任务</strong></p>
 <p>三名玩家需要分别前往红黄蓝三个陨石点，完成解密后一起站在指定位置，方可传送至接取任务的地方</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
@@ -37,7 +36,7 @@
 <p>位置和方向也需要一样，注意看清楚了，可以参考旁边的石块位置</p>
 <p>如果推错了，可以使用/class来重置</p>
 </div>
-<p>完成后会出现一个由红色粒子组成的平台构成的限时跑酷</p>
+<p>完成后会出现一个由紫色粒子组成的平台构成的限时跑酷</p>
 <p>同时你会获得跳跃提升buff</p>
 <p>通过跑酷可以来到瀑布上<code v-pre>[-765 148 -4352]</code>，此时一面墙会破开，进去即可</p>
 <p>如果你来得及的话，完全可以直接通过瀑布游上去来到暗门内(直接用位移技能就行了...)</p>
@@ -45,6 +44,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>可以使用截图</p>
+<p>复原即点击每轮新出现的颜色方块</p>
 </div>
 <p>然后在房间内找到蓝色羊毛，丢进铁栏杆装置内，进入传送装置后即可传送至流星区域</p>
 <div class="hint-container tip">
@@ -69,12 +69,16 @@
 <p>第8步完成之前全程不能换服/重登</p>
 </div>
 <p>按照以下步骤做<br>
-1.进入<code v-pre>[-2084 77 -4473]</code>的洞内，在上面的脚手架找到钥匙</p>
-<p>2.出来后一路直走，来到<code v-pre>[-1914 77 -4472]</code>的洞内，将拿到的钥匙丢入漏斗内，然后触发一下机关在下面直到看到下面的洞有矿车经过</p>
+1.进入<code v-pre>[-2084 77 -4473]</code>的洞内，在上面最顶层的脚手架找到钥匙</p>
+<p>2.出来后一路直走，来到<code v-pre>[-1914 77 -4472]</code>的洞内，将拿到的钥匙丢入左侧的漏斗内，然后触发一下机关，在下面直到看到下面的洞有矿车经过</p>
 <p>3.进入旁边的矿洞，来到入口旁边的平台上<code v-pre>[-1879 80 -4422]</code>，会有一辆矿车，推它！<br>
 <img src="/assets/img/lvl80-8.jpg" alt="" loading="lazy"></p>
 <p>4.快要到铁道岔路的时候停下来，按按钮，然后快速推过左边的岔路<br>
 <img src="/assets/img/lvl80-9.jpg" alt="" loading="lazy"></p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>乘坐矿车的状态是不能按按钮的，必须要下车才能按</p>
+</div>
 <p>5.矿车推到底部后会有另一个按钮，按了之后让它弹射起步进入另一条岔路，这里需要坐上去前进，不然动力不足<br>
 <img src="/assets/img/lvl80-10.jpg" alt="" loading="lazy"></p>
 <p>6.推到外面的木桩后按按钮，继续进另一条岔路<br>
@@ -88,7 +92,7 @@
 </div>
 <p>9.用心感受↓</p>
 <figure><img src="/assets/img/lvl80-4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>10.找红色羊毛<code v-pre>[115 129 -5716]</code>丢入如图所示的装置内，进入传送装置传送至流星区域<br>
+<p>10.找红色羊毛<code v-pre>[115 129 -5716]</code>丢入如图所示的铁栏杆装置内，进入传送装置传送至流星区域<br>
 <img src="/assets/img/lvl80-12.jpg" alt="" loading="lazy"></p>
 <p>11.拿到<code v-pre>Meteor shard</code>后进入陨石内待命<br>
 从<code v-pre>Meteor shard</code>的刷新点往下走，来到<code v-pre>[2432 13 -6395]</code>进去，会有一个不断闪现的墙，抓准时机进去</p>
@@ -157,14 +161,17 @@
 <p>即将箭头所指的蓝色方块往左移动1格即可</p>
 <p>一直重复这个操作，直到胜利为止</p>
 </div>
-<p>3.找黄色羊毛<code v-pre>[-1430 57 -5631]</code>丢下图铁栏杆的装置内，进入传送装置传送至流星区域<br>
-<img src="/assets/img/lvl80-15.jpg" alt="" loading="lazy"><br>
-4.找到碎片后找落脚点往下走，穿过岩浆进入陨石内待命</p>
-<p>当三个人全部进入陨石内待命后，同时踩下压力板，即可传送至接取任务的地点</p>
-<p>和面前的<em>Computer</em>对话</p>
-<p>切记切记，只有接取任务后才能继续下面的步骤</p>
+<p>3.找黄色羊毛<code v-pre>[-1430 57 -5631]</code>丢下图的铁栏杆装置内，进入传送装置传送至流星区域<br>
+<img src="/assets/img/lvl80-15.jpg" alt="" loading="lazy"></p>
+<p>4.找到碎片后找落脚点往下走，穿过岩浆进入陨石内待命</p>
+<h3 id="集合完毕" tabindex="-1"><a class="header-anchor" href="#集合完毕" aria-hidden="true">#</a> 集合完毕</h3>
+<p>当三个人全部进入陨石内待命后，同时踩下陨石内的铁质压力板，即可传送至接取任务的地点</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>和面前的<font color=00AA00><strong>Computer</strong></font>对话以接取任务</p>
+<p><strong>切记切记，只有接取任务后才能继续下面的步骤</strong></p>
+</div>
 <h2 id="阶段二" tabindex="-1"><a class="header-anchor" href="#阶段二" aria-hidden="true">#</a> ??? - 阶段二</h2>
-<p><strong>这个阶段需要一名玩家</strong></p>
 <p>1.收集齐开头提到过的三个物品后，前往Yahya的家<code v-pre>[-282 69 -1694]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -182,7 +189,6 @@
 </div>
 <p>当解密完成后，所有在房间内的玩家均会传送至下个关卡Lab N</p>
 <h2 id="阶段三" tabindex="-1"><a class="header-anchor" href="#阶段三" aria-hidden="true">#</a> ??? - 阶段三</h2>
-<p><strong>这个阶段需要四名玩家</strong></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>三阶段对配合要求很高</p>
@@ -291,7 +297,7 @@
 <p class="hint-container-title">提示</p>
 <p>如果你已经完成了Lab N但是错过了开门时间或者已经完成了任务，只需要完成下列步骤就可以重新进入：</p>
 <p>1.重新回到第一阶段，收集红黄蓝三种陨石的碎片</p>
-<p>2.返回Rooster Island，通过捷径进入Lab N拿到生锈的钥匙</p>
+<p>2.返回<strong>Rooster Island</strong>，通过捷径进入Lab N拿到生锈的钥匙</p>
 <p>3.回到白色陨石，重新开门即可</p>
 </div>
 <p>奖励</p>

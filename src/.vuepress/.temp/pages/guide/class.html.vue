@@ -3,10 +3,11 @@
 <p>此页面内容尚在施工</p>
 <p>请知悉！</p>
 </div>
+<h2 id="职业" tabindex="-1"><a class="header-anchor" href="#职业" aria-hidden="true">#</a> 职业</h2>
 <p>首先，先强调一个观点：对于新手而言，所有职业都值得一试</p>
 <p>每一个职业都有不同的闪光点，非常建议之后将每个职业都体验一遍</p>
 <p>这里首先先简单<s>主观</s>地讲解一下每个职业的基础特点</p>
-<Tabs id="17" :data='[{"id":"战士"},{"id":"法师"},{"id":"弓手"},{"id":"刺客"},{"id":"萨满"}]'>
+<Tabs id="20" :data='[{"id":"战士"},{"id":"法师"},{"id":"弓手"},{"id":"刺客"},{"id":"萨满"}]'>
 <template #title0="{ value, isActive }">战士</template>
 <template #title1="{ value, isActive }">法师</template>
 <template #title2="{ value, isActive }">弓手</template>
@@ -57,10 +58,8 @@
 <p class="hint-container-title">提示</p>
 <p>您并不一定需要按照一条技能树一路点到底，有时候技能树混搭反而能达到更好的效果</p>
 </div>
-<ul>
-<li>战士</li>
-</ul>
-<Tabs id="131" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
+<h3 id="战士" tabindex="-1"><a class="header-anchor" href="#战士" aria-hidden="true">#</a> 战士</h3>
+<Tabs id="130" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
 <template #title0="{ value, isActive }"><font color="red">Fallen 腐化者</font></template>
 <template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道士</font></template>
 <template #title2="{ value, isActive }"><font color=18c7f0> Paladin 圣骑士</font></template>
@@ -115,10 +114,8 @@
 <p>作为代价，圣骑士的输出能力相较另两条技能树更低，如果不是为了追求终极技能的复活能力和团队增益，建议与其他分支进行适当搭配</p>
 </template>
 </Tabs>
-<ul>
-<li>法师</li>
-</ul>
-<Tabs id="238" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
+<h3 id="法师" tabindex="-1"><a class="header-anchor" href="#法师" aria-hidden="true">#</a> 法师</h3>
+<Tabs id="233" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
 <template #title0="{ value, isActive }"><font color=18c7f0> Riftwalker 时空行者</font></template>
 <template #title1="{ value, isActive }"><font color="grey"> Light Bender 圣光使者</font></template>
 <template #title2="{ value, isActive }"><font color="purple"> Arcanist 奥术法师</font></template>
@@ -168,16 +165,14 @@
 </ul>
 </template>
 <template #tab2="{ value, isActive }">
-<p>奥术法师牺牲了治疗能力，并可以进行奥术转化，将输出转化为贮存能量再通过奥术转化利用贮存能量输出，能轻松达成电表倒转的同时也有极高的爆发伤害</p>
+<p>奥术法师牺牲了治疗能力，并可以进行奥术转化，达成滚雪球式地储能，能轻松达成电表倒转的同时也有极高的爆发伤害</p>
 <p>牺牲治疗能力，使得奥术法师使用技能、技能命中都会为自己特殊的&quot;能量库&quot;进行充能，而使用已经被替换为奥术转化的治疗，会将能量库提取为可用能量</p>
 <p>而奥术法师的终极技能，使得奥术法师在能量库存储量足够高时使用奥术转化，能直接消耗能量库打出先前使用的多个技能，快速运转能量与输出</p>
 <p>输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发</p>
 </template>
 </Tabs>
-<ul>
-<li>弓手</li>
-</ul>
-<Tabs id="348" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<h3 id="弓手" tabindex="-1"><a class="header-anchor" href="#弓手" aria-hidden="true">#</a> 弓手</h3>
+<Tabs id="339" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Boltslinger 闪击射手</font></template>
 <template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
 <template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
@@ -216,10 +211,8 @@
 <p>鹰眼的终极技能可以在叠满专注时化身雷霆战机<s>飞行木桩</s>造成高额爆发<s>并牺牲持续输出能力</s></p>
 </template>
 </Tabs>
-<ul>
-<li>刺客</li>
-</ul>
-<Tabs id="427" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
+<h3 id="刺客" tabindex="-1"><a class="header-anchor" href="#刺客" aria-hidden="true">#</a> 刺客</h3>
+<Tabs id="414" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
 <template #title0="{ value, isActive }"><font color=AA0000> Shadestepper 影步者 </font></template>
 <template #title1="{ value, isActive }"><font color=FF55FF> Trickster 幻术师 </font></template>
 <template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法刺 </font></template>
@@ -239,10 +232,8 @@
 <p>虽然茉莉印记是身法刺的核心机制来源，但身法刺的核心输出在多重斩上，不多多利用多重斩的话输出并不出色</p>
 </template>
 </Tabs>
-<ul>
-<li>萨满</li>
-</ul>
-<Tabs id="469" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
+<h3 id="萨满" tabindex="-1"><a class="header-anchor" href="#萨满" aria-hidden="true">#</a> 萨满</h3>
+<Tabs id="452" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
 <template #title1="{ value, isActive }"><font color=16d108> Ritualist 圣祭祀 </font></template>
 <template #title2="{ value, isActive }"><font color="red"> Acolyte 血教徒 </font></template>
@@ -278,6 +269,39 @@
 <p></p>
 </template>
 </Tabs>
+<h2 id="技能树介绍" tabindex="-1"><a class="header-anchor" href="#技能树介绍" aria-hidden="true">#</a> 技能树介绍</h2>
+<p>在指南针界面的左侧，你可以打开技能树</p>
+<figure><img src="/assets/img/tree1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<h3 id="基础介绍" tabindex="-1"><a class="header-anchor" href="#基础介绍" aria-hidden="true">#</a> 基础介绍</h3>
+<p>随着战斗等级的提升，你将会慢慢得到技能点</p>
+<p>一个能力一般会消耗1-2个技能点</p>
+<p>通常来说，白色小能力以及技能会消耗1点技能点，其余大能力会消耗1-2技能点不等</p>
+<p>你可以通过自由加点来构建属于你自己的技能树</p>
+<h3 id="职业流派" tabindex="-1"><a class="header-anchor" href="#职业流派" aria-hidden="true">#</a> 职业流派</h3>
+<p>一个职业的技能树通常分为三个流派，但是介于wynncraft技能树的设计，你不一定需要一条线路往死里点</p>
+<p>你可以在技能树UI的下方查看各个流派的介绍，以及当前所点的流派能力数量</p>
+<p>大部分情况下，你可以在主点一个流派时，或多或少点亮其他流派相邻的部分能力</p>
+<p>如果该能力属于一个流派能力，会在下方标注</p>
+<p>需要注意的是，一部分能力存在流派数量限制，你只有在点亮足够多的流派能力后才可以点亮该能力</p>
+<p>同时，部分能力还存在冲突(多个能力只允许点其中一个)以及前置(点亮上一个指定能力才可以点亮这个能力)</p>
+<figure><img src="/assets/img/tree2.jpg" alt="该图包含了上述大部分情况" tabindex="0" loading="lazy"><figcaption>该图包含了上述大部分情况</figcaption></figure>
+<p><strong>你将在104级时获得所有的技能点</strong></p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>并非所有的能力都能提高游戏体验！</p>
+<p>有部分能力改变了技能的效果</p>
+<p>例如：法师右路的<code v-pre>Arcane Transfer</code>能力中，将治疗效果转化为了法力转换</p>
+<p>如果你需要治疗效果，那么点了这个技能点就没有治疗了！</p>
+</div>
+<h3 id="重置技能树" tabindex="-1"><a class="header-anchor" href="#重置技能树" aria-hidden="true">#</a> 重置技能树</h3>
+<p>在账号的任意存档完成<RouterLink to="/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html">Recover The Past (level 25)</RouterLink>后，即可解锁技能树洗点能力</p>
+<p>洗点需要消耗3个<code v-pre>Ability Shard</code>，其来源包括每日签到、每日任务、Raid产出等等，强烈建议通过交易市场购买，不算很贵</p>
+<p>只要在城镇等安全区域手持<code v-pre>Ability Shard</code>右键，就可以打开洗点界面了</p>
+<p>你也可以在技能树下方打开洗点界面</p>
+<figure><img src="/assets/img/tree3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>分别点击三个加号后，你就可以重置技能树了</p>
+<p>在重置后，你可以进行任意加点，且在离开安全区域/离线前，你还可以右键来撤回加点</p>
+<p>一旦离开安全区域或下线，你的技能树将会锁定，无法再进行右键撤回的操作</p>
 </div></template>
 
 

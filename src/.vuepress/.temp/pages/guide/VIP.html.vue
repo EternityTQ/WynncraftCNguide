@@ -10,6 +10,7 @@
 <p>一共有四个等级：<code v-pre>VIP</code>、<code v-pre>VIP+</code>、<code v-pre>HERO</code>、<code v-pre>CHAMPION</code></p>
 <details class="hint-container details"><summary>rank的主要功能</summary>
 <p><strong>更高级的rank均包含低级rank的所有内容</strong></p>
+<p><strong>如果你已经拥有了低级rank，则升级高级rank只需要付差价即可</strong></p>
 <p>VIP $8.99</p>
 <ul>
 <li>每日图腾: 2个</li>
@@ -86,7 +87,7 @@
 <p>在使用后，每个图腾有5分钟的持续时间，作用半径为20格</p>
 <p>在图腾有效范围内，红名怪物的刷新速度和刷新数量将会大幅度增加</p>
 <p>如果配合<code v-pre>Double XP</code>或者<code v-pre>Double Loot</code>，效率将会大幅度提高！</p>
-<p><strong>请注意，在安全区内使用图腾是违规的</strong></p>
+<p><strong>请注意，在城镇内使用图腾是违规的</strong></p>
 <p>当前图腾的主要来源为Rank的每日奖励</p>
 <p>在持有Silverbull订阅状态时，每日图腾的数量将会翻倍</p>
 <div class="hint-container warning">
@@ -96,7 +97,7 @@
 <h3 id="皮肤职业" tabindex="-1"><a class="header-anchor" href="#皮肤职业" aria-hidden="true">#</a> 皮肤职业</h3>
 <p>在解锁了皮肤职业后，你可以在创建职业时选择皮肤职业</p>
 <p>皮肤职业对于原生职业来说，仅有特效和名字的区别</p>
-<p>在购买了HERO及以上的Rank后，你可以将现有的职业进行原生-皮肤之间的切换</p>
+<p>在购买了HERO及以上的Rank后，你可以将现有的职业进行原皮肤-特效皮肤之间的切换</p>
 <h3 id="每日饰品箱" tabindex="-1"><a class="header-anchor" href="#每日饰品箱" aria-hidden="true">#</a> 每日饰品箱</h3>
 <p>在购买了VIP+及以上的Rank后，你就可以获得每日饰品箱</p>
 <p>其为最基础的饰品箱，在节日期间也不会转化为节日饰品箱</p>

@@ -347,7 +347,7 @@
 </tr>
 <tr>
 <td><font color = "grey"><strong>灰色信标</strong></font></td>
-<td>青信标会使其选数翻倍；第5轮开始出现；<br>第27~35轮后消失；任务进行时不会出现</td>
+<td>青信标会使其选数翻倍但选数上限为5；第5轮开始出现；<br>第27~35轮后消失；任务进行时不会出现</td>
 </tr>
 <tr>
 <td><font color = "red"><strong>红色信标</strong></font></td>
