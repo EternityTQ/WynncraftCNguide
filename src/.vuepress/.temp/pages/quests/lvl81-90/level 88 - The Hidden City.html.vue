@@ -1,5 +1,5 @@
 <template><div><h1 id="the-hidden-city-level-88" tabindex="-1"><a class="header-anchor" href="#the-hidden-city-level-88" aria-hidden="true">#</a> The Hidden City (Level 88)</h1>
-<p><strong>隐蔽的城镇</strong></p>
+<p><span style="font-size: 25px;"><strong>隐蔽的城镇</strong></span></p>
 <p>1.跟Thesead旁边的<em>Narder</em><code v-pre>[711 78 -5072]</code>对话</p>
 <p>2.前往<code v-pre>[857 47 -5389]</code>，跨过障碍沿山路往上走</p>
 <p>3.和好奇的村民<code v-pre>[980 91 -5399]</code>对话</p>

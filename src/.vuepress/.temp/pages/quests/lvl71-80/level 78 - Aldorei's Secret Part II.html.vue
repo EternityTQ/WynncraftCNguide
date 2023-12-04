@@ -1,5 +1,5 @@
 <template><div><h1 id="aldorei-s-secret-part-ii-level-78" tabindex="-1"><a class="header-anchor" href="#aldorei-s-secret-part-ii-level-78" aria-hidden="true">#</a> Aldorei's Secret Part II (level 78)</h1>
-<p><strong>精灵们的秘密 下篇</strong></p>
+<p><span style="font-size: 25px;"><strong>精灵们的秘密 下篇</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Alderei - Cinfras的快速旅行</p>

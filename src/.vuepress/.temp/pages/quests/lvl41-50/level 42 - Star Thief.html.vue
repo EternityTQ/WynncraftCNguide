@@ -1,5 +1,5 @@
 <template><div><h1 id="star-thief-level-42" tabindex="-1"><a class="header-anchor" href="#star-thief-level-42" aria-hidden="true">#</a> Star Thief (level 42)</h1>
-<p><strong>偷星大盗</strong></p>
+<p><span style="font-size: 25px;"><strong>偷星大盗</strong></span></p>
 <p>1.走到<code v-pre>[-2018, 43, -4822]</code>附近，会听到一些声响，随后自动接取任务</p>
 <p>2 找到处于<code v-pre>[-2122, 52, -4887]</code>的陨石坑，然后和洞口旁边的<em>agent</em>对话 (这么巧你也是特工啊.jpg</p>
 <p>3.进入陨石坑调查调查后看到一坨白色石头，会有一小段过场动画。然后继续往前走(小心头顶！.jpg)</p>

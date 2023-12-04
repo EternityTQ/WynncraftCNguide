@@ -1,5 +1,5 @@
 # Canyon Condor (level 38)
-**峡谷秃鹫**~~(鹰？？？？？)~~
+<span style="font-size: 25px;">**峡谷秃鹫**</span>~~(鹰？？？？？)~~
 
 >杀鸡任务，多少人被一只鸡杀了
 

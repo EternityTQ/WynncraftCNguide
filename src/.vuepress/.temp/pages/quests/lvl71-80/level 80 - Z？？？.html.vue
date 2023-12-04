@@ -1,5 +1,5 @@
 <template><div><h1 id="level-80" tabindex="-1"><a class="header-anchor" href="#level-80" aria-hidden="true">#</a> ??? (level 80)</h1>
-<p><strong>来自疯狂科学家的解密挑战</strong></p>
+<p><span style="font-size: 25px;"><strong>来自疯狂科学家的解密挑战</strong></span></p>
 <div class="hint-container warning">
 <p class="hint-container-title">恐怖任务</p>
 <p>本任务部分阶段内含跳吓</p>

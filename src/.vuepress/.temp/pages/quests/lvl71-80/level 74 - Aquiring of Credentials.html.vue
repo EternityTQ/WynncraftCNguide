@@ -1,5 +1,5 @@
 <template><div><h1 id="acquiring-credentials-level-74" tabindex="-1"><a class="header-anchor" href="#acquiring-credentials-level-74" aria-hidden="true">#</a> Acquiring Credentials (level 74)</h1>
-<p><strong>获取凭证</strong><br>
+<p><span style="font-size: 25px;"><strong>获取凭证</strong></span><br>
 1.到<code v-pre>[-256 57 -4983]</code>领取护照</p>
 <p>2.被拒绝后，和门外的<em>Doan</em>对话</p>
 <p>3.跟着<em>Doan</em>沿着路来到酒吧<code v-pre>[-257 78 -7938]</code>，和里面的酒保对话</p>

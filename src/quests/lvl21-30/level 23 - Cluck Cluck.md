@@ -1,5 +1,5 @@
 # Cluck Cluck（level 23）
-**唧唧唧**
+<span style="font-size: 25px;">**唧唧唧**</span>
 
 1.和“公鸡岛”的*Nohno*`[-83 45 -2497]`说话
 

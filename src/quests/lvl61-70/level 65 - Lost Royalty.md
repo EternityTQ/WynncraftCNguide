@@ -1,5 +1,5 @@
 # Lost Royalty(level 65)
-**落魄的皇族**
+<span style="font-size: 25px;">**落魄的皇族**</span>
 
 1 和Troms城的Yavlis`[-848 85 -875]`说话
 

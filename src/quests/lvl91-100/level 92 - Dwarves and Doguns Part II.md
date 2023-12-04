@@ -2,7 +2,7 @@
 icon: route
 ---
 # Dwarves and Doguns Part II(level 92)
-**矮人族与多贡族的纷争 Part II**
+<span style="font-size: 25px;">**矮人族与多贡族的纷争 Part II**</span>
 
 :::tip 重要任务
 

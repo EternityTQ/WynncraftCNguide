@@ -1,5 +1,5 @@
 <template><div><h1 id="the-ultimate-weapon-level-75" tabindex="-1"><a class="header-anchor" href="#the-ultimate-weapon-level-75" aria-hidden="true">#</a> The Ultimate Weapon (level 75)</h1>
-<p><strong>终极武器</strong></p>
+<p><span style="font-size: 25px;"><strong>终极武器</strong></span></p>
 <p>1找到<em>Dodegar</em><code v-pre>[-987,42,-4593]</code></p>
 <p>2.在<code v-pre>[-1068 45 -4622]</code>的树洞内拿到1个<code v-pre>Enchanted Stick</code>，带回去给<em>Dodegar</em></p>
 <p>3.来到霍比特人村庄 找到<em>Gogedar</em><code v-pre>[-928 43 -4529]</code>，然后跟着下一个要找的NPC一路找，直到拿到<code v-pre>Sacred Hobbit Metal</code>..</p>

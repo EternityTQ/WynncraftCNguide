@@ -1,4 +1,4 @@
-<template><div><p><strong>Detlas的惊奇谜团</strong></p>
+<template><div><p><span style="font-size: 25px;"><strong>Detlas的惊奇谜团</strong></span></p>
 <div class="hint-container danger">
 <p class="hint-container-title">这是一个限时任务</p>
 <p>你只能在2023.11.5之前完成</p>

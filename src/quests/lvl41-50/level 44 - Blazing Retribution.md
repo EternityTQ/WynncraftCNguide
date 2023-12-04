@@ -1,5 +1,5 @@
 # Blazing Retribution (level 44)
-**复仇之焰**
+<span style="font-size: 25px;">**复仇之焰**</span>
 
 
 1.和*Piere*`[-1851 56 -4959]`对话

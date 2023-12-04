@@ -1,5 +1,5 @@
 # Dwelling Walls（level 22）
-**魔方屋**
+<span style="font-size: 25px;">**魔方屋**</span>
 
 1 和**Nemract**的*Leucsaa*`[201 38 -2173]`说话
 

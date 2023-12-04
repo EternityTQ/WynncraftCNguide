@@ -3,7 +3,7 @@ icon: route
 ---
 
 # The Order of the Grook (level 59)
-**魔法学院**
+<span style="font-size: 25px;">**魔法学院**</span>
 
 :::warning
 本页面部分内容存在缺失/过时

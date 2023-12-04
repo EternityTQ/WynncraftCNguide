@@ -5,7 +5,7 @@ icon: bookmark
 
 # Realm of Light II - Taproot (level 62)
 
-**光之领域 Part II - 主根**  
+<span style="font-size: 25px;">**光之领域 Part II - 主根**</span>  
 
 前置任务:[Realm of Light I -  The Worn Holes](/WynncraftCNguide/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)
 

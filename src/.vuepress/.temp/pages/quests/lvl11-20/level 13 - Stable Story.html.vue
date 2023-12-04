@@ -1,5 +1,5 @@
 <template><div><h1 id="stable-story-level-13" tabindex="-1"><a class="header-anchor" href="#stable-story-level-13" aria-hidden="true">#</a> Stable Story (level 13)</h1>
-<p><strong>马棚那点事</strong></p>
+<p><span style="font-size: 25px;"><strong>马棚那点事</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁马匹系统</p>

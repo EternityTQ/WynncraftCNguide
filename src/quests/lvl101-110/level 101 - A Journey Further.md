@@ -4,7 +4,7 @@ icon: skull
 
 
 # A Journey Further (level 101)
-**深堕之旅**
+<span style="font-size: 25px;">**深堕之旅**</span>
 :::tip 重要任务
 解锁Eldritch Outlook副本
 解锁RAID - The Nameless Anomaly

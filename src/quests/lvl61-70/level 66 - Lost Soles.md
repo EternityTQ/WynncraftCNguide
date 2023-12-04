@@ -1,6 +1,6 @@
 
 # Lost Soles(level 66)
-**遗失的鞋底**
+<span style="font-size: 25px;">**遗失的鞋底**</span>
 
 前置：[Beneath the Depths](/WynncraftCNguide/quests/lvl51-60/level%2060%20-%20Beneath%20the%20Depths.html)
 

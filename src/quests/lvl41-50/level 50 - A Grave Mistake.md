@@ -3,7 +3,7 @@ icon: face-tired
 ---
 
 # A Grave Mistake(level 50)
-**庄严的引魂人**
+<span style="font-size: 25px;">**庄严的引魂人**</span>
 
 前置任务:[The House of Twain](/WynncraftCNguide/quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html)
 :::warning 恐怖任务

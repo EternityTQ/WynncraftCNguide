@@ -2,7 +2,7 @@
 icon: face-tired
 ---
 # The Canary Calls (level 86)
-**金丝雀的呼唤**
+<span style="font-size: 25px;">**金丝雀的呼唤**</span>
 :::warning 恐怖任务
 本任务部分阶段内含跳吓
 :::

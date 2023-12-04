@@ -1,5 +1,5 @@
 # Forbidden Prison(level 72)
-**禁忌监狱**
+<span style="font-size: 25px;">**禁忌监狱**</span>
 
 :::tip
 你在靠近第一步的NPC的时候就会被叫过去对话

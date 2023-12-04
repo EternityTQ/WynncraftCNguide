@@ -1,5 +1,5 @@
 <template><div><h1 id="realm-of-light-i-the-worm-holes-level-54" tabindex="-1"><a class="header-anchor" href="#realm-of-light-i-the-worm-holes-level-54" aria-hidden="true">#</a> Realm of Light I - The Worm Holes (level 54)</h1>
-<p><strong>光之领域 Part I - 地下虫洞</strong></p>
+<p><span style="font-size: 25px;"><strong>光之领域 Part I - 地下虫洞</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁RAID - Nest of the Grootslangs</p>

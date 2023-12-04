@@ -3,7 +3,7 @@ icon: face-tired
 ---
 
 # Hollow Serenity (level 73)
-**空洞寂寥**
+<span style="font-size: 25px;">**空洞寂寥**</span>
 >编者注: 此任务大赞，强烈建议不看本攻略做一遍
 
 :::warning 恐怖任务

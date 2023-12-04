@@ -1,5 +1,5 @@
 <template><div><h1 id="from-the-bottom-level-81" tabindex="-1"><a class="header-anchor" href="#from-the-bottom-level-81" aria-hidden="true">#</a> From The Bottom(Level 81)</h1>
-<p><strong>以物易物</strong></p>
+<p><span style="font-size: 25px;"><strong>以物易物</strong></span></p>
 <p>1.找到想要 <code v-pre>3 Troll Hair</code>的npc——<em>Nakoba</em><code v-pre>[191 6 -5236]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

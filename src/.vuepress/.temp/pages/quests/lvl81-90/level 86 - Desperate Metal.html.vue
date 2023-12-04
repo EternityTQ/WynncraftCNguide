@@ -1,5 +1,5 @@
 <template><div><h1 id="desperate-metal-level-86" tabindex="-1"><a class="header-anchor" href="#desperate-metal-level-86" aria-hidden="true">#</a> Desperate Metal (Level 86)</h1>
-<p><strong>机械毁灭者</strong></p>
+<p><span style="font-size: 25px;"><strong>机械毁灭者</strong></span></p>
 <p>1跟<em>Phinas</em>在<strong>Corkus</strong>南边对话<code v-pre>[-1672 38 -2083]</code></p>
 <p>2跟着地上的工具到三个不同的洞穴里 杀掉boss并拿起掉落物</p>
 <div class="hint-container tip">

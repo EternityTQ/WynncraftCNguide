@@ -1,5 +1,5 @@
 <template><div><h1 id="bob-s-lost-soul-level-45" tabindex="-1"><a class="header-anchor" href="#bob-s-lost-soul-level-45" aria-hidden="true">#</a> Bob's Lost Soul (level 45)</h1>
-<p><strong>Bob失落的灵魂</strong></p>
+<p><span style="font-size: 25px;"><strong>Bob失落的灵魂</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>建议提前看好流程，提前准备好材料能节省很多时间</p>

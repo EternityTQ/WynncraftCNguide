@@ -1,4 +1,4 @@
-<template><div><p><strong>矮人族与多贡族的纷争 Part IV</strong></p>
+<template><div><p><span style="font-size: 25px;"><strong>矮人族与多贡族的纷争 Part IV</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>记得带前置任务中获得的<code v-pre>Staff of True Ice</code>和<code v-pre>Amulet of Fire Resistance</code>噢</p>

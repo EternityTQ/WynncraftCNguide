@@ -1,5 +1,5 @@
 <template><div><h1 id="the-house-of-twain-level-49" tabindex="-1"><a class="header-anchor" href="#the-house-of-twain-level-49" aria-hidden="true">#</a> The House of Twain(level 49)</h1>
-<p><strong>吐温凶宅</strong></p>
+<p><span style="font-size: 25px;"><strong>吐温凶宅</strong></span></p>
 <blockquote>
 <p>万圣节特殊任务，在做这个任务之前，请自备若干个绿宝石或者绿帽子Ghostly Cap。</p>
 </blockquote>

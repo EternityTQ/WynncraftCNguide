@@ -1,5 +1,5 @@
 <template><div><h1 id="rise-of-the-quartron-level-49" tabindex="-1"><a class="header-anchor" href="#rise-of-the-quartron-level-49" aria-hidden="true">#</a> Rise of the Quartron (level 49)</h1>
-<p><strong>遗失的石英</strong></p>
+<p><span style="font-size: 25px;"><strong>遗失的石英</strong></span></p>
 <p>1 在<strong>Karoc Quarry</strong><code v-pre>[-1663 46 -4376]</code>和<em>Manager Nasea</em>交谈</p>
 <p>2 和<em>Dado</em><code v-pre>[-1718 52 -4427]</code>说话</p>
 <p>3 和<em>Manager Nasea</em>交谈</p>

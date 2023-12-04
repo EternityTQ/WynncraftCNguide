@@ -1,5 +1,5 @@
 <template><div><h1 id="the-shadow-of-the-beast-level-54" tabindex="-1"><a class="header-anchor" href="#the-shadow-of-the-beast-level-54" aria-hidden="true">#</a> The Shadow of the Beast (level 54)</h1>
-<p><strong>野兽秘影</strong></p>
+<p><span style="font-size: 25px;"><strong>野兽秘影</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>前置要求:挖矿、砍树、钓鱼副职等级均达到20级</p>

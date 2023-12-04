@@ -1,5 +1,5 @@
 <template><div><h1 id="underice-level-43" tabindex="-1"><a class="header-anchor" href="#underice-level-43" aria-hidden="true">#</a> Underice(level 43)</h1>
-<p><strong>冰层之下</strong></p>
+<p><span style="font-size: 25px;"><strong>冰层之下</strong></span></p>
 <p>前置任务:<RouterLink to="/quests/lvl1-10/level%208%20%20-%20Underwater.html">Underwater</RouterLink></p>
 <p>1.和<em>Fredris</em><code v-pre>[157 73 -812]</code>在<strong>Nesaak</strong>镇说话 再把breathing helmet I给他(就是前置任务的奖励) 然后去Nesaak的防具商店买一个breathing helmet II</p>
 <p>2.探索在冰面下的湖，并找到问题所在</p>

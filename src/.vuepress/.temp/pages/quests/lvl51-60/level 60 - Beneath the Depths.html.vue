@@ -1,5 +1,5 @@
 <template><div><h1 id="beneath-the-depths-level-60" tabindex="-1"><a class="header-anchor" href="#beneath-the-depths-level-60" aria-hidden="true">#</a> Beneath the Depths(level 60)</h1>
-<p><strong>深空之下</strong></p>
+<p><span style="font-size: 25px;"><strong>深空之下</strong></span></p>
 <p>1.在Pirate Cove与Javier<code v-pre>[-640 53 -3117]</code>对话</p>
 <blockquote>
 <p>Pirate Cove的船票可以在Selchar/Llevigar购买</p>

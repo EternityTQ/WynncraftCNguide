@@ -1,5 +1,5 @@
 <template><div><h1 id="haven-of-antiquity-level-70" tabindex="-1"><a class="header-anchor" href="#haven-of-antiquity-level-70" aria-hidden="true">#</a> Haven of Antiquity(level 70)</h1>
-<p><strong>古代天堂</strong></p>
+<p><span style="font-size: 25px;"><strong>古代天堂</strong></span></p>
 <p>1.和<strong>Dead Island</strong>的<em>Cinfras</em><code v-pre>[770 36 -3881]</code>说话</p>
 <p>2.和岛上的在Dead Mansion里的<em>Old Siwel</em>说话<code v-pre>[-836 52 -4010]</code></p>
 <p>3.带<code v-pre>[3个Severed Hearts]</code>给 <em>Old Siwel</em>。(岛上的小黑会掉)</p>

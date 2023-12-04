@@ -3,7 +3,7 @@ icon: route
 ---
 
 # Flight In distress (level 75)
-**飞艇事故**
+<span style="font-size: 25px;">**飞艇事故**</span>
 :::tip 重要任务
 解锁Detlas-Cinfras的快速旅行
 :::

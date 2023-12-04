@@ -3,7 +3,7 @@ icon: exclamation
 ---
 
 # Recover The Past (level 25)
-**追忆往昔**
+<span style="font-size: 25px;">**追忆往昔**</span>
 
 ~~Back to Fruma~~
 

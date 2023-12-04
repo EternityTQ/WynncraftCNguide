@@ -1,5 +1,5 @@
 <template><div><h1 id="taking-the-tower-level-8" tabindex="-1"><a class="header-anchor" href="#taking-the-tower-level-8" aria-hidden="true">#</a> Taking the tower (level 8)</h1>
-<p><strong>突袭塔楼</strong></p>
+<p><span style="font-size: 25px;"><strong>突袭塔楼</strong></span></p>
 <p>任务前置：<RouterLink to="/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html">Mushroom Man</RouterLink></p>
 <p>1.与<font color=00AA00><strong>Aledar</strong></font><code v-pre>[511 67 -1613]</code>对话(记得按选项1)</p>
 <p>2.跟随<font color=00AA00><strong>Aledar</strong></font>来到粉末大师店门口，用他给你的1级水粉给你的武器打上粉末后继续找<font color=00AA00><strong>Aledar</strong></font>对话(不打粉其实也行)<br>

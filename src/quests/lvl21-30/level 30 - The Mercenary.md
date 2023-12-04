@@ -1,5 +1,5 @@
 # The Mercenary (level 30)
-**雇佣兵**
+<span style="font-size: 25px;">**雇佣兵**</span>
 
 :::warning
 注意是潜入任务，不是强冲！！！！

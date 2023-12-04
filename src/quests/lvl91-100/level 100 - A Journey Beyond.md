@@ -3,7 +3,7 @@ icon: exclamation
 ---
 
 # A Journey Beyond ( level 100 )
-**异界之旅**
+<span style="font-size: 25px;">**异界之旅**</span>
 :::tip 重要任务
 解锁The Silent Expanse
 :::

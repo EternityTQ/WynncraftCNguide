@@ -1,5 +1,5 @@
 <template><div><h1 id="all-roads-to-peace-level-64" tabindex="-1"><a class="header-anchor" href="#all-roads-to-peace-level-64" aria-hidden="true">#</a> All Roads to Peace (level 64)</h1>
-<p><strong>和平之路</strong></p>
+<p><span style="font-size: 25px;"><strong>和平之路</strong></span></p>
 <p>前置任务：</p>
 <p><RouterLink to="/quests/lvl31-40/level%2039%20-%20Clearing%20the%20Camps.html">Clearing the Camps (level 39)</RouterLink></p>
 <p><RouterLink to="/quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html">Blazing Retribution (level 44)</RouterLink></p>

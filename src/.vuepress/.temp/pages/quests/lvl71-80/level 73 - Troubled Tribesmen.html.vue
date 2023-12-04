@@ -1,5 +1,5 @@
 <template><div><h1 id="troubled-tribesmen-level-73" tabindex="-1"><a class="header-anchor" href="#troubled-tribesmen-level-73" aria-hidden="true">#</a> Troubled Tribesmen(level 73)</h1>
-<p><strong>部落的忧愁</strong></p>
+<p><span style="font-size: 25px;"><strong>部落的忧愁</strong></span></p>
 <p>1 和<em>Ka L'argwit</em>在<code v-pre>[-545, 52, -313]</code>对话</p>
 <p>2 和下面的<em>Krattson</em><code v-pre>[-539 44 -331]</code>说话，了解部落相关的事</p>
 <p>3 找到<em>Shaman Inrekei</em><code v-pre>[-707 23 -573]</code></p>

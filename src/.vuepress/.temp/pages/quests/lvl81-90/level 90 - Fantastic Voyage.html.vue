@@ -1,5 +1,5 @@
 <template><div><h1 id="fantastic-voyage-level-90" tabindex="-1"><a class="header-anchor" href="#fantastic-voyage-level-90" aria-hidden="true">#</a> Fantastic Voyage (Level 90)</h1>
-<p><strong>奇妙的航行</strong></p>
+<p><span style="font-size: 25px;"><strong>奇妙的航行</strong></span></p>
 <p>1.跟<em>Relend</em>对话 <code v-pre>[1304,35,-4043]</code></p>
 <p>2.找到鹦鹉</p>
 <div class="hint-container tip">

@@ -1,5 +1,5 @@
 <template><div><h1 id="lexdale-witch-trials-level-72" tabindex="-1"><a class="header-anchor" href="#lexdale-witch-trials-level-72" aria-hidden="true">#</a> Lexdale Witch Trials (level 72)</h1>
-<p><strong>女巫审判</strong></p>
+<p><span style="font-size: 25px;"><strong>女巫审判</strong></span></p>
 <p>1.去看看Lexdale的广场发生了什么<code v-pre>[-604 45 -5444]</code></p>
 <p>2.调查这座荒芜的房子的地下室<code v-pre>[-591 61 -5460]</code></p>
 <p>3.跟着虫子走，沿着紫色粒子一路跟着</p>

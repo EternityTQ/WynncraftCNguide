@@ -3,7 +3,7 @@ icon: bookmark
 ---
 
 # WynnExcavation Site A (level 35)
-**Wynn考古集团   地点A**
+<span style="font-size: 25px;">**Wynn考古集团   地点A**</span>
 
 >注：此系列任务剧情大赞，建议看一下
 

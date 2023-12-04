@@ -1,5 +1,5 @@
 # Murder Mystery(level 73)
-**谋杀谜团**
+<span style="font-size: 25px;">**谋杀谜团**</span>
 
 1 找到*Captain Lorias*`[-601 45 -4959]`
 

@@ -1,5 +1,5 @@
 <template><div><h1 id="cook-assistant-level-3" tabindex="-1"><a class="header-anchor" href="#cook-assistant-level-3" aria-hidden="true">#</a> Cook Assistant (level 3)</h1>
-<p><strong>烹饪助手</strong></p>
+<p><span style="font-size: 25px;"><strong>烹饪助手</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">教程任务</p>
 <p>这个任务会带你体验副职系统</p>

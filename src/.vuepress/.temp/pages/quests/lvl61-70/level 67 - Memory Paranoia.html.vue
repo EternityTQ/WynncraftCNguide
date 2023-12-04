@@ -1,5 +1,5 @@
 <template><div><h1 id="memory-paranoia-level-67" tabindex="-1"><a class="header-anchor" href="#memory-paranoia-level-67" aria-hidden="true">#</a> Memory Paranoia(level 67)</h1>
-<p><strong>偏执狂的回忆</strong></p>
+<p><span style="font-size: 25px;"><strong>偏执狂的回忆</strong></span></p>
 <p>1 在Caritat Mansion前找到Atisun<code v-pre>[-1192 46 -5198]</code></p>
 <p>2 进入<em>Caritat Mansion</em></p>
 <p>3 知悉Caritat家族的故事，和Timmy Caritat<code v-pre>[-1238 14 -7745]</code>对话</p>

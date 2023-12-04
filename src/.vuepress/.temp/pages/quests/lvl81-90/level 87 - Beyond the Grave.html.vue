@@ -1,5 +1,5 @@
 <template><div><h1 id="beyond-the-grave-level-87" tabindex="-1"><a class="header-anchor" href="#beyond-the-grave-level-87" aria-hidden="true">#</a> Beyond the Grave (Level 87)</h1>
-<p><strong>鬼门关</strong></p>
+<p><span style="font-size: 25px;"><strong>鬼门关</strong></span></p>
 <p>1.和<em>Irlok</em><code v-pre>[499,155,-4778]</code>对话</p>
 <blockquote>
 <p>对话完毕后，出去即可触发剧情传送至下一步的洞门口</p>

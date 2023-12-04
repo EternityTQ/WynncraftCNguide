@@ -1,5 +1,5 @@
 # Misadventure on the Sea (level 28)
-**海上冒险**
+<span style="font-size: 25px;">**海上冒险**</span>
 
 1.在Nemract和Barman `[114 40 -2176]`谈话
 

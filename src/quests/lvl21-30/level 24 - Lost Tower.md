@@ -1,5 +1,5 @@
 # Lost Tower (level 24)
-**失落之塔**
+<span style="font-size: 25px;">**失落之塔**</span>
 
 1.和**Nemract**的*Laen*`[24 37 -2199]`说话
 

@@ -1,5 +1,5 @@
 # Acquiring Credentials (level 74)
-**获取凭证**
+<span style="font-size: 25px;">**获取凭证**</span>
 1.到`[-256 57 -4983]`领取护照
 
 2.被拒绝后，和门外的*Doan*对话

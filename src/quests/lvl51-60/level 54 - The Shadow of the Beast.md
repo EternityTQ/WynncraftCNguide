@@ -1,5 +1,5 @@
 # The Shadow of the Beast (level 54)
-**野兽秘影**
+<span style="font-size: 25px;">**野兽秘影**</span>
 
 :::tip
 前置要求:挖矿、砍树、钓鱼副职等级均达到20级

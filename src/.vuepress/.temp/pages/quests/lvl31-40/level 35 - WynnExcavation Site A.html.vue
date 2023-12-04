@@ -1,5 +1,5 @@
 <template><div><h1 id="wynnexcavation-site-a-level-35" tabindex="-1"><a class="header-anchor" href="#wynnexcavation-site-a-level-35" aria-hidden="true">#</a> WynnExcavation Site A (level 35)</h1>
-<p><strong>Wynn考古集团   地点A</strong></p>
+<p><span style="font-size: 25px;"><strong>Wynn考古集团   地点A</strong></span></p>
 <blockquote>
 <p>注：此系列任务剧情大赞，建议看一下</p>
 </blockquote>

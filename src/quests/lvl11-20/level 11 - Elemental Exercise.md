@@ -1,5 +1,5 @@
 # Elemental Exercise ( level 11)
-**元素相克**
+<span style="font-size: 25px;">**元素相克**</span>
 
 任务前置：[Mushroom Man](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
 

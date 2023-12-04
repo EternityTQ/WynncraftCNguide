@@ -3,7 +3,7 @@ icon: skull
 ---
 
 # Arachnids' Ascent ( level 14 )
-**熔丝**
+<span style="font-size: 25px;">**熔丝**</span>
 
 :::tip 重要任务
 解锁Infested Pit副本

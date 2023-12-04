@@ -1,5 +1,5 @@
 <template><div><h1 id="tower-of-ascension-level-40-75" tabindex="-1"><a class="header-anchor" href="#tower-of-ascension-level-40-75" aria-hidden="true">#</a> Tower of Ascension (level 40-75)</h1>
-<p><strong>通天塔</strong></p>
+<p><span style="font-size: 25px;"><strong>通天塔</strong></span></p>
 <p>这个任务是对玩家战斗技能的一个挑战，仅有战斗元素。战斗难度随任务进行而增加。</p>
 <p>任务全程在通天塔进行，共7层，每层10个房间。</p>
 <p>任务开始的方法是和塔底层的任务NPC讲话，之后就可以去第一层，打怪。</p>

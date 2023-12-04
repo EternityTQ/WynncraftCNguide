@@ -1,5 +1,5 @@
 <template><div><h1 id="heart-of-llevigar-level-41" tabindex="-1"><a class="header-anchor" href="#heart-of-llevigar-level-41" aria-hidden="true">#</a> Heart of Llevigar(level 41)</h1>
-<p><strong>Llevigar之心</strong></p>
+<p><span style="font-size: 25px;"><strong>Llevigar之心</strong></span></p>
 <p>1.在<strong>Llevigar</strong>能源控制中心找到<em>Zenam</em><code v-pre>[-1872 55 -4593]</code></p>
 <p>2 进入L城银行对面的排水沟<code v-pre>[-1998 77 -4507]</code>，站在坑里按下按钮</p>
 <figure><img src="@source/.vuepress/public/assets/img/lvl41-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>

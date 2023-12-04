@@ -1,5 +1,5 @@
 <template><div><h1 id="general-s-order-level-80" tabindex="-1"><a class="header-anchor" href="#general-s-order-level-80" aria-hidden="true">#</a> General's Order(Level 80)</h1>
-<p><strong>长官的命令</strong></p>
+<p><span style="font-size: 25px;"><strong>长官的命令</strong></span></p>
 <p>1.和<em>Private Tylas</em><code v-pre>[-121 49 -5437]</code>对话</p>
 <p>2.跟<em>General Lecade</em><code v-pre>[174 71 -5496]</code>对话</p>
 <p>3.去外面<code v-pre>[86 44 -5374]</code>确认一下装备</p>

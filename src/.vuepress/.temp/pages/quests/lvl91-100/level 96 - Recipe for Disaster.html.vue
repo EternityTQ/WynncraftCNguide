@@ -1,5 +1,5 @@
 <template><div><h1 id="recipe-for-disaster-level-96" tabindex="-1"><a class="header-anchor" href="#recipe-for-disaster-level-96" aria-hidden="true">#</a> Recipe for Disaster(level 96)</h1>
-<p><strong>灾难的食谱</strong></p>
+<p><span style="font-size: 25px;"><strong>灾难的食谱</strong></span></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>此页面有待更新！</p>

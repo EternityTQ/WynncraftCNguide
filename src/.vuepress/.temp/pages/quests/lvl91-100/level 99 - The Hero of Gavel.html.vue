@@ -1,5 +1,5 @@
 <template><div><h1 id="the-hero-of-gavel-level-99" tabindex="-1"><a class="header-anchor" href="#the-hero-of-gavel-level-99" aria-hidden="true">#</a> The Hero of Gavel (level 99)</h1>
-<p><strong>Gavel的英雄</strong></p>
+<p><span style="font-size: 25px;"><strong>Gavel的英雄</strong></span></p>
 <p>1.在<code v-pre>[1028, 112, -4544]</code>附近与NPC对话</p>
 <p>2.和<font color=00AA00><strong>Scavenger Hunt Collector</strong></font><code v-pre>[1034 115 -4533]</code>对话</p>
 <p>3.在三个城市分别买到Siegfried的套件物品，然后回去和<font color=00AA00><strong>Scavenger Hunt Collector</strong></font><code v-pre>[1034 115 -4533]</code>对话</p>

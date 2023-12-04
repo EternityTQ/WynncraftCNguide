@@ -3,7 +3,7 @@ icon: bookmark
 ---
 
 # WynnExcavation Site B (level 46)
-**Wynn考古集团 地点B**
+<span style="font-size: 25px;">**Wynn考古集团 地点B**</span>
 
 前置任务：[WynnExcavation Site A](/WynncraftCNguide/quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html)
 

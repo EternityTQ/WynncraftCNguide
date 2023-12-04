@@ -1,5 +1,5 @@
 <template><div><h1 id="fate-of-the-fallen-level-43" tabindex="-1"><a class="header-anchor" href="#fate-of-the-fallen-level-43" aria-hidden="true">#</a> Fate of the Fallen (level 43)</h1>
-<p><strong>陨落者的命运</strong></p>
+<p><span style="font-size: 25px;"><strong>陨落者的命运</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Ice Barrows副本</p>

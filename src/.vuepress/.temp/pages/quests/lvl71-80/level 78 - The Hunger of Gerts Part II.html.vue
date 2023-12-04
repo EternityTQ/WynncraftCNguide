@@ -1,5 +1,5 @@
 <template><div><h1 id="the-hunger-of-gerts-part-ii-level-78" tabindex="-1"><a class="header-anchor" href="#the-hunger-of-gerts-part-ii-level-78" aria-hidden="true">#</a> The Hunger of Gerts Part II (level 78)</h1>
-<p><strong>饥饿的Gerts们</strong></p>
+<p><span style="font-size: 25px;"><strong>饥饿的Gerts们</strong></span></p>
 <p>前置任务：<RouterLink to="/quests/lvl71-80/level%2077%20-%20The%20Hunger%20of%20Gerts%20Part%20I.html">The Hunger of Gerts Part I (level77)</RouterLink></p>
 <p>1.到Gert的营地看看发生了什么<code v-pre>[-33 34 -5502]</code></p>
 <blockquote>

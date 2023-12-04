@@ -1,5 +1,5 @@
 <template><div><h1 id="a-sandy-scandal-level-32" tabindex="-1"><a class="header-anchor" href="#a-sandy-scandal-level-32" aria-hidden="true">#</a> A Sandy Scandal (level 32)</h1>
-<p><strong>沙城劫案</strong></p>
+<p><span style="font-size: 25px;"><strong>沙城劫案</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Almuj的银行</p>

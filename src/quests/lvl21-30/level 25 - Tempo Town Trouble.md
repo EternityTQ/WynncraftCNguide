@@ -1,5 +1,5 @@
 # Tempo Town Trouble (level 25)
-**自找麻烦**
+<span style="font-size: 25px;">**自找麻烦**</span>
 
 1.和**Nemract**的*Tyko*`[87 39 -2199]`对话
 

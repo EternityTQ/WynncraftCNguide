@@ -3,7 +3,7 @@ icon: bookmark
 ---
 
 # Aldorei's Secret Part I (level 74)
-**精灵们的秘密 上篇**
+<span style="font-size: 25px;">**精灵们的秘密 上篇**</span>
 
 1.和Aldorei村口的守卫`[-461 132 -4460]`对话
 :::tip 如何进入这个地方

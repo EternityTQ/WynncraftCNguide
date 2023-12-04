@@ -1,5 +1,5 @@
 <template><div><h1 id="corrupted-betrayal-level-52" tabindex="-1"><a class="header-anchor" href="#corrupted-betrayal-level-52" aria-hidden="true">#</a> Corrupted Betrayal (level 52)</h1>
-<p><strong>恶堕的复仇</strong></p>
+<p><span style="font-size: 25px;"><strong>恶堕的复仇</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>Undergrowth Ruins 副本前置任务</p>

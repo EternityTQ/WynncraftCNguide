@@ -1,5 +1,5 @@
 # Lazarus Pit (level 69)
-**复生泉**
+<span style="font-size: 25px;">**复生泉**</span>
 
 1.与Burtur`[-1025 47 -5302]`对话
 

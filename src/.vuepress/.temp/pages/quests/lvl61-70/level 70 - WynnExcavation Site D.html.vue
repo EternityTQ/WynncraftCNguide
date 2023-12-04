@@ -1,5 +1,5 @@
 <template><div><h1 id="wynnexcavation-site-d-level-70" tabindex="-1"><a class="header-anchor" href="#wynnexcavation-site-d-level-70" aria-hidden="true">#</a> WynnExcavation Site D(level 70)</h1>
-<p><strong>Wynn考古集团 地点D</strong></p>
+<p><span style="font-size: 25px;"><strong>Wynn考古集团 地点D</strong></span></p>
 <p>前置任务：<RouterLink to="/quests/lvl51-60/level%2055%20-%20WynnExcavation%20Site%20C%20.html">WynnExcavation Site C</RouterLink></p>
 <p>1 在Troms城堡<code v-pre>[-931,106,-939]</code>里和英国顾问Carlos交谈(需要有完成WynnExcavation	Site	A、WynnExcavation	Site B、WynnExcavation	Site	C任务的3个陶瓷碎片“Crystal Shards”)</p>
 <p>2 在接任务npc的旁边依次按黄、紫、红、绿四个按钮，然后进入王座移开之后下面出现的洞口</p>

@@ -1,5 +1,5 @@
 # Grave Digger(level 20)
-**掘墓人**
+<span style="font-size: 25px;">**掘墓人**</span>
 
 1 和**Detlas**城北门的*Sayleros*`[476, 69, -1624]`说话
 

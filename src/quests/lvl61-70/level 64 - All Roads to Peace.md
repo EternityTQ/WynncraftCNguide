@@ -1,5 +1,5 @@
 # All Roads to Peace (level 64)
-**和平之路**
+<span style="font-size: 25px;">**和平之路**</span>
 
 前置任务：
 

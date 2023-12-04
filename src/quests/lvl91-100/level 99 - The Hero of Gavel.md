@@ -1,5 +1,5 @@
 # The Hero of Gavel (level 99)
-**Gavel的英雄**
+<span style="font-size: 25px;">**Gavel的英雄**</span>
 
 1.在`[1028, 112, -4544]`附近与NPC对话
 

@@ -1,5 +1,5 @@
 # Pirate`s Trove (level 39)
-**海盗的宝库**
+<span style="font-size: 25px;">**海盗的宝库**</span>
 
 1 和*Damiral*在`[-1937 38 -4260]`谈话
 

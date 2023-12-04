@@ -1,5 +1,5 @@
 <template><div><h1 id="the-bigger-picture-level-76" tabindex="-1"><a class="header-anchor" href="#the-bigger-picture-level-76" aria-hidden="true">#</a> The Bigger Picture (level 76)</h1>
-<p><strong>微观世界</strong></p>
+<p><span style="font-size: 25px;"><strong>微观世界</strong></span></p>
 <p>1.跟Pislo说话<code v-pre>[-205,42,-4308]</code>(入口在<code v-pre>[-201 37 -4553]</code>)</p>
 <p>2.跟着五颜六色的地毯走，找到Subtraxerim Utilium蘑菇<code v-pre>[-167 47 -4394]</code></p>
 <p>3.你变小了，回去Pislo那里<code v-pre>[-212 27 -7725]</code></p>

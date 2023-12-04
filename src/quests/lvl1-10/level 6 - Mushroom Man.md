@@ -1,5 +1,5 @@
 # Mushroom Man (level 6)
-**蘑菇人**
+<span style="font-size: 25px;">**蘑菇人**</span>
 
 任务前置：[Infested Plants](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
 

@@ -4,7 +4,7 @@ icon: triangle-exclamation
 
 
 # The Qira Hive (level 80 - 100)
-**Qira 的蜂巢挑战**
+<span style="font-size: 25px;">**Qira 的蜂巢挑战**</span>
 
 :::warning
 本任务为挑战型任务，推荐100+后碾过去，非常考验玩家的配装能力水平

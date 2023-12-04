@@ -1,5 +1,5 @@
 <template><div><h1 id="the-lost-level-85" tabindex="-1"><a class="header-anchor" href="#the-lost-level-85" aria-hidden="true">#</a> The Lost (level 85)</h1>
-<p><strong>失联</strong></p>
+<p><span style="font-size: 25px;"><strong>失联</strong></span></p>
 <p>1.跟<em>Dejol</em>说话<code v-pre>[452 28 -4456]</code></p>
 <blockquote>
 <p>你可以找一下巨大的蓝色旗帜</p>

@@ -1,5 +1,5 @@
 <template><div><h1 id="purple-and-blue-level77" tabindex="-1"><a class="header-anchor" href="#purple-and-blue-level77" aria-hidden="true">#</a> Purple and Blue(level77)</h1>
-<p><strong>紫与蓝</strong></p>
+<p><span style="font-size: 25px;"><strong>紫与蓝</strong></span></p>
 <p>1.和<em>Korun</em>对话<code v-pre>[-236 34 -5224]</code></p>
 <p>2.跟随<em>Korun</em>进入地下室，然后进入旁边的通道，被劝退后触发剧情</p>
 <p>3.前往Nikoler的房子寻找线索<code v-pre>[-163 29 -5388]</code></p>

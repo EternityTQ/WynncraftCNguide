@@ -1,5 +1,5 @@
 <template><div><h1 id="the-canary-calls-level-86" tabindex="-1"><a class="header-anchor" href="#the-canary-calls-level-86" aria-hidden="true">#</a> The Canary Calls (level 86)</h1>
-<p><strong>金丝雀的呼唤</strong></p>
+<p><span style="font-size: 25px;"><strong>金丝雀的呼唤</strong></span></p>
 <div class="hint-container warning">
 <p class="hint-container-title">恐怖任务</p>
 <p>本任务部分阶段内含跳吓</p>

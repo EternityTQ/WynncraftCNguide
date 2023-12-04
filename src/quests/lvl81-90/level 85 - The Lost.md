@@ -1,5 +1,5 @@
 # The Lost (level 85)
-**失联**
+<span style="font-size: 25px;">**失联**</span>
 
 1.跟*Dejol*说话`[452 28 -4456]`
 >你可以找一下巨大的蓝色旗帜

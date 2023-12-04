@@ -1,5 +1,5 @@
 <template><div><h1 id="lava-spring-level-18" tabindex="-1"><a class="header-anchor" href="#lava-spring-level-18" aria-hidden="true">#</a> Lava Spring (level 18)</h1>
-<p><strong>熔岩泉</strong></p>
+<p><span style="font-size: 25px;"><strong>熔岩泉</strong></span></p>
 <p>1.和<em>Colonel Gailard</em><code v-pre>[670 80 -1755]</code>对话</p>
 <p>2.在熔岩泉旁边找到三处腐化的迹象</p>
 <p>分别在<code v-pre>[646 77 -1729]</code>、<code v-pre>[640 73 -1761]</code>、<code v-pre>[665 76 -1777]</code></p>

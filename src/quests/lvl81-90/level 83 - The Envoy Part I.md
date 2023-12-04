@@ -3,7 +3,7 @@ icon: route
 ---
 
 # The Envoy Part I(level 83)
-**使节 上篇**
+<span style="font-size: 25px;">**使节 上篇**</span>
 :::tip 重要任务
 解锁Selchar-Corkus的快速旅行
 :::

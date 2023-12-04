@@ -2,7 +2,7 @@
 icon: route
 ---
 # Aldorei's Secret Part II (level 78)
-**精灵们的秘密 下篇**
+<span style="font-size: 25px;">**精灵们的秘密 下篇**</span>
 :::tip 重要任务
 解锁Alderei - Cinfras的快速旅行
 :::

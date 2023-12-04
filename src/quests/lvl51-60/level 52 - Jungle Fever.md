@@ -1,5 +1,5 @@
 # Jungle Fever (level 52)
-**穷0热**
+<span style="font-size: 25px;">**穷0热**</span>
 
 前置任务: [A Sandy Scandal](/WynncraftCNguide/quests/lvl31-40/level%2032%20-%20A%20Sandy%20Scandal.html)
 

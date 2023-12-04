@@ -4,7 +4,7 @@ icon: triangle-exclamation
 
 
 # Tower of Ascension (level 40-75)
-**通天塔**
+<span style="font-size: 25px;">**通天塔**</span>
 
 这个任务是对玩家战斗技能的一个挑战，仅有战斗元素。战斗难度随任务进行而增加。
 

@@ -4,7 +4,7 @@ icon: route
 
 
 # Supply and Delivery ( level 16 )
-**物资采购**
+<span style="font-size: 25px;">**物资采购**</span>
 
 任务前置：[Mushroom Man](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
 

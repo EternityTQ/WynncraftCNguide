@@ -1,5 +1,5 @@
 <template><div><h1 id="a-grave-mistake-level-50" tabindex="-1"><a class="header-anchor" href="#a-grave-mistake-level-50" aria-hidden="true">#</a> A Grave Mistake(level 50)</h1>
-<p><strong>庄严的引魂人</strong></p>
+<p><span style="font-size: 25px;"><strong>庄严的引魂人</strong></span></p>
 <p>前置任务:<RouterLink to="/quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html">The House of Twain</RouterLink></p>
 <div class="hint-container warning">
 <p class="hint-container-title">恐怖任务</p>

@@ -1,5 +1,5 @@
 <template><div><h1 id="fallen-delivery-level-79" tabindex="-1"><a class="header-anchor" href="#fallen-delivery-level-79" aria-hidden="true">#</a> Fallen Delivery (level 79)</h1>
-<p><strong>迟到的顺丰快递</strong></p>
+<p><span style="font-size: 25px;"><strong>迟到的顺丰快递</strong></span></p>
 <p>1.跟Bricot说话<code v-pre>[65 42 -4844]</code></p>
 <p>2.进入旁边的屋子，从楼梯上去，在坠落的飞艇中搜寻幸存者</p>
 <div class="hint-container tip">

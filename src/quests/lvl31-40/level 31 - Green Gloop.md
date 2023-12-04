@@ -1,5 +1,5 @@
 # Green Gloop (level 31)
-**绿色粘液**
+<span style="font-size: 25px;">**绿色粘液**</span>
 
 1.和**Almuj**城东边**Slime Cave**旁的*Eluzterp*`[1172 77 -2027]`对话
 

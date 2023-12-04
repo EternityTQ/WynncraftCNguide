@@ -1,5 +1,5 @@
 <template><div><h1 id="realm-of-light-iv-finding-the-light-level-71" tabindex="-1"><a class="header-anchor" href="#realm-of-light-iv-finding-the-light-level-71" aria-hidden="true">#</a> Realm of Light IV - Finding the Light (level 71)</h1>
-<p><strong>光之领域IV - 寻找光明</strong></p>
+<p><span style="font-size: 25px;"><strong>光之领域IV - 寻找光明</strong></span></p>
 <p>前置任务:<RouterLink to="/quests/lvl61-70/level%2065%20-%20Realm%20of%20Light%20III%20-%20A%20Headless%20History.html">Realm of Light III - A Headless History (level 65)</RouterLink></p>
 <div class="hint-container tip">
 <p class="hint-container-title">建议</p>

@@ -1,5 +1,5 @@
 <template><div><h1 id="realm-of-light-v-the-realm-of-light-level-79" tabindex="-1"><a class="header-anchor" href="#realm-of-light-v-the-realm-of-light-level-79" aria-hidden="true">#</a> Realm of Light V - The Realm of Light (level 79)</h1>
-<p><strong>光之领域</strong></p>
+<p><span style="font-size: 25px;"><strong>光之领域</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁RAID - Orphion's Nexus of Light</p>

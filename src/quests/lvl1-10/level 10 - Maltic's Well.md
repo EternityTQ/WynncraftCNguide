@@ -1,5 +1,5 @@
 # Maltic's Well ( level 10)
-**Maltic的魔法井**
+<span style="font-size: 25px;">**Maltic的魔法井**</span>
 
 1.与<font color=00AA00>**Rynend**</font>对话`[-567 48 -1922]`后，进入村中间的井
 

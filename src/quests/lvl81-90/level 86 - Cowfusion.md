@@ -1,5 +1,5 @@
 # Cowfusion (Level 86)
-**变牛记**
+<span style="font-size: 25px;">**变牛记**</span>
 
 前置任务：[Tunnel Trouble ( level 6 )](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html)
 

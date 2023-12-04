@@ -1,5 +1,5 @@
 <template><div><h1 id="murder-mystery-level-73" tabindex="-1"><a class="header-anchor" href="#murder-mystery-level-73" aria-hidden="true">#</a> Murder Mystery(level 73)</h1>
-<p><strong>谋杀谜团</strong></p>
+<p><span style="font-size: 25px;"><strong>谋杀谜团</strong></span></p>
 <p>1 找到<em>Captain Lorias</em><code v-pre>[-601 45 -4959]</code></p>
 <p>2 进入屋内调查，跟着血迹从后窗离开，在屋子后的农田找到一封信<code v-pre>[-580 46 -5015]</code></p>
 <p>3 根据信件内容，前往Cinfras的9号房子<code v-pre>[-484 47 -4974]</code>，和Rohem对话</p>

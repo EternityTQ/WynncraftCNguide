@@ -1,5 +1,5 @@
 <template><div><h1 id="royal-trials-level-98" tabindex="-1"><a class="header-anchor" href="#royal-trials-level-98" aria-hidden="true">#</a> Royal Trials(level 98)</h1>
-<p><strong>女王的考验</strong></p>
+<p><span style="font-size: 25px;"><strong>女王的考验</strong></span></p>
 <p>1跟<font color=00AA00><strong>Skyraider Guard</strong></font>谈话<code v-pre>[1479 84 -4343]</code></p>
 <p>2跟旁边的<font color=00AA00><strong>Hrona</strong></font>谈话</p>
 <p>3.前往<code v-pre>[1486 101 -4294]</code>的洞穴内，击杀怪物得到一个<code v-pre>Shiny Shell</code></p>

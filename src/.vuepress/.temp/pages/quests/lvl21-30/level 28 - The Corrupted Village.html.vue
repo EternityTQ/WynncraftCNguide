@@ -1,5 +1,5 @@
 <template><div><h1 id="the-corrupted-village-level-28" tabindex="-1"><a class="header-anchor" href="#the-corrupted-village-level-28" aria-hidden="true">#</a> The Corrupted Village（level 28）</h1>
-<p><strong>腐蚀的村庄</strong></p>
+<p><span style="font-size: 25px;"><strong>腐蚀的村庄</strong></span></p>
 <p>1.和<em>Orikal</em><code v-pre>[318, 78, -1097]</code>讲话</p>
 <p>2.爬NPC旁边的大黑柱子（就是有点斜过来的高高的，）顺着红色羊毛上去，左下角出现字了就可以回去和NPC说话</p>
 <p>3.进入大黑柱子旁边的洞穴</p>

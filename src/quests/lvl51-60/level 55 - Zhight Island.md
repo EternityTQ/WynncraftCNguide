@@ -1,5 +1,5 @@
 # Zhight Island (level 55)
-**Zhight岛**
+<span style="font-size: 25px;">**Zhight岛**</span>
 
 前置：[Ice Nations](/WynncraftCNguide/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
 :::tip

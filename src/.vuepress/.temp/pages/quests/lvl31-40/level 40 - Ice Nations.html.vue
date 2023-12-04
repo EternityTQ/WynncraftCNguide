@@ -1,5 +1,5 @@
 <template><div><h1 id="ice-nations-level-40" tabindex="-1"><a class="header-anchor" href="#ice-nations-level-40" aria-hidden="true">#</a> Ice Nations (level 40)</h1>
-<p><strong>冰之国度</strong></p>
+<p><span style="font-size: 25px;"><strong>冰之国度</strong></span></p>
 <p>1.和<strong>Icy Islands</strong>的<em>Adigard</em><code v-pre>[806 59 -3353]</code>交谈</p>
 <p>2.跟<em>Hallfred</em><code v-pre>[993 38 -3500]</code>讨论有关和平条约的事情</p>
 <p>3.和<em>Adigard</em>谈论<em>Hallfred</em>关于此事的回应</p>

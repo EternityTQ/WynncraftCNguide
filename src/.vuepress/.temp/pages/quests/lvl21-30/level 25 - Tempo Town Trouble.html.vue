@@ -1,5 +1,5 @@
 <template><div><h1 id="tempo-town-trouble-level-25" tabindex="-1"><a class="header-anchor" href="#tempo-town-trouble-level-25" aria-hidden="true">#</a> Tempo Town Trouble (level 25)</h1>
-<p><strong>自找麻烦</strong></p>
+<p><span style="font-size: 25px;"><strong>自找麻烦</strong></span></p>
 <p>1.和<strong>Nemract</strong>的<em>Tyko</em><code v-pre>[87 39 -2199]</code>对话</p>
 <p>2.去<strong>Tempo Town</strong>和<em>Homeless Major</em><code v-pre>[-298 43 -1147]</code>对话</p>
 <blockquote>

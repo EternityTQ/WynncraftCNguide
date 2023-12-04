@@ -2,7 +2,7 @@
 icon: exclamation
 ---
 # A Sandy Scandal (level 32)
-**沙城劫案**
+<span style="font-size: 25px;">**沙城劫案**</span>
 
 :::tip 重要任务
 解锁Almuj的银行

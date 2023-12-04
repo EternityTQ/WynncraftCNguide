@@ -1,5 +1,5 @@
 # The Hunger of Gerts Part II (level 78)
-**饥饿的Gerts们**
+<span style="font-size: 25px;">**饥饿的Gerts们**</span>
 
 前置任务：[The Hunger of Gerts Part I (level77)](/WynncraftCNguide/quests/lvl71-80/level%2077%20-%20The%20Hunger%20of%20Gerts%20Part%20I.html)
 

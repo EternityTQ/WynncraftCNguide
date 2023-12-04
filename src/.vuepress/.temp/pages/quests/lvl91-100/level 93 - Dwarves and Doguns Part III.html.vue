@@ -1,5 +1,5 @@
 <template><div><h1 id="dwarves-and-doguns-part-iii-level-93" tabindex="-1"><a class="header-anchor" href="#dwarves-and-doguns-part-iii-level-93" aria-hidden="true">#</a> Dwarves and Doguns Part III (level 93)</h1>
-<p><strong>矮人族与多贡族的纷争 Part III</strong></p>
+<p><span style="font-size: 25px;"><strong>矮人族与多贡族的纷争 Part III</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁了可供副职练级的资源矿道</p>

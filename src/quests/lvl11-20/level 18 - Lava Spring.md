@@ -1,5 +1,5 @@
 # Lava Spring (level 18)
-**熔岩泉**
+<span style="font-size: 25px;">**熔岩泉**</span>
 
 1.和*Colonel Gailard*`[670 80 -1755]`对话
 

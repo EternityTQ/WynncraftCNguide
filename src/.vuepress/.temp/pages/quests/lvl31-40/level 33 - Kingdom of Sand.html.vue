@@ -1,5 +1,5 @@
 <template><div><h1 id="kingdom-of-sand-level-33" tabindex="-1"><a class="header-anchor" href="#kingdom-of-sand-level-33" aria-hidden="true">#</a> Kingdom of Sand (level 33)</h1>
-<p><strong>沙海国度</strong></p>
+<p><span style="font-size: 25px;"><strong>沙海国度</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Sand-Swept Tomb副本</p>

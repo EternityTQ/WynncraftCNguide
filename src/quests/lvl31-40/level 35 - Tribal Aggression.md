@@ -1,5 +1,5 @@
 # Tribal Aggression (level 35)
-**部落冲突**
+<span style="font-size: 25px;">**部落冲突**</span>
 
 1 和*Caras*`[1077 84 -1613]`在Mesa说话
 

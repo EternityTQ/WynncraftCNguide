@@ -1,5 +1,5 @@
 <template><div><h1 id="forbidden-prison-level-72" tabindex="-1"><a class="header-anchor" href="#forbidden-prison-level-72" aria-hidden="true">#</a> Forbidden Prison(level 72)</h1>
-<p><strong>禁忌监狱</strong></p>
+<p><span style="font-size: 25px;"><strong>禁忌监狱</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>你在靠近第一步的NPC的时候就会被叫过去对话</p>

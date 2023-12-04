@@ -3,7 +3,7 @@ icon: skull
 ---
 
 # Redbeard's Booty (level 61)
-**红胡子的宝藏**
+<span style="font-size: 25px;">**红胡子的宝藏**</span>
 :::tip 重要任务
 解锁Galleon’s Graveyard副本
 :::

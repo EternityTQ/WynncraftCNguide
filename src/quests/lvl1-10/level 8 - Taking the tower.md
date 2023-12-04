@@ -1,5 +1,5 @@
 # Taking the tower (level 8)
-**突袭塔楼**
+<span style="font-size: 25px;">**突袭塔楼**</span>
 
 任务前置：[Mushroom Man](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
 

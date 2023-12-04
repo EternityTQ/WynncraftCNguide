@@ -1,5 +1,5 @@
 <template><div><h1 id="a-maradurs-dues-level-83" tabindex="-1"><a class="header-anchor" href="#a-maradurs-dues-level-83" aria-hidden="true">#</a> A Maradurs' Dues (level 83)</h1>
-<p><strong>收过路费</strong></p>
+<p><span style="font-size: 25px;"><strong>收过路费</strong></span></p>
 <p>1.跟Norsten对话<code v-pre>[437,77,-5056]</code></p>
 <p>2.通过捷径<code v-pre>[258 79 -4934]</code>上山，出来后直走</p>
 <p>3.逃出幻境</p>

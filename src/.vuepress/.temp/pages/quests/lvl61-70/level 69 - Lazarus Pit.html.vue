@@ -1,5 +1,5 @@
 <template><div><h1 id="lazarus-pit-level-69" tabindex="-1"><a class="header-anchor" href="#lazarus-pit-level-69" aria-hidden="true">#</a> Lazarus Pit (level 69)</h1>
-<p><strong>复生泉</strong></p>
+<p><span style="font-size: 25px;"><strong>复生泉</strong></span></p>
 <p>1.与Burtur<code v-pre>[-1025 47 -5302]</code>对话</p>
 <p>2.原地生存30s</p>
 <p>3.再次和Burtur对话，并跟着Burtur</p>

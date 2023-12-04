@@ -1,5 +1,5 @@
 <template><div><h1 id="king-s-recruit-level-1" tabindex="-1"><a class="header-anchor" href="#king-s-recruit-level-1" aria-hidden="true">#</a> King's Recruit (level 1)</h1>
-<p><span style="font-size: 25px;"><strong>国王的招兵</strong></span></p>
+<p><span style="font-size: 25px;"><span style="font-size: 25px;"><strong>国王的招兵</strong></span></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">教程任务</p>
 <p>此任务为新手教程，可用<code v-pre>/skiptutorial</code>跳过至最后步骤</p>

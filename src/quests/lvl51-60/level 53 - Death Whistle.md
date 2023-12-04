@@ -1,5 +1,5 @@
 # Death Whistle (level 53)
-**一个买错药的故事**
+<span style="font-size: 25px;">**一个买错药的故事**</span>
 
 1 和`Voer`在`[-2103 59 -5427]`讲话
 

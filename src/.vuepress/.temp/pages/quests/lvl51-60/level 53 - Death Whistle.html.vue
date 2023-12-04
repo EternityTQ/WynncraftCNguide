@@ -1,5 +1,5 @@
 <template><div><h1 id="death-whistle-level-53" tabindex="-1"><a class="header-anchor" href="#death-whistle-level-53" aria-hidden="true">#</a> Death Whistle (level 53)</h1>
-<p><strong>一个买错药的故事</strong></p>
+<p><span style="font-size: 25px;"><strong>一个买错药的故事</strong></span></p>
 <p>1 和<code v-pre>Voer</code>在<code v-pre>[-2103 59 -5427]</code>讲话</p>
 <p>2 找到位于<code v-pre>[-2064 56 -5190]</code>的山峰，和上到其山顶的路。(山北有山路，走到一半路断了但是有传送区，进去就到了一个小副本，冲到最高处你就被传送到了山顶不到一点)</p>
 <p>3 去到山顶击杀绿名拿到一个<code v-pre>Black Whistle Leaf</code></p>

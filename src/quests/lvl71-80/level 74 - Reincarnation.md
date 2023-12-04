@@ -1,5 +1,5 @@
 # Reincarnation (level 74)
-**重生**
+<span style="font-size: 25px;">**重生**</span>
 
 前置任务:[Bob's Lost Soul](/WynncraftCNguide/quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html)、[Cluck Cluck](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html)、[Ice Nation](/WynncraftCNguide/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
 

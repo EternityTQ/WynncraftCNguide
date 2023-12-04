@@ -1,5 +1,5 @@
 <template><div><h1 id="a-hunter-s-calling-level-103" tabindex="-1"><a class="header-anchor" href="#a-hunter-s-calling-level-103" aria-hidden="true">#</a> A hunter’s calling (level 103)</h1>
-<p><strong>猎人的呼唤</strong></p>
+<p><span style="font-size: 25px;"><strong>猎人的呼唤</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Hunted Mode(PVP模式)</p>

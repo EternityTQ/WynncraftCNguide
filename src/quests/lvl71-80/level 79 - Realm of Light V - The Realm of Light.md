@@ -3,7 +3,7 @@ icon: skull
 ---
 
 # Realm of Light V - The Realm of Light (level 79)
-**光之领域**
+<span style="font-size: 25px;">**光之领域**</span>
 
 :::tip 重要任务
 解锁RAID - Orphion's Nexus of Light

@@ -1,5 +1,5 @@
 <template><div><h1 id="an-iron-heart-part-i-level-49" tabindex="-1"><a class="header-anchor" href="#an-iron-heart-part-i-level-49" aria-hidden="true">#</a> An Iron Heart Part I(level 49)</h1>
-<p><strong>钢铁之心 前章</strong></p>
+<p><span style="font-size: 25px;"><strong>钢铁之心 前章</strong></span></p>
 <p><s>谁….来了……？…好…..好冷….. ..什么，他们对我做了什么…… ？…………………..  *哀叹*</s></p>
 <p>1 和<em>Duvale</em>在<code v-pre>[-1620 51 -4974]</code>说话</p>
 <p>2 在旁边的小山上找到Guard Golem <code v-pre>[-1705 93 -5092]</code>进洞，在洞穴内找到失控的机器人</p>

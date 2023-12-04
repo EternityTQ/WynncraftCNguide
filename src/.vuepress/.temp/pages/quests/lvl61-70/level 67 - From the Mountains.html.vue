@@ -1,5 +1,5 @@
 <template><div><h1 id="from-the-mountains-level-67" tabindex="-1"><a class="header-anchor" href="#from-the-mountains-level-67" aria-hidden="true">#</a> From the Mountains(level 67)</h1>
-<p><strong>跋山涉水</strong></p>
+<p><span style="font-size: 25px;"><strong>跋山涉水</strong></span></p>
 <p>1 和Arnod<code v-pre>[-1366 42 -4543]</code>对话</p>
 <p>2 在他身后的房子二楼<code v-pre>[-1376 48 -4549]</code>找到<code v-pre>Lost Dentures</code>并带回给Arnod</p>
 <p>3 在Bucie城寻找到Axelus<code v-pre>[-1410 43 -4729]</code>，对话并跟随他走回Arnod[-1366 42 -4543]那里</p>

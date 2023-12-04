@@ -1,5 +1,5 @@
 <template><div><h1 id="zhight-island-level-55" tabindex="-1"><a class="header-anchor" href="#zhight-island-level-55" aria-hidden="true">#</a> Zhight Island (level 55)</h1>
-<p><strong>Zhight岛</strong></p>
+<p><span style="font-size: 25px;"><strong>Zhight岛</strong></span></p>
 <p>前置：<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nations</RouterLink></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

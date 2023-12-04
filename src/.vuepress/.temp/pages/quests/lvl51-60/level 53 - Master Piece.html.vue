@@ -1,5 +1,5 @@
 <template><div><h1 id="master-piece-level-53" tabindex="-1"><a class="header-anchor" href="#master-piece-level-53" aria-hidden="true">#</a> Master Piece(level 53)</h1>
-<p><strong>至高杰作</strong></p>
+<p><span style="font-size: 25px;"><strong>至高杰作</strong></span></p>
 <p>1 和艺术家Caissop在他的帐篷和他说话<code v-pre>[-1802, 55, -5190]</code></p>
 <p>2 在<code v-pre>[-1833,69,-5144]</code>的洞中寻找到第一个神话中的动物。(走到底有一只normal cow，普通的牛，看一会</p>
 <p>3 详细描述“传说级村民的牛”的样貌给艺术家Caissop听。</p>

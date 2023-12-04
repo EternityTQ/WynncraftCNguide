@@ -1,5 +1,5 @@
 # Purple and Blue(level77)
-**紫与蓝**
+<span style="font-size: 25px;">**紫与蓝**</span>
 
 1.和*Korun*对话`[-236 34 -5224]`
 

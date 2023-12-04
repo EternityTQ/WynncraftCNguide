@@ -4,7 +4,7 @@ icon: bookmark
 
 
 # WynnExcavation Site D(level 70)
-**Wynn考古集团 地点D**
+<span style="font-size: 25px;">**Wynn考古集团 地点D**</span>
 
 前置任务：[WynnExcavation Site C](/WynncraftCNguide/quests/lvl51-60/level%2055%20-%20WynnExcavation%20Site%20C%20.html)
 

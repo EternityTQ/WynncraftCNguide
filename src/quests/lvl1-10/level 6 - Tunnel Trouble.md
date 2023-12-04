@@ -3,7 +3,7 @@ icon: route
 ---
 
 # Tunnel Trouble ( level 6 )
-**棘手的隧道**
+<span style="font-size: 25px;">**棘手的隧道**</span>
 
 :::tip 重要任务
 解锁快速旅行

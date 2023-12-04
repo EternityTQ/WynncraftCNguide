@@ -1,5 +1,5 @@
 <template><div><h1 id="the-envoy-part-ii-level-89" tabindex="-1"><a class="header-anchor" href="#the-envoy-part-ii-level-89" aria-hidden="true">#</a> The Envoy Part II (Level 89)</h1>
-<p><strong>使节 下篇</strong><br>
+<p><span style="font-size: 25px;"><strong>使节 下篇</strong></span><br>
 1.前往Maxie的房子<code v-pre>[-1571 68 -2876]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

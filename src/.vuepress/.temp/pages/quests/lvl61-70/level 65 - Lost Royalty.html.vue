@@ -1,5 +1,5 @@
 <template><div><h1 id="lost-royalty-level-65" tabindex="-1"><a class="header-anchor" href="#lost-royalty-level-65" aria-hidden="true">#</a> Lost Royalty(level 65)</h1>
-<p><strong>落魄的皇族</strong></p>
+<p><span style="font-size: 25px;"><strong>落魄的皇族</strong></span></p>
 <p>1 和Troms城的Yavlis<code v-pre>[-848 85 -875]</code>说话</p>
 <p>2 和Troms城外的Mercenary Leader<code v-pre>[-804 35 -742]</code>交谈(在<code v-pre>[-736 62 -827]</code>的洞里)</p>
 <p>3 到丛林神庙里<code v-pre>[-489 78 -889]</code>寻找到他们要的护身符。</p>

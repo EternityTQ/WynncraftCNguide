@@ -2,7 +2,7 @@
 icon: exclamation
 ---
 # The Olmic Rune ( level 100 )
-**Olm的符文机器**
+<span style="font-size: 25px;">**Olm的符文机器**</span>
 
 
 (先做好防止在游戏中晕倒的准备)

@@ -1,5 +1,5 @@
 # The Corrupted Village（level 28）
-**腐蚀的村庄**
+<span style="font-size: 25px;">**腐蚀的村庄**</span>
 
 1.和*Orikal*`[318, 78, -1097]`讲话
 

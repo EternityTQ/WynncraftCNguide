@@ -1,5 +1,5 @@
 <template><div><h1 id="the-maiden-tower-level-51" tabindex="-1"><a class="header-anchor" href="#the-maiden-tower-level-51" aria-hidden="true">#</a> The Maiden Tower(level 51)</h1>
-<p><strong>塔中女影</strong></p>
+<p><span style="font-size: 25px;"><strong>塔中女影</strong></span></p>
 <p>1.找到<em>Sherk</em><code v-pre>[-2172 54 -5118]</code></p>
 <p>2.跟随地上的石头痕迹前往塔楼<code v-pre>[-1997 81 -5287]</code>，然后在塔楼边和<em>Sherk</em>对话</p>
 <p>3.在<strong>Olux</strong>的地下墓穴<code v-pre>[-1742 66 -5593]</code>里找到骨灰盒</p>

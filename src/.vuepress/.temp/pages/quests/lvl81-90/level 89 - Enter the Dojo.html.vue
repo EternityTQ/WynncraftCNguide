@@ -1,5 +1,5 @@
 <template><div><h1 id="enter-the-dojo-level-89" tabindex="-1"><a class="header-anchor" href="#enter-the-dojo-level-89" aria-hidden="true">#</a> Enter the Dojo (Level 89)</h1>
-<p><strong>道场试练</strong></p>
+<p><span style="font-size: 25px;"><strong>道场试练</strong></span></p>
 <p>1.跟在<strong>Sakura Dojo</strong>的<em>Sensei Miyagi</em>对话<code v-pre>[495 109 -5571]</code></p>
 <blockquote>
 <p>在Gavel的最北边....具体位置在HIVE的右边</p>

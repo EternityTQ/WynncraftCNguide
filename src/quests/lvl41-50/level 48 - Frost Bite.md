@@ -1,5 +1,5 @@
 # Frost Bite ( level 48)
-**冰封的啮痕**
+<span style="font-size: 25px;">**冰封的啮痕**</span>
 
 1.在 `[-207 37 -531]` 附近找到*Eppo*
 

@@ -1,5 +1,5 @@
 <template><div><h1 id="tunnel-trouble-level-6" tabindex="-1"><a class="header-anchor" href="#tunnel-trouble-level-6" aria-hidden="true">#</a> Tunnel Trouble ( level 6 )</h1>
-<p><strong>棘手的隧道</strong></p>
+<p><span style="font-size: 25px;"><strong>棘手的隧道</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁快速旅行</p>

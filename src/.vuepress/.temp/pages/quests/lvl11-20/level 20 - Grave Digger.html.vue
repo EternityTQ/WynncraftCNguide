@@ -1,5 +1,5 @@
 <template><div><h1 id="grave-digger-level-20" tabindex="-1"><a class="header-anchor" href="#grave-digger-level-20" aria-hidden="true">#</a> Grave Digger(level 20)</h1>
-<p><strong>掘墓人</strong></p>
+<p><span style="font-size: 25px;"><strong>掘墓人</strong></span></p>
 <p>1 和<strong>Detlas</strong>城北门的<em>Sayleros</em><code v-pre>[476, 69, -1624]</code>说话</p>
 <p>2 找到一种方法使在Nemract城的<em>Drucksh</em><code v-pre>[72, 40, -2180]</code>说出有关Sayleros死去的兄弟的事情。</p>
 <div class="hint-container tip">

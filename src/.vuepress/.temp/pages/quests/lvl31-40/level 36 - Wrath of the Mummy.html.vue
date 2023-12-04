@@ -1,5 +1,5 @@
 <template><div><h1 id="wrath-of-the-mummy-level-36" tabindex="-1"><a class="header-anchor" href="#wrath-of-the-mummy-level-36" aria-hidden="true">#</a> Wrath of the Mummy (level 36)</h1>
-<p><strong>木乃伊之怒</strong></p>
+<p><span style="font-size: 25px;"><strong>木乃伊之怒</strong></span></p>
 <p>1.和<strong>Almuj</strong>城旁的沙漠的<em>Ormrod</em><code v-pre>[979 69 -1808]</code>说话</p>
 <p>2.和在<strong>Almuj</strong>城的<em>Achper</em><code v-pre>[872 67 -1932]</code>谈论有关这个诅咒</p>
 <p>3.尝试进入<strong>Mummy's Tomb</strong>，和大门前的<em>Bandit</em><code v-pre>[1049 82 -2288]</code>对话</p>

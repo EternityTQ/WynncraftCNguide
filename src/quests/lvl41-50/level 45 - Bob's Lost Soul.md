@@ -1,5 +1,5 @@
 # Bob's Lost Soul (level 45)
-**Bob失落的灵魂**
+<span style="font-size: 25px;">**Bob失落的灵魂**</span>
 
 :::tip
 建议提前看好流程，提前准备好材料能节省很多时间

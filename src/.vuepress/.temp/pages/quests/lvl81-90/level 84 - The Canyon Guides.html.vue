@@ -1,5 +1,5 @@
 <template><div><h1 id="the-canyon-guides-level-84" tabindex="-1"><a class="header-anchor" href="#the-canyon-guides-level-84" aria-hidden="true">#</a> The Canyon Guides(level 84)</h1>
-<p><strong>峡谷引路人</strong></p>
+<p><span style="font-size: 25px;"><strong>峡谷引路人</strong></span></p>
 <p>1.跟<em>Gana</em>谈话<code v-pre>[426 101 -4829]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

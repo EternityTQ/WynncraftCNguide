@@ -1,5 +1,5 @@
 <template><div><h1 id="tribal-aggression-level-35" tabindex="-1"><a class="header-anchor" href="#tribal-aggression-level-35" aria-hidden="true">#</a> Tribal Aggression (level 35)</h1>
-<p><strong>部落冲突</strong></p>
+<p><span style="font-size: 25px;"><strong>部落冲突</strong></span></p>
 <p>1 和<em>Caras</em><code v-pre>[1077 84 -1613]</code>在Mesa说话</p>
 <p>2 进入“鹰营”然后和<em>Favian</em><code v-pre>[1399 84 -1618]</code>说话</p>
 <p>3 进入<code v-pre>[1115 83 -1608]</code>的洞穴深处，打死boss，获得Eagle Totem，并给予<em>Favian</em></p>

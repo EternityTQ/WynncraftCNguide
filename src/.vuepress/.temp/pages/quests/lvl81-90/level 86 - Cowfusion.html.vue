@@ -1,5 +1,5 @@
 <template><div><h1 id="cowfusion-level-86" tabindex="-1"><a class="header-anchor" href="#cowfusion-level-86" aria-hidden="true">#</a> Cowfusion (Level 86)</h1>
-<p><strong>变牛记</strong></p>
+<p><span style="font-size: 25px;"><strong>变牛记</strong></span></p>
 <p>前置任务：<RouterLink to="/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html">Tunnel Trouble ( level 6 )</RouterLink></p>
 <p>1.跟Ranol对话<code v-pre>[768 45 -5425]</code></p>
 <p>2.往北走，找路进入实验室<code v-pre>[803,50,-5592]</code></p>

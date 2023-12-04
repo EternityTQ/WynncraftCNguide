@@ -1,5 +1,5 @@
 <template><div><h1 id="lost-soles-level-66" tabindex="-1"><a class="header-anchor" href="#lost-soles-level-66" aria-hidden="true">#</a> Lost Soles(level 66)</h1>
-<p><strong>遗失的鞋底</strong></p>
+<p><span style="font-size: 25px;"><strong>遗失的鞋底</strong></span></p>
 <p>前置：<RouterLink to="/quests/lvl51-60/level%2060%20-%20Beneath%20the%20Depths.html">Beneath the Depths</RouterLink></p>
 <p>1 通过<code v-pre>[-791 84 -657]</code>的通道进入Dernel Jungle，把Abysso Galoshes(Beneath the Depths任务奖励)给Ferndor<code v-pre>[-915 33 -750]</code>(本任务有很多解谜内容，有兴趣的可以不看攻略)</p>
 <p>2 和Grandon<code v-pre>[-901 31 -749]</code>说话</p>

@@ -1,5 +1,5 @@
 # General's Order(Level 80)
-**长官的命令**
+<span style="font-size: 25px;">**长官的命令**</span>
 
 1.和*Private Tylas*`[-121 49 -5437]`对话
 

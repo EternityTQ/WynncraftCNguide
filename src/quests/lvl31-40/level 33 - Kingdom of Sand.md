@@ -3,7 +3,7 @@ icon: skull
 ---
 
 # Kingdom of Sand (level 33)
-**沙海国度**
+<span style="font-size: 25px;">**沙海国度**</span>
 :::tip 重要任务
 解锁Sand-Swept Tomb副本
 :::

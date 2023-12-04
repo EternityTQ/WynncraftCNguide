@@ -4,7 +4,7 @@ icon: route
 
 
 # The Passage(level 57)
-**捷径**
+<span style="font-size: 25px;">**捷径**</span>
 
 1 与**Troms**的*Wirt*`[-820 94 -1040]`对话
 

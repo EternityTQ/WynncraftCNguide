@@ -1,5 +1,5 @@
 <template><div><h1 id="reincarnation-level-74" tabindex="-1"><a class="header-anchor" href="#reincarnation-level-74" aria-hidden="true">#</a> Reincarnation (level 74)</h1>
-<p><strong>重生</strong></p>
+<p><span style="font-size: 25px;"><strong>重生</strong></span></p>
 <p>前置任务:<RouterLink to="/quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html">Bob's Lost Soul</RouterLink>、<RouterLink to="/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html">Cluck Cluck</RouterLink>、<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nation</RouterLink></p>
 <p>1.与在Bob'sTomb中的Batelu<code v-pre>[372 54 -775]</code>对话</p>
 <p>2.带回下列物品：</p>

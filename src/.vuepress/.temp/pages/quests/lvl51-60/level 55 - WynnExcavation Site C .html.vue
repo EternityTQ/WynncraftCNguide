@@ -1,5 +1,5 @@
 <template><div><h1 id="wynnexcavation-site-c-level-55" tabindex="-1"><a class="header-anchor" href="#wynnexcavation-site-c-level-55" aria-hidden="true">#</a> WynnExcavation Site C (level 55)</h1>
-<p><strong>Wynn考古集团 地点C</strong></p>
+<p><span style="font-size: 25px;"><strong>Wynn考古集团 地点C</strong></span></p>
 <p>前置任务：<RouterLink to="/quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html">WynnExcavation Site B</RouterLink></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

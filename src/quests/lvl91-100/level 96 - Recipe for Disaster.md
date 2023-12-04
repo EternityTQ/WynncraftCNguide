@@ -1,5 +1,5 @@
 # Recipe for Disaster(level 96)
-**灾难的食谱**
+<span style="font-size: 25px;">**灾难的食谱**</span>
 :::warning 
 此页面有待更新！
 :::

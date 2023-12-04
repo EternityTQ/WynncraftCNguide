@@ -1,5 +1,5 @@
 <template><div><h1 id="meaningful-holiday-level-33" tabindex="-1"><a class="header-anchor" href="#meaningful-holiday-level-33" aria-hidden="true">#</a> Meaningful Holiday (level 33)</h1>
-<p><strong>充满意义的圣诞节</strong></p>
+<p><span style="font-size: 25px;"><strong>充满意义的圣诞节</strong></span></p>
 <blockquote>
 <p>圣诞节系列任务</p>
 </blockquote>

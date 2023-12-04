@@ -1,5 +1,5 @@
 <template><div><h1 id="shattered-minds-level-70" tabindex="-1"><a class="header-anchor" href="#shattered-minds-level-70" aria-hidden="true">#</a> Shattered Minds(level 70)</h1>
-<p><strong>世  界  观  崩  塌</strong></p>
+<p><span style="font-size: 25px;"><strong>世  界  观  崩  塌</strong></span></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>该界面可能存在过时，请知悉！</p>

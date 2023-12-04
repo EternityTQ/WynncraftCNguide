@@ -1,5 +1,5 @@
 <template><div><h1 id="deja-vu-level-27" tabindex="-1"><a class="header-anchor" href="#deja-vu-level-27" aria-hidden="true">#</a> Déjà vu ( level 27)</h1>
-<p><strong>似曾相识</strong></p>
+<p><span style="font-size: 25px;"><strong>似曾相识</strong></span></p>
 <p>1.与在时间峡谷的<em>Asher</em><code v-pre>[-449 72 -1153]</code>对话</p>
 <p>2.找到<em>Asher</em>的铲子<code v-pre>[-560 70 -1100]</code></p>
 <p>3.把<em>Asher</em>的铲子带回给<em>Asher</em></p>

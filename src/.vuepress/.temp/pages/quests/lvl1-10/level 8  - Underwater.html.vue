@@ -1,5 +1,5 @@
 <template><div><h1 id="underwater-level-8" tabindex="-1"><a class="header-anchor" href="#underwater-level-8" aria-hidden="true">#</a> Underwater ( level 8 )</h1>
-<p><strong>潜藏之物</strong></p>
+<p><span style="font-size: 25px;"><strong>潜藏之物</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>使用有游泳动作的版本完成此任务效果更佳</p>

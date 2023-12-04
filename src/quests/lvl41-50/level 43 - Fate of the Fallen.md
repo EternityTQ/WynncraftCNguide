@@ -3,7 +3,7 @@ icon: skull
 ---
 
 # Fate of the Fallen (level 43)
-**陨落者的命运**
+<span style="font-size: 25px;">**陨落者的命运**</span>
 
 :::tip 重要任务
 解锁Ice Barrows副本

@@ -1,5 +1,5 @@
 <template><div><h1 id="jungle-fever-level-52" tabindex="-1"><a class="header-anchor" href="#jungle-fever-level-52" aria-hidden="true">#</a> Jungle Fever (level 52)</h1>
-<p><strong>穷0热</strong></p>
+<p><span style="font-size: 25px;"><strong>穷0热</strong></span></p>
 <p>前置任务: <RouterLink to="/quests/lvl31-40/level%2032%20-%20A%20Sandy%20Scandal.html">A Sandy Scandal</RouterLink></p>
 <blockquote>
 <p>建议走位风骚的人做，带上足够血药。</p>

@@ -1,5 +1,5 @@
 <template><div><h1 id="a-journey-beyond-level-100" tabindex="-1"><a class="header-anchor" href="#a-journey-beyond-level-100" aria-hidden="true">#</a> A Journey Beyond ( level 100 )</h1>
-<p><strong>异界之旅</strong></p>
+<p><span style="font-size: 25px;"><strong>异界之旅</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁The Silent Expanse</p>

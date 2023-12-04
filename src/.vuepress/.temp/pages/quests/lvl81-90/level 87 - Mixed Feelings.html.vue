@@ -1,5 +1,5 @@
 <template><div><h1 id="mixed-feelings-level-87" tabindex="-1"><a class="header-anchor" href="#mixed-feelings-level-87" aria-hidden="true">#</a> Mixed Feelings (Level 87)</h1>
-<p><strong>五味杂陈</strong></p>
+<p><span style="font-size: 25px;"><strong>五味杂陈</strong></span></p>
 <p>1在Corkus码头跟Javen对话<code v-pre>[-1413 47 -2920]</code></p>
 <p>2.发生爆炸后，跟旁边的Javen询问发生了什么</p>
 <p>3.和城镇中的其他人道歉，并帮助他们</p>

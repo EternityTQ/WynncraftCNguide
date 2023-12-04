@@ -1,5 +1,5 @@
 <template><div><h1 id="the-hunger-of-gerts-part-i-level77" tabindex="-1"><a class="header-anchor" href="#the-hunger-of-gerts-part-i-level77" aria-hidden="true">#</a> The Hunger of Gerts Part I (level77)</h1>
-<p><strong>饥饿的Gerts们</strong></p>
+<p><span style="font-size: 25px;"><strong>饥饿的Gerts们</strong></span></p>
 <p>1.跟Cikal说话<code v-pre>[-27 73 -5413]</code>(从塔楼中间的电梯按按钮上去)</p>
 <p>2.和Jitak交谈<code v-pre>[-174 32 -5469]</code></p>
 <p>3.去调查Gert的小营地<code v-pre>[-238 35 -5479]</code>(沿着血迹进洞)</p>

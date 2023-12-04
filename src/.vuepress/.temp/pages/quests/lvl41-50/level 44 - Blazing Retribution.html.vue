@@ -1,5 +1,5 @@
 <template><div><h1 id="blazing-retribution-level-44" tabindex="-1"><a class="header-anchor" href="#blazing-retribution-level-44" aria-hidden="true">#</a> Blazing Retribution (level 44)</h1>
-<p><strong>复仇之焰</strong></p>
+<p><span style="font-size: 25px;"><strong>复仇之焰</strong></span></p>
 <p>1.和<em>Piere</em><code v-pre>[-1851 56 -4959]</code>对话</p>
 <p>2.和<em>Jackson探长</em>汇报情况<code v-pre>[-1731 53 -4836]</code></p>
 <p>3.前往两个兽人营地寻找线索</p>

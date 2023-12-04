@@ -1,5 +1,5 @@
 # Lost in the Jungle(level 62)
-**丛林迷失记**
+<span style="font-size: 25px;">**丛林迷失记**</span>
 
 1 和Gracen`[-753 79 -663]`说话
 >游戏内任务坐标有误，不要走空了

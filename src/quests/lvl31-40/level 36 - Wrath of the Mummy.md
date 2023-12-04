@@ -1,5 +1,5 @@
 # Wrath of the Mummy (level 36)
-**木乃伊之怒**
+<span style="font-size: 25px;">**木乃伊之怒**</span>
 
 1.和**Almuj**城旁的沙漠的*Ormrod*`[979 69 -1808]`说话
 

@@ -1,5 +1,5 @@
 <template><div><h1 id="the-olmic-rune-level-100" tabindex="-1"><a class="header-anchor" href="#the-olmic-rune-level-100" aria-hidden="true">#</a> The Olmic Rune ( level 100 )</h1>
-<p><strong>Olm的符文机器</strong></p>
+<p><span style="font-size: 25px;"><strong>Olm的符文机器</strong></span></p>
 <p>(先做好防止在游戏中晕倒的准备)</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

@@ -1,5 +1,5 @@
 <template><div><h1 id="creeper-infiltration-level-25" tabindex="-1"><a class="header-anchor" href="#creeper-infiltration-level-25" aria-hidden="true">#</a> Creeper Infiltration（level 25）</h1>
-<p><strong>苦力怕入侵</strong></p>
+<p><span style="font-size: 25px;"><strong>苦力怕入侵</strong></span></p>
 <p>1.和Tempo Town的Thomas<code v-pre>[-307 53 -1174]</code>对话</p>
 <p>2.进入<code v-pre>[-790 91 -1337]</code>的山路，跟着绿色地毯一直走，然后走到尽头，触发剧情</p>
 <p>3.你被送回村庄，旁边有个creeper skin，击杀它，拿着掉落物creeper skin给Thomas<code v-pre>[-608 89 -1431]</code></p>

@@ -1,5 +1,5 @@
 <template><div><h1 id="canyon-condor-level-38" tabindex="-1"><a class="header-anchor" href="#canyon-condor-level-38" aria-hidden="true">#</a> Canyon Condor (level 38)</h1>
-<p><strong>峡谷秃鹫</strong><s>(鹰？？？？？)</s></p>
+<p><span style="font-size: 25px;"><strong>峡谷秃鹫</strong></span><s>(鹰？？？？？)</s></p>
 <blockquote>
 <p>杀鸡任务，多少人被一只鸡杀了</p>
 </blockquote>

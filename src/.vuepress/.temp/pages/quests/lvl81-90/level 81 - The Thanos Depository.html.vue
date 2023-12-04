@@ -1,5 +1,5 @@
 <template><div><h1 id="the-thanos-depository-level-81" tabindex="-1"><a class="header-anchor" href="#the-thanos-depository-level-81" aria-hidden="true">#</a> The Thanos Depository (level 81)</h1>
-<p><strong>Thanos的宝库</strong></p>
+<p><span style="font-size: 25px;"><strong>Thanos的宝库</strong></span></p>
 <p>1.去看看<code v-pre>[167 6 -5184]</code>发生了什么</p>
 <p>2.和<em>Coulmis</em><code v-pre>[163 6 -5169]</code>对话</p>
 <p>3.直走进入面前的宝库，途中会进行一波战斗，解决继续走就可以了</p>

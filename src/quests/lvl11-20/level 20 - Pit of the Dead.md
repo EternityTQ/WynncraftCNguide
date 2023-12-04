@@ -1,5 +1,5 @@
 # Pit of the Dead (level 20)
-**死亡矿场**
+<span style="font-size: 25px;">**死亡矿场**</span>
 
 1 和**Namract**的*Merloni*`[210 37 -2150]`说话
 

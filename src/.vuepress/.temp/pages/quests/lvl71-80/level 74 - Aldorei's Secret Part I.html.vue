@@ -1,5 +1,5 @@
 <template><div><h1 id="aldorei-s-secret-part-i-level-74" tabindex="-1"><a class="header-anchor" href="#aldorei-s-secret-part-i-level-74" aria-hidden="true">#</a> Aldorei's Secret Part I (level 74)</h1>
-<p><strong>精灵们的秘密 上篇</strong></p>
+<p><span style="font-size: 25px;"><strong>精灵们的秘密 上篇</strong></span></p>
 <p>1.和Aldorei村口的守卫<code v-pre>[-461 132 -4460]</code>对话</p>
 <div class="hint-container tip">
 <p class="hint-container-title">如何进入这个地方</p>

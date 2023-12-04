@@ -1,5 +1,5 @@
 # Troubled Tribesmen(level 73)
-**部落的忧愁**
+<span style="font-size: 25px;">**部落的忧愁**</span>
 
 1 和*Ka L'argwit*在`[-545, 52, -313]`对话
 

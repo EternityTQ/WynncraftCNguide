@@ -1,5 +1,5 @@
 <template><div><h1 id="a-journey-further-level-101" tabindex="-1"><a class="header-anchor" href="#a-journey-further-level-101" aria-hidden="true">#</a> A Journey Further (level 101)</h1>
-<p><strong>深堕之旅</strong></p>
+<p><span style="font-size: 25px;"><strong>深堕之旅</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Eldritch Outlook副本<br>

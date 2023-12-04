@@ -1,5 +1,5 @@
 <template><div><h1 id="frost-bite-level-48" tabindex="-1"><a class="header-anchor" href="#frost-bite-level-48" aria-hidden="true">#</a> Frost Bite ( level 48)</h1>
-<p><strong>冰封的啮痕</strong></p>
+<p><span style="font-size: 25px;"><strong>冰封的啮痕</strong></span></p>
 <p>1.在 <code v-pre>[-207 37 -531]</code> 附近找到<em>Eppo</em></p>
 <p>2.深入洞穴并与<em>Rhudya</em>交谈</p>
 <p>3.带着tnt回去找<em>Eppo</em></p>

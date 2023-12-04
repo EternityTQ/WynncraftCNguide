@@ -1,5 +1,5 @@
 <template><div><h1 id="the-mercenary-level-30" tabindex="-1"><a class="header-anchor" href="#the-mercenary-level-30" aria-hidden="true">#</a> The Mercenary (level 30)</h1>
-<p><strong>雇佣兵</strong></p>
+<p><span style="font-size: 25px;"><strong>雇佣兵</strong></span></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>注意是潜入任务，不是强冲！！！！</p>

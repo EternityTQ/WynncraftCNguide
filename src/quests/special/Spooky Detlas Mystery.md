@@ -3,7 +3,7 @@ title: Spooky Detlas Mystery
 icon: clock
 ---
 
-**Detlas的惊奇谜团**
+<span style="font-size: 25px;">**Detlas的惊奇谜团**</span>
 
 :::danger 这是一个限时任务
 你只能在2023.11.5之前完成

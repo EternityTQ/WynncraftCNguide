@@ -1,5 +1,5 @@
 <template><div><h1 id="lost-in-the-jungle-level-62" tabindex="-1"><a class="header-anchor" href="#lost-in-the-jungle-level-62" aria-hidden="true">#</a> Lost in the Jungle(level 62)</h1>
-<p><strong>丛林迷失记</strong></p>
+<p><span style="font-size: 25px;"><strong>丛林迷失记</strong></span></p>
 <p>1 和Gracen<code v-pre>[-753 79 -663]</code>说话</p>
 <blockquote>
 <p>游戏内任务坐标有误，不要走空了</p>

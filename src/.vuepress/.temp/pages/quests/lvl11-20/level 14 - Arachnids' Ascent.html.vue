@@ -1,5 +1,5 @@
 <template><div><h1 id="arachnids-ascent-level-14" tabindex="-1"><a class="header-anchor" href="#arachnids-ascent-level-14" aria-hidden="true">#</a> Arachnids' Ascent ( level 14 )</h1>
-<p><strong>熔丝</strong></p>
+<p><span style="font-size: 25px;"><strong>熔丝</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">重要任务</p>
 <p>解锁Infested Pit副本</p>

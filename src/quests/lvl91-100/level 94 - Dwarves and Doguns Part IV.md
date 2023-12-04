@@ -4,7 +4,7 @@ title: Dwarves and Doguns Part IV (level 94)
 ---
 
 
-**矮人族与多贡族的纷争 Part IV**
+<span style="font-size: 25px;">**矮人族与多贡族的纷争 Part IV**</span>
 
 :::tip
 记得带前置任务中获得的`Staff of True Ice`和`Amulet of Fire Resistance`噢

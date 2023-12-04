@@ -1,5 +1,5 @@
 <template><div><h1 id="temple-of-the-legends-level-68" tabindex="-1"><a class="header-anchor" href="#temple-of-the-legends-level-68" aria-hidden="true">#</a> Temple of the Legends (level 68)</h1>
-<p><strong>传奇神殿</strong></p>
+<p><span style="font-size: 25px;"><strong>传奇神殿</strong></span></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>在2.0.3更新中，此任务被大改，前半部分不再需要任何前置任务。</p>

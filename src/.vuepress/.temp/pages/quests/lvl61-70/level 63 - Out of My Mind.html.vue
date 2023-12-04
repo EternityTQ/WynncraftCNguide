@@ -1,5 +1,5 @@
 <template><div><h1 id="out-of-my-mind-level-63" tabindex="-1"><a class="header-anchor" href="#out-of-my-mind-level-63" aria-hidden="true">#</a> Out of My Mind(level 63)</h1>
-<p><strong>理智之外</strong></p>
+<p><span style="font-size: 25px;"><strong>理智之外</strong></span></p>
 <blockquote>
 <p>关于标题：</p>
 <p>这里我小小插一句 《Out of My Mind》是一一部专辑，不确定是否和剧情有关系。</p>

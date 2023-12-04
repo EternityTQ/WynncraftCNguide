@@ -1,5 +1,5 @@
 # Rise of the Quartron (level 49)
-**遗失的石英**
+<span style="font-size: 25px;">**遗失的石英**</span>
 
 1 在**Karoc Quarry**`[-1663 46 -4376]`和*Manager Nasea*交谈
 

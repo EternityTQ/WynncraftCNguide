@@ -1,5 +1,5 @@
 <template><div><h1 id="the-order-of-the-grook-level-59" tabindex="-1"><a class="header-anchor" href="#the-order-of-the-grook-level-59" aria-hidden="true">#</a> The Order of the Grook (level 59)</h1>
-<p><strong>魔法学院</strong></p>
+<p><span style="font-size: 25px;"><strong>魔法学院</strong></span></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>本页面部分内容存在缺失/过时</p>

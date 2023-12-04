@@ -1,5 +1,5 @@
 # Enter the Dojo (Level 89)
-**道场试练**
+<span style="font-size: 25px;">**道场试练**</span>
 
 1.跟在**Sakura Dojo**的*Sensei Miyagi*对话`[495 109 -5571]`
 >在Gavel的最北边....具体位置在HIVE的右边

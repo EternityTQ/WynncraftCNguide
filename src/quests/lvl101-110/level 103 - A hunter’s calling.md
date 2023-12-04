@@ -3,7 +3,7 @@ icon: exclamation
 ---
 
 # A hunter’s calling (level 103)
-**猎人的呼唤**
+<span style="font-size: 25px;">**猎人的呼唤**</span>
 
 :::tip 重要任务
 解锁Hunted Mode(PVP模式)

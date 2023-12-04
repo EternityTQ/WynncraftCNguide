@@ -1,5 +1,5 @@
 # Shattered Minds(level 70)
-**世  界  观  崩  塌**
+<span style="font-size: 25px;">**世  界  观  崩  塌**</span>
 :::warning
 该界面可能存在过时，请知悉！
 :::

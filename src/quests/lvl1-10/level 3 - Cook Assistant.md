@@ -1,5 +1,5 @@
 # Cook Assistant (level 3)
-**烹饪助手**
+<span style="font-size: 25px;">**烹饪助手**</span>
   
 :::tip 教程任务
 这个任务会带你体验副职系统

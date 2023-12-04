@@ -1,5 +1,5 @@
 # Fantastic Voyage (Level 90)
-**奇妙的航行**
+<span style="font-size: 25px;">**奇妙的航行**</span>
 
 1.跟*Relend*对话 `[1304,35,-4043]`
 

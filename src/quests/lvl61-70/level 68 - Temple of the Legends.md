@@ -4,7 +4,7 @@ icon: exclamation
 
 
 # Temple of the Legends (level 68)
-**传奇神殿**
+<span style="font-size: 25px;">**传奇神殿**</span>
 
 :::tip
 在2.0.3更新中，此任务被大改，前半部分不再需要任何前置任务。

@@ -1,5 +1,5 @@
 # Out of My Mind(level 63)
-**理智之外**
+<span style="font-size: 25px;">**理智之外**</span>
 
 >关于标题：
 >

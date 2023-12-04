@@ -1,5 +1,5 @@
 # Beyond the Grave (Level 87)
-**鬼门关**
+<span style="font-size: 25px;">**鬼门关**</span>
 
 1.和*Irlok*`[499,155,-4778]`对话
 >对话完毕后，出去即可触发剧情传送至下一步的洞门口
