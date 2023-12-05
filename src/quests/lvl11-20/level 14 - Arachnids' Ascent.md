@@ -9,13 +9,15 @@ icon: skull
 解锁Infested Pit副本
 :::
 
-任务前置：[Taking the tower](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)；[Elemental Exercise](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
+前置任务：
++ [Taking the tower](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
++ [Elemental Exercise](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
 
-1.与*Admiral Aegis* `[519 67 -1628]`对话，然后跟随他前往军营的顶层`[521 83 -1627]`再次对话
+1.与<font color=00AA00>**Admiral Aegis**</font> `[519 67 -1628]`对话，然后跟随他前往军营的顶层`[521 83 -1627]`再次对话
 
-2.和*Private Cob*`[682 74 -1714]`对话
+2.和<font color=00AA00>**Private Cob**</font>`[682 74 -1714]`对话
 
-3.沿着地上烧焦的痕迹走，在山洞口和*Captain Enduyn*`[-192 44 -1822]`对话
+3.沿着地上烧焦的痕迹走，在山洞口和<font color=00AA00>**Captain Enduyn**</font>`[-192 44 -1822]`对话
 
 4.对话中队友二选一可以随便选，没有差。选完后进入wynn山`[-120 76 -1888]`
 
