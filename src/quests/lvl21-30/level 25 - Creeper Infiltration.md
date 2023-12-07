@@ -5,7 +5,7 @@
 
 2.进入`[-790 91 -1337]`的山路，跟着绿色地毯一直走，然后走到尽头，触发剧情
 
-3.你被炸回了村庄的树上，旁边有个<font color=00AA00>**creeper skin**</font>，击杀它，拿着掉落物`creeper skin`给<font color=00AA00>**Thomas**</font>`[-608 89 -1431]`
+3.你被炸回了村庄的树上，旁边有个creeper skin，击杀它，拿着掉落物`creeper skin`给<font color=00AA00>**Thomas**</font>`[-608 89 -1431]`
 
 4.杀掉`[-838 88 -1261]`的pigman overlord拿到`pigman hide`然后回去交给<font color=00AA00>**Thomas**</font>
 
