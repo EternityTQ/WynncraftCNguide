@@ -9,7 +9,7 @@ icon: skull
 解锁Underworld Crypt副本
 :::
 
-1.与*General Graken*`[227 45 -1958]`对话
+1.与<font color=00AA00>**General Graken**</font>`[227 45 -1958]`对话
 
 2.探索位于`[226 49 -1910]`的房子，找到第二颗宝石
 
@@ -23,7 +23,7 @@ icon: skull
 
 5.进入头颅内部
 
-6.再次和*General Graken*对话
+6.再次和<font color=00AA00>**General Graken**</font>对话
 
 奖励
 
