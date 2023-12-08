@@ -21,7 +21,7 @@
 
 9.进入**Santa’s home**`[22849 56 -9574]`(最里面的大房子)，然后到地下室跟*Santa*对话
 
-10.进入*Santa*背后的传送门 来到**Detlas**之后进入**ball room**`[422 67 -1559]`，和*Nick**</font>对话
+10.进入*Santa*背后的传送门 来到**Detlas**之后进入**ball room**`[422 67 -1559]`，和<font color=00AA00>**Nick**</font>对话
 
 11.跟大厅中央餐桌前的<font color=00AA00>**Server**</font>`[9991 22 5297]`对话 然后去后面的厨房偷食物
 
