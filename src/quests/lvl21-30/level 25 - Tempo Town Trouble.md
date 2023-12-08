@@ -1,17 +1,19 @@
 # Tempo Town Trouble (level 25)
 <span style="font-size: 25px;">**自找麻烦**</span>
 
-1.和**Nemract**的*Tyko*`[87 39 -2199]`对话
+1.和**Nemract**的<font color=00AA00>**Tyko**</font>`[87 39 -2199]`对话
 
-2.去**Tempo Town**和*Homeless Major*`[-298 43 -1147]`对话
+2.去**Tempo Town**和<font color=00AA00>**Homeless Major**</font>`[-298 43 -1147]`对话
 
->你也可以跳过第一步直接进行第二步
+:::tip
+你也可以跳过第一步直接进行第二步
+:::
 
 3.探索`[-308 71 -1231]`的废墟，和旁边的NPC对话
 
 4.对准废墟门施放任意技能3次，然后深入废墟杀死最深处的怪物
 
-5.再次和*Homeless Major*对话
+5.再次和<font color=00AA00>**Homeless Major**</font>对话
 
 奖励
 + 5650 经验值

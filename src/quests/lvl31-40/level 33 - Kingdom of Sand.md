@@ -12,7 +12,7 @@ icon: skull
 
 2.进入逃犯的藏身处调查`[1314 90 -1660]`
 
-3 在出口和*Geo*和*Tarek*说话
+3 在出口和<font color=00AA00>**Geo**</font>及<font color=00AA00>**Tarek**</font>二人对话
 
 4 潜行进入**Rymek**最高的房间`[1180 31 -1300]`
 :::tip
@@ -41,13 +41,13 @@ icon: skull
 拿走日记，从火炉里离开。
 :::
 
-5 和*Vault Guard*讲话，并进入它身后的洞口 
+5 和<font color=00AA00>**Vault Guard**</font>讲话，并进入它身后的洞口 
 
 6.找一个破车`[1183 76 -1857]`
 
 7.触发战斗后，从废弃的房子里获得权杖
 
-8.回到坟墓前和*Lanu*对话
+8.回到坟墓前和<font color=00AA00>**Lanu**</font>对话
 
 奖励
 + 10000经验
