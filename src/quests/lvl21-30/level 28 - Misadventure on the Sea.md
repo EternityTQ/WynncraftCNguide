@@ -1,7 +1,7 @@
 # Misadventure on the Sea (level 28)
 <span style="font-size: 25px;">**海上冒险**</span>
 
-1.在Nemract和<font color=00AA00>**Barman**</font> `[114 40 -2176]`谈话
+1.在**Nemract**和<font color=00AA00>**Barman**</font> `[114 40 -2176]`谈话
 
 2.和<font color=00AA00>**Honip**</font>谈话`[103 37 -2254]`,上船后,拿起床上的告示牌并得到海绵后,拿着海绵清理船上的尸体
 
