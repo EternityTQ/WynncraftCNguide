@@ -19,7 +19,7 @@
 <p>但是如果你存的是老版本的材料，那么仍然会消耗，建议去存一套新的</p>
 <p>新版本材料的标识是有<code v-pre>Right-click to use</code>的字样</p>
 <h2 id="阶段一" tabindex="-1"><a class="header-anchor" href="#阶段一" aria-hidden="true">#</a> ??? - 阶段一</h2>
-<p>三名玩家需要分别前往红黄蓝三个陨石点，完成解密后一起站在指定位置，方可传送至接取任务的地方</p>
+<p>四名玩家需要分别前往红黄蓝三个陨石点，完成解密后一起站在指定位置，方可传送至接取任务的地方</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <p>如果你身上有<code v-pre>Meteor shard</code>，在任何地方下线重登或者/class会导致身上的<code v-pre>Meteor shard</code>的数量-1</p>
@@ -69,8 +69,8 @@
 <p>第8步完成之前全程不能换服/重登</p>
 </div>
 <p>按照以下步骤做<br>
-1.进入<code v-pre>[-2084 77 -4473]</code>的洞内，在上面最顶层的脚手架找到钥匙</p>
-<p>2.出来后一路直走，来到<code v-pre>[-1914 77 -4472]</code>的洞内，将拿到的钥匙丢入左侧的漏斗内，然后触发一下机关，在下面直到看到下面的洞有矿车经过</p>
+1.进入<code v-pre>[-2084 77 -4473]</code>的洞内，在上面最顶层的脚手架<code v-pre>[-2125 80 -4425]</code>找到钥匙</p>
+<p>2.出来后一路直走，来到<code v-pre>[-1914 77 -4472]</code>的洞内，将拿到的钥匙丢入左侧的漏斗内，然后踩一下地上的石踏板，直到看到下面的洞有矿车经过</p>
 <p>3.进入旁边的矿洞，来到入口旁边的平台上<code v-pre>[-1879 80 -4422]</code>，会有一辆矿车，推它！<br>
 <img src="/assets/img/lvl80-8.jpg" alt="" loading="lazy"></p>
 <p>4.快要到铁道岔路的时候停下来，按按钮，然后快速推过左边的岔路<br>
@@ -103,7 +103,7 @@
 <p>进洞下来后，楼梯左手边下有1个<code v-pre>[-1367 25 -5607]</code></p>
 <p>左边楼梯上去T1宝箱旁边有1个<code v-pre>[-1376 31 -5622]</code></p>
 <p>中间桥上有1个</p>
-<p>地图房间有2个</p>
+<p>地图房间有3个(架子两个，桌上一个)</p>
 <p>地图房间旁边T1宝箱有1个</p>
 <p>地图房间旁边的藤蔓上去有1个</p>
 </div>
@@ -165,7 +165,7 @@
 <img src="/assets/img/lvl80-15.jpg" alt="" loading="lazy"></p>
 <p>4.找到碎片后找落脚点往下走，穿过岩浆进入陨石内待命</p>
 <h3 id="集合完毕" tabindex="-1"><a class="header-anchor" href="#集合完毕" aria-hidden="true">#</a> 集合完毕</h3>
-<p>当三个人全部进入陨石内待命后，同时踩下陨石内的铁质压力板，即可传送至接取任务的地点</p>
+<p>当所有人全部进入陨石内待命后，同时踩下陨石内的铁质压力板，即可传送至接取任务的地点</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>和面前的<font color=00AA00><strong>Computer</strong></font>对话以接取任务</p>
@@ -294,7 +294,8 @@
 </div>
 <h2 id="阶段四" tabindex="-1"><a class="header-anchor" href="#阶段四" aria-hidden="true">#</a> ??? - 阶段四</h2>
 <p><strong>这个阶段一个人就可以完成</strong></p>
-<p>当通过了Lab N的谜题后，快速前往Cinfras附近找到白色陨石<code v-pre>[7 42 -5018]</code>，然后把红黄蓝的陨石碎片丢进棕色地毯<code v-pre>[7 43 -5019]</code>，进入陨石(注意，门开的时间很短)，然后用上面提到的钥匙在后面开门</p>
+<p>当通过了Lab N的谜题后，快速前往Cinfras附近找到白色陨石<code v-pre>[7 42 -5018]</code>，然后把红黄蓝的陨石碎片丢进棕色地毯<code v-pre>[7 43 -5019]</code>，从上方开启的门进入陨石(注意，门开的时间很短)</p>
+<p>然后手持上面提到的钥匙，在场地右后方按下按钮开门</p>
 <blockquote>
 <p>红黄蓝陨石碎片一定要接近同时丢！</p>
 </blockquote>
@@ -302,7 +303,7 @@
 <p class="hint-container-title">提示</p>
 <p>如果你已经完成了Lab N但是错过了开门时间或者已经完成了任务，只需要完成下列步骤就可以重新进入：</p>
 <p>1.重新回到第一阶段，收集红黄蓝三种陨石的碎片</p>
-<p>2.返回<strong>Rooster Island</strong>，通过捷径进入Lab N拿到生锈的钥匙</p>
+<p>2.如果在阶段三末尾没有拿到钥匙，你需要重新完成阶段三拿到生锈的钥匙</p>
 <p>3.回到白色陨石，重新开门即可</p>
 </div>
 <p>奖励</p>

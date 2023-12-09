@@ -4,10 +4,10 @@
 <p class="hint-container-title">重要任务</p>
 <p>解锁Almuj的银行</p>
 </div>
-<p>1.在<strong>Almuj</strong>城和<em>Almuj Bank Guard</em><code v-pre>[976 83 -1963]</code>对话</p>
+<p>1.在<strong>Almuj</strong>城和<font color=00AA00><strong>Almuj Bank Guard</strong></font><code v-pre>[976 83 -1963]</code>对话</p>
 <p>2.去第一个目击证人所报告的地点<code v-pre>[954 75 -1985]</code></p>
 <p>3.打开地下室的金库 密码是7812</p>
-<p>4.和<em>Almuj Bank Guard</em>对话</p>
+<p>4.和<font color=00AA00><strong>Almuj Bank Guard</strong></font>对话</p>
 <p>5.去第二个目击证人所报告的地点<code v-pre>[922 79 -1927]</code></p>
 <p>6.调查爆炸的来源<code v-pre>[-13900, 37, 21019]</code></p>
 <figure><img src="@source/.vuepress/public/assets/img/lvl32-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -15,7 +15,7 @@
 <p class="hint-container-title">提示</p>
 <p>如果你在这一步中死亡了，你可以进入这一步中爆炸的房子来进入任务场景<code v-pre>[960 75 -1898]</code></p>
 </div>
-<p>7.继续和<em>Almuj Bank Guard</em>对话</p>
+<p>7.继续和<font color=00AA00><strong>Almuj Bank Guard</strong></font>对话</p>
 <p>8.赶往刚刚被劫掠的房子<code v-pre>[930 75 -2034]</code></p>
 <p>9.寻找劫匪的下落</p>
 <div class="hint-container tip">
@@ -27,11 +27,12 @@
 <p>12.别让劫匪跑了</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>此处非常折磨人，注意尽量与怪物拉远距离或使用击飞手段再去踩压力板阻止tnt爆炸，如果被怪物击飞踩不够有可能会任务失败</p>
+<p>此处非常折磨人，注意尽量与怪物拉远距离或使用击飞手段再去踩压力板阻止tnt爆炸</p>
+<p>如果被怪物击飞，导致踩不够时间有可能会任务失败(此阶段重新开始)</p>
 <p>一共需要抢4次点</p>
 <p>抢点环节结束后，杀死劫匪头目即可出门</p>
 </div>
-<p>13 和<em>Almuj Bank Guard</em>谈话</p>
+<p>13 和<font color=00AA00><strong>Almuj Bank Guard</strong></font>谈话</p>
 <p>奖励</p>
 <ul>
 <li>22000 经验值</li>

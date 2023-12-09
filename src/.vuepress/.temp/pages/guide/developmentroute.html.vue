@@ -15,64 +15,82 @@
 <p>首先，关于新手教程，可以<RouterLink to="/quests/lvl1-10/level%201%20-%20King's%20Recruit.html">看看这里</RouterLink>，这篇文章将不会再过多赘述</p>
 <p>当你完成新手教程后，你就来到了<strong>Ragni</strong>，这里是第一座城市，但是这里平常玩家并不多</p>
 <p>等到过几个任务之后，你就可以去到这部分大陆人员最多的城市——<strong>Detlas</strong>了</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>前期请务必以完成任务作为目标</p>
-<p>可以不用考虑升级的事</p>
-<p>因为完成任务真的是前期不可多得的乐趣了:(</p>
-</div>
-<h3 id="做完新手教程后" tabindex="-1"><a class="header-anchor" href="#做完新手教程后" aria-hidden="true">#</a> 做完新手教程后</h3>
-<p>那么首先，请先往左前方走</p>
+<h3 id="新手村那些你需要注意的事" tabindex="-1"><a class="header-anchor" href="#新手村那些你需要注意的事" aria-hidden="true">#</a> 新手村那些你需要注意的事</h3>
+<p>在完成新手教程后，请先往左前方走</p>
 <figure><img src="/assets/img/route1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这里是银行，每个城市只要有绿宝石兑换商，就一定会有银行</p>
 <p>你可以右键末影箱打开</p>
-<p>这里可以存储你的物品，以防你的背包存储空间不足</p>
+<p><strong>这里可以存储你的物品</strong>，以防你的背包存储空间不足</p>
 <p>请务必记住有银行的存在！！！</p>
 <p>然后沿着路走，在左手边你可以看到铁匠(blacksmith)</p>
 <figure><img src="/assets/img/route2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>你其实只需要用到铁匠的第一个功能——<strong>出售物品</strong></p>
 <figure><img src="/assets/img/route3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>他可以直接按照初始鉴定价格的0.5-1.5倍收购你的装备</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>出售未鉴定的物品时，出售价格非常低</p>
-<p>当然，如果你想要先鉴定后出售的话，是有可能亏损鉴定费的</p>
-</div>
+<p>他可以直接按照初始鉴定价格的0.5-1.5倍收购你的<strong>已鉴定的</strong>装备</p>
+<p>如果出售未鉴定的装备，则为固定很低的价格</p>
 <p>然后在铁匠的旁边，还有药水商店</p>
 <p>每次回城镇的时候都要记得补给一下噢</p>
 <figure><img src="/assets/img/route4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>每次购买药水时，会补充3瓶所购买等级的药水</p>
+<p>恢复药水总上限为30瓶</p>
+</div>
 <p>然后大路的右手边，还有鉴定师，功能在新手教程时也已经讲解过了，不过多赘述</p>
-<p>至于武器商店和防具商店，相比你也已经注意到了，但是这两者出售的装备都<strong>仅限过渡</strong></p>
+<p>在鉴定师的右侧，是卷轴商店</p>
+<figure><img src="/assets/img/dr1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>你在新手教程结束时，已经获得了一张<code v-pre>Ragni Scroll</code></p>
+<div class="hint-container tip">
+<p class="hint-container-title">卷轴有什么用？</p>
+<p>传送卷轴可以将你快速传送至指定的城镇</p>
+<p>只要你周围没有怪物并且没有处于不可传送区域，你都可以进行快速传送</p>
+<p>进行快速传送需要消耗1点灵魂点</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">什么是灵魂点?</p>
+<p>可以看看<RouterLink to="/guide/basesystem/soulpoint.html">这里</RouterLink></p>
+</div>
+<p>至于武器商店和防具商店，想必你也已经注意到了，但是这两者出售的装备都<strong>仅限过渡</strong></p>
 <p>大多数好用的装备一般都是通过开箱得到</p>
-<figure><img src="/assets/img/route6.jpg" alt="野外箱子都长这样" tabindex="0" loading="lazy"><figcaption>野外箱子都长这样</figcaption></figure>
 <p>Ragni城里面就只有这些需要注意的NPC了！</p>
 <p>然后你就可以开始进行你的第一个任务了</p>
 <p><RouterLink to="/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html">Enzan's Brother (level 1)</RouterLink></p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>这游戏没有所谓的“主线”</p>
-<p>你可以把每个任务理解为单个小故事</p>
-<p>当然，不同任务之间可能会有所关联！</p>
-</div>
 <p>关于任务书的用法，可以看看<RouterLink to="/guide/basesystem/questbook.html">这里</RouterLink></p>
-<h3 id="离开ragni后" tabindex="-1"><a class="header-anchor" href="#离开ragni后" aria-hidden="true">#</a> 离开ragni后</h3>
+<h3 id="副职系统是什么" tabindex="-1"><a class="header-anchor" href="#副职系统是什么" aria-hidden="true">#</a> 副职系统是什么？</h3>
 <p>在做任务的路上，你可能会发现某些树木、水池、矿产靠近后会出现文字</p>
 <figure><img src="/assets/img/route5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这些都是副职系统</p>
 <p>在满级体验到end game内容前，<strong>请不要过多涉足副职系统</strong></p>
 <p>副职系统相当浪费时间和货币</p>
 <p>当然，采集副职可以用于前期解决货币不足的问题，这些是后话</p>
-<p>在做完Enzan's Brother后，<em>Therck</em>会跟你说楼梯上有一把钥匙</p>
+<p>等你做到<RouterLink to="/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html">Cook Assistant (level 3)</RouterLink>任务后，你将会第一次体验到采集系统</p>
+<p>稍微知道怎么采集就行了，不需要过多涉足！</p>
+<h3 id="秘密发现" tabindex="-1"><a class="header-anchor" href="#秘密发现" aria-hidden="true">#</a> 秘密发现</h3>
+<p>在做完<RouterLink to="/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html">Enzan's Brother</RouterLink>后，<font color=00AA00><strong>Therck</strong></font>会跟你说楼梯上有一把钥匙</p>
 <p>你可以在左侧的屋子发现可以用钥匙打开的门</p>
 <figure><img src="/assets/img/route7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>进去后，你会发现这是个秘密发现(Secret Discovery)</p>
 <p>关于秘密发现，可以看<RouterLink to="/guide/basesystem/secretdiscovery.html">这一章</RouterLink></p>
-<p>接下来，等你做到<RouterLink to="/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html">Cook Assistant (level 3)</RouterLink>任务后，你将会第一次体验到采集系统</p>
-<p>稍微知道一下怎么做就行了！不用花太多时间去采集</p>
+<h3 id="从战利品箱搜刮装备" tabindex="-1"><a class="header-anchor" href="#从战利品箱搜刮装备" aria-hidden="true">#</a> 从战利品箱搜刮装备！</h3>
+<p>在野外，随处可见如下图所示的战利品箱</p>
+<figure><img src="/assets/img/route6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>在打开后，你可以随机得到一点物资以及装备</p>
+<p>你可以通过这种方式来升级你的装备和武器！</p>
+<p>通常能开到的装备的等级都是根据周围怪物的等级来决定的</p>
+<p>同时，对于不同种类的武器来说，你能开到本职业的武器的概率会更高些！</p>
+<p>如果你希望得到更高品质的装备，不妨前往Cave</p>
+<figure><img src="/assets/img/lootrun2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>你可以在任务书上快速查找附近你能开启的洞穴！</p>
+<figure><img src="/assets/img/questbook4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>和洞穴系统有关的lootrun，具体可以看看<RouterLink to="/guide/lootrun.html#%E4%BC%A0%E7%BB%9Flootrun">这一章</RouterLink></p>
+<h3 id="记得完成任务" tabindex="-1"><a class="header-anchor" href="#记得完成任务" aria-hidden="true">#</a> 记得完成任务！</h3>
+<p>前期请积极地以完成任务为目标继续前进吧！</p>
 <p>之后记得完成<RouterLink to="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html">Infested Plants (level 4)</RouterLink>任务！这是后面一系列任务的起头，不完成的话你将体验不到后续的部分教程任务</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>为了篇幅安排，关于武器加点、打粉的部分将会安排在之后讲解</p>
+<p>这游戏没有所谓的“主线”</p>
+<p>你可以把每个任务理解为单个小故事</p>
+<p>当然，不同任务之间可能会有所关联！</p>
 </div>
 <h3 id="第一个地牢" tabindex="-1"><a class="header-anchor" href="#第一个地牢" aria-hidden="true">#</a> 第一个地牢</h3>
 <p>在完成<RouterLink to="/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html">Sewers of Ragni (level 5)</RouterLink>任务后，你将会解锁你旅途上的第一个地牢</p>
@@ -82,17 +100,45 @@
 <p>但是注意，仅限过渡，请不要用太久，白装的属性很差！</p>
 <p>然后，你可以开始考虑加点的问题了</p>
 <p>这里<strong>暂时</strong>建议将你的属性点全部均摊到力量(Strength)和防御(Defence)上，可以保证既拥有足够攻击的同时又拥有足够防御</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>属性点是为武器和装备服务的！</p>
-<p>今后你的属性点应该优先考虑是否能穿上一套装备，而不是追求其基本效果！</p>
-</div>
 <p>同时，请务必要在Ragni内的药水商店补齐药水，在地牢门口的药水商店是奸商，<strong>千万别买</strong></p>
-<p>做好以上准备之后，你就可以进入DS了！</p>
-<p>第一个副本非常简单，小怪部分你只需要平A即可过关</p>
+<p>做好以上准备之后，你就可以进入第一个地牢了！</p>
+<p>第一个地牢非常简单，小怪部分你只需要平A即可过关</p>
 <p>需要注意BOSS稍微有点难度，别忘了用你的技能！</p>
 <p>过关后，会给予一个骨头和3个骨灰(?)</p>
 <p>这两个东西强烈建议存起来！可以用于兑换副本装备</p>
+<h3 id="该怎么进行属性点的加点" tabindex="-1"><a class="header-anchor" href="#该怎么进行属性点的加点" aria-hidden="true">#</a> 该怎么进行属性点的加点？</h3>
+<p>属性点是为武器和装备服务的！</p>
+<p>你的属性点应该优先考虑是否能穿上一套装备，而不是先追求其基本效果！</p>
+<p>换言之，你其实应该先考虑自己用什么武器走什么流派，然后再进行属性点的添加</p>
+<p>如果你实在纠结要点什么属性点，这边能建议的就是点智力来降低技能蓝耗，以提升战斗体验</p>
+<p>虽然也不要无脑点就是了！！！</p>
+<h3 id="和朋友组队" tabindex="-1"><a class="header-anchor" href="#和朋友组队" aria-hidden="true">#</a> 和朋友组队！</h3>
+<p>你可能会在攻克第一个地牢时感到困难，这时候你可以考虑和你的朋友一起组队了！</p>
+<p>想要组队很简单，你只需要输入<code v-pre>/Party [ID]</code>即可快速邀请你的朋友至你的世界了</p>
+<p>当然，你也可以在指南针内邀请你的朋友来获得奖励</p>
+<figure><img src="/assets/img/route8.jpg" alt="就是这里" tabindex="0" loading="lazy"><figcaption>就是这里</figcaption></figure>
+<p>在这个页面你所邀请的朋友，和你组队时双方都可以享受额外的15%经验加成！</p>
+<h3 id="头上有wc前缀的玩家" tabindex="-1"><a class="header-anchor" href="#头上有wc前缀的玩家" aria-hidden="true">#</a> 头上有WC前缀的玩家</h3>
+<p>你可能已经发现了，你在探险路上遇到了很多ID前缀带有<code v-pre>[WCXX]</code>的玩家</p>
+<figure><img src="/assets/img/route9.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>他们其实都是来自其他线路的玩家，对你来说相当于虚影</p>
+<p>但是如果你们都能彼此看到对方的话，是可以直接进行对话交流的</p>
+<p>虚影玩家可能会对你的延迟造成影响，如果你觉得卡顿的话，不妨使用<code v-pre>/toggle ghosts none</code>来关闭虚影玩家</p>
+<p>想要重新开启，只需要输入<code v-pre>/toggle ghosts all/high/medium/low</code>即可</p>
+<h3 id="使用快速旅行" tabindex="-1"><a class="header-anchor" href="#使用快速旅行" aria-hidden="true">#</a> 使用快速旅行！</h3>
+<p>在完成<RouterLink to="/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html">Tunnel Trouble ( level 6 )</RouterLink>后，会提示你解锁了一个快速旅行</p>
+<p>其实就是通过你接取任务进去的洞穴入口和完成任务时的洞穴出口来快速双向往返<strong>Ragni</strong>和<strong>Detlas</strong></p>
+<p>后面还有很多任务会解锁类似的快速旅行！</p>
+<p>如果你能做到这个任务，想必你也一定到了<strong>Detlas</strong>了！恭喜你来到Wynn省最大的城市</p>
+<h3 id="wynn省最大的城市——detlas" tabindex="-1"><a class="header-anchor" href="#wynn省最大的城市——detlas" aria-hidden="true">#</a> Wynn省最大的城市——Detlas</h3>
+<p>说是最大，但其实这里面积并不是最大的(可能比Ragni要小一圈)</p>
+<p>这里实际上是Wynn省的中心点，因此平时在这里驻留的玩家是最多的</p>
+<p>如果你有什么需要找老外求助的，可以考虑来Detlas寻求帮助！</p>
+<p>同时，在Detlas你还可以发现第一个<code v-pre>Trade Market(交易市场)</code>！</p>
+<p>如果你希望更快地更新升级你的装备，可以考虑来交易市场花点小钱解决你的困扰！</p>
+<p>在Detlas，你就可以见到部分Ragni没有的NPC了——这里的NPC是齐全的</p>
+<p>比如说，Powder Master</p>
+<p>如果你希望了解所有NPC的功能，不妨看看<RouterLink to="/guide/npcs.html">这里</RouterLink></p>
 </div></template>
 
 

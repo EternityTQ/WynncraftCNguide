@@ -5,6 +5,12 @@
 <p>解锁Decrepit Sewers副本</p>
 </div>
 <p>1.和Ragni下水道旁边的<font color=00AA00><strong>Jenprest</strong></font><code v-pre>[-890 60 -1874]</code>谈话，对话结束后按选项直接来到隧道口。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">选项如何选中？</p>
+<p>直接按下对应的小数字键即可</p>
+<p>注意当你已经提前切到了对应的数字键时，再按是无法起效的</p>
+<p>推荐按一下9切到末尾，然后再按对应的数字键</p>
+</div>
 <p>2.进入下水道后一直走，直到触发剧情后右拐来到引爆点，放置炸药后被冲走。</p>
 <p>3.继续探索，触发精英怪战斗后解决并获取掉落物，右键铁门继续探索</p>
 <p>4.经过一段时限跑酷后触发剧情，随后离开下水道大门找<font color=00AA00><strong>Jenprest</strong></font>交差</p>

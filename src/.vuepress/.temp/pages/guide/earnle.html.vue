@@ -35,6 +35,10 @@
 <p>你可以抓住这些商机，如果没事干了就去特定的刷怪点刷取特定素材</p>
 <p>如果你不确定哪些素材值钱，不妨查询一下市场或者wiki</p>
 <p>也可以询问其他人，当然大部分情况下应该不会轻易透露商机</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>以下都是后期内容了哦！</p>
+</div>
 <h2 id="完成腐化地牢-raid" tabindex="-1"><a class="header-anchor" href="#完成腐化地牢-raid" aria-hidden="true">#</a> 完成腐化地牢/raid</h2>
 <p>在完成8/8 run或者raid后</p>
 <p>你可以通过售卖最终奖励中的值钱物品来赚取绿宝石</p>

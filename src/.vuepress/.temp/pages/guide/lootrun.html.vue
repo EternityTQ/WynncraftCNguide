@@ -185,7 +185,7 @@
 <td>Master</td>
 <td>1000</td>
 <td>4610</td>
-<td>解锁彩虹色新标</td>
+<td>解锁彩虹色信标</td>
 </tr>
 <tr>
 <td>16</td>
@@ -208,6 +208,7 @@
 <p class="hint-container-title">提示</p>
 <p>在开始游戏后，当你离线/切换其他存档时，你当前的游戏将会暂停</p>
 <p>若你已经进入挑战，在上线后你当前的挑战将会重置</p>
+<p>处于Spelunk挑战中时，洞穴内所有T3T4箱子将会同时重置</p>
 </div>
 <p>同时，你可以在任何时候找NPC结算(或者投降。)</p>
 <figure><img src="/assets/img/lootrun12.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -810,7 +811,7 @@
 </tr>
 <tr>
 <td><font color='5555FF'> <strong>Orphion's Grace</strong> </font></td>
-<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效</td>
+<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 如果你能保证一直不下线的话，其提供的额外增益数值能帮助你更好地完成挑战，有利于减小挑战风险</td>
 </tr>
 <tr>
 <td><font color='AA00AA'> <strong>Cleansing Ritual</strong> </font></td>
@@ -822,7 +823,7 @@
 </tr>
 <tr>
 <td><font color='AA00AA'> <strong>Inner Peace</strong> </font></td>
-<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效</td>
+<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 但是如果你能保证一直不下线的话，其效果会使怪物抗性上限减半，其实也算是非常强力的效果</td>
 </tr>
 <tr>
 <td><font color='00BB00'> <strong>Backup Beat</strong> </font></td>

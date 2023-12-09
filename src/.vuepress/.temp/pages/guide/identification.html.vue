@@ -5,6 +5,10 @@
 </blockquote>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
+<p>如果你想查找装备品质、词条介绍等内容，可以查阅<RouterLink to="/guide/basesystem/itemlevel.html">这里</RouterLink></p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>先介绍一个概念：</p>
 <p>raw指纯数值，例如<code v-pre>+260 Health regen</code>就是raw</p>
 <p>%指百分比，例如<code v-pre>+50% Health regen</code>就是%</p>
