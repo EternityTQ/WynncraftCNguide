@@ -41,7 +41,7 @@
 <p>12跟Maxie在工厂外谈话<code v-pre>[-1707 75 -2610]</code></p>
 <p>奖励</p>
 <ul>
-<li>305000经验</li>
+<li>3050000经验</li>
 <li>Electro Mage's Boots (非常牛逼的鞋子)</li>
 <li>1 Fallen Factory Key</li>
 <li>可以乘坐往返于Corkus-Kandon Beda之间的热气球了</li>

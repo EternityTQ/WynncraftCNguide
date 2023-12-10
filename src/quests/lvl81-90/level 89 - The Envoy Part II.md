@@ -64,7 +64,7 @@ icon: skull
 12跟Maxie在工厂外谈话`[-1707 75 -2610]`
 
 奖励
-+ 305000经验
++ 3050000经验
 + Electro Mage's Boots (非常牛逼的鞋子)
 + 1 Fallen Factory Key
 + 可以乘坐往返于Corkus-Kandon Beda之间的热气球了
