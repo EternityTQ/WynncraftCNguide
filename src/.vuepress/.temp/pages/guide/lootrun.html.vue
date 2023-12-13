@@ -199,6 +199,12 @@
 </details>
 <h3 id="开始lootrun" tabindex="-1"><a class="header-anchor" href="#开始lootrun" aria-hidden="true">#</a> 开始lootrun</h3>
 <p>与Lootrun Master对话后，你就可以开始新lootrun了</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>在开始lr前，你一般需要完成前置条件</p>
+<p>所有区域的前置条件，角色之间不共用</p>
+<p>前置条件一般是跑遍这个区域的每一个Cave，以及完成特定前置任务</p>
+</div>
 <p>你可以在此看到最小挑战轮数以及最大挑战轮数还有基础挑战轮数。</p>
 <figure><img src="/assets/img/lootrun8.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>每个账号在每天第一次lootrun完成时，都能获得每日奖励</p>

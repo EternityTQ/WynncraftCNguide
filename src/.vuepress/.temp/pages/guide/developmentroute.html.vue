@@ -8,10 +8,8 @@
 <p>这篇文章会把读者当做一个刚刚加入服务器的新手</p>
 <p>笔者将会模拟一个带新手的过程，帮助读者渡过前中期</p>
 <p>包括讲述机制等基础内容</p>
-<p>同时，这篇文章会<strong>不可避免地大量使用到Wynntils MOD的内容</strong></p>
-<p>请务必安装Wynntils</p>
 </div>
-<h2 id="前期-lvl-1-lvl-33" tabindex="-1"><a class="header-anchor" href="#前期-lvl-1-lvl-33" aria-hidden="true">#</a> 前期 lvl.1 ~ lvl.33</h2>
+<h2 id="前期-lvl-1-lvl-40" tabindex="-1"><a class="header-anchor" href="#前期-lvl-1-lvl-40" aria-hidden="true">#</a> 前期 lvl.1 ~ lvl.40</h2>
 <p>首先，关于新手教程，可以<RouterLink to="/quests/lvl1-10/level%201%20-%20King's%20Recruit.html">看看这里</RouterLink>，这篇文章将不会再过多赘述</p>
 <p>当你完成新手教程后，你就来到了<strong>Ragni</strong>，这里是第一座城市，但是这里平常玩家并不多</p>
 <p>等到过几个任务之后，你就可以去到这部分大陆人员最多的城市——<strong>Detlas</strong>了</p>
@@ -139,6 +137,80 @@
 <p>在Detlas，你就可以见到部分Ragni没有的NPC了——这里的NPC是齐全的</p>
 <p>比如说，Powder Master</p>
 <p>如果你希望了解所有NPC的功能，不妨看看<RouterLink to="/guide/npcs.html">这里</RouterLink></p>
+<h3 id="使用交易市场" tabindex="-1"><a class="header-anchor" href="#使用交易市场" aria-hidden="true">#</a> 使用交易市场</h3>
+<figure><img src="/assets/img/route10.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>在Detlas，你可以看到交易市场</p>
+<p>你可以通过交易市场来花点小钱，快速升级你的装备！</p>
+<p>具体介绍可以看看<RouterLink to="/guide/basesystem/trademarket.html">这一章</RouterLink></p>
+<div class="hint-container tip">
+<p class="hint-container-title">购入一个绿宝石钱袋！</p>
+<p>绿宝石钱袋能在你拾取到绿宝石时，自动收纳进袋中</p>
+<p>同时，当堆叠的绿宝石满足条件时，会自动合成为下一级货币单位(64e-&gt;1eb, 64eb-&gt;1le)</p>
+<p>在包里放一个绿宝石袋能大幅增加你背包容量的利用率！</p>
+<p>建议搜索<code v-pre>[Tier VII]</code>来直接购买7级钱袋子，性价比最高</p>
+</div>
+<h3 id="路边的带文字的箱子是什么" tabindex="-1"><a class="header-anchor" href="#路边的带文字的箱子是什么" aria-hidden="true">#</a> 路边的带文字的箱子是什么？</h3>
+<p>那是Champion才可以设置的移动商店(如上图右侧所示)</p>
+<p>你可以在里面直接购买设置者在交易市场放置的商品</p>
+<p>但是要小心被宰哦！</p>
+<h3 id="给你的武器添加粉末" tabindex="-1"><a class="header-anchor" href="#给你的武器添加粉末" aria-hidden="true">#</a> 给你的武器添加粉末</h3>
+<figure><img src="/assets/img/powder1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>在<strong>Detlas</strong>中，你可以找到粉末大师，他可以为你的装备武器添加粉末</p>
+<p>粉末相当于其他RPG游戏中的镶嵌宝石</p>
+<p>只需要交互后，点击第一个按钮(加号)，将你的武器放上去，再放上粉末就可以了！</p>
+<p>添加粉末会给你的武器带来对应属性的属性伤害提升</p>
+<p>这是非常快捷的提升输出的方式！如果之后你遇到了难以攻克的怪物，不妨给你的武器添加粉末试试看！</p>
+<h3 id="购买大量的detlas传送卷轴" tabindex="-1"><a class="header-anchor" href="#购买大量的detlas传送卷轴" aria-hidden="true">#</a> 购买大量的Detlas传送卷轴</h3>
+<p>前文提到，<strong>Detlas</strong>位于Wynn省的中心地带</p>
+<p>这意味着，只要你拥有<strong>Detlas</strong>的传送卷轴，你就相当于可以快速传送到一个地区中枢</p>
+<p>这能为你的冒险带来很大的便利！</p>
+<p><strong>Detlas</strong>的卷轴商店位于<code v-pre>[468 68 -1536]</code>，并且其传送卷轴价格便宜，强烈推荐大量购入！</p>
+<h3 id="检查一下任务完成到哪了" tabindex="-1"><a class="header-anchor" href="#检查一下任务完成到哪了" aria-hidden="true">#</a> 检查一下任务完成到哪了！</h3>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> <RouterLink to="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html">Infested Plants (level 4)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> <RouterLink to="/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html">Mushroom Man (level 6)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> <RouterLink to="/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html">Taking the tower (level 8)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> <RouterLink to="/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html">Elemental Exercise ( level 11)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> <RouterLink to="/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html">Arachnids' Ascent ( level 14 )</RouterLink></label></li>
+</ul>
+<p>以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...所以这个会放在后面！</p>
+<p>这里只是催促一下你完成任务&lt;3</p>
+<h3 id="升级的好方法" tabindex="-1"><a class="header-anchor" href="#升级的好方法" aria-hidden="true">#</a> 升级的好方法！</h3>
+<h3 id="获得你的第一只马匹" tabindex="-1"><a class="header-anchor" href="#获得你的第一只马匹" aria-hidden="true">#</a> 获得你的第一只马匹！</h3>
+<h3 id="继续升到18级吧" tabindex="-1"><a class="header-anchor" href="#继续升到18级吧" aria-hidden="true">#</a> 继续升到18级吧！</h3>
+<h3 id="进入第二个地牢" tabindex="-1"><a class="header-anchor" href="#进入第二个地牢" aria-hidden="true">#</a> 进入第二个地牢！</h3>
+<h3 id="出发-前往码头——nemract" tabindex="-1"><a class="header-anchor" href="#出发-前往码头——nemract" aria-hidden="true">#</a> 出发！前往码头——Nemract</h3>
+<p>这里要补充一个点：传送卷轴只能前往你去过的城镇</p>
+<p>同时，当你在没去过的城镇周遭死亡时，你并不会在该城镇复活！</p>
+<p>所以，是时候前往Nemract了！去Nemract买点土特产传送卷轴吧！</p>
+<blockquote>
+<p>(我怎么没看出什么因果关系？)</p>
+</blockquote>
+<div class="hint-container tip">
+<p class="hint-container-title">囤积传送卷轴是个好习惯！</p>
+<p>强烈建议在你的银行中永远存放若干不同城镇的传送卷轴</p>
+<p>这有助于你快速传送于不同城镇之间，省的还要再跑一趟，非常方便！</p>
+</div>
+<p>Nemract是Wynn省的码头，只有这里有出海的船只可以购买</p>
+<p>以及，你可以使用海上快速传送——<strong>Seaskipper</strong></p>
+<h3 id="古代nemract的秘密" tabindex="-1"><a class="header-anchor" href="#古代nemract的秘密" aria-hidden="true">#</a> 古代Nemract的秘密？</h3>
+<p>是时候前往解锁第三个地牢了！</p>
+<h3 id="解锁技能树洗点功能" tabindex="-1"><a class="header-anchor" href="#解锁技能树洗点功能" aria-hidden="true">#</a> 解锁技能树洗点功能</h3>
+<h3 id="去解决tempo镇的麻烦" tabindex="-1"><a class="header-anchor" href="#去解决tempo镇的麻烦" aria-hidden="true">#</a> 去解决Tempo镇的麻烦！</h3>
+<h3 id="进入时间圣所" tabindex="-1"><a class="header-anchor" href="#进入时间圣所" aria-hidden="true">#</a> 进入时间圣所！</h3>
+<h3 id="解锁超级刷怪点墓地" tabindex="-1"><a class="header-anchor" href="#解锁超级刷怪点墓地" aria-hidden="true">#</a> 解锁超级刷怪点墓地！</h3>
+<h3 id="收集一套冒险者套装" tabindex="-1"><a class="header-anchor" href="#收集一套冒险者套装" aria-hidden="true">#</a> 收集一套冒险者套装！</h3>
+<h3 id="前往沙漠之城——almuj" tabindex="-1"><a class="header-anchor" href="#前往沙漠之城——almuj" aria-hidden="true">#</a> 前往沙漠之城——Almuj</h3>
+<h3 id="解锁almuj的银行" tabindex="-1"><a class="header-anchor" href="#解锁almuj的银行" aria-hidden="true">#</a> 解锁Almuj的银行！</h3>
+<h3 id="探秘沙海之国" tabindex="-1"><a class="header-anchor" href="#探秘沙海之国" aria-hidden="true">#</a> 探秘沙海之国！</h3>
+<h3 id="前往峡谷之城——rymek" tabindex="-1"><a class="header-anchor" href="#前往峡谷之城——rymek" aria-hidden="true">#</a> 前往峡谷之城——Rymek</h3>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>Gold Bars建议留着，后面会有任务要来Rymek用Gold Bars买东西</p>
+<p>最好留到68级的Temple of Legends，或者你现在就可以就地买一件<code v-pre>Old Touroto Hide</code>，后面不用再来跑一趟(等你省了这一趟你会回来谢谢我的)</p>
+</div>
+<h2 id="中期-lvl-41-lvl-85" tabindex="-1"><a class="header-anchor" href="#中期-lvl-41-lvl-85" aria-hidden="true">#</a> 中期 lvl.41 ~ lvl.85</h2>
+<h3 id="探秘冰原——nesaak" tabindex="-1"><a class="header-anchor" href="#探秘冰原——nesaak" aria-hidden="true">#</a> 探秘冰原——Nesaak</h3>
 </div></template>
 
 

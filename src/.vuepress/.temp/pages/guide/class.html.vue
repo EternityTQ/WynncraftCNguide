@@ -274,9 +274,12 @@
 <figure><img src="/assets/img/tree1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h3 id="基础介绍" tabindex="-1"><a class="header-anchor" href="#基础介绍" aria-hidden="true">#</a> 基础介绍</h3>
 <p>随着战斗等级的提升，你将会慢慢得到技能点</p>
+<p>获取技能点的间隔会越来越大</p>
+<p>你在中后期就能获得足够点完主要能力点的数量</p>
 <p>一个能力一般会消耗1-2个技能点</p>
 <p>通常来说，白色小能力以及技能会消耗1点技能点，其余大能力会消耗1-2技能点不等</p>
 <p>你可以通过自由加点来构建属于你自己的技能树</p>
+<p><strong>你将在104级时获得所有的技能点</strong></p>
 <h3 id="职业流派" tabindex="-1"><a class="header-anchor" href="#职业流派" aria-hidden="true">#</a> 职业流派</h3>
 <p>一个职业的技能树通常分为三个流派，但是介于wynncraft技能树的设计，你不一定需要一条线路往死里点</p>
 <p>你可以在技能树UI的下方查看各个流派的介绍，以及当前所点的流派能力数量</p>
@@ -285,7 +288,6 @@
 <p>需要注意的是，一部分能力存在流派数量限制，你只有在点亮足够多的流派能力后才可以点亮该能力</p>
 <p>同时，部分能力还存在冲突(多个能力只允许点其中一个)以及前置(点亮上一个指定能力才可以点亮这个能力)</p>
 <figure><img src="/assets/img/tree2.jpg" alt="该图包含了上述大部分情况" tabindex="0" loading="lazy"><figcaption>该图包含了上述大部分情况</figcaption></figure>
-<p><strong>你将在104级时获得所有的技能点</strong></p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>并非所有的能力都能提高游戏体验！</p>

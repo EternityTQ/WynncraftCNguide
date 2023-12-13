@@ -14,13 +14,9 @@ icon: route
 笔者将会模拟一个带新手的过程，帮助读者渡过前中期
 
 包括讲述机制等基础内容
-
-同时，这篇文章会**不可避免地大量使用到Wynntils MOD的内容**
-
-请务必安装Wynntils
 :::
 
-## 前期 lvl.1 ~ lvl.33
+## 前期 lvl.1 ~ lvl.40
 
 首先，关于新手教程，可以[看看这里](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20King's%20Recruit.html)，这篇文章将不会再过多赘述
 
@@ -266,7 +262,129 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 如果你希望了解所有NPC的功能，不妨看看[这里](/WynncraftCNguide/guide/npcs.html)
 
+### 使用交易市场
 
+![](/assets/img/route10.jpg)
+
+在Detlas，你可以看到交易市场
+
+你可以通过交易市场来花点小钱，快速升级你的装备！
+
+具体介绍可以看看[这一章](/WynncraftCNguide/guide/basesystem/trademarket.html)
+
+:::tip 购入一个绿宝石钱袋！
+绿宝石钱袋能在你拾取到绿宝石时，自动收纳进袋中
+
+同时，当堆叠的绿宝石满足条件时，会自动合成为下一级货币单位(64e->1eb, 64eb->1le)
+
+在包里放一个绿宝石袋能大幅增加你背包容量的利用率！
+
+建议搜索`[Tier VII]`来直接购买7级钱袋子，性价比最高
+:::
+
+### 路边的带文字的箱子是什么？
+那是Champion才可以设置的移动商店(如上图右侧所示)
+
+你可以在里面直接购买设置者在交易市场放置的商品
+
+但是要小心被宰哦！
+
+### 给你的武器添加粉末
+
+![](/assets/img/powder1.jpg)
+
+在**Detlas**中，你可以找到粉末大师，他可以为你的装备武器添加粉末
+
+粉末相当于其他RPG游戏中的镶嵌宝石
+
+只需要交互后，点击第一个按钮(加号)，将你的武器放上去，再放上粉末就可以了！
+
+添加粉末会给你的武器带来对应属性的属性伤害提升
+
+这是非常快捷的提升输出的方式！如果之后你遇到了难以攻克的怪物，不妨给你的武器添加粉末试试看！
+
+### 购买大量的Detlas传送卷轴
+
+前文提到，**Detlas**位于Wynn省的中心地带
+
+这意味着，只要你拥有**Detlas**的传送卷轴，你就相当于可以快速传送到一个地区中枢
+
+这能为你的冒险带来很大的便利！
+
+**Detlas**的卷轴商店位于`[468 68 -1536]`，并且其传送卷轴价格便宜，强烈推荐大量购入！
+
+### 检查一下任务完成到哪了！
+
+- [ ] [Infested Plants (level 4)](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
+- [ ] [Mushroom Man (level 6)](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
+- [ ] [Taking the tower (level 8)](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
+- [ ] [Elemental Exercise ( level 11)](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
+- [ ] [Arachnids' Ascent ( level 14 )](/WynncraftCNguide/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html)
+
+以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...所以这个会放在后面！
+
+这里只是催促一下你完成任务<3
+
+### 升级的好方法！
+
+### 获得你的第一只马匹！
+
+### 继续升到18级吧！
+
+### 进入第二个地牢！
+
+### 出发！前往码头——Nemract
+
+这里要补充一个点：传送卷轴只能前往你去过的城镇
+
+同时，当你在没去过的城镇周遭死亡时，你并不会在该城镇复活！
+
+所以，是时候前往Nemract了！去Nemract买点土特产传送卷轴吧！
+>(我怎么没看出什么因果关系？)
+
+:::tip 囤积传送卷轴是个好习惯！
+强烈建议在你的银行中永远存放若干不同城镇的传送卷轴
+
+这有助于你快速传送于不同城镇之间，省的还要再跑一趟，非常方便！
+
+:::
+
+Nemract是Wynn省的码头，只有这里有出海的船只可以购买
+
+以及，你可以使用海上快速传送——**Seaskipper**
+
+### 古代Nemract的秘密？
+
+是时候前往解锁第三个地牢了！
+
+
+### 解锁技能树洗点功能
+
+### 去解决Tempo镇的麻烦！
+
+### 进入时间圣所！
+
+### 解锁超级刷怪点墓地！
+
+### 收集一套冒险者套装！
+
+### 前往沙漠之城——Almuj
+
+### 解锁Almuj的银行！
+
+### 探秘沙海之国！
+
+### 前往峡谷之城——Rymek
+
+:::tip
+Gold Bars建议留着，后面会有任务要来Rymek用Gold Bars买东西
+
+最好留到68级的Temple of Legends，或者你现在就可以就地买一件`Old Touroto Hide`，后面不用再来跑一趟(等你省了这一趟你会回来谢谢我的)
+:::
+
+## 中期 lvl.41 ~ lvl.85
+
+### 探秘冰原——Nesaak
 
 
 
