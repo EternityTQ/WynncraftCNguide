@@ -165,6 +165,11 @@
 <p>这意味着，只要你拥有<strong>Detlas</strong>的传送卷轴，你就相当于可以快速传送到一个地区中枢</p>
 <p>这能为你的冒险带来很大的便利！</p>
 <p><strong>Detlas</strong>的卷轴商店位于<code v-pre>[468 68 -1536]</code>，并且其传送卷轴价格便宜，强烈推荐大量购入！</p>
+<div class="hint-container tip">
+<p class="hint-container-title">永远在你的身上保留传送卷轴</p>
+<p>这一样是个好习惯！</p>
+<p>这可以让你随时随地方便地传送至某一个城镇整理物品！</p>
+</div>
 <h3 id="检查一下任务完成到哪了" tabindex="-1"><a class="header-anchor" href="#检查一下任务完成到哪了" aria-hidden="true">#</a> 检查一下任务完成到哪了！</h3>
 <ul class="task-list-container">
 <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> <RouterLink to="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html">Infested Plants (level 4)</RouterLink></label></li>
