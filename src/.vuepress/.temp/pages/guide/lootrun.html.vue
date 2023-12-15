@@ -228,8 +228,9 @@
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>在lr期间，你不能跟除了铁匠、鉴定商、lr大师以外的npc交互</p>
-<p>同时，你也无法骑马，只能通过正常跑步进行跑步</p>
-<p>这意味着，你唯一存放身上物品的方式是通过使用champion的宠物运送功能</p>
+<p>同时，你也无法骑马，只能通过正常跑步进行跑图</p>
+<p>这意味着，你唯一存放身上物品的方式是通过使用RANK-CHAMPION的宠物运送功能</p>
+<p><s>这真的不是骗氪吗</s></p>
 </div>
 <div class="hint-container danger">
 <p class="hint-container-title">关于游玩区域限制</p>
