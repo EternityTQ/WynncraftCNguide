@@ -11,7 +11,7 @@
 <p>5.给魔法师<em>Wedyf</em> 1个Bob's Tear 和1个Rose<code v-pre>[160, 73, -1012]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>Bob's Tear可由在Ragni刷新的 Bob the Zombie 掉落，掉率百分百且刷率极高，稍微逛一圈就能看见。</p>
+<p>Bob's Tear可由在<strong>Ragni</strong>城内刷新的 Bob the Zombie 掉落，掉率百分百且刷率极高，稍微逛一圈就能看见。</p>
 </div>
 <p>6.和<strong>Ternaves</strong>附近的<em>Blacksmith</em><code v-pre>[725, 61, -1468]</code>谈有关Bob's lost soul的事</p>
 <p>7.交给 <em>Blacksmith</em> 如下物品： 1 Depressing Stick, 1 Depressing Spear, 1 Depressing Bow 和 1 Depressing Shear</p>

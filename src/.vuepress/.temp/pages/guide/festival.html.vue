@@ -165,6 +165,150 @@
 </tbody>
 </table>
 <h3 id="活动任务-邀请npc来detlas参与盛典" tabindex="-1"><a class="header-anchor" href="#活动任务-邀请npc来detlas参与盛典" aria-hidden="true">#</a> 活动任务 - 邀请NPC来Detlas参与盛典！</h3>
+<p>盛典已经开始了！你现在可以邀请NPC来到Detlas参加盛典</p>
+<p>你每邀请一个NPC，等到他们抵达Detlas后，就可以获得一份礼物</p>
+<p>你每帮助旅行者找回一个记忆，他就会给你一个邀请函</p>
+<p>每一个邀请函可以邀请一个NPC</p>
+<p>NPC一般都是任务NPC</p>
+<p>直接找到对应的NPC对话即可</p>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>NPC名称</th>
+<th>坐标</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><font color=00AA00><strong>Therck</strong></font></td>
+<td><code v-pre>[-535 69 -1588]</code></td>
+<td>对话完后，回<strong>Ragni</strong><br>找<font color=00AA00><strong>Enzan</strong></font><code v-pre>[-771 67 -1573]</code>对话<br> 然后再回去</td>
+</tr>
+<tr>
+<td>2</td>
+<td><font color=00AA00><strong>Drucksh</strong></font></td>
+<td><code v-pre>[71 40 -2178]</code></td>
+<td>对话完后，先回<strong>Detlas</strong><br>找到<font color=00AA00><strong>Sayleros</strong></font><code v-pre>[476, 69, -1624]</code>对话<br>再回去找他</td>
+</tr>
+<tr>
+<td>3</td>
+<td><font color=CCCCCC><strong>Seaskipper Captain</strong></font></td>
+<td><code v-pre>[182 35 -2274]</code></td>
+<td>去药店买瓶<code v-pre>Potion of Drunkness</code>给他</td>
+</tr>
+<tr>
+<td>4</td>
+<td><font color=00AA00><strong>Dr. Picard</strong></font></td>
+<td><code v-pre>[103 90 -1200]</code></td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td><font color=00AA00><strong>Asher</strong></font></td>
+<td><code v-pre>[-449 72 -1153]</code></td>
+<td>去<code v-pre>[-499 83 -1154]</code><br> 击杀一只Time Trouble</td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>20</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>21</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 </div></template>
 
 

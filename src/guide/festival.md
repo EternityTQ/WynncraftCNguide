@@ -107,3 +107,40 @@ The Festival of the Blizzard(冰雪节)
 | 19 | | |
 
 ### 活动任务 - 邀请NPC来Detlas参与盛典！
+
+盛典已经开始了！你现在可以邀请NPC来到Detlas参加盛典
+
+你每邀请一个NPC，等到他们抵达Detlas后，就可以获得一份礼物
+
+你每帮助旅行者找回一个记忆，他就会给你一个邀请函
+
+每一个邀请函可以邀请一个NPC
+
+NPC一般都是任务NPC
+
+直接找到对应的NPC对话即可
+
+| 序号 | NPC名称 | 坐标  | 备注 |
+| --- | --- | ---  | --- |
+| 1 | <font color=00AA00>**Therck**</font> | `[-535 69 -1588]` | 对话完后，回**Ragni**<br>找<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话<br> 然后再回去  |
+| 2 | <font color=00AA00>**Drucksh**</font> | `[71 40 -2178]` | 对话完后，先回**Detlas**<br>找到<font color=00AA00>**Sayleros**</font>`[476, 69, -1624]`对话<br>再回去找他 |
+| 3 | <font color=CCCCCC>**Seaskipper Captain**</font>  | `[182 35 -2274]` | 去药店买瓶`Potion of Drunkness`给他 |
+| 4 | <font color=00AA00>**Dr. Picard**</font> | `[103 90 -1200]` |  |
+| 5 | <font color=00AA00>**Asher**</font> | `[-449 72 -1153]` | 去`[-499 83 -1154]`<br> 击杀一只Time Trouble |
+| 6 |  |  |  |  |
+| 7 |  |  |  |  |
+| 8 |  |  |  |  |
+| 9 |  |  |  |  |
+| 10 |  |  |  |  |
+| 11 |  |  |  |  |
+| 12 |  |  |  |  |
+| 13 |  |  |  |  |
+| 14 |  |  |  |  |
+| 15 |  |  |  |  |
+| 16 |  |  |  |  |
+| 17 |  |  |  |  |
+| 18 |  |  |  |  |
+| 19 |  |  |  |  |
+| 20 |  |  |  |  |
+| 21 |  |  |  |  |
+

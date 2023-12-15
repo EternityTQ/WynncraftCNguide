@@ -16,7 +16,7 @@
 5.给魔法师*Wedyf* 1个Bob's Tear 和1个Rose`[160, 73, -1012]`
 
 :::tip
-Bob's Tear可由在Ragni刷新的 Bob the Zombie 掉落，掉率百分百且刷率极高，稍微逛一圈就能看见。
+Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分百且刷率极高，稍微逛一圈就能看见。
 :::
 
 6.和**Ternaves**附近的*Blacksmith*`[725, 61, -1468]`谈有关Bob's lost soul的事
