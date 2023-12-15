@@ -51,6 +51,120 @@
 <h2 id="_2023-冰雪节" tabindex="-1"><a class="header-anchor" href="#_2023-冰雪节" aria-hidden="true">#</a> 2023 - 冰雪节</h2>
 <h3 id="活动介绍" tabindex="-1"><a class="header-anchor" href="#活动介绍" aria-hidden="true">#</a> 活动介绍</h3>
 <h3 id="活动小游戏" tabindex="-1"><a class="header-anchor" href="#活动小游戏" aria-hidden="true">#</a> 活动小游戏</h3>
+<h3 id="活动任务-帮助失忆的旅行者找回记忆" tabindex="-1"><a class="header-anchor" href="#活动任务-帮助失忆的旅行者找回记忆" aria-hidden="true">#</a> 活动任务 - 帮助失忆的旅行者找回记忆！</h3>
+<p>在Detlas中心，出现了一位失忆的旅行者</p>
+<p>他向你请求帮助，希望你能帮他找回他失去的记忆</p>
+<figure><img src="/assets/img/festival1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>对话后，点击对应的记忆，即可看到该记忆所示的地点</p>
+<p>前往该地点，即可帮助旅行者找回记忆</p>
+<figure><img src="/assets/img/festival2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<table>
+<thead>
+<tr>
+<th>序号</th>
+<th>坐标</th>
+<th>地点名称</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code v-pre>[36 62 -1577]</code></td>
+<td>Wynn平原河流上的木桥</td>
+</tr>
+<tr>
+<td>2</td>
+<td><code v-pre>[-17 74 -1164]</code></td>
+<td>Elkurn</td>
+</tr>
+<tr>
+<td>3</td>
+<td><code v-pre>[1194 74 -1929]</code></td>
+<td>沙漠的最终秘密发现</td>
+</tr>
+<tr>
+<td>4</td>
+<td><code v-pre>[104 37 -2270]</code></td>
+<td>Nemract的码头</td>
+</tr>
+<tr>
+<td>5</td>
+<td><code v-pre>[904 86 -1301]</code></td>
+<td>废弃矿脉旁边的山洞</td>
+</tr>
+<tr>
+<td>6</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>15</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>16</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>17</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>18</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>19</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="活动任务-邀请npc来detlas参与盛典" tabindex="-1"><a class="header-anchor" href="#活动任务-邀请npc来detlas参与盛典" aria-hidden="true">#</a> 活动任务 - 邀请NPC来Detlas参与盛典！</h3>
 </div></template>
 
 

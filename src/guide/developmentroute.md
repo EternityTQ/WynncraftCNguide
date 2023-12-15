@@ -325,17 +325,6 @@ Ragni城里面就只有这些需要注意的NPC了！
 这可以让你随时随地方便地传送至某一个城镇整理物品！
 :::
 
-### 检查一下任务完成到哪了！
-
-- [ ] [Infested Plants (level 4)](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
-- [ ] [Mushroom Man (level 6)](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
-- [ ] [Taking the tower (level 8)](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
-- [ ] [Elemental Exercise ( level 11)](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
-- [ ] [Arachnids' Ascent ( level 14 )](/WynncraftCNguide/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html)
-
-以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...所以这个会放在后面！
-
-这里只是催促一下你完成任务<3
 
 ### 升级的好方法！
 
@@ -407,6 +396,8 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 这是非常非常非常实用的小技巧
 
+并且，在使用`/class`后，你的所有效果，包括正面和**负面效果**，都会被清除
+
 同时，每次`/class`都会使你的Y轴抬升1格
 
 如果你意外地被卡到了地里，且不希望自杀而且身上没有传送卷轴
@@ -415,7 +406,17 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 ### 继续升到18级吧！
 
+为了进入下一个地牢，不要忘记升级哦！
 
+- [ ] [Infested Plants (level 4)](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
+- [ ] [Mushroom Man (level 6)](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
+- [ ] [Taking the tower (level 8)](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
+- [ ] [Elemental Exercise ( level 11)](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
+- [ ] [Arachnids' Ascent ( level 14 )](/WynncraftCNguide/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html)
+
+以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...
+
+这里只是催促一下你完成任务<3
 
 ### 进入第二个地牢！
 
@@ -450,12 +451,16 @@ Nemract是Wynn省的码头，只有这里有出海的船只可以购买
 
 ### 进入时间圣所！
 
+### 如何锁定你的物品？
+
 ### 解锁超级刷怪点墓地！
 
 ### 收集一套冒险者套装！
 
 ### 赚钱秘方——海底捞
 
+
+>这里记得补充一下tol的道具
 ### 前往沙漠之城——Almuj
 
 ### 解锁Almuj的银行！
@@ -516,7 +521,36 @@ Gold Bars建议留着，后面会有任务要来Rymek用Gold Bars买东西
 
 ### 探寻Llevigar的建设
 
+### 女巫塔与大师杰作
+
 ### 解锁Tome系统！
+
+### 钢铁之心——指定经验神裤
+
+### 这个阶段如何赚钱？
+
+### 解锁Troms与猪人峡谷的通道
+
+### 是时候逛一下各个岛屿了！
+
+### 被衰变包围的村庄——Gelibord
+
+### 探寻主根与无头骑士的往事
+
+### 前往丛林深处！
+>这里记得补充一下tol的道具
+
+### 传奇神殿
+
+### 最终的考古集团！
+
+### The forgery
+
+### 不得不试的新时代微恐任务
+
+### 精灵村与飞艇事故
+
+### 来通天塔考验一下自己的实力吧！
 
 ### 未完待续
 

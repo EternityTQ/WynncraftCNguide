@@ -173,16 +173,6 @@
 <p>这一样是个好习惯！</p>
 <p>这可以让你随时随地方便地传送至某一个城镇整理物品！</p>
 </div>
-<h3 id="检查一下任务完成到哪了" tabindex="-1"><a class="header-anchor" href="#检查一下任务完成到哪了" aria-hidden="true">#</a> 检查一下任务完成到哪了！</h3>
-<ul class="task-list-container">
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> <RouterLink to="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html">Infested Plants (level 4)</RouterLink></label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> <RouterLink to="/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html">Mushroom Man (level 6)</RouterLink></label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> <RouterLink to="/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html">Taking the tower (level 8)</RouterLink></label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> <RouterLink to="/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html">Elemental Exercise ( level 11)</RouterLink></label></li>
-<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> <RouterLink to="/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html">Arachnids' Ascent ( level 14 )</RouterLink></label></li>
-</ul>
-<p>以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...所以这个会放在后面！</p>
-<p>这里只是催促一下你完成任务&lt;3</p>
 <h3 id="升级的好方法" tabindex="-1"><a class="header-anchor" href="#升级的好方法" aria-hidden="true">#</a> 升级的好方法！</h3>
 <p>你也许会感到等级跟不上任务了！</p>
 <p>那是肯定的嘛，毕竟一个游戏没理由说一路只做任务就可以升到满级<code v-pre>:(</code></p>
@@ -221,10 +211,21 @@
 <p>如果你发现你遇到BUG了，例如门开不了，怪物击杀不作数</p>
 <p>你就可以使用<code v-pre>/class</code>来重置地图</p>
 <p>这是非常非常非常实用的小技巧</p>
+<p>并且，在使用<code v-pre>/class</code>后，你的所有效果，包括正面和<strong>负面效果</strong>，都会被清除</p>
 <p>同时，每次<code v-pre>/class</code>都会使你的Y轴抬升1格</p>
 <p>如果你意外地被卡到了地里，且不希望自杀而且身上没有传送卷轴</p>
 <p>你就可以通过使用<code v-pre>/class</code>来慢慢提升自己的y轴来<s>出人头地</s></p>
 <h3 id="继续升到18级吧" tabindex="-1"><a class="header-anchor" href="#继续升到18级吧" aria-hidden="true">#</a> 继续升到18级吧！</h3>
+<p>为了进入下一个地牢，不要忘记升级哦！</p>
+<ul class="task-list-container">
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-0" disabled="disabled"><label class="task-list-item-label" for="task-item-0"> <RouterLink to="/quests/lvl1-10/level%204%20-%20Infested%20Plants.html">Infested Plants (level 4)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-1" disabled="disabled"><label class="task-list-item-label" for="task-item-1"> <RouterLink to="/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html">Mushroom Man (level 6)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-2" disabled="disabled"><label class="task-list-item-label" for="task-item-2"> <RouterLink to="/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html">Taking the tower (level 8)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-3" disabled="disabled"><label class="task-list-item-label" for="task-item-3"> <RouterLink to="/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html">Elemental Exercise ( level 11)</RouterLink></label></li>
+<li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" id="task-item-4" disabled="disabled"><label class="task-list-item-label" for="task-item-4"> <RouterLink to="/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html">Arachnids' Ascent ( level 14 )</RouterLink></label></li>
+</ul>
+<p>以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...</p>
+<p>这里只是催促一下你完成任务&lt;3</p>
 <h3 id="进入第二个地牢" tabindex="-1"><a class="header-anchor" href="#进入第二个地牢" aria-hidden="true">#</a> 进入第二个地牢！</h3>
 <h3 id="出发-前往码头——nemract" tabindex="-1"><a class="header-anchor" href="#出发-前往码头——nemract" aria-hidden="true">#</a> 出发！前往码头——Nemract</h3>
 <p>这里要补充一个点：传送卷轴只能前往你去过的城镇</p>
@@ -245,9 +246,13 @@
 <h3 id="解锁技能树洗点功能" tabindex="-1"><a class="header-anchor" href="#解锁技能树洗点功能" aria-hidden="true">#</a> 解锁技能树洗点功能</h3>
 <h3 id="去解决tempo镇的麻烦" tabindex="-1"><a class="header-anchor" href="#去解决tempo镇的麻烦" aria-hidden="true">#</a> 去解决Tempo镇的麻烦！</h3>
 <h3 id="进入时间圣所" tabindex="-1"><a class="header-anchor" href="#进入时间圣所" aria-hidden="true">#</a> 进入时间圣所！</h3>
+<h3 id="如何锁定你的物品" tabindex="-1"><a class="header-anchor" href="#如何锁定你的物品" aria-hidden="true">#</a> 如何锁定你的物品？</h3>
 <h3 id="解锁超级刷怪点墓地" tabindex="-1"><a class="header-anchor" href="#解锁超级刷怪点墓地" aria-hidden="true">#</a> 解锁超级刷怪点墓地！</h3>
 <h3 id="收集一套冒险者套装" tabindex="-1"><a class="header-anchor" href="#收集一套冒险者套装" aria-hidden="true">#</a> 收集一套冒险者套装！</h3>
 <h3 id="赚钱秘方——海底捞" tabindex="-1"><a class="header-anchor" href="#赚钱秘方——海底捞" aria-hidden="true">#</a> 赚钱秘方——海底捞</h3>
+<blockquote>
+<p>这里记得补充一下tol的道具</p>
+</blockquote>
 <h3 id="前往沙漠之城——almuj" tabindex="-1"><a class="header-anchor" href="#前往沙漠之城——almuj" aria-hidden="true">#</a> 前往沙漠之城——Almuj</h3>
 <h3 id="解锁almuj的银行" tabindex="-1"><a class="header-anchor" href="#解锁almuj的银行" aria-hidden="true">#</a> 解锁Almuj的银行！</h3>
 <h3 id="探秘沙海之国" tabindex="-1"><a class="header-anchor" href="#探秘沙海之国" aria-hidden="true">#</a> 探秘沙海之国！</h3>
@@ -280,7 +285,24 @@
 <p>不是我不想提前讲，而是我觉得Gavel省这地方40级去有点空 不知道讲啥.jpg</p>
 <p>那么这里就默认你55级左右到这里了！</p>
 <h3 id="探寻llevigar的建设" tabindex="-1"><a class="header-anchor" href="#探寻llevigar的建设" aria-hidden="true">#</a> 探寻Llevigar的建设</h3>
+<h3 id="女巫塔与大师杰作" tabindex="-1"><a class="header-anchor" href="#女巫塔与大师杰作" aria-hidden="true">#</a> 女巫塔与大师杰作</h3>
 <h3 id="解锁tome系统" tabindex="-1"><a class="header-anchor" href="#解锁tome系统" aria-hidden="true">#</a> 解锁Tome系统！</h3>
+<h3 id="钢铁之心——指定经验神裤" tabindex="-1"><a class="header-anchor" href="#钢铁之心——指定经验神裤" aria-hidden="true">#</a> 钢铁之心——指定经验神裤</h3>
+<h3 id="这个阶段如何赚钱" tabindex="-1"><a class="header-anchor" href="#这个阶段如何赚钱" aria-hidden="true">#</a> 这个阶段如何赚钱？</h3>
+<h3 id="解锁troms与猪人峡谷的通道" tabindex="-1"><a class="header-anchor" href="#解锁troms与猪人峡谷的通道" aria-hidden="true">#</a> 解锁Troms与猪人峡谷的通道</h3>
+<h3 id="是时候逛一下各个岛屿了" tabindex="-1"><a class="header-anchor" href="#是时候逛一下各个岛屿了" aria-hidden="true">#</a> 是时候逛一下各个岛屿了！</h3>
+<h3 id="被衰变包围的村庄——gelibord" tabindex="-1"><a class="header-anchor" href="#被衰变包围的村庄——gelibord" aria-hidden="true">#</a> 被衰变包围的村庄——Gelibord</h3>
+<h3 id="探寻主根与无头骑士的往事" tabindex="-1"><a class="header-anchor" href="#探寻主根与无头骑士的往事" aria-hidden="true">#</a> 探寻主根与无头骑士的往事</h3>
+<h3 id="前往丛林深处" tabindex="-1"><a class="header-anchor" href="#前往丛林深处" aria-hidden="true">#</a> 前往丛林深处！</h3>
+<blockquote>
+<p>这里记得补充一下tol的道具</p>
+</blockquote>
+<h3 id="传奇神殿" tabindex="-1"><a class="header-anchor" href="#传奇神殿" aria-hidden="true">#</a> 传奇神殿</h3>
+<h3 id="最终的考古集团" tabindex="-1"><a class="header-anchor" href="#最终的考古集团" aria-hidden="true">#</a> 最终的考古集团！</h3>
+<h3 id="the-forgery" tabindex="-1"><a class="header-anchor" href="#the-forgery" aria-hidden="true">#</a> The forgery</h3>
+<h3 id="不得不试的新时代微恐任务" tabindex="-1"><a class="header-anchor" href="#不得不试的新时代微恐任务" aria-hidden="true">#</a> 不得不试的新时代微恐任务</h3>
+<h3 id="精灵村与飞艇事故" tabindex="-1"><a class="header-anchor" href="#精灵村与飞艇事故" aria-hidden="true">#</a> 精灵村与飞艇事故</h3>
+<h3 id="来通天塔考验一下自己的实力吧" tabindex="-1"><a class="header-anchor" href="#来通天塔考验一下自己的实力吧" aria-hidden="true">#</a> 来通天塔考验一下自己的实力吧！</h3>
 <h3 id="未完待续" tabindex="-1"><a class="header-anchor" href="#未完待续" aria-hidden="true">#</a> 未完待续</h3>
 </div></template>
 
