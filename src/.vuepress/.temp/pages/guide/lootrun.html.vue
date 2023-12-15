@@ -459,7 +459,7 @@
 <p>Static为静态增益，该增益的层数在拿到瞬间就固定了</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>Static增益的数值会随着轮次逐渐提高数值</p>
+<p>Static增益<strong>在选择时</strong>的数值会随着轮次逐渐提高</p>
 </div>
 <p>增益的名称决定了该增益的最大层数/生效条件等</p>
 <p>而增益效果决定了该增益能够增幅哪条属性，其数值也和增益名称有关</p>
