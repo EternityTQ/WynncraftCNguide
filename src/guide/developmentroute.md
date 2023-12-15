@@ -434,11 +434,15 @@ Gold Bars建议留着，后面会有任务要来Rymek用Gold Bars买东西
 
 ### 如何使用Party Finder?
 
-### 前往Llevigar！
+### 新大陆——Gavel省
+
+### Llevigar——这片大陆的石英城起点
 
 不是我不想提前讲，而是我觉得Gavel省这地方40级去有点空 不知道讲啥.jpg
 
 那么这里就默认你55级左右到这里了！
+
+### 探寻Llevigar的建设
 
 ### 解锁Tome系统！
 

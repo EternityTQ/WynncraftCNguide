@@ -6,8 +6,11 @@
 <div class="hint-container tip">
 <p class="hint-container-title">这篇文章是什么？</p>
 <p>这篇文章会把读者当做一个刚刚加入服务器的新手</p>
-<p>笔者将会模拟一个带新手的过程，帮助读者渡过前中期</p>
+<p>笔者将会模拟一个带新手的过程，帮助读者渡过一周目</p>
 <p>包括讲述机制等基础内容</p>
+<p>同时，本文还会注重探索元素，即带领读者前往不同的地点来看风景！</p>
+<p>你不一定非要按照本文的顺序进行游戏</p>
+<p>但是本文每个小标题基本都是值得去注意或者值得做的事！</p>
 </div>
 <h2 id="前期-lvl-1-lvl-40" tabindex="-1"><a class="header-anchor" href="#前期-lvl-1-lvl-40" aria-hidden="true">#</a> 前期 lvl.1 ~ lvl.40</h2>
 <p>首先，关于新手教程，可以<RouterLink to="/quests/lvl1-10/level%201%20-%20King's%20Recruit.html">看看这里</RouterLink>，这篇文章将不会再过多赘述</p>
@@ -181,6 +184,7 @@
 <p>以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...所以这个会放在后面！</p>
 <p>这里只是催促一下你完成任务&lt;3</p>
 <h3 id="升级的好方法" tabindex="-1"><a class="header-anchor" href="#升级的好方法" aria-hidden="true">#</a> 升级的好方法！</h3>
+<h3 id="在安全地点挂机" tabindex="-1"><a class="header-anchor" href="#在安全地点挂机" aria-hidden="true">#</a> 在安全地点挂机</h3>
 <h3 id="获得你的第一只马匹" tabindex="-1"><a class="header-anchor" href="#获得你的第一只马匹" aria-hidden="true">#</a> 获得你的第一只马匹！</h3>
 <h3 id="继续升到18级吧" tabindex="-1"><a class="header-anchor" href="#继续升到18级吧" aria-hidden="true">#</a> 继续升到18级吧！</h3>
 <h3 id="进入第二个地牢" tabindex="-1"><a class="header-anchor" href="#进入第二个地牢" aria-hidden="true">#</a> 进入第二个地牢！</h3>
@@ -205,6 +209,7 @@
 <h3 id="进入时间圣所" tabindex="-1"><a class="header-anchor" href="#进入时间圣所" aria-hidden="true">#</a> 进入时间圣所！</h3>
 <h3 id="解锁超级刷怪点墓地" tabindex="-1"><a class="header-anchor" href="#解锁超级刷怪点墓地" aria-hidden="true">#</a> 解锁超级刷怪点墓地！</h3>
 <h3 id="收集一套冒险者套装" tabindex="-1"><a class="header-anchor" href="#收集一套冒险者套装" aria-hidden="true">#</a> 收集一套冒险者套装！</h3>
+<h3 id="赚钱秘方——海底捞" tabindex="-1"><a class="header-anchor" href="#赚钱秘方——海底捞" aria-hidden="true">#</a> 赚钱秘方——海底捞</h3>
 <h3 id="前往沙漠之城——almuj" tabindex="-1"><a class="header-anchor" href="#前往沙漠之城——almuj" aria-hidden="true">#</a> 前往沙漠之城——Almuj</h3>
 <h3 id="解锁almuj的银行" tabindex="-1"><a class="header-anchor" href="#解锁almuj的银行" aria-hidden="true">#</a> 解锁Almuj的银行！</h3>
 <h3 id="探秘沙海之国" tabindex="-1"><a class="header-anchor" href="#探秘沙海之国" aria-hidden="true">#</a> 探秘沙海之国！</h3>
@@ -215,7 +220,30 @@
 <p>最好留到68级的Temple of Legends，或者你现在就可以就地买一件<code v-pre>Old Touroto Hide</code>，后面不用再来跑一趟(等你省了这一趟你会回来谢谢我的)</p>
 </div>
 <h2 id="中期-lvl-41-lvl-85" tabindex="-1"><a class="header-anchor" href="#中期-lvl-41-lvl-85" aria-hidden="true">#</a> 中期 lvl.41 ~ lvl.85</h2>
+<p>当然，这里的中期是我个人定义的，具体怎么想看你自己了！</p>
+<p>从40级开始，你可以选择两条路线来探索</p>
+<p>——继续留在Wynn省，南下前往冰原</p>
+<p>——亦或前往码头Nemract，购买船票前往海的另一端——Llevigar</p>
+<p>除此之外，你还可以选择在海上拜访各个岛屿</p>
+<p>当然，这里是开放世界，具体想去哪个地方都看你自己！</p>
+<p>本文之后将会介绍比较重要的区域</p>
 <h3 id="探秘冰原——nesaak" tabindex="-1"><a class="header-anchor" href="#探秘冰原——nesaak" aria-hidden="true">#</a> 探秘冰原——Nesaak</h3>
+<h3 id="冰封之窟的秘密" tabindex="-1"><a class="header-anchor" href="#冰封之窟的秘密" aria-hidden="true">#</a> 冰封之窟的秘密</h3>
+<h3 id="最南边的村庄——lusuco" tabindex="-1"><a class="header-anchor" href="#最南边的村庄——lusuco" aria-hidden="true">#</a> 最南边的村庄——Lusuco</h3>
+<h3 id="bob失落的灵魂" tabindex="-1"><a class="header-anchor" href="#bob失落的灵魂" aria-hidden="true">#</a> Bob失落的灵魂</h3>
+<h3 id="nesaak河流末尾区域" tabindex="-1"><a class="header-anchor" href="#nesaak河流末尾区域" aria-hidden="true">#</a> Nesaak河流末尾区域</h3>
+<h3 id="前往丛林区域" tabindex="-1"><a class="header-anchor" href="#前往丛林区域" aria-hidden="true">#</a> 前往丛林区域</h3>
+<h3 id="林下废墟" tabindex="-1"><a class="header-anchor" href="#林下废墟" aria-hidden="true">#</a> 林下废墟</h3>
+<h3 id="boss-altar" tabindex="-1"><a class="header-anchor" href="#boss-altar" aria-hidden="true">#</a> Boss Altar</h3>
+<h3 id="超级刷怪点——herb-cave" tabindex="-1"><a class="header-anchor" href="#超级刷怪点——herb-cave" aria-hidden="true">#</a> 超级刷怪点——Herb Cave</h3>
+<h3 id="如何使用party-finder" tabindex="-1"><a class="header-anchor" href="#如何使用party-finder" aria-hidden="true">#</a> 如何使用Party Finder?</h3>
+<h3 id="新大陆——gavel省" tabindex="-1"><a class="header-anchor" href="#新大陆——gavel省" aria-hidden="true">#</a> 新大陆——Gavel省</h3>
+<h3 id="llevigar——这片大陆的石英城起点" tabindex="-1"><a class="header-anchor" href="#llevigar——这片大陆的石英城起点" aria-hidden="true">#</a> Llevigar——这片大陆的石英城起点</h3>
+<p>不是我不想提前讲，而是我觉得Gavel省这地方40级去有点空 不知道讲啥.jpg</p>
+<p>那么这里就默认你55级左右到这里了！</p>
+<h3 id="探寻llevigar的建设" tabindex="-1"><a class="header-anchor" href="#探寻llevigar的建设" aria-hidden="true">#</a> 探寻Llevigar的建设</h3>
+<h3 id="解锁tome系统" tabindex="-1"><a class="header-anchor" href="#解锁tome系统" aria-hidden="true">#</a> 解锁Tome系统！</h3>
+<h3 id="未完待续" tabindex="-1"><a class="header-anchor" href="#未完待续" aria-hidden="true">#</a> 未完待续</h3>
 </div></template>
 
 

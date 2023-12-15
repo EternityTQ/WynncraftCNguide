@@ -69,6 +69,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p><code v-pre>Silverbull Syndicate</code>等级为账号通用</p>
+<p>实际上，在达到Master等级后，你才算是能体验到完成的Lootrun内容</p>
 </div>
 <details class="hint-container details"><summary>升级追加内容一览</summary>
 <table>
@@ -241,8 +242,8 @@
 </div>
 <h3 id="计时器" tabindex="-1"><a class="header-anchor" href="#计时器" aria-hidden="true">#</a> 计时器</h3>
 <p>一旦计时器耗尽或者轮次数耗尽，你都会被立刻结算并且传送回Lootrun Camp</p>
-<p>当挑战开始时，都会获得1min或2min的时间，视地区而定</p>
-<p>当挑战成功后，都会获得2min的时间</p>
+<p>当挑战开始时，都会获得1min或2min的跑图补偿时间，视地区大小而定</p>
+<p>当挑战成功后，都会获得2min的挑战补偿时间</p>
 <p>若任何时候死亡或挑战失败，均会扣除1min的时间</p>
 <p>总时间上限为15分钟，除了绿信标以外，其他任何正常方式均无法使计时器超过15分钟</p>
 <p>在计时器超过15分钟时，进出挑战仅会获得1s的时间加成(以此来显示是否处于红信标的轮次)</p>
@@ -750,17 +751,20 @@
 <p>对于新手来说，强烈推荐练一个战士职业，起步成本非常低！</p>
 <h4 id="信标思路" tabindex="-1"><a class="header-anchor" href="#信标思路" aria-hidden="true">#</a> 信标思路</h4>
 <hr>
-<p>首先是最重要的事：蓝信标，或者说boon是你LR的核心所在<br>
-怪物的轮次增益非常恐怖，你如果拿不到足够的boon极其容易被滚雪球<br>
-(拿不到boon就打不过挑战、打不过挑战就拿不到boon)<br>
-因此你应当尽可能保证你的boon整体水平能超过怪物的属性</p>
-<p>然后是，橙信标是非常重要的资源，可以说没有橙信标你就没法继续游戏<br>
-你应当保证你的信标选数在合适的及格线以上，防止一直不发你需要的信标！</p>
-<p>接着对于紫信标和暗灰信标，如果你没有消诅咒的手段(任务)，那建议别拿！<br>
-诅咒如果不消去，会大幅提升难度，使得同样出现滚雪球的情况！</p>
-<p>红绿信标可以用来拖回合，最好搭配使用，以免出现超时的现象。</p>
-<p>灰信标会在下面提到</p>
-<p>对于彩虹信标：拿，见到就一定要拿</p>
+<p>这里将会根据优先级来介绍信标的抓位</p>
+<p>首先是<font color = FF66FF><strong>彩虹信标</strong></font>，看到就一定要拿，可以决定性的提升你本局游戏的收益</p>
+<p>一个特例是在任务较好但是已经到了最后一轮的情况下，这个时候你就要考虑拿红白信标续命而不是彩虹信标了！</p>
+<p>然后是<font color = "orange"><strong>橙色信标</strong></font>，橙色信标非常的重要，一旦你的信标选数保持在3选，你将可能一直得不到想要的信标</p>
+<p>因此，保持你的信标选数在5~6选非常关键！(再往上就没必要了！)</p>
+<font color = "blue"><b>蓝色信标</b></font>在你没有足够的增益时，一定要拿，确保你能渡过接下来的挑战<p><font color = "CCCCCC"> <b>白色信标</b> </font>机会只有一次，不要浪费，在拿到彩虹信标后，就最好一定要吃到青色+<font color = "CCCCCC"><b>白色信标</b></font>来大幅提升回合数了！</p>
+<p>注意千万别在彩虹前吃<font color = "CCCCCC"><b>白色信标</b></font>！很浪费！</p>
+<font color = 'grey'><b>灰色信标</b></font>最好和<font color = 00CCFF><b>青色信标</b></font>一起使用！无论彩虹前后，青色信标都能使灰色信标的选数达到最大<p><font color = "red"><b>红色信标</b></font>和<font color = 00BB00><b>绿色信标</b></font>最好搭配着拿，如果需要临时续命可以再拿！</p>
+<p><font color = "555555"><b>暗灰色信标</b></font>如果没有<font color='AA00AA'> <b>Equilibrium</b> </font>,则一定要在收尾的时候拿到，否则小心翻车！</p>
+<p><font color='AA00AA'> <b>紫色信标</b> </font>也是最好在收尾的阶段拿，除非有特定的任务组合可以让你无视或减小诅咒带来的风险</p>
+<p><font color='FFCC00'> <b>黄色信标</b> </font>能提升本轮的战利品数量，但是对整局游戏的运营没有帮助！</p>
+<p>如果你走投无路了，再来考虑<font color='FFCC00'> <b>黄色信标</b> </font>吧！</p>
+<p>但是有一个特例：在你获得<font color='FFCC00'> <strong>Cleansing Greed</strong> </font>的情况下，吃黄色信标能迅速降低你的诅咒数值！</p>
+<p>最后是<font color = 00CCFF><b>青色信标</b></font>，其效果非常特殊，目前在数量无限制的情况下，<strong>强烈建议</strong>在吃到彩虹后，如果有考虑吃除了蓝信标以外的情况，都最好搭配一个青一起使用来提高效率！</p>
 <h4 id="运营思路" tabindex="-1"><a class="header-anchor" href="#运营思路" aria-hidden="true">#</a> 运营思路</h4>
 <hr>
 <p>LR非常考验你的运营水平</p>
@@ -791,7 +795,14 @@
 <p>如果青刷在同一轮，且下一轮刷出绿、红，则你应当尽量保持信标选数，以防止信标规律被打乱(这是最佳情况)</p>
 </li>
 </ul>
-<p><strong>关于任务</strong></p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在没有<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>或者<font color='AA00AA'> <strong>Equilibrium</strong> </font>的情况下，都不建议跑到100轮</p>
+<p>实际上，没有这两个任务的局效率是非常低下的，不如重新开一把</p>
+<p>如果你同时拿到了这两个逆天任务，那就最好跑到100轮了，不跑吃大亏</p>
+</div>
+<h4 id="关于任务" tabindex="-1"><a class="header-anchor" href="#关于任务" aria-hidden="true">#</a> 关于任务</h4>
+<hr>
 <p>对于任务而言，介于任务的随机性，大多数情况是根据任务选玩法，而非根据玩法选任务</p>
 <p>但是任务如果选好了，能让你这趟长途跑的十分舒服(尽管还是坐牢)</p>
 <p>以下是关于每个任务的锐评，<strong>注意其具有编者极其强烈的主观色彩</strong>，仅供参考</p>
@@ -817,19 +828,19 @@
 </tr>
 <tr>
 <td><font color='5555FF'> <strong>Orphion's Grace</strong> </font></td>
-<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 如果你能保证一直不下线的话，其提供的额外增益数值能帮助你更好地完成挑战，有利于减小挑战风险</td>
+<td>废，千万别拿，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 如果你能保证一直不下线的话，其提供的额外增益数值能帮助你更好地完成挑战，有利于减小挑战风险</td>
 </tr>
 <tr>
 <td><font color='AA00AA'> <strong>Cleansing Ritual</strong> </font></td>
-<td>看到就拿！出率垫底的神任务，只要拿到了就能保证你这把一定能安安稳稳地走完100轮</td>
+<td><strong>看到就拿！</strong> 出率垫底的神任务，只要拿到了就能保证你这把一定能安安稳稳地走完100轮</td>
 </tr>
 <tr>
 <td><font color='AA00AA'> <strong>Equilibrium</strong> </font></td>
-<td>看到就拿！同样是出率垫底，只要拿到了就能直接删除蓝信标，让你无脑吃紫，非常的实用，甚至能直接吃掉暗灰信标！</td>
+<td><strong>看到就拿！</strong> 同样是出率垫底，只要拿到了就能直接删除蓝信标，让你无脑吃紫，非常的实用，甚至能直接吃掉暗灰信标！</td>
 </tr>
 <tr>
 <td><font color='AA00AA'> <strong>Inner Peace</strong> </font></td>
-<td><strong>废，千万别拿</strong>，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 但是如果你能保证一直不下线的话，其效果会使怪物抗性上限减半，其实也算是非常强力的效果</td>
+<td>废，千万别拿，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 但是如果你能保证一直不下线的话，其效果会使怪物抗性上限减半<br>(84%-&gt;42%)，其实也算是非常强力的效果</td>
 </tr>
 <tr>
 <td><font color='00BB00'> <strong>Backup Beat</strong> </font></td>
@@ -841,7 +852,7 @@
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Gambling Beast</strong> </font></td>
-<td><strong>废，千万别拿</strong>，目前<font color='FF5555'> <strong>Gambling Beast</strong> </font>被砍成了时间不足直接结束游戏，这意味着你只要拿到了这个任务就等于直接宣告游戏结束！<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化</td>
+<td>废，千万别拿，目前<font color='FF5555'> <strong>Gambling Beast</strong> </font>被砍成了时间不足直接结束游戏，这意味着你只要拿到了这个任务就等于直接宣告游戏结束！<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化</td>
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Redemption</strong> </font></td>
