@@ -47,7 +47,7 @@ The Festival of the Blizzard(冰雪节)
 
 如果你当前有银牛订阅状态，将额外赠送一个
 
-当你第一次完成Weekly Obj时，会额外赠送一个T2的饰品箱
+当你完成Weekly Obj时，会额外赠送一个T2的饰品箱
 
 同理，有银牛订阅会额外赠送一个
 

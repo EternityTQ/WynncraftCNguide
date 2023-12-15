@@ -35,7 +35,7 @@
 <h3 id="如何白嫖饰品箱" tabindex="-1"><a class="header-anchor" href="#如何白嫖饰品箱" aria-hidden="true">#</a> 如何白嫖饰品箱</h3>
 <p>在节日期间，每天第一次完成Daily Obj时，会额外赠送一个T1的饰品箱</p>
 <p>如果你当前有银牛订阅状态，将额外赠送一个</p>
-<p>当你第一次完成Weekly Obj时，会额外赠送一个T2的饰品箱</p>
+<p>当你完成Weekly Obj时，会额外赠送一个T2的饰品箱</p>
 <p>同理，有银牛订阅会额外赠送一个</p>
 <div class="hint-container tip">
 <p class="hint-container-title">如何把白嫖精神发挥到极致？</p>
