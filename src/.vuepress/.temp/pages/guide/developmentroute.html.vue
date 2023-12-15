@@ -184,8 +184,46 @@
 <p>以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...所以这个会放在后面！</p>
 <p>这里只是催促一下你完成任务&lt;3</p>
 <h3 id="升级的好方法" tabindex="-1"><a class="header-anchor" href="#升级的好方法" aria-hidden="true">#</a> 升级的好方法！</h3>
+<p>你也许会感到等级跟不上任务了！</p>
+<p>那是肯定的嘛，毕竟一个游戏没理由说一路只做任务就可以升到满级<code v-pre>:(</code></p>
+<p>这里推荐一个非常实用的升级方法：</p>
+<p>打开你的<code v-pre>Wynntils Map</code>:</p>
+<figure><img src="/assets/img/route11.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>如图上的经验标，一般都是推荐的刷怪点</p>
+<p>在此类的刷怪点刷怪能让你获取大量的经验！</p>
+<p>当然，风险也很大，经验刷怪点的怪物通常非常强力</p>
+<p>做好准备再来刷哦！</p>
+<p>或者你也可以号召你的亲朋好友一起来</p>
 <h3 id="在安全地点挂机" tabindex="-1"><a class="header-anchor" href="#在安全地点挂机" aria-hidden="true">#</a> 在安全地点挂机</h3>
+<p>请注意！如果你尝试在野外挂机，你是可能会有死亡风险的！</p>
+<p>当你死亡时，就有可能会导致装备掉落</p>
+<p>同时，如果你的重生点不安全，有可能会有怪物入侵的话</p>
+<p>然后此时你还在挂机...</p>
+<p>你就会被怪物蹲点，导致<strong>洗号</strong></p>
+<p>所以挂机的时候务必注意啦！</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>你也可以使用/class来挂机</p>
+<p>但是注意，如果你使用了<code v-pre>/toggle autojoin</code>，在服务器重启时你仍会自动进入游戏</p>
+<p>当然，最佳的解决方案就是在大城市挂机，这样应该是不会有洗号风险的！</p>
+</div>
 <h3 id="获得你的第一只马匹" tabindex="-1"><a class="header-anchor" href="#获得你的第一只马匹" aria-hidden="true">#</a> 获得你的第一只马匹！</h3>
+<p>当你到达13级时，你就要注意啦！</p>
+<p>你要停下手中的一切工作，去完成<RouterLink to="/quests/lvl11-20/level%2013%20-%20Stable%20Story.html">Stable Story (level 13)</RouterLink>任务！</p>
+<p>该任务做完之后，会解锁马匹系统，并同时赠送给你一只棕马</p>
+<p>马匹能帮助你赶路，使用马匹赶路不会使疾跑条减少</p>
+<p>拥有一只马匹能大幅提高你的跑图效率！</p>
+<h3 id="学会使用-class" tabindex="-1"><a class="header-anchor" href="#学会使用-class" aria-hidden="true">#</a> 学会使用/class</h3>
+<p>众所周知，<code v-pre>/class</code>指令的作用是更改你的职业</p>
+<p>但是其作用不止于此！</p>
+<p>前文提到过，<code v-pre>/class</code>能让你安全挂机</p>
+<p>但是<code v-pre>/class</code>最大的作用，是重置你当前位置附近的地图</p>
+<p>如果你发现你遇到BUG了，例如门开不了，怪物击杀不作数</p>
+<p>你就可以使用<code v-pre>/class</code>来重置地图</p>
+<p>这是非常非常非常实用的小技巧</p>
+<p>同时，每次<code v-pre>/class</code>都会使你的Y轴抬升1格</p>
+<p>如果你意外地被卡到了地里，且不希望自杀而且身上没有传送卷轴</p>
+<p>你就可以通过使用<code v-pre>/class</code>来慢慢提升自己的y轴来<s>出人头地</s></p>
 <h3 id="继续升到18级吧" tabindex="-1"><a class="header-anchor" href="#继续升到18级吧" aria-hidden="true">#</a> 继续升到18级吧！</h3>
 <h3 id="进入第二个地牢" tabindex="-1"><a class="header-anchor" href="#进入第二个地牢" aria-hidden="true">#</a> 进入第二个地牢！</h3>
 <h3 id="出发-前往码头——nemract" tabindex="-1"><a class="header-anchor" href="#出发-前往码头——nemract" aria-hidden="true">#</a> 出发！前往码头——Nemract</h3>
