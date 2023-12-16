@@ -262,20 +262,20 @@
 <tr>
 <td>13</td>
 <td><RouterLink to="/quests/lvl81-90/level%2083%20-%20A%20Maradurs%20Due.html"><font color=00AA00><strong>Norsten</strong></font></RouterLink></td>
-<td>[437,77,-5056]</td>
+<td><code v-pre>[437,77,-5056]</code></td>
 <td>注：此条为猜测</td>
 </tr>
 <tr>
 <td>14</td>
-<td></td>
-<td></td>
-<td></td>
+<td><RouterLink to="/quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html"><font color=00AA00><strong>Alem</strong></font></RouterLink></td>
+<td><code v-pre>[158 79 -373]</code></td>
+<td>注：此条为猜测</td>
 </tr>
 <tr>
 <td>15</td>
-<td></td>
-<td></td>
-<td></td>
+<td><RouterLink to="/quests/lvl51-60/level%2052%20-%20Jungle%20Fever.html"><font color=00AA00><strong>worid</strong></font></RouterLink></td>
+<td><code v-pre>[-740 80 -662]</code></td>
+<td>注：此条为猜测</td>
 </tr>
 <tr>
 <td>16</td>
