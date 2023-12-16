@@ -94,8 +94,8 @@
 </tr>
 <tr>
 <td>6</td>
-<td></td>
-<td></td>
+<td><code v-pre>[1296 31 -1331]</code></td>
+<td>Rymek</td>
 </tr>
 <tr>
 <td>7</td>
@@ -169,27 +169,33 @@
 <p>你每邀请一个NPC，等到他们抵达Detlas后，就可以获得一份礼物</p>
 <p>你每帮助旅行者找回一个记忆，他就会给你一个邀请函</p>
 <p>每一个邀请函可以邀请一个NPC</p>
-<p>NPC一般都是任务NPC</p>
-<p>直接找到对应的NPC对话即可</p>
+<p><strong>NPC一般都是任务NPC，你必须要做完对应的前置任务才可以邀请</strong></p>
+<p>在下文中，如果出现可以点击的NPC名字，则代表这个NPC有对应的前置</p>
+<p>直接找到对应的NPC对话即可，可能要连续对话几次</p>
+<p>有些NPC需要做完他给的小任务才可以邀请！</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在抵达Detlas后，你还需要在城内找到对应的NPC再次对话数次，才能收到礼物</p>
+</div>
 <table>
 <thead>
 <tr>
 <th>序号</th>
 <th>NPC名称</th>
 <th>坐标</th>
-<th>备注</th>
+<th>小任务</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td><font color=00AA00><strong>Therck</strong></font></td>
+<td><RouterLink to="/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html"><font color=00AA00><strong>Therck</strong></font> </RouterLink></td>
 <td><code v-pre>[-535 69 -1588]</code></td>
 <td>对话完后，回<strong>Ragni</strong><br>找<font color=00AA00><strong>Enzan</strong></font><code v-pre>[-771 67 -1573]</code>对话<br> 然后再回去</td>
 </tr>
 <tr>
 <td>2</td>
-<td><font color=00AA00><strong>Drucksh</strong></font></td>
+<td><RouterLink to="/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html"><font color=00AA00><strong>Drucksh</strong></font></RouterLink></td>
 <td><code v-pre>[71 40 -2178]</code></td>
 <td>对话完后，先回<strong>Detlas</strong><br>找到<font color=00AA00><strong>Sayleros</strong></font><code v-pre>[476, 69, -1624]</code>对话<br>再回去找他</td>
 </tr>
@@ -201,21 +207,21 @@
 </tr>
 <tr>
 <td>4</td>
-<td><font color=00AA00><strong>Dr. Picard</strong></font></td>
+<td><RouterLink to="/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html"><font color=00AA00><strong>Dr. Picard</strong></font></RouterLink></td>
 <td><code v-pre>[103 90 -1200]</code></td>
 <td></td>
 </tr>
 <tr>
 <td>5</td>
-<td><font color=00AA00><strong>Asher</strong></font></td>
+<td><RouterLink to="/quests/lvl21-30/level%2027%20-%20D%C3%A9j%C3%A0%20vu.html"><font color=00AA00><strong>Asher</strong></font></RouterLink></td>
 <td><code v-pre>[-449 72 -1153]</code></td>
 <td>去<code v-pre>[-499 83 -1154]</code><br> 击杀一只Time Trouble</td>
 </tr>
 <tr>
 <td>6</td>
-<td></td>
-<td></td>
-<td></td>
+<td><RouterLink to="/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html"><font color=00AA00><strong>General Graken</strong></font></RouterLink></td>
+<td><code v-pre>[227 45 -1958]</code></td>
+<td>通关一次Underworld Crypt</td>
 </tr>
 <tr>
 <td>7</td>

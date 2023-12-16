@@ -116,9 +116,13 @@ The Festival of the Blizzard(冰雪节)
 
 每一个邀请函可以邀请一个NPC
 
-NPC一般都是任务NPC
+**NPC一般都是任务NPC，你必须要做完对应的前置任务才可以邀请**
+
+在下文中，如果出现可以点击的NPC名字，则代表这个NPC有对应的前置
 
 直接找到对应的NPC对话即可，可能要连续对话几次
+
+有些NPC需要做完他给的小任务才可以邀请！
 
 :::tip
 在抵达Detlas后，你还需要在城内找到对应的NPC再次对话数次，才能收到礼物
@@ -126,12 +130,12 @@ NPC一般都是任务NPC
 
 | 序号 | NPC名称 | 坐标  | 小任务 |
 | --- | --- | ---  | --- |
-| 1 | <font color=00AA00>**Therck**</font> | `[-535 69 -1588]` | 对话完后，回**Ragni**<br>找<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话<br> 然后再回去  |
-| 2 | <font color=00AA00>**Drucksh**</font> | `[71 40 -2178]` | 对话完后，先回**Detlas**<br>找到<font color=00AA00>**Sayleros**</font>`[476, 69, -1624]`对话<br>再回去找他 |
+| 1 | [<font color=00AA00>**Therck**</font> ](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)| `[-535 69 -1588]` | 对话完后，回**Ragni**<br>找<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话<br> 然后再回去  |
+| 2 | [<font color=00AA00>**Drucksh**</font>](/WynncraftCNguide/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html) | `[71 40 -2178]` | 对话完后，先回**Detlas**<br>找到<font color=00AA00>**Sayleros**</font>`[476, 69, -1624]`对话<br>再回去找他 |
 | 3 | <font color=CCCCCC>**Seaskipper Captain**</font>  | `[182 35 -2274]` | 去药店买瓶`Potion of Drunkness`给他 |
-| 4 | <font color=00AA00>**Dr. Picard**</font> | `[103 90 -1200]` |  |
-| 5 | <font color=00AA00>**Asher**</font> | `[-449 72 -1153]` | 去`[-499 83 -1154]`<br> 击杀一只Time Trouble |
-| 6 | <font color=00AA00>**General Graken**</font> | `[227 45 -1958]` | 通关一次Underworld Crypt |
+| 4 | [<font color=00AA00>**Dr. Picard**</font>](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html) | `[103 90 -1200]` |  |
+| 5 | [<font color=00AA00>**Asher**</font>](/WynncraftCNguide/quests/lvl21-30/level%2027%20-%20Déjà%20vu.html) | `[-449 72 -1153]` | 去`[-499 83 -1154]`<br> 击杀一只Time Trouble |
+| 6 | [<font color=00AA00>**General Graken**</font>](/WynncraftCNguide/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html) | `[227 45 -1958]` | 通关一次Underworld Crypt |
 | 7 |  |  |  |
 | 8 |  |  |  |
 | 9 |  |  |  |
