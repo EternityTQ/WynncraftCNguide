@@ -133,16 +133,16 @@ The Festival of the Blizzard(冰雪节)
 | 1 | [<font color=00AA00>**Therck**</font> ](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)| `[-535 69 -1588]` | 对话完后，回**Ragni**<br>找<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话<br> 然后再回去  |
 | 2 | [<font color=00AA00>**Drucksh**</font>](/WynncraftCNguide/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html) | `[71 40 -2178]` | 对话完后，先回**Detlas**<br>找到<font color=00AA00>**Sayleros**</font>`[476, 69, -1624]`对话<br>再回去找他 |
 | 3 | <font color=CCCCCC>**Seaskipper Captain**</font>  | `[182 35 -2274]` | 去药店买瓶`Potion of Drunkness`给他 |
-| 4 | [<font color=00AA00>**Dr. Picard**</font>](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html) | `[103 90 -1200]` |  |
+| 4 | [<font color=00AA00>**Dr. Picard**</font>](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html) | `[103 90 -1200]` | 无 |
 | 5 | [<font color=00AA00>**Asher**</font>](/WynncraftCNguide/quests/lvl21-30/level%2027%20-%20Déjà%20vu.html) | `[-449 72 -1153]` | 去`[-499 83 -1154]`<br> 击杀一只Time Trouble |
 | 6 | [<font color=00AA00>**General Graken**</font>](/WynncraftCNguide/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html) | `[227 45 -1958]` | 通关一次Underworld Crypt |
 | 7 |  |  |  |
-| 8 |  |  |  |
-| 9 |  |  |  |
-| 10 |  |  |  |
-| 11 |  |  |  |
-| 12 |  |  |  |
-| 13 |  |  |  |
+| 8 | [<font color=00AA00>**Barman**</font>](/WynncraftCNguide/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html) | `[114 40 -2176]` | 注：此条为猜测 |
+| 9 | [<font color=00AA00>**Ope**</font>](/WynncraftCNguide/quests/lvl11-20/level%2016%20-%20Supply%20and%20Delivery.html) | `[-315 72 -1476]` | 无 |
+| 10 | [<font color=00AA00>**Nohno**</font>](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html) | `[-83 45 -2497]` |  |
+| 11 | [<font color=00AA00>**Caissop**</font>](/WynncraftCNguide/quests/lvl51-60/level%2053%20-%20Master%20Piece.html) | `[-1802, 55, -5190]` | 待更新 |
+| 12 | [<font color=00AA00>**Doan**</font>](/WynncraftCNguide/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html) |  | 注：此条为猜测 |
+| 13 | [<font color=00AA00>**Norsten**</font>](/WynncraftCNguide/quests/lvl81-90/level%2083%20-%20A%20Maradurs%20Due.html) | [437,77,-5056] | 注：此条为猜测 |
 | 14 |  |  |  |
 | 15 |  |  |  |
 | 16 |  |  |  |
