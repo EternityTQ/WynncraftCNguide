@@ -136,8 +136,8 @@ The Festival of the Blizzard(冰雪节)
 | 4 | [<font color=00AA00>**Dr. Picard**</font>](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html) | `[103 90 -1200]` | 无 |
 | 5 | [<font color=00AA00>**Asher**</font>](/WynncraftCNguide/quests/lvl21-30/level%2027%20-%20Déjà%20vu.html) | `[-449 72 -1153]` | 去`[-499 83 -1154]`<br> 击杀一只Time Trouble |
 | 6 | [<font color=00AA00>**General Graken**</font>](/WynncraftCNguide/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html) | `[227 45 -1958]` | 通关一次Underworld Crypt |
-| 7 | <font color=CCCCCC>**Junes**</font> | `[876 67 -1932]` | 去`[1100 67 -1906]`的洞口击杀小怪，拿到8个`Terracotta Chunk`给他 |
-| 8 | [<font color=00AA00>**Barman**</font>](/WynncraftCNguide/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html) | `[114 40 -2176]` | 注：此条为猜测 |
+| 7 | <font color=00AA00>**Junes**</font> | `[876 67 -1932]` | 去`[1100 67 -1906]`的洞口击杀小怪，拿到8个`Terracotta Chunk`给他(0星材料，概率蛮低) |
+| 8 | [<font color=00AA00>**Honip**</font>](/WynncraftCNguide/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html) | `[119 40 -2175]` | 无 |
 | 9 | [<font color=00AA00>**Ope**</font>](/WynncraftCNguide/quests/lvl11-20/level%2016%20-%20Supply%20and%20Delivery.html) | `[-315 72 -1476]` | 无 |
 | 10 | [<font color=00AA00>**Nohno**</font>](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html) | `[-83 45 -2497]` |  |
 | 11 | [<font color=00AA00>**Caissop**</font>](/WynncraftCNguide/quests/lvl51-60/level%2053%20-%20Master%20Piece.html) | `[-1802, 55, -5190]` | 待更新 |
