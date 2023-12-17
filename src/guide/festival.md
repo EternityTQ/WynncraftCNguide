@@ -84,6 +84,8 @@ The Festival of the Blizzard(冰雪节)
 
 ![](/assets/img/festival2.jpg)
 
+找到记忆之后，右键烟雾即可
+
 | 序号 | 坐标 | 地点名称 |
 | --- | --- | --- |
 | 1 | `[36 62 -1577]` | Wynn平原河流上的木桥 |
