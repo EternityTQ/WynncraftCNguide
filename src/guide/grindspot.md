@@ -96,14 +96,6 @@ Grind Spot的怪物强度往往高于其他怪物
 
 这个刷怪点可以刷很久很久(大概)
 
-## lv.35~lv.45
-
-![](/assets/img/grindspot5.jpg)
-
-这个点..说实话，一般，比较冷
-
-但是笔者确实在这个点刷过，感觉还行
-
 ## lv.40~lv.55
 
 ![](/assets/img/grindspot6.jpg)

@@ -50,10 +50,6 @@
 <p>但是胜在地点小数量大，可以进去摸一圈怪然后马上出来</p>
 <p>等怪刷新了一波之后再进去打</p>
 <p>这个刷怪点可以刷很久很久(大概)</p>
-<h2 id="lv-35-lv-45" tabindex="-1"><a class="header-anchor" href="#lv-35-lv-45" aria-hidden="true">#</a> lv.35~lv.45</h2>
-<figure><img src="/assets/img/grindspot5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>这个点..说实话，一般，比较冷</p>
-<p>但是笔者确实在这个点刷过，感觉还行</p>
 <h2 id="lv-40-lv-55" tabindex="-1"><a class="header-anchor" href="#lv-40-lv-55" aria-hidden="true">#</a> lv.40~lv.55</h2>
 <figure><img src="/assets/img/grindspot6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>开始危险了！从这里开始已经完全不建议单刷了！</p>
