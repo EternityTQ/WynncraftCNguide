@@ -58,6 +58,7 @@
 <p>对话后，点击对应的记忆，即可看到该记忆所示的地点</p>
 <p>前往该地点，即可帮助旅行者找回记忆</p>
 <figure><img src="/assets/img/festival2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>找到记忆之后，右键烟雾即可</p>
 <table>
 <thead>
 <tr>
@@ -99,8 +100,8 @@
 </tr>
 <tr>
 <td>7</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-111 71 -812]</code></td>
+<td>Nesaak西边的废墟</td>
 </tr>
 <tr>
 <td>8</td>
@@ -225,15 +226,15 @@
 </tr>
 <tr>
 <td>7</td>
-<td></td>
-<td></td>
-<td></td>
+<td><font color=00AA00><strong>Junes</strong></font></td>
+<td><code v-pre>[876 67 -1932]</code></td>
+<td>去<code v-pre>[1100 67 -1906]</code>的洞口击杀小怪，拿到8个<code v-pre>Terracotta Chunk</code>给他(0星材料，概率蛮低)</td>
 </tr>
 <tr>
 <td>8</td>
-<td><RouterLink to="/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html"><font color=00AA00><strong>Barman</strong></font></RouterLink></td>
-<td><code v-pre>[114 40 -2176]</code></td>
-<td>注：此条为猜测</td>
+<td><RouterLink to="/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html"><font color=00AA00><strong>Honip</strong></font></RouterLink></td>
+<td><code v-pre>[119 40 -2175]</code></td>
+<td>无</td>
 </tr>
 <tr>
 <td>9</td>
