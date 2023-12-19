@@ -11,6 +11,14 @@ icon: route
 
 
 1.带上前置任务中获得的`Gavelian Passport`和*Airship Clerk*对话`[-172 108 -4946]`，然后登上飞艇
+:::tip
+如果你的`Gavelian Passport`丢失了
+
+你可以走进前置任务中的护照办理馆`[-256 57 -4983]`
+
+会自动重新获取护照
+:::
+
 
 2.前往最顶层舰桥与*Captain Ackbar*对话
 
