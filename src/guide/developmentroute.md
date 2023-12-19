@@ -134,6 +134,8 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 关于秘密发现，可以看[这一章](/WynncraftCNguide/guide/basesystem/secretdiscovery.html)
 
+### 注意魔力槽！
+
 ### 从战利品箱搜刮装备！
 
 在野外，随处可见如下图所示的战利品箱
