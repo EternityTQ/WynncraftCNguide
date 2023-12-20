@@ -1,4 +1,4 @@
-![image](https://github.com/EternityTQ/WynncraftCNguide/assets/59638717/9dc500a1-7b84-41ef-8f77-bb20b03cfc3e)---
+---
 title: tome系统
 icon: book-open
 ---
