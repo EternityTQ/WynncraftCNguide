@@ -97,7 +97,7 @@ The Festival of the Blizzard(冰雪节)
 | 7 | `[-111 71 -812]` | Nesaak西边的废墟 |
 | 8 | `[-456 72 -1224]` | Time Valley |
 | 9 | `[-522 39 -2746]` | Zhight Island |
-| 10 | | |
+| 10 | `[-821 76 -920]` | Troms |
 | 11 | | |
 | 12 | | |
 | 13 | | |
