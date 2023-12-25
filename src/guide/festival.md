@@ -98,11 +98,11 @@ The Festival of the Blizzard(冰雪节)
 | 8 | `[-456 72 -1224]` | Time Valley |
 | 9 | `[-522 39 -2746]` | Zhight Island |
 | 10 | `[-821 76 -920]` | Troms |
-| 11 | | |
-| 12 | | |
-| 13 | | |
-| 14 | | |
-| 15 | | |
+| 11 | `[-566 36 -3393]` | GG副本门口 |
+| 12 | `[-101 98 -419]` | Lusuco附近 |
+| 13 | `[-1739 57 -4500]` | Karoc Quarry附近 |
+| 14 | `[-838 33 -472]` | Dernel Jungle内的祭坛 |
+| 15 | `[-1472 42 -4726]` | Bucie西边 |
 | 16 | | |
 | 17 | | |
 | 18 | | |
@@ -148,9 +148,9 @@ The Festival of the Blizzard(冰雪节)
 | 14 | [<font color=00AA00>**Alem**</font>](/WynncraftCNguide/quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html) | `[158 79 -373]` | 注：此条为猜测 |
 | 15 | [<font color=00AA00>**worid**</font>](/WynncraftCNguide/quests/lvl51-60/level%2052%20-%20Jungle%20Fever.html) | `[-740 80 -662]` | 注：此条为猜测 |
 | 16 | [<font color=00AA00>**Yansur**</font>](/WynncraftCNguide/quests/lvl71-80/level%2080%20-%20The%20Qira%20Hive.html) | `[372 64 -5500]` | 注：此条为猜测 |
-| 17 | [<font color=00AA00>**Chef Hamsey**</font>](/WynncraftCNguide/quests/lvl91-100/level%2096%20-%20Recipe%20for%20Disaster.html) | `[949 129 -4475]` | 注：此条为猜测 |
-| 18 | [<font color=00AA00>**Pislo**</font>](/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html) | `[-205,42,-4308]` | 注：此条为猜测 |
-| 19 | [<font color=00AA00>**Ragni King**</font>](/WynncraftCNguide/quests/lvl61-70/level%2070%20-%20WynnExcavation%20Site%20D.html) | `[-2950 7 -1969]` | 注：此条为猜测 |
+| 17 | [<font color=00AA00>**Chef Hamsey**</font>](/WynncraftCNguide/quests/lvl91-100/level%2096%20-%20Recipe%20for%20Disaster.html) | `[949 129 -4475]` |  无 |
+| 18 | [<font color=00AA00>**Pislo**</font>](/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html) | `[-205,42,-4308]` | 去找<font color=00AA00>**Airbase Attendant**</font>，然后再回来对话 |
+| 19 | [<font color=00AA00>**Ragni King**</font>](/WynncraftCNguide/quests/lvl61-70/level%2070%20-%20WynnExcavation%20Site%20D.html) | `[-2950 7 -1969]` | 无 |
 | 20 | [<font color=00AA00>**Maxie**</font>](/WynncraftCNguide/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html) |  |  |
 | 21 |  |  |  |
 
