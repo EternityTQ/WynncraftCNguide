@@ -128,6 +128,8 @@ The Festival of the Blizzard(冰雪节)
 
 :::tip
 在抵达Detlas后，你还需要在城内找到对应的NPC再次对话数次，才能收到礼物
+
+你可以直接在任务板上点击**已邀请**的NPC，来追踪他们**在城内**的位置
 :::
 
 | 序号 | NPC名称 | 坐标  | 小任务 |
@@ -141,15 +143,15 @@ The Festival of the Blizzard(冰雪节)
 | 7 | <font color=00AA00>**Junes**</font> | `[876 67 -1932]` | 去`[1100 67 -1906]`的洞口击杀小怪，拿到8个`Terracotta Chunk`给他(0星材料，概率蛮低) |
 | 8 | [<font color=00AA00>**Honip**</font>](/WynncraftCNguide/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html) | `[119 40 -2175]` | 无 |
 | 9 | [<font color=00AA00>**Ope**</font>](/WynncraftCNguide/quests/lvl11-20/level%2016%20-%20Supply%20and%20Delivery.html) | `[-315 72 -1476]` | 无 |
-| 10 | [<font color=00AA00>**Nohno**</font>](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html) | `[-83 45 -2497]` |  |
+| 10 | [<font color=00AA00>**Nohno**</font>](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html) | `[-83 45 -2497]` | 在周围的鸡打4个鸡蛋给他  |
 | 11 | [<font color=00AA00>**Caissop**</font>](/WynncraftCNguide/quests/lvl51-60/level%2053%20-%20Master%20Piece.html) | `[-1802, 55, -5190]` | 无 |
 | 12 | [<font color=00AA00>**Doan**</font>](/WynncraftCNguide/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html) | `[-213 105 -4941]` | 去`[-252 58 -4955]`的商店买个`Letvus Delight`给他 |
-| 13 | [<font color=00AA00>**Norsten**</font>](/WynncraftCNguide/quests/lvl81-90/level%2083%20-%20A%20Maradurs%20Due.html) | `[437,77,-5056]` | 注：此条为猜测 |
+| 13 | [<font color=00AA00>**Kelight**</font>](/WynncraftCNguide/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html) | `[-693 63 -976]` | 注：此条为猜测 |
 | 14 | [<font color=00AA00>**Alem**</font>](/WynncraftCNguide/quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html) | `[158 79 -373]` | 注：此条为猜测 |
 | 15 | [<font color=00AA00>**worid**</font>](/WynncraftCNguide/quests/lvl51-60/level%2052%20-%20Jungle%20Fever.html) | `[-740 80 -662]` | 注：此条为猜测 |
 | 16 | [<font color=00AA00>**Yansur**</font>](/WynncraftCNguide/quests/lvl71-80/level%2080%20-%20The%20Qira%20Hive.html) | `[372 64 -5500]` | 注：此条为猜测 |
 | 17 | [<font color=00AA00>**Chef Hamsey**</font>](/WynncraftCNguide/quests/lvl91-100/level%2096%20-%20Recipe%20for%20Disaster.html) | `[949 129 -4475]` |  无 |
-| 18 | [<font color=00AA00>**Pislo**</font>](/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html) | `[-205,42,-4308]` | 去找<font color=00AA00>**Airbase Attendant**</font>，然后再回来对话 |
+| 18 | [<font color=00AA00>**Pislo**</font>](/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html) | `[-205,42,-4308]` | 去找<font color=00AA00>**Airbase Attendant**</font>`[260 57 -4976]`，然后再回来对话 |
 | 19 | [<font color=00AA00>**Ragni King**</font>](/WynncraftCNguide/quests/lvl61-70/level%2070%20-%20WynnExcavation%20Site%20D.html) | `[-2950 7 -1969]` | 无 |
 | 20 | [<font color=00AA00>**Maxie**</font>](/WynncraftCNguide/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html) |  |  |
 | 21 |  |  |  |

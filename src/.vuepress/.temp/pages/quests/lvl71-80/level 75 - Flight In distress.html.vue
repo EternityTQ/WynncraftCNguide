@@ -6,6 +6,12 @@
 </div>
 <p>前置任务:<RouterLink to="/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html">Acquiring Credentials</RouterLink></p>
 <p>1.带上前置任务中获得的<code v-pre>Gavelian Passport</code>和<em>Airship Clerk</em>对话<code v-pre>[-172 108 -4946]</code>，然后登上飞艇</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如果你的<code v-pre>Gavelian Passport</code>丢失了</p>
+<p>你可以走进前置任务中的护照办理馆<code v-pre>[-256 57 -4983]</code></p>
+<p>会自动重新获取护照</p>
+</div>
 <p>2.前往最顶层舰桥与<em>Captain Ackbar</em>对话</p>
 <p>3.回到一层，从飞艇往外走，沿着北边一路找到失踪的小孩</p>
 <p>4.回去顶楼和<em>Captain Ackbar</em>报告</p>

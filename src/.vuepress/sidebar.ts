@@ -105,7 +105,13 @@ export default sidebar({
         icon: "scroll",
         collapsible: true,
         children:"structure",
-      },"beforegame","class","developmentroute","npcs","skillpoint","identification","dungeon","profession","lootrun","raid","grindspot","earnle","VIP","festival","wynntils","outsidegame","qa","support"],
+      },{
+        text: "进阶系统",
+        prefix: "advancesystem/",
+        icon: "scroll",
+        collapsible: true,
+        children:"structure",
+      },"beforegame","class","developmentroute","npcs","dungeon","profession","lootrun","raid","grindspot","earnle","VIP","festival","wynntils","outsidegame","qa","support"],
     },
 ],
 });

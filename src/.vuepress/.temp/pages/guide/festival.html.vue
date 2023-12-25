@@ -105,43 +105,43 @@
 </tr>
 <tr>
 <td>8</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-456 72 -1224]</code></td>
+<td>Time Valley</td>
 </tr>
 <tr>
 <td>9</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-522 39 -2746]</code></td>
+<td>Zhight Island</td>
 </tr>
 <tr>
 <td>10</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-821 76 -920]</code></td>
+<td>Troms</td>
 </tr>
 <tr>
 <td>11</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-566 36 -3393]</code></td>
+<td>GG副本门口</td>
 </tr>
 <tr>
 <td>12</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-101 98 -419]</code></td>
+<td>Lusuco附近</td>
 </tr>
 <tr>
 <td>13</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-1739 57 -4500]</code></td>
+<td>Karoc Quarry附近</td>
 </tr>
 <tr>
 <td>14</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-838 33 -472]</code></td>
+<td>Dernel Jungle内的祭坛</td>
 </tr>
 <tr>
 <td>15</td>
-<td></td>
-<td></td>
+<td><code v-pre>[-1472 42 -4726]</code></td>
+<td>Bucie西边</td>
 </tr>
 <tr>
 <td>16</td>
@@ -177,6 +177,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>在抵达Detlas后，你还需要在城内找到对应的NPC再次对话数次，才能收到礼物</p>
+<p>你可以直接在任务板上点击<strong>已邀请</strong>的NPC，来追踪他们<strong>在城内</strong>的位置</p>
 </div>
 <table>
 <thead>
@@ -246,24 +247,24 @@
 <td>10</td>
 <td><RouterLink to="/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html"><font color=00AA00><strong>Nohno</strong></font></RouterLink></td>
 <td><code v-pre>[-83 45 -2497]</code></td>
-<td></td>
+<td>在周围的鸡打4个鸡蛋给他</td>
 </tr>
 <tr>
 <td>11</td>
 <td><RouterLink to="/quests/lvl51-60/level%2053%20-%20Master%20Piece.html"><font color=00AA00><strong>Caissop</strong></font></RouterLink></td>
 <td><code v-pre>[-1802, 55, -5190]</code></td>
-<td>待更新</td>
+<td>无</td>
 </tr>
 <tr>
 <td>12</td>
 <td><RouterLink to="/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html"><font color=00AA00><strong>Doan</strong></font></RouterLink></td>
-<td></td>
-<td>注：此条为猜测</td>
+<td><code v-pre>[-213 105 -4941]</code></td>
+<td>去<code v-pre>[-252 58 -4955]</code>的商店买个<code v-pre>Letvus Delight</code>给他</td>
 </tr>
 <tr>
 <td>13</td>
-<td><RouterLink to="/quests/lvl81-90/level%2083%20-%20A%20Maradurs%20Due.html"><font color=00AA00><strong>Norsten</strong></font></RouterLink></td>
-<td><code v-pre>[437,77,-5056]</code></td>
+<td><RouterLink to="/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html"><font color=00AA00><strong>Kelight</strong></font></RouterLink></td>
+<td><code v-pre>[-693 63 -976]</code></td>
 <td>注：此条为猜测</td>
 </tr>
 <tr>
@@ -280,31 +281,31 @@
 </tr>
 <tr>
 <td>16</td>
-<td></td>
-<td></td>
-<td></td>
+<td><RouterLink to="/quests/lvl71-80/level%2080%20-%20The%20Qira%20Hive.html"><font color=00AA00><strong>Yansur</strong></font></RouterLink></td>
+<td><code v-pre>[372 64 -5500]</code></td>
+<td>注：此条为猜测</td>
 </tr>
 <tr>
 <td>17</td>
-<td></td>
-<td></td>
-<td></td>
+<td><RouterLink to="/quests/lvl91-100/level%2096%20-%20Recipe%20for%20Disaster.html"><font color=00AA00><strong>Chef Hamsey</strong></font></RouterLink></td>
+<td><code v-pre>[949 129 -4475]</code></td>
+<td>无</td>
 </tr>
 <tr>
 <td>18</td>
-<td></td>
-<td></td>
-<td></td>
+<td><RouterLink to="/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html"><font color=00AA00><strong>Pislo</strong></font></RouterLink></td>
+<td><code v-pre>[-205,42,-4308]</code></td>
+<td>去找<font color=00AA00><strong>Airbase Attendant</strong></font><code v-pre>[260 57 -4976]</code>，然后再回来对话</td>
 </tr>
 <tr>
 <td>19</td>
-<td></td>
-<td></td>
-<td></td>
+<td><RouterLink to="/quests/lvl61-70/level%2070%20-%20WynnExcavation%20Site%20D.html"><font color=00AA00><strong>Ragni King</strong></font></RouterLink></td>
+<td><code v-pre>[-2950 7 -1969]</code></td>
+<td>无</td>
 </tr>
 <tr>
 <td>20</td>
-<td></td>
+<td><RouterLink to="/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html"><font color=00AA00><strong>Maxie</strong></font></RouterLink></td>
 <td></td>
 <td></td>
 </tr>

@@ -1,5 +1,5 @@
 ---
-title: 物品条目介绍
+title: 物品界面介绍
 icon: dice-d20
 ---
 :::warning 待施工的页面！

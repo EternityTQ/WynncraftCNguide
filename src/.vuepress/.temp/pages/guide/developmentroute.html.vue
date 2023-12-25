@@ -72,6 +72,12 @@
 <figure><img src="/assets/img/route7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>进去后，你会发现这是个秘密发现(Secret Discovery)</p>
 <p>关于秘密发现，可以看<RouterLink to="/guide/basesystem/secretdiscovery.html">这一章</RouterLink></p>
+<h3 id="注意疾跑条" tabindex="-1"><a class="header-anchor" href="#注意疾跑条" aria-hidden="true">#</a> 注意疾跑条！</h3>
+<p>当你在疾跑时，你的生命值和魔力值上方会出现一个&quot;疾跑条&quot;</p>
+<p>持续疾跑会持续消耗疾跑值，当停止或行走时，疾跑条会消失且缓慢恢复</p>
+<p>一旦疾跑条清空，就会闪烁警报，此时你的魔力槽将会极速下降！</p>
+<p>魔力槽就相当于原版的饥饿槽，一旦下降至30%，你就会无法疾跑，必须等待魔力槽恢复</p>
+<p>请注意平时一定不要让疾跑条清空！</p>
 <h3 id="从战利品箱搜刮装备" tabindex="-1"><a class="header-anchor" href="#从战利品箱搜刮装备" aria-hidden="true">#</a> 从战利品箱搜刮装备！</h3>
 <p>在野外，随处可见如下图所示的战利品箱</p>
 <figure><img src="/assets/img/route6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -227,6 +233,9 @@
 <p>以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...</p>
 <p>这里只是催促一下你完成任务&lt;3</p>
 <h3 id="进入第二个地牢" tabindex="-1"><a class="header-anchor" href="#进入第二个地牢" aria-hidden="true">#</a> 进入第二个地牢！</h3>
+<p>当你达到18级并且已经完成Arachnids' Ascent ( level 14 )后，你就可以进入第二个地牢了！</p>
+<p>Infested Pit(IP)，这个地牢里目前添加了一点前置任务的后续剧情</p>
+<p>还记得<code v-pre>Arachnids' Ascent</code>这个任务里面你是为了谁去搬救兵的吗？进去开打就知道了！</p>
 <h3 id="出发-前往码头——nemract" tabindex="-1"><a class="header-anchor" href="#出发-前往码头——nemract" aria-hidden="true">#</a> 出发！前往码头——Nemract</h3>
 <p>这里要补充一个点：传送卷轴只能前往你去过的城镇</p>
 <p>同时，当你在没去过的城镇周遭死亡时，你并不会在该城镇复活！</p>
@@ -240,7 +249,11 @@
 <p>这有助于你快速传送于不同城镇之间，省的还要再跑一趟，非常方便！</p>
 </div>
 <p>Nemract是Wynn省的码头，只有这里有出海的船只可以购买</p>
-<p>以及，你可以使用海上快速传送——<strong>Seaskipper</strong></p>
+<p>以及，你可以使用海上快速传送——<strong>Seaskipper</strong>，来快速抵达海上的各个岛屿</p>
+<p>Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，导致这里平时也没啥人...</p>
+<p>之后还会回来！务必记住<strong>Nemract</strong>的名字！</p>
+<p>现在，去Nemract附近逛逛吧！</p>
+<p>推荐任务：</p>
 <h3 id="古代nemract的秘密" tabindex="-1"><a class="header-anchor" href="#古代nemract的秘密" aria-hidden="true">#</a> 古代Nemract的秘密？</h3>
 <p>是时候前往解锁第三个地牢了！</p>
 <h3 id="解锁技能树洗点功能" tabindex="-1"><a class="header-anchor" href="#解锁技能树洗点功能" aria-hidden="true">#</a> 解锁技能树洗点功能</h3>
