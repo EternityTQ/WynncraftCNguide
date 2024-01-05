@@ -78,6 +78,12 @@
 <p>一旦疾跑条清空，就会闪烁警报，此时你的魔力槽将会极速下降！</p>
 <p>魔力槽就相当于原版的饥饿槽，一旦下降至30%，你就会无法疾跑，必须等待魔力槽恢复</p>
 <p>请注意平时一定不要让疾跑条清空！</p>
+<h3 id="小心连续施法惩罚" tabindex="-1"><a class="header-anchor" href="#小心连续施法惩罚" aria-hidden="true">#</a> 小心连续施法惩罚</h3>
+<p>在你连续使用2次同个技能时，第三次开始时，每次施法时将会叠加5点蓝耗。</p>
+<p>这个惩罚将会持续叠加，直到你停止施放技能，或者施放另一个技能</p>
+<p>请注意！不要连续施放同一个技能超过三次！</p>
+<p>最佳的施法轮次是两个A技能+一个B技能，或者AB技能轮流切换</p>
+<p>(这里的AB仅仅只是代表不同的技能)</p>
 <h3 id="从战利品箱搜刮装备" tabindex="-1"><a class="header-anchor" href="#从战利品箱搜刮装备" aria-hidden="true">#</a> 从战利品箱搜刮装备！</h3>
 <p>在野外，随处可见如下图所示的战利品箱</p>
 <figure><img src="/assets/img/route6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
