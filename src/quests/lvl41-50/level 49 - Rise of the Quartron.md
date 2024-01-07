@@ -1,17 +1,17 @@
 # Rise of the Quartron (level 49)
 <span style="font-size: 25px;">**遗失的石英**</span>
 
-1 在**Karoc Quarry**`[-1663 46 -4376]`和*Manager Nasea*交谈
+1 在**Karoc Quarry**`[-1663 46 -4376]`和<font color=00AA00>**Manager Nasea**</font>交谈
 
-2 和*Dado*`[-1718 52 -4427]`说话
+2 和<font color=00AA00>**Dado**</font>`[-1718 52 -4427]`说话
 
-3 和*Manager Nasea*交谈
+3 和<font color=00AA00>**Manager Nasea**</font>交谈
 
 4 找到蜘蛛网洞穴`[-1744 56 -4526]`中的Tattlytale Flower(沿着跑酷一直上去就能找到)
 
-5 带着Tattlytale Flower和*Dado*交谈
+5 带着Tattlytale Flower和<font color=00AA00>**Dado**</font>交谈
 
-6 进入矿山`[-1650 76 -4443]`然后跟*popo*对话
+6 进入矿山`[-1650 76 -4443]`然后跟<font color=00AA00>**popo**</font>对话
 
 7.拉动旁边的拉杆，坐上矿车，进入秘密通道
 
