@@ -11,7 +11,7 @@ icon: bookmark
 
 2 在旁边的小山上找到<font color=00AA00>**Guard Golem**</font> `[-1705 93 -5092]`进洞，在洞穴内找到失控的机器人
 
-3 干掉坏的机器人，把能源核心带回给*Duvale*
+3 干掉坏的机器人，把能源核心带回给<font color=00AA00>**Duvale**</font>
 
 奖励
 + 42000经验
