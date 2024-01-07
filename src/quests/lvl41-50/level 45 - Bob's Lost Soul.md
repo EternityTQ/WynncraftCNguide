@@ -5,25 +5,27 @@
 建议提前看好流程，提前准备好材料能节省很多时间
 :::
 
-1.和**Nesaak's Forest**的*Tarod* `[-7 68 -793]`说话
+1.和**Nesaak's Forest**的<font color=00AA00>**Tarod**</font> `[-7 68 -793]`说话
 
 2.找到**Bob's Tomb**`[254 75 -760]`,发现你进不去
 
-3.和*Tarod*报告你找到了什么
+3.和<font color=00AA00>**Tarod**</font>报告你找到了什么
 
-4.和在**Bremminglar**的魔法师*Wedyf*`[659, 64, -2047]`交谈
+4.和在**Bremminglar**的萨满<font color=00AA00>**Wedyf**</font>`[659, 64, -2047]`交谈
 
-5.给魔法师*Wedyf* 1个Bob's Tear 和1个Rose`[160, 73, -1012]`
+5.给萨满<font color=00AA00>**Wedyf**</font> 1个Bob's Tear 和1个Rose`[160, 73, -1012]`
 
 :::tip
 Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分百且刷率极高，稍微逛一圈就能看见。
 :::
 
-6.和**Ternaves**附近的*Blacksmith*`[725, 61, -1468]`谈有关Bob's lost soul的事
+6.和**Ternaves**附近的<font color=00AA00>**Blacksmith**</font>`[725, 61, -1468]`谈有关Bob's lost soul的事
 
-7.交给 *Blacksmith* 如下物品： 1 Depressing Stick, 1 Depressing Spear, 1 Depressing Bow 和 1 Depressing Shear
+7.交给 <font color=00AA00>**Blacksmith**</font> 如下物品： 1 Depressing Stick, 1 Depressing Spear, 1 Depressing Bow 和 1 Depressing Shear
 :::tip
-你可以在`[20, 68, -901]`获取到`Depressing Stick`
+只有触发到任务的这一步后，才能获得下列四样物品：
+
+在`[20, 68, -901]`通过解密游戏获取到`Depressing Stick`
 
 在`[170, 58, -925]`通过收集掉落物获取到`Depressing Spear`
 
@@ -34,11 +36,11 @@ Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分
 以上武器均可以在交易市场购买，但是略贵
 :::
 
-8.从Blacksmith获取到`Bob's Crushed Soul`后，回**Bremminglar**交给*Wedyf*
+8.从Blacksmith获取到`Bob's Crushed Soul`后，回**Bremminglar**交给<font color=00AA00>**Wedyf**</font>
 
 9.在**Bob's Tomb**里找到Bob the Zombie的尸体(就在楼梯下面)
 
-10.报告给*Tarod*你看到了什么
+10.报告给<font color=00AA00>**Tarod**</font>你看到了什么
 
 奖励
 + 55000 经验值

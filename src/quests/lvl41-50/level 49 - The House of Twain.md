@@ -1,9 +1,9 @@
 # The House of Twain(level 49)
 <span style="font-size: 25px;">**吐温凶宅**</span>
 
->万圣节特殊任务，在做这个任务之前，请自备若干个绿宝石或者绿帽子Ghostly Cap。
+>万圣节特殊任务，在做这个任务之前，请自备若干个绿宝石或者<font color=00AA00>绿帽子</font>Ghostly Cap。
 
-1.和*Twendle*`[12 76 -456]`说话
+1.和<font color=00AA00>**Twendle**</font>`[12 76 -456]`说话
 
 2.做一个`Ghostly Cap`，并在门口的鉴定师鉴定
 >如果你已经有了可以跳过这一步
@@ -30,7 +30,7 @@
 洞窟内的密码为5732
 :::
 
-5.把`Twain's Journal`带回给*Twendle*
+5.把`Twain's Journal`带回给<font color=00AA00>**Twendle**</font>
 
 奖励
 + 45000 经验值
