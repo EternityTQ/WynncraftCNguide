@@ -14,9 +14,9 @@ icon: route
 
 >不要忘了可以从Selchar前往绝大部分岛屿
 
-1 在**Mage Island**和*Seasum*`[940 77 -2866]`对话
+1 在**Mage Island**和<font color=00AA00>**Seasum**</font>`[940 77 -2866]`对话
 
-2 进入房间，拿Invitation Letter并交还给Seasum`[940 77 -2866]`
+2 进入房间，拿Invitation Letter并交还给<font color=00AA00>**Seasum**</font>`[940 77 -2866]`
 
 3 在`[893 37 -2777]`找到魔法学院的船
 
@@ -24,7 +24,7 @@ icon: route
 
 5 找到`[6372 15 4513]`处的隐藏洞口进入
 
-6 和*Cidre*`[6710 37 4444]`对话，获得Wand Vocher和Magical Book Vocher
+6 和<font color=00AA00>**Cidre**</font>`[6710 37 4444]`对话，获得Wand Vocher和Magical Book Vocher
 
 7 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，此处选择的内容影响任务奖励，如下表
 
@@ -109,4 +109,4 @@ Corruption 打开笼子，老师让你跑就立刻跑
 + 242500 经验
 + 640/896/1728/2048 绿宝石
 + 允许使用 magic tunnel fast travel
-+ 1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品)
++ 1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时长会用在毕业配装内)

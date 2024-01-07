@@ -8,13 +8,13 @@
 本任务所有的岛屿都可以在Selchar岛前往，你可以将这个岛作为中转站
 :::
 
-1 和**Zhight**岛上的*Zhight*`[-542 38 -2755]`说话
+1 和**Zhight**岛上的<font color=00AA00>**Zhight**</font>`[-542 38 -2755]`说话
 
-2 和**Mage Island**上的*Phief*`[-228 63 -2958]`说话
+2 和**Mage Island**上的<font color=00AA00>**Phief**</font>`[-228 63 -2958]`说话
 
-3 在`[1016 38 -3101]`找到*Phief*的船，并和船上的的*Tirt*对话
+3 在`[1016 38 -3101]`找到<font color=00AA00>**Phief**</font>的船，并和船上的的<font color=00AA00>**Tirt**</font>对话
 
-4 和**Maro Peaks**上的*Czytash*`[258 80 -3913]`说话
+4 和**Maro Peaks**上的<font color=00AA00>**Czytash**</font>`[258 80 -3913]`说话
 :::tip
 记得带上Climbing Helmet才可以进入这座岛
 
@@ -25,7 +25,7 @@
 NPC在一个山崖上，顺着木桥走，若看到梯子`[364 ? -3292]`后就上去。
 :::
 
-5.回到最初的**Zhight Island**，将`Odd Smelling Crate`交还给*Zhight*`[-542 38 -2755]`
+5.回到最初的**Zhight Island**，将`Odd Smelling Crate`交还给<font color=00AA00>**Zhight**</font>`[-542 38 -2755]`
 
 奖励
 + 95000 经验
