@@ -11,14 +11,14 @@ icon: exclamation
 解锁Tomes机制
 :::
 
-1.去`[-2039 55 -5434]`附近看看发生了什么，然后和*Malo*对话
+1.去`[-2039 55 -5434]`附近看看发生了什么，然后和<font color=00AA00>**Malo**</font>对话
 
-2.跳下去虫洞，在深处打掉一个Mysterious Skin然后回去交给*Malo*
+2.跳下去虫洞，在深处打掉一个Mysterious Skin然后回去交给<font color=00AA00>**Malo**</font>
 :::tip
 注意可以在着地前放一个位移技能来避免摔伤
 :::
 
-3.前往*Lari*的营地`[-1969 55 -5454]`寻求*Lari*的援助
+3.前往<font color=00AA00>**Lari**</font>的营地`[-1969 55 -5454]`寻求<font color=00AA00>**Lari**</font>的援助
 >这里大概率会同时刷出3只Lari...
 
 4.回第一步的虫洞附近和Lari汇合，她会释放一个缓降魔法帮助你来到洞底，然后一路走到触发剧情为止
@@ -57,7 +57,7 @@ RAID副本为团本，为3-4人才能开启的副本，需要对应的Runes作�
 
 可以在Party Finder中匹野队，但是一般不建议刚做完任务的等级进行Raid
 
-同时无论什么等级，强烈建议先翻阅[wiki](https://wynncraft.fandom.com/wiki/Raids)来查询raid相应的机制，避免因为不会处理机制导致队伍团灭
+同时无论什么等级，强烈建议先翻阅[wiki](https://wynncraft.fandom.com/wiki/Raids)或[这一章](/WynncraftCNguide/guide/raid.html)来查询raid相应的机制，避免因为不会处理机制导致队伍团灭
 :::
 
 :::tip
