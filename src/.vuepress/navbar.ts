@@ -4,6 +4,7 @@ export default navbar([
   "/",
   "/guide/",
   "/quests/",
+  "/newbie/",
   {
     text: "wiki",
     icon: "mobile",

@@ -22,10 +22,11 @@
 <p>3.身上全身都穿着具有经验加成的装备</p>
 <p>三点全部集齐后，你的经验获取效率将会原地起飞</p>
 </div>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>如果你是法师...不妨试试奥术？</p>
-<p>笔者曾经试过用奥术单刷到文末的垃圾场。</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>按照Wynncraft的经验获取方式，你必须至少对怪物造成一定伤害才能获取到经验</p>
+<p>同时，你能获取到的经验根据你造成的伤害百分比决定，大约打到15%就能拿满这个怪物的经验了</p>
+<p>所以，请不要只在刷怪队伍中挂机，这样你的效率将会无比低下，只能拿到保底的队伍加成经验</p>
 </div>
 <h2 id="lv-5-lv-10" tabindex="-1"><a class="header-anchor" href="#lv-5-lv-10" aria-hidden="true">#</a> Lv.5~Lv.10</h2>
 <figure><img src="/assets/img/grindspot1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>

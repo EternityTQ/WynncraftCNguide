@@ -588,7 +588,7 @@
 <li>暴击伤害</li>
 <li>法术伤害</li>
 <li>属性点</li>
-<li>发力恢复</li>
+<li>法力恢复</li>
 <li>战利品加成</li>
 <li>战利品质量</li>
 <li>生命窃取</li>
@@ -766,6 +766,40 @@
 <p>如果你走投无路了，再来考虑<font color='FFCC00'> <b>黄色信标</b> </font>吧！</p>
 <p>但是有一个特例：在你获得<font color='FFCC00'> <strong>Cleansing Greed</strong> </font>的情况下，吃黄色信标能迅速降低你的诅咒数值！</p>
 <p>最后是<font color = 00CCFF><b>青色信标</b></font>，其效果非常特殊，目前在数量无限制的情况下，<strong>强烈建议</strong>在吃到彩虹后，如果有考虑吃除了蓝信标以外的情况，都最好搭配一个青一起使用来提高效率！</p>
+<h4 id="如何选择增益" tabindex="-1"><a class="header-anchor" href="#如何选择增益" aria-hidden="true">#</a> 如何选择增益？</h4>
+<hr>
+<p>无论何时，请你保证你吃到的蓝信标数占你已挑战轮次的33%-50%甚至更多</p>
+<p>蓝信标能保证你有足够的数值来挑战接下来的挑战</p>
+<p>关于增益种类，首先你需要考虑两个方面：生存与伤害</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如果你实在不确定你目前需要什么类型的增益，遵循一个原则：</p>
+<p><strong>数字越大越好</strong></p>
+<p>大数字永远能给你带来十足的安全感</p>
+<p>这里的大数字指品质更高的增益种类</p>
+</div>
+<ul>
+<li>首先，请你保证你的总Mana Regen在足够舒适的数值及以上，如果不足以技能连发，强烈建议优先拿取mr增益</li>
+</ul>
+<p>当你的mr已经完全溢出时，请不要再拿取mr增益了</p>
+<ul>
+<li>
+<p>然后，首选伤害(Damage,Elemental Damage,Critical Damage等等)类的增益来保证足够的伤害</p>
+</li>
+<li>
+<p>当你伤害已经完全足够后，如果你的build缺少Def及Agi，请不要犹豫，优先叠高你的生存端</p>
+</li>
+</ul>
+<p>即：大数字HP以及足够叠到150点数的Def和Agi</p>
+<ul>
+<li>在以上两者均拿取后，看到大数字的hpr以及hpr%，也一定要拿取</li>
+</ul>
+<p>如果你的职业没有自回血手段，那么你无法永远依靠药水瓶来回血，一定会越打越乏力</p>
+<p>增益给予的hpr能很好的帮助你续航</p>
+<ul>
+<li>最后，如果你的职业的位移手段非常差劲(比如萨满)，那么你还得考虑将移动速度抓到上限(400%)来避免跑到超时</li>
+</ul>
+<p>还有就是生命窃取非常废，最好别拿。</p>
 <h4 id="运营思路" tabindex="-1"><a class="header-anchor" href="#运营思路" aria-hidden="true">#</a> 运营思路</h4>
 <hr>
 <p>LR非常考验你的运营水平</p>
@@ -804,7 +838,7 @@
 </div>
 <h4 id="关于任务" tabindex="-1"><a class="header-anchor" href="#关于任务" aria-hidden="true">#</a> 关于任务</h4>
 <hr>
-<p>对于任务而言，介于任务的随机性，大多数情况是根据任务选玩法，而非根据玩法选任务</p>
+<p>对于任务而言，介于任务的随机性，大多数情况是<strong>根据任务选玩法</strong>，而非根据玩法选任务</p>
 <p>但是任务如果选好了，能让你这趟长途跑的十分舒服(尽管还是坐牢)</p>
 <p>以下是关于每个任务的锐评，<strong>注意其具有编者极其强烈的主观色彩</strong>，仅供参考</p>
 <table>
@@ -821,7 +855,7 @@
 </tr>
 <tr>
 <td><font color='FFCC00'> <strong>High Roller</strong> </font></td>
-<td>比较平庸的效果，但是如果没有sac和end rr的话，这个任务值得去拿</td>
+<td>如果没有sac和end rr的话，这个任务值得去拿</td>
 </tr>
 <tr>
 <td><font color='FFCC00'> <strong>Materialism</strong> </font></td>
@@ -857,7 +891,7 @@
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Redemption</strong> </font></td>
-<td>比较平庸的效果，但是如果没有sac和end rr的话，这个任务值得去拿</td>
+<td>如果没有sac和end rr的话，这个任务值得去拿</td>
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font></td>

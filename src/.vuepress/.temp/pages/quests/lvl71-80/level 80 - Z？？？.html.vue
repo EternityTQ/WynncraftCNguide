@@ -90,7 +90,9 @@
 <p class="hint-container-title">注意</p>
 <p>下水道内含跳吓</p>
 </div>
-<p>9.用心感受↓</p>
+<p>9.沿着路上楼，走到<code v-pre>[67 123 -5703]</code></p>
+<p>你能看到一个控制台，中间是方向键，左边是重置，右边是撤回</p>
+<p>按下面的路线将绿色方块铺满面前的屏幕即可</p>
 <figure><img src="/assets/img/lvl80-4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>10.找红色羊毛<code v-pre>[115 129 -5716]</code>丢入如图所示的铁栏杆装置内，进入传送装置传送至流星区域<br>
 <img src="/assets/img/lvl80-12.jpg" alt="" loading="lazy"></p>
@@ -101,11 +103,22 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>进洞下来后，楼梯左手边下有1个<code v-pre>[-1367 25 -5607]</code></p>
-<p>左边楼梯上去T1宝箱旁边有1个<code v-pre>[-1376 31 -5622]</code></p>
-<p>中间桥上有1个</p>
+<p>左边楼梯上去T1宝箱旁边有1个<code v-pre>[-1376 31 -5622]</code>(注意不是头颅，是花盆)</p>
+<p>中间桥上有1个<code v-pre>[-1361 30 -5622]</code></p>
 <p>地图房间有3个(架子两个，桌上一个)</p>
-<p>地图房间旁边T1宝箱有1个</p>
-<p>地图房间旁边的藤蔓上去有1个</p>
+<ul>
+<li>
+<p><code v-pre>[-1340 28 -5628]</code></p>
+</li>
+<li>
+<p><code v-pre>[-1340 31 -5628]</code></p>
+</li>
+<li>
+<p><code v-pre>[-1337 28 -5632]</code></p>
+</li>
+</ul>
+<p>地图房间旁边T1宝箱有1个<code v-pre>[-1346 28 -5635]</code></p>
+<p>地图房间旁边的藤蔓上去有1个<code v-pre>[-1345 35 -5618]</code></p>
 </div>
 <p>敲完花盆往洞内房间的地图扔一个物品，会有铁砧的音效(比较响)，接着去洞外面找入口<code v-pre>[-1341 59 -5603]</code></p>
 <p>如果听到像熄火的声音，并且地图变成了花盆，那就是你没打完花盆</p>
@@ -161,11 +174,12 @@
 <p>即将箭头所指的蓝色方块往左移动1格即可</p>
 <p>一直重复这个操作，直到胜利为止</p>
 </div>
+<p>在打完之后，记得上到上面的平台，进入炸开的房门</p>
 <p>3.找黄色羊毛<code v-pre>[-1430 57 -5631]</code>丢下图的铁栏杆装置内，进入传送装置传送至流星区域<br>
 <img src="/assets/img/lvl80-15.jpg" alt="" loading="lazy"></p>
-<p>4.找到碎片后找落脚点往下走，穿过岩浆进入陨石内待命</p>
+<p>4.找到碎片后找落脚点往下走<code v-pre>[2494 52 -5741]</code>，穿过岩浆进入陨石内待命</p>
 <h3 id="集合完毕" tabindex="-1"><a class="header-anchor" href="#集合完毕" aria-hidden="true">#</a> 集合完毕</h3>
-<p>当所有人全部进入陨石内待命后，同时踩下陨石内的铁质压力板，即可传送至接取任务的地点</p>
+<p>当所有人全部进入陨石内待命后，同时<strong>踩住</strong>陨石内的铁质压力板，即可传送至接取任务的地点</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>和面前的<font color=00AA00><strong>Computer</strong></font>对话以接取任务</p>

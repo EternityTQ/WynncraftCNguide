@@ -53,7 +53,7 @@ export default hopeTheme({
       provider: "Waline",
   
       // waline 模式下
-      serverURL: "https://wcg-comment-ke0jv9vn9-eternitytqs-projects.vercel.app", // your serverURL
+      serverURL: "https://wcg-comment-l57ccepkv-eternitytqs-projects.vercel.app/", // your serverURL
     },
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {

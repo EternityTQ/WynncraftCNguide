@@ -240,7 +240,7 @@
 <p>这里只是催促一下你完成任务&lt;3</p>
 <h3 id="进入第二个地牢" tabindex="-1"><a class="header-anchor" href="#进入第二个地牢" aria-hidden="true">#</a> 进入第二个地牢！</h3>
 <p>当你达到18级并且已经完成Arachnids' Ascent ( level 14 )后，你就可以进入第二个地牢了！</p>
-<p>Infested Pit(IP)，这个地牢里目前添加了一点前置任务的后续剧情</p>
+<p><strong>Infested Pit</strong>(IP)，这个地牢里目前添加了一点前置任务的后续剧情</p>
 <p>还记得<code v-pre>Arachnids' Ascent</code>这个任务里面你是为了谁去搬救兵的吗？进去开打就知道了！</p>
 <h3 id="出发-前往码头——nemract" tabindex="-1"><a class="header-anchor" href="#出发-前往码头——nemract" aria-hidden="true">#</a> 出发！前往码头——Nemract</h3>
 <p>这里要补充一个点：传送卷轴只能前往你去过的城镇</p>
@@ -259,14 +259,27 @@
 <p>Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，导致这里平时也没啥人...</p>
 <p>之后还会回来！务必记住<strong>Nemract</strong>的名字！</p>
 <p>现在，去Nemract附近逛逛吧！</p>
-<p>推荐任务：</p>
+<h3 id="解锁超级刷怪点墓地" tabindex="-1"><a class="header-anchor" href="#解锁超级刷怪点墓地" aria-hidden="true">#</a> 解锁超级刷怪点墓地！</h3>
+<p>这里有一个非常适合升级的刷怪点</p>
+<p>首先需要先做好<RouterLink to="/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html">前置任务</RouterLink>才能进去</p>
+<p>墓地刷怪点<code v-pre>[290 42 -2062]</code>足够你刷很久，但是要注意，怪物强度很高！</p>
+<p>同时介于本篇文章的性质，其实是不怎么提倡光靠刷怪点升级的！适当升几级就好了</p>
 <h3 id="古代nemract的秘密" tabindex="-1"><a class="header-anchor" href="#古代nemract的秘密" aria-hidden="true">#</a> 古代Nemract的秘密？</h3>
 <p>是时候前往解锁第三个地牢了！</p>
+<p>在此之前，也许你的等级不是很够，你可以先看看上面那个超级刷怪点？</p>
+<p>首先，你要先做好<RouterLink to="/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html">前置任务</RouterLink></p>
+<p>非常短，很快就能做好！</p>
+<p>然后，就可以在接取前置任务的NPC旁边进入<strong>Underworld Crypt</strong>了！</p>
+<p>钥匙仍然可以在副本附近通过击杀钥匙怪来获取，如果没有钥匙的话可以到处去逛逛！</p>
 <h3 id="解锁技能树洗点功能" tabindex="-1"><a class="header-anchor" href="#解锁技能树洗点功能" aria-hidden="true">#</a> 解锁技能树洗点功能</h3>
+<p>这个非常重要啦！</p>
+<p>当你打到25级后，可以直接去做<RouterLink to="/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html">这个任务</RouterLink>了</p>
+<p>当做完后，你的所有存档都可以直接解锁技能树洗点功能</p>
+<p>技能树洗点需要消耗3个<code v-pre>Ability Shard</code>，其可以通过每日签到和每日任务获取</p>
+<p>或者你也可以直接在玩家市场上购买！</p>
 <h3 id="去解决tempo镇的麻烦" tabindex="-1"><a class="header-anchor" href="#去解决tempo镇的麻烦" aria-hidden="true">#</a> 去解决Tempo镇的麻烦！</h3>
 <h3 id="进入时间圣所" tabindex="-1"><a class="header-anchor" href="#进入时间圣所" aria-hidden="true">#</a> 进入时间圣所！</h3>
 <h3 id="如何锁定你的物品" tabindex="-1"><a class="header-anchor" href="#如何锁定你的物品" aria-hidden="true">#</a> 如何锁定你的物品？</h3>
-<h3 id="解锁超级刷怪点墓地" tabindex="-1"><a class="header-anchor" href="#解锁超级刷怪点墓地" aria-hidden="true">#</a> 解锁超级刷怪点墓地！</h3>
 <h3 id="收集一套冒险者套装" tabindex="-1"><a class="header-anchor" href="#收集一套冒险者套装" aria-hidden="true">#</a> 收集一套冒险者套装！</h3>
 <h3 id="赚钱秘方——海底捞" tabindex="-1"><a class="header-anchor" href="#赚钱秘方——海底捞" aria-hidden="true">#</a> 赚钱秘方——海底捞</h3>
 <blockquote>
