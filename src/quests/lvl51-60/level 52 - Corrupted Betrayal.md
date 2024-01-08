@@ -9,7 +9,7 @@ icon: skull
 Undergrowth Ruins 副本前置任务
 :::
 
-1.和*Troms Mage*`[-641 59 -872]`对话，触发剧情
+1.和<font color=00AA00>**Troms Mage**</font>`[-641 59 -872]`对话，触发剧情
 
 2.解决法师给你的难题
 
@@ -29,7 +29,7 @@ Undergrowth Ruins 副本前置任务
 
 5.击杀史莱姆提交来建造继续前进的桥，随后跟着隐藏的桥梁走，最后通过一小段史莱姆跑酷
 
-6.回去找*Troms Mage*交差
+6.回去找<font color=00AA00>**Troms Mage**</font>交差
 
 奖励
 + 87725 经验值

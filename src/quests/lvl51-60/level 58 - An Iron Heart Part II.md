@@ -12,15 +12,15 @@ icon: bookmark
 
 1.在Olux找到Detective Hart`[-1744 66 -5478]`
 
-2.跟着路找到Daxe`[-1924 55 -5466]`，跟他对话触发一系列剧情
+2.跟着路找到<font color=00AA00>**Daxe**</font>`[-1924 55 -5466]`，跟他对话触发一系列剧情
 
 3.顺着路来到傀儡工厂`[-2119 55 -5557]`，手持前置任务中获得的Mechanical Reactor与守门傀儡交互
 
 :::tip
-如果你弄丢了Mechanical Reactor，你可以回到前置任务中的Duvale`[-1620 51 -4974]`，找他对话重新获取一个
+如果你弄丢了Mechanical Reactor，你可以回到前置任务中的<font color=00AA00>**Duvale**</font>`[-1620 51 -4974]`，找他对话重新获取一个
 :::
 
-4.和屋子内的*Urelix*对话
+4.和屋子内的<font color=00AA00>**Urelix**</font>对话
 
 5.拉下`[-2117 57 -5574]`的拉杆，然后门外的铁门会打开
 :::tip
@@ -34,11 +34,11 @@ icon: bookmark
 8.进入工厂后，一路前进触发剧情即可，注意躲避一系列机关，杀怪环节可以不用理会直接往前即可
 >那个躲避激光的上升环节伤害低得要死...甚至可以挂机
 
-9.冲进去实验室最里面跟Dr. Urelix对话
+9.冲进去实验室最里面跟<font color=00AA00>**Dr. Urelix**</font>对话
 
-10.分歧点：如果你接受Dr.Urelx的贿赂,继续和他对话，你会拿到Shameful Greaves，loot bonus非常高的裤子
+10.分歧点：如果你接受<font color=00AA00>**Dr.Urelx**</font>的贿赂,继续和他对话，你会拿到Shameful Greaves，loot bonus非常高的裤子
 
-如果你出去(往黑色方块那里走)回去找*Detective Hart*你会拿到Greaves of honor，xp bonus非常高的裤子
+如果你出去(往黑色方块那里走)回去找<font color=00AA00>**Detective Hart**</font>你会拿到Greaves of honor，xp bonus非常高的裤子
 
 奖励
 + 160000 经验

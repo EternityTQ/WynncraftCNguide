@@ -14,7 +14,7 @@ icon: face-tired
 记住沿着地上的红石走，否则你会被传送出来
 :::
 
-1.跟*Alem*在**Haunted Mansion**`[158 79 -373]`后面对话
+1.跟<font color=00AA00>**Alem**</font>在**Haunted Mansion**`[158 79 -373]`后面对话
 
 2.去四个地方触发机关 (以下坐标是房门口，小心被吓惨)
 
@@ -28,7 +28,7 @@ icon: face-tired
 
 3.进入最里面的大门 进去之后有一个右边的房间是会刷下一扇门的钥匙的 记得拿上
 
-4.跟Alem对话
+4.跟<font color=00AA00>**Alem**</font>对话
 
 奖励 
 + 66666经验

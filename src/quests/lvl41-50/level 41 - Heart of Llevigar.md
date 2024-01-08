@@ -1,7 +1,7 @@
 # Heart of Llevigar(level 41)
 <span style="font-size: 25px;">**Llevigar之心**</span>
 
-1.在**Llevigar**能源控制中心找到*Zenam*`[-1872 55 -4593]`
+1.在**Llevigar**能源控制中心找到<font color=00AA00>**Zenam**</font>`[-1872 55 -4593]`
 
 2 进入L城银行对面的排水沟`[-1998 77 -4507]`，站在坑里按下按钮
 
@@ -11,7 +11,7 @@
 下落过程中不能有任何移动
 :::
 
-3 和能源工厂的*Head Engineer*`[-2058 4 -4498]`说话
+3 和能源工厂的<font color=00AA00>**Head Engineer**</font>`[-2058 4 -4498]`说话
 
 4 从`[-2056 4 -4526]`的洞里进去，然后立刻右拐进入`[-2061 24 -4507]`的洞，最后直走即可
 
@@ -38,9 +38,9 @@
 
 ![](../../.vuepress/public/assets/img/lvl41-2.jpg)
 
-9.报告给Head Engineer。
+9.报告给<font color=00AA00>**Head Engineer**</font>。
 
-10.找Zenam要工资
+10.找<font color=00AA00>**Zenam**</font>要工资。
 
 奖励
 
