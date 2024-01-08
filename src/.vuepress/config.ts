@@ -3,7 +3,7 @@ import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 
 export default defineUserConfig({
-  base: "/WynncraftCNguide/",
+  base: "/",
 
   lang: "zh-CN",
   title: "Wynncraft中文攻略",
