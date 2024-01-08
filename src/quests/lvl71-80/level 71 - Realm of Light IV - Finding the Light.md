@@ -6,7 +6,7 @@ icon: bookmark
 # Realm of Light IV - Finding the Light (level 71)
 <span style="font-size: 25px;">**光之领域IV - 寻找光明**</span>
 
-前置任务:[Realm of Light III - A Headless History (level 65)](/WynncraftCNguide/quests/lvl61-70/level%2065%20-%20Realm%20of%20Light%20III%20-%20A%20Headless%20History.html)
+前置任务:[Realm of Light III - A Headless History (level 65)](/quests/lvl61-70/level%2065%20-%20Realm%20of%20Light%20III%20-%20A%20Headless%20History.html)
 
 :::tip 建议
 等到79级再来完成该任务吧

@@ -9,7 +9,7 @@ icon: horse
 
 ## 获得马匹
 
-在完成[Stable Story](/WynncraftCNguide/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)后，你将解锁马匹商人
+在完成[Stable Story](/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)后，你将解锁马匹商人
 
 马匹商人可以在Ternaves和Bucie中找到
 >之后再来补坐标，感兴趣的话可以通过Wynntils的Map找到

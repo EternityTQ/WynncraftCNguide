@@ -3,11 +3,11 @@
 
 前置任务：
 
-[Clearing the Camps (level 39)](/WynncraftCNguide/quests/lvl31-40/level%2039%20-%20Clearing%20the%20Camps.html)
+[Clearing the Camps (level 39)](/quests/lvl31-40/level%2039%20-%20Clearing%20the%20Camps.html)
 
-[Blazing Retribution (level 44)](/WynncraftCNguide/quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html)
+[Blazing Retribution (level 44)](/quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html)
 
-[Reclaiming the House (level 61)](/WynncraftCNguide/quests/lvl61-70/level%2061%20-%20Reclaiming%20the%20House.html)
+[Reclaiming the House (level 61)](/quests/lvl61-70/level%2061%20-%20Reclaiming%20the%20House.html)
 
 1.和**Bucie**大门前的*Captain Goruca*`[-1392 43 -4701]`对话
 

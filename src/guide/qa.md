@@ -16,7 +16,7 @@ icon: question
 
 你可以在银行中存放你的物品。
 
-详情可以看看[这一章](/WynncraftCNguide/guide/npcs.html#银行)
+详情可以看看[这一章](/guide/npcs.html#银行)
 
 ## 我开局要选什么职业好啊？
 >哪个职业比较强？/新手适合什么职业？
@@ -120,7 +120,7 @@ Tils强制替换了你的任务书，但是后续又停止支持了1.12的任务
 ## 马匹要怎么获得？
 >坐骑要怎么获得？
 
-在完成[Stable Story (level 13)](/WynncraftCNguide/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)任务后，你就可以获得马匹了
+在完成[Stable Story (level 13)](/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)任务后，你就可以获得马匹了
 
 ## 马匹要怎么升级？
 >高级马要怎么获得？

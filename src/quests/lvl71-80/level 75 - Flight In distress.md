@@ -7,7 +7,7 @@ icon: route
 :::tip 重要任务
 解锁Detlas-Cinfras的快速旅行
 :::
-前置任务:[Acquiring Credentials](/WynncraftCNguide/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html)
+前置任务:[Acquiring Credentials](/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html)
 
 
 1.带上前置任务中获得的`Gavelian Passport`和*Airship Clerk*对话`[-172 108 -4946]`，然后登上飞艇

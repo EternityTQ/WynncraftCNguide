@@ -17,7 +17,7 @@ icon: flask
 副职主要分为**采集**和**制作**两大板块
 
 ## 采集
-首先，你需要找到[Tool Merchant](/WynncraftCNguide/guide/npcs.html#tool-merchant)购买1-2级的工具
+首先，你需要找到[Tool Merchant](/guide/npcs.html#tool-merchant)购买1-2级的工具
 
 有了工具后，你就可以对资源进行开采了
 
@@ -94,7 +94,7 @@ icon: flask
 
 ### 工具来源
 
-除了1-2级的工具可以在[Tool Merchant](/WynncraftCNguide/guide/npcs.html#tool-merchant)购买以外
+除了1-2级的工具可以在[Tool Merchant](/guide/npcs.html#tool-merchant)购买以外
 
 3级及以上的工具均需要在副本商店通过副本碎片来兑换
 
@@ -120,7 +120,7 @@ icon: flask
 
 因此，不是很建议在没有bomb的情况下进行副职练级
 
-关于Bombs可以看[这一章](/WynncraftCNguide/guide/VIP.html#bombs)
+关于Bombs可以看[这一章](/guide/VIP.html#bombs)
 
 同时，一些自制素材也能提供采集经验加成
 

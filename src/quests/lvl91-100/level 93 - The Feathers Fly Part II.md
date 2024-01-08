@@ -6,7 +6,7 @@ icon: bookmark
 <span style="font-size: 25px;">**翼之翱翔 Part II**</span>
 
 前置任务：
-+ [The Feathers Fly Part I(level 91)](/WynncraftCNguide/quests/lvl91-100/level%2091%20-%20The%20Feathers%20Fly%20Part%20I.html)
++ [The Feathers Fly Part I(level 91)](/quests/lvl91-100/level%2091%20-%20The%20Feathers%20Fly%20Part%20I.html)
 
 1.和Ava在Corkus城南部`[-1573 86 -2762]`对话
 

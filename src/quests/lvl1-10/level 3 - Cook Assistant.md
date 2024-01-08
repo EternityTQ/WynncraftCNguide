@@ -44,5 +44,5 @@
 :::
 
 :::tip 关于副职系统
-可以看看[这篇文章](/WynncraftCNguide/guide/profession.html)
+可以看看[这篇文章](/guide/profession.html)
 :::

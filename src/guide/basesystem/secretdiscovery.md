@@ -3,7 +3,7 @@ title: 秘密发现
 icon: magnifying-glass-location
 ---
 
-在[Enzan's Brother (level 1)](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)任务中，你也许已经触发了一个秘密发现(Secret Discovery)
+在[Enzan's Brother (level 1)](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)任务中，你也许已经触发了一个秘密发现(Secret Discovery)
 
 但是其实大部分的秘密发现都没这么好找
 

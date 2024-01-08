@@ -6,7 +6,7 @@ icon: bookmark
 # Realm of Light III - A Headless History (level 65)
 <span style="font-size: 25px;">**光之领域 Part III - 无头骑士的往事**</span>
 
-前置任务:[Realm of Light II - Taproot (level 62)](/WynncraftCNguide/quests/lvl61-70/level%2062%20-%20Realm%20of%20Light%20II%20-%20Taproot.html)
+前置任务:[Realm of Light II - Taproot (level 62)](/quests/lvl61-70/level%2062%20-%20Realm%20of%20Light%20II%20-%20Taproot.html)
 
 >本任务全是剧情，又臭又长
 

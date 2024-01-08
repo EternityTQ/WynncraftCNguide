@@ -363,7 +363,7 @@ icon: hat-wizard
 
 ### 重置技能树
 
-在账号的任意存档完成[Recover The Past (level 25)](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html)后，即可解锁技能树洗点能力
+在账号的任意存档完成[Recover The Past (level 25)](/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html)后，即可解锁技能树洗点能力
 
 洗点需要消耗3个`Ability Shard`，其来源包括每日签到、每日任务、Raid产出等等，强烈建议通过交易市场购买，不算很贵
 

@@ -1,7 +1,7 @@
 # Taking the tower (level 8)
 <span style="font-size: 25px;">**突袭塔楼**</span>
 
-任务前置：[Mushroom Man](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
+任务前置：[Mushroom Man](/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
 
 1.与<font color=00AA00>**Aledar**</font>`[511 67 -1613]`对话(记得按选项1)
 

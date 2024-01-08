@@ -40,7 +40,7 @@ icon: coins
 
 但是如果加上部分任务的装备，不止这个数
 
-举个非常简单的例子：[An Iron Heart Part II](/WynncraftCNguide/quests/lvl51-60/level%2058%20-%20An%20Iron%20Heart%20Part%20II.html)任务中，
+举个非常简单的例子：[An Iron Heart Part II](/quests/lvl51-60/level%2058%20-%20An%20Iron%20Heart%20Part%20II.html)任务中，
 
 最终奖励可以选择一条非常强力的经验裤子`Greaves of honor`
 
@@ -93,7 +93,7 @@ icon: coins
 对于腐化地牢来说，入场费相对较贵，请知悉。
 
 :::tip
-不知道[88 run](/WynncraftCNguide/guide/dungeon.html)和[raid](/WynncraftCNguide/guide/raid.html)是什么？
+不知道[88 run](/guide/dungeon.html)和[raid](/guide/raid.html)是什么？
 
 你可以点开链接看一下！
 :::
@@ -102,7 +102,7 @@ icon: coins
 
 ## Lootrun
 
-对于lootrun，可以看看[这一章](/WynncraftCNguide/guide/lootrun.html)
+对于lootrun，可以看看[这一章](/guide/lootrun.html)
 
 ## 赌博（特指鉴定游戏中的装备）
 
@@ -123,7 +123,7 @@ icon: coins
 但是一般来说，想鉴定出能卖到超过未鉴定的价格的装备是比较难的。
 
 :::tip
-对于提升鉴定值，你可以看看[这里](/WynncraftCNguide/guide/npcs.html#提升鉴定值)
+对于提升鉴定值，你可以看看[这里](/guide/npcs.html#提升鉴定值)
 :::
 
 ## 交易市场倒卖

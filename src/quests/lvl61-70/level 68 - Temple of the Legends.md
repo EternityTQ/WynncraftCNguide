@@ -14,7 +14,7 @@ icon: exclamation
 建议提前阅读该攻略，第九步中的材料可以提前去拿好
 :::
 
-前置任务：[Creeper Infiltration](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html)、[Ice Nations](/WynncraftCNguide/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
+前置任务：[Creeper Infiltration](/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html)、[Ice Nations](/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
 
 1.与在Troms东南角的**Temple of Legends**[-693 63 -976]的*Kelight*对话，
 
@@ -32,7 +32,7 @@ icon: exclamation
 
 7.把净化过的Light Dust带给在Temple of the Legends的入口的Kelight
 
-8.找到对苦力怕着迷的科学家Garull`[-918, 81, -1222]`（你可以在[Creeper Infiltration](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html)任务中找到如何进去的方法
+8.找到对苦力怕着迷的科学家Garull`[-918, 81, -1222]`（你可以在[Creeper Infiltration](/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html)任务中找到如何进去的方法
 
 9.带回：
 
@@ -40,7 +40,7 @@ icon: exclamation
 
 + Aseado Leaf 在`[-696 25 -589]`的洞穴里拿
 
-+ Maro's Eye Jewel`[149 40 -4075]`(在Maro Peaks上 需要[Ice Nations](/WynncraftCNguide/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)中获得的登山帽 可以在selchar或者llevigar坐船过去)
++ Maro's Eye Jewel`[149 40 -4075]`(在Maro Peaks上 需要[Ice Nations](/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)中获得的登山帽 可以在selchar或者llevigar坐船过去)
 
 + Coral of Nelfors{在Seavale Reef像一个蓝色回旋镖[ 250,  -3200] Selchar西找宝藏的海底掉落物随机出现， }给Garull
 

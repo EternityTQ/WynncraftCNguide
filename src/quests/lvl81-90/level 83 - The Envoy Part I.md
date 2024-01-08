@@ -16,7 +16,7 @@ icon: route
 :::tip 什么是blank powder?
 在参观中途，*Corkus Delegate*会给你4个blank powder IV
 
-你可以查阅[这一章](/WynncraftCNguide/guide/basesystem/powder.html)来查看用法
+你可以查阅[这一章](/guide/basesystem/powder.html)来查看用法
 :::
 
 4.去The Five Gears Diner`[-1856 40 -3139]`,记得从城西走山路`[-1753 51 -3003]`，不要走城北的路，走不通

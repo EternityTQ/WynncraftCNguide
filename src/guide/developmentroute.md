@@ -24,7 +24,7 @@ icon: route
 
 ## 前期 lvl.1 ~ lvl.40
 
-首先，关于新手教程，可以[看看这里](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20King's%20Recruit.html)，这篇文章将不会再过多赘述
+首先，关于新手教程，可以[看看这里](/quests/lvl1-10/level%201%20-%20King's%20Recruit.html)，这篇文章将不会再过多赘述
 
 当你完成新手教程后，你就来到了**Ragni**，这里是第一座城市，但是这里平常玩家并不多
 
@@ -86,7 +86,7 @@ icon: route
 :::
 
 :::tip 什么是灵魂点?
-可以看看[这里](/WynncraftCNguide/guide/basesystem/soulpoint.html)
+可以看看[这里](/guide/basesystem/soulpoint.html)
 :::
 
 
@@ -98,11 +98,11 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 然后你就可以开始进行你的第一个任务了
 
-[Enzan's Brother (level 1)](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)
+[Enzan's Brother (level 1)](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)
 
 
 
-关于任务书的用法，可以看看[这里](/WynncraftCNguide/guide/basesystem/questbook.html)
+关于任务书的用法，可以看看[这里](/guide/basesystem/questbook.html)
 
 ### 副职系统是什么？
 
@@ -118,13 +118,13 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 当然，采集副职可以用于前期解决货币不足的问题，这些是后话
 
-等你做到[Cook Assistant (level 3)](/WynncraftCNguide/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html)任务后，你将会第一次体验到采集系统
+等你做到[Cook Assistant (level 3)](/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html)任务后，你将会第一次体验到采集系统
 
 稍微知道怎么采集就行了，不需要过多涉足！
 
 ### 秘密发现
 
-在做完[Enzan's Brother](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)后，<font color=00AA00>**Therck**</font>会跟你说楼梯上有一把钥匙
+在做完[Enzan's Brother](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)后，<font color=00AA00>**Therck**</font>会跟你说楼梯上有一把钥匙
 
 你可以在左侧的屋子发现可以用钥匙打开的门
 
@@ -132,7 +132,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 进去后，你会发现这是个秘密发现(Secret Discovery)
 
-关于秘密发现，可以看[这一章](/WynncraftCNguide/guide/basesystem/secretdiscovery.html)
+关于秘密发现，可以看[这一章](/guide/basesystem/secretdiscovery.html)
 
 ### 注意疾跑条！
 
@@ -180,13 +180,13 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 ![](/assets/img/questbook4.jpg)
 
-和洞穴系统有关的lootrun，具体可以看看[这一章](/WynncraftCNguide/guide/lootrun.html#传统lootrun)
+和洞穴系统有关的lootrun，具体可以看看[这一章](/guide/lootrun.html#传统lootrun)
 
 ### 记得完成任务！
 
 前期请积极地以完成任务为目标继续前进吧！
 
-之后记得完成[Infested Plants (level 4)](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)任务！这是后面一系列任务的起头，不完成的话你将体验不到后续的部分教程任务
+之后记得完成[Infested Plants (level 4)](/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)任务！这是后面一系列任务的起头，不完成的话你将体验不到后续的部分教程任务
 
 :::tip
 这游戏没有所谓的“主线”
@@ -199,7 +199,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 :::
 
 ### 第一个地牢
-在完成[Sewers of Ragni (level 5)](/WynncraftCNguide/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html)任务后，你将会解锁你旅途上的第一个地牢
+在完成[Sewers of Ragni (level 5)](/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html)任务后，你将会解锁你旅途上的第一个地牢
 
 在进入这个地牢前，最好做足准备！
 
@@ -266,7 +266,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 ### 使用快速旅行！
 
-在完成[Tunnel Trouble ( level 6 )](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html)后，会提示你解锁了一个快速旅行
+在完成[Tunnel Trouble ( level 6 )](/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html)后，会提示你解锁了一个快速旅行
 
 其实就是通过你接取任务进去的洞穴入口和完成任务时的洞穴出口来快速双向往返**Ragni**和**Detlas**
 
@@ -290,7 +290,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 比如说，Powder Master
 
-如果你希望了解所有NPC的功能，不妨看看[这里](/WynncraftCNguide/guide/npcs.html)
+如果你希望了解所有NPC的功能，不妨看看[这里](/guide/npcs.html)
 
 ### 使用交易市场
 
@@ -300,7 +300,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 你可以通过交易市场来花点小钱，快速升级你的装备！
 
-具体介绍可以看看[这一章](/WynncraftCNguide/guide/basesystem/trademarket.html)
+具体介绍可以看看[这一章](/guide/basesystem/trademarket.html)
 
 :::tip 购入一个绿宝石钱袋！
 绿宝石钱袋能在你拾取到绿宝石时，自动收纳进袋中
@@ -398,7 +398,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 ### 获得你的第一只马匹！
 当你到达13级时，你就要注意啦！
 
-你要停下手中的一切工作，去完成[Stable Story (level 13)](/WynncraftCNguide/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)任务！
+你要停下手中的一切工作，去完成[Stable Story (level 13)](/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)任务！
 
 该任务做完之后，会解锁马匹系统，并同时赠送给你一只棕马
 
@@ -433,11 +433,11 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 为了进入下一个地牢，不要忘记升级哦！
 
-- [ ] [Infested Plants (level 4)](/WynncraftCNguide/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
-- [ ] [Mushroom Man (level 6)](/WynncraftCNguide/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
-- [ ] [Taking the tower (level 8)](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
-- [ ] [Elemental Exercise ( level 11)](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
-- [ ] [Arachnids' Ascent ( level 14 )](/WynncraftCNguide/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html)
+- [ ] [Infested Plants (level 4)](/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)
+- [ ] [Mushroom Man (level 6)](/quests/lvl1-10/level%206%20-%20Mushroom%20Man.html)
+- [ ] [Taking the tower (level 8)](/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
+- [ ] [Elemental Exercise ( level 11)](/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
+- [ ] [Arachnids' Ascent ( level 14 )](/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html)
 
 以上任务线你有在完成了吗？在做完最后一个任务后，你将解锁你旅途上的第二个地牢！当然这个时候大概是没有做完的...
 
@@ -483,7 +483,7 @@ Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，�
 
 这里有一个非常适合升级的刷怪点
 
-首先需要先做好[前置任务](/WynncraftCNguide/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html)才能进去
+首先需要先做好[前置任务](/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html)才能进去
 
 墓地刷怪点`[290 42 -2062]`足够你刷很久，但是要注意，怪物强度很高！
 
@@ -497,7 +497,7 @@ Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，�
 
 在此之前，也许你的等级不是很够，你可以先看看上面那个超级刷怪点？
 
-首先，你要先做好[前置任务](/WynncraftCNguide/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html)
+首先，你要先做好[前置任务](/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html)
 
 非常短，很快就能做好！
 
@@ -509,7 +509,7 @@ Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，�
 
 这个非常重要啦！
 
-当你打到25级后，可以直接去做[这个任务](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html)了
+当你打到25级后，可以直接去做[这个任务](/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html)了
 
 当做完后，你的所有存档都可以直接解锁技能树洗点功能
 

@@ -9,7 +9,7 @@ icon: skull
 解锁RAID - Orphion's Nexus of Light
 :::
 
-前置任务: [Realm of Light IV - Finding the Light (level 71)](/WynncraftCNguide/quests/lvl71-80/level%2071%20-%20Realm%20of%20Light%20IV%20-%20Finding%20the%20Light.html)
+前置任务: [Realm of Light IV - Finding the Light (level 71)](/quests/lvl71-80/level%2071%20-%20Realm%20of%20Light%20IV%20-%20Finding%20the%20Light.html)
 
 1.与Lari对话`[-1053 46 -4363]`
 

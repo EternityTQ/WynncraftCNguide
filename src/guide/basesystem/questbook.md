@@ -4,7 +4,7 @@ icon: book
 ---
 
 :::tip 这一章是介绍任务书的用法！
-如果你需要任务攻略，可以调到[这里](/WynncraftCNguide/quests/)
+如果你需要任务攻略，可以调到[这里](/quests/)
 :::
 
 在2.0.3版本更新后，任务书的格式有了很大改动！
@@ -189,7 +189,7 @@ BOSS祭坛通常较为隐蔽，在这之前如果没有wiki的话
 
 一般都会在附近掉落
 
-关于BOSS祭坛，你可以看看[这里](/WynncraftCNguide/guide/basesystem/bossaltar.html)？
+关于BOSS祭坛，你可以看看[这里](/guide/basesystem/bossaltar.html)？
 
 ## Lootrun Camp
 
@@ -201,7 +201,7 @@ BOSS祭坛通常较为隐蔽，在这之前如果没有wiki的话
 
 如果你不识路，强烈建议使用这个功能来找到camp
 
-关于lootrun，你可以看[这一章](/WynncraftCNguide/guide/lootrun.html)
+关于lootrun，你可以看[这一章](/guide/lootrun.html)
 
 
 

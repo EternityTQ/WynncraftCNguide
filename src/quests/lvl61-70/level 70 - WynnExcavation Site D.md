@@ -6,7 +6,7 @@ icon: bookmark
 # WynnExcavation Site D(level 70)
 <span style="font-size: 25px;">**Wynn考古集团 地点D**</span>
 
-前置任务：[WynnExcavation Site C](/WynncraftCNguide/quests/lvl51-60/level%2055%20-%20WynnExcavation%20Site%20C%20.html)
+前置任务：[WynnExcavation Site C](/quests/lvl51-60/level%2055%20-%20WynnExcavation%20Site%20C%20.html)
 
 
 1 在Troms城堡`[-931,106,-939]`里和英国顾问Carlos交谈(需要有完成WynnExcavation	Site	A、WynnExcavation	Site B、WynnExcavation	Site	C任务的3个陶瓷碎片“Crystal Shards”)

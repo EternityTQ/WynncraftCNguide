@@ -33,7 +33,7 @@ T1-T2箱子分布在野外，箱子数量多，但是箱子质量不是很高，
 
 ![](/assets/img/lootrun1.jpg)
 
-T3-T4箱子均在洞穴内，你可以在任务书上轻松找到洞穴的位置，不妨看看[这里](/WynncraftCNguide/guide/basesystem/questbook.html#cave)
+T3-T4箱子均在洞穴内，你可以在任务书上轻松找到洞穴的位置，不妨看看[这里](/guide/basesystem/questbook.html#cave)
 
 需要注意的是，现在每一个T3/T4箱子都有开启条件，一般来说都是在附近击杀怪物解锁。
 

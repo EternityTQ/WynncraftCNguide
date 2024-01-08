@@ -2,7 +2,7 @@
 <span style="font-size: 25px;">**翼之翱翔 Part I**</span>
 
 前置任务：
-+ [The Envoy Part II (Level 89)](/WynncraftCNguide/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html)
++ [The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html)
 
 1.进入位于`[-1731 134 -3267]`的作坊，触发剧情
 

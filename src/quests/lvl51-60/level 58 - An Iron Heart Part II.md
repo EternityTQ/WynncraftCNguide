@@ -6,7 +6,7 @@ icon: bookmark
 # An Iron Heart Part II(level 58)
 <span style="font-size: 25px;">**钢铁之心**</span>
 
-前置任务：[An Iron Heart Part I](/WynncraftCNguide/quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html)
+前置任务：[An Iron Heart Part I](/quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html)
 
 >接受我的贿赂?/还是说出真相!
 

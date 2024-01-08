@@ -88,7 +88,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 ![](/assets/img/grindspot4.jpg)
 
-大爹级刷怪点，但是有[前置任务](/WynncraftCNguide/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html)
+大爹级刷怪点，但是有[前置任务](/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html)
 
 怪的质量挺高的，有远程
 

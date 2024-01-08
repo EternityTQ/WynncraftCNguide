@@ -2,7 +2,7 @@
 # Lost Soles(level 66)
 <span style="font-size: 25px;">**遗失的鞋底**</span>
 
-前置：[Beneath the Depths](/WynncraftCNguide/quests/lvl51-60/level%2060%20-%20Beneath%20the%20Depths.html)
+前置：[Beneath the Depths](/quests/lvl51-60/level%2060%20-%20Beneath%20the%20Depths.html)
 
 1 通过`[-791 84 -657]`的通道进入Dernel Jungle，把Abysso Galoshes(Beneath the Depths任务奖励)给Ferndor`[-915 33 -750]`(本任务有很多解谜内容，有兴趣的可以不看攻略)
 

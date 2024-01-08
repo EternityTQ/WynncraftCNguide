@@ -17,9 +17,9 @@
 
 在开始流程前，先去准备好这三样东西
 
-[Memory Paranoia](/WynncraftCNguide/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html)中在儿子射壁炉的场景拿到汤勺
+[Memory Paranoia](/quests/lvl61-70/level%2067%20-%20Memory%20Paranoia.html)中在儿子射壁炉的场景拿到汤勺
 
-[The Bigger Picture](/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html)中先去洞穴入口`[-201 37 -4553]`进入洞穴，在`[-167 47 -4394]`缩小自己后，再去`[-305 91 -7705]`拿到Tiny Mushroom
+[The Bigger Picture](/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html)中先去洞穴入口`[-201 37 -4553]`进入洞穴，在`[-167 47 -4394]`缩小自己后，再去`[-305 91 -7705]`拿到Tiny Mushroom
 
 然后要去**Skien Island**拿到一幅画`[371 84 -3512]`，注意入口在顶楼`[389 87 -3527]`，建议直接TP到顶楼然后进去，有个特别亮的石头墙是地图，直接穿过去就行
 
@@ -356,7 +356,7 @@
 进入传送装置后，所有人都会被传送至**Rooster Island**的地下室
 
 :::tip
-如果你没做[Cluck Cluck（level 23）](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html)任务，那么你在这个地方将会被困住
+如果你没做[Cluck Cluck（level 23）](/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html)任务，那么你在这个地方将会被困住
 
 除非使用传送卷轴或者/kill
 

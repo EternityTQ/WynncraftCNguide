@@ -48,11 +48,11 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
 :::
 + ⑤：武器词条，最关键的部分。这些词条的数值会被鉴定所影响，在安装了wynntils模组后，按住shift则可以看到这些词条的浮动范围。
 :::tip 关于词条作用
-可以看看[这一章](/WynncraftCNguide/guide/identification.html)
+可以看看[这一章](/guide/identification.html)
 :::
 + ⑥：武器粉槽，代表这个武器至多能装备多少个粉末
 :::tip 关于粉末系统
-可以看看[这一章](/WynncraftCNguide/guide/basesystem/powder.html)
+可以看看[这一章](/guide/basesystem/powder.html)
 :::
 + ⑦：武器的品质，右侧的数字为鉴定费用
 :::tip

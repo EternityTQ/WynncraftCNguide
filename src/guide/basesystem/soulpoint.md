@@ -16,7 +16,7 @@ icon: ghost
 
 你可以查看灵魂点数的情况来查看当前的掉率
 
-对于Soul Point Regen词条，可以看[这一章](/WynncraftCNguide/guide/identification.html#soul-point-regen)
+对于Soul Point Regen词条，可以看[这一章](/guide/identification.html#soul-point-regen)
 
 :::danger
 非常不建议在当前灵魂点数低于一半的情况下继续游戏！

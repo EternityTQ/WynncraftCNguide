@@ -6,7 +6,7 @@ icon: book-open
 游戏中期你可能会在意：指南针里那个Mastery Tome到底是什么玩意？
 ![](/assets/img/tome1.jpg)
 
-Mastery Tome系统会在做完[Realm of Light I - The Worm Holes (level 54)](/WynncraftCNguide/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)任务后解锁
+Mastery Tome系统会在做完[Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)任务后解锁
 
 打开Mastery Tome后你会看到Tome装备页面
 
@@ -80,7 +80,7 @@ add:角色仓库更新后，每个角色soul bound的tome只能存在该角色�
   最高52点额外中性伤害+最高52点HP(注：这一条数据可能不准确)
 
 :::tip tome来源
-大部分强力tome的来源均为[RAID](/WynncraftCNguide/guide/raid.html)
+大部分强力tome的来源均为[RAID](/guide/raid.html)
 
 notg会产出1级的防具tome和武器tome(品质最低为legendary 最高fabled)
 

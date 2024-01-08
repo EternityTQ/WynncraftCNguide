@@ -107,7 +107,7 @@ tils会帮你自动折算为数值填入
 :::tip
 对于下方的Trade Shares，对你来说应该不是特别重要的内容。
 
-如果你实在在意，可以跳到[这一章](/WynncraftCNguide/guide/VIP.html#sliverbull-share)去了解一下
+如果你实在在意，可以跳到[这一章](/guide/VIP.html#sliverbull-share)去了解一下
 :::
 
 :::warning

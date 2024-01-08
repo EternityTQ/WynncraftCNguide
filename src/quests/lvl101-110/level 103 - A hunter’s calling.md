@@ -16,12 +16,12 @@ icon: exclamation
 
 前置地牢：
 
-+ [Eldritch Outlook](/WynncraftCNguide/guide/dungeon.html#eldritch-outlook)
++ [Eldritch Outlook](/guide/dungeon.html#eldritch-outlook)
 
 前置任务：
-+ [Dwarves and Doguns Part II(level 92)](/WynncraftCNguide/quests/lvl91-100/level%2092%20-%20Dwarves%20and%20Doguns%20Part%20II.html)
++ [Dwarves and Doguns Part II(level 92)](/quests/lvl91-100/level%2092%20-%20Dwarves%20and%20Doguns%20Part%20II.html)
   
-+ [An Iron Heart Part II(level 58)](/WynncraftCNguide/quests/lvl51-60/level%2058%20-%20An%20Iron%20Heart%20Part%20II.html)
++ [An Iron Heart Part II(level 58)](/quests/lvl51-60/level%2058%20-%20An%20Iron%20Heart%20Part%20II.html)
 
 :::tip
 为了提高任务效率，建议你在任务开始前现在包内预留下列城市的传送卷轴

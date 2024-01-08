@@ -10,9 +10,9 @@ icon: skull
 :::
 
 前置任务：
-+ [The Thanos Depository (level 81)](/WynncraftCNguide/quests/lvl81-90/level%2081%20-%20The%20Thanos%20Depository.html)
-+ [Dwarves and Doguns Part IV (level 94)](/WynncraftCNguide/quests/lvl91-100/level%2094%20-%20Dwarves%20and%20Doguns%20Part%20IV.html)
-+ [The Envoy Part II (Level 89)](/WynncraftCNguide/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html)
++ [The Thanos Depository (level 81)](/quests/lvl81-90/level%2081%20-%20The%20Thanos%20Depository.html)
++ [Dwarves and Doguns Part IV (level 94)](/quests/lvl91-100/level%2094%20-%20Dwarves%20and%20Doguns%20Part%20IV.html)
++ [The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html)
 
 
 1.和**Kandon-Beda**的*General Elix*`[756 164 -4463]`对话

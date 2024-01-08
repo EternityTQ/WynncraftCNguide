@@ -1,7 +1,7 @@
 # Underice(level 43)
 <span style="font-size: 25px;">**冰层之下**</span>
 
-前置任务:[Underwater](/WynncraftCNguide/quests/lvl1-10/level%208%20%20-%20Underwater.html)
+前置任务:[Underwater](/quests/lvl1-10/level%208%20%20-%20Underwater.html)
 
 1.和<font color=00AA00>**Fredris**</font>`[157 73 -812]`在**Nesaak**镇说话 再把breathing helmet I给他(就是前置任务的奖励) 然后去Nesaak的防具商店买一个breathing helmet II
 

@@ -10,8 +10,8 @@ icon: skull
 :::
 
 前置任务：
-+ [Taking the tower](/WynncraftCNguide/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
-+ [Elemental Exercise](/WynncraftCNguide/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
++ [Taking the tower](/quests/lvl1-10/level%208%20-%20Taking%20the%20tower.html)
++ [Elemental Exercise](/quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html)
 
 1.与<font color=00AA00>**Admiral Aegis**</font> `[519 67 -1628]`对话，然后跟随他前往军营的顶层`[521 83 -1627]`再次对话
 

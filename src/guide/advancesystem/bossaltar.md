@@ -5,7 +5,7 @@ icon: skull-crossbones
 
 Boss Altar是什么?
 
-你可以通过[任务书](/WynncraftCNguide/guide/basesystem/questbook.html#boss-altar)来查找到最近的boss altar
+你可以通过[任务书](/guide/basesystem/questbook.html#boss-altar)来查找到最近的boss altar
 
 ![](/assets/img/bossaltar.jpg)
 

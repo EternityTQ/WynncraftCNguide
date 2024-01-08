@@ -60,22 +60,22 @@ icon: route
 @slidestart
 
 ## 第一面
-![](/WynncraftCNguide/assets/img/lvl91-2-1.jpg)
+![](/assets/img/lvl91-2-1.jpg)
 
 ---
 
 ## 第二面
-![](/WynncraftCNguide/assets/img/lvl91-2-2.jpg)
+![](/assets/img/lvl91-2-2.jpg)
 
 ---
 
 ## 第三面
-![](/WynncraftCNguide/assets/img/lvl91-2-3.jpg)
+![](/assets/img/lvl91-2-3.jpg)
 
 ---
 
 ## 第四面
-![](/WynncraftCNguide/assets/img/lvl91-2-4.jpg)
+![](/assets/img/lvl91-2-4.jpg)
 
 @slideend
 :::

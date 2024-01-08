@@ -9,7 +9,7 @@ icon: route
 解锁了Thanos-Rodoroc的往返隧道
 :::
 
-前置任务：[Dwarves and Doguns part I(level 91)](/WynncraftCNguide/quests/lvl91-100/level%2091%20-%20Dwarves%20and%20Doguns%20part%20I.html)
+前置任务：[Dwarves and Doguns part I(level 91)](/quests/lvl91-100/level%2091%20-%20Dwarves%20and%20Doguns%20part%20I.html)
 
 1.带着前置给的`Dogun Badge of Trust`进入会议室入口`[1372 142 -5306]`，触发剧情
 

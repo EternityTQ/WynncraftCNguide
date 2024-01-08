@@ -13,7 +13,7 @@ icon: star-of-david
 
 游戏中，绝大多数装备、武器都存在粉末槽(Powder Slot)，可于装备介绍的最底下看到
 
-你可以在任意[Powder Master](/WynncraftCNguide/guide/npcs.html#powder-master)处进行打粉
+你可以在任意[Powder Master](/guide/npcs.html#powder-master)处进行打粉
 
 粉末介绍如下：
 ![](/assets/img/powder2.jpg)

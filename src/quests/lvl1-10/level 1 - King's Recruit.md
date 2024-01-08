@@ -51,7 +51,7 @@ Common/Unique/Rare/Set/Legendary/Fabled/Mythic
 :::
 
 :::tip
-关于鉴定师，不妨看看[这里](/WynncraftCNguide/guide/npcs.html#item-identifier)?
+关于鉴定师，不妨看看[这里](/guide/npcs.html#item-identifier)?
 :::
 
 6.在鉴定完头盔并装备后，在断桥边触发剧情对话，结束后来到左手边`[-1391 50 -1554]`的树这里
@@ -85,5 +85,5 @@ Common/Unique/Rare/Set/Legendary/Fabled/Mythic
 :::
 
 :::tip 什么是传送卷轴？
-不妨看看[这里](/WynncraftCNguide/guide/npcs.html#scroll-merchant)
+不妨看看[这里](/guide/npcs.html#scroll-merchant)
 :::

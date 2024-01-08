@@ -1,7 +1,7 @@
 # Zhight Island (level 55)
 <span style="font-size: 25px;">**Zhight岛**</span>
 
-前置：[Ice Nations](/WynncraftCNguide/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
+前置：[Ice Nations](/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
 :::tip
 最好提前拿上在前置任务中获得的Climbing Helmet，同时你的装备最好不要依赖于头盔给予的点数，后面会更换
 

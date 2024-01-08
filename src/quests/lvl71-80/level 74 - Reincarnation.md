@@ -1,7 +1,7 @@
 # Reincarnation (level 74)
 <span style="font-size: 25px;">**重生**</span>
 
-前置任务:[Bob's Lost Soul](/WynncraftCNguide/quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html)、[Cluck Cluck](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html)、[Ice Nation](/WynncraftCNguide/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
+前置任务:[Bob's Lost Soul](/quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html)、[Cluck Cluck](/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html)、[Ice Nation](/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
 
 1.与在Bob'sTomb中的Batelu`[372 54 -775]`对话
 
@@ -32,5 +32,5 @@
 + Stone of Myths
 
 :::tip
-Stone of Myths可以在做完[Temple of the Legends](/WynncraftCNguide/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html)后在Temple of the Legends内兑换非常强力的75级传奇武器，曾经版本的毕业装
+Stone of Myths可以在做完[Temple of the Legends](/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html)后在Temple of the Legends内兑换非常强力的75级传奇武器，曾经版本的毕业装
 :::

@@ -54,7 +54,7 @@ Raid中的死亡并不会丢失灵魂点，且您会在这一面结束时重生�
 团队总等级上限：320
 团队人数限制：3-4
 入场费用：2 Az Runes
-前置任务：[Realm of Light I - The Worm Holes (level 54)](/WynncraftCNguide/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)
+前置任务：[Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)
 
 Notg是整个游戏流程中，最低等级限制的raid
 
@@ -145,7 +145,7 @@ wynn制作组会不定时修改部分buff数值
 团队总等级上限：500
 团队人数限制：4-6
 入场费用：3 Uth Runes
-前置任务：[Realm of Light V - The Realm of Light (level 79)](/WynncraftCNguide/quests/lvl71-80/level%2079%20-%20Realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html)
+前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20Realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html)
 
 Nol是整个游戏流程中，等级限制第二低的raid
 
@@ -272,7 +272,7 @@ wynn制作组会不定时修改部分buff数值
 团队总等级上限：500
 团队人数限制：4
 入场费用：4 Tol Runes
-前置任务：[The Breaking Point (level 97)](/WynncraftCNguide/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html)
+前置任务：[The Breaking Point (level 97)](/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html)
 
 Tcc是当前游戏流程内最难的raid之一
 
@@ -409,7 +409,7 @@ wynn制作组会不定时修改部分buff数值
 团队总等级上限：500
 团队人数限制：4
 入场费用：5 Tol Runes
-前置任务：[A Journey Further (level 101)](/WynncraftCNguide/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)
+前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)
 
 Tna是当前游戏流程内最难的raid之一
 

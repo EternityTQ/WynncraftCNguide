@@ -9,7 +9,7 @@ icon: magnifying-glass
 >~~由于是纯文字所以超级无聊枯燥乏味繁冗复杂，写的好累好烦好困好饿好精神好饱好吃好玩好有意思，我好懒我不想动脑子但是我又要长脑子了脑子又要爆了，看得懂就看，看不懂可以多玩一会再回来看，再看不懂就不用看了直接脑补（真的）。~~
 
 :::tip
-如果你想查找装备品质、词条介绍等内容，可以查阅[这里](/WynncraftCNguide/guide/basesystem/itemlevel.html)
+如果你想查找装备品质、词条介绍等内容，可以查阅[这里](/guide/basesystem/itemlevel.html)
 :::
 
 :::tip

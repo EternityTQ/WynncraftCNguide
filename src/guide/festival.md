@@ -141,25 +141,25 @@ The Festival of the Blizzard(冰雪节)
 
 | 序号 | NPC名称 | 坐标  | 小任务 |
 | --- | --- | ---  | --- |
-| 1 | [<font color=00AA00>**Therck**</font> ](/WynncraftCNguide/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)| `[-535 69 -1588]` | 对话完后，回**Ragni**<br>找<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话<br> 然后再回去  |
-| 2 | [<font color=00AA00>**Drucksh**</font>](/WynncraftCNguide/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html) | `[71 40 -2178]` | 对话完后，先回**Detlas**<br>找到<font color=00AA00>**Sayleros**</font>`[476, 69, -1624]`对话<br>再回去找他 |
+| 1 | [<font color=00AA00>**Therck**</font> ](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)| `[-535 69 -1588]` | 对话完后，回**Ragni**<br>找<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话<br> 然后再回去  |
+| 2 | [<font color=00AA00>**Drucksh**</font>](/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html) | `[71 40 -2178]` | 对话完后，先回**Detlas**<br>找到<font color=00AA00>**Sayleros**</font>`[476, 69, -1624]`对话<br>再回去找他 |
 | 3 | <font color=CCCCCC>**Seaskipper Captain**</font>  | `[182 35 -2274]` | 去药店买瓶`Potion of Drunkness`给他 |
-| 4 | [<font color=00AA00>**Dr. Picard**</font>](/WynncraftCNguide/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html) | `[103 90 -1200]` | 无 |
-| 5 | [<font color=00AA00>**Asher**</font>](/WynncraftCNguide/quests/lvl21-30/level%2027%20-%20Déjà%20vu.html) | `[-449 72 -1153]` | 去`[-499 83 -1154]`<br> 击杀一只Time Trouble |
-| 6 | [<font color=00AA00>**General Graken**</font>](/WynncraftCNguide/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html) | `[227 45 -1958]` | 通关一次Underworld Crypt |
+| 4 | [<font color=00AA00>**Dr. Picard**</font>](/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html) | `[103 90 -1200]` | 无 |
+| 5 | [<font color=00AA00>**Asher**</font>](/quests/lvl21-30/level%2027%20-%20Déjà%20vu.html) | `[-449 72 -1153]` | 去`[-499 83 -1154]`<br> 击杀一只Time Trouble |
+| 6 | [<font color=00AA00>**General Graken**</font>](/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html) | `[227 45 -1958]` | 通关一次Underworld Crypt |
 | 7 | <font color=00AA00>**Junes**</font> | `[876 67 -1932]` | 去`[1100 67 -1906]`的洞口击杀小怪，拿到8个`Terracotta Chunk`给他(0星材料，概率蛮低) |
-| 8 | [<font color=00AA00>**Honip**</font>](/WynncraftCNguide/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html) | `[119 40 -2175]` | 无 |
-| 9 | [<font color=00AA00>**Ope**</font>](/WynncraftCNguide/quests/lvl11-20/level%2016%20-%20Supply%20and%20Delivery.html) | `[-315 72 -1476]` | 无 |
-| 10 | [<font color=00AA00>**Nohno**</font>](/WynncraftCNguide/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html) | `[-83 45 -2497]` | 在周围的鸡打4个鸡蛋给他  |
-| 11 | [<font color=00AA00>**Caissop**</font>](/WynncraftCNguide/quests/lvl51-60/level%2053%20-%20Master%20Piece.html) | `[-1802, 55, -5190]` | 无 |
-| 12 | [<font color=00AA00>**Doan**</font>](/WynncraftCNguide/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html) | `[-213 105 -4941]` | 去`[-252 58 -4955]`的商店买个`Letvus Delight`给他 |
-| 13 | [<font color=00AA00>**Kelight**</font>](/WynncraftCNguide/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html) | `[-693 63 -976]` | 注：此条为猜测 |
-| 14 | [<font color=00AA00>**Alem**</font>](/WynncraftCNguide/quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html) | `[158 79 -373]` | 注：此条为猜测 |
-| 15 | [<font color=00AA00>**worid**</font>](/WynncraftCNguide/quests/lvl51-60/level%2052%20-%20Jungle%20Fever.html) | `[-740 80 -662]` | 注：此条为猜测 |
-| 16 | [<font color=00AA00>**Yansur**</font>](/WynncraftCNguide/quests/lvl71-80/level%2080%20-%20The%20Qira%20Hive.html) | `[372 64 -5500]` | 注：此条为猜测 |
-| 17 | [<font color=00AA00>**Chef Hamsey**</font>](/WynncraftCNguide/quests/lvl91-100/level%2096%20-%20Recipe%20for%20Disaster.html) | `[949 129 -4475]` |  无 |
-| 18 | [<font color=00AA00>**Pislo**</font>](/WynncraftCNguide/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html) | `[-205,42,-4308]` | 去找<font color=00AA00>**Airbase Attendant**</font>`[260 57 -4976]`，然后再回来对话 |
-| 19 | [<font color=00AA00>**Ragni King**</font>](/WynncraftCNguide/quests/lvl61-70/level%2070%20-%20WynnExcavation%20Site%20D.html) | `[-2950 7 -1969]` | 无 |
-| 20 | [<font color=00AA00>**Maxie**</font>](/WynncraftCNguide/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html) |  |  |
+| 8 | [<font color=00AA00>**Honip**</font>](/quests/lvl21-30/level%2028%20-%20Misadventure%20on%20the%20Sea.html) | `[119 40 -2175]` | 无 |
+| 9 | [<font color=00AA00>**Ope**</font>](/quests/lvl11-20/level%2016%20-%20Supply%20and%20Delivery.html) | `[-315 72 -1476]` | 无 |
+| 10 | [<font color=00AA00>**Nohno**</font>](/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html) | `[-83 45 -2497]` | 在周围的鸡打4个鸡蛋给他  |
+| 11 | [<font color=00AA00>**Caissop**</font>](/quests/lvl51-60/level%2053%20-%20Master%20Piece.html) | `[-1802, 55, -5190]` | 无 |
+| 12 | [<font color=00AA00>**Doan**</font>](/quests/lvl71-80/level%2074%20-%20Aquiring%20of%20Credentials.html) | `[-213 105 -4941]` | 去`[-252 58 -4955]`的商店买个`Letvus Delight`给他 |
+| 13 | [<font color=00AA00>**Kelight**</font>](/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html) | `[-693 63 -976]` | 注：此条为猜测 |
+| 14 | [<font color=00AA00>**Alem**</font>](/quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html) | `[158 79 -373]` | 注：此条为猜测 |
+| 15 | [<font color=00AA00>**worid**</font>](/quests/lvl51-60/level%2052%20-%20Jungle%20Fever.html) | `[-740 80 -662]` | 注：此条为猜测 |
+| 16 | [<font color=00AA00>**Yansur**</font>](/quests/lvl71-80/level%2080%20-%20The%20Qira%20Hive.html) | `[372 64 -5500]` | 注：此条为猜测 |
+| 17 | [<font color=00AA00>**Chef Hamsey**</font>](/quests/lvl91-100/level%2096%20-%20Recipe%20for%20Disaster.html) | `[949 129 -4475]` |  无 |
+| 18 | [<font color=00AA00>**Pislo**</font>](/quests/lvl71-80/level%2076%20-%20The%20Bigger%20Picture.html) | `[-205,42,-4308]` | 去找<font color=00AA00>**Airbase Attendant**</font>`[260 57 -4976]`，然后再回来对话 |
+| 19 | [<font color=00AA00>**Ragni King**</font>](/quests/lvl61-70/level%2070%20-%20WynnExcavation%20Site%20D.html) | `[-2950 7 -1969]` | 无 |
+| 20 | [<font color=00AA00>**Maxie**</font>](/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html) |  |  |
 | 21 |  |  |  |
 

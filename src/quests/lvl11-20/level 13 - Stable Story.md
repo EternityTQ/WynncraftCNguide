@@ -21,5 +21,5 @@ icon: exclamation
 + 解锁了马匹系统
 
 :::tip
-关于马匹，可以看看[这一章](/WynncraftCNguide/guide/basesystem/horse.html)
+关于马匹，可以看看[这一章](/guide/basesystem/horse.html)
 :::
