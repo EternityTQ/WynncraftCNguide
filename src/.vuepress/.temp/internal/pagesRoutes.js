@@ -158,6 +158,7 @@ export const pagesRoutes = [
   ["v-31aaf058","/quests/lvl81-90/level%2089%20-%20Enter%20the%20Dojo.html",{"y":"a","t":"Enter the Dojo (Level 89)"},["/quests/lvl81-90/level 89 - Enter the Dojo.html","/quests/lvl81-90/level 89 - Enter the Dojo.md",":md"]],
   ["v-049bd082","/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html",{"y":"a","t":"The Envoy Part II (Level 89)","i":"skull"},["/quests/lvl81-90/level 89 - The Envoy Part II.html","/quests/lvl81-90/level 89 - The Envoy Part II.md",":md"]],
   ["v-61c3ea20","/quests/lvl81-90/level%2090%20-%20Fantastic%20Voyage.html",{"y":"a","t":"Fantastic Voyage (Level 90)"},["/quests/lvl81-90/level 90 - Fantastic Voyage.html","/quests/lvl81-90/level 90 - Fantastic Voyage.md",":md"]],
+  ["v-2fd71356","/quests/special/Spooky%20Detlas%20Mystery.html",{"y":"a","t":"Spooky Detlas Mystery","i":"clock"},["/quests/special/Spooky Detlas Mystery.html","/quests/special/Spooky Detlas Mystery.md",":md"]],
   ["v-3acef570","/quests/lvl91-100/level%20100%20-%20A%20Journey%20Beyond.html",{"y":"a","t":"A Journey Beyond ( level 100 )","i":"exclamation"},["/quests/lvl91-100/level 100 - A Journey Beyond.html","/quests/lvl91-100/level 100 - A Journey Beyond.md",":md"]],
   ["v-1f602297","/quests/lvl91-100/level%20100%20-%20The%20Olmic%20Rune.html",{"y":"a","t":"The Olmic Rune ( level 100 )","i":"exclamation"},["/quests/lvl91-100/level 100 - The Olmic Rune.html","/quests/lvl91-100/level 100 - The Olmic Rune.md",":md"]],
   ["v-3bb3cb56","/quests/lvl91-100/level%2091%20-%20Dwarves%20and%20Doguns%20part%20I.html",{"y":"a","t":"Dwarves and Doguns part I(level 91)","i":"route"},["/quests/lvl91-100/level 91 - Dwarves and Doguns part I.html","/quests/lvl91-100/level 91 - Dwarves and Doguns part I.md",":md"]],
@@ -171,7 +172,6 @@ export const pagesRoutes = [
   ["v-a49f3e1e","/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html",{"y":"a","t":"The Breaking Point (level 97)","i":"skull"},["/quests/lvl91-100/level 97 - The Breaking Point.html","/quests/lvl91-100/level 97 - The Breaking Point.md",":md"]],
   ["v-3945520a","/quests/lvl91-100/level%2098%20-%20Royal%20Trials.html",{"y":"a","t":"Royal Trials(level 98)"},["/quests/lvl91-100/level 98 - Royal Trials.html","/quests/lvl91-100/level 98 - Royal Trials.md",":md"]],
   ["v-043e79a2","/quests/lvl91-100/level%2099%20-%20The%20Hero%20of%20Gavel.html",{"y":"a","t":"The Hero of Gavel (level 99)"},["/quests/lvl91-100/level 99 - The Hero of Gavel.html","/quests/lvl91-100/level 99 - The Hero of Gavel.md",":md"]],
-  ["v-2fd71356","/quests/special/Spooky%20Detlas%20Mystery.html",{"y":"a","t":"Spooky Detlas Mystery","i":"clock"},["/quests/special/Spooky Detlas Mystery.html","/quests/special/Spooky Detlas Mystery.md",":md"]],
   ["v-3706649a","/404.html",{"y":"p","t":""},[]],
   ["v-7d15eb83","/guide/basesystem/",{"y":"p","t":"Basesystem"},[]],
   ["v-79d3bdec","/guide/advancesystem/",{"y":"p","t":"Advancesystem"},[]],
@@ -185,6 +185,6 @@ export const pagesRoutes = [
   ["v-69b5d541","/quests/lvl61-70/",{"y":"p","t":"Lvl61 70"},[]],
   ["v-6b6ab1a1","/quests/lvl71-80/",{"y":"p","t":"Lvl71 80"},[]],
   ["v-6d1f8e01","/quests/lvl81-90/",{"y":"p","t":"Lvl81 90"},[]],
-  ["v-6bb4cab6","/quests/lvl91-100/",{"y":"p","t":"Lvl91 100"},[]],
   ["v-38f78afb","/quests/special/",{"y":"p","t":"Special"},[]],
+  ["v-6bb4cab6","/quests/lvl91-100/",{"y":"p","t":"Lvl91 100"},[]],
 ]

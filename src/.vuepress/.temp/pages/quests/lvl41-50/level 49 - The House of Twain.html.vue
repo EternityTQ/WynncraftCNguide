@@ -1,9 +1,9 @@
 <template><div><h1 id="the-house-of-twain-level-49" tabindex="-1"><a class="header-anchor" href="#the-house-of-twain-level-49" aria-hidden="true">#</a> The House of Twain(level 49)</h1>
 <p><span style="font-size: 25px;"><strong>吐温凶宅</strong></span></p>
 <blockquote>
-<p>万圣节特殊任务，在做这个任务之前，请自备若干个绿宝石或者绿帽子Ghostly Cap。</p>
+<p>万圣节特殊任务，在做这个任务之前，请自备若干个绿宝石或者<font color=00AA00>绿帽子</font>Ghostly Cap。</p>
 </blockquote>
-<p>1.和<em>Twendle</em><code v-pre>[12 76 -456]</code>说话</p>
+<p>1.和<font color=00AA00><strong>Twendle</strong></font><code v-pre>[12 76 -456]</code>说话</p>
 <p>2.做一个<code v-pre>Ghostly Cap</code>，并在门口的鉴定师鉴定</p>
 <blockquote>
 <p>如果你已经有了可以跳过这一步</p>
@@ -24,7 +24,7 @@
 <p>注意要戴上Ghostly Cap</p>
 <p>洞窟内的密码为5732</p>
 </div>
-<p>5.把<code v-pre>Twain's Journal</code>带回给<em>Twendle</em></p>
+<p>5.把<code v-pre>Twain's Journal</code>带回给<font color=00AA00><strong>Twendle</strong></font></p>
 <p>奖励</p>
 <ul>
 <li>45000 经验值</li>

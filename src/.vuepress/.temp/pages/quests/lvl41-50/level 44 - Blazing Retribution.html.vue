@@ -1,7 +1,7 @@
 <template><div><h1 id="blazing-retribution-level-44" tabindex="-1"><a class="header-anchor" href="#blazing-retribution-level-44" aria-hidden="true">#</a> Blazing Retribution (level 44)</h1>
 <p><span style="font-size: 25px;"><strong>复仇之焰</strong></span></p>
-<p>1.和<em>Piere</em><code v-pre>[-1851 56 -4959]</code>对话</p>
-<p>2.和<em>Jackson探长</em>汇报情况<code v-pre>[-1731 53 -4836]</code></p>
+<p>1.和<font color=00AA00><strong>Piere</strong></font><code v-pre>[-1851 56 -4959]</code>对话</p>
+<p>2.和<font color=00AA00><strong>Jackson探长</strong></font>汇报情况<code v-pre>[-1731 53 -4836]</code></p>
 <p>3.前往两个兽人营地寻找线索</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -11,7 +11,7 @@
 <figure><img src="@source/.vuepress/public/assets/img/lvl44-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>只需要进入黄圈的房子，看一眼绿色粒子的东西触发剧情就可以走了。</p>
 </div>
-<p>4.和<em>Jackson探长</em>汇报你的发现</p>
+<p>4.和<font color=00AA00><strong>Jackson探长</strong></font>汇报你的发现</p>
 <p>5.找到兽人在池塘里隐藏的营地<code v-pre>[-1822 49 -4903]</code></p>
 <blockquote>
 <p>你没看错 就是那个有名字的cave</p>
@@ -22,7 +22,7 @@
 <blockquote>
 <p>发射的火球可以射爆 注意不要被打到了</p>
 </blockquote>
-<p>9.回去找<em>jackson探长</em>交差</p>
+<p>9.回去找<font color=00AA00><strong>jackson探长</strong></font>交差</p>
 <p>奖励</p>
 <ul>
 <li>38000 经验值</li>

@@ -5,13 +5,13 @@
 <p>接受我的贿赂?/还是说出真相!</p>
 </blockquote>
 <p>1.在Olux找到Detective Hart<code v-pre>[-1744 66 -5478]</code></p>
-<p>2.跟着路找到Daxe<code v-pre>[-1924 55 -5466]</code>，跟他对话触发一系列剧情</p>
+<p>2.跟着路找到<font color=00AA00><strong>Daxe</strong></font><code v-pre>[-1924 55 -5466]</code>，跟他对话触发一系列剧情</p>
 <p>3.顺着路来到傀儡工厂<code v-pre>[-2119 55 -5557]</code>，手持前置任务中获得的Mechanical Reactor与守门傀儡交互</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>如果你弄丢了Mechanical Reactor，你可以回到前置任务中的Duvale<code v-pre>[-1620 51 -4974]</code>，找他对话重新获取一个</p>
+<p>如果你弄丢了Mechanical Reactor，你可以回到前置任务中的<font color=00AA00><strong>Duvale</strong></font><code v-pre>[-1620 51 -4974]</code>，找他对话重新获取一个</p>
 </div>
-<p>4.和屋子内的<em>Urelix</em>对话</p>
+<p>4.和屋子内的<font color=00AA00><strong>Urelix</strong></font>对话</p>
 <p>5.拉下<code v-pre>[-2117 57 -5574]</code>的拉杆，然后门外的铁门会打开</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -23,9 +23,9 @@
 <blockquote>
 <p>那个躲避激光的上升环节伤害低得要死...甚至可以挂机</p>
 </blockquote>
-<p>9.冲进去实验室最里面跟Dr. Urelix对话</p>
-<p>10.分歧点：如果你接受Dr.Urelx的贿赂,继续和他对话，你会拿到Shameful Greaves，loot bonus非常高的裤子</p>
-<p>如果你出去(往黑色方块那里走)回去找<em>Detective Hart</em>你会拿到Greaves of honor，xp bonus非常高的裤子</p>
+<p>9.冲进去实验室最里面跟<font color=00AA00><strong>Dr. Urelix</strong></font>对话</p>
+<p>10.分歧点：如果你接受<font color=00AA00><strong>Dr.Urelx</strong></font>的贿赂,继续和他对话，你会拿到Shameful Greaves，loot bonus非常高的裤子</p>
+<p>如果你出去(往黑色方块那里走)回去找<font color=00AA00><strong>Detective Hart</strong></font>你会拿到Greaves of honor，xp bonus非常高的裤子</p>
 <p>奖励</p>
 <ul>
 <li>160000 经验</li>

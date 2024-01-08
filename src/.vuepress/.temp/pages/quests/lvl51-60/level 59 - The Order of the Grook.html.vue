@@ -8,12 +8,12 @@
 <blockquote>
 <p>不要忘了可以从Selchar前往绝大部分岛屿</p>
 </blockquote>
-<p>1 在<strong>Mage Island</strong>和<em>Seasum</em><code v-pre>[940 77 -2866]</code>对话</p>
-<p>2 进入房间，拿Invitation Letter并交还给Seasum<code v-pre>[940 77 -2866]</code></p>
+<p>1 在<strong>Mage Island</strong>和<font color=00AA00><strong>Seasum</strong></font><code v-pre>[940 77 -2866]</code>对话</p>
+<p>2 进入房间，拿Invitation Letter并交还给<font color=00AA00><strong>Seasum</strong></font><code v-pre>[940 77 -2866]</code></p>
 <p>3 在<code v-pre>[893 37 -2777]</code>找到魔法学院的船</p>
 <p>4 等待和Boat Captain的对话结束后上船</p>
 <p>5 找到<code v-pre>[6372 15 4513]</code>处的隐藏洞口进入</p>
-<p>6 和<em>Cidre</em><code v-pre>[6710 37 4444]</code>对话，获得Wand Vocher和Magical Book Vocher</p>
+<p>6 和<font color=00AA00><strong>Cidre</strong></font><code v-pre>[6710 37 4444]</code>对话，获得Wand Vocher和Magical Book Vocher</p>
 <p>7 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，此处选择的内容影响任务奖励，如下表</p>
 <table>
 <thead>
@@ -106,7 +106,7 @@
 <li>242500 经验</li>
 <li>640/896/1728/2048 绿宝石</li>
 <li>允许使用 magic tunnel fast travel</li>
-<li>1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品)</li>
+<li>1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时长会用在毕业配装内)</li>
 </ul>
 </div></template>
 

@@ -4,11 +4,11 @@
 <blockquote>
 <p>建议走位风骚的人做，带上足够血药。</p>
 </blockquote>
-<p>1.和<strong>Iboju Village</strong>的<em>worid</em><code v-pre>[-740 80 -662]</code>交谈</p>
-<p>2.和<em>Detlas's Banker</em><code v-pre>[497 67 -1559]</code>交谈</p>
+<p>1.和<strong>Iboju Village</strong>的<font color=00AA00><strong>worid</strong></font><code v-pre>[-740 80 -662]</code>交谈</p>
+<p>2.和<font color=00AA00><strong>Detlas's Banker</strong></font><code v-pre>[497 67 -1559]</code>交谈</p>
 <p>3.进入<strong>Detlas' Emerald Stash</strong>(就在银行家旁边的铁门)。</p>
-<p>4.和<strong>detlas</strong>银行地下的<em>worid</em>交谈</p>
-<p>5.进入Almuj's Emerald Labyrinth，并找到Almuj Banker与他交谈。</p>
+<p>4.和<strong>detlas</strong>银行地下的<font color=00AA00><strong>worid</strong></font>交谈</p>
+<p>5.进入Almuj's Emerald Labyrinth，并找到<font color=00AA00><strong>Almuj Banker</strong></font>与他交谈。</p>
 <figure><img src="@source/.vuepress/public/assets/img/lvl52-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <figure><img src="@source/.vuepress/public/assets/img/lvl52-2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <figure><img src="@source/.vuepress/public/assets/img/lvl52-3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -19,7 +19,7 @@
 <p class="hint-container-title">提示</p>
 <p>迷宫的守卫攻击血量都极高，小心不要被打到，最好一气呵成</p>
 </div>
-<p>6.和<strong>Almuj</strong>的<em>worid</em><code v-pre>[956 76 -1961]</code>交谈。</p>
+<p>6.和<strong>Almuj</strong>的<font color=00AA00><strong>worid</strong></font><code v-pre>[956 76 -1961]</code>交谈。</p>
 <p>奖励</p>
 <ul>
 <li>86250经验</li>
