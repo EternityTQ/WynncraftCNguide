@@ -1,8 +1,6 @@
 <template><div><div class="hint-container tip">
 <p class="hint-container-title">当前节日</p>
-<figure><img src="/assets/img/festival.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>The Festival of the Blizzard(冰雪节)</p>
-<p>节日时间(GMT +8) 2023/12/16 03:00~2024/01/08 08:00</p>
+<p>当前没有正在举办中的节日</p>
 </div>
 <h2 id="总体介绍" tabindex="-1"><a class="header-anchor" href="#总体介绍" aria-hidden="true">#</a> 总体介绍</h2>
 <h3 id="举办时间" tabindex="-1"><a class="header-anchor" href="#举办时间" aria-hidden="true">#</a> 举办时间</h3>
@@ -47,6 +45,10 @@
 <p class="hint-container-title">我怎么没有每周任务？</p>
 <p>每周任务需要加入公会才会自动接取</p>
 <p>如果你还没有公会，快点在活动期间找一个加吧！</p>
+</div>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>以下内容已过期，仅做留档</p>
 </div>
 <h2 id="_2023-冰雪节" tabindex="-1"><a class="header-anchor" href="#_2023-冰雪节" aria-hidden="true">#</a> 2023 - 冰雪节</h2>
 <h3 id="活动介绍" tabindex="-1"><a class="header-anchor" href="#活动介绍" aria-hidden="true">#</a> 活动介绍</h3>

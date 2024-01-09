@@ -4,11 +4,7 @@ icon: ice-cream
 ---
 
 :::tip 当前节日
-![](/assets/img/festival.jpg)
-
-The Festival of the Blizzard(冰雪节)
-
-节日时间(GMT +8) 2023/12/16 03:00~2024/01/08 08:00
+当前没有正在举办中的节日
 :::
 ## 总体介绍
 
@@ -65,6 +61,10 @@ The Festival of the Blizzard(冰雪节)
 如果你还没有公会，快点在活动期间找一个加吧！
 :::
 
+
+:::danger
+以下内容已过期，仅做留档
+:::
 ## 2023 - 冰雪节
 ### 活动介绍
 
