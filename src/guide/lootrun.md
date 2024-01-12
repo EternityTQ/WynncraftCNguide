@@ -377,7 +377,7 @@ Static增益**在选择时**的数值会随着轮次逐渐提高
 | <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x15        |
 | <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `增益效果`                                            | x15        |
 | <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `增益效果`                            | -          |
-| <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | -        |
+| <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | x15        |
 | <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `增益效果`                      | x15        |
 | <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `增益效果`                                          | x15        |
 | <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `增益效果`                                           | x10        |
@@ -423,7 +423,6 @@ Static增益**在选择时**的数值会随着轮次逐渐提高
 | <font color = FF5555>**Killstreak**</font> | 退出重登会直接清除所有层数 |
 | <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小 |
 | <font color = 5555FF>**Midas Touch**</font> | 消除增益同样会导致叠加层数减小 |
-| <font color = 00BB00>**Clockworker**</font>  | 游戏内标有上限，实际上没有上限 |
 | <font color = FFAA00>**Picky Looter**</font> | 只看真·黄信标，不看Materialism带来的附加黄信标效果 |
 
 ### 任务
