@@ -11,6 +11,10 @@
 <p class="hint-container-title">如何使用bot?</p>
 <p>在加入Discord后，你可在任一频道内通过在聊天框</p>
 </div>
+<h2 id="qq" tabindex="-1"><a class="header-anchor" href="#qq" aria-hidden="true">#</a> QQ</h2>
+<p>目前有两个国人主要的交流群</p>
+<p>Wynncraft大群一号：211320297</p>
+<p>Wynncraft大群二号：680695042</p>
 </div></template>
 
 

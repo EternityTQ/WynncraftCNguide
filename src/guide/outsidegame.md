@@ -21,3 +21,10 @@ Wynncraft中，目前老外群体基本以Discord为主要交流平台
 :::tip 如何使用bot?
 在加入Discord后，你可在任一频道内通过在聊天框
 :::
+
+## QQ
+目前有两个国人主要的交流群
+
+Wynncraft大群一号：211320297
+
+Wynncraft大群二号：680695042

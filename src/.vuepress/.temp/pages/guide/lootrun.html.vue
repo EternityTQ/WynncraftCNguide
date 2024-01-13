@@ -501,7 +501,7 @@
 <td><font color = 00BB00><strong>Clockworker</strong></font></td>
 <td>Dynamic</td>
 <td>计时器剩余的每一分钟都会获得一层 <code v-pre>增益效果</code></td>
-<td>-</td>
+<td>x15</td>
 </tr>
 <tr>
 <td><font color = FFCC00><strong>Looter</strong></font></td>
@@ -622,10 +622,6 @@
 <td>消除增益同样会导致叠加层数减小</td>
 </tr>
 <tr>
-<td><font color = 00BB00><strong>Clockworker</strong></font></td>
-<td>游戏内标有上限，实际上没有上限</td>
-</tr>
-<tr>
 <td><font color = FFAA00><strong>Picky Looter</strong></font></td>
 <td>只看真·黄信标，不看Materialism带来的附加黄信标效果</td>
 </tr>
@@ -744,12 +740,19 @@
 <p>因此，<strong>非常不推荐满级前的玩家尝试挑战lr</strong></p>
 <p>请在拥有比较强力的神话武器，或是比较高超的技术再来挑战！</p>
 </div>
-<h4 id="配装要求" tabindex="-1"><a class="header-anchor" href="#配装要求" aria-hidden="true">#</a> 配装要求</h4>
+<h4 id="配装要求-游戏前准备" tabindex="-1"><a class="header-anchor" href="#配装要求-游戏前准备" aria-hidden="true">#</a> 配装要求&amp;游戏前准备</h4>
 <hr>
 <p>最好是拥有一定的生存能力(高额ehp/优秀的自回能力)，同时也要有一定的输出</p>
 <p>如果二者缺少之一，可能会导致挑战失败 ( 输出不足导致超时 / 生存不足导致被秒杀 )</p>
 <p>当前版本下，法师、战士是比较吃香的lr职业，萨满、刺客其次，弓手非常乏力(缺少生存能力)</p>
 <p>对于新手来说，强烈推荐练一个战士职业，起步成本非常低！</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>如果你的build非常缺少mr</p>
+<p>你可以考虑使用mr消耗品来代替，正常在游玩过程中的箱子也能开到</p>
+</div>
+<p>如果你实在组不起理想中的build，你还可以考虑使用消耗品来代替，就像上面的例子一样</p>
+<p>这里的消耗品包括但不限于 药水、食物、卷轴等等...</p>
 <h4 id="信标思路" tabindex="-1"><a class="header-anchor" href="#信标思路" aria-hidden="true">#</a> 信标思路</h4>
 <hr>
 <p>这里将会根据优先级来介绍信标的抓位</p>
@@ -800,36 +803,16 @@
 <li>最后，如果你的职业的位移手段非常差劲(比如萨满)，那么你还得考虑将移动速度抓到上限(400%)来避免跑到超时</li>
 </ul>
 <p>还有就是生命窃取非常废，最好别拿。</p>
-<h4 id="运营思路" tabindex="-1"><a class="header-anchor" href="#运营思路" aria-hidden="true">#</a> 运营思路</h4>
+<h4 id="游戏过程-运营思路" tabindex="-1"><a class="header-anchor" href="#游戏过程-运营思路" aria-hidden="true">#</a> 游戏过程&amp;运营思路</h4>
 <hr>
 <p>LR非常考验你的运营水平</p>
-<p>对于新LR中，短途已经不吃香，最好能把轮次数叠到20+以上拿满任务，同时吃到大量的pulls</p>
-<p>可以将整轮游戏分为3个阶段：</p>
-<ul>
-<li>
-<p>阶段一：1~10轮</p>
-<p>在这个阶段，需要为阶段二做铺垫，同时可以的话请不要在彩虹前完成任务</p>
-<p>如果非要完成，请在下一次接灰信标前吃一个青信标以保证任务选数</p>
-<p>这个阶段你的主要目标是提高信标选数→获得彩虹信标→吃到青+白，同时你还需要铺好一定的boon</p>
-</li>
-<li>
-<p>阶段二：11~29轮</p>
-<p>这一阶段请不留余力地将重心放在完成任务上</p>
-<p>在灰信标消失轮次再次放宽后，这个阶段算是能比较安稳的完成</p>
-</li>
-<li>
-<p>阶段三： 30+轮</p>
-<p>能进入这个阶段一般来说已经顺利启动了(拿到了合适的任务)</p>
-<p>一般就是要想办法拖延回合数，拿到更多的pulls</p>
-<p>有两种增加回合数的办法：</p>
-<p>1.Cleansing Ritual任务，见到就拿，可以让你无条件拖到100轮上限</p>
-<p>2.红绿交替，非常坐牢，需要时刻注意不要浪费带时间的轮次数</p>
-<p>这个阶段如果你选了Cleansing Ritual，就可以不用信标选数，反之你需要考虑一下你的青红绿信标的情况：</p>
-<p>如果青红绿刷在同一轮，且下一轮一起消失，则你需要尽量降低你的信标选数，好打乱青红绿的规律</p>
-<p>如果青红/青绿刷在同一轮，且下一轮刷出绿/红，则你可以根据你想吃青+红还是青+绿来降低或保持信标选数</p>
-<p>如果青刷在同一轮，且下一轮刷出绿、红，则你应当尽量保持信标选数，以防止信标规律被打乱(这是最佳情况)</p>
-</li>
-</ul>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>此处待更新</p>
+<p>此处待更新</p>
+<p>此处待更新</p>
+<p>此处待更新</p>
+</div>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>在没有<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>或者<font color='AA00AA'> <strong>Equilibrium</strong> </font>的情况下，都不建议跑到100轮</p>
@@ -863,7 +846,7 @@
 </tr>
 <tr>
 <td><font color='5555FF'> <strong>Orphion's Grace</strong> </font></td>
-<td>废，千万别拿，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 如果你能保证一直不下线的话，其提供的额外增益数值能帮助你更好地完成挑战，有利于减小挑战风险</td>
+<td>如果你对挑战感到吃力的话，这个任务务必一定要拿，它能很好的降低你的挑战难度，从而减小挑战失败的风险</td>
 </tr>
 <tr>
 <td><font color='AA00AA'> <strong>Cleansing Ritual</strong> </font></td>
@@ -875,7 +858,7 @@
 </tr>
 <tr>
 <td><font color='AA00AA'> <strong>Inner Peace</strong> </font></td>
-<td>废，千万别拿，当前版本有BUG，离线重登后会导致该任务效果失效 <br> 但是如果你能保证一直不下线的话，其效果会使怪物抗性上限减半<br>(84%-&gt;42%)，其实也算是非常强力的效果</td>
+<td>如果你想提高最终奖励同时降低挑战难度，可以尝试这个任务。<br><font color='AA00AA'> <strong>Inner Peace</strong> </font>最大的作用就是可以使怪物抗性上限减半，非常强力。</td>
 </tr>
 <tr>
 <td><font color='00BB00'> <strong>Backup Beat</strong> </font></td>

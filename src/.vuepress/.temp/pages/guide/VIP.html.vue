@@ -113,9 +113,11 @@
 <p>你在当前线路将会收到通知</p>
 <figure><img src="/assets/img/bombbell.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <h2 id="sliverbull-share" tabindex="-1"><a class="header-anchor" href="#sliverbull-share" aria-hidden="true">#</a> SliverBull &amp; Share</h2>
-<p>类似于月卡机制</p>
 <p>在中国玩家群体中，通常称为&quot;银牛&quot;</p>
-<p>主要效果如下：</p>
+<p>官网出售价格为5刀一张</p>
+<p>银牛是游戏中唯一一个可用现实货币购买的<strong>可交易</strong>道具</p>
+<p>其可以用来激活银牛订阅服务，一张银牛可激活<strong>14天</strong>的订阅服务</p>
+<p>银牛订阅主要效果如下：</p>
 <ul>
 <li>降低市场税收至2%</li>
 <li>可以顺便增幅公会奖励</li>
@@ -124,8 +126,14 @@
 <li>合成饰品时只需要三合一而非五合一</li>
 <li>活动期间的免费活动饰品箱可以双倍获取</li>
 </ul>
-<p>订阅价格是8刀一个月，80刀一年</p>
-<p>Share价格是5刀一个，一个Share可以在游戏中订阅2周的SliverBull</p>
+<p>在官网订阅价格是8刀<strong>一个月</strong>，80刀一年</p>
+<p>在部分促销活动中，游戏内使用银牛激活订阅服务将会额外赠送3天时长</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>游戏内，可以重复进行订阅，其将会延续增加剩余订阅时长</p>
+<p>每当你连续保持银牛订阅状态达到31天，你将会获赠一张不可交易的银牛</p>
+<p>其不可以挂在交易市场上出售也不可以激活订阅服务，但仍可以在银牛商城购买游戏道具</p>
+</div>
 <div class="hint-container warning">
 <p class="hint-container-title">非常不建议购买这个项目</p>
 <p>Share可以在游戏内通过le购买</p>
@@ -143,8 +151,8 @@
 <p>默认会直接购买最低价，并且会返还多余的绿宝石。</p>
 </div>
 <h3 id="silverbull-shop" tabindex="-1"><a class="header-anchor" href="#silverbull-shop" aria-hidden="true">#</a> Silverbull Shop</h3>
-<p>在游戏内获得Share时，你可以在Silverbull Shop内购买Bomb、Crates等氪金道具</p>
-<p>其价值约等于线上商店内购买的价格</p>
+<p>在游戏中，你可以在Silverbull Shop内使用银牛来购买Bomb、Crates等氪金道具</p>
+<p>其购买价格约等于线上商店内购买的价格</p>
 <h2 id="crates" tabindex="-1"><a class="header-anchor" href="#crates" aria-hidden="true">#</a> Crates</h2>
 <p>饰品箱</p>
 <p>购买后可以在游戏内开启，跟抽卡一样</p>

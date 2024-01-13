@@ -111,7 +111,9 @@ export default sidebar({
         icon: "scroll",
         collapsible: true,
         children:"structure",
-      },"beforegame","class","developmentroute","npcs","dungeon","profession","lootrun","raid","grindspot","earnle","VIP","festival","wynntils","outsidegame","qa","support"],
+      },"class","developmentroute","npcs","dungeon","profession","lootrun","raid","grindspot","earnle","VIP","festival","wynntils","outsidegame","slang","qa","support"],
     },
+],
+"/newbie/": [
 ],
 });
