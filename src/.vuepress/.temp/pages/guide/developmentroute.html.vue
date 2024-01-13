@@ -1,7 +1,8 @@
 <template><div><div class="hint-container warning">
 <p class="hint-container-title">待施工的页面！</p>
-<p>此页面内容尚在施工</p>
-<p>请知悉！</p>
+<p>这篇文章已经暂停施工了！</p>
+<p>正在准备以全新的格式迁移到完全独立的“新手指南”页面</p>
+<p>敬请期待！</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">这篇文章是什么？</p>
