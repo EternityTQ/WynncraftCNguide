@@ -1,11 +1,11 @@
 # Memory Paranoia(level 67)
 <span style="font-size: 25px;">**偏执狂的回忆**</span>
 
-1 在Caritat Mansion前找到Atisun`[-1192 46 -5198]`
+1 在Caritat Mansion前找到<font color=00AA00>**Atisun**</font>`[-1192 46 -5198]`
 
 2 进入*Caritat Mansion*
 
-3 知悉Caritat家族的故事，和Timmy Caritat`[-1238 14 -7745]`对话
+3 知悉Caritat家族的故事，和<font color=00AA00>**Timmy Caritat**</font>`[-1238 14 -7745]`对话
 
 4 去地下室(进来右后方的位置下楼)`[-1216 12 -7694]`回收图书室钥匙
 
@@ -51,7 +51,7 @@
 
 20 探索地下室，走到最里面触发剧情
 
-21 跟Antisun说话
+21 跟<font color=00AA00>**Antisun**</font>说话
 
 奖励
 + 375000 经验

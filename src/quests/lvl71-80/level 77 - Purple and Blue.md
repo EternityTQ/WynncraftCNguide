@@ -1,9 +1,9 @@
 # Purple and Blue(level77)
 <span style="font-size: 25px;">**紫与蓝**</span>
 
-1.和*Korun*对话`[-236 34 -5224]`
+1.和<font color=00AA00>**Korun**</font>对话`[-236 34 -5224]`
 
-2.跟随*Korun*进入地下室，然后进入旁边的通道，被劝退后触发剧情
+2.跟随<font color=00AA00>**Korun**</font>进入地下室，然后进入旁边的通道，被劝退后触发剧情
 
 3.前往Nikoler的房子寻找线索`[-163 29 -5388]`
 :::tip 如何获得线索?
@@ -40,7 +40,7 @@
 
 8.将`Cosmic Stone`插入出来后面前大门的孔内，拿到中间的护身符
 
-9.回去跟*Korun*报告
+9.回去跟<font color=00AA00>**Korun**</font>报告
 
 10.手持护身符进入第二步中的地下通道
 :::tip
@@ -55,11 +55,11 @@
 
 13.小跑酷，对着绿色粒子右键就可以启用平台，一路往前就行了
 
-14.追上Nikoler
+14.追上<font color=00AA00>**Nikoler**</font>
 
 15.作出选择
 :::tabs
-@tab 1.救出Nikoler
+@tab 1.救出<font color=00AA00>**Nikoler**</font>
 逃出洞穴，然后结束剧情
 
 奖励
@@ -73,7 +73,7 @@
 + 4eb
 
 @tab 2.抢走陨石碎片
-在逃出洞穴后，你可以选择是否告诉Korun关于拿走陨石碎片的事
+在逃出洞穴后，你可以选择是否告诉<font color=00AA00>**Korun**</font>关于拿走陨石碎片的事
 
 如果你选择了如实讲述
 

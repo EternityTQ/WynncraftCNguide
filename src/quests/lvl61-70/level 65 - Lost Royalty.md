@@ -1,9 +1,9 @@
 # Lost Royalty(level 65)
-<span style="font-size: 25px;">**落魄的皇族**</span>
+<span style="font-size: 25px;">**走失的皇子**</span>
 
-1 和Troms城的Yavlis`[-848 85 -875]`说话
+1 和Troms城的<font color=00AA00>**Yavlis**</font>`[-848 85 -875]`说话
 
-2 和Troms城外的Mercenary Leader`[-804 35 -742]`交谈(在`[-736 62 -827]`的洞里)
+2 和Troms城外的<font color=00AA00>**Mercenary Leader**</font>`[-804 35 -742]`交谈(在`[-736 62 -827]`的洞里)
 
 3 到丛林神庙里`[-489 78 -889]`寻找到他们要的护身符。
 
@@ -19,11 +19,11 @@
 然后你就到了
 :::
 
-4 从骷髅右侧的暗门出来后，把护身符带回给Mercenary Leader`[-804 35 -742]`
+4 从骷髅右侧的暗门出来后，把护身符带回给<font color=00AA00>**Mercenary Leader**</font>`[-804 35 -742]`
 
 5 和国王的儿子`[-791 35 -733]`(就在旁边不用回城,墙上有按钮)交谈
 
-6 告诉Yavlis`[-848 85 -875]`这个消息
+6 告诉<font color=00AA00>**Yavlis**</font>`[-848 85 -875]`这个消息
 
 奖励
 + 290000 经验

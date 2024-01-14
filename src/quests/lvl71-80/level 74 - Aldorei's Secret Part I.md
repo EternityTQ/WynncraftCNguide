@@ -5,7 +5,7 @@ icon: bookmark
 # Aldorei's Secret Part I (level 74)
 <span style="font-size: 25px;">**精灵们的秘密 上篇**</span>
 
-1.和Aldorei村口的守卫`[-461 132 -4460]`对话
+1.和Aldorei村口的<font color=00AA00>**守卫**</font>`[-461 132 -4460]`对话
 :::tip 如何进入这个地方
 ![](/assets/img/lvl74-1.jpg)
 路线差不多长这样
@@ -13,7 +13,7 @@ icon: bookmark
 跟着走就行了！
 :::
 
-2.和在`[-547 112 -4445]`附近来回走动的Damys对话，然后给他一个面包
+2.和在`[-547 112 -4445]`附近来回走动的<font color=00AA00>**Damys**</font>对话，然后给他一个面包
 :::tip 如何制作面包?
 先在Damys附近采集Wheat Grains`[-547 112 -4426]`
 
@@ -43,7 +43,7 @@ icon: bookmark
 
 7.带着叶子回去找要面包的Damys
 
-8.沿着桥去找植物学家Fiona`[-541 106 -4538]`(拿着叶子对话！)
+8.沿着桥去找植物学家<font color=00AA00>**Fiona**</font>`[-541 106 -4538]`(拿着叶子对话！)
 
 9.在Fiona的后院帮忙解决植物，带回他的研究手册
 
@@ -74,14 +74,14 @@ icon: bookmark
 如果你这么做了...
 :::tabs
 @tab 放走Korben
-直接和Korben对话
+直接和<font color=00AA00>**Korben**</font>对话
 
 你可以收到一个 Elven Medallion
 
 可以在Collectibles Merchant`[-286, 103, -4405]`卖出得到3le
 
 @tab 举报Korben
-直接回去和Guard对话
+直接回去和<font color=00AA00>**Guard**</font>对话
 
 你会得到2le和一张收据
 
@@ -97,3 +97,9 @@ icon: bookmark
 + 0 / 8192 绿宝石
 + Elven Medallion / Receipt
 + 可以进入Aldorei Town了
+
+:::tip
+Aldorei's Secret 和 Realm of Light 两个系列任务完整讲述了世界观中“光”这一部分的世界线
+
+对剧情感兴趣的小伙伴可以注意一下剧情细节
+:::

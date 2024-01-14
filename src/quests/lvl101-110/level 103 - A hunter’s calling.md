@@ -39,14 +39,14 @@ icon: exclamation
 对于每一个任务地点，都是只要抵达指定地点就会触发地狱门反胃效果，然后传送至任务区域
 :::
 
-1.从Eldritch Outlook Dungeon门口走到底,和???`[1320 130 -424]`谈话
+1.从Eldritch Outlook Dungeon门口走到底,和<font color=00AA00>**???**</font>`[1320 130 -424]`谈话
 :::tip
 你当前角色至少必须要通关一次Eldritch Outlook才能进入大门
 :::
 
 2.去Ragni,进去传送后你要杀掉10个*Ragni Citizen*
 
-3.在Almuj后面的沙漠触发剧情`[1087 73 -1824]`，然后沿着路走，找到城市内的Almuj Citizen和旁边的Wynnexcavation Employee`[11311 85 5085]`并对话
+3.在Almuj后面的沙漠触发剧情`[1087 73 -1824]`，然后沿着路走，找到城市内的Almuj Citizen和旁边的<font color=00AA00>**Wynnexcavation Employee**</font>`[11311 85 5085]`并对话
 
 4.从NPC旁边的树叶过河,爬上带藤蔓的那颗最大的树并透过窗户看里面，看完就润
 
@@ -55,9 +55,9 @@ icon: exclamation
 注意深色橡木木板经过就会塌陷！
 :::
 
-6.回去和Amadel谈话
+6.回去和<font color=00AA00>**Amadel**</font>谈话
 
-7.去Nesaak的Ice Barrow门口触发剧情，随后和*Bak'al*对话，然后沿着路走进入以前的Nesaak,随后杀掉Theorick
+7.去Nesaak的Ice Barrow门口触发剧情，随后和<font color=00AA00>**Bak'al**</font>对话，然后沿着路走进入以前的Nesaak,随后杀掉Theorick
 
 8.去Troms挑战Corrupt of Worlds的通道触发剧情，进去后走到尽头后，先挖泥土解除封印，然后回到大洞穴，将虫子引到绿光标识处杀掉，会出来一座塔，爬上去离开即可
 
@@ -81,9 +81,9 @@ icon: exclamation
 这一步中，如果你没有绿宝石，可以通过击杀周围的怪物来获取
 :::
 
-10.去Rodoroc南部的贫民窟`[1088 21 -5035]`，走到`[1112 9 -4985]`触发剧情，和*Rodoroc Slum Citizen*对话后出来
+10.去Rodoroc南部的贫民窟`[1088 21 -5035]`，走到`[1112 9 -4985]`触发剧情，和<font color=00AA00>**Rodoroc Slum Citizen**</font>对话后出来
 
-和*Royal Advisor*对话，然后走到贫民窟尽头绿宝石块处安放炸弹，在限时内逃出来
+和<font color=00AA00>**Royal Advisor**</font>对话，然后走到贫民窟尽头绿宝石块处安放炸弹，在限时内逃出来
 
 11.去Corkus城的`[-1550 68 -2919]`的电梯 上楼2次然后直走再右转，来到`[-1502 108 -2885]`触发剧情
 
@@ -101,9 +101,9 @@ icon: exclamation
 
 建议做好十足准备后再来攻克！
 
-其中，Tasim比Aledar好打一点
+其中，二阶段的Tasim比二阶段Aledar好打一点
 
-这个最终BOSS是你上阶段先击杀的另一个人
+在你击杀Tasim/Aledar中任意一人后，存活的那个会进入二阶段且变得更强，注意元素伤害(你从五级就应该注意的)。
 :::
 
 

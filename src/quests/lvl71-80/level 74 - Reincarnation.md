@@ -3,7 +3,7 @@
 
 前置任务:[Bob's Lost Soul](/quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html)、[Cluck Cluck](/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html)、[Ice Nation](/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)
 
-1.与在Bob'sTomb中的Batelu`[372 54 -775]`对话
+1.与在Bob'sTomb中的<font color=00AA00>**Batelu**</font>`[372 54 -775]`对话
 
 2.带回下列物品：
 + Cluckles' Favourite Feather(前置任务Cluck Cluck中获得)
@@ -25,7 +25,7 @@
 实在不行记得找个人带捏
 :::
 
-4.带回`Bob's Seal of Approval`给Batelu
+4.带回`Bob's Seal of Approval`给<font color=00AA00>**Batelu**</font>
 
 奖励
 + 750000 经验值
