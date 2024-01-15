@@ -25,7 +25,7 @@
 
 4 清理完后，回去入口找守卫对话，进入吃饭环节，桌子任选
 :::tip 额外内容
-在吃饭前，你可以选择把食物分享给*Starving Prisoner*
+在吃饭前，你可以选择把食物分享给<font color=00AA00>**Starving Prisoner**</font>
 
 如果你这么做了，之后你可以在**Lexdale**触发剧情，得到24eb
 :::
