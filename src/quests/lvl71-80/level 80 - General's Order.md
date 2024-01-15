@@ -29,7 +29,7 @@
 
 10.回去和<font color=00AA00>**General Lecade**</font>汇报
 
-11.和<font color=00AA00>**Lieutenant Gren**<font>`[146 70 -5470]`对话(出来后左拐)
+11.和<font color=00AA00>**Lieutenant Gren**</font>`[146 70 -5470]`对话(出来后左拐)
 
 12.进入左边的时间机器
 
