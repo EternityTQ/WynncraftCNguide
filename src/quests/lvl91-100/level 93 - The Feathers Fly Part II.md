@@ -8,7 +8,7 @@ icon: bookmark
 前置任务：
 + [The Feathers Fly Part I(level 91)](/quests/lvl91-100/level%2091%20-%20The%20Feathers%20Fly%20Part%20I.html)
 
-1.和Ava在Corkus城南部`[-1573 86 -2762]`对话
+1.和<font color=00AA00>**Ava**</font>在Corkus城南部`[-1573 86 -2762]`对话
 
 2.再次和Ava对话，被传送至Corkus城顶部
 
@@ -25,14 +25,14 @@ icon: bookmark
 剩下一个在大厅右边的露台
 :::
 
-4.和Ava对话，跟着Ava走，停下后再次对话
+4.和<font color=00AA00>**Ava**</font>对话，跟着Ava走，停下后再次对话
 
 5.帮Ava找一件合适的衣服
 
 :::tip
 一共可以找四套衣服
 
-当你拿好衣服后，直接和Ava对话即可进入选择界面
+当你拿好衣服后，直接和<font color=00AA00>**Ava**</font>对话即可进入选择界面
 
 需要注意Power Outfit的选项在后方
 
@@ -78,7 +78,7 @@ icon: bookmark
 
 然后出来，进入盔甲商店，上楼，在`[-1647 79 -2903]`找到观众邀请函
 
-回去和Ava对话
+回去和<font color=00AA00>**Ava**</font>对话
 :::
 
 :::tip 关于支线
@@ -91,9 +91,9 @@ icon: bookmark
 若有兴趣，欢迎去查阅[Wiki](https://wynncraft.fandom.com/wiki/The_Feathers_Fly_Part_II)
 :::
 
-7.拿到邀请函后，和城堡尽头的Receptionist`[-1467 70 -2938]`对话
+7.拿到邀请函后，和城堡尽头的<font color=00AA00>**Receptionist**</font>`[-1467 70 -2938]`对话
 
-8.和Ava`[-1615 68 -2924]`对话
+8.和<font color=00AA00>**Ava**</font>`[-1615 68 -2924]`对话
 
 9.去`[-1719 173 -3348]`再次操作机器
 
@@ -105,7 +105,7 @@ icon: bookmark
 这里和前置任务是一样的，只是如果反应慢了充能速度也会慢一点，无伤大雅
 :::
 
-10.和Ava再次对话，她会把你送到Corkus城外，然后进城堡，和Ava`[-1479 69 -2924]`对话
+10.和<font color=00AA00>**Ava**</font>再次对话，她会把你送到Corkus城外，然后进城堡，和<font color=00AA00>**Ava**</font>`[-1479 69 -2924]`对话
 
 11.进入剧情，帮助Ava操控机器
 :::tip
@@ -116,9 +116,9 @@ icon: bookmark
 
 这里第一个选项随便选，无所谓
 
-13.和Maxie对话`[-1479 69 -2899]`
+13.和<font color=00AA00>**Maxie**</font>对话`[-1479 69 -2899]`
 
-14.冲到Corkus中心查看情况，然后和旁边的Efena对话
+14.冲到Corkus中心查看情况，然后和旁边的<font color=00AA00>**Efena**</font>对话
 
 15.消灭植物
 :::tip
@@ -127,7 +127,7 @@ icon: bookmark
 一直爬到最顶端对Core狂暴鸿儒即可
 :::
 
-16.醒来后，去楼下和Maxie对话
+16.醒来后，去楼下和<font color=00AA00>**Maxie**</font>对话
 
 17.回Ava的作坊找到她`[-1731 134 -3267]`
 

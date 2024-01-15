@@ -1,7 +1,7 @@
 # Beyond the Grave (Level 87)
 <span style="font-size: 25px;">**鬼门关**</span>
 
-1.和*Irlok*`[499,155,-4778]`对话
+1.和<font color=00AA00>**Irlok**</font>`[499,155,-4778]`对话
 >对话完毕后，出去即可触发剧情传送至下一步的洞门口
 
 2.去洞里调查一下`[367,30,-4923]`，一直走到最深处，然后...
@@ -31,7 +31,7 @@
 6.打败Krolton
 >拆掉中间的柱子可以加速krolton死亡，因为你已经死了一次，再死一次也无所谓
 
-7.把击败Krolton的证明带回去给Irlok
+7.把击败Krolton的证明带回去给<font color=00AA00>**Irlok**</font>
 
 奖励
 + 2100000 经验

@@ -10,14 +10,14 @@ title: Dwarves and Doguns Part IV (level 94)
 记得带前置任务中获得的`Staff of True Ice`和`Amulet of Fire Resistance`噢
 :::
 
-1.在前置任务最后的屋子`[1509 45 -5339]`二楼和Korzim对话
+1.在前置任务最后的屋子`[1509 45 -5339]`二楼和<font color=00AA00>**Korzim**</font>对话
 
 2.回Rodoroc，在`[1117 11 -5190]`触发剧情
 
 3.从下图所示的地方开始，沿着红地毯一直走，到左侧的控制室`[1142 31 -5172]`，启动开关
 ![](/assets/img/lvl94-2.jpg)
 
-4.跑出Rodoroc，在大门右侧`[7617 39 4469]`和Axelus对话，起飞，跑回多贡村
+4.跑出Rodoroc，在大门右侧`[7617 39 4469]`和<font color=00AA00>**Axelus**</font>对话，起飞，跑回多贡村
 
 5.一路杀怪，开门，到最后需要杀怪获取炮弹，装填大炮炸墙
 

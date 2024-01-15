@@ -8,20 +8,20 @@ icon: route
 解锁Selchar-Corkus的快速旅行
 :::
 
-1.跟*Olivin*在**Selchar**的喷泉旁边对话`[112 66 -3173]`
+1.跟<font color=00AA00>**Olivin**</font>在**Selchar**的喷泉旁边对话`[112 66 -3173]`
 
-2.跟*C.S.S Wavebreaker Captain*在**Selchar**的码头对话然后上船`[156 39 -3108]`
+2.跟<font color=00AA00>**C.S.S Wavebreaker Captain**</font>在**Selchar**的码头对话然后上船`[156 39 -3108]`
 
-3.跟*Corkus Delegate*`[-1385 35 -2931]`对话，参观这座城市
+3.跟<font color=00AA00>**Corkus Delegate**</font>`[-1385 35 -2931]`对话，参观这座城市
 :::tip 什么是blank powder?
-在参观中途，*Corkus Delegate*会给你4个blank powder IV
+在参观中途，<font color=00AA00>**Corkus Delegate**</font>会给你4个blank powder IV
 
 你可以查阅[这一章](/guide/basesystem/powder.html)来查看用法
 :::
 
 4.去The Five Gears Diner`[-1856 40 -3139]`,记得从城西走山路`[-1753 51 -3003]`，不要走城北的路，走不通
 
-5.跟Maxie`[-1846 41 -3147]`对话,他在暗中观察.记得多对话几次
+5.跟<font color=00AA00>**Maxie**</font>`[-1846 41 -3147]`对话,他在暗中观察.记得多对话几次
 
 6.进入通风管道，往左边走
 
@@ -35,7 +35,7 @@ icon: route
 
 11.返回一开始的入口`[-1882 40 -3146]`开启大门
 
-9.跟随Maxie进入洞穴`[-1835 41 -3138]`回到Corkus，触发剧情
+9.跟随<font color=00AA00>**Maxie**</font>进入洞穴`[-1835 41 -3138]`回到Corkus，触发剧情
 
 奖励
 + 1750000经验
