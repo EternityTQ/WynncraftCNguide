@@ -9,13 +9,13 @@ icon: route
 解锁Molten Heights的电梯
 :::
 
-1.在**Rodoroc**城内手持`1 Emerald Block`和*Lozeg*`[1021 18 -5149]`对话
+1.在**Rodoroc**城内手持`1 Emerald Block`和<font color=00AA00>**Lozeg**</font>`[1021 18 -5149]`对话
 
 2.接完任务到旁边上楼看戏
 
 3.看完后离开**Rodoroc**城，去另一地点看戏`[1522 78 -5055]`，对话会自己播放，靠近中间的火堆即可
 
-4.似乎想要制止大家的*Axelus*被抓起来了，去Rodoroc的北方监狱找到*Axelus*`[1109 26 -5230]`了解情况
+4.似乎想要制止大家的<font color=00AA00>**Axelus**</font>被抓起来了，去Rodoroc的北方监狱找到<font color=00AA00>**Axelus**</font>`[1109 26 -5230]`了解情况
 
 5.找到Axelus后，跟随他留下的纸条前往图书馆的入口`[1024 13 -5050]`
 
@@ -37,7 +37,7 @@ icon: route
 
 到尽头右侧有一个被炸开的洞，进去就行
 
-11.和联盟内的*Axelus*对话
+11.和联盟内的<font color=00AA00>**Axelus**</font>对话
 
 12.径直离开房间，通过隧道
 
@@ -84,7 +84,7 @@ icon: route
 
 14.修理完机器后，返回基地，记得右键一下刚才出来隧道的黑色地板才可以进去
 
-15.和Axelus对话
+15.和<font color=00AA00>**Axelus**</font>对话
 
 16.进入东边房间触发剧情，需要3个怪掉落物投入漏斗中
 
@@ -96,7 +96,7 @@ icon: route
 :::
 
 
-18.和**Plario**`[1379 142 -5305]`对话
+18.和<font color=00AA00>**Plario**</font>`[1379 142 -5305]`对话
 
 奖励
 + 3300000 经验

@@ -15,9 +15,9 @@ icon: skull
 + [The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html)
 
 
-1.和**Kandon-Beda**的*General Elix*`[756 164 -4463]`对话
+1.和**Kandon-Beda**的<font color=00AA00>**General Elix**</font>`[756 164 -4463]`对话
 
-2.和*Rhay*`[770 162 -4385]`对话，搭乘热气球前往Corkus，路上你可以向Rhay提问一些和地震有关的问题
+2.和<font color=00AA00>**Rhay**</font>`[770 162 -4385]`对话，搭乘热气球前往Corkus，路上你可以向Rhay提问一些和地震有关的问题
 
 3.来到Corkus岛，触发剧情，然后径直进入房间内的洞穴内
 >这俩其实是gay
@@ -28,13 +28,13 @@ icon: skull
 
 >弓箭手的守护天使能直接锁人头，管你瞬不瞬移，笑死
 
-6.离开洞穴，登上热气球，回到**Kandon-Beda**，跟着*Rhay*触发剧情
+6.离开洞穴，登上热气球，回到**Kandon-Beda**，跟着<font color=00AA00>**Rhay**</font>触发剧情
 
 7.回到刚才的热气球，触发剧情
 
-8.来到**Molten Heights**`[1466 141 -5316]`后，跟着*Korzim*进入传送门内
+8.来到**Molten Heights**`[1466 141 -5316]`后，跟着<font color=00AA00>**Korzim**</font>进入传送门内
 
-9.剧情结束后，前往**Lower Freezing Heights**`[1512 34 -5468]`，和*King Draani*对话
+9.剧情结束后，前往**Lower Freezing Heights**`[1512 34 -5468]`，和<font color=00AA00>**King Draani**</font>对话
 
 10.进入洞穴内，剧情结束后使用抓钩飞跃峡谷，按下尽头的按钮
 
@@ -74,5 +74,5 @@ icon: skull
 :::tip
 只要有任意角色完成该任务，其他角色就可以直接解锁tcc
 
-这个水晶...其他存档其实根本不会用到，不需要另外买
+这个水晶...其他存档其实根本不会用到(曾经会)，不需要另外买
 :::
