@@ -1,11 +1,11 @@
 # Fantastic Voyage (Level 90)
 <span style="font-size: 25px;">**奇妙的航行**</span>
 
-1.跟*Relend*对话 `[1304,35,-4043]`
+1.跟<font color=00AA00>**Relend**</font>对话 `[1304,35,-4043]`
 
 2.找到鹦鹉
 :::tip
-先和Jofash Resident对话，选标蓝的选项
+先和<font color=00AA00>**Jofash Resident**</font>对话，选标蓝的选项
 
 ![你可以很轻松的找到他，他会在附近晃悠](/assets/img/lvl90-1.jpg)
 
@@ -18,9 +18,9 @@
 爬上树右键鹦鹉就能拿到地图了
 :::
 
-3.回去*Relend*那里准备航行，然后上船！
+3.回去<font color=00AA00>**Relend**</font>那里准备航行，然后上船！
 
-4.在船上和跟船长Relend对话
+4.在船上和跟船长<font color=00AA00>**Relend**</font>对话
 
 5.找到三个材料
 :::tip
@@ -41,13 +41,13 @@
 你可以通过原先一楼的房间，然后会触发地板塌陷，下到底层甲板处
 :::
 
-9.(经过七绕八绕)找到加农炮弹，塞大炮里开一炮，救出Relend
+9.(经过七绕八绕)找到加农炮弹，塞大炮里开一炮，救出<font color=00AA00>**Relend**</font>
 
 10.随便往出口放个技能，离开
 
-11.跟Relend对话
+11.跟<font color=00AA00>**Relend**</font>对话
 
-12.收集Relend要的所有材料，然后在`Cooking Pot`里面烹饪
+12.收集<font color=00AA00>**Relend**</font>要的所有材料，然后在`Cooking Pot`里面烹饪
 :::tip
 `Coconut`在最开始旁边的椰子树就会掉落
 
@@ -59,15 +59,15 @@
 :::
 
 
-13.把`Odd Stew`拿给Relend
+13.把`Odd Stew`拿给<font color=00AA00>**Relend**</font>
 
 14.调查一下岛屿东边的蓝色帐篷
 
-15.回去没有被毒死的*Relend*那里
+15.回去没有被毒死的<font color=00AA00>**Relend**</font>那里
 
 16.调查奇怪的巨石(要和那个发光的东西聊一下)
 
-17.回去Relend那里
+17.回去<font color=00AA00>**Relend**</font>那里
 
 18.再次收集Relend要的所有材料，然后在`Crafting Table`处合成炸药
 :::tip
@@ -82,11 +82,11 @@
 
 20.进入洞穴最深处
 
-21.带领Relend，继续探索洞窟
+21.带领<font color=00AA00>**Relend**</font>，继续探索洞窟
 
 22.进去神秘的传送门
 
-23.在这块很像se的地方找到Relend，然后触发剧情
+23.在这块很像se的地方找到<font color=00AA00>**Relend**</font>，然后触发剧情
 :::tip
 他在往东南角飙车，一直往东南角跑`[-23456 4 -9652]`就行了
 :::

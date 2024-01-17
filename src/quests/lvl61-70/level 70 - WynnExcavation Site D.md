@@ -9,13 +9,13 @@ icon: bookmark
 前置任务：[WynnExcavation Site C](/quests/lvl51-60/level%2055%20-%20WynnExcavation%20Site%20C%20.html)
 
 
-1 在Troms城堡`[-931,106,-939]`里和英国顾问Carlos交谈(需要有完成WynnExcavation	Site	A、WynnExcavation	Site B、WynnExcavation	Site	C任务的3个陶瓷碎片“Crystal Shards”)
+1 在Troms城堡`[-931,106,-939]`里和英国顾问<font color=00AA00>**Carlos**</font>交谈(需要有完成WynnExcavation	Site	A、WynnExcavation	Site B、WynnExcavation	Site	C任务的3个陶瓷碎片“Crystal Shards”)
 
 2 在接任务npc的旁边依次按黄、紫、红、绿四个按钮，然后进入王座移开之后下面出现的洞口
 
 3 搜索Troms城堡城堡的地下墓穴(来到尽头，依次按下左数第1第2第4个按钮，然后下去。然后继续前进，经过跑酷啥的)
 
-4 和Troms领主说话
+4 和<font color=00AA00>**Troms领主**</font>说话
 
 5 逃离Troms(经过主门时会被一个陌生人拦住)
 
@@ -29,7 +29,7 @@ icon: bookmark
 
 10 进入反叛军营地
 
-11 和叛军主帅Amadel交谈
+11 和叛军主帅<font color=00AA00>**Amadel**</font>交谈
 
 12 前往挖掘点Ｄ`[-874,22,-349]`后到`[-928 76 -295]`
 
@@ -37,7 +37,7 @@ icon: bookmark
 
 14 搜寻挖掘点
 
-15 和挖掘工头Uci`[-896 14 -201]`说话
+15 和挖掘工头<font color=00AA00>**Uci**</font>`[-896 14 -201]`说话
 
 16 进入古墓(然后通过`[-3168 25 -1069]`的传送门,向前到底后向左转，建议骑马)
 
@@ -51,21 +51,21 @@ icon: bookmark
 
 21 穿过绿色房间(,地上压力板改变颜色，abcd分别为黄紫红绿, 注意位置,每个各踩两次，4次还原)
 
-22 和Amadel交谈
+22 和<font color=00AA00>**Amadel**</font>交谈
 
 23 跳进旁边的井传送到古城
 
 24 探索古城,里面有怪比骑马还快
 
-25 和Amadel的助手`[4130 121 -370]`交谈
+25 和<font color=00AA00>**Amadel的助手**</font>`[4130 121 -370]`交谈
 
 26、27、28 打败黑化的Amadel、Amadel的阴影和Amadel本体，打死一个进助手旁边的门打下一个。
 
    Boss1很好打，2会召唤分身，3是开始凋零，3条命。每次打死之后都要和助手对话，总共获得3个掉落物，不要丢了。
 
-29 和Ragni城领主`[-2950 7 -1969]`交谈
+29 和<font color=00AA00>**Ragni城领主**</font>`[-2950 7 -1969]`交谈
 
 奖励
 600000经验
 4个LE(4*4096绿宝石)
-1	Royal Token of Gratitude (可以在Cinfras-443,-4879兑换一个legendary项链)
+1	Royal Token of Gratitude (可以在Cinfras-443,-4879兑换一个legendary项链，是legendary island项链的下位替代)

@@ -1,9 +1,9 @@
 # Mixed Feelings (Level 87)
 <span style="font-size: 25px;">**五味杂陈**</span>
 
-1在Corkus码头跟Javen对话`[-1413 47 -2920]`
+1在Corkus码头跟<font color=00AA00>**Javen**</font>对话`[-1413 47 -2920]`
 
-2.发生爆炸后，跟旁边的Javen询问发生了什么
+2.发生爆炸后，跟旁边的<font color=00AA00>**Javen**</font>询问发生了什么
 
 3.和城镇中的其他人道歉，并帮助他们
 :::tip
@@ -39,7 +39,7 @@
 如果你被困在里面了，可以尝试使用/class
 :::
 
-6.和旁边的Javen对话
+6.和旁边的<font color=00AA00>**Javen**</font>对话
 
 奖励
 + 1750000经验

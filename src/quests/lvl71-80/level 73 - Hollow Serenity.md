@@ -85,7 +85,7 @@ icon: face-tired
 
 15.快赶往主卧！
 
-16.前往地下墓穴`[-836 36 -5134]`，向Katarin指出宝石的位置
+16.前往地下墓穴`[-836 36 -5134]`，向<font color=00AA00>**Katarin**</font>指出宝石的位置
 
 17.击败Garvan!
 :::tip
@@ -96,7 +96,7 @@ Garvan拥有多种大范围攻击技能
 有一点难打
 :::
 
-18.选择告诉Katarin女儿的生死
+18.选择告诉<font color=00AA00>**Katarin**</font>女儿的生死
 :::tip
 若选择生，则无事发生
 
