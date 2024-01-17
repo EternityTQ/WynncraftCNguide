@@ -4,12 +4,12 @@
 <blockquote>
 <p>本任务全是剧情，又臭又长</p>
 </blockquote>
-<p>1.和<em>Hans</em><code v-pre>[-1096 42 -5384]</code>对话</p>
-<p>2.和Referick<code v-pre>[-1086 43 -5372]</code>对话，发现他不对劲</p>
+<p>1.和<font color=00AA00><strong>Hans</strong></font><code v-pre>[-1096 42 -5384]</code>对话</p>
+<p>2.和<font color=00AA00><strong>Referick</strong></font><code v-pre>[-1086 43 -5372]</code>对话，发现他不对劲</p>
 <p>3.到<code v-pre>[-1075 48 -5372]</code>的望远镜窥一下(就在房子二楼的阳台)</p>
 <p>4.前往北边的城堡查看情况，进入地下的监牢<code v-pre>[-1089 51 -5565]</code></p>
 <p>5.到一楼那个发光的灵魂那里，打破走人</p>
-<p>6.进行一场战斗，或者快速离开，来到监牢前和<em>Referick</em><code v-pre>[-1079 44 -5551]</code>对话</p>
+<p>6.进行一场战斗，或者快速离开，来到监牢前和<font color=00AA00><strong>Referick</strong></font><code v-pre>[-1079 44 -5551]</code>对话</p>
 <p>7.进入Dullahan的城堡</p>
 <p>8.直走进入画，进入剧情</p>
 <p>9.出来画后，来到当前右侧的雕像上方触发机关，然后沿着路到另一侧的雕像同样位置触发机关，随后进入地下暗门</p>

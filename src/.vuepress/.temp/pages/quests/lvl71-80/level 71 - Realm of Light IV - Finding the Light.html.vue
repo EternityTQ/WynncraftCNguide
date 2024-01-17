@@ -31,7 +31,7 @@
 <p><img src="/assets/img/lvl71-3.jpg" alt="" loading="lazy"><br>
 注意绝对绝对不能靠近建筑主体，绕最外面走，不然马上就会被踢出来。</p>
 </div>
-<p>9.偷听结束后，下来找<em>Elder</em><code v-pre>[-800 88 -4553]</code>对话</p>
+<p>9.偷听结束后，下来找<font color=00AA00><strong>Elder</strong></font><code v-pre>[-800 88 -4553]</code>对话</p>
 <p>10.来到Canned Abis cave<code v-pre>[-744 11 -4591]</code>，完成一系列挑战</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -40,8 +40,8 @@
 <p>每个跳跃提升的buff都是有限时的 注意时间，基本不能有停顿</p>
 </div>
 <p>在最深处采集<code v-pre>Canned Abis</code>后离开</p>
-<p>11.回到<em>Lari</em><code v-pre>[-1123 46 -4771]</code>这里对话，然后击败Lari</p>
-<p>12.看一段超级超级超级长的剧情</p>
+<p>11.回到<font color=00AA00><strong>Lari</strong></font><code v-pre>[-1123 46 -4771]</code>这里对话，然后击败Lari</p>
+<p>12.看一段超级超级超级长的剧情(全游戏最长)</p>
 <p>13.沿着路上去，来到光之领域的大门前。</p>
 <p>奖励</p>
 <ul>

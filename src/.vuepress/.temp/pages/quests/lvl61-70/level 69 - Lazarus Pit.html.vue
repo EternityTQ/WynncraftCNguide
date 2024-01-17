@@ -1,8 +1,8 @@
 <template><div><h1 id="lazarus-pit-level-69" tabindex="-1"><a class="header-anchor" href="#lazarus-pit-level-69" aria-hidden="true">#</a> Lazarus Pit (level 69)</h1>
 <p><span style="font-size: 25px;"><strong>复生泉</strong></span></p>
-<p>1.与Burtur<code v-pre>[-1025 47 -5302]</code>对话</p>
+<p>1.与<font color=00AA00><strong>Burtur</strong></font><code v-pre>[-1025 47 -5302]</code>对话</p>
 <p>2.原地生存30s</p>
-<p>3.再次和Burtur对话，并跟着Burtur</p>
+<p>3.再次和<font color=00AA00><strong>Burtur</strong></font>对话，并跟着Burtur</p>
 <p>4.来到gelibord的墓地<code v-pre>[-999 48 -5340]</code>，找到法师的尸体<br>
 先在门口拿起铲子再进去，挖掉灵魂沙，注意不要站在上面挖，会卡住，在旁边挖。下层两个，上层三个</p>
 <p>5.拿起护身符，解密</p>
@@ -32,7 +32,7 @@
 <p>10.通过一段小跑酷后，跳入泉水中</p>
 <p>11.一段小战斗后，继续往下走</p>
 <p>12.一个小解密，点击红 粉 蓝 然后开水流</p>
-<p>13.被炸下来后，回去找Burtur<code v-pre>[-1025 47 -5302]</code></p>
+<p>13.被炸下来后，回去找<font color=00AA00><strong>Burtur</strong></font><code v-pre>[-1025 47 -5302]</code></p>
 <p>奖励</p>
 <ul>
 <li>500000 EXP</li>

@@ -5,7 +5,7 @@
 <p>本任务部分阶段内含跳吓</p>
 </div>
 <p>1到<strong>Thesead</strong>矿洞外看看发生了什么<code v-pre>[677 78 -5017]</code></p>
-<p>2.进入煤矿，左转上山，和<em>Chief Clight</em>对话<code v-pre>[734 104 -4996]</code></p>
+<p>2.进入煤矿，左转上山，和<font color=00AA00><strong>Chief Clight</strong></font>对话<code v-pre>[734 104 -4996]</code></p>
 <blockquote>
 <p>选项随便选，不影响你当工具人的结局。</p>
 </blockquote>

@@ -24,8 +24,12 @@
 <p>那个躲避激光的上升环节伤害低得要死...甚至可以挂机</p>
 </blockquote>
 <p>9.冲进去实验室最里面跟<font color=00AA00><strong>Dr. Urelix</strong></font>对话</p>
-<p>10.分歧点：如果你接受<font color=00AA00><strong>Dr.Urelx</strong></font>的贿赂,继续和他对话，你会拿到Shameful Greaves，loot bonus非常高的裤子</p>
-<p>如果你出去(往黑色方块那里走)回去找<font color=00AA00><strong>Detective Hart</strong></font>你会拿到Greaves of honor，xp bonus非常高的裤子</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>注意这里千万别点上头了，一定要注意分歧点，别怪我没提醒了！！！</p>
+</div>
+<p>10.分歧点：如果你接受<font color=00AA00><strong>Dr.Urelx</strong></font>的贿赂，<strong>继续和他对话</strong>，<br>你会拿到Shameful Greaves，loot bonus非常高的裤子</p>
+<p>如果你不继续对话，直接从出口离开，回去找<font color=00AA00><strong>Detective Hart</strong></font><code v-pre>[-1744 66 -5478]</code>，<br>你会拿到Greaves of honor，XP bonus非常高的裤子</p>
 <p>奖励</p>
 <ul>
 <li>160000 经验</li>

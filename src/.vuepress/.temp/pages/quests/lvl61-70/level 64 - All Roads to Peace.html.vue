@@ -4,8 +4,8 @@
 <p><RouterLink to="/quests/lvl31-40/level%2039%20-%20Clearing%20the%20Camps.html">Clearing the Camps (level 39)</RouterLink></p>
 <p><RouterLink to="/quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html">Blazing Retribution (level 44)</RouterLink></p>
 <p><RouterLink to="/quests/lvl61-70/level%2061%20-%20Reclaiming%20the%20House.html">Reclaiming the House (level 61)</RouterLink></p>
-<p>1.和<strong>Bucie</strong>大门前的<em>Captain Goruca</em><code v-pre>[-1392 43 -4701]</code>对话</p>
-<p>2.跟着<em>Captain Goruca</em>来到伤兵连<code v-pre>[-1421 43 -4688]</code></p>
+<p>1.和<strong>Bucie</strong>大门前的<font color=00AA00><strong>Captain Goruca</strong></font><code v-pre>[-1392 43 -4701]</code>对话</p>
+<p>2.跟着<font color=00AA00><strong>Captain Goruca</strong></font>来到伤兵连<code v-pre>[-1421 43 -4688]</code></p>
 <p>3.前往兽人要塞<code v-pre>[-1310 59 -4866]</code></p>
 <p>4.你被兽人救起来了...前往<code v-pre>[-1348 43 -4956]</code>为了兽人Zuett的求和建议进行打猎</p>
 <div class="hint-container tip">
@@ -13,7 +13,7 @@
 <p>死跟着头上有粒子的猪，到哪个灌木丛右键一下就可以了</p>
 <p>重复三次该步骤</p>
 </div>
-<p>5.拿着刚刚打猎得到的猪肉去和<em>Zuett</em>对话<code v-pre>[-1310 44 -4915]</code>，然后再次跟着他来到兽人要塞</p>
+<p>5.拿着刚刚打猎得到的猪肉去和<font color=00AA00><strong>Zuett</strong></font>对话<code v-pre>[-1310 44 -4915]</code>，然后再次跟着他来到兽人要塞</p>
 <p>6.你被带到了兽人帐篷里要求帮他们治疗</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -81,16 +81,16 @@
 <p>Blueberry<code v-pre>[-1292 62 -4845]</code></p>
 <p>Grapes<code v-pre>[-1295 75 -4802]</code></p>
 <p>Peaches<code v-pre>[-1320 53 -4799]</code></p>
-<p>全部找到后回去找Nunexetor交差</p>
+<p>全部找到后回去找<font color=00AA00><strong>Nunexetor</strong></font>交差</p>
 <p>还有其他几个兽人，在这里就不一一列举了，以上任务除了采集任务都很好做，随便挑四个就能继续完成任务</p>
 <p>加粗的是比较推荐做的，快一点</p>
 </div>
-<p>8.获取信任后，找到<em>Ureietun</em><code v-pre>[-1276, 62, -4832]</code>以获得与兽人老大见面的机会</p>
+<p>8.获取信任后，找到<font color=00AA00><strong>Ureietun</strong></font><code v-pre>[-1276, 62, -4832]</code>以获得与兽人老大见面的机会</p>
 <p>9.进入地下室击败Arrai-Veretel</p>
 <blockquote>
 <p>可能有一点难打...大概</p>
 </blockquote>
-<p>10.剧情结束后，把停战协议交给<em>Captain Goruca</em><code v-pre>[-1419 43 -4689]</code></p>
+<p>10.剧情结束后，把停战协议交给<font color=00AA00><strong>Captain Goruca</strong></font><code v-pre>[-1419 43 -4689]</code></p>
 <p>奖励</p>
 <ul>
 <li>350000 经验值</li>

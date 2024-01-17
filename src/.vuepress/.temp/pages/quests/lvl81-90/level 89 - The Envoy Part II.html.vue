@@ -5,10 +5,10 @@
 <p class="hint-container-title">提示</p>
 <p>别忘了带在前置任务中获得的房子钥匙！</p>
 </div>
-<p>2.和房子内的<em>Maxie</em>对话</p>
+<p>2.和房子内的<font color=00AA00><strong>Maxie</strong></font>对话</p>
 <p>3找到<code v-pre>[-1712 38 -3100]</code>的弹射器(位于<strong>Corkus</strong>北部) ,随便按两下,然后等Maxie说完话之后坐上去,按按钮启动</p>
-<p>4.找到Avos Chief<code v-pre>[-1811 133 -3063]</code></p>
-<p>5去找Grandmaster Shaman并和他谈话<code v-pre>[-1579 147 -3313]</code></p>
+<p>4.找到<font color=00AA00><strong>Avos Chief</strong></font><code v-pre>[-1811 133 -3063]</code></p>
+<p>5去找<font color=00AA00><strong>Grandmaster Shaman</strong></font>并和他谈话<code v-pre>[-1579 147 -3313]</code></p>
 <p>6打开shaman左边的木门，然后通过Grandmaster Shaman帮你搭的路进入神殿</p>
 <blockquote>
 <p>这地方可以直接位移过来...</p>
@@ -27,7 +27,7 @@
 <p>9去金库里面<code v-pre>[-1498 69 -2918]</code>跟NPC对话</p>
 <figure><img src="/assets/img/lvl89-2.jpg" alt="进城堡右手边很容易看到" tabindex="0" loading="lazy"><figcaption>进城堡右手边很容易看到</figcaption></figure>
 <p>10跟着地上的作物走 找到隐藏的机械基地<code v-pre>[-1444 87 -2728]</code></p>
-<p>11穿过洞穴，跟Maxie谈话 进入一段剧情</p>
+<p>11穿过洞穴，跟<font color=00AA00><strong>Maxie</strong></font>谈话 进入一段剧情</p>
 <p>12.按动门上的按钮，找到地下基地，拿到钥匙</p>
 <div class="hint-container tip">
 <p class="hint-container-title">如何找到地下基地?</p>
@@ -38,7 +38,7 @@
 <p>跟着地毯走就行，当然你也可以直接传送到终点，在通道尽头的上面</p>
 <p>进到最后杀掉小BOSS拿到钥匙就可以走了</p>
 </div>
-<p>12跟Maxie在工厂外谈话<code v-pre>[-1707 75 -2610]</code></p>
+<p>12跟<font color=00AA00><strong>Maxie</strong></font>在工厂外谈话<code v-pre>[-1707 75 -2610]</code></p>
 <p>奖励</p>
 <ul>
 <li>3050000经验</li>

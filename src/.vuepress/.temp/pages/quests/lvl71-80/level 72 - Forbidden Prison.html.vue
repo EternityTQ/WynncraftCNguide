@@ -20,7 +20,7 @@
 <p>4 清理完后，回去入口找守卫对话，进入吃饭环节，桌子任选</p>
 <div class="hint-container tip">
 <p class="hint-container-title">额外内容</p>
-<p>在吃饭前，你可以选择把食物分享给<em>Starving Prisoner</em></p>
+<p>在吃饭前，你可以选择把食物分享给<font color=00AA00><strong>Starving Prisoner</strong></font></p>
 <p>如果你这么做了，之后你可以在<strong>Lexdale</strong>触发剧情，得到24eb</p>
 </div>
 <p>5 在一段剧情后(其中桌子任选)，再次回到大厅，这次有如下项目</p>

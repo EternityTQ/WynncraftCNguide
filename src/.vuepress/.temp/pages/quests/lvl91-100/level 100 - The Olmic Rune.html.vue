@@ -24,7 +24,7 @@
 <p>Tol Altar可用于将低级Runes合成为Tol Rune<br>
 4 Nii Rune = 1 Tol Rune<br>
 2 Uth Rune = 1 Tol Rune</p>
-<p>the Forgery中修复Broken Corrupted Undergrowth Ruins Key需要Tol Rune</p>
+<p>the Forgery中修复Broken Corrupted Undergrowth Ruins Key和Broken Corrupted Galleon's Graveyard Key需要Tol Rune</p>
 </div>
 </div></template>
 

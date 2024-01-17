@@ -1,13 +1,13 @@
 <template><div><h1 id="aldorei-s-secret-part-i-level-74" tabindex="-1"><a class="header-anchor" href="#aldorei-s-secret-part-i-level-74" aria-hidden="true">#</a> Aldorei's Secret Part I (level 74)</h1>
 <p><span style="font-size: 25px;"><strong>精灵们的秘密 上篇</strong></span></p>
-<p>1.和Aldorei村口的守卫<code v-pre>[-461 132 -4460]</code>对话</p>
+<p>1.和Aldorei村口的<font color=00AA00><strong>守卫</strong></font><code v-pre>[-461 132 -4460]</code>对话</p>
 <div class="hint-container tip">
 <p class="hint-container-title">如何进入这个地方</p>
 <p><img src="/assets/img/lvl74-1.jpg" alt="" loading="lazy"><br>
 路线差不多长这样</p>
 <p>跟着走就行了！</p>
 </div>
-<p>2.和在<code v-pre>[-547 112 -4445]</code>附近来回走动的Damys对话，然后给他一个面包</p>
+<p>2.和在<code v-pre>[-547 112 -4445]</code>附近来回走动的<font color=00AA00><strong>Damys</strong></font>对话，然后给他一个面包</p>
 <div class="hint-container tip">
 <p class="hint-container-title">如何制作面包?</p>
 <p>先在Damys附近采集Wheat Grains<code v-pre>[-547 112 -4426]</code></p>
@@ -30,7 +30,7 @@
 </div>
 <p>6.在旁边舀水，然后继续浇给树苗，上去楼梯，调查一下叶子</p>
 <p>7.带着叶子回去找要面包的Damys</p>
-<p>8.沿着桥去找植物学家Fiona<code v-pre>[-541 106 -4538]</code>(拿着叶子对话！)</p>
+<p>8.沿着桥去找植物学家<font color=00AA00><strong>Fiona</strong></font><code v-pre>[-541 106 -4538]</code>(拿着叶子对话！)</p>
 <p>9.在Fiona的后院帮忙解决植物，带回他的研究手册</p>
 <p>10.调查制药工厂<code v-pre>[-495 112 -4430]</code></p>
 <div class="hint-container tip">
@@ -58,12 +58,12 @@
 <template #title0="{ value, isActive }">放走Korben</template>
 <template #title1="{ value, isActive }">举报Korben</template>
 <template #tab0="{ value, isActive }">
-<p>直接和Korben对话</p>
+<p>直接和<font color=00AA00><strong>Korben</strong></font>对话</p>
 <p>你可以收到一个 Elven Medallion</p>
 <p>可以在Collectibles Merchant<code v-pre>[-286, 103, -4405]</code>卖出得到3le</p>
 </template>
 <template #tab1="{ value, isActive }">
-<p>直接回去和Guard对话</p>
+<p>直接回去和<font color=00AA00><strong>Guard</strong></font>对话</p>
 <p>你会得到2le和一张收据</p>
 <p>收据同样可以在Collectibles Merchant<code v-pre>[-286, 103, -4405]</code>卖出</p>
 <p>但只有1绿宝石。</p>
@@ -77,6 +77,11 @@
 <li>Elven Medallion / Receipt</li>
 <li>可以进入Aldorei Town了</li>
 </ul>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>Aldorei's Secret 和 Realm of Light 两个系列任务完整讲述了世界观中“光”这一部分的世界线</p>
+<p>对剧情感兴趣的小伙伴可以注意一下剧情细节</p>
+</div>
 </div></template>
 
 

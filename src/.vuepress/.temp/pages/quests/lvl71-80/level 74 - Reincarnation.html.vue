@@ -1,7 +1,7 @@
 <template><div><h1 id="reincarnation-level-74" tabindex="-1"><a class="header-anchor" href="#reincarnation-level-74" aria-hidden="true">#</a> Reincarnation (level 74)</h1>
 <p><span style="font-size: 25px;"><strong>重生</strong></span></p>
 <p>前置任务:<RouterLink to="/quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html">Bob's Lost Soul</RouterLink>、<RouterLink to="/quests/lvl21-30/level%2023%20-%20Cluck%20Cluck.html">Cluck Cluck</RouterLink>、<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nation</RouterLink></p>
-<p>1.与在Bob'sTomb中的Batelu<code v-pre>[372 54 -775]</code>对话</p>
+<p>1.与在Bob'sTomb中的<font color=00AA00><strong>Batelu</strong></font><code v-pre>[372 54 -775]</code>对话</p>
 <p>2.带回下列物品：</p>
 <ul>
 <li>
@@ -24,7 +24,7 @@
 <p>因此你大概可以轻松地通过这个任务</p>
 <p>实在不行记得找个人带捏</p>
 </div>
-<p>4.带回<code v-pre>Bob's Seal of Approval</code>给Batelu</p>
+<p>4.带回<code v-pre>Bob's Seal of Approval</code>给<font color=00AA00><strong>Batelu</strong></font></p>
 <p>奖励</p>
 <ul>
 <li>750000 经验值</li>

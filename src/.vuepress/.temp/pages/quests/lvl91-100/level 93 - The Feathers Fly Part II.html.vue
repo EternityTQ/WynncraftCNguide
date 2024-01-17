@@ -4,7 +4,7 @@
 <ul>
 <li><RouterLink to="/quests/lvl91-100/level%2091%20-%20The%20Feathers%20Fly%20Part%20I.html">The Feathers Fly Part I(level 91)</RouterLink></li>
 </ul>
-<p>1.和Ava在Corkus城南部<code v-pre>[-1573 86 -2762]</code>对话</p>
+<p>1.和<font color=00AA00><strong>Ava</strong></font>在Corkus城南部<code v-pre>[-1573 86 -2762]</code>对话</p>
 <p>2.再次和Ava对话，被传送至Corkus城顶部</p>
 <p>3.用Ava给你的道具在20s内破坏6个守卫机器人</p>
 <div class="hint-container tip">
@@ -15,12 +15,12 @@
 <p>一个在你被传送的地方的大厅</p>
 <p>剩下一个在大厅右边的露台</p>
 </div>
-<p>4.和Ava对话，跟着Ava走，停下后再次对话</p>
+<p>4.和<font color=00AA00><strong>Ava</strong></font>对话，跟着Ava走，停下后再次对话</p>
 <p>5.帮Ava找一件合适的衣服</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>一共可以找四套衣服</p>
-<p>当你拿好衣服后，直接和Ava对话即可进入选择界面</p>
+<p>当你拿好衣服后，直接和<font color=00AA00><strong>Ava</strong></font>对话即可进入选择界面</p>
 <p>需要注意Power Outfit的选项在后方</p>
 <p>选择的衣服会影响后续的任务支线(但本攻略没有提及，随便选)</p>
 </div>
@@ -54,7 +54,7 @@
 <p>回楼下，用钥匙打开铁门后，在门内找到形状奇怪的钥匙，同时和合同NPC对话</p>
 <p>这把钥匙可以用于楼上的铁活板门，里面有一些材料</p>
 <p>然后出来，进入盔甲商店，上楼，在<code v-pre>[-1647 79 -2903]</code>找到观众邀请函</p>
-<p>回去和Ava对话</p>
+<p>回去和<font color=00AA00><strong>Ava</strong></font>对话</p>
 </div>
 <div class="hint-container tip">
 <p class="hint-container-title">关于支线</p>
@@ -65,8 +65,8 @@
 </blockquote>
 <p>若有兴趣，欢迎去查阅<a href="https://wynncraft.fandom.com/wiki/The_Feathers_Fly_Part_II" target="_blank" rel="noopener noreferrer">Wiki<ExternalLinkIcon/></a></p>
 </div>
-<p>7.拿到邀请函后，和城堡尽头的Receptionist<code v-pre>[-1467 70 -2938]</code>对话</p>
-<p>8.和Ava<code v-pre>[-1615 68 -2924]</code>对话</p>
+<p>7.拿到邀请函后，和城堡尽头的<font color=00AA00><strong>Receptionist</strong></font><code v-pre>[-1467 70 -2938]</code>对话</p>
+<p>8.和<font color=00AA00><strong>Ava</strong></font><code v-pre>[-1615 68 -2924]</code>对话</p>
 <p>9.去<code v-pre>[-1719 173 -3348]</code>再次操作机器</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -74,7 +74,7 @@
 <p>对话后，她会直接把你传送到任务地点</p>
 <p>这里和前置任务是一样的，只是如果反应慢了充能速度也会慢一点，无伤大雅</p>
 </div>
-<p>10.和Ava再次对话，她会把你送到Corkus城外，然后进城堡，和Ava<code v-pre>[-1479 69 -2924]</code>对话</p>
+<p>10.和<font color=00AA00><strong>Ava</strong></font>再次对话，她会把你送到Corkus城外，然后进城堡，和<font color=00AA00><strong>Ava</strong></font><code v-pre>[-1479 69 -2924]</code>对话</p>
 <p>11.进入剧情，帮助Ava操控机器</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -82,15 +82,15 @@
 </div>
 <p>12.操控完成后，再次进入剧情</p>
 <p>这里第一个选项随便选，无所谓</p>
-<p>13.和Maxie对话<code v-pre>[-1479 69 -2899]</code></p>
-<p>14.冲到Corkus中心查看情况，然后和旁边的Efena对话</p>
+<p>13.和<font color=00AA00><strong>Maxie</strong></font>对话<code v-pre>[-1479 69 -2899]</code></p>
+<p>14.冲到Corkus中心查看情况，然后和旁边的<font color=00AA00><strong>Efena</strong></font>对话</p>
 <p>15.消灭植物</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>攻击植物周围的小怪会让你获得一定高度提升</p>
 <p>一直爬到最顶端对Core狂暴鸿儒即可</p>
 </div>
-<p>16.醒来后，去楼下和Maxie对话</p>
+<p>16.醒来后，去楼下和<font color=00AA00><strong>Maxie</strong></font>对话</p>
 <p>17.回Ava的作坊找到她<code v-pre>[-1731 134 -3267]</code></p>
 <p>奖励</p>
 <ul>

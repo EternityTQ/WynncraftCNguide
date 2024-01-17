@@ -1,7 +1,7 @@
 <template><div><h1 id="mixed-feelings-level-87" tabindex="-1"><a class="header-anchor" href="#mixed-feelings-level-87" aria-hidden="true">#</a> Mixed Feelings (Level 87)</h1>
 <p><span style="font-size: 25px;"><strong>五味杂陈</strong></span></p>
-<p>1在Corkus码头跟Javen对话<code v-pre>[-1413 47 -2920]</code></p>
-<p>2.发生爆炸后，跟旁边的Javen询问发生了什么</p>
+<p>1在Corkus码头跟<font color=00AA00><strong>Javen</strong></font>对话<code v-pre>[-1413 47 -2920]</code></p>
+<p>2.发生爆炸后，跟旁边的<font color=00AA00><strong>Javen</strong></font>询问发生了什么</p>
 <p>3.和城镇中的其他人道歉，并帮助他们</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -30,7 +30,7 @@
 <p>正常情况下，在战斗结束后，进行对话完你会被传送至下个地点</p>
 <p>如果你被困在里面了，可以尝试使用/class</p>
 </div>
-<p>6.和旁边的Javen对话</p>
+<p>6.和旁边的<font color=00AA00><strong>Javen</strong></font>对话</p>
 <p>奖励</p>
 <ul>
 <li>1750000经验</li>

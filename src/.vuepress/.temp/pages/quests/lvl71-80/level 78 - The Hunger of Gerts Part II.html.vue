@@ -5,16 +5,16 @@
 <blockquote>
 <p>如果你前置任务中选择了跟gert首领通报且等级够了，出来就会直接触发这一步</p>
 </blockquote>
-<p>2.去Gylia哨塔跟<em>Cikal</em><code v-pre>[-19, 36, -5425]</code>发出警报</p>
-<p>3.跟一楼的<em>Winie</em><code v-pre>[-14 36 -5411]</code>交谈</p>
+<p>2.去Gylia哨塔跟<font color=00AA00><strong>Cikal</strong></font><code v-pre>[-19, 36, -5425]</code>发出警报</p>
+<p>3.跟一楼的<font color=00AA00><strong>Winie</strong></font><code v-pre>[-14 36 -5411]</code>交谈</p>
 <div class="hint-container warning">
 <p class="hint-container-title">警告</p>
 <p>可以直接跳过Cikal直接和Winie对话，但是会导致无法继续后续步骤</p>
 <p>如果出现了这个问题，你可以使用/class重置步骤</p>
 </div>
-<p>4.和庭院的<em>Alie/Colry</em><code v-pre>[-33 36 -5396]</code>对话</p>
+<p>4.和庭院的<font color=00AA00><strong>Alie/Colry</strong></font><code v-pre>[-33 36 -5396]</code>对话</p>
 <p>5.在旁边的用餐区<code v-pre>[-2 38 -5402]</code>拿到Meat，随后跟前置任务中引诱gert的步骤一样，放在绿色粒子引诱NPC离开</p>
-<p>6.坐电梯去二楼和<em>Bory</em><code v-pre>[-12 73 -5413]</code>对话</p>
+<p>6.坐电梯去二楼和<font color=00AA00><strong>Bory</strong></font><code v-pre>[-12 73 -5413]</code>对话</p>
 <div class="hint-container tip">
 <p class="hint-container-title">关于选项</p>
 <p>按顺序选择2 1 2 1</p>

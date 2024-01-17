@@ -1,6 +1,6 @@
 <template><div><h1 id="a-maradurs-dues-level-83" tabindex="-1"><a class="header-anchor" href="#a-maradurs-dues-level-83" aria-hidden="true">#</a> A Maradurs' Dues (level 83)</h1>
 <p><span style="font-size: 25px;"><strong>收过路费</strong></span></p>
-<p>1.跟Norsten对话<code v-pre>[437,77,-5056]</code></p>
+<p>1.跟<font color=00AA00><strong>Norsten</strong></font>对话<code v-pre>[437,77,-5056]</code></p>
 <p>2.通过捷径<code v-pre>[258 79 -4934]</code>上山，出来后直走</p>
 <p>3.逃出幻境</p>
 <div class="hint-container tip">
@@ -12,10 +12,10 @@
 当听到箱子关闭的声音时，黄方块可以站</p>
 <p>阶段三：一样是跑酷，只不过是一二阶段的机制相结合顺便加了一个贪吃蛇</p>
 <p>很好跑，慢慢磨就行了！</p>
-<p>强烈建议使用位移技能逃课</p>
+<p>强烈建议使用位移技能逃课<s>想当年所有任务跑酷都禁用位移技能哪有现在这条件</s></p>
 </div>
 <p>4.出来后，继续往山上走，然后会触发一个追逐战(有跟没一样...)，接着走到塔内，上电梯</p>
-<p>5.和顶楼的女巫<em>Volmor</em>对话</p>
+<p>5.和顶楼的女巫<font color=00AA00><strong>Volmor</strong></font>对话</p>
 <p>6.从阳台<code v-pre>[369 159 -5033]</code>跳下洞内！</p>
 <p>7.进入洞内拿到<code v-pre>Strange Gem</code>，然后打一架</p>
 <p>8.完成解密，获得爆炸物，放置在中间离开</p>
@@ -24,7 +24,7 @@
 <figure><img src="/assets/img/lvl83-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>其实很好理解，尽量往上凑就行了</p>
 </div>
-<p>9.跟Norsten对话<code v-pre>[437,77,-5056]</code></p>
+<p>9.跟<font color=00AA00><strong>Norsten</strong></font>对话<code v-pre>[437,77,-5056]</code></p>
 <p>奖励</p>
 <ul>
 <li>1375000 经验</li>

@@ -1,6 +1,6 @@
 <template><div><h1 id="fallen-delivery-level-79" tabindex="-1"><a class="header-anchor" href="#fallen-delivery-level-79" aria-hidden="true">#</a> Fallen Delivery (level 79)</h1>
 <p><span style="font-size: 25px;"><strong>迟到的顺丰快递</strong></span></p>
-<p>1.跟Bricot说话<code v-pre>[65 42 -4844]</code></p>
+<p>1.跟<font color=00AA00><strong>Bricot</strong></font>说话<code v-pre>[65 42 -4844]</code></p>
 <p>2.进入旁边的屋子，从楼梯上去，在坠落的飞艇中搜寻幸存者</p>
 <div class="hint-container tip">
 <p class="hint-container-title">如何继续剧情？</p>
@@ -8,7 +8,7 @@
 一直上到这个场景后，调查一下尸体，然后把截图处和后方的纸条带上，接着往截图的缺口直走就行了</p>
 </div>
 <p>3.去隔壁的强盗营地<code v-pre>[-20 41 -4828]</code>,在门口稍微离远点放个技能打破障碍</p>
-<p>4.进行一场遭遇战，然后进入屋子内，沿着路一直上到顶楼，和顶楼的Marden<code v-pre>[16 72 -4795]</code>对话<br>
+<p>4.进行一场遭遇战，然后进入屋子内，沿着路一直上到顶楼，和顶楼的<font color=00AA00><strong>Marden</strong></font><code v-pre>[16 72 -4795]</code>对话<br>
 <img src="/assets/img/lvl79-2.jpg" alt="" loading="lazy"></p>
 <blockquote>
 <p>只能说这里确实是有点抽象了...</p>
@@ -19,11 +19,11 @@
 <p>这里的纸条是绿名的！不是装饰哦</p>
 <p>从劫匪营地出来往左手边走就能看到</p>
 </div>
-<p>6.根据信封的描述，找到位于Cinfras的3号房子<code v-pre>[-481 48 -4884]</code>，和二楼的Gawrick对话</p>
+<p>6.根据信封的描述，找到位于Cinfras的3号房子<code v-pre>[-481 48 -4884]</code>，和二楼的<font color=00AA00><strong>Gawrick</strong></font>对话</p>
 <p>7.经过一小段传送后，直走进入空军办公室<code v-pre>[-257 57 -4980]</code></p>
 <p>8.进入左手边的通道，推动书架，进入通道</p>
-<p>9.逮住Ernold，找机会右键他就是了</p>
-<p>9.把卷轴带回去给Gawrick</p>
+<p>9.逮住<font color=00AA00><strong>Ernold</strong></font>，找机会右键他就是了</p>
+<p>9.把卷轴带回去给<font color=00AA00><strong>Gawrick</strong></font></p>
 <p>奖励</p>
 <ul>
 <li>1300000 经验</li>

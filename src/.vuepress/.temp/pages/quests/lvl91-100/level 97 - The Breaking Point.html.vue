@@ -10,8 +10,8 @@
 <li><RouterLink to="/quests/lvl91-100/level%2094%20-%20Dwarves%20and%20Doguns%20Part%20IV.html">Dwarves and Doguns Part IV (level 94)</RouterLink></li>
 <li><RouterLink to="/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html">The Envoy Part II (Level 89)</RouterLink></li>
 </ul>
-<p>1.和<strong>Kandon-Beda</strong>的<em>General Elix</em><code v-pre>[756 164 -4463]</code>对话</p>
-<p>2.和<em>Rhay</em><code v-pre>[770 162 -4385]</code>对话，搭乘热气球前往Corkus，路上你可以向Rhay提问一些和地震有关的问题</p>
+<p>1.和<strong>Kandon-Beda</strong>的<font color=00AA00><strong>General Elix</strong></font><code v-pre>[756 164 -4463]</code>对话</p>
+<p>2.和<font color=00AA00><strong>Rhay</strong></font><code v-pre>[770 162 -4385]</code>对话，搭乘热气球前往Corkus，路上你可以向Rhay提问一些和地震有关的问题</p>
 <p>3.来到Corkus岛，触发剧情，然后径直进入房间内的洞穴内</p>
 <blockquote>
 <p>这俩其实是gay</p>
@@ -21,10 +21,10 @@
 <blockquote>
 <p>弓箭手的守护天使能直接锁人头，管你瞬不瞬移，笑死</p>
 </blockquote>
-<p>6.离开洞穴，登上热气球，回到<strong>Kandon-Beda</strong>，跟着<em>Rhay</em>触发剧情</p>
+<p>6.离开洞穴，登上热气球，回到<strong>Kandon-Beda</strong>，跟着<font color=00AA00><strong>Rhay</strong></font>触发剧情</p>
 <p>7.回到刚才的热气球，触发剧情</p>
-<p>8.来到<strong>Molten Heights</strong><code v-pre>[1466 141 -5316]</code>后，跟着<em>Korzim</em>进入传送门内</p>
-<p>9.剧情结束后，前往<strong>Lower Freezing Heights</strong><code v-pre>[1512 34 -5468]</code>，和<em>King Draani</em>对话</p>
+<p>8.来到<strong>Molten Heights</strong><code v-pre>[1466 141 -5316]</code>后，跟着<font color=00AA00><strong>Korzim</strong></font>进入传送门内</p>
+<p>9.剧情结束后，前往<strong>Lower Freezing Heights</strong><code v-pre>[1512 34 -5468]</code>，和<font color=00AA00><strong>King Draani</strong></font>对话</p>
 <p>10.进入洞穴内，剧情结束后使用抓钩飞跃峡谷，按下尽头的按钮</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -52,7 +52,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>只要有任意角色完成该任务，其他角色就可以直接解锁tcc</p>
-<p>这个水晶...其他存档其实根本不会用到，不需要另外买</p>
+<p>这个水晶...其他存档其实根本不会用到(曾经会)，不需要另外买</p>
 </div>
 </div></template>
 

@@ -68,7 +68,7 @@
 <p>奖励</p>
 <ul>
 <li>5500000 经验值</li>
-<li>20480 绿宝石</li>
+<li>20480 绿宝石(刚 好 回 本)</li>
 <li>Agent Key</li>
 </ul>
 </div></template>

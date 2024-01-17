@@ -1,8 +1,8 @@
 <template><div><h1 id="acquiring-credentials-level-74" tabindex="-1"><a class="header-anchor" href="#acquiring-credentials-level-74" aria-hidden="true">#</a> Acquiring Credentials (level 74)</h1>
 <p><span style="font-size: 25px;"><strong>获取凭证</strong></span><br>
 1.到<code v-pre>[-256 57 -4983]</code>领取护照</p>
-<p>2.被拒绝后，和门外的<em>Doan</em>对话</p>
-<p>3.跟着<em>Doan</em>沿着路来到酒吧<code v-pre>[-257 78 -7938]</code>，和里面的酒保对话</p>
+<p>2.被拒绝后，和门外的<font color=00AA00><strong>Doan</strong></font>对话</p>
+<p>3.跟着<font color=00AA00><strong>Doan</strong></font>沿着路来到酒吧<code v-pre>[-257 78 -7938]</code>，和里面的酒保对话</p>
 <p>4.沿着路来到餐厅<code v-pre>[-210 84 -4942]</code>，在厨房里拿到三明治和水然后给外面的顾客上菜。</p>
 <p>5.在货区拿到资源给对应的机长</p>
 <div class="hint-container tip">
@@ -11,7 +11,7 @@
 <p>绿色旗帜飞艇的机长需要南瓜</p>
 <p>红色旗帜飞艇的机长需要石英</p>
 </div>
-<p>6.继续沿着路走，和梯子上的<em>Mechanic</em><code v-pre>[-261 101 -4999]</code>对话</p>
+<p>6.继续沿着路走，和梯子上的<font color=00AA00><strong>Mechanic</strong></font><code v-pre>[-261 101 -4999]</code>对话</p>
 <p>7.跟着Mechanic抢夺飞艇</p>
 <div class="hint-container tip">
 <p class="hint-container-title">怎么击倒守卫？</p>

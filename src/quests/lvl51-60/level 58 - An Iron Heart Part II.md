@@ -36,9 +36,13 @@ icon: bookmark
 
 9.冲进去实验室最里面跟<font color=00AA00>**Dr. Urelix**</font>对话
 
-10.分歧点：如果你接受<font color=00AA00>**Dr.Urelx**</font>的贿赂,继续和他对话，你会拿到Shameful Greaves，loot bonus非常高的裤子
+:::danger
+注意这里千万别点上头了，一定要注意分歧点，别怪我没提醒了！！！
+:::
 
-如果你出去(往黑色方块那里走)回去找<font color=00AA00>**Detective Hart**</font>你会拿到Greaves of honor，xp bonus非常高的裤子
+10.分歧点：如果你接受<font color=00AA00>**Dr.Urelx**</font>的贿赂，**继续和他对话**，<br>你会拿到Shameful Greaves，loot bonus非常高的裤子
+
+如果你不继续对话，直接从出口离开，回去找<font color=00AA00>**Detective Hart**</font>`[-1744 66 -5478]`，<br>你会拿到Greaves of honor，XP bonus非常高的裤子
 
 奖励
 + 160000 经验

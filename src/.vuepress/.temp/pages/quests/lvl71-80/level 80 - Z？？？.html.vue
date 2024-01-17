@@ -310,6 +310,7 @@
 <p><strong>这个阶段一个人就可以完成</strong></p>
 <p>当通过了Lab N的谜题后，快速前往Cinfras附近找到白色陨石<code v-pre>[7 42 -5018]</code>，然后把红黄蓝的陨石碎片丢进棕色地毯<code v-pre>[7 43 -5019]</code>，从上方开启的门进入陨石(注意，门开的时间很短)</p>
 <p>然后手持上面提到的钥匙，在场地右后方按下按钮开门</p>
+<p>进门后，直走找到场景中央的传送器，走进传送器来到Mehme的房间，与<font color=00AA00><strong>Mehme</strong></font>对话领取任务奖励。</p>
 <blockquote>
 <p>红黄蓝陨石碎片一定要接近同时丢！</p>
 </blockquote>

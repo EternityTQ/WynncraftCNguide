@@ -1,8 +1,8 @@
 <template><div><h1 id="murder-mystery-level-73" tabindex="-1"><a class="header-anchor" href="#murder-mystery-level-73" aria-hidden="true">#</a> Murder Mystery(level 73)</h1>
 <p><span style="font-size: 25px;"><strong>谋杀谜团</strong></span></p>
-<p>1 找到<em>Captain Lorias</em><code v-pre>[-601 45 -4959]</code></p>
+<p>1 找到<font color=00AA00><strong>Captain Lorias</strong></font><code v-pre>[-601 45 -4959]</code></p>
 <p>2 进入屋内调查，跟着血迹从后窗离开，在屋子后的农田找到一封信<code v-pre>[-580 46 -5015]</code></p>
-<p>3 根据信件内容，前往Cinfras的9号房子<code v-pre>[-484 47 -4974]</code>，和Rohem对话</p>
+<p>3 根据信件内容，前往Cinfras的9号房子<code v-pre>[-484 47 -4974]</code>，和<font color=00AA00><strong>Rohem</strong></font>对话</p>
 <p>4 回去受害者房子找到一个蛇标志<code v-pre>[-585 45 -4983]</code>，拿起来后根据线索前往Cinfras的12号房子<code v-pre>[-495 46 -5031]</code></p>
 <p>5 和酒吧老板对话，跟着他进入下水道 从地下道里找到地下赌场。</p>
 <div class="hint-container tip">
@@ -10,7 +10,7 @@
 <p>哪里关了开哪里</p>
 <p>应该没必要讲...吧</p>
 </div>
-<p>6 和Valimare<code v-pre>[-404 24 -5019]</code>对话，然后去9号房揭发Rohem(和他对话)</p>
+<p>6 和<font color=00AA00><strong>Valimare</strong></font><code v-pre>[-404 24 -5019]</code>对话，然后去9号房揭发Rohem(和他对话)</p>
 <div class="hint-container tip">
 <p class="hint-container-title">关于赌博小游戏</p>
 <p>在这个赌场下面真的有一个可以玩的小游戏...顺便介绍一下</p>

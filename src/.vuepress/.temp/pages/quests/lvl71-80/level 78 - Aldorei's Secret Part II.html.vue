@@ -23,13 +23,13 @@
 <li><em>Mane</em><code v-pre>[-274 103 -4435]</code></li>
 </ul>
 </div>
-<p>3.回去跟<em>Olon</em>汇报调查情况<code v-pre>[-374 132 -4454]</code></p>
+<p>3.回去跟<font color=00AA00><strong>Olon</strong></font>汇报调查情况<code v-pre>[-374 132 -4454]</code></p>
 <p>这里会有三条支线...</p>
 <ol start="4">
 <li></li>
 </ol>
-<Tabs id="61" :data='[{"id":"去找Amber"},{"id":"去找地下暗河"},{"id":"去酒吧喝一杯"}]'>
-<template #title0="{ value, isActive }">去找Amber</template>
+<Tabs id="61" :data='[{"id":"去找<font color=00AA00><strong>Amber</strong></font>"},{"id":"去找地下暗河"},{"id":"去酒吧喝一杯"}]'>
+<template #title0="{ value, isActive }">去找<font color=00AA00><strong>Amber</strong></font></template>
 <template #title1="{ value, isActive }">去找地下暗河</template>
 <template #title2="{ value, isActive }">去酒吧喝一杯</template>
 <template #tab0="{ value, isActive }">
@@ -42,9 +42,12 @@
 <template #tab2="{ value, isActive }">
 <p>前往酒吧<code v-pre> [-272, 103, -4445]</code></p>
 <p>无论作何选项，最后都会转到地下暗河</p>
+<blockquote>
+<p>但是执意选择去喝一杯的话Olon真的会请你喝一杯</p>
+</blockquote>
 </template>
 </Tabs>
-<p>5.和Olon对话<code v-pre>[-294 88 -4464]</code></p>
+<p>5.和<font color=00AA00><strong>Olon</strong></font>对话<code v-pre>[-294 88 -4464]</code></p>
 <p>一路跟着Olon触发剧情</p>
 <p>6.在巨石前连续释放任意技能，走到最底下触发剧情</p>
 <div class="hint-container tip">
@@ -63,13 +66,13 @@
 <p>之后直接从走廊冲过去就行了</p>
 </div>
 <p>9.在顶楼触发剧情，随便乱选选项就可以了，没有任何差别。</p>
-<p>10.跟着<em>Olon</em>跑路，在外面和<em>Olon</em>对话</p>
+<p>10.跟着<font color=00AA00><strong>Olon</strong></font>跑路，在外面和<font color=00AA00><strong>Olon</strong></font>对话</p>
 <div class="hint-container tip">
 <p class="hint-container-title">额外内容</p>
 <p>在跑路出口的内部右侧有一个标有储藏室的房间</p>
 <p>可以进去拿点土豆。</p>
 </div>
-<p>11.去<strong>Cinfras</strong>的公会大厅前<code v-pre>[-342 47 -4939]</code>和<em>Olon</em>见面</p>
+<p>11.去<strong>Cinfras</strong>的公会大厅前<code v-pre>[-342 47 -4939]</code>和<font color=00AA00><strong>Olon</strong></font>见面</p>
 <ol start="12">
 <li></li>
 </ol>
@@ -77,7 +80,7 @@
 <p class="hint-container-title">关于选择</p>
 <p>建议选择直接进去问朋友！最快！</p>
 </div>
-<Tabs id="150" :data='[{"id":"选择与Olon的朋友会面"},{"id":"选择偷偷潜入..."}]'>
+<Tabs id="155" :data='[{"id":"选择与Olon的朋友会面"},{"id":"选择偷偷潜入..."}]'>
 <template #title0="{ value, isActive }">选择与Olon的朋友会面</template>
 <template #title1="{ value, isActive }">选择偷偷潜入...</template>
 <template #tab0="{ value, isActive }">
@@ -89,7 +92,7 @@
 </template>
 </Tabs>
 <p>13.调查<code v-pre>[-310 126 -4943]</code>处的资料</p>
-<p>14.回到Aldorei镇，和Olon<code v-pre>[-258 103 -4403]</code>对话</p>
+<p>14.回到Aldorei镇，和<font color=00AA00><strong>Olon</strong></font><code v-pre>[-258 103 -4403]</code>对话</p>
 <div class="hint-container tip">
 <p class="hint-container-title">关于快速传送</p>
 <p>任务目标中提到了位于<code v-pre>[-479 47 -4910]</code>的快速传送</p>

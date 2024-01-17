@@ -1,8 +1,8 @@
 <template><div><h1 id="memory-paranoia-level-67" tabindex="-1"><a class="header-anchor" href="#memory-paranoia-level-67" aria-hidden="true">#</a> Memory Paranoia(level 67)</h1>
 <p><span style="font-size: 25px;"><strong>偏执狂的回忆</strong></span></p>
-<p>1 在Caritat Mansion前找到Atisun<code v-pre>[-1192 46 -5198]</code></p>
+<p>1 在Caritat Mansion前找到<font color=00AA00><strong>Atisun</strong></font><code v-pre>[-1192 46 -5198]</code></p>
 <p>2 进入<em>Caritat Mansion</em></p>
-<p>3 知悉Caritat家族的故事，和Timmy Caritat<code v-pre>[-1238 14 -7745]</code>对话</p>
+<p>3 知悉Caritat家族的故事，和<font color=00AA00><strong>Timmy Caritat</strong></font><code v-pre>[-1238 14 -7745]</code>对话</p>
 <p>4 去地下室(进来右后方的位置下楼)<code v-pre>[-1216 12 -7694]</code>回收图书室钥匙</p>
 <p>5 去Caritat Mansion的图书室<code v-pre>[-1240 14 -7758]</code></p>
 <p>6 在房间内找到所有笔记，然后去上面的洞<code v-pre>[-1534 16 -8070]</code></p>
@@ -30,7 +30,7 @@
 <p>18 去主人房(二楼另一边，书房继续往下走)</p>
 <p>19 从后门逃离(二楼上楼中间的大门)</p>
 <p>20 探索地下室，走到最里面触发剧情</p>
-<p>21 跟Antisun说话</p>
+<p>21 跟<font color=00AA00><strong>Antisun</strong></font>说话</p>
 <p>奖励</p>
 <ul>
 <li>375000 经验</li>

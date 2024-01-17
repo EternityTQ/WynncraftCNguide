@@ -61,7 +61,7 @@
 </blockquote>
 <p>14.再次进入庄园调查<code v-pre>[-842 45 -5145]</code>，触发剧情</p>
 <p>15.快赶往主卧！</p>
-<p>16.前往地下墓穴<code v-pre>[-836 36 -5134]</code>，向Katarin指出宝石的位置</p>
+<p>16.前往地下墓穴<code v-pre>[-836 36 -5134]</code>，向<font color=00AA00><strong>Katarin</strong></font>指出宝石的位置</p>
 <p>17.击败Garvan!</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -69,7 +69,7 @@
 <p>推荐开启粒子效果</p>
 <p>有一点难打</p>
 </div>
-<p>18.选择告诉Katarin女儿的生死</p>
+<p>18.选择告诉<font color=00AA00><strong>Katarin</strong></font>女儿的生死</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>若选择生，则无事发生</p>

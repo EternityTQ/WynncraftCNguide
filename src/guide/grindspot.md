@@ -173,10 +173,111 @@ Wynntils上完全没有标！
 
 一般如果有公会需要刷取公会经验，才会选择教堂
 
+## 推荐练级散件
+:::tip
+此段部分内容摘自1-80级练级装备推荐.pdf
+:::
 
+### Lv.1 ~ Lv.29
+![](/assets/img/lianji1.jpg)
 
+裤子可以替换为<font color=aqua>**Opulenity**</font>，但是此装备价格波动幅度较大
 
+**<font color=#F7F06D> First Steps </font>**  需要任务 [Cook Assissant](/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html)任务前置，可以购买使用。
 
+**<font color=#F7F06D> WitherHead Tailsman</font>** 为 9 级副本下水道的副本奖励兑换物品。
+
+:::tip 戒指的上位替代
+包括这里及以下所有戒指均可以替换为<font color=aqua>**Rarity**</font>
+
+但是此戒指非常贵，请慎重考虑
+:::
+
+:::tip
+低等级练级其实不需要太多的经验装备
+
+你其实也可以考虑使用正常战斗装备在经验刷怪点进行刷怪
+:::
+
+### Lv.29~Lv.40
+
+![](/assets/img/lianji2.jpg)
+
+等到29级后就必须要换上冒险者套了
+
+这是这个等级区间最无脑的选择，冒险者套会提供非常高额的属性加成以及经验加成
+
+Topaz价格目前也比较亲民，选高经验的购买也不算很贵
+
+### Lv.40~Lv.56
+
+![](/assets/img/lianji3.jpg)
+
+这个等级段较为折磨，新人挺过这个阶段就能比较舒服了。
+
+以上装备可以到等级就脱下来换上，直到换全为止。上方所有装备全都没有任务前置。
+
+注意<font color=aqua>**Criistal**</font>要在Ice Barrow副本兑换
+
+手镯随意替换，也可以考虑上加属性的饰品
+
+注意，冒险者套最好不要单穿，打的吃力了就得全换了
+
+### Lv.56~Lv.76
+
+![](/assets/img/lianji4.jpg)
+
+这些装备较为复杂，建议仔细观看下文。
+
+头盔和鞋子可以直接购买，选择价格承受区间内 XP 高的即可。
+
+但是要注意鞋子<font color=aqua>**Bad Wolf**</font>比较贵
+
+胸甲无需购买，免费获取。但是需要前往固定 Boss 祭坛，通过击杀 Boss 获得。可以无限获取，如果时间充裕可以获得满 XP 的胸甲。祭坛位置在`[-698 83 -630]`
+
+[胸甲 Boss 祭坛wiki地址](https://wynncraft.fandom.com/wiki/Matryoshka_Shell)
+
+裤子也无需购买，免费获取。但是需要做前置任务[An Iron Heart II](/quests/lvl51-60/level%2058%20-%20An%20Iron%20Heart%20Part%20II.html)，并在最后选择的时候选择不接受贿赂，直接回去找侦探即可获得该裤子。
+
+:::tip 胸甲的懒人替代
+可以考虑<font color=#F7F06D> **Drizzling Doublet** </font>，56级，无需任何前置，直接在市场购买即可
+
+但是货源比较少，需注意
+:::
+
+:::tip 头盔的上位替代
+可以选择<font color=aqua>**Venison**</font>，但也是非常非常贵
+
+直接在市场购买即可，选择自己能接受的价格即可
+
+替换后如下图所示
+
+![](/assets/img/lianji5.jpg)
+
+手镯<font color=aqua>**Vanguard**</font>需要在CIP副本中兑换
+:::
+
+### Lv.80
+
+比较特殊的等级
+
+这个等级意味着你可以直接去做[三问任务](/quests/lvl71-80/level%2080%20-%20Z？？？.html)来获取全游最高经验加成的经验套<font color=green>**Cosmic Set**</font>
+
+但是三问任务需要一共4个人来完成
+
+朋友配置要求有点高。
+
+但是如果你有能力的话还是值得去做一下，这套装备的经验加成实在是太高了。
+
+### Lv.77+
+
+![](/assets/img/lianji6.jpg)
+
+最终形态如上图所示
+
+只要等级到了，一件一件替换就可以了
+
+注意**头盔非常贵**，可以使用下位替代<font color=EC4791>**Speaker**</font>，这个很便宜
 
 
 

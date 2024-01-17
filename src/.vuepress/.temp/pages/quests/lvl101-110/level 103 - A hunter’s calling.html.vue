@@ -37,21 +37,21 @@
 <p>同时，在开始任务前，最好在包内带绿宝石(零散的)</p>
 <p>对于每一个任务地点，都是只要抵达指定地点就会触发地狱门反胃效果，然后传送至任务区域</p>
 </div>
-<p>1.从Eldritch Outlook Dungeon门口走到底,和???<code v-pre>[1320 130 -424]</code>谈话</p>
+<p>1.从Eldritch Outlook Dungeon门口走到底,和<font color=00AA00><strong>???</strong></font><code v-pre>[1320 130 -424]</code>谈话</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>你当前角色至少必须要通关一次Eldritch Outlook才能进入大门</p>
 </div>
 <p>2.去Ragni,进去传送后你要杀掉10个<em>Ragni Citizen</em></p>
-<p>3.在Almuj后面的沙漠触发剧情<code v-pre>[1087 73 -1824]</code>，然后沿着路走，找到城市内的Almuj Citizen和旁边的Wynnexcavation Employee<code v-pre>[11311 85 5085]</code>并对话</p>
+<p>3.在Almuj后面的沙漠触发剧情<code v-pre>[1087 73 -1824]</code>，然后沿着路走，找到城市内的Almuj Citizen和旁边的<font color=00AA00><strong>Wynnexcavation Employee</strong></font><code v-pre>[11311 85 5085]</code>并对话</p>
 <p>4.从NPC旁边的树叶过河,爬上带藤蔓的那颗最大的树并透过窗户看里面，看完就润</p>
 <p>5.从<code v-pre>[11342 111 5034]</code>通过跑酷然后右键陷阱杀掉市长</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>注意深色橡木木板经过就会塌陷！</p>
 </div>
-<p>6.回去和Amadel谈话</p>
-<p>7.去Nesaak的Ice Barrow门口触发剧情，随后和<em>Bak'al</em>对话，然后沿着路走进入以前的Nesaak,随后杀掉Theorick</p>
+<p>6.回去和<font color=00AA00><strong>Amadel</strong></font>谈话</p>
+<p>7.去Nesaak的Ice Barrow门口触发剧情，随后和<font color=00AA00><strong>Bak'al</strong></font>对话，然后沿着路走进入以前的Nesaak,随后杀掉Theorick</p>
 <p>8.去Troms挑战Corrupt of Worlds的通道触发剧情，进去后走到尽头后，先挖泥土解除封印，然后回到大洞穴，将虫子引到绿光标识处杀掉，会出来一座塔，爬上去离开即可</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -75,8 +75,8 @@
 <p class="hint-container-title">提示</p>
 <p>这一步中，如果你没有绿宝石，可以通过击杀周围的怪物来获取</p>
 </div>
-<p>10.去Rodoroc南部的贫民窟<code v-pre>[1088 21 -5035]</code>，走到<code v-pre>[1112 9 -4985]</code>触发剧情，和<em>Rodoroc Slum Citizen</em>对话后出来</p>
-<p>和<em>Royal Advisor</em>对话，然后走到贫民窟尽头绿宝石块处安放炸弹，在限时内逃出来</p>
+<p>10.去Rodoroc南部的贫民窟<code v-pre>[1088 21 -5035]</code>，走到<code v-pre>[1112 9 -4985]</code>触发剧情，和<font color=00AA00><strong>Rodoroc Slum Citizen</strong></font>对话后出来</p>
+<p>和<font color=00AA00><strong>Royal Advisor</strong></font>对话，然后走到贫民窟尽头绿宝石块处安放炸弹，在限时内逃出来</p>
 <p>11.去Corkus城的<code v-pre>[-1550 68 -2919]</code>的电梯 上楼2次然后直走再右转，来到<code v-pre>[-1502 108 -2885]</code>触发剧情</p>
 <p>传送后在左边房屋楼上拿Electromagnetical Battery，在<code v-pre>[12091 35 6107]</code>拿到石头</p>
 <p>然后放到弹射器上，跟着箭头偷走图腾并从左边窗户出来</p>
@@ -87,8 +87,8 @@
 <p class="hint-container-title">提示</p>
 <p>最终BOSS强度非常高</p>
 <p>建议做好十足准备后再来攻克！</p>
-<p>其中，Tasim比Aledar好打一点</p>
-<p>这个最终BOSS是你上阶段先击杀的另一个人</p>
+<p>其中，二阶段的Tasim比二阶段Aledar好打一点</p>
+<p>在你击杀Tasim/Aledar中任意一人后，存活的那个会进入二阶段且变得更强，注意元素伤害(你从五级就应该注意的)。</p>
 </div>
 <p>15.结束</p>
 <p>奖励</p>

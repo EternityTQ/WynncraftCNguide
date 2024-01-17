@@ -4,7 +4,7 @@
 <p class="hint-container-title">重要任务</p>
 <p>解锁Galleon’s Graveyard副本</p>
 </div>
-<p>1 跟<em>Marston</em>在<code v-pre>[-608 40 -3546]</code>谈话</p>
+<p>1 跟<font color=00AA00><strong>Marston</strong></font>在<code v-pre>[-608 40 -3546]</code>谈话</p>
 <blockquote>
 <p>(在<strong>Galleon's Graveyard</strong>，海盗湾和Selchar可以坐船去)</p>
 </blockquote>
@@ -17,7 +17,7 @@
 <p>第二块陆地是杀怪得到掉落物,扔入漏斗(每个漏斗2掉落物)</p>
 <p>第三块陆地是跑酷到山顶。</p>
 <p>5 集齐三个碎片后你会获得一个带标记的藏宝图(在上一步要求杀怪的岛)，到达那个位置之后会传送到一个岛屿，触发剧情后你需要在<code v-pre>[90 44 -15210]</code>的山洞获得3根线,在<code v-pre>[80 39 -15255]</code>的树下获得4个压力板,然后修复船只触发剧情</p>
-<p>6 回去和<em>Marston</em><code v-pre>[-608 40 -3546]</code>交任务</p>
+<p>6 回去和<font color=00AA00><strong>Marston</strong></font><code v-pre>[-608 40 -3546]</code>交任务</p>
 <p>奖励</p>
 <ul>
 <li>180000 经验</li>

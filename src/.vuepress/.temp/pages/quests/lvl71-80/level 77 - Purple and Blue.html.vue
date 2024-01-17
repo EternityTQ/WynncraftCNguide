@@ -1,7 +1,7 @@
 <template><div><h1 id="purple-and-blue-level77" tabindex="-1"><a class="header-anchor" href="#purple-and-blue-level77" aria-hidden="true">#</a> Purple and Blue(level77)</h1>
 <p><span style="font-size: 25px;"><strong>紫与蓝</strong></span></p>
-<p>1.和<em>Korun</em>对话<code v-pre>[-236 34 -5224]</code></p>
-<p>2.跟随<em>Korun</em>进入地下室，然后进入旁边的通道，被劝退后触发剧情</p>
+<p>1.和<font color=00AA00><strong>Korun</strong></font>对话<code v-pre>[-236 34 -5224]</code></p>
+<p>2.跟随<font color=00AA00><strong>Korun</strong></font>进入地下室，然后进入旁边的通道，被劝退后触发剧情</p>
 <p>3.前往Nikoler的房子寻找线索<code v-pre>[-163 29 -5388]</code></p>
 <div class="hint-container tip">
 <p class="hint-container-title">如何获得线索?</p>
@@ -27,7 +27,7 @@
 </div>
 <p>7.战斗结束后回到中间蓝紫水晶交互一下，然后离开</p>
 <p>8.将<code v-pre>Cosmic Stone</code>插入出来后面前大门的孔内，拿到中间的护身符</p>
-<p>9.回去跟<em>Korun</em>报告</p>
+<p>9.回去跟<font color=00AA00><strong>Korun</strong></font>报告</p>
 <p>10.手持护身符进入第二步中的地下通道</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -37,10 +37,10 @@
 <p>11.找到漂浮在空中的三个木头按钮，然后按下门旁边的按钮</p>
 <p>12.信标关，按下蓝和紫就可以了</p>
 <p>13.小跑酷，对着绿色粒子右键就可以启用平台，一路往前就行了</p>
-<p>14.追上Nikoler</p>
+<p>14.追上<font color=00AA00><strong>Nikoler</strong></font></p>
 <p>15.作出选择</p>
-<Tabs id="98" :data='[{"id":"1.救出Nikoler"},{"id":"2.抢走陨石碎片"},{"id":"3.直接跑路"}]'>
-<template #title0="{ value, isActive }">1.救出Nikoler</template>
+<Tabs id="98" :data='[{"id":"1.救出<font color=00AA00><strong>Nikoler</strong></font>"},{"id":"2.抢走陨石碎片"},{"id":"3.直接跑路"}]'>
+<template #title0="{ value, isActive }">1.救出<font color=00AA00><strong>Nikoler</strong></font></template>
 <template #title1="{ value, isActive }">2.抢走陨石碎片</template>
 <template #title2="{ value, isActive }">3.直接跑路</template>
 <template #tab0="{ value, isActive }">
@@ -59,7 +59,7 @@
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
-<p>在逃出洞穴后，你可以选择是否告诉Korun关于拿走陨石碎片的事</p>
+<p>在逃出洞穴后，你可以选择是否告诉<font color=00AA00><strong>Korun</strong></font>关于拿走陨石碎片的事</p>
 <p>如果你选择了如实讲述</p>
 <p>奖励</p>
 <ul>
