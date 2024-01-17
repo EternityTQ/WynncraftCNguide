@@ -26,6 +26,17 @@ icon: earth-asia
 ### **tna/tcc/nol/notg**
 指特定的RAID副本，可以看看[这里](/guide/raid.html)
 
+### **风法/rw**
+RiftWalker，法师的一个分支职业名
+
+### **奥术/arc**
+Arcanist，法师的一个分支职业名
+
+### **球法**
+Light Bender，法师的一个分支职业名
+
+
+
 ## 生活类
 
 ### **e**
@@ -64,6 +75,36 @@ unidentified，未鉴定的装备，加在装备名前通常特指未鉴定的XX
 ### **lr**
 Lootrun，详情请移步[这个页面](/guide/lootrun.html)
 
+### **咸牛**
+Salted，为服务器的服主
+
+叫咸牛的原因是其皮肤是一头牛
+
+咸牛是所有玩家的攻击对象
+
+### **SB/银牛/淫牛**
+Silverbull，指的是Silverbull系统，你可以理解为wynncraft月卡
+
+详情可以看看[这里](/guide/VIP.html#sliverbull-share)
+
+### **shout**
+指大喇叭，需要花费1个shout bomb来发送
+
+氪金道具。
+
+### **lb**
+绝大部分情况下指Loot bouns，战利品加成
+
+偶尔会有老外在问职业的时候使用lb来指球法
+
+### **lq**
+Loot Quality，战利品质量
+
+### **三问**
+指80级的任务`???`
+
+具体可以看看[这篇文章](/quests/lvl71-80/level%2080%20-%20Z？？？.html)
+
 ## 公会类
 
 ### **gw**
@@ -72,7 +113,25 @@ Guild war，公会战
 ### **cnm**
 ChinaNumberOne，国人公会名
 
+### **ffa**
+free for all，公会战里面的混战区
+
+### **eco**
+公会战的调资源
+
+### **hq**
+headquarters，指公会战里面的首都/总部
+
+
+
 ## 口语类
+
+:::tip
+此处介绍的是英语环境中常用的口语缩写
+
+以及服务器内英语玩家会使用到的meme
+
+:::
 
 ### **brb**
 be right back，马上回来
@@ -90,3 +149,8 @@ direct message，比如DM me意为直接联系我
 
 ### **4**
 for，比如说wait4my friend就是等一个朋友，不是等四个，口语而已
+
+### **gg**
+good game，游戏内一般是主职或副职升级成功表达恭喜的，挑战成功也会有人说gg
+
+## 装备类

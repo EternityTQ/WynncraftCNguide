@@ -51,7 +51,7 @@ Grind Spot的怪物强度往往高于其他怪物
 所以，请不要只在刷怪队伍中挂机，这样你的效率将会无比低下，只能拿到保底的队伍加成经验
 :::
 
-## Lv.5~Lv.10
+## Lv.5~Lv.10 大树下
 
 ![](/assets/img/grindspot1.jpg)
 
@@ -63,7 +63,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 这个等级被21级的怪物摸到基本就是直接秒杀
 
-## Lv.10~Lv.20
+## Lv.10~Lv.20 
 
 ![](/assets/img/grindspot2.jpg)
 
@@ -73,7 +73,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 好处是离城镇近，如果被打残了直接跑路回城镇补给就可以了
 
-## Lv.18~Lv.30
+## Lv.18~Lv.30 蜘蛛山
 
 ![](/assets/img/grindspot3.jpg)
 
@@ -84,7 +84,7 @@ Grind Spot的怪物强度往往高于其他怪物
 如果有组队的话，这里是个不错的点
 
 
-## Lv.20~Lv.40
+## Lv.20~Lv.40 墓地
 
 ![](/assets/img/grindspot4.jpg)
 
@@ -98,7 +98,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 这个刷怪点可以刷很久很久(大概)
 
-## lv.40~lv.55
+## lv.40~lv.55 蜘蛛洞
 
 ![](/assets/img/grindspot6.jpg)
 
@@ -108,7 +108,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 虽然有点漂洋过海，挺麻烦的:skull:
 
-## lv.50~lv.70
+## lv.50~lv.70 Herb Cave
 
 ![](/assets/img/grindspot7.jpg)
 
@@ -122,7 +122,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 队伍建议2~4人即可
 
-## Lv.65~Lv.85
+## Lv.65~Lv.85 瀑布洞
 
 ![](/assets/img/grindspot8.jpg)
 
@@ -132,7 +132,20 @@ Grind Spot的怪物强度往往高于其他怪物
 
 推荐4~8人
 
-## Lv.85~Lv.105
+## Lv.60~Lv.80 肉洞
+![](/assets/img/grindspot11.jpg)
+
+Wynntils上完全没有标！
+
+实际上这里也是一个很不错的刷怪点
+
+位置在`[-949 16 -5515]`，从图上的洞穴进去
+
+注意！这个坐标实际上已经是一个无敌点了，站在上面杀怪就行
+
+而且这个地方完全可以单刷，比较惬意
+
+## Lv.85~Lv.105 垃圾场
 
 ![](/assets/img/grindspot9.jpg)
 
@@ -144,7 +157,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 但同时垃圾场的怪物强度也爆炸高，奶妈质量一定要很高！
 
-## Lv.105+
+## Lv.105+ 教堂
 
 ![](/assets/img/grindspot10.jpg)
 
