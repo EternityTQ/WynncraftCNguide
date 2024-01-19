@@ -35,7 +35,12 @@
 <h2 id="room3" tabindex="-1"><a class="header-anchor" href="#room3" aria-hidden="true">#</a> Room3</h2>
 <h3 id="slime-goo-隧道" tabindex="-1"><a class="header-anchor" href="#slime-goo-隧道" aria-hidden="true">#</a> Slime goo 隧道</h3>
 <p>在这一面，玩家需要携带Slime goo到达终点，路径上会有巨石阻拦。</p>
-<p>与Slime goo交互的玩家将携带之，且移速大幅降低&amp;无法使用普攻和技能，但可以点击巨石上的裂痕破坏巨石，其他玩家无法进行这一操作，需要保护携带Slime goo的玩家到达终点方可通过此面。</p>
+<p>与Slime goo交互的玩家将携带之，且移速大幅降低&amp;无法使用普攻和技能，但可以<strong>右键</strong>巨石上的裂痕破坏巨石，其他玩家无法进行这一操作，需要保护携带Slime goo的玩家到达终点方可通过此面。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">小趣事</p>
+<p>实际上...无论有没有拿到物品，每个玩家都可以直接右键巨石来推进进度...</p>
+<p>似乎是一个存在多年的BUG了呢(笑)</p>
+</div>
 <h3 id="mini-boss" tabindex="-1"><a class="header-anchor" href="#mini-boss" aria-hidden="true">#</a> mini boss</h3>
 <p>在这一面，玩家会被传送到有上下两层的大型空间，需要上下均有至少一名玩家来完成此面。</p>
 <p>首先，在下层的玩家击杀平台上的miniBOSS，之后平台会上升，然后由上层玩家再次击杀miniBOSS，底层会出现新的平台，循环三次后，终点的传送门将会开启。</p>

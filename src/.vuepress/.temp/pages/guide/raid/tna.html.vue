@@ -14,8 +14,11 @@
 </blockquote>
 <h2 id="room1" tabindex="-1"><a class="header-anchor" href="#room1" aria-hidden="true">#</a> Room1</h2>
 <h3 id="flooding-canyon" tabindex="-1"><a class="header-anchor" href="#flooding-canyon" aria-hidden="true">#</a> Flooding Canyon</h3>
-<p><strong>这一面内，机制十分重要</strong><br>
-首先，整个场景内分布有多个血量极高的Void hole，正常手段无法击杀之。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>这个挑战中存在团队机制，请注意与队友配合。</p>
+</div>
+<p>首先，整个场景内分布有多个血量极高的Void hole，正常手段无法击杀之。</p>
 <p>其次，玩家出生点面前会刷新一颗Berserk berry，可以通过攻击拾取，拾取的玩家将会获得失明，无法使用技能，攻速被锁定为Super Slow以及普攻伤害超大的buff。</p>
 <p>获得该Buff后的玩家可以迅速击杀Void hole，其他玩家需协助之一同击杀所有Void hole方可通过此面。</p>
 <p>未能在两分钟内击杀所有Void hole，会立刻挑战失败。</p>
@@ -24,8 +27,11 @@
 <p>雷粉主动对于击杀Void hole十分有效，即使您并不使用电系武器，也推荐您在挑战tna时携带一把拥有电粉主动的副手武器，如：弓箭手使用Cluster，法师使用Bonder等。</p>
 </div>
 <h3 id="sunken-grotto" tabindex="-1"><a class="header-anchor" href="#sunken-grotto" aria-hidden="true">#</a> Sunken Grotto</h3>
-<p><strong>这一面内，机制十分重要</strong><br>
-这一面的区域十分开阔，中间有一凸起的平台，需要一名玩家站立在上方来启动倒计时。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>这个挑战中存在团队机制，请注意与队友配合。</p>
+</div>
+<p>这一面的区域十分开阔，中间有一凸起的平台，需要一名玩家站立在上方来启动倒计时。</p>
 <p>当倒计时倒数至50s/30s/10s时，场景内会随机刷新出一个Void hole。</p>
 <p>玩家须尽量在10s内击杀Void hole，否则，会召唤及难对付的黑暗之心(如果真出了，那基本是队伍强度不够，先去干点别的再来打Tna吧)<br>
 中央平台两侧会不定时刷新Ethereal Root，该敌怪存在时，平台内的玩家会持续受到激光攻击，请及时处理。</p>
@@ -35,15 +41,21 @@
 </div>
 <h2 id="room2" tabindex="-1"><a class="header-anchor" href="#room2" aria-hidden="true">#</a> Room2</h2>
 <h3 id="weeping-soulroot" tabindex="-1"><a class="header-anchor" href="#weeping-soulroot" aria-hidden="true">#</a> Weeping Soulroot</h3>
-<p><strong>这一面内，机制十分重要</strong><br>
-这一面，玩家会处于一棵巨大的树下，左右两侧分别有一Soul Shrub的刷怪点，场地中心是一个祭坛，正前方为进入树洞的传送门。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>这个挑战中存在团队机制，请注意与队友配合。</p>
+</div>
+<p>这一面，玩家会处于一棵巨大的树下，左右两侧分别有一Soul Shrub的刷怪点，场地中心是一个祭坛，正前方为进入树洞的传送门。</p>
 <p>击败Soul Shrub会获得灵魂(进入这一面时所有玩家默认持有灵魂)，持有灵魂的玩家在祭坛上站立五秒可以消耗并提交灵魂，每次提交灵魂会让所有的传送门开启五秒。</p>
 <p>需要有一名玩家通过传送门进入树内(并且树中同时只能有一名玩家探索)，在树中的各个房间内搜索，找到特殊的怪Interdimensional Isoptera，当其出现在房间内时，玩家的屏幕中央会有非常显眼的文字提示，进入树中的玩家需要将其击杀，并将掉落物提交至祭坛两侧，重复两次即可开启机关通往下一面。</p>
 <p>树中各个房间的联通关系如下图所示：<br>
 <em><strong>更新中，作者还没做完，下次附上图</strong></em></p>
 <h3 id="nameless-cave" tabindex="-1"><a class="header-anchor" href="#nameless-cave" aria-hidden="true">#</a> Nameless Cave</h3>
-<p><strong>这一面内，机制十分重要</strong><br>
-这一面，玩家会被传送至一个黢黑的山洞前，山洞左侧有一个海晶灯，站立在海晶灯上的玩家会获得跟随自身的光。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>这个挑战中存在团队机制，请注意与队友配合。</p>
+</div>
+<p>这一面，玩家会被传送至一个黢黑的山洞前，山洞左侧有一个海晶灯，站立在海晶灯上的玩家会获得跟随自身的光。</p>
 <p>有玩家拾取光之后，所有玩家一同进入洞穴，此时：**只有携带光的玩家周围是安全的，一旦超出范围太远，就会持续扣血。**之后所有玩家需要一同完成三面挑战：</p>
 <p>第一面：寻找并击杀三只隐身的Shadow(末影人，可以通过紫色眼睛寻找)，开启通往第二面的传送门</p>
 <p>第二面：通过跑酷，全队一起走到顶端进入第三面</p>
