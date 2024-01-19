@@ -13,7 +13,7 @@
 <p>上面那话句的错别字是故意的。</p>
 </blockquote>
 <h2 id="room1" tabindex="-1"><a class="header-anchor" href="#room1" aria-hidden="true">#</a> Room1</h2>
-<h3 id="flooding-canyon" tabindex="-1"><a class="header-anchor" href="#flooding-canyon" aria-hidden="true">#</a> Flooding Canyon</h3>
+<h3 id="flooding-canyon-虚空洞" tabindex="-1"><a class="header-anchor" href="#flooding-canyon-虚空洞" aria-hidden="true">#</a> Flooding Canyon - 虚空洞</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>这个挑战中存在团队机制，请注意与队友配合。</p>
@@ -26,7 +26,7 @@
 <p class="hint-container-title">提示</p>
 <p>雷粉主动对于击杀Void hole十分有效，即使您并不使用电系武器，也推荐您在挑战tna时携带一把拥有电粉主动的副手武器，如：弓箭手使用Cluster，法师使用Bonder等。</p>
 </div>
-<h3 id="sunken-grotto" tabindex="-1"><a class="header-anchor" href="#sunken-grotto" aria-hidden="true">#</a> Sunken Grotto</h3>
+<h3 id="sunken-grotto-平台" tabindex="-1"><a class="header-anchor" href="#sunken-grotto-平台" aria-hidden="true">#</a> Sunken Grotto - 平台</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>这个挑战中存在团队机制，请注意与队友配合。</p>
@@ -40,7 +40,7 @@
 <p>通过站在平台角落的方式可以规避来自Ethereal Root的伤害</p>
 </div>
 <h2 id="room2" tabindex="-1"><a class="header-anchor" href="#room2" aria-hidden="true">#</a> Room2</h2>
-<h3 id="weeping-soulroot" tabindex="-1"><a class="header-anchor" href="#weeping-soulroot" aria-hidden="true">#</a> Weeping Soulroot</h3>
+<h3 id="weeping-soulroot-树" tabindex="-1"><a class="header-anchor" href="#weeping-soulroot-树" aria-hidden="true">#</a> Weeping Soulroot - 树</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>这个挑战中存在团队机制，请注意与队友配合。</p>
@@ -56,7 +56,7 @@
 <p>重复两次即可开启机关通往下一面。</p>
 <p>树中各个房间的联通关系如下图所示：<br>
 <em><strong>更新中，作者还没做完，下次附上图</strong></em></p>
-<h3 id="nameless-cave" tabindex="-1"><a class="header-anchor" href="#nameless-cave" aria-hidden="true">#</a> Nameless Cave</h3>
+<h3 id="nameless-cave-light" tabindex="-1"><a class="header-anchor" href="#nameless-cave-light" aria-hidden="true">#</a> Nameless Cave - Light</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>这个挑战中存在团队机制，请注意与队友配合。</p>
@@ -79,7 +79,7 @@
 <p>第三关miniboss中，场地中央左侧的岩石上方比较安全，可以考虑在上面开打</p>
 </div>
 <h2 id="room3" tabindex="-1"><a class="header-anchor" href="#room3" aria-hidden="true">#</a> Room3</h2>
-<h3 id="bulbshift-wilds" tabindex="-1"><a class="header-anchor" href="#bulbshift-wilds" aria-hidden="true">#</a> bulbshift Wilds</h3>
+<h3 id="bulbshift-wilds-灯泡" tabindex="-1"><a class="header-anchor" href="#bulbshift-wilds-灯泡" aria-hidden="true">#</a> bulbshift Wilds - 灯泡</h3>
 <p>玩家会被传送至一大片平原之上，面前会有三个Blue bulb。并且平原上会持续刷怪，其中，Bulb Catcher会尝试抢走Blue bulb，需尽快击杀。</p>
 <p>玩家的任务是：保护Blue bulb并将其充能，至少保住一个Blue bulb且将其充满至3/3即可开启传送门。</p>
 <p>在所有玩家附近一定范围内，只要足够空旷，就有概率生成bulb Keeper，击杀之即可获得Red bulb</p>
@@ -93,7 +93,7 @@
 <p>所有玩家请尽量集中在场地中央的巨石上，避免怪物刷新过于分散导致看不到新刷新的怪物</p>
 <p>同时，只需要守住一个蓝灯泡即可，所有充能也只往一个蓝灯泡里面塞</p>
 </div>
-<h3 id="twisted-jungle" tabindex="-1"><a class="header-anchor" href="#twisted-jungle" aria-hidden="true">#</a> Twisted Jungle</h3>
+<h3 id="twisted-jungle-传送门" tabindex="-1"><a class="header-anchor" href="#twisted-jungle-传送门" aria-hidden="true">#</a> Twisted Jungle - 传送门</h3>
 <p>玩家会被传送至一个封闭的传送门前，左右两侧共有四个通道，身后则是会固定刷怪的大大小小的虚空洞</p>
 <p>在这一挑战中，玩家需要保护传送门不被击破，并收集到五个虚空物质打开传送门。</p>
 <p>正对传送门，从左到右四条支路分别为：跑酷，Miniboss，跑酷，Miniboss</p>
