@@ -8,6 +8,11 @@
 前置任务：<RouterLink to="/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html">The Breaking Point (level 97)</RouterLink></p>
 <p>Tcc是当前游戏流程内最难的raid之一</p>
 <p>Tcc可以产出当前版本的毕业防具tome(2级)，是游戏必要流程之一。</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>tcc的BOSS战对生存端有极大的要求</p>
+<p>请尽量避免使用低ehp的装备进行挑战</p>
+</div>
 <h2 id="room1" tabindex="-1"><a class="header-anchor" href="#room1" aria-hidden="true">#</a> Room1</h2>
 <h3 id="minigame" tabindex="-1"><a class="header-anchor" href="#minigame" aria-hidden="true">#</a> Minigame</h3>
 <p>这一个挑战中，玩家会被传送至一个封闭空间内，周围会有五个被巨石封住的道路，周围的五个通道每次会开启三个，完成通道内的挑战即可获得资源，将资源提交至中央的洞穴上，提交十个资源后洞穴开启，进入下一面。</p>
