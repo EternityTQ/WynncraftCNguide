@@ -116,7 +116,7 @@ export default sidebar({
         prefix: "raid/",
         icon: "skull",
         collapsible: true,
-        children:["","notg","nol","tcc","tna"],
+        children:["intro","notg","nol","tcc","tna"],
       },"grindspot","earnle","VIP","festival","wynntils","outsidegame","slang","qa","support"],
     },
 ],
