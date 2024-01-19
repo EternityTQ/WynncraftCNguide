@@ -8,21 +8,22 @@
 前置任务：<RouterLink to="/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html">Realm of Light I - The Worm Holes (level 54)</RouterLink></p>
 <p>Notg是整个游戏流程中，最低等级限制的raid</p>
 <p>作为教程级别的raid，Notg整体难度较低。</p>
+<p>notg会产出1级的武器tome和1级的防具tome</p>
 <h2 id="room1" tabindex="-1"><a class="header-anchor" href="#room1" aria-hidden="true">#</a> Room1</h2>
-<p>Notg的第一面可能出现以下两个房间之一：</p>
+<p>Notg的第一个挑战可能出现以下两个房间之一：</p>
 <h3 id="三选一平台站立" tabindex="-1"><a class="header-anchor" href="#三选一平台站立" aria-hidden="true">#</a> 三选一平台站立</h3>
-<p>在这一面，地面上会有多个带颜色的标记，您需要注意这些标记。</p>
+<p>在这一个挑战中，地面上会有多个带颜色的标记，您需要注意这些标记。</p>
 <p>在一定时间后，会有随机三个标记开始闪烁白色粒子，此时，三名玩家需要分别站立在三个白色粒子圈内。</p>
 <p>倒计时结束后，会有随机一个标记处生长出平台，站在对应圈内的玩家会被传送到平台上方，此时，需要该玩家站立在平台上持续一段时间，直到平台自然消失或者屏幕中央的倒计时结束。</p>
 <p>一般需要重复2-3次这个过程，即可打开通道通关。</p>
 <h3 id="史莱姆平台防御" tabindex="-1"><a class="header-anchor" href="#史莱姆平台防御" aria-hidden="true">#</a> 史莱姆平台防御</h3>
-<p>在这一面，场地中央会有一个史莱姆平台，需要一名玩家站立在上面激活倒计时。</p>
+<p>在这一个挑战中，场地中央会有一个史莱姆平台，需要一名玩家站立在上面激活倒计时。</p>
 <p>倒计时持续期间，平台周围会不断刷怪，且周围的史莱姆蛋会随机开裂。</p>
 <p>如果史莱姆蛋开裂(会有字幕提示)，需要及时将其破坏掉，否则倒计时将被强制暂停一段时间。</p>
 <p>倒计时结束后，即可打开通道通关。</p>
 <h2 id="room2" tabindex="-1"><a class="header-anchor" href="#room2" aria-hidden="true">#</a> Room2</h2>
 <h3 id="收集资源-搭建平台" tabindex="-1"><a class="header-anchor" href="#收集资源-搭建平台" aria-hidden="true">#</a> 收集资源，搭建平台</h3>
-<p>这一面共可能出现两种房间布局，一种是从左到右为跑酷/战斗/解密的布局，另一种是从左到右为解密/跑酷/战斗的布局。</p>
+<p>这一个挑战中共可能出现两种房间布局，一种是从左到右为跑酷/战斗/解密的布局，另一种是从左到右为解密/跑酷/战斗的布局。</p>
 <p>每当玩家完成三个挑战之一，即可获得一个巨型史莱姆块，将其带到场地中央，右键悬空的文字即可搭建平台，收集10个资源后即可开启通道，爬上平台通过此面。</p>
 <p>每个小房间只能最多进入一人，一般情况下建议只通过轮流进入战斗房间的方式收集资源。</p>
 <h3 id="跑酷-战斗-解密" tabindex="-1"><a class="header-anchor" href="#跑酷-战斗-解密" aria-hidden="true">#</a> 跑酷/战斗/解密</h3>
@@ -34,7 +35,7 @@
 <p>中间的跑酷机制类似于UR副本，需要进行多次史莱姆跳。</p>
 <h2 id="room3" tabindex="-1"><a class="header-anchor" href="#room3" aria-hidden="true">#</a> Room3</h2>
 <h3 id="slime-goo-隧道" tabindex="-1"><a class="header-anchor" href="#slime-goo-隧道" aria-hidden="true">#</a> Slime goo 隧道</h3>
-<p>在这一面，玩家需要携带Slime goo到达终点，路径上会有巨石阻拦。</p>
+<p>在这一个挑战中，玩家需要携带Slime goo到达终点，路径上会有巨石阻拦。</p>
 <p>与Slime goo交互的玩家将携带之，且移速大幅降低&amp;无法使用普攻和技能，但可以<strong>右键</strong>巨石上的裂痕破坏巨石，其他玩家无法进行这一操作，需要保护携带Slime goo的玩家到达终点方可通过此面。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">小趣事</p>
@@ -42,12 +43,21 @@
 <p>似乎是一个存在多年的BUG了呢(笑)</p>
 </div>
 <h3 id="mini-boss" tabindex="-1"><a class="header-anchor" href="#mini-boss" aria-hidden="true">#</a> mini boss</h3>
-<p>在这一面，玩家会被传送到有上下两层的大型空间，需要上下均有至少一名玩家来完成此面。</p>
+<p>在这一个挑战中，玩家会被传送到有上下两层的大型空间，需要上下均有至少一名玩家来完成此面。</p>
 <p>首先，在下层的玩家击杀平台上的miniBOSS，之后平台会上升，然后由上层玩家再次击杀miniBOSS，底层会出现新的平台，循环三次后，终点的传送门将会开启。</p>
 <h2 id="boss" tabindex="-1"><a class="header-anchor" href="#boss" aria-hidden="true">#</a> Boss</h2>
 <p>通过三个挑战之后，您将会面对Notg的BOSS：The Grootslang Wyrmlings</p>
 <p>BOSS战共有五个阶段，每次击杀BOSS的一个阶段后，平台上会随机刷新小怪，每次转阶段黑屏后，平台范围会缩小。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>放心战斗，平台旁边有屏障，不会掉下去</p>
+</div>
 <p>需要小心的是，当你身边出现“upcomming attack”字样时，请尽快躲开，这是一个伤害很高的技能。</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>目前存在一个BUG，在转阶段时，BOSS可能会堆叠施放技能，如果你此时还在BOSS嘴边，那满级玩家来了都会被秒杀</p>
+<p>因此，转阶段后请立刻跑开，避免吃到BUG伤害导致被秒杀</p>
+</div>
 <h2 id="buff" tabindex="-1"><a class="header-anchor" href="#buff" aria-hidden="true">#</a> buff</h2>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
