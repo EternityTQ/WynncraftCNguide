@@ -111,7 +111,13 @@ export default sidebar({
         icon: "scroll",
         collapsible: true,
         children:"structure",
-      },"class","developmentroute","npcs","dungeon","profession","lootrun","raid","grindspot","earnle","VIP","festival","wynntils","outsidegame","slang","qa","support"],
+      },"class","developmentroute","npcs","dungeon","profession","lootrun",{
+        text: "RAID",
+        prefix: "raid/",
+        icon: "skull",
+        collapsible: true,
+        children:["","notg","nol","tcc","tna"],
+      },"grindspot","earnle","VIP","festival","wynntils","outsidegame","slang","qa","support"],
     },
 ],
 "/newbie/": [

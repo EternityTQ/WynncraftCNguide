@@ -14,7 +14,7 @@ export const pagesRoutes = [
   ["v-092dd10e","/guide/outsidegame.html",{"y":"a","t":"游戏外工具","i":"toolbox"},[":md"]],
   ["v-52a6221e","/guide/profession.html",{"y":"a","t":"副职系统","i":"flask"},[":md"]],
   ["v-3df8bb46","/guide/qa.html",{"y":"a","t":"常见问题","i":"question"},[":md"]],
-  ["v-6948ac23","/guide/raid.html",{"y":"a","t":"RAID","i":"skull"},[":md"]],
+  ["v-6948ac23","/guide/raid.html",{"y":"a","t":"总体介绍","i":"skull"},[":md"]],
   ["v-fffb8e28","/guide/",{"y":"a","t":"游戏指南","i":"lightbulb"},["/guide/README.md"]],
   ["v-8c493ab8","/guide/Slang.html",{"y":"a","t":"黑话一览","i":"earth-asia"},[":md"]],
   ["v-8f1cfd54","/guide/support.html",{"y":"a","t":"支持我们&感谢名单","i":"truck-medical"},[":md"]],
@@ -191,4 +191,6 @@ export const pagesRoutes = [
   ["v-6d1f8e01","/quests/lvl81-90/",{"y":"p","t":"Lvl81 90"},[]],
   ["v-6bb4cab6","/quests/lvl91-100/",{"y":"p","t":"Lvl91 100"},[]],
   ["v-38f78afb","/quests/special/",{"y":"p","t":"Special"},[]],
+  ["v-15c29732","/guide/raid/nol.html",{"y":"a","t":"Orphion's Nexus of Light","i":"cow"},[":md"]],
+  ["v-59cca079","/guide/raid/",{"y":"a","t":"总体介绍","i":"skull"},["/guide/raid/README.md"]],
 ]

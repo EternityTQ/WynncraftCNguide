@@ -383,4 +383,8 @@ export const pagesData = {
   "v-6bb4cab6": () => import(/* webpackChunkName: "v-6bb4cab6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/index.html.js").then(({ data }) => data),
   // path: /quests/special/
   "v-38f78afb": () => import(/* webpackChunkName: "v-38f78afb" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/special/index.html.js").then(({ data }) => data),
+  // path: /guide/raid/nol.html
+  "v-15c29732": () => import(/* webpackChunkName: "v-15c29732" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/nol.html.js").then(({ data }) => data),
+  // path: /guide/raid/
+  "v-59cca079": () => import(/* webpackChunkName: "v-59cca079" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/index.html.js").then(({ data }) => data),
 }

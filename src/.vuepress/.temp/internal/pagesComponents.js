@@ -385,4 +385,8 @@ export const pagesComponents = {
   "v-6bb4cab6": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb4cab6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/index.html.vue")),
   // path: /quests/special/
   "v-38f78afb": defineAsyncComponent(() => import(/* webpackChunkName: "v-38f78afb" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/special/index.html.vue")),
+  // path: /guide/raid/nol.html
+  "v-15c29732": defineAsyncComponent(() => import(/* webpackChunkName: "v-15c29732" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/nol.html.vue")),
+  // path: /guide/raid/
+  "v-59cca079": defineAsyncComponent(() => import(/* webpackChunkName: "v-59cca079" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/index.html.vue")),
 }

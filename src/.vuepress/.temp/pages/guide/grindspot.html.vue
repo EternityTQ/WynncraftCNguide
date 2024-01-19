@@ -120,7 +120,7 @@
 <p>以上装备可以到等级就脱下来换上，直到换全为止。上方所有装备全都没有任务前置。</p>
 <p>注意<font color=aqua><strong>Criistal</strong></font>要在Ice Barrow副本兑换</p>
 <p>手镯随意替换，也可以考虑上加属性的饰品</p>
-<p>注意，冒险者套最好不要单穿，打的吃力了就得全换了</p>
+<p>注意，上面的冒险者套最好不要单穿，如果觉得打的吃力了就得全换，进这个阶段了</p>
 <h3 id="lv-56-lv-76" tabindex="-1"><a class="header-anchor" href="#lv-56-lv-76" aria-hidden="true">#</a> Lv.56~Lv.76</h3>
 <figure><img src="/assets/img/lianji4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这些装备较为复杂，建议仔细观看下文。</p>
