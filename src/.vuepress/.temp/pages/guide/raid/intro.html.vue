@@ -4,7 +4,8 @@
 <p>请知悉！</p>
 <p>如发现内容有误，请提交反馈，感谢！</p>
 </div>
-<p>Raid(袭击)是一种特殊的多人高难副本，您可以在Raid中获取到大量资源，且对于完整游戏体验来说，Raid是必要的游戏内容。</p>
+<p>Raid(袭击)是一种特殊的多人高难副本，您可以在Raid中获取到大量资源</p>
+<p>且对于完整游戏体验来说，Raid是必要的游戏内容。</p>
 <p>在这里，我会对Raid进行详尽的讲解，包括如何解锁各个Raid，以及各个Raid的机制、奖励等。</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
@@ -13,8 +14,13 @@
 <p>(部分机制在自己遇到之前不好描述)</p>
 </div>
 <h2 id="共有机制" tabindex="-1"><a class="header-anchor" href="#共有机制" aria-hidden="true">#</a> 共有机制</h2>
-<p>当前版本的所有raid都有部分共同机制，会进行简要介绍：</p>
-<p>首先，进入raid需要支付门票费(runes)，门票费需要由队长支付。</p>
+<p>当前版本的所有raid都有部分共同机制</p>
+<p>首先，队伍的总等级以及总人数不能超过上限，这一点在打NOL和NOTG时需要注意</p>
+<p>进入raid需要所有队友都在副本入口，且需要支付门票费(runes)，门票费需要由队长支付</p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>dungeon bomb并不能抵消raid的入场费用</p>
+</div>
 <p>通常情况下，队长会向每个队友各索取一个rune作为门票。</p>
 <p>NOTG一般直接由队长来支付全额门票</p>
 <div class="hint-container tip">
@@ -30,7 +36,7 @@
 <p>注意：每个raid均有自己的解锁条件，会在各个raid中单独说明。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">小趣事</p>
-<p>实际上，似乎曾经有过一段时间，RAID的人数上限被验证为虚有其表</p>
+<p>实际上，曾经有过一段时间，RAID的人数上限被验证为虚有其表</p>
 <p>这意味着，只要队伍玩家总等级不超过等级上限，可以带更多玩家进入RAID</p>
 <p>这一特性可以被应用在notg上</p>
 <p>当然，现在是否还生效就不得而知了...</p>

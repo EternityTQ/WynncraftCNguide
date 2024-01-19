@@ -35,7 +35,7 @@ export const pagesRoutes = [
   ["v-5bcbfc77","/guide/basesystem/skillpoint.html",{"y":"a","t":"属性点数","i":"fire"},[":md"]],
   ["v-590551bf","/guide/basesystem/soulpoint.html",{"y":"a","t":"灵魂点数","i":"ghost"},[":md"]],
   ["v-0b970088","/guide/basesystem/trademarket.html",{"y":"a","t":"交易市场","i":"sack-dollar"},[":md"]],
-  ["v-22d61b26","/guide/raid/intro.html",{"y":"a","t":"总体介绍","i":"skull"},[":md"]],
+  ["v-22d61b26","/guide/raid/intro.html",{"y":"a","t":"总体介绍","i":"scroll"},[":md"]],
   ["v-15c29732","/guide/raid/nol.html",{"y":"a","t":"Orphion's Nexus of Light","i":"cow"},[":md"]],
   ["v-98117de8","/guide/raid/notg.html",{"y":"a","t":"Nest of the Grootslangs","i":"bug"},[":md"]],
   ["v-4b814604","/guide/raid/tcc.html",{"y":"a","t":"The Canyon Colossus","i":"shield"},[":md"]],
