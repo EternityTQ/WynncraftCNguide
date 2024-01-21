@@ -1,5 +1,5 @@
 ---
-title: 灵魂点数
+title: Soul Point
 icon: ghost
 ---
 
@@ -7,7 +7,7 @@ icon: ghost
 
 ![](/assets/img/soulpoint1.jpg)
 
-灵魂点数相当于你的危险等级。
+灵魂点数相当于你的危险等级，越低的灵魂点数越危险
 
 ## 死亡掉落
 随着灵魂点数的降低，你每次死亡时都会掉落更多物品。
