@@ -28,7 +28,7 @@
 </ul>
 </details>
 <p><strong>Mana Regen</strong><br>
-魔力恢复，每有x点数值给予x/5s的魔力回复，该数值可为负数（即会反过来扣蓝）。</p>
+魔力恢复，每有x点数值给予x/5s的魔力回复，该数值可为负数（即会反过来扣蓝）。基础回蓝量为25/5s。</p>
 <p><strong>Mana steal</strong><br>
 魔力窃取，每次进行普通攻击时，会根据自身的攻速（受鉴定词条影响，并非武器面板基础攻速）来决定单次吸取的魔力</p>
 <p>该数值可为负数（即攻击时会反过来扣蓝）。</p>
@@ -46,29 +46,32 @@
 附加爆炸，每次击杀时会有x%的概率使敌人爆炸</p>
 <p>概率最多为100%（若该数值为负数则无任何效果），超过100%的数值不生效。</p>
 <p><strong>Main attack damage（raw/%）</strong><br>
-普通攻击伤害加成，简称MD，分为伤害加成数值与伤害加成百分比两种</p>
+普通攻击伤害加成，简称MD，分为伤害加成数值与伤害加成百分比两种。伤害加成百分比是根据每次普攻打出的伤害计算的，与平均伤害（Average DPS）无关。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>Main attack damage计算顺序为先计算百分比加成，再加上数值加成（即数值不享受百分比加成）。</p>
 </div>
 <p><strong>Spell damage（raw/%）</strong><br>
-技能伤害加成，与普通攻击伤害加成相似（数值不享受百分比加成）。</p>
+技能伤害加成，与普通攻击伤害加成相似（数值不享受百分比加成）。伤害加成百分比是根据平均伤害（Average DPS）计算的。</p>
+<p><strong>Water/Fire/Earth/Thunder/Air damage%</strong><br>
+水/火/地/电/气属性伤害百分比加成，计算方式与相应伤害（普通攻击或者技能伤害）相同。</p>
 <p><strong>1st/2nd/3rd/4th spell cost(raw/%)</strong><br>
 1/2/3/4技能的费用减耗，分为数值与百分比两种</p>
 <p>当数字为正数时，表示该技能会有对应的额外魔力消耗数值加成（或百分比加成）</p>
 <p>当数字为负数时，表示该技能会有对应的额外魔力消耗数值减少（或百分比减少）</p>
-<p>数值与百分比的计算顺序为先计算百分比，再计算数值（即数值不享受百分比加成）</p>
+<p>数值与百分比的计算顺序为先计算数值，再计算百分比（即数值享受百分比加成）</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>正数raw cost能抵消重复施法带来的蓝耗惩罚，为最终加算</p>
 <p>而cost%作用于基础蓝耗(类似于技能树中的减蓝耗)</p>
-<p>两者均有最低消耗蓝耗(1点)。</p>
+<p>两者均有最低消耗蓝耗（1点）。</p>
+<p>萨满面具的cost%在所有以上计算结束之后计算，所以当你正常蓝耗为1时换面具可以看到0点蓝耗的情况。</p>
 </div>
 <h3 id="生存类词条" tabindex="-1"><a class="header-anchor" href="#生存类词条" aria-hidden="true">#</a> 生存类词条</h3>
 <p><strong>Health</strong><br>
 生命值，增加自身最大生命值。</p>
 <p><strong>Health regen（raw/%）</strong><br>
-生命恢复，简称<code v-pre>hpr</code>和<code v-pre>hpr%</code>，每有x点数值给予x/4s的生命恢复，该数值可为负数（即会反过来扣血），恢复的生命值计算方式为先计算数值再计算百分比（即数值可享受百分比加成）。</p>
+生命恢复，简称<code v-pre>hpr</code>和<code v-pre>hpr%</code>，每有x点数值给予x/4s的生命恢复，该数值可为负数（即会反过来扣血），恢复的生命值计算方式为先计算数值再计算百分比（即数值可享受百分比加成）。基础hpr为3/4s，并且不受百分比影响。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>hpr的机制有点特殊</p>
@@ -90,7 +93,7 @@
 移动速度加成，上限为400%</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>特别地，弓箭手的移速buff为百分比提升，可以突破这个上限</p>
+<p>特别地，弓箭手的移速buff和speed surge为百分比提升，可以突破这个上限</p>
 </div>
 <p><strong>Jump height</strong><br>
 跳跃高度加成，每1点数值会提升跳跃高度</p>

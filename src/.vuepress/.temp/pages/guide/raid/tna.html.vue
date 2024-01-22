@@ -24,11 +24,12 @@
 <p>未能在两分钟内击杀所有Void hole，会立刻挑战失败。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">过关技巧</p>
-<p>首先，请保证莓果持有者身上没有百分比减普攻伤害(极大降低效率，甚至可能无法通关)以及非萨满职业(萨满平A吃莓果效率极低)</p>
+<p>因为berry给的buff是极高的raw，所有+/-raw或者+/-%普攻伤害词条效果完全无效。拿berry的玩家尽量要有较高的力量和暴击属性点。</p>
 <p>正常情况下，由其他玩家慢慢带领莓果玩家走到虚空洞<strong>正下方</strong>，然后由莓果玩家击杀</p>
 <p>此期间需要密切配合汇报虚空洞情况，因为时间非常紧张</p>
-<p>值得一提的是，电粉被动对于击杀虚空洞来说非常有效</p>
-<p>持有莓果的玩家哪怕主武器并非电属性，也强烈建议携带一把打有电粉被动的副武器</p>
+<p>值得一提的是，电粉主动对于击杀虚空洞来说非常有效</p>
+<p>持有莓果的玩家哪怕主武器并非电属性，也强烈建议携带一把打有电粉主动并且提高力量或者暴击属性点的副武器。</p>
+<p>比较会玩的非莓果玩家玩家可以在后方四个虚空洞中间引怪，可以极大提高电粉主动一次击杀后方四个虚空洞的概率。</p>
 </div>
 <h3 id="sunken-grotto-平台" tabindex="-1"><a class="header-anchor" href="#sunken-grotto-平台" aria-hidden="true">#</a> Sunken Grotto - 平台</h3>
 <div class="hint-container tip">
@@ -38,7 +39,7 @@
 <p>这一挑战中的区域十分开阔，中间有一凸起的平台，需要一名玩家站立在上方来启动倒计时。</p>
 <p>当倒计时倒数至50s/30s/10s时，场景内会随机刷新出一个Void hole。</p>
 <p>玩家须尽量在10s内击杀Void hole，否则，会召唤及难对付的黑暗之心(如果真出了，那基本是队伍强度不够，先去干点别的再来打Tna吧)<br>
-中央平台两侧会不定时刷新Ethereal Root，该敌怪存在时，平台内的玩家会持续受到激光攻击，请及时处理。</p>
+中央平台两侧每次踩平台都会刷新Ethereal Root，该敌怪存在时，平台内的玩家会持续受到激光攻击，请及时处理。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>通过站在平台角落的方式可以规避来自Ethereal Root的伤害</p>
@@ -59,7 +60,7 @@
 <p>当其出现在房间内时，玩家的屏幕中央会有非常显眼的文字提示，进入树中的玩家需要将其击杀，并将掉落物提交至祭坛两侧</p>
 <p>重复两次即可开启机关通往下一面。</p>
 <p>树中各个房间的联通关系如下图所示：<br>
-<em><strong>更新中，作者还没做完，下次附上图</strong></em></p>
+<img src="https://github.com/EternityTQ/WynncraftCNguide/assets/157373097/8564101f-bdee-4eeb-aa62-7d070c61876b" alt="image" loading="lazy"></p>
 <h3 id="nameless-cave-light" tabindex="-1"><a class="header-anchor" href="#nameless-cave-light" aria-hidden="true">#</a> Nameless Cave - Light</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -69,11 +70,12 @@
 <p>有玩家拾取光之后，所有玩家需要一同进入洞穴</p>
 <p>此时：<strong>只有携带光的玩家周围是安全的，一旦超出范围太远，就会持续大量扣血。</strong></p>
 <p>之后所有玩家需要一同完成三个小挑战：</p>
-<p>1.寻找并击杀三只隐身的Shadow(末影人，可以通过紫色眼睛寻找)，开启通往第二关的传送门</p>
+<p>1.寻找并击杀三只隐身的Shadowling(末影人，可以通过紫色眼睛寻找)，开启通往第二关的传送门</p>
 <p>2.通过跑酷，全队一起走到顶端进入第三面</p>
 <p>3.击败miniboss，通过这一面</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
+<p>第一关末影人关卡中末影人生成是有规律的（正前方岩石上如果有两个末影人，房间左边必定有一个；如果岩石上或岩石前有一个，另外两个会在房间左边，岩石后面和通往下一关的门口随机两处）</p>
 <p>第二关跑酷关卡中，若队伍中没有某位移短板的职业，可以考虑直接进门左拐，前往终点底部</p>
 <blockquote>
 <p>其实如果有某位移短板的职业的位移高手也是上得去的</p>
@@ -96,17 +98,18 @@
 <p class="hint-container-title">过关技巧</p>
 <p>所有玩家请尽量集中在场地中央的巨石上，避免怪物刷新过于分散导致看不到新刷新的怪物</p>
 <p>同时，只需要守住一个蓝灯泡即可，所有充能也只往一个蓝灯泡里面塞</p>
+<p>正常情况下大部分玩家会充能场地左边的蓝灯泡。</p>
 </div>
 <h3 id="twisted-jungle-传送门" tabindex="-1"><a class="header-anchor" href="#twisted-jungle-传送门" aria-hidden="true">#</a> Twisted Jungle - 传送门</h3>
 <p>玩家会被传送至一个封闭的传送门前，左右两侧共有四个通道，身后则是会固定刷怪的大大小小的虚空洞</p>
 <p>在这一挑战中，玩家需要保护传送门不被击破，并收集到五个虚空物质打开传送门。</p>
 <p>正对传送门，从左到右四条支路分别为：跑酷，Miniboss，跑酷，Miniboss</p>
-<p>左侧第一个跑酷支线，需要玩家从左右两侧分别跑到对面，激活虚空晶体后，回到支线中央，进入虚空洞取回虚空物质</p>
+<p>左侧第一个跑酷支线，需要玩家从左右两侧分别跑到对面，激活虚空晶体后，回到支线中央，进入虚空洞取回虚空物质（位移玩的好的可以先跑右侧，在传送之前从下方到达左侧可以一次激活两边的虚空晶体）</p>
 <p>左侧第二个miniboss支线，需要玩家击杀miniboss即可获取虚空物质</p>
-<p>右侧第三个跑酷支线机制很简单，但是比较烦人，建议在第二次传送后直接用远程击杀虚空物质然后返回</p>
+<p>右侧第三个跑酷支线机制很简单，但是比较烦人，建议在传送后直接用远程击杀虚空物质然后返回（萨满或法师可以从左侧miniboss支线用远程拿到此虚空物质）</p>
 <p>右侧第四个miniboss支线，会有两只头部是虚空洞的怪物，距离起点较远的那只携带虚空物质，需注意，一旦玩家接触到二者当中的任意一只，都会被立刻传送至另一只面前，就像进入了虚空洞一样，且会受到大幅伤害。</p>
 <p>场地正中央的虚空洞会不断出现小怪来袭击传送门，其中的蓝名怪会攻击大传送门，传送门只有十点血量，如果传送门碎了就会立刻失败。</p>
-<p>在第三波怪物来袭时，会出现一只头部是虚空洞的miniboss，击杀之即可获得最后一个虚空物质，打开传送门通关。</p>
+<p>在第三波怪物来袭之后，会出现一只头部是虚空洞的miniboss，击杀之即可获得最后一个虚空物质，打开传送门通关。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">过关技巧</p>
 <p>建议由两名DPS角色快速前往小BOSS并击杀，然后快速回中间守线</p>
@@ -116,8 +119,8 @@
 </div>
 <h2 id="boss" tabindex="-1"><a class="header-anchor" href="#boss" aria-hidden="true">#</a> Boss</h2>
 <p>终章的Boss——The Nameless Anomaly（后称greg）是一个非常强大的存在，而与它的对战会在一个巨大的矩形战斗盘中进行，greg拥有非常多的能力，并且拥有随着血量降低而逐渐增加的移速，需要玩家有足够的灵活性才能成功将其击败。</p>
-<p>greg同时只会瞄准一名玩家，但如果让他的仇恨在多个玩家之间跳转并不是什么好选择</p>
-<p>推荐的做法是所有玩家从同一个方向，贴墙一边后退一边往BOSS脸上甩技能</p>
+<p>greg同时只会瞄准一名玩家，但大部分情况下如果让他的仇恨在多个玩家之间跳转并不是什么好选择</p>
+<p>推荐的新手做法是所有玩家从同一个方向，贴墙一边后退一边往BOSS脸上甩技能</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <p>若你太过靠近greg，则会被greg击飞，需要小心</p>
@@ -134,12 +137,12 @@
 <p>对于眼球激光——当一名玩家被瞄准后，他的屏幕中心会出现提示——you are being watched。</p>
 <p>一秒后，greg会向其瞄准的位置发射一道眼球激光，<strong>对半径八格内的所有玩家造成其最大生命值25%的真实伤害，对半径六格内的所有玩家</strong><em><strong>额外造成</strong></em><strong>其30%最大生命值的真实伤害</strong>。</p>
 <p>在这一阶段，玩家需要有足够的灵活性来规避greg的伤害，且需要避免聚集扎堆。</p>
-<p>greg在进入这一阶段时血量越低，这一阶段持续时间越长。</p>
+<p>greg在进入这一阶段后会瞄准玩家十次。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">过关技巧</p>
 <p>为什么要贴墙跑？</p>
 <p>实际上，若greg砸虚空洞时砸到了墙角，则虚空洞不会生成，这是主要原因。</p>
-<p>如果你想要后退跑得过greg，则你需要至少<strong>100+% ws</strong></p>
+<p>如果你想要后退跑得过greg，则你需要至少<strong>135+% ws</strong>或者<strong>80%+ ws加上windy feet或speed surge</strong></p>
 </div>
 <h2 id="buff" tabindex="-1"><a class="header-anchor" href="#buff" aria-hidden="true">#</a> buff</h2>
 <div class="hint-container warning">
