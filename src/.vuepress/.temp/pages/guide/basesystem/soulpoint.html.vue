@@ -1,6 +1,6 @@
 <template><div><p>你应该也已经注意到了，你的物品栏第九格存放着这么一个东西</p>
 <figure><img src="/assets/img/soulpoint1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>灵魂点数相当于你的危险等级。</p>
+<p>灵魂点数相当于你的危险等级，越低的灵魂点数越危险</p>
 <h2 id="死亡掉落" tabindex="-1"><a class="header-anchor" href="#死亡掉落" aria-hidden="true">#</a> 死亡掉落</h2>
 <p>随着灵魂点数的降低，你每次死亡时都会掉落更多物品。</p>
 <p>包括素材/绿宝石/其他物品/未鉴定的物品/已鉴定的物品</p>

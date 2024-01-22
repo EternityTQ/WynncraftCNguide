@@ -70,6 +70,8 @@
 <p class="hint-container-title">提示</p>
 <p><code v-pre>Silverbull Syndicate</code>等级为账号通用</p>
 <p>实际上，在达到Master等级后，你才算是能体验到完成的Lootrun内容</p>
+<p>在打到Master等级前，建议慢慢体验LR，这是给你在慢慢熟悉信标效果的过程</p>
+<p>免得升到满级还不知道吃到信标会发生什么！！！！</p>
 </div>
 <details class="hint-container details"><summary>升级追加内容一览</summary>
 <table>
@@ -209,6 +211,14 @@
 <p>你可以在此看到最小挑战轮数以及最大挑战轮数还有基础挑战轮数。</p>
 <figure><img src="/assets/img/lootrun8.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>每个账号在每天第一次lootrun完成时，都能获得每日奖励</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在满级后，每日奖励包含+5pulls以及+1rr</p>
+<p>注意：这仅适用于每日第一次<strong>成功结算</strong>的局数</p>
+<p>这意味着，如果你今天已经吃了每日奖励，你仍然可以保持已经开始的游戏不结算，并等待至第二天每日奖励刷新时再进行结算，以此来吃到每日奖励</p>
+<p>每日奖励的刷新时间是北京时间早上八点</p>
+<p>特别地，如果你每日第一局失败了，不会消耗每日奖励</p>
+</div>
 <p>在开始游戏后，你可以看到计分板出现计时器以及轮次数</p>
 <figure><img src="/assets/img/lootrun9.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <div class="hint-container tip">
@@ -716,11 +726,16 @@
 <p>如果你的pulls超过了36，则会根据优先级截断优先级较低的物品，保留优先级较高的物品</p>
 <p><strong>注意最终奖励宝箱的奖励抽取不受任何lb、lq的影响！</strong></p>
 </div>
-<p>你可以消耗最终奖励刷新机会(End Reward Reroll，以下简称rr)来刷新物品</p>
-<p>rr相当于重抽一次，并不会保留你当前的任何物品</p>
-<p>在确认开启前，你可以随时选择献祭奖励(End Reward Sacrifice，以下简称sac)</p>
+<h4 id="end-reward-reroll" tabindex="-1"><a class="header-anchor" href="#end-reward-reroll" aria-hidden="true">#</a> <strong>End Reward Reroll</strong></h4>
+<p>简称rr</p>
+<p>你可以消耗最终奖励刷新机会(End Reward Reroll)来刷新物品</p>
+<p>rr相当于重抽一次，且不会保留你重抽前的任何物品</p>
+<h4 id="end-reward-sacrifice" tabindex="-1"><a class="header-anchor" href="#end-reward-sacrifice" aria-hidden="true">#</a> <strong>End Reward Sacrifice</strong></h4>
+<p>简称sac</p>
+<p>在确认开启前，如果你通过任务获得了sac数，你可以随时选择献祭奖励(End Reward Sacrifice)</p>
 <p>sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局</p>
 <figure><img src="/assets/img/lootrun13.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>1sac为保存50%的pulls，2sac为保存75%的pulls</p>
 <p>在确认开启后，你就不能进行任何操作了，包括rr和sac</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -740,7 +755,7 @@
 <p>因此，<strong>非常不推荐满级前的玩家尝试挑战lr</strong></p>
 <p>请在拥有比较强力的神话武器，或是比较高超的技术再来挑战！</p>
 </div>
-<h4 id="配装要求-游戏前准备" tabindex="-1"><a class="header-anchor" href="#配装要求-游戏前准备" aria-hidden="true">#</a> 配装要求&amp;游戏前准备</h4>
+<h4 id="配装要求-游戏前准备" tabindex="-1"><a class="header-anchor" href="#配装要求-游戏前准备" aria-hidden="true">#</a> <strong>配装要求&amp;游戏前准备</strong></h4>
 <hr>
 <p>最好是拥有一定的生存能力(高额ehp/优秀的自回能力)，同时也要有一定的输出</p>
 <p>如果二者缺少之一，可能会导致挑战失败 ( 输出不足导致超时 / 生存不足导致被秒杀 )</p>
@@ -753,7 +768,7 @@
 </div>
 <p>如果你实在组不起理想中的build，你还可以考虑使用消耗品来代替，就像上面的例子一样</p>
 <p>这里的消耗品包括但不限于 药水、食物、卷轴等等...</p>
-<h4 id="信标思路" tabindex="-1"><a class="header-anchor" href="#信标思路" aria-hidden="true">#</a> 信标思路</h4>
+<h4 id="信标思路" tabindex="-1"><a class="header-anchor" href="#信标思路" aria-hidden="true">#</a> <strong>信标思路</strong></h4>
 <hr>
 <p>这里将会根据优先级来介绍信标的抓位</p>
 <p>首先是<font color = FF66FF><strong>彩虹信标</strong></font>，看到就一定要拿，可以决定性的提升你本局游戏的收益</p>
@@ -763,13 +778,13 @@
 <font color = "blue"><b>蓝色信标</b></font>在你没有足够的增益时，一定要拿，确保你能渡过接下来的挑战<p><font color = "CCCCCC"> <b>白色信标</b> </font>机会只有一次，不要浪费，在拿到彩虹信标后，就最好一定要吃到青色+<font color = "CCCCCC"><b>白色信标</b></font>来大幅提升回合数了！</p>
 <p>注意千万别在彩虹前吃<font color = "CCCCCC"><b>白色信标</b></font>！很浪费！</p>
 <font color = 'grey'><b>灰色信标</b></font>最好和<font color = 00CCFF><b>青色信标</b></font>一起使用！无论彩虹前后，青色信标都能使灰色信标的选数达到最大<p><font color = "red"><b>红色信标</b></font>和<font color = 00BB00><b>绿色信标</b></font>最好搭配着拿，如果需要临时续命可以再拿！</p>
-<p><font color = "555555"><b>暗灰色信标</b></font>如果没有<font color='AA00AA'> <b>Equilibrium</b> </font>,则一定要在收尾的时候拿到，否则小心翻车！</p>
+<p><font color = "555555"><b>暗灰色信标</b></font>如果没有<font color='AA00AA'> <b>Equilibrium</b> </font>,则最好在收尾的时候拿到，否则小心翻车！</p>
 <p><font color='AA00AA'> <b>紫色信标</b> </font>也是最好在收尾的阶段拿，除非有特定的任务组合可以让你无视或减小诅咒带来的风险</p>
 <p><font color='FFCC00'> <b>黄色信标</b> </font>能提升本轮的战利品数量，但是对整局游戏的运营没有帮助！</p>
 <p>如果你走投无路了，再来考虑<font color='FFCC00'> <b>黄色信标</b> </font>吧！</p>
 <p>但是有一个特例：在你获得<font color='FFCC00'> <strong>Cleansing Greed</strong> </font>的情况下，吃黄色信标能迅速降低你的诅咒数值！</p>
 <p>最后是<font color = 00CCFF><b>青色信标</b></font>，其效果非常特殊，目前在数量无限制的情况下，<strong>强烈建议</strong>在吃到彩虹后，如果有考虑吃除了蓝信标以外的情况，都最好搭配一个青一起使用来提高效率！</p>
-<h4 id="如何选择增益" tabindex="-1"><a class="header-anchor" href="#如何选择增益" aria-hidden="true">#</a> 如何选择增益？</h4>
+<h4 id="如何选择增益" tabindex="-1"><a class="header-anchor" href="#如何选择增益" aria-hidden="true">#</a> <strong>如何选择增益？</strong></h4>
 <hr>
 <p>无论何时，请你保证你吃到的蓝信标数占你已挑战轮次的33%-50%甚至更多</p>
 <p>蓝信标能保证你有足够的数值来挑战接下来的挑战</p>
@@ -780,6 +795,7 @@
 <p><strong>数字越大越好</strong></p>
 <p>大数字永远能给你带来十足的安全感</p>
 <p>这里的大数字指品质更高的增益种类</p>
+<p>同时，如果你单一伤害boon拿的太多了，可以考虑不需要再拿了，避免伤害稀释</p>
 </div>
 <ul>
 <li>首先，请你保证你的总Mana Regen在足够舒适的数值及以上，如果不足以技能连发，强烈建议优先拿取mr增益</li>
@@ -803,22 +819,6 @@
 <li>最后，如果你的职业的位移手段非常差劲(比如萨满)，那么你还得考虑将移动速度抓到上限(400%)来避免跑到超时</li>
 </ul>
 <p>还有就是生命窃取非常废，最好别拿。</p>
-<h4 id="游戏过程-运营思路" tabindex="-1"><a class="header-anchor" href="#游戏过程-运营思路" aria-hidden="true">#</a> 游戏过程&amp;运营思路</h4>
-<hr>
-<p>LR非常考验你的运营水平</p>
-<div class="hint-container warning">
-<p class="hint-container-title">注意</p>
-<p>此处待更新</p>
-<p>此处待更新</p>
-<p>此处待更新</p>
-<p>此处待更新</p>
-</div>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>在没有<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>或者<font color='AA00AA'> <strong>Equilibrium</strong> </font>的情况下，都不建议跑到100轮</p>
-<p>实际上，没有这两个任务的局效率是非常低下的，不如重新开一把</p>
-<p>如果你同时拿到了这两个逆天任务，那就最好跑到100轮了，不跑吃大亏</p>
-</div>
 <h4 id="关于任务" tabindex="-1"><a class="header-anchor" href="#关于任务" aria-hidden="true">#</a> 关于任务</h4>
 <hr>
 <p>对于任务而言，介于任务的随机性，大多数情况是<strong>根据任务选玩法</strong>，而非根据玩法选任务</p>
@@ -882,6 +882,59 @@
 </tr>
 </tbody>
 </table>
+<h4 id="游戏过程-运营思路" tabindex="-1"><a class="header-anchor" href="#游戏过程-运营思路" aria-hidden="true">#</a> <strong>游戏过程&amp;运营思路</strong></h4>
+<hr>
+<p>LR非常考验你的运营水平</p>
+<p>此处我们把读者分为两种水平：</p>
+<p><strong>- 我是刚接触LR的新手：</strong></p>
+<p>首先，得给你做好心理准备：针对新手的策略虽然可行，但是收益非常低，毕竟一切为了苟下去</p>
+<p>这里将游戏局数的上限定为20轮，新手大概率是没办法继续往下打的</p>
+<p>信标请一定要选蓝信标，哪怕橙信标来了也最好选蓝信标，这能保证你的属性保持在良好的及格线上</p>
+<p>唯一例外是绿信标，这个可以多拿，绿信标能减缓怪物提升属性的速度</p>
+<p>同时如果你还拿了某些特定的动态增益，拿绿信标还有可能可以帮你叠层数</p>
+<p>紫信标以及暗灰信标千万别拿，除非最后一轮即将跑路了才可以拿</p>
+<p>白信标如果看到的话就直接拿一个就行了，红信标在时间充裕的情况下可以拿</p>
+<p>然后，看到彩虹信标就拿，这个没话说</p>
+<p>对于任务的选择，我的推荐是：<font color='5555FF'> <strong>Orphion's Grace</strong> </font> &gt; <font color='00BB00'> <strong>Stasis</strong> </font> &gt; <font color='00BB00'> <strong>Backup Beat</strong> </font></p>
+<p>看到这三个根据优先级拿就行了，如果能全拿完的话，可以考虑拿<font color='FFCC00'> <strong>High Roller</strong> </font> &gt; <font color='FF5555'> <strong>Redemption</strong> </font> &gt; <font color='FFCC00'> <strong>Materialism</strong> </font></p>
+<p>如果任务条件是吃诅咒，请千万不要拿取，避免怪物属性增长导致翻盘</p>
+<p>其他任务请不要拿取，没有必要。</p>
+<p>但是如果你已经拿了<font color='00BB00'> <strong>Stasis</strong> </font>，可以考虑拿取<font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font></p>
+<p><strong>- 我觉得我可以成为LR大手子：</strong></p>
+<p>首先，还是得给你做好心理准备：没有能稳定开的高收益局，强烈建议刷开局</p>
+<div class="hint-container tip">
+<p class="hint-container-title">刷开局是什么？</p>
+<p>只跑开局前三轮，如果出现彩虹才继续打下去，如果没有就直接重开，避免进入结算</p>
+<p>更极端一点的做法是，只看第一轮给的信标，然后直接重开减少手操时间</p>
+</div>
+<p>如果你能在前三轮内拿到彩虹，那就尝试接着跑下去吧</p>
+<p>信标抓位思路直接参考上方<strong>信标思路</strong>即可，这里就不过多赘述了</p>
+<p>需要注意的是，请尽量在前十轮内吃到vib青+vib白的组合，目的是能安稳地做完4个任务，避免在此期间还要频繁地去吃红绿信标来续命！</p>
+<p>关于任务流派，一般为了收益有多种选择：</p>
+<ul>
+<li>以<font color='FFCC00'> <strong>Materialism</strong> </font>为主的开箱流：基本无视最终收益的高低，纯靠飞箱赌神话</li>
+</ul>
+<p>这种流派一般要注意拿取lb和lq的增益，同时要注意避免拿太多诅咒提升游戏难度</p>
+<p>一般可以和<font color='FFCC00'> <strong>Cleansing Greed</strong> </font>以及<font color='AA00AA'> <strong>Equilibrium</strong> </font>配合使用，前者能连携消除大量诅咒，后者能给予大量增益</p>
+<ul>
+<li>以<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>为主的长途流：一切为了最终收益</li>
+</ul>
+<p>这种流派一般一定要拿取<font color='FFCC00'> <strong>High Roller</strong> </font>、<font color='FF5555'> <strong>Redemption</strong> </font>、<font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font>其中三选二，另一个任务可以选择<font color='AA00AA'> <strong>Equilibrium</strong> </font>(极佳)以及<font color='FFCC00'> <strong>Materialism</strong> </font>或者<font color='AA00AA'> <strong>Inner Peace</strong> </font>，都是不错的选择</p>
+<ul>
+<li>以<font color='FF5555'> <strong>Redemption</strong> </font>和<font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font>为主的永续献祭流</li>
+</ul>
+<p>这种流派比较邪道。</p>
+<p>只要你这轮额外打到的pulls数占到了上一轮sac的pulls的33%(前提是这轮打到了2sac)，就能无损继承pulls</p>
+<p>举个例子：你上一轮sac了100pulls，那么只要你这一轮打了33pulls以及2sac，如果你这一轮没出货，那么你就可以继承(100+33)*75%≈100pulls!</p>
+<p>这种打法的核心思想就是，只要有一局启动了，后面你只要每局简单跑30轮左右就可以结算了</p>
+<p>但是前提是，一定要拿到2sac，最好把<font color='FFCC00'> <strong>High Roller</strong> </font>也一起拿上</p>
+<p>对运气有一定要求，可能不能拿到2sac稳定永续，但是很大概率是可以继续的</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>在没有<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>或者<font color='AA00AA'> <strong>Equilibrium</strong> </font>的情况下，都不建议跑到100轮</p>
+<p>实际上，没有这两个任务的局效率是非常低下的，不如重新开一把</p>
+<p>如果你同时拿到了这两个逆天任务，那就最好跑到100轮了，不跑吃大亏</p>
+</div>
 </div></template>
 
 

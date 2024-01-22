@@ -23,8 +23,12 @@
 <p>获得该Buff后的玩家可以迅速击杀Void hole，其他玩家需协助之一同击杀所有Void hole方可通过此面。</p>
 <p>未能在两分钟内击杀所有Void hole，会立刻挑战失败。</p>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>雷粉主动对于击杀Void hole十分有效，即使您并不使用电系武器，也推荐您在挑战tna时携带一把拥有电粉主动的副手武器，如：弓箭手使用Cluster，法师使用Bonder等。</p>
+<p class="hint-container-title">过关技巧</p>
+<p>首先，请保证莓果持有者身上没有百分比减普攻伤害(极大降低效率，甚至可能无法通关)以及非萨满职业(萨满平A吃莓果效率极低)</p>
+<p>正常情况下，由其他玩家慢慢带领莓果玩家走到虚空洞<strong>正下方</strong>，然后由莓果玩家击杀</p>
+<p>此期间需要密切配合汇报虚空洞情况，因为时间非常紧张</p>
+<p>值得一提的是，电粉被动对于击杀虚空洞来说非常有效</p>
+<p>持有莓果的玩家哪怕主武器并非电属性，也强烈建议携带一把打有电粉被动的副武器</p>
 </div>
 <h3 id="sunken-grotto-平台" tabindex="-1"><a class="header-anchor" href="#sunken-grotto-平台" aria-hidden="true">#</a> Sunken Grotto - 平台</h3>
 <div class="hint-container tip">
@@ -103,6 +107,13 @@
 <p>右侧第四个miniboss支线，会有两只头部是虚空洞的怪物，距离起点较远的那只携带虚空物质，需注意，一旦玩家接触到二者当中的任意一只，都会被立刻传送至另一只面前，就像进入了虚空洞一样，且会受到大幅伤害。</p>
 <p>场地正中央的虚空洞会不断出现小怪来袭击传送门，其中的蓝名怪会攻击大传送门，传送门只有十点血量，如果传送门碎了就会立刻失败。</p>
 <p>在第三波怪物来袭时，会出现一只头部是虚空洞的miniboss，击杀之即可获得最后一个虚空物质，打开传送门通关。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">过关技巧</p>
+<p>建议由两名DPS角色快速前往小BOSS并击杀，然后快速回中间守线</p>
+<p>其他角色可以去跑酷慢慢跑</p>
+<p>如果DPS角色均无法保证在10秒内快速来回，则需要留守至少1名玩家在中间守线，由其他玩家分别前往其他支线获取虚空物质</p>
+<p>四枚虚空物质均获取到后，慢慢等小BOSS刷新就行了</p>
+</div>
 <h2 id="boss" tabindex="-1"><a class="header-anchor" href="#boss" aria-hidden="true">#</a> Boss</h2>
 <p>终章的Boss——The Nameless Anomaly（后称greg）是一个非常强大的存在，而与它的对战会在一个巨大的矩形战斗盘中进行，greg拥有非常多的能力，并且拥有随着血量降低而逐渐增加的移速，需要玩家有足够的灵活性才能成功将其击败。</p>
 <p>greg同时只会瞄准一名玩家，但如果让他的仇恨在多个玩家之间跳转并不是什么好选择</p>
