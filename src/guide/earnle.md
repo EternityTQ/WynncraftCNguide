@@ -20,15 +20,23 @@ icon: coins
 海底捞具体要怎么操作呢？对于新手而言，我们可以前往Nemract镇的港口，坐船前往Selchar
 
 并在Selchar附近的一片名为Seavalue Reef的海域潜水
+
 ![](/assets/img/earnle1.jpg)
 
-通过拾取海底的一些杂物，将它们带到Selchar的商人处`[110，66，-315]`出售
+这个地方的海底会刷新很多杂物，可以将它们带到Selchar的商人处`[110，66，-315]`出售
+
 ![](/assets/img/earnle2.jpg)
 
 
 这也是前期获得绿宝石最简单的途径。
 
 需要注意的是，杂物也有三六九等，具体哪个比较值钱就请读者自行挖掘了
+
+:::tip
+高价值的杂物其实都有固定的刷新点位，建议自行探索
+
+同时，强烈建议读者做完[Underwater ( level 8 )](/quests/lvl1-10/level%208%20%20-%20Underwater.html)或者[Underice(level 43)](/quests/lvl41-50/level%2043%20-%20Underice.html)之后，佩戴潜水头盔再进行海底捞，效率会高很多！
+:::
 
 ## 任务
 
