@@ -8,7 +8,7 @@
 前置任务：<RouterLink to="/quests/lvl71-80/level%2079%20-%20Realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html">Realm of Light V - The Realm of Light (level 79)</RouterLink></p>
 <p>Nol是整个游戏流程中，等级限制第二低的raid</p>
 <p>Nol曾经是整个游戏中最难的Raid，目前其难度依旧是数一数二的，虽然能在Lv 80 解锁，但不建议在这个等级区间挑战。</p>
-<p>Nol会产出2级武器Tome</p>
+<p>Nol会产出2级fabled/mythic武器Tome和2级legendary怪物经验/地牢经验/采集经验加成tome</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>由于Nol的机制难度非常高</p>
@@ -59,7 +59,8 @@
 <p>所有玩家都到达终点后方可通过此面，包括死亡的灵魂状态玩家。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>可以让能看到路的玩家在石像循环三次“3 2 1 不许动”之后去探路，这样所有的路线都已经出现了，能快速通过。</p>
+<p>可以让能看到路的玩家在石像循环三次“3 2 1 不许动”之后去探路，这样所有的路线都已经出现了，能快速通过。<br>
+当两个玩家到达终点之后建议其余所有玩家/kill并飞到终点以快速通关。</p>
 </div>
 <h2 id="boss" tabindex="-1"><a class="header-anchor" href="#boss" aria-hidden="true">#</a> Boss</h2>
 <p>关底Boss:Orphion，拥有多项技能，且机制繁多，这里将依次介绍 。</p>

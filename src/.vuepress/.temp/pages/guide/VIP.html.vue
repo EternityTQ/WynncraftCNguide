@@ -183,7 +183,8 @@
 <p>注意不同的节日饰品和常驻饰品之间不能混搭合成</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>每个节日开始时，你都可以在线上商城领取3个免费的节日Crates!</p>
+<p>每个节日开始时，你都可以在线上商城领取3个免费的节日Crates!<br>
+节日期间完成每日任务（使用其他职业完成多次每日任务无效）或公会任务可以获得一个（有银牛的玩家会获得两个）免费的节日Crates。</p>
 </div>
 <h2 id="pets" tabindex="-1"><a class="header-anchor" href="#pets" aria-hidden="true">#</a> Pets</h2>
 <p>宠物有两种获取途径</p>
@@ -199,6 +200,11 @@
 </div>
 <p>宠物可以通过击杀和玩家等级相近的怪物来获取经验，在没有Champion前只能提升至20级</p>
 <p>同时，宠物还可以和玩家并肩作战(尽管伤害感人)</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>满级的宠物造成的伤害在新职业前期非常有用。</p>
+<p>如果你是刺客并且你的技能树包含weightless，宠物造成的伤害会触发weightless的效果。</p>
+</div>
 <p>宠物在20级前将会逐渐提升伤害</p>
 <p>在购买Champion后，你可以将宠物提升至最多100级</p>
 <p><strong>但是，20级后宠物只会获得额外的辅助性功能，不会增加任何攻击力</strong></p>
@@ -213,7 +219,7 @@
 <h2 id="bombs" tabindex="-1"><a class="header-anchor" href="#bombs" aria-hidden="true">#</a> Bombs</h2>
 <p>炸弹</p>
 <p>这可不是什么伤害道具，而是一种全服增益</p>
-<p>Bombs一般可以为当前线路带来10分钟或20分钟的增益</p>
+<p>Bombs一般可以为当前线路带来10分钟或20分钟的增益并延迟服务器重启倒计时</p>
 <p>也可以是一次性给当前线路的玩家发放道具</p>
 <p>同种炸弹不能在持续期间内再次丢掷</p>
 <p>炸弹具体效果可以看下文</p>
@@ -229,7 +235,7 @@
 </li>
 <li>
 <p>Profession Speed Bombs(psp/psb)<br>
-为当前线路带来10分钟的双倍的副职采集速度以及制作原料减半</p>
+为当前线路带来10分钟的双倍的副职采集速度以及制作原料减半（向下取整，但是最小值是1）</p>
 </li>
 <li>
 <p>Shout Bombs<br>
@@ -245,7 +251,7 @@
 </li>
 <li>
 <p>Dungeon Bombs(db)<br>
-为当前线路开启10分钟的副本免钥匙资格</p>
+为当前线路开启10分钟的地牢副本免钥匙资格</p>
 </li>
 <li>
 <p>Soul Point Bombs(spb)<br>
@@ -257,7 +263,7 @@
 </li>
 <li>
 <p>Party Bombs<br>
-开趴。</p>
+开趴，绝大部分情况下没有任何意义，只会造成服务器卡顿（特殊情况下这个卡顿可以对玩家带来正面收益，但不建议使用）</p>
 </li>
 </ul>
 </details>

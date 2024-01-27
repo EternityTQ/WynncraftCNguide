@@ -38,8 +38,11 @@
 </div>
 <p>这一挑战中的区域十分开阔，中间有一凸起的平台，需要一名玩家站立在上方来启动倒计时。</p>
 <p>当倒计时倒数至50s/30s/10s时，场景内会随机刷新出一个Void hole。</p>
-<p>玩家须尽量在10s内击杀Void hole，否则，会召唤及难对付的黑暗之心(如果真出了，那基本是队伍强度不够，先去干点别的再来打Tna吧)<br>
-中央平台两侧每次踩平台都会刷新Ethereal Root，该敌怪存在时，平台内的玩家会持续受到激光攻击，请及时处理。</p>
+<p>玩家需要在10s内击杀Void hole，否则，会召唤及难对付的黑暗之心，其存在时，倒计时将暂停</p>
+<blockquote>
+<p>如果真出了，那基本是队伍强度不够，先去干点别的再来打Tna吧</p>
+</blockquote>
+<p>中央平台两侧每次踩平台都会刷新Ethereal Root，该敌怪存在时，平台内的玩家会持续受到激光攻击，请及时处理。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>通过站在平台角落的方式可以规避来自Ethereal Root的伤害</p>
@@ -62,9 +65,10 @@
 <p>树中各个房间的联通关系如下图所示：<br>
 <img src="https://github.com/EternityTQ/WynncraftCNguide/assets/157373097/8564101f-bdee-4eeb-aa62-7d070c61876b" alt="image" loading="lazy"></p>
 <h3 id="nameless-cave-light" tabindex="-1"><a class="header-anchor" href="#nameless-cave-light" aria-hidden="true">#</a> Nameless Cave - Light</h3>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
 <p>这个挑战中存在团队机制，请注意与队友配合。</p>
+<p>配合度需求比较高，请知悉。</p>
 </div>
 <p>这一挑战中，玩家会被传送至一个黢黑的山洞前，山洞左侧有一个海晶灯，站立在海晶灯上的玩家会获得跟随自身的光(老外一般会直接叫light)</p>
 <p>有玩家拾取光之后，所有玩家需要一同进入洞穴</p>
@@ -75,7 +79,9 @@
 <p>3.击败miniboss，通过这一面</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>第一关末影人关卡中末影人生成是有规律的（正前方岩石上如果有两个末影人，房间左边必定有一个；如果岩石上或岩石前有一个，另外两个会在房间左边，岩石后面和通往下一关的门口随机两处）</p>
+<p>第一关末影人关卡中末影人生成是有规律的</p>
+<p>正前方岩石上如果有两个末影人，房间左边必定有一个；</p>
+<p>如果岩石上或岩石前有一个，另外两个会在这三个地方三选二刷新：房间左侧，岩石后面和通往下一关的门口</p>
 <p>第二关跑酷关卡中，若队伍中没有某位移短板的职业，可以考虑直接进门左拐，前往终点底部</p>
 <blockquote>
 <p>其实如果有某位移短板的职业的位移高手也是上得去的</p>
@@ -131,11 +137,11 @@
 3.greg向四周喷洒出一圈紫色方块，短暂延迟后爆炸，造成大量伤害。</p>
 <p>4.greg释放一群头颅，头颅优先追踪不在地面上的玩家，造成固定伤害+一定比例的真实伤害。</p>
 <p>其他技能具体细节可以在wiki上查询，此处只做简要教学。</p>
-<p><em><strong>special stage</strong></em><br>
+<p><strong>特殊阶段</strong><br>
 当greg的血量降低至75%/50%/25%后，其会<strong>在数秒延迟后</strong>释放一群主动追击玩家的眼球，对周围的玩家施加短暂失明，并传送至场地中间进入无敌，随后每隔两秒对场地上的随机玩家释放眼球激光。</p>
 <p>对于召唤出的眼球——确保自己的移速够高，就能规避眼球的攻击。</p>
 <p>对于眼球激光——当一名玩家被瞄准后，他的屏幕中心会出现提示——you are being watched。</p>
-<p>一秒后，greg会向其瞄准的位置发射一道眼球激光，<strong>对半径八格内的所有玩家造成其最大生命值25%的真实伤害，对半径六格内的所有玩家</strong><em><strong>额外造成</strong></em><strong>其30%最大生命值的真实伤害</strong>。</p>
+<p>一秒后，greg会向其瞄准的位置发射一道眼球激光，对半径八格内的所有玩家造成其最大生命值25%的真实伤害，对半径六格内的所有玩家<strong>额外造成</strong>其30%最大生命值的真实伤害。</p>
 <p>在这一阶段，玩家需要有足够的灵活性来规避greg的伤害，且需要避免聚集扎堆。</p>
 <p>greg在进入这一阶段后会瞄准玩家十次。</p>
 <div class="hint-container tip">

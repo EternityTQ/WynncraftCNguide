@@ -1,7 +1,7 @@
 <template><div><h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h2>
 <p>经验刷怪点，游戏内又名Grind Spot，是一种高效率高风险的获取经验的方法</p>
 <p>其不同于任务、地牢，经验刷怪点顾名思义，直接依靠击杀怪物所获得的经验来升级</p>
-<p>其经验获取效率往往是其他刷怪点的数倍</p>
+<p>其经验获取效率往往是其他刷怪点的数倍，同时通过grindspot升级是最有效率的升级方式</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <p>Grind Spot的怪物强度往往高于其他怪物</p>

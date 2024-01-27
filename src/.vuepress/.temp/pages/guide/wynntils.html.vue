@@ -23,11 +23,6 @@
 <p>准确来说，你的客户端只需要安装Wynntils即可大幅度提升你的游戏体验</p>
 <p>但是，由于功能实在太过强大，导致很多人会很容易忽略掉其中的部分实用功能</p>
 <p>本篇文章的目的即帮助读者简单了解Wynntils的功能</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>由于编者实在懒得更新，因此本篇文章的游戏版本为1.20.1</p>
-<p>与当前最新版本没有太大的差别</p>
-</div>
 <h2 id="小地图" tabindex="-1"><a class="header-anchor" href="#小地图" aria-hidden="true">#</a> 小地图</h2>
 <p>默认按<code v-pre>M</code>键打开</p>
 <p>各个图标的含义将光标挪上去就知道了，这里不再细讲</p>
@@ -44,6 +39,44 @@
 <p>右键将会发送到队伍频道</p>
 <p>若加上Shift，则为发送临时路径点的位置</p>
 </div>
+<div class="hint-container tip">
+<p class="hint-container-title">Fast Travel是什么？</p>
+<p>你应该在你的tils地图上发现了，地图上存在此类的图标</p>
+<figure><img src="/assets/img/tils2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>实际上，快速旅行一般是山洞、热气球之类的通道</p>
+<p>其实际上是两地定点往返(或者单向)快速传送的途径</p>
+<p>一般来说需要前置任务来解锁</p>
+<p>而且大部分情况下，你已经在任务途中经过要解锁的快速旅行点了</p>
+</div>
+<h2 id="快速截图" tabindex="-1"><a class="header-anchor" href="#快速截图" aria-hidden="true">#</a> 快速截图</h2>
+<p>这个很多人不知道</p>
+<p>当你将光标移向物品时，按下F4，即可对物品进行快速截图</p>
+<p>此时物品的信息已经截成图片在你的剪贴板中了</p>
+<p>同时，如果你截图的装备符合格式，则还会在聊天框弹出一条额外提示：</p>
+<figure><img src="/assets/img/tils3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>点击后，你的物品属性将会复制为tils专用的加密格式文本</p>
+<p>粘贴到游戏中发送，即可展示你的装备</p>
+<figure><img src="/assets/img/tils4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>注意，没安装tils的用户是看不到的</p>
+<h2 id="鉴定度" tabindex="-1"><a class="header-anchor" href="#鉴定度" aria-hidden="true">#</a> 鉴定度</h2>
+<p>拿上面那张图举例子</p>
+<p>你应该发现了，你的装备词条旁边有个百分比</p>
+<p>实际上，这是该件装备的鉴定度</p>
+<p>位于词条旁边的是单个词条的鉴定度，位于武器名字旁边的是总鉴定度(俗称overall)</p>
+<p>鉴定度是衡量装备属性和价值的重要标准</p>
+<p>通常来说，一件装备能不能卖个好价格，往往看他的鉴定度是否好看</p>
+<p>通常来说，会以颜色来代替具体的鉴定度</p>
+<p>如：红色为0-25%，黄色为26-79%，绿色为80%-95%，蓝色为96%-100%</p>
+<h2 id="市场价格换算" tabindex="-1"><a class="header-anchor" href="#市场价格换算" aria-hidden="true">#</a> 市场价格换算</h2>
+<p>这个很实用</p>
+<p>在市场输入价格时，你可以按照 _stx _le _eb的格式填写价格</p>
+<p>例如填写<code v-pre>1stx</code>，则tils会自动帮你转换为数字并输入</p>
+<h2 id="自定义lr信标" tabindex="-1"><a class="header-anchor" href="#自定义lr信标" aria-hidden="true">#</a> 自定义lr信标</h2>
+<p>很遗憾，这个其实是负面效果</p>
+<p>放在这只是为了提醒读者记得关掉</p>
+<figure><img src="/assets/img/tils5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<p>你只需找到图上的选项关闭即可</p>
+<p>该选项开启时，有可能会让你在lr中途看不到信标，需要小心。</p>
 </div></template>
 
 

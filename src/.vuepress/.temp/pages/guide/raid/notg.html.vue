@@ -7,8 +7,8 @@
 入场费用：2 Az Runes<br>
 前置任务：<RouterLink to="/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html">Realm of Light I - The Worm Holes (level 54)</RouterLink></p>
 <p>Notg是整个游戏流程中，最低等级限制的raid</p>
-<p>作为教程级别的raid，Notg整体难度较低。</p>
-<p>notg会产出1级的武器tome和1级的防具tome</p>
+<p>作为教程级别的raid，Notg整体难度较低，但是不建议新手玩家通过任务后立刻进入notg。</p>
+<p>notg会产出1级的legendary/fabled武器tome，1级的legendary/fabled防具tome，1级的legendary怪物经验/地牢经验/采集经验加成tome</p>
 <h2 id="room1" tabindex="-1"><a class="header-anchor" href="#room1" aria-hidden="true">#</a> Room1</h2>
 <p>Notg的第一个挑战可能出现以下两个房间之一：</p>
 <h3 id="三选一平台站立" tabindex="-1"><a class="header-anchor" href="#三选一平台站立" aria-hidden="true">#</a> 三选一平台站立</h3>
@@ -36,7 +36,7 @@
 <h2 id="room3" tabindex="-1"><a class="header-anchor" href="#room3" aria-hidden="true">#</a> Room3</h2>
 <h3 id="slime-goo-隧道" tabindex="-1"><a class="header-anchor" href="#slime-goo-隧道" aria-hidden="true">#</a> Slime goo 隧道</h3>
 <p>在这一个挑战中，玩家需要携带Slime goo到达终点，路径上会有巨石阻拦。</p>
-<p>与Slime goo交互的玩家将携带之，且移速大幅降低&amp;无法使用普攻和技能，但可以<strong>右键</strong>巨石上的裂痕破坏巨石，其他玩家无法进行这一操作，需要保护携带Slime goo的玩家到达终点方可通过此面。</p>
+<p>与Slime goo交互的玩家将携带之，且移速，普攻，技能伤害大幅降低，但可以<strong>右键</strong>巨石上的裂痕破坏巨石，其他玩家无法进行这一操作，需要保护携带Slime goo的玩家到达终点方可通过此面。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">小趣事</p>
 <p>实际上...无论有没有拿到物品，每个玩家都可以直接右键巨石来推进进度...</p>
@@ -44,7 +44,7 @@
 </div>
 <h3 id="mini-boss" tabindex="-1"><a class="header-anchor" href="#mini-boss" aria-hidden="true">#</a> mini boss</h3>
 <p>在这一个挑战中，玩家会被传送到有上下两层的大型空间，需要上下均有至少一名玩家来完成此面。</p>
-<p>首先，在下层的玩家击杀平台上的miniBOSS，之后平台会上升，然后由上层玩家再次击杀miniBOSS，底层会出现新的平台，循环三次后，终点的传送门将会开启。</p>
+<p>首先，在下层的玩家击杀平台上的miniBOSS，之后平台会上升，然后由上层玩家再次击杀miniBOSS，底层会出现新的平台，循环四次后，终点的传送门将会开启。</p>
 <h2 id="boss" tabindex="-1"><a class="header-anchor" href="#boss" aria-hidden="true">#</a> Boss</h2>
 <p>通过三个挑战之后，您将会面对Notg的BOSS：The Grootslang Wyrmlings</p>
 <p>BOSS战共有五个阶段，每次击杀BOSS的一个阶段后，平台上会随机刷新小怪，每次转阶段黑屏后，平台范围会缩小。</p>
@@ -52,7 +52,7 @@
 <p class="hint-container-title">提示</p>
 <p>放心战斗，平台旁边有屏障，不会掉下去</p>
 </div>
-<p>需要小心的是，当你身边出现“upcomming attack”字样时，请尽快躲开，这是一个伤害很高的技能。</p>
+<p>需要小心的是，当你身边出现“upcoming attack”字样时，请尽快躲开，这是一个伤害很高的技能。</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <p>目前存在一个BUG，在转阶段时，BOSS可能会堆叠施放技能，如果你此时还在BOSS嘴边，那满级玩家来了都会被秒杀</p>

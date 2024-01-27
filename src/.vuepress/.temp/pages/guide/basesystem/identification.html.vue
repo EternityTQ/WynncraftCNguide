@@ -76,8 +76,8 @@
 <p class="hint-container-title">提示</p>
 <p>hpr的机制有点特殊</p>
 <p>简单来说可以将hpr%视作拉高/拖累总hpr的指标</p>
-<p>若从装备获得的hpr%很高(<code v-pre>&gt;100%</code>)，则raw hpr为负数也不会使总hpr为负数</p>
-<p>反之，若hpr%过低(<code v-pre>&lt;-100%</code>)，则就算raw hpr为正数也不会使总hpr为正数</p>
+<p>若从装备获得的hpr%很高(<code v-pre>&gt;100%</code>)，则raw hpr为负数也不会使总hpr为负数，最低为0</p>
+<p>反之，若hpr%过低(<code v-pre>&lt;-100%</code>)，则就算raw hpr为正数也不会使总hpr为正数，相反，其相当于原正数hpr的值乘了负数，使总hpr变为负数</p>
 </div>
 <p><strong>Life steal</strong><br>
 生命窃取，具体效果与魔力窃取类似，计算方式与魔力窃取相同。</p>
