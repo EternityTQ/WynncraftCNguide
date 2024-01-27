@@ -457,4 +457,6 @@ export const pagesData = {
   "v-6bb4cab6": () => import(/* webpackChunkName: "v-6bb4cab6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/index.html.js").then(({ data }) => data),
   // path: /quests/special/
   "v-38f78afb": () => import(/* webpackChunkName: "v-38f78afb" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/special/index.html.js").then(({ data }) => data),
+  // path: /guide/basesystem/identify.html
+  "v-d8530aac": () => import(/* webpackChunkName: "v-d8530aac" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/identify.html.js").then(({ data }) => data),
 }

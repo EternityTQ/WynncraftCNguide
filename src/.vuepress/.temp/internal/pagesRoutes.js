@@ -228,4 +228,5 @@ export const pagesRoutes = [
   ["v-6d1f8e01","/quests/lvl81-90/",{"y":"p","t":"Lvl81 90"},[]],
   ["v-6bb4cab6","/quests/lvl91-100/",{"y":"p","t":"Lvl91 100"},[]],
   ["v-38f78afb","/quests/special/",{"y":"p","t":"Special"},[]],
+  ["v-d8530aac","/guide/basesystem/identify.html",{"y":"a","t":"鉴定系统","i":"magnifying-glass"},[":md"]],
 ]

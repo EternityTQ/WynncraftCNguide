@@ -56,10 +56,16 @@
 <p>以下为各个职业流派的介绍</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>您并不一定需要按照一条技能树一路点到底，有时候技能树混搭反而能达到更好的效果</p>
+<p>你并不一定需要按照一条技能树一路点到底，有时候技能树混搭反而能达到更好的效果</p>
+</div>
+<div class="hint-container tip">
+<p class="hint-container-title">何谓重要技能点?</p>
+<p>这里是指编者主观认为的，该流派较为重要的技能点</p>
+<p>通常来说，点出这些技能点来就可以对流派玩法形成质变</p>
+<p>总之就是非常重要！</p>
 </div>
 <h3 id="战士" tabindex="-1"><a class="header-anchor" href="#战士" aria-hidden="true">#</a> 战士</h3>
-<Tabs id="130" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
+<Tabs id="141" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
 <template #title0="{ value, isActive }"><font color="red">Fallen 腐化者</font></template>
 <template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道士</font></template>
 <template #title2="{ value, isActive }"><font color=18c7f0> Paladin 圣骑士</font></template>
@@ -115,7 +121,7 @@
 </template>
 </Tabs>
 <h3 id="法师" tabindex="-1"><a class="header-anchor" href="#法师" aria-hidden="true">#</a> 法师</h3>
-<Tabs id="233" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
+<Tabs id="244" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
 <template #title0="{ value, isActive }"><font color=18c7f0> Riftwalker 时空行者</font></template>
 <template #title1="{ value, isActive }"><font color="grey"> Light Bender 圣光使者</font></template>
 <template #title2="{ value, isActive }"><font color="purple"> Arcanist 奥术法师</font></template>
@@ -169,10 +175,25 @@
 <p>牺牲治疗能力，使得奥术法师使用技能、技能命中都会为自己特殊的&quot;能量库&quot;进行充能，而使用已经被替换为奥术转化的治疗，会将能量库提取为可用能量</p>
 <p>而奥术法师的终极技能，使得奥术法师在能量库存储量足够高时使用奥术转化，能直接消耗能量库打出先前使用的多个技能，快速运转能量与输出</p>
 <p>输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发</p>
+<p><strong>重要能力点：</strong></p>
+<ul>
+<li>
+<p>Arcane Transfer：陨石和冰蛇每命中1个敌人，都会添加5法力进入后备能源中；治疗现在不再恢复生命，而是将后备能源的所有法力转化至蓝条中；法力转换(治疗)不再有蓝耗消耗，且无法重置重复施法惩罚</p>
+</li>
+<li>
+<p>Psychokinesis：陨石现在改为从自身抛出</p>
+</li>
+<li>
+<p>Chaos Explosion：当后备能源达到120法力时，使用法力转换(治疗)时将会无蓝耗施放之前施放的3个技能</p>
+</li>
+<li>
+<p>Arcane Overflow：施放法力转换(治疗)时，允许法力突破蓝条上限(至多400)，超过上限的法力将会持续自动减少</p>
+</li>
+</ul>
 </template>
 </Tabs>
 <h3 id="弓手" tabindex="-1"><a class="header-anchor" href="#弓手" aria-hidden="true">#</a> 弓手</h3>
-<Tabs id="339" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<Tabs id="375" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Boltslinger 闪击射手</font></template>
 <template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
 <template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
@@ -212,7 +233,7 @@
 </template>
 </Tabs>
 <h3 id="刺客" tabindex="-1"><a class="header-anchor" href="#刺客" aria-hidden="true">#</a> 刺客</h3>
-<Tabs id="414" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
+<Tabs id="450" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
 <template #title0="{ value, isActive }"><font color=AA0000> Shadestepper 影步者 </font></template>
 <template #title1="{ value, isActive }"><font color=FF55FF> Trickster 幻术师 </font></template>
 <template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法刺 </font></template>
@@ -233,7 +254,7 @@
 </template>
 </Tabs>
 <h3 id="萨满" tabindex="-1"><a class="header-anchor" href="#萨满" aria-hidden="true">#</a> 萨满</h3>
-<Tabs id="452" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
+<Tabs id="488" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
 <template #title1="{ value, isActive }"><font color=16d108> Ritualist 圣祭祀 </font></template>
 <template #title2="{ value, isActive }"><font color="red"> Acolyte 血教徒 </font></template>
