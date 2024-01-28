@@ -68,19 +68,6 @@ Item Identifier的标志是末影之眼+紫色地毯
 ![](/assets/img/identification1.jpg)
 :::
 
-### 使用鉴定道具
-
-在鉴定时，你可以选择切换至副鉴定屏来添加鉴定道具
-
-每一次只能对一个装备进行附带鉴定道具的鉴定，同时至多应用3个鉴定道具
-
-鉴定道具效果如下：
-
-|名称|用途|备注|
-|---|---|---|
-|Corkian Amplifier|提高本次鉴定的正面属性鉴定值|Tier1-3的效果分别对应5%-15%|
-|Corkian Insulator|鉴定时可选择一个指定词条锁定数值|与Corkian Simulator冲突|
-|Corkian Simulator|本次鉴定不会提高鉴定次数及费用|与Corkian Insulator冲突|
 
 ## Powder Master
 
