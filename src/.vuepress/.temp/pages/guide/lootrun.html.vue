@@ -10,6 +10,7 @@
 <h2 id="传统lootrun" tabindex="-1"><a class="header-anchor" href="#传统lootrun" aria-hidden="true">#</a> 传统Lootrun</h2>
 <p>从刚进入游戏开始，你就可以为了获取装备去进行传统lr了</p>
 <p>先介绍一下，箱子一共有四个等级，以下简称T1-T4</p>
+<p>箱子等级可以在开箱界面左上角看到</p>
 <p><strong>对于每一个箱子来说，刷新时间越久，箱子质量越高</strong></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -19,7 +20,7 @@
 <p>T1-T2箱子分布在野外，箱子数量多，但是箱子质量不是很高，追求一个走量</p>
 <figure><img src="/assets/img/lootrun1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>T3-T4箱子均在洞穴内，你可以在任务书上轻松找到洞穴的位置，不妨看看<RouterLink to="/guide/basesystem/questbook.html#cave">这里</RouterLink></p>
-<p>需要注意的是，现在每一个T3/T4箱子都有开启条件，一般来说都是在附近击杀怪物解锁。</p>
+<p>需要注意的是，现在每一个T3/T4箱子都有开启解锁条件，一般来说都是在附近击杀怪物解锁。</p>
 <figure><img src="/assets/img/lootrun3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>你可以靠近箱子来查看条件，注意只有箱子一定范围内的怪物才算作击杀数。</p>
 <p>每一个洞穴门口都会显示当前洞穴的状态</p>
@@ -713,7 +714,8 @@
 <p>Ultimate Sacrifice的实际效果是：</p>
 <p>获取该效果后，立刻给当前计时器时间的-2min处打上标记</p>
 <p>一旦时间减少至低于标记时间，则立刻消除一个随机增益，并且再根据新的时间-2min处打上新的标记</p>
-<p>若当前时间距离标记时间大于2min，则会再次打上新的标记</p>
+<p>若当前时间与标记时间的距离大于2min(无论是大于还是小于)，则会再次打上新的标记</p>
+<p>一次性扣除多个2min，只会触发一次标记(例如，通过赌博野兽扣除了4min的时间，只会消除一次增益)</p>
 </div>
 <h3 id="最终奖励" tabindex="-1"><a class="header-anchor" href="#最终奖励" aria-hidden="true">#</a> 最终奖励</h3>
 <p>在完成lootrun后，你可以开启最终奖励宝箱</p>

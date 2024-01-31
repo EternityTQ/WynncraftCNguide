@@ -56,6 +56,10 @@
 <figure><img src="/assets/img/qa5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>打开后，可以随时自动更新资源包，以免出现材质丢失的情况。</p>
 <p>如果你纳闷你的界面为什么这么奇怪，一定是因为资源包没有安装。</p>
+<h2 id="关于中文翻译" tabindex="-1"><a class="header-anchor" href="#关于中文翻译" aria-hidden="true">#</a> 关于中文翻译</h2>
+<p>对于目前可使用的游戏版本来说，并没有特别有效的汉化手段</p>
+<p>Wynntils模组内置翻译，但是其使用效果非常糟糕，因此本网站中不会详细贴出如何配置(因为根本没必要..)</p>
+<p>如果你对任务步骤或者任务剧情感到不解，强烈建议前往wiki自行使用网页翻译</p>
 </div></template>
 
 

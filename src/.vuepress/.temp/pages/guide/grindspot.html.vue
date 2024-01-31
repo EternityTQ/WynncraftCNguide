@@ -7,8 +7,8 @@
 <p>Grind Spot的怪物强度往往高于其他怪物</p>
 <p>通常来说，非常不建议一个人前往Grind spot进行刷怪</p>
 <p>在效率极低的同时，还有超高的死亡风险</p>
-<p>强烈建议召集队友，或者使用<code v-pre>/partyfinder</code>来寻找队伍</p>
-<p>在队伍中确保至少有1-2名奶妈(球法/血萨)的情况下前往Grind Spot进行刷级</p>
+<p>强烈建议召集队友，或者<strong>使用<code v-pre>/partyfinder</code>来寻找队伍</strong></p>
+<p>在队伍中确保至少有1-2名奶妈(球法/血萨)以及数名打手的情况下前往Grind Spot进行刷级</p>
 </div>
 <p>在Wynntils Map中，你可以看到非常多的Grind Spot</p>
 <figure><img src="/assets/img/grindspot.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
@@ -34,12 +34,12 @@
 <p>大部分怪物走得慢，没有远程，有个小无敌点可以赖</p>
 <p><strong>但是</strong>会刷几只21级的怪物，插了图腾之后更是会猛猛刷，这个要注意</p>
 <p>这个等级被21级的怪物摸到基本就是直接秒杀</p>
-<h2 id="lv-10-lv-20" tabindex="-1"><a class="header-anchor" href="#lv-10-lv-20" aria-hidden="true">#</a> Lv.10~Lv.20</h2>
+<h2 id="lv-10-lv-20-蘑菇平原" tabindex="-1"><a class="header-anchor" href="#lv-10-lv-20-蘑菇平原" aria-hidden="true">#</a> Lv.10~Lv.20 蘑菇平原</h2>
 <figure><img src="/assets/img/grindspot2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这个点位基本可以一个人刷</p>
 <p>但是有远程，需要格外小心</p>
 <p>好处是离城镇近，如果被打残了直接跑路回城镇补给就可以了</p>
-<h2 id="lv-18-lv-30-蜘蛛山" tabindex="-1"><a class="header-anchor" href="#lv-18-lv-30-蜘蛛山" aria-hidden="true">#</a> Lv.18~Lv.30 蜘蛛山</h2>
+<h2 id="lv-18-lv-35-蜘蛛山" tabindex="-1"><a class="header-anchor" href="#lv-18-lv-35-蜘蛛山" aria-hidden="true">#</a> Lv.18~Lv.35 蜘蛛山</h2>
 <figure><img src="/assets/img/grindspot3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>臭名昭著蜘蛛山</p>
 <p><strong>非常不建议一个人单刷</strong>，怪的质量奇高无比，有控制有位移</p>
@@ -47,15 +47,15 @@
 <h2 id="lv-20-lv-40-墓地" tabindex="-1"><a class="header-anchor" href="#lv-20-lv-40-墓地" aria-hidden="true">#</a> Lv.20~Lv.40 墓地</h2>
 <figure><img src="/assets/img/grindspot4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>大爹级刷怪点，但是有<RouterLink to="/quests/lvl11-20/level%2020%20-%20Grave%20Digger.html">前置任务</RouterLink></p>
-<p>怪的质量挺高的，有远程</p>
-<p>但是胜在地点小数量大，可以进去摸一圈怪然后马上出来</p>
+<p>怪的质量挺高的，有大量远程</p>
+<p>但是胜在地点小数量大，可以进去打一圈怪后马上跑出来</p>
 <p>等怪刷新了一波之后再进去打</p>
 <p>这个刷怪点可以刷很久很久(大概)</p>
 <h2 id="lv-40-lv-55-蜘蛛洞" tabindex="-1"><a class="header-anchor" href="#lv-40-lv-55-蜘蛛洞" aria-hidden="true">#</a> lv.40~lv.55 蜘蛛洞</h2>
 <figure><img src="/assets/img/grindspot6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>开始危险了！从这里开始已经完全不建议单刷了！</p>
+<p>这个点位不推荐单刷，怪的质量很高</p>
 <p>这个蜘蛛洞质量也非常高，足够打到55级</p>
-<p>虽然有点漂洋过海，挺麻烦的💀</p>
+<p>虽然有点漂洋过海才能过来，挺麻烦的💀</p>
 <h2 id="lv-50-lv-70-herb-cave" tabindex="-1"><a class="header-anchor" href="#lv-50-lv-70-herb-cave" aria-hidden="true">#</a> lv.50~lv.70 Herb Cave</h2>
 <figure><img src="/assets/img/grindspot7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>真 神 降 临</p>
@@ -67,7 +67,8 @@
 <figure><img src="/assets/img/grindspot8.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>臭名昭著瀑布洞</p>
 <p>强度也非常非常高，从这个刷怪点开始队伍强度就要大大提高了</p>
-<p>推荐4~8人</p>
+<p>其中包含远程怪</p>
+<p>推荐3~8人</p>
 <h2 id="lv-60-lv-80-肉洞" tabindex="-1"><a class="header-anchor" href="#lv-60-lv-80-肉洞" aria-hidden="true">#</a> Lv.60~Lv.80 肉洞</h2>
 <figure><img src="/assets/img/grindspot11.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>Wynntils上完全没有标！</p>
@@ -81,6 +82,7 @@
 <p>降维打击的经验获取效率</p>
 <p>这就是<strong>垃圾场</strong></p>
 <p>但同时垃圾场的怪物强度也爆炸高，奶妈质量一定要很高！</p>
+<p>包含大量远程弹幕怪，不及时处理的话会给队伍造成重创，需要注意</p>
 <h2 id="lv-105-教堂" tabindex="-1"><a class="header-anchor" href="#lv-105-教堂" aria-hidden="true">#</a> Lv.105+ 教堂</h2>
 <figure><img src="/assets/img/grindspot10.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>其实刚进se就能来这里刷了，但是平时几乎就没人来这里刷</p>
@@ -89,6 +91,7 @@
 <p>不敢打不敢打</p>
 <p>这里基本不会作为正常经验刷怪点</p>
 <p>一般如果有公会需要刷取公会经验，才会选择教堂</p>
+<p>这里并不能穿戴正常的经验散件装，一般需要配合专用的ehp和经验兼得的装备才能来刷</p>
 <h2 id="推荐练级散件" tabindex="-1"><a class="header-anchor" href="#推荐练级散件" aria-hidden="true">#</a> 推荐练级散件</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

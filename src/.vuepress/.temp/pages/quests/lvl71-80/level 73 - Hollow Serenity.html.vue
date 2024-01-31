@@ -15,7 +15,7 @@
 </div>
 <p>1.前往一座废弃的庄园<code v-pre>[-826 45 -5145]</code></p>
 <p>2.在<code v-pre>[-842 45 -5152]</code>拿到匕首，然后打开被绳索密封的抽屉<code v-pre>[-841 46 -5162]</code></p>
-<p>3.分别调查下述书柜:</p>
+<p>3.分别调查下述书柜:(调查完才能继续进行)</p>
 <ul>
 <li>匕首旁边的书柜<code v-pre>[-842 45 -5152]</code> 得到线索&quot;1 V&quot;</li>
 <li>一楼Eileen的房间<code v-pre>[-864 47 -5133]</code> 得到线索&quot;2 D&quot;</li>
@@ -73,9 +73,9 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>若选择生，则无事发生</p>
-<p>若选择死，则Katarin会去把森林村的人全屠了，只剩Old man</p>
+<p>若选择死，则<font color=00AA00><strong>Katarin</strong></font>会去把森林村的人全屠了，只剩<font color=00AA00><strong>Old man</strong></font></p>
 </div>
-<p>19.埋葬Katarin和Garvan的尸体</p>
+<p>19.埋葬<font color=00AA00><strong>Katarin</strong></font>和<font color=00AA00><strong>Garvan</strong></font>的尸体</p>
 <p>奖励</p>
 <ul>
 <li>735000 经验值</li>
