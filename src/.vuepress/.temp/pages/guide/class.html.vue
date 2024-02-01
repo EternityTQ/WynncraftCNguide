@@ -325,6 +325,905 @@
 <p>分别点击三个加号后，你就可以重置技能树了</p>
 <p>在重置后，你可以进行任意加点，且在离开安全区域/离线前，你还可以右键来撤回加点</p>
 <p>一旦离开安全区域或下线，你的技能树将会锁定，无法再进行右键撤回的操作</p>
+<h2 id="技能树翻译" tabindex="-1"><a class="header-anchor" href="#技能树翻译" aria-hidden="true">#</a> 技能树翻译</h2>
+<details class="hint-container details"><summary>模板</summary>
+<p><img
+      src="/assets/img/class/archer_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('技能名字')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 58px; height: 58px;"
+    /><br>
+<div v-if="isTooltipVisible && currentTooltip === '技能名字'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
+<!-- 提示文本内容 --><br>
+<font color="#FFFFFF"><b>技能名字</b></font><br>
+<br><font color = BBBBBB>技能介绍介绍介绍</font><br>
+</div></p>
+</details>
+<h3 id="弓手-1" tabindex="-1"><a class="header-anchor" href="#弓手-1" aria-hidden="true">#</a> 弓手</h3>
+<table class="ability-tree-table">
+<tbody><tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td>
+    <img
+      src="/assets/img/class/archer_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭弹')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 58px; height: 58px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭弹'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>箭弹</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 右键</font>
+      <br><font color = BBBBBB>射出一支远距离的箭矢，其命中后
+      <br>会爆炸，并在大范围内造成伤害。</font><font color = 555555><br>(并对自己造成爆炸伤害10%的伤害)</font>
+      <br><font color = BBBBBB>蓝耗：45
+      <br>范围：26格
+      <br>爆炸范围：4.5格</font>
+    </div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="center"><img src="/assets/img/class/竖线.png" width="40" height="40" ></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img
+      src="/assets/img/class/small.png"
+      @mouseover="showTooltip('弓箭精通I')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '弓箭精通I'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- Your tooltip content goes here -->
+            <font color = WHITE><b>弓箭精通I</b></font>
+            <br><font color = BBBBBB>增加<u>普通攻击</u>的伤害及范围</font>
+            <br>
+    </div>
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭弹减耗')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭弹减耗'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>箭弹减耗</b></font>
+      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF>-10</font></font>
+    </div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="center"><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" ></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Heart_Shatter"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('碎心')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 52px; height: 52px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '碎心'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>碎心</b></font>
+      <br><font color = BBBBBB><u>箭弹</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
+    </div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Double_Shots"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('双发')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '双发'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="FFFFFF"><b>双发箭矢</b></font>
+      <br><font color = BBBBBB>你的<u>普通攻击</u>将同时射出两发箭矢</font>
+      <br><font color = BBBBBB>但每支箭矢的伤害将会降低<font color= RED>30%</font></font>
+    </div>
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Escape"></span><img
+      src="/assets/img/class/archer_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('逃脱')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 58px; height: 58px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '逃脱'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>逃脱</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 左键 - 左键</font>
+      <br><font color = BBBBBB>快速后跳来规避危险</font>
+      <br><font color = BBBBBB>蓝耗：20</font>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>逃脱最多连续触发一次，其在空中也能触发。</font>
+      <br><font color = BBBBBB>落地后刷新使用次数</font>
+    </div>
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Power_Shots"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png" width="40" height="40" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Arrow_Storm"></span><img src="/assets/img/class/archer_green.png" width="58" height="58" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Cheaper_Escape_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Arrow_Shield"></span><img src="/assets/img/class/archer_green.png" width="58" height="58" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><span id="Windy_Feet"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><span id="Air_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Thunder_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><img src="/assets/img/class/十字.png" width="40" height="40" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Fire_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Water_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Earth_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><span id="Nimble_String"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Arrow_Rain"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Bryophyte_Roots"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Fire_Creep"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Phantom_Ray"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td></tr>
+<tr>
+<td><span id="Triple_Shots"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Frenzy"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Guardian_Angels"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png" width="40" height="40" >
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Basaltic_Trap"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="54" height="54" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png" width="40" height="40" >
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Focus"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" lazyloaded"></div></div></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png" width="40" height="40" >
+</td>
+<td><span id="Windstorm"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" lazyloaded"></div></div></div>
+</td>
+<td><div class="ability-tree-branch"><img alt="Branch 0" src="/assets/img/class/横线.png" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 0.png" data-image-key="Branch_0.png" data-relevant="0" data-src="/assets/img/class/横线.png" class=" lazyloaded"></div>
+</td>
+<td><span id="Cheaper_Arrow_Storm_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Implosion"></span><div class="advanced-tooltip ability-tree-icon-1 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 1" src="/assets/img/class/medium.png" decoding="async" loading="lazy" width="52" height="52" data-image-name="Ability 1.png" data-image-key="Ability_1.png" data-relevant="0" data-src="/assets/img/class/medium.png" class=" lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="More_Shields"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png" width="40" height="40" >
+</td>
+<td><span id="Patient_Hunter"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Grappling_Hook"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="More_Focus_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><span id="Stormy_Feet"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Call_of_the_Hound"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><span id="Leap"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Traveler"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Bouncing_Bomb"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Ivyroot_Mamba"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Twain's_Arc"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Rocket_Jump"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><span id="Scorched_Earth"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="More_Traps"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td></tr>
+<tr>
+<td><span id="Refined_Gunpowder"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Fierce_Stomp"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Cheaper_Arrow_Shield_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Better_Arrow_Shield"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Shocking_Bomb"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><span id="Better_Leap"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Homing_Shots"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mana_Trap"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Cheaper_Arrow_Storm_II"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Decimator"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td></tr>
+<tr>
+<td><span id="Better_Guardian_Angels"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Escape_Artist"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Murder_Flock"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Initiator"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Phasing_Beam"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Recycling"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Shrapnel_Bomb"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Cheaper_Escape_II"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Cheaper_Arrow_Shield_II"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Stronger_Hook"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><span id="Coursing_Restraints"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png" width="40" height="40" >
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Arrow_Hurricane"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td>
+<td><span id="Tangled_Traps"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="Beast_Lore"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Crepuscular_Ray"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><img src="/assets/img/class/右下.png" width="40" height="40" >
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Minefield"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="All-Seeing_Panoptes"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><span id="Patient_Hunter"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Grape_Bomb"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png" width="40" height="40" >
+</td>
+<td><span id="More_Focus_II"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><span id="Elusive"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Geyser_Stomp"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Snow_Storm"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><img src="/assets/img/class/横线.png" width="40" height="40" >
+</td>
+<td><span id="Cheaper_Arrow_Bomb_II"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+</tbody></table>
 </div></template>
 
+<script>
+export default {
+  data() {
+    return {
+      isTooltipVisible: false,
+      currentTooltip: '',
+      tooltipTop: 0,
+      tooltipLeft: 0
+    };
+  },
+  methods: {
+    showTooltip(tooltipName) {
+      this.currentTooltip = tooltipName;
+      this.updateTooltipPosition(event);
+      this.isTooltipVisible = true;
+    },
+    hideTooltip() {
+      this.isTooltipVisible = false;
+      this.currentTooltip = '';
+    },
+    updateTooltipPosition(event) {
+      this.tooltipTop = event.pageY + 10; // 根据需要调整偏移量
+      this.tooltipLeft = event.pageX + 10; // 根据需要调整偏移量
+    }
+  }
+};
+</script>
 
+<style scoped>
+.tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+</style>

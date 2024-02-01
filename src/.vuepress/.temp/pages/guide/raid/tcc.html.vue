@@ -32,10 +32,10 @@
 </div>
 <p>这一个挑战中，玩家会被传送至一岩浆湖的一侧，周围有一滩水和五个岩浆柱。</p>
 <p>首先，玩家需要在不被小怪打死的情况下，从水潭中收集水，之后找到正在喷发的岩浆柱，与其互动将其熄灭。</p>
-<p>重复五次后，第一块平台将会升起，此时，需要一名玩家站立在其上并保持存活，否则平台会消失。</p>
+<p>重复五次后，第一块平台将会升起，此时，需要一名玩家站立在其上并保持存活，<strong>否则平台会消失</strong>。</p>
 <p>其余玩家重复上述操作，第二个平台升起后，刚刚站在第一块平台上的玩家需移动到第二块平台，并且第一块平台会消失。</p>
 <p>当第三块平台升起后，挑战完成。</p>
-<p>如果您不慎掉落入熔岩内，您会在出生点重生。</p>
+<p>如果你不慎掉落入熔岩内，你会在出生点重生。</p>
 <h2 id="room2" tabindex="-1"><a class="header-anchor" href="#room2" aria-hidden="true">#</a> Room2</h2>
 <h3 id="maze" tabindex="-1"><a class="header-anchor" href="#maze" aria-hidden="true">#</a> Maze</h3>
 <div class="hint-container tip">
@@ -44,13 +44,13 @@
 </div>
 <p>玩家会被传送至一个迷宫中心，周围共有四条路——红橙绿蓝。</p>
 <p>地图中心有一个翅膀，队伍中有一名玩家需要拾起翅膀，以上帝视角遍历整个迷宫，为队友找到终点。</p>
-<p>迷宫终点由紫色和白色的粒子组成的圈进行标记，<strong>请确保您开启了粒子效果</strong>。</p>
+<p>迷宫终点由紫色和白色的粒子组成的圈进行标记，<strong>请确保你开启了粒子效果</strong>。</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
 <p>处于上帝视角的玩家视为已死亡，请注意raid失败条件。</p>
 </div>
 <p>当上帝视角的玩家找到终点，其需要为其他队友引路，迷宫内会有多个封闭的门，其余玩家需要与门交互并击杀召唤出的miniboss才能继续前进。</p>
-<p>处于上帝视角的玩家找出口的最佳路线如图：<br>
+<p>处于上帝视角的玩家找出口的最佳效率路线如图：<br>
 <img src="https://github.com/EternityTQ/WynncraftCNguide/assets/157373097/04a26957-dbdd-463c-b9a8-abe9986a0e34" alt="image" loading="lazy"></p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -101,7 +101,7 @@
 <h2 id="boss" tabindex="-1"><a class="header-anchor" href="#boss" aria-hidden="true">#</a> Boss</h2>
 <p>TCC的BOSS共有三个阶段，机制各不相同 。</p>
 <p>请注意，tcc的boss巨像会使用大量散弹攻击，生存能力不高的build很容易在TCC的BOSS面暴毙。</p>
-<p>BOSS站会在多个浮空的平台上进行，如果您不慎跌落，您会失去当前生命值的50%并回到当前阶段的起始点。</p>
+<p>BOSS站会在多个浮空的平台上进行，如果你不慎跌落，你会失去当前生命值的50%并回到当前阶段的起始点。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>请注意，在第一或第二阶段巨像的所有部位被成功击杀之后，掉下平台的玩家将提前触发下一阶段。</p>
@@ -111,11 +111,12 @@
 巨像双手持剑挡在身前，轮流破坏其左右手即可进入下一阶段。</p>
 <p><em><strong>stage2:</strong></em><br>
 巨像将玩家抬到面前，玩家需要攻击巨像的两个眼睛和嘴共三个目标。</p>
+<p>此时，中央地块将可能受到来自三个目标的同时攻击，请尽量避免站在中间进行输出</p>
 <p>注意：巨像的任意眼睛降到半血以下时，会召唤一个能量核心，玩家必须击败能量核心，击败能量核心时最靠近能量核心并且未被标记的玩家会被<strong>标记</strong>。</p>
 <p>解决第二阶段后，巨像的头会滚落下来，并将所有玩家丢出战斗盘。</p>
 <p><em><strong>stage3:</strong></em><br>
 玩家被甩到巨像的头前，需要击败巨像的嘴、两只耳朵、后脖颈四个目标。</p>
-<p>刚进入这一面时，玩家会被强制传送到巨像嘴边，并且如果玩家对巨像之嘴造成伤害，巨像之嘴会发动技能，<strong>请在upcoming attack计时结束之前躲开，该技能伤害极高。</strong> 如果您跌落到平台下，您会被传送到巨像的后脖颈处。</p>
+<p>刚进入这一面时，玩家会被强制传送到巨像嘴边，并且如果玩家对巨像之嘴造成伤害，巨像之嘴会发动技能，<strong>请在upcoming attack计时结束之前躲开，该技能伤害极高。</strong> 如果你跌落到平台下，你会被传送到巨像的后脖颈处。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>实际上你可能会在刚转进三阶段的时候感到巨大的延迟</p>
