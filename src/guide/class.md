@@ -411,7 +411,7 @@ icon: hat-wizard
       @mouseover="showTooltip('技能名字')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 58px; height: 58px;"
+      class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '技能名字'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
@@ -419,7 +419,19 @@ icon: hat-wizard
       <br><font color = BBBBBB>技能介绍介绍介绍</font>
     </div>
 :::
+
+:::tip
+此页面专为电脑端设计！
+
+移动端可能会出现图标拉伸等影响浏览的效果
+
+请知悉！
+
+强烈建议使用右侧目录来进行快速跳转！
+:::
 ### 弓手
+:::tabs
+@tab 弓手
 <table class="ability-tree-table">
 <tbody><tr>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -437,7 +449,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 58px; height: 58px;"
+      class="t48"
       @touchstart.prevent="handleTouchStart"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭弹'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
@@ -493,6 +505,7 @@ icon: hat-wizard
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
+      class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '弓箭精通I'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- Your tooltip content goes here -->
@@ -555,7 +568,7 @@ icon: hat-wizard
       @mouseover="showTooltip('碎心')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 52px; height: 52px;"
+      class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '碎心'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
@@ -618,7 +631,7 @@ icon: hat-wizard
       @mouseover="showTooltip('逃脱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 58px; height: 58px;"
+      class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
@@ -1267,7 +1280,7 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 </tbody></table>
-
+:::
 
 <script>
 export default {
@@ -1311,5 +1324,10 @@ export default {
 
 .disable-click {
   pointer-events: none; /* 禁用点击事件 */
+}
+
+.t48 {
+  max-width: 48px; /* 设置最大宽度为48px */
+  max-height: 48px; /* 设置最大高度为48px */
 }
 </style>

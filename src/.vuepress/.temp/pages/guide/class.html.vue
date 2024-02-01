@@ -333,7 +333,7 @@
       @mouseover="showTooltip('技能名字')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 58px; height: 58px;"
+      class="t48"
     /><br>
 <div v-if="isTooltipVisible && currentTooltip === '技能名字'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
 <!-- 提示文本内容 --><br>
@@ -341,7 +341,17 @@
 <br><font color = BBBBBB>技能介绍介绍介绍</font><br>
 </div></p>
 </details>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>此页面专为电脑端设计！</p>
+<p>移动端可能会出现图标拉伸等影响浏览的效果</p>
+<p>请知悉！</p>
+<p>强烈建议使用右侧目录来进行快速跳转！</p>
+</div>
 <h3 id="弓手-1" tabindex="-1"><a class="header-anchor" href="#弓手-1" aria-hidden="true">#</a> 弓手</h3>
+<Tabs id="674" :data='[{"id":"弓手"}]'>
+<template #title0="{ value, isActive }">弓手</template>
+<template #tab0="{ value, isActive }">
 <table class="ability-tree-table">
 <tbody><tr>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -359,7 +369,7 @@
       @mouseover="showTooltip('箭弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 58px; height: 58px;"
+      class="t48"
       @touchstart.prevent="handleTouchStart"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭弹'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
@@ -415,6 +425,7 @@
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
+      class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '弓箭精通I'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- Your tooltip content goes here -->
@@ -477,7 +488,7 @@
       @mouseover="showTooltip('碎心')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 52px; height: 52px;"
+      class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '碎心'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
@@ -540,7 +551,7 @@
       @mouseover="showTooltip('逃脱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 58px; height: 58px;"
+      class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
@@ -1189,6 +1200,8 @@
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 </tbody></table>
+</template>
+</Tabs>
 </div></template>
 
 <script>
@@ -1233,5 +1246,10 @@ export default {
 
 .disable-click {
   pointer-events: none; /* 禁用点击事件 */
+}
+
+.t48 {
+  max-width: 48px; /* 设置最大宽度为48px */
+  max-height: 48px; /* 设置最大高度为48px */
 }
 </style>
