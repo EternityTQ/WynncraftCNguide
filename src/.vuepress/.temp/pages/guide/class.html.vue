@@ -360,6 +360,7 @@
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 58px; height: 58px;"
+      @touchstart.prevent="handleTouchStart"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭弹'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
@@ -1213,6 +1214,9 @@ export default {
     updateTooltipPosition(event) {
       this.tooltipTop = event.pageY + 10; // 根据需要调整偏移量
       this.tooltipLeft = event.pageX + 10; // 根据需要调整偏移量
+    },
+    handleTouchStart() {
+      // 阻止默认触摸事件，可以留空或处理其他逻辑
     }
   }
 };
@@ -1225,5 +1229,9 @@ export default {
   color: white;
   padding: 10px;
   border-radius: 5px;
+}
+
+.disable-click {
+  pointer-events: none; /* 禁用点击事件 */
 }
 </style>
