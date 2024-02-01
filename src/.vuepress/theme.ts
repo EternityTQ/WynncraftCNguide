@@ -12,6 +12,8 @@ export default hopeTheme({
 
   iconAssets: "fontawesome",
 
+  
+
   logo: "/logo.svg",
 
   repo: "EternityTQ/WynncraftCNguide",
@@ -49,9 +51,10 @@ export default hopeTheme({
  
 
   plugins: {
+    photoSwipe: false,
     comment: {
       provider: "Waline",
-  
+      
       // waline 模式下
       serverURL: "https://wcg-comment.vercel.app/", // your serverURL
     },

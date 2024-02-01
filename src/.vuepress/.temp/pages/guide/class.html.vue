@@ -193,8 +193,8 @@
 </template>
 </Tabs>
 <h3 id="弓手" tabindex="-1"><a class="header-anchor" href="#弓手" aria-hidden="true">#</a> 弓手</h3>
-<Tabs id="375" :data='[{"id":"<font color=\"orange\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
-<template #title0="{ value, isActive }"><font color="orange"> Boltslinger 闪击射手</font></template>
+<Tabs id="375" :data='[{"id":"<font color=\"FFCC00\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<template #title0="{ value, isActive }"><font color="FFCC00"> Boltslinger 闪击射手</font></template>
 <template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
 <template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
 <template #tab0="{ value, isActive }">
@@ -335,7 +335,7 @@
       @mouseleave="hideTooltip"
       class="t48"
     /><br>
-<div v-if="isTooltipVisible && currentTooltip === '技能名字'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
+<div v-show="isTooltipVisible && currentTooltip === '技能名字'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
 <!-- 提示文本内容 --><br>
 <font color="#FFFFFF"><b>技能名字</b></font><br>
 <br><font color = BBBBBB>技能介绍介绍介绍</font><br>
@@ -346,10 +346,9 @@
 <p>此页面专为电脑端设计！</p>
 <p>移动端可能会出现图标拉伸等影响浏览的效果</p>
 <p>请知悉！</p>
-<p>强烈建议使用右侧目录来进行快速跳转！</p>
 </div>
 <h3 id="弓手-1" tabindex="-1"><a class="header-anchor" href="#弓手-1" aria-hidden="true">#</a> 弓手</h3>
-<Tabs id="674" :data='[{"id":"弓手"}]'>
+<Tabs id="671" :data='[{"id":"弓手"}]'>
 <template #title0="{ value, isActive }">弓手</template>
 <template #tab0="{ value, isActive }">
 <table class="ability-tree-table">
@@ -367,20 +366,21 @@
       src="/assets/img/class/archer_green.png"
       alt="Your Image"
       @mouseover="showTooltip('箭弹')"
-      @mousemove="updateTooltipPosition"
+      @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
       class="t48"
-      @touchstart.prevent="handleTouchStart"
+      @click.prevent="handleClick"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '箭弹'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-show="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="#00BB00"><b>箭弹</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 右键</font>
-      <br><font color = BBBBBB>射出一支远距离的箭矢，其命中后
-      <br>会爆炸，并在大范围内造成伤害。</font><font color = 555555><br>(并对自己造成爆炸伤害10%的伤害)</font>
-      <br><font color = BBBBBB>蓝耗：45
-      <br>范围：26格
-      <br>爆炸范围：4.5格</font>
+      <br>
+      <br><font color = BBBBBB>射出一支远距离的箭矢，其命中后会爆炸，并在大范围内造成伤害。</font><font color = 555555><br>(并对自己造成爆炸伤害10%的伤害)</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>45</font>
+      <br>范围：<font color=white>26格</font>
+      <br>爆炸范围：<font color=white>4.5格</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -426,10 +426,12 @@
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
       class="t48"
+      @touchstart.prevent="handleTouchStart"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '弓箭精通I'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-show="isTooltipVisible && currentTooltip === '弓箭精通I'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- Your tooltip content goes here -->
             <font color = WHITE><b>弓箭精通I</b></font>
+            <br>
             <br><font color = BBBBBB>增加<u>普通攻击</u>的伤害及范围</font>
             <br>
     </div>
@@ -439,14 +441,15 @@
 <td><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('箭弹减耗')"
+      @mouseover="showTooltip('箭弹减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '箭弹减耗'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-show="isTooltipVisible && currentTooltip === '箭弹减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>箭弹减耗</b></font>
+      <font color="#FFFFFF"><b>箭弹减耗I</b></font>
+      <br>
       <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF>-10</font></font>
     </div>
 </td>
@@ -490,9 +493,10 @@
       @mouseleave="hideTooltip"
       class="t48"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '碎心'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-show="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>碎心</b></font>
+      <br>
       <br><font color = BBBBBB><u>箭弹</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
     </div>
 </td>
@@ -536,11 +540,14 @@
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '双发'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-show="isTooltipVisible && currentTooltip === '双发'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>双发箭矢</b></font>
+      <br>
       <br><font color = BBBBBB>你的<u>普通攻击</u>将同时射出两发箭矢</font>
       <br><font color = BBBBBB>但每支箭矢的伤害将会降低<font color= RED>30%</font></font>
+      <br>
+      <br><font color= FFCC00><b>闪击射手 分支</b></font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
@@ -553,20 +560,35 @@
       @mouseleave="hideTooltip"
       class="t48"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '逃脱'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-show="isTooltipVisible && currentTooltip === '逃脱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="#00BB00"><b>逃脱</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 左键 - 左键</font>
+      <br>
       <br><font color = BBBBBB>快速后跳来规避危险</font>
-      <br><font color = BBBBBB>蓝耗：20</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>20</font></font>
+      <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB>逃脱最多连续触发一次，其在空中也能触发。</font>
-      <br><font color = BBBBBB>落地后刷新使用次数</font>
+      <br><font color = BBBBBB>逃脱最多连续触发一次，其在空中也能触发。落地后刷新使用次数</font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Power_Shots"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Power_Shots"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('强力箭矢')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '强力箭矢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="FFFFFF"><b>强力箭矢</b></font>
+      <br>
+      <br><font color = BBBBBB>你的<u>普通攻击</u>射出的箭矢将提高飞行速度以及击退能力</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -596,15 +618,67 @@
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Arrow_Storm"></span><img src="/assets/img/class/archer_green.png" width="58" height="58" >
+<td><span id="Arrow_Storm"></span><img
+      src="/assets/img/class/archer_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭雨')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      @click.prevent="handleClick"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '箭雨'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>箭雨</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 左键</font>
+      <br>
+      <br><font color = BBBBBB>快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>35</font>
+      <br>范围：<font color = white>16格</font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>每支箭矢在发射时，均会对玩家造成小幅后坐力</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Escape_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Cheaper_Escape_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('逃脱减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>逃脱减耗I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF>-5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Arrow_Shield"></span><img src="/assets/img/class/archer_green.png" width="58" height="58" >
+<td><span id="Arrow_Shield"></span><img
+      src="/assets/img/class/archer_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭盾')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      @click.prevent="handleClick"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '箭盾'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>箭盾</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 左键 - 右键</font>
+      <br>
+      <br><font color = BBBBBB>召唤一面盾牌，其可以对接近的怪物
+      <br>造成伤害并击飞</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>30</font>
+      <br>范围：<font color = white>2.3格</font>
+      <br>持续时间：<font color = white>60秒</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
@@ -613,7 +687,24 @@
 <tr>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Windy_Feet"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Windy_Feet"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('风行足')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '风行足'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>风行足</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>逃脱</u>会给予你和周围的友军一段时间的速度加成</font>
+      <br>
+      <br><font color = BBBBBB>效果：<font color=white>+20%</font>速度加成
+      <br>持续时间：<font color = white>120秒</font></font>
+      <br>范围：<font color = white>8格</font>      
+    </div>
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
@@ -649,11 +740,47 @@
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td></tr>
 <tr>
-<td><span id="Air_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Air_Mastery_(Archer)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('气属性精通')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '气属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="FFFFFF"><b>气属性精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有气属性的伤害</font>
+      <br>
+      <br><font color = BBBBBB>气属性伤害<font color= WHITE> +3-4</font></font>
+      <br><font color = BBBBBB>气属性伤害<font color= WHITE> +15%</font></font>
+      <br>
+      <br><font color= FFCC00><b>闪击射手 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Thunder_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Thunder_Mastery_(Archer)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('电属性精通')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '电属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="FFFFFF"><b>电属性精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有电属性的伤害</font>
+      <br>
+      <br><font color = BBBBBB>电属性伤害<font color= WHITE> +1-8</font></font>
+      <br><font color = BBBBBB>电属性伤害<font color= WHITE> +10%</font></font>
+      <br>
+      <br><font color= FFCC00><b>闪击射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
@@ -661,11 +788,47 @@
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Fire_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Fire_Mastery_(Archer)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('火属性精通')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '火属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="FFFFFF"><b>火属性精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有火属性的伤害</font>
+      <br>
+      <br><font color = BBBBBB>火属性伤害<font color= WHITE> +3-5</font></font>
+      <br><font color = BBBBBB>火属性伤害<font color= WHITE> +15%</font></font>
+      <br>
+      <br><font color= FF55FF><b>鹰眼射手 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Water_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Water_Mastery_(Archer)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('火属性精通')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '火属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="FFFFFF"><b>水属性精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有水属性的伤害</font>
+      <br>
+      <br><font color = BBBBBB>水属性伤害<font color= WHITE> +2-4</font></font>
+      <br><font color = BBBBBB>水属性伤害<font color= WHITE> +15%</font></font>
+      <br>
+      <br><font color= FF55FF><b>鹰眼射手 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
@@ -676,7 +839,25 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Earth_Mastery_(Archer)"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Earth_Mastery_(Archer)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('地属性精通')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-show="isTooltipVisible && currentTooltip === '地属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="FFFFFF"><b>地属性精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有地属性的伤害</font>
+      <br>
+      <br><font color = BBBBBB>地属性伤害<font color= WHITE> +2-4</font></font>
+      <br><font color = BBBBBB>地属性伤害<font color= WHITE> +20%</font></font>
+      <br>
+      <br><font color= 00AA00><b>鹰眼射手 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -1214,39 +1395,77 @@ export default {
       tooltipLeft: 0
     };
   },
+  mounted() {
+  console.log(this.$refs.div);
+},
   methods: {
     showTooltip(tooltipName) {
       this.currentTooltip = tooltipName;
-      this.updateTooltipPosition(event);
       this.isTooltipVisible = true;
+      this.updateTooltipPosition(event);
+      this.$nextTick(() => {
+        this.updateTooltipPosition();
+      });
+      
     },
     hideTooltip() {
       this.isTooltipVisible = false;
       this.currentTooltip = '';
     },
     updateTooltipPosition(event) {
-      this.tooltipTop = event.pageY + 10; // 根据需要调整偏移量
-      this.tooltipLeft = event.pageX + 10; // 根据需要调整偏移量
+        
+        if (!event) return; 
+       // 根据需要调整偏移量
+      //const w = this.$refs.tooltip.$el.clientWidth
+      //console.log('获取元素宽高', w)
+      this.$nextTick(() =>{
+        this.tooltipTop = event.pageY + 10; // 根据需要调整偏移量
+      this.tooltipLeft = event.pageX + 10;
+        //console.log('Event:', event);
+  //console.log('$refs.tooltip:', this.$refs.tooltip);
+      if (event.clientX > window.innerWidth *0.58) {
+        console.log('$refs.tooltip width:', this.$refs.tooltip);
+        this.tooltipLeft -= 330;
+        //const w = this.$refs.tooltip.$el.offsetWidth;
+        //console.log('获取元素宽高', w);
+      }
+      })
+    
+      
     },
     handleTouchStart() {
       // 阻止默认触摸事件，可以留空或处理其他逻辑
+    },
+    handleClick(event) {
+    // 处理点击事件逻辑
     }
   }
 };
 </script>
 
 <style scoped>
+.ability-tree-table {
+  table-layout: fixed;
+  width: 100%; /* 设置表格宽度为父容器的100% */
+  border-collapse: collapse;
+}
+
+th, td {
+  width: 11.11%; /* 平均分配三列的宽度 */
+  height: 40px;
+  border: 1px solid #ddd;
+  align: center;
+}
+
 .tooltip {
   position: absolute;
   background-color: black;
   color: white;
   padding: 10px;
   border-radius: 5px;
+  width: 300px;
 }
 
-.disable-click {
-  pointer-events: none; /* 禁用点击事件 */
-}
 
 .t48 {
   max-width: 48px; /* 设置最大宽度为48px */
