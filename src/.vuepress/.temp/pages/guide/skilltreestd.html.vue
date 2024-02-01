@@ -31,7 +31,7 @@
       class="t48"
       @click.prevent="handleClick"
     /><br>
-<div v-show="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
+<div v-if="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
 <!-- 提示文本内容 --><br>
 <font color="#00BB00"><b>箭弹</b></font><br>
 <br><br>
@@ -50,7 +50,7 @@
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     /><br>
-<div v-show="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
+<div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
 <!-- 提示文本内容 --><br>
 <font color="#FFFFFF"><b>逃脱减耗I</b></font><br>
 <br><br>
@@ -64,7 +64,7 @@
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     /><br>
-<div v-show="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
+<div v-if="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
 <!-- 提示文本内容 --><br>
 <font color="ORANGE"><b>碎心</b></font><br>
 <br><br>

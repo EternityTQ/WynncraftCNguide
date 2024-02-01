@@ -67,7 +67,7 @@ icon: gamepad
       class="t48"
       @click.prevent="handleClick"
     />
-    <div v-show="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="#00BB00"><b>箭弹</b></font>
       <br>
@@ -88,7 +88,7 @@ icon: gamepad
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-show="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>逃脱减耗I</b></font>
       <br>
@@ -104,7 +104,7 @@ icon: gamepad
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-show="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>碎心</b></font>
       <br>
