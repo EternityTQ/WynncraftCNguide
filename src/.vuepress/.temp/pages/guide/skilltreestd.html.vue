@@ -114,6 +114,26 @@
      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>随从的攻击无法给自身叠加专注值。
      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>类似<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>u</span><span class="token punctuation">></span></span>箭雨滂沱<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>u</span><span class="token punctuation">></span></span>的技能，一旦有一根箭矢空箭了，就算作一次失误。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span>
    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-   ```</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><p>战士：<br>
+<code v-pre>&lt;font color=RED&gt;Fallen 腐化者&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=FFFF55&gt;Battle Monk 武道士&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=18c7f0&gt; Paladin 圣骑士&lt;/font&gt;</code></p>
+<p>法师：<br>
+<code v-pre>&lt;font color=18c7f0&gt; Riftwalker 时空行者&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=WHITE&gt; Light Bender 圣光使者&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=&quot;purple&quot;&gt; Arcanist 奥术法师&lt;/font&gt;</code></p>
+<p>弓手：<br>
+<code v-pre>&lt;font color=FFFF55&gt; Boltslinger 闪击射手&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=00AA00&gt;陷阱射手 &lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=FF55FF&gt; 鹰眼射手 &lt;/font&gt;</code></p>
+<p>刺客：<br>
+<code v-pre>&lt;font color=AA0000&gt; Shadestepper 影步者 &lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=FF55FF&gt; Trickster 幻术师 &lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=WHITE&gt; Acrobat 身法刺 &lt;/font&gt;</code></p>
+<p>萨满：<br>
+<code v-pre>&lt;font color=&quot;orange&quot;&gt; Summoner 召唤师 &lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=16d108&gt; Ritualist 圣祭祀 &lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=&quot;red&quot;&gt; Acolyte 血教徒 &lt;/font&gt;</code></p>
+</div></template>
 
 

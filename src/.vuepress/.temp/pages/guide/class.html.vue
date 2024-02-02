@@ -49,7 +49,7 @@
 <p>萨满的战斗方式为依赖召唤物图腾进行超大范围AOE攻击，技能树中也可以强化图腾的能力，拥有召唤额外召唤物以及治疗的能力。</p>
 <p>前中期的萨满有着不错的AOE伤害，适合快速练级，<strong>但如果萌新玩家想要体验完整的游戏内容，并不建议在第一个档使用萨满</strong>。</p>
 <p>萨满拥有全职业最低的防御补正，导致萨满皮很脆，并且其位移技能的设计手感较差，加上需要在较高等级才能解锁图腾治疗，对于刚入坑的玩家不算友好。</p>
-<p>如果将其作为游戏中的第二个档进行游玩，并主动跳过不必要的剧情等内容，那萨满将是刷到满级速度最快的职业<s>当然满级游戏体验也好不到哪去</s>。</p>
+<p>如果将其作为游戏中的第二个档进行游玩，并主动跳过不必要的剧情等内容，那萨满将是刷到满级速度最快的职业<s>当然萌新玩家满级游戏体验也好不到哪去</s>。</p>
 </template>
 </Tabs>
 <p>对于每个职业，你都可以在技能树中体验到三种流派</p>
@@ -87,7 +87,13 @@
 <p>Intoxicating Blood：腐化状态期间每杀死一个怪物，在退出腐化后会恢复5%的生命值</p>
 </li>
 <li>
+<p>Armour Breaker：腐化状态期间，损失30%生命值后可以使用uppercut技能降低怪物防御值</p>
+</li>
+<li>
 <p>Ragnarokkr：提高战吼的持续时间，同时给周围友军施加20%的伤害增加buff</p>
+</li>
+<li>
+<p>Blood Pact：蓝量不够的时候可以使用血量代替蓝量施法</p>
 </li>
 </ul>
 </template>
@@ -105,7 +111,13 @@
 <p>Aerodynamics：冲锋期间，可以调整方向</p>
 </li>
 <li>
+<p>Flying Kick：冲锋期间碰到怪物会造成伤害</p>
+</li>
+<li>
 <p>Whiriwind Strike：上挑现在会将周围敌人与自己挑飞滞空</p>
+</li>
+<li>
+<p>Thunderclap：重击技能改为在玩家位置释放并且aoe和攻速大幅提升</p>
 </li>
 <li>
 <p>Discombobulate：攻击怪物将会给怪物叠加Discombobulated，攻击该怪物会根据该debuff数值额外追加元素伤害</p>
@@ -115,13 +127,40 @@
 <template #tab2="{ value, isActive }">
 <p>圣骑士能达到比另外两条技能分支更高的基础抗性，这也意味着圣骑士拥有全游戏最高的基础抗性</p>
 <p>防御能力方面，圣骑士拥有更高基础抗性的同时，可以通过战吼召唤格挡70%伤害的小盾，亦能通过秘银皮肤获得完全的击退抗性</p>
-<p>辅助能力方面，圣骑士拥有嘲讽、可以净化队友身上的负面状态，并且拥有全游戏仅有的词条增益：Radience，范围增强友方装备中的全部词条<s>非常好词条使我Revenant掉大血</s></p>
+<p>辅助能力方面，圣骑士拥有嘲讽、可以净化队友身上的负面状态，并且拥有全游戏仅有的词条增益：Radience，范围增强友方装备中的全部增益词条</p>
 <p>圣骑士的终极技能，是每10分钟可以使用一次的被动复活，并且可以再度增益，在触发复活时为全体队友附加无敌效果</p>
 <p>作为代价，圣骑士的输出能力相较另两条技能树更低，如果不是为了追求终极技能的复活能力和团队增益，建议与其他分支进行适当搭配</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Mantle of the Bovemists：使用战吼可以召唤出可以减伤70%的圣盾</p>
+</li>
+<li>
+<p>Provoke：所有受到战吼伤害的怪会在8秒内只攻击你</p>
+</li>
+<li>
+<p>Rejuvenating Skin：受到伤害的30%会在接下来的30秒内慢慢恢复</p>
+</li>
+<li>
+<p>Cleansing Breeze：净化负面状态</p>
+</li>
+<li>
+<p>Mythril Skin：不会被击退（tna的boss aoe无效）</p>
+</li>
+<li>
+<p>Radiance：范围增强友方装备的全部增益词条</p>
+</li>
+<li>
+<p>Second Chance：10分钟一次的被动复活</p>
+</li>
+<li>
+<p>Martyr：受到致死伤害时周围所有队友3秒内无敌</p>
+</li>
+</ul>
 </template>
 </Tabs>
 <h3 id="法师" tabindex="-1"><a class="header-anchor" href="#法师" aria-hidden="true">#</a> 法师</h3>
-<Tabs id="244" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
+<Tabs id="309" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
 <template #title0="{ value, isActive }"><font color=18c7f0> Riftwalker 时空行者</font></template>
 <template #title1="{ value, isActive }"><font color="grey"> Light Bender 圣光使者</font></template>
 <template #title2="{ value, isActive }"><font color="purple"> Arcanist 奥术法师</font></template>
@@ -135,7 +174,7 @@
 <blockquote>
 <p>尽管大多数时候在你叠满Winded之前就已经把怪物解决了</p>
 </blockquote>
-<p><strong>重要能力点：</strong></p>
+<p><strong>重要技能点：</strong></p>
 <ul>
 <li>
 <p>Windsweeper：你的每次平A会给敌人叠加1层Winded</p>
@@ -154,7 +193,7 @@
 <p>圣光使者的治疗能力会被光之力大幅增强，治疗能力增加，甚至能造成伤害，并且召唤的光球也会受到自己的治疗而恢复生命</p>
 <p>根据自身短期内造成的治疗量，圣光使者能为友方施加不同的增益，甚至可以通过治疗过量为友方附加短暂的无敌</p>
 <p>相应的，失去了陨石能力的圣光使者也损失了大量的群伤能力，更适合单体作战或辅助队友</p>
-<p><strong>重要能力点：</strong></p>
+<p><strong>重要技能点：</strong></p>
 <ul>
 <li>
 <p>Ophanim：陨石将会转换为召唤2个光球，光球将会在你平A时一起攻击敌人，光球的每次攻击会减少20%的血量，光球可以被治疗</p>
@@ -166,7 +205,13 @@
 <p>Orphion's Pulse：治疗将会额外施加两次，每次间隔1.5s，额外治疗拥有更高的奶量</p>
 </li>
 <li>
-<p>Divination：光球的数量+3，减少每一个光球的伤害</p>
+<p>Fluid Healing：水伤词条增加治疗量</p>
+</li>
+<li>
+<p>Lightweaver：10秒内治疗你的血量上限50%会召唤一个以你为中心旋转的光球，造成接触伤害</p>
+</li>
+<li>
+<p>Sunflare：10秒内治疗你的血量上限300%会使你的下一个治疗技能增加队友的基础抗性</p>
 </li>
 </ul>
 </template>
@@ -175,7 +220,7 @@
 <p>牺牲治疗能力，使得奥术法师使用技能、技能命中都会为自己特殊的&quot;能量库&quot;进行充能，而使用已经被替换为奥术转化的治疗，会将能量库提取为可用能量</p>
 <p>而奥术法师的终极技能，使得奥术法师在能量库存储量足够高时使用奥术转化，能直接消耗能量库打出先前使用的多个技能，快速运转能量与输出</p>
 <p>输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发</p>
-<p><strong>重要能力点：</strong></p>
+<p><strong>重要技能点：</strong></p>
 <ul>
 <li>
 <p>Arcane Transfer：陨石和冰蛇每命中1个敌人，都会添加5法力进入后备能源中；治疗现在不再恢复生命，而是将后备能源的所有法力转化至蓝条中；法力转换(治疗)不再有蓝耗消耗，且无法重置重复施法惩罚</p>
@@ -189,11 +234,14 @@
 <li>
 <p>Arcane Overflow：施放法力转换(治疗)时，允许法力突破蓝条上限(至多400)，超过上限的法力将会持续自动减少</p>
 </li>
+<li>
+<p>Manastorm：蓝量在100以上的时候使用技能会在5秒内回复10点蓝量</p>
+</li>
 </ul>
 </template>
 </Tabs>
 <h3 id="弓手" tabindex="-1"><a class="header-anchor" href="#弓手" aria-hidden="true">#</a> 弓手</h3>
-<Tabs id="375" :data='[{"id":"<font color=\"FFCC00\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<Tabs id="455" :data='[{"id":"<font color=\"FFCC00\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="FFCC00"> Boltslinger 闪击射手</font></template>
 <template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
 <template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
@@ -224,16 +272,61 @@
 <p>设陷者也可以将自身后跳能力转化为抓钩，这是一个更适合设陷者技能树的位移技能</p>
 <p>版本更新后，设陷者的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼</p>
 <p>设陷者的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Byrophyte Roots：箭暴对怪物造成伤害时会造成减速aoe</p>
+</li>
+<li>
+<p>Basaltic Trap：炸弹箭击中地面时会放置陷阱</p>
+</li>
+<li>
+<p>Call of the Hound：剑盾会生成自动攻击的狗</p>
+</li>
+<li>
+<p>Ivyroot Mamba：Byrophyte Roots消失时生成自动攻击的蛇，攻击效果会降低敌方伤害</p>
+</li>
+<li>
+<p>Mana Trap：你附近的陷阱会给你回蓝效果</p>
+</li>
+<li>
+<p>Murder Flock：陷阱触发时会生成自动攻击的乌鸦，攻击效果会致盲</p>
+</li>
+<li>
+<p>Tangled Traps：陷阱之间会产生激光对敌人造成伤害</p>
+</li>
+</ul>
 </template>
 <template #tab2="{ value, isActive }">
 <p>鹰眼射手是一个独具特色的分支，其独特的“专注”能力决定了它是一个上限极高的分支</p>
 <p>鹰眼的核心能力在于命中敌人时叠加专注，未命中时失去专注，专注维持的越高，输出也会越高</p>
 <p>其箭雨技能也将被转化为特殊的激光，没有后坐力的同时精准度更高，更容易维持专注</p>
-<p>鹰眼的终极技能可以在叠满专注时化身雷霆战机<s>飞行木桩</s>造成高额爆发<s>并牺牲持续输出能力</s></p>
+<p>鹰眼的终极技能<s>虽然没什么用</s>可以在叠满专注时化身雷霆战机<s>飞行木桩</s>造成高额爆发<s>并牺牲持续输出能力</s></p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Phantom Ray：箭暴技能改为激光</p>
+</li>
+<li>
+<p>Focus：在五格外击中敌人会提供增伤效果，技能或普攻未击中则效果消失</p>
+</li>
+<li>
+<p>Twain's Arc：在Focus效果为2+的时候按住shift召唤，造成极高的普攻伤害</p>
+</li>
+<li>
+<p>Homing Shots：普攻会追踪怪物并且不受地心引力影响</p>
+</li>
+<li>
+<p>Initiator：未造成伤害4秒以后击中怪物将增伤60%并提供+1 Focus</p>
+</li>
+<li>
+<p>Coursing Restraints：炸弹箭会降低怪物防御值</p>
+</li>
+</ul>
 </template>
 </Tabs>
 <h3 id="刺客" tabindex="-1"><a class="header-anchor" href="#刺客" aria-hidden="true">#</a> 刺客</h3>
-<Tabs id="450" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
+<Tabs id="605" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
 <template #title0="{ value, isActive }"><font color=AA0000> Shadestepper 影步者 </font></template>
 <template #title1="{ value, isActive }"><font color=FF55FF> Trickster 幻术师 </font></template>
 <template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法刺 </font></template>
@@ -241,20 +334,74 @@
 <p>影步者的核心能力在于替换多重斩的背刺，通过破隐增伤+背刺增伤+印记增伤+重斩增伤的多段<strong>倍率叠加</strong>打出全游戏最高的单次爆发伤害</p>
 <p>但是由于MC本身的机制限制，在部分战斗(如TCC BOSS战)中背刺的判定很诡异，甚至无法触发</p>
 <p>游戏后期的影步者能轻松打出六位数甚至七位数的单次爆发输出</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Backstab：多重斩技能改为背刺，在怪物后方使用会造成双倍伤害</p>
+</li>
+<li>
+<p>Marked：烟雾弹技能会对怪物造成印记增伤效果</p>
+</li>
+<li>
+<p>Nightcloak Knife：吸收印记并生成暗影之刃对怪物造成伤害</p>
+</li>
+<li>
+<p>Satsujin：怪物有4+印记时你的下一个多重斩，背刺或粉末主动伤害翻倍</p>
+</li>
+</ul>
 </template>
 <template #tab1="{ value, isActive }">
 <p>幻术师的核心能力在于利用隐身召唤分身，再利用分身与本体共同输出以造成多次伤害</p>
 <p>分身也能在本体受伤时，通过消耗分身的方式抵消一定伤害</p>
 <p>幻术师还拥有独特的诱饵标记(类似于嘲讽)，可以主动吸引敌人仇恨</p>
 <p>幻术师还可以将自身的负面状态转移给敌人，并且还可以通过击杀被转移了诱饵标记的敌人来获取金血资源</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Mirror Image：召唤分身，分身存在时降低受到伤害的60%</p>
+</li>
+<li>
+<p>Delirious Gas：在烟雾弹范围内时增加40%伤害并且吸引仇恨</p>
+</li>
+<li>
+<p>Echo：分身与你同时使用所有技能，但是每个分身和本体伤害降低65%</p>
+</li>
+<li>
+<p>Forbidden Art：召唤分身时额外召唤3个分身</p>
+</li>
+</ul>
 </template>
 <template #tab2="{ value, isActive }">
 <p>身法刺并不需要隐身的机制，其核心机制在于浮空并利用茉莉印记对下方的怪物造成伤害，同时利用浮空时造成伤害恢复能量进行续航，从而达成有效循环</p>
-<p>虽然茉莉印记是身法刺的核心机制来源，但身法刺的核心输出在多重斩上，不多多利用多重斩的话输出并不出色</p>
+<p>虽然茉莉印记是身法刺的核心机制来源，但身法刺的核心输出在多重斩上，不多多利用多重斩的话输出并不出色<br>
+<strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Lacerate：旋转攻击方式修改并增加位移</p>
+</li>
+<li>
+<p>Weightless：在空中时击中怪物回蓝</p>
+</li>
+<li>
+<p>Flow State：连续击中怪物60次后短时间内大幅增加伤害</p>
+</li>
+<li>
+<p>Shurikens：使用位移技能后下一个普攻会扔出3个手里剑</p>
+</li>
+<li>
+<p>Pirouette：位移技能撞到怪物会往上弹</p>
+</li>
+<li>
+<p>Blade Fury：多重斩锁定怪物位置并且可以对任一方向释放</p>
+</li>
+<li>
+<p>Jasmine Bloom：茉莉印记，对下方怪物造成伤害</p>
+</li>
+</ul>
 </template>
 </Tabs>
 <h3 id="萨满" tabindex="-1"><a class="header-anchor" href="#萨满" aria-hidden="true">#</a> 萨满</h3>
-<Tabs id="488" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
+<Tabs id="730" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
 <template #title1="{ value, isActive }"><font color=16d108> Ritualist 圣祭祀 </font></template>
 <template #title2="{ value, isActive }"><font color="red"> Acolyte 血教徒 </font></template>
@@ -281,13 +428,45 @@
 <p>圣祭祀拥有召唤圣假面的能力，每个面具都会降低自身某种属性来增强另一项(移速，伤害，防御)</p>
 <p>在每一个圣假面的加持之下，圣祭司的技能也会获得不同的加成，而面具能力会牺牲圣祭司的其中一个技能：uproot</p>
 <p>圣祭司的终极技能则允许其在特定条件下召唤觉醒假面一段时间，觉醒假面拥有所有圣假面的增益，但会清除其减益</p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Mask of the Lunatic：增加伤害但降低防御</p>
+</li>
+<li>
+<p>Mask of the Fanatic：增加防御但降低移速</p>
+</li>
+<li>
+<p>Mask of the Coward：增加移速但降低伤害</p>
+</li>
+<li>
+<p>Awakened：拥有所有假面的增益并清除减益</p>
+</li>
+</ul>
 </template>
 <template #tab2="{ value, isActive }">
 <p>血教徒是上手难度最高的技能分支之一，其核心机制为血池——通过图腾牺牲自己的生命值填充血池，再利用血池进行输出和治疗</p>
 <p>虽然血池的治疗在熟练掌握后是非常强大的续航手段，但是不熟练血池节奏的情况下，很有可能因为血池意外将自己抽干而失去续航能力</p>
 <p>血教徒亦可通过普攻标记敌人与敌人&quot;共命&quot;，自身血量下降的同时也会让敌人受到伤害</p>
 <p>血教徒的终极技能是一个极端的辅助技，能提供稀有的金血资源，但也会让自己变成木桩</p>
-<p></p>
+<p><strong>重要技能点：</strong></p>
+<ul>
+<li>
+<p>Sacrificial Shrine：通过图腾牺牲生命值填充血池，使用aura会造成范围治疗效果</p>
+</li>
+<li>
+<p>Blood Connection：这个游戏中最难使用但是非常有用的位移技能，在图腾范围外使用haul会传送回图腾</p>
+</li>
+<li>
+<p>Vengeful Spirit：图腾范围内增加伤害</p>
+</li>
+<li>
+<p>Fluid Healing：水伤增加治疗量</p>
+</li>
+<li>
+<p>Blood Rite：图腾范围内友方受到伤害会填充血池</p>
+</li>
+</ul>
 </template>
 </Tabs>
 <h2 id="技能树介绍" tabindex="-1"><a class="header-anchor" href="#技能树介绍" aria-hidden="true">#</a> 技能树介绍</h2>
@@ -349,7 +528,7 @@
 <p>并且这里不会对倍率进行详细说明</p>
 </div>
 <h3 id="弓手-1" tabindex="-1"><a class="header-anchor" href="#弓手-1" aria-hidden="true">#</a> 弓手</h3>
-<Tabs id="674" :data='[{"id":"弓手"}]'>
+<Tabs id="968" :data='[{"id":"弓手"}]'>
 <template #title0="{ value, isActive }">弓手</template>
 <template #tab0="{ value, isActive }">
 <table class="ability-tree-table">
@@ -1178,7 +1357,7 @@
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>箭雨减耗I</b></font>
+      <font color="#FFFFFF"><b>箭雨减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>箭雨</u>的技能消耗<font color = FFFFFF>-5</font></font>
     </div>
@@ -1243,7 +1422,7 @@
     />
     <div v-if="isTooltipVisible && currentTooltip === '耐心的猎人'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="ORANGE"><b>耐心的猎人</b></font>
+      <font color="ORANGE"><b>猎人狩猎守则</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color=aqua>陷阱</font>在激活后，每秒 <font color=FFFFFF>+20% </font>伤害。(上限+100%)</font>
       <br>
@@ -1540,28 +1719,117 @@
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td></tr>
 <tr>
-<td><span id="Refined_Gunpowder"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Refined_Gunpowder"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('精致火药')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '精致火药'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>精致火药</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭弹</u>的基础伤害增加<font color = FFFFFF> +50%</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Fierce_Stomp"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Fierce_Stomp"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('猛烈踹击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '猛烈踹击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>猛烈踹击</b></font>
+      <br>
+      <br><font color = BBBBBB>在使用<u>逃脱</u>时，按住SHIFT将极速下落，并在落地时造成伤害。
+      <br>
+      <br>伤害半径：<font color=white>4格</font></font>
+      <br>
+      <br><font color=FFFF55><b>闪击射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Arrow_Shield_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Cheaper_Arrow_Shield_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭盾减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭盾减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>箭盾减耗I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭盾</u>的技能消耗<font color = FFFFFF>-5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Better_Arrow_Shield"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Better_Arrow_Shield"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭盾精制')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭盾精制'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>箭盾精制</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<u>箭盾</u>的伤害半径、击退能力以及伤害
+      <br><u>守护天使</u>的伤害些许增加
+      <br>
+      <br>伤害半径：<font color=white>+1格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Shocking_Bomb"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Shocking_Bomb"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('震撼弹')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '震撼弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>震撼弹</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭弹</u>不再受到重力下坠影响，同时增加爆炸伤害</font>
+      <br>
+      <br><font color=FF55FF><b>鹰眼射手 分支</b> </font>
+    </div>
 </td></tr>
 <tr>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Better_Leap"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Better_Leap"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('飞跃精通')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '飞跃精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>飞跃精通</b></font>
+      <br>
+      <br><font color = BBBBBB><u>飞跃</u>的冷却时间<font color = FFFFFF> -1s</font></font>
+      <br>
+      <br><font color=FFFF55><b>闪击射手 分支</b></font>
+    </div>
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
@@ -1569,7 +1837,22 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Homing_Shots"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Homing_Shots"></span>  <img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('导引箭')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '导引箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>导引箭</b></font>
+      <br>
+      <br><font color = BBBBBB>你的<u>普通攻击</u>将自动锁定周围的敌人，且不再受到重力下坠影响</font>
+      <br>
+      <br><font color=FF55FF><b>鹰眼射手 分支</b> </font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -1603,32 +1886,148 @@
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mana_Trap"><div class="center"><div class="floatnone"><img alt="Ability 3" src="/assets/img/class/special.png" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="/assets/img/class/special.png" class=" ls-is-cached lazyloaded"></div></div></div>
+<td>  <img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('法力陷阱')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '法力陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>法力陷阱</b></font>
+      <br>
+      <br><font color = BBBBBB>你的每个<font color=aqua>陷阱</font>每秒将给予你<font color=white> 0.5 </font>法力，在爆炸时，回收<font color=white> 10 </font>法力。
+      <br>
+      <br>蓝耗：<font color=RED>+10</font>
+      <br>恢复范围：<font color=white>16格</font>
+      <br>
+      <br><font color= 00AA00><b>陷阱射手 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>只有处于恢复范围内，才能回收到每秒以及爆炸的蓝耗。当处于回收范围时，陷阱会变成蓝色</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Arrow_Storm_II"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Cheaper_Arrow_Storm_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭雨减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭雨减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>箭雨减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭雨</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Decimator"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Decimator"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('聚能连击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '聚能连击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>聚能连击</b></font>
+      <br>
+      <br><font color = BBBBBB><u>幻影射线</u>每连续攻击到一次敌人且不空箭时，伤害<font color=white>+10%</font>。(至多70%)</font>
+      <br>
+      <br><font color=FF55FF><b>鹰眼射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png" width="40" height="40" >
 </td></tr>
 <tr>
-<td><span id="Better_Guardian_Angels"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Better_Guardian_Angels"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('强化守护天使')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '强化守护天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>强化守护天使</b></font>
+      <br>
+      <br><font color = BBBBBB><u>守护天使</u>将增加范围，同时在消失前可以额外攻击<font color = FFFFFF> 4 </font>次。
+      <br>
+      <br>攻击范围：<font color=white>+2格</font></font>
+      <br>
+      <br><font color=FFFF55><b>闪击射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Escape_Artist"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Escape_Artist"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('逃脱艺术家')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '逃脱艺术家'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>逃脱艺术家</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>逃脱</u>时，往后跳的反方向倾泻<font color = FFFFFF> 100 </font>根箭矢。
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br>怪物只能吃到同一次技能内的1根箭矢</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Murder_Flock"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Murder_Flock"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('雾鸦群袭')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '雾鸦群袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>雾鸦群袭</b></font>
+      <br>
+      <br><font color = BBBBBB>当<u>磐石陷阱</u>爆炸后，召唤一只<font color=aqua>乌鸦</font>去啄击敌人。(上限2只)
+      <br>敌人在被攻击时会被失明<font color=white> 0.2秒</font>
+      <br>
+      <br>乌鸦索敌范围：<font color=white>18格</font>
+      <br>持续时间：<font color=white>12秒</font></font>
+      <br>
+      <br><font color=00AA00><b>陷阱射手 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Initiator"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Initiator"></span>  <img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('羽下藏锋')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '羽下藏锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>羽下藏锋</b></font>
+      <br>
+      <br><font color = BBBBBB>当连续<font color=WHITE> 4秒 </font>以上没有对敌人造成伤害时，下一次命中的攻击额外<font color=WHITE> +60% </font>伤害以及<font color=aqua> 专注值 +1 </font></font>
+      <br>
+      <br><font color=FF55FF><b>鹰眼射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
@@ -1850,7 +2249,7 @@ export default {
   //console.log('$refs.tooltip:', this.$refs.tooltip);
       if (event.clientX > window.innerWidth *0.58) {
         console.log('$refs.tooltip width:', this.$refs.tooltip);
-        this.tooltipLeft -= 330;
+        this.tooltipLeft -= 320;
         //const w = this.$refs.tooltip.$el.offsetWidth;
         //console.log('获取元素宽高', w);
       }

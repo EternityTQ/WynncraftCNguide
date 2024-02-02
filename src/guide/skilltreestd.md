@@ -164,4 +164,39 @@ icon: gamepad
       <br>随从的攻击无法给自身叠加专注值。
       <br>类似<u>箭雨滂沱</u>的技能，一旦有一根箭矢空箭了，就算作一次失误。</font>
     </div>
-    ```
+```
+
+战士：
+`<font color=RED>Fallen 腐化者</font>`
+
+`<font color=FFFF55>Battle Monk 武道士</font>`
+
+`<font color=18c7f0> Paladin 圣骑士</font>`
+
+法师：
+`<font color=18c7f0> Riftwalker 时空行者</font>`
+
+`<font color=WHITE> Light Bender 圣光使者</font>`
+
+`<font color="purple"> Arcanist 奥术法师</font>`
+
+弓手：
+`<font color=FFFF55> Boltslinger 闪击射手</font>`
+
+`<font color=00AA00>陷阱射手 </font>`
+
+`<font color=FF55FF> 鹰眼射手 </font>`
+
+刺客：
+`<font color=AA0000> Shadestepper 影步者 </font>`
+
+`<font color=FF55FF> Trickster 幻术师 </font>`
+
+`<font color=WHITE> Acrobat 身法刺 </font>`
+
+萨满：
+`<font color="orange"> Summoner 召唤师 </font>`
+
+`<font color=16d108> Ritualist 圣祭祀 </font>`
+
+`<font color="red"> Acolyte 血教徒 </font>`
