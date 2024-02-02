@@ -548,7 +548,7 @@
       <br><font color = BBBBBB>你的<u>普通攻击</u>将同时射出两发箭矢</font>
       <br><font color = BBBBBB>但每支箭矢的伤害将会降低<font color= RED>30%</font></font>
       <br>
-      <br><font color= FFCC00><b>闪击射手 分支</b></font>
+      <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
@@ -757,7 +757,7 @@
       <br><font color = BBBBBB>气属性伤害<font color= WHITE> +3-4</font></font>
       <br><font color = BBBBBB>气属性伤害<font color= WHITE> +15%</font></font>
       <br>
-      <br><font color= FFCC00><b>闪击射手 分支</b></font>
+      <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -779,7 +779,7 @@
       <br><font color = BBBBBB>电属性伤害<font color= WHITE> +1-8</font></font>
       <br><font color = BBBBBB>电属性伤害<font color= WHITE> +10%</font></font>
       <br>
-      <br><font color= FFCC00><b>闪击射手 分支</b></font>
+      <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
@@ -994,7 +994,7 @@
       <br>
       <br><font color = BBBBBB>你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color = RED>-20%</font></font>
       <br>
-      <br><font color= FFCC00><b>闪击射手 分支</b></font>
+      <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
@@ -1013,7 +1013,7 @@
       <br>
       <br><font color = BBBBBB>每攻击到一次敌人，叠加一层<font color=FFFFFF> 3%</font> 移动速度(上限70%)，每秒消退已叠加的<font color = white> 10% </font>的移动速度</font>
       <br>
-      <br><font color= FFCC00><b>闪击射手 分支</b></font>
+      <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -1067,7 +1067,7 @@
       <br>范围：<font color=WHITE> 6格</font>
       <br>持续时间：<font color=WHITE> 60秒</font>
       <br>
-      <br><font color= FFCC00><b>闪击射手 分支</b></font></font>
+      <br><font color= FFFF55><b>闪击射手 分支</b></font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -1086,7 +1086,7 @@
       <!-- 提示文本内容 -->
       <font color=FF5555><b>磐石陷阱</b></font>
       <br>
-      <br><font color = BBBBBB>使用<u>箭弹</u>击打到地面时，留下一个可以伤害到敌人的陷阱<font color=AQUA>陷阱</font>(至多2个)
+      <br><font color = BBBBBB>使用<u>箭弹</u>击打到地面时，留下一个可以伤害到敌人的<font color=AQUA>陷阱</font>(至多2个)
       <br>
       <br>触发范围：<font color=WHITE> 2格</font>
       <br>爆炸范围：<font color=WHITE> 7格</font>
@@ -1151,19 +1151,76 @@
 <tr>
 <td><img src="/assets/img/class/右下.png" width="40" height="40" >
 </td>
-<td><span id="Windstorm"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" lazyloaded"></div></div></div>
+<td><span id="Windstorm"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('风暴')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '风暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>风暴</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭雨</u>将额外射出<font color=white> +1 </font>道箭流，且每道箭流额外 <font color=white>+2 </font>支箭</font>
+    </div>
 </td>
 <td><div class="ability-tree-branch"><img alt="Branch 0" src="/assets/img/class/横线.png" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 0.png" data-image-key="Branch_0.png" data-relevant="0" data-src="/assets/img/class/横线.png" class=" lazyloaded"></div>
 </td>
-<td><span id="Cheaper_Arrow_Storm_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Cheaper_Arrow_Storm_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭雨减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭雨减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>箭雨减耗I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭雨</u>的技能消耗<font color = FFFFFF>-5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Implosion"></span><div class="advanced-tooltip ability-tree-icon-1 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 1" src="/assets/img/class/medium.png" decoding="async" loading="lazy" width="52" height="52" data-image-name="Ability 1.png" data-image-key="Ability_1.png" data-relevant="0" data-src="/assets/img/class/medium.png" class=" lazyloaded"></div></div></div>
+<td><span id="Implosion"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('内爆')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '内爆'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>内爆</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭弹</u>会将敌人拉向自己。如果周围有<font color=aqua>陷阱</font>，则会将怪物拉向<font color=aqua>陷阱</font>而不是自己
+      <br>
+      <br>额外增加<u>碎心</u>的伤害</font>
+      <br>
+      <br><font color= 00AA00><b>陷阱射手 分支</b></font> 
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="More_Shields"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="More_Shields"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('盾牌精修')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '盾牌精修'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>盾牌精修</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭盾</u>增加<font color = FFFFFF> 2 </font>次耐久
+      <br><u>守护天使</u>的小飞机数量<font color = FFFFFF> +2 </font>，同时降低伤害</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png" width="40" height="40" >
 </td></tr>
@@ -1176,24 +1233,105 @@
 </td>
 <td><img src="/assets/img/class/右下.png" width="40" height="40" >
 </td>
-<td><span id="Patient_Hunter"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Patient_Hunter"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('耐心的猎人')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '耐心的猎人'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>耐心的猎人</b></font>
+      <br>
+      <br><font color = BBBBBB>你的<font color=aqua>陷阱</font>在激活后，每秒 <font color=FFFFFF>+20% </font>伤害。(上限+100%)</font>
+      <br>
+      <br><font color= 00AA00><b>陷阱射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Grappling_Hook"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Grappling_Hook"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('抓钩')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '抓钩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>抓钩</b></font>
+      <br>
+      <br><font color = BBBBBB><u>逃脱</u>的功能转换为投掷出一个钩子，当钩子抓取到方块时，会将你快速拉向方块；当钩子抓取到怪物时，会将怪物拉向你。
+      <br>
+      <br>范围：<font color=white>30格</font>
+      <br>
+      <br><font color= 00AA00><b>陷阱射手 分支</b></font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Focus_I"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="More_Focus_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('更加专注')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '更加专注'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>更加专注</b></font>
+      <br>
+      <br><font color = BBBBBB><font color=aqua>专注值</font>的上限<font color = FFFFFF> +2 </font></font>
+    </div>
 </td></tr>
 <tr>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Stormy_Feet"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Stormy_Feet"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('风暴足')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '风暴足'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>风暴足</b></font>
+      <br>
+      <br><font color = BBBBBB><u>风行足</u>的持续时间及速度效果额外增加
+      <br>
+      <br>速度加成：<font color=white>+20%</font>
+      <br>持续时间：<font color=white>+60秒</font></font>
+      <br>
+      <br><font color= FFFF55><b>闪击射手 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Call_of_the_Hound"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Call_of_the_Hound"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('猎犬的呼唤')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '猎犬的呼唤'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>猎犬的呼唤</b></font>
+      <br>
+      <br><font color = BBBBBB>施放<u>箭盾</u>将召唤一只<font color=aqua>猎犬</font>，其会攻击敌人，并将敌人拉向你的陷阱
+      <br>
+      <br>猎犬索敌范围：<font color = white>18格</font>
+      <br>持续时间：<font color = white>60秒</font></font>
+      <br>
+      <br><font color= 00AA00><b>陷阱射手 分支</b></font>
+    </div>
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
@@ -1225,23 +1363,100 @@
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td></tr>
 <tr>
-<td><span id="Leap"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Leap"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('飞跃')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '飞跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>飞跃</b></font>
+      <br>
+      <br><font color = BBBBBB>在空中二段跳时，向前飞跃一段距离(2秒冷却)</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Traveler"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Traveler"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('旅行者')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '旅行者'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>旅行者</b></font>
+      <br>
+      <br><font color = BBBBBB>你每从装备及物品上获取<font color = FFFFFF> 1% </font>的移动速度，就<font color = FFFFFF> +1 </font>点技能伤害(上限+100)</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Bouncing_Bomb"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Bouncing_Bomb"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('弹跳炸弹')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '弹跳炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>弹跳炸弹</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭弹</u>攻击到敌人或击打到地面时，弹跳一次</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Ivyroot_Mamba"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Ivyroot_Mamba"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('蔓生毒蝰')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '蔓生毒蝰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>蔓生毒蝰</b></font>
+      <br>
+      <br><font color = BBBBBB><u>假根</u>在消失后将召唤<font color=aqua>猎蛇</font>，其会向敌人吐出虚弱毒液(召唤上限为1)
+      <br>被攻击到的敌人将被虚弱<font color=white> 1.5 </font>秒
+      <br>
+      <br>虚弱效果：<font color=white>攻击-15%</font>
+      <br>猎蛇索敌范围：<font color=white>12格</font>
+      <br>持续时间：<font color=white>18秒</font></font>
+      <br>
+      <br><font color= 00AA00><b>陷阱射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Twain's_Arc"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Twain's_Arc"></span> <img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('Twain的弧光')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === 'Twain的弧光'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>Twain的弧光</b></font>
+      <br>
+      <br><font color = BBBBBB>当你有<font color=aqua>2+ 层专注值</font>时，按住SHIFT将召唤Twain的弧光，充能来射出毁灭性的超远距离光波，
+      <br><font color=555555>(射出的光波视作<u>普通攻击</u>)</font>
+      <br>
+      <br>范围：<font color = white>64格</font></font>
+      <br>
+      <br><font color= FF55FF><b>鹰眼射手 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
@@ -1254,11 +1469,39 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Rocket_Jump"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Rocket_Jump"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('火箭飞跃')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '火箭飞跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>火箭飞跃</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭弹</u>的反冲力增加，同时其对自己造成的伤害降低至<font color = FFFFFF> 1% </font></font>
+    </div>
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Scorched_Earth"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Scorched_Earth"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('灼焦的地表')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '灼焦的地表'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>灼焦的地表</b></font>
+      <br>
+      <br><font color = BBBBBB><u>火焰轨迹</u>的伤害增加，持续时间增加<font color = FFFFFF> 2秒 </font>。</font>
+      <br>
+      <br><font color= FF55FF><b>鹰眼射手 分支</b></font>
+    </div>
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td></tr>
@@ -1269,7 +1512,22 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Traps"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="More_Traps"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('更多陷阱')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '更多陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>更多陷阱</b></font>
+      <br>
+      <br><font color = BBBBBB><font color = aqua>陷阱</font>的数量上限<font color=white>+2</font></font>
+      <br>
+      <br><font color= 00AA00><b>陷阱射手 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png" width="40" height="40" >
 </td>
