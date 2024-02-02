@@ -160,9 +160,6 @@ icon: gamepad
       <br>
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB><u>幻影射线</u>只需要命中一次敌人就不会丢失专注值。
-      <br><u>箭弹</u>必须要直接击打到敌人才不会丢失专注值。
-      <br>随从的攻击无法给自身叠加专注值。
-      <br>类似<u>箭雨滂沱</u>的技能，一旦有一根箭矢空箭了，就算作一次失误。</font>
     </div>
 ```
 
@@ -181,7 +178,7 @@ icon: gamepad
 `<font color="purple"> Arcanist 奥术法师</font>`
 
 弓手：
-`<font color=FFFF55> Boltslinger 闪击射手</font>`
+`<font color=FFFF55>闪击射手</font>`
 
 `<font color=00AA00>陷阱射手 </font>`
 

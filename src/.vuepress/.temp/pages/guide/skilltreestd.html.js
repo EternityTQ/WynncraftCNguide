@@ -1,4 +1,4 @@
-export const data = JSON.parse("{\"key\":\"v-b31428ce\",\"path\":\"/guide/skilltreestd.html\",\"title\":\"技能树填写格式转换快速复制\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"技能树填写格式转换快速复制\",\"icon\":\"gamepad\",\"description\":\"绿色能力点：58 小能力点：46 中能力点：52 大能力点：54 红能力点：54 ```md ``` ↓ ```md ``` ////////////////////////////////////////////// ```md ``` ↓ ```md ``` /////////////////////////////////////////////...\"},\"headers\":[],\"readingTime\":{\"minutes\":3.96,\"words\":1188},\"filePathRelative\":\"guide/skilltreestd.md\",\"autoDesc\":true}")
+export const data = JSON.parse("{\"key\":\"v-b31428ce\",\"path\":\"/guide/skilltreestd.html\",\"title\":\"技能树填写格式转换快速复制\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"技能树填写格式转换快速复制\",\"icon\":\"gamepad\",\"description\":\"绿色能力点：58 小能力点：46 中能力点：52 大能力点：54 红能力点：54 ```md ``` ↓ ```md ``` ////////////////////////////////////////////// ```md ``` ↓ ```md ``` /////////////////////////////////////////////...\"},\"headers\":[],\"readingTime\":{\"minutes\":3.73,\"words\":1118},\"filePathRelative\":\"guide/skilltreestd.md\",\"autoDesc\":true}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
