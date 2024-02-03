@@ -162,6 +162,22 @@ icon: gamepad
       <br><font color = BBBBBB><u>幻影射线</u>只需要命中一次敌人就不会丢失专注值。
     </div>
 ```
+<img src="/assets/img/class/small.png">
+
+白色
+
+<img src="/assets/img/class/medium.png">
+
+黄色
+
+<img src="/assets/img/class/large.png">
+
+粉色
+
+<img src="/assets/img/class/special.png">
+
+红色
+
 
 战士：
 `<font color=RED>Fallen 腐化者</font>`

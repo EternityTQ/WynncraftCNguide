@@ -527,9 +527,12 @@
 <p>请知悉！</p>
 <p>并且这里不会对倍率进行详细说明</p>
 </div>
-<h3 id="弓手-1" tabindex="-1"><a class="header-anchor" href="#弓手-1" aria-hidden="true">#</a> 弓手</h3>
-<Tabs id="968" :data='[{"id":"弓手"}]'>
+<Tabs id="965" :data='[{"id":"弓手"},{"id":"战士"},{"id":"法师"},{"id":"刺客"},{"id":"萨满"}]'>
 <template #title0="{ value, isActive }">弓手</template>
+<template #title1="{ value, isActive }">战士</template>
+<template #title2="{ value, isActive }">法师</template>
+<template #title3="{ value, isActive }">刺客</template>
+<template #title4="{ value, isActive }">萨满</template>
 <template #tab0="{ value, isActive }">
 <table class="ability-tree-table">
 <tbody><tr>
@@ -2431,7 +2434,10 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>空灵</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
+      <br><font color=BBBBBB>当你连续<font color=white> 4秒以上 </font>没有受到攻击时，免疫<u>箭弹</u>对自己造成的伤害，同时<u>箭雨</u>取消后坐力</font>
+      <br><font color=555555>(被闪避的攻击不视作被击中)</font>
+      <br>
+      <br><font color=FFFF55><b>闪击射手 分支</b></font>
     </div>
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
@@ -2449,23 +2455,2913 @@
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Geyser_Stomp"></span><img src="/assets/img/class/medium.png" width="52" height="52" >
+<td><span id="Geyser_Stomp"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('喷泉践踏')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '喷泉践踏'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>喷泉践踏</b></font>
+      <br>
+      <br><font color = BBBBBB><u>猛烈踹击</u>落地后形成喷泉，提升造成的伤害，同时击飞被命中的敌人
+      <br>
+      <br>伤害半径：</font>+1格
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Snow_Storm"></span><div class="advanced-tooltip ability-tree-icon-2 tooltips-init-complete"><div class="center"><div class="floatnone"><img alt="Ability 2" src="/assets/img/class/large.png" decoding="async" loading="lazy" width="58" height="58" data-image-name="Ability 2.png" data-image-key="Ability_2.png" data-relevant="0" data-src="/assets/img/class/large.png" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Snow_Storm"></span>  <img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('暴风雪')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '暴风雪'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>暴风雪</b></font>
+      <br>
+      <br><font color = BBBBBB>在你附近的敌人将受到减速效果</font>
+      <br>
+      <br><font color = BBBBBB>减速效果：<font color=white>+30%</font>
+      <br>范围：<font color = white>3格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Arrow_Bomb_II"></span><img src="/assets/img/class/small.png" width="46" height="46" >
+<td><span id="Cheaper_Arrow_Bomb_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭弹减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭弹减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>箭弹减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF>-5</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 </tbody></table>
+</template>
+<template #tab1="{ value, isActive }">
+<table class="ability-tree-table">
+<tbody><tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Bash"></span><img src="/assets/img/class/warrior_green.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Cheaper_Bash_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Spear_Proficiency_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Double_Bash"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Vehement"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Charge"></span><img src="/assets/img/class/warrior_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Tougher_Skin"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Uppercut"></span><img src="/assets/img/class/warrior_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Charge_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="War_Scream"></span><img src="/assets/img/class/warrior_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Heavy_Impact"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Earth_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Thunder_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/十字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Air_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Fire_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Water_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Quadruple_Bash"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Fireworks"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Flyby_Jab"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Flaming_Uppercut"></span><img src="/assets/img/class/medium.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Half-Moon_Swipe"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Iron_Lungs"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Generalist"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Air_Shout"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mantle_of_the_Bovemists"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Bak'al's_Grasp"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Spear_Proficiency_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Uppercut_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Aerodynamics"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Provoke"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Precise_Strikes"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Counter"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Manachism"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Enraged_Blow"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Flying_Kick"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Stronger_Mantle"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Sacred_Surge"></span><img src="/assets/img/class/large.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Riposte"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Intoxicating_Blood"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="ability-tree-branch"><img alt="Branch 6" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 6.png" data-image-key="Branch_6.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" class=" lazyloaded"></div>
+</td>
+<td><span id="Cheaper_War_Scream_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cleansing_Breeze"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Stronger_Bash"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Boiling_Blood"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Ragnarokkr"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Collide"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Rejuvenating_Skin"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Comet"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Uncontainable_Corruption"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Radiant_Devotee"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Whirlwind_Strike"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Mythril_Skin"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Armour_Breaker"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Shield_Strike"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Sparkling_Hope"></span><img src="/assets/img/class/large.png">
+</td></tr>
+<tr>
+<td><span id="Massive_Bash"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Tempest"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Spirit_of_the_Rabbit"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Massacre"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Axe_Kick"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Radiance"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Bash_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Cheaper_War_Scream_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Discombobulate"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cyclone"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Better_Enraged_Blow"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Thunderclap"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Second_Chance"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Blood_Pact"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Haemorrhage"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Brink_of_Madness"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Uppercut_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Martyr"></span><img src="/assets/img/class/medium.png">
+</td></tr>
+</tbody></table>
+</template>
+<template #tab2="{ value, isActive }">
+<table class="ability-tree-table">
+<tbody><tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Meteor"></span><img src="/assets/img/class/mage_green.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Wand_Proficiency_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Meteor_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Shooting_Star"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Wand_Proficiency_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Teleport"></span><img src="/assets/img/class/mage_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Wisdom"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Heal"></span><img src="/assets/img/class/mage_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Teleport_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Ice_Snake"></span><img src="/assets/img/class/mage_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Air_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Thunder_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><div class="ability-tree-branch"><img alt="Branch 7" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d3/Branch_7.png/revision/latest?cb=20220916215837" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 7.png" data-image-key="Branch_7.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d3/Branch_7.png/revision/latest?cb=20220916215837" class=" lazyloaded"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Fire_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Earth_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Water_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Wind_Slash"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Thunderstorm"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Burning_Sigil"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Sunshower"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Stronger_Meteor"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Windsweeper"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Ophanim"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Arcane_Transfer"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Cheaper_Heal_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Purification"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Sentient_Snake"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><span id="Eye_Piercer"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Breathless"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Larger_Heal"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Larger_Mana_Bank_I"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Cheaper_Ice_Snake_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Fortitude"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cheaper_Teleport_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Pyrokinesis"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Blink"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Healthier_Ophanim_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Snake_Nest"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Seance"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><span id="Transonic_Warp"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Fluid_Healing_(Mage)"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Orphion's_Pulse"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Arcane_Restoration"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Stronger_Ophanim"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Diffusion"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Lightweaver"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Arcane_Speed"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Larger_Mana_Bank_II"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><span id="More_Winded_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Psychokinesis"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Cheaper_Ice_Snake_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Explosive_Entrance"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cheaper_Meteor_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Chaos_Explosion"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td></tr>
+<tr>
+<td><span id="Time_Dilation"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Gust"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Better_Ophanim"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Arctic_Snake"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Stronger_Sunshower"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Arcane_Power"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="More_Winded_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Dynamic_Faith"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Healthier_Ophanim_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Larger_Mana_Bank_III"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Devitalize"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Divination"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Sunflare"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Better_Lightweaver"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div class="ability-tree-branch"><img alt="Branch 6" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 6.png" data-image-key="Branch_6.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" class=" ls-is-cached lazyloaded"></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Arcane_Overflow"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Timelock"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Heal_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Manastorm"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Memory_Recollection"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+</tbody></table>
+</template>
+<template #tab3="{ value, isActive }">
+<table class="ability-tree-table">
+<tbody><tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Spin_Attack"></span><img src="/assets/img/class/assassin_green.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Cheaper_Spin_Attack_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Dagger_Proficiency_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Double_Spin"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Poisoned_Blade"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Dash"></span><img src="/assets/img/class/assassin_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Double_Slice"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Smoke_Bomb"></span><img src="/assets/img/class/assassin_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Dash_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Multihit"></span><img src="/assets/img/class/assassin_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Earth_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Thunder_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="ability-tree-branch"><img alt="Branch 6" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 6.png" data-image-key="Branch_6.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" class=" lazyloaded"></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Water_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Air_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Fire_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Backstab"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Fatality"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Vanish"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Sticky_Bomb"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Righting_Reflex"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Surprise_Strike"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mirror_Image"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Lacerate"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Silent_Killer"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><span id="Last_Laugh"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Shenanigans"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Wall_of_Smoke"></span><img src="/assets/img/class/medium.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Psithurism"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Better_Smoke_Bomb"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Shadow_Travel"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cheaper_Multihit_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Dagger_Proficiency_II"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Bamboozle"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Distraction"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Cheaper_Smoke_Bomb_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Blazing_Powder"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Weightless"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Black_Hole"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Sandbagging"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Hop"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Flow_State"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td></tr>
+<tr>
+<td><span id="Violent_Vortex"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Delirious_Gas"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Stronger_Multihit"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Marked"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Echo"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Shurikens"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Far_Reach"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Dancing_Blade"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Ambush"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Death_Magnet"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Dash_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Parry"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Spin_Attack_II"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Nightcloak_Knife"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cheaper_Multihit_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Hoodwink"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Choke_Bomb"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Wall_Jump"></span><img src="/assets/img/class/medium.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Fatal_Spin"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Dissolution"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Pirouette"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Stronger_Lacerate"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Stronger_Vortex"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Harvester"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Smoke_Bomb_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Blade_Fury"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="More_Marks"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Stronger_Clones"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Ricochets"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Satsujin"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Forbidden_Art"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Jasmine_Bloom"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Diversion"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Better_Ricochets"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><span id="Devour"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Better_Marked"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Even_Stronger_Clones"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+</tbody></table>
+</template>
+<template #tab4="{ value, isActive }">
+<table class="ability-tree-table">
+<tbody><tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Totem"></span><img src="/assets/img/class/shaman_green.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Relik_Proficiency_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Totem_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Totemic_Smash"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Distant_Grasp"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Haul"></span><img src="/assets/img/class/shaman_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Hand_of_the_Shaman"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Uproot"></span><img src="/assets/img/class/shaman_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Cheaper_Haul_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Aura"></span><img src="/assets/img/class/shaman_green.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Earth_Mastery_(Shaman)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Air_Mastery_(Shaman)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/十字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Thunder_Mastery_(Shaman)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Fire_Mastery_(Shaman)"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Nature's_Jolt"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Water_Mastery_(Shaman)"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Shocking_Aura"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Flaming_Tongue"></span><img src="/assets/img/class/medium.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Overseer"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Rain_Dance"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Puppet_Master"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mask_of_the_Lunatic"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Sacrificial_Shrine"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><span id="Stagnation"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cheaper_Aura_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cheaper_Uproot_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Rebound"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="More_Puppets_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Haunting_Memory"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Better_Totem"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Blood_Connection"></span><img src="/assets/img/class/medium.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Exploding_Puppets"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Hymn_of_Hate"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="More_Blood_Pool_I"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><span id="Bullwhip"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="More_Puppets_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mask_of_the_Fanatic"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Vengeful_Spirit"></span><img src="/assets/img/class/medium.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Masquerade"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><span id="Double_Totem"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Cheaper_Totem_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Storm_Dance"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Blood_Moon"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Regeneration"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Cheaper_Haul_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Cheaper_Aura_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Totemic_Shatter"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Twisted_Tether"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Stronger_Totem"></span><img src="/assets/img/class/small.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><span id="Depersonalization"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Crimson_Effigy"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mask_of_the_Coward"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Fluid_Healing_(Shaman)"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="More_Blood_Pool_II"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><span id="Maddening_Roots"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Chant_of_the_Coward"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Blood_Rite"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="More_Effigies"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Chant_of_the_Fanatic"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Stronger_Tether"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td></tr>
+<tr>
+<td><span id="Triple_Totem"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
+</td>
+<td><span id="Invigorating_Wave"></span><img src="/assets/img/class/large.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Seeking_Totem"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="Frog_Dance"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><img src="/assets/img/class/右下.png">
+</td>
+<td><span id="More_Blood_Pool_III"></span><img src="/assets/img/class/small.png">
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Shepherd"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/左下.png">
+</td>
+<td><span id="Chant_of_the_Lunatic"></span><img src="/assets/img/class/medium.png">
+</td>
+<td><img src="/assets/img/class/竖线.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Blood_Sorrow"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr>
+<tr>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><span id="Cheaper_Uproot_II"></span><img src="/assets/img/class/small.png">
+</td>
+<td><img src="/assets/img/class/横线.png">
+</td>
+<td><span id="Awakened"></span><img src="/assets/img/class/large.png">
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td>
+<td><div style="width: 36px; height: 36px;"></div>
+</td></tr></tbody></table>
 </template>
 </Tabs>
 </div></template>
