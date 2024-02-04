@@ -1,4 +1,5 @@
-<template><div><div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span>
+<template><div><p>1</p>
+<div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span>
       <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/assets/img/class/archer_green.png<span class="token punctuation">"</span></span>
       <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Your Image<span class="token punctuation">"</span></span>
       <span class="token attr-name">@mouseover</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>showTooltip('箭弹')<span class="token punctuation">"</span></span>
@@ -10,8 +11,8 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">v-if</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>isTooltipVisible &amp;&amp; currentTooltip === '箭弹'<span class="token punctuation">"</span></span> <span class="token attr-name">ref</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tooltip<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>tooltip<span class="token punctuation">"</span></span> <span class="token attr-name">:style</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
       <span class="token comment">&lt;!-- 提示文本内容 --></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#00BB00<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>b</span><span class="token punctuation">></span></span>箭弹<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>b</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span>
-      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>ORANGE<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>使用连招：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>#FF55FF<span class="token punctuation">"</span></span><span class="token punctuation">></span></span> 左键 - 右键 - 右键<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span>
+      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span> BBBBBB</span><span class="token punctuation">></span></span>射出一支远距离的箭矢，其命中后会爆炸，并在大范围内造成伤害。<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span> 555555</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>(并对自己造成爆炸伤害10%的伤害)<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span> BBBBBB</span><span class="token punctuation">></span></span>蓝耗：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>white</span><span class="token punctuation">></span></span>45<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span>
@@ -95,25 +96,25 @@
 <img src="/assets/img/class/special.png">
 <p>红色</p>
 <p>战士：<br>
-<code v-pre>&lt;font color=RED&gt;Fallen 腐化者&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=FFFF55&gt;Battle Monk 武道士&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=18c7f0&gt; Paladin 圣骑士&lt;/font&gt;</code></p>
+<code v-pre>&lt;font color=RED&lt;b&gt;腐化者&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=FFFF55&gt;&lt;b&gt;武道士&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=18c7f0&gt;&lt;b&gt;圣骑士&lt;/font&gt;</code></p>
 <p>法师：<br>
-<code v-pre>&lt;font color=18c7f0&gt; Riftwalker 时空行者&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=WHITE&gt; Light Bender 圣光使者&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=&quot;purple&quot;&gt; Arcanist 奥术法师&lt;/font&gt;</code></p>
+<code v-pre>&lt;font color=55FFFF&gt;&lt;b&gt;时空行者 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=WHITE&gt;&lt;b&gt;圣光使者 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=AA00AA&gt;&lt;b&gt;奥术法师 分支&lt;/b&gt;&lt;/font&gt;</code></p>
 <p>弓手：<br>
-<code v-pre>&lt;font color=FFFF55&gt;闪击射手&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=00AA00&gt;陷阱射手 &lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=FF55FF&gt; 鹰眼射手 &lt;/font&gt;</code></p>
+<code v-pre>&lt;font color=FFFF55&gt;&lt;b&gt;闪击射手 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=00AA00&gt;&lt;b&gt;陷阱射手 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=FF55FF&gt;&lt;b&gt;鹰眼射手 分支&lt;/b&gt;&lt;/font&gt;</code></p>
 <p>刺客：<br>
-<code v-pre>&lt;font color=AA0000&gt; Shadestepper 影步者 &lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=FF55FF&gt; Trickster 幻术师 &lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=WHITE&gt; Acrobat 身法刺 &lt;/font&gt;</code></p>
+<code v-pre>&lt;font color=AA0000&gt;&lt;b&gt;影步者 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=FF55FF&gt;&lt;b&gt;幻术师 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=WHITE&gt;&lt;b&gt;身法刺 分支&lt;/b&gt;&lt;/font&gt;</code></p>
 <p>萨满：<br>
-<code v-pre>&lt;font color=&quot;orange&quot;&gt; Summoner 召唤师 &lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=16d108&gt; Ritualist 圣祭祀 &lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=&quot;red&quot;&gt; Acolyte 血教徒 &lt;/font&gt;</code></p>
+<code v-pre>&lt;font color=&quot;orange&quot;&gt;&lt;b&gt;召唤师 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=16d108&gt;&lt;b&gt;圣祭祀 分支&lt;/b&gt;&lt;/font&gt;</code></p>
+<p><code v-pre>&lt;font color=&quot;red&quot;&gt;&lt;b&gt;Acolyte 血教徒 分支&lt;/b&gt;&lt;/font&gt;</code></p>
 </div></template>
 
 

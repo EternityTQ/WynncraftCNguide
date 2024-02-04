@@ -2,7 +2,7 @@
 title: 技能树填写格式转换快速复制
 icon: gamepad
 ---
-
+1
 
 ```vue
 <img
@@ -17,8 +17,8 @@ icon: gamepad
     <div v-if="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="#00BB00"><b>箭弹</b></font>
-      <br>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 右键</font>
+      <br>
       <br><font color = BBBBBB>射出一支远距离的箭矢，其命中后会爆炸，并在大范围内造成伤害。</font><font color = 555555><br>(并对自己造成爆炸伤害10%的伤害)</font>
       <br>
       <br><font color = BBBBBB>蓝耗：<font color=white>45</font>
@@ -126,36 +126,36 @@ icon: gamepad
 
 
 战士：
-`<font color=RED>Fallen 腐化者</font>`
+`<font color=RED<b>腐化者</font>`
 
-`<font color=FFFF55>Battle Monk 武道士</font>`
+`<font color=FFFF55><b>武道士</font>`
 
-`<font color=18c7f0> Paladin 圣骑士</font>`
+`<font color=18c7f0><b>圣骑士</font>`
 
 法师：
-`<font color=18c7f0> Riftwalker 时空行者</font>`
+`<font color=55FFFF><b>时空行者 分支</b></font>`
 
-`<font color=WHITE> Light Bender 圣光使者</font>`
+`<font color=WHITE><b>圣光使者 分支</b></font>`
 
-`<font color="purple"> Arcanist 奥术法师</font>`
+`<font color=AA00AA><b>奥术法师 分支</b></font>`
 
 弓手：
-`<font color=FFFF55>闪击射手</font>`
+`<font color=FFFF55><b>闪击射手 分支</b></font>`
 
-`<font color=00AA00>陷阱射手 </font>`
+`<font color=00AA00><b>陷阱射手 分支</b></font>`
 
-`<font color=FF55FF> 鹰眼射手 </font>`
+`<font color=FF55FF><b>鹰眼射手 分支</b></font>`
 
 刺客：
-`<font color=AA0000> Shadestepper 影步者 </font>`
+`<font color=AA0000><b>影步者 分支</b></font>`
 
-`<font color=FF55FF> Trickster 幻术师 </font>`
+`<font color=FF55FF><b>幻术师 分支</b></font>`
 
-`<font color=WHITE> Acrobat 身法刺 </font>`
+`<font color=WHITE><b>身法刺 分支</b></font>`
 
 萨满：
-`<font color="orange"> Summoner 召唤师 </font>`
+`<font color="orange"><b>召唤师 分支</b></font>`
 
-`<font color=16d108> Ritualist 圣祭祀 </font>`
+`<font color=16d108><b>圣祭祀 分支</b></font>`
 
-`<font color="red"> Acolyte 血教徒 </font>`
+`<font color="red"><b>Acolyte 血教徒 分支</b></font>`

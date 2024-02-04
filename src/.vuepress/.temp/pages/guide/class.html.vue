@@ -3216,7 +3216,26 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Meteor"></span><img src="/assets/img/class/mage_green.png">
+<td><span id="Meteor"></span><img
+      src="/assets/img/class/mage_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('箭弹')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>陨石</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
+      <br>
+      <br><font color = BBBBBB>召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>50</font>
+      <br>召唤范围：<font color=white>18格</font>
+      <br>爆炸范围：<font color=white>5格</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3254,11 +3273,39 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Wand_Proficiency_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Wand_Proficiency_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('法杖熟稔1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '法杖熟稔1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>法杖熟稔 I</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<u>普通攻击</u>的伤害及攻击范围
+      <br>
+      <br>攻击范围：</font>+2格
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Meteor_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Meteor_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('陨石减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '陨石减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>陨石减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -10</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3292,7 +3339,20 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shooting_Star"></span><img src="/assets/img/class/medium.png">
+<td><span id="Shooting_Star"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('流星')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '流星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>流星</b></font>
+      <br>
+      <br><font color = BBBBBB>大幅度增加<u>陨石</u>的下落速度</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3326,15 +3386,65 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Wand_Proficiency_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Wand_Proficiency_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('法杖熟稔2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '法杖熟稔2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>法杖熟稔 II</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<u>普通攻击</u>的伤害及攻击范围
+      <br>
+      <br>攻击范围：</font>+2格
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Teleport"></span><img src="/assets/img/class/mage_green.png">
+<td><span id="Teleport"></span><img
+      src="/assets/img/class/mage_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('传送')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '传送'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>传送</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 右键</font>
+      <br>
+      <br><font color = BBBBBB>向前方快速位移一段距离</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>25</font>
+      <br>范围：<font color=white>16格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Wisdom"></span><img src="/assets/img/class/small.png">
+<td><span id="Wisdom"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('智慧')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '智慧'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>智慧</b></font>
+      <br>
+      <br><font color = BBBBBB>你每从装备或物品上得到<font color = FFFFFF> 2% </font>或<font color = FFFFFF> 2点 </font>法术伤害加成，就额外增加<font color = FFFFFF> 1/5s </font>法力回复(上限5/5s)</font>
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
