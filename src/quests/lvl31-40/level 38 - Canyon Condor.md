@@ -1,4 +1,7 @@
-# Canyon Condor (level 38)
+---
+title: Canyon Condor (level 38)
+icon: route
+---
 <span style="font-size: 25px;">**峡谷秃鹫**</span>~~(鹰？？？？？)~~
 
 >杀鸡任务，多少人被一只鸡杀了
