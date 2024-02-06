@@ -23,7 +23,7 @@ icon: coins
 
 ![](/assets/img/earnle1.jpg)
 
-这个地方的海底会刷新很多杂物，可以将它们带到Selchar的商人处`[110，66，-315]`出售
+这个地方的海底会刷新很多杂物(宝藏)，可以将它们带到Selchar的宝藏商人`[107，66，-3158]`出售
 
 ![](/assets/img/earnle2.jpg)
 
@@ -35,7 +35,7 @@ icon: coins
 :::tip
 高价值的杂物其实都有固定的刷新点位，建议自行探索
 
-同时，强烈建议读者做完[Underwater ( level 8 )](/quests/lvl1-10/level%208%20%20-%20Underwater.html)或者[Underice(level 43)](/quests/lvl41-50/level%2043%20-%20Underice.html)之后，佩戴潜水头盔再进行海底捞，效率会高很多！
+同时，强烈建议读者做完[Underwater ( level 8 )](/quests/lvl1-10/level%208%20%20-%20Underwater.html)或者[Underice(level 43)](/quests/lvl41-50/level%2043%20-%20Underice.html)之后，佩戴任务中获得的潜水头盔再进行海底捞，可以减少换气时间，效率会高很多！
 :::
 
 ## 任务

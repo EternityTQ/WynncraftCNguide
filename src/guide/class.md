@@ -922,19 +922,16 @@ icon: hat-wizard
 <td><span id="Air_Mastery_(Archer)"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('气属性精通')"
+      @mouseover="showTooltip('气元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '气属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '气元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="FFFFFF"><b>气属性精通</b></font>
+      <font color="FFFFFF"><b>气元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有气属性的伤害</font>
-      <br>
-      <br><font color = BBBBBB>气属性伤害<font color= WHITE> +3-4</font></font>
-      <br><font color = BBBBBB>气属性伤害<font color= WHITE> +15%</font></font>
       <br>
       <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
@@ -944,19 +941,16 @@ icon: hat-wizard
 <td><span id="Thunder_Mastery_(Archer)"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('电属性精通')"
+      @mouseover="showTooltip('电元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '电属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '电元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="FFFFFF"><b>电属性精通</b></font>
+      <font color="FFFFFF"><b>电元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有电属性的伤害</font>
-      <br>
-      <br><font color = BBBBBB>电属性伤害<font color= WHITE> +1-8</font></font>
-      <br><font color = BBBBBB>电属性伤害<font color= WHITE> +10%</font></font>
       <br>
       <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
@@ -970,19 +964,16 @@ icon: hat-wizard
 <td><span id="Fire_Mastery_(Archer)"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('火属性精通')"
+      @mouseover="showTooltip('火元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '火属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '火元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="FFFFFF"><b>火属性精通</b></font>
+      <font color="FFFFFF"><b>火元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有火属性的伤害</font>
-      <br>
-      <br><font color = BBBBBB>火属性伤害<font color= WHITE> +3-5</font></font>
-      <br><font color = BBBBBB>火属性伤害<font color= WHITE> +15%</font></font>
       <br>
       <br><font color= FF55FF><b>鹰眼射手 分支</b></font>
     </div>
@@ -992,19 +983,16 @@ icon: hat-wizard
 <td><span id="Water_Mastery_(Archer)"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('水属性精通')"
+      @mouseover="showTooltip('水元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '水属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '水元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="FFFFFF"><b>水属性精通</b></font>
+      <font color="FFFFFF"><b>水元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有水属性的伤害</font>
-      <br>
-      <br><font color = BBBBBB>水属性伤害<font color= WHITE> +2-4</font></font>
-      <br><font color = BBBBBB>水属性伤害<font color= WHITE> +15%</font></font>
       <br>
       <br><font color= FF55FF><b>鹰眼射手 分支</b></font>
     </div>
@@ -1021,19 +1009,16 @@ icon: hat-wizard
 <td><span id="Earth_Mastery_(Archer)"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('地属性精通')"
+      @mouseover="showTooltip('地元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '地属性精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '地元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="FFFFFF"><b>地属性精通</b></font>
+      <font color="FFFFFF"><b>地元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有地属性的伤害</font>
-      <br>
-      <br><font color = BBBBBB>地属性伤害<font color= WHITE> +2-4</font></font>
-      <br><font color = BBBBBB>地属性伤害<font color= WHITE> +20%</font></font>
       <br>
       <br><font color= 00AA00><b>陷阱射手 分支</b></font>
     </div>
@@ -3477,15 +3462,68 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Heal"></span><img src="/assets/img/class/mage_green.png">
+<td><span id="Heal"></span><img
+      src="/assets/img/class/mage_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('治疗')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '治疗'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>治疗</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 右键</font>
+      <br>
+      <br><font color = BBBBBB>对大范围内的友军及自己进行治疗</font><font color = 555555><br>(治疗其他人时，单次至多恢复其生命值上限的30%)</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>35</font>
+      <br>治疗效果：<font color=white>15%</font><font color = 555555>(你的最大生命值)</font>
+      <br>治疗范围：<font color=white>5格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Teleport_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Teleport_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('传送减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '传送减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>传送减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>传送</u>的技能消耗<font color = FFFFFF>-5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Ice_Snake"></span><img src="/assets/img/class/mage_green.png">
+<td><span id="Ice_Snake"></span><img
+      src="/assets/img/class/mage_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冰蛇')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冰蛇'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>冰蛇</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 左键</font>
+      <br>
+      <br><font color = BBBBBB>召唤一条快速移动的冰蛇来对敌人造成伤害，并造成减速效果。</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>30</font>
+      <br>范围：<font color=white>18格</font>
+      <br>伤害范围：<font color=white>2格</font>
+      <br>减速效果：<font color=white>+40%</font>
+      <br>持续时间：<font color=white>3秒</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
@@ -3530,7 +3568,20 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Air_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+<td><span id="Air_Mastery_(Mage)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('气元素精通_法师')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '气元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>气元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有气属性的伤害</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
