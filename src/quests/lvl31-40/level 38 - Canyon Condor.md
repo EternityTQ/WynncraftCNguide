@@ -10,7 +10,7 @@ icon: route
 
 2.和<font color=00AA00>**Jankan**</font>`[1434 31 -1360]`说话
 
-3.在<font color=00AA00>**Jankan**</font>旁边的洞穴里走到最深处带回[5 Gold chunks](在Jankan旁边的洞穴里 有岔路注意 **需要跑酷**)给<font color=00AA00>**Jankan**</font>
+3.在<font color=00AA00>**Jankan**</font>旁边的洞穴里走到最深处带回`5 Gold chunks`给<font color=00AA00>**Jankan**</font>
 
 4.和<font color=00AA00>**Hermit**</font>`[1153 92 -1586]`说话
 

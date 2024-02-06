@@ -4,7 +4,7 @@
 </blockquote>
 <p>1.和<strong>Rymek</strong>镇的<font color=00AA00><strong>Svin</strong></font><code v-pre>[1352 30 -1300]</code>对话</p>
 <p>2.和<font color=00AA00><strong>Jankan</strong></font><code v-pre>[1434 31 -1360]</code>说话</p>
-<p>3.在<font color=00AA00><strong>Jankan</strong></font>旁边的洞穴里走到最深处带回[5 Gold chunks](在Jankan旁边的洞穴里 有岔路注意 <strong>需要跑酷</strong>)给<font color=00AA00><strong>Jankan</strong></font></p>
+<p>3.在<font color=00AA00><strong>Jankan</strong></font>旁边的洞穴里走到最深处带回<code v-pre>5 Gold chunks</code>给<font color=00AA00><strong>Jankan</strong></font></p>
 <p>4.和<font color=00AA00><strong>Hermit</strong></font><code v-pre>[1153 92 -1586]</code>说话</p>
 <p>5.带回 <code v-pre>Rare Rose</code> <code v-pre>[1055 112 -1683]</code>给<font color=00AA00><strong>Hermit</strong></font></p>
 <p>6.从<font color=00AA00><strong>Hermit</strong></font>身后的桥一直向前走，走到一个岛上，岛和桥的对角上有座有坑的木桥，过桥是一个小岛，上面有很多战斗力很强的鸡(其实是老鹰……)，其中就有boss：Cockatrice<code v-pre>[1381 108 -1347]</code>。战胜Cockatrice然后带回掉落物<code v-pre>Beast Egg</code>给<font color=00AA00><strong>Svin</strong></font>。</p>
