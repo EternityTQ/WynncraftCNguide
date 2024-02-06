@@ -11,14 +11,16 @@ icon: hat-wizard
 ## 职业
 首先，先强调一个观点：对于新手而言，所有职业都值得一试
 
-每一个职业都有不同的闪光点，非常建议之后将每个职业都体验一遍
+尽管对于新手来说，职业有上手难易之分
+
+但是每一个职业都有不同的闪光点，非常建议之后将每个职业都体验一遍
 
 这里首先先简单~~主观~~地讲解一下每个职业的基础特点
 
 ::: tabs
 
 @tab 战士
-战士相当于肉盾角色，对于伤害而言，战士的伤害可能不是很可观
+战士相当于肉盾角色，对于伤害而言，战士的基础伤害可能不是很可观
 
 但是战士的基础防御补正是所有职业中最高的，同时拥有一定的辅助能力
 
@@ -36,7 +38,7 @@ icon: hat-wizard
 
 并且法师前中后期都能玩的非常舒服，突出一个平稳发育
 
-是一个非常适合入坑首选的职业
+**是一个非常适合入坑首选的职业**
 
 
 @tab 弓手
@@ -54,7 +56,7 @@ icon: hat-wizard
 
 刺客的技能树设计的十分割裂，左线几乎全部围绕隐身后破隐背刺秒杀敌人而设计，中间则完全依赖于破隐召唤的分身，右线完全抛弃隐身的能力，通过在敌人头上“跳舞”打出不俗的输出。
 
-当前版本的刺客，对于新玩家来说是一个弱势角色，在缺乏续航能力的同时，相同坦度下输出不如战士，相同输出能力下生存环境不如弓箭手，前期和后期游玩体验都比较差，但因为有一把——
+当前版本的刺客，**对于新玩家来说是一个弱势角色**，在缺乏续航能力的同时，相同坦度下输出不如战士，相同输出能力下生存环境不如弓箭手，前期和后期游玩体验都比较差，但因为有一把——
 
 ***神话品质的，传说中的，万众瞩目的，公会战战唯一指定输出的，不祥的，数据完全不符合游戏内其他武器设计曲线的，总之就是非常超模的***
 
@@ -164,7 +166,7 @@ icon: hat-wizard
 
 + Cleansing Breeze：净化负面状态
 
-+ Mythril Skin：不会被击退（tna的boss aoe无效）
++ Mythril Skin：不会被击退
 
 + Radiance：范围增强友方装备的全部增益词条
 
@@ -248,7 +250,7 @@ icon: hat-wizard
 ### 弓手
 :::tabs
 @tab <font color="FFCC00"> Boltslinger 闪击射手</font>
-闪击射手可以在近距离打出成吨的伤害
+闪击射手可以在中短距离内打出成吨的伤害
 
 闪击射手主要依赖箭雨进行输出，可以轻易地打出非常高的伤害
 
@@ -261,20 +263,20 @@ icon: hat-wizard
 **重要技能点：**
 + Guradian Angels：将剑盾转化为召唤数个守护天使，守护天使会自动攻击周围的怪物，有一定攻击次数限制
 
-+ Windstorm：箭暴将额外射出1道箭流，每道箭流+2额外箭矢数量
++ Windstorm：箭雨将额外射出1道箭流，每道箭流+2额外箭矢数量
 
-+ Arrow Hurricane：箭暴将额外射出2道箭流
++ Arrow Hurricane：箭雨将额外射出2道箭流
 
 + Elusive：在持续4秒没受到攻击后，箭暴将取消后坐力
 
 @tab <font color=00AA00>Trapper 陷阱射手 </font>
-设陷者并不对自身的箭暴进行提升，而是提升炸弹箭的属性，并且能在炸弹箭的落点处放置地雷对目标再度造成伤害
+陷阱射手并不对自身的箭雨进行提升，而是提升炸弹箭的属性，并且能在炸弹箭的落点处放置地雷对目标再度造成伤害
 
-设陷者也可以将自身后跳能力转化为抓钩，这是一个更适合设陷者技能树的位移技能
+陷阱射手也可以将自身后跳能力转化为抓钩，这是一个更适合设陷者技能树的位移技能
 
-版本更新后，设陷者的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼
+版本更新后，陷阱射手的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼
 
-设陷者的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出
+陷阱射手的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出
 
 **重要技能点：**
 + Byrophyte Roots：箭暴对怪物造成伤害时会造成减速aoe
@@ -501,21 +503,6 @@ icon: hat-wizard
 一旦离开安全区域或下线，你的技能树将会锁定，无法再进行右键撤回的操作
 
 ## 技能树翻译
-:::details 模板
-<img
-      src="/assets/img/class/archer_green.png"
-      alt="Your Image"
-      @mouseover="showTooltip('技能名字')"
-      @mousemove="updateTooltipPosition"
-      @mouseleave="hideTooltip"
-      class="t48"
-    />
-    <div v-if="isTooltipVisible && currentTooltip === '技能名字'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>技能名字</b></font>
-      <br><font color = BBBBBB>技能介绍介绍介绍</font>
-    </div>
-:::
 
 :::tip
 此页面专为电脑端设计！
@@ -630,7 +617,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>箭弹减耗I</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF>-10</font></font>
+      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF> -10</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -834,7 +821,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>逃脱减耗I</b></font>
       <br>
-      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF>-5</font></font>
+      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >

@@ -5,16 +5,17 @@
 </div>
 <h2 id="职业" tabindex="-1"><a class="header-anchor" href="#职业" aria-hidden="true">#</a> 职业</h2>
 <p>首先，先强调一个观点：对于新手而言，所有职业都值得一试</p>
-<p>每一个职业都有不同的闪光点，非常建议之后将每个职业都体验一遍</p>
+<p>尽管对于新手来说，职业有上手难易之分</p>
+<p>但是每一个职业都有不同的闪光点，非常建议之后将每个职业都体验一遍</p>
 <p>这里首先先简单<s>主观</s>地讲解一下每个职业的基础特点</p>
-<Tabs id="20" :data='[{"id":"战士"},{"id":"法师"},{"id":"弓手"},{"id":"刺客"},{"id":"萨满"}]'>
+<Tabs id="23" :data='[{"id":"战士"},{"id":"法师"},{"id":"弓手"},{"id":"刺客"},{"id":"萨满"}]'>
 <template #title0="{ value, isActive }">战士</template>
 <template #title1="{ value, isActive }">法师</template>
 <template #title2="{ value, isActive }">弓手</template>
 <template #title3="{ value, isActive }">刺客</template>
 <template #title4="{ value, isActive }">萨满</template>
 <template #tab0="{ value, isActive }">
-<p>战士相当于肉盾角色，对于伤害而言，战士的伤害可能不是很可观</p>
+<p>战士相当于肉盾角色，对于伤害而言，战士的基础伤害可能不是很可观</p>
 <p>但是战士的基础防御补正是所有职业中最高的，同时拥有一定的辅助能力</p>
 <p>虽然话是这么说，但前期一般不需要肉盾，而且前期的装备也不足以当肉盾</p>
 <p>导致战士前期的练级体验有点尴尬，要肉没肉要打不能打..</p>
@@ -25,7 +26,7 @@
 <p>法师拥有五个职业中最舒服的治疗(另外一个是萨满)，其属于远程职业，手够长</p>
 <p>法师的主要战斗方式为召唤陨石对敌人进行轰炸</p>
 <p>并且法师前中后期都能玩的非常舒服，突出一个平稳发育</p>
-<p>是一个非常适合入坑首选的职业</p>
+<p><strong>是一个非常适合入坑首选的职业</strong></p>
 <p></p>
 </template>
 <template #tab2="{ value, isActive }">
@@ -38,7 +39,7 @@
 <template #tab3="{ value, isActive }">
 <p>刺客是一个独具特色的职业，拥有全游戏独一无二的隐身机制，但也受限于自身机制，被游戏策划卡死了上限。</p>
 <p>刺客的技能树设计的十分割裂，左线几乎全部围绕隐身后破隐背刺秒杀敌人而设计，中间则完全依赖于破隐召唤的分身，右线完全抛弃隐身的能力，通过在敌人头上“跳舞”打出不俗的输出。</p>
-<p>当前版本的刺客，对于新玩家来说是一个弱势角色，在缺乏续航能力的同时，相同坦度下输出不如战士，相同输出能力下生存环境不如弓箭手，前期和后期游玩体验都比较差，但因为有一把——</p>
+<p>当前版本的刺客，<strong>对于新玩家来说是一个弱势角色</strong>，在缺乏续航能力的同时，相同坦度下输出不如战士，相同输出能力下生存环境不如弓箭手，前期和后期游玩体验都比较差，但因为有一把——</p>
 <p><em><strong>神话品质的，传说中的，万众瞩目的，公会战战唯一指定输出的，不祥的，数据完全不符合游戏内其他武器设计曲线的，总之就是非常超模的</strong></em></p>
 <p>终极武器存在，刺客的上限依旧不低。</p>
 <p><s>也就因此刺客的强度是断层的，此处必须说是游戏策划设计不合理——编者注</s></p>
@@ -65,7 +66,7 @@
 <p>总之就是非常重要！</p>
 </div>
 <h3 id="战士" tabindex="-1"><a class="header-anchor" href="#战士" aria-hidden="true">#</a> 战士</h3>
-<Tabs id="141" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
+<Tabs id="144" :data='[{"id":"<font color=\"red\">Fallen 腐化者</font>"},{"id":"<font color=\"orange\">Battle Monk 武道士</font>"},{"id":"<font color=18c7f0> Paladin 圣骑士</font>"}]'>
 <template #title0="{ value, isActive }"><font color="red">Fallen 腐化者</font></template>
 <template #title1="{ value, isActive }"><font color="orange">Battle Monk 武道士</font></template>
 <template #title2="{ value, isActive }"><font color=18c7f0> Paladin 圣骑士</font></template>
@@ -145,7 +146,7 @@
 <p>Cleansing Breeze：净化负面状态</p>
 </li>
 <li>
-<p>Mythril Skin：不会被击退（tna的boss aoe无效）</p>
+<p>Mythril Skin：不会被击退</p>
 </li>
 <li>
 <p>Radiance：范围增强友方装备的全部增益词条</p>
@@ -160,7 +161,7 @@
 </template>
 </Tabs>
 <h3 id="法师" tabindex="-1"><a class="header-anchor" href="#法师" aria-hidden="true">#</a> 法师</h3>
-<Tabs id="309" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
+<Tabs id="312" :data='[{"id":"<font color=18c7f0> Riftwalker 时空行者</font>"},{"id":"<font color=\"grey\"> Light Bender 圣光使者</font>"},{"id":"<font color=\"purple\"> Arcanist 奥术法师</font>"}]'>
 <template #title0="{ value, isActive }"><font color=18c7f0> Riftwalker 时空行者</font></template>
 <template #title1="{ value, isActive }"><font color="grey"> Light Bender 圣光使者</font></template>
 <template #title2="{ value, isActive }"><font color="purple"> Arcanist 奥术法师</font></template>
@@ -241,12 +242,12 @@
 </template>
 </Tabs>
 <h3 id="弓手" tabindex="-1"><a class="header-anchor" href="#弓手" aria-hidden="true">#</a> 弓手</h3>
-<Tabs id="455" :data='[{"id":"<font color=\"FFCC00\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
+<Tabs id="458" :data='[{"id":"<font color=\"FFCC00\"> Boltslinger 闪击射手</font>"},{"id":"<font color=00AA00>Trapper 陷阱射手 </font>"},{"id":"<font color=FF55FF> Sharpshooter 鹰眼射手 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="FFCC00"> Boltslinger 闪击射手</font></template>
 <template #title1="{ value, isActive }"><font color=00AA00>Trapper 陷阱射手 </font></template>
 <template #title2="{ value, isActive }"><font color=FF55FF> Sharpshooter 鹰眼射手 </font></template>
 <template #tab0="{ value, isActive }">
-<p>闪击射手可以在近距离打出成吨的伤害</p>
+<p>闪击射手可以在中短距离内打出成吨的伤害</p>
 <p>闪击射手主要依赖箭雨进行输出，可以轻易地打出非常高的伤害</p>
 <p>其还具有速度加成，因此相当灵活</p>
 <p>需要注意的是，在没有点出Elusive之前，箭雨拥有非常大的后坐力，需要小心！</p>
@@ -257,10 +258,10 @@
 <p>Guradian Angels：将剑盾转化为召唤数个守护天使，守护天使会自动攻击周围的怪物，有一定攻击次数限制</p>
 </li>
 <li>
-<p>Windstorm：箭暴将额外射出1道箭流，每道箭流+2额外箭矢数量</p>
+<p>Windstorm：箭雨将额外射出1道箭流，每道箭流+2额外箭矢数量</p>
 </li>
 <li>
-<p>Arrow Hurricane：箭暴将额外射出2道箭流</p>
+<p>Arrow Hurricane：箭雨将额外射出2道箭流</p>
 </li>
 <li>
 <p>Elusive：在持续4秒没受到攻击后，箭暴将取消后坐力</p>
@@ -268,10 +269,10 @@
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
-<p>设陷者并不对自身的箭暴进行提升，而是提升炸弹箭的属性，并且能在炸弹箭的落点处放置地雷对目标再度造成伤害</p>
-<p>设陷者也可以将自身后跳能力转化为抓钩，这是一个更适合设陷者技能树的位移技能</p>
-<p>版本更新后，设陷者的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼</p>
-<p>设陷者的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出</p>
+<p>陷阱射手并不对自身的箭雨进行提升，而是提升炸弹箭的属性，并且能在炸弹箭的落点处放置地雷对目标再度造成伤害</p>
+<p>陷阱射手也可以将自身后跳能力转化为抓钩，这是一个更适合设陷者技能树的位移技能</p>
+<p>版本更新后，陷阱射手的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼</p>
+<p>陷阱射手的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出</p>
 <p><strong>重要技能点：</strong></p>
 <ul>
 <li>
@@ -326,7 +327,7 @@
 </template>
 </Tabs>
 <h3 id="刺客" tabindex="-1"><a class="header-anchor" href="#刺客" aria-hidden="true">#</a> 刺客</h3>
-<Tabs id="605" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
+<Tabs id="608" :data='[{"id":"<font color=AA0000> Shadestepper 影步者 </font>"},{"id":"<font color=FF55FF> Trickster 幻术师 </font>"},{"id":"<font color=\"grey\"> Acrobat 身法刺 </font>"}]'>
 <template #title0="{ value, isActive }"><font color=AA0000> Shadestepper 影步者 </font></template>
 <template #title1="{ value, isActive }"><font color=FF55FF> Trickster 幻术师 </font></template>
 <template #title2="{ value, isActive }"><font color="grey"> Acrobat 身法刺 </font></template>
@@ -401,7 +402,7 @@
 </template>
 </Tabs>
 <h3 id="萨满" tabindex="-1"><a class="header-anchor" href="#萨满" aria-hidden="true">#</a> 萨满</h3>
-<Tabs id="730" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
+<Tabs id="733" :data='[{"id":"<font color=\"orange\"> Summoner 召唤师 </font>"},{"id":"<font color=16d108> Ritualist 圣祭祀 </font>"},{"id":"<font color=\"red\"> Acolyte 血教徒 </font>"}]'>
 <template #title0="{ value, isActive }"><font color="orange"> Summoner 召唤师 </font></template>
 <template #title1="{ value, isActive }"><font color=16d108> Ritualist 圣祭祀 </font></template>
 <template #title2="{ value, isActive }"><font color="red"> Acolyte 血教徒 </font></template>
@@ -505,21 +506,6 @@
 <p>在重置后，你可以进行任意加点，且在离开安全区域/离线前，你还可以右键来撤回加点</p>
 <p>一旦离开安全区域或下线，你的技能树将会锁定，无法再进行右键撤回的操作</p>
 <h2 id="技能树翻译" tabindex="-1"><a class="header-anchor" href="#技能树翻译" aria-hidden="true">#</a> 技能树翻译</h2>
-<details class="hint-container details"><summary>模板</summary>
-<p><img
-      src="/assets/img/class/archer_green.png"
-      alt="Your Image"
-      @mouseover="showTooltip('技能名字')"
-      @mousemove="updateTooltipPosition"
-      @mouseleave="hideTooltip"
-      class="t48"
-    /><br>
-<div v-if="isTooltipVisible && currentTooltip === '技能名字'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"><br>
-<!-- 提示文本内容 --><br>
-<font color="#FFFFFF"><b>技能名字</b></font><br>
-<br><font color = BBBBBB>技能介绍介绍介绍</font><br>
-</div></p>
-</details>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>此页面专为电脑端设计！</p>
@@ -527,7 +513,7 @@
 <p>请知悉！</p>
 <p>并且这里不会对倍率进行详细说明</p>
 </div>
-<Tabs id="965" :data='[{"id":"弓手"},{"id":"战士"},{"id":"法师"},{"id":"刺客"},{"id":"萨满"}]'>
+<Tabs id="963" :data='[{"id":"弓手"},{"id":"战士"},{"id":"法师"},{"id":"刺客"},{"id":"萨满"}]'>
 <template #title0="{ value, isActive }">弓手</template>
 <template #title1="{ value, isActive }">战士</template>
 <template #title2="{ value, isActive }">法师</template>
@@ -633,7 +619,7 @@
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>箭弹减耗I</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF>-10</font></font>
+      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF> -10</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -837,7 +823,7 @@
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>逃脱减耗I</b></font>
       <br>
-      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF>-5</font></font>
+      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >

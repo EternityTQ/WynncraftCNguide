@@ -11,14 +11,14 @@
 <p>海底捞具体要怎么操作呢？对于新手而言，我们可以前往Nemract镇的港口，坐船前往Selchar</p>
 <p>并在Selchar附近的一片名为Seavalue Reef的海域潜水</p>
 <figure><img src="/assets/img/earnle1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>这个地方的海底会刷新很多杂物，可以将它们带到Selchar的商人处<code v-pre>[110，66，-315]</code>出售</p>
+<p>这个地方的海底会刷新很多杂物(宝藏)，可以将它们带到Selchar的宝藏商人<code v-pre>[107，66，-3158]</code>出售</p>
 <figure><img src="/assets/img/earnle2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这也是前期获得绿宝石最简单的途径。</p>
 <p>需要注意的是，杂物也有三六九等，具体哪个比较值钱就请读者自行挖掘了</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>高价值的杂物其实都有固定的刷新点位，建议自行探索</p>
-<p>同时，强烈建议读者做完<RouterLink to="/quests/lvl1-10/level%208%20%20-%20Underwater.html">Underwater ( level 8 )</RouterLink>或者<RouterLink to="/quests/lvl41-50/level%2043%20-%20Underice.html">Underice(level 43)</RouterLink>之后，佩戴潜水头盔再进行海底捞，效率会高很多！</p>
+<p>同时，强烈建议读者做完<RouterLink to="/quests/lvl1-10/level%208%20%20-%20Underwater.html">Underwater ( level 8 )</RouterLink>或者<RouterLink to="/quests/lvl41-50/level%2043%20-%20Underice.html">Underice(level 43)</RouterLink>之后，佩戴任务中获得的潜水头盔再进行海底捞，可以减少换气时间，效率会高很多！</p>
 </div>
 <h2 id="任务" tabindex="-1"><a class="header-anchor" href="#任务" aria-hidden="true">#</a> 任务</h2>
 <p>部分中后期任务的奖励的绿宝石非常丰厚，有些甚至一次性可以给好几个液态绿宝石（LE）</p>

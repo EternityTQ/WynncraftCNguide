@@ -99,10 +99,10 @@
 <p>在箭矢落地或命中目标后释放技能，如地震可以距离目标较远时发动。</p>
 </div>
 <h2 id="给装备添加粉末" tabindex="-1"><a class="header-anchor" href="#给装备添加粉末" aria-hidden="true">#</a> 给装备添加粉末</h2>
-<p>给装备添加粉末后，每一个粉末都会增加对应属性的元素防御，同时减少另一个指定元素防御</p>
+<p>给装备添加粉末后，每一个粉末都会增加对应属性的元素防御，同时减少另一个对应的元素防御</p>
 <p>数值与粉末等级呈正相关</p>
 <p>类似地，给装备添加2个4级及以上的同属性粉末可以触发粉末被动，判定机制与武器粉末技能相同</p>
-<p>被动技能的效果为满足条件后，给自身增加<mark>指定元素的元素伤害</mark></p>
+<p>被动技能的效果为满足条件后，给自身增加<strong>指定元素的元素伤害</strong></p>
 <p>多个被动技能可以叠加效果(见下文具体效果)</p>
 <details class="hint-container details"><summary>装备粉末被动技能一览</summary>
 <p>以下数值数据均为最高等级粉末</p>
@@ -137,6 +137,12 @@
 </li>
 </ul>
 </details>
+<h2 id="粉末来源" tabindex="-1"><a class="header-anchor" href="#粉末来源" aria-hidden="true">#</a> 粉末来源</h2>
+<p>1-3级的粉末都可以通过野外宝箱、怪物掉落来获取</p>
+<p>4级的粉末仅可通过野外宝箱来获取</p>
+<p>5-6级粉末的正常获取来源只有raid的最终奖励以及每周任务奖励，这都是后期内容了</p>
+<p>当然，所有的粉末都可以进行合成升级</p>
+<p>同时1-3级的粉末并不是很值得收集，比较建议只保留需要的粉末，避免占用过多银行空间</p>
 <h2 id="粉末合成" tabindex="-1"><a class="header-anchor" href="#粉末合成" aria-hidden="true">#</a> 粉末合成</h2>
 <p>你可以在Powder Master处将4个低级粉末合成为高一级的粉末</p>
 <figure><img src="/assets/img/powder4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
