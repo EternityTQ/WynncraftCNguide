@@ -140,7 +140,8 @@
 <p><strong>特殊阶段</strong><br>
 当greg的血量降低至75%/50%/25%后，其会<strong>在数秒延迟后</strong>释放一群主动追击玩家的眼球，对周围的玩家施加短暂失明，并传送至场地中间进入无敌，随后每隔两秒对场地上的随机玩家释放眼球激光。</p>
 <p>对于召唤出的眼球——确保自己的移速够高，就能规避眼球的攻击。</p>
-<p>对于眼球激光——当一名玩家被瞄准后，他的屏幕中心会出现提示——you are being watched。</p>
+<p>对于眼球激光——当一名玩家被瞄准后，其屏幕中心会出现提示↓</p>
+<p style="text-align: center;font-size: 25px;font-family: 'Minecraft'"><font color=FF55FF>you are being watched.</font></p>
 <p>一秒后，greg会向其瞄准的位置发射一道眼球激光，对半径八格内的所有玩家造成其最大生命值25%的真实伤害，对半径六格内的所有玩家<strong>额外造成</strong>其30%最大生命值的真实伤害。</p>
 <p>在这一阶段，玩家需要有足够的灵活性来规避greg的伤害，且需要避免聚集扎堆。</p>
 <p>greg在进入这一阶段后会瞄准玩家十次。</p>
@@ -201,3 +202,9 @@
 </div></template>
 
 
+
+<style>
+.minecraft-font {
+  font-family: 'Minecraft';
+}
+</style>

@@ -207,7 +207,9 @@ BOSS技能众多，但对于一般打法在平时需要特别注意的只有四�
 
 对于召唤出的眼球——确保自己的移速够高，就能规避眼球的攻击。
 
-对于眼球激光——当一名玩家被瞄准后，他的屏幕中心会出现提示——you are being watched。
+对于眼球激光——当一名玩家被瞄准后，其屏幕中心会出现提示↓
+
+<p style="text-align: center;font-size: 25px;font-family: 'Minecraft'"><font color=FF55FF>you are being watched.</font></p>
 
 一秒后，greg会向其瞄准的位置发射一道眼球激光，对半径八格内的所有玩家造成其最大生命值25%的真实伤害，对半径六格内的所有玩家**额外造成**其30%最大生命值的真实伤害。
 
@@ -235,3 +237,10 @@ wynn制作组会不定时修改部分buff数值
 | Fading | +80% Health Regen<br>+40% Walk Speed<br>+Heart of the Pack Major ID | +60% Water Damage<br>+30 Agility<br>+25/3s Mana Steal | +Saviour's Sacrifice Major ID<br><font color = "red">-1200 Health Bonus</font><br>+40 Agility |
 | Insidious | +20/3s Mana Steal<br>+20 Intelligence<br>+40% Spell Damage | -2 Attack Speed Tier<br>+325/4s Life Steal<br>+60% Spell Damage | +Sorcery Major ID <br> <font color = "red">-40% Walk Speed</font> <br>+80% Spell Damage |
 | Hopeless | +20 Strength<br>+80% Exploding<br>+100% Main Attack Damage | +1 Attack Speed Tier<br>+Fission Major ID<br>+30 Dexterity | +80% Walk Speed<br> <font color = "red">-20/4s Mana Regen</font> <br>+250% Main Attack Damage |
+
+
+<style>
+.minecraft-font {
+  font-family: 'Minecraft';
+}
+</style>

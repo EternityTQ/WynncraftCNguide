@@ -1,9 +1,15 @@
 # Memory Paranoia(level 67)
 <span style="font-size: 25px;">**偏执狂的回忆**</span>
 
+:::warning
+此任务目前BUG较多
+
+若你出现了无法继续的BUG，可以尝试/class或者/kill自杀出去从头开始做
+:::
+
 1 在Caritat Mansion前找到<font color=00AA00>**Atisun**</font>`[-1192 46 -5198]`
 
-2 进入*Caritat Mansion*
+2 进入Caritat Mansion
 
 3 知悉Caritat家族的故事，和<font color=00AA00>**Timmy Caritat**</font>`[-1238 14 -7745]`对话
 
@@ -27,7 +33,7 @@
 
 8 听Mr. Caritat的通告
 
-9 去厨房里
+9 去厨房里查看情况
 
 10 逃出厨房(boss不用打，你打不死的，直接出去就可以继续)
 

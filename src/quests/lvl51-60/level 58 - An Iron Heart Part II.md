@@ -10,14 +10,14 @@ icon: bookmark
 
 >接受我的贿赂?/还是说出真相!
 
-1.在Olux找到Detective Hart`[-1744 66 -5478]`
+1.在Olux找到<font color=00AA00>**Detective Hart**</font>`[-1744 66 -5478]`
 
 2.跟着路找到<font color=00AA00>**Daxe**</font>`[-1924 55 -5466]`，跟他对话触发一系列剧情
 
-3.顺着路来到傀儡工厂`[-2119 55 -5557]`，手持前置任务中获得的Mechanical Reactor与守门傀儡交互
+3.顺着路来到傀儡工厂`[-2119 55 -5557]`，手持前置任务中获得的`Mechanical Reactor`与守门傀儡交互
 
 :::tip
-如果你弄丢了Mechanical Reactor，你可以回到前置任务中的<font color=00AA00>**Duvale**</font>`[-1620 51 -4974]`，找他对话重新获取一个
+如果你弄丢了`Mechanical Reactor`，你可以回到前置任务中的<font color=00AA00>**Duvale**</font>`[-1620 51 -4974]`，找他对话重新获取一个
 :::
 
 4.和屋子内的<font color=00AA00>**Urelix**</font>对话

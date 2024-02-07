@@ -4,12 +4,12 @@
 <blockquote>
 <p>接受我的贿赂?/还是说出真相!</p>
 </blockquote>
-<p>1.在Olux找到Detective Hart<code v-pre>[-1744 66 -5478]</code></p>
+<p>1.在Olux找到<font color=00AA00><strong>Detective Hart</strong></font><code v-pre>[-1744 66 -5478]</code></p>
 <p>2.跟着路找到<font color=00AA00><strong>Daxe</strong></font><code v-pre>[-1924 55 -5466]</code>，跟他对话触发一系列剧情</p>
-<p>3.顺着路来到傀儡工厂<code v-pre>[-2119 55 -5557]</code>，手持前置任务中获得的Mechanical Reactor与守门傀儡交互</p>
+<p>3.顺着路来到傀儡工厂<code v-pre>[-2119 55 -5557]</code>，手持前置任务中获得的<code v-pre>Mechanical Reactor</code>与守门傀儡交互</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>如果你弄丢了Mechanical Reactor，你可以回到前置任务中的<font color=00AA00><strong>Duvale</strong></font><code v-pre>[-1620 51 -4974]</code>，找他对话重新获取一个</p>
+<p>如果你弄丢了<code v-pre>Mechanical Reactor</code>，你可以回到前置任务中的<font color=00AA00><strong>Duvale</strong></font><code v-pre>[-1620 51 -4974]</code>，找他对话重新获取一个</p>
 </div>
 <p>4.和屋子内的<font color=00AA00><strong>Urelix</strong></font>对话</p>
 <p>5.拉下<code v-pre>[-2117 57 -5574]</code>的拉杆，然后门外的铁门会打开</p>

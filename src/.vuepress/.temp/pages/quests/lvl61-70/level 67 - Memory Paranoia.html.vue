@@ -1,7 +1,12 @@
 <template><div><h1 id="memory-paranoia-level-67" tabindex="-1"><a class="header-anchor" href="#memory-paranoia-level-67" aria-hidden="true">#</a> Memory Paranoia(level 67)</h1>
 <p><span style="font-size: 25px;"><strong>偏执狂的回忆</strong></span></p>
+<div class="hint-container warning">
+<p class="hint-container-title">注意</p>
+<p>此任务目前BUG较多</p>
+<p>若你出现了无法继续的BUG，可以尝试/class或者/kill自杀出去从头开始做</p>
+</div>
 <p>1 在Caritat Mansion前找到<font color=00AA00><strong>Atisun</strong></font><code v-pre>[-1192 46 -5198]</code></p>
-<p>2 进入<em>Caritat Mansion</em></p>
+<p>2 进入Caritat Mansion</p>
 <p>3 知悉Caritat家族的故事，和<font color=00AA00><strong>Timmy Caritat</strong></font><code v-pre>[-1238 14 -7745]</code>对话</p>
 <p>4 去地下室(进来右后方的位置下楼)<code v-pre>[-1216 12 -7694]</code>回收图书室钥匙</p>
 <p>5 去Caritat Mansion的图书室<code v-pre>[-1240 14 -7758]</code></p>
@@ -18,7 +23,7 @@
 <p>注意：拿一个就好了，三问中不会消耗</p>
 </div>
 <p>8 听Mr. Caritat的通告</p>
-<p>9 去厨房里</p>
+<p>9 去厨房里查看情况</p>
 <p>10 逃出厨房(boss不用打，你打不死的，直接出去就可以继续)</p>
 <p>11 在桌子上<code v-pre>[-1242 5 -7897]</code>获得书房钥匙</p>
 <p>12 上二楼在左手边打开Mr. Caritat的书房</p>

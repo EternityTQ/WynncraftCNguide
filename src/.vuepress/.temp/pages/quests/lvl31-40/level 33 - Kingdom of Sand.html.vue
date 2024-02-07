@@ -4,7 +4,7 @@
 <p class="hint-container-title">重要任务</p>
 <p>解锁Sand-Swept Tomb副本</p>
 </div>
-<p>1.前往<code v-pre>[1408 94 -1830]</code>调查发生了什么事</p>
+<p>1.前往<code v-pre>[1408 94 -1830]</code>的坟墓调查发生了什么事</p>
 <p>2.进入逃犯的藏身处调查<code v-pre>[1314 90 -1660]</code></p>
 <p>3 在出口和<font color=00AA00><strong>Geo</strong></font>及<font color=00AA00><strong>Tarek</strong></font>二人对话</p>
 <p>4 潜行进入<strong>Rymek</strong>最高的房间<code v-pre>[1180 31 -1300]</code></p>
@@ -26,7 +26,7 @@
 <p>5 和<font color=00AA00><strong>Vault Guard</strong></font>讲话，并进入它身后的洞口</p>
 <p>6.找一个破车<code v-pre>[1183 76 -1857]</code></p>
 <p>7.触发战斗后，从废弃的房子里获得权杖</p>
-<p>8.回到坟墓前和<font color=00AA00><strong>Lanu</strong></font>对话</p>
+<p>8.回到坟墓前和<font color=00AA00><strong>Lanu</strong></font><code v-pre>[1408 94 -1830]</code>对话</p>
 <p>奖励</p>
 <ul>
 <li>10000经验</li>
