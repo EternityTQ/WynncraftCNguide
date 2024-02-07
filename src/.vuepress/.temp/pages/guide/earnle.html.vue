@@ -13,7 +13,7 @@
 <figure><img src="/assets/img/earnle1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这个地方的海底会刷新很多杂物(宝藏)，可以将它们带到Selchar的宝藏商人<code v-pre>[107，66，-3158]</code>出售</p>
 <figure><img src="/assets/img/earnle2.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>这也是前期获得绿宝石最简单的途径。</p>
+<p>这也是前期获得绿宝石最简单的途径，效率约为1小时1.5le</p>
 <p>需要注意的是，杂物也有三六九等，具体哪个比较值钱就请读者自行挖掘了</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
