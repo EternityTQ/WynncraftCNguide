@@ -19,6 +19,10 @@
 <p>Arcanist，法师的一个分支职业名</p>
 <h3 id="球法" tabindex="-1"><a class="header-anchor" href="#球法" aria-hidden="true">#</a> <strong>球法</strong></h3>
 <p>Light Bender，法师的一个分支职业名</p>
+<h3 id="ts" tabindex="-1"><a class="header-anchor" href="#ts" aria-hidden="true">#</a> <strong>ts</strong></h3>
+<p>tier stack，一种通过堆叠攻速成型的流派名称，常见于战士和弓手职业</p>
+<h3 id="hm" tabindex="-1"><a class="header-anchor" href="#hm" aria-hidden="true">#</a> <strong>hm</strong></h3>
+<p>heavy meele，一种通过降低攻速成型的流派名称，常见于刺客和弓手职业</p>
 <h2 id="生活类" tabindex="-1"><a class="header-anchor" href="#生活类" aria-hidden="true">#</a> 生活类</h2>
 <h3 id="e" tabindex="-1"><a class="header-anchor" href="#e" aria-hidden="true">#</a> <strong>e</strong></h3>
 <p>emerald,绿宝石，这个游戏的货币基础交易单位</p>
@@ -61,6 +65,14 @@
 <h3 id="三问" tabindex="-1"><a class="header-anchor" href="#三问" aria-hidden="true">#</a> <strong>三问</strong></h3>
 <p>指80级的任务<code v-pre>???</code></p>
 <p>具体可以看看<RouterLink to="/quests/lvl71-80/level%2080%20-%20Z%EF%BC%9F%EF%BC%9F%EF%BC%9F.html">这篇文章</RouterLink></p>
+<h3 id="垃圾场-教堂" tabindex="-1"><a class="header-anchor" href="#垃圾场-教堂" aria-hidden="true">#</a> <strong>垃圾场 / 教堂</strong></h3>
+<p>具体可以看看<RouterLink to="/guide/grindspot.html">这篇文章</RouterLink></p>
+<h3 id="老头" tabindex="-1"><a class="header-anchor" href="#老头" aria-hidden="true">#</a> <strong>老头</strong></h3>
+<p>通常指tna的最终BOSS——Greg</p>
+<h3 id="ct" tabindex="-1"><a class="header-anchor" href="#ct" aria-hidden="true">#</a> <strong>CT</strong></h3>
+<p>Content team，制作wynncraft服务器内容的人(有好几种)，在服务器内有青色的ID</p>
+<h3 id="mod" tabindex="-1"><a class="header-anchor" href="#mod" aria-hidden="true">#</a> <strong>MOD</strong></h3>
+<p>moderator，服务器管理员或志愿者(后者职能是帮助玩家解决bug之类的问题)</p>
 <h2 id="公会类" tabindex="-1"><a class="header-anchor" href="#公会类" aria-hidden="true">#</a> 公会类</h2>
 <h3 id="gw" tabindex="-1"><a class="header-anchor" href="#gw" aria-hidden="true">#</a> <strong>gw</strong></h3>
 <p>Guild war，公会战</p>

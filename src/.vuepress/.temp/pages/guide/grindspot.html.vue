@@ -14,7 +14,10 @@
 <p>在Wynntils Map中，你可以看到非常多的Grind Spot</p>
 <figure><img src="/assets/img/grindspot.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>这些基本都是玩家总结的，非常高效率的刷怪点</p>
-<p>本文中，将会对贯穿整个游戏流程的，常见的Grind spot进行介绍</p>
+<p>本文中，将会对贯穿整个游戏流程的，<strong>常见</strong>的Grind spot进行介绍</p>
+<blockquote>
+<p>意思就是你基本只能在这几个点找到刷怪的队伍</p>
+</blockquote>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>提升Grind Spot效率的方法有三种，强烈建议全部使用</p>

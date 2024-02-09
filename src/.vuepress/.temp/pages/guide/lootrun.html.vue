@@ -951,7 +951,7 @@
 </tr>
 <tr>
 <td><font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font></td>
-<td>如果你没有拿到<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！</td>
+<td>如果你没有拿到<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！<br>万一你真的拿了，不用想100轮了，打完白信标给的轮次就跑路吧！</td>
 </tr>
 </tbody>
 </table>

@@ -688,7 +688,7 @@ Bad Omen是目前中后半段能吃到数值最高的增益
 | <font color='00BB00'> **Stasis** </font>              | 比较利于运营，但是在<font color='FF5555'> **Gambling Beast** </font>削废的当下，这个任务似乎也没有什么必要去拿了。<br>如果你挑战打的比较拖拉的话，可以拿这个任务来降低超时风险|
 | <font color='FF5555'> **Gambling Beast** </font>      | 废，千万别拿，目前<font color='FF5555'> **Gambling Beast** </font>被砍成了时间不足直接结束游戏，这意味着你只要拿到了这个任务就等于直接宣告游戏结束！<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化 |
 | <font color='FF5555'> **Redemption** </font>          | 如果没有sac和end rr的话，这个任务值得去拿|
-| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 如果你没有拿到<font color='AA00AA'> **Cleansing Ritual** </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！|
+| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 如果你没有拿到<font color='AA00AA'> **Cleansing Ritual** </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！<br>万一你真的拿了，不用想100轮了，打完白信标给的轮次就跑路吧！|
 
 
 #### **游戏过程&运营思路**
