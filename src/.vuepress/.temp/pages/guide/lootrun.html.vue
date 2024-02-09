@@ -729,6 +729,7 @@
 <p>对于每个区域的最终奖励宝箱，都会有每周刷新的神话、传奇等物品</p>
 <p>每个区域的最终奖励宝箱都不同</p>
 <p>最终奖励宝箱会根据你的最终奖励抽取物品数(以下简称pulls)来抽取物品</p>
+<p>奖池刷新时间为北京时间每周六凌晨，冬令时为3am，夏令时为2am</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>总物品数上限为36</p>
@@ -751,6 +752,27 @@
 <p>若下一局failed了，sac所继承的pulls会继续保留，直到成功结算为止</p>
 <p>sac所保存的pulls一样可以被下一局的sac一起继承</p>
 </div>
+<p>最终奖励分为如下几个种类：</p>
+<ul>
+<li>
+<p>Shiny Mythic：特等奖，与普通Mythic的区别就是多了一个独特的计数器以及只有自己才能看到的附魔特效，没了。一个区域奖池只会有一件Shiny Mythic</p>
+</li>
+<li>
+<p>Mythic：一等奖，通常来说，一个奖池会有4-6件Mythic品质的物品，同时还可能刷新Insulator和Simulator(鉴定道具)。获取概率稍次于Shiny Mythic</p>
+</li>
+<li>
+<p>Liquid Emerald：二等奖，奖池内通常会有1-2种10个以上le的奖品以及2-3种1-4个le的奖品，非赌狗开到大数目le基本可以收手了</p>
+</li>
+<li>
+<p>Lootrun Tome：三等奖，其只有lr能够产出，通常包含一定数值的lb以及各元素伤害、防御等，同样为角色灵魂绑定</p>
+</li>
+<li>
+<p>Fabled Item：三等奖，除了正常开箱能产出的装备以外，还包含部分只有lr最终奖励才能产出的装备，其中有些装备属性非常不错，还有待读者自行研究</p>
+</li>
+<li>
+<p>杂物：参与奖，没什么好说的，需要注意的是有时候奖池会刷新非常值钱的装备，例如libra或者cumu，这些值得注意一下</p>
+</li>
+</ul>
 <h3 id="跑法策略" tabindex="-1"><a class="header-anchor" href="#跑法策略" aria-hidden="true">#</a> 跑法策略</h3>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
