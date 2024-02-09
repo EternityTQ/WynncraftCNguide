@@ -1,4 +1,21 @@
-<template><div><p>以下是一些介绍，你可以通过左侧导航栏快速查找任务</p>
+<template><div><p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
+<p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
+<p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>如果你使用本攻略的过程中出现了任何问题，请先按照下列步骤尝试自己解决：</p>
+<ol>
+<li>使用<code v-pre>/class</code>原地重置机关/怪物，重新开始这一步</li>
+<li>使用<code v-pre>/kill</code>或者传送卷轴离开任务场地，从头开始进行一遍任务</li>
+<li>使用<a href="https://wynncraft.fandom.com/wiki/Wynncraft_Wiki" target="_blank" rel="noopener noreferrer">wiki<ExternalLinkIcon/></a>和自己当前的步骤对照，确保没有遗漏任何机关、物品，或是出现步骤错误的情况</li>
+</ol>
+<p>在尝试以上步骤后，若还没有解决</p>
+<ol>
+<li>如果你确定是本攻略的问题，欢迎直接发到交流群内向编者反馈</li>
+<li>如果是游戏的问题，可以在论坛上提交bug反馈</li>
+</ol>
+<p>请不要在使用上述步骤前直接在群里询问攻略的问题，多谢合作！</p>
+</div>
 <p>本攻略重在流程，若想了解细节和剧情，请翻阅<a href="https://wynncraft.fandom.com/wiki/Quests" target="_blank" rel="noopener noreferrer">wiki<ExternalLinkIcon/></a></p>
 <p>非常感谢各位前人制作的攻略，本网站仅仅只是将大家的成果整理及更新以便查阅，以及后续bot对接等工作</p>
 <div class="hint-container tip">
