@@ -2,6 +2,7 @@
 <p>经验刷怪点，游戏内又名Grind Spot，是一种高效率高风险的获取经验的方法</p>
 <p>其不同于任务、地牢，经验刷怪点顾名思义，直接依靠击杀怪物所获得的经验来升级</p>
 <p>其经验获取效率往往是其他刷怪点的数倍，同时通过grindspot升级是最有效率的升级方式</p>
+<p>同时正常来说，凡是wynntills地图内标有经验点的地方，其怪物均不会有经验以外的任何掉落物，请知悉</p>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
 <p>Grind Spot的怪物强度往往高于其他怪物</p>
@@ -76,6 +77,9 @@
 <p>位置在<code v-pre>[-949 16 -5515]</code>，从图上的洞穴进去</p>
 <p>注意！这个坐标实际上已经是一个无敌点了，站在上面杀怪就行</p>
 <p>而且这个地方完全可以单刷，比较惬意</p>
+<blockquote>
+<p>而且这个地方有掉落物，运气好的话还可以出把pure，小声</p>
+</blockquote>
 <h2 id="lv-85-lv-105-垃圾场" tabindex="-1"><a class="header-anchor" href="#lv-85-lv-105-垃圾场" aria-hidden="true">#</a> Lv.85~Lv.105 垃圾场</h2>
 <figure><img src="/assets/img/grindspot9.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>你 爹 来 了</p>
