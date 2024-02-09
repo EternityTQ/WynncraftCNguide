@@ -374,9 +374,9 @@ Vibrant信标拥有原信标的双倍效果
 Dynamic为动态增益，你有机会提高该增益的层数
 
 :::tip
-进行到一定轮次时，不会出现Dynamic增益
+进行到一定轮次时，不会出现除了<font color = 00BB00>**Clockworker**</font>和<font color = 00BB00>**Slowrunner**</font>以外的Dynamic增益
 
-**Dynamic是有可能减少层数的**
+**Dynamic增益是有可能减少层数的**
 :::
 
 Static为静态增益，该增益的层数在拿到瞬间就固定了

@@ -467,8 +467,8 @@
 <p>Dynamic为动态增益，你有机会提高该增益的层数</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>进行到一定轮次时，不会出现Dynamic增益</p>
-<p><strong>Dynamic是有可能减少层数的</strong></p>
+<p>进行到一定轮次时，不会出现除了<font color = 00BB00><strong>Clockworker</strong></font>和<font color = 00BB00><strong>Slowrunner</strong></font>以外的Dynamic增益</p>
+<p><strong>Dynamic增益是有可能减少层数的</strong></p>
 </div>
 <p>Static为静态增益，该增益的层数在拿到瞬间就固定了</p>
 <div class="hint-container tip">
