@@ -58,12 +58,15 @@
 <h2 id="新lootrun" tabindex="-1"><a class="header-anchor" href="#新lootrun" aria-hidden="true">#</a> 新Lootrun</h2>
 <p>在2.0.3更新后，增加了一种全新的Lootrun方式</p>
 <h3 id="开始lootrun前" tabindex="-1"><a class="header-anchor" href="#开始lootrun前" aria-hidden="true">#</a> 开始lootrun前</h3>
-<p>在开始之前，你首先需要来到<strong>Cinfras</strong>附近的<strong>Silverbull Trading Company</strong>，和<em>Lootrun Chief</em><code v-pre>[-102 36 -4814]</code>对话来解锁lootrun以及<code v-pre>Silverbull Syndicate</code>副职</p>
+<p>在开始之前，你首先需要来到<strong>Cinfras</strong>附近的<strong>Silverbull Trading Company</strong>，和<font color=FF55FF><strong>Lootrun Chief</strong></font><code v-pre>[-102 36 -4814]</code>对话来解锁lootrun以及<code v-pre>Silverbull Syndicate</code>副职</p>
+<blockquote>
+<p>其实直接随便找一个camp对话就能直接被赶到这里来，不用特意找</p>
+</blockquote>
 <p>然后你就能通过任务书来找到<strong>Lootrun Camp</strong>了</p>
-<figure><img src="/assets/img/questbook5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="/assets/img/questbook5.jpg" alt="直接点击即可直接追踪！" tabindex="0" loading="lazy"><figcaption>直接点击即可直接追踪！</figcaption></figure>
 <p>截止至2.0.4版本，一共有4处<strong>Lootrun Camp</strong></p>
 <p>它们分别位于<strong>Molten Heights</strong>(火山)、<strong>Sky Islands</strong>(Sky)、<strong>Corkus</strong>、<strong>Silent Expanse</strong>(se)</p>
-<p>你可以找到<strong>Lootrun Camp</strong>中的<em>Lootrun Master</em>来开始新lr</p>
+<p>你可以找到<strong>Lootrun Camp</strong>中的<font color=FF55FF><strong>Lootrun Master</strong></font>来开始新lr</p>
 <figure><img src="/assets/img/lootrun7.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>每一局lr的成功结算都可以增加<code v-pre>Silverbull Syndicate</code>的等级，经验上限为500(每日奖励的100经验不包含在上限内)</p>
 <p>同时随着<code v-pre>Silverbull Syndicate</code>等级的提升，你都可以在lr中体验到新的内容</p>
@@ -777,19 +780,56 @@
 <h4 id="信标思路" tabindex="-1"><a class="header-anchor" href="#信标思路" aria-hidden="true">#</a> <strong>信标思路</strong></h4>
 <hr>
 <p>这里将会根据优先级来介绍信标的抓位</p>
-<p>首先是<font color = FF66FF><strong>彩虹信标</strong></font>，看到就一定要拿，可以决定性的提升你本局游戏的收益</p>
-<p>一个特例是在任务较好但是已经到了最后一轮的情况下，这个时候你就要考虑拿红白信标续命而不是彩虹信标了！</p>
-<p>然后是<font color = "orange"><strong>橙色信标</strong></font>，橙色信标非常的重要，一旦你的信标选数保持在3选，你将可能一直得不到想要的信标</p>
-<p>因此，保持你的信标选数在5~6选非常关键！(再往上就没必要了！)</p>
-<font color = "blue"><b>蓝色信标</b></font>在你没有足够的增益时，一定要拿，确保你能渡过接下来的挑战<p><font color = "CCCCCC"> <b>白色信标</b> </font>机会只有一次，不要浪费，在拿到彩虹信标后，就最好一定要吃到青色+<font color = "CCCCCC"><b>白色信标</b></font>来大幅提升回合数了！</p>
-<p>注意千万别在彩虹前吃<font color = "CCCCCC"><b>白色信标</b></font>！很浪费！</p>
-<font color = 'grey'><b>灰色信标</b></font>最好和<font color = 00CCFF><b>青色信标</b></font>一起使用！无论彩虹前后，青色信标都能使灰色信标的选数达到最大<p><font color = "red"><b>红色信标</b></font>和<font color = 00BB00><b>绿色信标</b></font>最好搭配着拿，如果需要临时续命可以再拿！</p>
-<p><font color = "555555"><b>暗灰色信标</b></font>如果没有<font color='AA00AA'> <b>Equilibrium</b> </font>,则最好在收尾的时候拿到，否则小心翻车！</p>
-<p><font color='AA00AA'> <b>紫色信标</b> </font>也是最好在收尾的阶段拿，除非有特定的任务组合可以让你无视或减小诅咒带来的风险</p>
-<p><font color='FFCC00'> <b>黄色信标</b> </font>能提升本轮的战利品数量，但是对整局游戏的运营没有帮助！</p>
-<p>如果你走投无路了，再来考虑<font color='FFCC00'> <b>黄色信标</b> </font>吧！</p>
-<p>但是有一个特例：在你获得<font color='FFCC00'> <strong>Cleansing Greed</strong> </font>的情况下，吃黄色信标能迅速降低你的诅咒数值！</p>
-<p>最后是<font color = 00CCFF><b>青色信标</b></font>，其效果非常特殊，目前在数量无限制的情况下，<strong>强烈建议</strong>在吃到彩虹后，如果有考虑吃除了蓝信标以外的情况，都最好搭配一个青一起使用来提高效率！</p>
+<table>
+<thead>
+<tr>
+<th>种类</th>
+<th>介绍</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><font color = FF66FF><strong>彩虹信标</strong></font></td>
+<td>看到就一定要拿，可以决定性的提升你本局游戏的收益<br><br>一个特例是在任务较好但是已经到了最后一轮的情况下，这个时候<br>你就要考虑拿红白信标续命而不是彩虹信标了！</td>
+</tr>
+<tr>
+<td><font color = "orange"><strong>橙色信标</strong></font></td>
+<td>橙色信标非常的重要，一旦你的信标选数保持在3选，<br>你将可能一直得不到想要的信标<br><br>因此，保持你的信标选数在5~6选非常关键！(再往上就没必要了！)</td>
+</tr>
+<tr>
+<td><font color = "blue"><b>蓝色信标</b></font></td>
+<td>抓位个人建议仅次于橙信标，在选数和轮次数均充足的情况下<br>必须要抓取蓝信标来确保你有足够的属性度过接下来的挑战</td>
+</tr>
+<tr>
+<td><font color = 00CCFF><b>青色信标</b></font></td>
+<td>最为特殊的信标！在吃到彩虹前屁用没有，但是在吃到彩虹后<br>强烈建议在吃除了蓝色信标的所有信标前都先吃一个青色信标，<br>它能让你两轮吃到三个信标的效果！非常给力的效果！</td>
+</tr>
+<tr>
+<td><font color = "CCCCCC"> <b>白色信标</b> </font></td>
+<td>抓取机会只有一次，千万不要浪费，个人强烈建议在吃了彩虹信标<br>的情况下再来吃青+白信标来大幅度提升轮次数</td>
+</tr>
+<tr>
+<td><font color = 'grey'><b>灰色信标</b></font></td>
+<td>比较推荐无论有没有彩虹，都最好在吃灰信标之前先吃一个青色信标，<br>现在灰信标的出率很高，因此你基本可以确保能稳定吃到青+灰信标</td>
+</tr>
+<tr>
+<td><font color = "red"><b>红色信标</b></font> <br> 与 <font color = 00BB00><b>绿色信标</b></font></td>
+<td>这两者最好搭配着一起拿，否则会出现超时或者浪费的风险，<br>而且红绿信标是建立在提升轮次数的前提下才会去抓取的。</td>
+</tr>
+<tr>
+<td><font color = "555555"><b>暗灰色信标</b></font></td>
+<td>如果没有特定的消诅咒任务或者<font color='AA00AA'> <b>Equilibrium</b> </font>,<br>则最好在收尾的时候拿到，否则小心翻车！<br><br>除非你对你的buff有足够的自信，如果能提前拿取<br>暗灰信标提前删掉一个信标位，也是一个不错的选择！</td>
+</tr>
+<tr>
+<td><font color='AA00AA'> <b>紫色信标</b> </font></td>
+<td>最好在收尾的阶段拿，除非有特定的任务组合可以让你无视<br>或减小诅咒带来的风险</td>
+</tr>
+<tr>
+<td><font color='FFCC00'> <b>黄色信标</b> </font></td>
+<td>能提升本轮的战利品数量，但是对整局游戏的运营没有帮助！<br>如果你实在没有选择了，再来考虑黄色信标吧！<br><br>但是有一个特例：在你获得<font color='FFCC00'> <strong>Cleansing Greed</strong> </font>的情况下，<br>吃黄色信标能迅速降低你的诅咒数值！</td>
+</tr>
+</tbody>
+</table>
 <h4 id="如何选择增益" tabindex="-1"><a class="header-anchor" href="#如何选择增益" aria-hidden="true">#</a> <strong>如何选择增益？</strong></h4>
 <hr>
 <p>无论何时，请你保证你吃到的蓝信标数占你已挑战轮次的33%-50%甚至更多</p>
@@ -825,6 +865,11 @@
 <li>最后，如果你的职业的位移手段非常差劲(比如萨满)，那么你还得考虑将移动速度抓到上限(400%)来避免跑到超时</li>
 </ul>
 <p>还有就是生命窃取非常废，最好别拿。</p>
+<div class="hint-container tip">
+<p class="hint-container-title">关于Bad Omen</p>
+<p>Bad Omen是目前中后半段能吃到数值最高的增益</p>
+<p>为了确保看到Bad Omen的时候可以拿满数值，强烈建议在身上随时持有8个以上的curse，Bad Omen拿满绝对不亏</p>
+</div>
 <h4 id="关于任务" tabindex="-1"><a class="header-anchor" href="#关于任务" aria-hidden="true">#</a> 关于任务</h4>
 <hr>
 <p>对于任务而言，介于任务的随机性，大多数情况是<strong>根据任务选玩法</strong>，而非根据玩法选任务</p>
