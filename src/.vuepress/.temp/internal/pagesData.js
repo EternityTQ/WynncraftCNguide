@@ -43,12 +43,12 @@ export const pagesData = {
   "v-e82d1030": () => import(/* webpackChunkName: "v-e82d1030" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/VIP.html.js").then(({ data }) => data),
   // path: /guide/wynntils.html
   "v-25f6844f": () => import(/* webpackChunkName: "v-25f6844f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/wynntils.html.js").then(({ data }) => data),
+  // path: /quests/
+  "v-dddc2d36": () => import(/* webpackChunkName: "v-dddc2d36" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/index.html.js").then(({ data }) => data),
   // path: /newbie/beforegame.html
   "v-05a5e5e0": () => import(/* webpackChunkName: "v-05a5e5e0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/beforegame.html.js").then(({ data }) => data),
   // path: /newbie/
   "v-4ff12110": () => import(/* webpackChunkName: "v-4ff12110" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/index.html.js").then(({ data }) => data),
-  // path: /quests/
-  "v-dddc2d36": () => import(/* webpackChunkName: "v-dddc2d36" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/index.html.js").then(({ data }) => data),
   // path: /guide/advancesystem/bossaltar.html
   "v-af575f94": () => import(/* webpackChunkName: "v-af575f94" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/advancesystem/bossaltar.html.js").then(({ data }) => data),
   // path: /guide/advancesystem/guild.html
@@ -77,10 +77,6 @@ export const pagesData = {
   "v-590551bf": () => import(/* webpackChunkName: "v-590551bf" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/soulpoint.html.js").then(({ data }) => data),
   // path: /guide/basesystem/trademarket.html
   "v-0b970088": () => import(/* webpackChunkName: "v-0b970088" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/trademarket.html.js").then(({ data }) => data),
-  // path: /newbie/lvl1-10/discovery.html
-  "v-75a63293": () => import(/* webpackChunkName: "v-75a63293" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl1-10/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl1-10/thingstodo.html
-  "v-07ab5c84": () => import(/* webpackChunkName: "v-07ab5c84" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl1-10/thingstodo.html.js").then(({ data }) => data),
   // path: /guide/raid/intro.html
   "v-22d61b26": () => import(/* webpackChunkName: "v-22d61b26" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/intro.html.js").then(({ data }) => data),
   // path: /guide/raid/nol.html
@@ -91,42 +87,6 @@ export const pagesData = {
   "v-4b814604": () => import(/* webpackChunkName: "v-4b814604" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/tcc.html.js").then(({ data }) => data),
   // path: /guide/raid/tna.html
   "v-1cba378b": () => import(/* webpackChunkName: "v-1cba378b" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/tna.html.js").then(({ data }) => data),
-  // path: /newbie/lvl101-110/discovery.html
-  "v-28bfee26": () => import(/* webpackChunkName: "v-28bfee26" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl101-110/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl101-110/thingstodo.html
-  "v-50ec516a": () => import(/* webpackChunkName: "v-50ec516a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl101-110/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl11-20/discovery.html
-  "v-007ca757": () => import(/* webpackChunkName: "v-007ca757" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl11-20/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl11-20/thingstodo.html
-  "v-50b8ff80": () => import(/* webpackChunkName: "v-50b8ff80" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl11-20/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl21-30/discovery.html
-  "v-38c85bb7": () => import(/* webpackChunkName: "v-38c85bb7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl21-30/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl21-30/thingstodo.html
-  "v-ae635040": () => import(/* webpackChunkName: "v-ae635040" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl21-30/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl31-40/discovery.html
-  "v-71141017": () => import(/* webpackChunkName: "v-71141017" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl31-40/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl31-40/thingstodo.html
-  "v-79f92f80": () => import(/* webpackChunkName: "v-79f92f80" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl31-40/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl41-50/discovery.html
-  "v-ad407712": () => import(/* webpackChunkName: "v-ad407712" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl41-50/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl41-50/thingstodo.html
-  "v-4b240720": () => import(/* webpackChunkName: "v-4b240720" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl41-50/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl51-60/discovery.html
-  "v-3ca90e52": () => import(/* webpackChunkName: "v-3ca90e52" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl51-60/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl51-60/thingstodo.html
-  "v-1c4edec0": () => import(/* webpackChunkName: "v-1c4edec0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl51-60/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl61-70/discovery.html
-  "v-19f72d37": () => import(/* webpackChunkName: "v-19f72d37" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl61-70/thingstodo.html
-  "v-250c9340": () => import(/* webpackChunkName: "v-250c9340" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl71-80/discovery.html
-  "v-5242e197": () => import(/* webpackChunkName: "v-5242e197" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl71-80/thingstodo.html
-  "v-82b6e400": () => import(/* webpackChunkName: "v-82b6e400" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/thingstodo.html.js").then(({ data }) => data),
-  // path: /newbie/lvl91-100/discovery.html
-  "v-aa164b1c": () => import(/* webpackChunkName: "v-aa164b1c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl91-100/thingstodo.html
-  "v-7c31b085": () => import(/* webpackChunkName: "v-7c31b085" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/thingstodo.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/level%201%20-%20King's%20Recruit.html
   "v-2850e43d": () => import(/* webpackChunkName: "v-2850e43d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/level 1 - King's Recruit.html.js").then(({ data }) => data),
   // path: /quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html
@@ -155,10 +115,6 @@ export const pagesData = {
   "v-561ea6c4": () => import(/* webpackChunkName: "v-561ea6c4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl101-110/level 102 - Point of No Return.html.js").then(({ data }) => data),
   // path: /quests/lvl101-110/level%20103%20-%20A%20hunter%E2%80%99s%20calling.html
   "v-0f2cb822": () => import(/* webpackChunkName: "v-0f2cb822" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl101-110/level 103 - A hunter’s calling.html.js").then(({ data }) => data),
-  // path: /newbie/lvl81-90/discovery.html
-  "v-eae2d412": () => import(/* webpackChunkName: "v-eae2d412" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl81-90/discovery.html.js").then(({ data }) => data),
-  // path: /newbie/lvl81-90/thingstodo.html
-  "v-e06134c0": () => import(/* webpackChunkName: "v-e06134c0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl81-90/thingstodo.html.js").then(({ data }) => data),
   // path: /quests/lvl11-20/level%2011%20-%20Elemental%20Exercise.html
   "v-36e373ec": () => import(/* webpackChunkName: "v-36e373ec" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl11-20/level 11 - Elemental Exercise.html.js").then(({ data }) => data),
   // path: /quests/lvl11-20/level%2012%20-%20Potion%20Making.html
@@ -197,30 +153,6 @@ export const pagesData = {
   "v-4091e7ae": () => import(/* webpackChunkName: "v-4091e7ae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 28 - The Corrupted Village.html.js").then(({ data }) => data),
   // path: /quests/lvl21-30/level%2030%20-%20The%20Mercenary.html
   "v-1f3c5211": () => import(/* webpackChunkName: "v-1f3c5211" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/level 30 - The Mercenary.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2041%20-%20Heart%20of%20Llevigar.html
-  "v-2df2ed86": () => import(/* webpackChunkName: "v-2df2ed86" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 41 - Heart of Llevigar.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2042%20-%20Star%20Thief.html
-  "v-586f19d9": () => import(/* webpackChunkName: "v-586f19d9" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 42 - Star Thief.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2043%20-%20Fate%20of%20the%20Fallen.html
-  "v-763bf9b4": () => import(/* webpackChunkName: "v-763bf9b4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Fate of the Fallen.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2043%20-%20Underice.html
-  "v-64977eac": () => import(/* webpackChunkName: "v-64977eac" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Underice.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html
-  "v-12b0d2d7": () => import(/* webpackChunkName: "v-12b0d2d7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 44 - Blazing Retribution.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html
-  "v-0e79cb61": () => import(/* webpackChunkName: "v-0e79cb61" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 45 - Bob's Lost Soul.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html
-  "v-1f890e79": () => import(/* webpackChunkName: "v-1f890e79" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 46 - WynnExcavation Site B.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2048%20-%20Frost%20Bite.html
-  "v-7d29be6d": () => import(/* webpackChunkName: "v-7d29be6d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 48 - Frost Bite.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html
-  "v-6e80106a": () => import(/* webpackChunkName: "v-6e80106a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - An Iron Heart Part I.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2049%20-%20Rise%20of%20the%20Quartron.html
-  "v-55ecfb6f": () => import(/* webpackChunkName: "v-55ecfb6f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - Rise of the Quartron.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html
-  "v-a0caa08e": () => import(/* webpackChunkName: "v-a0caa08e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - The House of Twain.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html
-  "v-ab3b52ce": () => import(/* webpackChunkName: "v-ab3b52ce" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 50 - A Grave Mistake.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2031%20-%20Green%20Gloop.html
   "v-a67883ee": () => import(/* webpackChunkName: "v-a67883ee" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 31 - Green Gloop.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2032%20-%20A%20Sandy%20Scandal.html
@@ -245,6 +177,30 @@ export const pagesData = {
   "v-3082357c": () => import(/* webpackChunkName: "v-3082357c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 40 - Ice Nations.html.js").then(({ data }) => data),
   // path: /quests/lvl31-40/level%2040%20-%20Tower%20of%20Ascension.html
   "v-21dc5d7f": () => import(/* webpackChunkName: "v-21dc5d7f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/level 40 - Tower of Ascension.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2041%20-%20Heart%20of%20Llevigar.html
+  "v-2df2ed86": () => import(/* webpackChunkName: "v-2df2ed86" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 41 - Heart of Llevigar.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2042%20-%20Star%20Thief.html
+  "v-586f19d9": () => import(/* webpackChunkName: "v-586f19d9" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 42 - Star Thief.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2043%20-%20Fate%20of%20the%20Fallen.html
+  "v-763bf9b4": () => import(/* webpackChunkName: "v-763bf9b4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Fate of the Fallen.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2043%20-%20Underice.html
+  "v-64977eac": () => import(/* webpackChunkName: "v-64977eac" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 43 - Underice.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2044%20-%20Blazing%20Retribution.html
+  "v-12b0d2d7": () => import(/* webpackChunkName: "v-12b0d2d7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 44 - Blazing Retribution.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2045%20-%20Bob's%20Lost%20Soul.html
+  "v-0e79cb61": () => import(/* webpackChunkName: "v-0e79cb61" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 45 - Bob's Lost Soul.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2046%20-%20WynnExcavation%20Site%20B.html
+  "v-1f890e79": () => import(/* webpackChunkName: "v-1f890e79" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 46 - WynnExcavation Site B.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2048%20-%20Frost%20Bite.html
+  "v-7d29be6d": () => import(/* webpackChunkName: "v-7d29be6d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 48 - Frost Bite.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2049%20-%20An%20Iron%20Heart%20Part%20I.html
+  "v-6e80106a": () => import(/* webpackChunkName: "v-6e80106a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - An Iron Heart Part I.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2049%20-%20Rise%20of%20the%20Quartron.html
+  "v-55ecfb6f": () => import(/* webpackChunkName: "v-55ecfb6f" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - Rise of the Quartron.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2049%20-%20The%20House%20of%20Twain.html
+  "v-a0caa08e": () => import(/* webpackChunkName: "v-a0caa08e" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 49 - The House of Twain.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/level%2050%20-%20A%20Grave%20Mistake.html
+  "v-ab3b52ce": () => import(/* webpackChunkName: "v-ab3b52ce" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/level 50 - A Grave Mistake.html.js").then(({ data }) => data),
   // path: /quests/lvl51-60/level%2051%20-%20The%20Maiden%20Tower.html
   "v-252c470c": () => import(/* webpackChunkName: "v-252c470c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl51-60/level 51 - The Maiden Tower.html.js").then(({ data }) => data),
   // path: /quests/lvl51-60/level%2052%20-%20Corrupted%20Betrayal.html
@@ -407,16 +363,84 @@ export const pagesData = {
   "v-043e79a2": () => import(/* webpackChunkName: "v-043e79a2" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/level 99 - The Hero of Gavel.html.js").then(({ data }) => data),
   // path: /quests/special/Spooky%20Detlas%20Mystery.html
   "v-2fd71356": () => import(/* webpackChunkName: "v-2fd71356" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/special/Spooky Detlas Mystery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl1-10/discovery.html
+  "v-75a63293": () => import(/* webpackChunkName: "v-75a63293" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl1-10/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl1-10/thingstodo.html
+  "v-07ab5c84": () => import(/* webpackChunkName: "v-07ab5c84" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl1-10/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl101-110/discovery.html
+  "v-28bfee26": () => import(/* webpackChunkName: "v-28bfee26" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl101-110/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl101-110/thingstodo.html
+  "v-50ec516a": () => import(/* webpackChunkName: "v-50ec516a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl101-110/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl11-20/discovery.html
+  "v-007ca757": () => import(/* webpackChunkName: "v-007ca757" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl11-20/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl11-20/thingstodo.html
+  "v-50b8ff80": () => import(/* webpackChunkName: "v-50b8ff80" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl11-20/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl21-30/discovery.html
+  "v-38c85bb7": () => import(/* webpackChunkName: "v-38c85bb7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl21-30/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl21-30/thingstodo.html
+  "v-ae635040": () => import(/* webpackChunkName: "v-ae635040" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl21-30/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl31-40/discovery.html
+  "v-71141017": () => import(/* webpackChunkName: "v-71141017" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl31-40/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl31-40/thingstodo.html
+  "v-79f92f80": () => import(/* webpackChunkName: "v-79f92f80" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl31-40/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl41-50/discovery.html
+  "v-ad407712": () => import(/* webpackChunkName: "v-ad407712" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl41-50/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl41-50/thingstodo.html
+  "v-4b240720": () => import(/* webpackChunkName: "v-4b240720" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl41-50/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl51-60/discovery.html
+  "v-3ca90e52": () => import(/* webpackChunkName: "v-3ca90e52" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl51-60/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl51-60/thingstodo.html
+  "v-1c4edec0": () => import(/* webpackChunkName: "v-1c4edec0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl51-60/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl61-70/discovery.html
+  "v-19f72d37": () => import(/* webpackChunkName: "v-19f72d37" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl61-70/thingstodo.html
+  "v-250c9340": () => import(/* webpackChunkName: "v-250c9340" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl71-80/discovery.html
+  "v-5242e197": () => import(/* webpackChunkName: "v-5242e197" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl71-80/thingstodo.html
+  "v-82b6e400": () => import(/* webpackChunkName: "v-82b6e400" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl81-90/discovery.html
+  "v-eae2d412": () => import(/* webpackChunkName: "v-eae2d412" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl81-90/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl81-90/thingstodo.html
+  "v-e06134c0": () => import(/* webpackChunkName: "v-e06134c0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl81-90/thingstodo.html.js").then(({ data }) => data),
+  // path: /newbie/lvl91-100/discovery.html
+  "v-aa164b1c": () => import(/* webpackChunkName: "v-aa164b1c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/discovery.html.js").then(({ data }) => data),
+  // path: /newbie/lvl91-100/thingstodo.html
+  "v-7c31b085": () => import(/* webpackChunkName: "v-7c31b085" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/thingstodo.html.js").then(({ data }) => data),
   // path: /404.html
   "v-3706649a": () => import(/* webpackChunkName: "v-3706649a" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/404.html.js").then(({ data }) => data),
   // path: /guide/advancesystem/
   "v-79d3bdec": () => import(/* webpackChunkName: "v-79d3bdec" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/advancesystem/index.html.js").then(({ data }) => data),
   // path: /guide/basesystem/
   "v-7d15eb83": () => import(/* webpackChunkName: "v-7d15eb83" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/basesystem/index.html.js").then(({ data }) => data),
-  // path: /newbie/lvl1-10/
-  "v-05246a2c": () => import(/* webpackChunkName: "v-05246a2c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl1-10/index.html.js").then(({ data }) => data),
   // path: /guide/raid/
   "v-59cca079": () => import(/* webpackChunkName: "v-59cca079" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/guide/raid/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl1-10/
+  "v-af6bf052": () => import(/* webpackChunkName: "v-af6bf052" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl101-110/
+  "v-c4df3292": () => import(/* webpackChunkName: "v-c4df3292" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl101-110/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl11-20/
+  "v-612d8761": () => import(/* webpackChunkName: "v-612d8761" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl11-20/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl21-30/
+  "v-62e263c1": () => import(/* webpackChunkName: "v-62e263c1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl31-40/
+  "v-64974021": () => import(/* webpackChunkName: "v-64974021" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl41-50/
+  "v-664c1c81": () => import(/* webpackChunkName: "v-664c1c81" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl51-60/
+  "v-6800f8e1": () => import(/* webpackChunkName: "v-6800f8e1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl51-60/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl61-70/
+  "v-69b5d541": () => import(/* webpackChunkName: "v-69b5d541" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl61-70/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl71-80/
+  "v-6b6ab1a1": () => import(/* webpackChunkName: "v-6b6ab1a1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl81-90/
+  "v-6d1f8e01": () => import(/* webpackChunkName: "v-6d1f8e01" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/index.html.js").then(({ data }) => data),
+  // path: /quests/lvl91-100/
+  "v-6bb4cab6": () => import(/* webpackChunkName: "v-6bb4cab6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/index.html.js").then(({ data }) => data),
+  // path: /quests/special/
+  "v-38f78afb": () => import(/* webpackChunkName: "v-38f78afb" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/special/index.html.js").then(({ data }) => data),
+  // path: /newbie/lvl1-10/
+  "v-05246a2c": () => import(/* webpackChunkName: "v-05246a2c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl1-10/index.html.js").then(({ data }) => data),
   // path: /newbie/lvl101-110/
   "v-6a3a66c4": () => import(/* webpackChunkName: "v-6a3a66c4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl101-110/index.html.js").then(({ data }) => data),
   // path: /newbie/lvl11-20/
@@ -433,32 +457,8 @@ export const pagesData = {
   "v-8deb16e4": () => import(/* webpackChunkName: "v-8deb16e4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/index.html.js").then(({ data }) => data),
   // path: /newbie/lvl71-80/
   "v-8a815e24": () => import(/* webpackChunkName: "v-8a815e24" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/index.html.js").then(({ data }) => data),
-  // path: /newbie/lvl91-100/
-  "v-06f41509": () => import(/* webpackChunkName: "v-06f41509" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl1-10/
-  "v-af6bf052": () => import(/* webpackChunkName: "v-af6bf052" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl101-110/
-  "v-c4df3292": () => import(/* webpackChunkName: "v-c4df3292" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl101-110/index.html.js").then(({ data }) => data),
   // path: /newbie/lvl81-90/
   "v-8717a564": () => import(/* webpackChunkName: "v-8717a564" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl81-90/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl11-20/
-  "v-612d8761": () => import(/* webpackChunkName: "v-612d8761" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl11-20/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl21-30/
-  "v-62e263c1": () => import(/* webpackChunkName: "v-62e263c1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl21-30/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl41-50/
-  "v-664c1c81": () => import(/* webpackChunkName: "v-664c1c81" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl41-50/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl31-40/
-  "v-64974021": () => import(/* webpackChunkName: "v-64974021" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl31-40/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl51-60/
-  "v-6800f8e1": () => import(/* webpackChunkName: "v-6800f8e1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl51-60/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl61-70/
-  "v-69b5d541": () => import(/* webpackChunkName: "v-69b5d541" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl61-70/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl71-80/
-  "v-6b6ab1a1": () => import(/* webpackChunkName: "v-6b6ab1a1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl81-90/
-  "v-6d1f8e01": () => import(/* webpackChunkName: "v-6d1f8e01" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/index.html.js").then(({ data }) => data),
-  // path: /quests/lvl91-100/
-  "v-6bb4cab6": () => import(/* webpackChunkName: "v-6bb4cab6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/index.html.js").then(({ data }) => data),
-  // path: /quests/special/
-  "v-38f78afb": () => import(/* webpackChunkName: "v-38f78afb" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/special/index.html.js").then(({ data }) => data),
+  // path: /newbie/lvl91-100/
+  "v-06f41509": () => import(/* webpackChunkName: "v-06f41509" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/index.html.js").then(({ data }) => data),
 }

@@ -709,6 +709,10 @@
 <p>使用<code v-pre>/kill</code>快速减少时间是非常不错的选择</p>
 <p>但是要注意退出重登会导致<code v-pre>获得时间</code>的进度清零！(疑似BUG)</p>
 </div>
+<div class="hint-container danger">
+<p class="hint-container-title">警告</p>
+<p>请绝对不要尝试在最后一轮完成时同时把任务条件完成，轮次结算在任务条件结算前，这会导致你的任务无法正常结算！</p>
+</div>
 <div class="hint-container tip">
 <p class="hint-container-title">关于Ultimate Sacrifice</p>
 <p>Ultimate Sacrifice的实际效果是：</p>
