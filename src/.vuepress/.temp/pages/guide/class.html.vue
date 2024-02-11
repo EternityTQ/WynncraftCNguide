@@ -269,7 +269,7 @@
 </ul>
 </template>
 <template #tab1="{ value, isActive }">
-<p>陷阱射手并不对自身的箭雨进行提升，而是提升炸弹箭的属性，并且能在炸弹箭的落点处放置地雷对目标再度造成伤害</p>
+<p>陷阱射手并不对自身的箭雨进行提升，而是提升爆炸箭的属性，并且能在爆炸箭的落点处放置地雷对目标再度造成伤害</p>
 <p>陷阱射手也可以将自身后跳能力转化为抓钩，这是一个更适合设陷者技能树的位移技能</p>
 <p>版本更新后，陷阱射手的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼</p>
 <p>陷阱射手的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出</p>
@@ -279,7 +279,7 @@
 <p>Byrophyte Roots：箭暴对怪物造成伤害时会造成减速aoe</p>
 </li>
 <li>
-<p>Basaltic Trap：炸弹箭击中地面时会放置陷阱</p>
+<p>Basaltic Trap：爆炸箭击中地面时会放置陷阱</p>
 </li>
 <li>
 <p>Call of the Hound：剑盾会生成自动攻击的狗</p>
@@ -321,7 +321,7 @@
 <p>Initiator：未造成伤害4秒以后击中怪物将增伤60%并提供+1 Focus</p>
 </li>
 <li>
-<p>Coursing Restraints：炸弹箭会降低怪物防御值</p>
+<p>Coursing Restraints：爆炸箭会降低怪物防御值</p>
 </li>
 </ul>
 </template>
@@ -534,15 +534,15 @@
     <img
       src="/assets/img/class/archer_green.png"
       alt="Your Image"
-      @mouseover="showTooltip('箭弹')"
+      @mouseover="showTooltip('爆炸箭')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
       class="t48"
       @click.prevent="handleClick"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '爆炸箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#00BB00"><b>箭弹</b></font>
+      <font color="#00BB00"><b>爆炸箭</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 右键</font>
       <br>
       <br><font color = BBBBBB>射出一支远距离的箭矢，其命中后会爆炸，并在大范围内造成伤害。</font><font color = 555555><br>(并对自己造成爆炸伤害10%的伤害)</font>
@@ -610,16 +610,16 @@
 <td><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('箭弹减耗1')"
+      @mouseover="showTooltip('爆炸箭减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '箭弹减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '爆炸箭减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>箭弹减耗I</b></font>
+      <font color="#FFFFFF"><b>爆炸箭减耗I</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF> -10</font></font>
+      <br><font color = BBBBBB><u>爆炸箭</u>的技能消耗<font color = FFFFFF> -10</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -666,7 +666,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>碎心</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
+      <br><font color = BBBBBB><u>爆炸箭</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -1108,7 +1108,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>火焰轨迹</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>将会点燃飞行沿途区域持续<font color=FFFFFF>6秒</font>(3秒冷却)，期间持续对在其上方的敌人每<font color = white> 0.4秒 </font>造成伤害</font>
+      <br><font color = BBBBBB><u>爆炸箭</u>将会点燃飞行沿途区域持续<font color=FFFFFF>6秒</font>(3秒冷却)，期间持续对在其上方的敌人每<font color = white> 0.4秒 </font>造成伤害</font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
@@ -1239,7 +1239,7 @@
       <!-- 提示文本内容 -->
       <font color=FF5555><b>磐石陷阱</b></font>
       <br>
-      <br><font color = BBBBBB>使用<u>箭弹</u>击打到地面时，留下一个可以伤害到敌人的<font color=AQUA>陷阱</font>(至多2个)
+      <br><font color = BBBBBB>使用<u>爆炸箭</u>击打到地面时，留下一个可以伤害到敌人的<font color=AQUA>陷阱</font>(至多2个)
       <br>
       <br>触发范围：<font color=WHITE> 2格</font>
       <br>爆炸范围：<font color=WHITE> 7格</font>
@@ -1277,7 +1277,7 @@
       <br>
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB><u>幻影射线</u>只需要命中一次敌人就不会丢失专注值。
-      <br><u>箭弹</u>必须要直接击打到敌人才不会丢失专注值。
+      <br><u>爆炸箭</u>必须要直接击打到敌人才不会丢失专注值。
       <br>随从的攻击无法给自身叠加专注值。
       <br>类似<u>箭雨滂沱</u>的技能，一旦有一根箭矢空箭了，就算作一次失误。</font>
     </div>
@@ -1350,7 +1350,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>内爆</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>会将敌人拉向自己。如果周围有<font color=aqua>陷阱</font>，则会将怪物拉向<font color=aqua>陷阱</font>而不是自己
+      <br><font color = BBBBBB><u>爆炸箭</u>会将敌人拉向自己。如果周围有<font color=aqua>陷阱</font>，则会将怪物拉向<font color=aqua>陷阱</font>而不是自己
       <br>
       <br>额外增加<u>碎心</u>的伤害</font>
       <br>
@@ -1562,7 +1562,7 @@
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>弹跳炸弹</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>攻击到敌人或击打到地面时，弹跳一次</font>
+      <br><font color = BBBBBB><u>爆炸箭</u>攻击到敌人或击打到地面时，弹跳一次</font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
@@ -1634,7 +1634,7 @@
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>火箭飞跃</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的反冲力增加，同时其对自己造成的伤害降低至<font color = FFFFFF> 1% </font></font>
+      <br><font color = BBBBBB><u>爆炸箭</u>的反冲力增加，同时其对自己造成的伤害降低至<font color = FFFFFF> 1% </font></font>
     </div>
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
@@ -1705,7 +1705,7 @@
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>精致火药</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的基础伤害增加<font color = FFFFFF> +50%</font></font>
+      <br><font color = BBBBBB><u>爆炸箭</u>的基础伤害增加<font color = FFFFFF> +50%</font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
@@ -1780,7 +1780,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>震撼弹</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>不再受到重力下坠影响，同时增加爆炸伤害</font>
+      <br><font color = BBBBBB><u>爆炸箭</u>不再受到重力下坠影响，同时增加爆炸伤害</font>
       <br>
       <br><font color=FF55FF><b>鹰眼射手 分支</b> </font>
     </div>
@@ -2073,7 +2073,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>破片炸弹</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>命中并爆炸后，产生<font color=white> 15 </font>枚弹片，对大范围内的敌人造成伤害。</font>
+      <br><font color = BBBBBB><u>爆炸箭</u>命中并爆炸后，产生<font color=white> 15 </font>枚弹片，对大范围内的敌人造成伤害。</font>
       <br>
       <br><font color=FFFF55><b>闪击射手 分支</b></font>
     </div>
@@ -2361,7 +2361,7 @@
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>分裂炸弹</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>在爆炸时将额外分裂出<font color=WHITE> 2个 </font>小型炸弹</font>
+      <br><font color = BBBBBB><u>爆炸箭</u>在爆炸时将额外分裂出<font color=WHITE> 2个 </font>小型炸弹</font>
       <br>
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB>如果点了<u>磐石陷阱</u>，则分裂出的炸弹在击打到地面时仍然可以生成新的陷阱</font>
@@ -2405,7 +2405,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>空灵</b></font>
       <br>
-      <br><font color=BBBBBB>当你连续<font color=white> 4秒以上 </font>没有受到攻击时，免疫<u>箭弹</u>对自己造成的伤害，同时<u>箭雨</u>取消后坐力</font>
+      <br><font color=BBBBBB>当你连续<font color=white> 4秒以上 </font>没有受到攻击时，免疫<u>爆炸箭</u>对自己造成的伤害，同时<u>箭雨</u>取消后坐力</font>
       <br><font color=555555>(被闪避的攻击不视作被击中)</font>
       <br>
       <br><font color=FFFF55><b>闪击射手 分支</b></font>
@@ -2470,16 +2470,16 @@
 <td><span id="Cheaper_Arrow_Bomb_II"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('箭弹减耗2')"
+      @mouseover="showTooltip('爆炸箭减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '箭弹减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '爆炸箭减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>箭弹减耗 II</b></font>
+      <font color="#FFFFFF"><b>爆炸箭减耗 II</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的技能消耗<font color = FFFFFF>-5</font></font>
+      <br><font color = BBBBBB><u>爆炸箭</u>的技能消耗<font color = FFFFFF>-5</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -3190,13 +3190,13 @@
 <td><span id="Meteor"></span><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
-      @mouseover="showTooltip('箭弹')"
+      @mouseover="showTooltip('爆炸箭')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
       class="t48"
       @click.prevent="handleClick"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '爆炸箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="#00BB00"><b>陨石</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
