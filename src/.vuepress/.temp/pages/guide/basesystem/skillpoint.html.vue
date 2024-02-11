@@ -1,6 +1,6 @@
 <template><div><div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>属性点数的游戏内翻译是Skill Point<br>
+<p>属性点数游戏内是指是Skill Point<br>
 注意不要和能力点数(Ability Point)搞混！</p>
 </div>
 <p>Wynncraft共有五个属性点，具体属性效果可以在手持物品栏倒数第三格的指南针时右键打开如下界面<br>
@@ -9,7 +9,7 @@
 加点方法：</p>
 <p>左键点击属性可以为该属性分配一点属性点(按住Shift为5点)</p>
 <p>右键点击属性可以撤回该属性一点分配(按住Shift为5点)</p>
-<p>（在按住shift时右键属性点会出现一个√，是二次确认，防止点错）。</p>
+<p>撤回属性点会出现一个√，是二次确认，防止点错</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>你需要在安全区域内才可以撤回属性点！</p>
@@ -49,6 +49,9 @@
 <p>你只可以手动分配100点给同一个属性点</p>
 <p>同时属性点上限是150，超过这个数值不会获得任何额外效果</p>
 </div>
+<h2 id="我该如何选择属性点" tabindex="-1"><a class="header-anchor" href="#我该如何选择属性点" aria-hidden="true">#</a> 我该如何选择属性点？</h2>
+<p>永远记住属性点是先为你的装备服务的</p>
+<p>你应该要先保证你的属性点足够穿上目标装备，然后再来考虑额外要加什么点。</p>
 </div></template>
 
 
