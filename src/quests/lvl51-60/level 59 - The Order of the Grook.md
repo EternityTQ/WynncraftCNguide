@@ -28,13 +28,13 @@ icon: route
 
 7 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，此处选择的内容影响任务奖励，如下表
 
-| Wand | Book | Wand Reward | Book Reward |
+| Wand | Wand Reward | Book | Book Reward |
 | ------ | ------ | ------ | ------ |
-| Oak Wood Wand | The Tome of Nature Magick | No Reward | 10 EB |
-| Avo Phoenix Wand | The Teaching of Exal | Draoi Fair | 14 EB |
-| Dragon Bone Wand | The Teachings of a Wizard | Dragon's Eye Bracelet | 32 EB |
-| Sky Wood Rukh Wand | The Ancient Teachings | Renda Langit | 10 EB |
-| Birch Undead Wand | The Tome of Old Magicks | No Reward | 24 EB |
+| Oak Grook Feather Wand | Draoi Fair | The Tome of Nature Magick | 10 EB |
+| Avo Phoenix Wand | Draoi Fair | The Teaching of Exal | 28 EB |
+| Dragon Bone Wand | Dragon's Eye Bracelet | The Teachings of a Wizard | 32 EB |
+| Sky Wood Rukh Wand | Renda Langit | The Ancient Teachings | 10 EB |
+| Birch Undead Wand | Dragon's Eye Bracelet | The Tome of Old Magicks | 36 EB |
 
 8 前往`[6718 49 4391]`，进入Grookwarts
 
@@ -108,5 +108,5 @@ Corruption 打开笼子，老师让你跑就立刻跑
 奖励
 + 242500 经验
 + 640/896/1728/2048 绿宝石
-+ 允许使用 magic tunnel fast travel
-+ 1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时长会用在毕业配装内)
++ 允许使用 magic tunnel fast travel(快捷传送通道)
++ 1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时常会用在毕业配装内)
