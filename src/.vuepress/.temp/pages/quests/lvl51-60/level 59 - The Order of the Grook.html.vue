@@ -19,41 +19,41 @@
 <thead>
 <tr>
 <th>Wand</th>
-<th>Book</th>
 <th>Wand Reward</th>
+<th>Book</th>
 <th>Book Reward</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Oak Wood Wand</td>
+<td>Oak Grook Feather Wand</td>
+<td>Draoi Fair</td>
 <td>The Tome of Nature Magick</td>
-<td>No Reward</td>
 <td>10 EB</td>
 </tr>
 <tr>
 <td>Avo Phoenix Wand</td>
-<td>The Teaching of Exal</td>
 <td>Draoi Fair</td>
-<td>14 EB</td>
+<td>The Teaching of Exal</td>
+<td>28 EB</td>
 </tr>
 <tr>
 <td>Dragon Bone Wand</td>
-<td>The Teachings of a Wizard</td>
 <td>Dragon's Eye Bracelet</td>
+<td>The Teachings of a Wizard</td>
 <td>32 EB</td>
 </tr>
 <tr>
 <td>Sky Wood Rukh Wand</td>
-<td>The Ancient Teachings</td>
 <td>Renda Langit</td>
+<td>The Ancient Teachings</td>
 <td>10 EB</td>
 </tr>
 <tr>
 <td>Birch Undead Wand</td>
+<td>Dragon's Eye Bracelet</td>
 <td>The Tome of Old Magicks</td>
-<td>No Reward</td>
-<td>24 EB</td>
+<td>36 EB</td>
 </tr>
 </tbody>
 </table>
@@ -105,8 +105,8 @@
 <ul>
 <li>242500 经验</li>
 <li>640/896/1728/2048 绿宝石</li>
-<li>允许使用 magic tunnel fast travel</li>
-<li>1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时长会用在毕业配装内)</li>
+<li>允许使用 magic tunnel fast travel(快捷传送通道)</li>
+<li>1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时常会用在毕业配装内)</li>
 </ul>
 </div></template>
 

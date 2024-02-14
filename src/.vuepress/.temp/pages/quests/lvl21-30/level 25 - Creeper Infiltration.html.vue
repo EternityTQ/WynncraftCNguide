@@ -2,10 +2,10 @@
 <p><span style="font-size: 25px;"><strong>苦力怕入侵</strong></span></p>
 <p>1.和Tempo Town的<font color=00AA00><strong>Thomas</strong></font><code v-pre>[-307 53 -1174]</code>对话</p>
 <p>2.进入<code v-pre>[-790 91 -1337]</code>的山路，跟着绿色地毯一直走，然后走到尽头，触发剧情</p>
-<p>3.你被炸回了村庄的树上，旁边有个creeper skin，击杀它，拿着掉落物<code v-pre>creeper skin</code>给<font color=00AA00><strong>Thomas</strong></font><code v-pre>[-608 89 -1431]</code></p>
-<p>4.杀掉<code v-pre>[-838 88 -1261]</code>的pigman overlord拿到<code v-pre>pigman hide</code>然后回去交给<font color=00AA00><strong>Thomas</strong></font></p>
+<p>3.你被炸回了村庄的树上，旁边有个<font color=00AA00><strong>creeper skin</strong></font>，击杀它，拿着掉落物<code v-pre>creeper skin</code>给<font color=00AA00><strong>Thomas</strong></font><code v-pre>[-608 89 -1431]</code></p>
+<p>4.杀掉<code v-pre>[-838 88 -1261]</code>的<font color=FF5555><strong>pigman overlord</strong></font>拿到<code v-pre>pigman hide</code>然后回去交给<font color=00AA00><strong>Thomas</strong></font></p>
 <p>5.拿着<code v-pre>creeper skin</code>和<code v-pre>pigman hide</code>在村庄里的面具商店<code v-pre>[-585 89 -1426]</code>买一个<code v-pre>creeper mask</code></p>
-<p>6.进入苦力怕藏身之处<code v-pre>[-585 89 -1426]</code>(需要装备creeper mask才能进入，注意直到离开都不能脱下来)，完成跑酷，进入洞里，看见一个闪电苦力怕creeper follower，他会跟着你，帮你炸开洞口，然后带回苦力怕存在的证据(火药)给<font color=00AA00><strong>Thomas</strong></font></p>
+<p>6.进入苦力怕藏身之处<code v-pre>[-585 89 -1426]</code>(需要装备creeper mask才能进入，注意直到离开都不能脱下来)，完成跑酷，进入洞里，看见一个闪电苦力怕<font color=aqua><strong>creeper follower</strong></font>，他会跟着你，帮你炸开洞口，然后带回苦力怕存在的证据(火药)给<font color=00AA00><strong>Thomas</strong></font></p>
 <p>这里的苦力怕不会攻击你，火药在地上自己捡就行了</p>
 <p>奖励</p>
 <ul>

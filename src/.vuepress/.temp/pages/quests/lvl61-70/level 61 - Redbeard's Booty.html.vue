@@ -8,7 +8,7 @@
 <blockquote>
 <p>(在<strong>Galleon's Graveyard</strong>，海盗湾和Selchar可以坐船去)</p>
 </blockquote>
-<p>2 和Marston’s Crew<code v-pre>[-659 43 -3154]</code>对话(抵达海盗湾后右边第一座屋子)</p>
+<p>2 和<font color=00AA00><strong>Marston’s Crew</strong></font><code v-pre>[-659 43 -3154]</code>对话(抵达海盗湾后右边第一座屋子)</p>
 <p>3 在海盗湾码头坐船出发(下图红圈处的船)<br>
 <img src="@source/.vuepress/public/assets/img/lvl61-1.jpg" alt="" loading="lazy"></p>
 <p>4 找到宝藏,到一片海域之后有三小块陆地,靠近可以传送,需要找到三个地图碎片</p>

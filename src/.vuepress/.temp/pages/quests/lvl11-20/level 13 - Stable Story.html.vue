@@ -5,7 +5,7 @@
 <p>解锁马匹系统</p>
 </div>
 <p>1.和<strong>Detlas</strong>旁边的<font color=00AA00><strong>Enkser</strong></font><code v-pre>[561 67 -1598]</code>对话</p>
-<p>2.来到<strong>Ternaves</strong>的马棚<code v-pre>[836 69 -1649]</code>,下去一直走直到杀死小BOSS</p>
+<p>2.来到<strong>Ternaves</strong>的马棚<code v-pre>[836 69 -1649]</code>，下去一直走直到杀死小BOSS</p>
 <p>3.拿到钥匙后回去<strong>Detlas</strong>找<font color=00AA00><strong>Enkser</strong></font></p>
 <p>奖励</p>
 <ul>

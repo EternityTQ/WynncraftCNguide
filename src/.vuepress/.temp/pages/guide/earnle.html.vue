@@ -40,6 +40,7 @@
 <p>其实，前期的副职材料中，1级原料反而是最值钱的</p>
 <p>因为有很多懒狗做每日的时候没有副职等级，也完全懒得去采，就会选择去市场直接买现有的...</p>
 <p>而且有些时候1级原料甚至还会缺货</p>
+<p>所以，不去试试把握商机么？比如1级鱼油和1级铜矿...</p>
 </div>
 <h2 id="通过刷怪物掉落的材料-装备来售卖" tabindex="-1"><a class="header-anchor" href="#通过刷怪物掉落的材料-装备来售卖" aria-hidden="true">#</a> 通过刷怪物掉落的材料/装备来售卖</h2>
 <p>部分怪物掉落的素材效果强劲，且市场出售数量并不算多</p>
@@ -50,20 +51,16 @@
 <p class="hint-container-title">提示</p>
 <p>以下都是后期内容了哦！</p>
 </div>
-<h2 id="完成腐化地牢-raid" tabindex="-1"><a class="header-anchor" href="#完成腐化地牢-raid" aria-hidden="true">#</a> 完成腐化地牢/raid</h2>
-<p>在完成8/8 run或者raid后</p>
-<p>你可以通过售卖最终奖励中的值钱物品来赚取绿宝石</p>
-<p>众所周知的值钱货有88 run中的<code v-pre>gale's sight</code>和tna中的<code v-pre>Aleph Null</code>以及各类马</p>
-<p>并且88 run还有机会出神话</p>
-<p>当然，以上两种方式均需要入场费</p>
-<p>腐化地牢需要runes和keys，raid需要runes</p>
-<p>对于腐化地牢来说，入场费相对较贵，请知悉。</p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>不知道<RouterLink to="/guide/dungeon.html">88 run</RouterLink>和<RouterLink to="/guide/raid.html">raid</RouterLink>是什么？</p>
-<p>你可以点开链接看一下！</p>
-</div>
+<h2 id="raid" tabindex="-1"><a class="header-anchor" href="#raid" aria-hidden="true">#</a> raid</h2>
+<p>游戏终期的raid--TNA能够产出大量的绿宝石以及马匹、粉末等资源</p>
+<p>你可以通过肝tna来获取大量绿宝石，速度足够的话效率约为1小时64le(要非常非常快的速度)</p>
+<p>但是，需要注意的是你最好先配好合适的装备以及了解机制后再来搬砖，否则会面临被野队踢出去的风险！</p>
+<p>建议在熟练之前还是先和群友混车吧！记得多多参与群内车队！</p>
+<p>什么？不知道TNA是什么？还不快看看<RouterLink to="/guide/raid/tna.html">这篇文章</RouterLink></p>
 <h2 id="lootrun" tabindex="-1"><a class="header-anchor" href="#lootrun" aria-hidden="true">#</a> Lootrun</h2>
+<p>目前，神话的最佳获取方式是lootrun</p>
+<p>如果你在lr运气够好，爆出神话来，就能为你的游戏增添第一桶金了</p>
+<p>但是要注意的是，lr也是后期内容，对你的装备要求是极高的！</p>
 <p>对于lootrun，可以看看<RouterLink to="/guide/lootrun.html">这一章</RouterLink></p>
 <h2 id="赌博-特指鉴定游戏中的装备" tabindex="-1"><a class="header-anchor" href="#赌博-特指鉴定游戏中的装备" aria-hidden="true">#</a> 赌博（特指鉴定游戏中的装备）</h2>
 <div class="hint-container warning">
@@ -74,7 +71,7 @@
 <p>对于任何装备，拥有一个非常不错的鉴定值往往能卖出非常好看的价格</p>
 <p>你可以通过购买市场上未鉴定的装备来进行鉴定</p>
 <p>如果能鉴定出非常好看的鉴定值，可能可以卖出高价！</p>
-<p>请注意：只有这件装备最重要的几条词条鉴定好了，才能算是“好看”</p>
+<p>请注意：只有这件装备<strong>最重要的几条词条</strong>鉴定好了，才能算是<strong>好看</strong></p>
 <p>但是一般来说，想鉴定出能卖到超过未鉴定的价格的装备是比较难的。</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
