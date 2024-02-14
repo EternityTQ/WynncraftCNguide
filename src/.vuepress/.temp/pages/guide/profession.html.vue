@@ -1,10 +1,19 @@
-<template><div><p>副职在wynn中其实并不是一个必须要游玩的内容</p>
-<p>对于玩家而言，这个内容更像是后期<s>闲的没事</s>的休闲（一点也不）内容。</p>
+<template><div><p>副职在wynn中其实并不是一个必须要游玩的内容，但是一些重要配装和消耗品均依赖于副职系统</p>
+<p>尽管可以委托其他副职系统足够高的玩家帮忙制作，但还是自己做比较方便，对吧？</p>
+<p>卷轴、食物等强力消耗品均只有在副职系统中通过自己DIY才能获取</p>
 <p>对于新手而言，练习副职是消耗时间过多且效率低下的玩法。</p>
-<p>在这里，我只会对副职进行简单的介绍（部分摘自moe_block的自制系统简介）。</p>
-<p>打开物品栏的指南针后，我们将鼠标移动至铁斧的图标上，可以看到我们所有的副职等级，<br>
-<img src="/assets/img/prof1.jpg" alt="" loading="lazy"></p>
+<p>打开物品栏的指南针后，我们将鼠标移动至铁斧的图标上，可以看到我们所有的副职等级，</p>
+<figure><img src="/assets/img/prof1.jpg" alt="" width="330" height="450" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>副职主要分为<strong>采集</strong>和<strong>制作</strong>两大板块</p>
+<div class="hint-container tip">
+<p class="hint-container-title">关于翻译</p>
+<p>Material在本篇译为原料</p>
+<p>Ingredients在本篇中译为素材</p>
+<p>实际上两者正确的翻译是反过来的</p>
+<p>但是这么称呼更贴切其原本的效果(原料指最重要的主材，素材指额外添加的材料)</p>
+<p>同时早期的汉化也沿用了这一翻译</p>
+<p>因此本篇将全部采用此翻译，请知悉</p>
+</div>
 <h2 id="采集" tabindex="-1"><a class="header-anchor" href="#采集" aria-hidden="true">#</a> 采集</h2>
 <p>首先，你需要找到<RouterLink to="/guide/npcs.html#tool-merchant">Tool Merchant</RouterLink>购买1-2级的工具</p>
 <p>有了工具后，你就可以对资源进行开采了</p>
@@ -19,10 +28,10 @@
 <p>为了提高练级效率，强烈建议你在刚解锁新工具/新资源时就进行切换</p>
 </div>
 <p>在开采时，有概率失败。</p>
-<p>当你的工具耐久越低时，失败概率越高，失去耐久时不会得到产物</p>
+<p>当你的工具耐久越低时，失败概率越高，<strong>失去耐久时</strong>不会得到产物</p>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
-<p>携带同职业的可用工具会导致你的开采失败概率大幅度提高！</p>
+<p>携带<strong>同职业</strong>的<strong>可用工具</strong>会导致你的开采失败概率大幅度提高！</p>
 <p>请注意请不要在采集时携带备用工具，低等级的工具也是不允许的</p>
 <p>但是你可以提前带高等级的工具，未到使用等级的工具不会被视作可用工具</p>
 </div>
@@ -67,19 +76,25 @@
 <p>因此，不是很建议在没有bomb的情况下进行副职练级</p>
 <p>关于Bombs可以看<RouterLink to="/guide/VIP.html#bombs">这一章</RouterLink></p>
 <p>同时，一些自制素材也能提供采集经验加成</p>
-<p>你可以购买素材让大佬帮忙制作带有高额采集经验加成的装备(最高可以额外提供约150%的采集经验加成)</p>
+<p>你可以购买素材让大佬帮忙制作带有高额采集经验加成的装备，最高可以额外提供约150%的采集经验加成</p>
 <p>当然，这些素材和材料<strong>相当非常无比贵</strong>，请注意衡量成本</p>
+<p>此外，一般每隔一段时间(约3个月或重大节日)将会开启为期3天的双倍经验周末活动</p>
+<p>在此期间，与pxp叠加时，你可以同时获得3倍的采集/制作经验加成</p>
+<p>这意味着你将会大大节省时间成本！</p>
+<p>遇到双倍经验周末了就不要放过了！</p>
 <h2 id="制作" tabindex="-1"><a class="header-anchor" href="#制作" aria-hidden="true">#</a> 制作</h2>
 <p>一般来说，在城镇中分布着各个制作副职的工作台，比如下图是药水制造的酿造台：</p>
-<figure><img src="/assets/img/prof4.jpg" alt="每种制造业都有一个类似的工作台" tabindex="0" loading="lazy"><figcaption>每种制造业都有一个类似的工作台</figcaption></figure>
+<figure><img src="/assets/img/prof4.jpg" alt="每种制造业都有一个类似的工作台" width="300" height="400" tabindex="0" loading="lazy"><figcaption>每种制造业都有一个类似的工作台</figcaption></figure>
 <p>与其交互后即可打开制作界面(每种制作副职都有一样的界面！)</p>
 <figure><img src="/assets/img/prof5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>在这个界面的左边两格，是用于存放原材料（即采集获得的材料）</p>
 <p>而中间六格则是用于存放功能素材（可以通过打怪/开箱子获得）</p>
 <p><strong>制作产物的属性主要由素材来决定</strong></p>
 <p>部分功能素材的不同摆放方式会为最后的成品带来不一样的效果。</p>
-<p>放置了素材的1-30级消耗品基础只能使用1次，31-70级2次，71级以上3次。</p>
-<p>与此类似，1-30级自制武器装备只有1个粉槽，31-70级2个，71级以上3个。</p>
+<p>原料的星级会影响产物的耐久或者持续时间</p>
+<p>素材分为0星，1星，2星，3星。星级仅表示稀有度，基本与强度不相关。</p>
+<p>各种星级的素材都可能是比较实用的材料。</p>
+<p>使用更高稀有度的材料进行制作时，得到的经验更多</p>
 <div class="hint-container tip">
 <p class="hint-container-title">当你在制作时不放置任何素材</p>
 <ul>
@@ -104,9 +119,6 @@
 <p>使用修理碎片在铁匠处可以修复自制物品的耐久</p>
 <p><strong>在修理耐久时，可以直接使用放置在银行内的修理碎片</strong></p>
 </div>
-<p>素材分为0星，1星，2星，3星。星级仅表示稀有度，与强度不相关。</p>
-<p>各种星级的素材都可能是比较实用的材料。</p>
-<p>使用更高稀有度的材料进行制作时，得到的经验更多</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>素材的等级限制表示其只能用于对应等级或者更高的配方中合成，</p>
@@ -329,6 +341,30 @@
 <td></td>
 <td><HopeIcon icon="splotch" /><HopeIcon icon="splotch" /></td>
 <td></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>产物等级</th>
+<th>1-30</th>
+<th>31-70</th>
+<th>71+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>消耗品基础使用次数</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>武器装备基础粉槽数</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
 </tr>
 </tbody>
 </table>

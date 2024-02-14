@@ -10,8 +10,11 @@
 </div>
 <h2 id="总体介绍" tabindex="-1"><a class="header-anchor" href="#总体介绍" aria-hidden="true">#</a> 总体介绍</h2>
 <h3 id="进入地牢前" tabindex="-1"><a class="header-anchor" href="#进入地牢前" aria-hidden="true">#</a> 进入地牢前</h3>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
 <p>玩家群体间交流副本往往用简称的形式，即副本名称的首字母大写</p>
-<p>地牢门口一般都会有药水商人的副本商人</p>
+</div>
+<p>地牢门口一般都会有药水商人和副本商人</p>
 <p>药水商人会以在城镇中贵一截(数倍?)的价格出售治疗药水</p>
 <p>副本商人会出售副本特色武器装备以及部分道具</p>
 <p>在进入地牢前，你需要准备钥匙(相当于入场券)</p>
