@@ -10,7 +10,7 @@ icon: skull
 1 跟<font color=00AA00>**Marston**</font>在`[-608 40 -3546]`谈话
 >(在**Galleon's Graveyard**，海盗湾和Selchar可以坐船去)
 
-2 和Marston’s Crew`[-659 43 -3154]`对话(抵达海盗湾后右边第一座屋子)
+2 和<font color=00AA00>**Marston’s Crew**</font>`[-659 43 -3154]`对话(抵达海盗湾后右边第一座屋子)
 
 3 在海盗湾码头坐船出发(下图红圈处的船)
 ![](../../.vuepress/public/assets/img/lvl61-1.jpg)
