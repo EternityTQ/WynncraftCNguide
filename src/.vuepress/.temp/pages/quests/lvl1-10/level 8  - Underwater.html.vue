@@ -1,12 +1,8 @@
 <template><div><h1 id="underwater-level-8" tabindex="-1"><a class="header-anchor" href="#underwater-level-8" aria-hidden="true">#</a> Underwater ( level 8 )</h1>
 <p><span style="font-size: 25px;"><strong>潜藏之物</strong></span></p>
-<div class="hint-container tip">
-<p class="hint-container-title">提示</p>
-<p>使用有游泳动作的版本完成此任务效果更佳</p>
-</div>
 <p>1.与<font color=00AA00><strong>Omango</strong></font><code v-pre>[-540 34 -2020]</code>对话</p>
-<p>2.经过旁边的洞穴来到<font color=00AA00><strong>Sayrr</strong></font><code v-pre>[-408 40 -2155]</code>的船上并与其对话<br>
-(直接走也行，但你等会还要回洞穴)</p>
+<p>2.<strong>穿过</strong>旁边的洞穴，来到<font color=00AA00><strong>Sayrr</strong></font><code v-pre>[-408 40 -2155]</code>的船上并与其对话<br>
+(直接从地表去坐标点也行，但你等会还要回洞穴，不如先走一遍熟悉一下路)</p>
 <p>3.对话后拿到钓鱼竿，回刚才的洞穴内钓10条鱼，推荐该坐标点的洞穴内钓鱼<code v-pre>[-438 9 -2062]</code>，<strong>注意要的是鱼肉，右键采集</strong></p>
 <p>4.回<font color=00AA00><strong>Sayrr</strong></font>交差<code v-pre>[-408 40 -2155]</code></p>
 <p>5.回到<font color=00AA00><strong>Omango</strong></font>旁边的船<code v-pre>[-540 34 -2020]</code>，穿上给你的潜水头盔后进入船底一直潜水到最深处，打破宝箱拿走宝藏后离开</p>
