@@ -18,7 +18,7 @@
 <p>首先，你需要找到<RouterLink to="/guide/npcs.html#tool-merchant">Tool Merchant</RouterLink>购买1-2级的工具</p>
 <p>有了工具后，你就可以对资源进行开采了</p>
 <p>当你靠近可开采的资源点后，你就可以看到开采提示了</p>
-<figure><img src="/assets/img/prof6.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="/assets/img/prof6.jpg" alt="" width="400" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>需要注意的是，对于每一类资源来说，左键与右键对应着不同的产物，在下面会有介绍</p>
 <p>采集所得到的原料都将用于制造副职中</p>
 <div class="hint-container tip">

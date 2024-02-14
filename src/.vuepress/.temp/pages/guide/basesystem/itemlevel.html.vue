@@ -6,7 +6,7 @@
 <h2 id="装备词条" tabindex="-1"><a class="header-anchor" href="#装备词条" aria-hidden="true">#</a> 装备词条</h2>
 <p>对于一件装备，我们拿到之后应该先看什么东西呢？接下来我会以几件装备为例子详细展开说明</p>
 <p>建议安装wynntils这个模组，因为可以查看词条的鉴定度，非常方便。先以武器为例：</p>
-<figure><img src="/assets/img/id1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+<figure><img src="/assets/img/id1.jpg" alt="" width="400" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <ul>
 <li>①：武器的名称，右侧百分比为Wynntils的功能，代表武器的总鉴定度</li>
 </ul>
@@ -69,7 +69,7 @@ Super Slow: 0.51</p>
 </div>
 <p>在武器最下方一般还会有介绍，讲述了该件装备/武器的历史<br>
 <s>萨满武器没有介绍</s></p>
-<p>对于装备而言就不过多占篇幅介绍了，区别就在装备一般会有血量属性和元素防御属性，很好理解，元素防御会在下文介绍。</p>
+<p>对于装备而言就不过多占篇幅介绍了，区别就在装备一般会有血量属性和元素防御属性，很好理解</p>
 <h2 id="装备品质" tabindex="-1"><a class="header-anchor" href="#装备品质" aria-hidden="true">#</a> 装备品质</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
