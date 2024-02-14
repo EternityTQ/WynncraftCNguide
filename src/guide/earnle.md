@@ -104,6 +104,7 @@ icon: coins
 
 建议在熟练之前还是先和群友混车吧！记得多多参与群内车队！
 
+什么？不知道TNA是什么？还不快看看[这篇文章](/guide/raid/tna.html)
 
 ## Lootrun
 
