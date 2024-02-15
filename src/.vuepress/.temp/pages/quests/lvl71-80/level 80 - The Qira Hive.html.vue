@@ -184,7 +184,7 @@
 </ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>所有的Voucher(凭证)可以在Hive进门左侧下方的商店兑换物品</p>
+<p>所有的Voucher(凭证)可以在Hive进门左侧下方的商店<code v-pre>[338 32 -5470]</code>兑换物品</p>
 <p>每种属性的凭证可以兑换任一饰品以及装备</p>
 <p>特别地，Master Voucher可以兑换武器</p>
 <p>除了Master Voucher以外，其他属性关卡的物品若想要重选，则需要前往对应的关底BOSS获取<strong>2个击杀凭证</strong>再来将物品重换为Voucher</p>
@@ -193,7 +193,7 @@
 </div>
 <div class="hint-container danger">
 <p class="hint-container-title">警告</p>
-<p>同一层的装备/饰品最多仅能装备一件</p>
+<p>同一层的装备与饰品最多仅能装备一件</p>
 <p>若同时装备了两件及以上，则会受到全属性-999以及其他各项负面属性的惩罚，直至脱下装备</p>
 </div>
 </div></template>
