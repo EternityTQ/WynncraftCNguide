@@ -2,7 +2,7 @@
 <p><span style="font-size: 25px;"><strong>冰之国度</strong></span></p>
 <p>1.和<strong>Icy Islands</strong>的<font color=00AA00><strong>Adigard</strong></font><code v-pre>[806 59 -3353]</code>交谈</p>
 <p>2.跟<font color=00AA00><strong>Hallfred</strong></font><code v-pre>[993 38 -3500]</code>讨论有关和平条约的事情</p>
-<p>3.和<font color=00AA00><strong>Adigard</strong></font><code v-pre>[806 59 -3353]</code>谈论Hallfred关于此事的回应</p>
+<p>3.和<font color=00AA00><strong>Adigard</strong></font><code v-pre>[806 59 -3353]</code>谈论<font color=00AA00><strong>Hallfred</strong></font>关于此事的回应</p>
 <p>4.找到幽灵船<code v-pre>[731 44 -3737]</code>,并带回<code v-pre>ancient treasure</code>(杀死幽灵船的船长，一个小boss获得，入口在船舱)给<font color=00AA00><strong>Hallfred</strong></font>。</p>
 <p>奖励</p>
 <ul>

@@ -1,7 +1,7 @@
 <template><div><h1 id="heart-of-llevigar-level-41" tabindex="-1"><a class="header-anchor" href="#heart-of-llevigar-level-41" aria-hidden="true">#</a> Heart of Llevigar(level 41)</h1>
 <p><span style="font-size: 25px;"><strong>Llevigar之心</strong></span></p>
 <p>1.在<strong>Llevigar</strong>能源控制中心找到<font color=00AA00><strong>Zenam</strong></font><code v-pre>[-1872 55 -4593]</code></p>
-<p>2 进入L城银行对面的排水沟<code v-pre>[-1998 77 -4507]</code>，站在坑里按下按钮</p>
+<p>2 进入<strong>Llevigar</strong>银行对面的排水沟<code v-pre>[-1998 77 -4507]</code>，站在坑里按下按钮</p>
 <figure><img src="@source/.vuepress/public/assets/img/lvl41-1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -12,7 +12,7 @@
 <p>5 解决谜题：让墙上的铁块和金块变成地板上的样子，灰色玻璃表示空出来的格</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>红快按钮代表1，绿色按钮代表2，蓝色按钮代表3，黄色按钮代表4.则顺序为<strong>1243 1243 1243 421</strong></p>
+<p>红色按钮代表1，绿色按钮代表2，蓝色按钮代表3，黄色按钮代表4.则顺序为↓<br><strong>1243 1243 1243 421</strong></p>
 </div>
 <p>然后按下右边绿宝石块上的按钮。接下来回头到刚才的入口跳进坑里</p>
 <blockquote>

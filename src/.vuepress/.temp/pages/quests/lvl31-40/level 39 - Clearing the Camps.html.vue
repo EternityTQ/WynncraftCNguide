@@ -5,10 +5,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>它们的位置如下：</p>
-<p>Chief Ceifko <code v-pre>[-1950 35 -4690]</code></p>
-<p>Chief Elisu <code v-pre>[-2147 47 -4781]</code></p>
-<p>Chief Veltu <code v-pre>[-2002, 43, -4893]</code></p>
-</div>
+<font color=FF5555><b>Chief Ceifko</b></font> <code v-pre>[-1950 35 -4690]</code><br><br><font color=FF5555><b>Chief Elisu</b></font> <code v-pre>[-2147 47 -4781]</code><br><br><font color=FF5555><b>Chief Veltu</b></font> <code v-pre>[-2002, 43, -4893]</code><br><br></div>
 <p>3.回去找<font color=00AA00><strong>Captain Kymer</strong></font>交差</p>
 <p>奖励</p>
 <ul>

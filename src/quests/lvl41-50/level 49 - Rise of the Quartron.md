@@ -7,9 +7,9 @@
 
 3 和<font color=00AA00>**Manager Nasea**</font>交谈
 
-4 找到蜘蛛网洞穴`[-1744 56 -4526]`中的Tattlytale Flower(沿着跑酷一直上去就能找到)
+4 找到蜘蛛网洞穴`[-1744 56 -4526]`中的`Tattlytale Flower`(沿着跑酷一直上去就能找到)
 
-5 带着Tattlytale Flower和<font color=00AA00>**Dado**</font>交谈
+5 带着`Tattlytale Flower`和<font color=00AA00>**Dado**</font>交谈
 
 6 进入矿山`[-1650 76 -4443]`然后跟<font color=00AA00>**popo**</font>对话
 

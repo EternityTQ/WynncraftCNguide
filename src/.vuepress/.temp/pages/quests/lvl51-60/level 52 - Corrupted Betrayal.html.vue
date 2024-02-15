@@ -10,7 +10,8 @@
 <p class="hint-container-title">提示</p>
 <p>你可以在<code v-pre>[-539 64 -675]</code>的废墟内找到一只奇怪的羊</p>
 <figure><img src="@source/.vuepress/public/assets/img/lvl52-4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>进去后，通过按钮按开大门，在时限内将羊带到<code v-pre>[-656 61 -668]</code>的洞内，下到洞的最深处即可</p>
+<p>进去后，羊的仇恨会锁定在你的身上</p>
+<p>通过按钮按开大门，在时限内将羊带到<code v-pre>[-656 61 -668]</code>的洞内，下到洞的最深处即可</p>
 <figure><img src="@source/.vuepress/public/assets/img/lvl52-5.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </div>
 <p>3.探索地下隧道(走到最里面触发剧情即可)</p>

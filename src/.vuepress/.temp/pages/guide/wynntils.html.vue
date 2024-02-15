@@ -6,15 +6,11 @@
 <div class="hint-container tip">
 <p class="hint-container-title">地图黑屏怎么解决？</p>
 <p>大部分人可能都想问这个问题，于是把这个问题置顶了</p>
-<p>打开<code v-pre>hosts</code>文件<br>
-(Windows下路径：<code v-pre>C:\Windows\System32\drivers\etc</code>)<br>
-可以用记事本/其他文本编辑工具打开</p>
-<p>具体编辑方法建议自行百度！</p>
-<p>新输入一行<code v-pre>185.199.108.133 raw.githubusercontent.com</code></p>
-<p>然后Win+R 输入<code v-pre>cmd</code><br>
-在命令行窗口输入<code v-pre>ipconfig /flushdns</code></p>
-<p>随后重进服务器(没用的话就重启客户端)</p>
-<p>理论上应该可以使用地图和鉴定度了</p>
+<p>你可以尝试使用鲜牛加速器</p>
+<p>新人有免费试用时间</p>
+<p>在试用时间内登录游戏，应该可以将地图资源下载成功</p>
+<p>之后就可以换回自己的加速器了</p>
+<p>注意，这个方法不一定有用，仅供参考</p>
 </div>
 <h2 id="wynntils是什么" tabindex="-1"><a class="header-anchor" href="#wynntils是什么" aria-hidden="true">#</a> Wynntils是什么？</h2>
 <p>Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD</p>
@@ -52,9 +48,9 @@
 <p>这个很多人不知道</p>
 <p>当你将光标移向物品时，按下F4，即可对物品进行快速截图</p>
 <p>此时物品的信息已经截成图片在你的剪贴板中了</p>
-<p>同时，如果你截图的装备符合格式，则还会在聊天框弹出一条额外提示：</p>
-<figure><img src="/assets/img/tils3.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>点击后，你的物品属性将会复制为tils专用的加密格式文本</p>
+<h2 id="装备编码分享" tabindex="-1"><a class="header-anchor" href="#装备编码分享" aria-hidden="true">#</a> 装备编码分享</h2>
+<p>当你对着装备按下F3时，会出现编码分享界面</p>
+<p>此时你可以将这件装备的编码复制，即复制为tils专用的加密格式文本</p>
 <p>粘贴到游戏中发送，即可展示你的装备</p>
 <figure><img src="/assets/img/tils4.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>注意，没安装tils的用户是看不到的</p>

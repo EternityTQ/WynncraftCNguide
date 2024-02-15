@@ -6,7 +6,7 @@
 <p>1.和<font color=00AA00><strong>Twendle</strong></font><code v-pre>[12 76 -456]</code>说话</p>
 <p>2.做一个<code v-pre>Ghostly Cap</code>，并在门口的鉴定师鉴定</p>
 <blockquote>
-<p>如果你已经有了可以跳过这一步</p>
+<p>如果你已经有了这件装备，可以跳过这一步</p>
 </blockquote>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

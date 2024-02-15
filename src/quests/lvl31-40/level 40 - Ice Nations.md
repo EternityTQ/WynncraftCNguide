@@ -5,7 +5,7 @@
 
 2.跟<font color=00AA00>**Hallfred**</font>`[993 38 -3500]`讨论有关和平条约的事情
 
-3.和<font color=00AA00>**Adigard**</font>`[806 59 -3353]`谈论Hallfred关于此事的回应
+3.和<font color=00AA00>**Adigard**</font>`[806 59 -3353]`谈论<font color=00AA00>**Hallfred**</font>关于此事的回应
 
 4.找到幽灵船`[731 44 -3737]`,并带回`ancient treasure`(杀死幽灵船的船长，一个小boss获得，入口在船舱)给<font color=00AA00>**Hallfred**</font>。
 

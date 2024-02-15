@@ -3,8 +3,8 @@
 <p>1 在<strong>Karoc Quarry</strong><code v-pre>[-1663 46 -4376]</code>和<font color=00AA00><strong>Manager Nasea</strong></font>交谈</p>
 <p>2 和<font color=00AA00><strong>Dado</strong></font><code v-pre>[-1718 52 -4427]</code>说话</p>
 <p>3 和<font color=00AA00><strong>Manager Nasea</strong></font>交谈</p>
-<p>4 找到蜘蛛网洞穴<code v-pre>[-1744 56 -4526]</code>中的Tattlytale Flower(沿着跑酷一直上去就能找到)</p>
-<p>5 带着Tattlytale Flower和<font color=00AA00><strong>Dado</strong></font>交谈</p>
+<p>4 找到蜘蛛网洞穴<code v-pre>[-1744 56 -4526]</code>中的<code v-pre>Tattlytale Flower</code>(沿着跑酷一直上去就能找到)</p>
+<p>5 带着<code v-pre>Tattlytale Flower</code>和<font color=00AA00><strong>Dado</strong></font>交谈</p>
 <p>6 进入矿山<code v-pre>[-1650 76 -4443]</code>然后跟<font color=00AA00><strong>popo</strong></font>对话</p>
 <p>7.拉动旁边的拉杆，坐上矿车，进入秘密通道</p>
 <p>8.穿过画触发剧情，进入战斗</p>

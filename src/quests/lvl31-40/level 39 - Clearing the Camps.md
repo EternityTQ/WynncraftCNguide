@@ -7,11 +7,11 @@
 :::tip
 它们的位置如下：
 
-Chief Ceifko `[-1950 35 -4690]`
+<font color=FF5555><b>Chief Ceifko</b></font> `[-1950 35 -4690]`<br><br>
 
-Chief Elisu `[-2147 47 -4781]`
+<font color=FF5555><b>Chief Elisu</b></font> `[-2147 47 -4781]`<br><br>
 
-Chief Veltu `[-2002, 43, -4893]`
+<font color=FF5555><b>Chief Veltu</b></font> `[-2002, 43, -4893]`<br><br>
 :::
 
 3.回去找<font color=00AA00>**Captain Kymer**</font>交差
