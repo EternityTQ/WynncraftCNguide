@@ -7,7 +7,7 @@ heroFullScreen: true
 bgImageStyle:
   background-attachment: fixed
 heroText: Wynncraft中文攻略
-tagline: 在下方选择跳转目标链接
+tagline: 服务器IP：play.wynncraft.com
 actions:
   - text: 游戏指南
     link: ./guide/
