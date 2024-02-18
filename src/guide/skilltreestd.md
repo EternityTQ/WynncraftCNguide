@@ -97,15 +97,14 @@ icon: gamepad
       <!-- 提示文本内容 -->
       <font color=FF5555><b>全神贯注</b></font>
       <br>
-      <br><font color = BBBBBB>当攻击到<font color=WHITE> 5格以外 </font>的敌人时，获得一层<font color=aqua>专注值</font>(上限3层，1.1秒的获得冷却)
-      <br><font color=555555>当攻击空箭时，失去所有已叠加的专注值</font>
+      <br><font color = BBBBBB>当攻击到<font color=WHITE> 5格以外 </font>的敌人时，获得一层<font color=aqua>专注值</font>
       <br>
       <br>伤害加成：<font color=WHITE>+15%</font><font color=555555>(每层专注值)</font>
       <br>
       <br><font color= FF55FF><b>鹰眼射手 分支</b></font></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB><u>幻影射线</u>只需要命中一次敌人就不会丢失专注值。
+      <br><font color = BBBBBB><u>幻影射线</u>只需要命中一次敌人就不会丢失专注值。</font>
     </div>
 ```
 <img src="/assets/img/class/small.png">

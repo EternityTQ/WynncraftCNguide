@@ -3568,23 +3568,70 @@ icon: hat-wizard
       <font color="#FFFFFF"><b>气元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有气属性的伤害</font>
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Thunder_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+<td><span id="Thunder_Mastery_(Mage)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('电元素精通_法师')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '电元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>电元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有电属性的伤害</font>
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><div class="ability-tree-branch"><img alt="Branch 7" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d3/Branch_7.png/revision/latest?cb=20220916215837" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 7.png" data-image-key="Branch_7.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d3/Branch_7.png/revision/latest?cb=20220916215837" class=" lazyloaded"></div>
+<td><img src="/assets/img/class/左丁字.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Fire_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+<td><span id="Fire_Mastery_(Mage)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('火元素精通_法师')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '火元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>火元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有火属性的伤害</font>
+      <br>
+      <br><font color = AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Earth_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+<td><span id="Earth_Mastery_(Mage)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('地元素精通_法师')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '地元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>地元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有地属性的伤害</font>
+      <br>
+      <br><font color = AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
@@ -3595,7 +3642,22 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Water_Mastery_(Mage)"></span><img src="/assets/img/class/small.png">
+<td><span id="Water_Mastery_(Mage)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('水元素精通_法师')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '水元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>水元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有水属性的伤害</font>
+      <br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3606,11 +3668,46 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Wind_Slash"></span><img src="/assets/img/class/medium.png">
+<td><span id="Wind_Slash"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('传送斩击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '传送斩击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>传送斩击</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>传送</u>时，对穿过的敌人造成伤害
+      <br>
+      <br>伤害半径：<font color=white>1.5格</font></font>
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Thunderstorm"></span><img src="/assets/img/class/medium.png">
+<td><span id="Thunderstorm"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('雷暴')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '雷暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>雷暴</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>陨石</u>后，立刻在落点处召唤<font color=white> 3 </font>道落雷，对敌人造成伤害
+      <br>
+      <br>伤害半径：<font color=white>2格</font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>每一道雷击都算作<u>奥术转换</u>的<font color=aqua>法力储备</font>的一次命中次数，同时还会适用<u>绝息</u>关于<font color=aqua>风印</font>的加伤效果</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3620,7 +3717,27 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Burning_Sigil"></span><img src="/assets/img/class/medium.png">
+<td><span id="Burning_Sigil"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('灼热纹章')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '灼热纹章'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>灼热纹章</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>陨石</u>或者<u>座天使</u>后，将会在地面烙下灼热纹章，对上方的敌人每 <font color=white>0.4 </font>秒造成伤害
+      <br>
+      <br>
+      <br>伤害半径：<font color=white>7格</font>
+      <br>持续时间：<font color=white>5秒</font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>该技能的任何伤害都不算作<u>奥术转换</u>的<font color=aqua>法力储备</font>的命中次数，同时也不会适用<u>绝息</u>关于<font color=aqua>风印</font>的加伤效果</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
@@ -3633,7 +3750,27 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Sunshower"></span><img src="/assets/img/class/medium.png">
+<td><span id="Sunshower"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('太阳雨')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '太阳雨'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>太阳雨</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>治疗</u>时，释放光芒，对周围的敌人造成伤害
+      <br>
+      <br>在使用<u>奥术转换</u>转移<font color=white> 30+ </font>法力时，对周围的敌人造成伤害</font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>太阳雨</u>的伤害半径与你当前的治疗范围一致，<u>治疗脉冲</u>将同样在每次额外治疗时造成伤害</font>
+      <br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3641,7 +3778,22 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Stronger_Meteor"></span><img src="/assets/img/class/small.png">
+<td><span id="Stronger_Meteor"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('天煞星')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '天煞星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>天煞星</b></font>
+      <br>
+      <br><font color = BBBBBB>大幅度增加<u>陨石</u>的伤害</font>
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -3665,19 +3817,80 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Windsweeper"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('疾风清扫')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '疾风清扫'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>疾风清扫</b></font>
+      <br>
+      <br><font color = BBBBBB>你的<u>普通攻击</u>对敌人造成伤害时，对其叠加一层<font color=aqua>风印</font>(上限10，叠加冷却0.5s)
+      <br>
+      <br><u>冰蛇</u>将根据敌人已有<font color=aqua>风印</font>增加额外伤害</font><br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>敌人身上的<font color=aqua>风印</font>将会逐渐消退，每 <font color=white>5 </font>秒消退1层</font>  
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Ophanim"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('座天使')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '座天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>座天使</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>陨石</u>时，改为召唤<font color=white> 2 </font>个光之宝珠，它们会在你使用<u>普通攻击</u>时一起攻击，且拥有<font color=white> 200 </font>点生命值
+      <br>
+      <br>当其对敌人造成伤害时，损失<font color=white> 20% </font>生命值，但可以被治疗
+      <br>
+      <br>法力消耗：<font color=FF5555>+30</font>
+      <br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>治疗光球计入部分技能的治疗量需求。<br><br>光球颜色代表当前血量，绿色为70%以上，黄色为50%-70%，红色为50%以下，同时当光球不攻击时，每秒流失1%的生命值</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Arcane_Transfer"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('奥术转换')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '奥术转换'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>奥术转换</b></font>
+      <br>
+      <br><font color = BBBBBB><u>陨石</u>与<u>冰蛇</u>每命中一个敌人，将为<font color=aqua>法力储备</font>增加<font color=white> 5 </font>点法力
+      <br>
+      <br><u>治疗</u>现在不再恢复生命，而是会将<font color=aqua>法力储备</font>中的所有法力转换为可用的法力
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><font color=aqua>法力储备</font>的基础上限为60，后续能力点可以扩充</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
@@ -3703,17 +3916,56 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Cheaper_Heal_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Heal_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('治疗减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '治疗减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>治疗减耗I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>治疗</u>的技能消耗<font color = FFFFFF>-5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Purification"></span><img src="/assets/img/class/large.png">
+<td><span id="Purification"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('净化')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '净化'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>净化</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>治疗</u>或<u>奥术转换</u>将会去除你的所有负面效果以及燃烧状态</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Sentient_Snake"></span><img src="/assets/img/class/medium.png">
+<td><span id="Sentient_Snake"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冰蛇感知')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冰蛇感知'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>冰蛇感知</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冰蛇</u>将会随着你的朝向改变移动方向，令方向可控</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>

@@ -3,8 +3,8 @@
 <p>不提倡氪金</p>
 </div>
 <p>你可以通过访问<strong>线上商店</strong><a href="https://store.wynncraft.com" target="_blank" rel="noopener noreferrer">https://store.wynncraft.com<ExternalLinkIcon/></a>来查看所有氪金项目</p>
-<p>购买前只需输入用户名即可，无需另外注册</p>
-<p>支持支付宝。</p>
+<p>只需在进入页面时输入用户名即可，无需另外注册</p>
+<p><strong>支持支付宝</strong></p>
 <h2 id="ranks" tabindex="-1"><a class="header-anchor" href="#ranks" aria-hidden="true">#</a> Ranks</h2>
 <p>相当于VIP</p>
 <p>一共有四个等级：<code v-pre>VIP</code>、<code v-pre>VIP+</code>、<code v-pre>HERO</code>、<code v-pre>CHAMPION</code></p>
@@ -78,7 +78,7 @@
 </details>
 <p>如果你希望小氪一点的话，真诚建议你别氪！</p>
 <p>VIP实在没什么用，最好从VIP+以上还是考虑，因为只有VIP+才开始有每日饰品箱</p>
-<p>与此同时，史低促销为7折</p>
+<p>与此同时，史低促销为7折，<strong>但其实现在约等于常驻折扣</strong></p>
 <p>顺便还是文章开始的话：<strong>不提倡氪金！</strong></p>
 <p>对于Rank来说，有几点特殊功能值得介绍一下</p>
 <h3 id="mob-totem" tabindex="-1"><a class="header-anchor" href="#mob-totem" aria-hidden="true">#</a> Mob Totem</h3>

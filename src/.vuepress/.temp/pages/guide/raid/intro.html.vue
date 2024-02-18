@@ -40,6 +40,7 @@
 <p class="hint-container-title">提示</p>
 <p>就算你死亡了，当队伍推进到出口时，你也必须要跟上去一起站在出口</p>
 <p>出口传送条件是<strong>所有玩家</strong>都集结在出口上，包括死人</p>
+<p>在raid中死亡<strong>不会扣除灵魂点</strong></p>
 </div>
 <p>除了BOSS关卡和部分特定挑战，若队伍中仅剩一名玩家存活，则会判定Raid失败，所有玩家都将传送回RAID入口处</p>
 <p>注意：每个raid均有自己的解锁条件，会在各个raid中单独说明。</p>
