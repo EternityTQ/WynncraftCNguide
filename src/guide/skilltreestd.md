@@ -85,7 +85,7 @@ icon: gamepad
 
 
  ```vue
-  <img
+<img
       src="/assets/img/class/special.png"
       alt="Your Image"
       @mouseover="showTooltip('全神贯注')"
@@ -125,36 +125,37 @@ icon: gamepad
 
 
 战士：
-`<font color=RED<b>腐化者</font>`
 
-`<font color=FFFF55><b>武道士</font>`
+<font color=RED<b>腐化者</font>
 
-`<font color=18c7f0><b>圣骑士</font>`
+<font color=FFFF55><b>武道士</font>
+
+<font color=18c7f0><b>圣骑士</font>
 
 法师：
-`<font color=55FFFF><b>时空行者 分支</b></font>`
+<font color=55FFFF><b>时空行者 分支</b></font>
 
-`<font color=WHITE><b>圣光使者 分支</b></font>`
+<font color=WHITE><b>圣光使者 分支</b></font>
 
-`<font color=AA00AA><b>奥术法师 分支</b></font>`
+<font color=AA00AA><b>奥术法师 分支</b></font>
 
 弓手：
-`<font color=FFFF55><b>闪击射手 分支</b></font>`
+<font color=FFFF55><b>闪击射手 分支</b></font>
 
-`<font color=00AA00><b>陷阱射手 分支</b></font>`
+<font color=00AA00><b>陷阱射手 分支</b></font>
 
-`<font color=FF55FF><b>鹰眼射手 分支</b></font>`
+<font color=FF55FF><b>鹰眼射手 分支</b></font>
 
 刺客：
-`<font color=AA0000><b>影步者 分支</b></font>`
+<font color=AA0000><b>影步者 分支</b></font>
 
-`<font color=FF55FF><b>幻术师 分支</b></font>`
+<font color=FF55FF><b>幻术师 分支</b></font>
 
-`<font color=WHITE><b>身法刺 分支</b></font>`
+<font color=WHITE><b>身法刺 分支</b></font>
 
 萨满：
-`<font color="orange"><b>召唤师 分支</b></font>`
+<font color="orange"><b>召唤师 分支</b></font>
 
-`<font color=16d108><b>圣祭祀 分支</b></font>`
+<font color=16d108><b>圣祭祀 分支</b></font>
 
-`<font color="red"><b>Acolyte 血教徒 分支</b></font>`
+<font color="red"><b>血教徒 分支</b></font>

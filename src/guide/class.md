@@ -3190,13 +3190,13 @@ icon: hat-wizard
 <td><span id="Meteor"></span><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
-      @mouseover="showTooltip('爆炸箭')"
+      @mouseover="showTooltip('陨石')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
       class="t48"
       @click.prevent="handleClick"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '爆炸箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '陨石'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
       <font color="#00BB00"><b>陨石</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
@@ -4193,32 +4193,136 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Healthier_Ophanim_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Healthier_Ophanim_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('光球韧化1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '光球韧化1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>光球韧化 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>座天使</u>召唤出的光球生命值上限<font color = FFFFFF> +800 </font>，且每次攻击损失的生命值<font color=white> -5% </font></font><br><br><font color=WHITE><b>圣光使者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Snake_Nest"></span><img src="/assets/img/class/medium.png">
+<td><span id="Snake_Nest"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('蛇巢')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '蛇巢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>蛇巢</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冰蛇</u>将召唤出<font color=white> 3 </font>条冰蛇</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Seance"></span><img src="/assets/img/class/small.png">
+<td><span id="Seance"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('通灵')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '通灵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>通灵</b></font>
+      <br>
+      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>5/3s </font>的生命窃取，就获得<font color=white> 1% </font>点法术伤害(至多+50%)</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
-<td><span id="Transonic_Warp"></span><img src="/assets/img/class/large.png">
+<td><span id="Transonic_Warp"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('超音速')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '超音速'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>超音速</b></font>
+      <br>
+      <br><font color = BBBBBB><u>传送</u>将对拥有<font color=aqua>风印</font>的敌人造成基于层数的额外伤害</font>
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Fluid_Healing_(Mage)"></span><img src="/assets/img/class/medium.png">
+<td><span id="Fluid_Healing_(Mage)"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('生命源泉')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '生命源泉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>生命源泉</b></font>
+      <br>
+      <br><font color = BBBBBB>你的装备鉴定词条每有<font color=white> 1% </font>的水元素伤害，就增加<u>治疗</u>的治疗量 <font color=white>0.3%</font></font>
+      <br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Orphion's_Pulse"></span><img src="/assets/img/class/large.png">
+<td><span id="Orphion's_Pulse"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('治疗脉冲')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '治疗脉冲'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>治疗脉冲</b></font>
+      <br>
+      <br><font color = BBBBBB><u>治疗</u>将额外施放<font color=WHITE> 2 </font>次</font>
+      <br>
+      <br><font color = BBBBBB>额外治疗效果：<font color=white>20%</font><font color = 555555>(你的最大生命值)</font><br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font>
+      <br><br><font color=00FF00>备注</font>
+      <br>额外施放的每一次治疗将在上一次施放后的<font color = white> 1.5秒 </font>才会施放<br><br>重复施放<u>治疗</u>将会清除先前仍未施放的额外治疗</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Arcane_Restoration"></span><img src="/assets/img/class/medium.png">
+<td><span id="Arcane_Restoration"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('奥术回复')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '奥术回复'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>奥术回复</b></font>
+      <br>
+      <br><font color = BBBBBB><u>驭火术</u>在命中敌人后的一段时间内，每<font color=white> 1s </font>往<font color=aqua>法力储备</font>中填充<font color=white> 1 </font>点法力
+      <br>
+      <br>持续时间：</font>4s
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -4235,7 +4339,20 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Stronger_Ophanim"></span><img src="/assets/img/class/small.png">
+<td><span id="Stronger_Ophanim"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('光球强化')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '光球强化'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>光球强化</b></font>
+      <br>
+      <br><font color = BBBBBB><u>座天使</u>的技能伤害增加</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -4246,13 +4363,47 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Diffusion"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('风印扩散')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '风印扩散'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>风印扩散</b></font>
+      <br>
+      <br><font color = BBBBBB>当你击杀拥有<font color=aqua>风印</font>的敌人时，其剩余的<font color=aqua>风印</font>将扩散到周围的敌人上(至多扩散10层)
+      <br>
+      <br>扩散范围：<font color=WHITE>8格</font>
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Lightweaver"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('圣光领域')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '圣光领域'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>圣光领域</b></font>
+      <br>
+      <br><font color = BBBBBB>在<font color=WHITE> 10秒 </font>内造成自身最大生命值<font color=WHITE> 50% </font>的治疗量后，召唤一颗环绕于自身的光球，对接触的敌人造成伤害(至多召唤3颗)
+      <br>
+      <br>持续时间：<font color=WHITE>20秒</font>
+      <br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>

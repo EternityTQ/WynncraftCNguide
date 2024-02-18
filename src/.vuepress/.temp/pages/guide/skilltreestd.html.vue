@@ -65,7 +65,7 @@
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>范围：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span> white</span><span class="token punctuation">></span></span>16格<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span>
       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>br</span><span class="token punctuation">></span></span>持续时间：<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>font</span> <span class="token attr-name">color</span> <span class="token attr-value"><span class="token punctuation attr-equals">=</span> white</span><span class="token punctuation">></span></span>1.2秒<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>font</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span>
-</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code> <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span>
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><div class="language-vue line-numbers-mode" data-ext="vue"><pre v-pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>img</span>
      <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>/assets/img/class/special.png<span class="token punctuation">"</span></span>
      <span class="token attr-name">alt</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>Your Image<span class="token punctuation">"</span></span>
      <span class="token attr-name">@mouseover</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>showTooltip('全神贯注')<span class="token punctuation">"</span></span>
@@ -94,26 +94,12 @@
 <p>粉色</p>
 <img src="/assets/img/class/special.png">
 <p>红色</p>
-<p>战士：<br>
-<code v-pre>&lt;font color=RED&lt;b&gt;腐化者&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=FFFF55&gt;&lt;b&gt;武道士&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=18c7f0&gt;&lt;b&gt;圣骑士&lt;/font&gt;</code></p>
-<p>法师：<br>
-<code v-pre>&lt;font color=55FFFF&gt;&lt;b&gt;时空行者 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=WHITE&gt;&lt;b&gt;圣光使者 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=AA00AA&gt;&lt;b&gt;奥术法师 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p>弓手：<br>
-<code v-pre>&lt;font color=FFFF55&gt;&lt;b&gt;闪击射手 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=00AA00&gt;&lt;b&gt;陷阱射手 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=FF55FF&gt;&lt;b&gt;鹰眼射手 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p>刺客：<br>
-<code v-pre>&lt;font color=AA0000&gt;&lt;b&gt;影步者 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=FF55FF&gt;&lt;b&gt;幻术师 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=WHITE&gt;&lt;b&gt;身法刺 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p>萨满：<br>
-<code v-pre>&lt;font color=&quot;orange&quot;&gt;&lt;b&gt;召唤师 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=16d108&gt;&lt;b&gt;圣祭祀 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-<p><code v-pre>&lt;font color=&quot;red&quot;&gt;&lt;b&gt;Acolyte 血教徒 分支&lt;/b&gt;&lt;/font&gt;</code></p>
-</div></template>
+<p>战士：</p>
+<font color=RED<b>腐化者</font>
+<font color=FFFF55><b>武道士</font><font color=18c7f0><b>圣骑士</font><p>法师：</p>
+<font color=55FFFF><b>时空行者 分支</b></font><font color=WHITE><b>圣光使者 分支</b></font><font color=AA00AA><b>奥术法师 分支</b></font><p>弓手：</p>
+<font color=FFFF55><b>闪击射手 分支</b></font><font color=00AA00><b>陷阱射手 分支</b></font><font color=FF55FF><b>鹰眼射手 分支</b></font><p>刺客：</p>
+<font color=AA0000><b>影步者 分支</b></font><font color=FF55FF><b>幻术师 分支</b></font><font color=WHITE><b>身法刺 分支</b></font><p>萨满：</p>
+<font color="orange"><b>召唤师 分支</b></font><font color=16d108><b>圣祭祀 分支</b></font><font color="red"><b>血教徒 分支</b></font></div></template>
 
 
