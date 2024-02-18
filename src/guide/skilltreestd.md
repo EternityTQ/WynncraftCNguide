@@ -126,11 +126,11 @@ icon: gamepad
 
 战士：
 
-<font color=RED<b>腐化者</font>
+<font color=RED><b>腐化者</b></font>
 
-<font color=FFFF55><b>武道士</font>
+<font color=FFFF55><b>武道士</b></font>
 
-<font color=18c7f0><b>圣骑士</font>
+<font color=18c7f0><b>圣骑士</b></font>
 
 法师：
 <font color=55FFFF><b>时空行者 分支</b></font>

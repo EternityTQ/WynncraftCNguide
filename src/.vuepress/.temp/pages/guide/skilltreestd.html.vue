@@ -95,8 +95,7 @@
 <img src="/assets/img/class/special.png">
 <p>红色</p>
 <p>战士：</p>
-<font color=RED<b>腐化者</font>
-<font color=FFFF55><b>武道士</font><font color=18c7f0><b>圣骑士</font><p>法师：</p>
+<font color=RED><b>腐化者</b></font><font color=FFFF55><b>武道士</b></font><font color=18c7f0><b>圣骑士</b></font><p>法师：</p>
 <font color=55FFFF><b>时空行者 分支</b></font><font color=WHITE><b>圣光使者 分支</b></font><font color=AA00AA><b>奥术法师 分支</b></font><p>弓手：</p>
 <font color=FFFF55><b>闪击射手 分支</b></font><font color=00AA00><b>陷阱射手 分支</b></font><font color=FF55FF><b>鹰眼射手 分支</b></font><p>刺客：</p>
 <font color=AA0000><b>影步者 分支</b></font><font color=FF55FF><b>幻术师 分支</b></font><font color=WHITE><b>身法刺 分支</b></font><p>萨满：</p>
