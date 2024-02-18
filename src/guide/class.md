@@ -615,7 +615,7 @@ icon: hat-wizard
     />
     <div v-if="isTooltipVisible && currentTooltip === '爆炸箭减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>爆炸箭减耗I</b></font>
+      <font color="#FFFFFF"><b>爆炸箭减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>的技能消耗<font color = FFFFFF> -10</font></font>
     </div>
@@ -819,7 +819,7 @@ icon: hat-wizard
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>逃脱减耗I</b></font>
+      <font color="#FFFFFF"><b>逃脱减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
@@ -1739,7 +1739,7 @@ icon: hat-wizard
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>箭盾减耗I</b></font>
+      <font color="#FFFFFF"><b>箭盾减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>箭盾</u>的技能消耗<font color = FFFFFF>-5</font></font>
     </div>
@@ -3926,7 +3926,7 @@ icon: hat-wizard
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>治疗减耗I</b></font>
+      <font color="#FFFFFF"><b>治疗减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>治疗</u>的技能消耗<font color = FFFFFF>-5</font></font>
     </div>
@@ -3972,23 +3972,81 @@ icon: hat-wizard
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
-<td><span id="Eye_Piercer"></span><img src="/assets/img/class/medium.png">
+<td><span id="Eye_Piercer"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('视线贯穿')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '视线贯穿'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>视线贯穿</b></font>
+      <br>
+      <br><font color = BBBBBB><u>传送</u>将会对穿过的敌人造成致盲</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Breathless"></span><img src="/assets/img/class/medium.png">
+<td><span id="Breathless"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('绝息')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '绝息'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>绝息</b></font>
+      <br>
+      <br><font color = BBBBBB><u>陨石</u>与<u>座天使</u>将根据敌人持有的<font color=aqua>风印</font>数量造成额外伤害</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Larger_Heal"></span><img src="/assets/img/class/small.png">
+<td><span id="Larger_Heal"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('广域治疗')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '广域治疗'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>广域治疗</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<u>治疗</u>的范围
+      <br>
+      <br>范围：</font>+2格
+      <br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Larger_Mana_Bank_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Larger_Mana_Bank_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('法力储备扩充')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>法力储备扩充</b></font>
+      <br>
+      <br><font color = BBBBBB>你的<font color=aqua>法力储备</font>上限<font color = FFFFFF> +30</font></font>
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
@@ -4010,28 +4068,109 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Cheaper_Ice_Snake_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Ice_Snake_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冰蛇减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冰蛇减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>冰蛇减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冰蛇</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Fortitude"></span><img src="/assets/img/class/large.png">
+<td><span id="Fortitude"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('强韧意志')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '强韧意志'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>强韧意志</b></font>
+      <br>
+      <br><font color = BBBBBB>在<font color=white> 10秒 </font>内造成相当于自身最大生命值的<font color=white> 120% </font>的恢复量后，下一次<u>治疗</u>将会给所有治疗对象施加伤害加成</font>
+      <br>
+      <br><font color = BBBBBB>伤害加成：<font color=white>+60%</font>
+      <br>持续时间：<font color = white>5秒</font></font>
+      <br>
+      <br><font color=WHITE><b>圣光使者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Teleport_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Teleport_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('传送减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '传送减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>传送减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>传送</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Pyrokinesis"></span><img src="/assets/img/class/large.png">
+<td><span id="Pyrokinesis"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('驭火术')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '驭火术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>驭火术</b></font>
+      <br>
+      <br><font color = BBBBBB>当你的<font color=aqua>法力储备</font>达到 <font color=white>30 </font>点后，你的<u>普通攻击</u>在命中敌人时将会发生爆炸<br><font color=555555>爆炸同样视作<u>普通攻击</u>伤害</font>
+      <br>
+      <br>爆炸范围：<font color = white>4格</font></font>
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Blink"></span><img src="/assets/img/class/medium.png">
+<td><span id="Blink"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('闪烁')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '闪烁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>闪烁</b></font>
+      <br>
+      <br><font color = BBBBBB><u>传送</u>将额外释放一次
+      <br>
+      <br>传送范围：</font><font color=FF5555>-4</font>
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color=BBBBBB>两次传送间隔为<font color=white> 0.5秒 </font>，同时你能在此期间快速调换方向来改变传送方向</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>

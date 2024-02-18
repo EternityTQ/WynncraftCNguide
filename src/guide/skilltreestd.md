@@ -38,9 +38,9 @@ icon: gamepad
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>逃脱减耗I</b></font>
+      <font color="#FFFFFF"><b>逃脱减耗 I</b></font>
       <br>
-      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF>-5</font></font>
+      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 ```
 
@@ -63,7 +63,7 @@ icon: gamepad
 
 
 ```vue
-  <img
+<img
       src="/assets/img/class/large.png"
       alt="Your Image"
       @mouseover="showTooltip('幻影射线')"
