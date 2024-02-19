@@ -6,11 +6,10 @@
 <div class="hint-container tip">
 <p class="hint-container-title">地图黑屏怎么解决？</p>
 <p>大部分人可能都想问这个问题，于是把这个问题置顶了</p>
-<p>你可以尝试使用鲜牛加速器</p>
-<p>新人有免费试用时间</p>
-<p>在试用时间内登录游戏，应该可以将地图资源下载成功</p>
-<p>之后就可以换回自己的加速器了</p>
-<p>注意，这个方法不一定有用，仅供参考</p>
+<p>这个情况是由于你在游戏内无法连接上wynntils的资源服务器导致的</p>
+<p>也就是说你无法正常获取资源</p>
+<p>你可以考虑使用不同的加速器，或者不用加速器直接使用梯子进入游戏</p>
+<p>目前没有特别好的解决方法</p>
 </div>
 <h2 id="wynntils是什么" tabindex="-1"><a class="header-anchor" href="#wynntils是什么" aria-hidden="true">#</a> Wynntils是什么？</h2>
 <p>Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD</p>
