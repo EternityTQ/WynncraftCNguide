@@ -23,8 +23,7 @@
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>1.记得带着5个EB在你去找Dalben之前，以免你往返两次。海盗岛上有银行(？？？哪里不对)</p>
-<p>2.最后海底洞里的怪物有很小概率掉Naval stone三星材料，挺值钱的，</p>
-<p>3.完成任务之后可以购买一个Pirate Luck(32lb)，用来跑loot run，位置<code v-pre>[-621 53 -3078]</code>，注意非常非常贵</p>
+<p>2.最后海底洞里的怪物有很小概率掉Naval stone三星材料，挺值钱的</p>
 </div>
 </div></template>
 
