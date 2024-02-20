@@ -114,4 +114,33 @@ hero及以上rank限定
 
 ## /toggle
 
-*下次再更新，这一段有点多
+更改指定的设置，功能非常多
+
+使用方法：在游戏内输入`/toggle 设置`即可，部分设置含有副参数
+
+| 设置 | 功能 |
+| --- | --- |
+| swears | 是否屏蔽藏话(英文限定) |
+| blood | 是否启用血腥模式 | 
+| insults | 是否屏蔽侮辱性词汇 |
+| autojoin | 开启后，进入游戏时将跳过选择角色页面，自动选择上一次离线时的角色进入游戏|
+| music | 是否开启游戏内BGM |
+| vet | 是否显示VET的标签(VET即2014年以前就购买rank的老登)|
+| war | 是否显示公会战相关信息 |
+| guildjoin | 是否显示公会成员的上线提醒 |
+| attacksound | 是否开启普通攻击的音效 |
+| rpwarning | 当未开启服务器资源包时，是否发出警报 |
+| 100 | 是否开启其他玩家到达100+级时的广播提示 |
+| sb | 是否开启右侧日常周常任务的计分板提示 |
+| autotracking | 是否在接取任务后自动追踪 |
+| pouchmsg | 是否在拾取素材进入素材袋时发出提示 |
+| combatbar | 是否在攻击怪物时在顶部显示血条提示 |
+| ghosts | 切换其他世界玩家的显示数量 可使用副参数为none/low/medium/high/all|
+| popups | 切换通用的弹出消息(?)|
+| guildpopups | 切换公会的弹出消息(?)|
+| friendpopups | 切换好友的弹出消息(?)|
+| beacon | 是否开启信标 |
+| queststartbeacon | 是否显示未接取任务的绿色信标 |
+| bombbell | 是否开启bombbell(champion限定) |
+| outlines | 是否开启玩家轮廓(发光效果) |
+| pouchpickup | 是否开启素材袋自动拾取 |
