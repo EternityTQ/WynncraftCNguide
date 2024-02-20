@@ -41,7 +41,7 @@
 <p>你可以在这里浏览你当前存档所有的任务</p>
 <p>青色图标为普通任务，可以理解为一个个独立的故事，尽管可能会有一些前后关系</p>
 <p>绿色图标为重要任务(Unlock something)或者系列任务(storyline)，它们往往都有非常重要的功能解锁或者具有前置后置任务。</p>
-<p>米色图标为缺少解锁条件的任务，可能是缺少等级或者缺少前置任务，你可以将鼠标移至上面来查看详情</p>
+<p>米色图标为缺少解锁条件的任务，可能是等级不足或者缺少前置任务，你可以将鼠标移至上面来查看详情</p>
 <p>绿勾为已经完成的任务</p>
 <p>除此之外，你还可以在下方的绿色对话框处来浏览前面一段时间发生的任务对话或者NPC对话。</p>
 <h2 id="mini-quest" tabindex="-1"><a class="header-anchor" href="#mini-quest" aria-hidden="true">#</a> Mini-Quest</h2>
@@ -73,8 +73,8 @@
 <p>信标颜色：白色</p>
 <figure><img src="/assets/img/questbook9.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>地区发现</p>
-<p>和World Discovery不同的地方是，World Discovery是指向地标，例如某个城市或者某个军营</p>
-<p>而Territorial Discovery指的是地区，比如说某片森林或者某座山</p>
+<p>和World Discovery不同的地方是，Territorial Discovery指的是地区，比如说某片森林或者某座山</p>
+<p>而World Discovery是指向地标，例如某个城市或者某个军营</p>
 <p>同样，已经去过的地方不能再追踪</p>
 <h2 id="cave" tabindex="-1"><a class="header-anchor" href="#cave" aria-hidden="true">#</a> Cave</h2>
 <p>信标颜色：橙色</p>

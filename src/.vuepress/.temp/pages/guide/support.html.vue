@@ -7,7 +7,14 @@
 <li>鞭策编者加快编写速度</li>
 </ul>
 <p>不管您支持多少，您的名字将会留在这个页面下方的感谢名单！！！</p>
-<p>(虽然...现在...好像还没有呢...)</p>
+<h2 id="感谢名单" tabindex="-1"><a class="header-anchor" href="#感谢名单" aria-hidden="true">#</a> <strong>感谢名单</strong></h2>
+<blockquote>
+<p>以下按照时间顺序排列，若未告知具体ID则采用爱发电网站内的ID</p>
+</blockquote>
+<p>爱发电用户_39524 ￥54 2023-12-20</p>
+<p>NeverForgotten ￥162 2024-02-17</p>
+<p>星葉Xingye ￥5 2024-02-17</p>
+<p><strong>谢谢爸爸们&lt;3</strong></p>
 </div></template>
 
 
