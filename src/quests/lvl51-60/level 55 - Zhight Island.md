@@ -10,17 +10,13 @@
 
 1 和**Zhight**岛上的<font color=00AA00>**Zhight**</font>`[-542 38 -2755]`说话
 
-2 和**Mage Island**上的<font color=00AA00>**Phief**</font>`[-228 63 -2958]`说话
+2 和**Mage Island**上的<font color=00AA00>**Phief**</font>`[884 46 -2881]`说话
 
 3 在`[1016 38 -3101]`找到<font color=00AA00>**Phief**</font>的船，并和船上的的<font color=00AA00>**Tirt**</font>对话
 
 4 和**Maro Peaks**上的<font color=00AA00>**Czytash**</font>`[258 80 -3913]`说话
 :::tip
-记得带上Climbing Helmet才可以进入这座岛
-
-此步注意：
-
-岛上有移速很快的羊，伤害不低，法师可以用冰蛇减速羊，战士防高若其他装甲不错不会伤太惨，弓箭善用闪避和远程攻击，刺客隐身。 
+记得带上Climbing Helmet才可以进入这座岛 
 
 NPC在一个山崖上，顺着木桥走，若看到梯子`[364 ? -3292]`后就上去。
 :::
