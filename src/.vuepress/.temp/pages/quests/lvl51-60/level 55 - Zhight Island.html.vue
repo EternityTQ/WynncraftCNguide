@@ -7,14 +7,12 @@
 <p>本任务所有的岛屿都可以在Selchar岛前往，你可以将这个岛作为中转站</p>
 </div>
 <p>1 和<strong>Zhight</strong>岛上的<font color=00AA00><strong>Zhight</strong></font><code v-pre>[-542 38 -2755]</code>说话</p>
-<p>2 和<strong>Mage Island</strong>上的<font color=00AA00><strong>Phief</strong></font><code v-pre>[-228 63 -2958]</code>说话</p>
+<p>2 和<strong>Mage Island</strong>上的<font color=00AA00><strong>Phief</strong></font><code v-pre>[884 46 -2881]</code>说话</p>
 <p>3 在<code v-pre>[1016 38 -3101]</code>找到<font color=00AA00><strong>Phief</strong></font>的船，并和船上的的<font color=00AA00><strong>Tirt</strong></font>对话</p>
 <p>4 和<strong>Maro Peaks</strong>上的<font color=00AA00><strong>Czytash</strong></font><code v-pre>[258 80 -3913]</code>说话</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>记得带上Climbing Helmet才可以进入这座岛</p>
-<p>此步注意：</p>
-<p>岛上有移速很快的羊，伤害不低，法师可以用冰蛇减速羊，战士防高若其他装甲不错不会伤太惨，弓箭善用闪避和远程攻击，刺客隐身。</p>
 <p>NPC在一个山崖上，顺着木桥走，若看到梯子<code v-pre>[364 ? -3292]</code>后就上去。</p>
 </div>
 <p>5.回到最初的<strong>Zhight Island</strong>，将<code v-pre>Odd Smelling Crate</code>交还给<font color=00AA00><strong>Zhight</strong></font><code v-pre>[-542 38 -2755]</code></p>

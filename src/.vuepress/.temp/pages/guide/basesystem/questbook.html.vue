@@ -10,6 +10,14 @@
 <p>请退出服务器，在服务器设置界面勾选启用服务器资源包</p>
 <p>以此来自动更新服务器资源包！</p>
 </div>
+<div class="hint-container tip">
+<p class="hint-container-title">如何关闭Wynntils任务书？</p>
+<p>本篇专为Wynncraft原版任务书介绍</p>
+<p>Wynntils的第三方任务书不稳定，容易出问题，因此比较建议读者关闭</p>
+<p>首先，点击ESC→Wynntils菜单→左下角的&quot;配置&quot;</p>
+<p>直接点击第三行的&quot;Wynntils内容手册&quot;，然后将&quot;替换Wynncraft内容手册&quot;禁用</p>
+<p>然后就关闭好了！</p>
+</div>
 <p>首先，打开你的任务书</p>
 <figure><img src="/assets/img/questbook1.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>映入眼帘的是非常非常杂乱的界面。</p>

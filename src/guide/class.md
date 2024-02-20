@@ -86,12 +86,14 @@ icon: hat-wizard
 你并不一定需要按照一条技能树一路点到底，有时候技能树混搭反而能达到更好的效果
 :::
 
-:::tip 何谓重要技能点?
+:::tip 何谓重要技能?
 这里是指编者主观认为的，该流派较为重要的技能点
 
 通常来说，点出这些技能点来就可以对流派玩法形成质变
 
 总之就是非常重要！
+
+**如果你不知道如何点技能树，冲着这些技能点过去就行了！**
 
 
 :::
@@ -111,7 +113,7 @@ icon: hat-wizard
 
 这意味着腐化者在拥有极高伤害的同时，也会有极高的风险，需要一定的操作能力
 
-**重要技能点：**
+**重要技能：**
 + Bak'al's Grasp：施放战吼将会进入腐化状态，期间失去任何回血能力，且根据释放后的损失生命值得到加伤
   
 + Enraged Blow：进入腐化状态后，每损失1%的生命值将会增加1.5%的伤害
@@ -133,7 +135,7 @@ icon: hat-wizard
 
 武道士更需要的是玩家的游戏思路，而非操作
 
-**重要技能点：**
+**重要技能：**
 + Generalist：每施放3个不同的技能后，下一个技能只需1法力消耗
   
 + Aerodynamics：冲锋期间，可以调整方向
@@ -157,7 +159,7 @@ icon: hat-wizard
 
 作为代价，圣骑士的输出能力相较另两条技能树更低，如果不是为了追求终极技能的复活能力和团队增益，建议与其他分支进行适当搭配
 
-**重要技能点：**
+**重要技能：**
 + Mantle of the Bovemists：使用战吼可以召唤出可以减伤70%的圣盾
 
 + Provoke：所有受到战吼伤害的怪会在8秒内只攻击你
@@ -193,7 +195,7 @@ icon: hat-wizard
 
 >尽管大多数时候在你叠满Winded之前就已经把怪物解决了
 
-**重要技能点：**
+**重要技能：**
 + Windsweeper：你的每次平A会给敌人叠加1层Winded
 
 + Breathless：陨石会根据敌人已有的Winded造成额外伤害
@@ -212,7 +214,7 @@ icon: hat-wizard
 
 相应的，失去了陨石能力的圣光使者也损失了大量的群伤能力，更适合单体作战或辅助队友
 
-**重要技能点：**
+**重要技能：**
 + Ophanim：陨石将会转换为召唤2个光球，光球将会在你平A时一起攻击敌人，光球的每次攻击会减少20%的血量，光球可以被治疗
   
 + Fortitude：每当在10秒内治疗相当于自身120%生命上限的血量后，下一次治疗会给范围内友军施加60%的伤害加成
@@ -234,7 +236,7 @@ icon: hat-wizard
 
 输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发
 
-**重要技能点：**
+**重要技能：**
 + Arcane Transfer：陨石和冰蛇每命中1个敌人，都会添加5法力进入后备能源中；治疗现在不再恢复生命，而是将后备能源的所有法力转化至蓝条中；法力转换(治疗)不再有蓝耗消耗，且无法重置重复施法惩罚
 
 + Psychokinesis：陨石现在改为从自身抛出
@@ -260,7 +262,7 @@ icon: hat-wizard
 
 同时，闪击射手拥有一个非常舒适的自动攻击的守护天使，非常适合跑图~~捏蚂蚁~~
 
-**重要技能点：**
+**重要技能：**
 + Guradian Angels：将剑盾转化为召唤数个守护天使，守护天使会自动攻击周围的怪物，有一定攻击次数限制
 
 + Windstorm：箭雨将额外射出1道箭流，每道箭流+2额外箭矢数量
@@ -278,7 +280,7 @@ icon: hat-wizard
 
 陷阱射手的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，设陷者能造成大量AOE输出
 
-**重要技能点：**
+**重要技能：**
 + Byrophyte Roots：箭暴对怪物造成伤害时会造成减速aoe
 
 + Basaltic Trap：爆炸箭击中地面时会放置陷阱
@@ -302,7 +304,7 @@ icon: hat-wizard
 
 鹰眼的终极技能~~虽然没什么用~~可以在叠满专注时化身雷霆战机~~飞行木桩~~造成高额爆发~~并牺牲持续输出能力~~
 
-**重要技能点：**
+**重要技能：**
 + Phantom Ray：箭暴技能改为激光
 
 + Focus：在五格外击中敌人会提供增伤效果，技能或普攻未击中则效果消失
@@ -328,7 +330,7 @@ icon: hat-wizard
 
 游戏后期的影步者能轻松打出六位数甚至七位数的单次爆发输出
 
-**重要技能点：**
+**重要技能：**
 + Backstab：多重斩技能改为背刺，在怪物后方使用会造成双倍伤害
 
 + Marked：烟雾弹技能会对怪物造成印记增伤效果
@@ -346,7 +348,7 @@ icon: hat-wizard
 
 幻术师还可以将自身的负面状态转移给敌人，并且还可以通过击杀被转移了诱饵标记的敌人来获取金血资源
 
-**重要技能点：**
+**重要技能：**
 + Mirror Image：召唤分身，分身存在时降低受到伤害的60%
 
 + Delirious Gas：在烟雾弹范围内时增加40%伤害并且吸引仇恨
@@ -359,7 +361,7 @@ icon: hat-wizard
 身法刺并不需要隐身的机制，其核心机制在于浮空并利用茉莉印记对下方的怪物造成伤害，同时利用浮空时造成伤害恢复能量进行续航，从而达成有效循环
 
 虽然茉莉印记是身法刺的核心机制来源，但身法刺的核心输出在多重斩上，不多多利用多重斩的话输出并不出色
-**重要技能点：**
+**重要技能：**
 + Lacerate：旋转攻击方式修改并增加位移
 
 + Weightless：在空中时击中怪物回蓝
@@ -385,7 +387,7 @@ icon: hat-wizard
 
 召唤师还可以同时召唤多个图腾，利用多个图腾的多倍召唤物打出更多输出。
 
-**重要技能点：**
+**重要技能：**
 + Puppet Master：图腾每3秒将会召唤1只Puppet协助你战斗
 
 + Exploding Puppets：当Puppet的剩余3秒时，它们将高速冲向敌人并且自爆
@@ -401,7 +403,7 @@ icon: hat-wizard
 
 圣祭司的终极技能则允许其在特定条件下召唤觉醒假面一段时间，觉醒假面拥有所有圣假面的增益，但会清除其减益
 
-**重要技能点：**
+**重要技能：**
 + Mask of the Lunatic：增加伤害但降低防御
 
 + Mask of the Fanatic：增加防御但降低移速
@@ -419,7 +421,7 @@ icon: hat-wizard
 
 血教徒的终极技能是一个极端的辅助技，能提供稀有的金血资源，但也会让自己变成木桩
 
-**重要技能点：**
+**重要技能：**
 + Sacrificial Shrine：通过图腾牺牲生命值填充血池，使用aura会造成范围治疗效果
 
 + Blood Connection：这个游戏中最难使用但是非常有用的位移技能，在图腾范围外使用haul会传送回图腾
@@ -440,15 +442,17 @@ icon: hat-wizard
 
 ### 基础介绍
 
+技能树可以让玩家自己搭配**属于自己的职业玩法**
+
+通过消耗技能点来点亮自己想要的技能
+
 随着战斗等级的提升，你将会慢慢得到技能点
 
 获取技能点的间隔会越来越大
 
-你在中后期就能获得足够点完主要能力点的数量
+你在中后期就能获得足够点完**流派主要技能**的数量
 
-一个能力一般会消耗1-2个技能点
-
-通常来说，白色小能力以及技能会消耗1点技能点，其余大能力会消耗1-2技能点不等
+点亮一个技能会消耗1-2个技能点
 
 你可以通过自由加点来构建属于你自己的技能树
 
@@ -458,23 +462,27 @@ icon: hat-wizard
 
 一个职业的技能树通常分为三个流派，但是介于wynncraft技能树的设计，你不一定需要一条线路往死里点
 
-你可以在技能树UI的下方查看各个流派的介绍，以及当前所点的流派能力数量
+技能树页面可以分为左、中、右三个板块，分别对应三种职业流派，如下图所示
 
-大部分情况下，你可以在主点一个流派时，或多或少点亮其他流派相邻的部分能力
+![](/assets/img/tree4.jpg =300x)
 
-如果该能力属于一个流派能力，会在下方标注
+你可以在技能树UI的最下方查看各个流派的介绍，以及当前所点的流派能力数量
 
-需要注意的是，一部分能力存在流派数量限制，你只有在点亮足够多的流派能力后才可以点亮该能力
+大部分情况下，你在主点一个流派时，可以或多或少点亮其他流派相邻的部分能力
 
-同时，部分能力还存在冲突(多个能力只允许点其中一个)以及前置(点亮上一个指定能力才可以点亮这个能力)
+如果该能力属于一个**流派能力**，会在下方标注其属于哪个流派
 
-![该图包含了上述大部分情况](/assets/img/tree2.jpg)
+需要注意的是，一部分能力存在流派数量**限制**，你只有在点亮足够多的流派能力后才可以点亮该能力
+
+同时，部分能力还存在**冲突**(多个能力只允许点其中一个)以及**前置**(点亮上一个指定能力才可以点亮这个能力)
+
+![该图包含了上述大部分情况](/assets/img/tree2.jpg =400x)
 
 
 :::warning
 并非所有的能力都能提高游戏体验！
 
-有部分能力改变了技能的效果
+有部分能力**改变**了技能的效果
 
 例如：法师右路的`Arcane Transfer`能力中，将治疗效果转化为了法力转换
 
@@ -3889,7 +3897,7 @@ icon: hat-wizard
       <br><font color=AA00AA><b>奥术法师 分支</b></font></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB><font color=aqua>法力储备</font>的基础上限为60，后续能力点可以扩充</font>
+      <br><font color = BBBBBB><font color=aqua>法力储备</font>的基础上限为60，后续技能点可以扩充</font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -4034,14 +4042,14 @@ icon: hat-wizard
 <td><span id="Larger_Mana_Bank_I"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('法力储备扩充')"
+      @mouseover="showTooltip('法力储备扩充1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>法力储备扩充</b></font>
+      <font color="#FFFFFF"><b>法力储备扩充 I</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color=aqua>法力储备</font>上限<font color = FFFFFF> +30</font></font>
       <br>
@@ -4407,14 +4415,58 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Arcane_Speed"></span><img src="/assets/img/class/medium.png">
+<td><span id="Arcane_Speed"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('极速奥术')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '极速奥术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>极速奥术</b></font>
+      <br>
+      <br><font color = BBBBBB>在使用<u>治疗</u>或<u>奥术转换</u>后，获得持续<font color=white> 4秒 </font>的<font color=white> 80% </font>速度加成</font>
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Larger_Mana_Bank_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Larger_Mana_Bank_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('法力储备扩充2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>法力储备扩充 II</b></font>
+      <br>
+      <br><font color = BBBBBB>你的<font color=aqua>法力储备</font>上限<font color = FFFFFF> +30</font></font>
+      <br>
+      <br><font color=AA00AA><b>奥术法师 分支</b></font>
+    </div>
 </td></tr>
 <tr>
-<td><span id="More_Winded_I"></span><img src="/assets/img/class/small.png">
+<td><span id="More_Winded_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('风印涌动1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '风印涌动1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>风印涌动 I</b></font>
+      <br>
+      <br><font color = BBBBBB>怪物可被叠加的<font color=aqua>风印</font>数量上限<font color = FFFFFF> +10</font></font>
+      <br><br><font color=55FFFF><b>时空行者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
@@ -4428,31 +4480,124 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Psychokinesis"></span><img src="/assets/img/class/medium.png">
+<td><span id="Psychokinesis"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('意念陨石')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '意念陨石'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>意念陨石</b></font>
+      <br>
+      <br><font color = BBBBBB><u>陨石</u>改为从自身抛出而非从天上落下
+      <br>
+      <br>攻击范围：</font>+20格
+      <br><br><font color=AA00AA><b>奥术法师 分支</b></font><br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>意念陨石</u>本质上是将<u>陨石</u>变为远程抛射，而不是原来的延迟伤害，这意味着你可以在接近怪物时更快命中怪物，并且将更好命中具有巨大碰撞箱的怪物
+      <br>
+      <br>需要注意的是，<u>意念陨石</u>所瞄准的落点必须要有"地面"，即你不能对着整齐墙壁发射，但是可以对着墙壁凸出来的方块发射。如果对着墙壁发射了，则陨石会抛到面前的地面，射程将大幅度减少。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Cheaper_Ice_Snake_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Ice_Snake_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冰蛇减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冰蛇减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>冰蛇减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冰蛇</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Explosive_Entrance"></span><img src="/assets/img/class/medium.png">
+<td><span id="Explosive_Entrance"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('闪现爆破')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '闪现爆破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>闪现爆破</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>传送</u>后，在目标地点造成一次爆炸</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Meteor_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Meteor_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('陨石减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '陨石减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>陨石减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>陨石</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Chaos_Explosion"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('混沌爆破')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '混沌爆破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>混沌爆破</b></font>
+      <br>
+      <br><font color = BBBBBB>当你的<font color=aqua>法力储备</font>达到<font color=white> 120 </font>后，使用<u>奥术转换</u>将快速并依次触发先前释放的<font color=WHITE> 3个 </font>技能</font>
+      <br><br><font color=AA00AA><b>奥术法师 分支</b></font>
+      <br><br><font color=00FF00>备注</font>
+      <br><font color=BBBBBB><u>奥术转换</u>不计入技能释放列表内。<u>混沌爆破</u>释放的技能不消耗法力，每个技能释放时间间隔为0.4秒。同时其释放的技能同样可以为你的<font color=aqua>法力储备</font>增加法力</font>
+    </div>
 </td></tr>
 <tr>
-<td><span id="Time_Dilation"></span><img src="/assets/img/class/large.png">
+<td><span id="Time_Dilation"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('时空扩张')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '时空扩张'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>时空扩张</b></font>
+      <br>
+      <br><font color = BBBBBB>疾跑时，在路径上留下加速区域，友军在其中疾跑时移动速度增加<br><font color=555555>(离开区域或停止疾跑时区域消散)</font></font>
+      <br>
+      <br><font color = BBBBBB>速度加成：<font color=white>+10%</font><font color=555555>(每秒，至多+300%)</font>
+      <br>范围：<font color = white>2格</font></font>
+      <br>
+      <br><font color=55FFFF><b>时空行者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>

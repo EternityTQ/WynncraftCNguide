@@ -18,6 +18,19 @@ icon: book
 
 以此来自动更新服务器资源包！
 :::
+
+:::tip 如何关闭Wynntils任务书？
+本篇专为Wynncraft原版任务书介绍
+
+Wynntils的第三方任务书不稳定，容易出问题，因此比较建议读者关闭
+
+首先，点击ESC→Wynntils菜单→左下角的"配置"
+
+直接点击第三行的"Wynntils内容手册"，然后将"替换Wynncraft内容手册"禁用
+
+然后就关闭好了！
+:::
+
 首先，打开你的任务书
 
 ![](/assets/img/questbook1.jpg)
