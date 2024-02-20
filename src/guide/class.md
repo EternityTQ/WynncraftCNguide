@@ -2496,7 +2496,7 @@ icon: hat-wizard
 </td></tr>
 </tbody></table>
 
-@tab 战士
+@tab 战士(未完成)
 
 <table class="ability-tree-table">
 <tbody><tr>
@@ -5037,7 +5037,7 @@ icon: hat-wizard
 </td></tr>
 </tbody></table>
 
-@tab 刺客
+@tab 刺客(未完成)
 
 <table class="ability-tree-table">
 <tbody><tr>
@@ -5783,7 +5783,7 @@ icon: hat-wizard
 </td></tr>
 </tbody></table>
 
-@tab 萨满
+@tab 萨满(未完成)
 
 <table class="ability-tree-table">
 <tbody><tr>

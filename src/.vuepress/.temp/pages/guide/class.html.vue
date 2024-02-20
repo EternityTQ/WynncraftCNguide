@@ -520,12 +520,12 @@
 <p>请知悉！</p>
 <p>并且这里不会对倍率进行详细说明</p>
 </div>
-<Tabs id="980" :data='[{"id":"弓手"},{"id":"战士"},{"id":"法师"},{"id":"刺客"},{"id":"萨满"}]'>
+<Tabs id="980" :data='[{"id":"弓手"},{"id":"战士(未完成)"},{"id":"法师"},{"id":"刺客(未完成)"},{"id":"萨满(未完成)"}]'>
 <template #title0="{ value, isActive }">弓手</template>
-<template #title1="{ value, isActive }">战士</template>
+<template #title1="{ value, isActive }">战士(未完成)</template>
 <template #title2="{ value, isActive }">法师</template>
-<template #title3="{ value, isActive }">刺客</template>
-<template #title4="{ value, isActive }">萨满</template>
+<template #title3="{ value, isActive }">刺客(未完成)</template>
+<template #title4="{ value, isActive }">萨满(未完成)</template>
 <template #tab0="{ value, isActive }">
 <table class="ability-tree-table">
 <tbody><tr>
