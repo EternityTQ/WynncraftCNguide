@@ -49,23 +49,27 @@ Objective均为**自动接取**
 如果你错过了Daily Obj的领取入口，你可以通过输入`/daily`来补领当前角色当天的每日奖励
 :::
 
-## Weekly Objectives
+## Guild Objectives
 
 其机制与Daily Obj类似
 
-但是Weekly Obj只有在加入公会后才可以接取
+但是Guild Obj顾名思义，只有在加入公会后才可以接取
 
-**其刷新时间是北京时间每周一的中午12点**
+**其刷新时间是北京时间每周一的中午12点**，也就是周常obj
 
-Weekly Obj拥有更高的完成条件
+Guild Obj拥有更高的完成条件
 
-同时相较于Daily Obj，减少了Trade条件，增加了Raids的条件
+同时相较于Daily Obj，减少了Trade、Craft条件，增加了Raids的条件
 
-在完成Weekly Obj后，会获得一个品质更高的箱子，比T4战利品箱还要更高一级，内含eb、5-6级粉等优质奖励
+>可是明明raids更好完成
+
+在完成Guild Obj后，会获得一个品质更高的箱子，比T4战利品箱还要更高一级，内含eb、5-6级粉等优质奖励
 
 同时，公会内每周任务的完成人数越多，还会给公会带来公会经验、公会Tome等奖励
 
+并且，Guild Obj的奖励会随着你连续完成的次数而提升品质
+
 :::tip 错过了领取时间？
-如果你错过了Weekly Obj的领取入口，你可以通过输入`/guild rewards`来补领当前角色本周的每周奖励
+如果你错过了Guild Obj的领取入口，你可以通过输入`/guild rewards`来补领当前角色本周的每周奖励
 :::
 
