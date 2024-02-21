@@ -3,7 +3,7 @@ icon: bookmark
 ---
 
 
-# Realm of Light III - A Headless History (level 65)
+# Realm of Light III - A Headless History (level 64)
 <span style="font-size: 25px;">**光之领域 Part III - 无头的往事**</span>
 
 前置任务:[Realm of Light II - Taproot (level 62)](/quests/lvl61-70/level%2062%20-%20Realm%20of%20Light%20II%20-%20Taproot.html)
