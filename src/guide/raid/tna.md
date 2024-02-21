@@ -251,7 +251,7 @@ wynn制作组会不定时修改部分buff数值
 :::
 | 物品 | 数量 | 备注 |
 | --- | --- | --- |
-| Emerald Blocks | 120-264 | - |
+| Emerald Blocks | 64-196 | - |
 | Tomes of Weapon Mastery III | 1-4 | 包括 Fabled 和 Mythic 品质 |
 | Tome of Slaying Mastery III | - | 左上方的1-4为tome共计数量 |
 | Tome of Dungeoneering Mastery III | - | - |

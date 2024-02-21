@@ -218,7 +218,7 @@
 <tbody>
 <tr>
 <td>Emerald Blocks</td>
-<td>120-264</td>
+<td>64-196</td>
 <td>-</td>
 </tr>
 <tr>
