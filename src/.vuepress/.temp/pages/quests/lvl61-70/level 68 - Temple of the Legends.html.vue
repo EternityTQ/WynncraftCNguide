@@ -19,19 +19,19 @@ Deltas, Ragni, <strong>Troms</strong>, Nessak, Selchar</p>
 <p>6.到浮岛下面的洞里刷怪 刷12个sky vapor，然后把12个sky vapor以及Light Dust给魔法导师.别想着先打好东西再上去，不先触发对话是不让你下去的</p>
 <p>7.把净化过的Light Dust带给在Temple of the Legends的入口的<font color=00AA00><strong>Kelight</strong></font></p>
 <p>8.找到对苦力怕着迷的科学家<font color=00AA00><strong>Garull</strong></font><code v-pre>[-918, 81, -1222]</code>（你可以在<RouterLink to="/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html">Creeper Infiltration</RouterLink>任务中找到如何进去的方法</p>
-<p>9.带回：</p>
+<p>9.带回以下材料：</p>
 <ul>
 <li>
-<p>Old Touroto Hide{在Rymek和Fabrics Merchant交易获得(需要32个gold bar)，gold bar在rymek附近的小怪都会掉落，或者你也可以直接在银行兑换},</p>
+<p>Old Touroto Hide：在<code v-pre>[1288 -1251]</code>处的<font color=FF55FF><strong>Fabrics Merchant</strong></font>花费32个<code v-pre>gold bar</code>得到。附近的小怪会掉落此货币，同时你也可以在当地的银行直接使用绿宝石购买</p>
 </li>
 <li>
-<p>Aseado Leaf 在<code v-pre>[-696 25 -589]</code>的洞穴里拿</p>
+<p>Aseado Leaf：在<code v-pre>[-696 25 -589]</code>的洞穴里拿</p>
 </li>
 <li>
-<p>Maro's Eye Jewel<code v-pre>[149 40 -4075]</code>(在Maro Peaks上 需要<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nations</RouterLink>中获得的登山帽 可以在selchar或者llevigar坐船过去)</p>
+<p>Maro's Eye Jewel：<code v-pre>[149 40 -4075]</code>，在<strong>Maro Peaks</strong>上 需要前置任务<RouterLink to="/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html">Ice Nations</RouterLink>中获得的登山帽才可以进入。此地可以在<strong>selchar</strong>或者<strong>llevigar</strong>坐船过去</p>
 </li>
 <li>
-<p>Coral of Nelfors{在Seavale Reef像一个蓝色回旋镖[ 250,  -3200] Selchar西找宝藏的海底掉落物随机出现， }给<font color=00AA00><strong>Garull</strong></font></p>
+<p>Coral of Nelfors：在<strong>Seavale Reef</strong><code v-pre>[250 -3200]</code>，下去海底拾取，像一个蓝色回旋镖</p>
 </li>
 </ul>
 <p>10.带回Garull给你的帽子给在Temple of Lengends入口的<font color=00AA00><strong>Kelight</strong></font></p>

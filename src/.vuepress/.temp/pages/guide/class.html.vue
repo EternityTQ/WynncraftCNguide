@@ -4829,15 +4829,13 @@
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '幻影射线'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '天使预言'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color=FF55FF><b>幻影射线</b></font>
+      <font color=FF55FF><b>天使预言</b></font>
       <br>
-      <br><font color = BBBBBB>将<u>箭雨</u>浓缩为一条射线，对敌人造成<font color=WHITE>10次</font>伤害</font>
+      <br><font color = BBBBBB><u>座天使</u>召唤的光球数量<font color=WHITE> +3 </font>，但是其打击伤害降低</font>
       <br>
-      <br><font color = BBBBBB>蓝耗：<font color=white>-5</font>
-      <br>范围：<font color = white>16格</font>
-      <br>持续时间：<font color = white>1.2秒</font></font>
+      <br><font color=WHITE><b>圣光使者 分支</b></font>
     </div>
 </td>
 <td><img src="/assets/img/class/右下.png">

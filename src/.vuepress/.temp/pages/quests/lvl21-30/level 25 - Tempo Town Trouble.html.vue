@@ -19,7 +19,7 @@
 </ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>Time Trouble会每隔24小时于下列地点刷新</p>
+<p>Time Trouble会每隔现实时间24小时于下列地点刷新</p>
 <p><code v-pre>[-454 75 -1207]</code>; <code v-pre>[-410 73 -1132]</code>; <code v-pre>[-192 67 -1324]</code>; <code v-pre>[-470 74 -1030]</code>; <code v-pre>[-500 83 -1150]</code><br>
 <img src="/assets/img/lvl25-2.jpg" alt="" loading="lazy"></p>
 <p>Time Fragment可以于<code v-pre>[-290 43 -1146]</code>兑换装备</p>

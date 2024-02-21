@@ -39,15 +39,15 @@ Deltas, Ragni, **Troms**, Nessak, Selchar
 
 8.找到对苦力怕着迷的科学家<font color=00AA00>**Garull**</font>`[-918, 81, -1222]`（你可以在[Creeper Infiltration](/quests/lvl21-30/level%2025%20-%20Creeper%20Infiltration.html)任务中找到如何进去的方法
 
-9.带回：
+9.带回以下材料：
 
-+ Old Touroto Hide{在Rymek和Fabrics Merchant交易获得(需要32个gold bar)，gold bar在rymek附近的小怪都会掉落，或者你也可以直接在银行兑换}, 
++ Old Touroto Hide：在`[1288 -1251]`处的<font color=FF55FF>**Fabrics Merchant**</font>花费32个`gold bar`得到。附近的小怪会掉落此货币，同时你也可以在当地的银行直接使用绿宝石购买
 
-+ Aseado Leaf 在`[-696 25 -589]`的洞穴里拿
++ Aseado Leaf：在`[-696 25 -589]`的洞穴里拿
 
-+ Maro's Eye Jewel`[149 40 -4075]`(在Maro Peaks上 需要[Ice Nations](/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)中获得的登山帽 可以在selchar或者llevigar坐船过去)
++ Maro's Eye Jewel：`[149 40 -4075]`，在**Maro Peaks**上 需要前置任务[Ice Nations](/quests/lvl31-40/level%2040%20-%20Ice%20Nations.html)中获得的登山帽才可以进入。此地可以在**selchar**或者**llevigar**坐船过去
 
-+ Coral of Nelfors{在Seavale Reef像一个蓝色回旋镖[ 250,  -3200] Selchar西找宝藏的海底掉落物随机出现， }给<font color=00AA00>**Garull**</font>
++ Coral of Nelfors：在**Seavale Reef**`[250 -3200]`，下去海底拾取，像一个蓝色回旋镖
 
 10.带回Garull给你的帽子给在Temple of Lengends入口的<font color=00AA00>**Kelight**</font>
 

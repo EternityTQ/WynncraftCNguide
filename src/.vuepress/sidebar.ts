@@ -111,6 +111,12 @@ export default sidebar({
         icon: "scroll",
         collapsible: true,
         children: "structure",
+      },{
+        text: "常用功能",
+        prefix: "commonfunction/",
+        icon: "gear",
+        collapsible: true,
+        children: "structure",
       }, "class", {
         text: "新手指南",
         link: "/newbie/",
