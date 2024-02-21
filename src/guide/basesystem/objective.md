@@ -7,6 +7,16 @@ Objective相当于小日常/周常任务(以下简称Obj)，每完成一个Obj�
 
 其奖励将会根据角色等级而提升
 
+Objective均为**自动接取**
+
+:::tip
+非Wynntils界面中，你可以在右侧计分板查看目前的Obj
+
+在Wynntils界面中，Obj位于右下角显示，其中Starter obj与daily obj均为绿色，而Guild obj为蓝色
+
+![](/assets/img/obj.jpg)
+:::
+
 ## Starter Objectives
 
 每个角色在创建后，都会有一系列的Starter Obj来帮助你慢慢体验游戏内容
