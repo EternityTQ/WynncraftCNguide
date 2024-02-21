@@ -199,6 +199,190 @@
 </tr>
 </tbody>
 </table>
+<h2 id="reward" tabindex="-1"><a class="header-anchor" href="#reward" aria-hidden="true">#</a> Reward</h2>
+<p>当BOSS被成功击杀后，所有玩家(无论死活)均可以领取最终奖励</p>
+<p>最终奖励包含以下表格中的多种(除了绿宝石外，不一定掉落)</p>
+<div class="hint-container tip">
+<p class="hint-container-title">提示</p>
+<p>该数值来自wiki，<strong>存在过时风险</strong></p>
+<p>其中数量为<strong>当出现该物品</strong>时，其数量的近似值，且wynncraft官方<strong>随时会修改爆率</strong>，请知悉</p>
+</div>
+<table>
+<thead>
+<tr>
+<th>物品</th>
+<th>数量</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Emerald Blocks</td>
+<td>120-264</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Tomes of Weapon Mastery III</td>
+<td>1-4</td>
+<td>包括 Fabled 和 Mythic 品质</td>
+</tr>
+<tr>
+<td>Tome of Slaying Mastery III</td>
+<td>-</td>
+<td>左上方的1-4为tome共计数量</td>
+</tr>
+<tr>
+<td>Tome of Dungeoneering Mastery III</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Tome of Gathering Mastery III</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Forbearance</td>
+<td>1</td>
+<td>戒指</td>
+</tr>
+<tr>
+<td>Ingress</td>
+<td>1</td>
+<td>戒指</td>
+</tr>
+<tr>
+<td>Breakthrough</td>
+<td>1</td>
+<td>手镯</td>
+</tr>
+<tr>
+<td>Detachment</td>
+<td>1</td>
+<td>手镯</td>
+</tr>
+<tr>
+<td>Collection</td>
+<td>1</td>
+<td>项链</td>
+</tr>
+<tr>
+<td>Simulacrum</td>
+<td>1</td>
+<td>项链</td>
+</tr>
+<tr>
+<td>Nonexistence</td>
+<td>1</td>
+<td>头盔，Boundless Set的其中一件</td>
+</tr>
+<tr>
+<td>Aleph Null</td>
+<td>1</td>
+<td>护腿，Boundless Set的其中一件</td>
+</tr>
+<tr>
+<td>Divergence</td>
+<td>1</td>
+<td>长矛，Boundless Set的其中一件</td>
+</tr>
+<tr>
+<td>Infinitesimal</td>
+<td>1</td>
+<td>匕首，Boundless Set的其中一件</td>
+</tr>
+<tr>
+<td>Continuum</td>
+<td>1</td>
+<td>法杖，Boundless Set的其中一件</td>
+</tr>
+<tr>
+<td>Recursion</td>
+<td>1</td>
+<td>弓，Boundless Set的其中一件</td>
+</tr>
+<tr>
+<td>Fractal</td>
+<td>1</td>
+<td>巫杖，Boundless Set的其中一件</td>
+</tr>
+<tr>
+<td>Charm of the Void</td>
+<td>1</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Ability Shards</td>
+<td>1-2</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Corkian Amplifier II</td>
+<td>1-10</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Corkian Amplifier III</td>
+<td>1-5</td>
+<td>-</td>
+</tr>
+<tr>
+<td>VI级粉末</td>
+<td>1-8</td>
+<td>属性随机</td>
+</tr>
+<tr>
+<td>Nii Runes</td>
+<td>1-12</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Uth Runes</td>
+<td>1-4</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Broken Infested Pit Keys</td>
+<td>?</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Broken Ice Barrows Keys</td>
+<td>1-8</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Broken Undergrowth Ruins Keys</td>
+<td>?</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Broken Galleon's Graveyard Keys</td>
+<td>1-2</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Ahmsord Teleport Scrolls</td>
+<td>3</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Lutho Teleport Scrolls</td>
+<td>3</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Black Horse</td>
+<td>1</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Chestnut Horse</td>
+<td>1</td>
+<td>-</td>
+</tr>
+</tbody>
+</table>
 </div></template>
 
 

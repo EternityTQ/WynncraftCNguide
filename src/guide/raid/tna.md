@@ -238,6 +238,53 @@ wynn制作组会不定时修改部分buff数值
 | Insidious | +20/3s Mana Steal<br>+20 Intelligence<br>+40% Spell Damage | -2 Attack Speed Tier<br>+325/4s Life Steal<br>+60% Spell Damage | +Sorcery Major ID <br> <font color = "red">-40% Walk Speed</font> <br>+80% Spell Damage |
 | Hopeless | +20 Strength<br>+80% Exploding<br>+100% Main Attack Damage | +1 Attack Speed Tier<br>+Fission Major ID<br>+30 Dexterity | +80% Walk Speed<br> <font color = "red">-20/4s Mana Regen</font> <br>+250% Main Attack Damage |
 
+## Reward
+
+当BOSS被成功击杀后，所有玩家(无论死活)均可以领取最终奖励
+
+最终奖励包含以下表格中的多种(除了绿宝石外，不一定掉落)
+
+:::tip
+该数值来自wiki，**存在过时风险**
+
+其中数量为**当出现该物品**时，其数量的近似值，且wynncraft官方**随时会修改爆率**，请知悉
+:::
+| 物品 | 数量 | 备注 |
+| --- | --- | --- |
+| Emerald Blocks | 120-264 | - |
+| Tomes of Weapon Mastery III | 1-4 | 包括 Fabled 和 Mythic 品质 |
+| Tome of Slaying Mastery III | - | 左上方的1-4为tome共计数量 |
+| Tome of Dungeoneering Mastery III | - | - |
+| Tome of Gathering Mastery III | - | - |
+| Forbearance | 1 | 戒指 |
+| Ingress | 1 | 戒指 |
+| Breakthrough | 1 | 手镯 |
+| Detachment | 1 | 手镯 |
+| Collection | 1 | 项链 |
+| Simulacrum | 1 | 项链 |
+| Nonexistence | 1 | 头盔，Boundless Set的其中一件 |
+| Aleph Null | 1 | 护腿，Boundless Set的其中一件 |
+| Divergence | 1 | 长矛，Boundless Set的其中一件 |
+| Infinitesimal | 1	| 匕首，Boundless Set的其中一件 |
+| Continuum | 1	| 法杖，Boundless Set的其中一件 |
+| Recursion | 1	| 弓，Boundless Set的其中一件 |
+| Fractal | 1 | 巫杖，Boundless Set的其中一件 |
+| Charm of the Void | 1 | - |
+| Ability Shards | 1-2 | - |
+| Corkian Amplifier II | 1-10 | - |
+| Corkian Amplifier III | 1-5 | - |
+| VI级粉末 | 1-8 | 属性随机 |
+| Nii Runes | 1-12 | - |
+| Uth Runes | 1-4 | - |
+| Broken Infested Pit Keys | ? | - |
+| Broken Ice Barrows Keys | 1-8 | - |
+| Broken Undergrowth Ruins Keys | ? | - |
+| Broken Galleon's Graveyard Keys | 1-2 | - |
+| Ahmsord Teleport Scrolls | 3 | - |
+| Lutho Teleport Scrolls | 3 | - |
+| Black Horse | 1 | -	 |
+| Chestnut Horse | 1 | - |
+
 
 <style>
 .minecraft-font {
