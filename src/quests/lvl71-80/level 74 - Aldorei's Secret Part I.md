@@ -96,7 +96,7 @@ icon: bookmark
 + 512500 经验
 + 0 / 8192 绿宝石
 + Elven Medallion / Receipt
-+ 可以进入Aldorei Town了
++ 可以进入Aldorei Town了(但是得接part II才能进去)
 
 :::tip
 Aldorei's Secret 和 Realm of Light 两个系列任务完整讲述了世界观中“光”这一部分的世界线
