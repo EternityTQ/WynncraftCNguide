@@ -123,6 +123,50 @@ Content team，制作wynncraft服务器内容的人(有好几种)，在服务器
 ### **MOD**
 moderator，服务器管理员或志愿者(后者职能是帮助玩家解决bug之类的问题)
 
+### **ajb**
+[A jounery beyound](/quests/lvl91-100/level%20100%20-%20A%20Journey%20Beyond.html)，重要任务名缩写
+
+### **ajf**
+[A jounery further](/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)，重要任务名缩写
+
+### **tbp**
+[The breaking point](/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html)，重要任务名缩写
+
+### **ahc**
+[A hunter’s calling](/quests/lvl101-110/level%20103%20-%20A%20hunter’s%20calling.html)，重要任务名缩写
+
+### **rol**
+指系列任务光之领域，亦或指光之领域地名
+
+### **SE**
+Silence expense，Lutho所在的地区名称
+
+### **空岛/sky**
+指Sky islands,地图东北角的浮空群岛区域
+
+### **灭霸**
+Thanos，来源为该地名的机翻
+
+### **永利**
+Wynn，来源为机翻
+
+### **木槌**
+Gavel，来源为机翻
+
+### **li**
+Legendary island，传说岛
+
+### **dxp**
+double xp,通常指双倍经验炸弹，或是指双倍经验周末
+
+### **dl**
+double loot，双倍掉落物炸弹
+
+### **DS/IP/TS(LS)/UC/SST/IB/UR/GG**
+副本简称
+
+### **troll**
+指整蛊行为
 
 ## 公会类
 
@@ -141,7 +185,11 @@ free for all，公会战里面的混战区
 ### **hq**
 headquarters，指公会战里面的首都/总部
 
+### **tax**
+公会战中的收取税收
 
+### **gb**
+guild bank，公会银行
 
 ## 口语类
 
@@ -172,4 +220,30 @@ for，比如说wait4my friend就是等一个朋友，不是等四个，口语而
 ### **gg**
 good game，游戏内一般是主职或副职升级成功表达恭喜的，挑战成功也会有人说gg
 
+### **cya**
+see you again, 再见
+
+### **kys**
+kill yourself, 你自杀吧(贬义)
+
+### **mb**
+my bad,我的锅
+
+### **rn**
+right now,现在
+
+### **lmao**
+laugh my ass off，笑死我了
+
+### **tyfr**
+thank you for run,感谢(这一局)，我要润了
+
+### **irl**
+in real life,现实
+
+### **stfu**
+shut the fuck up，闭上你的狗嘴
+
+### **fr**
+for real，真的
 ## 装备类
