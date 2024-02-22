@@ -7,7 +7,7 @@
 
 3 到丛林神庙里`[-489 78 -889]`寻找到他们要的护身符。
 
-杀死这个古老的骷髅(Ancient Skeleton)获得护身符
+杀死<font color=FF5555><b>Ancient Skeleton</b></font>获得护身符
 
 :::tip
 路线如下：
