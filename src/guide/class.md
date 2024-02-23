@@ -335,7 +335,7 @@ icon: hat-wizard
 **重要技能：**
 + Backstab：多重斩技能改为背刺，在怪物后方使用会造成双倍伤害
 
-+ Marked：烟雾弹技能会对怪物造成印记增伤效果
++ Marked：烟雾手雷技能会对怪物造成印记增伤效果
 
 + Nightcloak Knife：吸收印记并生成暗影之刃对怪物造成伤害
 
@@ -353,7 +353,7 @@ icon: hat-wizard
 **重要技能：**
 + Mirror Image：召唤分身，分身存在时降低受到伤害的60%
 
-+ Delirious Gas：在烟雾弹范围内时增加40%伤害并且吸引仇恨
++ Delirious Gas：在烟雾手雷范围内时增加40%伤害并且吸引仇恨
 
 + Echo：分身与你同时使用所有技能，但是每个分身和本体伤害降低65%
 
@@ -5047,7 +5047,26 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Spin_Attack"></span><img src="/assets/img/class/assassin_green.png">
+<td><span id="Spin_Attack"></span>
+<img
+      src="/assets/img/class/assassin_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('回旋斩')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '回旋斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>回旋斩</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 右键</font>
+      <br>
+      <br><font color = BBBBBB>快速对周围进行斩击，对大范围的区域造成伤害。</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>40</font>
+      <br>范围：<font color=white>4.5格</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5081,11 +5100,37 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Spin_Attack_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Spin_Attack_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('回旋斩减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '回旋斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>回旋斩减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>回旋斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Dagger_Proficiency_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Dagger_Proficiency_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('匕首精通1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '匕首精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>匕首精通 I</b></font>
+      <br>
+      <br><font color = BBBBBB>增加你的<u>移动速度</u>，并提升<u>普通攻击</u>的伤害</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5123,7 +5168,20 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Double_Spin"></span><img src="/assets/img/class/medium.png">
+<td><span id="Double_Spin"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('再斩')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '再斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>再斩</b></font>
+      <br>
+      <br><font color = BBBBBB><u>回旋斩</u>将斩击两次且每次伤害降低，第二次斩击的范围更大</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5157,15 +5215,61 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Poisoned_Blade"></span><img src="/assets/img/class/small.png">
+<td><span id="Poisoned_Blade"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('淬毒之刃')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '淬毒之刃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>淬毒之刃</b></font>
+      <br>
+      <br><font color = BBBBBB>你的装备鉴定词条每有<font color = FFFFFF>2%</font>或<font color = FFFFFF>2</font>点<u>普通攻击</u>伤害，就增加<font color = FFFFFF>5/3s</font>的<u>毒伤</u></font>
+      <br><font color = BBBBBB>你的<u>普通攻击</u>范围提升一格</font>
+      <br><br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Dash"></span><img src="/assets/img/class/assassin_green.png">
+<td><span id="Dash"></span><img 
+      src="/assets/img/class/assassin_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('突进')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '突进'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>突进</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 右键</font>
+      <br>
+      <br><font color = BBBBBB>向前方进行突进</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>20</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Double_Slice"></span><img src="/assets/img/class/small.png">
+<td><span id="Double_Slice"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('双重打击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '双重打击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>双重打击</b></font>
+      <br>
+      <br><font color = BBBBBB><u>普通攻击</u>将造成两次伤害，但每次伤害降低<font color = FFFFFF>40%</font></font>
+      <br><br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5195,15 +5299,64 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Smoke_Bomb"></span><img src="/assets/img/class/assassin_green.png">
+<td><span id="Smoke_Bomb"></span><img src="/assets/img/class/assassin_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('烟雾手雷')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾手雷'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>烟雾手雷</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 左键</font>
+      <br>
+      <br><font color = BBBBBB>投掷烟雾手雷，对范围内的敌人每0.5秒造成一次伤害。</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>35</font>
+      <br>范围：<font color=white>10格</font>
+      <br>持续时间：<font color=white>5s</font>
+      <br>烟雾范围：<font color=white>3格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Dash_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Dash_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('突进减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '突进减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>突进减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>突进</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Multihit"></span><img src="/assets/img/class/assassin_green.png">
+<td><span id="Multihit"></span><img src="/assets/img/class/assassin_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('迅捷连斩')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '迅捷连斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#00BB00"><b>迅捷连斩</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
+      <br>
+      <br><font color = BBBBBB>对前方敌人进行连续8次斩击，造成高额伤害。</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>40</font>
+      <br>范围：<font color=white>3格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
@@ -5248,11 +5401,41 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Earth_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+<td><span id="Earth_Mastery_(Assassin)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('地元素精通_刺客')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '地元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>地元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有地属性的伤害</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Thunder_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+<td><span id="Thunder_Mastery_(Assassin)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('雷元素精通_刺客')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '雷元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>雷元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有雷属性的伤害</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5260,11 +5443,41 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Water_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+<td><span id="Water_Mastery_(Assassin)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('水元素精通_刺客')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '水元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>水元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有水属性的伤害</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Air_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+<td><span id="Air_Mastery_(Assassin)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('气元素精通_刺客')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '气元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>气元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有气属性的伤害</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -5275,7 +5488,22 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Fire_Mastery_(Assassin)"></span><img src="/assets/img/class/small.png">
+<td><span id="Fire_Mastery_(Assassin)"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('火元素精通_刺客')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '火元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>火元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加所有火属性的伤害</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5288,7 +5516,22 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Backstab"></span><img src="/assets/img/class/medium.png">
+<td><span id="Backstab"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('背刺')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '背刺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>背刺</b></font>
+      <br>
+      <br><font color = BBBBBB><u>迅捷连斩</u>改为只进行一次更为强力的攻击且耗能<font color = FFFFFF>-5</font>。若于敌人背后使用此技能命中敌人，造成双倍伤害。</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
@@ -5300,7 +5543,20 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Fatality"></span><img src="/assets/img/class/medium.png">
+<td><span id="Fatality"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('终斩')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '终斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>终斩</b></font>
+      <br>
+      <br><font color = BBBBBB><u>迅捷连斩</u>在连斩结束后额外斩击一次。</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
@@ -5309,15 +5565,66 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Vanish"></span><img src="/assets/img/class/large.png">
+<td><span id="Vanish"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('影逝')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '影逝'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>影逝</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>突进</u>后，遁入暗影进入隐身状态，令敌人无法察觉(人话：敌人丢仇恨)。
+      <br>隐身期间无法受到治疗效果，无法回复法力值和生命(但hpr为负时其依旧生效)。
+      <br>隐身期间攻击或受击会立刻取消隐身状态</font>
+      <br>
+      <br>内置CD：<font color = white>5s</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>-5</font>
+      <br>范围：<font color = white>16格</font>
+      <br>持续时间：<font color = white>1.2秒</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Sticky_Bomb"></span><img src="/assets/img/class/medium.png">
+<td><span id="Sticky_Bomb"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('粘性炸弹')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '粘性炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>粘性炸弹</b></font>
+      <br>
+      <br><font color = BBBBBB><u>烟雾手雷</u>将会粘在敌人身上并造成额外伤害。</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Righting_Reflex"></span><img src="/assets/img/class/medium.png">
+<td><span id="Righting_Reflex"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('踏云')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '踏云'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>踏云</b></font>
+      <br>
+      <br><font color = BBBBBB>在半空中按住潜行键时，缓慢滑翔并取消摔落伤害。(至多5s)</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
@@ -5347,38 +5654,154 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Surprise_Strike"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Surprise_Strike"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('奇袭')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '奇袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>奇袭</b></font>
+      <br>
+      <br><font color = BBBBBB><u>影逝</u>激活期间，你的下一次单次伤害提升</font>
+      <br>
+      <br>伤害加成：<font color=WHITE>+80%</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>奇袭</u>对于多段伤害，只提升其第一段的伤害。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mirror_Image"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Mirror_Image"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('镜像幻术')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '镜像幻术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>镜像幻术</b></font>
+      <br>
+      <br><font color = BBBBBB><u>影逝</u>效果结束后，召唤数个<font color = 732490>暗影分身</font>跟随并保护你，<font color = 732490>暗影分身</font>存在期间降低你受到的伤害。
+      <br>
+      <br>内置CD：<font color=WHITE>15s</font>
+      <br>分身数量：<font color=WHITE>3</font>
+      <br>分身血量：<font color=WHITE>2</font>(可抵挡两次攻击)
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Lacerate"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Lacerate"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('斩空')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '斩空'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>斩空</b></font>
+      <br>
+      <br><font color = BBBBBB><u>回旋斩</u>将令你向前位移，并改为造成<font color=FFFFFF>3</font>段伤害，完全施法后令你向上位移。
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Silent_Killer"></span><img src="/assets/img/class/large.png">
+<td><span id="Silent_Killer"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冷面杀手')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冷面杀手'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>冷面杀手</b></font>
+      <br>
+      <br><font color = BBBBBB>击杀敌对目标将立刻刷新<u>影逝</u>的冷却时间</font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>对友好单位(游戏内绿名或蓝名的生物)不生效</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
-<td><span id="Last_Laugh"></span><img src="/assets/img/class/small.png">
+<td><span id="Last_Laugh"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('临别惊喜')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '临别惊喜'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>临别惊喜</b></font>
+      <br>
+      <br><font color = BBBBBB>每当你失去<font color = 732490>暗影分身</font>时，在其位置释放一次<u>回旋斩</u></font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>不兼容<u>斩空</u></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shenanigans"></span><img src="/assets/img/class/small.png">
+<td><span id="Shenanigans"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('智取巧夺')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '智取巧夺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>智取巧夺</b></font>
+      <br>
+      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>2% </font>的偷窃，就获得<font color=white> 1/3s </font>的能量窃取(至多+8/3s)</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Wall_of_Smoke"></span><img src="/assets/img/class/medium.png">
+<td><span id="Wall_of_Smoke"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('烟雾幕墙')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾幕墙'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>烟雾幕墙</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>烟雾手雷</u>时额外丢出两颗烟雾弹，降低每发烟雾弹的伤害</font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
@@ -5395,28 +5818,98 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Psithurism"></span><img src="/assets/img/class/small.png">
+<td><span id="Psithurism"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('如风')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '如风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>如风</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<font color=white> 20% </font>的移动速度与<font color=white> 1 </font>点跳跃高度</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Better_Smoke_Bomb"></span><img src="/assets/img/class/small.png">
+<td><span id="Better_Smoke_Bomb"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('烟雾弥漫')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾弥漫'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>烟雾弥漫</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<u>烟雾手雷</u>的投掷范围和效果半径</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Shadow_Travel"></span><img src="/assets/img/class/medium.png">
+<td><span id="Shadow_Travel"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('影步')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '影步'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>影步</b></font>
+      <br>
+      <br><font color = BBBBBB><u>影逝</u>期间额外增加<font color=white> 120% </font>的移速。</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Multihit_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Multihit_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('迅捷连斩减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '迅捷连斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>迅捷连斩减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>迅捷连斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Dagger_Proficiency_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Dagger_Proficiency_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('匕首精通2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '匕首精通2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>匕首精通 II</b></font>
+      <br>
+      <br><font color = BBBBBB>你造成的所有伤害增加 <font color=white>5 </font>点，且<u>普通攻击</u>范围增加<font color=white> 1 </font>格</font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>多段伤害的每一段都会被该技能点提升。</font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
@@ -5427,11 +5920,47 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Bamboozle"></span><img src="/assets/img/class/large.png">
+<td><span id="Bamboozle"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('虚张声势')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '虚张声势'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>虚张声势</b></font>
+      <br>
+      <br><font color = BBBBBB><font color = 732490>暗影分身</font>存在期间，若在潜行状态时释放<u>迅捷连斩</u>，则会立刻消灭一个<font color = 732490>暗影分身</font>，将你向前传送一段距离并对周围的敌人造成大量伤害
+      <br>
+      <br>传送范围：<font color = white>6格</font>
+      <br>伤害半径：<font color = white>5格</font></font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>迅捷连斩</u>和<u>临别惊喜(如果有)</u>的效果也会一并触发，且<u>虚张声势</u>的实际游戏内伤害范围与技能描述差别较大(实测是对传送起点周围的敌人造成伤害，笔者注)。</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Distraction"></span><img src="/assets/img/class/medium.png">
+<td><span id="Distraction"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('诡影缠身')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '诡影缠身'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>诡影缠身</b></font>
+      <br>
+      <br><font color = BBBBBB>每次对敌人造成伤害都会使其伤害降低<font color=white> 0.1% </font>(最高降低15%)，该效果每秒消散<font color=white> 0.3% </font></font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
@@ -5457,13 +5986,39 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Cheaper_Smoke_Bomb_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Smoke_Bomb_I"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('烟雾手雷减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾手雷减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>烟雾手雷减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>烟雾手雷</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Blazing_Powder"></span><img src="/assets/img/class/medium.png">
+<td><span id="Blazing_Powder"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('灼热的刀')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '灼热的刀'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>灼热的刀</b></font>
+      <br>
+      <br><font color = BBBBBB><u>回旋斩击</u>或<u>斩空</u>将造成额外的火属性伤害，且会令敌对目标致盲1s</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
@@ -5471,41 +6026,181 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Weightless"></span><img src="/assets/img/class/large.png">
+<td><span id="Weightless"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('鹤步')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '鹤步'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>鹤步</b></font>
+      <br>
+      <br><font color = BBBBBB>在<font color = AAAAAA>浮空状态</font>下造成伤害时，将为你回复<font color=WHITE>0.35</font>点能量</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>离地1.25格以上时算作<font color = AAAAAA>浮空状态</font>，该效果对多段攻击/多个敌对目标均有兼容</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Black_Hole"></span><img src="/assets/img/class/medium.png">
+<td><span id="Black_Hole"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('黑洞')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '黑洞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>黑洞</b></font>
+      <br>
+      <br><font color = BBBBBB><u>烟雾手雷</u>将会拉扯附近的敌人</font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>只在烟雾弹落地时拉扯一次而非持续拉；效果很华丽所以可能导致卡顿，且并不提升伤害，慎点</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Sandbagging"></span><img src="/assets/img/class/medium.png">
+<td><span id="Sandbagging"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('假意不敌')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '假意不敌'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>假意不敌</b></font>
+      <br>
+      <br><font color = BBBBBB>当你受到伤害后，若本次伤害量小于你最大生命值的<font color = FFFFFF>5%</font>，你的所有其他技能的冷却减少<font color = FFFFFF>3</font>秒。
+      <br>
+      <br>内置CD：<font color = white>1s</font></font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Hop"></span><img src="/assets/img/class/medium.png">
+<td><span id="Hop"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('雀跃')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '雀跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>雀跃</b></font>
+      <br>
+      <br><font color = BBBBBB>双击跳跃键时，向前飞跃一段距离。<br>
+      <br>内置CD：<font color = white>2s</font></font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Flow_State"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Flow_State"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('奔流形态')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '奔流形态'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>奔流形态</b></font>
+      <br>
+      <br><font color = BBBBBB>在<font color=WHITE>2s</font>内造成<font color=WHITE>60</font>次伤害后将进入<u>奔流形态</u>，造成的所有伤害提升<font color=WHITE>50%</font>，持续<font color=WHITE>5s</font>。
+      <br>
+      <br>内置CD：<font color = white>10s</font></font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>该技能会在屏幕中显示flow state进度条，且在完整触发之后才会进入冷却，因此无法达到永续的效果。</font>
+    </div>
 </td></tr>
 <tr>
-<td><span id="Violent_Vortex"></span><img src="/assets/img/class/medium.png">
+<td><span id="Violent_Vortex"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('杀戮漩涡')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '杀戮漩涡'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>杀戮漩涡</b></font>
+      <br>
+      <br><font color = BBBBBB>若你造成的单次伤害量大于你最大生命值的<font color=WHITE>1.5倍</font>，令周围所有敌人受到这次伤害量的<font color=WHITE>30%</font>。
+      <br>
+      <br>范围：<font color = white>10格</font>
+      <br>内置CD：<font color = white>2s</font></font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Delirious_Gas"></span><img src="/assets/img/class/large.png">
+<td><span id="Delirious_Gas"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('怪诞魔雾')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '怪诞魔雾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>怪诞魔雾</b></font>
+      <br>
+      <br><font color = BBBBBB>当你处于<u>烟雾手雷</u>的范围内时，造成的伤害提升<font color=WHITE>40%</font>并获得持续<font color=WHITE>20s</font>的<font color = FA37F8>诱饵</font>效果
+      <br><font color = FA37F8>诱饵</font>效果会让周围<font color=WHITE>16</font>格内的敌人转而攻击你，且其移速提升<font color=WHITE>30%</font>。</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><font color = FA37F8>诱饵</font>会与战士的嘲讽抢夺敌人仇恨，多人配合时请留意。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Stronger_Multihit"></span><img src="/assets/img/class/small.png">
+<td><span id="Stronger_Multihit"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('无影斩')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '无影斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>无影斩</b></font>
+      <br>
+      <br><font color = BBBBBB><u>迅捷连斩</u>的斩击次数<font color = FFFFFF> +3</font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>此技能与<u>背刺</u>冲突。</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5516,21 +6211,92 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Marked"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Marked"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('刺杀印记')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '刺杀印记'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>刺杀印记</b></font>
+      <br>
+      <br><font color = BBBBBB><u>烟雾手雷</u>对敌人造成伤害后，令其获得1层<font color = a71010>刺杀印记</font>。（至多<font color = FFFFFF>4</font>层，<font color = FFFFFF>0.4s</font>冷却）
+      <br>有<font color = a71010>刺杀印记</font>的敌人，受到的伤害增加。
+      <br><font color = a71010>刺杀印记</font>每<font color = FFFFFF>10s</font>消散一层
+      <br>
+      <br>伤害加成：<font color=WHITE>+6%</font><font color=555555>(每层印记)</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>多个<u>烟雾手雷</u>共享叠加CD，目前不存在瞬叠多层刺杀印记的方法。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Echo"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Echo"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('镜像回响')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '镜像回响'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>镜像回响</b></font>
+      <br>
+      <br><font color = BBBBBB>你的<font color = 732490>暗影分身</font>将会模仿你使用的技能，但是其造成的伤害<font color=WHITE> -65%</font>。
+      <br><u>虚张声势</u>的伤害不受此技能影响。</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Shurikens"></span><img src="/assets/img/class/large.png">
+<td><span id="Shurikens"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('旋星')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '旋星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>旋星</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>突进</u>后，你的下一次<u>普通攻击</u>将连续丢出三枚手里剑</font>
+      <br>
+      <br>范围：<font color = white>50格</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Far_Reach"></span><img src="/assets/img/class/small.png">
+<td><span id="Far_Reach"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('长斩')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '长斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>长斩</b></font>
+      <br>
+      <br><font color = BBBBBB><u>迅捷连斩</u>的范围增加<font color = FFFFFF> 2</font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>与<u>背刺</u>不兼容</font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
@@ -5547,7 +6313,22 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Dancing_Blade"></span><img src="/assets/img/class/small.png">
+<td><span id="Dancing_Blade"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('刃舞')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '刃舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>刃舞</b></font>
+      <br>
+      <br><font color = BBBBBB>对<u>突进</u>路径上的敌人造成伤害</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
@@ -5571,23 +6352,94 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Ambush"></span><img src="/assets/img/class/small.png">
+<td><span id="Ambush"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('潜心奇袭')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '潜心奇袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>潜心奇袭</b></font>
+      <br>
+      <br><font color = BBBBBB><u>奇袭</u>的伤害倍率提升</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Death_Magnet"></span><img src="/assets/img/class/medium.png">
+<td><span id="Death_Magnet"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('厄运磁铁')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '厄运磁铁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>厄运磁铁</b></font>
+      <br>
+      <br><font color = BBBBBB><u>影逝</u>结束时，将大范围的敌人拉向你进入<u>影逝</u>的位置</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Dash_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Dash_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('突进减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '突进减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>突进减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>突进</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Parry"></span><img src="/assets/img/class/large.png">
+<td><span id="Parry"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('锐羽')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '锐羽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>锐羽</b></font>
+      <br>
+      <br><font color = BBBBBB>触发闪避后，获得1.5s的伤害提升，且接下来1.5s内释放的下一个技能不消耗能量
+      <br>
+      <br>内置CD：<font color = white>3s</font></font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Spin_Attack_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Spin_Attack_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('回旋斩减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '回旋斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>回旋斩减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>回旋斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
@@ -5609,45 +6461,209 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Nightcloak_Knife"></span><img src="/assets/img/class/large.png">
+<td><span id="Nightcloak_Knife"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('暗幕之刃')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '暗幕之刃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>暗幕之刃</b></font>
+      <br>
+      <br><font color = BBBBBB>在<u>影逝</u>期间释放<u>回旋斩</u>将会消耗周围敌人身上的<font color = a71010>刺杀印记</font>以召唤<font color = a71010>暗幕之刃</font>
+      <br>在你对周围敌人造成伤害后，<font color = a71010>暗幕之刃</font>会再对其额外造成一次伤害，该伤害为你所造成的伤害的特定比例。
+      <br>
+      <br>伤害比例：<font color=white>4%</font>(消耗的印记每层增加4%，最高10层)
+      <br>范围：<font color = white>6格</font>
+      <br>持续时间：<font color = white>40s</font></font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><font color = a71010>暗幕之刃</font>可被重复召唤，但新召唤的<font color = a71010>暗幕之刃</font>总会覆盖先召唤的，且可以消耗超过10层的<font color = a71010>刺杀印记</font>。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Multihit_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Multihit_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('迅捷连斩减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '迅捷连斩减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>迅捷连斩减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>迅捷连斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Hoodwink"></span><img src="/assets/img/class/medium.png">
+<td><span id="Hoodwink"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('移花接木')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '移花接木'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>移花接木</b></font>
+      <br>
+      <br><font color = BBBBBB><u>回旋斩</u>每次命中时，都会将你自身所有负面状态的30%(持续时间的30%)转移给命中的敌人。
+      <br><font color = FA37F8>诱饵</font>也能被该技能转移，但部分BOSS、特殊敌人免疫效果<font color = FA37F8>诱饵</font></font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Choke_Bomb"></span><img src="/assets/img/class/medium.png">
+<td><span id="Choke_Bomb"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('窒息毒雾')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '窒息毒雾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>窒息毒雾</b></font>
+      <br>
+      <br><font color = BBBBBB><u>烟雾手雷</u>将对范围内的敌人造成减速。</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Wall_Jump"></span><img src="/assets/img/class/medium.png">
+<td><span id="Wall_Jump"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('虎跃')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '虎跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>虎跃</b></font>
+      <br>
+      <br><font color = BBBBBB><u>雀跃</u>的冷却时间<font color = FFFFFF>-1s</font>，使用<u>雀跃</u>后若碰到墙壁则会借力跳跃(按住潜行可取消)</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>该技能可产生多次连续跳跃，且反墙跳的方向难以控制。</font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Fatal_Spin"></span><img src="/assets/img/class/medium.png">
+<td><span id="Fatal_Spin"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('夺命斩')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '夺命斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>夺命斩</b></font>
+      <br>
+      <br><font color = BBBBBB><u>回旋斩</u>的范围变大且可对命中的敌人附加1层<font color = a71010>刺杀印记</font></font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>该技能依旧受刺杀印记自身的CD影响</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Dissolution"></span><img src="/assets/img/class/small.png">
+<td><span id="Dissolution"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('影遁')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '影遁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>影遁</b></font>
+      <br>
+      <br><font color = BBBBBB>进入<u>影逝</u>的<font color = FFFFFF>0.5s</font>内获得<font color = FFFFFF>75%</font>击退免疫</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Pirouette"></span><img src="/assets/img/class/medium.png">
+<td><span id="Pirouette"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('瞬华')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '瞬华'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>瞬华</b></font>
+      <br>
+      <br><font color = BBBBBB><u>刃舞</u>造成伤害时，造成一次额外伤害并令你向上位移，落地后重置。</font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>实测发现原文所述“落地后重置”并不准确，似为每次使用突进后重置，笔者注</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Stronger_Lacerate"></span><img src="/assets/img/class/small.png">
+<td><span id="Stronger_Lacerate"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('斩穹')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '斩穹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>斩穹</b></font>
+      <br>
+      <br><font color = BBBBBB><u>斩空</u>将造成一次额外斩击</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Stronger_Vortex"></span><img src="/assets/img/class/small.png">
+<td><span id="Stronger_Vortex"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('无底漩涡')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '无底漩涡'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>无底漩涡</b></font>
+      <br>
+      <br><font color = BBBBBB><u>杀戮漩涡</u>的伤害倍率增加，且触发条件改为你的最大生命之的<font color = FFFFFF>2.5倍</font></font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
@@ -5687,19 +6703,66 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Harvester"></span><img src="/assets/img/class/large.png">
+<td><span id="Harvester"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('灵魂收割')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '灵魂收割'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>灵魂收割</b></font>
+      <br>
+      <br><font color = BBBBBB>击杀敌人后，其身上每有一层<font color = a71010>刺杀印记</font>就回复<font color = FFFFFF>5</font>点能量</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Smoke_Bomb_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Smoke_Bomb_II"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('烟雾手雷减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾手雷减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>烟雾手雷减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>烟雾手雷</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Blade_Fury"></span><img src="/assets/img/class/medium.png">
+<td><span id="Blade_Fury"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('狂锋')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '狂锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>狂锋</b></font>
+      <br>
+      <br><font color = BBBBBB><u>迅捷连斩</u>现在可以瞄准任何方向并会将被命中的目标锁定在你前方，且将造成额外的雷属性伤害</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>没有该技能点的<u>迅捷连斩</u>只能瞄准水平方向(人话：不能低头打)
+      <br>此技能点与<u>背刺</u>不兼容</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
@@ -5708,36 +6771,144 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="More_Marks"></span><img src="/assets/img/class/small.png">
+<td><span id="More_Marks"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('刺杀狂潮')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '刺杀狂潮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>刺杀狂潮</b></font>
+      <br>
+      <br><font color = BBBBBB><font color = a71010>刺杀印记</font>的上限提升<font color = FFFFFF>2</font></font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Stronger_Clones"></span><img src="/assets/img/class/medium.png">
+<td><span id="Stronger_Clones"></span><img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('助战分身')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '助战分身'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="ORANGE"><b>助战分身</b></font>
+      <br>
+      <br><font color = BBBBBB>当你至少存在一个<font color = 732490>暗影分身</font>时，提升你自己造成的伤害。</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>镜像回响</u>决定了分身的输出会继承本体的伤害倍率，请注意。</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Ricochets"></span><img src="/assets/img/class/small.png">
+<td><span id="Ricochets"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('弹星')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '弹星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>弹星</b></font>
+      <br>
+      <br><font color = BBBBBB><u>手里剑</u>命中后可在敌人之间弹射</font>
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Satsujin"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Satsujin"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('杀意起兮')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '杀意起兮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>杀意起兮</b></font>
+      <br>
+      <br><font color = BBBBBB>敌人身上拥有至少<font color=WHITE> 4 </font>层<font color = a71010>刺杀印记</font>时，你对其下一次<u>迅捷连斩</u>或粉末技能的伤害倍率提升100%
+      <br>
+      <br>内置CD：<font color=WHITE>15s</font>
+      <br>
+      <br><font color=AA0000><b>影步者 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>背刺</u>当然能触发此效果</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Forbidden_Art"></span><img src="/assets/img/class/large.png">
+<td><span id="Forbidden_Art"></span><img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('禁忌秘术')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '禁忌秘术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF55FF><b>禁忌秘术</b></font>
+      <br>
+      <br><font color = BBBBBB><u>镜像幻术</u>将额外召唤3个<font color = 732490>暗影分身</font>且冷却时间<font color=WHITE>+15s</font>，但你自身造成的伤害降低。</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>镜像回响</u>决定了分身的输出会继承本体的伤害倍率，请注意。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Jasmine_Bloom"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Jasmine_Bloom"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('芳泽')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '芳泽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>芳泽</b></font>
+      <br>
+      <br><font color = BBBBBB>每消耗<font color=WHITE>40</font>能量，都将会在脚下积攒一层<font color=WHITE>绽放印记</font>，<font color=WHITE>绽放印记</font>会对其下方的所有单位造成高频伤害，再次获得印记将会扩大印记半径并刷新持续时间。
+      <br>
+      <br>伤害频率：<font color=WHITE>0.3s</font>
+      <br>持续时间：<font color=WHITE>5s</font>(每次减少一层)
+      <br>技能范围：<font color=WHITE>2格</font>(每层印记+2，最高到达10格)
+      <br>
+      <br><font color=WHITE><b>身法刺 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><font color=WHITE><b>绽放印记</b></font>的高频伤害搭配<u>鹤步</u>可以为身法刺提供大量能量</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
@@ -5752,24 +6923,99 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Diversion"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><span id="Diversion"></span><img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('声东击西')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '声东击西'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color=FF5555><b>声东击西</b></font>
+      <br>
+      <br><font color = BBBBBB>当攻击到身上带有<font color = FA37F8>诱饵</font>的敌人时，周围16格内的所有友方单位获得其最大生命值10%的<font color = FFFF00>临时生命</font>
+      <br><font color = FFFF00>临时生命</font>比你自身的生命值更优先抵挡伤害，但会在<font color = FFFFFF>10s</font>内逐渐消散
+      <br>
+      <br>内置CD：<font color=WHITE>9s</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Better_Ricochets"></span><img src="/assets/img/class/small.png">
+<td><span id="Better_Weightless"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('鹤舞')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '鹤舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>鹤舞</b></font>
+      <br>
+      <br><font color = BBBBBB><u>鹤步</u>的能量回复提升<font color = FFFFFF>0.25</font></font>
+    </div>
 </td></tr>
 <tr>
-<td><span id="Devour"></span><img src="/assets/img/class/small.png">
+<td><span id="Devour"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('灵魂吞噬')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '灵魂吞噬'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>灵魂吞噬</b></font>
+      <br>
+      <br><font color = BBBBBB><u>灵魂收割</u>的能量回复提升<font color = FFFFFF>5</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Better_Marked"></span><img src="/assets/img/class/small.png">
+<td><span id="Better_Marked"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('险恶杀意')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '险恶杀意'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>险恶杀意</b></font>
+      <br>
+      <br><font color = BBBBBB><font color = a71010>刺杀印记</font>的伤害加成提升<font color = FFFFFF>4%</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Even_Stronger_Clones"></span><img src="/assets/img/class/small.png">
+<td><span id="Even_Stronger_Clones"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('一人成军')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '一人成军'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>一人成军</b></font>
+      <br>
+      <br><font color = BBBBBB>当你至少存在一个<font color = 732490>暗影分身</font>时，提升你自己造成的伤害。</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>镜像回响</u>决定了分身的输出会继承本体的伤害倍率，请注意。</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
