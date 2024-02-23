@@ -127,6 +127,10 @@ export const pagesComponents = {
   "v-19f72d37": defineAsyncComponent(() => import(/* webpackChunkName: "v-19f72d37" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/discovery.html.vue")),
   // path: /newbie/lvl61-70/thingstodo.html
   "v-250c9340": defineAsyncComponent(() => import(/* webpackChunkName: "v-250c9340" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/thingstodo.html.vue")),
+  // path: /newbie/lvl71-80/discovery.html
+  "v-5242e197": defineAsyncComponent(() => import(/* webpackChunkName: "v-5242e197" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/discovery.html.vue")),
+  // path: /newbie/lvl71-80/thingstodo.html
+  "v-82b6e400": defineAsyncComponent(() => import(/* webpackChunkName: "v-82b6e400" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/thingstodo.html.vue")),
   // path: /newbie/lvl81-90/discovery.html
   "v-eae2d412": defineAsyncComponent(() => import(/* webpackChunkName: "v-eae2d412" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl81-90/discovery.html.vue")),
   // path: /newbie/lvl81-90/thingstodo.html
@@ -135,10 +139,6 @@ export const pagesComponents = {
   "v-aa164b1c": defineAsyncComponent(() => import(/* webpackChunkName: "v-aa164b1c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/discovery.html.vue")),
   // path: /newbie/lvl91-100/thingstodo.html
   "v-7c31b085": defineAsyncComponent(() => import(/* webpackChunkName: "v-7c31b085" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/thingstodo.html.vue")),
-  // path: /newbie/lvl71-80/discovery.html
-  "v-5242e197": defineAsyncComponent(() => import(/* webpackChunkName: "v-5242e197" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/discovery.html.vue")),
-  // path: /newbie/lvl71-80/thingstodo.html
-  "v-82b6e400": defineAsyncComponent(() => import(/* webpackChunkName: "v-82b6e400" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/thingstodo.html.vue")),
   // path: /quests/lvl1-10/level%201%20-%20King's%20Recruit.html
   "v-2850e43d": defineAsyncComponent(() => import(/* webpackChunkName: "v-2850e43d" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/level 1 - King's Recruit.html.vue")),
   // path: /quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html
@@ -315,36 +315,6 @@ export const pagesComponents = {
   "v-299240a3": defineAsyncComponent(() => import(/* webpackChunkName: "v-299240a3" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl61-70/level 70 - Shattered Minds.html.vue")),
   // path: /quests/lvl61-70/level%2070%20-%20WynnExcavation%20Site%20D.html
   "v-33cea900": defineAsyncComponent(() => import(/* webpackChunkName: "v-33cea900" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl61-70/level 70 - WynnExcavation Site D.html.vue")),
-  // path: /quests/lvl81-90/level%2081%20-%20From%20The%20Bottom.html
-  "v-0c907b43": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c907b43" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 81 - From The Bottom.html.vue")),
-  // path: /quests/lvl81-90/level%2081%20-%20The%20Thanos%20Depository.html
-  "v-5324d396": defineAsyncComponent(() => import(/* webpackChunkName: "v-5324d396" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 81 - The Thanos Depository.html.vue")),
-  // path: /quests/lvl81-90/level%2083%20-%20A%20Maradurs%20Due.html
-  "v-35c36253": defineAsyncComponent(() => import(/* webpackChunkName: "v-35c36253" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 83 - A Maradurs Due.html.vue")),
-  // path: /quests/lvl81-90/level%2083%20-%20The%20Envoy%20Part%20I.html
-  "v-325dc2e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-325dc2e4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 83 - The Envoy Part I.html.vue")),
-  // path: /quests/lvl81-90/level%2084%20-%20The%20Canyon%20Guides.html
-  "v-38c59056": defineAsyncComponent(() => import(/* webpackChunkName: "v-38c59056" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 84 - The Canyon Guides.html.vue")),
-  // path: /quests/lvl81-90/level%2085%20-%20The%20Lost.html
-  "v-109f6de7": defineAsyncComponent(() => import(/* webpackChunkName: "v-109f6de7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 85 - The Lost.html.vue")),
-  // path: /quests/lvl81-90/level%2086%20-%20Cowfusion.html
-  "v-18cac336": defineAsyncComponent(() => import(/* webpackChunkName: "v-18cac336" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - Cowfusion.html.vue")),
-  // path: /quests/lvl81-90/level%2086%20-%20Desperate%20Metal.html
-  "v-77508aae": defineAsyncComponent(() => import(/* webpackChunkName: "v-77508aae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - Desperate Metal.html.vue")),
-  // path: /quests/lvl81-90/level%2086%20-%20The%20Canary%20Calls.html
-  "v-bb4d497c": defineAsyncComponent(() => import(/* webpackChunkName: "v-bb4d497c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - The Canary Calls.html.vue")),
-  // path: /quests/lvl81-90/level%2087%20-%20Beyond%20the%20Grave.html
-  "v-cf9efa00": defineAsyncComponent(() => import(/* webpackChunkName: "v-cf9efa00" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 87 - Beyond the Grave.html.vue")),
-  // path: /quests/lvl81-90/level%2087%20-%20Mixed%20Feelings.html
-  "v-79d46800": defineAsyncComponent(() => import(/* webpackChunkName: "v-79d46800" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 87 - Mixed Feelings.html.vue")),
-  // path: /quests/lvl81-90/level%2088%20-%20The%20Hidden%20City.html
-  "v-11815140": defineAsyncComponent(() => import(/* webpackChunkName: "v-11815140" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 88 - The Hidden City.html.vue")),
-  // path: /quests/lvl81-90/level%2089%20-%20Enter%20the%20Dojo.html
-  "v-31aaf058": defineAsyncComponent(() => import(/* webpackChunkName: "v-31aaf058" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 89 - Enter the Dojo.html.vue")),
-  // path: /quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html
-  "v-049bd082": defineAsyncComponent(() => import(/* webpackChunkName: "v-049bd082" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 89 - The Envoy Part II.html.vue")),
-  // path: /quests/lvl81-90/level%2090%20-%20Fantastic%20Voyage.html
-  "v-61c3ea20": defineAsyncComponent(() => import(/* webpackChunkName: "v-61c3ea20" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 90 - Fantastic Voyage.html.vue")),
   // path: /quests/lvl71-80/level%2071%20-%20Realm%20of%20Light%20IV%20-%20Finding%20the%20Light.html
   "v-15b7d1f5": defineAsyncComponent(() => import(/* webpackChunkName: "v-15b7d1f5" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/level 71 - Realm of Light IV - Finding the Light.html.vue")),
   // path: /quests/lvl71-80/level%2072%20-%20Forbidden%20Prison.html
@@ -387,6 +357,36 @@ export const pagesComponents = {
   "v-572f95a0": defineAsyncComponent(() => import(/* webpackChunkName: "v-572f95a0" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/level 80 - The Qira Hive.html.vue")),
   // path: /quests/lvl71-80/level%2080%20-%20Z%EF%BC%9F%EF%BC%9F%EF%BC%9F.html
   "v-6be59e40": defineAsyncComponent(() => import(/* webpackChunkName: "v-6be59e40" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/level 80 - Z？？？.html.vue")),
+  // path: /quests/lvl81-90/level%2081%20-%20From%20The%20Bottom.html
+  "v-0c907b43": defineAsyncComponent(() => import(/* webpackChunkName: "v-0c907b43" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 81 - From The Bottom.html.vue")),
+  // path: /quests/lvl81-90/level%2081%20-%20The%20Thanos%20Depository.html
+  "v-5324d396": defineAsyncComponent(() => import(/* webpackChunkName: "v-5324d396" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 81 - The Thanos Depository.html.vue")),
+  // path: /quests/lvl81-90/level%2083%20-%20A%20Maradurs%20Due.html
+  "v-35c36253": defineAsyncComponent(() => import(/* webpackChunkName: "v-35c36253" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 83 - A Maradurs Due.html.vue")),
+  // path: /quests/lvl81-90/level%2083%20-%20The%20Envoy%20Part%20I.html
+  "v-325dc2e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-325dc2e4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 83 - The Envoy Part I.html.vue")),
+  // path: /quests/lvl81-90/level%2084%20-%20The%20Canyon%20Guides.html
+  "v-38c59056": defineAsyncComponent(() => import(/* webpackChunkName: "v-38c59056" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 84 - The Canyon Guides.html.vue")),
+  // path: /quests/lvl81-90/level%2085%20-%20The%20Lost.html
+  "v-109f6de7": defineAsyncComponent(() => import(/* webpackChunkName: "v-109f6de7" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 85 - The Lost.html.vue")),
+  // path: /quests/lvl81-90/level%2086%20-%20Cowfusion.html
+  "v-18cac336": defineAsyncComponent(() => import(/* webpackChunkName: "v-18cac336" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - Cowfusion.html.vue")),
+  // path: /quests/lvl81-90/level%2086%20-%20Desperate%20Metal.html
+  "v-77508aae": defineAsyncComponent(() => import(/* webpackChunkName: "v-77508aae" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - Desperate Metal.html.vue")),
+  // path: /quests/lvl81-90/level%2086%20-%20The%20Canary%20Calls.html
+  "v-bb4d497c": defineAsyncComponent(() => import(/* webpackChunkName: "v-bb4d497c" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 86 - The Canary Calls.html.vue")),
+  // path: /quests/lvl81-90/level%2087%20-%20Beyond%20the%20Grave.html
+  "v-cf9efa00": defineAsyncComponent(() => import(/* webpackChunkName: "v-cf9efa00" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 87 - Beyond the Grave.html.vue")),
+  // path: /quests/lvl81-90/level%2087%20-%20Mixed%20Feelings.html
+  "v-79d46800": defineAsyncComponent(() => import(/* webpackChunkName: "v-79d46800" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 87 - Mixed Feelings.html.vue")),
+  // path: /quests/lvl81-90/level%2088%20-%20The%20Hidden%20City.html
+  "v-11815140": defineAsyncComponent(() => import(/* webpackChunkName: "v-11815140" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 88 - The Hidden City.html.vue")),
+  // path: /quests/lvl81-90/level%2089%20-%20Enter%20the%20Dojo.html
+  "v-31aaf058": defineAsyncComponent(() => import(/* webpackChunkName: "v-31aaf058" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 89 - Enter the Dojo.html.vue")),
+  // path: /quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html
+  "v-049bd082": defineAsyncComponent(() => import(/* webpackChunkName: "v-049bd082" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 89 - The Envoy Part II.html.vue")),
+  // path: /quests/lvl81-90/level%2090%20-%20Fantastic%20Voyage.html
+  "v-61c3ea20": defineAsyncComponent(() => import(/* webpackChunkName: "v-61c3ea20" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/level 90 - Fantastic Voyage.html.vue")),
   // path: /quests/lvl91-100/level%20100%20-%20A%20Journey%20Beyond.html
   "v-3acef570": defineAsyncComponent(() => import(/* webpackChunkName: "v-3acef570" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/level 100 - A Journey Beyond.html.vue")),
   // path: /quests/lvl91-100/level%20100%20-%20The%20Olmic%20Rune.html
@@ -441,12 +441,12 @@ export const pagesComponents = {
   "v-9154cfa4": defineAsyncComponent(() => import(/* webpackChunkName: "v-9154cfa4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl51-60/index.html.vue")),
   // path: /newbie/lvl61-70/
   "v-8deb16e4": defineAsyncComponent(() => import(/* webpackChunkName: "v-8deb16e4" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl61-70/index.html.vue")),
+  // path: /newbie/lvl71-80/
+  "v-8a815e24": defineAsyncComponent(() => import(/* webpackChunkName: "v-8a815e24" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/index.html.vue")),
   // path: /newbie/lvl81-90/
   "v-8717a564": defineAsyncComponent(() => import(/* webpackChunkName: "v-8717a564" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl81-90/index.html.vue")),
   // path: /newbie/lvl91-100/
   "v-06f41509": defineAsyncComponent(() => import(/* webpackChunkName: "v-06f41509" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl91-100/index.html.vue")),
-  // path: /newbie/lvl71-80/
-  "v-8a815e24": defineAsyncComponent(() => import(/* webpackChunkName: "v-8a815e24" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/newbie/lvl71-80/index.html.vue")),
   // path: /quests/lvl1-10/
   "v-af6bf052": defineAsyncComponent(() => import(/* webpackChunkName: "v-af6bf052" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl1-10/index.html.vue")),
   // path: /quests/lvl101-110/
@@ -463,10 +463,10 @@ export const pagesComponents = {
   "v-6800f8e1": defineAsyncComponent(() => import(/* webpackChunkName: "v-6800f8e1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl51-60/index.html.vue")),
   // path: /quests/lvl61-70/
   "v-69b5d541": defineAsyncComponent(() => import(/* webpackChunkName: "v-69b5d541" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl61-70/index.html.vue")),
-  // path: /quests/lvl81-90/
-  "v-6d1f8e01": defineAsyncComponent(() => import(/* webpackChunkName: "v-6d1f8e01" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/index.html.vue")),
   // path: /quests/lvl71-80/
   "v-6b6ab1a1": defineAsyncComponent(() => import(/* webpackChunkName: "v-6b6ab1a1" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl71-80/index.html.vue")),
+  // path: /quests/lvl81-90/
+  "v-6d1f8e01": defineAsyncComponent(() => import(/* webpackChunkName: "v-6d1f8e01" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl81-90/index.html.vue")),
   // path: /quests/lvl91-100/
   "v-6bb4cab6": defineAsyncComponent(() => import(/* webpackChunkName: "v-6bb4cab6" */"F:/WynncraftCNguide/src/.vuepress/.temp/pages/quests/lvl91-100/index.html.vue")),
   // path: /quests/special/

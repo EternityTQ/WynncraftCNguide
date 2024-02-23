@@ -468,6 +468,8 @@ icon: hat-wizard
 
 ![](/assets/img/tree4.jpg =300x)
 
+**请一定要保证点完上方四个绿色的技能点，才能顺利点完下面的技能**
+
 你可以在技能树UI的最下方查看各个流派的介绍，以及当前所点的流派能力数量
 
 大部分情况下，你在主点一个流派时，可以或多或少点亮其他流派相邻的部分能力
@@ -5035,7 +5037,7 @@ icon: hat-wizard
 </td></tr>
 </tbody></table>
 
-@tab 刺客(未完成)
+@tab 刺客
 
 <table class="ability-tree-table">
 <tbody><tr>
@@ -5439,7 +5441,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="ability-tree-branch"><img alt="Branch 6" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" decoding="async" loading="lazy" width="40" height="40" data-image-name="Branch 6.png" data-image-key="Branch_6.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/d/d1/Branch_6.png/revision/latest?cb=20220916215841" class=" lazyloaded"></div>
+<td><img src="/assets/img/class/右丁字.png">
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
@@ -5577,15 +5579,20 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>影逝</b></font>
       <br>
-      <br><font color = BBBBBB>使用<u>突进</u>后，遁入暗影进入隐身状态，令敌人无法察觉(人话：敌人丢仇恨)。
-      <br>隐身期间无法受到治疗效果，无法回复法力值和生命(但hpr为负时其依旧生效)。
-      <br>隐身期间攻击或受击会立刻取消隐身状态</font>
+      <br><font color = BBBBBB>使用<u>突进</u>后，遁入暗影进入隐身状态，令敌人无法察觉，丢失仇恨。
       <br>
-      <br>内置CD：<font color = white>5s</font>
+      <br>隐身期间无法受到治疗效果，无法回复法力值和生命。
+      <br>
+      <br><font color=555555>(隐身期间攻击或受击会立刻取消隐身状态)</font>
+      <br>
+      <br>内置CD：<font color = white>5s</font></font>
       <br>
       <br><font color = BBBBBB>蓝耗：<font color=white>-5</font>
       <br>范围：<font color = white>16格</font>
       <br>持续时间：<font color = white>1.2秒</font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>尽管无法以任何方式恢复生命，但是hpr为负数时仍然生效。</font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
@@ -5666,9 +5673,9 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF5555><b>奇袭</b></font>
       <br>
-      <br><font color = BBBBBB><u>影逝</u>激活期间，你的下一次单次伤害提升</font>
+      <br><font color = BBBBBB><u>影逝</u>激活期间，你的下一次单次伤害提升
       <br>
-      <br>伤害加成：<font color=WHITE>+80%</font>
+      <br>伤害加成：<font color=WHITE>+80%</font></font>
       <br>
       <br><font color=AA0000><b>影步者 分支</b></font>
       <br>
@@ -5690,7 +5697,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF5555><b>镜像幻术</b></font>
       <br>
-      <br><font color = BBBBBB><u>影逝</u>效果结束后，召唤数个<font color = 732490>暗影分身</font>跟随并保护你，<font color = 732490>暗影分身</font>存在期间降低你受到的伤害。
+      <br><font color = BBBBBB><u>影逝</u>效果结束后，召唤数个<font color = aqua>暗影分身</font>跟随并保护你，<font color = aqua>暗影分身</font>存在期间降低你受到的伤害。
       <br>
       <br>内置CD：<font color=WHITE>15s</font>
       <br>分身数量：<font color=WHITE>3</font>
@@ -5699,7 +5706,7 @@ icon: hat-wizard
       <br><font color=FF55FF><b>幻术师 分支</b></font></font>
     </div>
 </td>
-<td><img src="/assets/img/class/左下.png">
+<td>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5757,32 +5764,17 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>临别惊喜</b></font>
       <br>
-      <br><font color = BBBBBB>每当你失去<font color = 732490>暗影分身</font>时，在其位置释放一次<u>回旋斩</u></font>
+      <br><font color = BBBBBB>每当你失去<font color = aqua>暗影分身</font>时，在其位置释放一次<u>回旋斩</u></font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB>不兼容<u>斩空</u></font>
+      <br><font color = BBBBBB>点亮<u>斩空</u>后，分身仍然会释放<u>回旋斩</u>而非<u>斩空</u></font>
     </div>
 </td>
-<td><div style="width: 36px; height: 36px;"></div>
+<td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Shenanigans"></span><img
-      src="/assets/img/class/small.png"
-      alt="Your Image"
-      @mouseover="showTooltip('智取巧夺')"
-      @mousemove="updateTooltipPosition"
-      @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
-    />
-    <div v-if="isTooltipVisible && currentTooltip === '智取巧夺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>智取巧夺</b></font>
-      <br>
-      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>2% </font>的偷窃，就获得<font color=white> 1/3s </font>的能量窃取(至多+8/3s)</font>
-      <br>
-      <br><font color=FF55FF><b>幻术师 分支</b></font>
-    </div>
+<td>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -5812,11 +5804,26 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="width: 36px; height: 36px;"></div>
+<td><span id="Shenanigans"></span><img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('智取巧夺')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '智取巧夺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <!-- 提示文本内容 -->
+      <font color="#FFFFFF"><b>智取巧夺</b></font>
+      <br>
+      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>2% </font>的偷窃，就获得<font color=white> 1/3s </font>的能量窃取(至多+8/3s)</font>
+      <br>
+      <br><font color=FF55FF><b>幻术师 分支</b></font>
+    </div>
 </td>
-<td><img src="/assets/img/class/竖线.png">
+<td><img src="/assets/img/class/丁字.png">
 </td>
-<td><div style="width: 36px; height: 36px;"></div>
+<td><img src="/assets/img/class/横线.png">
 </td>
 <td><span id="Psithurism"></span><img
       src="/assets/img/class/small.png"
@@ -5932,7 +5939,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>虚张声势</b></font>
       <br>
-      <br><font color = BBBBBB><font color = 732490>暗影分身</font>存在期间，若在潜行状态时释放<u>迅捷连斩</u>，则会立刻消灭一个<font color = 732490>暗影分身</font>，将你向前传送一段距离并对周围的敌人造成大量伤害
+      <br><font color = BBBBBB><font color = aqua>暗影分身</font>存在期间，若在潜行状态时释放<u>迅捷连斩</u>，则会立刻消灭一个<font color = aqua>暗影分身</font>，将你向前传送一段距离并对周围的敌人造成大量伤害
       <br>
       <br>传送范围：<font color = white>6格</font>
       <br>伤害半径：<font color = white>5格</font></font>
@@ -5940,7 +5947,7 @@ icon: hat-wizard
       <br><font color=FF55FF><b>幻术师 分支</b></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB><u>迅捷连斩</u>和<u>临别惊喜(如果有)</u>的效果也会一并触发，且<u>虚张声势</u>的实际游戏内伤害范围与技能描述差别较大(实测是对传送起点周围的敌人造成伤害，笔者注)。</font>
+      <br><font color = BBBBBB><u>迅捷连斩</u>和<u>临别惊喜</u>的效果也会一并触发，且<u>虚张声势</u>的实际游戏内伤害范围与技能描述差别较大(实测是对传送起点周围的敌人造成伤害，笔者注)。</font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -6173,13 +6180,13 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>怪诞魔雾</b></font>
       <br>
-      <br><font color = BBBBBB>当你处于<u>烟雾手雷</u>的范围内时，造成的伤害提升<font color=WHITE>40%</font>并获得持续<font color=WHITE>20s</font>的<font color = FA37F8>诱饵</font>效果
-      <br><font color = FA37F8>诱饵</font>效果会让周围<font color=WHITE>16</font>格内的敌人转而攻击你，且其移速提升<font color=WHITE>30%</font>。</font>
+      <br><font color = BBBBBB>当你处于<u>烟雾手雷</u>的范围内时，造成的伤害提升<font color=WHITE>40%</font>并获得持续<font color=WHITE>20s</font>的<font color = aqua>诱饵</font>效果
+      <br><font color = aqua>诱饵</font>效果会让周围<font color=WHITE>16</font>格内的敌人转而攻击你，且其移速提升<font color=WHITE>30%</font>。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB><font color = FA37F8>诱饵</font>会与战士的嘲讽抢夺敌人仇恨，多人配合时请留意。</font>
+      <br><font color = BBBBBB><font color = aqua>诱饵</font>会与战士的嘲讽抢夺敌人仇恨，多人配合时请留意。</font>
     </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
@@ -6197,9 +6204,6 @@ icon: hat-wizard
       <font color="#FFFFFF"><b>无影斩</b></font>
       <br>
       <br><font color = BBBBBB><u>迅捷连斩</u>的斩击次数<font color = FFFFFF> +3</font></font>
-      <br>
-      <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB>此技能与<u>背刺</u>冲突。</font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -6223,9 +6227,9 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF5555><b>刺杀印记</b></font>
       <br>
-      <br><font color = BBBBBB><u>烟雾手雷</u>对敌人造成伤害后，令其获得1层<font color = a71010>刺杀印记</font>。（至多<font color = FFFFFF>4</font>层，<font color = FFFFFF>0.4s</font>冷却）
-      <br>有<font color = a71010>刺杀印记</font>的敌人，受到的伤害增加。
-      <br><font color = a71010>刺杀印记</font>每<font color = FFFFFF>10s</font>消散一层
+      <br><font color = BBBBBB><u>烟雾手雷</u>对敌人造成伤害后，令其获得1层<font color = aqua>刺杀印记</font>。（至多<font color = FFFFFF>4</font>层，<font color = FFFFFF>0.4s</font>冷却）
+      <br>有<font color = aqua>刺杀印记</font>的敌人，受到的伤害增加。
+      <br><font color = aqua>刺杀印记</font>每<font color = FFFFFF>10s</font>消散一层
       <br>
       <br>伤害加成：<font color=WHITE>+6%</font><font color=555555>(每层印记)</font>
       <br>
@@ -6251,7 +6255,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF5555><b>镜像回响</b></font>
       <br>
-      <br><font color = BBBBBB>你的<font color = 732490>暗影分身</font>将会模仿你使用的技能，但是其造成的伤害<font color=WHITE> -65%</font>。
+      <br><font color = BBBBBB>你的<font color = aqua>暗影分身</font>将会模仿你使用的技能，但是其造成的伤害<font color=WHITE> -65%</font>。
       <br><u>虚张声势</u>的伤害不受此技能影响。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
@@ -6295,7 +6299,7 @@ icon: hat-wizard
       <br><font color = BBBBBB><u>迅捷连斩</u>的范围增加<font color = FFFFFF> 2</font></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB>与<u>背刺</u>不兼容</font>
+      <br><font color = BBBBBB>该技能不会增加<u>背刺</u>的攻击范围</font>
     </div>
 </td></tr>
 <tr>
@@ -6473,8 +6477,8 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>暗幕之刃</b></font>
       <br>
-      <br><font color = BBBBBB>在<u>影逝</u>期间释放<u>回旋斩</u>将会消耗周围敌人身上的<font color = a71010>刺杀印记</font>以召唤<font color = a71010>暗幕之刃</font>
-      <br>在你对周围敌人造成伤害后，<font color = a71010>暗幕之刃</font>会再对其额外造成一次伤害，该伤害为你所造成的伤害的特定比例。
+      <br><font color = BBBBBB>在<u>影逝</u>期间释放<u>回旋斩</u>将会消耗周围敌人身上的<font color = aqua>刺杀印记</font>以召唤<font color = aqua>暗幕之刃</font>
+      <br>在你对周围敌人造成伤害后，<font color = aqua>暗幕之刃</font>会再对其额外造成一次伤害，该伤害为你所造成的伤害的特定比例。
       <br>
       <br>伤害比例：<font color=white>4%</font>(消耗的印记每层增加4%，最高10层)
       <br>范围：<font color = white>6格</font>
@@ -6483,7 +6487,7 @@ icon: hat-wizard
       <br><font color=AA0000><b>影步者 分支</b></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB><font color = a71010>暗幕之刃</font>可被重复召唤，但新召唤的<font color = a71010>暗幕之刃</font>总会覆盖先召唤的，且可以消耗超过10层的<font color = a71010>刺杀印记</font>。</font>
+      <br><font color = BBBBBB><font color = aqua>暗幕之刃</font>可被重复召唤，但新召唤的<font color = aqua>暗幕之刃</font>总会覆盖先召唤的，且可以消耗超过10层的<font color = aqua>刺杀印记</font>。</font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
@@ -6518,7 +6522,7 @@ icon: hat-wizard
       <font color="ORANGE"><b>移花接木</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩</u>每次命中时，都会将你自身所有负面状态的30%(持续时间的30%)转移给命中的敌人。
-      <br><font color = FA37F8>诱饵</font>也能被该技能转移，但部分BOSS、特殊敌人免疫效果<font color = FA37F8>诱饵</font></font>
+      <br><font color = aqua>诱饵</font>也能被该技能转移，但部分BOSS、特殊敌人免疫效果<font color = aqua>诱饵</font></font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
     </div>
@@ -6579,7 +6583,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>夺命斩</b></font>
       <br>
-      <br><font color = BBBBBB><u>回旋斩</u>的范围变大且可对命中的敌人附加1层<font color = a71010>刺杀印记</font></font>
+      <br><font color = BBBBBB><u>回旋斩</u>的范围变大且可对命中的敌人附加1层<font color = aqua>刺杀印记</font></font>
       <br>
       <br><font color=AA0000><b>影步者 分支</b></font>
       <br>
@@ -6715,7 +6719,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>灵魂收割</b></font>
       <br>
-      <br><font color = BBBBBB>击杀敌人后，其身上每有一层<font color = a71010>刺杀印记</font>就回复<font color = FFFFFF>5</font>点能量</font>
+      <br><font color = BBBBBB>击杀敌人后，其身上每有一层<font color = aqua>刺杀印记</font>就回复<font color = FFFFFF>5</font>点能量</font>
       <br>
       <br><font color=AA0000><b>影步者 分支</b></font>
     </div>
@@ -6761,7 +6765,7 @@ icon: hat-wizard
       <br>
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB>没有该技能点的<u>迅捷连斩</u>只能瞄准水平方向(人话：不能低头打)
-      <br>此技能点与<u>背刺</u>不兼容</font>
+      <br>该技能不会增加<u>背刺</u>的伤害</font>
     </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
@@ -6783,7 +6787,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>刺杀狂潮</b></font>
       <br>
-      <br><font color = BBBBBB><font color = a71010>刺杀印记</font>的上限提升<font color = FFFFFF>2</font></font>
+      <br><font color = BBBBBB><font color = aqua>刺杀印记</font>的上限提升<font color = FFFFFF>2</font></font>
       <br>
       <br><font color=AA0000><b>影步者 分支</b></font>
     </div>
@@ -6804,7 +6808,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>助战分身</b></font>
       <br>
-      <br><font color = BBBBBB>当你至少存在一个<font color = 732490>暗影分身</font>时，提升你自己造成的伤害。</font>
+      <br><font color = BBBBBB>当你至少存在一个<font color = aqua>暗影分身</font>时，提升你自己造成的伤害。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
       <br>
@@ -6848,7 +6852,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF5555><b>杀意起兮</b></font>
       <br>
-      <br><font color = BBBBBB>敌人身上拥有至少<font color=WHITE> 4 </font>层<font color = a71010>刺杀印记</font>时，你对其下一次<u>迅捷连斩</u>或粉末技能的伤害倍率提升100%
+      <br><font color = BBBBBB>敌人身上拥有至少<font color=WHITE> 4 </font>层<font color = aqua>刺杀印记</font>时，你对其下一次<u>迅捷连斩</u>或粉末技能的伤害倍率提升100%
       <br>
       <br>内置CD：<font color=WHITE>15s</font>
       <br>
@@ -6874,7 +6878,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>禁忌秘术</b></font>
       <br>
-      <br><font color = BBBBBB><u>镜像幻术</u>将额外召唤3个<font color = 732490>暗影分身</font>且冷却时间<font color=WHITE>+15s</font>，但你自身造成的伤害降低。</font>
+      <br><font color = BBBBBB><u>镜像幻术</u>将额外召唤3个<font color = aqua>暗影分身</font>且冷却时间<font color=WHITE>+15s</font>，但你自身造成的伤害降低。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
       <br>
@@ -6935,8 +6939,8 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color=FF5555><b>声东击西</b></font>
       <br>
-      <br><font color = BBBBBB>当攻击到身上带有<font color = FA37F8>诱饵</font>的敌人时，周围16格内的所有友方单位获得其最大生命值10%的<font color = FFFF00>临时生命</font>
-      <br><font color = FFFF00>临时生命</font>比你自身的生命值更优先抵挡伤害，但会在<font color = FFFFFF>10s</font>内逐渐消散
+      <br><font color = BBBBBB>当攻击到身上带有<font color = aqua>诱饵</font>的敌人时，周围16格内的所有友方单位获得其最大生命值10%的<font color = aqua>临时生命</font>
+      <br><font color = aqua>临时生命</font>比你自身的生命值更优先抵挡伤害，但会在<font color = FFFFFF>10s</font>内逐渐消散
       <br>
       <br>内置CD：<font color=WHITE>9s</font>
       <br>
@@ -6992,7 +6996,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>险恶杀意</b></font>
       <br>
-      <br><font color = BBBBBB><font color = a71010>刺杀印记</font>的伤害加成提升<font color = FFFFFF>4%</font></font>
+      <br><font color = BBBBBB><font color = aqua>刺杀印记</font>的伤害加成提升<font color = FFFFFF>4%</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -7009,7 +7013,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>一人成军</b></font>
       <br>
-      <br><font color = BBBBBB>当你至少存在一个<font color = 732490>暗影分身</font>时，提升你自己造成的伤害。</font>
+      <br><font color = BBBBBB>当你至少存在一个<font color = aqua>暗影分身</font>时，提升你自己造成的伤害。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
       <br>
