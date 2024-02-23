@@ -7785,19 +7785,13 @@ export default {
     updateTooltipPosition(event) {
         
         if (!event) return; 
-       // 根据需要调整偏移量
-      //const w = this.$refs.tooltip.$el.clientWidth
-      //console.log('获取元素宽高', w)
       this.$nextTick(() =>{
-        this.tooltipTop = event.pageY + 10; // 根据需要调整偏移量
+        this.tooltipTop = event.pageY + 10;
       this.tooltipLeft = event.pageX + 10;
-        //console.log('Event:', event);
-  //console.log('$refs.tooltip:', this.$refs.tooltip);
-      if (event.clientX > window.innerWidth *0.58) {
-        //console.log('$refs.tooltip width:', this.$refs.tooltip);
+      if (window.innerWidth < window.innerHeight) {
+          this.tooltipLeft = 10; // 设定一个适当的左边距
+      } else if (event.clientX > window.innerWidth *0.58) {
         this.tooltipLeft -= 330;
-        //const w = this.$refs.tooltip.$el.offsetWidth;
-        //console.log('获取元素宽高', w);
       }
       })
     
