@@ -473,7 +473,7 @@
 <p>Static为静态增益，该增益的层数在拿到瞬间就固定了</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
-<p>Static增益<strong>在选择时</strong>的数值会随着轮次逐渐提高</p>
+<p>Static增益<strong>在选择时</strong>的数值为随机数值</p>
 </div>
 <p>增益的名称决定了该增益的最大层数/生效条件等</p>
 <p>而增益效果决定了该增益能够增幅哪条属性，其数值也和增益名称有关</p>
@@ -758,7 +758,7 @@
 <p>Shiny Mythic：特等奖，与普通Mythic的区别就是多了一个独特的计数器以及只有自己才能看到的附魔特效，没了。一个区域奖池只会有一件Shiny Mythic</p>
 </li>
 <li>
-<p>Mythic：一等奖，通常来说，一个奖池会有4-6件Mythic品质的物品，同时还可能刷新Insulator和Simulator(鉴定道具)。获取概率稍次于Shiny Mythic</p>
+<p>Mythic：一等奖，通常来说，一个奖池会有4-6件Mythic品质的物品，同时还可能刷新Insulator和Simulator(鉴定道具)。稀有度稍次于Shiny Mythic</p>
 </li>
 <li>
 <p>Liquid Emerald：二等奖，奖池内通常会有1-2种10个以上le的奖品以及2-3种1-4个le的奖品，非赌狗开到大数目le基本可以收手了</p>
