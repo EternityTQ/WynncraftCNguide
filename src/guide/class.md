@@ -6664,7 +6664,7 @@ icon: hat-wizard
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>无底漩涡</b></font>
       <br>
-      <br><font color = BBBBBB><u>杀戮漩涡</u>的伤害倍率增加，且触发条件改为你的最大生命之的<font color = FFFFFF>2.5倍</font></font>
+      <br><font color = BBBBBB><u>杀戮漩涡</u>的伤害倍率增加，且触发条件改为你的最大生命值的<font color = FFFFFF> 2.5倍 </font></font>
       <br>
       <br><font color=AA0000><b>影步者 分支</b></font>
     </div>
