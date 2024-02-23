@@ -601,7 +601,8 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 #### **信标思路**
 ------------------
 
-这里将会根据优先级来介绍信标的抓位
+这里将会根据**优先级**来介绍信标的抓位
+
 | 种类 | 介绍 |
 | --- | --- |
 | <font color = FF66FF>**彩虹信标**</font> | 看到就一定要拿，可以决定性的提升你本局游戏的收益<br><br>一个特例是在任务较好但是已经到了最后一轮的情况下，这个时候<br>你就要考虑拿红白信标续命而不是彩虹信标了！ |
@@ -719,7 +720,7 @@ LR非常考验你的运营水平
 
 看到这三个根据优先级拿就行了，如果能全拿完的话，可以考虑拿<font color='FFCC00'> **High Roller** </font> > <font color='FF5555'> **Redemption** </font> > <font color='FFCC00'> **Materialism** </font>
 
-如果任务条件是吃诅咒，请千万不要拿取，避免怪物属性增长导致翻盘
+如果任务条件是吃诅咒，请千万不要拿取，避免怪物属性增长导致崩盘
 
 其他任务请不要拿取，没有必要。
 
@@ -743,17 +744,17 @@ LR非常考验你的运营水平
 
 关于任务流派，一般为了收益有多种选择：
 
-- 以<font color='FFCC00'> **Materialism** </font>为主的开箱流：基本无视最终收益的高低，纯靠飞箱赌神话
+\>>>以<font color='FFCC00'> **Materialism** </font>为主的开箱流：基本无视最终收益的高低，纯靠飞箱赌神话
 
 这种流派一般要注意拿取lb和lq的增益，同时要注意避免拿太多诅咒提升游戏难度
 
 一般可以和<font color='FFCC00'> **Cleansing Greed** </font>以及<font color='AA00AA'> **Equilibrium** </font>配合使用，前者能连携消除大量诅咒，后者能给予大量增益
 
-- 以<font color='AA00AA'> **Cleansing Ritual** </font>为主的长途流：一切为了最终收益
+\>>>以<font color='AA00AA'> **Cleansing Ritual** </font>为主的长途流：一切为了最终收益
 
 这种流派一般一定要拿取<font color='FFCC00'> **High Roller** </font>、<font color='FF5555'> **Redemption** </font>、<font color='FF5555'> **Ultimate Sacrifice** </font>其中三选二，另一个任务可以选择<font color='AA00AA'> **Equilibrium** </font>(极佳)以及<font color='FFCC00'> **Materialism** </font>或者<font color='AA00AA'> **Inner Peace** </font>，都是不错的选择
 
-- 以<font color='FF5555'> **Redemption** </font>和<font color='FF5555'> **Ultimate Sacrifice** </font>为主的永续献祭流
+\>>>以<font color='FF5555'> **Redemption** </font>和<font color='FF5555'> **Ultimate Sacrifice** </font>为主的永续献祭流
   
 这种流派比较邪道。
 

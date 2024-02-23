@@ -13,7 +13,7 @@
 <p>raw指纯数值，例如<code v-pre>+260 Health regen</code>就是raw</p>
 <p>%指百分比，例如<code v-pre>+50% Health regen</code>就是%</p>
 </div>
-<h3 id="战斗类词条" tabindex="-1"><a class="header-anchor" href="#战斗类词条" aria-hidden="true">#</a> 战斗类词条</h3>
+<h2 id="战斗类词条" tabindex="-1"><a class="header-anchor" href="#战斗类词条" aria-hidden="true">#</a> 战斗类词条</h2>
 <p><strong>Attack speed</strong><br>
 攻击速度，每点数值提升一级攻速，该数值可为负数（即反过来减攻速），攻速最快与攻速最慢的差距为6，多于6或少于-6的数值无额外效果。</p>
 <details class="hint-container details"><summary>每级攻速的攻击间隔(单位: hit/sec)</summary>
@@ -43,7 +43,7 @@
 <p>纯飞舞</p>
 </blockquote>
 <p><strong>Exploding%</strong><br>
-附加爆炸，每次击杀时会有x%的概率使敌人爆炸</p>
+附加爆炸，每次<strong>击杀敌人</strong>时会有x%的概率使敌人发生爆炸</p>
 <p>概率最多为100%（若该数值为负数则无任何效果），超过100%的数值不生效。</p>
 <p><strong>Main attack damage（raw/%）</strong><br>
 普通攻击伤害加成，简称MD，分为伤害加成数值与伤害加成百分比两种。伤害加成百分比是根据每次普攻打出的伤害计算的，与平均伤害（Average DPS）无关。</p>
@@ -67,7 +67,7 @@
 <p>两者均有最低消耗蓝耗（1点）。</p>
 <p>萨满面具的cost%在所有以上计算结束之后计算，所以当你正常蓝耗为1时换面具可以看到0点蓝耗的情况。</p>
 </div>
-<h3 id="生存类词条" tabindex="-1"><a class="header-anchor" href="#生存类词条" aria-hidden="true">#</a> 生存类词条</h3>
+<h2 id="生存类词条" tabindex="-1"><a class="header-anchor" href="#生存类词条" aria-hidden="true">#</a> 生存类词条</h2>
 <p><strong>Health</strong><br>
 生命值，增加自身最大生命值。</p>
 <p><strong>Health regen（raw/%）</strong><br>
@@ -88,7 +88,7 @@
 反射，与荆棘类似，但反弹的是远程伤害。</p>
 <p><strong>Water/Fire/Earth/Thunder/Air defence%</strong><br>
 水/火/地/电/气属性防御百分比加成（数值可享受百分比加成）。</p>
-<h3 id="移动类加成词条" tabindex="-1"><a class="header-anchor" href="#移动类加成词条" aria-hidden="true">#</a> 移动类加成词条</h3>
+<h2 id="移动类加成词条" tabindex="-1"><a class="header-anchor" href="#移动类加成词条" aria-hidden="true">#</a> 移动类加成词条</h2>
 <p><strong>Walk speed%</strong><br>
 移动速度加成，上限为400%</p>
 <div class="hint-container tip">
@@ -105,7 +105,7 @@
 体力上限，按百分比增加自身最大体力值。</p>
 <p><strong>Sprint regen%</strong><br>
 体力恢复，按百分比提高自身体力恢复速度。</p>
-<h3 id="其他类词条" tabindex="-1"><a class="header-anchor" href="#其他类词条" aria-hidden="true">#</a> 其他类词条</h3>
+<h2 id="其他类词条" tabindex="-1"><a class="header-anchor" href="#其他类词条" aria-hidden="true">#</a> 其他类词条</h2>
 <p><strong>Xp bonus%</strong><br>
 经验加成，按百分比提高自己击杀怪物所获得的经验量。</p>
 <p><strong>Loot bonus%</strong><br>
@@ -125,7 +125,7 @@
 <p>高于上限并不会使你获得更多灵魂点，单次获得灵魂点的上限为2</p>
 <p>同时，若你的spr为负数，则相对的效果为概率不回复灵魂点</p>
 </div>
-<h3 id="major-id" tabindex="-1"><a class="header-anchor" href="#major-id" aria-hidden="true">#</a> Major ID</h3>
+<h2 id="major-id" tabindex="-1"><a class="header-anchor" href="#major-id" aria-hidden="true">#</a> Major ID</h2>
 <p>在Wynncraft中，有一些物品鉴定后，会在所有波动的鉴定词条之后附带一条固定不变Major ID（大部分为虚幻品质的物品）</p>
 <p>我们可以把Major ID理解为MOBA游戏中的唯一被动效果，详细来说，就是它是一个被动技能，一直生效且与同名的其他被动不可叠加。</p>
 <p>游戏中有许多Major ID，而不同的Major ID有着不同的效果，下面会按照Major ID列出它的效果和有这条Major ID的所有物品。</p>

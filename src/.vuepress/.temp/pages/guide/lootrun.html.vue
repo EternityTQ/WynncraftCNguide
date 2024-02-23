@@ -801,7 +801,7 @@
 <p>这里的消耗品包括但不限于 药水、食物、卷轴等等...</p>
 <h4 id="信标思路" tabindex="-1"><a class="header-anchor" href="#信标思路" aria-hidden="true">#</a> <strong>信标思路</strong></h4>
 <hr>
-<p>这里将会根据优先级来介绍信标的抓位</p>
+<p>这里将会根据<strong>优先级</strong>来介绍信标的抓位</p>
 <table>
 <thead>
 <tr>
@@ -970,7 +970,7 @@
 <p>然后，看到彩虹信标就拿，这个没话说</p>
 <p>对于任务的选择，我的推荐是：<font color='5555FF'> <strong>Orphion's Grace</strong> </font> &gt; <font color='00BB00'> <strong>Stasis</strong> </font> &gt; <font color='00BB00'> <strong>Backup Beat</strong> </font></p>
 <p>看到这三个根据优先级拿就行了，如果能全拿完的话，可以考虑拿<font color='FFCC00'> <strong>High Roller</strong> </font> &gt; <font color='FF5555'> <strong>Redemption</strong> </font> &gt; <font color='FFCC00'> <strong>Materialism</strong> </font></p>
-<p>如果任务条件是吃诅咒，请千万不要拿取，避免怪物属性增长导致翻盘</p>
+<p>如果任务条件是吃诅咒，请千万不要拿取，避免怪物属性增长导致崩盘</p>
 <p>其他任务请不要拿取，没有必要。</p>
 <p>但是如果你已经拿了<font color='00BB00'> <strong>Stasis</strong> </font>，可以考虑拿取<font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font></p>
 <p><strong>- 我觉得我可以成为LR大手子：</strong></p>
@@ -984,18 +984,12 @@
 <p>信标抓位思路直接参考上方<strong>信标思路</strong>即可，这里就不过多赘述了</p>
 <p>需要注意的是，请尽量在前十轮内吃到vib青+vib白的组合，目的是能安稳地做完4个任务，避免在此期间还要频繁地去吃红绿信标来续命！</p>
 <p>关于任务流派，一般为了收益有多种选择：</p>
-<ul>
-<li>以<font color='FFCC00'> <strong>Materialism</strong> </font>为主的开箱流：基本无视最终收益的高低，纯靠飞箱赌神话</li>
-</ul>
+<p>&gt;&gt;&gt;以<font color='FFCC00'> <strong>Materialism</strong> </font>为主的开箱流：基本无视最终收益的高低，纯靠飞箱赌神话</p>
 <p>这种流派一般要注意拿取lb和lq的增益，同时要注意避免拿太多诅咒提升游戏难度</p>
 <p>一般可以和<font color='FFCC00'> <strong>Cleansing Greed</strong> </font>以及<font color='AA00AA'> <strong>Equilibrium</strong> </font>配合使用，前者能连携消除大量诅咒，后者能给予大量增益</p>
-<ul>
-<li>以<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>为主的长途流：一切为了最终收益</li>
-</ul>
+<p>&gt;&gt;&gt;以<font color='AA00AA'> <strong>Cleansing Ritual</strong> </font>为主的长途流：一切为了最终收益</p>
 <p>这种流派一般一定要拿取<font color='FFCC00'> <strong>High Roller</strong> </font>、<font color='FF5555'> <strong>Redemption</strong> </font>、<font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font>其中三选二，另一个任务可以选择<font color='AA00AA'> <strong>Equilibrium</strong> </font>(极佳)以及<font color='FFCC00'> <strong>Materialism</strong> </font>或者<font color='AA00AA'> <strong>Inner Peace</strong> </font>，都是不错的选择</p>
-<ul>
-<li>以<font color='FF5555'> <strong>Redemption</strong> </font>和<font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font>为主的永续献祭流</li>
-</ul>
+<p>&gt;&gt;&gt;以<font color='FF5555'> <strong>Redemption</strong> </font>和<font color='FF5555'> <strong>Ultimate Sacrifice</strong> </font>为主的永续献祭流</p>
 <p>这种流派比较邪道。</p>
 <p>只要你这轮额外打到的pulls数占到了上一轮sac的pulls的33%(前提是这轮打到了2sac)，就能无损继承pulls</p>
 <p>举个例子：你上一轮sac了100pulls，那么只要你这一轮打了33pulls以及2sac，如果你这一轮没出货，那么你就可以继承(100+33)*75%≈100pulls!</p>
