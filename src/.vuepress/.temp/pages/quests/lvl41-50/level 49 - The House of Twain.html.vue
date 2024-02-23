@@ -9,7 +9,7 @@
 <p>如果你已经有了这件装备，可以跳过这一步</p>
 </blockquote>
 <div class="hint-container tip">
-<p class="hint-container-title">提示</p>
+<p class="hint-container-title">如何合成Ghostly Cap？</p>
 <p>你需要先集齐三个材料，通过触发以下三个点的特殊怪物来获得材料</p>
 <p>分别在<code v-pre>[99 77 -381]</code>(进门上大楼梯，左拐后可以看到一个小楼梯，此处左拐有一处通往庭院的门，在里面触发)</p>
 <p><code v-pre>[121 85 -393]</code>(就在上一个坐标的楼梯，上去后有一处很像地牢的地方)</p>

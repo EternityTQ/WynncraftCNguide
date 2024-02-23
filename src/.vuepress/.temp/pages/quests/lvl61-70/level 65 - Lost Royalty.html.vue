@@ -3,7 +3,7 @@
 <p>1 和Troms城的<font color=00AA00><strong>Yavlis</strong></font><code v-pre>[-848 85 -875]</code>说话</p>
 <p>2 和Troms城外的<font color=00AA00><strong>Mercenary Leader</strong></font><code v-pre>[-804 35 -742]</code>交谈(在<code v-pre>[-736 62 -827]</code>的洞里)</p>
 <p>3 到丛林神庙里<code v-pre>[-489 78 -889]</code>寻找到他们要的护身符。</p>
-<p>杀死这个古老的骷髅(Ancient Skeleton)获得护身符</p>
+<p>杀死<font color=FF5555><b>Ancient Skeleton</b></font>获得护身符</p>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
 <p>路线如下：</p>

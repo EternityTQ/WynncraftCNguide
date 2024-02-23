@@ -122,6 +122,9 @@
 <p>位移技能失效</p>
 </blockquote>
 <p>可以尝试重登服务器解决</p>
+<h2 id="我改过名-现在的id无法使用了该怎么办" tabindex="-1"><a class="header-anchor" href="#我改过名-现在的id无法使用了该怎么办" aria-hidden="true">#</a> 我改过名，现在的ID无法使用了该怎么办？</h2>
+<p>Wynncraft存在这么一个BUG，记录的是玩家的ID而非UUID</p>
+<p>因此如果你出现了现有ID无法使用的情况(比如无法被邀请入会)，可以尝试使用以前用过的ID</p>
 </div></template>
 
 

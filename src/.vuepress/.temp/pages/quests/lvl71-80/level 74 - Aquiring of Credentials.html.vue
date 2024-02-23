@@ -12,13 +12,13 @@
 <p>红色旗帜飞艇的机长需要石英</p>
 </div>
 <p>6.继续沿着路走，和梯子上的<font color=00AA00><strong>Mechanic</strong></font><code v-pre>[-261 101 -4999]</code>对话</p>
-<p>7.跟着Mechanic抢夺飞艇</p>
+<p>7.跟着<font color=00AA00><strong>Mechanic</strong></font>抢夺飞艇</p>
 <div class="hint-container tip">
 <p class="hint-container-title">怎么击倒守卫？</p>
 <p>你只需要攻击他们就可以推下去了</p>
 <p>顺便技能也起效，可以远程打下去</p>
 </div>
-<p>8.跟着Mechanic下去，在他偷蛋的时候保护他，然后离开</p>
+<p>8.跟着<font color=00AA00><strong>Mechanic</strong></font>下去，在他偷蛋的时候保护他，然后离开</p>
 <p>9.反击敌方飞艇，在敌方的炮弹接近时击打炮弹把它打回去。</p>
 <p>10.回到酒吧，和酒保对话，进入酒保开启的隐藏通道</p>
 <p>11.进入黑市，走到最里面和黑市成员<code v-pre>[-97 154 -6046]</code>对话，想办法凑齐2000颗绿宝石</p>

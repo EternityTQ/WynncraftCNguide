@@ -75,7 +75,7 @@
 <li>512500 经验</li>
 <li>0 / 8192 绿宝石</li>
 <li>Elven Medallion / Receipt</li>
-<li>可以进入Aldorei Town了</li>
+<li>可以进入Aldorei Town了(但是得接part II才能进去)</li>
 </ul>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>

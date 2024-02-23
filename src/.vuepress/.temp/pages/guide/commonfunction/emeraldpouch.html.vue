@@ -1,4 +1,4 @@
-<template><div><p>绿宝石钱袋顾名思义，是可以存放于玩家物品栏内的钱袋</p>
+<template><div><p>绿宝石钱袋(<strong>emerald pouch</strong>)顾名思义，是可以存放于玩家物品栏内的钱袋</p>
 <p>当物品栏内放置有任意钱袋时，拾取的任何绿宝石都会自动进入钱袋中，同时高级的绿宝石钱袋还提供自动合成为高级货币的功能</p>
 <h2 id="介绍" tabindex="-1"><a class="header-anchor" href="#介绍" aria-hidden="true">#</a> 介绍</h2>
 <p>绿宝石钱袋只能来源于T3-T4战利品箱中，并且不可合成</p>

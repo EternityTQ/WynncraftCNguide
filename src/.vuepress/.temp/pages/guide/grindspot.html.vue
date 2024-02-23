@@ -163,6 +163,7 @@
 <p>最终形态如上图所示</p>
 <p>只要等级到了，一件一件替换就可以了</p>
 <p>注意<strong>头盔非常贵</strong>，可以使用下位替代<font color=EC4791><strong>Speaker</strong></font>，这个很便宜</p>
+<p>裤子来源是hive水，其余均可以在市场购买到</p>
 </div></template>
 
 

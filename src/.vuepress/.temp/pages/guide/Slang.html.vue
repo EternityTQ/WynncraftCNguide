@@ -23,6 +23,9 @@
 <p>tier stack，一种通过堆叠攻速成型的流派名称，常见于战士和弓手职业</p>
 <h3 id="hm" tabindex="-1"><a class="header-anchor" href="#hm" aria-hidden="true">#</a> <strong>hm</strong></h3>
 <p>heavy meele，一种通过降低攻速成型的流派名称，常见于刺客和弓手职业</p>
+<h3 id="melee" tabindex="-1"><a class="header-anchor" href="#melee" aria-hidden="true">#</a> <strong>melee</strong></h3>
+<p>曾经Main Attack Damage的词条为Melee Damage(近战攻击)</p>
+<p>有些老登会沿用以前的叫法</p>
 <h2 id="生活类" tabindex="-1"><a class="header-anchor" href="#生活类" aria-hidden="true">#</a> 生活类</h2>
 <h3 id="e" tabindex="-1"><a class="header-anchor" href="#e" aria-hidden="true">#</a> <strong>e</strong></h3>
 <p>emerald,绿宝石，这个游戏的货币基础交易单位</p>
@@ -73,6 +76,38 @@
 <p>Content team，制作wynncraft服务器内容的人(有好几种)，在服务器内有青色的ID</p>
 <h3 id="mod" tabindex="-1"><a class="header-anchor" href="#mod" aria-hidden="true">#</a> <strong>MOD</strong></h3>
 <p>moderator，服务器管理员或志愿者(后者职能是帮助玩家解决bug之类的问题)</p>
+<h3 id="ajb" tabindex="-1"><a class="header-anchor" href="#ajb" aria-hidden="true">#</a> <strong>ajb</strong></h3>
+<p><RouterLink to="/quests/lvl91-100/level%20100%20-%20A%20Journey%20Beyond.html">A jounery beyound</RouterLink>，重要任务名缩写</p>
+<h3 id="ajf" tabindex="-1"><a class="header-anchor" href="#ajf" aria-hidden="true">#</a> <strong>ajf</strong></h3>
+<p><RouterLink to="/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html">A jounery further</RouterLink>，重要任务名缩写</p>
+<h3 id="tbp" tabindex="-1"><a class="header-anchor" href="#tbp" aria-hidden="true">#</a> <strong>tbp</strong></h3>
+<p><RouterLink to="/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html">The breaking point</RouterLink>，重要任务名缩写</p>
+<h3 id="ahc" tabindex="-1"><a class="header-anchor" href="#ahc" aria-hidden="true">#</a> <strong>ahc</strong></h3>
+<p><RouterLink to="/quests/lvl101-110/level%20103%20-%20A%20hunter%E2%80%99s%20calling.html">A hunter’s calling</RouterLink>，重要任务名缩写</p>
+<h3 id="rol" tabindex="-1"><a class="header-anchor" href="#rol" aria-hidden="true">#</a> <strong>rol</strong></h3>
+<p>指系列任务光之领域，亦或指光之领域地名</p>
+<h3 id="se" tabindex="-1"><a class="header-anchor" href="#se" aria-hidden="true">#</a> <strong>SE</strong></h3>
+<p>Silence expense，Lutho所在的地区名称</p>
+<h3 id="空岛-sky" tabindex="-1"><a class="header-anchor" href="#空岛-sky" aria-hidden="true">#</a> <strong>空岛/sky</strong></h3>
+<p>指Sky islands,地图东北角的浮空群岛区域</p>
+<h3 id="灭霸" tabindex="-1"><a class="header-anchor" href="#灭霸" aria-hidden="true">#</a> <strong>灭霸</strong></h3>
+<p>Thanos，来源为该地名的机翻</p>
+<h3 id="永利" tabindex="-1"><a class="header-anchor" href="#永利" aria-hidden="true">#</a> <strong>永利</strong></h3>
+<p>Wynn，来源为机翻</p>
+<h3 id="木槌" tabindex="-1"><a class="header-anchor" href="#木槌" aria-hidden="true">#</a> <strong>木槌</strong></h3>
+<p>Gavel，来源为机翻</p>
+<h3 id="li" tabindex="-1"><a class="header-anchor" href="#li" aria-hidden="true">#</a> <strong>li</strong></h3>
+<p>Legendary island，传说岛</p>
+<h3 id="dxp" tabindex="-1"><a class="header-anchor" href="#dxp" aria-hidden="true">#</a> <strong>dxp</strong></h3>
+<p>double xp,通常指双倍经验炸弹，或是指双倍经验周末</p>
+<h3 id="dl" tabindex="-1"><a class="header-anchor" href="#dl" aria-hidden="true">#</a> <strong>dl</strong></h3>
+<p>double loot，双倍掉落物炸弹</p>
+<h3 id="ds-ip-ts-ls-uc-sst-ib-ur-gg" tabindex="-1"><a class="header-anchor" href="#ds-ip-ts-ls-uc-sst-ib-ur-gg" aria-hidden="true">#</a> <strong>DS/IP/TS(LS)/UC/SST/IB/UR/GG</strong></h3>
+<p>副本简称</p>
+<h3 id="troll" tabindex="-1"><a class="header-anchor" href="#troll" aria-hidden="true">#</a> <strong>troll</strong></h3>
+<p>指整蛊行为</p>
+<h3 id="我要尿尿" tabindex="-1"><a class="header-anchor" href="#我要尿尿" aria-hidden="true">#</a> <strong>我要尿尿</strong></h3>
+<p>wynn在输入法拼出来就是这个:(</p>
 <h2 id="公会类" tabindex="-1"><a class="header-anchor" href="#公会类" aria-hidden="true">#</a> 公会类</h2>
 <h3 id="gw" tabindex="-1"><a class="header-anchor" href="#gw" aria-hidden="true">#</a> <strong>gw</strong></h3>
 <p>Guild war，公会战</p>
@@ -84,6 +119,10 @@
 <p>公会战的调资源</p>
 <h3 id="hq" tabindex="-1"><a class="header-anchor" href="#hq" aria-hidden="true">#</a> <strong>hq</strong></h3>
 <p>headquarters，指公会战里面的首都/总部</p>
+<h3 id="tax" tabindex="-1"><a class="header-anchor" href="#tax" aria-hidden="true">#</a> <strong>tax</strong></h3>
+<p>公会战中的收取税收</p>
+<h3 id="gb" tabindex="-1"><a class="header-anchor" href="#gb" aria-hidden="true">#</a> <strong>gb</strong></h3>
+<p>guild bank，公会银行</p>
 <h2 id="口语类" tabindex="-1"><a class="header-anchor" href="#口语类" aria-hidden="true">#</a> 口语类</h2>
 <div class="hint-container tip">
 <p class="hint-container-title">提示</p>
@@ -103,6 +142,24 @@
 <p>for，比如说wait4my friend就是等一个朋友，不是等四个，口语而已</p>
 <h3 id="gg" tabindex="-1"><a class="header-anchor" href="#gg" aria-hidden="true">#</a> <strong>gg</strong></h3>
 <p>good game，游戏内一般是主职或副职升级成功表达恭喜的，挑战成功也会有人说gg</p>
+<h3 id="cya" tabindex="-1"><a class="header-anchor" href="#cya" aria-hidden="true">#</a> <strong>cya</strong></h3>
+<p>see you again, 再见</p>
+<h3 id="kys" tabindex="-1"><a class="header-anchor" href="#kys" aria-hidden="true">#</a> <strong>kys</strong></h3>
+<p>kill yourself, 你自杀吧(贬义)</p>
+<h3 id="mb" tabindex="-1"><a class="header-anchor" href="#mb" aria-hidden="true">#</a> <strong>mb</strong></h3>
+<p>my bad,我的锅</p>
+<h3 id="rn" tabindex="-1"><a class="header-anchor" href="#rn" aria-hidden="true">#</a> <strong>rn</strong></h3>
+<p>right now,现在</p>
+<h3 id="lmao" tabindex="-1"><a class="header-anchor" href="#lmao" aria-hidden="true">#</a> <strong>lmao</strong></h3>
+<p>laugh my ass off，笑死我了</p>
+<h3 id="tyfr" tabindex="-1"><a class="header-anchor" href="#tyfr" aria-hidden="true">#</a> <strong>tyfr</strong></h3>
+<p>thank you for run,感谢(这一局)，我要润了</p>
+<h3 id="irl" tabindex="-1"><a class="header-anchor" href="#irl" aria-hidden="true">#</a> <strong>irl</strong></h3>
+<p>in real life,现实</p>
+<h3 id="stfu" tabindex="-1"><a class="header-anchor" href="#stfu" aria-hidden="true">#</a> <strong>stfu</strong></h3>
+<p>shut the fuck up，闭上你的狗嘴</p>
+<h3 id="fr" tabindex="-1"><a class="header-anchor" href="#fr" aria-hidden="true">#</a> <strong>fr</strong></h3>
+<p>for real，真的</p>
 <h2 id="装备类" tabindex="-1"><a class="header-anchor" href="#装备类" aria-hidden="true">#</a> 装备类</h2>
 </div></template>
 
