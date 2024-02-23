@@ -3743,7 +3743,6 @@ icon: hat-wizard
       <br>
       <br><font color = BBBBBB>使用<u>陨石</u>或者<u>座天使</u>后，将会在地面烙下灼热纹章，对上方的敌人每 <font color=white>0.4 </font>秒造成伤害
       <br>
-      <br>
       <br>伤害半径：<font color=white>7格</font>
       <br>持续时间：<font color=white>5秒</font></font>
       <br>
