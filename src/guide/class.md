@@ -3680,7 +3680,10 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Wind_Slash"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="orange">传送斩击</font></div>
+    <span id="Wind_Slash"></span><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
       @mouseover="showTooltip('传送斩击')"
@@ -3701,7 +3704,10 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Thunderstorm"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="orange">雷暴</font></div>
+    <span id="Thunderstorm"></span><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
       @mouseover="showTooltip('雷暴')"
@@ -3729,7 +3735,10 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Burning_Sigil"></span><img
+<td><div style="text-align: center; margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="orange">灼热纹章</font></div>
+    <span id="Burning_Sigil"></span><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
       @mouseover="showTooltip('灼热纹章')"
@@ -3761,7 +3770,10 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Sunshower"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="orange">太阳雨</font></div>
+    <span id="Sunshower"></span><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
       @mouseover="showTooltip('太阳雨')"
@@ -3789,7 +3801,10 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Stronger_Meteor"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <!-- Add the following line for the centered text -->
+    <font color="white">天煞星</font></div>
+    <span id="Stronger_Meteor"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
       @mouseover="showTooltip('天煞星')"
@@ -3828,7 +3843,10 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color=FF5555>疾风清扫</font></div>
+    <img
       src="/assets/img/class/special.png"
       alt="Your Image"
       @mouseover="showTooltip('疾风清扫')"
@@ -3853,7 +3871,10 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color=FF5555>座天使</font></div>
+    <img
       src="/assets/img/class/special.png"
       alt="Your Image"
       @mouseover="showTooltip('座天使')"
@@ -3881,7 +3902,10 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color=FF5555>奥术转换</font></div>
+    <img
       src="/assets/img/class/special.png"
       alt="Your Image"
       @mouseover="showTooltip('奥术转换')"
