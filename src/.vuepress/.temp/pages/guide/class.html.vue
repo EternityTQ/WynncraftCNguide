@@ -345,7 +345,7 @@
 <p>Backstab：多重斩技能改为背刺，在怪物后方使用会造成双倍伤害</p>
 </li>
 <li>
-<p>Marked：烟雾手雷技能会对怪物造成印记增伤效果</p>
+<p>Marked：烟雾弹技能会对怪物造成印记增伤效果</p>
 </li>
 <li>
 <p>Nightcloak Knife：吸收印记并生成暗影之刃对怪物造成伤害</p>
@@ -366,7 +366,7 @@
 <p>Mirror Image：召唤分身，分身存在时降低受到伤害的60%</p>
 </li>
 <li>
-<p>Delirious Gas：在烟雾手雷范围内时增加40%伤害并且吸引仇恨</p>
+<p>Delirious Gas：在烟雾弹范围内时增加40%伤害并且吸引仇恨</p>
 </li>
 <li>
 <p>Echo：分身与你同时使用所有技能，但是每个分身和本体伤害降低65%</p>
@@ -5317,18 +5317,18 @@
 </td>
 <td><span id="Smoke_Bomb"></span><img src="/assets/img/class/assassin_green.png"
       alt="Your Image"
-      @mouseover="showTooltip('烟雾手雷')"
+      @mouseover="showTooltip('烟雾弹')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
       class="t48"
       @click.prevent="handleClick"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '烟雾手雷'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#00BB00"><b>烟雾手雷</b></font>
+      <font color="#00BB00"><b>烟雾弹</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 左键</font>
       <br>
-      <br><font color = BBBBBB>投掷烟雾手雷，对范围内的敌人每0.5秒造成一次伤害。</font>
+      <br><font color = BBBBBB>投掷烟雾弹，对范围内的敌人每0.5秒造成一次伤害。</font>
       <br>
       <br><font color = BBBBBB>蓝耗：<font color=white>35</font>
       <br>范围：<font color=white>10格</font>
@@ -5357,15 +5357,15 @@
 </td>
 <td><span id="Multihit"></span><img src="/assets/img/class/assassin_green.png"
       alt="Your Image"
-      @mouseover="showTooltip('迅捷连斩')"
+      @mouseover="showTooltip('多重斩')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
       class="t48"
       @click.prevent="handleClick"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '迅捷连斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '多重斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#00BB00"><b>迅捷连斩</b></font>
+      <font color="#00BB00"><b>多重斩</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
       <br>
       <br><font color = BBBBBB>对前方敌人进行连续8次斩击，造成高额伤害。</font>
@@ -5544,7 +5544,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>背刺</b></font>
       <br>
-      <br><font color = BBBBBB><u>迅捷连斩</u>改为只进行一次更为强力的攻击且耗能<font color = FFFFFF>-5</font>。若于敌人背后使用此技能命中敌人，造成双倍伤害。</font>
+      <br><font color = BBBBBB><u>多重斩</u>改为只进行一次更为强力的攻击且耗能<font color = FFFFFF>-5</font>。若于敌人背后使用此技能命中敌人，造成双倍伤害。</font>
       <br>
       <br><font color=AA0000><b>影步者 分支</b></font>
     </div>
@@ -5571,7 +5571,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>终斩</b></font>
       <br>
-      <br><font color = BBBBBB><u>迅捷连斩</u>在连斩结束后额外斩击一次。</font>
+      <br><font color = BBBBBB><u>多重斩</u>在连斩结束后额外斩击一次。</font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -5623,7 +5623,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>粘性炸弹</b></font>
       <br>
-      <br><font color = BBBBBB><u>烟雾手雷</u>将会粘在敌人身上并造成额外伤害。</font>
+      <br><font color = BBBBBB><u>烟雾弹</u>将会粘在敌人身上并造成额外伤害。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
     </div>
@@ -5806,7 +5806,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>烟雾幕墙</b></font>
       <br>
-      <br><font color = BBBBBB>使用<u>烟雾手雷</u>时额外丢出两颗烟雾弹，降低每发烟雾弹的伤害</font>
+      <br><font color = BBBBBB>使用<u>烟雾弹</u>时额外丢出两颗烟雾弹，降低每发烟雾弹的伤害</font>
     </div>
 </td></tr>
 <tr>
@@ -5869,7 +5869,7 @@
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>烟雾弥漫</b></font>
       <br>
-      <br><font color = BBBBBB>增加<u>烟雾手雷</u>的投掷范围和效果半径</font>
+      <br><font color = BBBBBB>增加<u>烟雾弹</u>的投掷范围和效果半径</font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
@@ -5898,16 +5898,16 @@
 <td><span id="Cheaper_Multihit_I"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('迅捷连斩减耗1')"
+      @mouseover="showTooltip('多重斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '迅捷连斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '多重斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>迅捷连斩减耗 I</b></font>
+      <font color="#FFFFFF"><b>多重斩减耗 I</b></font>
       <br>
-      <br><font color = BBBBBB><u>迅捷连斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+      <br><font color = BBBBBB><u>多重斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
@@ -5953,7 +5953,7 @@
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>虚张声势</b></font>
       <br>
-      <br><font color = BBBBBB><font color = aqua>暗影分身</font>存在期间，若在潜行状态时释放<u>迅捷连斩</u>，则会立刻消灭一个<font color = aqua>暗影分身</font>，将你向前传送一段距离并对周围的敌人造成大量伤害
+      <br><font color = BBBBBB><font color = aqua>暗影分身</font>存在期间，若在潜行状态时释放<u>多重斩</u>，则会立刻消灭一个<font color = aqua>暗影分身</font>，将你向前传送一段距离并对周围的敌人造成大量伤害
       <br>
       <br>传送范围：<font color = white>6格</font>
       <br>伤害半径：<font color = white>5格</font></font>
@@ -5961,7 +5961,7 @@
       <br><font color=FF55FF><b>幻术师 分支</b></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB><u>迅捷连斩</u>和<u>临别惊喜</u>的效果也会一并触发，且<u>虚张声势</u>的实际游戏内伤害范围与技能描述差别较大(实测是对传送起点周围的敌人造成伤害，笔者注)。</font>
+      <br><font color = BBBBBB><u>多重斩</u>和<u>临别惊喜</u>的效果也会一并触发，且<u>虚张声势</u>的实际游戏内伤害范围与技能描述差别较大(实测是对传送起点周围的敌人造成伤害，笔者注)。</font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -6010,16 +6010,16 @@
 <td><span id="Cheaper_Smoke_Bomb_I"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('烟雾手雷减耗1')"
+      @mouseover="showTooltip('烟雾弹减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '烟雾手雷减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾弹减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>烟雾手雷减耗 I</b></font>
+      <font color="#FFFFFF"><b>烟雾弹减耗 I</b></font>
       <br>
-      <br><font color = BBBBBB><u>烟雾手雷</u>的技能消耗<font color = FFFFFF> -5</font></font>
+      <br><font color = BBBBBB><u>烟雾弹</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
@@ -6084,7 +6084,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>黑洞</b></font>
       <br>
-      <br><font color = BBBBBB><u>烟雾手雷</u>将会拉扯附近的敌人</font>
+      <br><font color = BBBBBB><u>烟雾弹</u>将会拉扯附近的敌人</font>
       <br>
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB>只在烟雾弹落地时拉扯一次而非持续拉；效果很华丽所以可能导致卡顿，且并不提升伤害，慎点</font>
@@ -6194,7 +6194,7 @@
       <!-- 提示文本内容 -->
       <font color=FF55FF><b>怪诞魔雾</b></font>
       <br>
-      <br><font color = BBBBBB>当你处于<u>烟雾手雷</u>的范围内时，造成的伤害提升<font color=WHITE>40%</font>并获得持续<font color=WHITE>20s</font>的<font color = aqua>诱饵</font>效果
+      <br><font color = BBBBBB>当你处于<u>烟雾弹</u>的范围内时，造成的伤害提升<font color=WHITE>40%</font>并获得持续<font color=WHITE>20s</font>的<font color = aqua>诱饵</font>效果
       <br><font color = aqua>诱饵</font>效果会让周围<font color=WHITE>16</font>格内的敌人转而攻击你，且其移速提升<font color=WHITE>30%</font>。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
@@ -6217,7 +6217,7 @@
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>无影斩</b></font>
       <br>
-      <br><font color = BBBBBB><u>迅捷连斩</u>的斩击次数<font color = FFFFFF> +3</font></font>
+      <br><font color = BBBBBB><u>多重斩</u>的斩击次数<font color = FFFFFF> +3</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -6241,7 +6241,7 @@
       <!-- 提示文本内容 -->
       <font color=FF5555><b>刺杀印记</b></font>
       <br>
-      <br><font color = BBBBBB><u>烟雾手雷</u>对敌人造成伤害后，令其获得1层<font color = aqua>刺杀印记</font>。（至多<font color = FFFFFF>4</font>层，<font color = FFFFFF>0.4s</font>冷却）
+      <br><font color = BBBBBB><u>烟雾弹</u>对敌人造成伤害后，令其获得1层<font color = aqua>刺杀印记</font>。（至多<font color = FFFFFF>4</font>层，<font color = FFFFFF>0.4s</font>冷却）
       <br>有<font color = aqua>刺杀印记</font>的敌人，受到的伤害增加。
       <br><font color = aqua>刺杀印记</font>每<font color = FFFFFF>10s</font>消散一层
       <br>
@@ -6250,7 +6250,7 @@
       <br><font color=AA0000><b>影步者 分支</b></font></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB>多个<u>烟雾手雷</u>共享叠加CD，目前不存在瞬叠多层刺杀印记的方法。</font>
+      <br><font color = BBBBBB>多个<u>烟雾弹</u>共享叠加CD，目前不存在瞬叠多层刺杀印记的方法。</font>
     </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
@@ -6310,7 +6310,7 @@
       <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>长斩</b></font>
       <br>
-      <br><font color = BBBBBB><u>迅捷连斩</u>的范围增加<font color = FFFFFF> 2</font></font>
+      <br><font color = BBBBBB><u>多重斩</u>的范围增加<font color = FFFFFF> 2</font></font>
       <br>
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB>该技能不会增加<u>背刺</u>的攻击范围</font>
@@ -6509,16 +6509,16 @@
 <td><span id="Cheaper_Multihit_II"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('迅捷连斩减耗2')"
+      @mouseover="showTooltip('多重斩减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '迅捷连斩减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '多重斩减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>迅捷连斩减耗 II</b></font>
+      <font color="#FFFFFF"><b>多重斩减耗 II</b></font>
       <br>
-      <br><font color = BBBBBB><u>迅捷连斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+      <br><font color = BBBBBB><u>多重斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
@@ -6555,7 +6555,7 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>窒息毒雾</b></font>
       <br>
-      <br><font color = BBBBBB><u>烟雾手雷</u>将对范围内的敌人造成减速。</font>
+      <br><font color = BBBBBB><u>烟雾弹</u>将对范围内的敌人造成减速。</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
     </div>
@@ -6745,16 +6745,16 @@
 <td><span id="Cheaper_Smoke_Bomb_II"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('烟雾手雷减耗2')"
+      @mouseover="showTooltip('烟雾弹减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '烟雾手雷减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '烟雾弹减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>烟雾手雷减耗 II</b></font>
+      <font color="#FFFFFF"><b>烟雾弹减耗 II</b></font>
       <br>
-      <br><font color = BBBBBB><u>烟雾手雷</u>的技能消耗<font color = FFFFFF> -5</font></font>
+      <br><font color = BBBBBB><u>烟雾弹</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
@@ -6773,12 +6773,12 @@
       <!-- 提示文本内容 -->
       <font color="ORANGE"><b>狂锋</b></font>
       <br>
-      <br><font color = BBBBBB><u>迅捷连斩</u>现在可以瞄准任何方向并会将被命中的目标锁定在你前方，且将造成额外的雷属性伤害</font>
+      <br><font color = BBBBBB><u>多重斩</u>现在可以瞄准任何方向并会将被命中的目标锁定在你前方，且将造成额外的雷属性伤害</font>
       <br>
       <br><font color=WHITE><b>身法刺 分支</b></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB>没有该技能点的<u>迅捷连斩</u>只能瞄准水平方向(人话：不能低头打)
+      <br><font color = BBBBBB>没有该技能点的<u>多重斩</u>只能瞄准水平方向(人话：不能低头打)
       <br>该技能不会增加<u>背刺</u>的伤害</font>
     </div>
 </td>
@@ -6866,7 +6866,7 @@
       <!-- 提示文本内容 -->
       <font color=FF5555><b>杀意起兮</b></font>
       <br>
-      <br><font color = BBBBBB>敌人身上拥有至少<font color=WHITE> 4 </font>层<font color = aqua>刺杀印记</font>时，你对其下一次<u>迅捷连斩</u>或粉末技能的伤害倍率提升100%
+      <br><font color = BBBBBB>敌人身上拥有至少<font color=WHITE> 4 </font>层<font color = aqua>刺杀印记</font>时，你对其下一次<u>多重斩</u>或粉末技能的伤害倍率提升100%
       <br>
       <br>内置CD：<font color=WHITE>15s</font>
       <br>
