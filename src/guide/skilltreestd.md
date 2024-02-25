@@ -5,18 +5,21 @@ icon: gamepad
 1
 
 ```vue
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="#00BB00">爆炸箭</font></div>
 <img
       src="/assets/img/class/archer_green.png"
       alt="Your Image"
-      @mouseover="showTooltip('箭弹')"
+      @mouseover="showTooltip('爆炸箭')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
       class="t48"
       @click.prevent="handleClick"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '箭弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+    <div v-if="isTooltipVisible && currentTooltip === '爆炸箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <!-- 提示文本内容 -->
-      <font color="#00BB00"><b>箭弹</b></font>
+      <font color="#00BB00"><b>爆炸箭</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 右键</font>
       <br>
       <br><font color = BBBBBB>射出一支远距离的箭矢，其命中后会爆炸，并在大范围内造成伤害。</font><font color = 555555><br>(并对自己造成爆炸伤害10%的伤害)</font>
@@ -28,6 +31,9 @@ icon: gamepad
 ```
 
 ```vue
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <!-- Add the following line for the centered text -->
+    <font color="white">逃脱减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
       alt="Your Image"
@@ -45,6 +51,9 @@ icon: gamepad
 ```
 
 ```vue
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="ORANGE">碎心</font></div>
 <img
       src="/assets/img/class/medium.png"
       alt="Your Image"
@@ -63,6 +72,9 @@ icon: gamepad
 
 
 ```vue
+ <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color=FF55FF>全神贯注</font></div>
 <img
       src="/assets/img/class/large.png"
       alt="Your Image"
@@ -85,6 +97,9 @@ icon: gamepad
 
 
  ```vue
+ <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color=FF5555>全神贯注</font></div>
 <img
       src="/assets/img/class/special.png"
       alt="Your Image"

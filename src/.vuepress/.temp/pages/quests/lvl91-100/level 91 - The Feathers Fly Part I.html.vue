@@ -21,7 +21,7 @@
 <p>5.进入<code v-pre>[-1440 134 -3109]</code>的店铺，和店员对话后被赶出来，然后和Ava对话后再次进入店铺，再次被赶出来</p>
 <p>6.和<font color=00AA00><strong>Ava</strong></font><code v-pre>[16325 140 13567]</code>对话，然后打店铺周围的怪，收集16个<code v-pre>Electroshard</code>后在房子后面提交</p>
 <p>7.进入房子底部的控制系统，让<font color=00AA00><strong>Ava</strong></font>将水倒到右边的控制面板上</p>
-<p>8.和<font color=00AA00>*<em>Ava</em></font>在他的作坊<code v-pre>[-1731 134 -3267]</code>对话</p>
+<p>8.和<font color=00AA00><strong>Ava</strong></font>在他的作坊<code v-pre>[-1731 134 -3267]</code>对话</p>
 <p>9.在作坊外和<font color=00AA00><strong>Ava</strong></font>对话</p>
 <p>10.帮助Ava测试她的机器</p>
 <div class="hint-container tip">

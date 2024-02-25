@@ -29,7 +29,7 @@
 
 7.进入房子底部的控制系统，让<font color=00AA00>**Ava**</font>将水倒到右边的控制面板上
 
-8.和<font color=00AA00>**Ava*</font>在他的作坊`[-1731 134 -3267]`对话
+8.和<font color=00AA00>**Ava**</font>在他的作坊`[-1731 134 -3267]`对话
 
 9.在作坊外和<font color=00AA00>**Ava**</font>对话
 

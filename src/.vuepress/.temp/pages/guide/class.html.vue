@@ -539,6 +539,9 @@
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td>
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="#00BB00">爆炸箭</font></div>
     <img
       src="/assets/img/class/archer_green.png"
       alt="Your Image"
@@ -3195,7 +3198,9 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Meteor"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="#00BB00">陨石</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
       @mouseover="showTooltip('陨石')"
@@ -3318,7 +3323,9 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shooting_Star"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="ORANGE">流星</font></div><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
       @mouseover="showTooltip('流星')"
@@ -3365,7 +3372,9 @@
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Wand_Proficiency_II"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <!-- Add the following line for the centered text -->
+    <font color="white">法杖熟稔 II</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
       @mouseover="showTooltip('法杖熟稔2')"
@@ -3386,7 +3395,9 @@
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Teleport"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <!-- Add the following line for the centered text -->
+    <font color="00BB00">传送</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
       @mouseover="showTooltip('传送')"
@@ -3408,7 +3419,9 @@
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Wisdom"></span><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <!-- Add the following line for the centered text -->
+    <font color="white">智慧</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
       @mouseover="showTooltip('智慧')"

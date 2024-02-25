@@ -53,7 +53,7 @@ tils自带的信标能帮助你找到目标地点
 
 **黑色粗体**为地名
 
-<font color=00AA00><b>绿色字体</b></font>为人名<br><br>
+<font color=00AA00><b>绿色字体</b></font>为人名，若无对应坐标，说明该NPC位置坐标在前文已出现过<br><br>
 
 <font color=FF5555><b>红色字体</b></font>为怪物名
 
