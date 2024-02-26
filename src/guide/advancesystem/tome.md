@@ -126,7 +126,7 @@ Mythic:
 + 2%-8% Loot bonus
 + 2%-8% Walk speed
 + 29-65 Health Regen
-+ 24-100 life steal
++ 24-98 life steal
 
 2级Mythic品质的防具tome会固定拥有以下两条副词条：
 
