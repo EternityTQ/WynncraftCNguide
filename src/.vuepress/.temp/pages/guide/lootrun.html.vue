@@ -294,7 +294,7 @@
 </tr>
 <tr>
 <td><font color = FFCC00><strong>黄色信标</strong></font></td>
-<td>生成 <strong>1(2)</strong> 个Flying Chest</td>
+<td>生成 <strong>1(2)</strong> 个Flying Chest(相当于额外的战利品箱)</td>
 <td style="text-align:center">无上限</td>
 </tr>
 <tr>

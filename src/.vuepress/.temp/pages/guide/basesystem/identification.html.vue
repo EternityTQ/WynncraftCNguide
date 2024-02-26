@@ -43,7 +43,7 @@
 <p>纯飞舞</p>
 </blockquote>
 <p><strong>Exploding%</strong><br>
-附加爆炸，每次<strong>击杀敌人</strong>时会有x%的概率使敌人发生爆炸</p>
+附加爆炸，每次<strong>击杀敌人</strong>时会有x%的概率使敌人发生爆炸，伤害与普通攻击伤害相同</p>
 <p>概率最多为100%（若该数值为负数则无任何效果），超过100%的数值不生效。</p>
 <p><strong>Main attack damage（raw/%）</strong><br>
 普通攻击伤害加成，简称MD，分为伤害加成数值与伤害加成百分比两种。伤害加成百分比是根据每次普攻打出的伤害计算的，与平均伤害（Average DPS）无关。</p>

@@ -50,7 +50,7 @@
 <p class="hint-container-title">提示</p>
 <p>对于任何名字显示</p>
 <p><strong>黑色粗体</strong>为地名</p>
-<font color=00AA00><b>绿色字体</b></font>为人名<br><br><font color=FF5555><b>红色字体</b></font>为怪物名<p><code v-pre>注释</code>为坐标或是物品名</p>
+<font color=00AA00><b>绿色字体</b></font>为人名，若无对应坐标，说明该NPC位置坐标在前文已出现过<br><br><font color=FF5555><b>红色字体</b></font>为怪物名<p><code v-pre>注释</code>为坐标或是物品名</p>
 </div>
 <div class="hint-container warning">
 <p class="hint-container-title">注意</p>
