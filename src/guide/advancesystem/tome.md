@@ -95,8 +95,6 @@ lootrun tome需要在lr中获取
 | 2级 | - | +8% | +12% |
 | 3级 | - | +13% | +16% |
 
-对于游戏末期来说，仅3级Fabled和Mythic的武器tome有用，且Mythic品质的tome出现概率非常低
-
 三个等级的武器tome副词条基本类似，如下(Legendary品质没有副词条)
 
 Fabled:

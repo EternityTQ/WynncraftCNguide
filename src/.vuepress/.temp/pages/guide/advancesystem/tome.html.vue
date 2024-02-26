@@ -188,7 +188,6 @@
 </tr>
 </tbody>
 </table>
-<p>对于游戏末期来说，仅3级Fabled和Mythic的武器tome有用，且Mythic品质的tome出现概率非常低</p>
 <p>三个等级的武器tome副词条基本类似，如下(Legendary品质没有副词条)</p>
 <p>Fabled:</p>
 <ul>
