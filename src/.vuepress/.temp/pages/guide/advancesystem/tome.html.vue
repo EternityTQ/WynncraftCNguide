@@ -100,7 +100,7 @@
 <figure><img src="/assets/img/tome2.jpg" alt="" width="500" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 <p>尽管每个槽位有自己的解锁等级限制，但大多数情况下是到了满级才会用到tome，因此本篇省略等级限制</p>
 <h2 id="获取来源" tabindex="-1"><a class="header-anchor" href="#获取来源" aria-hidden="true">#</a> 获取来源</h2>
-<p>大部分强力tome的来源均为<RouterLink to="/guide/raid.html">RAID</RouterLink>，见下表</p>
+<p>大部分强力tome的来源均为<RouterLink to="/guide/raid/intro.html">RAID</RouterLink>，见下表</p>
 <table>
 <thead>
 <tr>
