@@ -228,7 +228,7 @@
 </tbody>
 </table>
 <p>1级防具tome属性过低，本篇省略介绍</p>
-<p>除此之外，2级Fabled品质的防具tome会拥有以下副词条之一：</p>
+<p>2级Fabled品质的防具tome会拥有以下副词条之一：</p>
 <ul>
 <li>2%-8% Main attack dmg + 2%-8% Exploding</li>
 <li>2%-10% Throns + 2%-10% Reflection</li>

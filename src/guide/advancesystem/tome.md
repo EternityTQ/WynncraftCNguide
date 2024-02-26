@@ -119,7 +119,7 @@ Mythic:
 
 1级防具tome属性过低，本篇省略介绍
 
-  除此之外，2级Fabled品质的防具tome会拥有以下副词条之一：
+2级Fabled品质的防具tome会拥有以下副词条之一：
 + 2%-8% Main attack dmg + 2%-8% Exploding
 + 2%-10% Throns + 2%-10% Reflection
 + 2%-8% Spell damage
