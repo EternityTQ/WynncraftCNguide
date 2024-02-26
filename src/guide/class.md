@@ -78,6 +78,16 @@ icon: hat-wizard
 
 :::
 
+基础的职业技能如下(关系到物品的cost词条)
+| 职业名 | 1st | 2nd | 3rd | 4th |
+| :---: | :---: | :---: | :---: | :---: |
+| **操作** | **R-L-R** | **R-R-R** | **R-L-L** | **R-R-L** |
+| 战士 | Bash | Charge | Uppercut | War Scream |
+| 法师 | Heal | Teleport | Meteor | Ice Snake |
+| 弓手 | Arrow Storm | Escape | Arrow Bomb | Arrow shield |
+| 刺客 | Spin Attack | Dash | Multihit | Smoke Bomb |
+| 萨满 | Totem | Haul | Aura | Uproot |
+
 对于每个职业，你都可以在技能树中体验到三种流派
 
 以下为各个职业流派的介绍
