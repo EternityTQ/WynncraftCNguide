@@ -33,14 +33,14 @@
 
 9.在作坊外和<font color=00AA00>**Ava**</font>对话
 
-10.帮助Ava测试她的机器
+10.帮助<font color=00AA00>**Ava**</font>测试她的机器
 :::tip
 很简单，跟着屏幕中间的提示按左右键就行了
 
 最好对着天上按
 :::
 
-11.和Ava对话，前往Avos的领地，然后去<font color=00AA00>**Avos Chief**</font>的房间触发剧情
+11.和<font color=00AA00>**Ava**</font>对话，前往**Avos**的领地，然后去<font color=00AA00>**Avos Chief**</font>的房间触发剧情
 
 12.继续帮忙遥控机器
 
