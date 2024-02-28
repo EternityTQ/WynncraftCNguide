@@ -7,8 +7,6 @@ icon: shield
 
 build指的是一整套装备，通常，对于某个特定武器(如神话武器)想要发挥其最大作用，需要特定的技能树和装备，这便是build。
 
-~~算了不回答这个问题~~
-
 一般来说，玩家在满级前不需要特别完备的build，能撑到满级后再使用强力build(大部分时候是抄前人留下的完备build)即可。
 
 当然，如果你想从零开始自己创造一套完善的build供自己使用，那你就需要知道一些配装的思路，这便是这篇文档要讲述的内容。
@@ -43,6 +41,8 @@ https://hppeng-wynn.github.io
 对于新手配装，一般建议尽可能使用三种属性点需求的装备，并且包含水属性，以及至少包含火/气属性中的一个，这跟游戏的装备设计规律有关(后面会讲)。
 
 或者你不想思考了就上全彩虹配装(后面也会讲)。
+
+~~可千万别用morph套打团本，求求你了~~
 
 **当前版本环境下，大部分玩家使用施法作为主要输出手段，所以这里先讲技能流的配装，以普攻为主的流派会在后面补充。**
 
@@ -86,7 +86,7 @@ https://hppeng-wynn.github.io
 靴子：你有什么神话鞋就用什么神话鞋/Epilogue/Capricorn
 戒指：intensity+mool pool
 手镯：Prowess/Remika's/Succession
-项链：Contrust/Diamond fusion/Gigabyte
+项链：Contrast/Diamond fusion/Gigabyte
 所有武器都能套这个公式，得到的结果不会太弱，也不会很脆。
 :::
 
@@ -147,11 +147,13 @@ https://hppeng-wynn.github.io
 | 水 | Anamnesis/<br>Cumulonimbus | Aquarius | Seipodon | riverflow/<br>virtuoso/<br>Wavedash |
 | 火 | Capsid Frame/<br>Dreadnought | Soulflare | Ophiuchus/<br>Greaves of the Veneer | The Stokers |
 | 气 | Gale's sight/<br>Unravel/<br>Cumulonimbus | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani/<br>Anaerobic | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir |
-| 彩虹 | morph/<br>Cumulonimbus | Libra/<br>far cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null | Capricorn/<br>Epilogue |
+| 彩虹 | Morph-Stardust/<br>Cumulonimbus | Libra/<br>far cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null | Capricorn/<br>Epilogue |
 
 **其中，鞋子大多数情况下都使用对应属性合适的神话鞋子**
 
 你不一定非要使用上述单件加入你的build中，这仅仅只是对应属性的推荐单件
+
+
 
 ### 饰品推荐表
 
