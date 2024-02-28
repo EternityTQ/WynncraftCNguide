@@ -2,7 +2,11 @@
 title: 传说岛-Li
 icon: hand-fist
 ---
+:::warning
+此页面正在施工，内容尚未更新完全
 
+敬请期待！
+:::
 ## 简介
 传说岛，Legendary Island，是游戏后期一个刷取毕业饰品的重要地点
 
