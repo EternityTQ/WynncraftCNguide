@@ -146,7 +146,7 @@ https://hppeng-wynn.github.io
 | 雷 | Cumulonimbus | Tesla/<br>Discharge | Leictreach Makani | Capricorn/<br>Electro Mage's Boots |
 | 水 | Anamnesis/<br>Cumulonimbus | Aquarius | Seipodon | riverflow/<br>virtuoso/<br>Wavedash |
 | 火 | Capsid Frame/<br>Dreadnought | Soulflare | Ophiuchus/<br>Greaves of the Veneer | The Stokers |
-| 气 | Gale's sight/<br>Unravel/<br>Cumulonimbus | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir |
+| 气 | Gale's sight/<br>Unravel/<br>Cumulonimbus | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani/<br>Anaerobic | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir |
 | 彩虹 | morph/<br>Cumulonimbus | Libra/<br>far cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null | Capricorn/<br>Epilogue |
 
 **其中，鞋子大多数情况下都使用对应属性合适的神话鞋子**
