@@ -46,9 +46,19 @@ https://hppeng-wynn.github.io
 
 **当前版本环境下，大部分玩家使用施法作为主要输出手段，所以这里先讲技能流的配装，以普攻为主的流派会在后面补充。**
 
-评判生存能力的重要标准是hp和ehp(在游戏内的指南针中可以查看到对应的数据)，大部分护甲可以为你提供血量，属性点中的火(防御)和气(闪避)则能提升有效血量。对于某些特殊装备，需要考虑生命回复。对于新玩家一般推荐使用hp>10000，ehp>40000的build
+评判生存能力的重要标准是hp和ehp，大部分护甲可以为你提供血量，属性点中的火和气则能提升有效血量。对于某些特殊装备，需要考虑生命回复。对于新玩家一般推荐使用hp>10000，ehp>40000的build
 
-对于输出能力，主要评判的是装备上的增伤(如一般的技能流会看spell dmg, spell dmg%, element dmg等)和能量续航(mana regen/mana steal/技能减耗)，目前除去少部分流派不需要特别注重能量(奥术法师：manastorm，腐化战士：利用血量代替能量施法，ts/hm流)，都需要有一定的能量续航手段，具体需要多少mr取决于使用者的施法习惯和技能树。
+:::tip
+![](/assets/img/build1.jpg =400x)
+
+你的血量和有效血量可以在指南针的此处查看！
+:::
+
+对于输出能力，主要评判的是装备上的**增伤**(如一般的技能流会看spell dmg, spell dmg%, element dmg等)和**能量续航**(mr/ms/技能减耗)
+
+目前除去少部分流派不需要特别注重能量(奥术法师：manastorm，腐化战士：利用血量代替能量施法，ts/hm流)，都需要有一定的能量续航手段，具体需要多少mr取决于使用者的施法习惯和技能树。
+
+### **简单快速上手的配装思路**
 
 这里给大家提供一个快速上手的配装思路：
 
@@ -56,13 +66,15 @@ https://hppeng-wynn.github.io
 
 2.其中一个戒指使用moon pool circlet(来自于qira水层)，这大约能满足整套配装30%左右的回蓝需求(当然这并不意味着你要在int上花费55属性点，也许会有其他的装备提供额外int)
 
-3.其余单件中，优先使用qira任务兑换的战利品，这些单件的质量都很高，但请注意根据你的武器类型(如：使用gale's force作为主武器的话，可以选择地水气或者电水气；但是水火气就是一个不太合适的搭配)。
+3.其余单件中，优先使用qira任务兑换的战利品，这些单件的质量都很高，但请注意根据你的武器类型
+
+如：使用gale's force作为主武器的话，可以选择地水气或者电水气；但是水火气就是一个不太合适的搭配。
 
 4.完成上面三个步骤后，整套配装应该还剩下2-3个空位，根据让整套配装总血量尽可能>12000，总回蓝(mr+ms)尽可能>40，补充你所喜欢的其他单件，注意尽量使用高等级区间的装备，且如果使用神话武器的话，注意属性点需求。
 
 5.上一步中如果你能让整套build的hpr>200更好，这样能帮你省去大量的血药需求。
 
-6.此时技能点如果有富余，考虑这两件事：将使用的qira装备替换为同位置同属性需求，等级需求>=101的装备；把剩余属性点分配给火/气，尽量保证二者平均
+6.此时属性点如果有富余，考虑这两件事：将使用的qira装备替换为同位置同属性需求，等级需求>=101的装备；把剩余属性点分配给火/气，尽量保证二者平均
 
 按照上述步骤后，得到的一整套build应当能保证你的生存和续航需求，可以保证你在大部分环境下不会暴毙，当然这只是一个快速上手，并不一定能发挥你手上的武器的最大作用。
 
@@ -88,7 +100,10 @@ https://hppeng-wynn.github.io
 
 ## 进阶
 
-除去神话品质的靴子，每件装备能为你提供大约2000~4000的血量。能够用于满级构筑的装备大部分都是等级需求在Lvl 60以上的装备，这其中**绝大部分护甲类装备**的设计都遵循以下规律：
+除去神话品质的靴子，每件装备能为你提供大约2000~4000的血量。能够用于满级构筑的装备大部分都是等级需求在Lvl 60以上的装备
+
+:::tip 装备设计规律
+**绝大部分护甲类装备**的设计都遵循以下规律：
 
 1.如果装备的属性点需求以雷/气属性为主，那么该装备能提供的血量偏低，如果提供能量回复手段多数为mana steal，一般不提供hpr而是提供hps
 
@@ -100,30 +115,56 @@ https://hppeng-wynn.github.io
 
 5.如果这件装备看起来啥都有(彩虹)，那它大概率泛用性很高(如：vaward,libra,gigabyte)
 
-6.如果一件装备提供了很强的输出能力，那它提供的血量和技能点会偏少(如Conduit of Spirit)，反之亦然(如Cancer)。
+6.如果一件装备提供了很强的输出能力，那它提供的血量和属性点会偏少(如Conduit of Spirit)，反之亦然(如Cancer)。
 
 当然，凡事都有特例，上面列举的只是绝大部分装备的设计规律。
 
+:::
+
 一般来说，在配装中如果你强烈要使用某件对你输出提升特别大的单件(如胸甲使用Conduit of Spirit)，那你必然需要一件提供更多血量的装备来平衡(如放弃提供伤害的Diamond Steam Necklace使用Contrust)，否则整个配装的整体生存能力就会偏弱(游戏技术上来了之后可以不考虑后者)。
 
-对于饰品，一般用传说岛的钻石饰品补足空位即可拥有足够的强度，除此之外，你可以根据自己的需求，通过上面提及的网站进行筛选，几乎都能找到合适的备选方案，如：无条件提供点数的戒指Soldier，Reminder，提供伤害加成的Yin/Yang，提供回蓝的Photon/Summa都是常见的备选替换。
+对于饰品，一般用传说岛的钻石饰品补足空位即可拥有足够的强度，除此之外，你可以根据自己的需求，参考下面的饰品推荐表，来选择合适的饰品填充空位
 
-对于法师或者弓箭手这样的远程职业，在能力允许的范围内，可以尝试适当降低装备的ehp，选用输出更高的装备或者是自制装备来进一步提升输出，前提是你自己要有能力活下来(理论输出再高，一旦被秒，那输出都是0)。
+对于法师或者弓箭手这样的**远程职业**，在能力允许的范围内，可以尝试适当降低装备的ehp，选用输出更高的装备或者是自制装备来进一步提升输出，前提是你自己要有能力活下来
+>理论输出再高，一旦被秒，那输出都是0。
 
-另外对于每种元素类型，都有非常合适的优质单件可以优先考虑加入构筑：
-地：Chain rule(裤子)/Pisces(头盔)/Olive(戒指)
-雷：Cumulonimbus(头盔)/Capricorn(靴子)
-水：Anamnesis(头盔)/Aquarius(胸甲)
-火：Capsid Frame(头盔)/Ophiuchos(裤子)
-气：Conduit of Spirit(胸甲)/Gale's sight(头盔)/Unravel(头盔)
+对于**属性点不足**的情况，可以优先考虑Vaward/Prowess/Gigabyte几个无条件提供大量属性点的装备，其次考虑Libra/Far cosmic/Diamond fusion Necklace这类彩虹点数装备，再考虑提供大量单种或两种属性点的装备(Pisces,Cancer等)
 
-对于属性点不足的情况，可以优先考虑Vaward/Prowess/Gigabyte几个无条件提供大量属性点的装备，其次考虑Libra/Far cosmic/Diamond fusion Necklace这类彩虹点数装备，再考虑提供大量单种或两种属性点的装备(Pisces,Cancer等)
-
-除此之外，仅对于提升伤害来说，游戏内存在两个优先级非常高的词条：Spell damage(额外中性技能伤害，后用Raw spell代表)和Element damage(额外元素伤害)
+除此之外，仅对于**提升伤害**来说，游戏内存在两个优先级非常高的词条：Spell damage(额外中性技能伤害，后用Raw spell代表)和Element damage(额外元素伤害)
 
 打个不太准确的比方：你的武器DPS是500，装备提供100的Raw spell，那最终DPS就会被提升为600，这种情况下100Raw spell的提升跟20%spell damage的提升差不多，换言之，武器面板越低，Raw spell的提升越明显，甚至超过%Spell dmg对输出的提升，而如果你对装备类型熟悉就会知道，单件装备很难有超过30%的伤害提升，而出现Raw spell的装备几乎都能提供超过100的数值。
 
 这类装备诸如Wanderlust, Aleph null, Stardew对于整体dps的提升都很显著，缺点就是对于新玩家而言比较贵，且像Stardew这样的装备很难塞进常规的build当中。
+
+### 装备推荐表
+
+对于每种元素类型，都有非常合适的优质单件可以优先考虑加入构筑：
+
+| 属性 | 头盔 | 胸甲 | 护腿 | 靴子 |
+| :---: | :---: | :---: | :---: | :---: |
+| 地 | Pisces | Terra's Mold/<br>Dondasch | Chain rule | Crater Print |
+| 雷 | Cumulonimbus | Tesla/<br>Discharge | Leictreach Makani | Capricorn/<br>Electro Mage's Boots |
+| 水 | Anamnesis/<br>Cumulonimbus | Aquarius | Seipodon | riverflow/<br>virtuoso/<br>Wavedash |
+| 火 | Capsid Frame/<br>Dreadnought | Soulflare | Ophiuchus/<br>Greaves of the Veneer | The Stokers |
+| 气 | Gale's sight/<br>Unravel/<br>Cumulonimbus | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir |
+| 彩虹 | morph/<br>Cumulonimbus | Libra/<br>far cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null | Capricorn/<br>Epilogue |
+
+**其中，鞋子大多数情况下都使用对应属性合适的神话鞋子**
+
+你不一定非要使用上述单件加入你的build中，这仅仅只是对应属性的推荐单件
+
+### 饰品推荐表
+
+对于饰品来说，通常根据功能来分类
+
+| 功能 | 戒指 | 手镯 | 项链 |
+| :---: | :---: | :---: | :---: |
+| 回蓝 | summa/<br>moonpool/<br>photon | Succession | Contrast |
+| 补点 | summa/<br>photon/<br>facile/<br>finesse/<br>impudent/<br>ingress/<br>prism/<br>Soldier | prowess/<br>Remika's Authority/<br>Anya's Penumbra | Diamond Fusion Necklace/<br>Gigabyte|
+| 加血 | rune of safe passage/<br>Diamond Solar Ring/<br>darksteel ring | Diamond Solar Bracelet/<br>Jiandan Handwarps/<br>Clockwork | Diamond Solar Necklace/<br>Golemlus Core |
+| 伤害 | intensity/<br>对应属性li饰品/<br>yin/<br>yang/<br>olive/<br>Obstinance | 对应属性li饰品/<br>Breakthrough/<br>Ingress | 对应属性li饰品/<br>Necklace Of A Thousand Storms |
+
+
 
 通过上面的思路，外加利用网站筛选搜素的帮助，你可以快速组成一套满足需求的build。
 
