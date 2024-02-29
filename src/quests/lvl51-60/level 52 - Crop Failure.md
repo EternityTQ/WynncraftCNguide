@@ -1,6 +1,10 @@
 # Crop Failure (level 52)
 <span style="font-size: 25px;">**作物歉收**</span>
 
+:::warning 本页面已过期
+请等待更新！
+:::
+
 1 和<font color=00AA00>**Anast**</font>在**Olux**`[-1834 62 -5557]`交谈
 
 2 审问城里的推销员(在**Olux**城里市场摊位旁边)
