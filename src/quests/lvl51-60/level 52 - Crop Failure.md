@@ -1,14 +1,14 @@
 # Crop Failure (level 52)
 <span style="font-size: 25px;">**作物歉收**</span>
-
+:::tip
+前置条件：需要耕种等级20级
+:::
 
 1 和<font color=00AA00>**Anast**</font>在**Olux**`[-1834 62 -5557]`交谈
 
 2.在<font color=00AA00>**Anast**</font>附近采集3个`Oats`
 :::tip
-此步需要耕种副职等级20级
-
-同时不能在市场购买，需要你直接采集
+此步的采集产物不能在市场购买，需要你直接采集
 
 采集得到的Oats将会变成Rotten Oats，无论Grain还是String
 
