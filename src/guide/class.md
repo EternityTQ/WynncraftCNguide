@@ -2950,7 +2950,23 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Quadruple_Bash"></span><img src="/assets/img/class/medium.png">
+<td><span id="Quadruple_Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 3px;white-space: nowrap;">
+    <font color="ORANGE">四重重击</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('四重重击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '四重重击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>四重重击</b></font>
+      <br>
+      <br><font color = BBBBBB><u>重击</u>连续造成<font color=white> 4 </font>次伤害，且伤害间隔减小，攻击范围增大，但每击伤害降低</font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
