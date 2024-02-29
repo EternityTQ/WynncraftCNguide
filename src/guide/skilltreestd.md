@@ -5,8 +5,7 @@ icon: gamepad
 1
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
+<div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
     <font color="#00BB00">爆炸箭</font></div>
 <img
       src="/assets/img/class/archer_green.png"
@@ -18,7 +17,6 @@ icon: gamepad
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '爆炸箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>爆炸箭</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 右键</font>
       <br>
@@ -31,8 +29,7 @@ icon: gamepad
 ```
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
-    <!-- Add the following line for the centered text -->
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">逃脱减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -43,7 +40,6 @@ icon: gamepad
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>逃脱减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -51,8 +47,7 @@ icon: gamepad
 ```
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 3px;white-space: nowrap;">
     <font color="ORANGE">碎心</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -63,7 +58,6 @@ icon: gamepad
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>碎心</b></font>
       <br>
       <br><font color = BBBBBB><u>箭弹</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
@@ -72,8 +66,7 @@ icon: gamepad
 
 
 ```vue
- <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
+ <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 3px;white-space: nowrap;">
     <font color=FF55FF>全神贯注</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -84,7 +77,6 @@ icon: gamepad
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '幻影射线'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>幻影射线</b></font>
       <br>
       <br><font color = BBBBBB>将<u>箭雨</u>浓缩为一条射线，对敌人造成<font color=WHITE>10次</font>伤害</font>
@@ -97,8 +89,7 @@ icon: gamepad
 
 
  ```vue
- <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
+ <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 3px;white-space: nowrap;">
     <font color=FF5555>全神贯注</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -109,7 +100,6 @@ icon: gamepad
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '全神贯注'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>全神贯注</b></font>
       <br>
       <br><font color = BBBBBB>当攻击到<font color=WHITE> 5格以外 </font>的敌人时，获得一层<font color=aqua>专注值</font>
@@ -141,11 +131,11 @@ icon: gamepad
 
 战士：
 
-<font color=RED><b>腐化者</b></font>
+<font color=FF5555><b>腐化者 分支</b></font>
 
-<font color=FFFF55><b>武道士</b></font>
+<font color=FFFF55><b>武道士 分支</b></font>
 
-<font color=18c7f0><b>圣骑士</b></font>
+<font color=55FFFF><b>圣骑士 分支</b></font>
 
 法师：
 <font color=55FFFF><b>时空行者 分支</b></font>

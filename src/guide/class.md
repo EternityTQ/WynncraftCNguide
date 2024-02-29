@@ -112,7 +112,7 @@ icon: hat-wizard
 ### 战士
 ::: tabs
 
-@tab <font color="red">Fallen 腐化者</font>
+@tab <font color=FF5555>Fallen 腐化者</font>
 腐化者拥有战士分支中最高的输出，并且会在受伤时变得更加强大
 
 腐化者的机制为施放战吼进入腐化状态
@@ -424,7 +424,7 @@ icon: hat-wizard
 
 + Awakened：拥有所有假面的增益并清除减益
 
-@tab <font color="red"> Acolyte 血教徒 </font>
+@tab <font color=FF5555> Acolyte 血教徒 </font>
 血教徒是上手难度最高的技能分支之一，其核心机制为血池——通过图腾牺牲自己的生命值填充血池，再利用血池进行输出和治疗
 
 虽然血池的治疗在熟练掌握后是非常强大的续航手段，但是不熟练血池节奏的情况下，很有可能因为血池意外将自己抽干而失去续航能力
@@ -552,7 +552,6 @@ icon: hat-wizard
 </td>
 <td>
 <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="#00BB00">爆炸箭</font></div>
     <img
       src="/assets/img/class/archer_green.png"
@@ -564,7 +563,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '爆炸箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>爆炸箭</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 右键</font>
       <br>
@@ -639,7 +637,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '爆炸箭减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>爆炸箭减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>的技能消耗<font color = FFFFFF> -10</font></font>
@@ -686,7 +683,6 @@ icon: hat-wizard
       class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>碎心</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
@@ -733,11 +729,10 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '双发'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>双发箭矢</b></font>
       <br>
       <br><font color = BBBBBB>你的<u>普通攻击</u>将同时射出两发箭矢</font>
-      <br><font color = BBBBBB>但每支箭矢的伤害将会降低<font color= RED>30%</font></font>
+      <br><font color = BBBBBB>但每支箭矢的伤害将会降低<font color= FF5555>30%</font></font>
       <br>
       <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
@@ -753,7 +748,6 @@ icon: hat-wizard
       class="t48"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>逃脱</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 左键 - 左键</font>
       <br>
@@ -776,7 +770,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强力箭矢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>强力箭矢</b></font>
       <br>
       <br><font color = BBBBBB>你的<u>普通攻击</u>射出的箭矢将提高飞行速度以及击退能力</font>
@@ -819,7 +812,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>箭雨</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 右键 - 左键</font>
       <br>
@@ -843,7 +835,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>逃脱减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -860,7 +851,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾'" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>箭盾</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 左键 - 左键 - 右键</font>
       <br>
@@ -887,7 +877,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风行足'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>风行足</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>逃脱</u>会给予你和周围的友军一段时间的速度加成</font>
@@ -940,7 +929,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>气元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有气属性的伤害</font>
@@ -959,7 +947,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '电元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>电元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有电属性的伤害</font>
@@ -982,7 +969,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>火元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有火属性的伤害</font>
@@ -1001,7 +987,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>水元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有水属性的伤害</font>
@@ -1027,7 +1012,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>地元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有地属性的伤害</font>
@@ -1053,12 +1037,11 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灵活的箭弦'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>灵活的箭弦</b></font>
       <br>
       <br><font color = BBBBBB><u>箭雨</u>的箭矢飞行速度加倍，同时每道箭流额外<font color = white> +6 </font>根箭矢
       <br>
-      <br>每根箭矢的伤害 <font color=RED> -10% </font></font>
+      <br>每根箭矢的伤害 <font color=FF5555> -10% </font></font>
     </div>
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
@@ -1072,7 +1055,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨滂沱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="FFFFFF"><b>箭雨滂沱</b></font>
       <br>
       <br><font color = BBBBBB>当<u>箭盾</u>的次数耗尽时，在你的周围喷涌出<font color=WHITE>150</font>根箭矢，倾泻在周围的敌人身上</font>
@@ -1108,7 +1090,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '假根'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>假根</b></font>
       <br>
       <br><font color = BBBBBB><u>箭雨</u>击中敌人时，生成一个苔藓圈，圈内敌人减速且每<font color = white> 0.4秒 </font>持续受到伤害
@@ -1128,7 +1109,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火焰轨迹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>火焰轨迹</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>将会点燃飞行沿途区域持续<font color=FFFFFF>6秒</font>(3秒冷却)，期间持续对在其上方的敌人每<font color = white> 0.4秒 </font>造成伤害</font>
@@ -1145,7 +1125,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '幻影射线'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>幻影射线</b></font>
       <br>
       <br><font color = BBBBBB>将<u>箭雨</u>浓缩为一条射线，对敌人造成<font color=WHITE>10次</font>伤害</font>
@@ -1165,10 +1144,9 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '三重射击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>三重射击</b></font>
       <br>
-      <br><font color = BBBBBB>你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color = RED>-20%</font></font>
+      <br><font color = BBBBBB>你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color = FF5555>-20%</font></font>
       <br>
       <br><font color= FFFF55><b>闪击射手 分支</b></font>
     </div>
@@ -1184,7 +1162,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '狂热'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>狂热</b></font>
       <br>
       <br><font color = BBBBBB>每攻击到一次敌人，叠加一层<font color=FFFFFF> 3%</font> 移动速度(上限70%)，每秒消退已叠加的<font color = white> 10% </font>的移动速度</font>
@@ -1235,7 +1212,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '守护天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>守护天使</b></font>
       <br>
       <br><font color = BBBBBB><u>箭盾</u>的功能将转换为召唤2个守护天使，其可以自动攻击周围的怪物至多 <font color=WHITE> 8 </font>次
@@ -1259,7 +1235,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '磐石陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>磐石陷阱</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>爆炸箭</u>击打到地面时，留下一个可以伤害到敌人的<font color=AQUA>陷阱</font>(至多2个)
@@ -1288,7 +1263,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '全神贯注'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>全神贯注</b></font>
       <br>
       <br><font color = BBBBBB>当攻击到<font color=WHITE> 5格以外 </font>的敌人时，获得一层<font color=aqua>专注值</font>(上限3层，1.1秒的获得冷却)
@@ -1336,7 +1310,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>风暴箭阵</b></font>
       <br>
       <br><font color = BBBBBB><u>箭雨</u>将额外射出<font color=white> +1 </font>道箭流，且每道箭流额外 <font color=white>+2 </font>支箭</font>
@@ -1353,7 +1326,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>箭雨减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>箭雨</u>的技能消耗<font color = FFFFFF>-5</font></font>
@@ -1370,7 +1342,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '内爆'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>内爆</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>会将敌人拉向自己。如果周围有<font color=aqua>陷阱</font>，则会将怪物拉向<font color=aqua>陷阱</font>而不是自己
@@ -1391,7 +1362,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '盾牌精修'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>盾牌精修</b></font>
       <br>
       <br><font color = BBBBBB><u>箭盾</u>增加<font color = FFFFFF> 2 </font>次耐久
@@ -1418,7 +1388,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '耐心的猎人'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>猎人狩猎守则</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color=aqua>陷阱</font>在激活后，每秒 <font color=FFFFFF>+20% </font>伤害。(上限+100%)</font>
@@ -1437,7 +1406,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '抓钩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>抓钩</b></font>
       <br>
       <br><font color = BBBBBB><u>逃脱</u>的功能转换为投掷出一个钩子，当钩子抓取到方块时，会将你快速拉向方块；当钩子抓取到怪物时，会将怪物拉向你。
@@ -1458,7 +1426,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更加专注'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>更加专注</b></font>
       <br>
       <br><font color = BBBBBB><font color=aqua>专注值</font>的上限<font color = FFFFFF> +2 </font></font>
@@ -1476,7 +1443,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风暴足'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>风暴足</b></font>
       <br>
       <br><font color = BBBBBB><u>风行足</u>的持续时间及速度效果额外增加
@@ -1498,7 +1464,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猎犬的呼唤'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>猎犬的呼唤</b></font>
       <br>
       <br><font color = BBBBBB>施放<u>箭盾</u>将召唤一只<font color=aqua>猎犬</font>，其会攻击敌人，并将敌人拉向你的陷阱
@@ -1548,7 +1513,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '飞跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>飞跃</b></font>
       <br>
       <br><font color = BBBBBB>在空中二段跳时，向前飞跃一段距离(2秒冷却)</font>
@@ -1565,7 +1529,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '旅行者'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>旅行者</b></font>
       <br>
       <br><font color = BBBBBB>你每从装备及物品上获取<font color = FFFFFF> 1% </font>的移动速度，就<font color = FFFFFF> +1 </font>点技能伤害(上限+100)</font>
@@ -1582,7 +1545,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '弹跳炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>弹跳炸弹</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>攻击到敌人或击打到地面时，弹跳一次</font>
@@ -1599,7 +1561,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '蔓生毒蝰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>蔓生毒蝰</b></font>
       <br>
       <br><font color = BBBBBB><u>假根</u>在消失后将召唤<font color=aqua>猎蛇</font>，其会向敌人吐出虚弱毒液(召唤上限为1)
@@ -1623,7 +1584,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === 'Twain的弧光'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>Twain的弧光</b></font>
       <br>
       <br><font color = BBBBBB>当你有<font color=aqua>2+ 层专注值</font>时，按住SHIFT将召唤Twain的弧光，充能来射出毁灭性的超远距离光波，
@@ -1654,7 +1614,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火箭飞跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>火箭飞跃</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>的反冲力增加，同时其对自己造成的伤害降低至<font color = FFFFFF> 1% </font></font>
@@ -1671,7 +1630,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灼焦的地表'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>灼焦的地表</b></font>
       <br>
       <br><font color = BBBBBB><u>火焰轨迹</u>的伤害增加，持续时间增加<font color = FFFFFF> 2秒 </font>。</font>
@@ -1697,7 +1655,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更多陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>更多陷阱</b></font>
       <br>
       <br><font color = BBBBBB><font color = aqua>陷阱</font>的数量上限<font color=white>+2</font></font>
@@ -1725,7 +1682,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '精致火药'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>精致火药</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>的基础伤害增加<font color = FFFFFF> +50%</font></font>
@@ -1742,7 +1698,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猛烈踹击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>猛烈踹击</b></font>
       <br>
       <br><font color = BBBBBB>在使用<u>逃脱</u>时，按住SHIFT将极速下落，并在落地时造成伤害。
@@ -1763,7 +1718,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>箭盾减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>箭盾</u>的技能消耗<font color = FFFFFF>-5</font></font>
@@ -1780,7 +1734,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾精制'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>箭盾精制</b></font>
       <br>
       <br><font color = BBBBBB>增加<u>箭盾</u>的伤害半径、击退能力以及伤害
@@ -1800,7 +1753,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '震撼弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>震撼弹</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>不再受到重力下坠影响，同时增加爆炸伤害</font>
@@ -1820,7 +1772,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '飞跃精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>飞跃精通</b></font>
       <br>
       <br><font color = BBBBBB><u>飞跃</u>的冷却时间<font color = FFFFFF> -1s</font></font>
@@ -1843,7 +1794,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '导引箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>导引箭</b></font>
       <br>
       <br><font color = BBBBBB>你的<u>普通攻击</u>将自动锁定周围的敌人，且不再受到重力下坠影响</font>
@@ -1892,12 +1842,11 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>法力陷阱</b></font>
       <br>
       <br><font color = BBBBBB>你的每个<font color=aqua>陷阱</font>每秒将给予你<font color=white> 0.5 </font>法力，在爆炸时，回收<font color=white> 10 </font>法力。
       <br>
-      <br>蓝耗：<font color=RED>+10</font>
+      <br>蓝耗：<font color=FF5555>+10</font>
       <br>恢复范围：<font color=white>16格</font>
       <br>
       <br><font color= 00AA00><b>陷阱射手 分支</b></font></font>
@@ -1917,7 +1866,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>箭雨减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>箭雨</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -1934,7 +1882,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '聚能连击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>聚能连击</b></font>
       <br>
       <br><font color = BBBBBB><u>幻影射线</u>每连续攻击到一次敌人且不空箭时，伤害<font color=white>+10%</font>。(至多70%)</font>
@@ -1954,7 +1901,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强化守护天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>强化守护天使</b></font>
       <br>
       <br><font color = BBBBBB><u>守护天使</u>将增加范围，同时在消失前可以额外攻击<font color = FFFFFF> 4 </font>次。
@@ -1975,7 +1921,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱艺术家'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>逃脱艺术家</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>逃脱</u>时，往后跳的反方向倾泻<font color = FFFFFF> 100 </font>根箭矢。
@@ -1995,7 +1940,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雾鸦群袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>雾鸦群袭</b></font>
       <br>
       <br><font color = BBBBBB>当<u>磐石陷阱</u>爆炸后，召唤一只<font color=aqua>乌鸦</font>去啄击敌人。(上限2只)
@@ -2018,7 +1962,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '羽下藏锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>羽下藏锋</b></font>
       <br>
       <br><font color = BBBBBB>当连续<font color=WHITE> 4秒 </font>以上没有对敌人造成伤害时，下一次命中的攻击额外<font color=WHITE> +60% </font>伤害以及<font color=aqua> 专注值 +1 </font></font>
@@ -2037,7 +1980,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '相位光束'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=ORANGE><b>相位光束</b></font>
       <br>
       <br><font color = BBBBBB><u>Twain的弧光</u>充能速度增加<font color=WHITE> 20%</font> ，且现在能穿透<font color=WHITE> 5 </font>个敌人，激光伤害在穿透后将会下降</font>
@@ -2074,7 +2016,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭矢回收'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>箭矢回收</b></font>
       <br>
       <br><font color = BBBBBB>每一根没有命中目标的箭矢都将回收成<font color=WHITE> 0.08 </font>法力</font>
@@ -2093,7 +2034,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '破片炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>破片炸弹</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>命中并爆炸后，产生<font color=white> 15 </font>枚弹片，对大范围内的敌人造成伤害。</font>
@@ -2112,7 +2052,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>逃脱减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF>-5</font></font>
@@ -2131,7 +2070,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>箭盾减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>箭盾</u>的技能消耗<font color = FFFFFF>-5</font></font>
@@ -2159,7 +2097,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强力抓钩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>强力抓钩</b></font>
       <br>
       <br><font color = BBBBBB>增加<u>抓钩</u>的范围、拉扯速度以及拉扯力量
@@ -2182,7 +2119,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '震慑束缚'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>震慑束缚</b></font>
       <br>
       <br><font color = BBBBBB><u>震撼弹</u>现在将短暂地震慑敌人，降低敌人的防御6秒。(12秒冷却时间)</font>
@@ -2221,7 +2157,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '飓风箭阵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>飓风箭阵</b></font>
       <br>
       <br><font color = BBBBBB><u>箭雨</u>将额外射出<font color=white> 2 </font>道箭流</font>
@@ -2240,7 +2175,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '绊线陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>绊线陷阱</b></font>
       <br>
       <br><font color = BBBBBB>你的每个<font color=aqua>陷阱</font>之间会有绊线连接，触碰绊线的敌人每<font color=white> 0.2秒</font> 受到一次伤害。</font>
@@ -2259,7 +2193,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '理塘'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>理塘</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color=aqua>猎蛇</font>召唤数量上限<font color = FFFFFF> +1</font></font>
@@ -2280,7 +2213,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '暮色流光'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>暮色流光</b></font>
       <br>
       <br><font color = BBBBBB>当你拥有<font color = aqua>5+层 专注值</font>时，在高于地面<font color=white><br> 4格以上 </font>的空中施放<u>箭雨</u>将会使你保持浮空，并且每秒射出<font color=white> 20 </font>只导引箭，直到所有的<font color = aqua>专注值</font>耗尽</font>
@@ -2310,13 +2242,12 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '陷阱雷区'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>陷阱雷区</b></font>
       <br>
       <br><font color = BBBBBB>可放置的<font color=aqua>陷阱</font>数量<font color=white>+6</font>
       <br>但是降低每个陷阱的伤害及伤害范围
       <br>
-      <br>范围：<font color=red>-1</font>
+      <br>范围：<font color=FF5555>-1</font>
       <br>
       <br><font color= 00AA00><b>陷阱射手 分支</b></font></font>
     </div>
@@ -2339,7 +2270,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '全知天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>全知天使</b></font>
       <br>
       <br><font color = BBBBBB>你的<u>守护天使</u>将提升攻击范围、伤害，同时每个守护天使可以额外攻击<font color=WHITE> 4次</font>
@@ -2362,7 +2292,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猎人狩猎守则2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>猎人狩猎守则 - 精通</b></font>
       <br>
       <br><font color = BBBBBB><u>猎人狩猎守则</u>每秒增加的陷阱伤害<font color = FFFFFF> +10% </font>，同时总额外伤害上限 <font color = FFFFFF> +100% </font>。</font>
@@ -2381,7 +2310,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '分裂炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>分裂炸弹</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>在爆炸时将额外分裂出<font color=WHITE> 2个 </font>小型炸弹</font>
@@ -2401,7 +2329,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更加专注2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>更加专注 II</b></font>
       <br>
       <br><font color = BBBBBB><font color=aqua>专注值</font>的上限<font color = FFFFFF> +2</font></font>
@@ -2425,7 +2352,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '空灵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>空灵</b></font>
       <br>
       <br><font color=BBBBBB>当你连续<font color=white> 4秒以上 </font>没有受到攻击时，免疫<u>爆炸箭</u>对自己造成的伤害，同时<u>箭雨</u>取消后坐力</font>
@@ -2458,7 +2384,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '喷泉践踏'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>喷泉践踏</b></font>
       <br>
       <br><font color = BBBBBB><u>猛烈踹击</u>落地后形成喷泉，提升造成的伤害，同时击飞被命中的敌人
@@ -2477,7 +2402,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '暴风雪'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>暴风雪</b></font>
       <br>
       <br><font color = BBBBBB>在你附近的敌人将受到减速效果</font>
@@ -2499,7 +2423,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '爆炸箭减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>爆炸箭减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>爆炸箭</u>的技能消耗<font color = FFFFFF>-5</font></font>
@@ -2523,7 +2446,27 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Bash"></span><img src="/assets/img/class/warrior_green.png">
+<td><span id="Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <font color="#00BB00">重击</font></div>
+<img
+      src="/assets/img/class/warrior_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('重击')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '重击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#00BB00"><b>重击</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 右键</font>
+      <br>
+      <br><font color = BBBBBB>对前方大范围区域重劈并造成伤害。</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>40</font>
+      <br>攻击范围：<font color=white>3格</font>
+      <br>重劈范围：<font color=white>4格</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -2557,11 +2500,41 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Bash_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Bash_I"></span><div style="text-align: center;margin-left:-11px;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">重击减耗 I</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('重击减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '重击减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>重击减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -10</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Spear_Proficiency_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Spear_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">长矛精通 I</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('长矛精通1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '长矛精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>长矛精通 I</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<u>普通攻击</u>的范围及伤害
+      <br>
+      <br>攻击范围：</font>+1格
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -2599,7 +2572,23 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Double_Bash"></span><img src="/assets/img/class/medium.png">
+<td><span id="Double_Bash"></span><div style="text-align: center;margin-top:-10px;margin-left:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <font color="ORANGE">双重击</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('双重击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '双重击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>双重击</b></font>
+      <br>
+      <br><font color = BBBBBB><u>重击</u>将会对更远的范围额外造成一次伤害，但每一击的伤害<font color=FF5555> -40% </font>
+      <br>
+      <br>攻击范围：</font>+3格
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -2633,15 +2622,65 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Vehement"></span><img src="/assets/img/class/small.png">
+<td><span id="Vehement"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">热烈之力</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('热烈之力')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '热烈之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>热烈之力</b></font>
+      <br>
+      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>1 </font>或<font color=white> 1% </font>点的普攻伤害，就获得<font color=white> 2% </font>的移动速度(至多+20%)
+      <br>同时，你的所有伤害 <font color=white>+5 </font></font><br><br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Charge"></span><img src="/assets/img/class/warrior_green.png">
+<td><span id="Charge"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <font color="#00BB00">冲锋</font></div>
+<img
+      src="/assets/img/class/warrior_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冲锋')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冲锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#00BB00"><b>冲锋</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 右键</font>
+      <br>
+      <br><font color = BBBBBB>向正前方发起冲锋</font><font color = 555555><br>(按住潜行键可取消冲锋)</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>25</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Tougher_Skin"></span><img src="/assets/img/class/small.png">
+<td><span id="Tougher_Skin"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">坚韧之力</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('坚韧之力')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '坚韧之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>坚韧之力</b></font>
+      <br>
+      <br><font color = BBBBBB>硬化你的皮肤，增加<font color = FFFFFF> 5% </font>的基础防御值</font>
+      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>1 </font>或<font color=white> 1% </font>点的生命恢复，就获得<font color=white> 10 </font>点的血量(至多100点)</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -2671,15 +2710,70 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Uppercut"></span><img src="/assets/img/class/warrior_green.png">
+<td><span id="Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <font color="#00BB00">上挑斩</font></div>
+<img
+      src="/assets/img/class/warrior_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('上挑斩')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '上挑斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#00BB00"><b>上挑斩</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
+      <br>
+      <br><font color = BBBBBB>将怪物击飞到空中，造成成吨的伤害</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>40</font>
+      <br>伤害范围：<font color=white>5格</font>
+      <br>挑飞高度：<font color=white>1-3格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Charge_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Charge_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">冲锋减耗 I</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冲锋减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冲锋减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>冲锋减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冲锋</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="War_Scream"></span><img src="/assets/img/class/warrior_green.png">
+<td><span id="War_Scream"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
+    <font color="#00BB00">战吼</font></div>
+<img
+      src="/assets/img/class/warrior_green.png"
+      alt="Your Image"
+      @mouseover="showTooltip('战吼')"
+      @mousemove="updateTooltipPosition($event)"
+      @mouseleave="hideTooltip"
+      class="t48"
+      @click.prevent="handleClick"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '战吼'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#00BB00"><b>战吼</b></font>
+      <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 左键</font>
+      <br>
+      <br><font color = BBBBBB>发出战吼，令范围内的敌人受到伤害并向你的位置拉扯，令自身和范围内的队友获得免伤。</font>
+      <br>
+      <br><font color = BBBBBB>蓝耗：<font color=white>30</font>
+      <br>免伤效果：<font color=white>+20%</font>
+      <br>持续时间：<font color=white>30秒</font>
+      <br>作用范围：<font color=white>12格</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
@@ -2688,7 +2782,21 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Heavy_Impact"></span><img src="/assets/img/class/medium.png">
+<td><span id="Heavy_Impact"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;font-size: 3px;white-space: nowrap;">
+    <font color="ORANGE">冲锋冲击</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冲锋冲击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冲锋冲击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>冲锋冲击</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>冲锋</u>后，对落地位置附近敌人造成伤害。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
@@ -2724,11 +2832,43 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Earth_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+<td><span id="Earth_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">地元素精通</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('地元素精通_战士')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '地元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>地元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加你所有地属性的伤害</font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Thunder_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+<td><span id="Thunder_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">电元素精通</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('电元素精通_战士')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '电元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>电元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加你所有电属性的伤害</font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
@@ -2736,11 +2876,43 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Air_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+<td><span id="Air_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">气元素精通</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('气元素精通_战士')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '气元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>气元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加你所有气属性的伤害</font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Fire_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+<td><span id="Fire_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">火元素精通</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('火元素精通_战士')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '火元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>火元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加你所有火属性的伤害</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
@@ -2751,7 +2923,23 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Water_Mastery_(Warrior)"></span><img src="/assets/img/class/small.png">
+<td><span id="Water_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">水元素精通</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('水元素精通_战士')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '水元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>水元素精通</b></font>
+      <br>
+      <br><font color = BBBBBB>增加你所有水属性的伤害</font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3213,7 +3401,6 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="#00BB00">陨石</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
@@ -3224,7 +3411,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '陨石'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>陨石</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
       <br>
@@ -3274,14 +3460,13 @@ icon: hat-wizard
 <td><span id="Wand_Proficiency_I"></span><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('法杖熟稔1')"
+      @mouseover="showTooltip('法杖精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '法杖熟稔1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>法杖熟稔 I</b></font>
+    <div v-if="isTooltipVisible && currentTooltip === '法杖精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>法杖精通 I</b></font>
       <br>
       <br><font color = BBBBBB>增加<u>普通攻击</u>的伤害及攻击范围
       <br>
@@ -3300,7 +3485,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '陨石减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>陨石减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>逃脱</u>的技能消耗<font color = FFFFFF> -10</font></font>
@@ -3340,7 +3524,6 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="ORANGE">流星</font></div><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
@@ -3350,7 +3533,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '流星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>流星</b></font>
       <br>
       <br><font color = BBBBBB>大幅度增加<u>陨石</u>的下落速度</font>
@@ -3390,18 +3572,16 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
-    <!-- Add the following line for the centered text -->
-    <font color="white">法杖熟稔 II</font></div><img
+    <font color="white">法杖精通 II</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
-      @mouseover="showTooltip('法杖熟稔2')"
+      @mouseover="showTooltip('法杖精通2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '法杖熟稔2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
-      <font color="#FFFFFF"><b>法杖熟稔 II</b></font>
+    <div v-if="isTooltipVisible && currentTooltip === '法杖精通2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>法杖精通 II</b></font>
       <br>
       <br><font color = BBBBBB>增加<u>普通攻击</u>的伤害及攻击范围
       <br>
@@ -3414,7 +3594,6 @@ icon: hat-wizard
 <td><img src="/assets/img/class/横线.png">
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="00BB00">传送</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
@@ -3425,7 +3604,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '传送'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>传送</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 右键</font>
       <br>
@@ -3438,7 +3616,6 @@ icon: hat-wizard
 <td><img src="/assets/img/class/横线.png">
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
-    <!-- Add the following line for the centered text -->
     <font color="white">智慧</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
@@ -3448,7 +3625,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '智慧'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>智慧</b></font>
       <br>
       <br><font color = BBBBBB>你每从装备或物品上得到<font color = FFFFFF> 2% </font>或<font color = FFFFFF> 2点 </font>法术伤害加成，就额外增加<font color = FFFFFF> 1/5s </font>法力回复(上限5/5s)</font>
@@ -3494,7 +3670,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>治疗</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 右键</font>
       <br>
@@ -3516,7 +3691,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '传送减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>传送减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>传送</u>的技能消耗<font color = FFFFFF>-5</font></font>
@@ -3534,7 +3708,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冰蛇'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>冰蛇</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 左键</font>
       <br>
@@ -3599,7 +3772,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>气元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有气属性的伤害</font>
@@ -3618,7 +3790,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '电元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>电元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有电属性的伤害</font>
@@ -3641,7 +3812,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>火元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有火属性的伤害</font>
@@ -3660,7 +3830,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>地元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有地属性的伤害</font>
@@ -3686,7 +3855,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>水元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有水属性的伤害</font>
@@ -3704,7 +3872,6 @@ icon: hat-wizard
 </td></tr>
 <tr>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="orange">传送斩击</font></div>
     <span id="Wind_Slash"></span><img
       src="/assets/img/class/medium.png"
@@ -3715,7 +3882,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '传送斩击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>传送斩击</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>传送</u>时，对穿过的敌人造成伤害
@@ -3728,7 +3894,6 @@ icon: hat-wizard
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="orange">雷暴</font></div>
     <span id="Thunderstorm"></span><img
       src="/assets/img/class/medium.png"
@@ -3739,7 +3904,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雷暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>雷暴</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>陨石</u>后，立刻在落点处召唤<font color=white> 3 </font>道落雷，对敌人造成伤害
@@ -3759,7 +3923,6 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="text-align: center; margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="orange">灼热纹章</font></div>
     <span id="Burning_Sigil"></span><img
       src="/assets/img/class/medium.png"
@@ -3770,7 +3933,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灼热纹章'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>灼热纹章</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>陨石</u>或者<u>座天使</u>后，将会在地面烙下灼热纹章，对上方的敌人每 <font color=white>0.4 </font>秒造成伤害
@@ -3794,7 +3956,6 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color="orange">太阳雨</font></div>
     <span id="Sunshower"></span><img
       src="/assets/img/class/medium.png"
@@ -3805,7 +3966,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '太阳雨'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>太阳雨</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>治疗</u>时，释放光芒，对周围的敌人造成伤害
@@ -3825,7 +3985,6 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
-    <!-- Add the following line for the centered text -->
     <font color="white">天煞星</font></div>
     <span id="Stronger_Meteor"></span><img
       src="/assets/img/class/small.png"
@@ -3836,7 +3995,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '天煞星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>天煞星</b></font>
       <br>
       <br><font color = BBBBBB>大幅度增加<u>陨石</u>的伤害</font>
@@ -3867,7 +4025,6 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color=FF5555>疾风清扫</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -3878,7 +4035,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '疾风清扫'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>疾风清扫</b></font>
       <br>
       <br><font color = BBBBBB>你的<u>普通攻击</u>对敌人造成伤害时，对其叠加一层<font color=aqua>风印</font>(上限10，叠加冷却0.5s)
@@ -3895,7 +4051,6 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color=FF5555>座天使</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -3906,7 +4061,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '座天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>座天使</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>陨石</u>时，改为召唤<font color=white> 2 </font>个光之宝珠，它们会在你使用<u>普通攻击</u>时一起攻击，且拥有<font color=white> 200 </font>点生命值
@@ -3926,7 +4080,6 @@ icon: hat-wizard
 <td><img src="/assets/img/class/右下.png">
 </td>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 3px;white-space: nowrap;">
-    <!-- Add the following line for the centered text -->
     <font color=FF5555>奥术转换</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -3937,7 +4090,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术转换'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>奥术转换</b></font>
       <br>
       <br><font color = BBBBBB><u>陨石</u>与<u>冰蛇</u>每命中一个敌人，将为<font color=aqua>法力储备</font>增加<font color=white> 5 </font>点法力
@@ -3983,7 +4135,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>治疗减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>治疗</u>的技能消耗<font color = FFFFFF>-5</font></font>
@@ -4002,7 +4153,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '净化'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>净化</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>治疗</u>或<u>奥术转换</u>将会去除你的所有负面效果以及燃烧状态</font>
@@ -4019,7 +4169,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冰蛇感知'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>冰蛇感知</b></font>
       <br>
       <br><font color = BBBBBB><u>冰蛇</u>将会随着你的朝向改变移动方向，令方向可控</font>
@@ -4039,7 +4188,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '视线贯穿'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>视线贯穿</b></font>
       <br>
       <br><font color = BBBBBB><u>传送</u>将会对穿过的敌人造成致盲</font>
@@ -4056,7 +4204,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '绝息'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>绝息</b></font>
       <br>
       <br><font color = BBBBBB><u>陨石</u>与<u>座天使</u>将根据敌人持有的<font color=aqua>风印</font>数量造成额外伤害</font>
@@ -4075,7 +4222,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '广域治疗'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>广域治疗</b></font>
       <br>
       <br><font color = BBBBBB>增加<u>治疗</u>的范围
@@ -4098,7 +4244,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>法力储备扩充 I</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color=aqua>法力储备</font>上限<font color = FFFFFF> +30</font></font>
@@ -4135,7 +4280,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冰蛇减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>冰蛇减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>冰蛇</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -4152,7 +4296,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强韧意志'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>强韧意志</b></font>
       <br>
       <br><font color = BBBBBB>在<font color=white> 10秒 </font>内造成相当于自身最大生命值的<font color=white> 120% </font>的恢复量后，下一次<u>治疗</u>将会给所有治疗对象施加伤害加成</font>
@@ -4174,7 +4317,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '传送减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>传送减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>传送</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -4193,7 +4335,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '驭火术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>驭火术</b></font>
       <br>
       <br><font color = BBBBBB>当你的<font color=aqua>法力储备</font>达到 <font color=white>30 </font>点后，你的<u>普通攻击</u>在命中敌人时将会发生爆炸<br><font color=555555>爆炸同样视作<u>普通攻击</u>伤害</font>
@@ -4217,7 +4358,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '闪烁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>闪烁</b></font>
       <br>
       <br><font color = BBBBBB><u>传送</u>将额外释放一次
@@ -4260,7 +4400,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光球韧化1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>光球韧化 I</b></font>
       <br>
       <br><font color = BBBBBB><u>座天使</u>召唤出的光球生命值上限<font color = FFFFFF> +800 </font>，且每次攻击损失的生命值<font color=white> -5% </font></font><br><br><font color=WHITE><b>圣光使者 分支</b></font>
@@ -4277,7 +4416,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '蛇巢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>蛇巢</b></font>
       <br>
       <br><font color = BBBBBB><u>冰蛇</u>将召唤出<font color=white> 3 </font>条冰蛇</font>
@@ -4294,7 +4432,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '通灵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>通灵</b></font>
       <br>
       <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>5/3s </font>的生命窃取，就获得<font color=white> 1% </font>点法术伤害(至多+50%)</font>
@@ -4312,7 +4449,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '超音速'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>超音速</b></font>
       <br>
       <br><font color = BBBBBB><u>传送</u>将对拥有<font color=aqua>风印</font>的敌人造成基于层数的额外伤害</font>
@@ -4331,7 +4467,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '生命源泉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>生命源泉</b></font>
       <br>
       <br><font color = BBBBBB>你的装备鉴定词条每有<font color=white> 1% </font>的水元素伤害，就增加<u>治疗</u>的治疗量 <font color=white>0.3%</font></font>
@@ -4350,7 +4485,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗脉冲'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>治疗脉冲</b></font>
       <br>
       <br><font color = BBBBBB><u>治疗</u>将额外施放<font color=WHITE> 2 </font>次</font>
@@ -4372,7 +4506,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术回复'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>奥术回复</b></font>
       <br>
       <br><font color = BBBBBB><u>驭火术</u>在命中敌人后的一段时间内，每<font color=white> 1s </font>往<font color=aqua>法力储备</font>中填充<font color=white> 1 </font>点法力
@@ -4406,7 +4539,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光球强化'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>光球强化</b></font>
       <br>
       <br><font color = BBBBBB><u>座天使</u>的技能伤害增加</font>
@@ -4430,7 +4562,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风印扩散'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>风印扩散</b></font>
       <br>
       <br><font color = BBBBBB>当你击杀拥有<font color=aqua>风印</font>的敌人时，其剩余的<font color=aqua>风印</font>将扩散到周围的敌人上(至多扩散10层)
@@ -4453,7 +4584,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '圣光领域'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>圣光领域</b></font>
       <br>
       <br><font color = BBBBBB>在<font color=WHITE> 10秒 </font>内造成自身最大生命值<font color=WHITE> 50% </font>的治疗量后，召唤一颗环绕于自身的光球，对接触的敌人造成伤害(至多召唤3颗)
@@ -4474,7 +4604,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '极速奥术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>极速奥术</b></font>
       <br>
       <br><font color = BBBBBB>在使用<u>治疗</u>或<u>奥术转换</u>后，获得持续<font color=white> 4秒 </font>的<font color=white> 80% </font>速度加成</font>
@@ -4493,7 +4622,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>法力储备扩充 II</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color=aqua>法力储备</font>上限<font color = FFFFFF> +30</font></font>
@@ -4511,7 +4639,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风印涌动1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>风印涌动 I</b></font>
       <br>
       <br><font color = BBBBBB>怪物可被叠加的<font color=aqua>风印</font>数量上限<font color = FFFFFF> +10</font></font>
@@ -4539,7 +4666,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '意念陨石'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>意念陨石</b></font>
       <br>
       <br><font color = BBBBBB><u>陨石</u>改为从自身抛出而非从天上落下
@@ -4566,7 +4692,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冰蛇减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>冰蛇减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>冰蛇</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -4583,7 +4708,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '闪现爆破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>闪现爆破</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>传送</u>后，在目标地点造成一次爆炸</font>
@@ -4600,7 +4724,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '陨石减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>陨石减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>陨石</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -4619,7 +4742,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '混沌爆破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>混沌爆破</b></font>
       <br>
       <br><font color = BBBBBB>当你的<font color=aqua>法力储备</font>达到<font color=white> 120 </font>后，使用<u>奥术转换</u>将快速并依次触发先前释放的<font color=WHITE> 3个 </font>技能</font>
@@ -4638,7 +4760,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '时空扩张'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>时空扩张</b></font>
       <br>
       <br><font color = BBBBBB>疾跑时，在路径上留下加速区域，友军在其中疾跑时移动速度增加<br><font color=555555>(离开区域或停止疾跑时区域消散)</font></font>
@@ -4660,7 +4781,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '蛇疾如风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>蛇疾如风</b></font>
       <br>
       <br><font color = BBBBBB><u>冰蛇</u>命中敌人时，叠加一层<font color=aqua>风印</font>，同时造成更多伤害</font>
@@ -4682,7 +4802,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '座天使增量'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>座天使增量</b></font>
       <br>
       <br><font color = BBBBBB><u>座天使</u>召唤的光球数量<font color = FFFFFF> +1</font></font>
@@ -4702,7 +4821,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '极寒冰蛇'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>极寒冰蛇</b></font>
       <br>
       <br><font color = BBBBBB><u>冰蛇</u>现在会冻结命中的敌人<font color=white> 2秒 </font>。</font>
@@ -4728,7 +4846,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更强的太阳花洒'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>更强的太阳花洒</b></font>
       <br>
       <br><font color = BBBBBB><u>太阳雨</u>的伤害增加</font>
@@ -4747,7 +4864,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>奥术之力</b></font>
       <br>
       <br><font color = BBBBBB><u>陨石</u>与<u>冰蛇</u>现在会额外向<font color=aqua>法力储备</font>增加<font color = FFFFFF> 2 </font>点法力</font>
@@ -4788,7 +4904,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风印涌动2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>风印涌动 II</b></font>
       <br>
       <br><font color = BBBBBB>怪物可被叠加的<font color=aqua>风印</font>上限<font color = FFFFFF> +10</font></font>
@@ -4806,7 +4921,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '动摇的信仰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>动摇的信仰</b></font>
       <br>
       <br><font color = BBBBBB>你每从装备鉴定词条上累计获得<font color = FFFFFF> 2% </font>的灵魂点恢复，就获得<font color = FFFFFF> 1% </font>点雷属性伤害增加(上限+40%)</font>
@@ -4823,7 +4937,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光球韧化2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>光球韧化 II</b></font>
       <br>
       <br><font color = BBBBBB><u>座天使</u>召唤的光球生命上限额外<font color = FFFFFF> +3000</font></font>
@@ -4844,7 +4957,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充3'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>法力储备扩充 III</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color=aqua>法力储备</font>上限<font color = FFFFFF> +30</font></font>
@@ -4866,7 +4978,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '凋亡风印'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>凋亡风印</b></font>
       <br>
       <br><font color = BBBBBB>敌人受到的每层<font color=aqua>风印</font>的效果会令其造成的伤害<font color=white> -0.5% </font>。</font>
@@ -4885,7 +4996,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '天使预言'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>天使预言</b></font>
       <br>
       <br><font color = BBBBBB><u>座天使</u>召唤的光球数量<font color=WHITE> +3 </font>，但是其打击伤害降低</font>
@@ -4904,7 +5014,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '太阳光辉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>太阳光辉</b></font>
       <br>
       <br><font color = BBBBBB>在<font color=WHITE> 10秒 </font>内造成自身生命值上限的<font color=WHITE> 300% </font>治疗量后，你的下一次<u>治疗</u>会给予周围的友军单位一段时间的无敌效果
@@ -4940,7 +5049,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '圣光结界'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>圣光结界</b></font>
       <br>
       <br><font color = BBBBBB><u>圣光领域</u>所召唤的环绕光球数量上限<font color = FFFFFF> +2</font></font>
@@ -4961,7 +5069,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术过载'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>奥术过载</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>奥术转换</u>时，溢出的法力将允许超过自身法力上限(至多共计400点)
@@ -4984,7 +5091,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '时空凝滞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>时空凝滞</b></font>
       <br>
       <br><font color = BBBBBB>按住潜行键并使用<u>治疗</u>时，将吸取周围敌人所有已有的<font color=aqua>风印</font>层数，并使你进入<font color=aqua>凝滞</font>状态
@@ -5011,7 +5117,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>治疗减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>治疗</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -5030,7 +5135,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力风暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>法力风暴</b></font>
       <br>
       <br><font color = BBBBBB>当法力值超过<font color=white> 100 </font>点后，使用技能会在<font color=white> 5秒 </font>内恢复<font color=white> 10 </font>点法力</font>
@@ -5054,7 +5158,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '重拾记忆'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>重拾记忆</b></font>
       <br>
       <br><font color = BBBBBB><u>混沌爆破</u>的释放技能数量额外<font color = FFFFFF> +2</font></font>
@@ -5106,7 +5209,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '回旋斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>回旋斩</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 右键</font>
       <br>
@@ -5157,7 +5259,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '回旋斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>回旋斩减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -5174,7 +5275,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '匕首精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>匕首精通 I</b></font>
       <br>
       <br><font color = BBBBBB>增加你的<u>移动速度</u>，并提升<u>普通攻击</u>的伤害</font>
@@ -5225,7 +5325,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '再斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>再斩</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩</u>将斩击两次且每次伤害降低，第二次斩击的范围更大</font>
@@ -5272,7 +5371,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '淬毒之刃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>淬毒之刃</b></font>
       <br>
       <br><font color = BBBBBB>你的装备鉴定词条每有<font color = FFFFFF>2%</font>或<font color = FFFFFF>2</font>点<u>普通攻击</u>伤害，就增加<font color = FFFFFF>5/3s</font>的<u>毒伤</u></font>
@@ -5292,7 +5390,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '突进'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>突进</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 右键</font>
       <br>
@@ -5312,7 +5409,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '双重打击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>双重打击</b></font>
       <br>
       <br><font color = BBBBBB><u>普通攻击</u>将造成两次伤害，但每次伤害降低<font color = FFFFFF>40%</font></font>
@@ -5356,7 +5452,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>烟雾弹</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 右键 - 左键</font>
       <br>
@@ -5379,7 +5474,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '突进减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>突进减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>突进</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -5396,7 +5490,6 @@ icon: hat-wizard
       @click.prevent="handleClick"
     />
     <div v-if="isTooltipVisible && currentTooltip === '多重斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#00BB00"><b>多重斩</b></font>
       <br><font color="ORANGE">使用连招：</font><font color="#FF55FF"> 右键 - 左键 - 左键</font>
       <br>
@@ -5458,7 +5551,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>地元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有地属性的伤害</font>
@@ -5477,7 +5569,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雷元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>雷元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有雷属性的伤害</font>
@@ -5500,7 +5591,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>水元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有水属性的伤害</font>
@@ -5519,7 +5609,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>气元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有气属性的伤害</font>
@@ -5545,7 +5634,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>火元素精通</b></font>
       <br>
       <br><font color = BBBBBB>增加所有火属性的伤害</font>
@@ -5573,7 +5661,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '背刺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>背刺</b></font>
       <br>
       <br><font color = BBBBBB><u>多重斩</u>改为只进行一次更为强力的攻击且耗能<font color = FFFFFF>-5</font>。若于敌人背后使用此技能命中敌人，造成双倍伤害。</font>
@@ -5600,7 +5687,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '终斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>终斩</b></font>
       <br>
       <br><font color = BBBBBB><u>多重斩</u>在连斩结束后额外斩击一次。</font>
@@ -5622,7 +5708,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '影逝'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>影逝</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>突进</u>后，遁入暗影进入隐身状态，令敌人无法察觉，丢失仇恨。
@@ -5652,7 +5737,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '粘性炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>粘性炸弹</b></font>
       <br>
       <br><font color = BBBBBB><u>烟雾弹</u>将会粘在敌人身上并造成额外伤害。</font>
@@ -5671,7 +5755,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '踏云'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>踏云</b></font>
       <br>
       <br><font color = BBBBBB>在半空中按住潜行键时，缓慢滑翔并取消摔落伤害。(至多5s)</font>
@@ -5716,7 +5799,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奇袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>奇袭</b></font>
       <br>
       <br><font color = BBBBBB><u>影逝</u>激活期间，你的下一次单次伤害提升
@@ -5740,7 +5822,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '镜像幻术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>镜像幻术</b></font>
       <br>
       <br><font color = BBBBBB><u>影逝</u>效果结束后，召唤数个<font color = aqua>暗影分身</font>跟随并保护你，<font color = aqua>暗影分身</font>存在期间降低你受到的伤害。
@@ -5765,7 +5846,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '斩空'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>斩空</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩</u>将令你向前位移，并改为造成<font color=FFFFFF>3</font>段伤害，完全施法后令你向上位移。
@@ -5787,7 +5867,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冷面杀手'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>冷面杀手</b></font>
       <br>
       <br><font color = BBBBBB>击杀敌对目标将立刻刷新<u>影逝</u>的冷却时间</font>
@@ -5807,7 +5886,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '临别惊喜'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>临别惊喜</b></font>
       <br>
       <br><font color = BBBBBB>每当你失去<font color = aqua>暗影分身</font>时，在其位置释放一次<u>回旋斩</u></font>
@@ -5835,7 +5913,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾幕墙'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>烟雾幕墙</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>烟雾弹</u>时额外丢出两颗烟雾弹，降低每发烟雾弹的伤害</font>
@@ -5859,7 +5936,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '智取巧夺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>智取巧夺</b></font>
       <br>
       <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>2% </font>的偷窃，就获得<font color=white> 1/3s </font>的能量窃取(至多+8/3s)</font>
@@ -5880,7 +5956,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '如风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>如风</b></font>
       <br>
       <br><font color = BBBBBB>增加<font color=white> 20% </font>的移动速度与<font color=white> 1 </font>点跳跃高度</font>
@@ -5898,7 +5973,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾弥漫'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>烟雾弥漫</b></font>
       <br>
       <br><font color = BBBBBB>增加<u>烟雾弹</u>的投掷范围和效果半径</font>
@@ -5915,7 +5989,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '影步'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>影步</b></font>
       <br>
       <br><font color = BBBBBB><u>影逝</u>期间额外增加<font color=white> 120% </font>的移速。</font>
@@ -5936,7 +6009,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '多重斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>多重斩减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>多重斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -5955,7 +6027,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '匕首精通2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>匕首精通 II</b></font>
       <br>
       <br><font color = BBBBBB>你造成的所有伤害增加 <font color=white>5 </font>点，且<u>普通攻击</u>范围增加<font color=white> 1 </font>格</font>
@@ -5982,7 +6053,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '虚张声势'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>虚张声势</b></font>
       <br>
       <br><font color = BBBBBB><font color = aqua>暗影分身</font>存在期间，若在潜行状态时释放<u>多重斩</u>，则会立刻消灭一个<font color = aqua>暗影分身</font>，将你向前传送一段距离并对周围的敌人造成大量伤害
@@ -6007,7 +6077,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '诡影缠身'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>诡影缠身</b></font>
       <br>
       <br><font color = BBBBBB>每次对敌人造成伤害都会使其伤害降低<font color=white> 0.1% </font>(最高降低15%)，该效果每秒消散<font color=white> 0.3% </font></font>
@@ -6048,7 +6117,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾弹减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>烟雾弹减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>烟雾弹</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -6067,7 +6135,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灼热的刀'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>灼热的刀</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩击</u>或<u>斩空</u>将造成额外的火属性伤害，且会令敌对目标致盲1s</font>
@@ -6088,7 +6155,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '鹤步'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>鹤步</b></font>
       <br>
       <br><font color = BBBBBB>在<font color = AAAAAA>浮空状态</font>下造成伤害时，将为你回复<font color=WHITE>0.35</font>点能量</font>
@@ -6113,7 +6179,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '黑洞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>黑洞</b></font>
       <br>
       <br><font color = BBBBBB><u>烟雾弹</u>将会拉扯附近的敌人</font>
@@ -6135,7 +6200,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '假意不敌'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>假意不敌</b></font>
       <br>
       <br><font color = BBBBBB>当你受到伤害后，若本次伤害量小于你最大生命值的<font color = FFFFFF>5%</font>，你的所有其他技能的冷却减少<font color = FFFFFF>3</font>秒。
@@ -6156,7 +6220,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雀跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>雀跃</b></font>
       <br>
       <br><font color = BBBBBB>双击跳跃键时，向前飞跃一段距离。<br>
@@ -6176,7 +6239,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奔流形态'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>奔流形态</b></font>
       <br>
       <br><font color = BBBBBB>在<font color=WHITE>2s</font>内造成<font color=WHITE>60</font>次伤害后将进入<u>奔流形态</u>，造成的所有伤害提升<font color=WHITE>50%</font>，持续<font color=WHITE>5s</font>。
@@ -6199,7 +6261,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '杀戮漩涡'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>杀戮漩涡</b></font>
       <br>
       <br><font color = BBBBBB>若你造成的单次伤害量大于你最大生命值的<font color=WHITE>1.5倍</font>，令周围所有敌人受到这次伤害量的<font color=WHITE>30%</font>。
@@ -6223,7 +6284,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '怪诞魔雾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>怪诞魔雾</b></font>
       <br>
       <br><font color = BBBBBB>当你处于<u>烟雾弹</u>的范围内时，造成的伤害提升<font color=WHITE>40%</font>并获得持续<font color=WHITE>20s</font>的<font color = aqua>诱饵</font>效果
@@ -6246,7 +6306,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '无影斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>无影斩</b></font>
       <br>
       <br><font color = BBBBBB><u>多重斩</u>的斩击次数<font color = FFFFFF> +3</font></font>
@@ -6270,7 +6329,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '刺杀印记'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>刺杀印记</b></font>
       <br>
       <br><font color = BBBBBB><u>烟雾弹</u>对敌人造成伤害后，令其获得1层<font color = aqua>刺杀印记</font>。（至多<font color = FFFFFF>4</font>层，<font color = FFFFFF>0.4s</font>冷却）
@@ -6298,7 +6356,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '镜像回响'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>镜像回响</b></font>
       <br>
       <br><font color = BBBBBB>你的<font color = aqua>暗影分身</font>将会模仿你使用的技能，但是其造成的伤害<font color=WHITE> -65%</font>。
@@ -6318,7 +6375,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '旋星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>旋星</b></font>
       <br>
       <br><font color = BBBBBB>使用<u>突进</u>后，你的下一次<u>普通攻击</u>将连续丢出三枚手里剑</font>
@@ -6339,7 +6395,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '长斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>长斩</b></font>
       <br>
       <br><font color = BBBBBB><u>多重斩</u>的范围增加<font color = FFFFFF> 2</font></font>
@@ -6372,7 +6427,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '刃舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>刃舞</b></font>
       <br>
       <br><font color = BBBBBB>对<u>突进</u>路径上的敌人造成伤害</font>
@@ -6411,7 +6465,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '潜心奇袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>潜心奇袭</b></font>
       <br>
       <br><font color = BBBBBB><u>奇袭</u>的伤害倍率提升</font>
@@ -6428,7 +6481,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '厄运磁铁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>厄运磁铁</b></font>
       <br>
       <br><font color = BBBBBB><u>影逝</u>结束时，将大范围的敌人拉向你进入<u>影逝</u>的位置</font>
@@ -6447,7 +6499,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '突进减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>突进减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>突进</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -6464,7 +6515,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '锐羽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>锐羽</b></font>
       <br>
       <br><font color = BBBBBB>触发闪避后，获得1.5s的伤害提升，且接下来1.5s内释放的下一个技能不消耗能量
@@ -6485,7 +6535,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '回旋斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>回旋斩减耗 I</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -6520,7 +6569,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '暗幕之刃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>暗幕之刃</b></font>
       <br>
       <br><font color = BBBBBB>在<u>影逝</u>期间释放<u>回旋斩</u>将会消耗周围敌人身上的<font color = aqua>刺杀印记</font>以召唤<font color = aqua>暗幕之刃</font>
@@ -6547,7 +6595,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '多重斩减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>多重斩减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>多重斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -6564,7 +6611,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '移花接木'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>移花接木</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩</u>每次命中时，都会将你自身所有负面状态的30%(持续时间的30%)转移给命中的敌人。
@@ -6584,7 +6630,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '窒息毒雾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>窒息毒雾</b></font>
       <br>
       <br><font color = BBBBBB><u>烟雾弹</u>将对范围内的敌人造成减速。</font>
@@ -6603,7 +6648,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '虎跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>虎跃</b></font>
       <br>
       <br><font color = BBBBBB><u>雀跃</u>的冷却时间<font color = FFFFFF>-1s</font>，使用<u>雀跃</u>后若碰到墙壁则会借力跳跃(按住潜行可取消)</font>
@@ -6626,7 +6670,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '夺命斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>夺命斩</b></font>
       <br>
       <br><font color = BBBBBB><u>回旋斩</u>的范围变大且可对命中的敌人附加1层<font color = aqua>刺杀印记</font></font>
@@ -6648,7 +6691,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '影遁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>影遁</b></font>
       <br>
       <br><font color = BBBBBB>进入<u>影逝</u>的<font color = FFFFFF>0.5s</font>内获得<font color = FFFFFF>75%</font>击退免疫</font>
@@ -6667,7 +6709,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '瞬华'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>瞬华</b></font>
       <br>
       <br><font color = BBBBBB><u>刃舞</u>造成伤害时，造成一次额外伤害并令你向上位移，落地后重置。</font>
@@ -6687,7 +6728,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '斩穹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>斩穹</b></font>
       <br>
       <br><font color = BBBBBB><u>斩空</u>将造成一次额外斩击</font>
@@ -6707,7 +6747,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '无底漩涡'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>无底漩涡</b></font>
       <br>
       <br><font color = BBBBBB><u>杀戮漩涡</u>的伤害倍率增加，且触发条件改为你的最大生命值的<font color = FFFFFF> 2.5倍 </font></font>
@@ -6762,7 +6801,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灵魂收割'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>灵魂收割</b></font>
       <br>
       <br><font color = BBBBBB>击杀敌人后，其身上每有一层<font color = aqua>刺杀印记</font>就回复<font color = FFFFFF>5</font>点能量</font>
@@ -6783,7 +6821,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾弹减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>烟雾弹减耗 II</b></font>
       <br>
       <br><font color = BBBBBB><u>烟雾弹</u>的技能消耗<font color = FFFFFF> -5</font></font>
@@ -6802,7 +6839,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '狂锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>狂锋</b></font>
       <br>
       <br><font color = BBBBBB><u>多重斩</u>现在可以瞄准任何方向并会将被命中的目标锁定在你前方，且将造成额外的雷属性伤害</font>
@@ -6830,7 +6866,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '刺杀狂潮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>刺杀狂潮</b></font>
       <br>
       <br><font color = BBBBBB><font color = aqua>刺杀印记</font>的上限提升<font color = FFFFFF>2</font></font>
@@ -6851,7 +6886,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '助战分身'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="ORANGE"><b>助战分身</b></font>
       <br>
       <br><font color = BBBBBB>当你至少存在一个<font color = aqua>暗影分身</font>时，提升你自己造成的伤害。</font>
@@ -6875,7 +6909,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '弹星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>弹星</b></font>
       <br>
       <br><font color = BBBBBB><u>手里剑</u>命中后可在敌人之间弹射</font>
@@ -6895,7 +6928,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '杀意起兮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>杀意起兮</b></font>
       <br>
       <br><font color = BBBBBB>敌人身上拥有至少<font color=WHITE> 4 </font>层<font color = aqua>刺杀印记</font>时，你对其下一次<u>多重斩</u>或粉末技能的伤害倍率提升100%
@@ -6921,7 +6953,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '禁忌秘术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF55FF><b>禁忌秘术</b></font>
       <br>
       <br><font color = BBBBBB><u>镜像幻术</u>将额外召唤3个<font color = aqua>暗影分身</font>且冷却时间<font color=WHITE>+15s</font>，但你自身造成的伤害降低。</font>
@@ -6945,7 +6976,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '芳泽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>芳泽</b></font>
       <br>
       <br><font color = BBBBBB>每消耗<font color=WHITE>40</font>能量，都将会在脚下积攒一层<font color=WHITE>绽放印记</font>，<font color=WHITE>绽放印记</font>会对其下方的所有单位造成高频伤害，再次获得印记将会扩大印记半径并刷新持续时间。
@@ -6982,7 +7012,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '声东击西'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color=FF5555><b>声东击西</b></font>
       <br>
       <br><font color = BBBBBB>当攻击到身上带有<font color = aqua>诱饵</font>的敌人时，周围16格内的所有友方单位获得其最大生命值10%的<font color = aqua>临时生命</font>
@@ -7006,7 +7035,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '鹤舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>鹤舞</b></font>
       <br>
       <br><font color = BBBBBB><u>鹤步</u>的能量回复提升<font color = FFFFFF>0.25</font></font>
@@ -7022,7 +7050,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灵魂吞噬'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>灵魂吞噬</b></font>
       <br>
       <br><font color = BBBBBB><u>灵魂收割</u>的能量回复提升<font color = FFFFFF>5</font></font>
@@ -7039,7 +7066,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '险恶杀意'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>险恶杀意</b></font>
       <br>
       <br><font color = BBBBBB><font color = aqua>刺杀印记</font>的伤害加成提升<font color = FFFFFF>4%</font></font>
@@ -7056,7 +7082,6 @@ icon: hat-wizard
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '一人成军'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <!-- 提示文本内容 -->
       <font color="#FFFFFF"><b>一人成军</b></font>
       <br>
       <br><font color = BBBBBB>当你至少存在一个<font color = aqua>暗影分身</font>时，提升你自己造成的伤害。</font>
@@ -7849,10 +7874,12 @@ export default {
 }
 
 th, td {
-  width: 11.11%; /* 平均分配三列的宽度 */
+  width: 11.11%; 
   height: 40px;
   border: 1px solid #ddd;
   align: center;
+  overflow: hidden; /* 如果内容超出列宽，隐藏溢出部分 */
+  text-overflow: ellipsis; /* 如果内容溢出，用省略号表示 */
 }
 
 .tooltip {
