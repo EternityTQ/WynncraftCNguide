@@ -36,11 +36,19 @@ icon: chess-king
 
 ### Apocalypse
 
+![](/assets/img/Apocalypse.jpg =300x)
+
 ### Hero
+
+![](/assets/img/Hero.jpg =300x)
 
 ### Guardian
 
+![](/assets/img/Guardian.jpg =300x)
+
 ### Alkatraz
+
+>后面再来补unid图
 
 ### Idol
 
@@ -88,25 +96,45 @@ super idol 的笑容，都没你的甜
 
 ### Collapse
 
+![](/assets/img/Collapse.jpg =300x)
+
 ### Convergence
+
+![](/assets/img/Convergence.jpg =300x)
 
 ## 法师
 
 ### Pure
 
+![](/assets/img/Pure.jpg =300x)
+
 ### Lament
+
+![](/assets/img/Lament.jpg =300x)
 
 ### Gaia
 
+![](/assets/img/Gaia.jpg =300x)
+
 ### Monster
+
+![](/assets/img/Monster.jpg =300x)
 
 ### Fatal
 
+![](/assets/img/Fatal.jpg =300x)
+
 ### Singularity
+
+![](/assets/img/Singularity.jpg =300x)
 
 ### Warp
 
+![](/assets/img/Warp.jpg =300x)
+
 ###	Quetzalcoatl
+
+![](/assets/img/Quetzalcoatl.jpg =300x)
 
 ## 弓手
 
