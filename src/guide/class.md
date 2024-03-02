@@ -551,7 +551,7 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td>
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">爆炸箭</font></div>
     <img
       src="/assets/img/class/archer_green.png"
@@ -614,7 +614,7 @@ icon: hat-wizard
       @mouseover="showTooltip('弓箭精通I')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
       class="t48"
       @touchstart.prevent="handleTouchStart"
     />
@@ -634,7 +634,7 @@ icon: hat-wizard
       @mouseover="showTooltip('爆炸箭减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '爆炸箭减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>爆炸箭减耗 I</b></font>
@@ -726,7 +726,7 @@ icon: hat-wizard
       @mouseover="showTooltip('双发')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '双发'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>双发箭矢</b></font>
@@ -767,7 +767,7 @@ icon: hat-wizard
       @mouseover="showTooltip('强力箭矢')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强力箭矢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>强力箭矢</b></font>
@@ -832,7 +832,7 @@ icon: hat-wizard
       @mouseover="showTooltip('逃脱减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>逃脱减耗 I</b></font>
@@ -874,7 +874,7 @@ icon: hat-wizard
       @mouseover="showTooltip('风行足')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风行足'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>风行足</b></font>
@@ -926,7 +926,7 @@ icon: hat-wizard
       @mouseover="showTooltip('气元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>气元素精通</b></font>
@@ -944,7 +944,7 @@ icon: hat-wizard
       @mouseover="showTooltip('电元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '电元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>电元素精通</b></font>
@@ -966,7 +966,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>火元素精通</b></font>
@@ -984,7 +984,7 @@ icon: hat-wizard
       @mouseover="showTooltip('水元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>水元素精通</b></font>
@@ -1009,7 +1009,7 @@ icon: hat-wizard
       @mouseover="showTooltip('地元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>地元素精通</b></font>
@@ -1034,7 +1034,7 @@ icon: hat-wizard
       @mouseover="showTooltip('灵活的箭弦')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灵活的箭弦'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>灵活的箭弦</b></font>
@@ -1052,7 +1052,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭雨滂沱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨滂沱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="FFFFFF"><b>箭雨滂沱</b></font>
@@ -1087,7 +1087,7 @@ icon: hat-wizard
       @mouseover="showTooltip('假根')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '假根'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>假根</b></font>
@@ -1106,7 +1106,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火焰轨迹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火焰轨迹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>火焰轨迹</b></font>
@@ -1122,7 +1122,7 @@ icon: hat-wizard
       @mouseover="showTooltip('幻影射线')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '幻影射线'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>幻影射线</b></font>
@@ -1141,7 +1141,7 @@ icon: hat-wizard
       @mouseover="showTooltip('三重射击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '三重射击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>三重射击</b></font>
@@ -1159,7 +1159,7 @@ icon: hat-wizard
       @mouseover="showTooltip('狂热')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '狂热'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>狂热</b></font>
@@ -1209,7 +1209,7 @@ icon: hat-wizard
       @mouseover="showTooltip('守护天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '守护天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>守护天使</b></font>
@@ -1232,7 +1232,7 @@ icon: hat-wizard
       @mouseover="showTooltip('磐石陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '磐石陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>磐石陷阱</b></font>
@@ -1260,7 +1260,7 @@ icon: hat-wizard
       @mouseover="showTooltip('全神贯注')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '全神贯注'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>全神贯注</b></font>
@@ -1307,7 +1307,7 @@ icon: hat-wizard
       @mouseover="showTooltip('风暴')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>风暴箭阵</b></font>
@@ -1323,7 +1323,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭雨减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>箭雨减耗 I</b></font>
@@ -1339,7 +1339,7 @@ icon: hat-wizard
       @mouseover="showTooltip('内爆')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '内爆'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>内爆</b></font>
@@ -1359,7 +1359,7 @@ icon: hat-wizard
       @mouseover="showTooltip('盾牌精修')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '盾牌精修'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>盾牌精修</b></font>
@@ -1385,7 +1385,7 @@ icon: hat-wizard
       @mouseover="showTooltip('耐心的猎人')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '耐心的猎人'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>猎人狩猎守则</b></font>
@@ -1403,7 +1403,7 @@ icon: hat-wizard
       @mouseover="showTooltip('抓钩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '抓钩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>抓钩</b></font>
@@ -1423,7 +1423,7 @@ icon: hat-wizard
       @mouseover="showTooltip('更加专注')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更加专注'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>更加专注</b></font>
@@ -1440,7 +1440,7 @@ icon: hat-wizard
       @mouseover="showTooltip('风暴足')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风暴足'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>风暴足</b></font>
@@ -1461,7 +1461,7 @@ icon: hat-wizard
       @mouseover="showTooltip('猎犬的呼唤')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猎犬的呼唤'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>猎犬的呼唤</b></font>
@@ -1510,7 +1510,7 @@ icon: hat-wizard
       @mouseover="showTooltip('飞跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '飞跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>飞跃</b></font>
@@ -1526,7 +1526,7 @@ icon: hat-wizard
       @mouseover="showTooltip('旅行者')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '旅行者'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>旅行者</b></font>
@@ -1542,7 +1542,7 @@ icon: hat-wizard
       @mouseover="showTooltip('弹跳炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '弹跳炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>弹跳炸弹</b></font>
@@ -1558,7 +1558,7 @@ icon: hat-wizard
       @mouseover="showTooltip('蔓生毒蝰')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '蔓生毒蝰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>蔓生毒蝰</b></font>
@@ -1581,7 +1581,7 @@ icon: hat-wizard
       @mouseover="showTooltip('Twain的弧光')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === 'Twain的弧光'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>Twain的弧光</b></font>
@@ -1611,7 +1611,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火箭飞跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火箭飞跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>火箭飞跃</b></font>
@@ -1627,7 +1627,7 @@ icon: hat-wizard
       @mouseover="showTooltip('灼焦的地表')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灼焦的地表'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>灼焦的地表</b></font>
@@ -1652,7 +1652,7 @@ icon: hat-wizard
       @mouseover="showTooltip('更多陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更多陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>更多陷阱</b></font>
@@ -1679,7 +1679,7 @@ icon: hat-wizard
       @mouseover="showTooltip('精致火药')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '精致火药'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>精致火药</b></font>
@@ -1695,7 +1695,7 @@ icon: hat-wizard
       @mouseover="showTooltip('猛烈踹击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猛烈踹击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>猛烈踹击</b></font>
@@ -1715,7 +1715,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭盾减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>箭盾减耗 I</b></font>
@@ -1731,7 +1731,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭盾精制')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾精制'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>箭盾精制</b></font>
@@ -1750,7 +1750,7 @@ icon: hat-wizard
       @mouseover="showTooltip('震撼弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '震撼弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>震撼弹</b></font>
@@ -1769,7 +1769,7 @@ icon: hat-wizard
       @mouseover="showTooltip('飞跃精通')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '飞跃精通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>飞跃精通</b></font>
@@ -1791,7 +1791,7 @@ icon: hat-wizard
       @mouseover="showTooltip('导引箭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '导引箭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>导引箭</b></font>
@@ -1839,7 +1839,7 @@ icon: hat-wizard
       @mouseover="showTooltip('法力陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>法力陷阱</b></font>
@@ -1863,7 +1863,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭雨减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭雨减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>箭雨减耗 II</b></font>
@@ -1879,7 +1879,7 @@ icon: hat-wizard
       @mouseover="showTooltip('聚能连击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '聚能连击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>聚能连击</b></font>
@@ -1898,7 +1898,7 @@ icon: hat-wizard
       @mouseover="showTooltip('强化守护天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强化守护天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>强化守护天使</b></font>
@@ -1918,7 +1918,7 @@ icon: hat-wizard
       @mouseover="showTooltip('逃脱艺术家')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱艺术家'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>逃脱艺术家</b></font>
@@ -1937,7 +1937,7 @@ icon: hat-wizard
       @mouseover="showTooltip('雾鸦群袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雾鸦群袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>雾鸦群袭</b></font>
@@ -1959,7 +1959,7 @@ icon: hat-wizard
       @mouseover="showTooltip('羽下藏锋')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '羽下藏锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>羽下藏锋</b></font>
@@ -1977,7 +1977,7 @@ icon: hat-wizard
       @mouseover="showTooltip('相位光束')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '相位光束'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=ORANGE><b>相位光束</b></font>
@@ -2013,7 +2013,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭矢回收')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭矢回收'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>箭矢回收</b></font>
@@ -2031,7 +2031,7 @@ icon: hat-wizard
       @mouseover="showTooltip('破片炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '破片炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>破片炸弹</b></font>
@@ -2049,7 +2049,7 @@ icon: hat-wizard
       @mouseover="showTooltip('逃脱减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>逃脱减耗 II</b></font>
@@ -2067,7 +2067,7 @@ icon: hat-wizard
       @mouseover="showTooltip('箭盾减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '箭盾减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>箭盾减耗 II</b></font>
@@ -2094,7 +2094,7 @@ icon: hat-wizard
       @mouseover="showTooltip('强力抓钩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强力抓钩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>强力抓钩</b></font>
@@ -2116,7 +2116,7 @@ icon: hat-wizard
       @mouseover="showTooltip('震慑束缚')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '震慑束缚'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>震慑束缚</b></font>
@@ -2154,7 +2154,7 @@ icon: hat-wizard
       @mouseover="showTooltip('飓风箭阵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '飓风箭阵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>飓风箭阵</b></font>
@@ -2172,7 +2172,7 @@ icon: hat-wizard
       @mouseover="showTooltip('绊线陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '绊线陷阱'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>绊线陷阱</b></font>
@@ -2190,7 +2190,7 @@ icon: hat-wizard
       @mouseover="showTooltip('理塘')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '理塘'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>理塘</b></font>
@@ -2210,7 +2210,7 @@ icon: hat-wizard
       @mouseover="showTooltip('暮色流光')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '暮色流光'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>暮色流光</b></font>
@@ -2239,7 +2239,7 @@ icon: hat-wizard
       @mouseover="showTooltip('陷阱雷区')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '陷阱雷区'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>陷阱雷区</b></font>
@@ -2267,7 +2267,7 @@ icon: hat-wizard
       @mouseover="showTooltip('全知天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '全知天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>全知天使</b></font>
@@ -2289,7 +2289,7 @@ icon: hat-wizard
       @mouseover="showTooltip('猎人狩猎守则2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猎人狩猎守则2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>猎人狩猎守则 - 精通</b></font>
@@ -2307,7 +2307,7 @@ icon: hat-wizard
       @mouseover="showTooltip('分裂炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '分裂炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>分裂炸弹</b></font>
@@ -2326,7 +2326,7 @@ icon: hat-wizard
       @mouseover="showTooltip('更加专注2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更加专注2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>更加专注 II</b></font>
@@ -2349,7 +2349,7 @@ icon: hat-wizard
       @mouseover="showTooltip('空灵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '空灵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>空灵</b></font>
@@ -2381,7 +2381,7 @@ icon: hat-wizard
       @mouseover="showTooltip('喷泉践踏')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '喷泉践踏'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>喷泉践踏</b></font>
@@ -2399,7 +2399,7 @@ icon: hat-wizard
       @mouseover="showTooltip('暴风雪')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '暴风雪'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>暴风雪</b></font>
@@ -2420,7 +2420,7 @@ icon: hat-wizard
       @mouseover="showTooltip('爆炸箭减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '爆炸箭减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>爆炸箭减耗 II</b></font>
@@ -2446,7 +2446,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">重击</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2500,7 +2500,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Bash_I"></span><div style="text-align: center;margin-left:-11px;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Bash_I"></span><div style="text-align: center;margin-left:-11px;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">重击减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2508,7 +2508,7 @@ icon: hat-wizard
       @mouseover="showTooltip('重击减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '重击减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>重击减耗 I</b></font>
@@ -2518,7 +2518,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Spear_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Spear_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">长矛精通 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2526,7 +2526,7 @@ icon: hat-wizard
       @mouseover="showTooltip('长矛精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '长矛精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>长矛精通 I</b></font>
@@ -2572,7 +2572,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Double_Bash"></span><div style="text-align: center;margin-top:-10px;margin-left:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Double_Bash"></span><div style="text-align: center;margin-top:-10px;margin-left:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">双重击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -2580,7 +2580,7 @@ icon: hat-wizard
       @mouseover="showTooltip('双重击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '双重击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>双重击</b></font>
@@ -2622,7 +2622,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Vehement"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Vehement"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">热烈之力</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2630,7 +2630,7 @@ icon: hat-wizard
       @mouseover="showTooltip('热烈之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '热烈之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>热烈之力</b></font>
@@ -2641,7 +2641,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Charge"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Charge"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">冲锋</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2663,7 +2663,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Tougher_Skin"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Tougher_Skin"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">坚韧之力</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2671,7 +2671,7 @@ icon: hat-wizard
       @mouseover="showTooltip('坚韧之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '坚韧之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>坚韧之力</b></font>
@@ -2710,7 +2710,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">上挑斩</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2734,7 +2734,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Charge_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Charge_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">冲锋减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2742,7 +2742,7 @@ icon: hat-wizard
       @mouseover="showTooltip('冲锋减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冲锋减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>冲锋减耗 I</b></font>
@@ -2752,7 +2752,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="War_Scream"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="War_Scream"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">战吼</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2782,7 +2782,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Heavy_Impact"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Heavy_Impact"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">冲锋冲击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -2790,7 +2790,7 @@ icon: hat-wizard
       @mouseover="showTooltip('冲锋冲击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冲锋冲击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>冲锋冲击</b></font>
@@ -2832,7 +2832,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Earth_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Earth_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">地元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2840,7 +2840,7 @@ icon: hat-wizard
       @mouseover="showTooltip('地元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>地元素精通</b></font>
@@ -2852,7 +2852,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Thunder_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Thunder_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">电元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2860,7 +2860,7 @@ icon: hat-wizard
       @mouseover="showTooltip('电元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '电元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>电元素精通</b></font>
@@ -2876,7 +2876,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Air_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Air_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">气元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2884,7 +2884,7 @@ icon: hat-wizard
       @mouseover="showTooltip('气元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>气元素精通</b></font>
@@ -2896,7 +2896,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Fire_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Fire_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">火元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2904,7 +2904,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>火元素精通</b></font>
@@ -2923,7 +2923,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Water_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Water_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">水元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2931,7 +2931,7 @@ icon: hat-wizard
       @mouseover="showTooltip('水元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_战士'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>水元素精通</b></font>
@@ -2950,7 +2950,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Quadruple_Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Quadruple_Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">四重重击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -2958,7 +2958,7 @@ icon: hat-wizard
       @mouseover="showTooltip('四重重击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '四重重击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>四重重击</b></font>
@@ -3416,7 +3416,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">陨石</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
@@ -3479,7 +3479,7 @@ icon: hat-wizard
       @mouseover="showTooltip('法杖精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法杖精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>法杖精通 I</b></font>
@@ -3498,7 +3498,7 @@ icon: hat-wizard
       @mouseover="showTooltip('陨石减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '陨石减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>陨石减耗 I</b></font>
@@ -3539,14 +3539,14 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">流星</font></div><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
       @mouseover="showTooltip('流星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '流星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>流星</b></font>
@@ -3587,14 +3587,14 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">法杖精通 II</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
       @mouseover="showTooltip('法杖精通2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法杖精通2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>法杖精通 II</b></font>
@@ -3609,7 +3609,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="00BB00">传送</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
@@ -3631,14 +3631,14 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">智慧</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
       @mouseover="showTooltip('智慧')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '智慧'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>智慧</b></font>
@@ -3704,7 +3704,7 @@ icon: hat-wizard
       @mouseover="showTooltip('传送减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '传送减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>传送减耗 I</b></font>
@@ -3785,7 +3785,7 @@ icon: hat-wizard
       @mouseover="showTooltip('气元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>气元素精通</b></font>
@@ -3803,7 +3803,7 @@ icon: hat-wizard
       @mouseover="showTooltip('电元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '电元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>电元素精通</b></font>
@@ -3825,7 +3825,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>火元素精通</b></font>
@@ -3843,7 +3843,7 @@ icon: hat-wizard
       @mouseover="showTooltip('地元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>地元素精通</b></font>
@@ -3868,7 +3868,7 @@ icon: hat-wizard
       @mouseover="showTooltip('水元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_法师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>水元素精通</b></font>
@@ -3887,7 +3887,7 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="orange">传送斩击</font></div>
     <span id="Wind_Slash"></span><img
       src="/assets/img/class/medium.png"
@@ -3895,7 +3895,7 @@ icon: hat-wizard
       @mouseover="showTooltip('传送斩击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '传送斩击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>传送斩击</b></font>
@@ -3909,7 +3909,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="orange">雷暴</font></div>
     <span id="Thunderstorm"></span><img
       src="/assets/img/class/medium.png"
@@ -3917,7 +3917,7 @@ icon: hat-wizard
       @mouseover="showTooltip('雷暴')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雷暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>雷暴</b></font>
@@ -3938,7 +3938,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center; margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center; margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="orange">灼热纹章</font></div>
     <span id="Burning_Sigil"></span><img
       src="/assets/img/class/medium.png"
@@ -3946,7 +3946,7 @@ icon: hat-wizard
       @mouseover="showTooltip('灼热纹章')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灼热纹章'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>灼热纹章</b></font>
@@ -3971,7 +3971,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="orange">太阳雨</font></div>
     <span id="Sunshower"></span><img
       src="/assets/img/class/medium.png"
@@ -3979,7 +3979,7 @@ icon: hat-wizard
       @mouseover="showTooltip('太阳雨')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '太阳雨'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>太阳雨</b></font>
@@ -4000,7 +4000,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">天煞星</font></div>
     <span id="Stronger_Meteor"></span><img
       src="/assets/img/class/small.png"
@@ -4008,7 +4008,7 @@ icon: hat-wizard
       @mouseover="showTooltip('天煞星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '天煞星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>天煞星</b></font>
@@ -4040,7 +4040,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>疾风清扫</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -4048,7 +4048,7 @@ icon: hat-wizard
       @mouseover="showTooltip('疾风清扫')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '疾风清扫'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>疾风清扫</b></font>
@@ -4066,7 +4066,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>座天使</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -4074,7 +4074,7 @@ icon: hat-wizard
       @mouseover="showTooltip('座天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '座天使'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>座天使</b></font>
@@ -4095,7 +4095,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>奥术转换</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -4103,7 +4103,7 @@ icon: hat-wizard
       @mouseover="showTooltip('奥术转换')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术转换'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>奥术转换</b></font>
@@ -4148,7 +4148,7 @@ icon: hat-wizard
       @mouseover="showTooltip('治疗减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>治疗减耗 I</b></font>
@@ -4166,7 +4166,7 @@ icon: hat-wizard
       @mouseover="showTooltip('净化')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '净化'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>净化</b></font>
@@ -4182,7 +4182,7 @@ icon: hat-wizard
       @mouseover="showTooltip('冰蛇感知')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冰蛇感知'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>冰蛇感知</b></font>
@@ -4201,7 +4201,7 @@ icon: hat-wizard
       @mouseover="showTooltip('视线贯穿')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '视线贯穿'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>视线贯穿</b></font>
@@ -4217,7 +4217,7 @@ icon: hat-wizard
       @mouseover="showTooltip('绝息')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '绝息'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>绝息</b></font>
@@ -4235,7 +4235,7 @@ icon: hat-wizard
       @mouseover="showTooltip('广域治疗')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '广域治疗'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>广域治疗</b></font>
@@ -4257,7 +4257,7 @@ icon: hat-wizard
       @mouseover="showTooltip('法力储备扩充1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>法力储备扩充 I</b></font>
@@ -4293,7 +4293,7 @@ icon: hat-wizard
       @mouseover="showTooltip('冰蛇减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冰蛇减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>冰蛇减耗 I</b></font>
@@ -4309,7 +4309,7 @@ icon: hat-wizard
       @mouseover="showTooltip('强韧意志')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '强韧意志'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>强韧意志</b></font>
@@ -4330,7 +4330,7 @@ icon: hat-wizard
       @mouseover="showTooltip('传送减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '传送减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>传送减耗 II</b></font>
@@ -4348,7 +4348,7 @@ icon: hat-wizard
       @mouseover="showTooltip('驭火术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '驭火术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>驭火术</b></font>
@@ -4371,7 +4371,7 @@ icon: hat-wizard
       @mouseover="showTooltip('闪烁')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '闪烁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>闪烁</b></font>
@@ -4413,7 +4413,7 @@ icon: hat-wizard
       @mouseover="showTooltip('光球韧化1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光球韧化1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>光球韧化 I</b></font>
@@ -4429,7 +4429,7 @@ icon: hat-wizard
       @mouseover="showTooltip('蛇巢')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '蛇巢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>蛇巢</b></font>
@@ -4445,7 +4445,7 @@ icon: hat-wizard
       @mouseover="showTooltip('通灵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '通灵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>通灵</b></font>
@@ -4462,7 +4462,7 @@ icon: hat-wizard
       @mouseover="showTooltip('超音速')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '超音速'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>超音速</b></font>
@@ -4480,7 +4480,7 @@ icon: hat-wizard
       @mouseover="showTooltip('生命源泉')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '生命源泉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>生命源泉</b></font>
@@ -4498,7 +4498,7 @@ icon: hat-wizard
       @mouseover="showTooltip('治疗脉冲')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗脉冲'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>治疗脉冲</b></font>
@@ -4519,7 +4519,7 @@ icon: hat-wizard
       @mouseover="showTooltip('奥术回复')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术回复'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>奥术回复</b></font>
@@ -4552,7 +4552,7 @@ icon: hat-wizard
       @mouseover="showTooltip('光球强化')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光球强化'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>光球强化</b></font>
@@ -4575,7 +4575,7 @@ icon: hat-wizard
       @mouseover="showTooltip('风印扩散')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风印扩散'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>风印扩散</b></font>
@@ -4597,7 +4597,7 @@ icon: hat-wizard
       @mouseover="showTooltip('圣光领域')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '圣光领域'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>圣光领域</b></font>
@@ -4617,7 +4617,7 @@ icon: hat-wizard
       @mouseover="showTooltip('极速奥术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '极速奥术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>极速奥术</b></font>
@@ -4635,7 +4635,7 @@ icon: hat-wizard
       @mouseover="showTooltip('法力储备扩充2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>法力储备扩充 II</b></font>
@@ -4652,7 +4652,7 @@ icon: hat-wizard
       @mouseover="showTooltip('风印涌动1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风印涌动1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>风印涌动 I</b></font>
@@ -4679,7 +4679,7 @@ icon: hat-wizard
       @mouseover="showTooltip('意念陨石')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '意念陨石'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>意念陨石</b></font>
@@ -4705,7 +4705,7 @@ icon: hat-wizard
       @mouseover="showTooltip('冰蛇减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冰蛇减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>冰蛇减耗 II</b></font>
@@ -4721,7 +4721,7 @@ icon: hat-wizard
       @mouseover="showTooltip('闪现爆破')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '闪现爆破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>闪现爆破</b></font>
@@ -4737,7 +4737,7 @@ icon: hat-wizard
       @mouseover="showTooltip('陨石减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '陨石减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>陨石减耗 II</b></font>
@@ -4755,7 +4755,7 @@ icon: hat-wizard
       @mouseover="showTooltip('混沌爆破')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '混沌爆破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>混沌爆破</b></font>
@@ -4773,7 +4773,7 @@ icon: hat-wizard
       @mouseover="showTooltip('时空扩张')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '时空扩张'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>时空扩张</b></font>
@@ -4794,7 +4794,7 @@ icon: hat-wizard
       @mouseover="showTooltip('蛇疾如风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '蛇疾如风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>蛇疾如风</b></font>
@@ -4815,7 +4815,7 @@ icon: hat-wizard
       @mouseover="showTooltip('座天使增量')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '座天使增量'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>座天使增量</b></font>
@@ -4834,7 +4834,7 @@ icon: hat-wizard
       @mouseover="showTooltip('极寒冰蛇')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '极寒冰蛇'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>极寒冰蛇</b></font>
@@ -4859,7 +4859,7 @@ icon: hat-wizard
       @mouseover="showTooltip('更强的太阳花洒')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更强的太阳花洒'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>更强的太阳花洒</b></font>
@@ -4877,7 +4877,7 @@ icon: hat-wizard
       @mouseover="showTooltip('奥术之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>奥术之力</b></font>
@@ -4917,7 +4917,7 @@ icon: hat-wizard
       @mouseover="showTooltip('风印涌动2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '风印涌动2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>风印涌动 II</b></font>
@@ -4934,7 +4934,7 @@ icon: hat-wizard
       @mouseover="showTooltip('动摇的信仰')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '动摇的信仰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>动摇的信仰</b></font>
@@ -4950,7 +4950,7 @@ icon: hat-wizard
       @mouseover="showTooltip('光球韧化2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光球韧化2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>光球韧化 II</b></font>
@@ -4970,7 +4970,7 @@ icon: hat-wizard
       @mouseover="showTooltip('法力储备扩充3')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力储备扩充3'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>法力储备扩充 III</b></font>
@@ -4991,7 +4991,7 @@ icon: hat-wizard
       @mouseover="showTooltip('凋亡风印')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '凋亡风印'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>凋亡风印</b></font>
@@ -5009,7 +5009,7 @@ icon: hat-wizard
       @mouseover="showTooltip('天使预言')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '天使预言'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>天使预言</b></font>
@@ -5027,7 +5027,7 @@ icon: hat-wizard
       @mouseover="showTooltip('太阳光辉')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '太阳光辉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>太阳光辉</b></font>
@@ -5062,7 +5062,7 @@ icon: hat-wizard
       @mouseover="showTooltip('圣光结界')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '圣光结界'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>圣光结界</b></font>
@@ -5082,7 +5082,7 @@ icon: hat-wizard
       @mouseover="showTooltip('奥术过载')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奥术过载'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>奥术过载</b></font>
@@ -5104,7 +5104,7 @@ icon: hat-wizard
       @mouseover="showTooltip('时空凝滞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '时空凝滞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>时空凝滞</b></font>
@@ -5130,7 +5130,7 @@ icon: hat-wizard
       @mouseover="showTooltip('治疗减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治疗减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>治疗减耗 II</b></font>
@@ -5148,7 +5148,7 @@ icon: hat-wizard
       @mouseover="showTooltip('法力风暴')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '法力风暴'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>法力风暴</b></font>
@@ -5171,7 +5171,7 @@ icon: hat-wizard
       @mouseover="showTooltip('重拾记忆')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '重拾记忆'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>重拾记忆</b></font>
@@ -5272,7 +5272,7 @@ icon: hat-wizard
       @mouseover="showTooltip('回旋斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '回旋斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>回旋斩减耗 I</b></font>
@@ -5288,7 +5288,7 @@ icon: hat-wizard
       @mouseover="showTooltip('匕首精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '匕首精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>匕首精通 I</b></font>
@@ -5338,7 +5338,7 @@ icon: hat-wizard
       @mouseover="showTooltip('再斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '再斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>再斩</b></font>
@@ -5384,7 +5384,7 @@ icon: hat-wizard
       @mouseover="showTooltip('淬毒之刃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '淬毒之刃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>淬毒之刃</b></font>
@@ -5422,7 +5422,7 @@ icon: hat-wizard
       @mouseover="showTooltip('双重打击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '双重打击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>双重打击</b></font>
@@ -5487,7 +5487,7 @@ icon: hat-wizard
       @mouseover="showTooltip('突进减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '突进减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>突进减耗 I</b></font>
@@ -5564,7 +5564,7 @@ icon: hat-wizard
       @mouseover="showTooltip('地元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>地元素精通</b></font>
@@ -5582,7 +5582,7 @@ icon: hat-wizard
       @mouseover="showTooltip('雷元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雷元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>雷元素精通</b></font>
@@ -5604,7 +5604,7 @@ icon: hat-wizard
       @mouseover="showTooltip('水元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>水元素精通</b></font>
@@ -5622,7 +5622,7 @@ icon: hat-wizard
       @mouseover="showTooltip('气元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>气元素精通</b></font>
@@ -5647,7 +5647,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_刺客'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>火元素精通</b></font>
@@ -5674,7 +5674,7 @@ icon: hat-wizard
       @mouseover="showTooltip('背刺')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '背刺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>背刺</b></font>
@@ -5700,7 +5700,7 @@ icon: hat-wizard
       @mouseover="showTooltip('终斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '终斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>终斩</b></font>
@@ -5721,7 +5721,7 @@ icon: hat-wizard
       @mouseover="showTooltip('影逝')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '影逝'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>影逝</b></font>
@@ -5750,7 +5750,7 @@ icon: hat-wizard
       @mouseover="showTooltip('粘性炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '粘性炸弹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>粘性炸弹</b></font>
@@ -5768,7 +5768,7 @@ icon: hat-wizard
       @mouseover="showTooltip('踏云')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '踏云'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>踏云</b></font>
@@ -5812,7 +5812,7 @@ icon: hat-wizard
       @mouseover="showTooltip('奇袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奇袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>奇袭</b></font>
@@ -5835,7 +5835,7 @@ icon: hat-wizard
       @mouseover="showTooltip('镜像幻术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '镜像幻术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>镜像幻术</b></font>
@@ -5859,7 +5859,7 @@ icon: hat-wizard
       @mouseover="showTooltip('斩空')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '斩空'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>斩空</b></font>
@@ -5880,7 +5880,7 @@ icon: hat-wizard
       @mouseover="showTooltip('冷面杀手')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '冷面杀手'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>冷面杀手</b></font>
@@ -5899,7 +5899,7 @@ icon: hat-wizard
       @mouseover="showTooltip('临别惊喜')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '临别惊喜'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>临别惊喜</b></font>
@@ -5926,7 +5926,7 @@ icon: hat-wizard
       @mouseover="showTooltip('烟雾幕墙')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾幕墙'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>烟雾幕墙</b></font>
@@ -5949,7 +5949,7 @@ icon: hat-wizard
       @mouseover="showTooltip('智取巧夺')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '智取巧夺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>智取巧夺</b></font>
@@ -5969,7 +5969,7 @@ icon: hat-wizard
       @mouseover="showTooltip('如风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '如风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>如风</b></font>
@@ -5986,7 +5986,7 @@ icon: hat-wizard
       @mouseover="showTooltip('烟雾弥漫')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾弥漫'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>烟雾弥漫</b></font>
@@ -6002,7 +6002,7 @@ icon: hat-wizard
       @mouseover="showTooltip('影步')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '影步'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>影步</b></font>
@@ -6022,7 +6022,7 @@ icon: hat-wizard
       @mouseover="showTooltip('多重斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '多重斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>多重斩减耗 I</b></font>
@@ -6040,7 +6040,7 @@ icon: hat-wizard
       @mouseover="showTooltip('匕首精通2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '匕首精通2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>匕首精通 II</b></font>
@@ -6066,7 +6066,7 @@ icon: hat-wizard
       @mouseover="showTooltip('虚张声势')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '虚张声势'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>虚张声势</b></font>
@@ -6090,7 +6090,7 @@ icon: hat-wizard
       @mouseover="showTooltip('诡影缠身')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '诡影缠身'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>诡影缠身</b></font>
@@ -6130,7 +6130,7 @@ icon: hat-wizard
       @mouseover="showTooltip('烟雾弹减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾弹减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>烟雾弹减耗 I</b></font>
@@ -6148,7 +6148,7 @@ icon: hat-wizard
       @mouseover="showTooltip('灼热的刀')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灼热的刀'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>灼热的刀</b></font>
@@ -6168,7 +6168,7 @@ icon: hat-wizard
       @mouseover="showTooltip('鹤步')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '鹤步'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>鹤步</b></font>
@@ -6192,7 +6192,7 @@ icon: hat-wizard
       @mouseover="showTooltip('黑洞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '黑洞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>黑洞</b></font>
@@ -6213,7 +6213,7 @@ icon: hat-wizard
       @mouseover="showTooltip('假意不敌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '假意不敌'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>假意不敌</b></font>
@@ -6233,7 +6233,7 @@ icon: hat-wizard
       @mouseover="showTooltip('雀跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雀跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>雀跃</b></font>
@@ -6252,7 +6252,7 @@ icon: hat-wizard
       @mouseover="showTooltip('奔流形态')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '奔流形态'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>奔流形态</b></font>
@@ -6274,7 +6274,7 @@ icon: hat-wizard
       @mouseover="showTooltip('杀戮漩涡')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '杀戮漩涡'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>杀戮漩涡</b></font>
@@ -6297,7 +6297,7 @@ icon: hat-wizard
       @mouseover="showTooltip('怪诞魔雾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '怪诞魔雾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>怪诞魔雾</b></font>
@@ -6319,7 +6319,7 @@ icon: hat-wizard
       @mouseover="showTooltip('无影斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '无影斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>无影斩</b></font>
@@ -6342,7 +6342,7 @@ icon: hat-wizard
       @mouseover="showTooltip('刺杀印记')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '刺杀印记'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>刺杀印记</b></font>
@@ -6369,7 +6369,7 @@ icon: hat-wizard
       @mouseover="showTooltip('镜像回响')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '镜像回响'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>镜像回响</b></font>
@@ -6388,7 +6388,7 @@ icon: hat-wizard
       @mouseover="showTooltip('旋星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '旋星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>旋星</b></font>
@@ -6408,7 +6408,7 @@ icon: hat-wizard
       @mouseover="showTooltip('长斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '长斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>长斩</b></font>
@@ -6440,7 +6440,7 @@ icon: hat-wizard
       @mouseover="showTooltip('刃舞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '刃舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>刃舞</b></font>
@@ -6478,7 +6478,7 @@ icon: hat-wizard
       @mouseover="showTooltip('潜心奇袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '潜心奇袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>潜心奇袭</b></font>
@@ -6494,7 +6494,7 @@ icon: hat-wizard
       @mouseover="showTooltip('厄运磁铁')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '厄运磁铁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>厄运磁铁</b></font>
@@ -6512,7 +6512,7 @@ icon: hat-wizard
       @mouseover="showTooltip('突进减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '突进减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>突进减耗 I</b></font>
@@ -6528,7 +6528,7 @@ icon: hat-wizard
       @mouseover="showTooltip('锐羽')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '锐羽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>锐羽</b></font>
@@ -6548,7 +6548,7 @@ icon: hat-wizard
       @mouseover="showTooltip('回旋斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '回旋斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>回旋斩减耗 I</b></font>
@@ -6582,7 +6582,7 @@ icon: hat-wizard
       @mouseover="showTooltip('暗幕之刃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '暗幕之刃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>暗幕之刃</b></font>
@@ -6608,7 +6608,7 @@ icon: hat-wizard
       @mouseover="showTooltip('多重斩减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '多重斩减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>多重斩减耗 II</b></font>
@@ -6624,7 +6624,7 @@ icon: hat-wizard
       @mouseover="showTooltip('移花接木')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '移花接木'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>移花接木</b></font>
@@ -6643,7 +6643,7 @@ icon: hat-wizard
       @mouseover="showTooltip('窒息毒雾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '窒息毒雾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>窒息毒雾</b></font>
@@ -6661,7 +6661,7 @@ icon: hat-wizard
       @mouseover="showTooltip('虎跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '虎跃'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>虎跃</b></font>
@@ -6683,7 +6683,7 @@ icon: hat-wizard
       @mouseover="showTooltip('夺命斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '夺命斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>夺命斩</b></font>
@@ -6704,7 +6704,7 @@ icon: hat-wizard
       @mouseover="showTooltip('影遁')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '影遁'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>影遁</b></font>
@@ -6722,7 +6722,7 @@ icon: hat-wizard
       @mouseover="showTooltip('瞬华')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '瞬华'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>瞬华</b></font>
@@ -6741,7 +6741,7 @@ icon: hat-wizard
       @mouseover="showTooltip('斩穹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '斩穹'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>斩穹</b></font>
@@ -6760,7 +6760,7 @@ icon: hat-wizard
       @mouseover="showTooltip('无底漩涡')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '无底漩涡'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>无底漩涡</b></font>
@@ -6814,7 +6814,7 @@ icon: hat-wizard
       @mouseover="showTooltip('灵魂收割')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灵魂收割'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>灵魂收割</b></font>
@@ -6834,7 +6834,7 @@ icon: hat-wizard
       @mouseover="showTooltip('烟雾弹减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '烟雾弹减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>烟雾弹减耗 II</b></font>
@@ -6852,7 +6852,7 @@ icon: hat-wizard
       @mouseover="showTooltip('狂锋')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '狂锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>狂锋</b></font>
@@ -6879,7 +6879,7 @@ icon: hat-wizard
       @mouseover="showTooltip('刺杀狂潮')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '刺杀狂潮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>刺杀狂潮</b></font>
@@ -6899,7 +6899,7 @@ icon: hat-wizard
       @mouseover="showTooltip('助战分身')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '助战分身'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>助战分身</b></font>
@@ -6922,7 +6922,7 @@ icon: hat-wizard
       @mouseover="showTooltip('弹星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '弹星'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>弹星</b></font>
@@ -6941,7 +6941,7 @@ icon: hat-wizard
       @mouseover="showTooltip('杀意起兮')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '杀意起兮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>杀意起兮</b></font>
@@ -6966,7 +6966,7 @@ icon: hat-wizard
       @mouseover="showTooltip('禁忌秘术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '禁忌秘术'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>禁忌秘术</b></font>
@@ -6989,7 +6989,7 @@ icon: hat-wizard
       @mouseover="showTooltip('芳泽')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '芳泽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>芳泽</b></font>
@@ -7025,7 +7025,7 @@ icon: hat-wizard
       @mouseover="showTooltip('声东击西')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '声东击西'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>声东击西</b></font>
@@ -7048,7 +7048,7 @@ icon: hat-wizard
       @mouseover="showTooltip('鹤舞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '鹤舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>鹤舞</b></font>
@@ -7063,7 +7063,7 @@ icon: hat-wizard
       @mouseover="showTooltip('灵魂吞噬')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灵魂吞噬'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>灵魂吞噬</b></font>
@@ -7079,7 +7079,7 @@ icon: hat-wizard
       @mouseover="showTooltip('险恶杀意')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '险恶杀意'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>险恶杀意</b></font>
@@ -7095,7 +7095,7 @@ icon: hat-wizard
       @mouseover="showTooltip('一人成军')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '一人成军'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>一人成军</b></font>
@@ -7130,7 +7130,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Totem"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Totem"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">图腾</font></div>
 <img
       src="/assets/img/class/archer_green.png"
@@ -7188,7 +7188,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Relik_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Relik_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾精通 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7196,7 +7196,7 @@ icon: hat-wizard
       @mouseover="showTooltip('图腾精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '图腾精通1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>图腾精通 I</b></font>
@@ -7206,7 +7206,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Totem_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Totem_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7214,7 +7214,7 @@ icon: hat-wizard
       @mouseover="showTooltip('图腾减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '图腾减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>图腾减耗 I</b></font>
@@ -7254,7 +7254,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Totemic_Smash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Totemic_Smash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">图腾冲击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7262,7 +7262,7 @@ icon: hat-wizard
       @mouseover="showTooltip('图腾冲击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '图腾冲击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>图腾冲击</b></font>
@@ -7302,7 +7302,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Distant_Grasp"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Distant_Grasp"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">收束之握</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7310,7 +7310,7 @@ icon: hat-wizard
       @mouseover="showTooltip('收束之握')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '收束之握'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>收束之握</b></font>
@@ -7322,7 +7322,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Haul"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Haul"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">牵引</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
@@ -7344,7 +7344,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Hand_of_the_Shaman"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Hand_of_the_Shaman"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">祭司之握</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7352,7 +7352,7 @@ icon: hat-wizard
       @mouseover="showTooltip('祭司之握')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '祭司之握'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>祭司之握</b></font>
@@ -7390,7 +7390,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Uproot"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Uproot"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">铲除</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
@@ -7415,7 +7415,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Haul_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Haul_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">牵引减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7423,7 +7423,7 @@ icon: hat-wizard
       @mouseover="showTooltip('牵引减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '牵引减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>牵引减耗 I</b></font>
@@ -7433,7 +7433,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Aura"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<td><span id="Aura"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">光环</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
@@ -7497,7 +7497,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Earth_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Earth_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">地元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7505,7 +7505,7 @@ icon: hat-wizard
       @mouseover="showTooltip('地元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '地元素精通_萨满'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>地元素精通</b></font>
@@ -7517,7 +7517,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Air_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Air_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">气元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7525,7 +7525,7 @@ icon: hat-wizard
       @mouseover="showTooltip('气元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '气元素精通_萨满'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>气元素精通</b></font>
@@ -7541,7 +7541,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Thunder_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Thunder_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">雷元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7549,7 +7549,7 @@ icon: hat-wizard
       @mouseover="showTooltip('雷元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '雷元素精通_萨满'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>雷元素精通</b></font>
@@ -7561,7 +7561,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Fire_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Fire_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">火元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7569,7 +7569,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火元素精通_萨满'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>火元素精通</b></font>
@@ -7582,7 +7582,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Nature's_Jolt"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Nature's_Jolt"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">惊蛰</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7590,7 +7590,7 @@ icon: hat-wizard
       @mouseover="showTooltip('惊蛰')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '惊蛰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>惊蛰</b></font>
@@ -7602,7 +7602,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Water_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Water_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">水元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7610,7 +7610,7 @@ icon: hat-wizard
       @mouseover="showTooltip('水元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水元素精通_萨满'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>水元素精通</b></font>
@@ -7641,7 +7641,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shocking_Aura"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Shocking_Aura"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">震击光环</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7649,7 +7649,7 @@ icon: hat-wizard
       @mouseover="showTooltip('震击光环')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '震击光环'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>震击光环</b></font>
@@ -7661,7 +7661,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Flaming_Tongue"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Flaming_Tongue"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">火舌</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7669,7 +7669,7 @@ icon: hat-wizard
       @mouseover="showTooltip('火舌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '火舌'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>火舌</b></font>
@@ -7682,7 +7682,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Overseer"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Overseer"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">先知洞察</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7690,7 +7690,7 @@ icon: hat-wizard
       @mouseover="showTooltip('先知洞察')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '先知洞察'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>先知洞察</b></font>
@@ -7704,7 +7704,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Rain_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Rain_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">祈雨</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7712,7 +7712,7 @@ icon: hat-wizard
       @mouseover="showTooltip('祈雨')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '祈雨'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>祈雨</b></font>
@@ -7752,7 +7752,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Puppet_Master"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Puppet_Master"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>偶术大师</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -7760,7 +7760,7 @@ icon: hat-wizard
       @mouseover="showTooltip('偶术大师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '偶术大师'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>偶术大师</b></font>
@@ -7778,7 +7778,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Mask_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Mask_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>荒诞假面</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -7786,7 +7786,7 @@ icon: hat-wizard
       @mouseover="showTooltip('荒诞假面')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '荒诞假面'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>荒诞假面</b></font>
@@ -7809,7 +7809,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Sacrificial_Shrine"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Sacrificial_Shrine"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>鲜血圣坛</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -7817,7 +7817,7 @@ icon: hat-wizard
       @mouseover="showTooltip('鲜血圣坛')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '鲜血圣坛'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>鲜血圣坛</b></font>
@@ -7856,7 +7856,7 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Stagnation"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Stagnation"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">踵击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7864,7 +7864,7 @@ icon: hat-wizard
       @mouseover="showTooltip('踵击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '踵击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>踵击</b></font>
@@ -7874,7 +7874,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Aura_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Aura_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">光环减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7882,7 +7882,7 @@ icon: hat-wizard
       @mouseover="showTooltip('光环减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光环减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>光环减耗 I</b></font>
@@ -7892,7 +7892,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Uproot_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Uproot_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">铲除减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7900,7 +7900,7 @@ icon: hat-wizard
       @mouseover="showTooltip('铲除减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '铲除减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>铲除减耗 I</b></font>
@@ -7912,7 +7912,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Rebound"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Rebound"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>回响之环</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -7920,7 +7920,7 @@ icon: hat-wizard
       @mouseover="showTooltip('回响之环')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '回响之环'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>回响之环</b></font>
@@ -7935,7 +7935,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Puppets_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Puppets_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">魔偶军团 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7943,7 +7943,7 @@ icon: hat-wizard
       @mouseover="showTooltip('魔偶军团1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '魔偶军团1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>魔偶军团 I</b></font>
@@ -7955,7 +7955,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Haunting_Memory"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Haunting_Memory"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>灵界沟通</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -7963,7 +7963,7 @@ icon: hat-wizard
       @mouseover="showTooltip('灵界沟通')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '灵界沟通'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>灵界沟通</b></font>
@@ -7976,7 +7976,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Better_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Better_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">崇高图腾</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7984,7 +7984,7 @@ icon: hat-wizard
       @mouseover="showTooltip('崇高图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '崇高图腾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>崇高图腾</b></font>
@@ -7996,7 +7996,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Blood_Connection"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Blood_Connection"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">血肉链接</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8004,7 +8004,7 @@ icon: hat-wizard
       @mouseover="showTooltip('血肉链接')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '血肉链接'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>血肉链接</b></font>
@@ -8036,7 +8036,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Exploding_Puppets"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Exploding_Puppets"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">自爆魔偶</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8044,7 +8044,7 @@ icon: hat-wizard
       @mouseover="showTooltip('自爆魔偶')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '自爆魔偶'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>自爆魔偶</b></font>
@@ -8058,7 +8058,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Hymn_of_Hate"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Hymn_of_Hate"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>憎恶之诗</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8066,7 +8066,7 @@ icon: hat-wizard
       @mouseover="showTooltip('憎恶之诗')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '憎恶之诗'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>憎恶之诗</b></font>
@@ -8083,7 +8083,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="More_Blood_Pool_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Blood_Pool_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">无底血池 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8091,7 +8091,7 @@ icon: hat-wizard
       @mouseover="showTooltip('无底血池1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '无底血池1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>无底血池 I</b></font>
@@ -8104,7 +8104,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
-<td><span id="Bullwhip"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Bullwhip"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>鞭笞</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8112,7 +8112,7 @@ icon: hat-wizard
       @mouseover="showTooltip('鞭笞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '鞭笞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>鞭笞</b></font>
@@ -8124,7 +8124,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Puppets_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Puppets_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">魔偶军团II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8132,7 +8132,7 @@ icon: hat-wizard
       @mouseover="showTooltip('魔偶军团2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '魔偶军团2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>魔偶军团II</b></font>
@@ -8146,7 +8146,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Mask_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Mask_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>狂热假面</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8154,7 +8154,7 @@ icon: hat-wizard
       @mouseover="showTooltip('狂热假面')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '狂热假面'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>狂热假面</b></font>
@@ -8177,7 +8177,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Vengeful_Spirit"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Vengeful_Spirit"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">复仇之灵</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8185,7 +8185,7 @@ icon: hat-wizard
       @mouseover="showTooltip('复仇之灵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '复仇之灵'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>复仇之灵</b></font>
@@ -8208,7 +8208,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Masquerade"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Masquerade"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">假面狂欢</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8216,7 +8216,7 @@ icon: hat-wizard
       @mouseover="showTooltip('假面狂欢')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '假面狂欢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>假面狂欢</b></font>
@@ -8235,7 +8235,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Double_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Double_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">图腾之林</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8243,7 +8243,7 @@ icon: hat-wizard
       @mouseover="showTooltip('图腾之林')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '图腾之林'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>图腾之林</b></font>
@@ -8259,7 +8259,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Totem_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Totem_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8267,7 +8267,7 @@ icon: hat-wizard
       @mouseover="showTooltip('图腾减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '图腾减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>图腾减耗II</b></font>
@@ -8279,7 +8279,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Storm_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Storm_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">唤风</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8287,7 +8287,7 @@ icon: hat-wizard
       @mouseover="showTooltip('唤风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '唤风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>唤风</b></font>
@@ -8301,7 +8301,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Blood_Moon"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Blood_Moon"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">血月将至</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8309,12 +8309,12 @@ icon: hat-wizard
       @mouseover="showTooltip('血月将至')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '血月将至'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>血月将至</b></font>
       <br>
-      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>1% </font>的灵魂点恢复，就获得<font color=white> 5/3s </font>的能量窃取(至多+1000/3s)</font>
+      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>1% </font>的灵魂点恢复，就获得<font color=white> 5/3s </font>的生命窃取(至多+1000/3s)</font>
       <br>
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB>灵魂点恢复最多只生效至+100%，且ls并不是合适的续航手段，没必要为了该技能点硬叠+200%spr</font>
@@ -8327,7 +8327,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Regeneration"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Regeneration"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">治愈图腾</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8335,7 +8335,7 @@ icon: hat-wizard
       @mouseover="showTooltip('治愈图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '治愈图腾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>治愈图腾</b></font>
@@ -8347,7 +8347,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Haul_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Haul_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">牵引减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8355,7 +8355,7 @@ icon: hat-wizard
       @mouseover="showTooltip('牵引减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '牵引减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>牵引减耗II</b></font>
@@ -8389,7 +8389,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Aura_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Aura_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">光环减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8397,7 +8397,7 @@ icon: hat-wizard
       @mouseover="showTooltip('光环减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '光环减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>光环减耗II</b></font>
@@ -8409,7 +8409,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Stronger_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Stronger_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">致伤图腾</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8417,7 +8417,7 @@ icon: hat-wizard
       @mouseover="showTooltip('致伤图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '致伤图腾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>致伤图腾</b></font>
@@ -8429,7 +8429,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Twisted_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Twisted_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>索命夺魂</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8437,7 +8437,7 @@ icon: hat-wizard
       @mouseover="showTooltip('索命夺魂')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '索命夺魂'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>索命夺魂</b></font>
@@ -8458,7 +8458,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Totemic_Shatter"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Totemic_Shatter"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>狂怒图腾</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8466,7 +8466,7 @@ icon: hat-wizard
       @mouseover="showTooltip('狂怒图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '狂怒图腾'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>狂怒图腾</b></font>
@@ -8484,7 +8484,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Depersonalization"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Depersonalization"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">自我陶醉</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8492,7 +8492,7 @@ icon: hat-wizard
       @mouseover="showTooltip('自我陶醉')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '自我陶醉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>自我陶醉</b></font>
@@ -8511,7 +8511,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Crimson_Effigy"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Crimson_Effigy"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>绯红魔像</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8519,7 +8519,7 @@ icon: hat-wizard
       @mouseover="showTooltip('绯红魔像')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '绯红魔像'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>绯红魔像</b></font>
@@ -8533,7 +8533,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Mask_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Mask_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>畏惧假面</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8541,7 +8541,7 @@ icon: hat-wizard
       @mouseover="showTooltip('畏惧假面')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '畏惧假面'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>畏惧假面</b></font>
@@ -8561,7 +8561,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Fluid_Healing_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Fluid_Healing_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">水疗术</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8569,7 +8569,7 @@ icon: hat-wizard
       @mouseover="showTooltip('水疗术_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '水疗术_萨满'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>水疗术</b></font>
@@ -8583,7 +8583,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="More_Blood_Pool_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Blood_Pool_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">无底血池II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8591,7 +8591,7 @@ icon: hat-wizard
       @mouseover="showTooltip('无底血池2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '无底血池2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>无底血池II</b></font>
@@ -8602,7 +8602,7 @@ icon: hat-wizard
     </div>
 </td></tr>
 <tr>
-<td><span id="Maddening_Roots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Maddening_Roots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">怨念缠身</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8610,7 +8610,7 @@ icon: hat-wizard
       @mouseover="showTooltip('怨念缠身')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '怨念缠身'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>怨念缠身</b></font>
@@ -8628,7 +8628,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Chant_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Chant_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">畏惧之章</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8636,7 +8636,7 @@ icon: hat-wizard
       @mouseover="showTooltip('畏惧之章')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '畏惧之章'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>畏惧之章</b></font>
@@ -8648,7 +8648,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Blood_Rite"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Blood_Rite"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>血之祭礼</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8656,13 +8656,13 @@ icon: hat-wizard
       @mouseover="showTooltip('血之祭礼')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '血之祭礼'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>血之祭礼</b></font>
       <br>
       <br><font color = BBBBBB>当你或者队友在<u>图腾</u>范围内受到伤害时，将伤害量的<font color=WHITE>35%</font>按比例存入你的<font color=aqua>血池</font>。
-      <br>（单次伤害至多为血池存存入10点）
+      <br>（单次伤害至多为<font color=aqua>血池</font>存入10点）
       <br>
       <br><font color="red"><b>血教徒 分支</b></font></font>
     </div>
@@ -8691,7 +8691,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="More_Effigies"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Effigies"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">双生魔像</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8699,7 +8699,7 @@ icon: hat-wizard
       @mouseover="showTooltip('双生魔像')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '双生魔像'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>双生魔像</b></font>
@@ -8715,7 +8715,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Chant_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Chant_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">狂热之颂</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8723,7 +8723,7 @@ icon: hat-wizard
       @mouseover="showTooltip('狂热之颂')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '狂热之颂'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>狂热之颂</b></font>
@@ -8735,7 +8735,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Stronger_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Stronger_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">血手夺魄</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8743,7 +8743,7 @@ icon: hat-wizard
       @mouseover="showTooltip('血手夺魄')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '血手夺魄'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>血手夺魄</b></font>
@@ -8757,7 +8757,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
-<td><span id="Triple_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Triple_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">图腾之森</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8765,7 +8765,7 @@ icon: hat-wizard
       @mouseover="showTooltip('图腾之森')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '图腾之森'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>图腾之森</b></font>
@@ -8781,7 +8781,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Invigorating_Wave"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Invigorating_Wave"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>活力之潮</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8789,7 +8789,7 @@ icon: hat-wizard
       @mouseover="showTooltip('活力之潮')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '活力之潮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>活力之潮</b></font>
@@ -8801,7 +8801,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Seeking_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Seeking_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾随行</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8809,7 +8809,7 @@ icon: hat-wizard
       @mouseover="showTooltip('图腾随行')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '图腾随行'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>图腾随行</b></font>
@@ -8838,7 +8838,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Frog_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Frog_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>蛙之舞</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8846,7 +8846,7 @@ icon: hat-wizard
       @mouseover="showTooltip('蛙之舞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '蛙之舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>蛙之舞</b></font>
@@ -8860,7 +8860,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="More_Blood_Pool_III"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Blood_Pool_III"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">无底血池III</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8868,7 +8868,7 @@ icon: hat-wizard
       @mouseover="showTooltip('无底血池3')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '无底血池3'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>无底血池III</b></font>
@@ -8881,7 +8881,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shepherd"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Shepherd"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>倏忽傀影</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8889,7 +8889,7 @@ icon: hat-wizard
       @mouseover="showTooltip('倏忽傀影')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '倏忽傀影'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>倏忽傀影</b></font>
@@ -8903,7 +8903,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
-<td><span id="Chant_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Chant_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color="ORANGE">荒诞之歌</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8911,7 +8911,7 @@ icon: hat-wizard
       @mouseover="showTooltip('荒诞之歌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '荒诞之歌'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>荒诞之歌</b></font>
@@ -8925,7 +8925,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Blood_Sorrow"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Blood_Sorrow"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF5555>猩红挽歌</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8933,7 +8933,7 @@ icon: hat-wizard
       @mouseover="showTooltip('猩红挽歌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猩红挽歌'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>猩红挽歌</b></font>
@@ -8957,7 +8957,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Uproot_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Uproot_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">牵引减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8965,7 +8965,7 @@ icon: hat-wizard
       @mouseover="showTooltip('牵引减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '牵引减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>牵引减耗II</b></font>
@@ -8975,7 +8975,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Awakened"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:0px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<td><span id="Awakened"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>觉醒形态</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8983,7 +8983,7 @@ icon: hat-wizard
       @mouseover="showTooltip('觉醒形态')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '觉醒形态'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>觉醒形态</b></font>
