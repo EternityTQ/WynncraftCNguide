@@ -7118,7 +7118,7 @@ icon: hat-wizard
 </td></tr>
 </tbody></table>
 
-@tab 萨满(未完成)
+@tab 萨满
 
 <table class="ability-tree-table">
 <tbody><tr>
