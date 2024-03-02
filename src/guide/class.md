@@ -8405,9 +8405,9 @@ icon: hat-wizard
       <br><font color = BBBBBB><u>光环</u>的技能消耗<font color = FFFFFF> -5</font></font>
     </div>
 </td>
-<td><img src="/assets/img/class/丁字.png">
-</td>
 <td><img src="/assets/img/class/横线.png">
+</td>
+<td><img src="/assets/img/class/丁字.png">
 </td>
 <td><span id="Stronger_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">致伤图腾</font></div>
@@ -8458,6 +8458,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
+<td>
+</td>
 <td><span id="Totemic_Shatter"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
     <font color=FF55FF>狂怒图腾</font></div>
 <img
@@ -8479,8 +8481,6 @@ icon: hat-wizard
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB>并不触发<u>鲜血圣坛</u>的吸血增加血池效果</font>
     </div>
-</td>
-<td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
