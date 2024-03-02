@@ -59,10 +59,12 @@ icon: exclamation
 
 7.去Nesaak的Ice Barrow门口触发剧情，随后和<font color=00AA00>**Bak'al**</font>对话，然后沿着路走进入以前的Nesaak,随后杀掉Theorick
 
-8.去Troms挑战Corrupt of Worlds的通道触发剧情，进去后走到尽头后，先挖泥土解除封印，然后回到大洞穴，将虫子引到绿光标识处杀掉，会出来一座塔，爬上去离开即可
+8.去Troms挑战Corrupt of Worlds的通道`[-713 61 -965]`触发剧情，进去后走到尽头后，先挖泥土解除封印，然后回到大洞穴，将虫子引到绿光标识处杀掉，会出来一座塔，爬上去离开即可
 
 :::tip
 这一步不需要戴头盔进入！
+
+也不需要做前置，直接就能进去！
 :::
 
 注意离开洞穴时，需要排列Runes，排列成Nii、Uth、Tol。低版本可能会看不到！
