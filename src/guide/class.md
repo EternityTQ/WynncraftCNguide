@@ -1575,18 +1575,20 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Twain's_Arc"></span> <img
+<td><span id="Twain's_Arc"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>吐温虹弧</font></div>
+    <img
       src="/assets/img/class/large.png"
       alt="Your Image"
-      @mouseover="showTooltip('Twain的弧光')"
+      @mouseover="showTooltip('吐温虹弧')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 40px; height: 40px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === 'Twain的弧光'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color=FF55FF><b>Twain的弧光</b></font>
+    <div v-if="isTooltipVisible && currentTooltip === '吐温虹弧'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>吐温虹弧</b></font>
       <br>
-      <br><font color = BBBBBB>当你有<font color=aqua>2+ 层专注值</font>时，按住SHIFT将召唤Twain的弧光，充能来射出毁灭性的超远距离光波，
+      <br><font color = BBBBBB>当你有<font color=aqua>2+ 层专注值</font>时，按住潜行键将召唤吐温虹弧，右键充能来射出毁灭性的超远距离光波，
       <br><font color=555555>(射出的光波视作<u>普通攻击</u>)</font>
       <br>
       <br>范围：<font color = white>64格</font></font>
@@ -2500,7 +2502,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Bash_I"></span><div style="text-align: center;margin-left:-11px;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Bash_I"></span><div style="text-align: center;margin-left:-11px;margin-top:-10px;margin-bottom: -3px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">重击减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2518,7 +2520,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Spear_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Spear_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">长矛精通 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2622,7 +2624,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Vehement"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Vehement"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">热烈之力</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2641,7 +2643,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Charge"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Charge"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">冲锋</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2663,7 +2665,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Tougher_Skin"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Tougher_Skin"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">坚韧之力</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2710,7 +2712,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">上挑斩</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2734,7 +2736,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Charge_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Charge_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">冲锋减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2752,7 +2754,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="War_Scream"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="War_Scream"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
     <font color="#00BB00">战吼</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2970,7 +2972,23 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Fireworks"></span><img src="/assets/img/class/medium.png">
+<td><span id="Fireworks"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">烟火爆破</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('烟火爆破')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '烟火爆破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>烟火爆破</b></font>
+      <br>
+      <br><font color = BBBBBB>被<u>上挑斩</u>击中的敌人将会在半空中爆炸，受到一次额外伤害</font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -2978,11 +2996,43 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Flyby_Jab"></span><img src="/assets/img/class/small.png">
+<td><span id="Flyby_Jab"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">冲锋刺击</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('冲锋刺击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '冲锋刺击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>冲锋刺击</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冲锋</u>期间将会对路径上的敌人造成伤害</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Flaming_Uppercut"></span><img src="/assets/img/class/medium.png">
+<td><span id="Flaming_Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">烈焰挑斩</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('烈焰挑斩')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '烈焰挑斩'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>烈焰挑斩</b></font>
+      <br>
+      <br><font color = BBBBBB><u>上挑斩</u>将会点燃命中的敌人，使其每<font color=white> 0.6 </font>秒受到一次伤害
+      <br>
+      <br>燃烧时间：</font>3s
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -2993,13 +3043,51 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Half-Moon_Swipe"></span><img src="/assets/img/class/medium.png">
+<td><span id="Half-Moon_Swipe"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:-5px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">半月横扫</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('半月横扫')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '半月横扫'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>半月横扫</b></font>
+      <br>
+      <br><font color = BBBBBB><u>半月斩</u>将以更长、更高的角度进行横扫，但是整体伤害减少
+      <br>
+      <br>法力消耗：<font color=white>-5</font>
+      <br>攻击范围：</font>+1.5格
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>半月横扫</u>的竖直角度从80°提升至100°</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Iron_Lungs"></span><img src="/assets/img/class/small.png">
+<td><span id="Iron_Lungs"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">钢铁之肺</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('钢铁之肺')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '钢铁之肺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>钢铁之肺</b></font>
+      <br>
+      <br><font color = BBBBBB><u>战吼</u>和<u>声浪</u>将会造成更多伤害</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
@@ -3027,24 +3115,99 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Generalist"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF5555>多面手</font></div>
+<img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('多面手')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 50px; height: 50px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '多面手'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>多面手</b></font>
+      <br>
+      <br><font color = BBBBBB>当连续使用<font color=WHITE> 3 </font>个不同技能时，你的下一个技能仅需<font color=white> 1 </font>点蓝耗
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>多面手</u>减耗的技能依旧计入使用列表中，意味着下一个1蓝耗的技能只需要额外使用2次不同技能</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Air_Shout"></span><img src="/assets/img/class/medium.png">
+<td><span id="Air_Shout"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">声浪</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('声浪')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '声浪'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>声浪</b></font>
+      <br>
+      <br><font color = BBBBBB><u>战吼</u>将会射出一道可穿透墙体的声波，其会对穿过的怪物每<font color=white> 0.1 </font>秒造成1次伤害
+      <br>
+      <br>攻击范围：</font>32格
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Mantle_of_the_Bovemists"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF5555>神圣披风</font></div>
+<img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('神圣披风')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 50px; height: 50px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '神圣披风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>神圣披风</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>战吼</u>后，在自身周围生成一块神圣的盾牌，其可以为你接下来受到的<font color=white> 3 </font>次攻击抵挡<font color=white> 70% </font>的伤害
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>在<u>神圣披风</u>抵挡攻击后，接下来的0.5秒内减伤效果依然存在。</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Bak'al's_Grasp"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF5555>腐化之力</font></div>
+<img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('腐化之力')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 50px; height: 50px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '腐化之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>腐化之力</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>战吼</u>将会使你进入<font color=aqua>腐化</font>状态。(15秒冷却)
+      <br><font color=555555>(潜行时再使用战吼，或切换武器来退出腐化状态)</font>
+      <br>
+      <br><font color=aqua>腐化</font>期间，你无法受到任何<font color=white>治疗</font>效果。你每失去<font color=white> 2% </font>的生命值，就会获得 <font color=white>4 </font>点的伤害提升(至多+120)
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3061,21 +3224,83 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Spear_Proficiency_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Spear_Proficiency_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">长矛精通 II</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('长矛精通2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '长矛精通2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>长矛精通 II</b></font>
+      <br>
+      <br><font color = BBBBBB>增加<u>普通攻击</u>的范围及伤害
+      <br>
+      <br>攻击范围：</font>+1格
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Uppercut_I"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Uppercut_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-12px;margin-right:-12px;font-size: 8px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">上挑斩减耗 I</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('上挑斩减耗1')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '上挑斩减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>上挑斩减耗 I</b></font>
+      <br>
+      <br><font color = BBBBBB><u>上挑斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Aerodynamics"></span><img src="/assets/img/class/medium.png">
+<td><span id="Aerodynamics"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">灵巧冲锋</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('灵巧冲锋')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '灵巧冲锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>灵巧冲锋</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冲锋</u>期间可以自由变更方向</font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Provoke"></span><img src="/assets/img/class/medium.png">
+<td><span id="Provoke"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">挑衅</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('挑衅')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '挑衅'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>挑衅</b></font>
+      <br>
+      <br><font color = BBBBBB>受到<u>战吼</u>攻击的敌人将会在<font color=white> 8 </font>秒内把仇恨转移到你身上(10秒冷却)
+      <br>
+      <br>法力消耗：</font>-5
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
@@ -4862,7 +5087,7 @@ icon: hat-wizard
       style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '更强的太阳花洒'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color="#FFFFFF"><b>更强的太阳花洒</b></font>
+      <font color="#FFFFFF"><b>烈阳雨</b></font>
       <br>
       <br><font color = BBBBBB><u>太阳雨</u>的伤害增加</font>
     </div>

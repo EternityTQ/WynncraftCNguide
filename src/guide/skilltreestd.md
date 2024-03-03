@@ -5,7 +5,7 @@ icon: gamepad
 1
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-left:-5px;margin-right:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">爆炸箭</font></div>
 <img
       src="/assets/img/class/archer_green.png"
@@ -37,7 +37,7 @@ icon: gamepad
       @mouseover="showTooltip('逃脱减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
+      style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '逃脱减耗1'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>逃脱减耗 I</b></font>
