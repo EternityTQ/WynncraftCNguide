@@ -551,7 +551,7 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td>
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">爆炸箭</font></div>
     <img
       src="/assets/img/class/archer_green.png"
@@ -2448,7 +2448,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">重击</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2502,7 +2502,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Bash_I"></span><div style="text-align: center;margin-left:-11px;margin-top:-10px;margin-bottom: -3px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Bash_I"></span><div style="text-align: center;margin-left:-11px;margin-top:-10px;margin-bottom: -3px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">重击减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2520,7 +2520,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Spear_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Spear_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">长矛精通 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2574,7 +2574,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Double_Bash"></span><div style="text-align: center;margin-top:-10px;margin-left:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Double_Bash"></span><div style="text-align: center;margin-top:-10px;margin-left:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">双重击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -2624,7 +2624,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Vehement"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Vehement"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">热烈之力</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2643,7 +2643,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Charge"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Charge"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">冲锋</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2665,7 +2665,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Tougher_Skin"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Tougher_Skin"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">坚韧之力</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2712,7 +2712,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Uppercut"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">上挑斩</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2736,7 +2736,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Charge_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Charge_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">冲锋减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2754,7 +2754,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="War_Scream"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="War_Scream"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">战吼</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
@@ -2784,7 +2784,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Heavy_Impact"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;font-size: 9px;white-space: nowrap;">
+<td><span id="Heavy_Impact"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">冲锋冲击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -2834,7 +2834,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Earth_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Earth_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">地元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2854,7 +2854,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Thunder_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Thunder_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">电元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2878,7 +2878,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Air_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Air_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">气元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2898,7 +2898,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Fire_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Fire_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">火元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2925,7 +2925,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Water_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Water_Mastery_(Warrior)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">水元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -2952,7 +2952,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Quadruple_Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Quadruple_Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">四重重击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -3641,7 +3641,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">陨石</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
@@ -3764,7 +3764,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">流星</font></div><img
       src="/assets/img/class/medium.png"
       alt="Your Image"
@@ -3812,7 +3812,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">法杖精通 II</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
@@ -3834,7 +3834,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="00BB00">传送</font></div><img
       src="/assets/img/class/mage_green.png"
       alt="Your Image"
@@ -3856,7 +3856,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">智慧</font></div><img
       src="/assets/img/class/small.png"
       alt="Your Image"
@@ -4112,7 +4112,7 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="orange">传送斩击</font></div>
     <span id="Wind_Slash"></span><img
       src="/assets/img/class/medium.png"
@@ -4134,7 +4134,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="orange">雷暴</font></div>
     <span id="Thunderstorm"></span><img
       src="/assets/img/class/medium.png"
@@ -4163,7 +4163,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center; margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center; margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="orange">灼热纹章</font></div>
     <span id="Burning_Sigil"></span><img
       src="/assets/img/class/medium.png"
@@ -4196,7 +4196,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="orange">太阳雨</font></div>
     <span id="Sunshower"></span><img
       src="/assets/img/class/medium.png"
@@ -4225,7 +4225,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">天煞星</font></div>
     <span id="Stronger_Meteor"></span><img
       src="/assets/img/class/small.png"
@@ -4265,7 +4265,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>疾风清扫</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -4291,7 +4291,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>座天使</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -4320,7 +4320,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>奥术转换</font></div>
     <img
       src="/assets/img/class/special.png"
@@ -7355,7 +7355,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Totem"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Totem"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">图腾</font></div>
 <img
       src="/assets/img/class/archer_green.png"
@@ -7413,7 +7413,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Relik_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Relik_Proficiency_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾精通 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7431,7 +7431,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Totem_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Totem_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7479,7 +7479,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Totemic_Smash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Totemic_Smash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">图腾冲击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7527,7 +7527,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Distant_Grasp"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Distant_Grasp"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">收束之握</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7547,7 +7547,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Haul"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Haul"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">牵引</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
@@ -7569,7 +7569,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Hand_of_the_Shaman"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Hand_of_the_Shaman"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">祭司之握</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7615,7 +7615,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Uproot"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Uproot"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">铲除</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
@@ -7640,7 +7640,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Haul_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Haul_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">牵引减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -7658,7 +7658,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Aura"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 9px;white-space: nowrap;">
+<td><span id="Aura"></span><div style="text-align: center;margin-top:-10px;margin-left:-15px;margin-right:-10px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
     <font color="#00BB00">光环</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
@@ -7722,7 +7722,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Earth_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Earth_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">地元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7742,7 +7742,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Air_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Air_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">气元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7766,7 +7766,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Thunder_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Thunder_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">雷元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7786,7 +7786,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Fire_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Fire_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">火元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7807,7 +7807,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Nature's_Jolt"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Nature's_Jolt"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">惊蛰</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7827,7 +7827,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Water_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Water_Mastery_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">水元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
@@ -7866,7 +7866,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shocking_Aura"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Shocking_Aura"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">震击光环</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7886,7 +7886,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Flaming_Tongue"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Flaming_Tongue"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">火舌</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7907,7 +7907,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Overseer"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Overseer"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">先知洞察</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7929,7 +7929,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Rain_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Rain_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">祈雨</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -7977,7 +7977,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Puppet_Master"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Puppet_Master"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>偶术大师</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8003,7 +8003,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Mask_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Mask_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>荒诞假面</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8034,7 +8034,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Sacrificial_Shrine"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Sacrificial_Shrine"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>鲜血圣坛</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8081,7 +8081,7 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Stagnation"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Stagnation"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">踵击</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8099,7 +8099,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Aura_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Aura_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">光环减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8117,7 +8117,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Uproot_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Uproot_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">铲除减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8137,7 +8137,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Rebound"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Rebound"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>回响之环</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8160,7 +8160,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Puppets_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Puppets_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">魔偶军团 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8180,7 +8180,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Haunting_Memory"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Haunting_Memory"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>灵界沟通</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8201,7 +8201,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Better_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Better_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">崇高图腾</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8221,7 +8221,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Blood_Connection"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Blood_Connection"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">血肉链接</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8261,7 +8261,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Exploding_Puppets"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Exploding_Puppets"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">自爆魔偶</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8283,7 +8283,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Hymn_of_Hate"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Hymn_of_Hate"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>憎恶之诗</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8308,7 +8308,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="More_Blood_Pool_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Blood_Pool_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">无底血池 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8329,7 +8329,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
-<td><span id="Bullwhip"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Bullwhip"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>鞭笞</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8349,7 +8349,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Puppets_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Puppets_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">魔偶军团II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8371,7 +8371,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Mask_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Mask_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>狂热假面</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8402,7 +8402,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Vengeful_Spirit"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Vengeful_Spirit"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">复仇之灵</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8433,7 +8433,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Masquerade"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Masquerade"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">假面狂欢</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8460,7 +8460,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Double_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Double_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">图腾之林</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8484,7 +8484,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Cheaper_Totem_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Totem_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8504,7 +8504,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Storm_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Storm_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">唤风</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8526,7 +8526,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Blood_Moon"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Blood_Moon"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">血月将至</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8552,7 +8552,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Regeneration"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Regeneration"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">治愈图腾</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8572,7 +8572,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Haul_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Haul_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">牵引减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8614,7 +8614,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Aura_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Aura_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">光环减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8634,7 +8634,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Stronger_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Stronger_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">致伤图腾</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8654,7 +8654,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Twisted_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Twisted_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>索命夺魂</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8685,7 +8685,7 @@ icon: hat-wizard
 </td>
 <td>
 </td>
-<td><span id="Totemic_Shatter"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Totemic_Shatter"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>狂怒图腾</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8709,7 +8709,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Depersonalization"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Depersonalization"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">自我陶醉</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8736,7 +8736,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Crimson_Effigy"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Crimson_Effigy"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>绯红魔像</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8758,7 +8758,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Mask_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Mask_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>畏惧假面</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -8786,7 +8786,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Fluid_Healing_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Fluid_Healing_(Shaman)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">水疗术</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8808,7 +8808,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="More_Blood_Pool_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Blood_Pool_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">无底血池II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8827,7 +8827,7 @@ icon: hat-wizard
     </div>
 </td></tr>
 <tr>
-<td><span id="Maddening_Roots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Maddening_Roots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">怨念缠身</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8853,7 +8853,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Chant_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Chant_of_the_Coward"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">畏惧之章</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8873,7 +8873,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Blood_Rite"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Blood_Rite"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>血之祭礼</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -8916,7 +8916,7 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="More_Effigies"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Effigies"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">双生魔像</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8940,7 +8940,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Chant_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Chant_of_the_Fanatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">狂热之颂</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -8960,7 +8960,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Stronger_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Stronger_Tether"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">血手夺魄</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -8982,7 +8982,7 @@ icon: hat-wizard
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
-<td><span id="Triple_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Triple_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">图腾之森</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -9006,7 +9006,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Invigorating_Wave"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Invigorating_Wave"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>活力之潮</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -9026,7 +9026,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Seeking_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Seeking_Totem"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">图腾随行</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -9063,7 +9063,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="Frog_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Frog_Dance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>蛙之舞</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -9085,7 +9085,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><span id="More_Blood_Pool_III"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="More_Blood_Pool_III"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">无底血池III</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -9106,7 +9106,7 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shepherd"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Shepherd"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>倏忽傀影</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -9128,7 +9128,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
-<td><span id="Chant_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Chant_of_the_Lunatic"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color="ORANGE">荒诞之歌</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -9150,7 +9150,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Blood_Sorrow"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Blood_Sorrow"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF5555>猩红挽歌</font></div>
 <img
       src="/assets/img/class/special.png"
@@ -9182,7 +9182,7 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Cheaper_Uproot_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_Uproot_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">牵引减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -9200,7 +9200,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Awakened"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 9px;white-space: nowrap;">
+<td><span id="Awakened"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;">
     <font color=FF55FF>觉醒形态</font></div>
 <img
       src="/assets/img/class/large.png"
