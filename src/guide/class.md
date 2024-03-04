@@ -3307,17 +3307,63 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Precise_Strikes"></span><img src="/assets/img/class/small.png">
+<td><span id="Precise_Strikes"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">精准打击</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('精准打击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '精准打击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>精准打击</b></font>
+      <br>
+      <br><font color = BBBBBB>你的暴击伤害<font color = FFFFFF> +15%</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Counter"></span><img src="/assets/img/class/medium.png">
+<td><span id="Counter"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">借力打力</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('借力打力')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '借力打力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>借力打力</b></font>
+      <br>
+      <br><font color = BBBBBB>成功闪避敌人的伤害时，有<font color=white> 30% </font>的概率免疫此次伤害并立刻进行一次反击</font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Manachism"></span><img src="/assets/img/class/large.png">
+<td><span id="Manachism"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>法力吸收</font></div>
+<img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('法力吸收')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '法力吸收'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>法力吸收</b></font>
+      <br>
+      <br><font color = BBBBBB>受到伤害时，若此次伤害低于自身血量的<font color=WHITE> 5% </font>，则回复<font color = white> 10点 </font>法力(冷却1秒)</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3343,23 +3389,92 @@ icon: hat-wizard
 <td><img src="/assets/img/class/竖线.png">
 </td></tr>
 <tr>
-<td><span id="Enraged_Blow"></span><img src="/assets/img/class/large.png">
+<td><span id="Enraged_Blow"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>怒火强袭</font></div>
+<img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('怒火强袭')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '怒火强袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>怒火强袭</b></font>
+      <br>
+      <br><font color = BBBBBB>进入<font color=aqua>腐化</font>状态时，期间每失去<font color=white> 1.5% </font>的生命值就会提升你<font color=white> 1.5% </font>的所有伤害(至多)</font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Flying_Kick"></span><img src="/assets/img/class/medium.png">
+<td><span id="Flying_Kick"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">飞踢</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('飞踢')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '飞踢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>飞踢</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冲锋</u>期间撞到怪物时，会立即停下，并将怪物踢飞</font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>你可以通过往旁边看或向上看来穿过怪物，避免停下</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Stronger_Mantle"></span><img src="/assets/img/class/small.png">
+<td><span id="Stronger_Mantle"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">圣域披风</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('圣域披风')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '圣域披风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>圣域披风</b></font>
+      <br>
+      <br><font color = BBBBBB><u>神圣披风</u>的抗伤次数<font color = FFFFFF> +2 </font>，同时其冷却时间-5秒</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Sacred_Surge"></span><img src="/assets/img/class/large.png">
+<td><span id="Sacred_Surge"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>神圣之力</font></div>
+<img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('神圣之力')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '神圣之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>神圣之力</b></font>
+      <br>
+      <br><font color = BBBBBB>你的任何主技能或小技能被施放时，你获得<font color=white> 1% </font>的<font color=aqua>神圣之力</font>
+      <br>
+      <br>使用<u>重击</u>或<u>上挑斩</u>时，消耗<font color=white> 15% </font>的<font color=aqua>神圣之力</font>，增加额外伤害</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td></tr>
 <tr>
 <td><img src="/assets/img/class/竖线.png">
