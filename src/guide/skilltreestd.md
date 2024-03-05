@@ -77,7 +77,7 @@ icon: gamepad
       style="width: 46px; height: 46px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '幻影射线'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color=FF55FF><b>幻影射线</b></font>
+      <font color=FF55FF><b>名字</b></font>
       <br>
       <br><font color = BBBBBB>将<u>箭雨</u>浓缩为一条射线，对敌人造成<font color=WHITE>10次</font>伤害</font>
       <br>
