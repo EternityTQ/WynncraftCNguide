@@ -9803,7 +9803,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '倏忽傀影'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>倏忽傀影</b></font>
       <br>
-      <br><font color = BBBBBB>当你的召唤物杀死一个敌人时，临时增加1<font color=aqua>魔偶</font>上限。(持续<font color=WHITE> 15s </font>，最多<font color=WHITE> +8 </font>)
+      <br><font color = BBBBBB>当你的召唤物杀死一个敌人时，临时增加 <font color=white>1 </font>个<font color=aqua>魔偶</font>上限。(持续<font color=WHITE> 15s </font>，最多<font color=WHITE> +8 </font>)
       <br>
       <br><font color="orange"><b>召唤师 分支</b></font></font>
     </div>
