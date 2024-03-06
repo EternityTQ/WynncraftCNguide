@@ -2436,7 +2436,7 @@ icon: hat-wizard
 </td></tr>
 </tbody></table>
 
-@tab 战士(未完成)
+@tab 战士
 
 <table class="ability-tree-table">
 <tbody><tr>
