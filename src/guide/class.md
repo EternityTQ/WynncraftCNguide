@@ -3402,7 +3402,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '怒火强袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>怒火强袭</b></font>
       <br>
-      <br><font color = BBBBBB>进入<font color=aqua>腐化</font>状态时，期间每失去<font color=white> 1.5% </font>的生命值就会提升你<font color=white> 1.5% </font>的所有伤害(至多)</font>
+      <br><font color = BBBBBB>进入<font color=aqua>腐化</font>状态时，期间每失去<font color=white> 1% </font>的生命值就会提升你<font color=white> 1.5% </font>的所有伤害(至多+80%)</font>
       <br>
       <br><font color=FF5555><b>腐化者 分支</b></font>
     </div>
@@ -3532,7 +3532,7 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右丁字.png">
 </td>
-<td><span id="Cheaper_War_Scream_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<td><span id="Cheaper_War_Scream_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-20px;margin-right:-15px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">战吼减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -3797,15 +3797,17 @@ icon: hat-wizard
 <img
       src="/assets/img/class/medium.png"
       alt="Your Image"
-      @mouseover="showTooltip('碎心')"
+      @mouseover="showTooltip('秘银皮肤')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 46px; height: 46px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '碎心'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color="ORANGE"><b>碎心</b></font>
+    <div v-if="isTooltipVisible && currentTooltip === '秘银皮肤'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>秘银皮肤</b></font>
       <br>
-      <br><font color = BBBBBB><u>箭弹</u>的箭矢直接攻击到敌人时，造成额外伤害</font>
+      <br><font color = BBBBBB>你的基础抗性<font color=white> +5% </font>，同时你不再会受到击退效果的影响</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
     </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
@@ -3813,7 +3815,26 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Armour_Breaker"></span><img src="/assets/img/class/large.png">
+<td><span id="Armour_Breaker"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>破甲攻击</font></div>
+<img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('破甲攻击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '破甲攻击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>破甲攻击</b></font>
+      <br>
+      <br><font color = BBBBBB>在<font color=aqua>腐化</font>状态下，当你损失了<font color=white> 30% </font>的生命值后，令你下一次的<u>上挑斩</u>附带破甲效果</font>
+      <br>
+      <br><font color = BBBBBB>减少防御：<font color=white> -30%</font>
+      <br>持续时间：<font color = white>8秒</font></font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3823,22 +3844,103 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Shield_Strike"></span><img src="/assets/img/class/medium.png">
+<td><span id="Shield_Strike"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">盾牌打击</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('盾牌打击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '盾牌打击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>盾牌打击</b></font>
+      <br>
+      <br><font color = BBBBBB>当<u>神圣披风</u>耗尽所有防御次数后，对周围的敌人根据已损失的盾牌数量，造成伤害</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Sparkling_Hope"></span><img src="/assets/img/class/large.png">
+<td><span id="Sparkling_Hope"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-15px;font-size: 10px;white-space: nowrap;">
+    <font color=FF5555>闪烁的希望</font></div>
+<img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('闪烁的希望')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '闪烁的希望'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>闪烁的希望</b></font>
+      <br>
+      <br><font color = BBBBBB>每当你恢复<font color=white> 5% </font>的生命值时，对你周围的敌人造成一次伤害
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>你不一定非要一次性恢复5%，只需要每次累积5%的恢复量即可</font>
+    </div>
 </td></tr>
 <tr>
-<td><span id="Massive_Bash"></span><img src="/assets/img/class/large.png">
+<td><span id="Massive_Bash"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>巨大重击</font></div>
+<img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('巨大重击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '巨大重击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>巨大重击</b></font>
+      <br>
+      <br><font color = BBBBBB>在<font color=aqua>腐化</font>状态下，你每失去<font color=white> 3% </font>的生命值，<u>重击</u>的伤害范围就将增加<font color=white> 1 </font>格(上限10格)</font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Tempest"></span><img src="/assets/img/class/medium.png">
+<td><span id="Tempest"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">暴风战吼</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('暴风战吼')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '暴风战吼'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>暴风战吼</b></font>
+      <br>
+      <br><font color = BBBBBB><u>战吼</u>将造成<font color=white> 3 </font>次大范围的伤害</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
 </td>
-<td><span id="Spirit_of_the_Rabbit"></span><img src="/assets/img/class/small.png">
+<td><span id="Spirit_of_the_Rabbit"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">动如脱兔</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('动如脱兔')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '动如脱兔'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>动如脱兔</b></font>
+      <br>
+      <br><font color = BBBBBB><u>冲锋</u>的技能消耗<font color = FFFFFF> -5</font> ，且你的移动速度<font color=white> +20% </font></font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
@@ -3851,19 +3953,88 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Massacre"></span><img src="/assets/img/class/medium.png">
+<td><span id="Massacre"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">无情屠戮</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('无情屠戮')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '无情屠戮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>无情屠戮</b></font>
+      <br>
+      <br><font color = BBBBBB>在<font color=aqua>腐化</font>状态下，若你的总攻击速度为慢(slow)及以下，使用<u>普通攻击</u>命中敌人会增加你<font color=white> 4% </font>的<font color=aqua>腐化进度</font></font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>无情屠戮</u>获得的额外腐化进度可以影响例如<u>怒火强袭</u>、<u>巨大重击</u>等需要消耗生命值来增加效果的技能，换句话说就是可以无需承伤来增加卖血进度</font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Axe_Kick"></span><img src="/assets/img/class/small.png">
+<td><span id="Axe_Kick"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">斧击</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('斧击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '斧击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>斧击</b></font>
+      <br>
+      <br><font color = BBBBBB><u>上挑斩</u>的伤害大幅度增加，但是技能消耗<font color = FF5555> +15</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Radiance"></span><img src="/assets/img/class/large.png">
+<td><span id="Radiance"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>光芒重击</font></div>
+<img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('光芒重击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '光芒重击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>光芒重击</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>重击</u>时，攻击范围内的友军身上的正面装备词条效果提升</font>
+      <br>
+      <br><font color = BBBBBB>效果：<font color = white>+20%</font>
+      <br>持续时间：<font color = white>8秒</font></font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>实际上，<u>光芒重击</u>可以增益LB、LQ，以及从Charm上获取的属性，但是依旧无法增益gxp、gsb以及Tome的属性</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Bash_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Bash_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">重击减耗 II</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('重击减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '重击减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>重击减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>重击</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
@@ -3887,15 +4058,63 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Cheaper_War_Scream_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_War_Scream_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">战吼减耗 II</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('战吼减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '战吼减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>战吼减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>战吼</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Discombobulate"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF5555>混沌连击</font></div>
+<img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('混沌连击')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '混沌连击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>混沌连击</b></font>
+      <br>
+      <br><font color = BBBBBB>你对敌人造成一次伤害后，对其造成的全属性伤害<font color=white> +5 </font>点(至多100点)，每秒消退<font color=white> 5 </font>点效果</font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cyclone"></span><img src="/assets/img/class/medium.png">
+<td><span id="Cyclone"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">气旋</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('气旋')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '气旋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>气旋</b></font>
+      <br>
+      <br><font color = BBBBBB>使用<u>战吼</u>后，以旋风围绕自身，对周围的敌人每<font color=white> 0.5秒 </font>造成一次伤害。
+      <br>
+      <br>持续时间：</font>20秒
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td>
@@ -3908,7 +4127,21 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/竖线.png">
 </td>
-<td><span id="Better_Enraged_Blow"></span><img src="/assets/img/class/small.png">
+<td><span id="Better_Enraged_Blow"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">炙火强袭</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('炙火强袭')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '炙火强袭'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>炙火强袭</b></font>
+      <br>
+      <br><font color = BBBBBB><u>怒火强袭</u>的伤害上限<font color = FFFFFF> +60%</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
@@ -3916,16 +4149,71 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Thunderclap"></span><img src="/assets/img/class/medium.png">
+<td><span id="Thunderclap"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">天雷破</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('天雷破')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '天雷破'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>天雷破</b></font>
+      <br>
+      <br><font color = BBBBBB><u>重击</u>现在将全部以自身为释放中心，并且加倍释放速度，增加攻击范围</font>
+      <br>
+      <br><font color=FFFF55><b>武道士 分支</b></font>
+    </div>
 </td>
 <td><img src="/assets/img/class/右下.png">
 </td>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Second_Chance"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF5555>重获生机</font></div>
+<img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('重获生机')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '重获生机'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>重获生机</b></font>
+      <br>
+      <br><font color = BBBBBB>受到致命伤时，免疫此次伤害，并恢复<font color=WHITE> 30% </font>的生命值(10分钟冷却)
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>无法免疫/kill的效果。</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
-<td><div class="advanced-tooltip ability-tree-icon-3 tooltips-init-complete" id="Blood_Pact"><div class="center"><div class="floatnone"><img alt="Ability 3" src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" decoding="async" loading="lazy" width="64" height="64" data-image-name="Ability 3.png" data-image-key="Ability_3.png" data-relevant="0" data-src="https://static.wikia.nocookie.net/wynncraft_gamepedia_en/images/3/34/Ability_3.png/revision/latest?cb=20220907151248" class=" ls-is-cached lazyloaded"></div></div></div>
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF5555>血之契约</font></div>
+<img
+      src="/assets/img/class/special.png"
+      alt="Your Image"
+      @mouseover="showTooltip('血之契约')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '血之契约'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>血之契约</b></font>
+      <br>
+      <br><font color = BBBBBB>当你没有足够的法力使用技能时，你可以消耗血量来使用
+      <br>每点法力消耗 <font color=WHITE> 0.4% </font>的生命值
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB><u>血之契约</u>不会使你死亡，最低保留1点血量</font>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
@@ -3948,19 +4236,80 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Haemorrhage"></span><img src="/assets/img/class/small.png">
+<td><span id="Haemorrhage"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">鲜血掌控</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('鲜血掌控')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '鲜血掌控'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>鲜血掌控</b></font>
+      <br>
+      <br><font color = BBBBBB><u>血之契约</u>每点法力的血量消耗改为<font color = FFFFFF> 0.25%</font></font>
+      <br>
+      <br><font color=FF5555><b>腐化者 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Brink_of_Madness"></span><img src="/assets/img/class/large.png">
+<td><span id="Brink_of_Madness"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color=FF55FF>绝境求生</font></div>
+<img
+      src="/assets/img/class/large.png"
+      alt="Your Image"
+      @mouseover="showTooltip('绝境求生')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '绝境求生'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF55FF><b>绝境求生</b></font>
+      <br>
+      <br><font color = BBBBBB>当你的生命值低于<font color=WHITE> 25% </font>时，获得<font color=WHITE> 40% </font>的抗性提升</font>
+      <br>
+    </div>
 </td>
 <td><img src="/assets/img/class/横线.png">
 </td>
-<td><span id="Cheaper_Uppercut_II"></span><img src="/assets/img/class/small.png">
+<td><span id="Cheaper_Uppercut_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-15px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">上挑斩减耗 II</font></div>
+<img
+      src="/assets/img/class/small.png"
+      alt="Your Image"
+      @mouseover="showTooltip('上挑斩减耗2')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '上挑斩减耗2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>上挑斩减耗 II</b></font>
+      <br>
+      <br><font color = BBBBBB><u>上挑斩</u>的技能消耗<font color = FFFFFF> -5</font></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Martyr"></span><img src="/assets/img/class/medium.png">
+<td><span id="Martyr"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+    <font color="ORANGE">殉道</font></div>
+<img
+      src="/assets/img/class/medium.png"
+      alt="Your Image"
+      @mouseover="showTooltip('殉道')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '殉道'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>殉道</b></font>
+      <br>
+      <br><font color = BBBBBB>受到致命伤害时，令周围的友军获得<font color=white> 3秒 </font>的无敌效果</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td></tr>
 </tbody></table>
 
