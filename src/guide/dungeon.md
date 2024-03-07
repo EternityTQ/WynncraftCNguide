@@ -16,7 +16,7 @@ pageview: true
 以及各个地牢比较推荐购买的物品。
 
 :::warning 地牢与RAID有区别！
-如果你想查找RAID，可以到[这一章](/guide/raid.html)
+如果你想查找RAID，可以到[这一章](/guide/raid/intro.html)
 :::
 
 ## 总体介绍
@@ -192,7 +192,7 @@ BOSS内含多阶段
 
 大概路线看下图
 
-![注意看好咯，这里和cib不一样噢，不要学某个缺心眼缺营养缺母爱的傻逼杠精来找骂噢！](/assets/img/ib.jpg)
+![](/assets/img/ib.jpg)
 
 ### Undergrowth Ruins
 建议等级：lvl 54

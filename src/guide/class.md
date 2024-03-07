@@ -3175,7 +3175,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '神圣披风'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>神圣披风</b></font>
       <br>
-      <br><font color = BBBBBB>使用<u>战吼</u>后，在自身周围生成一块神圣的盾牌，其可以为你接下来受到的<font color=white> 3 </font>次攻击抵挡<font color=white> 70% </font>的伤害
+      <br><font color = BBBBBB>使用<u>战吼</u>后，在自身周围生成一块神圣的披风，其可以为你接下来受到的<font color=white> 3 </font>次攻击抵挡<font color=white> 70% </font>的伤害
       <br>
       <br><font color=55FFFF><b>圣骑士 分支</b></font></font>
       <br>
