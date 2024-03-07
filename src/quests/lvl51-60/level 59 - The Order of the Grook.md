@@ -5,11 +5,6 @@ icon: route
 # The Order of the Grook (level 59)
 <span style="font-size: 25px;">**魔法学院**</span>
 
-:::warning
-本页面部分内容存在缺失/过时
-
-敬请留意！
-:::
 
 
 >不要忘了可以从Selchar前往绝大部分岛屿
@@ -26,9 +21,9 @@ icon: route
 
 6 和<font color=00AA00>**Cidre**</font>`[6710 37 4444]`对话，获得Wand Vocher和Magical Book Vocher
 
-7 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，此处选择的内容影响任务奖励，如下表
+7 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，**此处选择的内容影响任务奖励**，如下表
 
-| Wand | Wand Reward | Book | Book Reward |
+| Wand |  Reward | Book |  Reward |
 | ------ | ------ | ------ | ------ |
 | Oak Grook Feather Wand | Draoi Fair | The Tome of Nature Magick | 10 EB |
 | Avo Phoenix Wand | Draoi Fair | The Teaching of Exal | 28 EB |
@@ -110,3 +105,11 @@ Corruption 打开笼子，老师让你跑就立刻跑
 + 640/896/1728/2048 绿宝石
 + 允许使用 magic tunnel fast travel(快捷传送通道)
 + 1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时常会用在毕业配装内)
+
+:::tip
+此任务的饰品都非常值钱，因为一个档只能获取一次
+
+推荐选择Draoi Fair，几乎是bolts archer必备饰品，价值较高
+
+可以挂在市场上进行出售
+:::
