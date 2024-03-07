@@ -128,7 +128,7 @@ export default sidebar({
         icon: "skull",
         collapsible: true,
         children: ["intro", "notg", "nol", "tcc", "tna"],
-      }, "grindspot", "earnle", "VIP", "festival", "wynntils", "slang", "qa", "support"],
+      }, "grindspot", "earnle", "VIP", "festival", "wynntils", "slang", "qa", "support","history"],
     },
   ],
   "/newbie/": [

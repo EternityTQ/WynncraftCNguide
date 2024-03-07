@@ -176,6 +176,8 @@ double loot，双倍掉落物炸弹
 ### **我要尿尿**
 wynn在输入法拼出来就是这个:(
 
+### **海底捞**
+指一种前期赚钱途经，你可以看看[这里](http://localhost:8080/guide/earnle.html#海底捞)
 
 ## 公会类
 
@@ -199,6 +201,39 @@ headquarters，指公会战里面的首都/总部
 
 ### **gb**
 guild bank，公会银行
+
+### **PROF**
+Profession Heaven，一个老外公会名，该工会大部分玩家是自闭副职人
+
+~~cnm的调戏对象~~
+
+### **multi/双目标/双击/打两个的**
+公会战中的一种防御塔buff，公会塔可以攻击两个目标
+
+### **snake**
+公会战中不打首都，只在周边游走攻击的战斗策略
+
+### **dry snipe/snipe**
+公会战中只打首都的战斗策略
+
+### **ems**
+emeralds，公会战中的绿宝石
+
+### **hr**
+guild bank(high rank)/high rank
+
+公会银行(3星以上能看到的)，或者指公会中做决策的高层(3-5星)
+
+### **terrs**
+territory，公会战中的领地
+
+### **cons**
+connection，公会战中的一种领地
+
+### **SR**
+season rating，公会战中的赛季积分
+
+
 
 ## 口语类
 
@@ -255,4 +290,35 @@ shut the fuck up，闭上你的狗嘴
 
 ### **fr**
 for real，真的
+
+### **m8**
+mate，伙伴
+
+### **irl**
+in real life，三次元
+
+### **u/ur**
+you/your，你/你的
+
+### **ty**
+thank you，谢谢
+
+### **plz**
+please，求求你
+
 ## 装备类
+
+### **dz**
+divzer，弓箭手的雷属性神话
+
+### **gma/奶奶**
+grandmather，弓箭手的地属性神话
+
+### **扭曲/瓦普**
+Warp，法师的气属性神话
+
+### **cata**
+cataclysm，刺客的雷属性神话
+
+### **水刀**
+Nirvana，刺客的水属性神话
