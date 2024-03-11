@@ -516,7 +516,7 @@ icon: hat-wizard
 
 你也可以在技能树下方打开洗点界面
 
-![](/assets/img/tree3.jpg)
+![](/assets/img/tree3.jpg =400x)
 
 分别点击三个加号后，你就可以重置技能树了
 
@@ -555,7 +555,6 @@ icon: hat-wizard
     <font color="#00BB00">爆炸箭</font></div>
     <img
       src="/assets/img/class/archer_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('爆炸箭')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -632,7 +631,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">爆炸箭减耗 I</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('爆炸箭减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -680,7 +678,6 @@ icon: hat-wizard
     <font color="ORANGE">碎心</font></div>
     <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('碎心')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -727,7 +724,6 @@ icon: hat-wizard
 <td><span id="Double_Shots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">双发箭矢</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('双发')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -748,7 +744,6 @@ icon: hat-wizard
     <font color="#00BB00">逃脱</font></div>
     <img
       src="/assets/img/class/archer_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('逃脱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -772,7 +767,6 @@ icon: hat-wizard
     <font color="white">强力箭矢</font></div>
     <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('强力箭矢')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -815,7 +809,6 @@ icon: hat-wizard
 <td><span id="Arrow_Storm"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;">
     <font color="#00BB00">箭雨</font></div><img
       src="/assets/img/class/archer_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭雨')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -839,7 +832,6 @@ icon: hat-wizard
 <td><span id="Cheaper_Escape_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">逃脱减耗 I</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('逃脱减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -856,7 +848,6 @@ icon: hat-wizard
 <td><span id="Arrow_Shield"></span><div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;">
     <font color="#00BB00">箭盾</font></div><img
       src="/assets/img/class/archer_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭盾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -883,7 +874,6 @@ icon: hat-wizard
 <td><span id="Windy_Feet"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">疾风步伐</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('疾风步伐')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -936,7 +926,6 @@ icon: hat-wizard
 <td><span id="Air_Mastery_(Archer)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-15px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">气元素精通</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('气元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -955,7 +944,6 @@ icon: hat-wizard
 <td><span id="Thunder_Mastery_(Archer)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-15px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">电元素精通</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('电元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -978,7 +966,6 @@ icon: hat-wizard
 <td><span id="Fire_Mastery_(Archer)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-15px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">火元素精通</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('火元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -997,7 +984,6 @@ icon: hat-wizard
 <td><span id="Water_Mastery_(Archer)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-15px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">水元素精通</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('水元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1023,7 +1009,6 @@ icon: hat-wizard
 <td><span id="Earth_Mastery_(Archer)"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-15px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">地元素精通</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('地元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1049,7 +1034,6 @@ icon: hat-wizard
 <td><span id="Nimble_String"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">迅捷弓弦</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('迅捷弓弦')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1068,7 +1052,6 @@ icon: hat-wizard
 <td><span id="Arrow_Rain"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">箭雨滂沱</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭雨滂沱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1104,7 +1087,6 @@ icon: hat-wizard
 <td><span id="Bryophyte_Roots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">苔藓缠身</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('苔藓缠身')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1124,7 +1106,6 @@ icon: hat-wizard
 <td><span id="Fire_Creep"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">烈火蔓延</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('烈火蔓延')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1141,7 +1122,6 @@ icon: hat-wizard
 <td><span id="Phantom_Ray"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF55FF>幻影射线</font></div><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('幻影射线')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1161,7 +1141,6 @@ icon: hat-wizard
 <td><span id="Triple_Shots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">三重射击</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('三重射击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1180,7 +1159,6 @@ icon: hat-wizard
 <td><span id="Frenzy"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">极速狂热</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('极速狂热')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1231,7 +1209,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF5555>守护天使</font></div><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('守护天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1255,7 +1232,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF5555>磐石陷阱</font></div><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('磐石陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1284,7 +1260,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF5555>全神贯注</font></div><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('全神贯注')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1332,7 +1307,6 @@ icon: hat-wizard
 <td><span id="Windstorm"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF55FF>风暴箭阵</font></div><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('风暴箭阵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1349,7 +1323,6 @@ icon: hat-wizard
 <td><span id="Cheaper_Arrow_Storm_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">箭雨减耗 I</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭雨减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1366,7 +1339,6 @@ icon: hat-wizard
 <td><span id="Implosion"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">聚爆</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('聚爆')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1387,7 +1359,6 @@ icon: hat-wizard
 <td><span id="More_Shields"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">盾牌精修</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('盾牌精修')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1415,7 +1386,6 @@ icon: hat-wizard
 <td><span id="Patient_Hunter"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">韬光养晦</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('韬光养晦')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1434,7 +1404,6 @@ icon: hat-wizard
 <td><span id="Grappling_Hook"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">抓钩</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('抓钩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1452,9 +1421,9 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Focus_I"></span><img
+<td><span id="More_Focus_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">更加专注</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('更加专注')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1469,18 +1438,18 @@ icon: hat-wizard
 <tr>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Stormy_Feet"></span><img
+<td><span id="Stormy_Feet"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">暴风步伐</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
-      @mouseover="showTooltip('风暴足')"
+      @mouseover="showTooltip('暴风步伐')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 40px; height: 40px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '风暴足'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color="#FFFFFF"><b>风暴足</b></font>
+    <div v-if="isTooltipVisible && currentTooltip === '暴风步伐'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>暴风步伐</b></font>
       <br>
-      <br><font color = BBBBBB><u>风行足</u>的持续时间及速度效果额外增加
+      <br><font color = BBBBBB><u>疾风步伐</u>的持续时间及速度效果额外增加
       <br>
       <br>速度加成：<font color=white>+20%</font>
       <br>持续时间：<font color=white>+60秒</font></font>
@@ -1490,9 +1459,9 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Call_of_the_Hound"></span><img
+<td><span id="Call_of_the_Hound"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>猎犬的呼唤</font></div><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('猎犬的呼唤')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1501,7 +1470,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '猎犬的呼唤'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>猎犬的呼唤</b></font>
       <br>
-      <br><font color = BBBBBB>施放<u>箭盾</u>将召唤一只<font color=aqua>猎犬</font>，其会攻击敌人，并将敌人拉向你的陷阱
+      <br><font color = BBBBBB>使用<u>箭盾</u>将召唤一只<font color=aqua>猎犬</font>，其会攻击敌人，并将敌人拉向你的陷阱
       <br>
       <br>猎犬索敌范围：<font color = white>18格</font>
       <br>持续时间：<font color = white>60秒</font></font>
@@ -1539,9 +1508,9 @@ icon: hat-wizard
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td></tr>
 <tr>
-<td><span id="Leap"></span><img
+<td><span id="Leap"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">飞跃</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('飞跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1555,9 +1524,9 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Traveler"></span><img
+<td><span id="Traveler"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">旅行者</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('旅行者')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1566,14 +1535,14 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '旅行者'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>旅行者</b></font>
       <br>
-      <br><font color = BBBBBB>你每从装备及物品上获取<font color = FFFFFF> 1% </font>的移动速度，就<font color = FFFFFF> +1 </font>点技能伤害(上限+100)</font>
+      <br><font color = BBBBBB>你的装备鉴定词条每有<font color = FFFFFF> 1% </font>的移动速度，就获得<font color = FFFFFF> 1 </font>点无属性技能伤害(至多+100点)</font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Bouncing_Bomb"></span><img
+<td><span id="Bouncing_Bomb"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>弹跳炸弹</font></div><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('弹跳炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1587,9 +1556,9 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Ivyroot_Mamba"></span><img
+<td><span id="Ivyroot_Mamba"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">蔓生毒蝰</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('蔓生毒蝰')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1614,7 +1583,6 @@ icon: hat-wizard
     <font color=FF55FF>吐温虹弧</font></div>
     <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('吐温虹弧')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1642,9 +1610,9 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Rocket_Jump"></span><img
+<td><span id="Rocket_Jump"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">火箭飞跃</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('火箭飞跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1658,9 +1626,9 @@ icon: hat-wizard
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Scorched_Earth"></span><img
+<td><span id="Scorched_Earth"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">灼焦的地表</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('灼焦的地表')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1669,7 +1637,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '灼焦的地表'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>灼焦的地表</b></font>
       <br>
-      <br><font color = BBBBBB><u>火焰轨迹</u>的伤害增加，持续时间增加<font color = FFFFFF> 2秒 </font>。</font>
+      <br><font color = BBBBBB><u>火焰轨迹</u>的伤害增加，持续时间增加<font color = FFFFFF> 2秒 </font></font>
       <br>
       <br><font color= FF55FF><b>鹰眼射手 分支</b></font>
     </div>
@@ -1683,9 +1651,9 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="More_Traps"></span><img
+<td><span id="More_Traps"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">更多陷阱</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('更多陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1710,9 +1678,9 @@ icon: hat-wizard
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td></tr>
 <tr>
-<td><span id="Refined_Gunpowder"></span><img
+<td><span id="Refined_Gunpowder"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">精致火药</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('精致火药')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1726,16 +1694,16 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Fierce_Stomp"></span><img
+<td><span id="Fierce_Stomp"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">急速踹击</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
-      @mouseover="showTooltip('猛烈踹击')"
+      @mouseover="showTooltip('急速踹击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
       style="width: 40px; height: 40px;"
     />
-    <div v-if="isTooltipVisible && currentTooltip === '猛烈踹击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color="ORANGE"><b>猛烈踹击</b></font>
+    <div v-if="isTooltipVisible && currentTooltip === '急速踹击'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="ORANGE"><b>急速踹击</b></font>
       <br>
       <br><font color = BBBBBB>在使用<u>逃脱</u>时，按住SHIFT将极速下落，并在落地时造成伤害。
       <br>
@@ -1746,9 +1714,9 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Arrow_Shield_I"></span><img
+<td><span id="Cheaper_Arrow_Shield_I"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">箭盾减耗 I</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭盾减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1762,9 +1730,9 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Better_Arrow_Shield"></span><img
+<td><span id="Better_Arrow_Shield"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">箭盾精制</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭盾精制')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1774,6 +1742,7 @@ icon: hat-wizard
       <font color="#FFFFFF"><b>箭盾精制</b></font>
       <br>
       <br><font color = BBBBBB>增加<u>箭盾</u>的伤害半径、击退能力以及伤害
+      <br>
       <br><u>守护天使</u>的伤害些许增加
       <br>
       <br>伤害半径：<font color=white>+1格</font></font>
@@ -1781,9 +1750,9 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Shocking_Bomb"></span><img
+<td><span id="Shocking_Bomb"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">震撼弹</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('震撼弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1800,9 +1769,9 @@ icon: hat-wizard
 <tr>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Better_Leap"></span><img
+<td><span id="Better_Leap"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">飞跃精通</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('飞跃精通')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1822,9 +1791,9 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Homing_Shots"></span>  <img
+<td><span id="Homing_Shots"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>导引箭</font></div><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('导引箭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1870,9 +1839,9 @@ icon: hat-wizard
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td>  <img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF5555>法力陷阱</font></div><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('法力陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1894,9 +1863,9 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Arrow_Storm_II"></span><img
+<td><span id="Cheaper_Arrow_Storm_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">箭雨减耗 II</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭雨减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1910,9 +1879,9 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Decimator"></span><img
+<td><span id="Decimator"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">聚能连击</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('聚能连击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1931,7 +1900,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Better_Guardian_Angels"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('强化守护天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1951,7 +1919,6 @@ icon: hat-wizard
 </td>
 <td><span id="Escape_Artist"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('逃脱艺术家')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1970,7 +1937,6 @@ icon: hat-wizard
 </td>
 <td><span id="Murder_Flock"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('雾鸦群袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -1992,7 +1958,6 @@ icon: hat-wizard
 </td>
 <td><span id="Initiator"></span>  <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('羽下藏锋')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2010,7 +1975,6 @@ icon: hat-wizard
 </td>
 <td><span id="Phasing_Beam"></span>  <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('相位光束')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2046,7 +2010,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Recycling"></span>  <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭矢回收')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2064,7 +2027,6 @@ icon: hat-wizard
 </td>
 <td><span id="Shrapnel_Bomb"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('破片炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2082,7 +2044,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Escape_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('逃脱减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2100,7 +2061,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Arrow_Shield_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('箭盾减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2127,7 +2087,6 @@ icon: hat-wizard
 </td>
 <td><span id="Stronger_Hook"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('强力抓钩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2149,7 +2108,6 @@ icon: hat-wizard
 </td>
 <td><span id="Coursing_Restraints"></span>  <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('震慑束缚')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2187,7 +2145,6 @@ icon: hat-wizard
 </td>
 <td>  <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('飓风箭阵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2205,7 +2162,6 @@ icon: hat-wizard
 </td>
 <td><span id="Tangled_Traps"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('绊线陷阱')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2223,7 +2179,6 @@ icon: hat-wizard
 </td>
 <td><span id="Beast_Lore"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('理塘')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2243,7 +2198,6 @@ icon: hat-wizard
 </td>
 <td>  <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('暮色流光')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2272,7 +2226,6 @@ icon: hat-wizard
 </td>
 <td>  <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('陷阱雷区')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2300,7 +2253,6 @@ icon: hat-wizard
 <tr>
 <td><span id="All-Seeing_Panoptes"></span>  <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('全知天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2322,7 +2274,6 @@ icon: hat-wizard
 </td>
 <td><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('猎人狩猎守则2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2340,7 +2291,6 @@ icon: hat-wizard
 </td>
 <td><span id="Grape_Bomb"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('分裂炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2359,7 +2309,6 @@ icon: hat-wizard
 </td>
 <td><span id="More_Focus_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('更加专注2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2382,7 +2331,6 @@ icon: hat-wizard
 </td>
 <td><span id="Elusive"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('空灵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2414,7 +2362,6 @@ icon: hat-wizard
 </td>
 <td><span id="Geyser_Stomp"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('喷泉践踏')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2432,7 +2379,6 @@ icon: hat-wizard
 </td>
 <td><span id="Snow_Storm"></span>  <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('暴风雪')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2453,7 +2399,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Arrow_Bomb_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('爆炸箭减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2487,7 +2432,6 @@ icon: hat-wizard
     <font color="#00BB00">重击</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('重击')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -2541,7 +2485,6 @@ icon: hat-wizard
     <font color="white">重击减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('重击减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2559,7 +2502,6 @@ icon: hat-wizard
     <font color="white">长矛精通 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('长矛精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2613,7 +2555,6 @@ icon: hat-wizard
     <font color="ORANGE">双重击</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('双重击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2663,7 +2604,6 @@ icon: hat-wizard
     <font color="white">热烈之力</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('热烈之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2682,7 +2622,6 @@ icon: hat-wizard
     <font color="#00BB00">冲锋</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('冲锋')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -2704,7 +2643,6 @@ icon: hat-wizard
     <font color="white">坚韧之力</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('坚韧之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2751,7 +2689,6 @@ icon: hat-wizard
     <font color="#00BB00">上挑斩</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('上挑斩')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -2775,7 +2712,6 @@ icon: hat-wizard
     <font color="white">冲锋减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('冲锋减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2793,7 +2729,6 @@ icon: hat-wizard
     <font color="#00BB00">战吼</font></div>
 <img
       src="/assets/img/class/warrior_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('战吼')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -2823,7 +2758,6 @@ icon: hat-wizard
     <font color="ORANGE">冲锋冲击</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('冲锋冲击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2873,7 +2807,6 @@ icon: hat-wizard
     <font color="white">地元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('地元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2893,7 +2826,6 @@ icon: hat-wizard
     <font color="white">电元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('电元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2917,7 +2849,6 @@ icon: hat-wizard
     <font color="white">气元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('气元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2937,7 +2868,6 @@ icon: hat-wizard
     <font color="white">火元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('火元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2964,7 +2894,6 @@ icon: hat-wizard
     <font color="white">水元素精通</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('水元素精通_战士')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -2991,7 +2920,6 @@ icon: hat-wizard
     <font color="ORANGE">四重重击</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('四重重击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3011,7 +2939,6 @@ icon: hat-wizard
     <font color="ORANGE">烟火爆破</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('烟火爆破')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3035,7 +2962,6 @@ icon: hat-wizard
     <font color="white">冲锋刺击</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('冲锋刺击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3053,7 +2979,6 @@ icon: hat-wizard
     <font color="ORANGE">烈焰挑斩</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('烈焰挑斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3082,7 +3007,6 @@ icon: hat-wizard
     <font color="ORANGE">半月横扫</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('半月横扫')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3110,7 +3034,6 @@ icon: hat-wizard
     <font color="white">钢铁之肺</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('钢铁之肺')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3154,7 +3077,6 @@ icon: hat-wizard
     <font color=FF5555>多面手</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('多面手')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3177,7 +3099,6 @@ icon: hat-wizard
     <font color="ORANGE">声浪</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('声浪')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3201,7 +3122,6 @@ icon: hat-wizard
     <font color=FF5555>神圣披风</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('神圣披风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3227,7 +3147,6 @@ icon: hat-wizard
     <font color=FF5555>腐化之力</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('腐化之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3263,7 +3182,6 @@ icon: hat-wizard
     <font color="white">长矛精通 II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('长矛精通2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3285,7 +3203,6 @@ icon: hat-wizard
     <font color="white">上挑斩减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('上挑斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3303,7 +3220,6 @@ icon: hat-wizard
     <font color="ORANGE">灵巧冲锋</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('灵巧冲锋')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3323,7 +3239,6 @@ icon: hat-wizard
     <font color="ORANGE">挑衅</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('挑衅')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3346,7 +3261,6 @@ icon: hat-wizard
     <font color="white">精准打击</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('精准打击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3366,7 +3280,6 @@ icon: hat-wizard
     <font color="ORANGE">借力打力</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('借力打力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3386,7 +3299,6 @@ icon: hat-wizard
     <font color=FF55FF>法力吸收</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('法力吸收')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3428,7 +3340,6 @@ icon: hat-wizard
     <font color=FF55FF>怒火强袭</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('怒火强袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3450,7 +3361,6 @@ icon: hat-wizard
     <font color="ORANGE">飞踢</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('飞踢')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3475,7 +3385,6 @@ icon: hat-wizard
     <font color="white">圣域披风</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('圣域披风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3495,7 +3404,6 @@ icon: hat-wizard
     <font color=FF55FF>神圣之力</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('神圣之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3526,7 +3434,6 @@ icon: hat-wizard
     <font color="white">反制还击</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('反制还击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3549,7 +3456,6 @@ icon: hat-wizard
     <font color="ORANGE">嗜血</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('嗜血')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3571,7 +3477,6 @@ icon: hat-wizard
     <font color="white">战吼减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('战吼减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3589,7 +3494,6 @@ icon: hat-wizard
     <font color="white">净化之风</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('净化之风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3609,7 +3513,6 @@ icon: hat-wizard
     <font color="white">重击强化</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('重击强化')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3628,7 +3531,6 @@ icon: hat-wizard
     <font color="ORANGE">沸血</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('沸血')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3648,7 +3550,6 @@ icon: hat-wizard
     <font color=FF55FF>诸神黄昏</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('诸神黄昏')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3672,7 +3573,6 @@ icon: hat-wizard
     <font color="ORANGE">动能定律</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('动能定律')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3690,7 +3590,6 @@ icon: hat-wizard
     <font color=FF5555>再生皮肤</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('再生皮肤')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3715,7 +3614,6 @@ icon: hat-wizard
     <font color="ORANGE">彗星陨落</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('彗星陨落')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3765,7 +3663,6 @@ icon: hat-wizard
     <font color="white">狂野腐化</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('狂野腐化')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3783,7 +3680,6 @@ icon: hat-wizard
     <font color="white">光之信徒</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('光之信徒')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3803,7 +3699,6 @@ icon: hat-wizard
     <font color=FF5555>旋风打击</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('旋风打击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3831,7 +3726,6 @@ icon: hat-wizard
     <font color="ORANGE">秘银皮肤</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('秘银皮肤')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3854,7 +3748,6 @@ icon: hat-wizard
     <font color=FF55FF>破甲攻击</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('破甲攻击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3883,7 +3776,6 @@ icon: hat-wizard
     <font color="ORANGE">盾牌打击</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('盾牌打击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3903,7 +3795,6 @@ icon: hat-wizard
     <font color=FF5555>闪烁的希望</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('闪烁的希望')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3925,7 +3816,6 @@ icon: hat-wizard
     <font color=FF55FF>巨大重击</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('巨大重击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3945,7 +3835,6 @@ icon: hat-wizard
     <font color="ORANGE">暴风战吼</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('暴风战吼')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3963,7 +3852,6 @@ icon: hat-wizard
     <font color="white">动如脱兔</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('动如脱兔')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -3992,7 +3880,6 @@ icon: hat-wizard
     <font color="ORANGE">无情屠戮</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('无情屠戮')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4015,7 +3902,6 @@ icon: hat-wizard
     <font color="white">斧击</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('斧击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4033,7 +3919,6 @@ icon: hat-wizard
     <font color=FF55FF>光芒重击</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('光芒重击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4059,7 +3944,6 @@ icon: hat-wizard
     <font color="white">重击减耗 II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('重击减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4097,7 +3981,6 @@ icon: hat-wizard
     <font color="white">战吼减耗 II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('战吼减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4115,7 +3998,6 @@ icon: hat-wizard
     <font color=FF5555>混沌连击</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('混沌连击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4135,7 +4017,6 @@ icon: hat-wizard
     <font color="ORANGE">气旋</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('气旋')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4166,7 +4047,6 @@ icon: hat-wizard
     <font color="white">炙火强袭</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('炙火强袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4188,7 +4068,6 @@ icon: hat-wizard
     <font color="ORANGE">天雷破</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('天雷破')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4208,7 +4087,6 @@ icon: hat-wizard
     <font color=FF5555>重获生机</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('重获生机')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4232,7 +4110,6 @@ icon: hat-wizard
     <font color=FF5555>血之契约</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('血之契约')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4275,7 +4152,6 @@ icon: hat-wizard
     <font color="white">鲜血掌控</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('鲜血掌控')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4295,7 +4171,6 @@ icon: hat-wizard
     <font color=FF55FF>绝境求生</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('绝境求生')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4314,7 +4189,6 @@ icon: hat-wizard
     <font color="white">上挑斩减耗 II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('上挑斩减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4332,7 +4206,6 @@ icon: hat-wizard
     <font color="ORANGE">殉道</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('殉道')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4363,7 +4236,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;">
     <font color="#00BB00">陨石</font></div><img
       src="/assets/img/class/mage_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('陨石')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -4419,7 +4291,6 @@ icon: hat-wizard
 </td>
 <td><span id="Wand_Proficiency_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('法杖精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4438,7 +4309,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Meteor_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('陨石减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4486,7 +4356,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">流星</font></div><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('流星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4534,7 +4403,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-left:-11px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">法杖精通 II</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('法杖精通2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4556,7 +4424,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;">
     <font color="00BB00">传送</font></div><img
       src="/assets/img/class/mage_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('传送')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -4578,7 +4445,6 @@ icon: hat-wizard
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">智慧</font></div><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('智慧')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4622,7 +4488,6 @@ icon: hat-wizard
 </td>
 <td><span id="Heal"></span><img
       src="/assets/img/class/mage_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('治疗')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -4644,7 +4509,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Teleport_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('传送减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4660,7 +4524,6 @@ icon: hat-wizard
 </td>
 <td><span id="Ice_Snake"></span><img
       src="/assets/img/class/mage_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('冰蛇')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -4725,7 +4588,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Air_Mastery_(Mage)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('气元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4743,7 +4605,6 @@ icon: hat-wizard
 </td>
 <td><span id="Thunder_Mastery_(Mage)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('电元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4765,7 +4626,6 @@ icon: hat-wizard
 </td>
 <td><span id="Fire_Mastery_(Mage)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('火元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4783,7 +4643,6 @@ icon: hat-wizard
 </td>
 <td><span id="Earth_Mastery_(Mage)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('地元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4808,7 +4667,6 @@ icon: hat-wizard
 </td>
 <td><span id="Water_Mastery_(Mage)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('水元素精通_法师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4835,7 +4693,6 @@ icon: hat-wizard
     <font color="orange">传送斩击</font></div>
     <span id="Wind_Slash"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('传送斩击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4857,7 +4714,6 @@ icon: hat-wizard
     <font color="orange">雷暴</font></div>
     <span id="Thunderstorm"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('雷暴')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4886,7 +4742,6 @@ icon: hat-wizard
     <font color="orange">灼热纹章</font></div>
     <span id="Burning_Sigil"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('灼热纹章')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4919,7 +4774,6 @@ icon: hat-wizard
     <font color="orange">太阳雨</font></div>
     <span id="Sunshower"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('太阳雨')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4948,7 +4802,6 @@ icon: hat-wizard
     <font color="white">天煞星</font></div>
     <span id="Stronger_Meteor"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('天煞星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -4988,7 +4841,6 @@ icon: hat-wizard
     <font color=FF5555>疾风清扫</font></div>
     <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('疾风清扫')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5014,7 +4866,6 @@ icon: hat-wizard
     <font color=FF5555>座天使</font></div>
     <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('座天使')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5043,7 +4894,6 @@ icon: hat-wizard
     <font color=FF5555>奥术转换</font></div>
     <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('奥术转换')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5088,7 +4938,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Heal_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('治疗减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5106,7 +4955,6 @@ icon: hat-wizard
 </td>
 <td><span id="Purification"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('净化')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5122,7 +4970,6 @@ icon: hat-wizard
 </td>
 <td><span id="Sentient_Snake"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('冰蛇感知')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5141,7 +4988,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Eye_Piercer"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('视线贯穿')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5157,7 +5003,6 @@ icon: hat-wizard
 </td>
 <td><span id="Breathless"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('绝息')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5175,7 +5020,6 @@ icon: hat-wizard
 </td>
 <td><span id="Larger_Heal"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('广域治疗')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5197,7 +5041,6 @@ icon: hat-wizard
 </td>
 <td><span id="Larger_Mana_Bank_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('法力储备扩充1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5233,7 +5076,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Cheaper_Ice_Snake_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('冰蛇减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5249,7 +5091,6 @@ icon: hat-wizard
 </td>
 <td><span id="Fortitude"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('强韧意志')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5270,7 +5111,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Teleport_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('传送减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5288,7 +5128,6 @@ icon: hat-wizard
 </td>
 <td><span id="Pyrokinesis"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('驭火术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5311,7 +5150,6 @@ icon: hat-wizard
 </td>
 <td><span id="Blink"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('闪烁')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5353,7 +5191,6 @@ icon: hat-wizard
 </td>
 <td><span id="Healthier_Ophanim_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('光球韧化1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5369,7 +5206,6 @@ icon: hat-wizard
 </td>
 <td><span id="Snake_Nest"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('蛇巢')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5385,7 +5221,6 @@ icon: hat-wizard
 </td>
 <td><span id="Seance"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('通灵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5402,7 +5237,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Transonic_Warp"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('超音速')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5420,7 +5254,6 @@ icon: hat-wizard
 </td>
 <td><span id="Fluid_Healing_(Mage)"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('生命源泉')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5438,7 +5271,6 @@ icon: hat-wizard
 </td>
 <td><span id="Orphion's_Pulse"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('治疗脉冲')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5459,7 +5291,6 @@ icon: hat-wizard
 </td>
 <td><span id="Arcane_Restoration"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('奥术回复')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5492,7 +5323,6 @@ icon: hat-wizard
 </td>
 <td><span id="Stronger_Ophanim"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('光球强化')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5515,7 +5345,6 @@ icon: hat-wizard
 </td>
 <td><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('风印扩散')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5537,7 +5366,6 @@ icon: hat-wizard
 </td>
 <td><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('圣光领域')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5557,7 +5385,6 @@ icon: hat-wizard
 </td>
 <td><span id="Arcane_Speed"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('极速奥术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5575,7 +5402,6 @@ icon: hat-wizard
 </td>
 <td><span id="Larger_Mana_Bank_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('法力储备扩充2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5592,7 +5418,6 @@ icon: hat-wizard
 <tr>
 <td><span id="More_Winded_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('风印涌动1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5619,7 +5444,6 @@ icon: hat-wizard
 </td>
 <td><span id="Psychokinesis"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('意念陨石')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5645,7 +5469,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Ice_Snake_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('冰蛇减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5661,7 +5484,6 @@ icon: hat-wizard
 </td>
 <td><span id="Explosive_Entrance"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('闪现爆破')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5677,7 +5499,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Meteor_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('陨石减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5695,7 +5516,6 @@ icon: hat-wizard
 </td>
 <td><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('混沌爆破')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5713,7 +5533,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Time_Dilation"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('时空扩张')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5734,7 +5553,6 @@ icon: hat-wizard
 </td>
 <td><span id="Gust"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('蛇疾如风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5755,7 +5573,6 @@ icon: hat-wizard
 </td>
 <td><span id="Better_Ophanim"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('座天使增量')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5774,7 +5591,6 @@ icon: hat-wizard
 </td>
 <td><span id="Arctic_Snake"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('极寒冰蛇')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5799,7 +5615,6 @@ icon: hat-wizard
 </td>
 <td><span id="Stronger_Sunshower"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('更强的太阳花洒')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5817,7 +5632,6 @@ icon: hat-wizard
 </td>
 <td><span id="Arcane_Power"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('奥术之力')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5857,7 +5671,6 @@ icon: hat-wizard
 <tr>
 <td><span id="More_Winded_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('风印涌动2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5874,7 +5687,6 @@ icon: hat-wizard
 </td>
 <td><span id="Dynamic_Faith"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('动摇的信仰')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5890,7 +5702,6 @@ icon: hat-wizard
 </td>
 <td><span id="Healthier_Ophanim_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('光球韧化2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5910,7 +5721,6 @@ icon: hat-wizard
 </td>
 <td><span id="Larger_Mana_Bank_III"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('法力储备扩充3')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5931,7 +5741,6 @@ icon: hat-wizard
 </td>
 <td><span id="Devitalize"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('凋亡风印')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5949,7 +5758,6 @@ icon: hat-wizard
 </td>
 <td><span id="Divination"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('天使预言')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -5967,7 +5775,6 @@ icon: hat-wizard
 </td>
 <td><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('太阳光辉')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6002,7 +5809,6 @@ icon: hat-wizard
 </td>
 <td><span id="Better_Lightweaver"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('圣光结界')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6022,7 +5828,6 @@ icon: hat-wizard
 </td>
 <td><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('奥术过载')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6044,7 +5849,6 @@ icon: hat-wizard
 <tr>
 <td><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('时空凝滞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6070,7 +5874,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Heal_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('治疗减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6088,7 +5891,6 @@ icon: hat-wizard
 </td>
 <td><span id="Manastorm"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('法力风暴')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6111,7 +5913,6 @@ icon: hat-wizard
 </td>
 <td><span id="Memory_Recollection"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('重拾记忆')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6161,7 +5962,6 @@ icon: hat-wizard
 <td><span id="Spin_Attack"></span>
 <img
       src="/assets/img/class/assassin_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('回旋斩')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -6212,7 +6012,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Spin_Attack_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('回旋斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6228,7 +6027,6 @@ icon: hat-wizard
 </td>
 <td><span id="Dagger_Proficiency_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('匕首精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6278,7 +6076,6 @@ icon: hat-wizard
 </td>
 <td><span id="Double_Spin"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('再斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6324,7 +6121,6 @@ icon: hat-wizard
 </td>
 <td><span id="Poisoned_Blade"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('淬毒之刃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6342,7 +6138,6 @@ icon: hat-wizard
 </td>
 <td><span id="Dash"></span><img 
       src="/assets/img/class/assassin_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('突进')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -6362,7 +6157,6 @@ icon: hat-wizard
 </td>
 <td><span id="Double_Slice"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('双重打击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6404,7 +6198,6 @@ icon: hat-wizard
 <td><img src="/assets/img/class/横线.png">
 </td>
 <td><span id="Smoke_Bomb"></span><img src="/assets/img/class/assassin_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('烟雾弹')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -6427,7 +6220,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Dash_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('突进减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6442,7 +6234,6 @@ icon: hat-wizard
 <td><img src="/assets/img/class/横线.png">
 </td>
 <td><span id="Multihit"></span><img src="/assets/img/class/assassin_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('多重斩')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -6504,7 +6295,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Earth_Mastery_(Assassin)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('地元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6522,7 +6312,6 @@ icon: hat-wizard
 </td>
 <td><span id="Thunder_Mastery_(Assassin)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('雷元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6544,7 +6333,6 @@ icon: hat-wizard
 </td>
 <td><span id="Water_Mastery_(Assassin)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('水元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6562,7 +6350,6 @@ icon: hat-wizard
 </td>
 <td><span id="Air_Mastery_(Assassin)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('气元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6587,7 +6374,6 @@ icon: hat-wizard
 </td>
 <td><span id="Fire_Mastery_(Assassin)"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('火元素精通_刺客')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6614,7 +6400,6 @@ icon: hat-wizard
 </td>
 <td><span id="Backstab"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('背刺')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6640,7 +6425,6 @@ icon: hat-wizard
 </td>
 <td><span id="Fatality"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('终斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6661,7 +6445,6 @@ icon: hat-wizard
 </td>
 <td><span id="Vanish"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('影逝')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6690,7 +6473,6 @@ icon: hat-wizard
 </td>
 <td><span id="Sticky_Bomb"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('粘性炸弹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6708,7 +6490,6 @@ icon: hat-wizard
 </td>
 <td><span id="Righting_Reflex"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('踏云')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6752,7 +6533,6 @@ icon: hat-wizard
 </td>
 <td><span id="Surprise_Strike"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('奇袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6775,7 +6555,6 @@ icon: hat-wizard
 </td>
 <td><span id="Mirror_Image"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('镜像幻术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6799,7 +6578,6 @@ icon: hat-wizard
 </td>
 <td><span id="Lacerate"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('斩空')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6820,7 +6598,6 @@ icon: hat-wizard
 </td>
 <td><span id="Silent_Killer"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('冷面杀手')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6839,7 +6616,6 @@ icon: hat-wizard
 </td>
 <td><span id="Last_Laugh"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('临别惊喜')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6866,7 +6642,6 @@ icon: hat-wizard
 </td>
 <td><span id="Wall_of_Smoke"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('烟雾幕墙')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6889,7 +6664,6 @@ icon: hat-wizard
 </td>
 <td><span id="Shenanigans"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('智取巧夺')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6909,7 +6683,6 @@ icon: hat-wizard
 </td>
 <td><span id="Psithurism"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('如风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6926,7 +6699,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Better_Smoke_Bomb"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('烟雾弥漫')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6942,7 +6714,6 @@ icon: hat-wizard
 </td>
 <td><span id="Shadow_Travel"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('影步')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6962,7 +6733,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Multihit_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('多重斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -6980,7 +6750,6 @@ icon: hat-wizard
 </td>
 <td><span id="Dagger_Proficiency_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('匕首精通2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7006,7 +6775,6 @@ icon: hat-wizard
 </td>
 <td><span id="Bamboozle"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('虚张声势')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7030,7 +6798,6 @@ icon: hat-wizard
 </td>
 <td><span id="Distraction"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('诡影缠身')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7070,7 +6837,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Cheaper_Smoke_Bomb_I"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('烟雾弹减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7088,7 +6854,6 @@ icon: hat-wizard
 </td>
 <td><span id="Blazing_Powder"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('灼热的刀')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7108,7 +6873,6 @@ icon: hat-wizard
 </td>
 <td><span id="Weightless"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('鹤步')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7132,7 +6896,6 @@ icon: hat-wizard
 </td>
 <td><span id="Black_Hole"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('黑洞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7153,7 +6916,6 @@ icon: hat-wizard
 </td>
 <td><span id="Sandbagging"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('假意不敌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7173,7 +6935,6 @@ icon: hat-wizard
 </td>
 <td><span id="Hop"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('雀跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7192,7 +6953,6 @@ icon: hat-wizard
 </td>
 <td><span id="Flow_State"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('奔流形态')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7214,7 +6974,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Violent_Vortex"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('杀戮漩涡')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7237,7 +6996,6 @@ icon: hat-wizard
 </td>
 <td><span id="Delirious_Gas"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('怪诞魔雾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7259,7 +7017,6 @@ icon: hat-wizard
 </td>
 <td><span id="Stronger_Multihit"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('无影斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7282,7 +7039,6 @@ icon: hat-wizard
 </td>
 <td><span id="Marked"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('刺杀印记')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7309,7 +7065,6 @@ icon: hat-wizard
 </td>
 <td><span id="Echo"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('镜像回响')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7328,7 +7083,6 @@ icon: hat-wizard
 </td>
 <td><span id="Shurikens"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('旋星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7348,7 +7102,6 @@ icon: hat-wizard
 </td>
 <td><span id="Far_Reach"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('长斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7380,7 +7133,6 @@ icon: hat-wizard
 </td>
 <td><span id="Dancing_Blade"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('刃舞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7418,7 +7170,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Ambush"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('潜心奇袭')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7434,7 +7185,6 @@ icon: hat-wizard
 </td>
 <td><span id="Death_Magnet"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('厄运磁铁')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7452,7 +7202,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Dash_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('突进减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7468,7 +7217,6 @@ icon: hat-wizard
 </td>
 <td><span id="Parry"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('锐羽')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7488,7 +7236,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Spin_Attack_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('回旋斩减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7522,7 +7269,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Nightcloak_Knife"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('暗幕之刃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7548,7 +7294,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Multihit_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('多重斩减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7564,7 +7309,6 @@ icon: hat-wizard
 </td>
 <td><span id="Hoodwink"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('移花接木')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7583,7 +7327,6 @@ icon: hat-wizard
 </td>
 <td><span id="Choke_Bomb"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('窒息毒雾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7601,7 +7344,6 @@ icon: hat-wizard
 </td>
 <td><span id="Wall_Jump"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('虎跃')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7623,7 +7365,6 @@ icon: hat-wizard
 </td>
 <td><span id="Fatal_Spin"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('夺命斩')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7644,7 +7385,6 @@ icon: hat-wizard
 </td>
 <td><span id="Dissolution"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('影遁')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7662,7 +7402,6 @@ icon: hat-wizard
 </td>
 <td><span id="Pirouette"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('瞬华')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7681,7 +7420,6 @@ icon: hat-wizard
 </td>
 <td><span id="Stronger_Lacerate"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('斩穹')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7700,7 +7438,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Stronger_Vortex"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('无底漩涡')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7754,7 +7491,6 @@ icon: hat-wizard
 </td>
 <td><span id="Harvester"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('灵魂收割')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7774,7 +7510,6 @@ icon: hat-wizard
 </td>
 <td><span id="Cheaper_Smoke_Bomb_II"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('烟雾弹减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7792,7 +7527,6 @@ icon: hat-wizard
 </td>
 <td><span id="Blade_Fury"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('狂锋')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7819,7 +7553,6 @@ icon: hat-wizard
 </td>
 <td><span id="More_Marks"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('刺杀狂潮')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7839,7 +7572,6 @@ icon: hat-wizard
 </td>
 <td><span id="Stronger_Clones"></span><img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('助战分身')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7862,7 +7594,6 @@ icon: hat-wizard
 </td>
 <td><span id="Ricochets"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('弹星')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7881,7 +7612,6 @@ icon: hat-wizard
 </td>
 <td><span id="Satsujin"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('杀意起兮')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7906,7 +7636,6 @@ icon: hat-wizard
 </td>
 <td><span id="Forbidden_Art"></span><img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('禁忌秘术')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7929,7 +7658,6 @@ icon: hat-wizard
 </td>
 <td><span id="Jasmine_Bloom"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('芳泽')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7965,7 +7693,6 @@ icon: hat-wizard
 </td>
 <td><span id="Diversion"></span><img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('声东击西')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -7988,7 +7715,6 @@ icon: hat-wizard
 </td>
 <td><span id="Better_Weightless"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('鹤舞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8003,7 +7729,6 @@ icon: hat-wizard
 <tr>
 <td><span id="Devour"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('灵魂吞噬')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8019,7 +7744,6 @@ icon: hat-wizard
 </td>
 <td><span id="Better_Marked"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('险恶杀意')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8035,7 +7759,6 @@ icon: hat-wizard
 </td>
 <td><span id="Even_Stronger_Clones"></span><img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('一人成军')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8078,7 +7801,6 @@ icon: hat-wizard
     <font color="#00BB00">图腾</font></div>
 <img
       src="/assets/img/class/archer_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -8136,7 +7858,6 @@ icon: hat-wizard
     <font color="white">图腾精通 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾精通1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8154,7 +7875,6 @@ icon: hat-wizard
     <font color="white">图腾减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8202,7 +7922,6 @@ icon: hat-wizard
     <font color="ORANGE">图腾冲击</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾冲击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8250,7 +7969,6 @@ icon: hat-wizard
     <font color="white">收束之握</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('收束之握')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8270,7 +7988,6 @@ icon: hat-wizard
     <font color="#00BB00">牵引</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('牵引')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -8292,7 +8009,6 @@ icon: hat-wizard
     <font color="white">祭司之握</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('祭司之握')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8338,7 +8054,6 @@ icon: hat-wizard
     <font color="#00BB00">铲除</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('铲除')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -8363,7 +8078,6 @@ icon: hat-wizard
     <font color="white">牵引减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('牵引减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8381,7 +8095,6 @@ icon: hat-wizard
     <font color="#00BB00">光环</font></div>
 <img
       src="/assets/img/class/shaman_green.png"
-      alt="Your Image"
       @mouseover="showTooltip('光环')"
       @mousemove="updateTooltipPosition($event)"
       @mouseleave="hideTooltip"
@@ -8445,7 +8158,6 @@ icon: hat-wizard
     <font color="white">地元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('地元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8465,7 +8177,6 @@ icon: hat-wizard
     <font color="white">气元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('气元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8489,7 +8200,6 @@ icon: hat-wizard
     <font color="white">雷元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('雷元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8509,7 +8219,6 @@ icon: hat-wizard
     <font color="white">火元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('火元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8530,7 +8239,6 @@ icon: hat-wizard
     <font color="ORANGE">惊蛰</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('惊蛰')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8550,7 +8258,6 @@ icon: hat-wizard
     <font color="white">水元素精通</font></div>
     <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('水元素精通_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8589,7 +8296,6 @@ icon: hat-wizard
     <font color="ORANGE">震击光环</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('震击光环')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8609,7 +8315,6 @@ icon: hat-wizard
     <font color="ORANGE">火舌</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('火舌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8630,7 +8335,6 @@ icon: hat-wizard
     <font color="ORANGE">先知洞察</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('先知洞察')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8652,7 +8356,6 @@ icon: hat-wizard
     <font color="ORANGE">祈雨</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('祈雨')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8700,7 +8403,6 @@ icon: hat-wizard
     <font color=FF5555>偶术大师</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('偶术大师')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8726,7 +8428,6 @@ icon: hat-wizard
     <font color=FF5555>荒诞假面</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('荒诞假面')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8757,7 +8458,6 @@ icon: hat-wizard
     <font color=FF5555>鲜血圣坛</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('鲜血圣坛')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8804,7 +8504,6 @@ icon: hat-wizard
     <font color="ORANGE">踵击</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('踵击')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8822,7 +8521,6 @@ icon: hat-wizard
     <font color="white">光环减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('光环减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8840,7 +8538,6 @@ icon: hat-wizard
     <font color="white">铲除减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('铲除减耗1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8860,7 +8557,6 @@ icon: hat-wizard
     <font color=FF55FF>回响之环</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('回响之环')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8883,7 +8579,6 @@ icon: hat-wizard
     <font color="white">魔偶军团 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('魔偶军团1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8903,7 +8598,6 @@ icon: hat-wizard
     <font color=FF55FF>灵界沟通</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('灵界沟通')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8924,7 +8618,6 @@ icon: hat-wizard
     <font color="white">崇高图腾</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('崇高图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8944,7 +8637,6 @@ icon: hat-wizard
     <font color="ORANGE">血肉链接</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('血肉链接')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -8984,7 +8676,6 @@ icon: hat-wizard
     <font color="ORANGE">自爆魔偶</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('自爆魔偶')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9006,7 +8697,6 @@ icon: hat-wizard
     <font color=FF55FF>憎恶之诗</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('憎恶之诗')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9031,7 +8721,6 @@ icon: hat-wizard
     <font color="white">无底血池 I</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('无底血池1')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9052,7 +8741,6 @@ icon: hat-wizard
     <font color=FF55FF>鞭笞</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('鞭笞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9072,7 +8760,6 @@ icon: hat-wizard
     <font color="white">魔偶军团II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('魔偶军团2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9094,7 +8781,6 @@ icon: hat-wizard
     <font color=FF5555>狂热假面</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('狂热假面')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9125,7 +8811,6 @@ icon: hat-wizard
     <font color="ORANGE">复仇之灵</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('复仇之灵')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9156,7 +8841,6 @@ icon: hat-wizard
     <font color="white">假面狂欢</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('假面狂欢')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9183,7 +8867,6 @@ icon: hat-wizard
     <font color="ORANGE">图腾之林</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾之林')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9207,7 +8890,6 @@ icon: hat-wizard
     <font color="white">图腾减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9227,7 +8909,6 @@ icon: hat-wizard
     <font color="ORANGE">唤风</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('唤风')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9249,7 +8930,6 @@ icon: hat-wizard
     <font color="white">血月将至</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('血月将至')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9275,7 +8955,6 @@ icon: hat-wizard
     <font color="ORANGE">治愈图腾</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('治愈图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9295,7 +8974,6 @@ icon: hat-wizard
     <font color="white">牵引减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('牵引减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9337,7 +9015,6 @@ icon: hat-wizard
     <font color="white">光环减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('光环减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9357,7 +9034,6 @@ icon: hat-wizard
     <font color="white">致伤图腾</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('致伤图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9377,7 +9053,6 @@ icon: hat-wizard
     <font color=FF5555>索命夺魂</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('索命夺魂')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9408,7 +9083,6 @@ icon: hat-wizard
     <font color=FF55FF>狂怒图腾</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('狂怒图腾')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9432,7 +9106,6 @@ icon: hat-wizard
     <font color="white">自我陶醉</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('自我陶醉')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9459,7 +9132,6 @@ icon: hat-wizard
     <font color=FF5555>绯红魔像</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('绯红魔像')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9481,7 +9153,6 @@ icon: hat-wizard
     <font color=FF5555>畏惧假面</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('畏惧假面')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9509,7 +9180,6 @@ icon: hat-wizard
     <font color="ORANGE">水疗术</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('水疗术_萨满')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9531,7 +9201,6 @@ icon: hat-wizard
     <font color="white">无底血池II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('无底血池2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9550,7 +9219,6 @@ icon: hat-wizard
     <font color="ORANGE">怨念缠身</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('怨念缠身')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9576,7 +9244,6 @@ icon: hat-wizard
     <font color="ORANGE">畏惧之章</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('畏惧之章')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9596,7 +9263,6 @@ icon: hat-wizard
     <font color=FF55FF>血之祭礼</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('血之祭礼')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9639,7 +9305,6 @@ icon: hat-wizard
     <font color="white">双生魔像</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('双生魔像')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9663,7 +9328,6 @@ icon: hat-wizard
     <font color="ORANGE">狂热之颂</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('狂热之颂')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9683,7 +9347,6 @@ icon: hat-wizard
     <font color="white">血手夺魄</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('血手夺魄')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9705,7 +9368,6 @@ icon: hat-wizard
     <font color="ORANGE">图腾之森</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾之森')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9729,7 +9391,6 @@ icon: hat-wizard
     <font color=FF55FF>活力之潮</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('活力之潮')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9749,7 +9410,6 @@ icon: hat-wizard
     <font color="white">图腾随行</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('图腾随行')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9786,7 +9446,6 @@ icon: hat-wizard
     <font color=FF55FF>蛙之舞</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('蛙之舞')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9808,7 +9467,6 @@ icon: hat-wizard
     <font color="white">无底血池III</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('无底血池3')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9829,7 +9487,6 @@ icon: hat-wizard
     <font color=FF5555>倏忽傀影</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('倏忽傀影')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9851,7 +9508,6 @@ icon: hat-wizard
     <font color="ORANGE">荒诞之歌</font></div>
 <img
       src="/assets/img/class/medium.png"
-      alt="Your Image"
       @mouseover="showTooltip('荒诞之歌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9873,7 +9529,6 @@ icon: hat-wizard
     <font color=FF5555>猩红挽歌</font></div>
 <img
       src="/assets/img/class/special.png"
-      alt="Your Image"
       @mouseover="showTooltip('猩红挽歌')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9905,7 +9560,6 @@ icon: hat-wizard
     <font color="white">牵引减耗II</font></div>
 <img
       src="/assets/img/class/small.png"
-      alt="Your Image"
       @mouseover="showTooltip('牵引减耗2')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
@@ -9923,7 +9577,6 @@ icon: hat-wizard
     <font color=FF55FF>觉醒形态</font></div>
 <img
       src="/assets/img/class/large.png"
-      alt="Your Image"
       @mouseover="showTooltip('觉醒形态')"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
