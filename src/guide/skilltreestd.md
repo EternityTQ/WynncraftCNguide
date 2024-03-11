@@ -5,7 +5,7 @@ icon: gamepad
 1
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 10px;white-space: nowrap;">
+<div style="text-align: center;margin-top:-10px;margin-left:0px;margin-right:0px;margin-bottom: -3px;font-size: 11px;white-space: nowrap;">
     <font color="#00BB00">爆炸箭</font></div>
 <img
       src="/assets/img/class/archer_green.png"
@@ -29,7 +29,7 @@ icon: gamepad
 ```
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">逃脱减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -47,7 +47,7 @@ icon: gamepad
 ```
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">碎心</font></div>
 <img
       src="/assets/img/class/medium.png"
@@ -66,7 +66,7 @@ icon: gamepad
 
 
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF55FF>全神贯注</font></div>
 <img
       src="/assets/img/class/large.png"
@@ -89,7 +89,7 @@ icon: gamepad
 
 
  ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 10px;white-space: nowrap;">
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF5555>全神贯注</font></div>
 <img
       src="/assets/img/class/special.png"
