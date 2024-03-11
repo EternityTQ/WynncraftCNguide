@@ -183,3 +183,24 @@ hm的配装思路，使用高面板，攻速为Super slow的武器，使用提�
 另：Panic Zealot这把非常特殊的武器有一套非常特殊的专属build，像这样类似的只有一个武器能用的build还有很多，大家真要玩的话可以多问问群里的老玩家，在此不多赘复。
 
 除此之外还有一些非主流的hybrid(普攻+技能混合)打法，适配性很低，不在此介绍。
+
+## 非神话Build推荐
+
+以下是一些优秀的配装推荐以及用法，你可以参考以下build来使用
+
+### \[Archer\]无烟煤
+[偏肉无烟煤](https://hppeng-wynn.github.io/builder/?v=4#8_0VI0l-0PW0720Jf0BK0BI0OP01w001B021m1X1g1000FU1000FU1000FU001B1B030303030k-lYdvg6t6)
+
+[偏输出无烟煤](https://hppeng-wynn.github.io/builder/?v=5#8_0VI07N0PW0lC0Jf0BK0BI0OO01w0k1a000s1D1g1000FU1000FU1000FU001B1B030303030h-lYdvg6t6)
+
+无烟煤，即Anthracite Ballista，是一把Rare品质的弓手武器，但是其面板非常优秀，非常适合新手弓手进行游玩
+
+其主要输出方式就是按死右键，对。
+
+当然，想要达到最快攻速还是需要连点右键的
+
+直接通过普攻来攻击敌人，即可拥有客观的伤害
+
+同时，气火的面板又使得无烟煤的build一般都会有客观的生存能力
+
+如果你需要进一步提高伤害，记得不要丢失鹰眼射手的force点数！

@@ -1898,7 +1898,8 @@ icon: hat-wizard
 <td><img src="/assets/img/class/左下.png" width="40" height="40" >
 </td></tr>
 <tr>
-<td><span id="Better_Guardian_Angels"></span><img
+<td><span id="Better_Guardian_Angels"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">强化守护天使</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('强化守护天使')"
       @mousemove="updateTooltipPosition"
@@ -1917,7 +1918,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Escape_Artist"></span><img
+<td><span id="Escape_Artist"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-10px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">逃脱艺术家</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('逃脱艺术家')"
       @mousemove="updateTooltipPosition"
@@ -1935,7 +1937,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Murder_Flock"></span><img
+<td><span id="Murder_Flock"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">雾鸦群袭</font></div><img
       src="/assets/img/class/medium.png"
       @mouseover="showTooltip('雾鸦群袭')"
       @mousemove="updateTooltipPosition"
