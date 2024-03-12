@@ -1986,7 +1986,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '相位光束'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=ORANGE><b>相位光束</b></font>
       <br>
-      <br><font color = BBBBBB><u>Twain的弧光</u>充能速度增加<font color=WHITE> 20%</font> ，且现在能穿透<font color=WHITE> 5 </font>个敌人，激光伤害在穿透后将会下降</font>
+      <br><font color = BBBBBB><u>吐温虹弧</u>充能速度增加<font color=WHITE> 20%</font> ，且现在能穿透<font color=WHITE> 5 </font>个敌人，激光伤害在穿透后将会下降</font>
       <br>
       <br><font color=FF55FF><b>鹰眼射手 分支</b></font>
     </div>
@@ -2119,7 +2119,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '震慑束缚'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>震慑束缚</b></font>
       <br>
-      <br><font color = BBBBBB><u>震撼弹</u>现在将短暂地震慑敌人，降低敌人的防御6秒。(12秒冷却时间)</font>
+      <br><font color = BBBBBB><u>震撼弹</u>现在将使敌人进入战栗状态，降低敌人的防御6秒。(12秒冷却时间)</font>
       <br>
       <br><font color=FF55FF><b>鹰眼射手 分支</b></font>
     </div>
@@ -2209,9 +2209,9 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '暮色流光'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>暮色流光</b></font>
       <br>
-      <br><font color = BBBBBB>当你拥有<font color = aqua>5+层 专注值</font>时，在高于地面<font color=white><br> 4格以上 </font>的空中施放<u>箭雨</u>将会使你保持浮空，并且每秒射出<font color=white> 20 </font>只导引箭，直到所有的<font color = aqua>专注值</font>耗尽</font>
+      <br><font color = BBBBBB>当你拥有<font color=white> 5 </font>层<font color = aqua>专注值</font>及以上时，在高于地面<font color=white> 4格以上 </font>的空中施放<u>箭雨</u>将会使你保持浮空，并且每秒射出<font color=white> 20 </font>只导引箭，直到所有的<font color = aqua>专注值</font>耗尽</font>
       <br>
-      <br><font color=BBBBBB>技能施放期间，每秒消退<font color = aqua>1层 专注值</font>。</font>
+      <br><font color=BBBBBB>技能施放期间，每秒消退<font color=white> 1 </font>层<font color = aqua>专注值</font>。</font>
       <br>
       <br><font color=FF55FF><b>鹰眼射手 分支</b></font>
     </div>
