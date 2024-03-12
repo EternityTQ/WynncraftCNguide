@@ -87,7 +87,7 @@ https://hppeng-wynn.github.io
 戒指：intensity+mool pool
 手镯：Prowess/Remika's/Succession
 项链：Contrast/Diamond fusion/Gigabyte
-所有武器都能套这个公式，得到的结果不会太弱，也不会很脆。
+绝大多数的武器都能套这个公式，得到的结果不会太弱，也不会很脆。
 :::
 
 若你指向对配装的逻辑浅尝辄止，到这里的内容已经能满足你的需求，可以自己先去尝试或者抄别人的作业了，再接下来的内容会更主观，且以经验为主，或许你可以自己总结出更好的经验。
@@ -128,7 +128,7 @@ https://hppeng-wynn.github.io
 对于法师或者弓箭手这样的**远程职业**，在能力允许的范围内，可以尝试适当降低装备的ehp，选用输出更高的装备或者是自制装备来进一步提升输出，前提是你自己要有能力活下来
 >理论输出再高，一旦被秒，那输出都是0。
 
-对于**属性点不足**的情况，可以优先考虑Vaward/Prowess/Gigabyte几个无条件提供大量属性点的装备，其次考虑Libra/Far cosmic/Diamond fusion Necklace这类彩虹点数装备，再考虑提供大量单种或两种属性点的装备(Pisces,Cancer等)
+对于**属性点不足**的情况，可以优先考虑Vaward/Prowess/Gigabyte几个无条件提供大量属性点的装备，其次考虑Libra/Far Cosmos/Diamond Fusion Necklace这类彩虹点数装备，再考虑提供大量单种或两种属性点的装备(Pisces, Cancer等)
 
 除此之外，仅对于**提升伤害**来说，游戏内存在两个优先级非常高的词条：Spell damage(额外中性技能伤害，后用Raw spell代表)和Element damage(额外元素伤害)
 
@@ -142,12 +142,12 @@ https://hppeng-wynn.github.io
 
 | 属性 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: | :---: |
-| 地 | Pisces | Terra's Mold/<br>Dondasch | Chain rule | Crater Print |
-| 雷 | Cumulonimbus | Tesla/<br>Discharge | Leictreach Makani | Capricorn/<br>Electro Mage's Boots |
-| 水 | Anamnesis/<br>Cumulonimbus | Aquarius | Seipodon | riverflow/<br>virtuoso/<br>Wavedash |
-| 火 | Capsid Frame/<br>Dreadnought | Soulflare | Ophiuchus/<br>Greaves of the Veneer | The Stokers |
-| 气 | Gale's sight/<br>Unravel/<br>Cumulonimbus | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani/<br>Anaerobic | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir |
-| 彩虹 | Morph-Stardust/<br>Cumulonimbus | Libra/<br>far cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null | Capricorn/<br>Epilogue |
+| 地 | Pisces/<br>Caesura/<br>Nychthemeron/<br>Dune Storm | Delirium/<br>Terra's Mold/<br>Dondasch | Chain Rule/<br>Tera | Crater Print/<br>Pro Tempore |
+| 雷 | Caesura/<br>Neuron/<br>Cumulonimbus/<br>Logistics/<br>Nychthemeron | Delirium/<br>Tesla/<br>Discharge/<br>Stratosphere | Tera/<br>Asphyxia/<br>Leictreach Makani | Electro Mage's Boots/<br>Sine/<br>Weatherwalkers/<br>Steamjet Walkers/<br>Ventus Tail |
+| 水 | Anamnesis/<br>Cumulonimbus/<br>Aquamarine/<br>Neuron/<br>Gnossis | Stratosphere/<br>Soul Signal | Seipodon/<br>Aleph Null/<br>Rapids/<br>Entanglement | Pro Tempore/<br>Virtuoso/<br>Steamjet Walkers |
+| 火 | Capsid Frame/<br>Dreadnought | Soulflare/<br>Hetusol | Ophiuchus/<br>Greaves of the Veneer/<br>Cinderchain | Mantlewalkers/<br>Phage Pins |
+| 气 | Gale's Sight/<br>Unravel/<br>Cumulonimbus/<br>Keratoconus/<br>Dune Storm | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani/<br>Anaerobic/<br>The Ephemeral | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir/<br>Ventus Tail |
+| 彩虹 | Morph-Stardust/<br>Cumulonimbus | Libra/<br>Far Cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null/<br>Equalizer | Capricorn/<br>Epilogue/<br>Pro Tempore |
 
 **其中，鞋子大多数情况下都使用对应属性合适的神话鞋子**
 
@@ -161,10 +161,11 @@ https://hppeng-wynn.github.io
 
 | 功能 | 戒指 | 手镯 | 项链 |
 | :---: | :---: | :---: | :---: |
-| 回蓝 | summa/<br>moonpool/<br>photon | Succession | Contrast |
-| 补点 | summa/<br>photon/<br>facile/<br>finesse/<br>impudent/<br>ingress/<br>prism/<br>Soldier | prowess/<br>Remika's Authority/<br>Anya's Penumbra | Diamond Fusion Necklace/<br>Gigabyte|
-| 加血 | rune of safe passage/<br>Diamond Solar Ring/<br>darksteel ring | Diamond Solar Bracelet/<br>Jiandan Handwarps/<br>Clockwork | Diamond Solar Necklace/<br>Golemlus Core |
-| 伤害 | intensity/<br>对应属性li饰品/<br>yin/<br>yang/<br>olive/<br>Obstinance | 对应属性li饰品/<br>Breakthrough/<br>Ingress | 对应属性li饰品/<br>Necklace Of A Thousand Storms |
+| 回蓝 | Summa/<br>Moon Pool Circlet/<br>Photon/<br>Suppression | Succession/<br>Misalignment | Contrast |
+| 补点 | Summa/<br>Photon/<br>Facile/<br>Finesse/<br>Impudent/<br>Ingress/<br>Prism | Prowess/<br>Remika's Authority/<br>Anya's Penumbra | Diamond Fusion Necklace/<br>Gigabyte/<br>Schist/<br>Power Cell/<br>Amanuensis/<br>Matchbook/<br>Derecho |
+| 加血 | Rune of Safe Passage/<br>Diamond Solar Ring/<br>Darksteel Ring | Diamond Solar Bracelet/<br>Jiandan Handwarps/<br>Clockwork | Diamond Solar Necklace/<br>Golemlus Core |
+| 伤害 | Intensity/<br>对应属性li饰品/<br>Yin/<br>Yang/<br>Olive/<br>Obstinance | 对应属性li饰品/<br>Breakthrough/<br>Misalignment | 对应属性li饰品/<br>Necklace Of A Thousand Storms/<br>Abrasion/<br>Metamorphosis |
+| 位移 | Photon/<br>Kaze | Double Vision | Contrast |
 
 
 
@@ -203,4 +204,4 @@ hm的配装思路，使用高面板，攻速为Super slow的武器，使用提�
 
 同时，气火的面板又使得无烟煤的build一般都会有客观的生存能力
 
-如果你需要进一步提高伤害，记得不要丢失鹰眼射手的force点数！
+如果你需要进一步提高伤害，记得不要丢失鹰眼射手的Focus点数！
