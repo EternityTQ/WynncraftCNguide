@@ -48,3 +48,5 @@ icon: book
 2. 略微修改了Pirate`s Trove (level 39)页面的一些措辞
 3. 略微修改了The Worm Holes (level 54)页面的一些措辞
 4. 增加了灵魂点数页面的部分介绍
+5. 更新金丝雀的矿车挑战跳关说明
+6. 更名了Wynntils页面
