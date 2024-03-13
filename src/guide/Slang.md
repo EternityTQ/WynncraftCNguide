@@ -177,12 +177,29 @@ double loot，双倍掉落物炸弹
 wynn在输入法拼出来就是这个:(
 
 ### **海底捞**
-指一种前期赚钱途经，你可以看看[这里](http://localhost:8080/guide/earnle.html#海底捞)
+指一种前期赚钱途经，你可以看看[这里](/guide/earnle.html#海底捞)
 
 ### **锁**
 指鉴定道具——`Corkian Insulator`
 
 此道具可以锁定物品的一个词条，然后再进行鉴定
+
+~~还有一个别名叫震动棒~~
+
+### **aLEdar**
+
+指ajf任务中的NPC Aledar
+
+:::details 涉及剧透的内容
+此任务中，Aledar会被玩家亲手手刃，以此来献祭灵魂，但是玩家得到了le奖励
+
+因此调侃为aLEdar，他给的实在是太多了。
+:::
+
+### **毁灭菇**
+指鉴定道具——`Corkian Simulator`
+
+因为外表形似毁灭菇，而得名
 
 ## 公会类
 

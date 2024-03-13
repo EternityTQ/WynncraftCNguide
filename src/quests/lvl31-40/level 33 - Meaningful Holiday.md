@@ -1,7 +1,7 @@
 # Meaningful Holiday (level 33)
 <span style="font-size: 25px;">**充满意义的圣诞节**</span>
 
->圣诞节系列任务
+>圣诞节系列任务，但是现在系列任务只剩这一个了，悲
 
 1.跟<font color=00AA00>**Haily**</font>`[929 75 -1899]` 在**almuj**城谈话
 

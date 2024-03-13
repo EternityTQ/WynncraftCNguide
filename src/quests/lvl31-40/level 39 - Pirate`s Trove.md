@@ -3,7 +3,9 @@
 
 1.和<font color=00AA00>**Damiral**</font>在`[-1937 38 -4260]`谈话<br><br>
 
-2.`Toward the sunset, among the northern flowers shaded by quartz`
+2.根据依次给出的线索，到达对应地点找到黑石，激活下一个线索
+
+`Toward the sunset, among the northern flowers shaded by quartz`
 
 \>>>寻找到第一块黑石 `[-2073 35 -4607]`<br><br>
 
@@ -19,11 +21,10 @@
 
 \>>>要白天才能看到，`[-1973 71 -4540]`，在东边神像的眼睛里找到宝藏
 
->4-5其实直接连着走就行了，神像的耳朵是可以跳上去的，跳左耳。
 
 <br><br>
 
-6 把你找到宝藏位置告诉<font color=00AA00>**Damiral**</font>
+6 把你找到宝藏位置告诉<font color=00AA00>**Damiral**</font>`[-1937 38 -4260]`
 
 奖励
 

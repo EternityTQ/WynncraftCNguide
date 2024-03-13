@@ -4,7 +4,9 @@ icon: skull
 
 # The Envoy Part II (Level 89)
 <span style="font-size: 25px;">**使节 下篇**</span>
+
 1.前往Maxie的房子`[-1571 68 -2876]`
+
 :::tip
 别忘了带在前置任务中获得的房子钥匙！
 :::
@@ -17,8 +19,8 @@ icon: skull
 
 5去找<font color=00AA00>**Grandmaster Shaman**</font>并和他谈话`[-1579 147 -3313]`
 
-6打开shaman左边的木门，然后通过Grandmaster Shaman帮你搭的路进入神殿
->这地方可以直接位移过来...
+6打开他左边的木门，然后通过<font color=00AA00>**Grandmaster Shaman**</font>帮你搭的路进入神殿
+>根本不用等他搭路...可以直接位移过来...
 
 7拿到钥匙
 :::tip
@@ -39,7 +41,7 @@ icon: skull
 
 9去金库里面`[-1498 69 -2918]`跟NPC对话
 
-![进城堡右手边很容易看到](/assets/img/lvl89-2.jpg)
+![进城堡右手边很容易看到](/assets/img/lvl89-2.jpg =300x)
 
 10跟着地上的作物走 找到隐藏的机械基地`[-1444 87 -2728]`
 
@@ -71,7 +73,7 @@ icon: skull
 + 可以进入Fallen Factory副本了
 
 :::tip 热气球在哪?
-![Kandon-Beda](/assets/img/lvl89-1.jpg)
+![Kandon-Beda](/assets/img/lvl89-1.jpg =350x)
 
-![Corkus](/assets/img/lvl89-4.jpg)
+![Corkus](/assets/img/lvl89-4.jpg =350x)
 :::

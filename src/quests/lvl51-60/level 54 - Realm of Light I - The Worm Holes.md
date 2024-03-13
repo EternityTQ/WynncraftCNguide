@@ -29,7 +29,7 @@ icon: exclamation
 6.坚持一分半
 
 :::tip
-![](../../.vuepress/public/assets/img/lvl54-1.jpg)
+![](../../.vuepress/public/assets/img/lvl54-1.jpg =300x)
 你可以沿着路径上来这个地方挂机，非常安全
 :::
 
@@ -63,5 +63,5 @@ RAID副本为团本，为3-4人才能开启的副本，需要对应的Runes作�
 :::tip
 Mastery Tomes为一个强力的附属功能
 
-绝大部分Tome的来源为raid
+具体可以看看[这篇文章](/guide/advancesystem/tome.html)
 :::
