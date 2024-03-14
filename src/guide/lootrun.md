@@ -447,8 +447,8 @@ Static增益**在选择时**的数值为随机数值
 | 名称 | 特性 |
 | --- | --- |
 | <font color = FF5555>**Killstreak**</font> | 退出重登会直接清除所有层数 |
-| <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小 |
-| <font color = 5555FF>**Midas Touch**</font> | 消除增益同样会导致叠加层数减小 |
+| <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小，且没有下限 |
+| <font color = 5555FF>**Midas Touch**</font> | 消除增益同样会导致叠加层数减小，且没有下限 |
 | <font color = FFAA00>**Picky Looter**</font> | 只看真·黄信标，不看Materialism带来的附加黄信标效果 |
 
 ### 任务
@@ -538,7 +538,9 @@ rr相当于重抽一次，且不会保留你重抽前的任何物品
 
 sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局
 
-![](/assets/img/lootrun13.jpg)
+相当于保底机制
+
+![](/assets/img/lootrun13.jpg =400x)
 
 1sac为保存50%的pulls，2sac为保存75%的pulls
 
@@ -625,7 +627,8 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | <font color = 00CCFF><b>青色信标</b></font> | 最为特殊的信标！在吃到彩虹前屁用没有，但是在吃到彩虹后<br>强烈建议在吃除了蓝色信标的所有信标前都先吃一个青色信标，<br>它能让你两轮吃到三个信标的效果！非常给力的效果！|
 | <font color = "CCCCCC"> <b>白色信标</b> </font> | 抓取机会只有一次，千万不要浪费，个人强烈建议在吃了彩虹信标<br>的情况下再来吃青+白信标来大幅度提升轮次数 | 
 | <font color = 'grey'><b>灰色信标</b></font> | 比较推荐无论有没有彩虹，都最好在吃灰信标之前先吃一个青色信标，<br>现在灰信标的出率很高，因此你基本可以确保能稳定吃到青+灰信标 |
-| <font color = "red"><b>红色信标</b></font> <br> 与 <font color = 00BB00><b>绿色信标</b></font> | 这两者最好搭配着一起拿，否则会出现超时或者浪费的风险，<br>而且红绿信标是建立在提升轮次数的前提下才会去抓取的。|
+| <font color = "red"><b>红色信标</b></font>  | 最好与绿色信标平衡抓取。红信标抓取过多会存在超时风险，<br>一般可以考虑1红1绿后，通过正常轮次增加时间后再来继续抓取红信标|
+| <font color = 00BB00><b>绿色信标</b></font> | 最好与红色信标平衡抓取，如果你发现没时间了，可以直接拿绿信标硬抬一手。<br>同时，也可以尝试利用绿信标禁止怪物提升属性的功能来减小难度|
 | <font color = "555555"><b>暗灰色信标</b></font> | 如果没有特定的消诅咒任务或者<font color='AA00AA'> <b>Equilibrium</b> </font>,<br>则最好在收尾的时候拿到，否则小心翻车！<br><br>除非你对你的buff有足够的自信，如果能提前拿取<br>暗灰信标提前删掉一个信标位，也是一个不错的选择！|
 | <font color='AA00AA'> <b>紫色信标</b> </font> | 最好在收尾的阶段拿，除非有特定的任务组合可以让你无视<br>或减小诅咒带来的风险 |
 | <font color='FFCC00'> <b>黄色信标</b> </font> | 能提升本轮的战利品数量，但是对整局游戏的运营没有帮助！<br>如果你实在没有选择了，再来考虑黄色信标吧！<br><br>但是有一个特例：在你获得<font color='FFCC00'> **Cleansing Greed** </font>的情况下，<br>吃黄色信标能迅速降低你的诅咒数值！|
@@ -692,7 +695,7 @@ Bad Omen是目前中后半段能吃到数值最高的增益
 
 | 名称               | 锐评                                                                                                                         |
 |---------------------|-------------------------------------------------------------------------------------------|
-| <font color='FFCC00'> **Cleansing Greed** </font>     | 在没有其他信标配合的情况下最好别提前拿，编者会选择与<font color='FFCC00'> **Materialism** </font>进行搭配来达到无脑消紫，或者和<font color='AA00AA'> **Equilibrium** </font>搭配来确保无脑吃青紫的时候仍然保持curse在一定舒适区间内<br>但是请注意：这个任务最好不要和<font color='AA00AA'> **Cleansing Ritual** </font>一起使用，其效果结算优先于<font color='AA00AA'> **Cleansing Ritual** </font>，会导致后者无法增长回合|
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 其基本只有与<font color='FFCC00'> **Materialism** </font>搭配才能得到正常效果，否则效果有点小。   <br>但是请注意：这个任务最好不要和<font color='AA00AA'> **Cleansing Ritual** </font>一起使用，其效果结算优先于<font color='AA00AA'> **Cleansing Ritual** </font>，会导致后者无法增长回合|
 | <font color='FFCC00'> **High Roller** </font>         | 如果没有sac和end rr的话，这个任务值得去拿 |
 | <font color='FFCC00'> **Materialism** </font>         | 非常实用的效果，如果你这趟决定跑长途了，那么这个任务的收益将会大大提高(每个挑战都能有额外的奖励) |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 如果你对挑战感到吃力的话，这个任务务必一定要拿，它能很好的降低你的挑战难度，从而减小挑战失败的风险 |
@@ -701,7 +704,7 @@ Bad Omen是目前中后半段能吃到数值最高的增益
 | <font color='AA00AA'> **Inner Peace** </font>         | 如果你想提高最终奖励同时降低挑战难度，可以尝试这个任务。<br><font color='AA00AA'> **Inner Peace** </font>最大的作用就是可以使怪物抗性上限减半，非常强力。<br>需要注意的是该任务目前有BUG，重新登陆会导致效果消失。|
 | <font color='00BB00'> **Backup Beat** </font>         | 比较利于运营，但对获取奖励没有什么帮助，编者个人认为比较废。<br>如果你实在拿不到橙且一直保持3选的情况，可以选择拿这个任务来保证能吃到想要的信标|
 | <font color='00BB00'> **Stasis** </font>              | 比较利于运营，但是在<font color='FF5555'> **Gambling Beast** </font>削废的当下，这个任务似乎也没有什么必要去拿了。<br>如果你挑战打的比较拖拉的话，可以拿这个任务来降低超时风险|
-| <font color='FF5555'> **Gambling Beast** </font>      | 废，千万别拿，目前<font color='FF5555'> **Gambling Beast** </font>被砍成了时间不足直接结束游戏，这意味着你只要拿到了这个任务就等于直接宣告游戏结束！<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化 |
+| <font color='FF5555'> **Gambling Beast** </font>      | 基本上，你只要拿到了这个任务就等于直接宣告游戏结束了。<br>短途可以考虑拿取，但是如果你已经拿了双紫局，还是别拿这个任务了吧<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化 |
 | <font color='FF5555'> **Redemption** </font>          | 如果没有sac和end rr的话，这个任务值得去拿|
 | <font color='FF5555'> **Ultimate Sacrifice** </font>  | 如果你没有拿到<font color='AA00AA'> **Cleansing Ritual** </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！<br>万一你真的拿了，不用想100轮了，打完白信标给的轮次就跑路吧！<br><br>同时，如果你挑战打的比较拖拉，也请不要拿这个任务，会导致超时清除增益|
 
