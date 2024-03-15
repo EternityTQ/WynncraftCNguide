@@ -717,7 +717,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | <font color='AA00AA'> **Equilibrium** </font>         | **看到就拿！** 同样是出率垫底，只要拿到了就能直接删除蓝信标，让你无脑吃紫，非常的实用，甚至能直接吃掉暗灰信标！|
 | <font color='AA00AA'> **Inner Peace** </font>         | 如果你想提高最终奖励同时降低挑战难度，可以尝试这个任务。<br><font color='AA00AA'> **Inner Peace** </font>最大的作用就是可以使怪物抗性上限减半，非常强力。<br>需要注意的是该任务目前有BUG，重新登陆会导致效果消失。|
 | <font color='00BB00'> **Backup Beat** </font>         | 比较利于运营，但对获取奖励没有什么帮助，编者个人认为比较废。<br>如果你实在拿不到橙且一直保持3选的情况，可以选择拿这个任务来保证能吃到想要的信标|
-| <font color='00BB00'> **Stasis** </font>              | 比较利于运营，但是在<font color='FF5555'> **Gambling Beast** </font>削废的当下，这个任务似乎也没有什么必要去拿了。<br>如果你挑战打的比较拖拉的话，可以拿这个任务来降低超时风险|
+| <font color='00BB00'> **Stasis** </font>              | 比较利于运营，与<font color='FF5555'> **Gambling Beast** </font>配合较好。<br>如果你挑战打的比较拖拉的话，可以拿这个任务来降低超时风险|
 | <font color='FF5555'> **Gambling Beast** </font>      | 基本上，你只要拿到了这个任务就等于直接宣告游戏结束了。<br>短途可以考虑拿取，但是如果你已经拿了双紫局，还是别拿这个任务了吧<br><br>但是有个小例外，如果这个任务条件是Curse而你正好没有吃紫的需要，你可以选择拿着这个任务卡着不完成，期间不停吃绿信标，到你觉得合适的时间时吃Curse放闸，以此来达到收益最大化 |
 | <font color='FF5555'> **Redemption** </font>          | 如果没有sac和end rr的话，这个任务值得去拿|
 | <font color='FF5555'> **Ultimate Sacrifice** </font>  | 如果你没有拿到<font color='AA00AA'> **Cleansing Ritual** </font>且这一趟决定靠红绿信标跑长途时，这个任务千万别拿，对你的游戏体验具有非常大的影响！<br>万一你真的拿了，不用想100轮了，打完白信标给的轮次就跑路吧！<br><br>同时，如果你挑战打的比较拖拉，也请不要拿这个任务，会导致超时清除增益|
