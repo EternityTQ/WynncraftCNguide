@@ -481,7 +481,7 @@ Static增益**在选择时**的数值为随机数值
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启Flying Chest后，随机清除一个已有的诅咒                                                                              |
 | <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)                                                                                                            |
 | <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现                                  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 增益拥有50%额外效果                                                                                                      |
+| <font color='5555FF'> **Orphion's Grace** </font>     | 增益增加50%额外效果                                                                                                      |
 | <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消费1个诅咒换取1个额外挑战轮数                                            |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每次得到1个诅咒后，获得1个随机增益                                                                                         |
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半                                                                                                      |
@@ -513,7 +513,7 @@ Ultimate Sacrifice的实际效果是：
 
 若当前时间与标记时间的距离大于2min(无论是大于还是小于)，则会再次打上新的标记
 
-一次性扣除多个2min，只会触发一次标记(例如，通过赌博野兽扣除了4min的时间，只会消除一次增益)
+一次性扣除多个2min，只会触发一次标记(例如，通过赌博野兽扣除了5min的时间，只会消除一次增益)
 :::
 
 
@@ -925,8 +925,23 @@ SE主要的难点挑战如下：
 
 **全是难点**
 
+#### **赌博要点**
 
+rr次数非常珍贵，你应该根据你当前抽到的物品与pulls数来决定是否r掉
 
+这里推荐的收与赌博是根据编者个人主观的想法推荐的，你也可以根据你自己的想法来决定什么时候该赌博
+
+但是请注意，赌狗死路一条
+
+| pulls数 | 1-10le | 10+ le | 1stx- Mythic | 1-2 stx Mythic | 2-4 stx Mythic | 4-10 stx Mythic | 10+ stx Mythic |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 0\~15 | 收 | 收 | 收 | 收 | 收 | 收 | 收 |
+| \~36 | 可收 | 收 | 收 | 收 | 收 | 收 | 收 |
+| \~54 | 赌 | 可收 | 收 | 收 | 收 | 收 | 收 |
+| \~71  | 赌 | 赌 | 可收 | 收 | 收 | 收 | 收 |
+| \~100 | 赌 | 赌 | 赌 | 可收 | 收 | 收 | 收 |
+| \~200 | 赌 | 赌 | 赌 | 赌 | 可收 | 收 | 收 |
+| 200+ | 赌 | 赌 | 赌 | 赌 | 赌 | 可收 | 收 |
 
 
 
