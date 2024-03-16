@@ -71,7 +71,7 @@ Item Identifier的标志是末影之眼+紫色地毯
 
 ## Powder Master
 
-关于粉末的机制，你可以跳到[这一章](/guide/powder.html)
+关于粉末的机制，你可以跳到[这一章](/guide/basesystem/powder.html)
 
 :::tip
 Powder Master的标志是高级雷粉+橙黄色地毯
