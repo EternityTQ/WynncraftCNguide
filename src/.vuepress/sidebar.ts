@@ -94,7 +94,7 @@ export default sidebar({
         },
         {
           text: "高价值任务",
-          icon: "book",
+          icon: "money-bill",
           link: "valued/valued_quest.md",
           collapsible: true,
         },

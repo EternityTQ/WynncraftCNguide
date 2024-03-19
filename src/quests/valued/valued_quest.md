@@ -32,6 +32,5 @@ icon: money-bill
 | [The Feathers Fly Part II (level 93)](/quests/lvl91-100/level%2093%20-%20The%20Feathers%20Fly%20Part%20II.html) | 12288 | |
 | [Dwarves and Doguns Part IV (level 94)](/quests/lvl91-100/level%2094%20-%20Dwarves%20and%20Doguns%20Part%20IV.html) | 20480 | |
 | [The Breaking Point (level 97)](/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html) | 12288 | 前置任务较多，慎做 |
-| [The Hero of Gavel (level 99)](/quests/lvl91-100/level%2099%20-%20The%20Hero%20of%20Gavel.html) | 20480 | |
 | [A Journey Beyond ( level 100 )](/quests/lvl91-100/level%20100%20-%20A%20Journey%20Beyond.html) | 12288 | |
 | [A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html) | 20480 | |
