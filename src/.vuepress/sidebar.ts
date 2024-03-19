@@ -92,6 +92,12 @@ export default sidebar({
           children: "structure",
           collapsible: true,
         },
+        {
+          text: "高价值任务",
+          icon: "book",
+          link: "valued/valued_quest.md",
+          collapsible: true,
+        },
       ],
     },
   ],

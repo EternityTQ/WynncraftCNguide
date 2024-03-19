@@ -16,7 +16,7 @@ Wynncraft中，目前老外群体基本以Discord为主要交流平台
 ### Lemon Hub
 <https://discord.gg/tU7eaKAWb2>
 
-为国内最大公会CNM的Discord，内含非常实用的查数据bot，值得添加
+<p>为国内最大<span style="background-color: black; color: black;">尸体</span>公会CNM的Discord，内含非常实用的查数据bot，值得添加</p>
 
 :::tip 如何使用bot?
 在加入Discord后，你可在任一频道内通过在聊天框内输入`/`，即可查看使用说明
@@ -33,6 +33,7 @@ Wynncraft中，目前老外群体基本以Discord为主要交流平台
 + /item pricecheck [F3 Mythic Item]：给指定**神话物品**自动估价
 + /item lootpool：查看本周LR奖池
 + /player \[ID\]：查看指定玩家的信息
+
 ## QQ
 目前有两个国人主要的交流群
 
