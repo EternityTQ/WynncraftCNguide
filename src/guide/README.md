@@ -9,6 +9,9 @@ icon: lightbulb
 
 请从左侧侧边栏进入文章
 
+网站首选IP：http://wynn.tqkhn.love/
+备用IP：http://wcg.tqkhn.love/ (可能较差)
+
 :::tip 如何使用本攻略？
 本部分主要是讲解各类机制
 
