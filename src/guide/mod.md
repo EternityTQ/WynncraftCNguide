@@ -67,6 +67,18 @@ Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD
 
 :::
 
+:::tip 如何修复小地图黑屏的BUG？
+这个问题是因为中国玩家无法正常下载到Wynntils的资源
+
+你只需要同时下载[这个MOD](https://modrinth.com/mod/wynntils-url-redirector)即可
+
+正常情况下，安装完后即可使用
+
+如果还是有问题，在游戏内输入`/wynntils reloadcaches`来刷新缓存
+
+可以多次使用，但每次请间隔1-2分钟
+:::
+
 ### 快速截图
 
 这个很多人不知道

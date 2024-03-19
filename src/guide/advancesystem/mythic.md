@@ -172,9 +172,12 @@ super idol 的笑容，都没你的甜
 
 别名：电棍
 
+:::details meme
 ![](/assets/img/otto2.jpg =150x)
+:::
 
 帅，otto
+
 
 输出最高战士神话 但是otto
 
@@ -664,7 +667,7 @@ slider以1ws的劣势惜败archangel
 
 >刺客从战士那借的武器 忘记还了
 
->长得像hero，应该挺帅，惜是刺客武器
+>长得像hero，应该挺帅，可惜是刺客武器
 
 >对战士拙劣的模仿
 
