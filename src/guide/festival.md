@@ -4,7 +4,7 @@ icon: ice-cream
 ---
 
 :::tip 当前节日
-![](/assets/img/fes_hero_2024)
+![](/assets/img/fes_hero_2024.jpg)
 
 2024英雄节
 
