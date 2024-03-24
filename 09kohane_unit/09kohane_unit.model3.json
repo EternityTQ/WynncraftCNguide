@@ -2729,15 +2729,10 @@
           ]
         }
       ],
-      "Idle": [
+      "Start": [
         {
-          "Name": "闲置",
           "File": "motions/w-animal-nod01.motion3.json",
-          "Expression": "笑"
-        },
-        {
-          "Name": "笑",
-          "File": "motions/face_smile_01.motion3.json"
+          "Expression": "face_smile_01.exp3"
         }
       ]
     },
@@ -3037,7 +3032,7 @@
     {
       "Name": "放歌",
       "Id": "Torso_L",
-      "Motion": "歌单"
+      "Motion": "放歌确认"
     },
     {
       "Name": "设置",
