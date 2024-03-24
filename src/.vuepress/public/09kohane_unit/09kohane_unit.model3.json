@@ -1,0 +1,3047 @@
+{
+  "Version": 3,
+  "Type": 0,
+  "FileReferences": {
+    "Moc": "09kohane_unit.moc3",
+    "Textures": [
+      "09kohane_unit.2048/texture_00.png"
+    ],
+    "Physics": "09kohane_unit.physics3.json",
+    "PhysicsV2": {
+      "File": "09kohane_unit.physics3.json"
+    },
+    "Motions": {
+      "w-adult-blushed01": [
+        {
+          "File": "motions/w-adult-blushed01.motion3.json"
+        }
+      ],
+      "w-adult-blushed02": [
+        {
+          "File": "motions/w-adult-blushed02.motion3.json"
+        }
+      ],
+      "w-adult-blushed03": [
+        {
+          "File": "motions/w-adult-blushed03.motion3.json"
+        }
+      ],
+      "w-adult-blushed04": [
+        {
+          "File": "motions/w-adult-blushed04.motion3.json"
+        }
+      ],
+      "w-adult-delicious01": [
+        {
+          "File": "motions/w-adult-delicious01.motion3.json"
+        }
+      ],
+      "w-adult-delicious02": [
+        {
+          "File": "motions/w-adult-delicious02.motion3.json"
+        }
+      ],
+      "w-adult-delicious03": [
+        {
+          "File": "motions/w-adult-delicious03.motion3.json"
+        }
+      ],
+      "w-adult-glad01": [
+        {
+          "File": "motions/w-adult-glad01.motion3.json"
+        }
+      ],
+      "w-adult-glad02": [
+        {
+          "File": "motions/w-adult-glad02.motion3.json"
+        }
+      ],
+      "w-adult-glad03": [
+        {
+          "File": "motions/w-adult-glad03.motion3.json"
+        }
+      ],
+      "w-adult-nod01": [
+        {
+          "File": "motions/w-adult-nod01.motion3.json"
+        }
+      ],
+      "w-adult-nod02": [
+        {
+          "File": "motions/w-adult-nod02.motion3.json"
+        }
+      ],
+      "w-adult-nod03": [
+        {
+          "File": "motions/w-adult-nod03.motion3.json"
+        }
+      ],
+      "w-adult-nod04": [
+        {
+          "File": "motions/w-adult-nod04.motion3.json"
+        }
+      ],
+      "w-adult-nod05": [
+        {
+          "File": "motions/w-adult-nod05.motion3.json"
+        }
+      ],
+      "w-adult-posenod02": [
+        {
+          "File": "motions/w-adult-posenod02.motion3.json"
+        }
+      ],
+      "w-adult-posetilthead01": [
+        {
+          "File": "motions/w-adult-posetilthead01.motion3.json"
+        }
+      ],
+      "w-adult-posetilthead03": [
+        {
+          "File": "motions/w-adult-posetilthead03.motion3.json"
+        }
+      ],
+      "w-adult-posetrouble02": [
+        {
+          "File": "motions/w-adult-posetrouble02.motion3.json"
+        }
+      ],
+      "w-adult-relief01": [
+        {
+          "File": "motions/w-adult-relief01.motion3.json"
+        }
+      ],
+      "w-adult-shakehand01": [
+        {
+          "File": "motions/w-adult-shakehand01.motion3.json"
+        }
+      ],
+      "w-adult-shakehead01": [
+        {
+          "File": "motions/w-adult-shakehead01.motion3.json"
+        }
+      ],
+      "w-adult-think01": [
+        {
+          "File": "motions/w-adult-think01.motion3.json"
+        }
+      ],
+      "w-adult-think02": [
+        {
+          "File": "motions/w-adult-think02.motion3.json"
+        }
+      ],
+      "w-adult-tilthead01": [
+        {
+          "File": "motions/w-adult-tilthead01.motion3.json"
+        }
+      ],
+      "w-adult-tilthead02": [
+        {
+          "File": "motions/w-adult-tilthead02.motion3.json"
+        }
+      ],
+      "w-adult-tilthead03": [
+        {
+          "File": "motions/w-adult-tilthead03.motion3.json"
+        }
+      ],
+      "w-adult-tilthead04": [
+        {
+          "File": "motions/w-adult-tilthead04.motion3.json"
+        }
+      ],
+      "w-adult-tilthead05": [
+        {
+          "File": "motions/w-adult-tilthead05.motion3.json"
+        }
+      ],
+      "w-adult-trouble01": [
+        {
+          "File": "motions/w-adult-trouble01.motion3.json"
+        }
+      ],
+      "w-adult-trouble02": [
+        {
+          "File": "motions/w-adult-trouble02.motion3.json"
+        }
+      ],
+      "w-animal-fidget01": [
+        {
+          "File": "motions/w-animal-fidget01.motion3.json"
+        }
+      ],
+      "w-animal-fidget02": [
+        {
+          "File": "motions/w-animal-fidget02.motion3.json"
+        }
+      ],
+      "w-animal-lookaway01": [
+        {
+          "File": "motions/w-animal-lookaway01.motion3.json"
+        }
+      ],
+      "w-animal-nod01": [
+        {
+          "File": "motions/w-animal-nod01.motion3.json"
+        }
+      ],
+      "w-animal-nod02": [
+        {
+          "File": "motions/w-animal-nod02.motion3.json"
+        }
+      ],
+      "w-animal-nodtilthead0101": [
+        {
+          "File": "motions/w-animal-nodtilthead0101.motion3.json"
+        }
+      ],
+      "w-animal-posenod01": [
+        {
+          "File": "motions/w-animal-posenod01.motion3.json"
+        }
+      ],
+      "w-animal-shy01": [
+        {
+          "File": "motions/w-animal-shy01.motion3.json"
+        }
+      ],
+      "w-animal-tilthead01": [
+        {
+          "File": "motions/w-animal-tilthead01.motion3.json"
+        }
+      ],
+      "w-animal-tiltheadnod0101": [
+        {
+          "File": "motions/w-animal-tiltheadnod0101.motion3.json"
+        }
+      ],
+      "w-animalnormal-nodtilthead0101": [
+        {
+          "File": "motions/w-animalnormal-nodtilthead0101.motion3.json"
+        }
+      ],
+      "w-cool-angry01": [
+        {
+          "File": "motions/w-cool-angry01.motion3.json"
+        }
+      ],
+      "w-cool-blushed01": [
+        {
+          "File": "motions/w-cool-blushed01.motion3.json"
+        }
+      ],
+      "w-cool-forward01": [
+        {
+          "File": "motions/w-cool-forward01.motion3.json"
+        }
+      ],
+      "w-cool-forward02": [
+        {
+          "File": "motions/w-cool-forward02.motion3.json"
+        }
+      ],
+      "w-cool-glad01": [
+        {
+          "File": "motions/w-cool-glad01.motion3.json"
+        }
+      ],
+      "w-cool-nod01": [
+        {
+          "File": "motions/w-cool-nod01.motion3.json"
+        }
+      ],
+      "w-cool-nod02": [
+        {
+          "File": "motions/w-cool-nod02.motion3.json"
+        }
+      ],
+      "w-cool-nod03": [
+        {
+          "File": "motions/w-cool-nod03.motion3.json"
+        }
+      ],
+      "w-cool-nodtilthead0102": [
+        {
+          "File": "motions/w-cool-nodtilthead0102.motion3.json"
+        }
+      ],
+      "w-cool-posenod01": [
+        {
+          "File": "motions/w-cool-posenod01.motion3.json"
+        }
+      ],
+      "w-cool-posenod02": [
+        {
+          "File": "motions/w-cool-posenod02.motion3.json"
+        }
+      ],
+      "w-cool-posenod03": [
+        {
+          "File": "motions/w-cool-posenod03.motion3.json"
+        }
+      ],
+      "w-cool-posesad01": [
+        {
+          "File": "motions/w-cool-posesad01.motion3.json"
+        }
+      ],
+      "w-cool-posetilthead03": [
+        {
+          "File": "motions/w-cool-posetilthead03.motion3.json"
+        }
+      ],
+      "w-cool-posetilthead04": [
+        {
+          "File": "motions/w-cool-posetilthead04.motion3.json"
+        }
+      ],
+      "w-cool-sad01": [
+        {
+          "File": "motions/w-cool-sad01.motion3.json"
+        }
+      ],
+      "w-cool-shakehand01": [
+        {
+          "File": "motions/w-cool-shakehand01.motion3.json"
+        }
+      ],
+      "w-cool-shakehead01": [
+        {
+          "File": "motions/w-cool-shakehead01.motion3.json"
+        }
+      ],
+      "w-cool-shakehead02": [
+        {
+          "File": "motions/w-cool-shakehead02.motion3.json"
+        }
+      ],
+      "w-cool-sigh01": [
+        {
+          "File": "motions/w-cool-sigh01.motion3.json"
+        }
+      ],
+      "w-cool-sigh02": [
+        {
+          "File": "motions/w-cool-sigh02.motion3.json"
+        }
+      ],
+      "w-cool-tilthead01": [
+        {
+          "File": "motions/w-cool-tilthead01.motion3.json"
+        }
+      ],
+      "w-cool-tilthead0102": [
+        {
+          "File": "motions/w-cool-tilthead0102.motion3.json"
+        }
+      ],
+      "w-cool-tilthead02": [
+        {
+          "File": "motions/w-cool-tilthead02.motion3.json"
+        }
+      ],
+      "w-cool-tilthead0201": [
+        {
+          "File": "motions/w-cool-tilthead0201.motion3.json"
+        }
+      ],
+      "w-cool-tilthead0204": [
+        {
+          "File": "motions/w-cool-tilthead0204.motion3.json"
+        }
+      ],
+      "w-cool-tilthead03": [
+        {
+          "File": "motions/w-cool-tilthead03.motion3.json"
+        }
+      ],
+      "w-cool-tilthead04": [
+        {
+          "File": "motions/w-cool-tilthead04.motion3.json"
+        }
+      ],
+      "w-cool-tilthead0402": [
+        {
+          "File": "motions/w-cool-tilthead0402.motion3.json"
+        }
+      ],
+      "w-cool-tiltheadnod0201": [
+        {
+          "File": "motions/w-cool-tiltheadnod0201.motion3.json"
+        }
+      ],
+      "w-cool-trouble01": [
+        {
+          "File": "motions/w-cool-trouble01.motion3.json"
+        }
+      ],
+      "w-cute-angry01": [
+        {
+          "File": "motions/w-cute-angry01.motion3.json"
+        }
+      ],
+      "w-cute-delicious01": [
+        {
+          "File": "motions/w-cute-delicious01.motion3.json"
+        }
+      ],
+      "w-cute-delicious02": [
+        {
+          "File": "motions/w-cute-delicious02.motion3.json"
+        }
+      ],
+      "w-cute-fidget01": [
+        {
+          "File": "motions/w-cute-fidget01.motion3.json"
+        }
+      ],
+      "w-cute-forward01": [
+        {
+          "File": "motions/w-cute-forward01.motion3.json"
+        }
+      ],
+      "w-cute-forward02": [
+        {
+          "File": "motions/w-cute-forward02.motion3.json"
+        }
+      ],
+      "w-cute-forward03": [
+        {
+          "File": "motions/w-cute-forward03.motion3.json"
+        }
+      ],
+      "w-cute-forward03r": [
+        {
+          "File": "motions/w-cute-forward03r.motion3.json"
+        }
+      ],
+      "w-cute-glad01": [
+        {
+          "File": "motions/w-cute-glad01.motion3.json"
+        }
+      ],
+      "w-cute-glad02": [
+        {
+          "File": "motions/w-cute-glad02.motion3.json"
+        }
+      ],
+      "w-cute-glad03": [
+        {
+          "File": "motions/w-cute-glad03.motion3.json"
+        }
+      ],
+      "w-cute-glad04": [
+        {
+          "File": "motions/w-cute-glad04.motion3.json"
+        }
+      ],
+      "w-cute-glad05": [
+        {
+          "File": "motions/w-cute-glad05.motion3.json"
+        }
+      ],
+      "w-cute-glad06": [
+        {
+          "File": "motions/w-cute-glad06.motion3.json"
+        }
+      ],
+      "w-cute-glad06r": [
+        {
+          "File": "motions/w-cute-glad06r.motion3.json"
+        }
+      ],
+      "w-cute-nod01": [
+        {
+          "File": "motions/w-cute-nod01.motion3.json"
+        }
+      ],
+      "w-cute-nod02": [
+        {
+          "File": "motions/w-cute-nod02.motion3.json"
+        }
+      ],
+      "w-cute-nod03": [
+        {
+          "File": "motions/w-cute-nod03.motion3.json"
+        }
+      ],
+      "w-cute-nod04": [
+        {
+          "File": "motions/w-cute-nod04.motion3.json"
+        }
+      ],
+      "w-cute-nod05": [
+        {
+          "File": "motions/w-cute-nod05.motion3.json"
+        }
+      ],
+      "w-cute-nod06": [
+        {
+          "File": "motions/w-cute-nod06.motion3.json"
+        }
+      ],
+      "w-cute-poseforward02": [
+        {
+          "File": "motions/w-cute-poseforward02.motion3.json"
+        }
+      ],
+      "w-cute-posenod01": [
+        {
+          "File": "motions/w-cute-posenod01.motion3.json"
+        }
+      ],
+      "w-cute-posenod02": [
+        {
+          "File": "motions/w-cute-posenod02.motion3.json"
+        }
+      ],
+      "w-cute-posetilthead04": [
+        {
+          "File": "motions/w-cute-posetilthead04.motion3.json"
+        }
+      ],
+      "w-cute-posetilthead07": [
+        {
+          "File": "motions/w-cute-posetilthead07.motion3.json"
+        }
+      ],
+      "w-cute-posetilthead08": [
+        {
+          "File": "motions/w-cute-posetilthead08.motion3.json"
+        }
+      ],
+      "w-cute-shakehead01": [
+        {
+          "File": "motions/w-cute-shakehead01.motion3.json"
+        }
+      ],
+      "w-cute-shakehead02": [
+        {
+          "File": "motions/w-cute-shakehead02.motion3.json"
+        }
+      ],
+      "w-cute-shakehead03": [
+        {
+          "File": "motions/w-cute-shakehead03.motion3.json"
+        }
+      ],
+      "w-cute-shy01": [
+        {
+          "File": "motions/w-cute-shy01.motion3.json"
+        }
+      ],
+      "w-cute-shy02": [
+        {
+          "File": "motions/w-cute-shy02.motion3.json"
+        }
+      ],
+      "w-cute-shy03": [
+        {
+          "File": "motions/w-cute-shy03.motion3.json"
+        }
+      ],
+      "w-cute-sleep01": [
+        {
+          "File": "motions/w-cute-sleep01.motion3.json"
+        }
+      ],
+      "w-cute-sleep02": [
+        {
+          "File": "motions/w-cute-sleep02.motion3.json"
+        }
+      ],
+      "w-cute-smug01": [
+        {
+          "File": "motions/w-cute-smug01.motion3.json"
+        }
+      ],
+      "w-cute-tilthead01": [
+        {
+          "File": "motions/w-cute-tilthead01.motion3.json"
+        }
+      ],
+      "w-cute-tilthead02": [
+        {
+          "File": "motions/w-cute-tilthead02.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0203": [
+        {
+          "File": "motions/w-cute-tilthead0203.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0207": [
+        {
+          "File": "motions/w-cute-tilthead0207.motion3.json"
+        }
+      ],
+      "w-cute-tilthead03": [
+        {
+          "File": "motions/w-cute-tilthead03.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0302": [
+        {
+          "File": "motions/w-cute-tilthead0302.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0308": [
+        {
+          "File": "motions/w-cute-tilthead0308.motion3.json"
+        }
+      ],
+      "w-cute-tilthead04": [
+        {
+          "File": "motions/w-cute-tilthead04.motion3.json"
+        }
+      ],
+      "w-cute-tilthead05": [
+        {
+          "File": "motions/w-cute-tilthead05.motion3.json"
+        }
+      ],
+      "w-cute-tilthead06": [
+        {
+          "File": "motions/w-cute-tilthead06.motion3.json"
+        }
+      ],
+      "w-cute-tilthead07": [
+        {
+          "File": "motions/w-cute-tilthead07.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0702": [
+        {
+          "File": "motions/w-cute-tilthead0702.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0708": [
+        {
+          "File": "motions/w-cute-tilthead0708.motion3.json"
+        }
+      ],
+      "w-cute-tilthead08": [
+        {
+          "File": "motions/w-cute-tilthead08.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0803": [
+        {
+          "File": "motions/w-cute-tilthead0803.motion3.json"
+        }
+      ],
+      "w-cute-tilthead0807": [
+        {
+          "File": "motions/w-cute-tilthead0807.motion3.json"
+        }
+      ],
+      "w-cute-tilthead09": [
+        {
+          "File": "motions/w-cute-tilthead09.motion3.json"
+        }
+      ],
+      "w-cute-wink02": [
+        {
+          "File": "motions/w-cute-wink02.motion3.json"
+        }
+      ],
+      "w-cutehappy-shakeheadsad0201": [
+        {
+          "File": "motions/w-cutehappy-shakeheadsad0201.motion3.json"
+        }
+      ],
+      "w-cutenormal-tilthead0705": [
+        {
+          "File": "motions/w-cutenormal-tilthead0705.motion3.json"
+        }
+      ],
+      "w-happy-angry01": [
+        {
+          "File": "motions/w-happy-angry01.motion3.json"
+        }
+      ],
+      "w-happy-angry02": [
+        {
+          "File": "motions/w-happy-angry02.motion3.json"
+        }
+      ],
+      "w-happy-forward01": [
+        {
+          "File": "motions/w-happy-forward01.motion3.json"
+        }
+      ],
+      "w-happy-forward02": [
+        {
+          "File": "motions/w-happy-forward02.motion3.json"
+        }
+      ],
+      "w-happy-glad01": [
+        {
+          "File": "motions/w-happy-glad01.motion3.json"
+        }
+      ],
+      "w-happy-glad02": [
+        {
+          "File": "motions/w-happy-glad02.motion3.json"
+        }
+      ],
+      "w-happy-lookaway01": [
+        {
+          "File": "motions/w-happy-lookaway01.motion3.json"
+        }
+      ],
+      "w-happy-nod01": [
+        {
+          "File": "motions/w-happy-nod01.motion3.json"
+        }
+      ],
+      "w-happy-nod02": [
+        {
+          "File": "motions/w-happy-nod02.motion3.json"
+        }
+      ],
+      "w-happy-nod03": [
+        {
+          "File": "motions/w-happy-nod03.motion3.json"
+        }
+      ],
+      "w-happy-nod04": [
+        {
+          "File": "motions/w-happy-nod04.motion3.json"
+        }
+      ],
+      "w-happy-nod05": [
+        {
+          "File": "motions/w-happy-nod05.motion3.json"
+        }
+      ],
+      "w-happy-poseglad02": [
+        {
+          "File": "motions/w-happy-poseglad02.motion3.json"
+        }
+      ],
+      "w-happy-posenod03": [
+        {
+          "File": "motions/w-happy-posenod03.motion3.json"
+        }
+      ],
+      "w-happy-posetilthead02": [
+        {
+          "File": "motions/w-happy-posetilthead02.motion3.json"
+        }
+      ],
+      "w-happy-purpose01": [
+        {
+          "File": "motions/w-happy-purpose01.motion3.json"
+        }
+      ],
+      "w-happy-sad01": [
+        {
+          "File": "motions/w-happy-sad01.motion3.json"
+        }
+      ],
+      "w-happy-sad02": [
+        {
+          "File": "motions/w-happy-sad02.motion3.json"
+        }
+      ],
+      "w-happy-shakehand01": [
+        {
+          "File": "motions/w-happy-shakehand01.motion3.json"
+        }
+      ],
+      "w-happy-shakehead01": [
+        {
+          "File": "motions/w-happy-shakehead01.motion3.json"
+        }
+      ],
+      "w-happy-shakehead02": [
+        {
+          "File": "motions/w-happy-shakehead02.motion3.json"
+        }
+      ],
+      "w-happy-shakehead03": [
+        {
+          "File": "motions/w-happy-shakehead03.motion3.json"
+        }
+      ],
+      "w-happy-sigh01": [
+        {
+          "File": "motions/w-happy-sigh01.motion3.json"
+        }
+      ],
+      "w-happy-tilthead01": [
+        {
+          "File": "motions/w-happy-tilthead01.motion3.json"
+        }
+      ],
+      "w-happy-tilthead02": [
+        {
+          "File": "motions/w-happy-tilthead02.motion3.json"
+        }
+      ],
+      "w-happy-tilthead03": [
+        {
+          "File": "motions/w-happy-tilthead03.motion3.json"
+        }
+      ],
+      "w-happy-tilthead04": [
+        {
+          "File": "motions/w-happy-tilthead04.motion3.json"
+        }
+      ],
+      "w-happy-wandahoi01": [
+        {
+          "File": "motions/w-happy-wandahoi01.motion3.json"
+        }
+      ],
+      "w-normal-angry01": [
+        {
+          "File": "motions/w-normal-angry01.motion3.json"
+        }
+      ],
+      "w-normal-armescape01l": [
+        {
+          "File": "motions/w-normal-armescape01l.motion3.json"
+        }
+      ],
+      "w-normal-armescape01n": [
+        {
+          "File": "motions/w-normal-armescape01n.motion3.json"
+        }
+      ],
+      "w-normal-armescape01r": [
+        {
+          "File": "motions/w-normal-armescape01r.motion3.json"
+        }
+      ],
+      "w-normal-armescape02l": [
+        {
+          "File": "motions/w-normal-armescape02l.motion3.json"
+        }
+      ],
+      "w-normal-armescape02n": [
+        {
+          "File": "motions/w-normal-armescape02n.motion3.json"
+        }
+      ],
+      "w-normal-armescape02r": [
+        {
+          "File": "motions/w-normal-armescape02r.motion3.json"
+        }
+      ],
+      "w-normal-armescape03ll": [
+        {
+          "File": "motions/w-normal-armescape03ll.motion3.json"
+        }
+      ],
+      "w-normal-armescape03ln": [
+        {
+          "File": "motions/w-normal-armescape03ln.motion3.json"
+        }
+      ],
+      "w-normal-armescape03lr": [
+        {
+          "File": "motions/w-normal-armescape03lr.motion3.json"
+        }
+      ],
+      "w-normal-armescape03rl": [
+        {
+          "File": "motions/w-normal-armescape03rl.motion3.json"
+        }
+      ],
+      "w-normal-armescape03rn": [
+        {
+          "File": "motions/w-normal-armescape03rn.motion3.json"
+        }
+      ],
+      "w-normal-armescape03rr": [
+        {
+          "File": "motions/w-normal-armescape03rr.motion3.json"
+        }
+      ],
+      "w-normal-armescape04ll": [
+        {
+          "File": "motions/w-normal-armescape04ll.motion3.json"
+        }
+      ],
+      "w-normal-armescape04ln": [
+        {
+          "File": "motions/w-normal-armescape04ln.motion3.json"
+        }
+      ],
+      "w-normal-armescape04lr": [
+        {
+          "File": "motions/w-normal-armescape04lr.motion3.json"
+        }
+      ],
+      "w-normal-armescape04rl": [
+        {
+          "File": "motions/w-normal-armescape04rl.motion3.json"
+        }
+      ],
+      "w-normal-armescape04rn": [
+        {
+          "File": "motions/w-normal-armescape04rn.motion3.json"
+        }
+      ],
+      "w-normal-armescape04rr": [
+        {
+          "File": "motions/w-normal-armescape04rr.motion3.json"
+        }
+      ],
+      "w-normal-blushed01": [
+        {
+          "File": "motions/w-normal-blushed01.motion3.json"
+        }
+      ],
+      "w-normal-fidget01": [
+        {
+          "File": "motions/w-normal-fidget01.motion3.json"
+        }
+      ],
+      "w-normal-forward01": [
+        {
+          "File": "motions/w-normal-forward01.motion3.json"
+        }
+      ],
+      "w-normal-forward02": [
+        {
+          "File": "motions/w-normal-forward02.motion3.json"
+        }
+      ],
+      "w-normal-forward03": [
+        {
+          "File": "motions/w-normal-forward03.motion3.json"
+        }
+      ],
+      "w-normal-glad01": [
+        {
+          "File": "motions/w-normal-glad01.motion3.json"
+        }
+      ],
+      "w-normal-glad02": [
+        {
+          "File": "motions/w-normal-glad02.motion3.json"
+        }
+      ],
+      "w-normal-greeting01": [
+        {
+          "File": "motions/w-normal-greeting01.motion3.json"
+        }
+      ],
+      "w-normal-lookaway01": [
+        {
+          "File": "motions/w-normal-lookaway01.motion3.json"
+        }
+      ],
+      "w-normal-nod01": [
+        {
+          "File": "motions/w-normal-nod01.motion3.json"
+        }
+      ],
+      "w-normal-nod01r": [
+        {
+          "File": "motions/w-normal-nod01r.motion3.json"
+        }
+      ],
+      "w-normal-nod02": [
+        {
+          "File": "motions/w-normal-nod02.motion3.json"
+        }
+      ],
+      "w-normal-nod03": [
+        {
+          "File": "motions/w-normal-nod03.motion3.json"
+        }
+      ],
+      "w-normal-nod04": [
+        {
+          "File": "motions/w-normal-nod04.motion3.json"
+        }
+      ],
+      "w-normal-nod05": [
+        {
+          "File": "motions/w-normal-nod05.motion3.json"
+        }
+      ],
+      "w-normal-nod06": [
+        {
+          "File": "motions/w-normal-nod06.motion3.json"
+        }
+      ],
+      "w-normal-pose01": [
+        {
+          "File": "motions/w-normal-pose01.motion3.json"
+        }
+      ],
+      "w-normal-pose02": [
+        {
+          "File": "motions/w-normal-pose02.motion3.json"
+        }
+      ],
+      "w-normal-pose03": [
+        {
+          "File": "motions/w-normal-pose03.motion3.json"
+        }
+      ],
+      "w-normal-pose04": [
+        {
+          "File": "motions/w-normal-pose04.motion3.json"
+        }
+      ],
+      "w-normal-pose05": [
+        {
+          "File": "motions/w-normal-pose05.motion3.json"
+        }
+      ],
+      "w-normal-pose06": [
+        {
+          "File": "motions/w-normal-pose06.motion3.json"
+        }
+      ],
+      "w-normal-posenod02": [
+        {
+          "File": "motions/w-normal-posenod02.motion3.json"
+        }
+      ],
+      "w-normal-posetrouble02": [
+        {
+          "File": "motions/w-normal-posetrouble02.motion3.json"
+        }
+      ],
+      "w-normal-purpose01": [
+        {
+          "File": "motions/w-normal-purpose01.motion3.json"
+        }
+      ],
+      "w-normal-relief01": [
+        {
+          "File": "motions/w-normal-relief01.motion3.json"
+        }
+      ],
+      "w-normal-sad01": [
+        {
+          "File": "motions/w-normal-sad01.motion3.json"
+        }
+      ],
+      "w-normal-shakehead01": [
+        {
+          "File": "motions/w-normal-shakehead01.motion3.json"
+        }
+      ],
+      "w-normal-shakehead01r": [
+        {
+          "File": "motions/w-normal-shakehead01r.motion3.json"
+        }
+      ],
+      "w-normal-shakehead02": [
+        {
+          "File": "motions/w-normal-shakehead02.motion3.json"
+        }
+      ],
+      "w-normal-shakehead03": [
+        {
+          "File": "motions/w-normal-shakehead03.motion3.json"
+        }
+      ],
+      "w-normal-shakehead04": [
+        {
+          "File": "motions/w-normal-shakehead04.motion3.json"
+        }
+      ],
+      "w-normal-shakehead05": [
+        {
+          "File": "motions/w-normal-shakehead05.motion3.json"
+        }
+      ],
+      "w-normal-shakehead06": [
+        {
+          "File": "motions/w-normal-shakehead06.motion3.json"
+        }
+      ],
+      "w-normal-shakehead06r": [
+        {
+          "File": "motions/w-normal-shakehead06r.motion3.json"
+        }
+      ],
+      "w-normal-shy01": [
+        {
+          "File": "motions/w-normal-shy01.motion3.json"
+        }
+      ],
+      "w-normal-sigh01": [
+        {
+          "File": "motions/w-normal-sigh01.motion3.json"
+        }
+      ],
+      "w-normal-tilthead01": [
+        {
+          "File": "motions/w-normal-tilthead01.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0103": [
+        {
+          "File": "motions/w-normal-tilthead0103.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0106": [
+        {
+          "File": "motions/w-normal-tilthead0106.motion3.json"
+        }
+      ],
+      "w-normal-tilthead01r": [
+        {
+          "File": "motions/w-normal-tilthead01r.motion3.json"
+        }
+      ],
+      "w-normal-tilthead02": [
+        {
+          "File": "motions/w-normal-tilthead02.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0206": [
+        {
+          "File": "motions/w-normal-tilthead0206.motion3.json"
+        }
+      ],
+      "w-normal-tilthead03": [
+        {
+          "File": "motions/w-normal-tilthead03.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0301": [
+        {
+          "File": "motions/w-normal-tilthead0301.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0302": [
+        {
+          "File": "motions/w-normal-tilthead0302.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0305": [
+        {
+          "File": "motions/w-normal-tilthead0305.motion3.json"
+        }
+      ],
+      "w-normal-tilthead04": [
+        {
+          "File": "motions/w-normal-tilthead04.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0406": [
+        {
+          "File": "motions/w-normal-tilthead0406.motion3.json"
+        }
+      ],
+      "w-normal-tilthead05": [
+        {
+          "File": "motions/w-normal-tilthead05.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0503": [
+        {
+          "File": "motions/w-normal-tilthead0503.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0506": [
+        {
+          "File": "motions/w-normal-tilthead0506.motion3.json"
+        }
+      ],
+      "w-normal-tilthead06": [
+        {
+          "File": "motions/w-normal-tilthead06.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0601": [
+        {
+          "File": "motions/w-normal-tilthead0601.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0602": [
+        {
+          "File": "motions/w-normal-tilthead0602.motion3.json"
+        }
+      ],
+      "w-normal-tilthead0605": [
+        {
+          "File": "motions/w-normal-tilthead0605.motion3.json"
+        }
+      ],
+      "w-normal-trouble01": [
+        {
+          "File": "motions/w-normal-trouble01.motion3.json"
+        }
+      ],
+      "w-normal-trouble02": [
+        {
+          "File": "motions/w-normal-trouble02.motion3.json"
+        }
+      ],
+      "w-normal-yurayura01": [
+        {
+          "File": "motions/w-normal-yurayura01.motion3.json"
+        }
+      ],
+      "w-normalanimal-tiltheadnod0101": [
+        {
+          "File": "motions/w-normalanimal-tiltheadnod0101.motion3.json"
+        }
+      ],
+      "w-normalcool-tilthead0204": [
+        {
+          "File": "motions/w-normalcool-tilthead0204.motion3.json"
+        }
+      ],
+      "w-normalcute-nodshakehead0302": [
+        {
+          "File": "motions/w-normalcute-nodshakehead0302.motion3.json"
+        }
+      ],
+      "face_angry_01": [
+        {
+          "File": "motions/face_angry_01.motion3.json"
+        }
+      ],
+      "face_angry_02": [
+        {
+          "File": "motions/face_angry_02.motion3.json"
+        }
+      ],
+      "face_angry_03": [
+        {
+          "File": "motions/face_angry_03.motion3.json"
+        }
+      ],
+      "face_closeeye_01": [
+        {
+          "File": "motions/face_closeeye_01.motion3.json"
+        }
+      ],
+      "face_disgust_01": [
+        {
+          "File": "motions/face_disgust_01.motion3.json"
+        }
+      ],
+      "face_disgust_02": [
+        {
+          "File": "motions/face_disgust_02.motion3.json"
+        }
+      ],
+      "face_e_01": [
+        {
+          "File": "motions/face_e_01.motion3.json"
+        }
+      ],
+      "face_lookaway_01": [
+        {
+          "File": "motions/face_lookaway_01.motion3.json"
+        }
+      ],
+      "face_lookaway_02": [
+        {
+          "File": "motions/face_lookaway_02.motion3.json"
+        }
+      ],
+      "face_normal_01": [
+        {
+          "File": "motions/face_normal_01.motion3.json"
+        }
+      ],
+      "face_sad_01": [
+        {
+          "File": "motions/face_sad_01.motion3.json"
+        }
+      ],
+      "face_sad_02": [
+        {
+          "File": "motions/face_sad_02.motion3.json"
+        }
+      ],
+      "face_sad_03": [
+        {
+          "File": "motions/face_sad_03.motion3.json"
+        }
+      ],
+      "face_sad_04": [
+        {
+          "File": "motions/face_sad_04.motion3.json"
+        }
+      ],
+      "face_serious_01": [
+        {
+          "File": "motions/face_serious_01.motion3.json"
+        }
+      ],
+      "face_seriouscheek_01": [
+        {
+          "File": "motions/face_seriouscheek_01.motion3.json"
+        }
+      ],
+      "face_shy_01": [
+        {
+          "File": "motions/face_shy_01.motion3.json"
+        }
+      ],
+      "face_shy_02": [
+        {
+          "File": "motions/face_shy_02.motion3.json"
+        }
+      ],
+      "face_shy_03": [
+        {
+          "File": "motions/face_shy_03.motion3.json"
+        }
+      ],
+      "face_shy_04": [
+        {
+          "File": "motions/face_shy_04.motion3.json"
+        }
+      ],
+      "face_sing_01": [
+        {
+          "File": "motions/face_sing_01.motion3.json"
+        }
+      ],
+      "face_sing_02": [
+        {
+          "File": "motions/face_sing_02.motion3.json"
+        }
+      ],
+      "face_sing_03": [
+        {
+          "File": "motions/face_sing_03.motion3.json"
+        }
+      ],
+      "face_singcheek_01": [
+        {
+          "File": "motions/face_singcheek_01.motion3.json"
+        }
+      ],
+      "face_singcheek_02": [
+        {
+          "File": "motions/face_singcheek_02.motion3.json"
+        }
+      ],
+      "face_smallmouth_01": [
+        {
+          "File": "motions/face_smallmouth_01.motion3.json"
+        }
+      ],
+      "face_smile_01": [
+        {
+          "File": "motions/face_smile_01.motion3.json"
+        }
+      ],
+      "face_smile_02": [
+        {
+          "Expression": "face_smile_02.exp3"
+        }
+      ],
+      "face_smile_03": [
+        {
+          "File": "motions/face_smile_03.motion3.json"
+        }
+      ],
+      "face_smile_04": [
+        {
+          "File": "motions/face_smile_04.motion3.json"
+        }
+      ],
+      "face_smile_05": [
+        {
+          "File": "motions/face_smile_05.motion3.json"
+        }
+      ],
+      "face_surprise_01": [
+        {
+          "File": "motions/face_surprise_01.motion3.json"
+        }
+      ],
+      "face_surprise_02": [
+        {
+          "File": "motions/face_surprise_02.motion3.json"
+        }
+      ],
+      "face_trouble_01": [
+        {
+          "File": "motions/face_trouble_01.motion3.json"
+        }
+      ],
+      "face_trouble_02": [
+        {
+          "File": "motions/face_trouble_02.motion3.json"
+        }
+      ],
+      "face_trouble_03": [
+        {
+          "File": "motions/face_trouble_03.motion3.json"
+        }
+      ],
+      "face_trouble_04": [
+        {
+          "File": "motions/face_trouble_04.motion3.json"
+        }
+      ],
+      "face_trouble_05": [
+        {
+          "File": "motions/face_trouble_05.motion3.json"
+        }
+      ],
+      "face_trouble_06": [
+        {
+          "File": "motions/face_trouble_06.motion3.json"
+        }
+      ],
+      "face_trouble_07": [
+        {
+          "File": "motions/face_trouble_07.motion3.json"
+        }
+      ],
+      "face_trouble_08": [
+        {
+          "File": "motions/face_trouble_08.motion3.json"
+        }
+      ],
+      "打招呼": [
+        {
+          "Name": "你好",
+          "File": "motions/w-adult-nod01.motion3.json",
+          "Sound": "voice/[语音]你好.wav",
+          "SoundVolume": 0.703,
+          "Text": "你好~",
+          "Expression": "笑",
+          "Command": "lip_sync enable",
+          "VarFloats": [
+            {
+              "Name": "Insong",
+              "Type": 2,
+              "Code": "assign 0"
+            }
+          ],
+          "Enabled": false
+        },
+        {
+          "Name": "今天也是美好的一天呢",
+          "File": "motions/w-happy-purpose01.motion3.json",
+          "Sound": "voice/[语音]今天也是美好的一天呢.wav",
+          "SoundVolume": 0.578,
+          "Text": "今天也是美好的一天呢~",
+          "Expression": "笑",
+          "Command": "lip_sync enable",
+          "VarFloats": [
+            {
+              "Name": "Insong",
+              "Type": 2,
+              "Code": "assign 0"
+            }
+          ],
+          "Enabled": false
+        },
+        {
+          "Name": "下周要来看我的演唱会",
+          "File": "motions/w-happy-purpose01.motion3.json",
+          "Sound": "voice/[语音]下周要来看我的演唱会哦.wav",
+          "SoundVolume": 0.592,
+          "Text": "下周要来看我的演唱会哦~",
+          "Expression": "笑",
+          "Command": "lip_sync enable",
+          "VarFloats": [
+            {
+              "Name": "Insong",
+              "Type": 2,
+              "Code": "assign 0"
+            }
+          ]
+        },
+        {
+          "Name": "自我介绍1",
+          "File": "motions/w-adult-nod01.motion3.json",
+          "Sound": "voice/[语音]这里是VBS的khn.mp3",
+          "SoundVolume": 0.638,
+          "Text": "你..你好，这里是来自Vivid Bad Squad的小豆沢心羽",
+          "Expression": "face_shy_04.exp3",
+          "Command": "lip_sync enable"
+        },
+        {
+          "Name": "饲育委员",
+          "File": "motions/w-cute-fidget01.motion3.json",
+          "Sound": "voice/[语音]久违的饲育委员.mp3",
+          "SoundVolume": 0.689,
+          "Text": "今天是久违的饲育委员~不知道小兔子们还好么？",
+          "Expression": "face_smile_05.exp3",
+          "Command": "lip_sync enable"
+        },
+        {
+          "Name": "麦克风静电",
+          "File": "motions/w-happy-sad01.motion3.json",
+          "Sound": "voice/[语音]麦克风静电.mp3",
+          "SoundVolume": 0.694,
+          "Text": "...呀！呜呜....每次拿麦克风都会有静电呢....",
+          "Expression": "face_shy_04.exp3",
+          "Command": "lip_sync enable",
+          "Speed": 1.2
+        },
+        {
+          "Name": "珍珠伯爵不会冬眠喔",
+          "File": "motions/w-animalnormal-nodtilthead0101.motion3.json",
+          "Sound": "voice/[语音]珍珠伯爵不会冬眠.mp3",
+          "SoundVolume": 0.512,
+          "Text": "虽然珍珠伯爵是小蛇{$br}但是饲养箱有保温功能{$br}所以它不会冬眠喔",
+          "Expression": "face_smile_02.exp3",
+          "Command": "lip_sync enable"
+        },
+        {
+          "Name": "马上就要考试了",
+          "File": "motions/w-adult-think01.motion3.json",
+          "Sound": "voice/[语音]马上就要考试了.mp3",
+          "SoundVolume": 0.593,
+          "Text": "马上就要考试了{$br}要好好复习才行",
+          "Expression": "face_smile_02.exp3",
+          "Command": "lip_sync enable"
+        }
+      ],
+      "放歌确认": [
+        {
+          "Name": "放歌确认",
+          "File": "motions/w-animal-nod01.motion3.json",
+          "Text": "准备放歌啦~",
+          "Expression": "笑",
+          "Command": "lip_sync disable",
+          "NextMtn": "放歌前预备"
+        }
+      ],
+      "歌单": [
+        {
+          "Name": "群青赞歌",
+          "Sound": "song_list/群青赞歌.mp3",
+          "SoundVolume": 0.609,
+          "Text": "当前曲目：群青赞歌",
+          "Command": "lip_sync disable",
+          "TimeLimit": {},
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "哨戒班",
+          "Sound": "song_list/哨戒班.mp3",
+          "SoundVolume": 0.587,
+          "Text": "当前曲目：明日的夜空哨戒班",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "黎明前线",
+          "Sound": "song_list/黎明前线Full.mp3",
+          "SoundVolume": 0.62,
+          "Text": "当前曲目：黎明前线",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "电影",
+          "Sound": "song_list/シネマ.mp3",
+          "SoundVolume": 0.651,
+          "Text": "当前曲目：电影",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "SENSATION",
+          "Sound": "song_list/PaⅢ.SENSATION.mp3",
+          "SoundVolume": 0.615,
+          "Text": "当前曲目：SENSATION",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "YY",
+          "Sound": "song_list/YY .mp3",
+          "SoundVolume": 0.587,
+          "Text": "当前曲目：YY",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "RAD DOGS",
+          "Sound": "song_list/RAD DOGS.mp3",
+          "SoundVolume": 0.555,
+          "Text": "当前曲目：RAD DOGS(full ver)",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Flyer",
+          "Sound": "song_list/Flyer!.mp3",
+          "SoundVolume": 0.569,
+          "Text": "当前曲目：Flyer！",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Beat Eater",
+          "Sound": "song_list/Beat Eater.mp3",
+          "SoundVolume": 0.558,
+          "Text": "当前曲目：Beat Eater",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "夜に駆ける ",
+          "Sound": "song_list/夜に駆ける.mp3",
+          "SoundVolume": 0.46,
+          "Text": "当前曲目：夜に駆ける ",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Awake Now",
+          "Sound": "song_list/Awake Now.mp3",
+          "SoundVolume": 0.518,
+          "Text": "当前曲目：Awake Now",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "踊",
+          "Sound": "song_list/踊.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：踊",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "subtract 1"
+            }
+          ]
+        },
+        {
+          "Name": "RAD DOGS2",
+          "Sound": "song_list/RAD DOGS(khn&an.ver).mp3",
+          "SoundVolume": 0.558,
+          "Text": "当前曲目：RAD DOGS",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "帝国少女",
+          "Sound": "song_list/帝国少女.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：帝国少女",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Flyer(solo)",
+          "Sound": "song_list/Flyer(solo).mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：Flyer(solo)",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "偶像",
+          "Sound": "song_list/偶像.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：偶像",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "帝国少女Full",
+          "Sound": "song_list/帝国少女Full.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：帝国少女(Full.ver)",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "右肩之蝶",
+          "Sound": "song_list/右肩之蝶.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：右肩之蝶",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Realize",
+          "Sound": "song_list/Realize.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：Realize",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "所以我放弃了音乐",
+          "Sound": "song_list/所以我放弃了音乐.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：所以我放弃了音乐",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "btw",
+          "Sound": "song_list/btw.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：Beyond the way",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Forward",
+          "Sound": "song_list/Forward.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：Forward",
+          "Command": "lip_sync disable",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 2,
+              "Code": "assign 0"
+            },
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        }
+      ],
+      "放歌前预备": [
+        {
+          "Name": "放歌前置",
+          "Expression": "笑",
+          "Command": "lip_sync disable",
+          "PostCommand": "lip_sync disable",
+          "NextMtn": "切歌",
+          "VarFloats": [
+            {
+              "Name": "Insong",
+              "Type": 2,
+              "Code": "assign 1"
+            }
+          ]
+        }
+      ],
+      "切歌": [
+        {
+          "Name": "VBS下一首",
+          "NextMtn": "歌单",
+          "VarFloats": [
+            {
+              "Name": "Insong",
+              "Type": 1,
+              "Code": "equal 1"
+            },
+            {
+              "Name": "songType",
+              "Type": 1,
+              "Code": "equal 0"
+            }
+          ]
+        },
+        {
+          "Name": "纯音乐下一首",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "Insong",
+              "Type": 1,
+              "Code": "equal 1"
+            },
+            {
+              "Name": "songType",
+              "Type": 1,
+              "Code": "equal 1"
+            }
+          ]
+        }
+      ],
+      "清除声音": [
+        {
+          "Name": "停歌",
+          "File": "motions/w-cute-forward03.motion3.json",
+          "Text": "已停止播放~{$br}你已经听了{$vi_count}首歌呢{$br}谢谢你的喜欢~",
+          "Expression": "face_smile_04.exp3",
+          "Command": "stop_all_sounds;lip_sync enable;motions enable face_smile_02",
+          "MotionDuration": 5000,
+          "NextMtn": "face_smile_02",
+          "VarFloats": [
+            {
+              "Name": "Insong",
+              "Type": 1,
+              "Code": "equal 1"
+            },
+            {
+              "Name": "Insong",
+              "Type": 2,
+              "Code": "assign 0"
+            }
+          ]
+        }
+      ],
+      "点歌": [
+        {
+          "Name": "点歌",
+          "Text": "想听哪首歌呢？(第1页)",
+          "Choices": [
+            {
+              "Text": "YY",
+              "NextMtn": "歌单:YY"
+            },
+            {
+              "Text": "RAD DOGS",
+              "NextMtn": "歌单:RAD DOGS"
+            },
+            {
+              "Text": "群青赞歌",
+              "NextMtn": "歌单:群青赞歌"
+            },
+            {
+              "Text": "Flyer！",
+              "NextMtn": "歌单:Flyer"
+            },
+            {
+              "Text": "哨戒班",
+              "NextMtn": "歌单:哨戒班"
+            },
+            {
+              "Text": "Awake Now",
+              "NextMtn": "歌单:Awake Now"
+            },
+            {
+              "Text": "帝国少女",
+              "NextMtn": "歌单:帝国少女"
+            },
+            {
+              "Text": "Flyer！(solo)",
+              "NextMtn": "歌单:Flyer(solo)"
+            },
+            {
+              "Text": "下一页",
+              "NextMtn": "点歌:点歌1"
+            }
+          ],
+          "Command": "lip_sync disable",
+          "TextDuration": 30000,
+          "MotionDuration": 30000,
+          "NextMtn": "点歌:取消后提示"
+        },
+        {
+          "Name": "点歌1",
+          "Text": "想听哪首歌呢？(第2页)",
+          "Choices": [
+            {
+              "Text": "黎明前线",
+              "NextMtn": "歌单:黎明前线"
+            },
+            {
+              "Text": "SENSATION",
+              "NextMtn": "歌单:SENSATION"
+            },
+            {
+              "Text": "电影",
+              "NextMtn": "歌单:电影"
+            },
+            {
+              "Text": "Beat Eater",
+              "NextMtn": "歌单:Beat Eater"
+            },
+            {
+              "Text": "踊",
+              "NextMtn": "歌单:踊"
+            },
+            {
+              "Text": "夜に駆ける ",
+              "NextMtn": "歌单:夜に駆ける "
+            },
+            {
+              "Text": "RAD DOGS(女子组)",
+              "NextMtn": "歌单:RAD DOGS2"
+            },
+            {
+              "Text": "偶像",
+              "NextMtn": "歌单:偶像"
+            },
+            {
+              "Text": "下一页",
+              "NextMtn": "点歌:点歌2"
+            }
+          ],
+          "Command": "lip_sync disable",
+          "TextDuration": 30000,
+          "MotionDuration": 30000,
+          "NextMtn": "点歌:取消后提示"
+        },
+        {
+          "Name": "取消后提示",
+          "Text": "触发点歌动作后不选择点歌自动连播会取消噢{$br}想继续的话请重新点歌或者重新播放~",
+          "TextDuration": 60000,
+          "VarFloats": [
+            {
+              "Name": "inSelect",
+              "Type": 1,
+              "Code": "equal 1"
+            }
+          ]
+        },
+        {
+          "Name": "点歌2",
+          "Text": "想听哪首歌呢？(第3页)",
+          "Choices": [
+            {
+              "Text": "所以我放弃了音乐",
+              "NextMtn": "歌单:所以我放弃了音乐"
+            },
+            {
+              "Text": "帝国少女(Full.ver)",
+              "NextMtn": "歌单:帝国少女Full"
+            },
+            {
+              "Text": "Realize",
+              "NextMtn": "歌单:Realize"
+            },
+            {
+              "Text": "右肩之蝶",
+              "NextMtn": "歌单:右肩之蝶"
+            },
+            {
+              "Text": "Beyond the way",
+              "NextMtn": "歌单:btw"
+            },
+            {
+              "Text": "Forward",
+              "NextMtn": "歌单:Forward"
+            },
+            {
+              "Text": "占位(随机播放)",
+              "NextMtn": "歌单"
+            },
+            {
+              "Text": "占位(随机播放)",
+              "NextMtn": "歌单"
+            },
+            {
+              "Text": "下一页",
+              "NextMtn": "点歌:点歌"
+            }
+          ],
+          "Command": "lip_sync disable",
+          "TextDuration": 30000,
+          "MotionDuration": 30000,
+          "NextMtn": "点歌:取消后提示"
+        }
+      ],
+      "设置": [
+        {
+          "Name": "总",
+          "File": "motions/w-animalnormal-nodtilthead0101.motion3.json",
+          "Text": "想做什么呢？",
+          "Choices": [
+            {
+              "Text": "切换歌单种类",
+              "NextMtn": "设置:切换歌单"
+            },
+            {
+              "Text": "随机播放下一首",
+              "NextMtn": "切歌"
+            }
+          ],
+          "Expression": "face_smile_02.exp3",
+          "Command": "lip_sync disable",
+          "TextDuration": 30000
+        },
+        {
+          "Name": "切换歌单",
+          "Text": "想切换到什么种类呢？",
+          "Choices": [
+            {
+              "Text": "VBS",
+              "NextMtn": "设置:VBS"
+            },
+            {
+              "Text": "纯音乐",
+              "NextMtn": "设置:纯音乐"
+            }
+          ],
+          "Expression": "face_smile_02.exp3",
+          "TextDuration": 30000
+        },
+        {
+          "Name": "VBS",
+          "Text": "切换完毕~",
+          "VarFloats": [
+            {
+              "Name": "songType",
+              "Type": 2,
+              "Code": "assign 0"
+            }
+          ]
+        },
+        {
+          "Name": "纯音乐",
+          "Text": "切换完毕~",
+          "VarFloats": [
+            {
+              "Name": "songType",
+              "Type": 2,
+              "Code": "assign 1"
+            }
+          ]
+        }
+      ],
+      "写作业歌单": [
+        {
+          "Name": "Arealy仁辰,Saiakoup - 凉",
+          "Sound": "pure_song_list/Arealy仁辰,Saiakoup - 凉.mp3",
+          "SoundVolume": 0.456,
+          "Text": "当前曲目：Arealy仁辰,Saiakoup - 凉",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Candy_Wind - 青空",
+          "Sound": "pure_song_list/Candy_Wind - 青空.mp3",
+          "SoundVolume": 0.493,
+          "Text": "当前曲目：Candy_Wind - 青空",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Mili - Nine Point Eight",
+          "Sound": "pure_song_list/Mili - Nine Point Eight.mp3",
+          "SoundVolume": 0.499,
+          "Text": "当前曲目：Mili - Nine Point Eight",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Mili - RTRT",
+          "Sound": "pure_song_list/Mili - RTRT.mp3",
+          "SoundVolume": 0.483,
+          "Text": "当前曲目：Mili - RTRT",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Otokaze - 雨道",
+          "Sound": "pure_song_list/Otokaze - 雨道.mp3",
+          "SoundVolume": 0.493,
+          "Text": "当前曲目：Otokaze - 雨道",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Sta - WRLDS",
+          "Sound": "pure_song_list/Sta - WRLDS.mp3",
+          "SoundVolume": 0.467,
+          "Text": "当前曲目：Sta - WRLDS",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "Yubel - Escape",
+          "Sound": "pure_song_list/Yubel - Escape.mp3",
+          "SoundVolume": 0.538,
+          "Text": "当前曲目：Yubel - Escape",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "逆时针向 - 晚星",
+          "Sound": "pure_song_list/逆时针向 - 晚星.mp3",
+          "SoundVolume": 0.496,
+          "Text": "当前曲目：逆时针向 - 晚星",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "逆时针向 - 烟火焚（inst.）",
+          "Sound": "pure_song_list/逆时针向 - 烟火焚（inst.）.mp3",
+          "SoundVolume": 0.503,
+          "Text": "当前曲目：逆时针向 - 烟火焚（inst.）",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "潘めぐみ - 星の奏でる歌",
+          "Sound": "pure_song_list/潘めぐみ - 星の奏でる歌.mp3",
+          "SoundVolume": 0.532,
+          "Text": "当前曲目：潘めぐみ - 星の奏でる歌",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 2020",
+          "Sound": "pure_song_list/四季音色 - 2020.mp3",
+          "SoundVolume": 0.47,
+          "Text": "当前曲目：四季音色 - 2020",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 斑光",
+          "Sound": "pure_song_list/四季音色 - 斑光.mp3",
+          "SoundVolume": 0.532,
+          "Text": "当前曲目：四季音色 - 斑光",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 春日",
+          "Sound": "pure_song_list/四季音色 - 春日.mp3",
+          "SoundVolume": 0.522,
+          "Text": "当前曲目：四季音色 - 春日",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 淋漓",
+          "Sound": "pure_song_list/四季音色 - 淋漓.mp3",
+          "SoundVolume": 0.506,
+          "Text": "当前曲目：四季音色 - 淋漓",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 沐白",
+          "Sound": "pure_song_list/四季音色 - 沐白.mp3",
+          "SoundVolume": 0.525,
+          "Text": "当前曲目：四季音色 - 沐白",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 轻风",
+          "Sound": "pure_song_list/四季音色 - 轻风.mp3",
+          "SoundVolume": 0.516,
+          "Text": "当前曲目：四季音色 - 轻风",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 新愿",
+          "Sound": "pure_song_list/四季音色 - 新愿.mp3",
+          "SoundVolume": 0.522,
+          "Text": "当前曲目：四季音色 - 新愿",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 星夜",
+          "Sound": "pure_song_list/四季音色 - 星夜.mp3",
+          "SoundVolume": 0.509,
+          "Text": "当前曲目：四季音色 - 星夜",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 雨梦",
+          "Sound": "pure_song_list/四季音色 - 雨梦.mp3",
+          "SoundVolume": 0.525,
+          "Text": "当前曲目：四季音色 - 雨梦",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 雨夜",
+          "Sound": "pure_song_list/四季音色 - 雨夜.mp3",
+          "SoundVolume": 0.506,
+          "Text": "当前曲目：四季音色 - 雨夜",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "四季音色 - 仲夏",
+          "Sound": "pure_song_list/四季音色 - 仲夏.mp3",
+          "SoundVolume": 0.561,
+          "Text": "当前曲目：四季音色 - 仲夏",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "羊羔 - 晴回",
+          "Sound": "pure_song_list/羊羔 - 晴回.mp3",
+          "SoundVolume": 0.545,
+          "Text": "当前曲目：羊羔 - 晴回",
+          "NextMtn": "写作业歌单",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        },
+        {
+          "Name": "依旧在雨中等你 - 尘与萤",
+          "Sound": "pure_song_list/依旧在雨中等你 - 尘与萤.mp3",
+          "SoundVolume": 0.49,
+          "Text": "当前曲目：依旧在雨中等你 - 尘与萤",
+          "VarFloats": [
+            {
+              "Name": "count",
+              "Type": 2,
+              "Code": "add 1"
+            }
+          ]
+        }
+      ],
+      "写作业点歌": [
+        {
+          "Name": "点歌1",
+          "Text": "想听哪首歌呢？（第1页）",
+          "Choices": [
+            {
+              "Text": "Arealy仁辰,Saiakoup - 凉",
+              "NextMtn": "写作业歌单:Arealy仁辰,Saiakoup - 凉"
+            },
+            {
+              "Text": "Candy_Wind - 青空",
+              "NextMtn": "写作业歌单:Candy_Wind - 青空"
+            },
+            {
+              "Text": "Mili - Nine Point Eight",
+              "NextMtn": "写作业歌单:Mili - Nine Point Eight"
+            },
+            {
+              "Text": "Mili - RTRT",
+              "NextMtn": "写作业歌单:Mili - RTRT"
+            },
+            {
+              "Text": "Otokaze - 雨道",
+              "NextMtn": "写作业歌单:Otokaze - 雨道"
+            },
+            {
+              "Text": "Sta - WRLDS",
+              "NextMtn": "写作业歌单:Sta - WRLDS"
+            },
+            {
+              "Text": "Yubel - Escape",
+              "NextMtn": "写作业歌单:Yubel - Escape"
+            },
+            {
+              "Text": "逆时针向 - 晚星",
+              "NextMtn": "写作业歌单:逆时针向 - 晚星"
+            },
+            {
+              "Text": "下一页",
+              "NextMtn": "写作业点歌:点歌2"
+            }
+          ],
+          "TextDuration": 30000
+        },
+        {
+          "Name": "点歌2",
+          "Text": "想听哪首歌呢？（第2页）",
+          "Choices": [
+            {
+              "Text": "逆时针向 - 烟火焚（inst.）",
+              "NextMtn": "写作业歌单:逆时针向 - 烟火焚（inst.）"
+            },
+            {
+              "Text": "潘めぐみ - 星の奏でる歌",
+              "NextMtn": "写作业歌单:潘めぐみ - 星の奏でる歌"
+            },
+            {
+              "Text": "四季音色 - 2020",
+              "NextMtn": "写作业歌单:四季音色 - 2020"
+            },
+            {
+              "Text": "四季音色 - 斑光",
+              "NextMtn": "写作业歌单:四季音色 - 斑光"
+            },
+            {
+              "Text": "四季音色 - 春日",
+              "NextMtn": "写作业歌单:四季音色 - 春日"
+            },
+            {
+              "Text": "四季音色 - 淋漓",
+              "NextMtn": "写作业歌单:四季音色 - 淋漓"
+            },
+            {
+              "Text": "四季音色 - 沐白",
+              "NextMtn": "写作业歌单:四季音色 - 沐白"
+            },
+            {
+              "Text": "四季音色 - 轻风",
+              "NextMtn": "写作业歌单:四季音色 - 轻风"
+            },
+            {
+              "Text": "下一页",
+              "NextMtn": "写作业点歌:点歌3"
+            }
+          ],
+          "TextDuration": 30000
+        },
+        {
+          "Name": "点歌3",
+          "Text": "想听哪首歌呢？（第3页）",
+          "Choices": [
+            {
+              "Text": "四季音色 - 新愿",
+              "NextMtn": "写作业歌单:四季音色 - 新愿"
+            },
+            {
+              "Text": "四季音色 - 星夜",
+              "NextMtn": "写作业歌单:四季音色 - 星夜"
+            },
+            {
+              "Text": "四季音色 - 雨梦",
+              "NextMtn": "写作业歌单:四季音色 - 雨梦"
+            },
+            {
+              "Text": "四季音色 - 雨夜",
+              "NextMtn": "写作业歌单:四季音色 - 雨夜"
+            },
+            {
+              "Text": "四季音色 - 仲夏",
+              "NextMtn": "写作业歌单:四季音色 - 仲夏"
+            },
+            {
+              "Text": "羊羔 - 晴回",
+              "NextMtn": "写作业歌单:羊羔 - 晴回"
+            },
+            {
+              "Text": "依旧在雨中等你 - 尘与萤",
+              "NextMtn": "写作业歌单:依旧在雨中等你 - 尘与萤"
+            },
+            {
+              "Text": "下一页",
+              "NextMtn": "写作业点歌:点歌1"
+            }
+          ],
+          "TextDuration": 30000
+        }
+      ],
+      "点歌确认": [
+        {
+          "Name": "纯音乐",
+          "Command": "lip_sync disable",
+          "PostCommand": "lip_sync disable",
+          "NextMtn": "写作业点歌:点歌1",
+          "VarFloats": [
+            {
+              "Name": "songType",
+              "Type": 1,
+              "Code": "equal 1"
+            },
+            {
+              "Name": "Insong",
+              "Type": 2,
+              "Code": "assign 1"
+            }
+          ]
+        },
+        {
+          "Name": "VBS",
+          "Command": "lip_sync disable",
+          "PostCommand": "lip_sync disable",
+          "NextMtn": "点歌:点歌",
+          "VarFloats": [
+            {
+              "Name": "songType",
+              "Type": 1,
+              "Code": "equal 0"
+            },
+            {
+              "Name": "Insong",
+              "Type": 2,
+              "Code": "assign 1"
+            }
+          ]
+        }
+      ]
+    },
+    "Expressions": [
+      {
+        "Name": "笑",
+        "File": "smile.exp3.json"
+      },
+      {
+        "Name": "face_angry_01.exp3",
+        "File": "expressions/face_angry_01.exp3.json"
+      },
+      {
+        "Name": "face_angry_02.exp3",
+        "File": "expressions/face_angry_02.exp3.json"
+      },
+      {
+        "Name": "face_angry_03.exp3",
+        "File": "expressions/face_angry_03.exp3.json"
+      },
+      {
+        "Name": "face_closeeye_01.exp3",
+        "File": "expressions/face_closeeye_01.exp3.json"
+      },
+      {
+        "Name": "face_disgust_01.exp3",
+        "File": "expressions/face_disgust_01.exp3.json"
+      },
+      {
+        "Name": "face_disgust_02.exp3",
+        "File": "expressions/face_disgust_02.exp3.json"
+      },
+      {
+        "Name": "face_e_01.exp3",
+        "File": "expressions/face_e_01.exp3.json"
+      },
+      {
+        "Name": "face_lookaway_01.exp3",
+        "File": "expressions/face_lookaway_01.exp3.json"
+      },
+      {
+        "Name": "face_lookaway_02.exp3",
+        "File": "expressions/face_lookaway_02.exp3.json"
+      },
+      {
+        "Name": "face_normal_01.exp3",
+        "File": "expressions/face_normal_01.exp3.json"
+      },
+      {
+        "Name": "face_ossad_03.exp3",
+        "File": "expressions/face_ossad_03.exp3.json"
+      },
+      {
+        "Name": "face_ossmallmouth_01.exp3",
+        "File": "expressions/face_ossmallmouth_01.exp3.json"
+      },
+      {
+        "Name": "face_ossmile_01.exp3",
+        "File": "expressions/face_ossmile_01.exp3.json"
+      },
+      {
+        "Name": "face_ossmile_02.exp3",
+        "File": "expressions/face_ossmile_02.exp3.json"
+      },
+      {
+        "Name": "face_sad_01.exp3",
+        "File": "expressions/face_sad_01.exp3.json"
+      },
+      {
+        "Name": "face_sad_02.exp3",
+        "File": "expressions/face_sad_02.exp3.json"
+      },
+      {
+        "Name": "face_sad_03.exp3",
+        "File": "expressions/face_sad_03.exp3.json"
+      },
+      {
+        "Name": "face_sad_04.exp3",
+        "File": "expressions/face_sad_04.exp3.json"
+      },
+      {
+        "Name": "face_scream_01.exp3",
+        "File": "expressions/face_scream_01.exp3.json"
+      },
+      {
+        "Name": "face_seriouscheek_01.exp3",
+        "File": "expressions/face_seriouscheek_01.exp3.json"
+      },
+      {
+        "Name": "face_serious_01.exp3",
+        "File": "expressions/face_serious_01.exp3.json"
+      },
+      {
+        "Name": "face_shy_01.exp3",
+        "File": "expressions/face_shy_01.exp3.json"
+      },
+      {
+        "Name": "face_shy_02.exp3",
+        "File": "expressions/face_shy_02.exp3.json"
+      },
+      {
+        "Name": "face_shy_03.exp3",
+        "File": "expressions/face_shy_03.exp3.json"
+      },
+      {
+        "Name": "face_shy_04.exp3",
+        "File": "expressions/face_shy_04.exp3.json"
+      },
+      {
+        "Name": "face_singcheek_01.exp3",
+        "File": "expressions/face_singcheek_01.exp3.json"
+      },
+      {
+        "Name": "face_singcheek_02.exp3",
+        "File": "expressions/face_singcheek_02.exp3.json"
+      },
+      {
+        "Name": "face_sing_01.exp3",
+        "File": "expressions/face_sing_01.exp3.json"
+      },
+      {
+        "Name": "face_sing_02.exp3",
+        "File": "expressions/face_sing_02.exp3.json"
+      },
+      {
+        "Name": "face_sing_03.exp3",
+        "File": "expressions/face_sing_03.exp3.json"
+      },
+      {
+        "Name": "face_sleepy_01.exp3",
+        "File": "expressions/face_sleepy_01.exp3.json"
+      },
+      {
+        "Name": "face_sleepy_02.exp3",
+        "File": "expressions/face_sleepy_02.exp3.json"
+      },
+      {
+        "Name": "face_smallmouth_01.exp3",
+        "File": "expressions/face_smallmouth_01.exp3.json"
+      },
+      {
+        "Name": "face_smile_01.exp3",
+        "File": "expressions/face_smile_01.exp3.json"
+      },
+      {
+        "Name": "face_smile_02.exp3",
+        "File": "expressions/face_smile_02.exp3.json"
+      },
+      {
+        "Name": "face_smile_03.exp3",
+        "File": "expressions/face_smile_03.exp3.json"
+      },
+      {
+        "Name": "face_smile_04.exp3",
+        "File": "expressions/face_smile_04.exp3.json"
+      },
+      {
+        "Name": "face_smile_05.exp3",
+        "File": "expressions/face_smile_05.exp3.json"
+      },
+      {
+        "Name": "face_sneeze_01.exp3",
+        "File": "expressions/face_sneeze_01.exp3.json"
+      },
+      {
+        "Name": "face_surprise_01.exp3",
+        "File": "expressions/face_surprise_01.exp3.json"
+      },
+      {
+        "Name": "face_surprise_02.exp3",
+        "File": "expressions/face_surprise_02.exp3.json"
+      },
+      {
+        "Name": "face_trouble_01.exp3",
+        "File": "expressions/face_trouble_01.exp3.json"
+      },
+      {
+        "Name": "face_trouble_02.exp3",
+        "File": "expressions/face_trouble_02.exp3.json"
+      },
+      {
+        "Name": "face_trouble_03.exp3",
+        "File": "expressions/face_trouble_03.exp3.json"
+      },
+      {
+        "Name": "face_trouble_04.exp3",
+        "File": "expressions/face_trouble_04.exp3.json"
+      },
+      {
+        "Name": "face_trouble_05.exp3",
+        "File": "expressions/face_trouble_05.exp3.json"
+      },
+      {
+        "Name": "face_trouble_06.exp3",
+        "File": "expressions/face_trouble_06.exp3.json"
+      },
+      {
+        "Name": "face_trouble_07.exp3",
+        "File": "expressions/face_trouble_07.exp3.json"
+      },
+      {
+        "Name": "face_trouble_08.exp3",
+        "File": "expressions/face_trouble_08.exp3.json"
+      },
+      {
+        "Name": "清除表情",
+        "File": "expressions/clear.exp3.json"
+      }
+    ]
+  },
+  "Controllers": {
+    "ParamHit": {},
+    "ParamLoop": {},
+    "KeyTrigger": {
+      "Items": [
+        {
+          "Input": 49
+        }
+      ]
+    },
+    "ParamTrigger": {},
+    "AreaTrigger": {
+      "Items": [
+        {},
+        {}
+      ]
+    },
+    "HandTrigger": {
+      "Items": [
+        {
+          "Name": "test",
+          "Hand": 0,
+          "Direction": 0,
+          "Motion": "歌单",
+          "Fingers": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "FingerGaps": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "EyeBlink": {
+      "MinInterval": 500,
+      "MaxInterval": 6000,
+      "Enabled": true
+    },
+    "LipSync": {
+      "Gain": 3.0,
+      "SmoothTime": 0.0446426831,
+      "Items": [
+        {
+          "Id": "ParamMouthOpenY",
+          "Min": 0.0,
+          "Max": 1.0,
+          "Input": 0
+        }
+      ],
+      "Enabled": true
+    },
+    "MouseTracking": {
+      "SmoothTime": 0.15,
+      "Enabled": true
+    },
+    "AutoBreath": {
+      "Enabled": true
+    },
+    "ExtraMotion": {},
+    "Accelerometer": {},
+    "Microphone": {},
+    "Transform": {},
+    "FaceTracking": {},
+    "HandTracking": {},
+    "ParamValue": {},
+    "PartOpacity": {},
+    "ArtmeshOpacity": {},
+    "ArtmeshColor": {},
+    "ArtmeshCulling": {
+      "DefaultMode": 0
+    },
+    "IntimacySystem": {}
+  },
+  "HitAreas": [
+    {
+      "Name": "打招呼",
+      "Id": "face",
+      "Motion": "打招呼"
+    },
+    {
+      "Name": "放歌",
+      "Id": "Torso_L",
+      "Motion": "放歌确认"
+    },
+    {
+      "Name": "设置",
+      "Id": "Torso_R",
+      "Motion": "设置:总"
+    },
+    {
+      "Name": "停止播放",
+      "Id": "ArtMesh3",
+      "Motion": "清除声音:停歌"
+    },
+    {
+      "Name": "点歌",
+      "Id": "ArtMesh44",
+      "Motion": "点歌确认"
+    }
+  ],
+  "Options": {}
+}

@@ -2,6 +2,8 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
+import { searchProPlugin } from "vuepress-plugin-search-pro";
+
 export default hopeTheme({
   hostname: "https://github.com/EternityTQ/WynncraftCNguide",
 
@@ -65,6 +67,7 @@ export default hopeTheme({
       attrs: true,
       chart: true,
       codetabs: true,
+      searchPro: true,
       demo: true,
       echarts: true,
       figure: true,

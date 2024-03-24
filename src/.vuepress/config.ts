@@ -11,6 +11,7 @@ export default defineUserConfig({
   description: "Wynncraft中文攻略",
 
   theme,
+  
   head: [
     // ...
 
