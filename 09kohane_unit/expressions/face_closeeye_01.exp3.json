@@ -1,0 +1,155 @@
+{
+   "Parameters" : [
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowRX",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowRY",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowRAngle",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowRForm",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowLX",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowLY",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowLAngle",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamBrowLForm",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeROpen",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeRSmile",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeRForm",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeLOpen",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeLSmile",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeLForm",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeballX",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeballY",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeSize",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamEyeTeary",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamTear",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamMouthForm",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamMouthForm2",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamTeeth",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamMouthScaleX",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamMouthScaleY",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamMouthPositionY",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamCheek",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamFaceShadow",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamSweatView",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamSweatMove",
+         "Value" : 0.0
+      },
+      {
+         "Blend" : "Multiply",
+         "Id" : "ParamCheekAngry",
+         "Value" : 0.0
+      }
+   ],
+   "Type" : "Live2D Expression"
+}
