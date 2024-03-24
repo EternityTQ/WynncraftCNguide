@@ -1,6 +1,7 @@
 import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
+import { defineClientConfig } from "vuepress/client";
+import { defineSearchConfig } from "vuepress-plugin-search-pro/client";
 
 export default defineUserConfig({
   base: "/",
@@ -29,24 +30,8 @@ export default defineUserConfig({
     
     ['link', { rel: 'Minecraft', href: '/assets/font/Minecraft.ttf' }],
   ],
-  plugins: [
-    searchProPlugin({
-      // 索引全部内容
-      indexContent: true,
-      autoSuggestions: false,
-      // 为分类和标签添加索引
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category,
-          formatter: "分类：$content",
-        },
-        {
-          getter: (page) => page.frontmatter.tag,
-          formatter: "标签：$content",
-        },
-      ],
-    }),
-  ],
-  // Enable it with pwa
+  
+
+  // 和 PWA 一起启用
   // shouldPrefetch: false,
 });

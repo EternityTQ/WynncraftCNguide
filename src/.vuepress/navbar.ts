@@ -8,6 +8,6 @@ export default navbar([
   {
     text: "wiki",
     icon: "mobile",
-    link: "https://wynncraft.fandom.com/wiki/Wynncraft_Wiki",
+    link: "https://wynncraft.wiki.gg/wiki/Wynncraft_Wiki",
   },
 ]);

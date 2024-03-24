@@ -7,11 +7,14 @@
 
   display: flex;
   flex-wrap: wrap;
-  align-content: stretch;
   align-items: stretch;
-  justify-content: flex-start;
+  place-content: stretch flex-start;
 
   margin-bottom: 12px;
+
+  &:empty {
+    margin-bottom: 0;
+  }
 }
 
 .vp-project-card {

@@ -58,6 +58,7 @@ export default hopeTheme({
       // waline 模式下
       serverURL: "https://wcg-comment.vercel.app/", // your serverURL
     },
+    
     // All features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
