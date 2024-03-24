@@ -10,6 +10,7 @@
     "PhysicsV2": {
       "File": "09kohane_unit.physics3.json"
     },
+    "Pose": "motions/w-animal-nod01.motion3.json",
     "Motions": {
       "w-adult-blushed01": [
         {
@@ -2726,6 +2727,17 @@
               "Code": "assign 1"
             }
           ]
+        }
+      ],
+      "Idle": [
+        {
+          "Name": "闲置",
+          "File": "motions/w-animal-nod01.motion3.json",
+          "Expression": "笑"
+        },
+        {
+          "Name": "笑",
+          "File": "motions/face_smile_01.motion3.json"
         }
       ]
     },
