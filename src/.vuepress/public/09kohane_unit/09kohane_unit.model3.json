@@ -3025,7 +3025,7 @@
     {
       "Name": "放歌",
       "Id": "Torso_L",
-      "Motion": "放歌确认"
+      "Motion": "歌单"
     },
     {
       "Name": "设置",
