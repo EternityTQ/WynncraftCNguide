@@ -32,13 +32,15 @@ export default defineUserConfig({
     
     ['link', { rel: 'Minecraft', href: '/assets/font/Minecraft.ttf' }],
   ],
-  plugins: [
+  /*plugins: [
     oml2dPlugin({
       // 在这里配置选项
       menus: {
         // 在这里配置
         disable:true,
+
       },
+      
       models: [
         {
           path: 'https://raw.githubusercontent.com/EternityTQ/WynncraftCNguide/main/src/.vuepress/public/09kohane_unit/09kohane_unit.model3.json',
@@ -46,6 +48,8 @@ export default defineUserConfig({
           position: [-10, 90],
           volume: 0.1,
           showHitAreaFrames:true,
+          
+          motionPreloadStrategy: "Start",
           stageStyle: {
             width: 350
           },
@@ -55,7 +59,7 @@ export default defineUserConfig({
     })
 
     //  ...other plugins
-  ],
+  ],*/
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
