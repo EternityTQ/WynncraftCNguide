@@ -3,6 +3,8 @@ import theme from "./theme.js";
 import { defineClientConfig } from "vuepress/client";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
+import { addViteConfig } from "@vuepress/helper";
+import postcssPresetEnv from "postcss-preset-env";
 
 export default defineUserConfig({
   base: "/",
@@ -32,6 +34,15 @@ export default defineUserConfig({
     
     ['link', { rel: 'Minecraft', href: '/assets/font/Minecraft.ttf' }],
   ],
+  extendsBundlerOptions: (bundlerOptions, app) => {
+    addViteConfig(bundlerOptions, app, {
+      css: {
+        postcss: {
+          plugins: [postcssPresetEnv()],
+        },
+      },
+    });
+  },
   plugins: [
     searchProPlugin({
       // 索引全部内容
