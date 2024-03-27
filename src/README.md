@@ -12,10 +12,12 @@ actions:
   - text: 游戏指南
     link: ./guide/
     type: primary
+    icon: lightbulb
 
   - text: 任务攻略
     link: ./quests/
     type: primary
+    icon: book
 
 
 
