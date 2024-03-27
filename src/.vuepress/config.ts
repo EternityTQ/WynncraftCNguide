@@ -59,9 +59,7 @@ export default defineUserConfig({
           formatter: "标签：$content",
         },
       ],
-    }),
-  ],
-  /*plugins: [
+    }),/*
     oml2dPlugin({
       // 在这里配置选项
       menus: {
@@ -73,22 +71,22 @@ export default defineUserConfig({
       models: [
         {
           path: 'https://raw.githubusercontent.com/EternityTQ/WynncraftCNguide/main/src/.vuepress/public/09kohane_unit/09kohane_unit.model3.json',
+          dockedPosition: "right",
           scale: 0.12,
           position: [-10, 90],
           volume: 0.1,
           showHitAreaFrames:true,
           
-          motionPreloadStrategy: "Start",
+          motionPreloadStrategy: "ALL",
           stageStyle: {
             width: 350
           },
           
         }
       ]
-    })
-
-    //  ...other plugins
-  ],*/
+    })*/
+  ],
+  
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,
