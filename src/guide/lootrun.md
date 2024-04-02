@@ -409,7 +409,7 @@ Static增益**在选择时**的数值为随机数值
 | <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `增益效果`                                           | x10        |
 | <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除增益都会增加/减少一层 `增益效果`                                           | x8         |
 | <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`；<br>在每次击杀怪物后，持续时间都会重置至60s | x100          |
-| <font color = FFCC00>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
+| <font color = CCCCCC>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
 | <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
 | <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x10        |
 | <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
