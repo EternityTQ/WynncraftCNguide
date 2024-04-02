@@ -128,6 +128,8 @@ hero是最全能的武器.png
 
 ![](/assets/img/idol1.jpg =300x)
 
+<p style="text-align: center;"><span style="font-size: 50px;"><b>永远悼念</b></span></p>
+
 一把因为炒作而待在了绝不该属于它的位置的武器
 >强但绝没有炒作的那么强
 好用但绝没大神描述的那么好用
