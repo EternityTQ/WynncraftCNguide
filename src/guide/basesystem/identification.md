@@ -123,6 +123,9 @@ hpr的机制有点特殊
 **Water/Fire/Earth/Thunder/Air defence%**
 水/火/地/电/气属性防御百分比加成（数值可享受百分比加成）。
 
+**Healing Efficiency**
+治疗效率，提升或减少你的**技能**所造成的治疗量
+
 ## 移动类加成词条
 
 **Walk speed%**
