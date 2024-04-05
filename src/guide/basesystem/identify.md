@@ -51,6 +51,6 @@ icon: magnifying-glass
 
 |名称|用途|备注|
 |---|---|---|
-|Corkian Amplifier|提高本次鉴定的**正面属性**鉴定值|Tier1-3的效果分别对应5%-15%|
+|Corkian Amplifier|提高本次鉴定所有的**正面属性**鉴定值|不包含负面词条，你可以理解为保底15%鉴定值|
 |Corkian Insulator|鉴定时可选择一个指定词条锁定数值|与Corkian Simulator冲突|
 |Corkian Simulator|本次鉴定不会提高鉴定次数及费用|与Corkian Insulator冲突|
