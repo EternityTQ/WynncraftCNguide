@@ -6,9 +6,9 @@
 2 找到一种方法使在Nemract城的<font color=00AA00>**Drucksh**</font>`[72, 40, -2180]`说出有关<font color=00AA00>**Sayleros**</font>死去的兄弟的事情。
 
 :::tip 如何灌醉他？
-可以给他`Potion of Drunkness`
+可以给他`Nemract Whiskey`
 
-`Potion of Drunkness`可以在Nemract城的药水店买到
+`Nemract Whiskey`可以在Nemract城的药水店买到
 :::
 
 3 和教堂的<font color=00AA00>**The Priest**</font>`[319, 43, -2149]` 交谈
