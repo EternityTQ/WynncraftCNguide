@@ -48,7 +48,7 @@ export default hopeTheme({
     lastUpdated: true,
   },
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Author", "Original", "Date", "Category", "PageView", "ReadingTime"],
   
  
 
