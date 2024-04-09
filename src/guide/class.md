@@ -2283,9 +2283,9 @@ icon: hat-wizard
       style="width: 40px; height: 40px;"
     />
     <div v-if="isTooltipVisible && currentTooltip === '猎人狩猎守则2'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color="#FFFFFF"><b>猎人狩猎守则 - 精通</b></font>
+      <font color="#FFFFFF"><b>猎人狩猎法则</b></font>
       <br>
-      <br><font color = BBBBBB><u>猎人狩猎守则</u>每秒增加的陷阱伤害<font color = FFFFFF> +10% </font>，同时总额外伤害上限 <font color = FFFFFF> +100% </font>。</font>
+      <br><font color = BBBBBB><u>韬光养晦</u>每秒增加的陷阱伤害<font color = FFFFFF> +10% </font>，同时总额外伤害上限 <font color = FFFFFF> +100% </font>。</font>
       <br>
       <br><font color= 00AA00><b>陷阱射手 分支</b></font>
     </div>
