@@ -9,9 +9,13 @@
 + cluckles' favourite feather(前置任务cluck cluck中获得)
   
 + baab's wool(baab位于maro peaks`[238 7 -3975]`
+  
   从`[181 58 -4060]`的洞口下去，走到底后左拐)
 
+  注意：maro peaks需要装备上前置任务中获得的登山帽才能进入
+
 + mooington's skin(mooington位于skiensisland的`[424 16 -3567]`
+  
   任务书找skien's prison block的cave就可以了)
 
 3.杀死bob的化身
