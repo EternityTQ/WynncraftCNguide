@@ -103,6 +103,15 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 稍微知道怎么采集就行了，不需要过多涉足！
 
+## 小心死亡惩罚！
+死亡会导致你的灵魂点降低
+
+在灵魂点过低时死亡，会导致你的部分物品被掉落，且无法找回
+
+因此，请尽量避免死亡
+
+具体可以翻阅[这篇文章](/guide/basesystem/soulpoint.html)
+
 ## 秘密发现
 
 在做完[Enzan's Brother](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)后，<font color=00AA00>**Therck**</font>会跟你说楼梯上有一把钥匙

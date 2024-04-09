@@ -84,7 +84,7 @@ https://hppeng-wynn.github.io
 胸甲：Libra
 裤子：Aleph-Null/Vaward
 靴子：你有什么神话鞋就用什么神话鞋/Epilogue/Capricorn
-戒指：intensity+mool pool
+戒指：intensity/mool pool/summa
 手镯：Prowess/Remika's/Succession
 项链：Contrast/Diamond fusion/Gigabyte
 绝大多数的武器都能套这个公式，得到的结果不会太弱，也不会很脆。
