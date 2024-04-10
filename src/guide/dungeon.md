@@ -36,7 +36,9 @@ pageview: true
 :::tip 钥匙获取途径
 钥匙一般可以在副本对应等级的区域(不一定要在副本周围)通过击杀钥匙怪(Key Guardian)来获取
 
-同时，比较推荐直接在市场上购买，基本都比较便宜
+同时，比较推荐直接在市场上购买，基本都比较便宜，直接搜索对应的副本名即可
+
+关于Key Guardian的信息可以[看这里](https://wynncraft.wiki.gg/wiki/Key_Guardian#Underworld_Crypt_Key_Guardian_)
 :::
 
 一把钥匙可供4名玩家使用，提交给副本门口的Key Collector后在1分钟内进入即可
