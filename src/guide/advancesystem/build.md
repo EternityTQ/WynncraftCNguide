@@ -146,7 +146,7 @@ https://hppeng-wynn.github.io
 | 雷 | Caesura/<br>Neuron/<br>Cumulonimbus/<br>Logistics/<br>Nychthemeron | Delirium/<br>Tesla/<br>Discharge/<br>Stratosphere | Tera/<br>Asphyxia/<br>Leictreach Makani | Electro Mage's Boots/<br>Sine/<br>Weatherwalkers/<br>Steamjet Walkers/<br>Ventus Tail |
 | 水 | Anamnesis/<br>Cumulonimbus/<br>Aquamarine/<br>Neuron/<br>Gnossis | Stratosphere/<br>Soul Signal | Seipodon/<br>Aleph Null/<br>Rapids/<br>Entanglement | Pro Tempore/<br>Virtuoso/<br>Steamjet Walkers |
 | 火 | Capsid Frame/<br>Dreadnought | Soulflare/<br>Hetusol | Ophiuchus/<br>Greaves of the Veneer/<br>Cinderchain | Mantlewalkers/<br>Phage Pins |
-| 气 | Gale's Sight/<br>Unravel/<br>Cumulonimbus/<br>Keratoconus/<br>Dune Storm | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani/<br>Anaerobic/<br>The Ephemeral | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir/<br>Ventus Tail |
+| 气 | Propeller Hat/<br>Gale's Sight/<br>Unravel/<br>Cumulonimbus/<br>Keratoconus/<br>Dune Storm | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani/<br>Anaerobic/<br>The Ephemeral | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir/<br>Ventus Tail |
 | 彩虹 | Morph-Stardust/<br>Cumulonimbus | Libra/<br>Far Cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null/<br>Equalizer | Capricorn/<br>Epilogue/<br>Pro Tempore |
 
 **其中，鞋子大多数情况下都使用对应属性合适的神话鞋子**
