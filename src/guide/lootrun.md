@@ -114,6 +114,10 @@ T3-T4箱子均在洞穴内，你可以在任务书上轻松找到洞穴的位置
 
 在通关这一轮之后，除了搜刮Cave的关卡，其余种类的关卡都会生成一个"挑战宝箱"，搜刮后即可进入下一轮的挑战
 
+在轮次数全部耗尽后，或者自己主动结算后，你将会被传送至最终宝箱前。
+
+最终宝箱包含大量奖励
+
 ### 开始lootrun前
 
 在开始之前，你首先需要来到**Cinfras**附近的**Silverbull Trading Company**，和<font color=FF55FF>**Lootrun Chief**</font>`[-102 36 -4814]`对话来解锁lootrun以及`Silverbull Syndicate`副职
