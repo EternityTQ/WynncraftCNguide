@@ -109,7 +109,7 @@ Corruption 打开笼子，老师让你跑就立刻跑
 :::tip
 此任务的饰品都非常值钱，因为一个档只能获取一次
 
-推荐选择Draoi Fair，几乎是bolts archer必备饰品，价值较高
+推荐选择	renda langit，价值较高
 
 可以挂在市场上进行出售
 :::
