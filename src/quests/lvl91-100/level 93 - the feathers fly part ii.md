@@ -88,7 +88,7 @@ icon: bookmark
 
 >(是真麻烦 我真不想做)
 
-若有兴趣，欢迎去查阅[Wiki](https://wynncraft.fandom.com/wiki/The_Feathers_Fly_Part_II)
+若有兴趣，欢迎去查阅[Wiki](https://wynncraft.wiki.gg/wiki/The_Feathers_Fly_Part_II)
 :::
 
 7.拿到邀请函后，和城堡尽头的<font color=00AA00>**Receptionist**</font>`[-1467 70 -2938]`对话
