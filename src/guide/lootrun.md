@@ -568,6 +568,8 @@ Ultimate Sacrifice的实际效果是：
 **注意最终奖励宝箱的奖励抽取不受任何lb、lq的影响！**
 :::
 
+在打开最终宝箱确认结算前，你仍可以使用任务途径以及每日奖励获取到的**End Reward Reroll**和**End Reward Sacrifice**对奖励进行修改
+
 #### **End Reward Reroll**
 简称rr
 
