@@ -9,6 +9,8 @@ icon: lightbulb
 
 请从左侧侧边栏进入文章
 
+阅读过程中有任何问题可以[在这里](https://github.com/EternityTQ/WynncraftCNguide/issues/new)提交问题
+
 网站首选IP：http://wynn.tqkhn.love/ (国内浏览效果更好)
 备用IP：http://wcg.tqkhn.love/ 
 
