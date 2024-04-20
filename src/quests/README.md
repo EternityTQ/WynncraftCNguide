@@ -26,17 +26,19 @@ icon: book
 :::tip 任务前的小图标是什么意思？
 你可能已经留意到了，部分任务前存在图标
 
-+ <HopeIcon icon="route" /> 这个任务可以解锁某个快速旅行
-+ <HopeIcon icon="bookmark" /> 这个任务是一个系列任务(可能存在前后置任务)
 + <HopeIcon icon="skull" /> 这个任务会解锁一个地牢/RAID
-+ <HopeIcon icon="face-tired" /> 这个任务存在惊悚/恐怖成分
++ <HopeIcon icon="route" /> 这个任务可以解锁某个快速旅行
 + <HopeIcon icon="exclamation" /> 这个任务会解锁一些重要的新功能
++ <HopeIcon icon="face-tired" /> 这个任务存在惊悚/恐怖成分
++ <HopeIcon icon="bookmark" /> 这个任务是一个系列任务(可能存在前后置任务)
 + <HopeIcon icon="triangle-exclamation" /> 这个任务为长线战斗任务，难度较高且并非能在接取任务的等级就完成
 + <HopeIcon icon="clock" /> 这个任务是一个限时任务，你只能在指定日期前完成
+
+如果这个任务存在多个功能性，则按照优先级从上往下覆盖
 :::
 
 :::danger
-所有存在<font color=FF5555>Quest Item</font>标记的物品都不要丢弃(也不能丢弃)
+所有存在<font color=FF5555>Quest Item</font>标记的物品都不要丢弃(也不能正常丢弃)
 
 若不慎丢失，可以使用`/fixquests`命令，会直接返还你**当前角色**所有丢失的任务物品
 
