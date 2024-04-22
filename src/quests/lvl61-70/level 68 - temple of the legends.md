@@ -47,7 +47,7 @@ Deltas, Ragni, **Troms**, Nessak, Selchar
 
 + Maro's eye jewel：`[149 40 -4075]`，在**maro peaks**上 需要前置任务[ice nations](/quests/lvl31-40/level%2040%20-%20ice%20nations.html)中获得的登山帽才可以进入。此地可以在**selchar**或者**llevigar**坐船过去
 
-+ Coral of Nelfors：在**Seavale Reef**`[250 -3200]`，下去海底拾取，像一个蓝色回旋镖
++ Coral of Nelfors：在**Seavale Reef**`[294, -3208]`，下去海底拾取，像一个蓝色回旋镖
 
 10.带回Garull给你的帽子给在Temple of Lengends入口的<font color=00AA00>**Kelight**</font>
 
