@@ -514,7 +514,7 @@ Static增益**在选择时**的数值为随机数值
 | <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)                                                                                                            |
 | <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现                                  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 增益增加50%额外效果                                                                                                      |
-| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消费1个诅咒换取1个额外挑战轮数                                            |
+| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，同时增加1个额外挑战轮数                                            |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每次得到1个诅咒后，获得1个随机增益                                                                                         |
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半                                                                                                      |
 | <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会                                                                         |
@@ -759,7 +759,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | <font color='FFCC00'> **High Roller** </font>         | 如果没有sac和end rr的话，这个任务必拿 |
 | <font color='FFCC00'> **Materialism** </font>         | 非常实用的效果，如果你这趟决定跑长途了，那么这个任务的收益将会大大提高(每个挑战都能有额外的奖励) |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 如果你对挑战感到吃力的话，这个任务务必一定要拿，它能很好的降低你的挑战难度，从而减小挑战失败的风险 |
-| <font color='AA00AA'> **Cleansing Ritual** </font>    | **看到就拿！** 出率垫底的神任务，只要拿到了就能保证你这把一定能安安稳稳地走完100轮|
+| <font color='AA00AA'> **Cleansing Ritual** </font>    | **看到就拿！** 出率垫底的神任务，只要拿到了就能保证你这把一定能安安稳稳地走完100轮<br>当轮次数达到上限时，仍然会继续消除诅咒|
 | <font color='AA00AA'> **Equilibrium** </font>         | **看到就拿！** 同样是出率垫底，只要拿到了就能直接删除蓝信标，让你无脑吃紫，非常的实用，甚至能直接吃掉暗灰信标！|
 | <font color='AA00AA'> **Inner Peace** </font>         | 如果你想提高最终奖励同时降低挑战难度，可以尝试这个任务。<br><font color='AA00AA'> **Inner Peace** </font>最大的作用就是可以使怪物抗性上限减半，非常强力。<br>需要注意的是该任务目前有BUG，重新登陆会导致效果消失。|
 | <font color='00BB00'> **Backup Beat** </font>         | 比较利于运营，但对获取奖励没有什么帮助，编者个人认为比较废。<br>如果你实在拿不到橙且一直保持3选的情况，可以选择拿这个任务来保证能吃到想要的信标|
