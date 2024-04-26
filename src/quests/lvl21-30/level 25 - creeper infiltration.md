@@ -11,7 +11,7 @@
 
 5.拿着`creeper skin`和`pigman hide`在村庄里的面具商店`[-585 89 -1426]`买一个`creeper mask`
 
-6.进入苦力怕藏身之处`[-608, 89, -1431]`(需要装备creeper mask才能进入，注意直到离开都不能脱下来)，完成跑酷，进入洞里，看见一个闪电苦力怕<font color=aqua>**creeper follower**</font>，他会跟着你，帮你炸开洞口，然后带回苦力怕存在的证据(火药)给<font color=00AA00>**Thomas**</font>
+6.进入苦力怕藏身之处`[-850 96 -1212]`(需要装备creeper mask才能进入，注意直到离开都不能脱下来)，完成跑酷，进入洞里，看见一个闪电苦力怕<font color=aqua>**creeper follower**</font>，他会跟着你，帮你炸开洞口，然后带回苦力怕存在的证据(火药)给<font color=00AA00>**Thomas**</font>
 
 这里的苦力怕不会攻击你，火药在地上自己捡就行了
 
