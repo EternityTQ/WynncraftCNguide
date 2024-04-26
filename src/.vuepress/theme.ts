@@ -56,7 +56,7 @@ export default hopeTheme({
     photoSwipe: false,
     comment: {
       provider: "Waline",
-      pageview:true,
+      pageview: true,
       
       // waline 模式下
       serverURL: "https://wcg-comment.vercel.app/", // your serverURL
