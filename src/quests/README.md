@@ -1,6 +1,7 @@
 ---
 title: 任务攻略
 icon: book
+pageview: true
 ---
 <p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
 <p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
