@@ -68,4 +68,10 @@ icon: bookmark
 奖励
 600000经验
 4个LE(4*4096绿宝石)
-1	Royal Token of Gratitude (可以在Cinfras-443,-4879兑换一个legendary项链，是legendary island项链的下位替代)
+1	Royal Token of Gratitude
+
+
+:::tip
+
+`Royal Token of Gratitude`可以在`[-425 -4938]`处的<font color=FF55FF>**King's Merchant**</font>兑换饰品，可以当做li毕业饰品的下位替代
+:::
