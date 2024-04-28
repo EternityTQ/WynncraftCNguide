@@ -66,9 +66,9 @@ icon: bookmark
 29 和<font color=00AA00>**Ragni城领主**</font>`[-2950 7 -1969]`交谈
 
 奖励
-600000经验
-4个LE(4*4096绿宝石)
-1	Royal Token of Gratitude
++ 600000经验
++ 16384绿宝石
++ 1	Royal Token of Gratitude
 
 
 :::tip
