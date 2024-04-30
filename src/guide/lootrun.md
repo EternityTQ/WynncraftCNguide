@@ -672,7 +672,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 | 名称               | 锐评                                                                                                                         |
 |---------------------|-------------------------------------------------------------------------------------------|
-| <font color='FFCC00'> **Cleansing Greed** </font>     | 其基本只有与<font color='FFCC00'> **Materialism** </font>搭配才能得到正常效果，否则效果有点小。   <br>但是请注意：这个任务最好不要和<font color='AA00AA'> **Cleansing Ritual** </font>一起使用，其效果结算优先于<font color='AA00AA'> **Cleansing Ritual** </font>，会导致后者无法增长回合|
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 其基本只有与<font color='FFCC00'> **Materialism** </font>搭配才能得到正常效果，否则效果有点小。   <br>但是请注意：这个任务最好不要和<font color='AA00AA'> **Cleansing Ritual** </font>一起使用，其消除诅咒结算优先于<font color='AA00AA'> **Cleansing Ritual** </font>，先把诅咒消完的话会导致后者无法增长回合|
 | <font color='FFCC00'> **High Roller** </font>         | 如果没有sac和end rr的话，这个任务必拿 |
 | <font color='FFCC00'> **Materialism** </font>         | 非常实用的效果，如果你这趟决定跑长途了，那么这个任务的收益将会大大提高(每个挑战都能有额外的奖励) |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 如果你对挑战感到吃力的话，这个任务务必一定要拿，它能很好的降低你的挑战难度，从而减小挑战失败的风险 |
