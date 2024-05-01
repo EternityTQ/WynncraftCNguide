@@ -431,7 +431,7 @@ Static增益**在选择时**的数值为随机数值
 | <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)                                                                                                            |
 | <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现                                  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 增益增加50%额外效果                                                                                                      |
-| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，同时增加1个额外挑战轮数                                            |
+| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，换取1个额外挑战轮数                                            |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每次得到1个诅咒后，获得1个随机增益                                                                                         |
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半                                                                                                      |
 | <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会                                                                         |
