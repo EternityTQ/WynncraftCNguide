@@ -5706,7 +5706,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '动摇的信仰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>动摇的信仰</b></font>
       <br>
-      <br><font color = BBBBBB>你每从装备鉴定词条上累计获得<font color = FFFFFF> 2% </font>的灵魂点恢复，就获得<font color = FFFFFF> 1% </font>点雷属性伤害增加(上限+40%)</font>
+      <br><font color = BBBBBB>你每从装备鉴定词条上累计获得<font color = FFFFFF> 2% </font>的灵魂点恢复，就获得<font color = FFFFFF> 1% </font>的雷属性伤害加成(上限+40%)</font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
