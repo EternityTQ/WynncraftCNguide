@@ -37,7 +37,7 @@ Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且�
 
 其次，玩家出生点面前会刷新一颗Berserk berry，可以通过攻击拾取，拾取的玩家将会获得失明，无法使用技能，攻速被锁定为Super Slow以及普攻伤害超大的buff。
 
-获得该Buff后的玩家可以迅速击杀Void hole，其他玩家需协助之一同击杀所有Void hole方可通过此面。
+获得该Buff后的玩家可以迅速击杀Void hole，其他玩家需协助莓果玩家，引导其击杀所有Void Hole之后，方可通过此关
 
 未能在两分钟内击杀所有Void hole，会立刻挑战失败。
 
@@ -55,6 +55,8 @@ Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且�
 
 此期间需要密切配合汇报虚空洞情况，因为时间非常紧张
 
+需要注意的是，请注意保护莓果玩家，帮助莓果玩家清理周边的怪堆！
+
 值得一提的是，电粉主动对于击杀虚空洞来说非常有效
 
 持有莓果的玩家哪怕主武器并非电属性，也强烈建议携带一把打有电粉主动并且提高力量或者暴击属性点的副武器。
@@ -66,8 +68,10 @@ Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且�
 
 :::details 关于普攻伤害百分比减少
 有些玩家所说的“普攻倍率会对莓果伤害产生影响”是错误的，证明如下图及视频所示：
+
 图：使用Necrosis的刺客配装，WynnBuilder面板在添加莓果效果时的伤害
-![](https://github.com/EternityTQ/WynncraftCNguide/assets/157373097/e0ba765d-ed2b-4328-bd32-e464fd9e8270)
+
+![](https://github.com/EternityTQ/WynncraftCNguide/assets/157373097/e0ba765d-ed2b-4328-bd32-e464fd9e8270 =500x)
 
 [视频](https://github.com/EternityTQ/WynncraftCNguide/assets/157373097/90de3508-3693-4972-be1d-c51528d6de39)：使用此配装时对虚空洞造成的伤害
 
