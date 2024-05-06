@@ -3,7 +3,7 @@ title: The Nameless Anomaly
 icon: ghost
 ---
 
-<span style="font-size: 25px;">**无名异常**</span>
+<span style="font-size: 25px;">**无名异象**</span>
 
 名称：The Nameless Anomaly
 简称：TNA
