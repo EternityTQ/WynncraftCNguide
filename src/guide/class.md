@@ -3423,7 +3423,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '神圣之力'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>神圣之力</b></font>
       <br>
-      <br><font color = BBBBBB>你的任何主技能或小技能被施放时，你获得<font color=white> 1% </font>的<font color=aqua>神圣之力</font>
+      <br><font color = BBBBBB>当你施放任何主技能，或触发任何能力时，你获得<font color=white> 1% </font>的<font color=aqua>神圣之力</font>
       <br>
       <br>使用<u>重击</u>或<u>上挑斩</u>时，消耗<font color=white> 15% </font>的<font color=aqua>神圣之力</font>，增加额外伤害</font>
       <br>
