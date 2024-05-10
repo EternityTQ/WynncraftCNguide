@@ -532,7 +532,10 @@ super idol 的笑容，都没你的甜
 
 >设计最有特色的神话.jpg
 
+:::details
+
 ![请问你们是什么关系](/assets/img/Diver.jpg =150x)
+:::
 
 ## 法师
 
@@ -1822,7 +1825,10 @@ slider以1ws的劣势惜败archangel
 
 >为了平衡cata，刺客其他武器都被削了个遍
 
+:::details meme
 ![](/assets/img/cat.jpg =200x)
+:::
+
 
 ### Nirvana
 
@@ -2742,7 +2748,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 }
 
 .item-name {
-  color: #9400D3;
+  color: rgb(164, 57, 192);
   font-size: 20px;
 }
 
@@ -2835,7 +2841,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 }
 
 .rarity {
-  color: #9400D3;
+  color: rgb(164, 57, 192);
   text-align: left;
 }
 </style>
