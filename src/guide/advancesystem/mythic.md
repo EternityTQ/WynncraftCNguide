@@ -36,6 +36,43 @@ icon: chess-king
 
 ### Apocalypse
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_10.webp" alt="Apocalypse" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Apocalypse</span><br>
+      <span class="item-attribute">Super Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 315-525</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 440-820</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">536</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 81<br>
+      Defence Min: 95
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+35</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-162 <span class="bonus-to-negative">to</span> -87%</span> Health Regen<br>
+      <span class="bonus-positive">+277 <span class="bonus-to">to</span> +1200/3s</span> Life Steal<br>
+      <span class="bonus-positive">+26 <span class="bonus-to">to</span> +14%</span> Uppercut Cost<br>
+      <span class="bonus-positive">+185 <span class="bonus-to">to</span> +801%</span> Exploding<br>
+      <span class="bonus-negative">-65 <span class="bonus-to-negative">to</span> -35%</span> Water Damage<br>
+      <span class="bonus-negative">-91 <span class="bonus-to-negative">to</span> -49%</span> Water Defence<br>
+      <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325%</span> Fire Defence<br>
+      <span class="major-id-name">+Hellfire:</span> <span class="major-id-desc">Boiling Blood has no cooldown, is stronger, and does not slow. Cuts Bash’s power and disables Discombobulate</span>
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：apoc/天启
 
@@ -62,7 +99,41 @@ IT脑瘫更新受益者，一下从神话最底层一跃而上，登基成为新
 
 ### Hero
 
-![](/assets/img/Hero.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_13.webp" alt="Hero" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Hero</span><br>
+      <span class="item-attribute">Very Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 50-70</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 120-150</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">605</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 91<br>
+      Agility Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Strength<br>
+      <span class="bonus-positive">+20</span> Dexterity<br>
+      <span class="bonus-positive">+30</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Health Regen<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Walk Speed<br>
+      <span class="major-id-name">+Saviour's Sacrifice:</span> <span class="major-id-desc">While under 50% maximum health, nearby allies gain 20% bonus damage and defence</span>
+    </p>
+    <p class="powder-rarity">
+      [4] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：嗨肉
 
@@ -84,7 +155,43 @@ hero是最全能的武器.png
 
 ### Guardian
 
-![](/assets/img/Guardian.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_10.webp" alt="Guardian" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Guardian</span><br>
+      <span class="item-attribute">Normal Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 50-90</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 165-205</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">525</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 93<br>
+      Defence Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+176 <span class="bonus-to">to</span> +761</span> Health Regen<br>
+      <span class="bonus-positive">+1800 <span class="bonus-to">to</span> +7800</span> Health<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +12/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Thorns<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Defence<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Water Defence<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Fire Defence<br>
+      <span class="major-id-name">+Guardian:</span> <span class="major-id-desc">35% of damage taken by nearby allies is redirected to you</span>
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：嘎点
 
@@ -106,7 +213,40 @@ hero是最全能的武器.png
 
 ### Alkatraz
 
->后面再来补unid图
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_2.webp" alt="Alkatraz" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Alkatraz</span><br>
+      <span class="item-attribute">Super Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 1350-1500</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">727</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 94<br>
+      Strength Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+40</span> Strength<br>
+      <span class="bonus-negative">-10</span> Dexterity<br>
+      <span class="bonus-negative">-10</span> Intelligence<br>
+      <span class="bonus-negative">-10</span> Defence<br>
+      <span class="bonus-negative">-10</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Exploding<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Earth Damage
+    </p>
+    <p class="powder-rarity">
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：锤子
 
@@ -126,7 +266,40 @@ hero是最全能的武器.png
 
 ### Idol
 
-![](/assets/img/idol1.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_16.webp" alt="Idol" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Idol</span><br>
+      <span class="item-attribute">Normal Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 205-300</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">520</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 95<br>
+      Intelligence Min: 120
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Intelligence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+79 <span class="bonus-to">to</span> +343%</span> Spell Damage<br>
+      <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16/5s</span> Mana Regen<br>
+      <span class="bonus-positive">-9 <span class="bonus-to">to</span> -39</span> Charge Cost<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Reflection<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Soul Point Regen<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Water Defence
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 <p style="text-align: center;"><span style="font-size: 50px;"><b>永远悼念</b></span></p>
 
@@ -180,7 +353,40 @@ super idol 的笑容，都没你的甜
 
 ### Thrundacrack
 
-![](/assets/img/Thrundacrack.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_7.webp" alt="Thrundacrack" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Thrundacrack</span><br>
+      <span class="item-attribute">Very Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 50-90</span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 50-220</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">636</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 96<br>
+      Dexterity Min: 105
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+35</span> Dexterity
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-78 <span class="bonus-to-negative">to</span> -42%</span> Health Regen<br>
+      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -5</span> Uppercut Cost<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +12%</span> Walk Speed<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Thunder Damage<br>
+      <span class="bonus-positive">+18 <span class="bonus-to">to</span> +78%</span> Water Damage
+    </p>
+    <p class="powder-rarity">
+      [4] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：电棍
 
@@ -204,7 +410,52 @@ super idol 的笑容，都没你的甜
 
 ### Collapse
 
-![](/assets/img/Collapse.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_19.webp" alt="Collapse" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Collapse</span><br>
+      <span class="item-attribute">Very Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 40-65</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 0-310</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 0-310</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 0-310</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 0-310</span></span><br>
+      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 0-310</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">687</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 97<br>
+      Strength Min: 35<br>
+      Dexterity Min: 35<br>
+      Intelligence Min: 35<br>
+      Agility Min: 35<br>
+      Defence Min: 35
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+45</span> Strength
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +23/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325%</span> Exploding<br>
+      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Earth Defence<br>
+      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Thunder Defence<br>
+      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Water Defence<br>
+      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Fire Defence<br>
+      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Air Defence<br>
+      <span class="major-id-name">+Fission:</span> <span class="major-id-desc">Explosions from your Exploding ID are twice as big and twice as strong</span>
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：coll
 
@@ -228,7 +479,40 @@ super idol 的笑容，都没你的甜
 
 ### Convergence
 
-![](/assets/img/Convergence.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/256_19.webp" alt="Convergence" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Convergence</span><br>
+      <span class="item-attribute">Normal Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 70-90</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 105-115</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 100-120</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">618</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 104<br>
+      Intelligence Min: 65<br>
+      Defence Min: 75
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+13 <span class="bonus-to">to</span> +56%</span> Health Regen<br>
+      <span class="bonus-negative">-13 <span class="bonus-to-negative">to</span> -58%</span> Uppercut Cost<br>
+      <span class="bonus-positive">+13 <span class="bonus-to">to</span> +56%</span> Sprint Regen<br>
+      <span class="bonus-positive">+17 <span class="bonus-to">to</span> +72%</span> Earth Damage<br>
+      <span class="bonus-positive">+17 <span class="bonus-to">to</span> +72%</span> Thunder Damage<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Air Defence
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：Conver
 
@@ -254,7 +538,39 @@ super idol 的笑容，都没你的甜
 
 ### Pure
 
-![](/assets/img/Pure.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_17.webp" alt="Pure" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Pure</span><br>
+      <span class="item-attribute">Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 0-5</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 20-45</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 15-55</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">175</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 65<br>
+      Intelligence Min: 50<br>
+      Agility Min: 30
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-130 <span class="bonus-to-negative">to</span> -70%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+120 <span class="bonus-to">to</span> +520%</span> Spell Damage<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Reflection<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Xp Bonus<br>
+      <span class="major-id-name">+Gravity Well:</span> <span class="major-id-desc">Meteor has increased blast radius and pulls enemies instead</span>
+    </p>
+    <p class="powder-rarity">
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：纯
 
@@ -275,7 +591,40 @@ super idol 的笑容，都没你的甜
 
 ### Lament
 
-![](/assets/img/Lament.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_16.webp" alt="Lament" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Lament</span><br>
+      <span class="item-attribute">Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 70-90</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 180-190</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">398</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 96<br>
+      Intelligence Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Intelligence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-650 <span class="bonus-to-negative">to</span> -350/3s</span> Life Steal<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +40%</span> Healing Efficiency<br>
+      <span class="bonus-negative">-10 <span class="bonus-to-negative">to</span> -45%</span> Heal Cost<br>
+      <span class="bonus-positive">+24 <span class="bonus-to">to</span> +104%</span> Water Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：lameme
 
@@ -301,7 +650,41 @@ super idol 的笑容，都没你的甜
 
 ### Gaia
 
-![](/assets/img/Gaia.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_4.webp" alt="Gaia" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Gaia</span><br>
+      <span class="item-attribute">Very Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 150-220</span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 380-490</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">515</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 97<br>
+      Strength Min: 105
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+25</span> Strength
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+173 <span class="bonus-to">to</span> +748</span> Main Attack Damage<br>
+      <span class="bonus-negative">-214 <span class="bonus-to-negative">to</span> -115%</span> Spell Damage<br>
+      <span class="bonus-positive">+3600 <span class="bonus-to">to</span> +15600/3s</span> Poison<br>
+      <span class="bonus-negative">-3 <span class="bonus-to-negative">to</span> -12</span> Ice Snake Cost<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Thorns
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：盖亚
 
@@ -331,7 +714,41 @@ super idol 的笑容，都没你的甜
 
 ### Monster
 
-![](/assets/img/Monster.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_10.webp" alt="Monster" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Monster</span><br>
+      <span class="item-attribute">Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 110-140</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 160-220</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">473</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 98<br>
+      Defence Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+40</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+900 <span class="bonus-to">to</span> +3900/3s</span> Health<br>
+      <span class="bonus-positive">+150 <span class="bonus-to">to</span> +650/3s</span> Life Steal<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +3</span> Heal Cost<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Fire Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：怪兽
 
@@ -1659,7 +2076,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
   color: #fff;
   padding: 10px;
   width: 300px;
-  font-family: 'Minecraftia', sans-serif;
+  font-family: 'Minecraft', sans-serif;
 }
 
 .item-icon {
