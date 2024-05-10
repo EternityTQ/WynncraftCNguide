@@ -2567,7 +2567,42 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 >属于是被版本淘汰的旧神
 
 ### Galleon
-![](/assets/img/Galleon.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Galleon" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Galleon</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +4500</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Defence: 250</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Defence: -175</span></span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Defence: 200</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 92<br>
+      Strength Min: 65<br>
+      Intelligence Min: 60
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Main Attack Damage
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+3750 <span class="bonus-to">to</span> +16250/3s</span> Poison<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26/3s</span> Mana Steal<br>
+      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -1</span> tier Attack Speed<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Loot Bonus<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Stealing<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +47%</span> Earth Damage<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +47%</span> Water Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：噶冷
 
@@ -2584,7 +2619,40 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 ### Boreal
 
-![](/assets/img/Boreal.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Boreal" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Boreal</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +5000</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Defence: 250</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Defence: 375</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 93<br>
+      Agility Min: 65<br>
+      Defence Min: 75
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+30 <span class="bonus-to">to</span> +130%</span> Health Regen<br>
+      <span class="bonus-positive">+81 <span class="bonus-to">to</span> +350</span> Health Regen<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Reflection<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Walk Speed<br>
+      <span class="bonus-negative">-97 <span class="bonus-to-negative">to</span> -52%</span> Earth Damage<br>
+      <span class="bonus-negative">-97 <span class="bonus-to-negative">to</span> -52%</span> Thunder Damage<br>
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Fire Defence<br>
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Air Defence
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 >这贵物居然比十字军还肉
 
@@ -2600,7 +2668,39 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 ### Slayer
 
-![](/assets/img/Slayer.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Slayer" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Slayer</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +3775</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Defence: -100</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 94<br>
+      Dexterity Min: 75<br>
+      Agility Min: 60
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Dexterity
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+86 <span class="bonus-to">to</span> +371</span> Main Attack Damage<br>
+      <span class="bonus-negative">-351 <span class="bonus-to-negative">to</span> -189</span> Health Regen<br>
+      <span class="bonus-negative">-9 <span class="bonus-to-negative">to</span> -39%</span> 3rd Spell Cost<br>
+      <span class="bonus-positive">+1</span> tier Attack Speed<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +35%</span> Walk Speed<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Stealing
+    </p>
+    <p class="powder-rarity">
+      [2] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：鲨手(嗯这是我编的)
 
@@ -2616,7 +2716,44 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 ### Moontower
 
-![](/assets/img/Moontower.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Moontower" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Moontower</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +4150</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Defence: 75</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Defence: 125</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Defence: 125</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Defence: 225</span></span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Defence: 75</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 95<br>
+      Intelligence Min: 70<br>
+      Agility Min: 80
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-negative">-10</span> Strength<br>
+      <span class="bonus-negative">-10</span> Dexterity<br>
+      <span class="bonus-positive">+35</span> Intelligence<br>
+      <span class="bonus-negative">-40</span> Defence<br>
+      <span class="bonus-positive">+60</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Walk Speed<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Water Defence<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Air Defence
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：月塔
 
@@ -2636,7 +2773,40 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 ### Dawnbreak
 
-![](/assets/img/Dawnbreak.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Dawnbreak" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Dawnbreak</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +4225</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Defence: 200</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Defence: -125</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Defence: -125</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Defence: 200</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 96<br>
+      Dexterity Min: 65<br>
+      Defence Min: 65
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+810 <span class="bonus-to">to</span> +3510</span> Main Attack Damage<br>
+      <span class="bonus-positive">+105 <span class="bonus-to">to</span> +455/3s</span> Life Steal<br>
+      <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16/3s</span> Mana Steal<br>
+      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14</span> tier Attack Speed<br>
+      <span class="bonus-positive">+7 <span class="bonus-to">to</span> +30%</span> Exploding<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +35%</span> Thunder Damage<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +35%</span> Fire Damage
+    </p>
+    <p class="powder-rarity">
+      [2] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：db
 
@@ -2656,7 +2826,40 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 ### Stardew
 
-![](/assets/img/Stardew.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Stardew" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Stardew</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +4075</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Defence: -100</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Defence: 150</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Defence: -100</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Defence: 150</span></span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Defence: -100</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 97<br>
+      Dexterity Min: 65<br>
+      Intelligence Min: 75
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+94 <span class="bonus-to">to</span> +407%</span> Spell Damage<br>
+      <span class="bonus-negative">-12 <span class="bonus-to-negative">to</span> -6/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Reflection<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Thunder Damage<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Water Damage
+    </p>
+    <p class="powder-rarity">
+      [2] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：星露/~~星露谷~~
 
@@ -2670,7 +2873,44 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 ### Warchief
 
-![](/assets/img/Warchief.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Warchief" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Warchief</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +5225</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Defence: -100</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Defence: -100</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Defence: -100</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Defence: -150</span></span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Defence: -150</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 98<br>
+      Strength Min: 80<br>
+      Dexterity Min: 80
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Strength<br>
+      <span class="bonus-positive">+10</span> Dexterity
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+95 <span class="bonus-to">to</span> +410</span> Main Attack Damage<br>
+      <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Exploding<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Earth Damage<br>
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Thunder Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：厨子(来源是Chief和chef相像)
 
@@ -2688,7 +2928,40 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 ### Revenant
 
-![](/assets/img/Revenant.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Revenant" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Revenant</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +7000</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Defence: 70</span></span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Defence: 70</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 99<br>
+      Strength Min: 70<br>
+      Agility Min: 70
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-91 <span class="bonus-to-negative">to</span> -49%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+156 <span class="bonus-to">to</span> +676</span> Main Attack Damage<br>
+      <span class="bonus-negative">-3250 <span class="bonus-to-negative">to</span> -1750</span> Health<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/3s</span> Mana Steal<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -36%</span> 4th Spell Cost<br>
+      <span class="bonus-positive">+36 <span class="bonus-to">to</span> +156%</span> Reflection<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Walk Speed<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Earth Damage<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Air Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：reve
 
@@ -2708,7 +2981,25 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 ### Discoverer
 
-![](/assets/img/Discoverer.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_chestplate.webp" alt="Discoverer" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Discoverer</span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 89
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Xp Bonus<br>
+      <span class="bonus-positive">+46 <span class="bonus-to">to</span> +200%</span> Loot Bonus
+    </p>
+    <p class="powder-rarity">
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：豹皮/皮
 
