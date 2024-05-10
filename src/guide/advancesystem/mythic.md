@@ -357,7 +357,39 @@ hmelee法师创始人，gw solo的神！
 
 ### Fatal
 
-![](/assets/img/Fatal.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_7.webp" alt="Fatal" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Fatal</span><br>
+      <span class="item-attribute">Very Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 1-360</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">560</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 99<br>
+      Dexterity Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+25</span> Dexterity
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Spell Damage<br>
+      <span class="bonus-positive">+2 <span class="bonus-to">to</span> +8/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+36 <span class="bonus-to">to</span> +20%</span> Heal Cost<br>
+      <span class="bonus-negative">-15 <span class="bonus-to-negative">to</span> -64%</span> Teleport Cost<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Walk Speed
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：无
 
@@ -383,7 +415,48 @@ hmelee法师创始人，gw solo的神！
 
 ### Singularity
 
-![](/assets/img/Singularity.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_19.webp" alt="Singularity" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Singularity</span><br>
+      <span class="item-attribute">Super Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="fire">✹ Fire</span> <span class="gray">Damage: 125-275</span><br>
+      <span class="water">❉ Water</span> <span class="gray">Damage: 150-250</span><br>
+      <span class="air">❋ Air</span> <span class="gray">Damage: 100-300</span><br>
+      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 75-325</span><br>
+      <span class="earth">✤ Earth</span> <span class="gray">Damage: 175-225</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">510</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 99<br>
+      Strength Min: 42<br>
+      Dexterity Min: 42<br>
+      Intelligence Min: 42<br>
+      Agility Min: 42<br>
+      Defence Min: 42
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+35</span> Dexterity
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+133 <span class="bonus-to">to</span> +577</span> Main Attack Damage<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Spell Damage<br>
+      <span class="bonus-positive">+67 <span class="bonus-to">to</span> +289%</span> Spell Damage<br>
+      <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325</span> Health Regen<br>
+      <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Walk Speed
+    </p>
+    <p class="powder-rarity">
+      [15] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 曾经的神，如今已经成为了下水道看门大爷
 
