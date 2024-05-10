@@ -2078,6 +2078,41 @@ hm有发挥空间，但是真的有人玩hm吗
 
 ### Olympic
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/273_20.webp" alt="Olympic" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Olympic</span><br>
+      <span class="item-attribute">Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 345-375</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">900</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 93<br>
+      Agility Min: 105
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+25</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-3 <span class="bonus-to-negative">to</span> -13</span> Totem Cost<br>
+      <span class="bonus-negative">-3 <span class="bonus-to-negative">to</span> -13</span> Haul Cost<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Walk Speed<br>
+      <span class="bonus-positive">+2 <span class="bonus-to">to</span> +8</span> Jump Height<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Air Damage<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Air Defence
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+
 别名：oly/奥林匹克
 
 位移 爽 但是萨满的位移 不是很爽
@@ -2095,6 +2130,36 @@ hm有发挥空间，但是真的有人玩hm吗
 >好了现在萨满能打的武器到这里就结束了
 
 ### Hadal
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/273_23.webp" alt="Hadal" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Hadal</span><br>
+      <span class="item-attribute">Super Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 1750-2150</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">995</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 94<br>
+      Intelligence Min: 130
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+23 <span class="bonus-to">to</span> +98%</span> Spell Damage<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+65 <span class="bonus-to">to</span> +35%</span> Aura Cost<br>
+      <span class="bonus-positive">+65 <span class="bonus-to">to</span> +35%</span> Uproot Cost
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：无
 
@@ -2116,6 +2181,39 @@ hm有发挥空间，但是真的有人玩hm吗
 
 ### Sunstar
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/273_14.webp" alt="Sunstar" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Sunstar</span><br>
+      <span class="item-attribute">Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 200-260</span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 375-545</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">1035</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 95<br>
+      Dexterity Min: 115
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+173 <span class="bonus-to">to</span> +750</span> Main Attack Damage<br>
+      <span class="bonus-positive">+188 <span class="bonus-to">to</span> +813/3s</span> Life Steal<br>
+      <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Healing Efficiency<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Thorns<br>
+      <span class="bonus-positive">+27 <span class="bonus-to">to</span> +117%</span> Reflection<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Thunder Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+
 别名：太阳星
 
 没救了，最大cjb
@@ -2132,6 +2230,50 @@ hm有发挥空间，但是真的有人玩hm吗
 
 
 ### Fantasia
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/273_26.webp" alt="Fantasia" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Fantasia</span><br>
+      <span class="item-attribute">Very Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 185-295</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 200-280</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 215-265</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 230-250</span></span><br>
+      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 170-310</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">996</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 96<br>
+      Strength Min: 45<br>
+      Dexterity Min: 45<br>
+      Intelligence Min: 45<br>
+      Agility Min: 45<br>
+      Defence Min: 45
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+50</span> Intelligence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Spell Damage<br>
+      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14/5s</span> Mana Regen<br>
+      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14/3s</span> Mana Steal<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Totem Cost<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Haul Cost<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Aura Cost<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Uproot Cost
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：fanta
 
@@ -2154,6 +2296,40 @@ hm有发挥空间，但是真的有人玩hm吗
 >fanta太难re了
 
 ### Toxoplasmosis
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/273_11.webp" alt="Toxoplasmosis" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Toxoplasmosis</span><br>
+      <span class="item-attribute">Very Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 3-3</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">9</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 96<br>
+      Strength Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+40</span> Strength
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+9600 <span class="bonus-to">to</span> +41600/3s</span> Poison<br>
+      <span class="bonus-positive">+150 <span class="bonus-to">to</span> +650/3s</span> Life Steal<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +23/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Walk Speed<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Loot Bonus
+    </p>
+    <p class="powder-rarity">
+      [2] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：toxo
 
@@ -2180,6 +2356,40 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
 
 ### Absolution
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/273_17.webp" alt="Absolution" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Absolution</span><br>
+      <span class="item-attribute">Super Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 195-205</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">860</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 97<br>
+      Defence Min: 115
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+900 <span class="bonus-to">to</span> +3900</span> Health<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +21/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+30 <span class="bonus-to">to</span> +130%</span> Healing Efficiency<br>
+      <span class="bonus-negative">-6 <span class="bonus-to-negative">to</span> -26</span> Totem Cost<br>
+      <span class="bonus-positive">+7 <span class="bonus-to">to</span> +30%</span> Soul Point Regen<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Fire Damage<br>
+      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Earth Defence<br>
+      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Thunder Defence
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+
 别名：abso
 
 Absolution拥有优秀的蓝量恢复，高额的生命值加成，同时大幅降低图腾的cost，还可以为你提供高额的治疗率
@@ -2200,6 +2410,43 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 ### Immolation
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/273_17.webp" alt="Immolation" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Immolation</span><br>
+      <span class="item-attribute">Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 230-495</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 350-375</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">1088</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 101<br>
+      Agility Min: 75<br>
+      Defence Min: 75
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+75</span> Defence<br>
+      <span class="bonus-positive">+75</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-234 <span class="bonus-to-negative">to</span> -126%</span> Health Regen<br>
+      <span class="bonus-negative">-650 <span class="bonus-to-negative">to</span> -350%</span> Healing Efficiency<br>
+      <span class="bonus-negative">-6 <span class="bonus-to-negative">to</span> -26%</span> Aura Cost<br>
+      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Fire Damage<br>
+      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Air Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+
 别名：immo/emomo
 
 弱智吧吧主
@@ -2215,7 +2462,41 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 ## 装备
 
 ### Crusade Sabatons
-![](/assets/img/Crusade_Sabatons.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Crusade Sabatons" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Crusade Sabatons</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +5050</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Defence: 200</span></span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Defence: 125</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 90<br>
+      Strength Min: 60<br>
+      Defence Min: 70
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Strength<br>
+      <span class="bonus-positive">+30</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +40%</span> Health Regen<br>
+      <span class="bonus-positive">+750 <span class="bonus-to">to</span> +3250</span> Health<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Thorns<br>
+      <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Earth Defence<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Fire Defence
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：十字军
 
@@ -2232,7 +2513,40 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 ### Resurgence
 
-![](/assets/img/Resurgence.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/diamond_boots.webp" alt="Resurgence" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Resurgence</span>
+    </p>
+    <p class="damage">
+      <span class="health">❤ Health: +4550</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Defence: 125</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Defence: 175</span></span>
+    </p>
+    <p class="requirements">
+      Combat Lv. Min: 91<br>
+      Intelligence Min: 65<br>
+      Defence Min: 90
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+25</span> Intelligence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-58 <span class="bonus-to-negative">to</span> -31%</span> Main Attack Damage<br>
+      <span class="bonus-negative">-45 <span class="bonus-to-negative">to</span> -24%</span> Spell Damage<br>
+      <span class="bonus-positive">+117 <span class="bonus-to">to</span> +507</span> Health Regen<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/5s</span> Mana Regen<br>
+      <span class="bonus-negative">-18 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Soul Point Regen
+    </p>
+    <p class="powder-rarity">
+      [4] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：resu
 
@@ -2441,6 +2755,11 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 .damage {
   font-size: 14px;
 }
+
+.health {
+  color: rgb(170, 0, 0);
+}
+
 
 .neutral-damage {
   color: rgb(255, 170, 0);
