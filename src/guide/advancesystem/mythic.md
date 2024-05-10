@@ -403,7 +403,44 @@ hmelee法师创始人，gw solo的神！
 
 ### Warp
 
-![](/assets/img/Warp.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_13.webp" alt="Warp" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Warp</span><br>
+      <span class="item-attribute">Very Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 40-70</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 160-190</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">713</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 99<br>
+      Agility Min: 130
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-260 <span class="bonus-to-negative">to</span> -140%</span> Health Regen<br>
+      <span class="bonus-negative">-780 <span class="bonus-to-negative">to</span> -420</span> Health Regen<br>
+      <span class="bonus-negative">-58 <span class="bonus-to-negative">to</span> -31/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +3</span> Heal Cost<br>
+      <span class="bonus-negative">-90 <span class="bonus-to-negative">to</span> -389</span> Teleport Cost<br>
+      <span class="bonus-positive">+27 <span class="bonus-to">to</span> +117%</span> Reflection<br>
+      <span class="bonus-positive">+54 <span class="bonus-to">to</span> +234%</span> Walk Speed<br>
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Exploding<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Air Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：扭曲
 
@@ -446,7 +483,41 @@ Warp对于三个职业分支来说都可以很"愉快"的游玩
 
 ###	Quetzalcoatl
 
-![](/assets/img/Quetzalcoatl.jpg =300x)
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/269_13.webp" alt="Quetzalcoatl" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Quetzalcoatl</span><br>
+      <span class="item-attribute">Very Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 25-45</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 45-75</span></span><br>
+      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 50-70</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">481</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 103<br>
+      Strength Min: 70<br>
+      Agility Min: 70
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+29</span> Main Attack Damage
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+81 <span class="bonus-to">to</span> +351%</span> Spell Damage<br>
+      <span class="bonus-positive">+427 <span class="bonus-to">to</span> +1850/3s</span> Life Steal<br>
+      <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Healing Efficiency<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +36%</span> Walk Speed<br>
+      <span class="bonus-positive">+1 <span class="bonus-to">to</span> +3</span> Jump Height
+    </p>
+    <p class="powder-rarity">
+      [4] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
 
 别名：羽蛇神/quetz
 
@@ -467,6 +538,40 @@ Warp对于三个职业分支来说都可以很"愉快"的游玩
 ## 弓手
 
 ### Az
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_7.webp" alt="Az" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Az</span><br>
+      <span class="item-attribute">Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 110-170</span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 1-250</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">664</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 74<br>
+      Dexterity Min: 80
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+15</span> Intelligence<br>
+      <span class="bonus-positive">+15</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-7 <span class="bonus-to-negative">to</span> -30%</span> Arrow Storm Cost<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Xp Bonus<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Water Damage<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Fire Damage
+    </p>
+    <p class="powder-rarity">
+      [5] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
 
 别名：500w
 
@@ -492,6 +597,47 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 ### Freedom
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_19.webp" alt="Freedom" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Freedom</span><br>
+      <span class="item-attribute">Normal Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="fire">✹ Fire</span> <span class="gray">Damage: 75-119</span><br>
+      <span class="water">❉ Water</span> <span class="gray">Damage: 65-129</span><br>
+      <span class="air">❋ Air</span> <span class="gray">Damage: 55-139</span><br>
+      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 45-149</span><br>
+      <span class="earth">✤ Earth</span> <span class="gray">Damage: 85-109</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">999</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 93<br>
+      Strength Min: 40<br>
+      Dexterity Min: 40<br>
+      Intelligence Min: 40<br>
+      Agility Min: 40<br>
+      Defence Min: 40
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+30</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+33 <span class="bonus-to">to</span> +144</span> Main Attack Damage<br>
+      <span class="bonus-positive">+33 <span class="bonus-to">to</span> +144%</span> Spell Damage<br>
+      <span class="bonus-positive">+300 <span class="bonus-to">to</span> +1300</span> Health<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Walk Speed
+    </p>
+    <p class="powder-rarity">
+      [4] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 别名：自由/furrydoom
 
 提供mr，敏捷，移速，生命，伤害
@@ -509,6 +655,43 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 >很好的freedom，新手最推荐弓，但是很贵。
 
 ### Grandmother
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_4.webp" alt="Grandmother" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Grandmother</span><br>
+      <span class="item-attribute">Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 150-250</span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 440-595</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">1076</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 95<br>
+      Strength Min: 110
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+15</span> Strength<br>
+      <span class="bonus-positive">+55</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +27%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +27%</span> Spell Damage<br>
+      <span class="bonus-negative">-45 <span class="bonus-to-negative">to</span> -24%</span> Health Regen<br>
+      <span class="bonus-negative">-786 <span class="bonus-to-negative">to</span> -423</span> Health Regen<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -4%</span> Walk Speed<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Xp Bonus<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Loot Bonus
+    </p>
+    <p class="powder-rarity">
+      [4] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
 
 别名：奶奶/gma
 
@@ -529,7 +712,44 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 ### Ignis
 
-别名：无
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_10.webp" alt="Ignis" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Ignis</span><br>
+      <span class="item-attribute">Normal Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 150-210</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 160-235</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">778</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 95<br>
+      Defence Min: 105
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Health Regen<br>
+      <span class="bonus-positive">+104 <span class="bonus-to">to</span> +449</span> Health Regen<br>
+      <span class="bonus-positive">+1200 <span class="bonus-to">to</span> +5200</span> Health<br>
+      <span class="bonus-negative">-10 <span class="bonus-to-negative">to</span> -45%</span> Arrow Shield Cost<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Fire Damage<br>
+      <span class="bonus-positive">+30 <span class="bonus-to">to</span> +130%</span> Fire Defence<br>
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Air Defence<br>
+      <span class="major-id-name">+Heart of the Pack:</span> <span class="major-id-desc">Nearby players gain 35% of the health you naturally regenerate</span>
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+别名：火神
 
 >这是哪位
 
@@ -548,6 +768,44 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 >全游戏唯一指定无限血瓶
 
 ### Divzer
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_7.webp" alt="Divzer" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Divzer</span><br>
+      <span class="item-attribute">Super Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 38-39</span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 240-240</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">1198</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 97<br>
+      Dexterity Min: 115
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+37</span> Dexterity<br>
+      <span class="bonus-negative">-73</span> Defence<br>
+      <span class="bonus-negative">-550</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+161 <span class="bonus-to">to</span> +697</span> Main Attack Damage<br>
+      <span class="bonus-positive">+76 <span class="bonus-to">to</span> +329%</span> Spell Damage<br>
+      <span class="bonus-positive">+292 <span class="bonus-to">to</span> +1265/3s</span> Life Steal<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+1 tier</span> Attack Speed<br>
+      <span class="bonus-negative">-715 <span class="bonus-to-negative">to</span> -385%</span> Water Damage<br>
+      <span class="bonus-negative">-715 <span class="bonus-to-negative">to</span> -385%</span> Fire Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
 
 别名：dz
 
@@ -583,6 +841,40 @@ tna常驻嘉宾
 
 ### Spring
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_16.webp" alt="Spring" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Spring</span><br>
+      <span class="item-attribute">Normal Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 150-185</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 200-310</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">870</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 98<br>
+      Intelligence Min: 120
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+15</span> Strength<br>
+      <span class="bonus-negative">-40</span> Dexterity<br>
+      <span class="bonus-positive">+15</span> Intelligence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/5s</span> Mana Regen<br>
+      <span class="bonus-negative">-65 <span class="bonus-to-negative">to</span> -35%</span> Thunder Damage<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Water Damage
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 别名：春天/弹簧/喷泉
 
 最被低估的神话弓 没有之一
@@ -611,6 +903,41 @@ tna常驻嘉宾
 
 ### Stratiformis
 
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_13.webp" alt="Stratiformis" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Stratiformis</span><br>
+      <span class="item-attribute">Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 95-175</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 170-300</span></span><br>
+      <span class="average-dps">Average DPS: <span class="gray">925</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 99<br>
+      Agility Min: 115
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+25</span> Agility
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16%</span> Spell Damage<br>
+      <span class="bonus-negative">-2600 <span class="bonus-to-negative">to</span> -1400</span> Health<br>
+      <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16%</span> Reflection<br>
+      <span class="bonus-positive">+23 <span class="bonus-to">to</span> +99%</span> Walk Speed
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+
 别名：strati/死抓提
 
 99ws享受者，只要你跑的够快，怪物就打不到你
@@ -634,6 +961,43 @@ tna常驻嘉宾
 >如果属性太差会变成大杯gale's force
 
 ### Epoch
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/261_1.webp" alt="Epoch" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Epoch</span><br>
+      <span class="item-attribute">Super Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 500-620</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 520-600</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 480-640</span></span><br>
+      <span class="average-dps">Average DPS: <span class="gray">857</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 102<br>
+      Dexterity Min: 70<br>
+      Agility Min: 70
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+231 <span class="bonus-to">to</span> +1000</span> Main Attack Damage<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Spell Damage<br>
+      <span class="bonus-positive">+248 <span class="bonus-to">to</span> +1073/3s</span> Life Steal<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -4/3s</span> Mana Steal<br>
+      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -5</span> Arrow Storm Cost<br>
+      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -5</span> Arrow Shield Cost<br>
+      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14%</span> Walk Speed<br>
+      <span class="bonus-positive">+21 <span class="bonus-to">to</span> +91%</span> Sprint
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 
 别名：纪元/一炮吃
 
@@ -1215,3 +1579,117 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 >金钱与财富，但是代价是什么...
 
+<style>
+.item-window {
+  border: 2px solid #9400D3;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  width: 300px;
+  font-family: 'Minecraftia', sans-serif;
+}
+
+.item-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item-header {
+  text-align: center;
+}
+
+.item-name {
+  color: #9400D3;
+  font-size: 20px;
+}
+
+.item-attribute {
+  font-size: 14px;
+  margin-top: 5px;
+  color: rgb(170, 170, 170);
+}
+
+.damage {
+  font-size: 14px;
+}
+
+.neutral-damage {
+  color: rgb(255, 170, 0);
+}
+
+.fire {
+  color: rgb(255, 85, 85);
+}
+
+.water {
+  color: #00FFFF;
+}
+
+.air {
+  color: #FFFFFF;
+}
+
+.thunder {
+  color: #FFFF00;
+}
+
+.earth {
+  color: rgb(0, 170, 0);
+}
+
+.gray {
+  color: rgb(170, 170, 170);
+}
+
+.average-dps {
+  color: rgb(85, 85, 85);
+}
+
+.requirements, .attribute-bonus, .bonuses, .powder-rarity {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+}
+
+.requirements {
+  margin-top: 10px;
+}
+
+.bonuses {
+  margin-top: 10px;
+}
+
+.bonus-positive {
+  color: rgb(85, 255, 85);
+}
+
+.bonus-negative {
+  color: rgb(255, 85, 85);
+}
+
+.bonus-to {
+  color: rgb(0, 170, 0);
+}
+
+.bonus-to-negative {
+  color: rgb(170, 0, 0);
+}
+
+.major-id-name {
+  color: #55FFFF;
+}
+
+.major-id-desc {
+  color: #00AAAA;
+}
+
+.powder-rarity {
+  margin-top: 10px;
+}
+
+.rarity {
+  color: #9400D3;
+  text-align: left;
+}
+</style>
