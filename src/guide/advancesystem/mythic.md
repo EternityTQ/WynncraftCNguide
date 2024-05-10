@@ -290,7 +290,7 @@ hero是最全能的武器.png
       <span class="bonus-positive">+20</span> Intelligence
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+79 <span class="bonus-to">to</span> +343%</span> Spell Damage<br>
+      <span class="bonus-positive">+79 <span class="bonus-to">to</span> +343</span> Spell Damage<br>
       <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16/5s</span> Mana Regen<br>
       <span class="bonus-positive">-9 <span class="bonus-to">to</span> -39</span> Charge Cost<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Reflection<br>
@@ -2852,7 +2852,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
       Intelligence Min: 75
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+94 <span class="bonus-to">to</span> +407%</span> Spell Damage<br>
+      <span class="bonus-positive">+94 <span class="bonus-to">to</span> +407</span> Spell Damage<br>
       <span class="bonus-negative">-12 <span class="bonus-to-negative">to</span> -6/5s</span> Mana Regen<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20/3s</span> Mana Steal<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Reflection<br>
