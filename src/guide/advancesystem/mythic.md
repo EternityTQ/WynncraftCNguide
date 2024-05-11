@@ -2477,7 +2477,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 >+150属性点，保送火气双满，这就是我们immo啊
 
->史上最肉的武器，保送150agi 150def
+>史上最肉的武器，保送150agi 150def，前提是让战士能用
 
 
 >我有immo症.jpg
@@ -2604,10 +2604,8 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
       Strength Min: 65<br>
       Intelligence Min: 60
     </p>
-    <p class="attribute-bonus">
-      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Main Attack Damage
-    </p>
     <p class="bonuses">
+      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Main Attack Damage<br>
       <span class="bonus-positive">+3750 <span class="bonus-to">to</span> +16250/3s</span> Poison<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26/3s</span> Mana Steal<br>
       <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -1</span> tier Attack Speed<br>
