@@ -2393,7 +2393,6 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
       <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Thunder Defence
     </p>
     <p class="powder-rarity">
-      [3] Powder slots<br>
       <span class="rarity">Mythic Item</span>
     </p>
   </div>
