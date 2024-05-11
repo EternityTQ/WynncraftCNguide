@@ -653,7 +653,11 @@ super idol 的笑容，都没你的甜
 
 >要奶有奶，要伤害有奶，要辅助有奶
 
+>你游唯二指定奶妈
+
 >还是看看远方的koh吧家人们
+
+>问：有多少神级lament一夜之间变成废品
 
 ### Gaia
 
@@ -1825,9 +1829,14 @@ slider以1ws的劣势惜败archangel
 
 >建议删除cata，这样就有理由逼着官方加强刺客了
 
->他的-1cost是官方设计的搞笑词条，别问为什么会有
-
 >为了平衡cata，刺客其他武器都被削了个遍
+
+>byd策划都削cata了为什么不加强刺客
+
+>为了削弱cata 连樱桃炸弹都被增强了
+
+>有一种没玩过游戏不知道到底谁强只好给面板来一刀的美感
+
 
 :::details meme
 ![](/assets/img/cat.jpg =200x)
@@ -2444,7 +2453,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
     <p class="bonuses">
       <span class="bonus-negative">-234 <span class="bonus-to-negative">to</span> -126%</span> Health Regen<br>
       <span class="bonus-negative">-650 <span class="bonus-to-negative">to</span> -350%</span> Healing Efficiency<br>
-      <span class="bonus-negative">-6 <span class="bonus-to-negative">to</span> -26%</span> Aura Cost<br>
+      <span class="bonus-positive">-6 <span class="bonus-to">to</span> -26%</span> Aura Cost<br>
       <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Fire Damage<br>
       <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Air Damage
     </p>
@@ -2463,6 +2472,12 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 曾经弱智流的高光，build里每一件装备都不可替换，每一件也都有这关键的用处
 
 >曾经可以扣队友的血 最优秀的设计 怎么就修复了
+
+>dps better than cata
+
+>+150属性点，保送火气双满，这就是我们immo啊
+
+>史上最肉的武器，保送150agi 150def
 
 
 >我有immo症.jpg
