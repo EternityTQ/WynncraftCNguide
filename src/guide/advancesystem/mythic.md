@@ -680,7 +680,7 @@ super idol 的笑容，都没你的甜
     <p class="bonuses">
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Main Attack Damage<br>
       <span class="bonus-positive">+173 <span class="bonus-to">to</span> +748</span> Main Attack Damage<br>
-      <span class="bonus-negative">-214 <span class="bonus-to-negative">to</span> -115%</span> Spell Damage<br>
+      <span class="bonus-negative">-214 <span class="bonus-to-negative">to</span> -115</span> Spell Damage<br>
       <span class="bonus-positive">+3600 <span class="bonus-to">to</span> +15600/3s</span> Poison<br>
       <span class="bonus-negative">-3 <span class="bonus-to-negative">to</span> -12</span> Ice Snake Cost<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Thorns
@@ -870,7 +870,7 @@ hmelee法师创始人，gw solo的神！
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Main Attack Damage<br>
       <span class="bonus-positive">+133 <span class="bonus-to">to</span> +577</span> Main Attack Damage<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Spell Damage<br>
-      <span class="bonus-positive">+67 <span class="bonus-to">to</span> +289%</span> Spell Damage<br>
+      <span class="bonus-positive">+67 <span class="bonus-to">to</span> +289</span> Spell Damage<br>
       <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325</span> Health Regen<br>
       <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Walk Speed
     </p>
@@ -1003,7 +1003,7 @@ Warp对于三个职业分支来说都可以很"愉快"的游玩
       <span class="bonus-positive">+29</span> Main Attack Damage
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+81 <span class="bonus-to">to</span> +351%</span> Spell Damage<br>
+      <span class="bonus-positive">+81 <span class="bonus-to">to</span> +351</span> Spell Damage<br>
       <span class="bonus-positive">+427 <span class="bonus-to">to</span> +1850/3s</span> Life Steal<br>
       <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Healing Efficiency<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +36%</span> Walk Speed<br>
@@ -1123,7 +1123,7 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+33 <span class="bonus-to">to</span> +144</span> Main Attack Damage<br>
-      <span class="bonus-positive">+33 <span class="bonus-to">to</span> +144%</span> Spell Damage<br>
+      <span class="bonus-positive">+33 <span class="bonus-to">to</span> +144</span> Spell Damage<br>
       <span class="bonus-positive">+300 <span class="bonus-to">to</span> +1300</span> Health<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/5s</span> Mana Regen<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Walk Speed
@@ -1290,7 +1290,7 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+161 <span class="bonus-to">to</span> +697</span> Main Attack Damage<br>
-      <span class="bonus-positive">+76 <span class="bonus-to">to</span> +329%</span> Spell Damage<br>
+      <span class="bonus-positive">+76 <span class="bonus-to">to</span> +329</span> Spell Damage<br>
       <span class="bonus-positive">+292 <span class="bonus-to">to</span> +1265/3s</span> Life Steal<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/3s</span> Mana Steal<br>
       <span class="bonus-positive">+1 tier</span> Attack Speed<br>
@@ -1986,7 +1986,7 @@ hm有发挥空间，但是真的有人玩hm吗
       <span class="bonus-positive">+15</span> Dexterity
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+80 <span class="bonus-to">to</span> +345%</span> Spell Damage<br>
+      <span class="bonus-positive">+80 <span class="bonus-to">to</span> +345</span> Spell Damage<br>
       <span class="bonus-negative">-39 <span class="bonus-to-negative">to</span> -21/5s</span> Mana Regen<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20/3s</span> Mana Steal<br>
       <span class="bonus-negative">-6 <span class="bonus-to-negative">to</span> -26</span> Dash Cost<br>
