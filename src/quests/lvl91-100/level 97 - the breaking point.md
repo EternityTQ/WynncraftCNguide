@@ -20,17 +20,18 @@ markmap:
 
 ## [The Thanos Depository (level 81)](/quests/lvl81-90/level%2081%20-%20the%20thanos%20depository.html)
 
-## Dwarves and Doguns
-
-- [Part I](/quests/lvl91-100/level%2091%20-%20dwarves%20and%20doguns%20part%20i.html)
-- [Part II](/quests/lvl91-100/level%2092%20-%20dwarves%20and%20doguns%20part%20ii.html)
-- [Part III](/quests/lvl91-100/level%2093%20-%20dwarves%20and%20doguns%20part%20iii.html)
-- [Part IV](/quests/lvl91-100/level%2094%20-%20dwarves%20and%20doguns%20part%20iv.html)
-
 ## The Envoy Part
 
-- [Part I](/quests/lvl81-90/level%2083%20-%20the%20envoy%20part%20i.html)
-- [Part II](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html)
+- [Part I (level 83)](/quests/lvl81-90/level%2083%20-%20the%20envoy%20part%20i.html)
+- [Part II (level 89)](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html)
+
+## Dwarves and Doguns
+
+- [Part I (level 91)](/quests/lvl91-100/level%2091%20-%20dwarves%20and%20doguns%20part%20i.html)
+- [Part II (level 92)](/quests/lvl91-100/level%2092%20-%20dwarves%20and%20doguns%20part%20ii.html)
+- [Part III (level 93)](/quests/lvl91-100/level%2093%20-%20dwarves%20and%20doguns%20part%20iii.html)
+- [Part IV (level 94)](/quests/lvl91-100/level%2094%20-%20dwarves%20and%20doguns%20part%20iv.html)
+
 ```
 
 
