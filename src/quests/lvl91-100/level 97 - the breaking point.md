@@ -12,6 +12,10 @@ icon: skull
 
 
 ```markmap
+---
+markmap:
+  colorFreezeLevel: 3
+---
 # 前置任务
 
 ## [The Thanos Depository (level 81)](/quests/lvl81-90/level%2081%20-%20the%20thanos%20depository.html)
