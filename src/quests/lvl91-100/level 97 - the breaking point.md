@@ -9,10 +9,25 @@ icon: skull
 解锁RAID - The Conyon Colossus
 :::
 
-前置任务：
-+ [The Thanos Depository (level 81)](/quests/lvl81-90/level%2081%20-%20the%20thanos%20depository.html)
-+ [Dwarves and Doguns Part IV (level 94)](/quests/lvl91-100/level%2094%20-%20dwarves%20and%20doguns%20part%20iv.html)
-+ [The Envoy Part II (level 89)](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html)
+
+
+```markmap
+# 前置任务
+
+## [The Thanos Depository (level 81)](/quests/lvl81-90/level%2081%20-%20the%20thanos%20depository.html)
+
+## Dwarves and Doguns
+
+- [Part I](/quests/lvl91-100/level%2091%20-%20dwarves%20and%20doguns%20part%20i.html)
+- [Part II](/quests/lvl91-100/level%2092%20-%20dwarves%20and%20doguns%20part%20ii.html)
+- [Part III](/quests/lvl91-100/level%2093%20-%20dwarves%20and%20doguns%20part%20iii.html)
+- [Part IV](/quests/lvl91-100/level%2094%20-%20dwarves%20and%20doguns%20part%20iv.html)
+
+## The Envoy Part
+
+- [Part I](/quests/lvl81-90/level%2083%20-%20the%20envoy%20part%20i.html)
+- [Part II](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html)
+```
 
 
 1.和**Kandon-Beda**的<font color=00AA00>**General Elix**</font>`[756 164 -4463]`对话
