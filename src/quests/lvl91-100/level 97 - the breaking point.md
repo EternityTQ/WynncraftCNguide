@@ -14,7 +14,7 @@ icon: skull
 ```markmap
 ---
 markmap:
-  colorFreezeLevel: 3
+  colorFreezeLevel: 2
 ---
 # 前置任务
 
