@@ -69,6 +69,7 @@ export default hopeTheme({
       chart: true,
       codetabs: true,
       searchPro: true,
+      markmap: true,
       demo: true,
       echarts: true,
       figure: true,
