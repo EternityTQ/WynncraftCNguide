@@ -7,7 +7,7 @@ icon: exclamation
 :::tip 重要任务
 解锁The Silent Expanse
 :::
-1.在**Detlas**得酒馆和<font color=00AA00>**Elphaba**</font>谈话 `[419 67 -1533]`
+1.在**Detlas**的酒馆和<font color=00AA00>**Elphaba**</font>谈话 `[419 67 -1533]`
 
 2.谈话完后你和其他三位NPC(在接下来都是你的队友)会被传送到**The Silent Expanse**入口,
 
