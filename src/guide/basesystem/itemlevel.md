@@ -89,7 +89,7 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
 
 同时，强烈建议将白装Scrap掉而非Sell，白装获得Scrap的效率还是挺不错的！
 
-+ <font color=#F7F06D>**Unique Item**</font>：独特，比白装还要常见！
++ <font color=#F7F06D><b>Unique Item</b></font>：独特，比白装还要常见！
 
 黄装的属性一般而言要比rare和legendary要稍低，同时大部分的黄装并不是很实用
 
@@ -97,27 +97,27 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
 
 至于是什么装备，还有待读者好好挖掘了！
 
-+ <font color=FF55FF>**Rare Item**</font>：稀有，比独特稍微稀有一点
++ <font color=FF55FF><b>Rare Item</b></font>：稀有，比独特稍微稀有一点
 
-+ <font color=00FF00>**Set Item**</font> ：套装，比较特殊的品质，套装品质一般来说单件强度不高，需要集齐套装内的其他装备一起穿戴才有强度
++ <font color=00FF00><b>Set Item</b></font> ：套装，比较特殊的品质，套装品质一般来说单件强度不高，需要集齐套装内的其他装备一起穿戴才有强度
 
 但是，玩家的配装一般不会怎么用到多件套装...
 
 如果你在意套装属性，可以通过查询wiki来了解
 
-+ <font color=55FFFF>**Legendary Item**</font> 传奇，第三稀有的品质，大部分蓝装都拥有不错的属性，同时小部分还包含有Major ID(被动技能)
++ <font color=55FFFF><b>Legendary Item</b></font> 传奇，第三稀有的品质，大部分蓝装都拥有不错的属性，同时小部分还包含有Major ID(被动技能)
 
 但是！还是那句话，并非品质好的就值钱(神话除外)，有部分蓝装因为过于泛滥且属性奇葩，因此价格还是要远远小于其他装备的
 
 如果你希望卖装备赚钱，记得卖之前看看市场！
 
-+ <font color=FF5555>**Fabled Item**</font>：虚幻，稀有度仅次于神话，绝大部分虚幻装备都拥有Major ID
++ <font color=FF5555><b>Fabled Item</b></font>：虚幻，稀有度仅次于神话，绝大部分虚幻装备都拥有Major ID
 
 但是，由于官方的想法是，既然你已经有了一个Major ID，那我就需要削弱你的属性来保持平衡，因此大部分虚幻装备的属性都非常奇葩...
 
 也不是说不能用，但是需要读者自己有辨别强度的能力！
 
-+ <font color=A439C0>**Mythic Item**</font> ：神话，最最最最稀有的品质
++ <font color=A439C0><b>Mythic Item</b></font> ：神话，最最最最稀有的品质
 
 就算是最不值钱的神话，其价格基本也能爆杀大部分蓝装/虚幻等
 
