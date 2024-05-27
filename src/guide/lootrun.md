@@ -4,6 +4,8 @@ icon: wheelchair-move
 pageview: true
 ---
 
+<p style="text-align: center;"><span style="font-size: 50px;"><b>LootRun不是你生活的全部</b></span></p>
+
 首先先解释一下，何谓lootrun?
 
 lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启，以此来获取装备，一般简称lr
