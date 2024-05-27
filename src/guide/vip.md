@@ -17,6 +17,7 @@ icon: gem
 
 一共有四个等级：`VIP`、`VIP+`、`HERO`、`CHAMPION`
 
+VIP均为永久
 
 :::details rank的主要功能
 
