@@ -129,7 +129,7 @@ export default sidebar({
         link: "/newbie/",
         icon: "route",
         collapsible: true,
-      }, "npcs", "dungeon", "profession", "lootrun", {
+      }, "npcs", "dungeon", "profession", {
         text: "RAID",
         prefix: "raid/",
         icon: "skull",
