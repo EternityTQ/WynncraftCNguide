@@ -6,6 +6,8 @@ pageview: true
 
 <p style="text-align: center;"><span style="font-size: 50px;"><b>LootRun不是你生活的全部</b></span></p>
 
+<p style="text-align: center;"><span style="font-size: 50px;"><b>劝人LR天打雷劈</b></span></p>
+
 首先先解释一下，何谓lootrun?
 
 lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启，以此来获取装备，一般简称lr
@@ -19,6 +21,8 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 
 在2.0.3更新后，增加了一种全新的Lootrun方式，本文主要介绍的是版本更新后的LR
+
+如果你想了解一下旧lr，可以看看[这篇文章](/guide/basesystem/cave.html)
 
 
 ## 新lr是什么？
