@@ -119,7 +119,7 @@ icon: hat-wizard
 
 期间根据失去生命值提升额外攻击，并且失去所有恢复手段
 
-腐化者的终极技能允许玩家利用血量代替能量施法
+腐化者的终极技能允许玩家利用血量代替法力施法
 
 这意味着腐化者在拥有极高伤害的同时，也会有极高的风险，需要一定的操作能力
 
@@ -139,7 +139,7 @@ icon: hat-wizard
 @tab <font color="orange">Battle Monk 武道士</font>
 武道士拥有游戏内独特的技能循环与操作机制，能轻松的在长线作战中维持持续输出能力，但有一定的上手难度
 
-其独特的技能机制允许武道士在有序操作下每第三个技能仅消耗1点能量，搭配斧踢(上挑蓝耗增加，伤害增加)可以在低蓝耗的技能循环中打出高输出
+其独特的技能机制允许武道士在有序操作下每第三个技能仅消耗1点法力，搭配斧踢(上挑蓝耗增加，伤害增加)可以在低蓝耗的技能循环中打出高输出
 
 当前版本，即使将武道士的关键技能都点亮，仍然会有较多技能点富余，这允许玩家进行技能树之间的搭配
 
@@ -240,16 +240,16 @@ icon: hat-wizard
 + Sunflare：10秒内治疗你的血量上限300%会使你的下一个治疗技能增加队友的基础抗性
 
 @tab <font color="purple"> Arcanist 奥术法师</font>
-奥术法师牺牲了治疗能力，并可以进行奥术转化，达成滚雪球式地储能，能轻松达成电表倒转的同时也有极高的爆发伤害
+奥术法师完全牺牲了治疗能力，换得了特殊的"法力储备"系统，其可以做到滚雪球式地储能，能轻松达成电表倒转的同时也有极高的爆发伤害
 
-牺牲治疗能力，使得奥术法师使用技能、技能命中都会为自己特殊的"能量库"进行充能，而使用已经被替换为奥术转化的治疗，会将能量库提取为可用能量
+奥术法师每个技能命中敌人时，都会额外填充"法力储备"，而使用奥术转换，可以直接将额外的法力储备转换为可用的法力
 
-而奥术法师的终极技能，使得奥术法师在能量库存储量足够高时使用奥术转化，能直接消耗能量库打出先前使用的多个技能，快速运转能量与输出
+奥术法师的终极技能将在奥术法师一次性转换大量法力的同时，无蓝耗迸发出先前已释放过的数个技能，达成爆发式伤害，同时又能继续为法力储备充能
 
 输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发
 
 **重要技能：**
-+ Arcane Transfer：陨石和冰蛇每命中1个敌人，都会添加5法力进入后备能源中；治疗现在不再恢复生命，而是将后备能源的所有法力转化至蓝条中；法力转换(治疗)不再有蓝耗消耗，且无法重置重复施法惩罚
++ Arcane Transfer：陨石和冰蛇每命中1个敌人，都会添加5法力进入法力储备中；治疗现在不再恢复生命，而是将法力储备的所有法力转化至蓝条中；法力转换(治疗)不再有蓝耗消耗，且无法重置重复施法惩罚
 
 + Psychokinesis：陨石现在改为从自身抛出
 
@@ -370,7 +370,7 @@ icon: hat-wizard
 + Forbidden Art：召唤分身时额外召唤3个分身
 
 @tab <font color="grey"> Acrobat 身法刺 </font>
-身法刺并不需要隐身的机制，其核心机制在于浮空并利用茉莉印记对下方的怪物造成伤害，同时利用浮空时造成伤害恢复能量进行续航，从而达成有效循环
+身法刺并不需要隐身的机制，其核心机制在于浮空并利用茉莉印记对下方的怪物造成伤害，同时利用浮空时造成伤害恢复法力进行续航，从而达成有效循环
 
 虽然茉莉印记是身法刺的核心机制来源，但身法刺的核心输出在多重斩上，不多多利用多重斩的话输出并不出色
 **重要技能：**
@@ -494,9 +494,11 @@ icon: hat-wizard
 
 如果该能力属于一个**流派能力**，会在下方标注其属于哪个流派
 
-需要注意的是，一部分能力存在流派数量**限制**，你只有在点亮足够多的流派能力后才可以点亮该能力
+需要注意的是，一部分能力存在流派**数量限制**，你只有在点亮足够多的流派能力后才可以点亮该能力
 
-同时，部分能力还存在**冲突**(多个能力只允许点其中一个)以及**前置**(点亮上一个指定能力才可以点亮这个能力)
+同时，部分能力还存在**冲突**：多个能力只允许点其中一个
+
+以及**前置**：点亮上一个指定能力才可以点亮这个能力
 
 ![该图包含了上述大部分情况](/assets/img/tree2.jpg =400x)
 
@@ -1967,7 +1969,8 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Initiator"></span>  <img
+<td><span id="Initiator"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>羽下藏锋</font></div><img
       src="/assets/img/class/large.png"
       @mouseover="showTooltip('羽下藏锋')"
       @mousemove="updateTooltipPosition"
@@ -1977,14 +1980,15 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '羽下藏锋'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>羽下藏锋</b></font>
       <br>
-      <br><font color = BBBBBB>当连续<font color=WHITE> 4秒 </font>以上没有对敌人造成伤害时，下一次命中的攻击额外<font color=WHITE> +60% </font>伤害以及<font color=aqua> 专注值 +1 </font></font>
+      <br><font color = BBBBBB>当连续<font color=WHITE> 4秒 </font>以上没有对敌人造成伤害时，下一次命中的攻击额外<font color=WHITE> +60% </font>伤害以及<font color=white> +1 </font>层<font color=aqua> 专注值</font></font>
       <br>
       <br><font color=FF55FF><b>鹰眼射手 分支</b></font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Phasing_Beam"></span>  <img
+<td><span id="Phasing_Beam"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">相位光束</font></div><img
       src="/assets/img/class/medium.png"
       @mouseover="showTooltip('相位光束')"
       @mousemove="updateTooltipPosition"
@@ -2019,7 +2023,8 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="Recycling"></span>  <img
+<td><span id="Recycling"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>箭矢回收</font></div><img
       src="/assets/img/class/large.png"
       @mouseover="showTooltip('箭矢回收')"
       @mousemove="updateTooltipPosition"
@@ -2036,7 +2041,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Shrapnel_Bomb"></span><img
+<td><span id="Shrapnel_Bomb"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">破片炸弹</font></div><img
       src="/assets/img/class/medium.png"
       @mouseover="showTooltip('破片炸弹')"
       @mousemove="updateTooltipPosition"
@@ -2053,7 +2059,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Escape_II"></span><img
+<td><span id="Cheaper_Escape_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">逃脱减耗 II</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('逃脱减耗2')"
       @mousemove="updateTooltipPosition"
@@ -2070,7 +2077,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Arrow_Shield_II"></span><img
+<td><span id="Cheaper_Arrow_Shield_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">箭盾减耗 II</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('箭盾减耗2')"
       @mousemove="updateTooltipPosition"
@@ -2096,7 +2104,8 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Stronger_Hook"></span><img
+<td><span id="Stronger_Hook"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">强力抓钩</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('强力抓钩')"
       @mousemove="updateTooltipPosition"
@@ -2117,7 +2126,8 @@ icon: hat-wizard
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Coursing_Restraints"></span>  <img
+<td><span id="Coursing_Restraints"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>震慑束缚</font></div><img
       src="/assets/img/class/large.png"
       @mouseover="showTooltip('震慑束缚')"
       @mousemove="updateTooltipPosition"
@@ -2154,7 +2164,8 @@ icon: hat-wizard
 <tr>
 <td><img src="/assets/img/class/右下.png" width="40" height="40" >
 </td>
-<td>  <img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF5555>飓风箭阵</font></div><img
       src="/assets/img/class/special.png"
       @mouseover="showTooltip('飓风箭阵')"
       @mousemove="updateTooltipPosition"
@@ -2171,7 +2182,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/左下.png" width="40" height="40" >
 </td>
-<td><span id="Tangled_Traps"></span><img
+<td><span id="Tangled_Traps"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">绊线陷阱</font></div><img
       src="/assets/img/class/medium.png"
       @mouseover="showTooltip('绊线陷阱')"
       @mousemove="updateTooltipPosition"
@@ -2188,7 +2200,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="Beast_Lore"></span><img
+<td><span id="Beast_Lore"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">理塘</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('理塘')"
       @mousemove="updateTooltipPosition"
@@ -2207,7 +2220,8 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td>  <img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF5555>暮色流光</font></div><img
       src="/assets/img/class/special.png"
       @mouseover="showTooltip('暮色流光')"
       @mousemove="updateTooltipPosition"
@@ -2235,7 +2249,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/右下.png" width="40" height="40" >
 </td>
-<td>  <img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF5555>陷阱雷区</font></div><img
       src="/assets/img/class/special.png"
       @mouseover="showTooltip('陷阱雷区')"
       @mousemove="updateTooltipPosition"
@@ -2246,7 +2261,8 @@ icon: hat-wizard
       <font color=FF5555><b>陷阱雷区</b></font>
       <br>
       <br><font color = BBBBBB>可放置的<font color=aqua>陷阱</font>数量<font color=white>+6</font>
-      <br>但是降低每个陷阱的伤害及伤害范围
+      <br>
+      <br>但是每个陷阱的伤害及伤害范围均<font color=FF5555>减少</font>
       <br>
       <br>范围：<font color=FF5555>-1</font>
       <br>
@@ -2262,7 +2278,8 @@ icon: hat-wizard
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
 <tr>
-<td><span id="All-Seeing_Panoptes"></span>  <img
+<td><span id="All-Seeing_Panoptes"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>全知天使</font></div><img
       src="/assets/img/class/large.png"
       @mouseover="showTooltip('全知天使')"
       @mousemove="updateTooltipPosition"
@@ -2283,7 +2300,8 @@ icon: hat-wizard
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><img
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">猎人狩猎法则</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('猎人狩猎守则2')"
       @mousemove="updateTooltipPosition"
@@ -2300,7 +2318,8 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Grape_Bomb"></span><img
+<td><span id="Grape_Bomb"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>分裂炸弹</font></div><img
       src="/assets/img/class/large.png"
       @mouseover="showTooltip('分裂炸弹')"
       @mousemove="updateTooltipPosition"
@@ -2318,7 +2337,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/丁字.png" width="40" height="40" >
 </td>
-<td><span id="More_Focus_II"></span><img
+<td><span id="More_Focus_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">更加专注 II</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('更加专注2')"
       @mousemove="updateTooltipPosition"
@@ -2340,7 +2360,8 @@ icon: hat-wizard
 </td>
 <td><img  src="/assets/img/class/竖线.png" decoding="async" loading="lazy" width="40" height="40" >
 </td>
-<td><span id="Elusive"></span><img
+<td><span id="Elusive"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">空灵</font></div><img
       src="/assets/img/class/medium.png"
       @mouseover="showTooltip('空灵')"
       @mousemove="updateTooltipPosition"
@@ -2371,7 +2392,8 @@ icon: hat-wizard
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><span id="Geyser_Stomp"></span><img
+<td><span id="Geyser_Stomp"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color="ORANGE">喷泉践踏</font></div><img
       src="/assets/img/class/medium.png"
       @mouseover="showTooltip('喷泉践踏')"
       @mousemove="updateTooltipPosition"
@@ -2388,7 +2410,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Snow_Storm"></span>  <img
+<td><span id="Snow_Storm"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF55FF>暴风雪</font></div><img
       src="/assets/img/class/large.png"
       @mouseover="showTooltip('暴风雪')"
       @mousemove="updateTooltipPosition"
@@ -2408,7 +2431,8 @@ icon: hat-wizard
 </td>
 <td><img src="/assets/img/class/横线.png" width="40" height="40" >
 </td>
-<td><span id="Cheaper_Arrow_Bomb_II"></span><img
+<td><span id="Cheaper_Arrow_Bomb_II"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">爆炸箭减耗 II</font></div><img
       src="/assets/img/class/small.png"
       @mouseover="showTooltip('爆炸箭减耗2')"
       @mousemove="updateTooltipPosition"
@@ -6683,7 +6707,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '智取巧夺'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>智取巧夺</b></font>
       <br>
-      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>2% </font>的偷窃，就获得<font color=white> 1/3s </font>的能量窃取(至多+8/3s)</font>
+      <br><font color = BBBBBB>你的装备鉴定词条上每有 <font color=white>2% </font>的偷窃，就获得<font color=white> 1/3s </font>的法力窃取(至多+8/3s)</font>
       <br>
       <br><font color=FF55FF><b>幻术师 分支</b></font>
     </div>
@@ -6892,7 +6916,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '鹤步'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>鹤步</b></font>
       <br>
-      <br><font color = BBBBBB>在<font color = AAAAAA>浮空状态</font>下造成伤害时，将为你回复<font color=WHITE>0.35</font>点能量</font>
+      <br><font color = BBBBBB>在<font color = AAAAAA>浮空状态</font>下造成伤害时，将为你回复<font color=WHITE>0.35</font>点法力</font>
       <br>
       <br><font color=WHITE><b>身法刺 分支</b></font>
       <br>
@@ -7236,7 +7260,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '锐羽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>锐羽</b></font>
       <br>
-      <br><font color = BBBBBB>触发闪避后，获得1.5s的伤害提升，且接下来1.5s内释放的下一个技能不消耗能量
+      <br><font color = BBBBBB>触发闪避后，获得1.5s的伤害提升，且接下来1.5s内释放的下一个技能不消耗法力
       <br>
       <br>内置CD：<font color = white>3s</font></font>
       <br>
@@ -7510,7 +7534,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '灵魂收割'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF55FF><b>灵魂收割</b></font>
       <br>
-      <br><font color = BBBBBB>击杀敌人后，其身上每有一层<font color = aqua>刺杀印记</font>就回复<font color = FFFFFF>5</font>点能量</font>
+      <br><font color = BBBBBB>击杀敌人后，其身上每有一层<font color = aqua>刺杀印记</font>就回复<font color = FFFFFF>5</font>点法力</font>
       <br>
       <br><font color=AA0000><b>影步者 分支</b></font>
     </div>
@@ -7677,7 +7701,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '芳泽'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>芳泽</b></font>
       <br>
-      <br><font color = BBBBBB>每消耗<font color=WHITE>40</font>能量，都将会在脚下积攒一层<font color=WHITE>绽放印记</font>，<font color=WHITE>绽放印记</font>会对其下方的所有单位造成高频伤害，再次获得印记将会扩大印记半径并刷新持续时间。
+      <br><font color = BBBBBB>每消耗<font color=WHITE> 40 </font>法力，都将会在脚下积攒一层<font color=aqua>绽放印记</font>，<font color=aqua>绽放印记</font>会对其下方的所有单位造成高频伤害，再次获得印记将会扩大印记半径并刷新持续时间。
       <br>
       <br>伤害频率：<font color=WHITE>0.3s</font>
       <br>持续时间：<font color=WHITE>5s</font>(每次减少一层)
@@ -7686,7 +7710,7 @@ icon: hat-wizard
       <br><font color=WHITE><b>身法刺 分支</b></font></font>
       <br>
       <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB><font color=WHITE><b>绽放印记</b></font>的高频伤害搭配<u>鹤步</u>可以为身法刺提供大量能量</font>
+      <br><font color = BBBBBB><font color=aqua><b>绽放印记</b></font>的高频伤害搭配<u>鹤步</u>可以为身法刺提供大量法力</font>
     </div>
 </td>
 <td><img src="/assets/img/class/左下.png">
@@ -7734,7 +7758,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '鹤舞'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>鹤舞</b></font>
       <br>
-      <br><font color = BBBBBB><u>鹤步</u>的能量回复提升<font color = FFFFFF>0.25</font></font>
+      <br><font color = BBBBBB><u>鹤步</u>的法力回复提升<font color = FFFFFF>0.25</font></font>
     </div>
 </td></tr>
 <tr>
@@ -7748,7 +7772,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '灵魂吞噬'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>灵魂吞噬</b></font>
       <br>
-      <br><font color = BBBBBB><u>灵魂收割</u>的能量回复提升<font color = FFFFFF>5</font></font>
+      <br><font color = BBBBBB><u>灵魂收割</u>的法力回复提升<font color = FFFFFF>5</font></font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -8860,7 +8884,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '假面狂欢'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>假面狂欢</b></font>
       <br>
-      <br><font color = BBBBBB>每当你切换<font color=aqua>假面</font><font color = FFFFFF> 2</font>次后，获得<font color = FFFFFF> 30</font>能量。</font>
+      <br><font color = BBBBBB>每当你切换<font color=aqua>假面</font><font color = FFFFFF> 2</font>次后，获得<font color = FFFFFF> 30</font>法力。</font>
       <br>
       <br><font color=16d108><b>圣祭司 分支</b></font>
     </div>
@@ -9125,7 +9149,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '自我陶醉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>自我陶醉</b></font>
       <br>
-      <br><font color = BBBBBB><u>假面狂欢</u>触发所需的切换<font color=aqua>假面</font>次数需求<font color = FFFFFF> -1</font>，触发后获得的能量值<font color=red>-10</font></font>
+      <br><font color = BBBBBB><u>假面狂欢</u>触发所需的切换<font color=aqua>假面</font>次数需求<font color = FFFFFF> -1</font>，触发后获得的法力值<font color=red>-10</font></font>
       <br>
       <br><font color=16d108><b>圣祭司 分支</b></font>
     </div>

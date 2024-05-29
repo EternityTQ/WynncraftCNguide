@@ -27,9 +27,9 @@ icon: gamepad
       <br>爆炸范围：<font color=white>4.5格</font></font>
     </div>
 ```
-
+## 白色
 ```vue
-<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+<div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-15px;margin-right:-10px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
     <font color="white">逃脱减耗 I</font></div>
 <img
       src="/assets/img/class/small.png"
@@ -46,6 +46,7 @@ icon: gamepad
     </div>
 ```
 
+## 橙色
 ```vue
 <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color="ORANGE">碎心</font></div>
@@ -64,7 +65,7 @@ icon: gamepad
     </div>
 ```
 
-
+## 粉色
 ```vue
 <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF55FF>全神贯注</font></div>
@@ -87,7 +88,7 @@ icon: gamepad
     </div>
 ```
 
-
+## 红色
  ```vue
 <div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
     <font color=FF5555>全神贯注</font></div>
