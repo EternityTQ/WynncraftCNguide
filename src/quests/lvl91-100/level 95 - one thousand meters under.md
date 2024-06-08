@@ -1,3 +1,7 @@
+---
+icon: exclamation
+---
+
 # One Thousand Meters Under(level 95)
 <span style="font-size: 25px;">**是男人就下一千米/虚空之下**</span>
 
