@@ -5,6 +5,10 @@
 
 2.找到<font color=00AA00>**Asher**</font>的铲子`[-560 70 -1100]`
 
+:::tip
+记住过来的路线，一会要传送到任务场景原路返回
+:::
+
 3.把<font color=00AA00>**Asher**</font>的铲子带回给<font color=00AA00>**Asher**</font>
 
 4.进入<font color=00AA00>**Asher**</font>的房子里
