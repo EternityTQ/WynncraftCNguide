@@ -114,6 +114,18 @@ hero及以上rank限定
 
 返回大厅，一般玩家请用这种方式来更改线路
 
+## /party
+
+`/party [ID]`即为直接创建队伍并邀请玩家
+
+`/party create`为创建队伍
+
+`/party invite [ID]`为邀请玩家
+
+`/party leave`退出队伍
+
+`/p [内容]` 队伍聊天 
+
 ## /totems
 
 可以快速打开mob totem界面
