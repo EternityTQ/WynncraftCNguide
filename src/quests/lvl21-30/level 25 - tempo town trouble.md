@@ -1,3 +1,7 @@
+---
+icon: route
+---
+
 # Tempo Town Trouble (level 25)
 <span style="font-size: 25px;">**自找麻烦**</span>
 
@@ -18,7 +22,7 @@
 奖励
 + 5650 经验值
 + 1 Time Fragment
-+ 可以协助击败Time Trouble了
++ 可以击杀Time Trouble了
 + 可以使用往返于Nemract和Tempo Town之间的快速旅行了(石柱)
 ![](/assets/img/lvl25-1.jpg)
 
@@ -28,7 +32,9 @@ Time Trouble会每隔现实时间24小时于下列地点刷新
 `[-454 75 -1207]`; `[-410 73 -1132]`; `[-192 67 -1324]`; `[-470 74 -1030]`; `[-500 83 -1150]`
 ![](/assets/img/lvl25-2.jpg)
 
-Time Fragment可以于`[-290 43 -1146]`兑换装备
+击杀Time Trouble可以获得`Time Fragment`
+
+`Time Fragment`可以于`[-290 43 -1146]`兑换装备
 
 兑换的装备非常强力，可以慢慢攒一套给小号用
 :::
