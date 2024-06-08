@@ -46,7 +46,7 @@ XX：**一周目必做**，但是二周目及以后可以不做
 X：解锁的功能有意义，但都不是很重要
 
 | 任务名 | 解锁功能 | 重要指数 |
-| :---: | :---: | --- |
+| :---: | :---: | :---: |
 | [Tunnel Trouble ( level 6 )](/quests/lvl1-10/level%206%20-%20tunnel%20trouble.html) | 解锁了Detlas-Ragni之间的快速传送隧道 | XXX |
 | [Stable Story (level 13)](/quests/lvl11-20/level%2013%20-%20stable%20story.html) | 解锁了马匹 | XX |
 | [Supply and Delivery ( level 16 )](/quests/lvl11-20/level%2016%20-%20supply%20and%20delivery.html) | 解锁了Alekin村和Detlas之间的快速传送马车 | X |
