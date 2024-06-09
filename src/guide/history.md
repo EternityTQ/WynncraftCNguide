@@ -20,10 +20,10 @@ icon: book
 ## Todo List
 注：以下内容均不一定实现，敬请留意XD
 
-1. 副本细分页面，具体每个副本的攻略细节
-2. Wynntils页面改为MOD介绍页面，增加介绍内容，增加avomod的介绍
-3. 重制社区页面(当前已被隐藏)
-
+1. 以下任务页面需要翻新
++ The Corrupted Village（level 28）
++ Déjà vu ( level 27)
++ Kingdom of Sand (level 33)(等beta更)
 
 ## 2024年3月7日
 1. 增加更新历史页面
