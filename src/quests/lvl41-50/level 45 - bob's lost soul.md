@@ -17,6 +17,8 @@
 
 :::tip
 Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分百且刷率极高，稍微逛一圈就能看见。
+
+或者，你也可以选择直接在市场上购买，也不算特别贵
 :::
 
 6.和**Ternaves**附近的<font color=00AA00>**Blacksmith**</font>`[725, 61, -1468]`谈有关Bob's lost soul的事
