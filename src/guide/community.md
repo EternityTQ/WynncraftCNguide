@@ -1,5 +1,5 @@
 ---
-title: 游戏外社区
+title: 游戏外社区&工具
 icon: toolbox
 ---
 
@@ -42,3 +42,44 @@ Wynncraft大群一号：211320297
 Wynncraft大群二号：680695042
 
 其中，一群日常比较活跃
+
+## 第三方网页工具 Nori
+
+Wynncraft第三方网页工具 Nori
+
+网址：nori.fish （自行复制）
+
+备用网址：https://norihub.com
+
+nori.fish/wynn/item/mythic 顶尖神话一览＋神话权重标准
+
+nori.fish/wynn/item/analysis 物品解析
+
+nori.fish/wynn/item/lootpool 每周奖池
+
+nori.fish/wynn/item/simulation 物品洗点模拟
+
+nori.fish/wynn/item/changelog 物品改动日志
+
+nori.fish/wynn/build 配装搜索
+
+nori.fish/wynn/recipe 配方搜索
+
+nori.fish/wynn/leaderboard 各项排行榜
+
+nori.fish/wynn/player 玩家数据
+
+nori.fish/wynn/guild 公会数据
+
+nori.fish/wynn/online 在线玩家 
+
+nori.fish/wynn/uptime 服务器在线时长+灵魂点倒计
+
+论坛贴子: https://forums.wynncraft.com/threads/308524
+
+
+
+
+
+
+
