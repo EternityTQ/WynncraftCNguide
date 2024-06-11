@@ -3,7 +3,7 @@ title: 应知应做
 icon: marker
 ---
 
-关于新手教程，可以[看看这里](/quests/lvl1-10/level%201%20-%20King's%20Recruit.html)，这里将不会再过多赘述其中的步骤
+关于新手教程，可以[看看这里](/quests/lvl1-10/level%201%20-%20king's%20recruit_rework.html)，这里将不会再过多赘述其中的步骤
 
 当你完成新手教程后，你就来到了**Ragni**，这里是第一座城市，但是这里平常玩家并不多
 

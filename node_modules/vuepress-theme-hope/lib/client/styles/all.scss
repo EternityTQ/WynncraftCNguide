@@ -3,6 +3,7 @@
 @use "normalize";
 @use "breadcrumb";
 @use "common";
+@use "external-link-icon";
 @use "fade-slide-y";
 @use "feature-panel";
 @use "footer";
@@ -14,6 +15,8 @@
 @use "page-nav";
 @use "page-title";
 @use "page";
+@use "portfolio-hero";
+@use "portfolio-home";
 @use "skip-link";
 @use "code";
 @use "sr-only";
