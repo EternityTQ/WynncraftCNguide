@@ -74,7 +74,7 @@ guild obj相较于daily obj，会有更高的完成条件，同时存在Raid Com
 
 每个公会都会拥有属于自己的公会岛屿
 
-![](/assets/img/guildisland.jpg)
+![](/assets/img/cnm.jpg)
 
 公会的管理人员如果有好好打理公会岛屿的话，会是一个很不错的聚会的地方！
 
