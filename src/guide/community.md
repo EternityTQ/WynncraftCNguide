@@ -47,35 +47,39 @@ Wynncraft大群二号：680695042
 
 Wynncraft第三方网页工具 Nori
 
-网址：nori.fish （自行复制）
+### [Nori-Web 传送门](https://nori.fish)
 
 备用网址：https://norihub.com
 
-nori.fish/wynn/item/mythic 顶尖神话一览＋神话权重标准
+### 各项功能：
 
-nori.fish/wynn/item/analysis 物品解析
+- [顶尖神话一览＋神话权重标准](https://nori.fish/wynn/item/mythic)
 
-nori.fish/wynn/item/lootpool 每周奖池
+- [物品分析](https://nori.fish/wynn/item/analysis)
 
-nori.fish/wynn/item/simulation 物品洗点模拟
+- [每周奖池](https://nori.fish/wynn/item/lootpool)
 
-nori.fish/wynn/item/changelog 物品改动日志
+- [顶级神话与权重标准](https://nori.fish/wynn/item/mythic)
 
-nori.fish/wynn/build 配装搜索
+- [物品洗点模拟](https://nori.fish/wynn/item/simulation)
 
-nori.fish/wynn/recipe 配方搜索
+- [物品改动日志](https://nori.fish/wynn/item/changelog)
 
-nori.fish/wynn/leaderboard 各项排行榜
+- [配装搜索](https://nori.fish/wynn/build)
 
-nori.fish/wynn/player 玩家数据
+- [配方搜索](https://nori.fish/wynn/recipe)
 
-nori.fish/wynn/guild 公会数据
+- [各项排行榜](https://nori.fish/wynn/leaderboard) 
 
-nori.fish/wynn/online 在线玩家 
+- [玩家数据](https://nori.fish/wynn/player)
 
-nori.fish/wynn/uptime 服务器在线时长+灵魂点倒计
+- [公会数据](https://nori.fish/wynn/guild)
 
-论坛贴子: https://forums.wynncraft.com/threads/308524
+- [在线玩家](https://nori.fish/wynn/online)
+
+- [服务器在线时长+灵魂点倒计](https://nori.fish/wynn/uptime)
+
+### [论坛贴子地址](https://forums.wynncraft.com/threads/308524)
 
 
 
