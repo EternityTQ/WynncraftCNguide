@@ -5,7 +5,9 @@ icon: face-tired
 # A Grave Mistake(level 50)
 <span style="font-size: 25px;">**庄严的引魂人**</span>
 
-前置任务:[The House of Twain](/quests/lvl41-50/level%2049%20-%20the%20house%20of%20twain.html)
+前置任务:
+
++ [The House of Twain(level 49)](/quests/lvl41-50/level%2049%20-%20the%20house%20of%20twain.html)
 
 
 :::warning 恐怖任务
