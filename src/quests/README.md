@@ -4,8 +4,6 @@ icon: book
 pageview: true
 ---
 <p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
-<p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
-<p style="text-align: center;"><span style="font-size: 50px;"><b>使用前必读</b></span></p>
 
 :::danger
 如果你使用本攻略的过程中出现了任何问题，请先按照下列步骤尝试自己解决：

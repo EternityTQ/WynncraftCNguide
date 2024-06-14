@@ -1,6 +1,12 @@
 # The Corrupted Village（level 28）
 <span style="font-size: 25px;">**腐蚀的村庄**</span>
 
+:::warning 旧任务提醒
+本任务部分步骤沿用老攻略，可能出现不匹配的情况
+
+预计于下次大版本更新后一起更新
+:::
+
 1.和<font color=00AA00>**Orikal**</font>`[318, 78, -1097]`讲话
 
 2.爬上<font color=00AA00>**Orikal**</font>旁边的大黑柱子（就是有点斜过来的高高的，）顺着红色羊毛上去，左下角出现字了就可以回去和NPC说话

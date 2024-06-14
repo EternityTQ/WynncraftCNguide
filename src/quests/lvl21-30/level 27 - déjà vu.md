@@ -1,6 +1,12 @@
 # Déjà vu ( level 27)
 <span style="font-size: 25px;">**似曾相识**</span>
 
+:::warning 旧任务提醒
+本任务部分步骤沿用老攻略，可能出现不匹配、不清晰的情况
+
+预计于下次大版本更新后一起更新
+:::
+
 1.与在时间峡谷的<font color=00AA00>**Asher**</font>`[-449 72 -1153]`对话
 
 2.找到<font color=00AA00>**Asher**</font>的铲子`[-560 70 -1100]`
