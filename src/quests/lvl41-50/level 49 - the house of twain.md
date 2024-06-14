@@ -3,9 +3,9 @@
 
 >在做这个任务之前，请自备若干个绿宝石或者<font color=00AA00>绿帽子</font>Ghostly Cap。
 
-1.和<font color=00AA00>**Twendle**</font>`[12 76 -456]`说话
+1. 和<font color=00AA00>**Twendle**</font>`[12 76 -456]`说话
 
-1. 进入吐温之家`[93 74 -359]`
+2. 进入吐温之家`[93 74 -359]`
 
 :::tip
 如果你已经提前准备好了`Ghostly Cap`，你可以直接跳过以下步骤，从第8步开始做起
