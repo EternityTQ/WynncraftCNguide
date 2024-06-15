@@ -1,5 +1,5 @@
 ---
-title: 传说岛-Li
+title: Legendary Island
 icon: hand-fist
 ---
 :::warning
