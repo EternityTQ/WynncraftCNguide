@@ -1,5 +1,5 @@
 ---
-title: tome系统
+title: Mastery Tome
 icon: book-open
 ---
 
