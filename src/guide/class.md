@@ -3750,7 +3750,7 @@ icon: hat-wizard
       <br><font color=00FF00>备注</font>
       <br><font color = BBBBBB><u>上挑斩</u>现在的攻击范围为球形，你可以击中位于你正上方的怪
       <br>
-      <br><u>旋风打击</u>只能连续击飞1次，当击飞后，你需要接近地面来刷新击飞次数。</font>
+      <br><u>旋风打击</u>只能连续击飞自身2次，当次数耗尽后，你需要接近地面来刷新击飞次数。</font>
     </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
