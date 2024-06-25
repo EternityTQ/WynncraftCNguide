@@ -93,7 +93,7 @@ export default sidebar({
           collapsible: true,
         },
         {
-          text: "高价值任务",
+          text: "值得做的任务",
           icon: "money-bill",
           link: "valued/valued_quest.md",
           collapsible: true,

@@ -39,7 +39,9 @@ icon: money-bill
 
 重要指数介绍：
 
-XXX：每个存档必做，非常重要
+XXX：每个存档**必做**，非常重要
+
+XXX-：也非常重要，每个存档都值得做一下
 
 XX：**一周目必做**，但是二周目及以后可以不做
 
@@ -47,13 +49,13 @@ X：解锁的功能有意义，但都不是很重要
 
 | 任务名 | 解锁功能 | 重要指数 |
 | :---: | :---: | :---: |
-| [Tunnel Trouble ( level 6 )](/quests/lvl1-10/level%206%20-%20tunnel%20trouble.html) | 解锁了Detlas-Ragni之间的快速传送隧道 | XXX |
+| [Tunnel Trouble ( level 6 )](/quests/lvl1-10/level%206%20-%20tunnel%20trouble.html) | 解锁了Detlas-Ragni之间的快速传送隧道 | XXX- |
 | [Stable Story (level 13)](/quests/lvl11-20/level%2013%20-%20stable%20story.html) | 解锁了马匹 | XX |
 | [Supply and Delivery ( level 16 )](/quests/lvl11-20/level%2016%20-%20supply%20and%20delivery.html) | 解锁了Alekin村和Detlas之间的快速传送马车 | X |
 | [Recover The Past (level 25)](/quests/lvl21-30/level%2025%20-%20recover%20the%20past.html) | 解锁了技能树洗点功能 | XX |
 | [Tempo Town Trouble (level 25)](/quests/lvl21-30/level%2025%20-%20tempo%20town%20trouble.html) | 解锁了Nemract和Tempo Town之间的快速传送石柱<br>解锁了Time Fragment兑换 | XX |
 | [Misadventure on the Sea (level 28)](/quests/lvl21-30/level%2028%20-%20misadventure%20on%20the%20sea.html) | 去Selchar的船票不再收费 | X |
-| [A Sandy Scandal (level 32)](/quests/lvl31-40/level%2032%20-%20a%20sandy%20scandal.html) | 解锁了Almuj的银行 | XXX |
+| [A Sandy Scandal (level 32)](/quests/lvl31-40/level%2032%20-%20a%20sandy%20scandal.html) | 解锁了Almuj的银行 | XXX- |
 | [Canyon Condor (level 38)](/quests/lvl31-40/level%2038%20-%20canyon%20condor.html) | 可以使用Rymek大电梯了<br>(不重要的原因是这地方不常来) | X |
 | [Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20realm%20of%20light%20i%20-%20the%20worm%20holes.html) | 解锁了Tome系统 | XXX |
 | [The Passage(level 57)](/quests/lvl51-60/level%2057%20-%20the%20passage.html) | 解锁了Troms-猪人峡谷之间的通道<br>(不重要的原因是之后一般用快速传送卷轴了) | XX |
@@ -67,7 +69,7 @@ X：解锁的功能有意义，但都不是很重要
 | [The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html) | 解锁了Corkus-Kandon Beda之间的热气球 | XX |
 | [Dwarves and Doguns part I(level 91)](/quests/lvl91-100/level%2091%20-%20dwarves%20and%20doguns%20part%20i.html) | 解锁Molten Heights的电梯 | XX |
 | [Dwarves and Doguns Part II(level 92)](/quests/lvl91-100/level%2092%20-%20dwarves%20and%20doguns%20part%20ii.html) | 解锁了Thanos-Rodoroc的往返隧道 | X |
-| [Dwarves and Doguns Part III (level 93)](/quests/lvl91-100/level%2093%20-%20dwarves%20and%20doguns%20part%20iii.html) | 解锁了可供副职练级的资源矿道<br>练副职必做 | XXX |
+| [Dwarves and Doguns Part III (level 93)](/quests/lvl91-100/level%2093%20-%20dwarves%20and%20doguns%20part%20iii.html) | 解锁了可供副职练级的资源矿道<br>练副职必做 | XX |
 | [The Feathers Fly Part II (level 93)](/quests/lvl91-100/level%2093%20-%20the%20feathers%20fly%20part%20ii.html) | 解锁了Ava的作坊<br>有个加速珍珠非常重要 | XX |
 | [One Thousand Meters Under(level 95)](/quests/lvl91-100/level%2095%20-%20one%20thousand%20meters%20under.html) | 解锁了Void区域 | XX |
 | [The Breaking Point (level 97)](/quests/lvl91-100/level%2097%20-%20the%20breaking%20point.html) | 解锁了raid-TCC | XXX |
