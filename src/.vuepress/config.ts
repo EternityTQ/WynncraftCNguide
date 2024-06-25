@@ -31,6 +31,13 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/css2?family=Peralta&display=swap",
+        rel: "stylesheet",
+      },
+    ],
     
     ['link', { rel: 'Minecraft', href: '/assets/font/Minecraft.ttf' }],
   ],
