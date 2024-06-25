@@ -27,7 +27,7 @@ export default defineUserConfig({
     [
       "link",
       {
-        href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Noto+Sans+SC&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Montserrat:wght@400&family=Noto+Sans+SC&display=swap",
         rel: "stylesheet",
       },
     ],
