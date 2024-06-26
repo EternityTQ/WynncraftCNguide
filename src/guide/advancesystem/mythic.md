@@ -3065,6 +3065,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 .item-name {
   color: rgb(164, 57, 192);
   font-size: 20px;
+  font-weight: bold;
 }
 
 .item-attribute {
