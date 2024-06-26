@@ -4071,7 +4071,22 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><img src="/assets/img/class/竖线.png">
+<td><span id="Stronger_Sacred_Surge"></span><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;text-shadow: 1px 1px 1px black;">
+    <font color="white">神圣浪潮</font></div>
+<img
+      src="/assets/img/class/small.png"
+      @mouseover="showTooltip('神圣浪潮')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 40px; height: 40px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '神圣浪潮'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color="#FFFFFF"><b>神圣浪潮</b></font>
+      <br>
+      <br><font color = BBBBBB><font color=aqua>神圣之力</font>的伤害增加</font>
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font>
+    </div>
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td></tr>
@@ -4116,29 +4131,11 @@ icon: hat-wizard
       <br><font color=FFFF55><b>武道士 分支</b></font>
     </div>
 </td>
-<td><img src="/assets/img/class/右下.png">
+<td>
 </td>
-<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
-    <font color=FF5555>重获生机</font></div>
-<img
-      src="/assets/img/class/special.png"
-      @mouseover="showTooltip('重获生机')"
-      @mousemove="updateTooltipPosition"
-      @mouseleave="hideTooltip"
-      style="width: 46px; height: 46px;"
-    />
-    <div v-if="isTooltipVisible && currentTooltip === '重获生机'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
-      <font color=FF5555><b>重获生机</b></font>
-      <br>
-      <br><font color = BBBBBB>受到致命伤时，免疫此次伤害，并恢复<font color=WHITE> 30% </font>的生命值(10分钟冷却)
-      <br>
-      <br><font color=55FFFF><b>圣骑士 分支</b></font></font>
-      <br>
-      <br><font color=00FF00>备注</font>
-      <br><font color = BBBBBB>无法免疫/kill的效果。</font>
-    </div>
+<td><img src="/assets/img/class/竖线.png">
 </td>
-<td><img src="/assets/img/class/左下.png">
+<td>
 </td></tr>
 <tr>
 <td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
@@ -4172,11 +4169,29 @@ icon: hat-wizard
 </td>
 <td><div style="width: 36px; height: 36px;"></div>
 </td>
-<td><img src="/assets/img/class/竖线.png">
+<td><img src="/assets/img/class/右下.png">
 </td>
-<td><div style="width: 36px; height: 36px;"></div>
+<td><div style="text-align: center;margin-top:-10px;margin-bottom: -3px;margin-left:-5px;margin-right:0px;font-size: 11px;white-space: nowrap;">
+    <font color=FF5555>重获生机</font></div>
+<img
+      src="/assets/img/class/special.png"
+      @mouseover="showTooltip('重获生机')"
+      @mousemove="updateTooltipPosition"
+      @mouseleave="hideTooltip"
+      style="width: 46px; height: 46px;"
+    />
+    <div v-if="isTooltipVisible && currentTooltip === '重获生机'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
+      <font color=FF5555><b>重获生机</b></font>
+      <br>
+      <br><font color = BBBBBB>受到致命伤时，免疫此次伤害，并恢复<font color=WHITE> 30% </font>的生命值(10分钟冷却)
+      <br>
+      <br><font color=55FFFF><b>圣骑士 分支</b></font></font>
+      <br>
+      <br><font color=00FF00>备注</font>
+      <br><font color = BBBBBB>无法免疫/kill的效果。</font>
+    </div>
 </td>
-<td><img src="/assets/img/class/竖线.png">
+<td><img src="/assets/img/class/左下.png">
 </td></tr>
 <tr>
 <td><div style="width: 36px; height: 36px;"></div>
@@ -5730,7 +5745,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '动摇的信仰'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="#FFFFFF"><b>动摇的信仰</b></font>
       <br>
-      <br><font color = BBBBBB>你每从装备鉴定词条上累计获得<font color = FFFFFF> 2% </font>的灵魂点恢复，就获得<font color = FFFFFF> 1% </font>的雷属性伤害加成(上限+40%)</font>
+      <br><font color = BBBBBB>你每从装备鉴定词条上累计获得<font color = FFFFFF> 2% </font>的疾跑上限，就获得<font color = FFFFFF> 1% </font>的雷属性伤害加成(上限+40%)</font>
     </div>
 </td>
 <td><img src="/assets/img/class/丁字.png">
