@@ -51,6 +51,6 @@ icon: bookmark
 <span class="stage-index">13.</span> 和<font color=00AA00>**Avos Chief**</font>`[-1819 131 -3071]`对话
 
 奖励
-+ 2900000 经验值
++ 2900000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 20 Bipedal Springs(道具)
 + 3 Golden Avia Feathers(素材)

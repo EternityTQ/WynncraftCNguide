@@ -24,7 +24,7 @@ NPC在一个山崖上，顺着木桥走，若看到梯子`[364 ? -3292]`后就�
 <span class="stage-index">5.</span> 回到最初的**Zhight Island**，将`Odd Smelling Crate`交还给<font color=00AA00>**Zhight**</font>`[-542 38 -2755]`
 
 奖励
-+ 95000 经验值
++ 95000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 进入Zhight岛交易所的权限(使用Zhight货币兑换物品)
 + 可以游玩Zhight Treasure Tour了(一个小游戏)(?)
 + 16个Zhight货币

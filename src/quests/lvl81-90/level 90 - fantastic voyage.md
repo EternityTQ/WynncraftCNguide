@@ -93,8 +93,8 @@
 
 
 奖励
-+ 3100000 经验值
-+ 6144 绿宝石
++ 3100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 6144 绿宝石![](/assets/icon/Emerald.png =20x)
 + Pendant of Prosperity(项链)
 
 :::tip

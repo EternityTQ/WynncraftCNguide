@@ -24,8 +24,8 @@
 <span class="stage-index">6.</span> 继续和<font color=00AA00>**Colonel Gailard**</font>对话
 
 奖励
-+ 4000 经验值 
-+ 192 绿宝石
++ 4000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 192 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以进入**Bremminglar**的药水商店了
 
 >小趣事：不喝药水直接进洞会被烫到起飞

@@ -38,8 +38,8 @@ icon: exclamation
 <span class="stage-index">8.</span> 被Lari送出洞后，跟着她一起来到raid门口，跟Lari对话
 
 奖励
-+ 100000 经验值
-+ 768 绿宝石
++ 100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 768 绿宝石![](/assets/icon/Emerald.png =20x)
 + 6 Az Runes
 + 可以进入Nest of the Grootslangs RAID了
 + 解锁了Mastery Tomes功能
@@ -48,7 +48,7 @@ icon: exclamation
 :::tip
 资源隧道的位置在`[-2047 58 -5388]`
 
-隧道内有大量50级矿业、农业、渔业、60级农业，同时有50%的采集经验值加成
+隧道内有大量50级矿业、农业、渔业、60级农业，同时有50%的采集经验值![](/assets/icon/Experience_Orb.gif =20x)加成
 :::
 
 :::tip

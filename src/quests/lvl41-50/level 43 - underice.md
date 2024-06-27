@@ -31,8 +31,8 @@
 
 
 奖励
-+ 34000 经验值
-+ 128 绿宝石
++ 34000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 128 绿宝石![](/assets/icon/Emerald.png =20x)
 + Gernald’s Amulet/Calamaro’s Token
 
 >不知道会不会有人跟我一样总是把任务名看成under rice....

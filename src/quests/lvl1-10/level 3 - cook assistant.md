@@ -33,7 +33,7 @@
 奖励  
 
 + 200 exp
-+ 28 绿宝石
++ 28 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Waist Apron(裤子)
 + First steps戒指的使用权限(Enzan's brother任务搞到的)
 

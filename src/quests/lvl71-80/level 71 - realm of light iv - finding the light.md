@@ -76,6 +76,6 @@ icon: bookmark
 <span class="stage-index">13.</span> 沿着路上去，来到光之领域的大门前。
 
 奖励
-+ 675000 经验值
++ 675000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Clearsight Spectacles(头盔)
 + 可以进入光之传送门了

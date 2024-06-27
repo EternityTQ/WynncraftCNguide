@@ -11,5 +11,5 @@
 
 奖励
 
-+ 1000经验值
++ 1000经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Rynend的感激之情(真抠)

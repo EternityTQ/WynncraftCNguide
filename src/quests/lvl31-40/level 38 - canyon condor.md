@@ -23,8 +23,8 @@ icon: route
 :::
 
 奖励
-+ 21000经验值
-+ 640绿宝石
++ 21000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 640绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以使用Rymek大电梯了(很容易能看到)
   
 :::tip

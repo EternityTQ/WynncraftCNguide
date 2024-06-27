@@ -40,7 +40,7 @@ icon: exclamation
 
 <span class="stage-index">13.</span> 在小岛上收集5个沙子(上山找)和10个粘液球(`[11627 122 -3629]`的洞内)然后交给船长
 
-<span class="stage-index">14.</span> 回潜艇 然后到底层控制室的另一侧，按下按钮进入最底层，在10秒内通过通道按下尽头的绿宝石按钮
+<span class="stage-index">14.</span> 回潜艇 然后到底层控制室的另一侧，按下按钮进入最底层，在10秒内通过通道按下尽头的绿宝石![](/assets/icon/Emerald.png =20x)按钮
 
 <span class="stage-index">15.</span> 去休息室
 
@@ -61,7 +61,7 @@ icon: exclamation
 <span class="stage-index">22.</span> 跟<font color=00AA00>**Scientist Ynnos**</font>谈话
 
 奖励
-+ 5500000经验值
-+ 8192绿宝石
++ 5500000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 8192绿宝石![](/assets/icon/Emerald.png =20x)
 + Ominous Wind(项链)
 + 可以进入Void了

@@ -15,6 +15,6 @@
 
 奖励
 
-+ 1250经验值 
-+ 128 绿宝石
++ 1250经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 128 绿宝石![](/assets/icon/Emerald.png =20x)
 + Ragon's Bracelet

@@ -35,6 +35,6 @@
 <span class="stage-index">9.</span> 回去找<font color=00AA00>**jackson探长**</font>交差
 
 奖励
-+ 38000 经验值
-+ 512 绿宝石
++ 38000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 512 绿宝石![](/assets/icon/Emerald.png =20x)
 + Hide of Poxper(胸甲)

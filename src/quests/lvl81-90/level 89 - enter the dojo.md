@@ -44,5 +44,5 @@
 7离开这个地方，跟<font color=00AA00>**Sensei Miyagi**</font>对话
 
 奖励
-+ 2900000 经验值
++ 2900000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Master's Gi(胸甲)

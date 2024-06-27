@@ -53,6 +53,6 @@ icon: exclamation
 <span class="stage-index">13 </span> 和<font color=00AA00>**Almuj Bank Guard**</font>谈话
 
 奖励
-+ 22000 经验值
-+ 128 绿宝石
++ 22000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 128 绿宝石![](/assets/icon/Emerald.png =20x)
 + 现在可以进入Almuj城的银行了

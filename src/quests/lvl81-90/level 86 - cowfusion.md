@@ -65,8 +65,8 @@
 <span class="stage-index">13.</span> 进入实验舱，然后再次和<font color=00AA00>**Drale**</font>对话
 
 奖励
-+ 2300000 经验值
-+ 4096 绿宝石
++ 2300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
 
 :::tip
 即使任务已经完成你仍可以通过任务中点击过的那个告示牌旁的按钮再次进入Woc营地

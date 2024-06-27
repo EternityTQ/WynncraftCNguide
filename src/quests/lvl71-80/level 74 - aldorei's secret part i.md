@@ -87,14 +87,14 @@ icon: bookmark
 
 收据同样可以在Collectibles Merchant`[-286, 103, -4405]`卖出
 
-但只有1绿宝石。
+但只有1绿宝石![](/assets/icon/Emerald.png =20x)。
 :::
 
 
 
 奖励
-+ 512500 经验值
-+ 0 / 8192 绿宝石
++ 512500 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 0 / 8192 绿宝石![](/assets/icon/Emerald.png =20x)
 + Elven Medallion / Receipt
 + 可以进入Aldorei Town了(但是得接part II才能进去)
 

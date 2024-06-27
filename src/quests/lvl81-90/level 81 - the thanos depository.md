@@ -75,6 +75,6 @@
 
 
 奖励
-+ 800000 经验值
-+ 4096 绿宝石
++ 800000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Dragon Hide Plate(胸甲)

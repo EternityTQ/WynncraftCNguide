@@ -47,7 +47,7 @@ icon: exclamation
 <span class="stage-index">11.</span> 你被传送回Maex了，回`[1509 45 -5339]`，和<font color=00AA00>**Sanba**</font>对话，然后触发剧情，**掉头出门**
 
 奖励
-+ 4000000 经验值
++ 4000000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Staff of True Ice(Quest Item)
 + 1 Amulet of Fire Resistance(Quest Item)
 + 可以进入Maex的资源矿洞了

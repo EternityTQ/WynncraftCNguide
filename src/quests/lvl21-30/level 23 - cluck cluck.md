@@ -9,5 +9,5 @@
 
 奖励
 
-+ 2800 经验值 
++ 2800 经验值![](/assets/icon/Experience_Orb.gif =20x) 
 + Cluckles' Favourite Feather(Quest Item)

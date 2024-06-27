@@ -52,9 +52,9 @@
 <span class="stage-index">13.</span> 杀死野兽，带着掉落物回<font color=00AA00>**Dereg**</font>交差
 
 奖励
-+ 100000 经验值
-+ 512 绿宝石
++ 100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 512 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Crushed Bigfoot Bone(在olux的武器商买, Olux prized weapon，传说品质武器)
-+ 3200 钓鱼经验值
-+ 3200 挖矿经验值
-+ 3200 砍树经验值
++ 3200 钓鱼经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 3200 挖矿经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 3200 砍树经验值![](/assets/icon/Experience_Orb.gif =20x)

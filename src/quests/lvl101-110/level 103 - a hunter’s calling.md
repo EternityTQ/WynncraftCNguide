@@ -34,7 +34,7 @@ icon: exclamation
 + Rodoroc
 + Corkus
 
-同时，在开始任务前，最好在包内带绿宝石(零散的)
+同时，在开始任务前，最好在包内带绿宝石![](/assets/icon/Emerald.png =20x)(零散的)
 
 对于每一个任务地点，都是只要抵达指定地点就会触发地狱门反胃效果，然后传送至任务区域
 :::
@@ -75,17 +75,17 @@ icon: exclamation
   
 + Kohma `[11516 58 7079]`(然后在他旁边采一朵花继续对话,送回原来房子)
   
-+ Leni `[11614 51 7011]`(地上有绿色粒子效果,右键粒子效果放绿宝石给Leni带路)
++ Leni `[11614 51 7011]`(地上有绿色粒子效果,右键粒子效果放绿宝石![](/assets/icon/Emerald.png =20x)给Leni带路)
   
 全部拉完后，对话然后进入工厂，走到最里面二楼
 
 :::tip
-这一步中，如果你没有绿宝石，可以通过击杀周围的怪物来获取
+这一步中，如果你没有绿宝石![](/assets/icon/Emerald.png =20x)，可以通过击杀周围的怪物来获取
 :::
 
 <span class="stage-index">10.</span> 去Rodoroc南部的贫民窟`[1088 21 -5035]`，走到`[1112 9 -4985]`触发剧情，和<font color=00AA00>**Rodoroc Slum Citizen**</font>对话后出来
 
-和<font color=00AA00>**Royal Advisor**</font>对话，然后走到贫民窟尽头绿宝石块处安放炸弹，在限时内逃出来
+和<font color=00AA00>**Royal Advisor**</font>对话，然后走到贫民窟尽头绿宝石![](/assets/icon/Emerald.png =20x)块处安放炸弹，在限时内逃出来
 
 <span class="stage-index">11.</span> 去Corkus城的`[-1550 68 -2919]`的电梯 上楼2次然后直走再右转，来到`[-1502 108 -2885]`触发剧情
 
@@ -113,7 +113,7 @@ icon: exclamation
 
 
 奖励
-+ 10008000 经验值
++ 10008000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Corrupted Soul Token
 + 解锁 Hunted Mode
 
@@ -122,5 +122,5 @@ icon: exclamation
 
 开启后，你可以被任何其他处于PVP模式的非队友玩家攻击
 
-PVP状态下拥有50%的采集经验值加成和战斗经验值加成
+PVP状态下拥有50%的采集经验值![](/assets/icon/Experience_Orb.gif =20x)加成和战斗经验值![](/assets/icon/Experience_Orb.gif =20x)加成
 :::

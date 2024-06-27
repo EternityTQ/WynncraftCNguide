@@ -10,8 +10,8 @@
 <span class="stage-index">4.</span> 进入<font color=00AA00>**Eluzterp**</font>`[1172 77 -2027]`背后的史莱姆洞最深处 然后收集8个`Slimey Goo`给<font color=00AA00>**Eluzterp**</font>{打死最深处的史莱姆掉落}
 
 奖励
-+ 9000 经验值
-+ 192 绿宝石
++ 9000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 192 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以进入Almuj的饰品商店了
   
 :::tip

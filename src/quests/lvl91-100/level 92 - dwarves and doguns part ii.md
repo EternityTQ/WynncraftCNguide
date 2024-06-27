@@ -47,7 +47,7 @@ icon: route
 <span class="stage-index">9.</span> 出来，避开守卫，从二楼直走，和国王对话完后，从王座的背后离开
 
 奖励
-+ 3500000 经验值
++ 3500000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Letter to Korzim(Quest Item)
 + 可以进入Thanos-Rodoroc的往返隧道了
 

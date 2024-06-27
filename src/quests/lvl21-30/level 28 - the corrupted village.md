@@ -30,5 +30,5 @@
 <span class="stage-index">8.</span> 回去和<font color=00AA00>**Okiral**</font> BB几句
 
 奖励
-+ 4800 经验值
-+ 136 绿宝石
++ 4800 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 136 绿宝石![](/assets/icon/Emerald.png =20x)

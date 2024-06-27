@@ -12,5 +12,5 @@
 奖励  
 
 + 270 exp
-+ 32 绿宝石
++ 32 绿宝石![](/assets/icon/Emerald.png =20x)
 + Waist Apron的使用权限(裤子)

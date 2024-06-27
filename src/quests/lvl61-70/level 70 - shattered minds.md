@@ -20,6 +20,6 @@
 <span class="stage-index">8.</span> 醒来后，和面前的NPC对话，然后去找<font color=00AA00>**Likeru**</font>`[-1058 44 5008]`对话
 
 奖励
-+ 300000 经验值
-+ 2560 绿宝石
++ 300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2560 绿宝石![](/assets/icon/Emerald.png =20x)
 + A gift from Likeru

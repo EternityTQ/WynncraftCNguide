@@ -35,6 +35,6 @@ Fan - 10B – Left
 
 
 奖励
-+ 300000 经验值
-+ 1024 绿宝石
++ 300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1024 绿宝石![](/assets/icon/Emerald.png =20x)
 + Troms Kid Badge (项链)

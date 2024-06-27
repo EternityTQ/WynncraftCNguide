@@ -38,8 +38,8 @@ icon: route
 <span class="stage-index">12.</span> 跟随<font color=00AA00>**Maxie**</font>进入洞穴`[-1835 41 -3138]`回到Corkus，触发剧情
 
 奖励
-+ 1750000经验值
-+ 9152绿宝石
++ 1750000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 9152绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Maxie's House Key (Quest Item)
 + 可以通过C.S.S. Wavebreaker免费往返Selchar-Corkus了
 

@@ -34,6 +34,6 @@
 <span class="stage-index">7.</span> 把击败Krolton的证明带回去给<font color=00AA00>**Irlok**</font>
 
 奖励
-+ 2100000 经验值
-+ 8912 绿宝石
++ 2100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 8912 绿宝石![](/assets/icon/Emerald.png =20x)
 + Raging Wind(戒指)

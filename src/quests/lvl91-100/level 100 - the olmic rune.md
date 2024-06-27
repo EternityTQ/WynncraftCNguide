@@ -23,7 +23,7 @@ icon: exclamation
 <span class="stage-index">4.</span> 生存150秒,然后和机器进行对话打开门
 
 奖励
-+ 5800000 经验值
++ 5800000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 使用Tol Altar的权限 
 
 :::tip

@@ -33,6 +33,6 @@
 <span class="stage-index">7.</span> 与<font color=00AA00>**Asher**</font>对话
 
 奖励
-+ 5500 经验值
-+ 128 绿宝石
++ 5500 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 128 绿宝石![](/assets/icon/Emerald.png =20x)
 + Familiar Essence(素材)

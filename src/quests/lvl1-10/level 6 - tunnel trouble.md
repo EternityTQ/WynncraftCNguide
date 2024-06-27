@@ -24,8 +24,8 @@ icon: route
 		
 奖励  
 
-+ 300 经验值 
-+ 55 绿宝石
++ 300 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 55 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以使用往返于Ragni和Detlas之间的隧道了
 
 :::tip 快速旅行是什么?

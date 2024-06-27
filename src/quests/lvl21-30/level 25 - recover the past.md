@@ -40,8 +40,8 @@ icon: exclamation
 <span class="stage-index">12.</span> 在屋子外和<font color=00AA00>**Tasim**</font>`[86 76 -1194]`对话
 
 奖励
-+ 7000 经验值 
-+ 1024 绿宝石
++ 7000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 1024 绿宝石![](/assets/icon/Emerald.png =20x)
 + 6 Ability Shard
 + 1 Shattered Memory Shard(素材)
 

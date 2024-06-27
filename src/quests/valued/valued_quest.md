@@ -13,7 +13,7 @@ icon: money-bill
 下面提到的任何值钱装备都请不要鉴定，除非高额鉴定否则会大大亏损价值
 :::
 
-| 任务名 | 绿宝石数量 | 备注 |
+| 任务名 | 绿宝石![](/assets/icon/Emerald.png =20x)数量 | 备注 |
 | :-----: | :----------: | --- |
 | [Potion Making (level 12)](/quests/lvl11-20/level%2012%20-%20potion%20making.html) | 约750 | 任务奖励得到的素材weakening catalyst可以挂在市场进行出售，即为左侧价格 |
 | [Wynnexcavation site B (level 46)](/quests/lvl41-50/level%2046%20-%20wynnexcavation%20site%20b.html) | 1536 | |
@@ -26,7 +26,7 @@ icon: money-bill
 | [Realm of light II - taproot (level 62)](/quests/lvl61-70/level%2062%20-%20realm%20of%20light%20ii%20-%20taproot.html) | 约1600+40000 | photon非常值钱，可以挂市场上 |
 | [Wynnexcavation site D(level 70)](/quests/lvl61-70/level%2070%20-%20wynnexcavation%20site%20d.html) | 16384 | |
 | [The ultimate weapon (level 75)](/quests/lvl71-80/level%2075%20-%20the%20ultimate%20weapon.html) | 28672 | 需要把任务奖励卖给npc，详情看任务页面 |
-| [Aldorei's secret part II (level 78)](/quests/lvl71-80/level%2078%20-%20aldorei's%20secret%20part%20ii.html) | 10240 | 此处绿宝石和前置任务的选择有关，详见任务页面 |
+| [Aldorei's secret part II (level 78)](/quests/lvl71-80/level%2078%20-%20aldorei's%20secret%20part%20ii.html) | 10240 | 此处绿宝石![](/assets/icon/Emerald.png =20x)和前置任务的选择有关，详见任务页面 |
 | [Realm of light V - the realm of light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20light%20v%20-%20the%20realm%20of%20light.html) | 约30000 | double vision非常值钱，可以挂市场上 | 
 | [The envoy part II (level 89)](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html) | 约60000 | electro mage's boots非常非常值钱 |
 | [The feathers fly part II (level 93)](/quests/lvl91-100/level%2093%20-%20the%20feathers%20fly%20part%20ii.html) | 12288 | |

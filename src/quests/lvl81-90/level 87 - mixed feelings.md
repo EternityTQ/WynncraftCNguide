@@ -42,5 +42,5 @@
 <span class="stage-index">6.</span> 和旁边的<font color=00AA00>**Javen**</font>对话
 
 奖励
-+ 1750000经验值
-+ 2048绿宝石
++ 1750000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2048绿宝石![](/assets/icon/Emerald.png =20x)

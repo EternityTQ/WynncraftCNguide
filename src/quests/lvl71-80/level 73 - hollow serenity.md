@@ -107,8 +107,8 @@ Garvan拥有多种大范围攻击技能
 <span class="stage-index">19.</span> 埋葬<font color=00AA00>**Katarin**</font>和<font color=00AA00>**Garvan**</font>的尸体
 
 奖励
-+ 735000 经验值
-+ 4096 绿宝石
++ 735000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
 + The Siren's Call(头盔)
 
 :::tip

@@ -112,5 +112,5 @@ boss一共有两个阶段
 :::
 
 奖励
-+ 1575000 经验值
-+ 2048 绿宝石
++ 1575000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2048 绿宝石![](/assets/icon/Emerald.png =20x)

@@ -42,6 +42,6 @@
 <span class="stage-index">9.</span> 跟<font color=00AA00>**Norsten**</font>对话`[437,77,-5056]`
 
 奖励
-+ 1375000 经验值
-+ 8192 绿宝石
++ 1375000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 8192 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以通过前往Thesead的大门了

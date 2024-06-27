@@ -26,5 +26,5 @@
 <span class="stage-index">6.</span> 告诉<font color=00AA00>**Yavlis**</font>`[-848 85 -875]`这个消息
 
 奖励
-+ 290000 经验值
-+ 2048 绿宝石
++ 290000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2048 绿宝石![](/assets/icon/Emerald.png =20x)

@@ -34,7 +34,7 @@ Undergrowth Ruins 副本前置任务
 <span class="stage-index">6.</span> 回去找<font color=00AA00>**Troms Mage**</font>交差
 
 奖励
-+ 87725 经验值
-+ 1024 绿宝石
++ 87725 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1024 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Undergrowth Ruins Key
 + 可以进入 Undergrowth Ruins 副本了

@@ -18,5 +18,5 @@
 <span class="stage-index">8.</span> 跟到底之后跟偷陨石碎片的小偷干一架拿到陨石碎片，注意身边的小怪会有致盲效果。击败后带着陨石碎片回到`[-2122, 52, -4887]`交给<font color=00AA00>**Agent**</font>
 
 奖励
-+ 40000 经验值
-+ 256 绿宝石
++ 40000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 256 绿宝石![](/assets/icon/Emerald.png =20x)

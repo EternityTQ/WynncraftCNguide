@@ -18,5 +18,5 @@
 <span class="stage-index">8.</span> 和Dead Island 的<font color=00AA00>**Cinfras**</font>说话
 
 奖励
-+ 300000 经验值
-+ 1408 绿宝石
++ 300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1408 绿宝石![](/assets/icon/Emerald.png =20x)

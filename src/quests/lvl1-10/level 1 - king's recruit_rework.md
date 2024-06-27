@@ -115,7 +115,7 @@ icon: exclamation
 一般都作为场地交互，或者物品给予的功能存在
 :::
 
-<span class=stage-index>6.</span> ==右键==打开面前的宝箱，拿到未鉴定的头盔，和8个绿宝石
+<span class=stage-index>6.</span> ==右键==打开面前的宝箱，拿到未鉴定的头盔，和8个绿宝石![](/assets/icon/Emerald.png =20x)
 
 ![](/assets/img/lv1-9.jpg =400x)
 
@@ -216,8 +216,8 @@ icon: exclamation
 
 奖励  
 
-+ 35 经验值 ![](/assets/icon/Experience_Orb.gif =20x)
-+ 6 绿宝石 ![](/assets/icon/Emerald.png =20x)
++ 35 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 6 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Ragni的传送卷轴 ![](/assets/icon/paper.png =20x)
 + 进入Wynn行省的权限(在Wynncraft的设定中有两个行省分别是Wynn&Gavel，后续可能还会更新新的，这里实际上就是告诉你，你已经完成了新手教程，可以正式游玩了)
 

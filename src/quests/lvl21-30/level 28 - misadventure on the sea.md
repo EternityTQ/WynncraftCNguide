@@ -16,6 +16,6 @@
 
 奖励
 
-+ 8500 经验值
++ 8500 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 今后去Selchar无需支付船票
 + 任务途中获得的各种材料

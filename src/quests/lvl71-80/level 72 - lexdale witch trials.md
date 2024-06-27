@@ -14,6 +14,6 @@
 <span class="stage-index">6.</span> 用笼子抓住虫子，然后传送一会后回到Lexdale找<font color=00AA00>**The Mayor**</font>汇报情况`[-604 45 -5444]`
 
 奖励
-+ 650000 经验值
-+ 4096 绿宝石
++ 650000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以进入Lexdale的饰品商店了

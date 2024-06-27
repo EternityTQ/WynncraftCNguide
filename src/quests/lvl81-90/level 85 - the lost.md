@@ -43,6 +43,6 @@
 <span class="stage-index">7.</span> 回去<font color=00AA00>**Dejol**</font>那里
 
 奖励
-+ 1575000 经验值
-+ 2048 绿宝石
++ 1575000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2048 绿宝石![](/assets/icon/Emerald.png =20x)
 + Canyon Chart(地图)

@@ -63,6 +63,6 @@ icon: route
 
 
 奖励
-+ 750000 经验值
++ 750000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Ring of Rubies
 + 可以使用往返于Detlas和Cinfras之间的快速旅行了

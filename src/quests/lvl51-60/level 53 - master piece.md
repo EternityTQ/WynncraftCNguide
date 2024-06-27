@@ -16,7 +16,7 @@
 <span class="stage-index">7.</span> 详细描述“超级奇葩的飞猪”的样貌给艺术家Caissop听。
 
 奖励
-+ 85000 经验值
++ 85000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Caissop's Master Piece
   
 :::tip

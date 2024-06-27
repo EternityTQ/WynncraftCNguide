@@ -16,6 +16,6 @@
 <span class="stage-index">4.</span> 带`Ba'al Badge`给海军上将<font color=00AA00>**Amerigo**</font>。
 
 奖励
-+ 11000 经验值
-+ 384 绿宝石 
++ 11000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 384 绿宝石![](/assets/icon/Emerald.png =20x) 
 + Vindicator(手镯)

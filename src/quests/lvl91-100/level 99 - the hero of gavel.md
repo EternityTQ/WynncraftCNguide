@@ -76,6 +76,6 @@
 :::
 
 奖励
-+ 5500000 经验值
-+ 20480 绿宝石(刚 好 回 本)
++ 5500000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 20480 绿宝石![](/assets/icon/Emerald.png =20x)(刚 好 回 本)
 + Agent Key

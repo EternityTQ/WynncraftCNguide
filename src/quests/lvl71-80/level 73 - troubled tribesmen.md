@@ -16,6 +16,6 @@
 <span class="stage-index">5.</span> 上楼左拐，进入`[-520 52-300]`的树洞深处，杀死Aenara然后带给<font color=00AA00>**Shaman Inrekei**</font>一个`Insect of Corruption`
 
 奖励
-+ 500000 经验值
-+ 2048 绿宝石
++ 500000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2048 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以进入Dernal Tribe shop了

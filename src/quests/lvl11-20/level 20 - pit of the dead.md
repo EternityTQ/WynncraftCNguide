@@ -10,5 +10,5 @@
 
 奖励
 
-+ 2675 经验值 
++ 2675 经验值![](/assets/icon/Experience_Orb.gif =20x) 
 + Skeletal Legs

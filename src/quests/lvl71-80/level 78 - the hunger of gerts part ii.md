@@ -34,5 +34,5 @@
 <span class="stage-index">10.</span> 与隧道入口破碎的栏杆交互，埋掉隧道，然后再次回到Gylia哨塔
 
 奖励
-+ 930000 经验值
++ 930000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Gerten Ritual Mask(头盔)

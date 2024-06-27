@@ -14,6 +14,6 @@ icon: bookmark
 <span class="stage-index">3.</span> 干掉坏的机器人，把能源核心带回给<font color=00AA00>**Duvale**</font>
 
 奖励
-+ 42000经验值
-+ 128绿宝石
++ 42000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 128绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Mechanical Reactor(后续任务会使用到，但不是Quest Item，务必妥善保管)

@@ -11,8 +11,8 @@
 
 
 奖励
-+ 25000 经验值
-+ 256 绿宝石
++ 25000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 256 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Climbing Helmet
 
 :::tip

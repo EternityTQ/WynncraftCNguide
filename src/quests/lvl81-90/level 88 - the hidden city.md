@@ -39,7 +39,7 @@
 <span class="stage-index">14.</span> 被炸到Thesead附近后，到`[857 112 -5040]`和<font color=00AA00>**Thesead's Mayor**</font>对话
 
 奖励
-+ 2700000 经验值
-+ 4096 绿宝石
++ 2700000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
 + 解锁Thesead和Eltom之间的快速传送(桌子下的暗道)
 + 解锁Cinfras到Thesead的快速传送(橙色台子)

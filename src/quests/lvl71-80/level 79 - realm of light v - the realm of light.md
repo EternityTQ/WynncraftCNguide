@@ -35,7 +35,7 @@ icon: skull
 <span class="stage-index">10.</span> 过桥，触发剧情
 
 奖励
-+ 1300000 经验值
++ 1300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 3 Uth Runes
 + 1 Double Vision(手镯)
 + 可以进入RAID - Orphion's Nexus of Light了

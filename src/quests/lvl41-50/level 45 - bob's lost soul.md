@@ -51,7 +51,7 @@ Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分
 <span class="stage-index">10.</span> 报告给<font color=00AA00>**Tarod**</font>你看到了什么
 
 奖励
-+ 55000 经验值
++ 55000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Bob's Battle Plate【一个胸甲，鉴定的的XP加成高】
 + 可以进入Bob's tomb了
   

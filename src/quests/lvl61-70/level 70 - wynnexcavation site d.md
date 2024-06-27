@@ -70,8 +70,8 @@ icon: bookmark
 <span class="stage-index">29.</span> 和<font color=00AA00>**Ragni城领主**</font>`[-2950 7 -1969]`交谈
 
 奖励
-+ 600000经验值
-+ 16384绿宝石
++ 600000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 16384绿宝石![](/assets/icon/Emerald.png =20x)
 + 1	Royal Token of Gratitude
 
 

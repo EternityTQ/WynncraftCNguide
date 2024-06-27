@@ -31,6 +31,6 @@
 <span class="stage-index">10.</span> 找到进入金库的方法(获得3瓶水,然后上楼右键点击每一个壁炉)
 
 奖励
-+ 60000 经验值
-+ 640 绿宝石
++ 60000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 640 绿宝石![](/assets/icon/Emerald.png =20x)
 + Glaciate(一条裤子) 

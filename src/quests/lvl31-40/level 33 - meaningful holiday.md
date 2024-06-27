@@ -30,5 +30,5 @@
 <span class="stage-index">13.</span> 被传送之后跟<font color=00AA00>**Nick**</font>谈话
 
 奖励
-+ 15000 经验值
-+ 128 绿宝石
++ 15000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 128 绿宝石![](/assets/icon/Emerald.png =20x)

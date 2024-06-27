@@ -61,7 +61,7 @@ icon: skull
 <span class="stage-index">8.</span> 回到坟墓前和<font color=00AA00>**Lanu**</font>`[1408 94 -1830]`对话
 
 奖励
-+ 10000经验值
-+ 192绿宝石
++ 10000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 192绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Sand-Swept Tomb Key
 + 可以进入 Sand-Swept Tomb 副本了

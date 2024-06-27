@@ -25,7 +25,7 @@ Oats的位置在`[-1827 62 -5562]`
 <span class="stage-index">6.</span> 将其掉落物带回给<font color=00AA00>**Anast**</font>`[-1834 62 -5557]`
 
 奖励
-+ 57500 经验值
++ 57500 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 5个T3 Oat String 和 T3 Oat Grain
-+ 2500 耕种经验值
-+ 640 绿宝石
++ 2500 耕种经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 640 绿宝石![](/assets/icon/Emerald.png =20x)

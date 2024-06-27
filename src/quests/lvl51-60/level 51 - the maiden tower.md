@@ -18,8 +18,8 @@
 <span class="stage-index">6.</span> 杀死女巫
 
 奖励
-+ 77500 经验值
-+ 512 绿宝石
++ 77500 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 512 绿宝石![](/assets/icon/Emerald.png =20x)
 
 :::tip
 在Sherk打碎的玻璃下`[-2000 81 -5300]`，你还可以找到一点关于这个女巫的小剧情

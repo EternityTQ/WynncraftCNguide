@@ -132,8 +132,8 @@ icon: exclamation
 <span class="stage-index">17.</span> 回Ava的作坊找到她`[-1731 134 -3267]`
 
 奖励
-+ 3300000 经验值
-+ 12288 绿宝石
++ 3300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 12288 绿宝石![](/assets/icon/Emerald.png =20x)
 + 16 Bipedal Spring(道具)
 + 8 Speed Surge(道具)
 + 3 amp1

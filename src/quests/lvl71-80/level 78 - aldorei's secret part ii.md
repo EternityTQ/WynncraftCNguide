@@ -7,7 +7,7 @@ icon: route
 解锁Alderei - Cinfras的快速旅行
 :::
 :::warning 任务中获得的材料都别扔！
-可以在Aldorei镇的商人兑换绿宝石。
+可以在Aldorei镇的商人兑换绿宝石![](/assets/icon/Emerald.png =20x)。
 :::
 
 <span class="stage-index">1.</span> 进入前置任务中guard守卫的大门`[-459 132 -4463]`，和门内的Olon对话
@@ -136,7 +136,7 @@ icon: route
 <span class="stage-index">20.</span> 进入中央原木，触发剧情。
 
 奖励
-+ 1200000 经验值
++ 1200000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Kaerynn's Mind
 + 1 Kaerynn's Body
-+ 10240 绿宝石
++ 10240 绿宝石![](/assets/icon/Emerald.png =20x)

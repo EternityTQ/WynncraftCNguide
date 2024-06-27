@@ -27,8 +27,8 @@
 <span class="stage-index">12.</span> 和<font color=00AA00>**Manager Nasea**</font>对话，对话完后沿着黄色旗帜进入电梯并启动，来到`[-1655 76 -4348]`触发剧情
 
 奖励
-+ 75000 经验值
-+ 1408 绿宝石
++ 75000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1408 绿宝石![](/assets/icon/Emerald.png =20x)
 + Quartron's Eye(戒指)
 + 可以进入Karoc Mine Annex了
 :::tip
@@ -36,5 +36,5 @@ Karoc Mine Annex是矿场，可用于提升挖矿采集副职
 
 在进入前你需要挖开外面的砂砾才可进入
 
-洞里面的采集经验值额外增加50%，同时有20级、40级、50级的矿物
+洞里面的采集经验值![](/assets/icon/Experience_Orb.gif =20x)额外增加50%，同时有20级、40级、50级的矿物
 :::

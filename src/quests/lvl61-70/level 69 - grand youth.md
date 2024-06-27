@@ -14,5 +14,5 @@
 <span class="stage-index">6.</span> 把`Healing Water`交给<font color=00AA00>**Monte**</font>
 
 奖励
-+ 402000 经验值
-+ 1024 绿宝石
++ 402000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1024 绿宝石![](/assets/icon/Emerald.png =20x)

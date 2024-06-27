@@ -27,7 +27,7 @@ icon: skull
 <span class="stage-index">6.</span> 进入熔岩区后随便放个技能杀死蜘蛛，取得火苗后返回，再找<font color=00AA00>**Admiral Aegis**</font> `[519 67 -1628]`对话即可
 
 奖励
-+ 1000经验值 
++ 1000经验值![](/assets/icon/Experience_Orb.gif =20x) 
 + 1 Infested Pit Key
 + 可以进入 Infested Pit副本了
 

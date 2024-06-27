@@ -28,5 +28,5 @@ icon: bookmark
 <span class="stage-index">5.</span> 找<font color=00AA00>**Excavator Placardus**</font>`[-1067 42 -3742]`交任务
 
 奖励
-+ 150000 经验值
++ 150000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Red Crystal Shard (Quest Item)

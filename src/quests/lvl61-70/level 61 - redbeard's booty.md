@@ -30,7 +30,7 @@ icon: skull
 <span class="stage-index">6.</span> 回去和<font color=00AA00>**Marston**</font>`[-608 40 -3546]`交任务
 
 奖励
-+ 180000 经验值
++ 180000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Galleon’s Graveyard Key
 + 可以进入 Galleon’s Graveyard 副本了
 

@@ -41,7 +41,7 @@ Deltas, Ragni, **Troms**, Nessak, Selchar
 
 <span class="stage-index">9.</span> 带回以下材料：
 
-+ Old touroto hide：在`[1288 -1251]`处的<font color=ff55ff>**fabrics merchant**</font>花费32个`gold bar`得到。附近的小怪会掉落此货币，同时你也可以在当地的银行直接使用绿宝石购买
++ Old touroto hide：在`[1288 -1251]`处的<font color=ff55ff>**fabrics merchant**</font>花费32个`gold bar`得到。附近的小怪会掉落此货币，同时你也可以在当地的银行直接使用绿宝石![](/assets/icon/Emerald.png =20x)购买
 
 + Aseado leaf：在`[-696 25 -589]`的洞穴里拿
 
@@ -59,7 +59,7 @@ BOSS难度较高，你可以叫上朋友帮忙一起打打
 :::
 
 奖励
-+ 550000 经验值
++ 550000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 可以进入 Temple of the Legends 了
 + 1 Purified Helmet of the Legends
 + 解锁了1个Dungeoneering Mastery Tome Slot

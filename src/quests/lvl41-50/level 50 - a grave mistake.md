@@ -32,5 +32,5 @@ icon: face-tired
 <span class="stage-index">8.</span>  和<font color=00AA00>**Alem**</font>`[158 79 -373]`对话
 
 奖励 
-+ 66666经验值
-+ 640绿宝石
++ 66666经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 640绿宝石![](/assets/icon/Emerald.png =20x)

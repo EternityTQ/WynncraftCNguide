@@ -18,7 +18,7 @@ icon: route
 <span class="stage-index">3.</span> 回**Alekin**村和<font color=00AA00>**村长**</font>`[-181 71 -1615]`对话(选高亮选项)
 
 奖励
-+ 2000 经验值 
-+ 128绿宝石
++ 2000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 128绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以使用往返于Alekin村和Detlas之间的马车了
   ![](/assets/img/lvl16-2.jpg)

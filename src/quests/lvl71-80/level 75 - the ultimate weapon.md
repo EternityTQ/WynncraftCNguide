@@ -15,9 +15,9 @@
 <span class="stage-index">5.</span> 进到`[-834 27 -4628]`的洞，进去打到`Crate of 2000 Luster Blood`，然后回去找<font color=00AA00>**Dodegar**</font>
 
 奖励
-+ 450000 经验值
-+ 500 Weaponsmithing 经验值
-+ 500 Woodworking 经验值
++ 450000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 500 Weaponsmithing 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 500 Woodworking 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Ultimate Weapon
 
 :::tip

@@ -119,6 +119,6 @@ Peaches`[-1320 53 -4799]`
 <span class="stage-index">10.</span> 剧情结束后，把停战协议交给<font color=00AA00>**Captain Goruca**</font>`[-1419 43 -4689]`
 
 奖励
-+ 350000 经验值
-+ 3072 绿宝石
++ 350000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 3072 绿宝石![](/assets/icon/Emerald.png =20x)
 + Upgraded Orc Mask(面罩)

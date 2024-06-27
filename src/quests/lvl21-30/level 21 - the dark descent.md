@@ -27,7 +27,7 @@ icon: skull
 
 奖励
 
-+ 2400 经验值
++ 2400 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Dark Diadem(项链)
 + 1 Underworld Crypt 钥匙
 + 可以进入 Underworld Crypt 副本了

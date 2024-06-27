@@ -1,7 +1,7 @@
 # The House of Twain(level 49)
 <span style="font-size: 25px;">**吐温凶宅**</span>
 
->在做这个任务之前，请自备若干个绿宝石或者<font color=00AA00>绿帽子</font>Ghostly Cap。
+>在做这个任务之前，请自备若干个绿宝石![](/assets/icon/Emerald.png =20x)或者<font color=00AA00>绿帽子</font>Ghostly Cap。
 
 <span class="stage-index">1.</span>  和<font color=00AA00>**Twendle**</font>`[12 76 -456]`说话
 
@@ -29,11 +29,11 @@
 
 <span class="stage-index">7.</span>  回到一楼的鉴定师`[78 71 -348]`处，对帽子进行鉴定，后面要带上。
 
-<span class="stage-index">8.</span>  重新进入吐温之家，这次不要上楼，进入楼梯右手边的房间`[107 75 -345]`，把绿宝石分别丢入如下图所示的地毯上的红圈后，面前的火炉将会被打开
+<span class="stage-index">8.</span>  重新进入吐温之家，这次不要上楼，进入楼梯右手边的房间`[107 75 -345]`，把绿宝石![](/assets/icon/Emerald.png =20x)分别丢入如下图所示的地毯上的红圈后，面前的火炉将会被打开
 
 ![](/assets/img/lv49-4.jpg =400x)
 
-<span class="stage-index">9.</span>  将绿宝石丢入房间内的墓地上`[108 74 -304]`，然后马上出去，来到外面的墓地`[64 71 -315]`处，进入白色墓碑下面的密道，==注意需要佩戴上面鉴定的`Ghostly Cap`才能进入==
+<span class="stage-index">9.</span>  将绿宝石![](/assets/icon/Emerald.png =20x)丢入房间内的墓地上`[108 74 -304]`，然后马上出去，来到外面的墓地`[64 71 -315]`处，进入白色墓碑下面的密道，==注意需要佩戴上面鉴定的`Ghostly Cap`才能进入==
 
 ![](/assets/img/lv49-5.jpg =400x)
 
@@ -42,5 +42,5 @@
 <span class="stage-index">11.</span>  击杀底部的BOSS，获得`Twain Journal`，然后回去找<font color=00AA00>**Twendle**</font>`[12 76 -456]`交差
 
 奖励
-+ 45000 经验值
-+ 4096 绿宝石
++ 45000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)

@@ -17,8 +17,8 @@
 
 奖励
 
-+ 5000 经验值
-+ 192 绿宝石
++ 5000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 192 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Creeper Mask
 
 :::tip

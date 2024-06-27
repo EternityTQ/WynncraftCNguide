@@ -33,8 +33,8 @@
 <span class="stage-index">9.</span> 把卷轴带回去给<font color=00AA00>**Gawrick**</font>
 
 奖励
-+ 1300000 经验值
-+ 2048 绿宝石
++ 1300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2048 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以使用Gawrick的实验性传送卷轴了
 
 :::tip 如何使用Gawrick的实验性传送卷轴？

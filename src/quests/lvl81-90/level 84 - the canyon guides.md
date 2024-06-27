@@ -31,9 +31,9 @@
 <span class="stage-index">9.</span> 和<font color=00AA00>**Seluc**</font>`[424 102 -4829]`对话
 
 :::tip
-选择告诉真相会给予更多绿宝石
+选择告诉真相会给予更多绿宝石![](/assets/icon/Emerald.png =20x)
 :::
 
 奖励
-+ 1450000 经验值
-+ 1792绿宝石(说谎)/2048绿宝石(实话)
++ 1450000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1792绿宝石![](/assets/icon/Emerald.png =20x)(说谎)/2048绿宝石![](/assets/icon/Emerald.png =20x)(实话)

@@ -28,5 +28,5 @@
 
 奖励
 
-+ 26000 经验值
-+ 168 绿宝石
++ 26000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 168 绿宝石![](/assets/icon/Emerald.png =20x)

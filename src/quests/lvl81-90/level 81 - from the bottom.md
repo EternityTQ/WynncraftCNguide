@@ -23,7 +23,7 @@
 <span class="stage-index">9.</span> 回去找<font color=00AA00>**nakoba**</font>`[191 6 -5236]`
 
 奖励
-+ 750000 经验值
-+ 4096 绿宝石
++ 750000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
 + 40 Platinum Ingot(素材，同时是Thanos内武器商和盔甲商的货币)
 + 1 Troll Hair

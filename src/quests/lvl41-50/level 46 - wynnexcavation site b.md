@@ -33,6 +33,6 @@ icon: bookmark
 <span class="stage-index">6.</span> 把紫色水晶Purple Crystal Shard交给<font color=00AA00>**Excavator Lykron**</font>
 
 奖励
-+ 50000 经验值
-+ 1536 绿宝石
++ 50000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1536 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Purple Crystal Shards (quest item)

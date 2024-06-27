@@ -23,7 +23,7 @@
 <span class="stage-index">6.</span> 把女巫杀了，带给<font color=00AA00>**Voer**</font>一个`Pink Pelulite`
 
 奖励
-+ 95000 经验值
++ 95000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Death Whistle Leaf (素材)
 + 3 Cyclone Blue Leaves (素材)
 + 3 Pink Pelulite (素材)

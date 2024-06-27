@@ -45,6 +45,6 @@ title: Dwarves and Doguns Part IV (level 94)
 <span class="stage-index">9.</span> 和国王交流
 
 奖励
-+ 6000000 经验值
-+ 20480 绿宝石
++ 6000000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 20480 绿宝石![](/assets/icon/Emerald.png =20x)
 + 进入Maex素材商店的权限

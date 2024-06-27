@@ -40,5 +40,5 @@
 选项可以乱选，没有影响
 :::
 奖励
-+ 1300000 经验值
++ 1300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Changeling's Chestplate(胸甲)

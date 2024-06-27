@@ -12,5 +12,5 @@
 奖励  
 
 + 145 exp
-+ 25绿宝石
++ 25绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以进入<font color=00AA00>**Farmer Cevalus**</font>的副农场了(在后面)

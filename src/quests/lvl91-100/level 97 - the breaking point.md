@@ -85,8 +85,8 @@ markmap:
 <span class="stage-index">16.</span> 用`Everflame`融化每一个房间，随后继续剧情
 
 奖励
-+ 4500000 经验值
-+ 12288 绿宝石
++ 4500000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 12288 绿宝石![](/assets/icon/Emerald.png =20x)
 + 4 Tol Runes
 + 1 Ancient Dogun Crystal
 + 可以进入RAID - The Canyon Colossus了

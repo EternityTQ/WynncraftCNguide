@@ -30,10 +30,10 @@
 <span class="stage-index">6.</span> 和**Almuj**的<font color=00AA00>**worid**</font>`[956 76 -1961]`交谈。
 
 奖励
-+ 86250经验值
-+ 4096绿宝石
++ 86250经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Undergrowth Ruins Key
   
 :::tip
-最后的液态绿宝石并不能当真钱使。别想太多。
+最后的液态绿宝石![](/assets/icon/Emerald.png =20x)并不能当真钱使。别想太多。
 :::

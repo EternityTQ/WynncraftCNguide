@@ -22,6 +22,6 @@
 
 奖励
 
-+ 3300 经验值 
-+ 128 绿宝石
++ 3300 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 128 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以进入教堂后面的墓地了(非常好的刷级点)

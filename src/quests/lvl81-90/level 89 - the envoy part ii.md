@@ -50,7 +50,7 @@ icon: skull
 
 <span class="stage-index">12.</span> 按动门上的按钮，找到地下基地，拿到钥匙
 :::tip 如何找到地下基地?
-进入屋子后首先上二楼，按下绿宝石按钮开启暗门
+进入屋子后首先上二楼，按下绿宝石![](/assets/icon/Emerald.png =20x)按钮开启暗门
 
 然后去地下室，地下室在一楼进门左手边
 
@@ -66,7 +66,7 @@ icon: skull
 <span class="stage-index">13.</span>跟<font color=00AA00>**Maxie**</font>在工厂外谈话`[-1707 75 -2610]`
 
 奖励
-+ 3050000 经验值
++ 3050000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Electro Mage's Boots (非常牛逼的鞋子)
 + 1 Fallen Factory Key
 + 可以乘坐往返于Corkus-Kandon Beda之间的热气球了

@@ -21,7 +21,7 @@
 <span class="stage-index">9.</span> 回去告诉<font color=00AA00>**Pislo**</font>
 
 奖励
-+ 500000 经验值
-+ 1920 绿宝石
++ 500000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1920 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Giant's Ring
 + 1 Gnome's Ring

@@ -10,8 +10,8 @@
 <span class="stage-index">4 </span> 进入`[1350 83 -1605]`的洞穴深处，打死boss，获得`Owl Totem`，并给予<font color=00AA00>**Caras**</font>
 
 奖励
-+ 24000 经验值
-+ 42 Gold Bars(可在Rymek兑换物品和绿宝石)
++ 24000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 42 Gold Bars(可在Rymek兑换物品和绿宝石![](/assets/icon/Emerald.png =20x))
   
 :::tip
 Gold Bars建议留着，后面会有任务要来Rymek用Gold Bars买东西

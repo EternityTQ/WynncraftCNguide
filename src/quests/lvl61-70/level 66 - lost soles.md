@@ -23,6 +23,6 @@
 ![](/assets/img/lvl66-1.jpg)
 
 奖励
-+ 352000 经验值
-+ 1152 绿宝石
++ 352000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1152 绿宝石![](/assets/icon/Emerald.png =20x)
 + Sodeta Boots

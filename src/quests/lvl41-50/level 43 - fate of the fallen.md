@@ -38,7 +38,7 @@ icon: skull
 
 奖励
 
-+ 20000 经验值
++ 20000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Avalanche(一个属性非常不错的头盔)
 + 1 Ice Barrows Dungeon Key
 + 可以进入 Ice Barrows 副本了

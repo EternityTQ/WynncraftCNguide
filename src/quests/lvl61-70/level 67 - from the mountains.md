@@ -33,5 +33,5 @@
 <span class="stage-index">7.</span> 离开洞穴,和<font color=00AA00>**Axelus**</font>对话
 
 奖励
-+ 390000 经验值
++ 390000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Fire Wire(裤子)

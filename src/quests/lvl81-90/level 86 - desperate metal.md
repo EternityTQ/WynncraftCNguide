@@ -40,6 +40,6 @@
 <span class="stage-index">6.</span> 击杀BOSS，将`Mechanical Core`交给<font color=00AA00>**Phinas**</font>
 
 奖励
-+ 1580000经验值
-+ 2048绿宝石
++ 1580000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2048绿宝石![](/assets/icon/Emerald.png =20x)
 + Mech Core(项链)

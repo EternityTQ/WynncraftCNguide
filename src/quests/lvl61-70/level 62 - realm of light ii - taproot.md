@@ -39,6 +39,6 @@ icon: bookmark
 <span class="stage-index">12.</span> 剧情结束后 传送回<font color=00AA00>**Lari**</font>旁边 对话后结束任务
 
 奖励
-+ 275000 经验值
-+ 1600 绿宝石
++ 275000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1600 绿宝石![](/assets/icon/Emerald.png =20x)
 + Photon(非常神的戒指 可以卖掉 总之别丢)

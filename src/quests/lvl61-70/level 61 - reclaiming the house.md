@@ -20,5 +20,5 @@
 <span class="stage-index">9.</span> 和<font color=00AA00>**Elphaba**</font>`[-1379 44 -5217]`对话
 
 奖励
-+ 250000 经验值
-+ 1024 绿宝石
++ 250000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1024 绿宝石![](/assets/icon/Emerald.png =20x)

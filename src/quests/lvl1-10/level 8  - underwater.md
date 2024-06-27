@@ -17,9 +17,9 @@
 
 奖励  
 
-+ 550 经验值 
-+ 32 绿宝石
-+ 50钓鱼经验值
++ 550 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 32 绿宝石![](/assets/icon/Emerald.png =20x)
++ 50钓鱼经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1级鱼竿
 + 潜水头盔I(Quest item)
 + Treasure Boots

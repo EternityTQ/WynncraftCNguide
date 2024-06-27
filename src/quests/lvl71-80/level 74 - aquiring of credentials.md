@@ -32,23 +32,23 @@
 
 <span class="stage-index">10.</span> 回到酒吧，和酒保对话，进入酒保开启的隐藏通道
 
-<span class="stage-index">11.</span> 进入黑市，走到最里面和黑市成员`[-97 154 -6046]`对话，想办法凑齐2000颗绿宝石
+<span class="stage-index">11.</span> 进入黑市，走到最里面和黑市成员`[-97 154 -6046]`对话，想办法凑齐2000颗绿宝石![](/assets/icon/Emerald.png =20x)
 :::tip 关于抬价
 按这个数字找NPC：
 50-200-300-200(和先前的同一个)-150-150
 
-原理：每一个NPC的底价永远是1000绿宝石
+原理：每一个NPC的底价永远是1000绿宝石![](/assets/icon/Emerald.png =20x)
 
 你可以找同一个NPC抬价两次，但是不能连续抬价
 
-升价300绿宝石的NPC只能找一次
+升价300绿宝石![](/assets/icon/Emerald.png =20x)的NPC只能找一次
 
 最多找5次NPC抬价
 :::
 <span class="stage-index">12.</span> 和黑市成员对话后，在门外触发剧情
 
 奖励
-+ 300000 经验值
-+ 768 绿宝石
++ 300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 768 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Gavelian Passport(Quest Item)
 + 可以使用Letvus电梯了(在机场)

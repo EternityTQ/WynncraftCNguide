@@ -28,7 +28,7 @@ icon: skull
 
 中途路基本就一条，沿着路走就好了！有一些跑酷，比较难跑
 
-<span class="stage-index">6.</span> 到达屏障的对面后,沿着地上的绿宝石路径来到旁边的洞穴拿到镐子，破坏屏障(记得用完镐子之后甩个技能)
+<span class="stage-index">6.</span> 到达屏障的对面后,沿着地上的绿宝石![](/assets/icon/Emerald.png =20x)路径来到旁边的洞穴拿到镐子，破坏屏障(记得用完镐子之后甩个技能)
 
 :::tip
 在完成任务后，这里的屏障默认状态依然是封锁的
@@ -39,8 +39,8 @@ icon: skull
 <span class="stage-index">7.</span> 继续和Aledar对话,在祭坛旁边用剑杀死<font color=00AA00>**Aledar**</font>
 
 奖励
-+ 7500000 经验值
-+ 20480 绿宝石
++ 7500000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 20480 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Eldritch Outlook Key(在任务途中给的)
 + 可以进入 Eldritch Outlook Dungeon了
 + 可以进入RAID - The Nameless Anomaly了

@@ -25,5 +25,5 @@ icon: bookmark
 <span class="stage-index">7.</span> 和<font color=00AA00>**Excavator Vade**</font>说话
 
 奖励
-+ 15000 经验值
++ 15000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 Yellow Crystal Shards（Wynn Excavation Site B任务的物品）

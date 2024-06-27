@@ -71,8 +71,8 @@ icon: exclamation
 
 
 奖励
-+ 6000000 经验值
-+ 12288 绿宝石
++ 6000000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 12288 绿宝石![](/assets/icon/Emerald.png =20x)
 :::tip
 该任务的怪物都比较强大 如果死了没复活在里面可以从`[750 -1300]`的Abandoned Mines的山上重新进入the silent expanse
 

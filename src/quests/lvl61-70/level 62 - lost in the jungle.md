@@ -16,6 +16,6 @@
 >其实跟着紫色路径回去就行了
 
 奖励
-+ 225000 经验值
++ 225000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 3 Jungle Jest Shard(货币，在Charmcrafter Merchant`[-771 94 -627]`使用)
 + 进入Garcen屋子的权限(应该就是上面这个Merchant的所在地)

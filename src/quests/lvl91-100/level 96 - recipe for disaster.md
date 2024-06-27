@@ -93,8 +93,8 @@ NPC会给你一本食谱书，打开即可选择追踪材料
 <span class="stage-index">10.</span>把食物给<font color=00AA00>**Chef Hamsey**</font>吃
 
 奖励
-+ 4200000 经验值
-+ 4096 绿宝石
++ 4200000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
 + Chef Hamsey's Apron (Brie) 
 + Smoldering Apron (Kale) 
 + Sky Chef's Apron (Frank)
