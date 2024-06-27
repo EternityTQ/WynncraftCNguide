@@ -3,37 +3,37 @@
 
 前置任务：
 
-[Clearing the Camps (level 39)](/quests/lvl31-40/level%2039%20-%20clearing%20the%20camps.html)
++ [Clearing the Camps (level 39)](/quests/lvl31-40/level%2039%20-%20clearing%20the%20camps.html)
 
-[Blazing Retribution (level 44)](/quests/lvl41-50/level%2044%20-%20blazing%20retribution.html)
++ [Blazing Retribution (level 44)](/quests/lvl41-50/level%2044%20-%20blazing%20retribution.html)
 
-[Reclaiming the House (level 61)](/quests/lvl61-70/level%2061%20-%20reclaiming%20the%20house.html)
++ [Reclaiming the House (level 61)](/quests/lvl61-70/level%2061%20-%20reclaiming%20the%20house.html)
 
-1.和**Bucie**大门前的<font color=00AA00>**Captain Goruca**</font>`[-1392 43 -4701]`对话
+<span class="stage-index">1.</span> 和**Bucie**大门前的<font color=00AA00>**Captain Goruca**</font>`[-1392 43 -4701]`对话
 
-2.跟着<font color=00AA00>**Captain Goruca**</font>来到伤兵连`[-1421 43 -4688]`
+<span class="stage-index">2.</span> 跟着<font color=00AA00>**Captain Goruca**</font>来到伤兵连`[-1421 43 -4688]`
 
-3.前往兽人要塞`[-1310 59 -4866]`
+<span class="stage-index">3.</span> 前往兽人要塞`[-1310 59 -4866]`
 
-4.你被兽人救起来了...前往`[-1348 43 -4956]`为了兽人Zuett的求和建议进行打猎
+<span class="stage-index">4.</span> 你被兽人救起来了...前往`[-1348 43 -4956]`为了兽人Zuett的求和建议进行打猎
 :::tip
 死跟着头上有粒子的猪，到哪个灌木丛右键一下就可以了
 
 重复三次该步骤
 :::
 
-5.拿着刚刚打猎得到的猪肉去和<font color=00AA00>**Zuett**</font>对话`[-1310 44 -4915]`，然后再次跟着他来到兽人要塞
+<span class="stage-index">5.</span> 拿着刚刚打猎得到的猪肉去和<font color=00AA00>**Zuett**</font>对话`[-1310 44 -4915]`，然后再次跟着他来到兽人要塞
 
-6.你被带到了兽人帐篷里要求帮他们治疗
+<span class="stage-index">6.</span> 你被带到了兽人帐篷里要求帮他们治疗
 :::tip
 拿以下三种花放在药草槽内
-![](../../.vuepress/public/assets/img/lvl64-1.jpg)
+![](../../.vuepress/public/assets/img/lvl64-1.jpg =400x)
 
-![](../../.vuepress/public/assets/img/lvl64-2.jpg)
+![](../../.vuepress/public/assets/img/lvl64-2.jpg =400x)
 其中，黄花Yarrow要拿两个
 :::
 
-7.跟随Zuett去找兽人老大谈判，但是你被拦下来了。在兽人要塞内帮助兽人以获取信任
+<span class="stage-index">7.</span> 跟随Zuett去找兽人老大谈判，但是你被拦下来了。在兽人要塞内帮助兽人以获取信任
 
 :::tip
 以下NPC你只需要挑四个完成就可以了
@@ -111,12 +111,12 @@ Peaches`[-1320 53 -4799]`
 加粗的是比较推荐做的，快一点
 :::
 
-8.获取信任后，找到<font color=00AA00>**Ureietun**</font>`[-1276, 62, -4832]`以获得与兽人老大见面的机会
+<span class="stage-index">8.</span> 获取信任后，找到<font color=00AA00>**Ureietun**</font>`[-1276, 62, -4832]`以获得与兽人老大见面的机会
 
-9.进入地下室击败Arrai-Veretel
+<span class="stage-index">9.</span> 进入地下室击败Arrai-Veretel
 >可能有一点难打...大概
 
-10.剧情结束后，把停战协议交给<font color=00AA00>**Captain Goruca**</font>`[-1419 43 -4689]`
+<span class="stage-index">10.</span> 剧情结束后，把停战协议交给<font color=00AA00>**Captain Goruca**</font>`[-1419 43 -4689]`
 
 奖励
 + 350000 经验值

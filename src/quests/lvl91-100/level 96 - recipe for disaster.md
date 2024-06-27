@@ -3,20 +3,20 @@
 :::warning 
 此页面有待更新！
 :::
-1跟在**Ahmsord**的<font color=00AA00>**Chef Hamsey**</font>对话`[949 129 -4475]`
+<span class="stage-index">1.</span>跟在**Ahmsord**的<font color=00AA00>**Chef Hamsey**</font>对话`[949 129 -4475]`
 
-2进去<font color=00AA00>**Chef Hamsey**</font>的厨房(身后)，在里面和跟<font color=00AA00>**Chef Hamsey**</font>谈话对话
+<span class="stage-index">2.</span>进去<font color=00AA00>**Chef Hamsey**</font>的厨房(身后)，在里面和跟<font color=00AA00>**Chef Hamsey**</font>谈话对话
 
-3跟<font color=00AA00>**Chef Hamsey**</font>谈话 然后跟其他三个npc谈话
+<span class="stage-index">3.</span>跟<font color=00AA00>**Chef Hamsey**</font>谈话 然后跟其他三个npc谈话
 
-4再次跟<font color=00AA00>**Chef Hamsey**</font>谈话，选择一个厨师继续任务，然后找对应的NPC接活
+<span class="stage-index">4.</span>再次跟<font color=00AA00>**Chef Hamsey**</font>谈话，选择一个厨师继续任务，然后找对应的NPC接活
 :::tip
 NPC会给你一本食谱书，打开即可选择追踪材料
 
 一共需要收集三个材料
 :::
 
-6.前往收集第一个材料
+<span class="stage-index">5.</span> 前往收集第一个材料
 ::: tabs#chef
 
 @tab Brie#Brie
@@ -37,9 +37,10 @@ NPC会给你一本食谱书，打开即可选择追踪材料
 挂机等对手到就行了
 @tab Frank#Frank
 
+待更新捏<3
 :::
 
-7.前往收集第二个材料
+<span class="stage-index">6.</span> 前往收集第二个材料
 ::: tabs#chef
 
 @tab Brie#Brie
@@ -62,9 +63,10 @@ NPC会给你一本食谱书，打开即可选择追踪材料
 直接把它**打下来**就行了
 @tab Frank#Frank
 
+待更新捏<3
 :::
 
-8.前往收集第三个材料
+<span class="stage-index">7.</span> 前往收集第三个材料
 ::: tabs#chef
 
 @tab Brie#Brie
@@ -80,18 +82,19 @@ NPC会给你一本食谱书，打开即可选择追踪材料
 
 @tab Frank#Frank
 
+待更新捏<3
 :::
 
 
-9.全部材料收集完后，回去把材料带给你的厨师
+<span class="stage-index">8.</span> 全部材料收集完后，回去把材料带给你的厨师
 
-10.和<font color=00AA00>**Chef Hamsey**</font>对话，进他的私人厨房
+<span class="stage-index">9.</span> 和<font color=00AA00>**Chef Hamsey**</font>对话，进他的私人厨房
 
-7把食物给<font color=00AA00>**Chef Hamsey**</font>吃
+<span class="stage-index">10.</span>把食物给<font color=00AA00>**Chef Hamsey**</font>吃
 
 奖励
-+ 4200000经验
-+ 4096绿宝石
++ 4200000 经验值
++ 4096 绿宝石
 + Chef Hamsey's Apron (Brie) 
 + Smoldering Apron (Kale) 
 + Sky Chef's Apron (Frank)

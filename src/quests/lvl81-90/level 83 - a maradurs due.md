@@ -1,11 +1,11 @@
 # A Maradurs' Dues (level 83)
 <span style="font-size: 25px;">**收过路费**</span>
 
-1.跟<font color=00AA00>**Norsten**</font>对话`[437,77,-5056]`
+<span class="stage-index">1.</span> 跟<font color=00AA00>**Norsten**</font>对话`[437,77,-5056]`
 
-2.通过捷径`[258 79 -4934]`上山，出来后直走
+<span class="stage-index">2.</span> 通过捷径`[258 79 -4934]`上山，出来后直走
 
-3.逃出幻境
+<span class="stage-index">3.</span> 逃出幻境
 :::tip 你需要找到三个水晶碎片来逃离
 其实就是分三个阶段。
 
@@ -24,24 +24,24 @@
 
 :::
 
-4.出来后，继续往山上走，然后会触发一个追逐战(有跟没一样...)，接着走到塔内，上电梯
+<span class="stage-index">4.</span> 出来后，继续往山上走，然后会触发一个追逐战(有跟没一样...)，接着走到塔内，上电梯
 
-5.和顶楼的女巫<font color=00AA00>**Volmor**</font>对话
+<span class="stage-index">5.</span> 和顶楼的女巫<font color=00AA00>**Volmor**</font>对话
 
-6.从阳台`[369 159 -5033]`跳下洞内！
+<span class="stage-index">6.</span> 从阳台`[369 159 -5033]`跳下洞内！
 
-7.进入洞内拿到`Strange Gem`，然后打一架
+<span class="stage-index">7.</span> 进入洞内拿到`Strange Gem`，然后打一架
 
-8.完成解密，获得爆炸物，放置在中间离开
+<span class="stage-index">8.</span> 完成解密，获得爆炸物，放置在中间离开
 :::tip
 ![](/assets/img/lvl83-1.jpg)
 
 其实很好理解，尽量往上凑就行了
 :::
 
-9.跟<font color=00AA00>**Norsten**</font>对话`[437,77,-5056]`
+<span class="stage-index">9.</span> 跟<font color=00AA00>**Norsten**</font>对话`[437,77,-5056]`
 
 奖励
-+ 1375000 经验
++ 1375000 经验值
 + 8192 绿宝石
 + 可以通过前往Thesead的大门了

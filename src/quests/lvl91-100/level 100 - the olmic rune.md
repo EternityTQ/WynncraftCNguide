@@ -9,18 +9,18 @@ icon: exclamation
 :::tip
 解锁可用于合成Tol Rune的Tol Altar
 :::
-1.在`[585 89  457]`和机器谈话
+<span class="stage-index">1.</span> 在`[585 89  457]`和机器谈话
 
-2.进入`[694 85 -551]`的洞穴,在洞穴尽头打怪开路,然后沿着路走上去得到`spike shatterer`
+<span class="stage-index">2.</span> 进入`[694 85 -551]`的洞穴,在洞穴尽头打怪开路,然后沿着路走上去得到`spike shatterer`
 :::tip
 这一段有反胃
 
 如果怪杀死了反胃没有停止请先得到`spike shatterer`再class
 :::
 
-3.打开在刚进入洞穴没多久的地面,下去收集32个 `Fuel Sprites`然后出去,回到第一步的机器那里
+<span class="stage-index">3.</span> 打开在刚进入洞穴没多久的地面,下去收集32个 `Fuel Sprites`然后出去,回到第一步的机器那里
 
-4.生存150秒,然后和机器进行对话打开门
+<span class="stage-index">4.</span> 生存150秒,然后和机器进行对话打开门
 
 奖励
 + 5800000 经验值

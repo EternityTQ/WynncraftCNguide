@@ -5,15 +5,21 @@
 建议提前看好流程，提前准备好材料能节省很多时间
 :::
 
-1.和**Nesaak's Forest**的<font color=00AA00>**Tarod**</font> `[-7 68 -793]`说话
+:::warning 旧任务提醒
+本任务部分步骤不清晰
 
-2.找到**Bob's Tomb**`[254 75 -760]`,发现你进不去
+预计于下次大版本更新后一起更新
+:::
 
-3.和<font color=00AA00>**Tarod**</font>报告你找到了什么
+<span class="stage-index">1.</span> 和**Nesaak's Forest**的<font color=00AA00>**Tarod**</font> `[-7 68 -793]`说话
 
-4.和在**Bremminglar**的萨满<font color=00AA00>**Wedyf**</font>`[659, 64, -2047]`交谈
+<span class="stage-index">2.</span> 找到**Bob's Tomb**`[254 75 -760]`,发现你进不去
 
-5.给萨满<font color=00AA00>**Wedyf**</font> 1个Bob's Tear 和1个Rose`[160, 73, -1012]`
+<span class="stage-index">3.</span> 和<font color=00AA00>**Tarod**</font>报告你找到了什么
+
+<span class="stage-index">4.</span> 和在**Bremminglar**的萨满<font color=00AA00>**Wedyf**</font>`[659, 64, -2047]`交谈
+
+<span class="stage-index">5.</span> 给萨满<font color=00AA00>**Wedyf**</font> 1个Bob's Tear 和1个Rose`[160, 73, -1012]`
 
 :::tip
 Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分百且刷率极高，稍微逛一圈就能看见。
@@ -21,9 +27,9 @@ Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分
 或者，你也可以选择直接在市场上购买，也不算特别贵
 :::
 
-6.和**Ternaves**附近的<font color=00AA00>**Blacksmith**</font>`[725, 61, -1468]`谈有关Bob's lost soul的事
+<span class="stage-index">6.</span> 和**Ternaves**附近的<font color=00AA00>**Blacksmith**</font>`[725, 61, -1468]`谈有关Bob's lost soul的事
 
-7.交给 <font color=00AA00>**Blacksmith**</font> 如下物品： 1 Depressing Stick, 1 Depressing Spear, 1 Depressing Bow 和 1 Depressing Shear
+<span class="stage-index">7.</span> 交给 <font color=00AA00>**Blacksmith**</font> 如下物品： 1 Depressing Stick, 1 Depressing Spear, 1 Depressing Bow 和 1 Depressing Shear
 :::tip
 只有触发到任务的这一步后，才能获得下列四样物品：
 
@@ -38,11 +44,11 @@ Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分
 以上武器均可以在交易市场购买，但是略贵
 :::
 
-8.从Blacksmith获取到`Bob's Crushed Soul`后，回**Bremminglar**交给<font color=00AA00>**Wedyf**</font>
+<span class="stage-index">8.</span> 从Blacksmith获取到`Bob's Crushed Soul`后，回**Bremminglar**交给<font color=00AA00>**Wedyf**</font>
 
-9.在**Bob's Tomb**里找到Bob the Zombie的尸体(就在楼梯下面)
+<span class="stage-index">9.</span> 在**Bob's Tomb**里找到Bob the Zombie的尸体(就在楼梯下面)
 
-10.报告给<font color=00AA00>**Tarod**</font>你看到了什么
+<span class="stage-index">10.</span> 报告给<font color=00AA00>**Tarod**</font>你看到了什么
 
 奖励
 + 55000 经验值

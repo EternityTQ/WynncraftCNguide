@@ -5,23 +5,27 @@ icon: route
 # The Order of the Grook (level 59)
 <span style="font-size: 25px;">**魔法学院**</span>
 
+:::warning 旧任务提醒
+本任务分支繁多，编者无暇走遍全部分支确认所有路线
 
+建议直接按推荐路线选就行了，最省事。。
+:::
 
 >不要忘了可以从Selchar前往绝大部分岛屿
 
-1 在**Mage Island**和<font color=00AA00>**Seasum**</font>`[940 77 -2866]`对话
+<span class="stage-index">1.</span> 在**Mage Island**和<font color=00AA00>**Seasum**</font>`[940 77 -2866]`对话
 
-2 进入房间，拿Invitation Letter并交还给<font color=00AA00>**Seasum**</font>`[940 77 -2866]`
+<span class="stage-index">2.</span> 进入房间，拿Invitation Letter并交还给<font color=00AA00>**Seasum**</font>`[940 77 -2866]`
 
-3 在`[893 37 -2777]`找到魔法学院的船
+<span class="stage-index">3.</span> 在`[893 37 -2777]`找到魔法学院的船
 
-4 等待和Boat Captain的对话结束后上船
+<span class="stage-index">4.</span> 等待和Boat Captain的对话结束后上船
 
-5 找到`[6372 15 4513]`处的隐藏洞口进入
+<span class="stage-index">5.</span> 找到`[6372 15 4513]`处的隐藏洞口进入
 
-6 和<font color=00AA00>**Cidre**</font>`[6710 37 4444]`对话，获得Wand Vocher和Magical Book Vocher
+<span class="stage-index">6.</span> 和<font color=00AA00>**Cidre**</font>`[6710 37 4444]`对话，获得Wand Vocher和Magical Book Vocher
 
-7 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，**此处选择的内容影响任务奖励**，如下表
+<span class="stage-index">7.</span> 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，**此处选择的内容影响任务奖励**，如下表
 
 | Wand |  Reward | Book |  Reward |
 | ------ | ------ | ------ | ------ |
@@ -31,9 +35,13 @@ icon: route
 | Sky Wood Rukh Wand | Renda Langit | The Ancient Teachings | 10 EB |
 | Birch Undead Wand | Dragon's Eye Bracelet | The Tome of Old Magicks | 36 EB |
 
-8 前往`[6718 49 4391]`，进入Grookwarts
+:::tip
+推荐选择：Sky Wood Rukh Wand、The Tome of Old Magicks
+:::
 
-9 一直直行进入宴会厅，听校长讲话，结束后右键`[10943 34 4742]`的书选择课程
+<span class="stage-index">8.</span> 前往`[6718 49 4391]`，进入Grookwarts
+
+<span class="stage-index">9.</span> 一直直行进入宴会厅，听校长讲话，结束后右键`[10943 34 4742]`的书选择课程
 
 第一步是选择5种元素之一
 
@@ -47,7 +55,7 @@ icon: route
 推荐选择：水，Effects，Wybels，Nature
 :::
 
-10 右键Ghost Guide并跟随进入传送门，传送后完成对应挑战，从进来的门返回大厅(此过程重复4次)
+<span class="stage-index">10.</span> 右键Ghost Guide并跟随进入传送门，传送后完成对应挑战，从进来的门返回大厅(此过程重复4次)
 
 一：
 
@@ -60,14 +68,14 @@ icon: route
 :::tip
 答案如下
 
-1. Intelligence. 
-2. Mermaids. 
-3. Thunder. 
-4. Ice Snake.  
+1.  Intelligence. 
+2.  Mermaids. 
+3.  Thunder. 
+4.  Ice Snake.  
 5. Cidre.  
-6. Theorick.  
-7. Mana Regen  
-8. The Order of the Grook
+6.  Theorick.  
+7.  Mana Regen.  
+8.  The Order of the Grook.
 :::
 
 火 将老师发射向你的火球打回去，不要让它们击中你身后的墙
@@ -96,12 +104,14 @@ Natural Magic 杀死正正好好五只Grooks然后右键祭坛，杀多了或者
 
 Corruption 打开笼子，老师让你跑就立刻跑
 
-11 从楼梯走到最底下，进入唯一的一扇门
+<span class="stage-index">11.</span> 从楼梯走到最底下，进入唯一的一扇门
 
-12 参加毕业典礼
+>小心别摔死了
+
+<span class="stage-index">12.</span> 参加毕业典礼
 
 奖励
-+ 242500 经验
++ 242500 经验值
 + 640/896/1728/2048 绿宝石
 + 允许使用 magic tunnel fast travel(快捷传送通道)
 + 1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时常会用在毕业配装内)
@@ -109,7 +119,7 @@ Corruption 打开笼子，老师让你跑就立刻跑
 :::tip
 此任务的饰品都非常值钱，因为一个档只能获取一次
 
-推荐选择	renda langit，价值较高
+推荐选择`renda langit`，价值较高
 
 可以挂在市场上进行出售
 :::

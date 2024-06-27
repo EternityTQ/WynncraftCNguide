@@ -11,31 +11,31 @@ icon: exclamation
 解锁Tomes机制
 :::
 
-1.去`[-2039 55 -5434]`附近看看发生了什么，然后和<font color=00AA00>**Malo**</font>对话
+<span class="stage-index">1.</span> 去`[-2039 55 -5434]`附近看看发生了什么，然后和<font color=00AA00>**Malo**</font>对话
 
-2.跳下去虫洞，在深处打掉一个Mysterious Skin然后回去交给<font color=00AA00>**Malo**</font>
+<span class="stage-index">2.</span> 跳下去虫洞，在深处打掉一个Mysterious Skin然后回去交给<font color=00AA00>**Malo**</font>
 :::tip
 注意可以在着地前放一个位移技能来避免摔伤
 :::
 
-3.前往<font color=00AA00>**Lari**</font>的营地`[-1969 55 -5454]`寻求<font color=00AA00>**Lari**</font>的援助
+<span class="stage-index">3.</span> 前往<font color=00AA00>**Lari**</font>的营地`[-1969 55 -5454]`寻求<font color=00AA00>**Lari**</font>的援助
 >这里大概率会同时刷出3只Lari...
 
-4.回第一步的虫洞附近和Lari汇合，她会释放一个缓降魔法帮助你来到洞底，然后一路走到触发剧情为止
+<span class="stage-index">4.</span> 回第一步的虫洞附近和Lari汇合，她会释放一个缓降魔法帮助你来到洞底，然后一路走到触发剧情为止
 >虽然好像完全没必要
 
-5.探索刚刚虫虫探头的洞，然后前往左边的洞，继续触发一系列剧情，直到触发地板塌陷剧情和Lari回合
+<span class="stage-index">5.</span> 探索刚刚虫虫探头的洞，然后前往左边的洞，继续触发一系列剧情，直到触发地板塌陷剧情和Lari回合
 
-6.坚持一分半
+<span class="stage-index">6.</span> 坚持一分半
 
 :::tip
 ![](../../.vuepress/public/assets/img/lvl54-1.jpg =300x)
 你可以沿着路径上来这个地方挂机，非常安全
 :::
 
-7.触发剧情进入虫虫的胃里，然后看Lari表演就行了
+<span class="stage-index">7.</span> 触发剧情进入虫虫的胃里，然后看Lari表演就行了
 
-8.被Lari送出洞后，跟着她一起来到raid门口，跟Lari对话
+<span class="stage-index">8.</span> 被Lari送出洞后，跟着她一起来到raid门口，跟Lari对话
 
 奖励
 + 100000 经验值
@@ -48,7 +48,7 @@ icon: exclamation
 :::tip
 资源隧道的位置在`[-2047 58 -5388]`
 
-隧道内有大量50级矿业、农业、渔业、60级农业，同时有50%的采集经验加成
+隧道内有大量50级矿业、农业、渔业、60级农业，同时有50%的采集经验值加成
 :::
 
 :::tip

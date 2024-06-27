@@ -3,9 +3,9 @@
 
 前置任务:[Bob's Lost Soul](/quests/lvl41-50/level%2045%20-%20bob's%20lost%20soul.html)、[cluck cluck](/quests/lvl21-30/level%2023%20-%20cluck%20cluck.html)、[ice nation](/quests/lvl31-40/level%2040%20-%20ice%20nations.html)
 
-1.与在bob'stomb中的<font color=00aa00>**batelu**</font>`[372 54 -775]`对话
+<span class="stage-index">1.</span> 与在bob'stomb中的<font color=00aa00>**batelu**</font>`[372 54 -775]`对话
 
-2.带回下列物品：
+<span class="stage-index">2.</span> 带回下列物品：
 + cluckles' favourite feather(前置任务cluck cluck中获得)
   
 + baab's wool(baab位于maro peaks`[238 7 -3975]`
@@ -18,18 +18,14 @@
   
   任务书找skien's prison block的cave就可以了)
 
-3.杀死bob的化身
+<span class="stage-index">3.</span> 杀死bob的化身
 :::tip
-2.0技能树更新后，所有职业的强度大幅度增加
+这个BOSS还挺难打的。
 
-但是这个曾经的毕业任务并没有做对应的强度修改...
-
-因此你大概可以轻松地通过这个任务
-
-实在不行记得找个人带捏
+实在不行可以找人带，只要是这个任务做到，或者做完这个阶段了，就可以进来一起打，无论有没有做完
 :::
 
-4.带回`bob's seal of approval`给<font color=00aa00>**batelu**</font>
+<span class="stage-index">4.</span> 带回`bob's seal of approval`给<font color=00aa00>**batelu**</font>
 
 奖励
 + 750000 经验值

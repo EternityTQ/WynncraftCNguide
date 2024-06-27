@@ -21,25 +21,25 @@ Deltas, Ragni, **Troms**, Nessak, Selchar
 
 前置任务：[Creeper Infiltration](/quests/lvl21-30/level%2025%20-%20creeper%20infiltration.html)、[ice nations](/quests/lvl31-40/level%2040%20-%20ice%20nations.html)
 
-1.与在Troms东南角的**Temple of legends**[-693 63 -976]的<font color=00aa00>**Kelight**</font>对话，
+<span class="stage-index">1.</span> 与在Troms东南角的**Temple of legends**[-693 63 -976]的<font color=00aa00>**Kelight**</font>对话，
 
 对话时五个选项中选择第四个
 
-2.和在**Nether Portal**里的<font color=00aa00>**jorkin**</font>`[338 41 -1241]`,在山谷里有个洞可以进去谈论关于lightdust(光之尘埃)的事情
+<span class="stage-index">2.</span> 和在**Nether Portal**里的<font color=00aa00>**jorkin**</font>`[338 41 -1241]`,在山谷里有个洞可以进去谈论关于lightdust(光之尘埃)的事情
 
-3.找到位于**Nether Portal**里的Lightdust Cavern`[265, 39, -1365]`。带来`Lightdust`给jorkin
+<span class="stage-index">3.</span> 找到位于**Nether Portal**里的Lightdust Cavern`[265, 39, -1365]`。带来`Lightdust`给jorkin
 
-4.拜托住在**mage island**的<font color=00aa00>**rayshyroth**</font>`[846 87 -2906]`去净化`Lightdust`
+<span class="stage-index">4.</span> 拜托住在**mage island**的<font color=00aa00>**rayshyroth**</font>`[846 87 -2906]`去净化`Lightdust`
 
-5.找到<font color=00aa00>**Magic Teacher**</font>`[846, 87, -2906]`并拜托他净化`Lightdust`
+<span class="stage-index">5.</span> 找到<font color=00aa00>**Magic Teacher**</font>`[846, 87, -2906]`并拜托他净化`Lightdust`
 
-6.到浮岛下面的洞里刷怪 刷12个Sky vapor，然后把12个Sky vapor以及light dust给魔法导师.别想着先打好东西再上去，不先触发对话是不让你下去的
+<span class="stage-index">6.</span> 到浮岛下面的洞里刷怪 刷12个Sky vapor，然后把12个Sky vapor以及light dust给魔法导师.别想着先打好东西再上去，不先触发对话是不让你下去的
 
-7.把净化过的`Lightdust`带给在Temple of the legends的入口的<font color=00aa00>**Kelight**</font>
+<span class="stage-index">7.</span> 把净化过的`Lightdust`带给在Temple of the legends的入口的<font color=00aa00>**Kelight**</font>
 
-8.找到对苦力怕着迷的科学家<font color=00aa00>**Garull**</font>`[-918, 81, -1222]`（你可以在[Creeper Infiltration](/quests/lvl21-30/level%2025%20-%20creeper%20infiltration.html)任务中找到如何进去的方法
+<span class="stage-index">8.</span> 找到对苦力怕着迷的科学家<font color=00aa00>**Garull**</font>`[-918, 81, -1222]`（你可以在[Creeper Infiltration](/quests/lvl21-30/level%2025%20-%20creeper%20infiltration.html)任务中找到如何进去的方法
 
-9.带回以下材料：
+<span class="stage-index">9.</span> 带回以下材料：
 
 + Old touroto hide：在`[1288 -1251]`处的<font color=ff55ff>**fabrics merchant**</font>花费32个`gold bar`得到。附近的小怪会掉落此货币，同时你也可以在当地的银行直接使用绿宝石购买
 
@@ -49,9 +49,9 @@ Deltas, Ragni, **Troms**, Nessak, Selchar
 
 + Coral of Nelfors：在**Seavale Reef**`[294, -3208]`，下去海底拾取，像一个蓝色回旋镖
 
-10.带回Garull给你的帽子给在Temple of Lengends入口的<font color=00AA00>**Kelight**</font>
+<span class="stage-index">10.</span> 带回Garull给你的帽子给在Temple of Lengends入口的<font color=00AA00>**Kelight**</font>
 
-11.鉴定帽子之后找到神殿前的小洞`[-713 61 -965]`，在一直走杀死3波小怪后杀死 the Corrupter of Worlds然后带着Corrupted Heart(腐败的心，BOSS掉落物)给<font color=00AA00>**Kelight**</font>
+<span class="stage-index">11.</span> 鉴定帽子之后找到神殿前的小洞`[-713 61 -965]`，在一直走杀死3波小怪后杀死 the Corrupter of Worlds然后带着Corrupted Heart(腐败的心，BOSS掉落物)给<font color=00AA00>**Kelight**</font>
 :::tip
 BOSS难度较高，你可以叫上朋友帮忙一起打打
 

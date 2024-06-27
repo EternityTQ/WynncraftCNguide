@@ -8,11 +8,11 @@ icon: exclamation
 解锁马匹系统
 :::
 
-1.和**Detlas**旁边的<font color=00AA00>**Enkser**</font>`[561 67 -1598]`对话
+<span class="stage-index">1.</span> 和**Detlas**旁边的<font color=00AA00>**Enkser**</font>`[561 67 -1598]`对话
 
-2.来到**Ternaves**的马棚`[836 69 -1649]`，下去一直走直到杀死小BOSS
+<span class="stage-index">2.</span> 来到**Ternaves**的马棚`[836 69 -1649]`，下去一直走直到杀死小BOSS
 
-3.拿到钥匙后回去**Detlas**找<font color=00AA00>**Enkser**</font>
+<span class="stage-index">3.</span> 拿到钥匙后回去**Detlas**找<font color=00AA00>**Enkser**</font>
 
 奖励
 

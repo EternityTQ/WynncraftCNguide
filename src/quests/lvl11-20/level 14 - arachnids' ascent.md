@@ -13,18 +13,18 @@ icon: skull
 + [Taking the Tower](/quests/lvl1-10/level%208%20-%20taking%20the%20tower.html)
 + [Elemental Exercise](/quests/lvl11-20/level%2011%20-%20elemental%20exercise.html)
 
-1.与<font color=00AA00>**Admiral Aegis**</font> `[519 67 -1628]`对话，然后跟随他前往军营的顶层`[521 83 -1627]`再次对话
+<span class="stage-index">1.</span> 与<font color=00AA00>**Admiral Aegis**</font> `[519 67 -1628]`对话，然后跟随他前往军营的顶层`[521 83 -1627]`再次对话
 
-2.和<font color=00AA00>**Private Cob**</font>`[682 74 -1714]`对话
+<span class="stage-index">2.</span> 和<font color=00AA00>**Private Cob**</font>`[682 74 -1714]`对话
 
-3.沿着地上烧焦的痕迹走，在山洞口和<font color=00AA00>**Captain Enduyn**</font>`[-192 44 -1822]`对话
+<span class="stage-index">3.</span> 沿着地上烧焦的痕迹走，在山洞口和<font color=00AA00>**Captain Enduyn**</font>`[-192 44 -1822]`对话
 
-4.对话中队友二选一可以随便选，只会对剧情有细微影响。选完后进入**Mt.Wynn**`[-120 76 -1888]`
+<span class="stage-index">4.</span> 对话中队友二选一可以随便选，只会对剧情有细微影响。选完后进入**Mt.Wynn**`[-120 76 -1888]`
 
-5.进入后沿着路一直往上面走即可，注意避开蜘蛛导弹(不是)
+<span class="stage-index">5.</span> 进入后沿着路一直往上面走即可，注意避开蜘蛛导弹(不是)
 小跑酷得在时限内完成，推荐直接使用位移技能skip
 
-6.进入熔岩区后随便放个技能杀死蜘蛛，取得火苗后返回，再找<font color=00AA00>**Admiral Aegis**</font> `[519 67 -1628]`对话即可
+<span class="stage-index">6.</span> 进入熔岩区后随便放个技能杀死蜘蛛，取得火苗后返回，再找<font color=00AA00>**Admiral Aegis**</font> `[519 67 -1628]`对话即可
 
 奖励
 + 1000经验值 

@@ -7,13 +7,13 @@ pageview: true
 
 :::danger
 如果你使用本攻略的过程中出现了任何问题，请先按照下列步骤尝试自己解决：
-1. 使用`/class`原地重置机关/怪物，重新开始这一步
-2. 使用`/kill`或者传送卷轴离开任务场地，从头开始进行一遍任务
-3. 使用[wiki](https://wynncraft.fandom.com/wiki/Wynncraft_Wiki)和自己当前的步骤对照，确保没有遗漏任何机关、物品，或是出现步骤错误的情况
+<span class="stage-index">1.</span>  使用`/class`原地重置机关/怪物，重新开始这一步
+<span class="stage-index">2.</span>  使用`/kill`或者传送卷轴离开任务场地，从头开始进行一遍任务
+<span class="stage-index">3.</span>  使用[wiki](https://wynncraft.fandom.com/wiki/Wynncraft_Wiki)和自己当前的步骤对照，确保没有遗漏任何机关、物品，或是出现步骤错误的情况
 
 在尝试以上步骤后，若还没有解决
-1. 如果你确定是本攻略的问题，可以[在这里](https://github.com/EternityTQ/WynncraftCNguide/issues/new)提交问题
-2. 如果是游戏的问题，可以在论坛上提交bug反馈
+<span class="stage-index">1.</span>  如果你确定是本攻略的问题，可以[在这里](https://github.com/EternityTQ/WynncraftCNguide/issues/new)提交问题
+<span class="stage-index">2.</span>  如果是游戏的问题，可以在论坛上提交bug反馈
 
 请不要在使用上述步骤前直接在群里询问攻略的问题，多谢合作！
 :::

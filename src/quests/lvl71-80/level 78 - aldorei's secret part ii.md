@@ -10,9 +10,9 @@ icon: route
 可以在Aldorei镇的商人兑换绿宝石。
 :::
 
-1.进入前置任务中guard守卫的大门`[-459 132 -4463]`，和门内的Olon对话
+<span class="stage-index">1.</span> 进入前置任务中guard守卫的大门`[-459 132 -4463]`，和门内的Olon对话
 
-2.进入Aldorei镇和NPC打探情报
+<span class="stage-index">2.</span> 进入Aldorei镇和NPC打探情报
 :::warning 必须等Olon说完话再进去
 猜猜笔者为什么会被传送到Ragni.jpg
 :::
@@ -23,11 +23,11 @@ icon: route
 + *Amber*`[-319 103 -4470]`
 + *Mane*`[-274 103 -4435]`
 :::
-3.回去跟<font color=00AA00>**Olon**</font>汇报调查情况`[-374 132 -4454]`
+<span class="stage-index">3.</span> 回去跟<font color=00AA00>**Olon**</font>汇报调查情况`[-374 132 -4454]`
 
 这里会有三条支线...
 
-4.
+<span class="stage-index">4.</span> 
 :::tabs
 @tab 去找<font color=00AA00>**Amber**</font>
 到`[-318,103,-4469]`和Amber对话
@@ -43,21 +43,21 @@ icon: route
 
 :::
 
-5.和<font color=00AA00>**Olon**</font>对话`[-294 88 -4464]`
+<span class="stage-index">5.</span> 和<font color=00AA00>**Olon**</font>对话`[-294 88 -4464]`
 
 一路跟着Olon触发剧情
 
-6.在巨石前连续释放任意技能，走到最底下触发剧情
+<span class="stage-index">6.</span> 在巨石前连续释放任意技能，走到最底下触发剧情
 :::tip 额外内容
 你可以在`[-287 49 -4514]`触发一小段挖坟剧情，无影响
 :::
-7.调查坟墓
+<span class="stage-index">7.</span> 调查坟墓
 
 你可以在`[-311 42 -4532]`和`[-305 43 -4520]`拿到`Wilted Flower`
 
 调查所有棺材即可
 
-8.离开洞穴，直走进入银行，跟随金色地毯来到顶楼
+<span class="stage-index">8.</span> 离开洞穴，直走进入银行，跟随金色地毯来到顶楼
 :::tip 如何绕过守卫？
 触发小心守卫的警告后，先来到左手边的房间
 
@@ -68,18 +68,18 @@ icon: route
 之后直接从走廊冲过去就行了
 :::
 
-9.在顶楼触发剧情，随便乱选选项就可以了，没有任何差别。
+<span class="stage-index">9.</span> 在顶楼触发剧情，随便乱选选项就可以了，没有任何差别。
 
-10.跟着<font color=00AA00>**Olon**</font>跑路，在外面和<font color=00AA00>**Olon**</font>对话
+<span class="stage-index">10.</span> 跟着<font color=00AA00>**Olon**</font>跑路，在外面和<font color=00AA00>**Olon**</font>对话
 :::tip 额外内容
 在跑路出口的内部右侧有一个标有储藏室的房间
 
 可以进去拿点土豆。
 :::
 
-11.去**Cinfras**的公会大厅前`[-342 47 -4939]`和<font color=00AA00>**Olon**</font>见面
+<span class="stage-index">11.</span> 去**Cinfras**的公会大厅前`[-342 47 -4939]`和<font color=00AA00>**Olon**</font>见面
 
-12.
+<span class="stage-index">12.</span> 
 :::tip 关于选择
 建议选择直接进去问朋友！最快！
 :::
@@ -95,9 +95,9 @@ icon: route
 
 :::
 
-13.调查`[-310 126 -4943]`处的资料
+<span class="stage-index">13.</span> 调查`[-310 126 -4943]`处的资料
 
-14.回到Aldorei镇，和<font color=00AA00>**Olon**</font>`[-258 103 -4403]`对话
+<span class="stage-index">14.</span> 回到Aldorei镇，和<font color=00AA00>**Olon**</font>`[-258 103 -4403]`对话
 :::tip 关于快速传送
 任务目标中提到了位于`[-479 47 -4910]`的快速传送
 
@@ -106,7 +106,7 @@ icon: route
 提示需要本任务的前置，但是在本步骤中已经解锁了！
 :::
 
-15.前往长老所说的蘑菇洞穴`[-1 88 -4338]`
+<span class="stage-index">15.</span> 前往长老所说的蘑菇洞穴`[-1 88 -4338]`
 :::tip
 迷宫解法
 
@@ -117,14 +117,14 @@ icon: route
 第三关：按顺序激活：绿 红 黄
 :::
 
-16.与Birch长老对峙
+<span class="stage-index">16.</span> 与Birch长老对峙
 对话选项选择`2 2 1 1`
 
-17.回到第9步中银行顶楼的长老室触发剧情
+<span class="stage-index">17.</span> 回到第9步中银行顶楼的长老室触发剧情
 
-18.离开，在银行门口的樱花树下`[-301 103 -4443]`听取缘由
+<span class="stage-index">18.</span> 离开，在银行门口的樱花树下`[-301 103 -4443]`听取缘由
 
-19.进入洞穴，深入探索
+<span class="stage-index">19.</span> 进入洞穴，深入探索
 :::tip 关于飓风桥
 击破岩石可以帮你抵御强风位移
 
@@ -133,7 +133,7 @@ icon: route
 建议法师选手直接位移过桥。
 :::
 
-20.进入中央原木，触发剧情。
+<span class="stage-index">20.</span> 进入中央原木，触发剧情。
 
 奖励
 + 1200000 经验值

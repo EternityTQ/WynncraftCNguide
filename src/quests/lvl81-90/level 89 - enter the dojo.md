@@ -1,10 +1,10 @@
 # Enter the Dojo (Level 89)
 <span style="font-size: 25px;">**道场试练**</span>
 
-1.跟在**Sakura Dojo**的<font color=00AA00>**Sensei Miyagi**</font>对话`[495 109 -5571]`
+<span class="stage-index">1.</span> 跟在**Sakura Dojo**的<font color=00AA00>**Sensei Miyagi**</font>对话`[495 109 -5571]`
 >在Gavel的最北边....具体位置在HIVE的右边
 
-2.穿过大房子，跳进水池
+<span class="stage-index">2.</span> 穿过大房子，跳进水池
 
 3完成3个挑战
 :::tip

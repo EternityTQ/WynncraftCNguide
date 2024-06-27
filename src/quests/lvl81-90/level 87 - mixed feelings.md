@@ -3,9 +3,9 @@
 
 1在Corkus码头跟<font color=00AA00>**Javen**</font>对话`[-1413 47 -2920]`
 
-2.发生爆炸后，跟旁边的<font color=00AA00>**Javen**</font>询问发生了什么
+<span class="stage-index">2.</span> 发生爆炸后，跟旁边的<font color=00AA00>**Javen**</font>询问发生了什么
 
-3.和城镇中的其他人道歉，并帮助他们
+<span class="stage-index">3.</span> 和城镇中的其他人道歉，并帮助他们
 :::tip
 + 北边门口`[-5882 17 -2465]`的NPC：
  
@@ -30,17 +30,17 @@
 这个真不用讲了吧...小学数学
 :::
 
-4.从`[-5870 19 -2459]`开始，跟着地上的血迹走，走到上面启动飞船
+<span class="stage-index">4.</span> 从`[-5870 19 -2459]`开始，跟着地上的血迹走，走到上面启动飞船
 
-5.进入通道里面触发剧情，坚持一分钟战斗
+<span class="stage-index">5.</span> 进入通道里面触发剧情，坚持一分钟战斗
 :::tip
 正常情况下，在战斗结束后，进行对话完你会被传送至下个地点
 
 如果你被困在里面了，可以尝试使用/class
 :::
 
-6.和旁边的<font color=00AA00>**Javen**</font>对话
+<span class="stage-index">6.</span> 和旁边的<font color=00AA00>**Javen**</font>对话
 
 奖励
-+ 1750000经验
++ 1750000经验值
 + 2048绿宝石

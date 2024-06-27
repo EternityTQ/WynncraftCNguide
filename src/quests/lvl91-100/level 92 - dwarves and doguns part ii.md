@@ -11,17 +11,17 @@ icon: route
 
 前置任务：[Dwarves and Doguns part I(level 91)](/quests/lvl91-100/level%2091%20-%20dwarves%20and%20doguns%20part%20i.html)
 
-1.带着前置给的`Dogun Badge of Trust`进入会议室入口`[1372 142 -5306]`，触发剧情
+<span class="stage-index">1.</span> 带着前置给的`Dogun Badge of Trust`进入会议室入口`[1372 142 -5306]`，触发剧情
 
 进入会议室，看完对话，出来
 
-2.在`[1383 13 -5088]`和Axelus对话(在sky的入口旁边，附近是你part1第二次看戏的地方)
+<span class="stage-index">2.</span> 在`[1383 13 -5088]`和Axelus对话(在sky的入口旁边，附近是你part1第二次看戏的地方)
 
-3.靠近大门，触发战斗，击杀四个指挥官Commander(刷的非常慢)
+<span class="stage-index">3.</span> 靠近大门，触发战斗，击杀四个指挥官Commander(刷的非常慢)
 
-4.跟着<font color=00AA00>**Axelus**</font>来到`[1324 20 -5062]`，在身后的洞穴(入口挂着钻石镐)下去拿把镐子 然后回去，在门口拆砖块，引岩浆烧门
+<span class="stage-index">4.</span> 跟着<font color=00AA00>**Axelus**</font>来到`[1324 20 -5062]`，在身后的洞穴(入口挂着钻石镐)下去拿把镐子 然后回去，在门口拆砖块，引岩浆烧门
 
-5.进入密室，完成小游戏。
+<span class="stage-index">5.</span> 进入密室，完成小游戏。
 
 :::tip
 
@@ -32,11 +32,11 @@ icon: route
 时间不足的话或者提前炸膛了，原地等结束就行了
 :::
 
-6.继续跟着<font color=00AA00>**Axelus**</font>来到`[1275 23 -5040]`，触发剧情后生存两分钟
+<span class="stage-index">6.</span> 继续跟着<font color=00AA00>**Axelus**</font>来到`[1275 23 -5040]`，触发剧情后生存两分钟
 
-7.到旁边的大炮，向左3次，转向2次对准墙，炸开洞，进入
+<span class="stage-index">7.</span> 到旁边的大炮，向左3次，转向2次对准墙，炸开洞，进入
 
-8.往前走，到下水道门口，沿着红地毯上楼，在二楼找到起火器。点燃门口的火药，炸开大门，进入触发剧情，对话完成后沿着水流上升
+<span class="stage-index">8.</span> 往前走，到下水道门口，沿着红地毯上楼，在二楼找到起火器。点燃门口的火药，炸开大门，进入触发剧情，对话完成后沿着水流上升
 
 :::tip
 你如果找不到下水道门口，你可以找找白名NPC-Goben`[1101 9 -5003]`
@@ -44,7 +44,7 @@ icon: route
 他的旁边就是了
 :::
 
-9.出来，避开守卫，从二楼直走，和国王对话完后，从王座的背后离开
+<span class="stage-index">9.</span> 出来，避开守卫，从二楼直走，和国王对话完后，从王座的背后离开
 
 奖励
 + 3500000 经验值

@@ -7,9 +7,9 @@
 存在跑酷环节
 :::
 
-1.和<font color=00AA00>**Lutho Citizen**</font>`[1014 77 -676]`对话
+<span class="stage-index">1.</span> 和<font color=00AA00>**Lutho Citizen**</font>`[1014 77 -676]`对话
 
-2.进去在看到镜子里面的自己看向头颅后，转身，拿到`Soul Retainer`
+<span class="stage-index">2.</span> 进去在看到镜子里面的自己看向头颅后，转身，拿到`Soul Retainer`
 ![](/assets/img/lvl102-1.jpg)
 
 :::tip
@@ -18,17 +18,17 @@
 当取消手持时则会恢复
 :::
 
-3.跟着灵魂进入新场景，先踩下金色压力板
+<span class="stage-index">3.</span> 跟着灵魂进入新场景，先踩下金色压力板
 
 然后手持`Soul Retainer`，操纵灵魂踩下另一侧的压力板
 
 随后进入大门
 
-4.继续跟随灵魂，当灵魂停下后，打一下，会刷新一圈眼球，打死即可
+<span class="stage-index">4.</span> 继续跟随灵魂，当灵魂停下后，打一下，会刷新一圈眼球，打死即可
 
-5.继续交互灵魂，然后会出现一条血迹，跟随血迹
+<span class="stage-index">5.</span> 继续交互灵魂，然后会出现一条血迹，跟随血迹
 
-6.进入下一个场景
+<span class="stage-index">6.</span> 进入下一个场景
 ![](/assets/img/lvl102-2.jpg)
 :::tip
 这一步非常受延迟影响
@@ -81,7 +81,7 @@
 ![](/assets/img/lvl102-7.jpg)
 :::
 
-7.切换到灵魂侧，观看你的灵魂的路线
+<span class="stage-index">7.</span> 切换到灵魂侧，观看你的灵魂的路线
 
 然后切换到底下，根据你刚才看到的路线走迷宫就行了
 
@@ -91,7 +91,7 @@
 
 实在不会走的话，草墙走也行(?)
 
-8.上天
+<span class="stage-index">8.</span> 上天
 
 你需要观察你灵魂侧的障碍物，红圈周遭是没有屏障可以飞上去的豁口
 
@@ -107,7 +107,7 @@
 
 然后是一个心跳水立方，很简单就不说了，能直接下到最下面就是胜利
 
-9.跟着灵魂走
+<span class="stage-index">9.</span> 跟着灵魂走
 
 生存两个30秒，注意不要踩到红线就行，很好躲
 :::tip
@@ -119,17 +119,17 @@
 :::
 
 
-10.进入和谐版本的Lutho后，来到中央石英柱的底端`[-4034 63 15507]`
+<span class="stage-index">10.</span> 进入和谐版本的Lutho后，来到中央石英柱的底端`[-4034 63 15507]`
 
 跳进去后在草地站一会，就会被送上去
 
-11.离开和谐版本的Lutho
+<span class="stage-index">11.</span> 离开和谐版本的Lutho
 
 这里会一直被拉回来！一直走就行了！
 
 ![](/assets/img/lvl102-9.jpg)
 
-12.再次和<font color=00AA00>**Lutho Citizen**</font>`[1014 77 -676]`对话
+<span class="stage-index">12.</span> 再次和<font color=00AA00>**Lutho Citizen**</font>`[1014 77 -676]`对话
 
 奖励
 + 7000000 经验值

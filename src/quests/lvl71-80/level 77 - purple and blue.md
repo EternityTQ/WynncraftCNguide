@@ -1,11 +1,11 @@
 # Purple and Blue(level77)
 <span style="font-size: 25px;">**紫与蓝**</span>
 
-1.和<font color=00AA00>**Korun**</font>对话`[-236 34 -5224]`
+<span class="stage-index">1.</span> 和<font color=00AA00>**Korun**</font>对话`[-236 34 -5224]`
 
-2.跟随<font color=00AA00>**Korun**</font>进入地下室，然后进入旁边的通道，被劝退后触发剧情
+<span class="stage-index">2.</span> 跟随<font color=00AA00>**Korun**</font>进入地下室，然后进入旁边的通道，被劝退后触发剧情
 
-3.前往Nikoler的房子寻找线索`[-163 29 -5388]`
+<span class="stage-index">3.</span> 前往Nikoler的房子寻找线索`[-163 29 -5388]`
 :::tip 如何获得线索?
 你需要数屋子内点燃蜡烛的总数，共8根
 
@@ -18,12 +18,12 @@
 拿走暗门房间内的地图即可
 :::
 
-4.跟着线索来到`[-273 34 -5293]`，对着坐标处的岩石一直放技能直到开门
+<span class="stage-index">4.</span> 跟着线索来到`[-273 34 -5293]`，对着坐标处的岩石一直放技能直到开门
 >马德这地图朝向根本不是北朝上
 
-5.进入洞穴内，进入两侧岔路开启拉杆，随后落入陷阱
+<span class="stage-index">5.</span> 进入洞穴内，进入两侧岔路开启拉杆，随后落入陷阱
 
-6.交互中间的蓝紫水晶，保护水晶
+<span class="stage-index">6.</span> 交互中间的蓝紫水晶，保护水晶
 :::tip 关于机制
 进入场地后会给你一个 `Crystal Capsule`
 
@@ -36,28 +36,28 @@
 战斗持续几分钟，有一点久，守卫乱召就没问题了
 :::
 
-7.战斗结束后回到中间蓝紫水晶交互一下，然后离开
+<span class="stage-index">7.</span> 战斗结束后回到中间蓝紫水晶交互一下，然后离开
 
-8.将`Cosmic Stone`插入出来后面前大门的孔内，拿到中间的护身符
+<span class="stage-index">8.</span> 将`Cosmic Stone`插入出来后面前大门的孔内，拿到中间的护身符
 
-9.回去跟<font color=00AA00>**Korun**</font>报告
+<span class="stage-index">9.</span> 回去跟<font color=00AA00>**Korun**</font>报告
 
-10.手持护身符进入第二步中的地下通道
+<span class="stage-index">10.</span> 手持护身符进入第二步中的地下通道
 :::tip
 这一步屏幕可能会很闪
 
 其实不拿护身符也可以，如果你不想被闪可以快速传送过去
 :::
 
-11.找到漂浮在空中的三个木头按钮，然后按下门旁边的按钮
+<span class="stage-index">11.</span> 找到漂浮在空中的三个木头按钮，然后按下门旁边的按钮
 
-12.信标关，按下蓝和紫就可以了
+<span class="stage-index">12.</span> 信标关，按下蓝和紫就可以了
 
-13.小跑酷，对着绿色粒子右键就可以启用平台，一路往前就行了
+<span class="stage-index">13.</span> 小跑酷，对着绿色粒子右键就可以启用平台，一路往前就行了
 
-14.追上<font color=00AA00>**Nikoler**</font>
+<span class="stage-index">14.</span> 追上<font color=00AA00>**Nikoler**</font>
 
-15.作出选择
+<span class="stage-index">15.</span> 作出选择
 :::tabs
 @tab 1.救出<font color=00AA00>**Nikoler**</font>
 逃出洞穴，然后结束剧情

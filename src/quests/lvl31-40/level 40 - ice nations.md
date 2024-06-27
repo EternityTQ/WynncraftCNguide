@@ -1,13 +1,13 @@
 # Ice Nations (level 40)
 <span style="font-size: 25px;">**冰之国度**</span>
 
-1.和**Icy Islands**的<font color=00AA00>**Adigard**</font>`[806 59 -3353]`交谈
+<span class="stage-index">1.</span> 和**Icy Islands**的<font color=00AA00>**Adigard**</font>`[806 59 -3353]`交谈
 
-2.跟<font color=00AA00>**Hallfred**</font>`[993 38 -3500]`讨论有关和平条约的事情
+<span class="stage-index">2.</span> 跟<font color=00AA00>**Hallfred**</font>`[993 38 -3500]`讨论有关和平条约的事情
 
-3.和<font color=00AA00>**Adigard**</font>`[806 59 -3353]`谈论<font color=00AA00>**Hallfred**</font>关于此事的回应
+<span class="stage-index">3.</span> 和<font color=00AA00>**Adigard**</font>`[806 59 -3353]`谈论<font color=00AA00>**Hallfred**</font>关于此事的回应
 
-4.找到幽灵船`[731 44 -3737]`,并带回`ancient treasure`(杀死幽灵船的船长，一个小boss获得，入口在船舱)给<font color=00AA00>**Hallfred**</font>。
+<span class="stage-index">4.</span> 找到幽灵船`[731 44 -3737]`,并带回`ancient treasure`(杀死幽灵船的船长，一个小boss获得，入口在船舱)给<font color=00AA00>**Hallfred**</font>。
 
 
 奖励

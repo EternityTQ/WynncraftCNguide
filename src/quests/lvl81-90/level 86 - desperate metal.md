@@ -30,16 +30,16 @@
 进去后击杀BOSS拿到`U-S-E`
 :::
 
-3把掉落物给<font color=00AA00>**Phinas**</font>
+<span class="stage-index">3.</span>把掉落物给<font color=00AA00>**Phinas**</font>
 
-4.拼凑线索得到L-I-G-H-T H-O-U-S-E
+<span class="stage-index">4.</span> 拼凑线索得到`L-I-G-H-T H-O-U-S-E`
 前往灯塔，和<font color=00AA00>**Nettik**</font>`[-1774 82 -2141]`对话
 
-5.去Nettik的卧室(就在一楼，进门往左走)，往床上的枕头扔点东西触发机关
+<span class="stage-index">5.</span> 去Nettik的卧室(就在一楼，进门往左走)，往床上的枕头扔点东西触发机关
 
-6.击杀BOSS，将`Mechanical Core`交给<font color=00AA00>**Phinas**</font>
+<span class="stage-index">6.</span> 击杀BOSS，将`Mechanical Core`交给<font color=00AA00>**Phinas**</font>
 
 奖励
-+ 1580000经验
++ 1580000经验值
 + 2048绿宝石
 + Mech Core(项链)

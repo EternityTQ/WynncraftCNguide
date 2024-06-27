@@ -8,11 +8,11 @@ icon: exclamation
 前置任务：
 + [The Feathers Fly Part I(level 91)](/quests/lvl91-100/level%2091%20-%20the%20feathers%20fly%20part%20i.html)
 
-1.和<font color=00AA00>**Ava**</font>在Corkus城南部`[-1573 86 -2762]`对话
+<span class="stage-index">1.</span> 和<font color=00AA00>**Ava**</font>在Corkus城南部`[-1573 86 -2762]`对话
 
-2.再次和Ava对话，被传送至Corkus城顶部
+<span class="stage-index">2.</span> 再次和Ava对话，被传送至Corkus城顶部
 
-3.用Ava给你的道具在20s内破坏6个守卫机器人
+<span class="stage-index">3.</span> 用Ava给你的道具在20s内破坏6个守卫机器人
 :::tip
 特别好找
 
@@ -25,9 +25,9 @@ icon: exclamation
 剩下一个在大厅右边的露台
 :::
 
-4.和<font color=00AA00>**Ava**</font>对话，跟着Ava走，停下后再次对话
+<span class="stage-index">4.</span> 和<font color=00AA00>**Ava**</font>对话，跟着Ava走，停下后再次对话
 
-5.帮Ava找一件合适的衣服
+<span class="stage-index">5.</span> 帮Ava找一件合适的衣服
 
 :::tip
 一共可以找四套衣服
@@ -65,7 +65,7 @@ icon: exclamation
 
 :::
 
-6.跟着Ava来到Corkus城中心，帮忙打听如何获得观众邀请函
+<span class="stage-index">6.</span> 跟着Ava来到Corkus城中心，帮忙打听如何获得观众邀请函
 
 :::tip 如何快速获得邀请函
 来到`[-1653 68 -2954]`的旅馆后门，立刻上左侧的梯子
@@ -91,11 +91,11 @@ icon: exclamation
 若有兴趣，欢迎去查阅[Wiki](https://wynncraft.wiki.gg/wiki/The_Feathers_Fly_Part_II)
 :::
 
-7.拿到邀请函后，和城堡尽头的<font color=00AA00>**Receptionist**</font>`[-1467 70 -2938]`对话
+<span class="stage-index">7.</span> 拿到邀请函后，和城堡尽头的<font color=00AA00>**Receptionist**</font>`[-1467 70 -2938]`对话
 
-8.和<font color=00AA00>**Ava**</font>`[-1615 68 -2924]`对话
+<span class="stage-index">8.</span> 和<font color=00AA00>**Ava**</font>`[-1615 68 -2924]`对话
 
-9.去`[-1719 173 -3348]`再次操作机器
+<span class="stage-index">9.</span> 去`[-1719 173 -3348]`再次操作机器
 
 :::tip
 你在赶路的时候会遇上Ava
@@ -105,31 +105,31 @@ icon: exclamation
 这里和前置任务是一样的，只是如果反应慢了充能速度也会慢一点，无伤大雅
 :::
 
-10.和<font color=00AA00>**Ava**</font>再次对话，她会把你送到Corkus城外，然后进城堡，和<font color=00AA00>**Ava**</font>`[-1479 69 -2924]`对话
+<span class="stage-index">10.</span> 和<font color=00AA00>**Ava**</font>再次对话，她会把你送到Corkus城外，然后进城堡，和<font color=00AA00>**Ava**</font>`[-1479 69 -2924]`对话
 
-11.进入剧情，帮助Ava操控机器
+<span class="stage-index">11.</span> 进入剧情，帮助Ava操控机器
 :::tip
 这里的机器如果你按错了，并不会扣除完成进度，而是会扣除剩余时间
 :::
 
-12.操控完成后，再次进入剧情
+<span class="stage-index">12.</span> 操控完成后，再次进入剧情
 
 这里第一个选项随便选，无所谓
 
-13.和<font color=00AA00>**Maxie**</font>对话`[-1479 69 -2899]`
+<span class="stage-index">13.</span> 和<font color=00AA00>**Maxie**</font>对话`[-1479 69 -2899]`
 
-14.冲到Corkus中心查看情况，然后和旁边的<font color=00AA00>**Efena**</font>对话
+<span class="stage-index">14.</span> 冲到Corkus中心查看情况，然后和旁边的<font color=00AA00>**Efena**</font>对话
 
-15.消灭植物
+<span class="stage-index">15.</span> 消灭植物
 :::tip
 攻击植物周围的小怪会让你获得一定高度提升
 
 一直爬到最顶端对Core狂暴鸿儒即可
 :::
 
-16.醒来后，去楼下和<font color=00AA00>**Maxie**</font>对话
+<span class="stage-index">16.</span> 醒来后，去楼下和<font color=00AA00>**Maxie**</font>对话
 
-17.回Ava的作坊找到她`[-1731 134 -3267]`
+<span class="stage-index">17.</span> 回Ava的作坊找到她`[-1731 134 -3267]`
 
 奖励
 + 3300000 经验值

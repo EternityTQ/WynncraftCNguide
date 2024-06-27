@@ -1,22 +1,22 @@
 # Lazarus Pit (level 69)
 <span style="font-size: 25px;">**复生泉**</span>
 
-1.与<font color=00AA00>**Burtur**</font>`[-1025 47 -5302]`对话
+<span class="stage-index">1.</span> 与<font color=00AA00>**Burtur**</font>`[-1025 47 -5302]`对话
 
-2.原地生存30s
+<span class="stage-index">2.</span> 原地生存30s
 
-3.再次和<font color=00AA00>**Burtur**</font>对话，并跟着Burtur
+<span class="stage-index">3.</span> 再次和<font color=00AA00>**Burtur**</font>对话，并跟着Burtur
 
-4.来到gelibord的墓地`[-999 48 -5340]`，找到法师的尸体
+<span class="stage-index">4.</span> 来到gelibord的墓地`[-999 48 -5340]`，找到法师的尸体
 先在门口拿起铲子再进去，挖掉灵魂沙，注意不要站在上面挖，会卡住，在旁边挖。下层两个，上层三个
 
-5.拿起护身符，解密
+<span class="stage-index">5.</span> 拿起护身符，解密
 
 (前往`[-1124 44 -5489]`)
 
-6.右键房门后，前往`[-1099 42 -5458]`，拿桶取水
+<span class="stage-index">6.</span> 右键房门后，前往`[-1099 42 -5458]`，拿桶取水
 
-7.在屋子旁边的坟墓浇水，分别完成四个坟墓的小任务
+<span class="stage-index">7.</span> 在屋子旁边的坟墓浇水，分别完成四个坟墓的小任务
 
 + `[-1122 44 -5465]` Find Sir Pigglesworth's wedding ring:
 
@@ -34,17 +34,17 @@
 
   杀死BOSS
 
-8.任务全部完成后，回房门，下楼，和书对话
+<span class="stage-index">8.</span> 任务全部完成后，回房门，下楼，和书对话
 
-9.前往`[-956 46 -5436]`，对堵住的洞穴甩一个技能
+<span class="stage-index">9.</span> 前往`[-956 46 -5436]`，对堵住的洞穴甩一个技能
 
-10.通过一段小跑酷后，跳入泉水中
+<span class="stage-index">10.</span> 通过一段小跑酷后，跳入泉水中
 
-11.一段小战斗后，继续往下走
+<span class="stage-index">11.</span> 一段小战斗后，继续往下走
 
-12.一个小解密，点击红 粉 蓝 然后开水流
+<span class="stage-index">12.</span> 一个小解密，点击红 粉 蓝 然后开水流
 
-13.被炸下来后，回去找<font color=00AA00>**Burtur**</font>`[-1025 47 -5302]`
+<span class="stage-index">13.</span> 被炸下来后，回去找<font color=00AA00>**Burtur**</font>`[-1025 47 -5302]`
 
 奖励
 + 500000 EXP

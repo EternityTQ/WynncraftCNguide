@@ -4,6 +4,13 @@ icon: skull
 
 # Kingdom of Sand (level 33)
 <span style="font-size: 25px;">**沙海国度**</span>
+
+:::warning 旧任务提醒
+本任务部分步骤不清晰
+
+预计于下次大版本更新后一起更新
+:::
+
 :::tip 重要任务
 解锁Sand-Swept Tomb副本
 :::
@@ -12,13 +19,13 @@ icon: skull
 本任务部分步骤描述不清晰，预计于下次大版本更新重制
 :::
 
-1.前往`[1408 94 -1830]`的坟墓调查发生了什么事
+<span class="stage-index">1.</span> 前往`[1408 94 -1830]`的坟墓调查发生了什么事
 
-2.进入逃犯的藏身处调查`[1314 90 -1660]`
+<span class="stage-index">2.</span> 进入逃犯的藏身处调查`[1314 90 -1660]`
 
-3 在出口和<font color=00AA00>**Geo**</font>及<font color=00AA00>**Tarek**</font>二人对话
+<span class="stage-index">3.</span> 在出口和<font color=00AA00>**Geo**</font>及<font color=00AA00>**Tarek**</font>二人对话
 
-4 潜行进入**Rymek**最高的房间`[1180 31 -1300]`
+<span class="stage-index">4.</span> 潜行进入**Rymek**最高的房间`[1180 31 -1300]`
 :::tip
 以下内容摘自wiki
 
@@ -45,16 +52,16 @@ icon: skull
 拿走日记，从火炉里离开。
 :::
 
-5 和<font color=00AA00>**Vault Guard**</font>讲话，并进入它身后的洞口 
+<span class="stage-index">5 </span> 和<font color=00AA00>**Vault Guard**</font>讲话，并进入它身后的洞口 
 
-6.找一个破车`[1183 76 -1857]`
+<span class="stage-index">6.</span> 找一个破车`[1183 76 -1857]`
 
-7.触发战斗后，从废弃的房子里获得权杖
+<span class="stage-index">7.</span> 触发战斗后，从废弃的房子里获得权杖
 
-8.回到坟墓前和<font color=00AA00>**Lanu**</font>`[1408 94 -1830]`对话
+<span class="stage-index">8.</span> 回到坟墓前和<font color=00AA00>**Lanu**</font>`[1408 94 -1830]`对话
 
 奖励
-+ 10000经验
++ 10000经验值
 + 192绿宝石
 + 1 Sand-Swept Tomb Key
 + 可以进入 Sand-Swept Tomb 副本了

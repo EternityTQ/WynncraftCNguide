@@ -23,9 +23,9 @@ icon: triangle-exclamation
 :::
 
 ## 任务流程
-1.前往The Hive找到<font color=00AA00>**Yansur**</font>`[372 64 -5500]`
+<span class="stage-index">1.</span> 前往The Hive找到<font color=00AA00>**Yansur**</font>`[372 64 -5500]`
 
-2.接受挑战，按照顺序依次前往电、气、地、水、火，五个大关卡进行挑战
+<span class="stage-index">2.</span> 接受挑战，按照顺序依次前往电、气、地、水、火，五个大关卡进行挑战
 
 每个大关卡都需要通过9个小怪关卡和1个BOSS关卡
 
@@ -33,7 +33,7 @@ icon: triangle-exclamation
 
 而BOSS关卡需要击败BOSS，提交1个击杀证明后即可离开
 
-3.迎接来自Qira的最终挑战
+<span class="stage-index">3.</span> 迎接来自Qira的最终挑战
 
 ## 简单攻略
 

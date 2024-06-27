@@ -9,7 +9,7 @@ icon: skull
 解锁Decrepit Sewers副本
 :::
 
-1.和Ragni下水道旁边的<font color=00AA00>**Jenprest**</font>`[-890 60 -1874]`谈话，对话结束后按选项直接来到隧道口。
+<span class="stage-index">1.</span> 和Ragni下水道旁边的<font color=00AA00>**Jenprest**</font>`[-890 60 -1874]`谈话，对话结束后按选项直接来到隧道口。
 
 :::tip 选项如何选中？
 直接按下对应的小数字键即可
@@ -20,11 +20,11 @@ icon: skull
 
 :::
 
-2.进入下水道后一直走，直到触发剧情后右拐来到引爆点，放置炸药后被冲走。
+<span class="stage-index">2.</span> 进入下水道后一直走，直到触发剧情后右拐来到引爆点，放置炸药后被冲走。
 
-3.继续探索，触发精英怪战斗后解决并获取掉落物，右键铁门继续探索
+<span class="stage-index">3.</span> 继续探索，触发精英怪战斗后解决并获取掉落物，右键铁门继续探索
 
-4.经过一段时限跑酷后，安置炸弹触发剧情，随后离开下水道大门找<font color=00AA00>**Jenprest**</font>交差
+<span class="stage-index">4.</span> 经过一段时限跑酷后，安置炸弹触发剧情，随后离开下水道大门找<font color=00AA00>**Jenprest**</font>交差
 
 
 奖励  

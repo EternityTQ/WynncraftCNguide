@@ -1,13 +1,13 @@
 # Dwelling Walls（level 22）
 <span style="font-size: 25px;">**魔方屋**</span>
 
-1 和**Nemract**的<font color=00AA00>**Leucsaa**</font>`[201 38 -2173]`说话
+<span class="stage-index">1.</span> 和**Nemract**的<font color=00AA00>**Leucsaa**</font>`[201 38 -2173]`说话
 
-2 进入他身后的房子，按两下一楼的按钮，然后找路上三楼
+<span class="stage-index">2.</span> 进入他身后的房子，按两下一楼的按钮，然后找路上三楼
 
-3 按一下三楼的按钮，跳入`[-16284 16 21200]`的坑中，打掉日志离开即可
+<span class="stage-index">3.</span> 按一下三楼的按钮，跳入`[-16284 16 21200]`的坑中，打掉日志离开即可
 
-4 出门和<font color=00AA00>**Leucsaa**</font>对话
+<span class="stage-index">4.</span> 出门和<font color=00AA00>**Leucsaa**</font>对话
 
 :::tip
 此处是最方便通关的步骤，其是针对**初始状态**而言的步骤
@@ -20,5 +20,5 @@
 :::
 
 奖励
-+ 3650 经验 
++ 3650 经验值 
 + 128 绿宝石

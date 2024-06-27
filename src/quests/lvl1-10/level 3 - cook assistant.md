@@ -13,9 +13,9 @@
 本次任务中，需要的产物是<font color='red'>**右键**</font>得到的`Wheat Grains`
 :::
 
-1.到Ragni城里和<font color=00AA00>**厨师**</font>`[-846 67 -1561]`对话
+<span class="stage-index">1.</span> 到Ragni城里和<font color=00AA00>**厨师**</font>`[-846 67 -1561]`对话
 
-2.到Ragni北部的**Katoa Ranch**`[-814 66 -1910]`收集<font color=00AA00>**厨师**</font>要的材料
+<span class="stage-index">2.</span> 到Ragni北部的**Katoa Ranch**`[-814 66 -1910]`收集<font color=00AA00>**厨师**</font>要的材料
 
    + `2 egg`鸡蛋可以在该地点杀鸡掉落
    + `1 Bucket of milk`可以在这里的牛奶商`[-808 67 -1916]`购买   
@@ -28,7 +28,7 @@
 :::
 
 
-3.材料收集完毕后回去找<font color=00AA00>**厨师**</font>`[-846 67 -1561]`
+<span class="stage-index">3.</span> 材料收集完毕后回去找<font color=00AA00>**厨师**</font>`[-846 67 -1561]`
 
 奖励  
 
