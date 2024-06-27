@@ -1,5 +1,5 @@
 # Enzan's Brother (level 1)
-<span style="font-size: 30px;">**Enzan的兄弟**</span>
+<span style="font-size: 25px;">**Enzan的兄弟**</span>
   
 <span class=stage-index>1.</span> 与**Ragni**城门前的<font color=00AA00>**Enzan**</font>`[-771 67 -1573]`对话
 

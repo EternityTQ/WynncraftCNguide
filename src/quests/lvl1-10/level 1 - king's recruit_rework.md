@@ -3,7 +3,7 @@ title: King's Recruit (level 1)
 icon: exclamation
 ---
 
-<span style="font-size: 25px;"><span style="font-size: 25px;">**国王的招兵**</span></span>
+<span style="font-size: 25px;">**国王的招兵**</span>
 
 :::tip 教程任务
 此任务为新手教程，可用`/skiptutorial`跳过至最后步骤
