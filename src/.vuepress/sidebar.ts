@@ -5,7 +5,7 @@ export default sidebar({
     {
       text: "目录",
       icon: "laptop-code",
-      link: "readme",
+      link: "README",
       prefix: "",
       children: [
         {
