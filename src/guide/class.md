@@ -4264,7 +4264,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '殉道'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>殉道</b></font>
       <br>
-      <br><font color = BBBBBB>受到致命伤害时，令周围的友军获得<font color=white> 3秒 </font>的无敌效果</font>
+      <br><font color = BBBBBB>受到致命伤害时，令周围的友军获得<font color=white> 3秒 </font>的<font color=white> 抗性极大幅度提升 </font></font>
       <br>
       <br><font color=55FFFF><b>圣骑士 分支</b></font>
     </div>
