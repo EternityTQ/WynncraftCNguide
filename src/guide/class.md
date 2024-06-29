@@ -4264,7 +4264,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '殉道'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color="ORANGE"><b>殉道</b></font>
       <br>
-      <br><font color = BBBBBB>受到致命伤害时，令周围的友军获得<font color=white> 3秒 </font>的<font color=white> 抗性极大幅度提升 </font></font>
+      <br><font color = BBBBBB>受到致命伤害时，令周围的友军获得<font color=white> 3秒 </font>的无敌效果</font>
       <br>
       <br><font color=55FFFF><b>圣骑士 分支</b></font>
     </div>
@@ -5833,7 +5833,7 @@ icon: hat-wizard
     <div v-if="isTooltipVisible && currentTooltip === '太阳光辉'" ref="tooltip" class="tooltip" :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }">
       <font color=FF5555><b>太阳光辉</b></font>
       <br>
-      <br><font color = BBBBBB>在<font color=WHITE> 10秒 </font>内造成自身生命值上限的<font color=WHITE> 300% </font>治疗量后，你的下一次<u>治疗</u>会给予周围的友军单位一段时间的无敌效果
+      <br><font color = BBBBBB>在<font color=WHITE> 10秒 </font>内造成自身生命值上限的<font color=WHITE> 300% </font>治疗量后，你的下一次<u>治疗</u>会给予周围的友军单位一段时间的<font color=white> 抗性极大幅度提升 </font>效果
       <br>
       <br>抗性提升：<font color=WHITE>+100%</font>
       <br>范围：<font color=WHITE>12格</font>
