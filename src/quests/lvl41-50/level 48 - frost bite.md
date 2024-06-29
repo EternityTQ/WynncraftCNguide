@@ -1,5 +1,13 @@
 # Frost Bite ( level 48)
+
+
 <span style="font-size: 25px;">**冰封的啮痕**</span>
+
+:::warning 旧任务提醒
+本任务部分步骤不清晰
+
+预计于下次大版本更新后一起更新
+:::
 
 <span class="stage-index">1.</span> 在 `[-207 37 -531]` 附近找到<font color=00AA00>**Eppo**</font>
 
