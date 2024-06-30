@@ -20,7 +20,5 @@
 + 1 Caissop's Master Piece
   
 :::tip
-可以将这幅画卖给Cinfras城机场底部的艺术商Art Merchant，价值3le
-
-之前坐标有问题，没时间补了
+可以将这幅画卖给Cinfras城机场底部的艺术商Art Merchant`[-227 57 -4982]`，价值3le
 :::
