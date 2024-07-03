@@ -3,7 +3,7 @@ icon: skull
 ---
 
 # Corrupted Betrayal (level 52)
-<span style="font-size: 25px;">**恶堕的复仇**</span>
+<span style="font-size: 25px;">**堕落之叛**</span>
 
 :::tip 重要任务
 Undergrowth Ruins 副本前置任务
