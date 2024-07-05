@@ -3,6 +3,10 @@ title: Soul Point
 icon: ghost
 ---
 
+::: danger 过时提醒
+本页面的所有内容将在2.1正式服更新后被移除
+:::
+
 你应该也已经注意到了，你的物品栏第九格存放着这么一个东西
 
 ![](/assets/img/soulpoint1.jpg)
