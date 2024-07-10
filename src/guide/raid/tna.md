@@ -191,6 +191,10 @@ Void hole会随机刷在场地八个角的位置，在到时间时请一定要�
 ### bulbshift Wilds - 灯泡
 玩家会被传送至一大片平原之上，面前会有三个Blue bulb。并且平原上会持续刷怪，其中，Bulb Catcher会尝试抢走Blue bulb，需尽快击杀。
 
+:::tip
+下版本中，只剩一个Blue bulb
+:::
+
 玩家的任务是：保护Blue bulb并将其充能，至少保住一个Blue bulb且将其充满至3/3即可开启传送门。
 
 在所有玩家附近一定范围内，只要足够空旷，就有概率生成bulb Keeper，击杀之即可获得Red bulb
