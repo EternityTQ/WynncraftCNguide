@@ -5,19 +5,10 @@ icon: skull
 # Kingdom of Sand (level 33)
 <span style="font-size: 25px;">**沙海国度**</span>
 
-:::warning 旧任务提醒
-本任务部分步骤不清晰
-
-预计于下次大版本更新后一起更新
-:::
-
 :::tip 重要任务
 解锁Sand-Swept Tomb副本
 :::
 
-:::warning 
-本任务部分步骤描述不清晰，预计于下次大版本更新重制
-:::
 
 <span class="stage-index">1.</span> 前往`[1408 94 -1830]`的坟墓调查发生了什么事
 

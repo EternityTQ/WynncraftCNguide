@@ -9,6 +9,15 @@ icon: skull
 Undergrowth Ruins 副本前置任务
 :::
 
+:::tip Troms要怎么过去？
+
+![](/assets/img/qa6.jpg)
+
+从如图所示的路径过去即可
+
+注意：图上的路径会经过一座桥(The Great Bridge)，桥上怪物伤害较高，建议骑马或者直接用技能冲过去
+:::
+
 <span class="stage-index">1.</span> 和<font color=00AA00>**Troms Mage**</font>`[-641 59 -872]`对话，触发剧情
 
 <span class="stage-index">2.</span> 解决法师给你的难题

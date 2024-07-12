@@ -6,6 +6,15 @@ icon: route
 # The Passage(level 57)
 <span style="font-size: 25px;">**捷径**</span>
 
+:::tip Troms要怎么过去？
+
+![](/assets/img/qa6.jpg)
+
+从如图所示的路径过去即可
+
+注意：图上的路径会经过一座桥(The Great Bridge)，桥上怪物伤害较高，建议骑马或者直接用技能冲过去
+:::
+
 <span class="stage-index">1.</span> 与**Troms**的<font color=00AA00>**Wirt**</font>`[-820 94 -1040]`对话
 
 <span class="stage-index">2.</span> 找到**Troms**的<font color=00AA00>**Ilden**</font>`[-870 94 -1034]`，告诉他你想成为这个城镇的一员

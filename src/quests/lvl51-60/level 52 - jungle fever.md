@@ -1,6 +1,15 @@
 # Jungle Fever (level 52)
 <span style="font-size: 25px;">**穷0热**</span>
 
+:::tip Troms要怎么过去？
+
+![](/assets/img/qa6.jpg)
+
+从如图所示的路径过去即可
+
+注意：图上的路径会经过一座桥(The Great Bridge)，桥上怪物伤害较高，建议骑马或者直接用技能冲过去
+:::
+
 前置任务: [A Sandy Scandal](/quests/lvl31-40/level%2032%20-%20a%20sandy%20scandal.html)
 
 >建议走位风骚的人做，带上足够血药。
