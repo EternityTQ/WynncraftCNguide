@@ -180,7 +180,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 这个真的很重要！！！
 :::
 
-## 计时器
+## 计时器(Timer)
 
 一旦计时器耗尽或者轮次数耗尽，你都会被立刻结算并且传送回Lootrun Camp
 
@@ -200,7 +200,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 
 
-## 信标
+## 信标(Beacons)
 
 ![](/assets/img/lootrun10.jpg)
 
@@ -216,7 +216,7 @@ Vibrant信标拥有原信标的双倍效果
 
 | 信标名称 | 效果 | 最大获取上限 |
 | --- | --- | :---: |
-| <font color = "blue">**蓝色信标**</font> | 从 **3(4)** 个增益效果中选择1个 | 无上限 |
+| <font color = "blue">**蓝色信标**</font> | 从 **3(4)** 个祝福效果中选择1个 | 无上限 |
 | <font color = "purple">**紫色信标**</font> | 获得 **1(2)** 个随机诅咒，同时最终奖励抽取物品数 **+1(2)** | 无上限 |
 | <font color = FFCC00>**黄色信标**</font> | 生成 **1(2)** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
 | <font color = 00CCFF>**青色信标**</font> | 下一个信标的效果 **+100%(200%)** | 无上限 |
@@ -234,9 +234,9 @@ Vibrant信标拥有原信标的双倍效果
 | --- | --- |
 | <font color = "blue">**蓝色信标**</font> | 选数上限为5；青信标为每100%选数+1 |
 | <font color = 00CCFF>**青色信标**</font> | 只会连续出现1次；死亡会导致已持有的青色信标状态清空 |
-| <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant增益的是挑战轮数 |
+| <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant祝福的是挑战轮数 |
 | <font color = "CCCCCC">**白色信标**</font> | 总轮数到达100轮时消失 |
-| <font color = 00BB00>**绿色信标**</font> | 只会连续出现1次；青信标会增益`怪物不加属性`的轮次数而Vibrant不会 |
+| <font color = 00BB00>**绿色信标**</font> | 只会连续出现1次；青信标会祝福`怪物不加属性`的轮次数而Vibrant不会 |
 | <font color = "grey">**灰色信标**</font> | 青信标会使其选数翻倍但选数上限为5；第5轮开始出现；<br>第27~35轮后消失；任务进行时不会出现 |
 | <font color = "red">**红色信标**</font> | 只会连续出现1次；给予的不加时间的轮次从下一轮开始算起；<br>总轮数到达100轮时消失 |
 
@@ -256,7 +256,7 @@ Vibrant信标拥有原信标的双倍效果
 但是，刷新后该信标消失时，下一轮仍然会继续出现
 :::
 
-## 挑战
+## 挑战(Challenges)
 挑战一共分为5大类
 | 名称 | 目标 | 备注 |
 | --- | --- | --- |
@@ -266,11 +266,11 @@ Vibrant信标拥有原信标的双倍效果
 | Destroy | 消灭指定目标 | 类似于拆塔，目标不会攻击没有AI且血量极高 |
 | Defend | 保护指定目标 | 只有一些怪物才会攻击目标；每10秒刷新怪物 |
 
-在每次挑战完成或者失败后，怪物都会受到轮次增益(获得绿信标效果时除外)
+在每次挑战完成或者失败后，怪物都会受到轮次祝福(获得绿信标效果时除外)
 
 ![](/assets/img/lootrun11.jpg)
 
-这个数值在不同的地区而不同，低等级的地区会有更高的轮次增益来补偿难度
+这个数值在不同的地区而不同，低等级的地区会有更高的轮次祝福来补偿难度
 
 :::danger 防卡点机制
 大部分挑战均有防卡点机制，以防止你站在无敌点来减小过关难度
@@ -286,13 +286,13 @@ Vibrant信标拥有原信标的双倍效果
 失败后，你的总轮数上限-1，同时你不会得到该次挑战的信标效果
 :::
 
-## 诅咒
+## 诅咒(Curses)
 
 在吃到紫信标或暗灰信标后，你会受到随机诅咒(Curses)
 
 诅咒会给怪物带来加成以提高挑战难度
 
-诅咒一共会给怪物带来如下增益：
+诅咒一共会给怪物带来如下祝福：
 
 + 生命(每次+40%)
 + 伤害(每次+30%)
@@ -300,58 +300,58 @@ Vibrant信标拥有原信标的双倍效果
 + 移动速度(每次+35%)
 + 抗性(每次+12%，上限84%)
 
-## 增益
+## 祝福(Boons)
 
-在吃到蓝信标或者有任务加成的紫信标、暗灰信标后，你会受到增益(boon)
+在吃到蓝信标或者有任务加成的紫信标、暗灰信标后，你会受到祝福(boon)
 
-增益会给你带来不同属性的提升以帮助你更好完成接下来的挑战
+祝福会给你带来不同属性的提升以帮助你更好完成接下来的挑战
 
-在吃到蓝信标时，你可以从一定选数内选择你想要的增益
+在吃到蓝信标时，你可以从一定选数内选择你想要的祝福
 
-每个增益由增益种类、增益名称以及增益效果三部分组成
+每个祝福由祝福种类、祝福名称以及祝福效果三部分组成
 
-增益种类决定了该增益是否可增长数值
+祝福种类决定了该祝福是否可增长数值
 
-Dynamic为动态增益，你有机会提高该增益的层数
-
-:::tip
-进行到一定轮次时，不会出现除了<font color = 00BB00>**Clockworker**</font>和<font color = 00BB00>**Slowrunner**</font>以外的Dynamic增益
-
-**Dynamic增益是有可能减少层数的**
-:::
-
-Static为静态增益，该增益的层数在拿到瞬间就固定了
+Dynamic为动态祝福，你有机会提高该祝福的层数
 
 :::tip
-Static增益**在选择时**的数值为随机数值
+进行到一定轮次时，不会出现除了<font color = 00BB00>**Clockworker**</font>和<font color = 00BB00>**Slowrunner**</font>以外的Dynamic祝福
+
+**Dynamic祝福是有可能减少层数的**
 :::
 
-增益的名称决定了该增益的最大层数/生效条件等
+Static为静态祝福，该祝福的层数在拿到瞬间就固定了
 
-而增益效果决定了该增益能够增幅哪条属性，其数值也和增益名称有关
+:::tip
+Static祝福**在选择时**的数值为随机数值
+:::
+
+祝福的名称决定了该祝福的最大层数/生效条件等
+
+而祝福效果决定了该祝福能够增幅哪条属性，其数值也和祝福名称有关
 
 
 | 名称                  | 种类 | 描述                                                                                                    | 最大层数 |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------------------------|------------|
-| <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 `增益效果`                | -          |
-| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `增益效果`                        | x15        |
-| <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `增益效果`                                            | x15        |
-| <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `增益效果`                            | -          |
-| <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `增益效果`                                 | x15        |
-| <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `增益效果`                      | x15        |
-| <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `增益效果`                                          | x15        |
-| <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `增益效果`                                           | x10        |
-| <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除增益都会增加/减少一层 `增益效果`                                           | x8         |
-| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `增益效果`；<br>在每次击杀怪物后，持续时间都会重置至60s | x100          |
-| <font color = CCCCCC>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `增益效果`                               | x15          |
-| <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `增益效果`                                      | -          |
-| <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `增益效果`           | x10        |
-| <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `增益效果`                                   | x8        |
-| <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个增益都会获得一层 `增益效果`                                    | x5        |
-| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `增益效果`                               | x12        |
-|<font color = CCCCCC> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `增益效果`                    | x10        |
+| <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 `祝福效果`                | -          |
+| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `祝福效果`                        | x15        |
+| <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `祝福效果`                                            | x15        |
+| <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `祝福效果`                            | -          |
+| <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `祝福效果`                                 | x15        |
+| <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `祝福效果`                      | x15        |
+| <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `祝福效果`                                          | x15        |
+| <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `祝福效果`                                           | x10        |
+| <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除祝福都会增加/减少一层 `祝福效果`                                           | x8         |
+| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `祝福效果`；<br>在每次击杀怪物后，持续时间都会重置至60s | x100          |
+| <font color = CCCCCC>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `祝福效果`                               | x15          |
+| <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `祝福效果`                                      | -          |
+| <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `祝福效果`           | x10        |
+| <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `祝福效果`                                   | x8        |
+| <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个祝福都会获得一层 `祝福效果`                                    | x5        |
+| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `祝福效果`                               | x12        |
+|<font color = CCCCCC> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `祝福效果`                    | x10        |
 
-增益效果如下列所示
+祝福效果如下列所示
 + 生命上限
 + 生命恢复
 + 生命恢复%
@@ -369,15 +369,15 @@ Static增益**在选择时**的数值为随机数值
 
 
 
-其中，部分增益种类有一些需要注意的特性：
+其中，部分祝福种类有一些需要注意的特性：
 | 名称 | 特性 |
 | --- | --- |
 | <font color = FF5555>**Killstreak**</font> | 退出重登会直接清除所有层数 |
 | <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小，且没有下限 |
-| <font color = 5555FF>**Midas Touch**</font> | 消除增益同样会导致叠加层数减小，且没有下限 |
+| <font color = 5555FF>**Midas Touch**</font> | 消除祝福同样会导致叠加层数减小，且没有下限 |
 | <font color = FFAA00>**Picky Looter**</font> | 只看真·黄信标，不看Materialism带来的附加黄信标效果 |
 
-## 任务
+## 任务(Quests)
 在2.0.4版本中，新增加了任务系统
 
 在完成4轮挑战后，你可以从3个任务中选择一个进行接取
@@ -386,7 +386,7 @@ Static增益**在选择时**的数值为随机数值
 
 在当前接取任务未完成之前，你无法再看到灰信标
 
-任务目标是随机的，包括获得时间、获得Pulls、打开箱子、获得增益、获得诅咒以及见到信标
+任务目标是随机的，包括获得时间、获得Pulls、打开箱子、获得祝福、获得诅咒以及见到信标
 
 任务在完成对应目标后会提供非常强力的效果
 
@@ -395,15 +395,15 @@ Static增益**在选择时**的数值为随机数值
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启Flying Chest后，随机清除一个已有的诅咒                                                                              |
 | <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)                                                                                                            |
 | <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现                                  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 增益增加50%额外效果                                                                                                      |
+| <font color='5555FF'> **Orphion's Grace** </font>     | 祝福增加50%额外效果                                                                                                      |
 | <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，换取1个额外挑战轮数                                            |
-| <font color='AA00AA'> **Equilibrium** </font>         | 每次得到1个诅咒后，获得1个随机增益                                                                                         |
+| <font color='AA00AA'> **Equilibrium** </font>         | 每次得到1个诅咒后，获得1个随机祝福                                                                                         |
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半                                                                                                      |
 | <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会                                                                         |
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)                                                                         |
 | <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，会强制扣除300s换取1次最终奖励刷新机会。<br>每一轮结束后，下一次花费增加60s       |
 | <font color='FF5555'> **Redemption** </font>          | 获得1次最终奖励献祭机会                                                                                                          |
-| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次最终奖励献祭机会以及2次最终奖励刷新机会；<br>每当计时器减少2min时，随机清除一个已有增益；<br>从任意途径获得时间延缓该倒计时       |
+| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次最终奖励献祭机会以及2次最终奖励刷新机会；<br>每当计时器减少2min时，随机清除一个已有祝福；<br>从任意途径获得时间延缓该倒计时       |
 
 :::tip
 在完成`获得时间`的条件时
@@ -421,11 +421,11 @@ Ultimate Sacrifice的实际效果是：
 
 获取该效果后，立刻给当前计时器时间的-2min处打上标记
 
-一旦时间减少至低于标记时间，则立刻消除一个随机增益，并且再根据新的时间-2min处打上新的标记
+一旦时间减少至低于标记时间，则立刻消除一个随机祝福，并且再根据新的时间-2min处打上新的标记
 
 若当前时间与标记时间的距离大于2min(无论是大于还是小于)，则会再次打上新的标记
 
-一次性扣除多个2min，只会触发一次标记(例如，通过赌博野兽扣除了5min的时间，只会消除一次增益)
+一次性扣除多个2min，只会触发一次标记(例如，通过赌博野兽扣除了5min的时间，只会消除一次祝福)
 :::
 
 
