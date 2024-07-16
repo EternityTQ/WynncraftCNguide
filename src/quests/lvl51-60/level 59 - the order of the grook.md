@@ -27,13 +27,21 @@ icon: route
 
 <span class="stage-index">7.</span> 跟着箭头走到两个商人处，兑换一根法杖和一本魔法书，**此处选择的内容影响任务奖励**，如下表
 
-| Wand |  Reward | Book |  Reward |
-| ------ | ------ | ------ | ------ |
-| Oak Grook Feather Wand | Draoi Fair | The Tome of Nature Magick | 10 EB |
-| Avo Phoenix Wand | Draoi Fair | The Teaching of Exal | 28 EB |
-| Dragon Bone Wand | Dragon's Eye Bracelet | The Teachings of a Wizard | 32 EB |
-| Sky Wood Rukh Wand | Renda Langit | The Ancient Teachings | 10 EB |
-| Birch Undead Wand | Dragon's Eye Bracelet | The Tome of Old Magicks | 36 EB |
+| Wand |  Reward |
+| ------ | ------ |
+| Oak Grook Feather Wand | Draoi Fair |
+| Avo Phoenix Wand | Draoi Fair | 
+| Dragon Bone Wand | Dragon's Eye Bracelet |
+| Sky Wood Rukh Wand | Renda Langit |
+| Birch Undead Wand | Dragon's Eye Bracelet |
+
+| Book |  Reward |
+|  ------ | ------ |
+| The Tome of Nature Magick | 10 EB |
+| The Teaching of Exal | 28 EB |
+| The Teachings of a Wizard | 32 EB |
+| The Ancient Teachings | 10 EB |
+| The Tome of Old Magicks | 36 EB |
 
 :::tip
 推荐选择：Sky Wood Rukh Wand、The Tome of Old Magicks
