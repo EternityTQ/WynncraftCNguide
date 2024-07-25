@@ -333,22 +333,22 @@ Static祝福**在选择时**的数值为随机数值
 
 | 名称                  | 种类 | 描述                                                                                                    | 最大层数 |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------------------------|------------|
-| <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在这次挑战中见到6个蓝色信标或紫色信标时，获得 `祝福效果`                | -          |
+| <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在本局游戏中累计见到6个蓝色信标或紫色信标时，获得 `祝福效果`                | -          |
 | <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `祝福效果`                        | x15        |
 | <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `祝福效果`                                            | x15        |
 | <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `祝福效果`                            | -          |
 | <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `祝福效果`                                 | x15        |
-| <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每从箱子里见到4个物品都会获得一层 `祝福效果`                      | x15        |
+| <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每累计从箱子里见到4个物品都会获得一层 `祝福效果`                      | x15        |
 | <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `祝福效果`                                          | x15        |
 | <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `祝福效果`                                           | x10        |
 | <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除祝福都会增加/减少一层 `祝福效果`                                           | x8         |
-| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `祝福效果`；<br>在每次击杀怪物后，持续时间都会重置至60s | x100          |
+| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `祝福效果`；在每次击杀怪物后，持续时间都会重置至60s | x100          |
 | <font color = CCCCCC>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `祝福效果`                               | x15          |
-| <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你总共完成了5个挑战后，获得 `祝福效果`                                      | -          |
-| <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每共计见到4个物品都会获得一层 `祝福效果`           | x10        |
+| <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你累计完成了5个挑战后，获得 `祝福效果`                                      | -          |
+| <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每累计见到4个物品都会获得一层 `祝福效果`           | x10        |
 | <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `祝福效果`                                   | x8        |
 | <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个祝福都会获得一层 `祝福效果`                                    | x5        |
-| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每共计击杀10只怪物都会获得一层 `祝福效果`                               | x12        |
+| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每累计击杀10只怪物都会获得一层 `祝福效果`                               | x12        |
 |<font color = CCCCCC> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `祝福效果`                    | x10        |
 
 祝福效果如下列所示
@@ -376,6 +376,18 @@ Static祝福**在选择时**的数值为随机数值
 | <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小，且没有下限 |
 | <font color = 5555FF>**Midas Touch**</font> | 消除祝福同样会导致叠加层数减小，且没有下限 |
 | <font color = FFAA00>**Picky Looter**</font> | 只看真·黄信标，不看Materialism带来的附加黄信标效果 |
+
+:::tip 关于虚弱效果
+
+这里需要着重解释一下
+
+虚弱效果(Weaken Enemy)实际的作用是，你的任何平A、技能都会给怪物上数秒的减少攻击的DEBUFF
+
+上限-50%，但是实际上。。这个上限非常迷，还有一说是90%
+
+总之还是先着重提升ehp才是最好提升防御的方法！
+
+:::
 
 ## 任务(Quests)
 在2.0.4版本中，新增加了任务系统
