@@ -46,7 +46,7 @@ Bob's Tear可由在**Ragni**城内刷新的 Bob the Zombie 掉落，掉率百分
 
 <span class="stage-index">8.</span> 从Blacksmith获取到`Bob's Crushed Soul`后，回**Bremminglar**交给<font color=00AA00>**Wedyf**</font>
 
-<span class="stage-index">9.</span> 在**Bob's Tomb**里找到Bob the Zombie的尸体(就在楼梯下面)
+<span class="stage-index">9.</span> 在**Bob's Tomb**`[254 75 -760]`里找到Bob the Zombie的尸体`[295 54 -759]`
 
 <span class="stage-index">10.</span> 报告给<font color=00AA00>**Tarod**</font>你看到了什么
 

@@ -24,7 +24,8 @@ title: Green Gloop (level 31)
 + 9500 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 192 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以进入Almuj的饰品商店了
-+ 
+
+
 :::tip
 只有洞里最深处的史莱姆才会掉`Slimey Goo`
 :::
