@@ -50,5 +50,5 @@ icon: bookmark
 + 1 Greaves of honor/ 1 Greaves of Shame
 
 :::tip
-强烈建议最后的环节选择离开拿到Greaves of honor，这个等级段唯一指定经验值![](/assets/icon/Experience_Orb.gif =20x)神裤，就算你不想穿也能卖个好价钱
+强烈建议最后的环节选择离开拿到Greaves of honor，这个等级段唯一指定经验神裤，就算你不想穿也能卖个好价钱
 :::
