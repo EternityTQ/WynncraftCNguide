@@ -3,6 +3,17 @@ title: Mastery Tome
 icon: book-open
 ---
 
+:::danger 警告
+本页面内容已经过时，编者无力维护更新
+
+等待有缘人接手。
+
+:::
+
+
+
+
+
 ## 简介
 
 ![](/assets/img/tome1.jpg)

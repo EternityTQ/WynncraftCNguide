@@ -4,9 +4,12 @@ icon: wheelchair-move
 pageview: true
 ---
 
-<p style="text-align: center;"><span style="font-size: 50px;"><b>LootRun不是你生活的全部</b></span></p>
+:::danger 警告
+本页面内容已经过时，编者无力维护更新
 
-<p style="text-align: center;"><span style="font-size: 50px;"><b>劝人LR天打雷劈</b></span></p>
+等待有缘人接手。
+
+:::
 
 首先先解释一下，何谓lootrun?
 
