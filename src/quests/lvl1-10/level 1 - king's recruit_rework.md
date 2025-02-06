@@ -20,7 +20,7 @@ icon: exclamation
 
 <span style="font-size: 20px;"><font color=red><b>红框</b></font></span>内为你只需要选择的内容，为五大职业，你需要从中选择一个职业创建角色来进行游戏
 
-职业创建后，该角色的职业无法修改，但不必担心，初始拥有
+职业创建后，该角色的职业无法修改，但不必担心，每名玩家初始拥有5个槽位，足够你体验一遍所有职业。
 
 关于各职业的具体介绍，可以看看[这篇文章](/guide/class.html)，这里不会再针对各个职业进行详细介绍
 
@@ -234,7 +234,6 @@ icon: exclamation
 .stage-index {
   font-size: 40px;
   font-weight: bold;
-  font-family: Peralta;
 }
 .stage{
 
