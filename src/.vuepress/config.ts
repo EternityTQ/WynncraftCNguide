@@ -1,10 +1,6 @@
 import { defineUserConfig } from "vuepress";
+
 import theme from "./theme.js";
-import { defineClientConfig } from "vuepress/client";
-import { searchProPlugin } from "vuepress-plugin-search-pro";
-import { oml2dPlugin } from 'vuepress-plugin-oh-my-live2d';
-import { addViteConfig } from "@vuepress/helper";
-import postcssPresetEnv from "postcss-preset-env";
 
 export default defineUserConfig({
   base: "/",
@@ -14,7 +10,7 @@ export default defineUserConfig({
   description: "Wynncraft中文攻略",
 
   theme,
-  
+
   head: [
     // ...
 
@@ -38,62 +34,14 @@ export default defineUserConfig({
         rel: "stylesheet",
       },
     ],
-    
-    ['link', { rel: 'Minecraft', href: '/assets/font/Minecraft.ttf' }],
-  ],
-  extendsBundlerOptions: (bundlerOptions, app) => {
-    addViteConfig(bundlerOptions, app, {
-      css: {
-        postcss: {
-          plugins: [postcssPresetEnv()],
-        },
+    [
+      "link",
+      {
+        href: "https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap",
+        rel: "stylesheet",
       },
-    });
-  },
-  plugins: [
-    searchProPlugin({
-      // 索引全部内容
-      indexContent: true,
-      autoSuggestions: false,
-      // 为分类和标签添加索引
-      customFields: [
-        {
-          getter: (page) => page.frontmatter.category,
-          formatter: "分类：$content",
-        },
-        {
-          getter: (page) => page.frontmatter.tag,
-          formatter: "标签：$content",
-        },
-      ],
-    }),/*
-    oml2dPlugin({
-      // 在这里配置选项
-      menus: {
-        // 在这里配置
-        disable:true,
-
-      },
-      
-      models: [
-        {
-          path: 'https://raw.githubusercontent.com/EternityTQ/WynncraftCNguide/main/src/.vuepress/public/09kohane_unit/09kohane_unit.model3.json',
-          dockedPosition: "right",
-          scale: 0.12,
-          position: [-10, 90],
-          volume: 0.1,
-          showHitAreaFrames:true,
-          
-          motionPreloadStrategy: "ALL",
-          stageStyle: {
-            width: 350
-          },
-          
-        }
-      ]
-    })*/
+    ],
   ],
-  
 
   // 和 PWA 一起启用
   // shouldPrefetch: false,

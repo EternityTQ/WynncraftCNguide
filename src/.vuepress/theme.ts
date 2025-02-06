@@ -1,59 +1,130 @@
 import { hopeTheme } from "vuepress-theme-hope";
+
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
-import { searchProPlugin } from "vuepress-plugin-search-pro";
+// 这篇是新的
 
 export default hopeTheme({
   hostname: "https://github.com/EternityTQ/WynncraftCNguide",
 
-  //author: {
-   // name: "Mr.Hope",
-  //  url: "https://mister-hope.com",
-  // },
-
-  iconAssets: "fontawesome",
-
-  
+  author: {
+    name: "筱提Vellichor",
+  },
 
   logo: "/logo.svg",
 
   repo: "EternityTQ/WynncraftCNguide",
 
   docsDir: "src",
-
   favicon: "/favicon.ico",
-  // navbar
+  // 导航栏
   navbar,
-
-  // sidebar
+  sidebarSorter:["readme","filename"],
+  // 侧边栏
   sidebar,
 
+  // 页脚
   footer: "Wynncraft中文攻略",
-
   displayFooter: true,
 
-  sidebarSorter:["readme", "order", "filename"],
-
-
+  // 加密配置
   encrypt: {
     config: {
-      "/demo/encrypt.html": ["1234"],
+      "/demo/encrypt.html": {
+        hint: "Password: 1234",
+        password: "1234",
+      },
     },
   },
 
-  // page meta
+  // 多语言配置
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
-    lastUpdated: true,
   },
 
-  pageInfo: ["Author", "Original", "Date", "Category", "PageView", "ReadingTime"],
-  
- 
+  // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
+   hotReload: true,
 
+  // 此处开启了很多功能用于演示，你应仅保留用到的功能。
+  markdown: {
+    align: true,
+    attrs: true,
+    codeTabs: true,
+    component: true,
+    demo: true,
+    figure: true,
+    gfm: true,
+    imgLazyload: true,
+    imgSize: true,
+    include: true,
+    mark: true,
+    markmap: true,
+    math: {
+      type: "katex", // 或 'mathjax'
+    },
+    plantuml: true,
+    spoiler: true,
+    stylize: [
+      {
+        matcher: "Recommended",
+        replacer: ({ tag }) => {
+          if (tag === "em")
+            return {
+              tag: "Badge",
+              attrs: { type: "tip" },
+              content: "Recommended",
+            };
+        },
+      },
+    ],
+    sub: true,
+    sup: true,
+    tabs: true,
+    tasklist: true,
+    vPre: true,
+
+    // 取消注释它们如果你需要 TeX 支持
+    // markdownMath: {
+    //   // 启用前安装 katex
+    //   type: "katex",
+    //   // 或者安装 mathjax-full
+    //   type: "mathjax",
+    // },
+
+    // 如果你需要幻灯片，安装 @vuepress/plugin-revealjs 并取消下方注释
+    // revealjs: {
+    //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+    // },
+
+    // 在启用之前安装 chart.js
+    // chartjs: true,
+
+    // insert component easily
+
+    // 在启用之前安装 echarts
+    // echarts: true,
+
+    // 在启用之前安装 flowchart.ts
+    // flowchart: true,
+
+    // 在启用之前安装 mermaid
+    // mermaid: true,
+
+    // playground: {
+    //   presets: ["ts", "vue"],
+    // },
+
+    // 在启用之前安装 @vue/repl
+    // vuePlayground: true,
+
+    // 在启用之前安装 sandpack-vue3
+    // sandpack: true,
+  },
+
+  // 在这里配置主题提供的插件
   plugins: {
-    photoSwipe: false,
+    // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Waline",
       pageview: true,
@@ -61,56 +132,20 @@ export default hopeTheme({
       // waline 模式下
       serverURL: "https://wcg-comment.vercel.app/", // your serverURL
     },
-    
-    // All features are enabled for demo, only preserve features you need here
-    mdEnhance: {
-      align: true,
-      attrs: true,
-      chart: true,
-      codetabs: true,
-      searchPro: true,
-      markmap: true,
-      demo: true,
-      echarts: true,
-      figure: true,
-      flowchart: true,
-      gfm: true,
-      imgLazyload: true,
-      imgSize: true,
-      include: true,
-      katex: true,
-      mark: true,
-      mermaid: true,
-      playground: {
-        presets: ["ts", "vue"],
-      },
-      
-      presentation: ["highlight", "math", "search", "notes", "zoom"],
-      stylize: [
-        {
-          matcher: "Recommended",
-          replacer: ({ tag }) => {
-            if (tag === "em")
-              return {
-                tag: "Badge",
-                attrs: { type: "tip" },
-                content: "Recommended",
-              };
-          },
-        },
-      ],
-      sub: true,
-      sup: true,
-      tabs: true,
-      vPre: true,
-      vuePlayground: true,
+
+    components: {
+      components: ["Badge", "VPCard"],
     },
 
-    // uncomment these if you want a pwa
+    icon: {
+      prefix: "fa6-solid:",
+    },
+
+    // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
     //   favicon: "/favicon.ico",
     //   cacheHTML: true,
-    //   cachePic: true,
+    //   cacheImage: true,
     //   appendBase: true,
     //   apple: {
     //     icon: "/assets/icon/apple-icon-152.png",

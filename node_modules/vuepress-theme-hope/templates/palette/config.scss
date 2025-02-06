@@ -1,13 +1,3 @@
-/* rtl */
-$rtl-selector: 'html[dir="rtl"]';
-
-/** dark mode selector */
-$light-selector: 'html[data-theme="light"]';
-$dark-selector: 'html[data-theme="dark"]';
-
-/* Content Class */
-$content-class: ".theme-hope-content";
-
 /* responsive breakpoints */
 
 // wide screen
@@ -24,6 +14,9 @@ $tablet: 719px !default;
 
 // narrow mobile
 $mobile: 419px !default;
+
+/* theme color */
+$theme-color: #3eaf7c !default;
 
 /* Color list */
 $colors: #cf1322, #fa541c, #f39c12, #2ecc71, #25a55b, #10a5a5, #096dd9, #aa6fe9,
