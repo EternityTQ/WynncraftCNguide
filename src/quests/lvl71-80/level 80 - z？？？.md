@@ -114,15 +114,15 @@
 
 按照以下步骤做
 
-<span class="stage-index">1.</span> 进入<CC>[-2084 77 -4473]</CC>的洞内，在上面最顶层的脚手架<CC>[-2125 80 -4425]</CC>找到钥匙
+1. 进入<CC>[-2084 77 -4473]</CC>的洞内，在上面最顶层的脚手架<CC>[-2125 80 -4425]</CC>找到钥匙
 
-<span class="stage-index">2.</span> 出来后一路直走，来到<CC>[-1914 77 -4472]</CC>的洞内，将拿到的钥匙丢入左侧的漏斗内，然后踩一下地上的石踏板，直到看到下面的洞有矿车经过
+2. 出来后一路直走，来到<CC>[-1914 77 -4472]</CC>的洞内，将拿到的钥匙丢入左侧的漏斗内，然后踩一下地上的石踏板，直到看到下面的洞有矿车经过
 
-<span class="stage-index">3.</span> 进入旁边的矿洞，来到入口旁边的平台上<CC>[-1879 80 -4422]</CC>，会有一辆矿车，推它！
+3. 进入旁边的矿洞，来到入口旁边的平台上<CC>[-1879 80 -4422]</CC>，会有一辆矿车，推它！
 
 ![](/assets/img/lvl80-8.jpg =400x)
 
-<span class="stage-index">4.</span> 快要到铁道岔路的时候停下来，按按钮，然后快速推过左边的岔路
+4. 快要到铁道岔路的时候停下来，按按钮，然后快速推过左边的岔路
 
 ![](/assets/img/lvl80-9.jpg =400x)
 
@@ -130,17 +130,17 @@
 乘坐矿车的状态是不能按按钮的，必须要下车才能按
 :::
 
-<span class="stage-index">5.</span> 矿车推到底部后会有另一个按钮，按了之后让它弹射起步进入另一条岔路，这里需要坐上去前进，不然动力不足
+5. 矿车推到底部后会有另一个按钮，按了之后让它弹射起步进入另一条岔路，这里需要坐上去前进，不然动力不足
 
 ![](/assets/img/lvl80-10.jpg =400x)
 
-<span class="stage-index">6.</span> 推到外面的木桩后按按钮，继续进另一条岔路
+6. 推到外面的木桩后按按钮，继续进另一条岔路
 
 ![](/assets/img/lvl80-11.jpg =400x)
 
-<span class="stage-index">7.</span> 矿车抵达终点后下车，使用旁边的加号，此时矿车会变为TNT矿车并转移到另一条轨道上，推动矿车会开到一处岩石，炸开后进入暗门，拿到`Mechanical Chip`
+7. 矿车抵达终点后下车，使用旁边的加号，此时矿车会变为TNT矿车并转移到另一条轨道上，推动矿车会开到一处岩石，炸开后进入暗门，拿到`Mechanical Chip`
 
-<span class="stage-index">8.</span> 来到<CC>[16 120 -5634]</CC>，你会看到一朵小黄花，把上一步拿到的`Mechanical Chip`丢到花上，会在旁边开启一扇门，进去经过一小段下水道来到解密区
+8. 来到<CC>[16 120 -5634]</CC>，你会看到一朵小黄花，把上一步拿到的`Mechanical Chip`丢到花上，会在旁边开启一扇门，进去经过一小段下水道来到解密区
 
 ![从这条山路上去](/assets/img/lvl80-16.jpg =400x)
 
@@ -148,7 +148,7 @@
 下水道内含跳吓
 :::
 
-<span class="stage-index">9.</span> 沿着路上楼，走到<CC>[67 123 -5703]</CC>
+9. 沿着路上楼，走到<CC>[67 123 -5703]</CC>
 
 你能看到一个控制台，中间是方向键，左边是重置，右边是撤回
 
@@ -156,10 +156,10 @@
 
 ![](/assets/img/lvl80-4.jpg =400x)
 
-<span class="stage-index">10.</span> 找红色羊毛<CC>[115 129 -5716]</CC>丢入如图所示的铁栏杆装置内，进入传送装置传送至流星区域
+10. 找红色羊毛<CC>[115 129 -5716]</CC>丢入如图所示的铁栏杆装置内，进入传送装置传送至流星区域
 ![](/assets/img/lvl80-12.jpg =400x)
 
-<span class="stage-index">11.</span> 拿到`Meteor Shard`后进入陨石内待命
+11. 拿到`Meteor Shard`后进入陨石内待命
 
 :::tip
 陨石碎片非常重要！
@@ -172,7 +172,7 @@
 
 ### 黄色陨石
 
-<span class="stage-index">1.</span> 前往<CC>[-1357 47 -5575]</CC>的洞内敲完花盆
+1. 前往<CC>[-1357 47 -5575]</CC>的洞内敲完花盆
 :::tip
 进洞下来后，楼梯左手边下有1个<CC>[-1367 25 -5607]</CC>
 
@@ -201,7 +201,7 @@
 
 如果听到像熄火的声音，并且地图变成了花盆，那就是你没打完花盆
 
-<span class="stage-index">2.</span> 
+2. 
 进入暗门后，先点一下电脑下方的reset按钮，开始一个小游戏
 
 你控制着蓝色方块，电脑控制着红色方块
@@ -254,10 +254,10 @@
 
 在打完之后，记得上到上面的平台，进入炸开的房门
 
-<span class="stage-index">3.</span> 找黄色羊毛<CC>[-1430 57 -5631]</CC>丢下图的铁栏杆装置内，进入传送装置传送至流星区域
+3. 找黄色羊毛<CC>[-1430 57 -5631]</CC>丢下图的铁栏杆装置内，进入传送装置传送至流星区域
 ![](/assets/img/lvl80-15.jpg =400x)
 
-<span class="stage-index">4.</span> 找到碎片后找落脚点往下走<CC>[2494 52 -5741]</CC>，穿过岩浆进入陨石内待命
+4. 找到碎片后找落脚点往下走<CC>[2494 52 -5741]</CC>，穿过岩浆进入陨石内待命
 
 :::tip
 陨石碎片非常重要！
@@ -347,41 +347,41 @@
 
 ![颜色标号以及区域标号用于方便指挥](/assets/img/lvl80-17.jpg =400x)
 
-<span class="stage-index">1.</span>  A B C 踩在红圈
-
-<span class="stage-index">2.</span>  D 经过红门，站在紫色圈
-
-<span class="stage-index">3.</span>  A 经过紫门，站在绿色圈
-
-<span class="stage-index">4.</span>  D 站在蓝色圈
-
-<span class="stage-index">5.</span>  B 经过蓝门，站在绿圈
-
-<span class="stage-index">6.</span>  C 经过蓝门、绿门，到达双粉圈一灰圈的房间就位
-
-<span class="stage-index">7.</span>  B 经过蓝门，站在橙圈
-
-<span class="stage-index">8.</span>   D 经过橙门，站在粉圈；C 站在粉圈
-
-<span class="stage-index">9.</span>   A 经过粉门，站在淡蓝色圈
-    
-<span class="stage-index">10.</span>  C 经过橙门，站在淡蓝色圈；D 经过橙门，站在灰色圈
-
-<span class="stage-index">11.</span>  B 经过淡蓝门，站在灰色圈
-
-<span class="stage-index">12.</span>  A 站在灰色圈
-
-<span class="stage-index">13.</span>  C 经过灰色门，站在黄圈
-
-<span class="stage-index">14.</span>  A D 站在淡蓝色圈
-
-<span class="stage-index">15.</span>  B 经过淡蓝色门回到初始大厅
-
-<span class="stage-index">16.</span>  A 站在棕圈
-
-<span class="stage-index">17.</span>  B 通过棕门去往终点
-
-<span class="stage-index">18.</span>  C别动，其他人可以前往终点了
+<Copy>1.  A B C 踩在红圈</Copy>
+　
+<Copy>2.  D 经过红门，站在紫色圈</Copy>
+　
+<Copy>3.  A 经过紫门，站在绿色圈</Copy>
+　
+<Copy>4.  D 站在蓝色圈</Copy>
+　
+<Copy>5.  B 经过蓝门，站在绿圈</Copy>
+　
+<Copy>6.  C 经过蓝门、绿门，到达双粉圈一灰圈的房间就位</Copy>
+　
+<Copy>7.  B 经过蓝门，站在橙圈</Copy>
+　
+<Copy>8.   D 经过橙门，站在粉圈；C 站在粉圈</Copy>
+　
+<Copy>9.   A 经过粉门，站在淡蓝色圈</Copy>
+　
+<Copy>10.  C 经过橙门，站在淡蓝色圈；D 经过橙门，站在灰色圈</Copy>
+　
+<Copy>11.  B 经过淡蓝门，站在灰色圈</Copy>
+　
+<Copy>12.  A 站在灰色圈</Copy>
+　
+<Copy>13.  C 经过灰色门，站在黄圈</Copy>
+　
+<Copy>14.  A D 站在淡蓝色圈</Copy>
+　
+<Copy>15.  B 经过淡蓝色门回到初始大厅</Copy>
+　
+<Copy>16.  A 站在棕圈</Copy>
+　
+<Copy>17.  B 通过棕门去往终点</Copy>
+　
+<Copy>18.  C别动，其他人可以前往终点了</Copy>
 
 :::
 
