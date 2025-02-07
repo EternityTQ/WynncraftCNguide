@@ -1,48 +1,51 @@
 # Cook Assistant (level 3)
 <span style="font-size: 25px;">**烹饪助手**</span>
   
-:::tip 教程任务
-这个任务会带你体验副职系统
-:::
 
-:::danger
-采集时，请一定要注意左右键的区别
-
-左右键的产物不同
-
-本次任务中，需要的产物是<font color='red'>**右键**</font>得到的`Wheat Grains`
-:::
-
-<span class="stage-index">1.</span> 到Ragni城里和<font color=00AA00>**厨师**</font>`[-846 67 -1561]`对话
-
-<span class="stage-index">2.</span> 到Ragni北部的**Katoa Ranch**`[-814 66 -1910]`收集<font color=00AA00>**厨师**</font>要的材料
-
-   + `2 egg`鸡蛋可以在该地点杀鸡掉落
-   + `1 Bucket of milk`可以在这里的牛奶商`[-808 67 -1916]`购买   
-   + `3 Wheat Grains`用锄头工具对准小麦(**Wheat**) **右键**
-
-:::tip
-锄头工具可在一旁的Tool Merchant购买
-
-![](/assets/img/lvl4-1.jpg)
-:::
+### 任务信息 / Information
+---
+任务等级：Level 3 / 推荐等级： Level 3
+任务时长：短 / 任务难度： 简单
 
 
-<span class="stage-index">3.</span> 材料收集完毕后回去找<font color=00AA00>**厨师**</font>`[-846 67 -1561]`
+### 奖励清单 / Rewards
+----
 
-奖励  
-
-+ 200 exp
++ 200 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 28 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Waist Apron(裤子)
-+ First steps戒指的使用权限(Enzan's brother任务搞到的)
++ 可以使用First steps戒指了(Enzan's brother任务搞到的)
 
-:::tip
-鸡蛋拾起后会自动放至素材袋(Ingredient Pouch)，左键你背包第一行饰品栏右边的素材袋，把鸡蛋放回背包，你才可以交任务
 
-采集有概率失败，一直采到3个Wheat Grains就行了，不限品质
-:::
 
-:::tip 关于副职系统
-可以看看[这篇文章](/guide/profession.html)
+### Step 1 接取任务
+---
+到Ragni城里和<NPC>厨师</NPC><CC>[-846 67 -1561]</CC>对话
+
+![](/assets/img/lv3-1.png)
+
+### Step 2 追赶鸡贼
+---
+一路跟着鸡跑就可以了，如果跑丢了可以看看下图的路线，如果追不上了会原地等你的。
+
+![](/assets/img/lv3-2.png)
+
+### Step 3 找到鸡贼
+---
+
+一路杀到农庄后，跟着下图的路线上去房顶，找到鸡贼，回收蛋糕
+
+![](/assets/img/lv3-3.png)
+
+### Step 4 回去交差
+---
+回到Ragni城里和<NPC>厨师</NPC><CC>[-846 67 -1561]</CC>交差
+
+
+:::tip 小趣事
+这个任务2.1改版前为采集副职引入任务。
+
+在改版前，有非常多的新手根本分不清左右键采集产物的区别，甚至不会采集。
+
+现在终于解决了，撒花
 :::

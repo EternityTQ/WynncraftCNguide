@@ -10,7 +10,7 @@ icon: exclamation
 ### 任务信息 / Information
 ---
 任务等级：Level 1 / 推荐等级： Level 1
-任务时长：较长 
+任务时长：较长 / 任务难度： 简单
 
 :::tip 教程任务
 此任务为新手教程，可用`/skiptutorial`跳过至最后步骤
@@ -125,7 +125,7 @@ icon: exclamation
 
 直接发送即可，发送后即可在游戏内看到红色的光标导向。
 
-![](/assets/img/lv1-3_new.png =400x)
+![](/assets/img/lv1-3_new.png)
 
 该功能需要前置MOD：[Wynntils](https://modrinth.com/mod/wynntils/)，建议下载。
 :::
@@ -154,7 +154,7 @@ icon: exclamation
 
 当你在疾跑时，你的等级标会逐渐消耗
 
-![](/assets/img/lv1-4_new.png =300x)
+![](/assets/img/lv1-4_new.png)
 
 疾跑并不会消耗你的“饥饿值”，取而代之的是消耗该计量条，即疾跑条
 
@@ -166,7 +166,7 @@ icon: exclamation
 
 抵达大门后，按下【鼠标右键】开启大门
 
-![](/assets/img/lv1-5_new.png =400x)
+![](/assets/img/lv1-5_new.png)
 
 ### Step 4 初入永利
 
@@ -202,7 +202,7 @@ icon: exclamation
 
 来到<CC>[-1393 50 -1551]</CC>的树边，使用你刚拿到的武器对着树使用【鼠标左键】攻击几次。
 
-![](/assets/img/lv1-8_new.png =400x)
+![](/assets/img/lv1-8_new.png)
 
 ### Step 8 继续旅途
 
@@ -228,7 +228,7 @@ icon: exclamation
 
 进入旁边的洞穴<CC>[-1301 52 -1560]</CC>寻找一些装备
 
-![](/assets/img/lv1-10_new.png =400x)
+![](/assets/img/lv1-10_new.png)
 
 :::tip 宝箱&洞穴系统
 这片大陆散落着各种宝箱，而洞穴往往含有更高级的宝箱。
@@ -256,14 +256,14 @@ icon: exclamation
 
 与鉴定师(Item Identifier)<CC>[-1300 50 -1595]</CC>对话，鉴定你刚刚获得的装备。
 
-![](/assets/img/lv1-9_new.png =400x)
+![](/assets/img/lv1-9_new.png)
 
 :::tip 关于鉴定装备
 除了白色品质的装备以及副本兑换的装备以外，Wynncraft所有的装备都**需要经过鉴定才能使用**。
 
 如图，将你想要鉴定的装备摆到上面，点击确认即可开始鉴定。
 
-![](/assets/img/lv1-7_new.png =400x)
+![](/assets/img/lv1-7_new.png)
 
 物品词条在鉴定后会在一定范围内确定某值。
 :::
