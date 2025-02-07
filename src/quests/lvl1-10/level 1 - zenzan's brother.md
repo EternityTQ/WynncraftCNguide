@@ -1,14 +1,12 @@
 # Enzan's Brother (level 1)
 <span style="font-size: 25px;">**Enzan的兄弟**</span>
 
-### 任务信息 / Information
----
+## 任务信息 / Information
 任务等级：Level 1 / 推荐等级： Level 1
 任务时长：短 / 任务难度： 简单
 
 
-### 奖励清单 / Rewards
-----
+## 奖励清单 / Rewards
   
 + 100 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 First Steps ![](https://cdn.wynncraft.com/nextgen/itemguide/icons/259_15.webp =20x)

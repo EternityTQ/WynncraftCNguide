@@ -7,8 +7,7 @@ icon: exclamation
 
 
 
-### 任务信息 / Information
----
+## 任务信息 / Information
 任务等级：Level 1 / 推荐等级： Level 1
 任务时长：较长 / 任务难度： 简单
 
@@ -17,8 +16,7 @@ icon: exclamation
 :::
 
 
-### 奖励清单 / Rewards
-----
+## 奖励清单 / Rewards
 + 35 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 6 绿宝石![](/assets/icon/Emerald.png =20x)
 + 1 Ragni的传送卷轴 ![](/assets/icon/paper.png =20x)

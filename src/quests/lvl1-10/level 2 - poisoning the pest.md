@@ -1,14 +1,12 @@
 # Poisoning the Pest (level 2)
 <span style="font-size: 25px;">**铲除虫害**</span>
 
-### 任务信息 / Information
----
+## 任务信息 / Information
 任务等级：Level 2 / 推荐等级： Level 2
 任务时长：短 / 任务难度： 简单
 
 
-### 奖励清单 / Rewards
-----
+## 奖励清单 / Rewards
 
 + 145 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 25 绿宝石![](/assets/icon/Emerald.png =20x)
