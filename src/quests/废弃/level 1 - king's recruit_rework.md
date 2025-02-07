@@ -48,10 +48,10 @@ icon: exclamation
 
 **教程非常重要，第一次请认真过**
 
-<span class=stage-index>1.</span> 进入游戏后，你出生在一辆马车上，在行驶过一段时间后，马车撞到了石头上，下车查看情况，和<font color=00AA00>**Caravan Driver**</font>`[-1573 51 -1626]`
+<span class=stage-index>1.</span> 进入游戏后，你出生在一辆马车上，在行驶过一段时间后，马车撞到了石头上，下车查看情况，和<font color=00AA00>**Caravan Driver**</font><CopyCoord>[-1573 51 -1626]</CopyCoord>
 
 :::tip 关于如何使用本篇教程
-如上述的坐标`[-1573 51 -1626]`，首先你可以把这个坐标直接打到公屏上
+如上述的坐标<CopyCoord>[-1573 51 -1626]</CopyCoord>，首先你可以把这个坐标直接打到公屏上
 
 ![](/assets/img/lv1-2.jpg =400x)
 

@@ -1,5 +1,5 @@
 import { defineUserConfig } from "vuepress";
-
+import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import theme from "./theme.js";
 
 export default defineUserConfig({
@@ -8,7 +8,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Wynncraft中文攻略",
   description: "Wynncraft中文攻略",
-
+  
   theme,
 
   head: [
