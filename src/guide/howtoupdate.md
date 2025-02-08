@@ -31,4 +31,13 @@ icon: gem
 
 ## 提交更新请求
 
-在本地完成任意编辑操作后，在Github Desktop中你能看到所有你修改的内容。点击下方的commit to main
+在本地完成任意编辑操作后，在Github Desktop中你能看到所有你修改的内容。填写备注后，点击下方的commit to assistance
+
+![这里借的别人的项目，所以是main](/assets/img/how3.png)
+
+之后回到github，返回你的主页，进入**你所fork的项目**
+
+点击Pull requests，再点击New pull requests。
+
+![](/assets/img/how4.png)
+
