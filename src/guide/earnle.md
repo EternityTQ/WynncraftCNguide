@@ -181,4 +181,18 @@ Ratity是1级的Legendary戒指
 
 一些事件的奖励箱能开出昂贵素材/武器/装备 一些会连刷且能产出符文 这也是赚钱的点
 
+## The Outer Void
 
+海底捞的高级版本）
+
+要开始时虚空捞 首先要能进的了虚空 因此你需要完成任务One Thousand Meters Under
+
+之后在ahmsord坐电梯 下电梯左转一直走即可开始虚空捞 如图
+![image](https://github.com/user-attachments/assets/8260e8f8-51f2-41f8-a70b-41501e1b5231)
+
+![image](https://github.com/user-attachments/assets/979dbfef-0ff3-4013-bb3c-7067f4cf1148)
+
+:::tip
+房子中的npc会在你捞过一次后开启对话
+:::
+想靠这个赚到钱的话 推荐拿捡到的材料做装备（如Doomsday Omen）挂到TradeMarket上 而不是直接将材料卖给npc
