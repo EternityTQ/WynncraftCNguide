@@ -38,11 +38,11 @@ Ratity是1级的Legendary戒指
 
 并在Selchar附近的一片名为Seavalue Reef的海域潜水
 
-![](/assets/img/earnle1.jpg)
+![image](/assets/img/earnle1.jpg)
 
 这个地方的海底会刷新很多杂物(宝藏)，可以将它们带到Selchar的宝藏商人`[107，66，-3158]`出售
 
-![](/assets/img/earnle2.jpg)
+![image](/assets/img/earnle2.jpg)
 
 
 这也是前期获得绿宝石最简单的途径，效率约为1小时1.5le
@@ -115,7 +115,7 @@ Ratity是1级的Legendary戒指
 :::
 
 ## raid
-游戏终期的raid--TNA能够产出大量的绿宝石以及装备，粉末等资源
+游戏终期的raid--TNA能够产出大量的绿宝石以及装备、粉末等资源
 
 你可以通过肝tna来获取大量绿宝石，速度足够的话效率约为1小时64le(要非常非常快的速度)
 
