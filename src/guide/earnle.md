@@ -38,11 +38,11 @@ Ratity是1级的Legendary戒指
 
 并在Selchar附近的一片名为Seavalue Reef的海域潜水
 
-![image](/assets/img/earnle1.jpg)
+![](/assets/img/earnle1.jpg)
 
 这个地方的海底会刷新很多杂物(宝藏)，可以将它们带到Selchar的宝藏商人`[107，66，-3158]`出售
 
-![image](/assets/img/earnle2.jpg)
+![](/assets/img/earnle2.jpg)
 
 
 这也是前期获得绿宝石最简单的途径，效率约为1小时1.5le
@@ -177,9 +177,11 @@ Ratity是1级的Legendary戒指
 一些世界事件有一定的解锁条件（如下图这个需要完成Ice Nations [Quest]）
 :::
 在任务书中，你可以找到World Event一栏来看是否有即将开始的世界事件
-![image](https://github.com/user-attachments/assets/9c9496a4-f34c-4195-8965-580657e64f4b)
+![](/assets/img/earnle3.png)
 
 一些事件的奖励箱能开出昂贵素材/武器/装备 一些会连刷且能产出符文 这也是赚钱的点
+
+具体可以将不确定价格的3星素材和Unid的武器装备保留
 
 ## The Outer Void
 
@@ -188,9 +190,9 @@ Ratity是1级的Legendary戒指
 要开始时虚空捞 首先要能进的了虚空 因此你需要完成任务One Thousand Meters Under
 
 之后在ahmsord坐电梯 下电梯左转一直走即可开始虚空捞 如图
-![image](https://github.com/user-attachments/assets/8260e8f8-51f2-41f8-a70b-41501e1b5231)
+![](/assets/img/earnle4.png)
 
-![image](https://github.com/user-attachments/assets/979dbfef-0ff3-4013-bb3c-7067f4cf1148)
+![](/assets/img/earnle5.png)
 
 :::tip
 房子中的npc会在你捞过一次后开启对话
