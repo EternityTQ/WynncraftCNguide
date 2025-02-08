@@ -11,7 +11,7 @@ icon: gem
 
 首先，先点进[github页面](https://github.com/EternityTQ/WynncraftCNguide)
 
-注册一个账号后，点击下图右上角的fork
+注册一个账号后，按照下图所指示Fork所指的分支
 
 ![](/assets/img/how1.png)
 
@@ -30,4 +30,14 @@ icon: gem
 之后你就可以在本地进行编辑操作啦
 
 ## 提交更新请求
+
+在本地完成任意编辑操作后，在Github Desktop中你能看到所有你修改的内容。填写备注后，点击下方的commit to assistance
+
+![这里借的别人的项目，所以是main](/assets/img/how3.png)
+
+之后回到github，返回你的主页，进入**你所fork的项目**
+
+点击Pull requests，再点击New pull requests。
+
+![](/assets/img/how4.png)
 
