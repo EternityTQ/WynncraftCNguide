@@ -1,0 +1,33 @@
+---
+title: 如何帮助我们维护更新
+icon: gem
+---
+
+首先，非常感谢你能点开这篇文章。
+
+原作者现在精力有限，本攻略大部分页面均已过时，需要有人帮忙维护跟新。
+
+## 下载本地项目
+
+首先，先点进[github页面](https://github.com/EternityTQ/WynncraftCNguide)
+
+注册一个账号后，点击下图右上角的fork
+
+![](/assets/img/how1.png)
+
+接着，将你fork的项目拉到本地
+
+这里推荐使用[Github Desktop](https://desktop.github.com/download/)，GUI界面易于上手
+
+在下载完毕并登录后，点击右上角的**Clone Repository**
+
+![](/assets/img/how2.png)
+
+即可将你fork的项目下载到本地。
+
+在下载完成时记得点击**As contributor**
+
+之后你就可以在本地进行编辑操作啦
+
+## 提交更新请求
+
