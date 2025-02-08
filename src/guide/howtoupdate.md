@@ -11,7 +11,7 @@ icon: gem
 
 首先，先点进[github页面](https://github.com/EternityTQ/WynncraftCNguide)
 
-注册一个账号后，点击下图右上角的fork
+注册一个账号后，按照下图所指示Fork所指的分支
 
 ![](/assets/img/how1.png)
 
@@ -31,3 +31,4 @@ icon: gem
 
 ## 提交更新请求
 
+在本地完成任意编辑操作后，在Github Desktop中你能看到所有你修改的内容。点击下方的commit to main
