@@ -46,7 +46,11 @@ icon: gem
 
 ## 更新规范
 
-参阅其他文档即可。
+对于图片，均需要命名后存放在`src\.vuepress\public\assets\img`中
+
+对于坐标，可以使用`<CC>[]</CC>`。
+
+对于绿名NPC，可以使用`<NPC>NPCname</NPC>`
 
 如果有不恰当的格式，我会进行修改，所以不用怎么担心。
 

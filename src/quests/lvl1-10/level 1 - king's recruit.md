@@ -3,13 +3,12 @@ title: King's Recruit (level 1)
 icon: exclamation
 ---
 
-<span style="font-size: 25px;">**国王的招兵**</span>
-
 
 
 ## 任务信息 / Information
 任务等级：Level 1 / 推荐等级： Level 1
 任务时长：较长 / 任务难度： 简单
+中文译名：国王的招兵
 
 :::tip 教程任务
 此任务为新手教程，可用`/skiptutorial`跳过至最后步骤

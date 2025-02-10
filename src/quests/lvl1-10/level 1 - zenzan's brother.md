@@ -1,19 +1,18 @@
 # Enzan's Brother (level 1)
-<span style="font-size: 25px;">**Enzan的兄弟**</span>
 
 ## 任务信息 / Information
 任务等级：Level 1 / 推荐等级： Level 1
 任务时长：短 / 任务难度： 简单
-
+中文译名：Enzan的兄弟
 
 ## 奖励清单 / Rewards
   
 + 100 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 1 First Steps ![](https://cdn.wynncraft.com/nextgen/itemguide/icons/259_15.webp =20x)
 
->First Steps需要鉴定后使用，且需要完成cook assistant任务(Level 4)
+First Steps需要鉴定后使用，且需要完成cook assistant任务(Level 3)
 
->鉴定师就在旁边
+
 
 ### Step 1 与Enzan对话
 ---
@@ -39,14 +38,3 @@
 
 ![哎哟我滴妈](/assets/img/lv1-3_en.png)
  
-
-
-  
-
-
-
-:::tip
-任务中，<NPC>Therck</NPC>和你提到了台阶上的钥匙
-
-在拿完钥匙后，你也许可以在附近找找这把钥匙可以用在哪里..?
-:::

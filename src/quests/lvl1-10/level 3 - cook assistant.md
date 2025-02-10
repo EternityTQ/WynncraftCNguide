@@ -1,10 +1,11 @@
 # Cook Assistant (level 3)
-<span style="font-size: 25px;">**烹饪助手**</span>
-  
+
+
 
 ## 任务信息 / Information
 任务等级：Level 3 / 推荐等级： Level 3
 任务时长：短 / 任务难度： 简单
+中文译名：烹饪助手
 
 
 ## 奖励清单 / Rewards

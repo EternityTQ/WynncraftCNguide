@@ -1,21 +1,49 @@
 # Infested Plants (level 4)
-<span style="font-size: 25px;">**受感染的植物**</span>
 
 ## 任务信息 / Information
 
 任务等级：Level 4 / 推荐等级： Level 4
 任务时长：短 / 任务难度： 简单
-
+中文译名：受感染的植物
 
 ## 奖励清单 / Rewards
 
 + 270 经验值
 + 32 绿宝石![](/assets/icon/Emerald.png =20x)
 + 可以使用Waist Apron了
+### Step 1 接取任务
+---
+>Meet up with Tasim at the entrance to Nivla Woods at [-424, 71, -1595].
 
-<span class="stage-index">1.</span> 与<NPC>Tasim</NPC><CC>[-424 68 -1595]</CC>对话 
+与<NPC>Tasim</NPC><CC>[-424 68 -1595]</CC>对话 
 
-<span class="stage-index">2.</span> 对话完成后在树下找到<NPC>Ope</NPC><CC>[-316 72 -1597]</CC>，对话完成后上树完成跑酷，随后跳进蜘蛛洞里
+:::details 剧情文本
+Tasim: 哦，冒险家！你来了。见到你真是太好了。你准备好继续前往德特拉斯(Detlas)了吗？
+Tasim: 看来我们需要先穿过尼夫拉森林(Nivla Woods)。我听说那片森林里到处都是蜘蛛……不过有你在，我们应该没问题的——
+???: 嘿——嘿！你们两个！你们是士兵吧？从你们奇怪的着装风格就能看出来。你们这些人不是应该帮助别人吗？所以，帮帮我！
+Tasim: 啊？哦——当然！你叫什么名字？需要什么帮助？
+Ope: 我叫Ope！我最近……呃……被蜘蛛咬了！现在我需要你们帮忙找到一种稀有的药草来救我！
+Ope: 这种药草只生长在一个满是 creepy crawlies 的洞穴里。而我现在的状态显然没法自己去拿！
+Tasim: 好吧，没问题！我们本来就是来帮忙的，所以……我们会帮你拿到那种药草！
+Ope: 太好了。我带你们去那个洞穴，剩下的就交给你们了。跟我来，士兵们！
+:::
+
+### Step 2 
+---
+>Follow Ope to the cave at [-322, 71, -1565].
+
+对话完成后在树下找到<NPC>Ope</NPC><CC>[-316 72 -1597]</CC>，对话完成后上树完成跑酷，随后跳进蜘蛛洞里
+
+::: details 剧情文本
+Ope: 好了，我们到了！洞穴就在那边——只要爬上这些岩石，然后跳进去就行了。
+Ope: 嗯……你们有两个人。太好了！你们中的一个可以爬进那个洞穴，另一个可以在这里保护我，免得我被那些蜘蛛咬到！
+Tasim: 没问题！冒险家，你可以进洞穴，我在这里保护Ope。
+Ope: 很好，很好。那么，祝你好运！尽量别被蜘蛛咬得太惨哦！
+:::
+### Step 3
+---
+
+
 
 <span class="stage-index">3.</span> 直走，杀死一只森林蜘蛛后收集植物，出门至洞口触发对话
 
