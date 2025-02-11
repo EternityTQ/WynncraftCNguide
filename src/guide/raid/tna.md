@@ -7,10 +7,8 @@ icon: ghost
 
 名称：The Nameless Anomaly
 简称：TNA
-玩家等级限制：103
-团队总等级上限：500
-团队人数限制：4
-入场费用：5 Tol Runes
+最低等级需求：103
+入场费用：1 Tol Runes
 前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)
 
 Tna是当前游戏流程内最难的raid之一
@@ -313,8 +311,8 @@ graid中，greg会多一个特殊技能，会召唤向一个方向缓慢移动�
 | 物品 | 备注 |
 | --- | --- |
 | Aspect | Aspect与其他奖励的奖池相互独立 |
-|Tomes of Combat Mastery<br>Tomes of Expertise|包含所有Fabled与Mythic品质的两种Tome|
-| Tomes of Weapon Mastery III | 1-4 | 包括 Fabled 和 Mythic 品质 |
+| Tomes of Combat Mastery<br>Tomes of Expertise |包含所有Fabled与Mythic品质的两种Tome|
+| Stuffed Crafter Bag<br>Packed Crafter Bag<br>Varied Crafter Bag | 给予一些特定的自制材料 |
 | Forbearance | 戒指 |
 | Ingress | 戒指 |
 | Breakthrough | 手镯 |
