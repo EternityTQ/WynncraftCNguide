@@ -1,5 +1,7 @@
-# Cook Assistant (level 3)
-
+---
+title: Cook Assistant (level 3)
+icon: scroll
+---
 
 
 ## 任务信息 / Information

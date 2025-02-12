@@ -1,14 +1,14 @@
 ---
 title: Sewers of Ragni (level 5)
+icon: skull
 ---
 
 
-<span style="font-size: 25px;">**Ragni的下水道**</span>
 
 ## 任务信息 / Information
 任务等级：Level 5 / 推荐等级： Level 5
-任务时长： / 任务难度： 
-
+任务时长：短 / 任务难度： 简单
+中文译名：Ragni的下水道
 
 ## 奖励清单 / Rewards
 
@@ -17,21 +17,60 @@ title: Sewers of Ragni (level 5)
 + 1 Decrepit Sewers Dungeon Key(Ragni下水道副本的钥匙)
 
 
-<span class="stage-index">1.</span> 和Ragni下水道旁边的<NPC>Jenprest</NPC><CC>[-890 60 -1874]</CC>谈话，对话结束后按选项直接来到隧道口。
+### Step 1 接取任务
+---
+>The Lieutenant at [-893, 70, -1910] needs help.
 
-:::tip 选项如何选中？
-直接按下对应的小数字键即可
+和Ragni下水道旁边的<NPC>Jenprest</NPC><CC>[-892 67 -1909]</CC>谈话。
 
-注意当你已经提前切到了对应的数字键时，再按是无法起效的
+### Step 2 进入下水道
+---
+>Enter the sewer at [-935, 80, -1918] and find the blockage.
 
-推荐按一下9切到末尾，然后再按对应的数字键
+进入下水道<CC>[-935 80 -1918]</CC>
 
+
+### Step 3 探索下水道
+---
+>Explore the sewer and find the blockage.
+
+沿着路一直走即可。
+
+途中会有一只吓人的怪，不用担心，不是很吓人。
+
+
+### Step 4 破坏障碍
+---
+
+>Find a way to fix the blockage.
+
+沿着路上去，引爆TNT即可。
+
+![](/assets/img/lv5-1.png)
+
+### Step 5 逃离下水道
+---
+>Find a way out of the spooky sewer.
+
+也是沿着路一直走，路上会有一只小BOSS，比较痛，需要注意。
+
+走到底之后，会有一根柱子，右键摧毁之后**绕过柱子**往前走，前面的路已经开了
+![](/assets/img/lv5-2.png)
+
+进入下个房间后，下水道会开始泛洪，需要快速跑酷离开。
+
+:::tip 选择对话选项
+有时与NPC对话时，会让你选择对话选项。
+
+此时点击键盘上的数字键即可
 :::
 
-<span class="stage-index">2.</span> 进入下水道后一直走，直到触发剧情后右拐来到引爆点，放置炸药后被冲走。
+### Step 6 完成任务
+---
+>Talk to Jenprest at [-920, 65, -1882]
 
-<span class="stage-index">3.</span> 继续探索，触发精英怪战斗后解决并获取掉落物，右键铁门继续探索
+离开下水道后，与<NPC>Jenprest</NPC><CC>[-920 65 -1882]</CC>对话
 
-<span class="stage-index">4.</span> 经过一段时限跑酷后，安置炸弹触发剧情，随后离开下水道大门找<NPC>Jenprest</NPC>交差
+
 
 

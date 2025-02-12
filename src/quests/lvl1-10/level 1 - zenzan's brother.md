@@ -1,5 +1,7 @@
-# Enzan's Brother (level 1)
-
+---
+title: Enzan's Brother (level 1)
+icon: scroll
+---
 ## 任务信息 / Information
 任务等级：Level 1 / 推荐等级： Level 1
 任务时长：短 / 任务难度： 简单

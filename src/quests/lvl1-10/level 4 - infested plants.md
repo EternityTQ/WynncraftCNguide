@@ -1,4 +1,7 @@
-# Infested Plants (level 4)
+---
+title: Infested Plants (level 4)
+icon: bookmark
+---
 
 ## 任务信息 / Information
 
@@ -17,37 +20,43 @@
 
 与<NPC>Tasim</NPC><CC>[-424 68 -1595]</CC>对话 
 
-:::details 剧情文本
-Tasim: 哦，冒险家！你来了。见到你真是太好了。你准备好继续前往德特拉斯(Detlas)了吗？
-Tasim: 看来我们需要先穿过尼夫拉森林(Nivla Woods)。我听说那片森林里到处都是蜘蛛……不过有你在，我们应该没问题的——
-???: 嘿——嘿！你们两个！你们是士兵吧？从你们奇怪的着装风格就能看出来。你们这些人不是应该帮助别人吗？所以，帮帮我！
-Tasim: 啊？哦——当然！你叫什么名字？需要什么帮助？
-Ope: 我叫Ope！我最近……呃……被蜘蛛咬了！现在我需要你们帮忙找到一种稀有的药草来救我！
-Ope: 这种药草只生长在一个满是 creepy crawlies 的洞穴里。而我现在的状态显然没法自己去拿！
-Tasim: 好吧，没问题！我们本来就是来帮忙的，所以……我们会帮你拿到那种药草！
-Ope: 太好了。我带你们去那个洞穴，剩下的就交给你们了。跟我来，士兵们！
-:::
 
-### Step 2 
+### Step 2 蜘蛛洞前会面
 ---
->Follow Ope to the cave at [-322, 71, -1565].
+>Follow Ope to the cave at [-320 70 -1565].
 
-对话完成后在树下找到<NPC>Ope</NPC><CC>[-316 72 -1597]</CC>，对话完成后上树完成跑酷，随后跳进蜘蛛洞里
+对话完成后在洞穴前找到<NPC>Ope</NPC><CC>[-320 70 -1565]</CC>，对话完成后进入蜘蛛洞中
 
-::: details 剧情文本
-Ope: 好了，我们到了！洞穴就在那边——只要爬上这些岩石，然后跳进去就行了。
-Ope: 嗯……你们有两个人。太好了！你们中的一个可以爬进那个洞穴，另一个可以在这里保护我，免得我被那些蜘蛛咬到！
-Tasim: 没问题！冒险家，你可以进洞穴，我在这里保护Ope。
-Ope: 很好，很好。那么，祝你好运！尽量别被蜘蛛咬得太惨哦！
-:::
-### Step 3
+
+### Step 3 击败小BOSS
 ---
 
+>Locate the medicine in the spider cave behind Ope at [-322, 75, -1565].
+
+进入洞穴中，前往<CC>[-343 41 -1522]</CC>，击败蜘蛛女王，然后从出口离开
+
+![](/assets/img/lv4-1.png)
+
+:::tip
+蜘蛛女王的血量对于对应等级的玩家来说稍高。
+
+注意合理放风筝，并且要注意避免被怪群围住。
+:::
+
+### Step 4 采集药草
+---
+
+>Exit the cave at [-322, 71, -1565] with the medicinal herb.
+
+【鼠标右键】采集药草，随后离开洞穴。
+
+![](/assets/img/lv4-2.png)
+
+### Step 5 前往村庄
+---
+>Speak to Mayor Alvin in Alekin Village at [-181, 71, -1615].
+
+与<NPC>Mayor Alvin</NPC><CC>[-181 71 -1615]</CC>对话
 
 
-<span class="stage-index">3.</span> 直走，杀死一只森林蜘蛛后收集植物，出门至洞口触发对话
-
-<span class="stage-index">4.</span> 右拐进村，与<NPC>村长</NPC><CC>[-182 71 -1615]</CC>对话
-
-
-
+![](/assets/img/lv4-3.png)
