@@ -1,5 +1,5 @@
 ---
-title: Maltic's Well ( level 10)
+title: Maltic's Well (level 10)
 icon: scroll
 ---
 

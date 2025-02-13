@@ -1,8 +1,8 @@
 ---
-icon: exclamation
+title: Stable Story (level 13)
+icon: star
 ---
 
-# Stable Story (level 13)
 <span style="font-size: 25px;">**马棚那点事**</span>
 :::tip 重要任务
 解锁马匹系统
