@@ -2,54 +2,55 @@
   <span 
     class="copy-context" 
     @click="copyContext"
-    :title="hoverTip"
-    aria-label="点击复制"
-    currentLabel="已复制 √"
-    data-balloon-pos="up"
+    :data-current-label="currentLabel"
+    :aria-label="currentLabel"
+    :style="{
+      backgroundColor: $isDarkmode ? 'rgb(39, 42, 47)' : '#f3f4f6',
+      color: $isDarkmode ? 'rgb(208, 208, 217)' : '#374151',
+      borderColor: $isDarkmode ? 'rgba(255,255,255,0.1)' : '#e5e7eb'
+    }"
   >
-    <slot /> <!-- 显示坐标文本 -->
-    <span v-if="showFeedback" class="feedback">{{ feedbackText }}</span>
+    <slot />
   </span>
 </template>
 
 <script>
 export default {
+  data() {
+    return {
+      currentLabel: "点击复制文本",
+      hoverTip: "点击复制文本",
+      feedbackDuration: 1000
+    };
+  },
   methods: {
     async copyContext() {
       try {
+        // 更精准获取坐标文本（处理可能存在的子元素）
+        const text = this.$el.querySelector('.raw-coord') 
+          ? this.$el.querySelector('.raw-coord').textContent 
+          : this.$el.textContent;
+          
+        await navigator.clipboard.writeText(text.trim());
+        
+        // 更新气泡内容
+        this.currentLabel = "已复制 ✅";
+        setTimeout(() => {
+          this.currentLabel = this.hoverTip;
+        }, this.feedbackDuration);
+        
+      } catch (err) {
         const text = this.$el.textContent.trim();
       const temp = document.createElement('textarea');
       
-      
       temp.value = text;
       document.body.appendChild(temp);
       temp.select();
       document.execCommand('copy');
       document.body.removeChild(temp);
-      
-      this.feedbackText = "⚠️ 手动复制吧!";
-      this.showFeedback = true;
-      setTimeout(() => (this.showFeedback = false), 2500);
-        
-      } catch (err) {
-        this.fallbackCop();
+        this.currentLabel = "已复制 ✅";
+        setTimeout(() => this.currentLabel = this.hoverTip, 1500);
       }
-    },
-    fallbackCop() {
-      // 统一使用DOM获取文本
-      const text = this.$el.textContent.trim();
-      const temp = document.createElement('textarea');
-      
-      
-      temp.value = text;
-      document.body.appendChild(temp);
-      temp.select();
-      document.execCommand('copy');
-      document.body.removeChild(temp);
-      
-      this.feedbackText = "⚠️ 手动复制吧!";
-      this.showFeedback = true;
-      setTimeout(() => (this.showFeedback = false), 2500);
     }
   }
 }
@@ -57,66 +58,47 @@ export default {
 
 <style scoped>
 .copy-context {
-  /* 基础样式 */
   cursor: copy;
   position: relative;
   display: inline-block;
   padding: 2px 4px;
   border-radius: 4px;
-  font-size: 1em;
+  font-size: 0.85em;
   transition: all 0.2s ease;
-  
-  /* 浅灰色背景 */
-  background-color: #f3f4f6;
-  color: #374151;
-  border: 1px solid #e5e7eb;
+  border: 2px solid #e5e7eb;
 
-  /* 提示气泡 */
+  /* 动态气泡样式 */
   &::after {
-    content: attr(aria-label);
+    content: attr(data-current-label);
     position: absolute;
-    bottom: 80%;
+    bottom: 120%;
     left: 50%;
     transform: translateX(-50%);
-    background: rgba(0,0,0,0.85);
+    background: rgba(0,0,0,0.9);
     color: white;
-    padding: 3px 6px;
-    border-radius: 2px;
-    font-size: 0.85em;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.75em;
     white-space: nowrap;
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }
-  transform: scale(1);
-  transition: transform 0.1s;
 
+  &:hover::after {
+    opacity: 1;
+  }
+
+  /* 深色模式适配 */
+  .dark-mode &::after {
+    background: rgba(255,255,255,0.9);
+    color: #1a1a1a;
+  }
+
+  /* 点击动画 */
   &:active {
-    transform: scale(0.95); /* 点击时轻微缩小 */
+    transform: scale(0.95);
   }
-
-  &:hover {
-    background-color: #e5e7eb; /* 深灰色 */
-    border-color: #d1d5db;
-
-    &::after {
-      opacity: 1; /* 显示提示 */
-    }
-  }
-}
-
-
-
-.feedback {
-  position: absolute;
-  bottom: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-  background: rgba(0,0,0,0.8);
-  color: white;
-  padding: 4px 8px;
-  border-radius: 4px;
-  font-size: 0.8em;
-  white-space: nowrap;
 }
 </style>
