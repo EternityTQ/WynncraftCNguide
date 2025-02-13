@@ -21,7 +21,7 @@ icon: scroll
 
 ### Step 1 接取任务
 ---
->Talk to the Cook in Ragni at [-854, 67, -1563].
+\> Talk to the Cook in Ragni at [-854, 67, -1563].
 
 到Ragni城里和<NPC>厨师</NPC><CC>[-846 67 -1561]</CC>对话
 
@@ -29,7 +29,7 @@ icon: scroll
 
 ### Step 2 追赶鸡贼
 ---
->Follow the pesky Grook.
+\> Follow the pesky Grook.
 
 一路跟着鸡跑就可以了，如果跑丢了可以看看下图的路线，如果追不上了会原地等你的。
 
@@ -37,7 +37,7 @@ icon: scroll
 
 ### Step 3 找到鸡贼
 ---
->Find out where the Grook flew up to at [-809, 89, -1890].
+\> Find out where the Grook flew up to at [-809, 89, -1890].
 
 一路杀到农庄后，跟着下图的路线上去房顶，找到鸡贼，回收蛋糕
 
@@ -45,7 +45,7 @@ icon: scroll
 
 ### Step 4 回去交差
 ---
->Return to the cook at [-854, 67, -1563] and bring him the cake.
+\> Return to the cook at [-854, 67, -1563] and bring him the cake.
 
 回到Ragni城里和<NPC>厨师</NPC><CC>[-846 67 -1561]</CC>交差
 

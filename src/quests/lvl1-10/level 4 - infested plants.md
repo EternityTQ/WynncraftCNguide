@@ -7,7 +7,7 @@ icon: bookmark
 
 任务等级：Level 4 / 推荐等级： Level 4
 任务时长：短 / 任务难度： 简单
-中文译名：受感染的植物
+中文译名：蛛穴寻药
 
 ## 奖励清单 / Rewards
 
@@ -16,22 +16,21 @@ icon: bookmark
 + 可以使用Waist Apron了
 ### Step 1 接取任务
 ---
->Meet up with Tasim at the entrance to Nivla Woods at [-424, 71, -1595].
+\> Meet up with Tasim at the entrance to Nivla Woods at [-424, 71, -1595].
 
 与<NPC>Tasim</NPC><CC>[-424 68 -1595]</CC>对话 
 
 
 ### Step 2 蜘蛛洞前会面
 ---
->Follow Ope to the cave at [-320 70 -1565].
+\> Follow Ope to the cave at [-320 70 -1565].
 
 对话完成后在洞穴前找到<NPC>Ope</NPC><CC>[-320 70 -1565]</CC>，对话完成后进入蜘蛛洞中
 
 
 ### Step 3 击败小BOSS
 ---
-
->Locate the medicine in the spider cave behind Ope at [-322, 75, -1565].
+\> Locate the medicine in the spider cave behind Ope at [-322, 75, -1565].
 
 进入洞穴中，前往<CC>[-343 41 -1522]</CC>，击败蜘蛛女王，然后从出口离开
 
@@ -45,8 +44,7 @@ icon: bookmark
 
 ### Step 4 采集药草
 ---
-
->Exit the cave at [-322, 71, -1565] with the medicinal herb.
+\> Exit the cave at [-322, 71, -1565] with the medicinal herb.
 
 【鼠标右键】采集药草，随后离开洞穴。
 
@@ -54,7 +52,7 @@ icon: bookmark
 
 ### Step 5 前往村庄
 ---
->Speak to Mayor Alvin in Alekin Village at [-181, 71, -1615].
+\> Speak to Mayor Alvin in Alekin Village at [-181, 71, -1615].
 
 与<NPC>Mayor Alvin</NPC><CC>[-181 71 -1615]</CC>对话
 

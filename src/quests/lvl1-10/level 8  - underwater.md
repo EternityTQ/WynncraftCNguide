@@ -23,13 +23,13 @@ icon: handshake-angle
 
 ### Step 1 接取任务
 ---
->Talk to Omango located at the North of Maltic at [-540, 34, -2020]
+\> Talk to Omango located at the North of Maltic at [-540, 34, -2020]
 
 与<NPC>Omango</NPC><CC>[-540 34 -2020]</CC>对话
 
 ### Step 2 前往船只
 ---
->Go through the cave at [-509 31 -2017] to find Sayrr on his boat on the other side
+\> Go through the cave at [-509 31 -2017] to find Sayrr on his boat on the other side
 
 穿过旁边的洞穴，找到<NPC>Sayrr</NPC><CC>[-419 41 -2157]</CC>的船只，与其对话
 
@@ -40,7 +40,7 @@ icon: handshake-angle
 然后，<NPC>Sayrr</NPC>塞给你了一把`Gathering Rod T1`
 ### Step 3 获取鱼肉
 ---
->bring back [10 Gudgeon Meat] found in the cave at [-383 31 -2100] to Sayrr
+\> bring back [10 Gudgeon Meat] found in the cave at [-383 31 -2100] to Sayrr
 
 回去刚才的洞穴，获取10个`Gudgeon Meat`后，找<NPC>Sayrr</NPC><CC>[-419 41 -2157]</CC>交差。
 
@@ -65,14 +65,14 @@ icon: handshake-angle
 :::
 
 ### Step 4 探索沉船
---- 
->Explore the crashed ship for a lost treasure at [-537, 34, -2026]
+---
+\> Explore the crashed ship for a lost treasure at [-537, 34, -2026]
 
 返回沉船<CC>[-538 35 -2026]</CC>，佩戴刚刚获得的`Breathing Helmet I`进入沉船
 
 ### Step 5 获取宝藏
 ---
->Break the crate and bring [4 Old Treasure] to Omango at [-540, 34, -2020]
+\> Break the crate and bring [4 Old Treasure] to Omango at [-540, 34, -2020]
 
 到达沉船深处，击破Damaged Crate，拿掉落物回去找<NPC>Omango</NPC><CC>[-540 34 -2020]</CC>交差。
 

@@ -1,6 +1,6 @@
 ---
 title: Taking the tower (level 8)
-icon: bookmark
+icon: handshake-angle
 ---
 
 ## 任务信息 / Information
@@ -19,7 +19,7 @@ icon: bookmark
 
 ### Step 1 接取任务
 ---
->Speak to Aledar in the Detlas Barracks at [511, 67, -1613].
+\> Speak to Aledar in the Detlas Barracks at [511, 67, -1613].
 
 与<NPC>Aledar</NPC><CC>[511 67 -1613]</CC>对话。
 
@@ -31,18 +31,20 @@ icon: bookmark
 
 ### Step 2 前往粉末商店
 ---
->Follow Aledar to the Powder Master at [485, 67, -1624].
+\> Follow Aledar to the Powder Master at [485, 67, -1624].
 
 前往军营门口的粉末大师门口<CC>[485 67 -1624]</CC>，与<NPC>Aledar</NPC>对话
 
 ### Step 3 学习武器打粉
 ---
->Apply a Water Powder to your weapon, then let Aledar know at [485, 67, -1624].
+\> Apply a Water Powder to your weapon, then let Aledar know at [485, 67, -1624].
 
 <NPC>Aledar</NPC>会给你一个1级水粉，你需要通过以下的步骤将其打在你的武器上。
 
 >其实不打粉也行，你可以直接交差，假装你打完了。
 >不过其实接下来的怪都是弱水，所以最好打一下粉。
+
+`Test`
 
 :::tip 打粉教程
 1. 与粉末大师对话
@@ -65,14 +67,14 @@ icon: bookmark
 :::
 
 ### Step 4 与军队汇合
---- 
-> Meet up with Lieutenant Van's squad near the Raging Tower at [231, 69, -1620].
+---
+\>  Meet up with Lieutenant Van's squad near the Raging Tower at [231, 69, -1620].
 
 与<NPC>Lieutenant Van</NPC><CC>[231 69 -1620]</CC>汇合后对话
 
 ### Step 5 进入塔楼
 ---
->Assault the Raging Tower at [155, 67, -1698] and defeat the monster at the top.
+\> Assault the Raging Tower at [155, 67, -1698] and defeat the monster at the top.
 
 进入塔楼<CC>[155 66 -1698]</CC>，进入顶层解决掉小BOSS
 

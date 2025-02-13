@@ -19,20 +19,20 @@ icon: skull
 
 ### Step 1 接取任务
 ---
->The Lieutenant at [-893, 70, -1910] needs help.
+\> The Lieutenant at [-893, 70, -1910] needs help.
 
 和Ragni下水道旁边的<NPC>Jenprest</NPC><CC>[-892 67 -1909]</CC>谈话。
 
 ### Step 2 进入下水道
 ---
->Enter the sewer at [-935, 80, -1918] and find the blockage.
+\> Enter the sewer at [-935, 80, -1918] and find the blockage.
 
 进入下水道<CC>[-935 80 -1918]</CC>
 
 
 ### Step 3 探索下水道
 ---
->Explore the sewer and find the blockage.
+\> Explore the sewer and find the blockage.
 
 沿着路一直走即可。
 
@@ -41,8 +41,7 @@ icon: skull
 
 ### Step 4 破坏障碍
 ---
-
->Find a way to fix the blockage.
+\> Find a way to fix the blockage.
 
 沿着路上去，引爆TNT即可。
 
@@ -50,7 +49,7 @@ icon: skull
 
 ### Step 5 逃离下水道
 ---
->Find a way out of the spooky sewer.
+\> Find a way out of the spooky sewer.
 
 也是沿着路一直走，路上会有一只小BOSS，比较痛，需要注意。
 
@@ -67,7 +66,7 @@ icon: skull
 
 ### Step 6 完成任务
 ---
->Talk to Jenprest at [-920, 65, -1882]
+\> Talk to Jenprest at [-920, 65, -1882]
 
 离开下水道后，与<NPC>Jenprest</NPC><CC>[-920 65 -1882]</CC>对话
 

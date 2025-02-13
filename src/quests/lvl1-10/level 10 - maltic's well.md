@@ -21,13 +21,13 @@ icon: scroll
 
 ### Step 1 接取任务
 ---
->Talk to Rynend located in Maltic at [-568, 48, -1922]
+\> Talk to Rynend located in Maltic at [-568, 48, -1922]
 
 与<NPC>Rynend</NPC><CC>[-567 48 -1922]</CC>对话
 
 ### Step 2 进入井中
 ---
->Investigate the old Maltic well at [-564, 48, -1927] and bring [1 Witch's Empty Bottle] to Rynend
+\> Investigate the old Maltic well at [-564, 48, -1927] and bring [1 Witch's Empty Bottle] to Rynend
 
 进入村子中间的井。
 

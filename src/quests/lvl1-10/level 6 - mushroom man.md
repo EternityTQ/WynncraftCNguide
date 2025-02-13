@@ -1,6 +1,6 @@
 ---
 title: Mushroom Man (level 6)
-icon: bookmark
+icon: handshake-angle
 ---
 
 ## 任务信息 / Information
@@ -9,7 +9,7 @@ icon: bookmark
 中文译名：蘑菇人
 前置任务：[Infested Plants (level 4)](/quests/lvl1-10/level%204%20-%20infested%20plants.html)
 
-:::tip 重要任务
+:::tip 教程任务
 这个任务正式引入**世界事件**
 
 同时，还会带你前往**Detlas**
@@ -23,25 +23,25 @@ icon: bookmark
 
 ### Step 1 接取任务
 ---
->Talk to Tasim in Alekin Village at [-158, 73, -1621].
+\> Talk to Tasim in Alekin Village at [-158, 73, -1621].
 
 和<NPC>Tasim</NPC><CC>[-158 73 -1621]</CC>对话
 
 ### Step 2 和奇怪的人对话
 ---
-> Speak to the strange man at [-175, 74, -1633].
+\>  Speak to the strange man at [-175, 74, -1633].
 
 和<NPC>Yahya</NPC><CC>[-174 74 -1632]</CC>对话
 
 ### Step 3 前往蘑菇园
 ---
->Follow Yahya to his infested mushroom patch at [-208, 76, -1694].
+\> Follow Yahya to his infested mushroom patch at [-208, 76, -1694].
 
 跟随<NPC>Yahya</NPC>来到他被感染的蘑菇园<CC>[-214 76 -1692]</CC>
 
 ### Step 4 清理蜘蛛
 ---
->Clear out the spiders from Yahya's favorite mushroom patch at [-192, 76, -1709].
+\> Clear out the spiders from Yahya's favorite mushroom patch at [-192, 76, -1709].
 
 完成世界事件，清理所有蜘蛛。
 
@@ -60,14 +60,14 @@ icon: bookmark
 
 ### Step 5 汇报情况
 ---
->Return to Mayor Alvin at [-181, 71, -1615] with news about the spiders.
+\> Return to Mayor Alvin at [-181, 71, -1615] with news about the spiders.
 
 
 目睹<NPC>Yahya</NPC>被蜘蛛捉走后，回<NPC>Mayor Alvin</NPC><CC>[-182 71 -1615]</CC>处汇报情况
 
 ### Step 6 请求援助
 ---
->Travel to Detlas to request the help of their military at [513, 68, -1629].
+\> Travel to Detlas to request the help of their military at [513, 68, -1629].
 
 前往**Detlas**的兵营<CC>[513,68,-1629]</CC>请求援助
 

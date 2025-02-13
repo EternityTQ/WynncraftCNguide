@@ -102,8 +102,7 @@ icon: handshake-angle
 ### Step 1 马车撞毁
 
 ---
-
->Awaken
+\> Awaken
 
 你所乘坐的前往永利省的马车不慎撞到了石头，你需要**下车查看情况**
 
@@ -114,8 +113,7 @@ icon: handshake-angle
 ### Step 2 与马夫对话
 
 ---
-
->Exit the caravan and talk to the Caravan Driver at [-1573 51 -1626]
+\> Exit the caravan and talk to the Caravan Driver at [-1573 51 -1626]
 
 和<NPC>Caravan Driver</NPC><CC>[-1573 51 -1626]</CC>对话
 
@@ -146,8 +144,7 @@ icon: handshake-angle
 ### Step 3 迈向大门
 
 ---
-
->Walk down the path towards the gate to the Wynn Province at [-1529, 54, -1539].
+\> Walk down the path towards the gate to the Wynn Province at [-1529, 54, -1539].
 
 跟随<NPC>Tasim</NPC>前往永利省的大门<CC>[-1529 54 -1539]</CC>，路上的鸡没必要杀
 
@@ -172,14 +169,14 @@ icon: handshake-angle
 ### Step 4 初入永利
 
 ---
->Enter the Province of Wynn at [-1472, 51, -1538]
+\> Enter the Province of Wynn at [-1472, 51, -1538]
 
 沿着路一直走即可。
 
 ### Step 5 与士兵对话
 
 ---
-> Talk to the Soldier at [-1457, 54, -1531]
+\>  Talk to the Soldier at [-1457, 54, -1531]
 
 和<NPC>Soldier</NPC><CC>[-1457 51 -1531]</CC>对话
 
@@ -190,8 +187,7 @@ icon: handshake-angle
 ### Step 6 过桥
 
 ---
-
-> Cross the bridge at [-1376, 53, -1529].
+\>  Cross the bridge at [-1376, 53, -1529].
 
 沿着路一直走即可。走到桥上<CC>[-1372 50 -1528]</CC>会触发剧情，随后退回桥边会继续剧情
 
@@ -208,8 +204,7 @@ icon: handshake-angle
 ### Step 8 继续旅途
 
 ---
-
->Continue onwards to [-1298, 53, -1584].
+\> Continue onwards to [-1298, 53, -1584].
 
 同样沿着路走即可。
 
@@ -224,8 +219,7 @@ icon: handshake-angle
 ### Step 10 初探洞穴
 
 ---
-
->Enter the cave and find some armour at [-1301, 52, -1560].
+\> Enter the cave and find some armour at [-1301, 52, -1560].
 
 进入旁边的洞穴<CC>[-1301 52 -1560]</CC>寻找一些装备
 
@@ -246,8 +240,7 @@ icon: handshake-angle
 ### Step 11 与守卫对话
 
 ---
-
->Talk to the Guard at [-1298, 53, -1584].
+\> Talk to the Guard at [-1298, 53, -1584].
 
 回去找守卫<CC>[-1301 52 -1560]</CC>交差，他会叫你去旁边鉴定装备。
 
@@ -271,10 +264,9 @@ icon: handshake-angle
 
 ### Step 13 再次与守卫对话
 ---
+\>  Talk to the Guard at [-1298, 53, -1584].
 
-> Talk to the Guard at [-1298, 53, -1584].
-
-> Enter the underpass at [-1288, 52, -1584].
+\>  Enter the underpass at [-1288, 52, -1584].
 
 鉴定完毕后，回去找守卫<CC>[-1301 52 -1560]</CC>，他会开启山洞的大门，此时可以进入了。
 
@@ -289,15 +281,14 @@ icon: handshake-angle
 ### Step 15 遭遇战
 
 ---
-
->Defeat the Skeleton!
+\> Defeat the Skeleton!
 
 沿着路走你会遇到一波怪。你需要负责杀死骷髅，而你的队友会负责清理小兵，很简单。
 
 ### Step 16 与NPC对话
 
 ---
->Talk to the Lieutenant at [-1001, 67, -21554].
+\> Talk to the Lieutenant at [-1001, 67, -21554].
 
 与<NPC>Lieutenant</NPC><CC>[-1001, 67, -21554]</CC>对话，然后你们会被击飞。
 
@@ -333,8 +324,7 @@ icon: handshake-angle
 ### Step 18 追击
 
 ---
-
->Chase the Goliath to [-914, 69, -21552]!
+\> Chase the Goliath to [-914, 69, -21552]!
 
 追上那个大家伙！
 
@@ -355,16 +345,14 @@ icon: handshake-angle
 ### Step 19 进入城堡
 
 ---
-
->Enter the castle at [-764, 70, -21560].
+\> Enter the castle at [-764, 70, -21560].
 
 一路前进即可，路上你会遇到物品鉴定师，可以顺手把刚才打BOSS掉的头盔鉴定一下。
 
 ### Step 20 与国王对话
 
 ---
-
->Talk to Ragni's King at [-939, 70, -1567].
+\> Talk to Ragni's King at [-939, 70, -1567].
 
 与<NPC>Ragni's King</NPC><CC>[-939, 70, -1567]</CC>对话。
 

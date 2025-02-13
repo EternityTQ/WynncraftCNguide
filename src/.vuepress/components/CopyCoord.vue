@@ -6,6 +6,11 @@
     aria-label="点击复制"
     currentLabel="已复制 √"
     data-balloon-pos="up"
+    :style="{
+      backgroundColor: $isDarkmode ? 'rgb(39, 42, 47)' : '#f3f4f6',
+      color: $isDarkmode ? 'rgb(208, 208, 217)' : '#374151',
+      borderColor: $isDarkmode ? 'rgba(255,255,255,0.1)' : '#e5e7eb'
+    }"
   >
     <slot /> <!-- 显示坐标文本 -->
     <span v-if="showFeedback" class="feedback">{{ feedbackText }}</span>
@@ -13,6 +18,8 @@
 </template>
 
 <script>
+
+
 export default {
   methods: {
     async copyText() {
@@ -51,8 +58,8 @@ export default {
       document.execCommand('copy');
       document.body.removeChild(temp);
       
-      this.feedbackText = "⚠️ 手动复制吧!";
-      this.showFeedback = true;
+      //this.feedbackText = "⚠️ 手动复制吧!";
+      this.showFeedback = false;
       setTimeout(() => (this.showFeedback = false), 2500);
     }
   }
@@ -71,11 +78,15 @@ export default {
   transition: all 0.2s ease;
   
   /* 浅灰色背景 */
-  background-color: #f3f4f6;
+  /*background-color: #f3f4f6;
   color: #374151;
-  border: 1px solid #e5e7eb;
+  border: 1px solid #e5e7eb;*/
 
   /* 提示气泡 */
+  .copy-coord:hover {
+  background-color: v-bind('isDarkmode ? "rgba(255,255,255,0.1)" : "#e5e7eb"') !important;
+  border-color: v-bind('isDarkmode ? "rgba(255,255,255,0.2)" : "#d1d5db"') !important;
+}
   &::after {
     content: attr(aria-label);
     position: absolute;
@@ -100,8 +111,7 @@ export default {
   }
 
   &:hover {
-    background-color: #e5e7eb; /* 深灰色 */
-    border-color: #d1d5db;
+    transition: all 0.2s ease;
 
     &::after {
       opacity: 1; /* 显示提示 */
