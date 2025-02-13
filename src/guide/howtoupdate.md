@@ -102,6 +102,10 @@ icon: gem
 
 对于markdown语法，可以查看[这篇文章](https://markdown.com.cn/basic-syntax/)
 
+### 任务攻略
+
+基础格式均存放在src\quests\blank.md中，可以查阅。
+
 ### 文件结构
 
 src/
