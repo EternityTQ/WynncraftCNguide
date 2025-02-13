@@ -27,17 +27,20 @@ export default {
     async copyText() {
       try {
         // 更精准获取坐标文本（处理可能存在的子元素）
-        const text = this.$el.querySelector('.raw-coord') 
-          ? this.$el.querySelector('.raw-coord').textContent 
-          : this.$el.textContent;
-          
-        await navigator.clipboard.writeText(text.trim());
-        
-        // 更新气泡内容
+        const text = this.$el.textContent.trim();
+      const temp = document.createElement('textarea');
+      let str = text;
+      str=str.slice(1,-1);
+      str='/compass at '+str;
+      temp.value = str;
+      
+      temp.value = str;
+      document.body.appendChild(temp);
+      temp.select();
+      document.execCommand('copy');
+      document.body.removeChild(temp);
         this.currentLabel = "已复制 ✅";
-        setTimeout(() => {
-          this.currentLabel = this.hoverTip;
-        }, this.feedbackDuration);
+        setTimeout(() => this.currentLabel = this.hoverTip, 1500);
         
       } catch (err) {
         const text = this.$el.textContent.trim();
