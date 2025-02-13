@@ -1,6 +1,6 @@
 ---
 title: King's Recruit (level 1)
-icon: exclamation
+icon: handshake-angle
 ---
 
 

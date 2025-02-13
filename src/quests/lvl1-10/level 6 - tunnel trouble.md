@@ -1,6 +1,6 @@
 ---
 icon: route
-title: Tunnel Trouble ( level 6 )
+title: Tunnel Trouble (level 6)
 ---
 
 
@@ -8,7 +8,7 @@ title: Tunnel Trouble ( level 6 )
 
 ## 任务信息 / Information
 任务等级：Level 6 / 推荐等级： Level 6
-任务时长：短 / 任务难度：简单
+任务时长：短 / 任务难度：中等
 中文译名：棘手的隧道
 
 :::tip 重要任务
