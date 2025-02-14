@@ -11,7 +11,7 @@ icon: handshake-angle
 中文译名：国王的招兵
 
 :::tip 教程任务
-此任务为新手教程，可用`/skiptutorial`跳过至最后步骤
+此任务为新手教程，可用<Copy>/skiptutorial</Copy>跳过至最后步骤
 :::
 
 

@@ -7,7 +7,8 @@ icon: handshake-angle
 任务等级：Level 8 / 推荐等级： Level 8
 任务时长：短 / 任务难度：简单
 中文译名：突袭塔楼
-前置任务：[Mushroom Man(level 6)](/quests/lvl1-10/level%206%20-%20mushroom%20man.html)
+前置任务：
++ [Mushroom Man(level 6)](/quests/lvl1-10/level%206%20-%20mushroom%20man.html)
 :::tip 教程任务
 这个任务将会带你引入粉末系统
 :::
