@@ -23,6 +23,8 @@ icon: star
 
 和**Detlas**旁边的<NPC>Enkser</NPC><CC>[561 67 -1598]</CC>对话
 
+![](/assets/img/lv13-1.png)
+
 ### Step 2 前往马棚
 ---
 \> Bring back [1 Stable Key] to Enkser from the tunnel at [836, 69, -1649]

@@ -7,9 +7,9 @@ icon: skull
 任务等级：Level 14 / 推荐等级： Level 14
 任务时长：中等 / 任务难度：中等
 中文译名：熔丝
-前置任务：
-+ [Taking the Tower](/quests/lvl1-10/level%208%20-%20taking%20the%20tower.html)
-+ [Elemental Exercise](/quests/lvl11-20/level%2011%20-%20elemental%20exercise.html)
+>前置任务：
+>+ [Taking the Tower](/quests/lvl1-10/level%208%20-%20taking%20the%20tower.html)
+>+ [Elemental Exercise](/quests/lvl11-20/level%2011%20-%20elemental%20exercise.html)
 
 :::tip 地牢任务
 这个任务会引导你进入Infested Pit副本

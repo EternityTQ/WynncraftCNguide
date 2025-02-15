@@ -7,7 +7,8 @@ icon: handshake-angle
 任务等级：Level 6 / 推荐等级： Level 6
 任务时长：短 / 任务难度：简单
 中文译名：蘑菇人
-前置任务：[Infested Plants (level 4)](/quests/lvl1-10/level%204%20-%20infested%20plants.html)
+>前置任务：
+>+ [Infested Plants (level 4)](/quests/lvl1-10/level%204%20-%20infested%20plants.html)
 
 :::tip 教程任务
 这个任务正式引入**世界事件**
@@ -65,15 +66,19 @@ icon: handshake-angle
 
 目睹<NPC>Yahya</NPC>被蜘蛛捉走后，回<NPC>Mayor Alvin</NPC><CC>[-182 71 -1615]</CC>处汇报情况
 
+![](/assets/img/lv16-4.png)
+
 ### Step 6 请求援助
 ---
 \> Travel to Detlas to request the help of their military at [513, 68, -1629].
 
 前往**Detlas**的兵营<CC>[513,68,-1629]</CC>请求援助
 
-在路上，你会遇到一伙怪物，Tasim会帮忙奶你
+在路上，你会遇到一只怪物，你可以选择打，Tasim会帮忙奶你
 
 当然...你也可以直接跑路...
+
+![](/assets/img/lv6-7.png)
 
 
 

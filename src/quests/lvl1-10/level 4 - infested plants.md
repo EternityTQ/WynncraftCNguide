@@ -57,4 +57,4 @@ icon: bookmark
 与<NPC>Mayor Alvin</NPC><CC>[-181 71 -1615]</CC>对话
 
 
-![](/assets/img/lv4-3.png)
+![](/assets/img/lv16-4.png)

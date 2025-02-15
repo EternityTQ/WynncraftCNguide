@@ -37,6 +37,8 @@ icon: handshake-angle
 
 <NPC>Captain Ragon</NPC>会给你一把测试用的全元素武器，你可以用他来攻击不同属性的假人来进行测试。
 
+![](/assets/img/lv11-2.png)
+
 :::tip 关于元素系统
 
 其实Wynncraft并没有“元素相克”的概念，而是更为直接的元素防御与元素攻击。

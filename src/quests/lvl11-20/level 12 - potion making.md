@@ -21,7 +21,7 @@ icon: scroll
 
 与**Detlas**城的<NPC>The Assistant</NPC><CC>[491 67 -1575]</CC>对话
 
-
+![](/assets/img/lv12-2.png)
 
 ### Step 2 获取蘑菇
 ---
@@ -44,12 +44,14 @@ icon: scroll
 ---
 \> Enter the hut at [616, 67, -1616] and slay Essren
 
-进入位于<CC>[616, 67, -1616]</CC>的房子，击杀Essran
+进入位于<CC>[616, 67, -1616]</CC>的房子，击杀<mob>Essran</mob>
+
+![](/assets/img/lv12-3.png)
 
 :::tip 打法教程
-Essran与[Maltic's Well (level 10)](/quests/lvl1-10/level%2010%20-%20maltic's%20well.html)中的女巫很类似，但是多了一招：
+<mob>Essran</mob>与[Maltic's Well (level 10)](/quests/lvl1-10/level%2010%20-%20maltic's%20well.html)中的女巫很类似，但是多了一招：
 
-当Essran头上冒出多只红蘑菇时，请停止攻击，并绕着Essran跑。红蘑菇会追踪你的位置并进行制导打击，保持横向位移可避免伤害，否则会吃到绝大部分伤害导致死亡。
+当<mob>Essran</mob>头上冒出多只红蘑菇时，请停止攻击，并绕着<mob>Essran</mob>跑。红蘑菇会追踪你的位置并进行制导打击，保持横向位移可避免伤害，否则会吃到绝大部分伤害导致死亡。
 :::
 
 ### Step 4 交付任务
