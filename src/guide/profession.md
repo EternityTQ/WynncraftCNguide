@@ -358,28 +358,28 @@ Ingredients在本篇中译为素材
 
 | 原料等级 | 1 | 10-20 | 30-40 | 50-60 | 70-80 | 90+ |
 | --- | --- | --- | --- | --- | --- | --- |
-| <HopeIcon icon="splotch" /> | 1 | 2 | 3 | 4 | 5 | 6 |
+| ::star:: | 1 | 2 | 3 | 4 | 5 | 6 |
 
-以下每颗<HopeIcon icon="splotch" />代表的原料数量根据原材料等级而定，见上表
+以下每颗::star::代表的原料数量根据原材料等级而定，见上表
 
 | 种类     | Ingot | Gem | Wood | Paper | Grain | String | Meat | Oil |
 | ---------- | ----- | --- | ---- | ----- | ----- | ------ | ---- | --- |
-| 长矛<br>(武器) | <HopeIcon icon="splotch" />    |     | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |       |       |        |      |     |
-| 匕首<br>(武器) | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |     | <HopeIcon icon="splotch" />   |       |       |        |      |     |
-| 弓<br>(木工) |       |     | <HopeIcon icon="splotch" />   |       |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />     |      |     |
-| 法杖<br>(木工) |       |     | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |       |       | <HopeIcon icon="splotch" />     |      |     |
-| 巫杖<br>(木工) |       |     | <HopeIcon icon="splotch" />   |       |       |        |      | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />  |
-| 头盔<br>(盔甲) | <HopeIcon icon="splotch" />    |     |      | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |       |        |      |     |
-| 胸甲<br>(盔甲) | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |     |      | <HopeIcon icon="splotch" />    |       |        |      |     |
-| 护腿<br>(纺织) | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |     |      |       |       | <HopeIcon icon="splotch" />     |      |     |
-| 靴子<br>(纺织) | <HopeIcon icon="splotch" />    |     |      |       |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />     |      |     |
+| 长矛<br>(武器) | ::star::    |     | ::star::::star::   |       |       |        |      |     |
+| 匕首<br>(武器) | ::star::::star::    |     | ::star::   |       |       |        |      |     |
+| 弓<br>(木工) |       |     | ::star::   |       |       | ::star::::star::     |      |     |
+| 法杖<br>(木工) |       |     | ::star::::star::   |       |       | ::star::     |      |     |
+| 巫杖<br>(木工) |       |     | ::star::   |       |       |        |      | ::star::::star::  |
+| 头盔<br>(盔甲) | ::star::    |     |      | ::star::::star::    |       |        |      |     |
+| 胸甲<br>(盔甲) | ::star::::star::    |     |      | ::star::    |       |        |      |     |
+| 护腿<br>(纺织) | ::star::::star::    |     |      |       |       | ::star::     |      |     |
+| 靴子<br>(纺织) | ::star::    |     |      |       |       | ::star::::star::     |      |     |
 | 种类     | **Ingot** | **Gem** | **Wood** | **Paper** | **Grain** | **String** | **Meat** | **Oil** |
-| 指环<br>(饰品) |       | <HopeIcon icon="splotch" />  |      |       |       |        |      | <HopeIcon icon="splotch" />  |
-| 手镯<br>(饰品) |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />  |      |       |       |        |      | <HopeIcon icon="splotch" />  |
-| 项链<br>(饰品) |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" /><HopeIcon icon="splotch" />  |      |       |       |        |      | <HopeIcon icon="splotch" />  |
-| 药水     |       |     |      |       | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />    |        |      | <HopeIcon icon="splotch" />  |
-| 卷轴     |       |     |      | <HopeIcon icon="splotch" />    |       |        |      | <HopeIcon icon="splotch" />  |
-| 食物     |       |     |      |       | <HopeIcon icon="splotch" />    |        | <HopeIcon icon="splotch" /><HopeIcon icon="splotch" />   |     |
+| 指环<br>(饰品) |       | ::star::  |      |       |       |        |      | ::star::  |
+| 手镯<br>(饰品) |       | ::star::::star::  |      |       |       |        |      | ::star::  |
+| 项链<br>(饰品) |       | ::star::::star::::star::  |      |       |       |        |      | ::star::  |
+| 药水     |       |     |      |       | ::star::::star::    |        |      | ::star::  |
+| 卷轴     |       |     |      | ::star::    |       |        |      | ::star::  |
+| 食物     |       |     |      |       | ::star::    |        | ::star::::star::   |     |
 
 | 产物等级 | 1-30 | 31-70 | 71+ |
 | --- | --- | --- | --- |
