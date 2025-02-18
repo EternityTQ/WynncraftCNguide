@@ -68,7 +68,7 @@ icon: chess-king
       <span class="bonus-negative">-65 <span class="bonus-to-negative">to</span> -35%</span> Water Damage<br>
       <span class="bonus-negative">-91 <span class="bonus-to-negative">to</span> -49%</span> Water Defence<br>
       <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325%</span> Fire Defence<br>
-      <span class="major-id-name">+Hellfire:</span> <span class="major-id-desc">Boiling Blood has no cooldown, is stronger, and does not slow. Cuts Bash’s power and disables Discombobulate</span>
+      <span class="major-id-name">+Hellfire:</span> <span class="major-id-desc">Bash becomes one giant 325% damage hit, and Boiling Blood burns faster and stronger but can't slow.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -88,22 +88,27 @@ IT脑瘫更新受益者，一下从神话最底层一跃而上，成为新的输
 
 风光下葬。
 
-虽然还是顶梁柱
-
->新版本目前最大受益者
+活了几个小时的战神。
 
 >ct教你如何曲解游戏
 
 >i only test on my own server
 
-
->macro moment
+>火神话の神秘第六人
 
 >他就是神话
 
 >三十年河东，三十年河西
 
 >这下真是战士最强火神话了
+
+>hm apoc(划走)
+
+>能被7吱吱捧上天，但是都7吱吱了
+
+>你要做几个小时的超大杯，还是永远的下水道
+
+>apoc要aspect才能玩 这才是最搞笑的
 
 ### Hero
 
@@ -115,9 +120,9 @@ IT脑瘫更新受益者，一下从神话最底层一跃而上，成为新的输
       <span class="item-attribute">Very Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 50-70</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 120-150</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">605</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 40-60</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 100-140</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">527</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -125,15 +130,15 @@ IT脑瘫更新受益者，一下从神话最底层一跃而上，成为新的输
       Agility Min: 110
     </p>
     <p class="attribute-bonus">
-      <span class="bonus-positive">+20</span> Strength<br>
-      <span class="bonus-positive">+20</span> Dexterity<br>
+      <span class="bonus-positive">+10</span> Strength<br>
+      <span class="bonus-positive">+10</span> Dexterity<br>
       <span class="bonus-positive">+30</span> Agility
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Main Attack Damage<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Health Regen<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Walk Speed<br>
-      <span class="major-id-name">+Saviour's Sacrifice:</span> <span class="major-id-desc">While under 50% maximum health, nearby allies gain 20% bonus damage and defence</span>
+      <span class="major-id-name">+Saviour's Sacrifice:</span> <span class="major-id-desc">While under 50% maximum health, nearby allies gain 15% bonus damage and defence.</span>
     </p>
     <p class="powder-rarity">
       [4] Powder slots<br>
@@ -147,21 +152,25 @@ IT脑瘫更新受益者，一下从神话最底层一跃而上，成为新的输
 
 唯一真神
 
-伤害其实要比idol还高，同时拥有与腐化者契合度最高的被动——ssac
+伤害要比idol还高，同时拥有与fallen契合度最高的被动——ssac
 
 不吃鉴定，能走地能踩头能raid能路特润
 
-但是这版本贵上天了
+虽被正侧面砍数刀 但是还是能玩
 
 hero是最全能的武器.png
 
->上版本还是走地鸡价格
+>神中神，代代神
 
 >战士真正的彩虹武器，指能打彩虹粉
 
 >人如其名
 
->这版本贵死了，你这么贵是因为你名字是4个字母吗
+>传奇耐砍王
+
+>轮椅摇摇车
+
+>一个版本一个武器玩法
 
 ### Guardian
 
@@ -173,9 +182,9 @@ hero是最全能的武器.png
       <span class="item-attribute">Normal Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 50-90</span><br>
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 165-205</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">525</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 40-90</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 145-205</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">494</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -193,7 +202,7 @@ hero是最全能的武器.png
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Defence<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Water Defence<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Fire Defence<br>
-      <span class="major-id-name">+Guardian:</span> <span class="major-id-desc">35% of damage taken by nearby allies is redirected to you</span>
+      <span class="major-id-name">+Guardian:</span> <span class="major-id-desc">35% of damage taken by nearby allies is redirected to you.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -209,17 +218,25 @@ hero是最全能的武器.png
 
 还有能给队友承伤的被动
 
-但是，嘎点的输出非常低下，所以很少出现在日常里
+新版本翻身了，十万大C。用仅有别人60-80%的dps，换你三倍的ehp
 
->战士最肉火神话 突袭谁玩谁爆炸
+>战士最肉火神话
 
->拜托不要让我在raid看到你好吗
+>单体巨兽
+
+>拜托在notg让我看到你
+
+>notg摧毁者
+
+>bmonk最强武器
 
 >gw不能没有噶点 就像西方不能没有耶路撒冷
 
 >gw的星怒罢了
 
 >神不需要输出词条来证明自己的含金量
+
+>boreal guardian best
 
 ### Alkatraz
 
@@ -231,8 +248,8 @@ hero是最全能的武器.png
       <span class="item-attribute">Super Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 1350-1500</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">727</span></span>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 1170-1500</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">681</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -266,9 +283,15 @@ hero是最全能的武器.png
 
 面板主打一个力大砖飞，配合地粉被动更是能直接把敌人的祖坟都给刨掉
 
-最简单暴力的输出方式，新手快乐锤
+etf五兄弟之一
+
+但是ts流派烂完，目前已经加入光荣烧血spell
+
+挺垃圾的武器 只有伤害高
 
 >笑点解析：charge alka
+
+>叛变了
 
 >曾经高高在上的大小姐 如今在地上任人摆布
 
@@ -284,8 +307,8 @@ hero是最全能的武器.png
       <span class="item-attribute">Normal Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 205-300</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">520</span></span>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 220-300</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">536</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -297,10 +320,9 @@ hero是最全能的武器.png
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+79 <span class="bonus-to">to</span> +343</span> Spell Damage<br>
-      <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16/5s</span> Mana Regen<br>
-      <span class="bonus-positive">-9 <span class="bonus-to">to</span> -39</span> Charge Cost<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/5s</span> Mana Regen<br>
+      <span class="bonus-positive">-15 <span class="bonus-to">to</span> -65</span> Charge Cost<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Reflection<br>
-      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Soul Point Regen<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Water Defence
     </p>
     <p class="powder-rarity">
@@ -327,23 +349,20 @@ hero是最全能的武器.png
 
 但实际上idol伤害是不如hero的
 
-**但是他妈的CT给cost来了一大刀，直接对半砍，寄！**
 
 >谁家charging flame
-
->为什么史诗级大削之后玩的人比以前还多了
 
 >CT教你玩游戏系列
 
 >idol大小姐下海咯，开香槟
 
->幽默2mr
-
->不是为什么你要往神话塞一个3星才能满的词条
-
 >now i will choose cat girl without hesitate
 
 >这下已经沦为嗨肉指定副手了
+
+>hero指定星怒
+
+>定王工具人
 
 
 :::details meme
@@ -409,9 +428,9 @@ super idol 的笑容，都没你的甜
 
 输出最高战士神话 但是otto
 
-超级性价比战神 20le就能获取的战士最暴力神话
+现在没有性价比了。贵得要死
 
-最被低估的战士神话，会玩就是乱杀不会就是开摆
+会玩就是乱杀不会就是开摆
 
 >兄弟你真的不是水棍吗
 
@@ -428,13 +447,13 @@ super idol 的笑容，都没你的甜
       <span class="item-attribute">Very Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 40-65</span><br>
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 0-310</span></span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 0-310</span></span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 0-310</span></span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 0-310</span></span><br>
-      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 0-310</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">687</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 35-60</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 0-290</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 0-290</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 0-290</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 0-290</span></span><br>
+      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 0-290</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">641</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -449,15 +468,11 @@ super idol 的笑容，都没你的甜
       <span class="bonus-positive">+45</span> Strength
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+20 <span class="bonus-to">to</span> +85%</span> Main Attack Damage<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +23/3s</span> Mana Steal<br>
       <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325%</span> Exploding<br>
-      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Earth Defence<br>
-      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Thunder Defence<br>
-      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Water Defence<br>
-      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Fire Defence<br>
-      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Air Defence<br>
-      <span class="major-id-name">+Fission:</span> <span class="major-id-desc">Explosions from your Exploding ID are twice as big and twice as strong</span>
+      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Elemental Defence<br>
+      <span class="major-id-name">+Fission:</span> <span class="major-id-desc">Explosions from your Exploding ID are twice as big and twice as strong.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -473,19 +488,23 @@ super idol 的笑容，都没你的甜
 
 没有人可以拒绝平A带爆炸，帅
 
-前ts体系，强绑定scarlet veil，并且有多个目标的时候输出反而更高
+bmonk被削之前还行，现在就是查无此人。
 
-第二个被低估的武器之一，但是成为了顶级下水道
+战士新手LR的推荐选择
 
-彩虹圣所的死去让它失去了一点原有的风采
+彩虹属性，具有很强的开发空间
 
->其实玩起来还挺快乐的，平A砰砰砰
+彩虹圣所复活了一半。
 
->你敢碰我我就敢死在你面前！
+>伟大
 
->5属性的减抗只会让我越战越勇！
+>Morph代言人
 
->上限还挺高，看手法，手法正确还能打过idol
+>萌新之友
+
+>刀刀烈火，实则dps不破十万
+
+>打团气氛组，只听人在响，没见人在输出
 
 ### Convergence
 
@@ -497,10 +516,10 @@ super idol 的笑容，都没你的甜
       <span class="item-attribute">Normal Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 70-90</span><br>
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 105-115</span></span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 100-120</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">618</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 50-90</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 95-115</span></span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 100-110</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">577</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -528,11 +547,13 @@ super idol 的笑容，都没你的甜
 
 年轻战士的第一款神话，但词条限制了强度
 
+强度极其有限 优点是肉 缺点是只有肉
+
 这玩意词条抽象程度仅次于apoc，大概
 
 打上三个气粉你就是新任彩虹，非常好雷地伤水火武器
 
->在？吃了吗？没吃的话，吃我一记上勾拳！！
+>前上挑代言人
 
 >非常好词条和面板设计，使我滨州旋转
 
@@ -542,10 +563,75 @@ super idol 的笑容，都没你的甜
 
 >设计最有特色的神话.jpg
 
+>七自制fallen conv
+
 :::details
 
 ![请问你们是什么关系](/assets/img/Diver.jpg =150x)
 :::
+
+### Bloodbath
+
+<div class="item-window">
+  <img src="/assets/img/bloodbath.webp" alt="Alkatraz" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Bloodbath</span><br>
+      <span class="item-attribute">Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 0-20</span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 175-220</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 100-295</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">608</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Warrior/Knight<br>
+      Combat Lv. Min: 103<br>
+      Strength Min: 80<br>
+      Dexterity Min: 80
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+30</span> Strength<br>
+      <span class="bonus-positive">+30</span> Dexterity
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-5200 <span class="bonus-to-negative">to</span> -2800</span> Health<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Life Steal<br>
+      <span class="bonus-negative">-130 <span class="bonus-to-negative">to</span> -70/5s</span> Mana Regen<br>
+      <span class="bonus-positive">-3 <span class="bonus-to">to</span> -13</span> 1st Spell Cost<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Walk Speed
+    </p>
+    <p class="powder-rarity">
+    [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+别名：bb 
+
+曾经的5血战神，现在的无人问津 
+
+贵的一批的构式，但还是黑神话里最便宜的
+
+看上去很美 实际用起来一堆问题
+
+>fallen武器给650ls不知道是怎么设计出来的
+
+>富哥的时尚小玩具
+
+>风险收益绝对不平均
+
+>年度未来可期武器
+
+>你猜五个黑神话里没有MajorID的是谁.jpg
+
+>没有majorid的样子就像anni神话组乐队然后bb是被优化掉的那个路边粉毛
+
+>拉低出cache喜悦值的
+
+>锁死玩法的印度武器
 
 ## 法师
 
