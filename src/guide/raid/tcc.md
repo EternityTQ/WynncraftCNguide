@@ -104,9 +104,6 @@ tcc的BOSS战对生存有较大的要求
 当上帝视角的玩家找到终点，其需要为其他队友引路，迷宫内会有多个封闭的门，其余玩家需要击杀守门的miniboss才能继续前进。
 
 
-处于上帝视角的玩家找出口的最佳效率路线如图：
-![image](https://github.com/EternityTQ/WynncraftCNguide/assets/157373097/04a26957-dbdd-463c-b9a8-abe9986a0e34)
-
 :::tip
 如果你不熟悉机制或者在匹路人队，强烈建议不要随便去拿取翅膀
 
@@ -114,7 +111,7 @@ tcc的BOSS战对生存有较大的要求
 :::
 
 :::tip 如何为队友指路？
-首先，当你找到终点后，一般可以把坐标打在队伍频道内(通常使用wynntils的一键发送坐标功能，/compass share location)
+首先，当你找到终点后，一般可以把坐标打在队伍频道内(通常使用wynntils的一键发送坐标功能，<Copy>/compass share party</Copy>)
 
 然后在发出坐标后，最好再加上当前道路的颜色
 
@@ -149,22 +146,37 @@ tcc的BOSS战对生存有较大的要求
 ## Room3
 ### 解除封印 - 综合挑战
 
-TCC的第三面固定为此综合挑战，玩家需要在护Astal的同时，完成不同的挑战，解除四道符文封印
+TCC的第三面固定为此综合挑战，玩家需要在护<NPC>Astal</NPC>的同时，完成不同的挑战，解除四道符文封印
 
-这里会从左往右依次介绍四个挑战
+其中一名玩家需要在最开始立即赶往最中间，帮助<NPC>Astal</NPC>击落陨石。
+
+另外三名玩家需要分别完成另外的4个挑战，完成后本关结束。
+
+在4个挑战均完成前，中间的陨石不会停下。
+
+
 
 ### Defending Astal
 
-Astal于巨像正下方凝结法阵，左右两侧会不断有陨石袭来，Astal共有五点生命，每次被陨石命中会减少一点
+<NPC>Astal</NPC>于巨像正下方凝结法阵，左右两侧会不断有陨石袭来，<NPC>Astal</NPC>共有五点生命，每次被陨石命中会减少一点
 
-玩家可以站在法阵中，瞄准后利用下蹲发射激光摧毁陨石以保护Astal
-:::danger
+玩家可以站在法阵中，瞄准后利用下蹲发射激光摧毁陨石以保护<NPC>Astal</NPC>
 
-如果Astal的生命降低至0，Raid会立刻失败。
 
+
+
+**如果<NPC>Astal</NPC>的生命降低至0，Raid会立刻失败。**
+
+:::tip
+你可以保持潜行来持续发射激光。
+
+当有一边存在陨石时，另一边不会存在陨石。
 :::
 
-### Miniboss:Primeval Machine
+
+**下面会从左往右依次介绍四个挑战**
+
+### Miniboss : Primeval Machine
 
 Primeval Machine会从巨像附近的平台上跳下开始战斗。
 
@@ -182,7 +194,7 @@ Primeval Machine会从巨像附近的平台上跳下开始战斗。
 
 >谁家好人做跑酷第一个跳是三远一高，结果越往后越简单
 
-### Miniboss: Agate Axon
+### Miniboss : Agate Axon
 
 Agate Axon在右侧守护着第三个符文封印
 
@@ -216,11 +228,12 @@ Agate Axon在右侧守护着第三个符文封印
 
 ## Boss
 
-***此段落内容由DeepSeek生成后经维护者润色***
+最终BOSS场地是一个由多个平台组成的场地。若玩家不慎掉落平台，会受到一定伤害并自动弹回场地。
 
-Canyon Colossus（峡谷巨像）的战斗与其他大多数战斗不同，发生在一个由多个碎片组成的竞技场中，这些碎片位于游戏世界中的巨像后方。如果玩家从这些平台上掉下去，会被弹回竞技场，但会受到一定的伤害。Canyon Colossus对地和火属性的攻击有抗性，并且能造成这两种属性的伤害。此外，它对失明和缓慢效果有抗性，同时免疫击退效果。
+BOSS存在高额地防、火防，且攻击造成地属性、火属性伤害。
 
-***此段落内容由DeepSeek生成后经维护者润色***
+
+
 
 :::tip
 该段落原文来自wiki，**存在过时风险**
@@ -228,19 +241,32 @@ Canyon Colossus（峡谷巨像）的战斗与其他大多数战斗不同，发�
 且wynncraft官方**随时会修改数值**，请知悉
 :::
 
-Canyon Colossus拥有独特的AI，能够根据自身机制执行多种不同的攻击。在战斗过程中，它会使用以下技能：
 
-Colossal Sweep（巨像横扫）：Canyon Colossus会将剑向后拉，然后横扫整个竞技场。**该技能释放之前，战斗场地会全部变成红色，需特别注意**。
 
-Gigantic Punch（巨型拳击）：Canyon Colossus会对竞技场某一区域的玩家进行拳击。
+>Colossal Sweep（巨像横扫）：Canyon Colossus会将剑向后拉，然后横扫整个区域。
+>**该技能释放之前，战斗场地会全部变成红色，需特别注意**。
+>
+>应对方法：需要立即后撤到场地最后方。
 
-Titanic Headbutt（泰坦头槌）：当玩家在范围内时，Canyon Colossus会用头撞击附近的所有玩家。
++ Gigantic Punch（巨型拳击）：Canyon Colossus会对竞技场某一区域的玩家进行拳击。
 
-Neural Shedding（神经剥离）：Canyon Colossus会举起右手，释放出3个Colossal Shards或Onyx Axons。
+应对方法：该技能存在明显技能范围，躲开即可
 
-Sword Slam（剑刃猛击）：Canyon Colossus会击打竞技场中的一些平台，使其沉入地面。这些碎片稍后会重新出现。使用此技能后，至少有10秒的冷却时间。
++ Titanic Headbutt（泰坦头槌）：当玩家在范围内时，Canyon Colossus会用头撞击附近的所有玩家。
 
-Magmatic Meteors（岩浆陨石）：当玩家距离超过50格时，Canyon Colossus会向该玩家发射5颗陨石。
+应对方法：该技能存在明显前摇，稍后撤即可。
+
++ Neural Shedding（神经剥离）：Canyon Colossus会举起右手并变红眼，释放出3个Colossal Shards或Onyx Axons。
+
+应对方法：迅速击杀即可
+
++ Sword Slam（剑刃猛击）：Canyon Colossus会摧毁场地的1/3平台，需要等待30秒后才能重新生成。此技能有10秒的冷却时间。
+
+应对方法：提前撤离，注意平台是否已重生，尽可能不要掉落虚空
+
++ Magmatic Meteors（岩浆陨石）：当玩家距离超过50格时，Canyon Colossus会向该玩家发射5颗陨石。
+
+应对方法：注意撤离即可。
 
 Destructive Sight（毁灭视线）：每降低一定的血量，Canyon Colossus会从眼中发射绿色激光，永久击沉竞技场远端的一个平台。
 
