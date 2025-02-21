@@ -4,9 +4,10 @@ icon: star
 ---
 
 ## 任务信息 / Information
-任务等级：Level  / 推荐等级： Level 
-任务时长： / 任务难度： 
+任务等级：Level 54 / 推荐等级： Level 54
+任务时长：中等 / 任务难度：中等
 中文译名：光之领域 Part I - 地下虫洞
+
 :::tip 重要任务
 解锁RAID - Nest of the Grootslangs
 
