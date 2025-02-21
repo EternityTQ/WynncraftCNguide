@@ -280,6 +280,8 @@ Earthshattering Blade（地裂之刃）：当Canyon Colossus血量降至50%时�
 
 Colossal Shards会向玩家发射激光，Onyx Axons会向范围内的玩家发射投射物，最需要注意的是Pesky Peridotites，因为它们可以为Canyon Colossus恢复血量。
 
+Pesky Peridotites带有原版的发光效果。
+
 当Canyon Colossus被击败后，它会倒在竞技场的平台上。当出现“Raid Completed”的提示后，玩家会被传送至战利品房。
 
 ### **过关技巧**
@@ -313,7 +315,7 @@ wynn制作组会不定时修改部分buff数值
 
 ## Guild Raid
 
-在graid中，除了基础熟知的增加，巨像战还会进行以下调整：
+在graid中，除了基础数值的增加，巨像战还会进行以下调整：
 
 巨像技能的前摇缩短。
 
