@@ -9,7 +9,7 @@ icon: bug
 简称：NOTG
 最低等级需求：54
 入场费用：1 Az Runes
-前置任务：[Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)
+前置任务：[Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)
 
 Notg是整个游戏流程中，最低等级限制的raid
 
