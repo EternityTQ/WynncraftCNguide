@@ -1,43 +1,21 @@
 ---
-icon: exclamation
+title: Realm of Light I - The Worm Holes (level 54)
+icon: star
 ---
 
-
-# Realm of Light I - The Worm Holes (level 54)
-<span style="font-size: 25px;">**光之领域 Part I - 地下虫洞**</span>
+## 任务信息 / Information
+任务等级：Level  / 推荐等级： Level 
+任务时长： / 任务难度： 
+中文译名：光之领域 Part I - 地下虫洞
 :::tip 重要任务
 解锁RAID - Nest of the Grootslangs
 
 解锁Tomes机制
 :::
 
-<span class="stage-index">1.</span> 去`[-2039 55 -5434]`附近看看发生了什么，然后和<font color=00AA00>**Malo**</font>对话
 
-<span class="stage-index">2.</span> 跳下去虫洞，在深处打掉一个Mysterious Skin然后回去交给<font color=00AA00>**Malo**</font>
-:::tip
-注意可以在着地前放一个位移技能来避免摔伤
-:::
+## 奖励清单 / Rewards
 
-<span class="stage-index">3.</span> 前往<font color=00AA00>**Lari**</font>的营地`[-1969 55 -5454]`寻求<font color=00AA00>**Lari**</font>的援助
->这里大概率会同时刷出3只Lari...
-
-<span class="stage-index">4.</span> 回第一步的虫洞附近和Lari汇合，她会释放一个缓降魔法帮助你来到洞底，然后一路走到触发剧情为止
->虽然好像完全没必要
-
-<span class="stage-index">5.</span> 探索刚刚虫虫探头的洞，然后前往左边的洞，继续触发一系列剧情，直到触发地板塌陷剧情和Lari回合
-
-<span class="stage-index">6.</span> 坚持一分半
-
-:::tip
-![](../../.vuepress/public/assets/img/lvl54-1.jpg =300x)
-你可以沿着路径上来这个地方挂机，非常安全
-:::
-
-<span class="stage-index">7.</span> 触发剧情进入虫虫的胃里，然后看Lari表演就行了
-
-<span class="stage-index">8.</span> 被Lari送出洞后，跟着她一起来到raid门口，跟Lari对话
-
-奖励
 + 100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 768 绿宝石![](/assets/icon/Emerald.png =20x)
 + 6 Az Runes
@@ -45,10 +23,66 @@ icon: exclamation
 + 解锁了Mastery Tomes功能
 + 可以进入资源隧道了
 
-:::tip
-资源隧道的位置在`[-2047 58 -5388]`
+### Step 1 接取任务
+---
 
-隧道内有大量50级矿业、农业、渔业、60级农业，同时有50%的采集经验值![](/assets/icon/Experience_Orb.gif =20x)加成
+去<CC>[-2039 55 -5434]</CC>附近看看发生了什么，然后和<NPC>Malo</NPC>对话
+
+![](/assets/img/lv54-1.png)
+
+### Step 2 调查虫洞
+---
+
+跳下去虫洞，在深处打掉一个`Mysterious Skin`然后回去交给<NPC>Malo</NPC><CC>[-2037 58 -5434]</CC>
+
+![](/assets/img/lv54-2.png)
+
+### Step 3 寻找增援
+---
+
+前往<NPC>Lari</NPC>的营地<CC>[-1969 55 -5454]</CC>寻求<NPC>Lari</NPC>的援助
+
+![](/assets/img/lv54-3.png)
+
+
+
+### Step 4 再探虫洞
+--- 
+
+回第一步的虫洞附近和<NPC>Lari</NPC><CC>[-2039 55 -5434]</CC>汇合，她会释放一个缓降魔法帮助你来到洞底，然后一路走到触发剧情为止
+
+![](/assets/img/lv54-4.png)
+
+### Step 5 深入探索
+---
+
+探索刚刚<mob>Grootslang</mob>探头的洞，然后前往左边的洞，继续触发一系列剧情，直到触发地板塌陷剧情和Lari汇合
+
+### Step 6 掩护lari
+--- 
+
+在<mob>Grootslang</mob>的攻击下坚持45秒
+
+这里攻击不算很高，可以硬撑过。
+
+
+
+### Step 7 击杀巨虫
+--- 
+
+触发剧情进入<mob>Grootslang</mob>的胃里，然后看Lari表演就行了
+
+### Step 8 结算任务
+--- 
+
+被Lari送出洞后，跟着她一起来到raid门口<CC>[-1976 61 -5601]</CC>，跟Lari对话
+
+
+
+:::tip
+资源隧道的位置在<CC>[-2047 58 -5388]</CC>
+
+隧道内有大量50级矿业、农业、渔业、60级农业，同时有50%的采集经验值加成
 :::
 
 :::tip
