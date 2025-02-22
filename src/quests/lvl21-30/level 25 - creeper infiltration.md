@@ -51,6 +51,10 @@ icon: scroll
 实际上，第一步你也可以直接在这里的<NPC>Thomas</NPC>接取任务
 :::
 
+:::tip 如果你无视了掉落物直接下去...
+你需要按照Step 2的步骤，重新返回<CC>[-790 91 -1337]</CC>的山路，再走一遍流程。
+:::
+
 ### Step 4 获取猪皮
 --- 
 \> Retrieve [1 Pigman Hide] from the Pigman Overlord near [-826, 91, -1259] and return to Thomas

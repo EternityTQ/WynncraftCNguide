@@ -1,9 +1,12 @@
 ---
-icon: exclamation
+title: Recover The Past (level 25)
+icon: star
 ---
 
-# Recover The Past (level 25)
-<span style="font-size: 25px;">**追忆往昔**</span>
+## 任务信息 / Information
+任务等级：Level 25 / 推荐等级： Level 25
+任务时长：长 / 任务难度：中等 
+中文译名：追忆往昔
 
 ~~Back to Fruma~~
 
@@ -11,44 +14,140 @@ icon: exclamation
 解锁能力树洗点
 :::
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Dr. Picard**</font> `[103 90 -1200]` 对话
+## 奖励清单 / Rewards
 
-<span class="stage-index">2.</span> 和<font color=00AA00>**sailor Caid**</font>`[-45 65 -1217]`对话
 
-<span class="stage-index">3.</span> 跟<font color=00AA00>**Alchemist**</font> `[22 75 -1166]` 对话，在`[-9 72 -1229]`的房子后院找到`Bloom of Doom`，回去交给<font color=00AA00>**Alchemist**</font>
-
-<span class="stage-index">4.</span> 回去找<font color=00AA00>**sailor Caid**</font>
-
-<span class="stage-index">5.</span> 把<font color=00AA00>**sailor Caid**</font>带回<font color=00AA00>**Dr. Picard**</font>
-
-<span class="stage-index">6.</span> 阅读完记忆后，跟<font color=00AA00>**Scout Reynauld**</font>`[28 66 -1247]`对话
-
-<span class="stage-index">7.</span> 再次对话，同意一同抵御入侵，随后进入战斗
-
-:::tip
-注意怪物数量较多血量较高 做好准备后再来
-:::
-
-<span class="stage-index">8.</span> 带士兵回去找<font color=00AA00>**Dr. Picard**</font>，查看记忆
-
-<span class="stage-index">9.</span> 再次对话，查看<font color=00AA00>**Tasim**</font>的记忆
-
-<span class="stage-index">10.</span> 找到出口(一路杀出去就完事了)
-
-<span class="stage-index">11.</span> 站在水晶球前触发剧情
-
-<span class="stage-index">12.</span> 在屋子外和<font color=00AA00>**Tasim**</font>`[86 76 -1194]`对话
-
-奖励
 + 7000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
 + 1024 绿宝石![](/assets/icon/Emerald.png =20x)
 + 6 Ability Shard
 + 1 Shattered Memory Shard(素材)
+
 
 :::tip
 做完此任务后，你就可以解锁重置技能树功能了，每次消耗3个Ability Shard
 
 Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 
-只要有一个角色做完此任务，所有角色均可以解锁该功能
+**只要有一个角色做完此任务，所有角色均可以解锁技能树洗点功能**
 :::
+
+### Step 1 接取任务
+---
+
+和<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC> 对话
+
+![](/assets/img/lv25-12.png)
+
+### Step 2 第一个倒霉蛋
+---
+
+帮助<NPC>Dr. Picard</NPC>抓到第一个倒霉蛋来帮忙做记忆复苏的实验。
+
+沿着路直走，直到走到河边，和<NPC>Sailor Caid</NPC><CC>[-45 65 -1217]</CC>对话
+
+![](/assets/img/lv25-13.png)
+
+### Step 3 寻找帮助
+---
+
+ <NPC>Sailor Caid</NPC>的船只卡在河里出不去了，你得帮他找朋友帮忙。
+
+跟村子里的<NPC>Alchemist</NPC> <CC>[22 75 -1166]</CC> 对话
+
+![](/assets/img/lv25-14.png)
+
+### Step 4 搜集材料
+--- 
+
+ <NPC>Alchemist</NPC>的药水还缺少原材料，你得帮他找齐。
+
+在<CC>[-9 72 -1229]</CC>的教堂后院找到`Bloom of Doom`，然后拿回去交给<NPC>Alchemist</NPC><CC>[22 75 -1166]</CC>
+
+注意，打掉的时候会刷怪。
+
+![](/assets/img/lv25-15.png)
+
+### Step 5 缩小船只
+---
+
+把缩小药水拿回去交给<NPC>Sailor Caid</NPC><CC>[-45 65 -1217]</CC>
+
+![](/assets/img/lv25-13.png)
+
+### Step 6 带人回去
+--- 
+
+你帮他完成了任务，现在将<NPC>Sailor Caid</NPC>带回去给<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>
+
+![](/assets/img/lv25-12.png)
+
+
+### Step 7 观看记忆
+--- 
+
+你观看了<NPC>Sailor Caid</NPC>的记忆...
+
+现在和<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>再次对话。
+
+### Step 8 第二个倒霉蛋
+--- 
+
+离开塔楼，去找守卫村庄的士兵<NPC>Scout Reynauld</NPC><CC>[28 66 -1247]</CC>对话
+
+![](/assets/img/lv25-16.png)
+
+### Step 9 守卫村庄
+--- 
+
+再次对话，帮助<NPC>Scout Reynauld</NPC>和<NPC>Tasim</NPC>一起守卫村庄。
+
+:::tip
+注意怪物数量较多血量较高 做好准备后再来
+
+整个作战过程中，你需要击杀2波小怪，每波需要击杀20只。
+
+每完成一波，就会推进剧情。
+
+两波小怪均完成后，BOSS就会下来，此时才能攻击BOSS
+:::
+
+### Step 10 带人回去
+--- 
+
+你帮士兵完成了任务，现在将<NPC>Scout Reynauld</NPC>带回去给<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>
+
+![](/assets/img/lv25-12.png)
+
+
+### Step 11 再次观看记忆
+---
+
+你观看了<NPC>Scout Reynauld</NPC>的记忆...
+
+现在和<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>再次对话，然后观看<NPC>Tasim</NPC>的记忆。
+
+![令人感叹](/assets/img/lv25-17.png)
+
+### Step 12 逃离监狱
+---
+
+你在观看<NPC>Tasim</NPC>的记忆时不慎陷入了进去..
+
+尽快逃离监狱。
+
+路很好找，直来直去即可
+
+
+
+### Step 13 自己的回忆
+---
+
+触发水晶球，观看你自己的记忆。
+
+### Step 14 结算任务
+---
+
+
+在塔楼外和<NPC>Tasim</NPC><CC>[86 76 -1194]</CC>对话
+
+![](/assets/img/lv25-18.png)
