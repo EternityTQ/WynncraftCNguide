@@ -13,7 +13,7 @@ author: leo7668
 简称：NOL
 最低等级需求：79
 入场费用：1 Uth Runes
-前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html)
+前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20light%20v%20-%20the%20realm%20of%20light.html)
 
 Nol是整个游戏流程中，等级限制第二低的raid
 
@@ -26,7 +26,7 @@ Nol曾经是整个游戏中最难的Raid，目前其难度依旧是数一数二�
 
 要么会匹配很长时间都没人，要么大概率翻车！
 
-只需要当前账号有任意存档完成前置任务，就可以解锁所有存档进入Nol的权限。但是没有完成前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20Light%20V%20-%20The%20Realm%20of%20Light.html)的存档只能在Nol大厅和Light Portal之间往返，无法进入The Realm of Light
+只需要当前账号有任意存档完成前置任务，就可以解锁所有存档进入Nol的权限。但是没有完成前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20light%20v%20-%20the%20realm%20of%20light.html)的存档只能在Nol大厅和Light Portal之间往返，无法进入The Realm of Light
 :::
 
 :::tip 搬运来源
