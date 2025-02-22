@@ -93,8 +93,15 @@ icon: handshake-angle
 
 回去找<NPC>Lieutenant Van</NPC><CC>[231 69 -1620]</CC>交差。
 
+## 剧情省流 / Summary
 
+Aledar在Detlas军营邀请玩家参与Lieutenant Van的作战计划：夺回被腐化势力占据的塔楼。他提及塔顶的首领弱水元素，并引导玩家前往Powder Master处为武器附加水粉以增强战力。
 
+抵达Detlas郊区后，Lieutenant Van部署作战策略：地面部队吸引火力，玩家与Aledar则需攀至塔顶击杀腐化首领。战斗过程中，Detlas士兵协助清理敌人，玩家最终击败Fire Flak等高级腐化生物，成功夺回塔楼。
+
+任务结束后，Lieutenant Van表彰玩家与Aledar的贡献，并支付酬劳。Aledar对合作战斗表示兴奋，Lieutenant Van则暗示未来可能有更多协同作战机会。
+
+整个任务通过军队协作与元素战术的应用，突显Detlas军方对腐化势力的反攻态势，同时巩固玩家与Aledar的战友关系。
 
 
 

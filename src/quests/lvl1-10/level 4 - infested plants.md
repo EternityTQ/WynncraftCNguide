@@ -58,3 +58,11 @@ icon: bookmark
 
 
 ![](/assets/img/lv16-4.png)
+
+## 剧情省流 / Summary
+
+在Nivla Woods边缘，Tasim与玩家计划前往Detlas时，被自称被蜘蛛咬伤的旅行者Ope拦下。Ope请求二人前往蜘蛛洞穴获取治疗草药Saccharum Plant，并承诺给予报酬。
+
+玩家进入洞穴采集草药，而Tasim留在洞外保护Ope。完成任务后，Ope以“忘带Emeralds”为由拒绝支付，转而建议他们探索森林并前往附近的Alekin Village寻找补偿。
+
+Tasim对Ope的欺诈行为感到懊恼，但仍与玩家前往Alekin Village。村长Mayor Alvin为Ope的行为道歉，并主动提供Emeralds作为补偿，同时邀请二人暂留村庄休整。

@@ -80,5 +80,15 @@ icon: handshake-angle
 
 ![](/assets/img/lv6-7.png)
 
+## 剧情省流 / Summary
 
+Tasim与玩家在Alekin Village发现村民Yahya行为异常，主动提出帮助解决其蘑菇地被蜘蛛侵占的问题。Yahya结结巴巴地承认蜘蛛威胁，并引导两人前往Nivla Woods的蘑菇地。
+
+清理蜘蛛后，Yahya试图以2 Emeralds敷衍酬谢，却遭蜘蛛群突袭并被掳走。Tasim紧急向Mayor Alvin汇报，后者建议前往Detlas寻求军事援助。
+
+前往Detlas途中，玩家与Tasim遭遇Corrupted Goliath袭击。根据战斗结果不同：若胜利则继续前进；若逃离或战败，Tasim会表达不满或庆幸幸存。
+
+抵达Detlas后，玩家在军营遇见旧识Aledar，并向Admiral Aegis汇报蜘蛛危机。Aegis承诺派兵支援，同时建议玩家接受训练或协助其他军官任务。若玩家曾战败，Aegis会提及救援细节并鼓励提升实力。
+
+任务以Detlas军方介入危机应对告一段落，为玩家后续行动提供多个任务导向。
 
