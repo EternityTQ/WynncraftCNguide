@@ -43,6 +43,10 @@ icon: scroll
 
 和<NPC>Leucsaa</NPC><CC>[201 38 -2173]</CC>对话
 
+## 剧情省流 / Summary
 
+Leucsaa在搬离宅邸时发现祖传日记遗落在内部，委托玩家取回。这座由Corkian建筑师设计的宅邸以“可移动房间”闻名，Leucsaa斥其为一桩欺诈性房产交易，称其内部结构混乱如迷宫。
+
+玩家进入宅邸后，面临房间不断变换方位的挑战，最终寻获[Leucsaa's Journal]。归还后，Leucsaa感慨日记的珍贵，并告诫玩家永远不要购买Corkian建筑师设计的房屋。
 
 

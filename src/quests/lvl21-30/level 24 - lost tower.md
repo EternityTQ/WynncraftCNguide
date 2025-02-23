@@ -47,3 +47,8 @@ icon: scroll
 
 回去找<NPC>Laen</NPC><CC>[24 37 -2199]</CC>对话
 
+## 剧情省流 / Summary
+
+Nemract的居民Laen请求玩家寻回家族遗物《骸骨之书》（Book of the Bones）。该书记载了古代强大生物与地点的秘密，在Ancient Nemract毁灭时被骷髅盗走，现藏于废墟中的失落之塔（Lost Tower）。
+
+玩家前往Ancient Nemract，在塔内遭遇腐烂的骷髅（Rotten Skeleton）与腐烂的死灵法师（Rotten Necromancer），后者持有书籍。击败敌人后取得书籍交还Laen，他对书中内容充满期待并致谢。

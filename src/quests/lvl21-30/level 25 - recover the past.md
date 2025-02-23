@@ -151,3 +151,13 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 在塔楼外和<NPC>Tasim</NPC><CC>[86 76 -1194]</CC>对话
 
 ![](/assets/img/lv25-18.png)
+
+## 剧情省流 / Summary
+
+Dr. Picard在塔楼发明记忆恢复装置，邀请玩家协助寻找来自Fruma的测试对象。首个对象水手Caid因船只卡住无法移动，玩家协助取得缩小药水（Potion of Shrinking）后，其记忆揭露曾在Fruma盗窃帝国物资被捕。
+
+随后，玩家与侦察兵Reynauld及战友Tasim共同抵御腐化召唤师（Corrupted Summoner）对Elkurn桥的进攻。Reynauld的记忆显示他曾与Caid勾结倒卖物资，最终遭帝国清洗。
+
+Tasim的记忆揭示其因救助被诅咒者Aledar，被帝国审判并洗脑，强制派往Wynn参战。玩家尝试查看自身记忆时，装置过载损毁，暗示其过去异常。
+
+任务结尾，Tasim因无法承受真相，选择独自前往Gavel省。Dr. Picard继续研究，而Fruma的黑暗过往——流放“被诅咒者”至Wynn参战的真相逐渐浮出水面。

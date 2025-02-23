@@ -38,7 +38,11 @@ icon: bookmark
 
 杀完后回去找<NPC>Nohno</NPC><CC>[-83 45 -2497]</CC>对话
 
+## 剧情省流 / Summary
 
+Nohno在公鸡岛（Rooster Island）请求玩家处理其宠物鸡Cluckles，称这只由传奇战士Bob赠予的生物因主人未归而变得暴躁，危及岛屿安全。玩家进入地下室，发现Cluckles实为鸡蛇兽（Cockatrice），被迫将其击败并带回[Cluckles' Favourite Feather]。
+
+Nohno误以为玩家会“照顾”Cluckles，见到羽毛后愤怒指责玩家杀害爱宠，将其驱逐。
 
 
 

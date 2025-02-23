@@ -1,21 +1,125 @@
-# Misadventure on the Sea (level 28)
-<span style="font-size: 25px;">**海上冒险**</span>
+---
+title: Misadventure on the Sea (level 28)
+icon: scroll
+---
+
+## 任务信息 / Information
+任务等级：Level 28 / 推荐等级： Level 28
+任务时长：中等 / 任务难度： 长
+中文译名：海上冒险
 
 
-<span class="stage-index">1.</span> 在**Nemract**和<font color=00AA00>**Barman**</font> `[114 40 -2176]`谈话
-
-<span class="stage-index">2.</span> 和<font color=00AA00>**Honip**</font>谈话`[103 37 -2254]`,上船后,拿起床上的告示牌并得到海绵后,拿着海绵清理船上的尸体
-
-<span class="stage-index">3.</span> 和最上层的<font color=00AA00>**Honip**</font>对话,等海怪<font color=FF5555>**Osearer**</font>上船后，用技能打退海怪
-
-<span class="stage-index">4.</span> 来到最下层,进入铁门,杀死<font color=FF5555>**Rat**</font>,收集`Cannon Fuse`和`Gunpowder Crate`,返回,和<font color=00AA00>**Honip**</font>对话获得2Eb
-
-<span class="stage-index">5.</span> 给大炮装火药(有绿色粒子处),当周围NPC没有注视你的时候,右键大炮逃出
-
-<span class="stage-index">6.</span> 右键绿色粒子(旁边有个按钮)
-
-奖励
+## 奖励清单 / Rewards
 
 + 8500 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 320 绿宝石![](/assets/icon/Emerald.png =20x)
 + 今后去Selchar无需支付船票
 + 任务途中获得的各种材料
+
+### Step 1 接取任务
+---
+
+在**Nemract**和<NPC>Barman</NPC> <CC>[114 40 -2176]</CC>谈话
+
+![](/assets/img/lv28-7.png)
+
+### Step 2 开始冒险?
+---
+
+和<NPC>Honip</NPC>谈话<CC>[103 37 -2254]</CC>，上船
+
+![](/assets/img/lv28-8.png)
+
+:::tip
+如果你在船上失败了，你可以回到这一步的开始点，与场景交互来回到船上，继续剧情。
+
+![](/assets/img/lv28-9.png)
+:::
+
+### Step 3 清理尸体
+---
+
+被打晕上船后，看看床上的告示牌。
+
+![](/assets/img/lv28-10.png)
+
+然后触发剧情，直到可以打开你面前的栅栏门。得到海绵后,拿着海绵左键清理船上的7具尸体
+
+第一具出门就是，在<CC>[-3288 48 16381]</CC>
+
+第二具出门左拐，在床上。<CC>[-3279 48 16387]</CC>
+
+然后掉头，上一层楼梯。楼上的船舱有三具尸体
+
+![](/assets/img/lv28-11.png)
+
+接着再上一层楼梯，来到甲板。第6具尸体很显眼，在<CC>[-3283 57 16391]</CC>
+
+然后往里走，能看到比较深的第7具尸体(头颅)，在<CC>[-3284 60 16404]</CC>
+
+:::tip
+在这期间，你可以找找船内有哪些发绿光的点，可以多交互。
+
+有些会提供额外材料以及绿宝石，这部分留给读者自行探索。
+:::
+
+### Step 4 检查动静
+--- 
+
+和最上层的<NPC>Honip</NPC>对话，然后跟他去检查船只边上的动静。
+
+![](/assets/img/lv28-12.png)
+
+
+### Step 5 处理海怪
+--- 
+
+海怪<mob>Osearer</mob>上船后，用技能打退海怪，随后再次和<NPC>Honip</NPC>对话
+
+![](/assets/img/lv28-13.png)
+
+### Step 6 消灭老鼠
+---
+
+来到最下层,进入打开铁门,杀死老鼠群
+
+![](/assets/img/lv28-14.png)
+
+打败BOSS后，在房间内收集`Cannon Fuse`和`Gunpowder Crate`以及各种材料
+
+回到甲板，和<NPC>Honip</NPC>对话获得2EB
+
+### Step 7 逃离贼船
+--- 
+
+给大炮装火药(有绿色粒子处),当周围NPC没有注视你的时候,右键大炮逃出
+
+![](/assets/img/lv28-15.png)
+
+### Step 8 获取救援
+--- 
+
+右键绿色粒子(旁边有个按钮)，然后上船！
+
+![](/assets/img/lv28-16.png)
+
+
+
+
+
+## 剧情省流 / Summary
+
+Honip在Nemract酒吧佯装热情，以"出海冒险"为诱饵将玩家骗至海盗船。登船后他立即翻脸，揭露绑架真相并强迫玩家清理船舱内的七具尸骸。
+
+清理过程中，玩家发现关于"人体大炮"的笔记和隐藏钥匙的线索。此时神秘海怪Osearer突然袭击船只，玩家通过施法、驯养战斗鸡Snoo或消极应对三种方式化解危机。
+
+随后Honip指派玩家清除底层货舱的"异常鼠患"。在幽闭舱室内，玩家先后遭遇普通鼠群、两只巨鼠，最终与能切换形态的巨型鼠王展开激战。胜利后取得火药桶与引信，根据早前发现的笔记启动秘密逃生炮。
+
+趁着海盗们察觉异样前，玩家将自己装入改造大炮发射升空，穿越海鸥群坠落到荒岛。正当挖掘沙滩试图求生时，恰巧路过的Seaskipper船长救起玩家，途中调侃道："早该坐正规渡轮"。
+
+回到文明世界时，船长以"补偿绑架遭遇"为由免去船费，将玩家送往海洋之心Selchar。
+
+
+
+
+
