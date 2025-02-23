@@ -191,7 +191,7 @@ https://hppeng-wynn.github.io
 | Propeller Hat | Conduit of Spirit | Dark Shroud | Steamjet Walkers |
 | Gale's Sight | Etiolation | Leictreach Makani | Cloudwalkers |
 | Unravel | Wanderlust | Anaerobic | Skidbladnir |
-| Cumulonimbus |  | The Ephemeral | Ventus Tail |
+| Cumulonimbus | Echoes of the Lost | The Ephemeral | Ventus Tail |
 | Keratoconus |  | Sagittarius |  |
 | Dune Storm |  | Second Wind |  |
 
