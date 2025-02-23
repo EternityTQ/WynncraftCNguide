@@ -60,7 +60,12 @@ icon: scroll
 
 回去找<NPC>The Assistant</NPC><CC>[491 67 -1575]</CC>对话。
 
+## 剧情省流 / Summary
 
+Detlas的助手（The Assistant）请求玩家协助阻止其导师Essren博士制造危险药剂。助手透露药剂中混入了腐化物质，要求玩家收集[8个红蘑菇（Red Mushrooms）]用于中和毒性。
 
+玩家将蘑菇交给助手后，被指引前往Detlas东侧小屋。Essren博士误服被调换的药剂，变异为腐化怪物（Dr. Essren），玩家被迫将其击败并带回[尘封外套（Essren's Dusty Coat）]作为证据。
+
+任务结束后，助手表达矛盾情绪——既庆幸阻止灾难，又担忧导师的报复，同时要求玩家保密事件并赠予报酬。
 
 

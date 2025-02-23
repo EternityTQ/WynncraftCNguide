@@ -65,4 +65,13 @@ icon: skull
 \> Return to Captain Enduyn with the flame at [-192, 44, -1822].
 
 与<NPC>Captain Enduyn</NPC><CC>[-192 44 -1822]</CC>对话
+## 剧情省流 / Summary
 
+
+上将埃吉斯（Admiral Aegis）在Detlas军营集结玩家、Aledar与Tasim，发起对Nivla Woods蜘蛛巢穴的总攻。三人先前往萨凡纳与士兵科布（Private Cob）会合，获取补给并得知需用火山熔岩破解蛛网。
+
+玩家选择与Aledar或Tasim进入温恩山（Mount Wynn），沿途遭遇蜘蛛幼体（Spiderling）、地狱蜘蛛（Infernal Spider）等敌人，最终击败守护火焰的伊格尼斯蛛怪（Ignis Arachnid），取得温恩山火焰（Mount Wynn's Flame）。
+
+返回后，恩杜恩上尉（Captain Enduyn）用火焰烧毁蛛网，救出村民。三人组攻入腐化巢穴（Infested Pit），击败蜘蛛女王阿拉卡迪库斯（Arakadicus）。
+
+任务结束后，Aledar计划研究元素粉末技术，Tasim则准备前往南方驻防。玩家可选择继续冒险、探索或暂留Detlas。庆功宴上，三人举杯致意未来的合作，暗示各自的新征程。

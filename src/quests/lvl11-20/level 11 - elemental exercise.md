@@ -79,4 +79,11 @@ icon: handshake-angle
 
 返回军营，与<NPC>Captain Ragon</NPC><CC>[518 67 -1631]</CC>对话。
 
+## 剧情省流 / Summary
 
+
+拉贡队长（Captain Ragon）在Detlas军营为玩家与塔西姆（Tasim）进行元素战斗训练，讲解 火、 水、 土、 雷、 风五元素相克机制。两人使用元素武器攻击训练假人后，展开友谊对决。
+
+对决结束之际，侦察兵伊芙琳（Scout Evelyn）紧急通报腐化军队逼近Detlas北门。拉贡队长率队迎战，玩家与塔西姆协同作战，击退腐化召唤师（Corrupted Summoner）及其麾下的蛮力粉碎者（Brute Basher）、潜行切割者（Sneak Slicer）等敌人。
+
+战斗胜利后，埃吉斯上将（Admiral Aegis）返回军营，表彰两人功绩，并宣布将派遣他们参与清剿Nivla Woods蜘蛛巢穴的任务。拉贡队长赠予装备作为报酬，塔西姆虽紧张但仍对未来的挑战感到期待。

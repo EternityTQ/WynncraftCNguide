@@ -50,5 +50,10 @@ icon: scroll
 
 
 
+## 剧情省流 / Summary
 
+Nemract的Merloni委托玩家调查“死者之坑”（Pit of the Dead）——一处埋葬早期矿工的墓地，这些矿工因接触腐化陷入疯狂而被处决。Merloni提及坑中藏有神秘祭坛，传言无惧者可通过沐浴其水域获得亡灵认可。
 
+玩家前往坑洞，遭遇腐化之灵（Corrupted Spirit）阻挠，最终在深处发现祭坛。探索过程中，部分区域的灵魂因祭坛影响转为安息之灵（Appeased Spirit），暗示净化可能。
+
+返回Nemract后，Merloni对玩家的勇气表示赞叹，并赠予一件从骷髅身上发现的遗物作为报酬。

@@ -100,3 +100,13 @@ icon: scroll
 
 不喝药水直接进洞会被烫到起飞
 :::
+## 剧情省流 / Summary
+
+
+盖拉德上校（Colonel Gailard）在Savannah发现异常熔岩泉（Lava Spring），怀疑与腐化（Corruption）有关，请求玩家收集证据。玩家在泉边击败腐化岩石（Corrupted Stone）、扭动岩石（Wiggling Rock）等敌人，取得[3份腐化证据]。
+
+盖拉德推测地下存在腐化根系，指引玩家前往Bremminglar镇寻求帮助。玩家在镇内井底找到治疗师娜米（Nami The Healer），获得抗热药水（Potion of Obsidian Skin）。
+
+饮用药水后，玩家从钻孔跳入熔岩泉底部，遭遇玄武岩蝙蝠（Basalt Bat）、细胞腐化者（Cell Corrupter）等敌人，最终摧毁腐化核心——熔岩之心（Heart of Lava）。
+
+任务完成后，盖拉德表彰玩家功绩并支付酬劳，熔泉威胁得以解除。

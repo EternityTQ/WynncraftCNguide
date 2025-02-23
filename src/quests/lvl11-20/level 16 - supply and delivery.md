@@ -61,3 +61,10 @@ icon: route
 
 ![](/assets/img/lv16-4.png)
 
+## 剧情省流 / Summary
+
+在Detlas，玩家再次遇见狡猾的Ope，他因试图垄断魔法粉末被贸易市场（Trade Market）封禁，无法领取送往Alekin Village的补给箱。Ope恳求玩家代购，并谎称“互惠互利”。
+
+若玩家选择普通职业，需自费32 Emeralds购买补给箱；若为Ironman模式，则因同样被封禁需求助Tasim。Tasim对玩家被封禁感到困惑，但仍协助购买[Village Supply Crate]。
+
+Ope得手后，再次推脱责任，要求玩家将箱子送至Alekin Village。玩家将补给交给村长Mayor Alvin，后者对Ope的行为表示歉意，并支付报酬，同时开放村庄马车服务供玩家使用。
