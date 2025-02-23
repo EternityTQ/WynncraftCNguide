@@ -14,11 +14,11 @@ build指的是一整套装备，通常，对于某个特定武器(如神话武�
 :::tip
 在下面提及的配装思路中，会出现一些常用的装备
 
-并且可以使用下面这个网址进行配装的尝试和装备信息的查询：
+你可以使用下面这个网址进行配装的尝试和装备信息的查询：
 
 https://hppeng-wynn.github.io
 
-这个网址是国外大佬做的，看不懂就到群里多问
+这个网址是国外大佬做的，看不懂可以到群里问问
 
 当然大部分时候抄作业足够满足你的日常需求
 :::
@@ -140,14 +140,62 @@ https://hppeng-wynn.github.io
 
 对于每种元素类型，都有非常合适的优质单件可以优先考虑加入构筑：
 
-| 属性 | 头盔 | 胸甲 | 护腿 | 靴子 |
-| :---: | :---: | :---: | :---: | :---: |
-| 地 | Pisces/<br>Caesura/<br>Nychthemeron/<br>Dune Storm | Delirium/<br>Terra's Mold/<br>Dondasch | Chain Rule/<br>Tera | Crater Print/<br>Pro Tempore |
-| 雷 | Caesura/<br>Neuron/<br>Cumulonimbus/<br>Logistics/<br>Nychthemeron | Delirium/<br>Tesla/<br>Discharge/<br>Stratosphere | Tera/<br>Asphyxia/<br>Leictreach Makani | Electro Mage's Boots/<br>Sine/<br>Weatherwalkers/<br>Steamjet Walkers/<br>Ventus Tail |
-| 水 | Anamnesis/<br>Cumulonimbus/<br>Aquamarine/<br>Neuron/<br>Gnossis | Stratosphere/<br>Soul Signal | Seipodon/<br>Aleph Null/<br>Rapids/<br>Entanglement | Pro Tempore/<br>Virtuoso/<br>Steamjet Walkers |
-| 火 | Capsid Frame/<br>Dreadnought | Soulflare/<br>Hetusol | Ophiuchus/<br>Greaves of the Veneer/<br>Cinderchain | Mantlewalkers/<br>Phage Pins |
-| 气 | Propeller Hat/<br>Gale's Sight/<br>Unravel/<br>Cumulonimbus/<br>Keratoconus/<br>Dune Storm | Conduit of Spirit | Dark Shroud/<br>Leictreach Makani/<br>Anaerobic/<br>The Ephemeral | Steamjet Walkers/<br>Cloudwalkers/<br>Skidbladnir/<br>Ventus Tail |
-| 彩虹 | Morph-Stardust/<br>Cumulonimbus | Libra/<br>Far Cosmos | Vaward/<br>Rainbow Sanctuary/<br>Aleph Null/<br>Equalizer | Capricorn/<br>Epilogue/<br>Pro Tempore |
+#### 地
+| 头盔 | 胸甲 | 护腿 | 靴子 |
+| :---: | :---: | :---: | :---: |
+| Pisces | Delirium | Chain Rule | Crater Print |
+| Caesura | Terra's Mold | Tera | Pro Tempore |
+| Nychthemeron | Dondasch | Physalis |  |
+| Dune Storm | Bete Noire | Post-Ultima |  |
+| The Siren's Call | Leviathan | Anaerobic |  |
+| Shawl of Gaea | Phantasmal Hostag | | |
+| Nuclear Emesis | | | |
+
+#### 雷
+| 头盔 | 胸甲 | 护腿 | 靴子 |
+| :---: | :---: | :---: | :---: |
+| Caesura | Delirium | Tera | Electro Mage's Boots |
+| Neuron | Tesla | Asphyxia | Sine |
+| Cumulonimbus | Discharge | Leictreach Makani | Weatherwalkers |
+| Logistics | Stratosphere |  | Steamjet Walkers |
+| Nychthemeron | Bete Noire |  | Ventus Tail |
+
+#### 水
+| 头盔 | 胸甲 | 护腿 | 靴子 |
+| :---: | :---: | :---: | :---: |
+| Anamnesis | Stratosphere | Seipodon | Pro Tempore |
+| Cumulonimbus | Soul Signal | Aleph Null | Virtuoso |
+| Aquamarine |  | Rapids | Steamjet Walkers |
+| Neuron |  | Entanglement |  |
+| Gnossis |  |  |  |
+
+#### 火
+| 头盔 | 胸甲 | 护腿 | 靴子 |
+| :---: | :---: | :---: | :---: |
+| Capsid Frame | Soulflare | Ophiuchus | Mantlewalkers |
+| Dreadnought | Hetusol | Greaves of the Veneer | Phage Pins |
+| Titanomachia | Blank Stare | Cinderchain |  |
+| Transplanted Psyche | Medeis |  |  |
+
+#### 气
+| 头盔 | 胸甲 | 护腿 | 靴子 |
+| :---: | :---: | :---: | :---: |
+| Propeller Hat | Conduit of Spirit | Dark Shroud | Steamjet Walkers |
+| Gale's Sight | Etiolation | Leictreach Makani | Cloudwalkers |
+| Unravel | Wanderlust | Anaerobic | Skidbladnir |
+| Cumulonimbus |  | The Ephemeral | Ventus Tail |
+| Keratoconus |  | Sagittarius |  |
+| Dune Storm |  |  |  |
+
+#### 彩虹/通用
+| 头盔 | 胸甲 | 护腿 | 靴子 |
+| :---: | :---: | :---: | :---: |
+| Morph-Stardust | Libra | Vaward | Capricorn |
+| Cumulonimbus | Far Cosmos | Rainbow Sanctuary | Epilogue |
+| Spectrum |  | Aleph Null | Pro Tempore |
+| Sequencer |  | Equalizer | Boots of Blue Stone |
+| | | Ringlets | |
+
 
 **其中，鞋子大多数情况下都使用对应属性合适的神话鞋子**
 
