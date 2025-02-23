@@ -145,10 +145,10 @@ https://hppeng-wynn.github.io
 | :---: | :---: | :---: | :---: |
 | Pisces | Delirium | Chain Rule | Crater Print |
 | Caesura | Terra's Mold | Tera | Pro Tempore |
-| Nychthemeron | Dondasch | Physalis |  |
-| Dune Storm | Bete Noire | Post-Ultima |  |
-| The Siren's Call | Leviathan | Anaerobic |  |
-| Shawl of Gaea | Phantasmal Hostag | | |
+| Nychthemeron | Dondasch | Physalis | Repurposed Vessels |
+| Dune Storm | Bete Noire | Post-Ultima | Blind Thrust |
+| The Siren's Call | Leviathan | Anaerobic | Earthsky Eclipse |
+| Shawl of Gaea | Phantasmal Hostag | | Mantlewalkers |
 | Nuclear Emesis | | | |
 
 #### 雷
@@ -157,25 +157,33 @@ https://hppeng-wynn.github.io
 | Caesura | Delirium | Tera | Electro Mage's Boots |
 | Neuron | Tesla | Asphyxia | Sine |
 | Cumulonimbus | Discharge | Leictreach Makani | Weatherwalkers |
-| Logistics | Stratosphere |  | Steamjet Walkers |
-| Nychthemeron | Bete Noire |  | Ventus Tail |
+| Logistics | Stratosphere | Antebellum | Steamjet Walkers |
+| Nychthemeron | Bete Noire | Entanglement | Ventus Tail |
+| Hollow Virtue | Etiolation | | |
+| | Insignia | | |
+
 
 #### 水
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
 | Anamnesis | Stratosphere | Seipodon | Pro Tempore |
 | Cumulonimbus | Soul Signal | Aleph Null | Virtuoso |
-| Aquamarine |  | Rapids | Steamjet Walkers |
-| Neuron |  | Entanglement |  |
-| Gnossis |  |  |  |
+| Aquamarine | Aquarius | Rapids | Steamjet Walkers |
+| Neuron | Time Rift | Entanglement | Wavedash |
+| Gnossis | Schadenfreude | Efteling |  |
+| Resolution | | Memento | |
 
 #### 火
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
-| Capsid Frame | Soulflare | Ophiuchus | Mantlewalkers |
+| Capsid Frame | Soulflare | Black Lily | Mantlewalkers |
 | Dreadnought | Hetusol | Greaves of the Veneer | Phage Pins |
-| Titanomachia | Blank Stare | Cinderchain |  |
-| Transplanted Psyche | Medeis |  |  |
+| Titanomachia | Blank Stare | Cinderchain | Nether's Scar  |
+| Transplanted Psyche | Medeis | Doomsday Omen | Equites |
+| Albacore | Empyreal Emberplate | Adrenaline | |
+| Sparkweaver | | | |
+| Darksteel Full Helm | | | |
+| Iosis| | | |
 
 #### 气
 | 头盔 | 胸甲 | 护腿 | 靴子 |
@@ -185,7 +193,8 @@ https://hppeng-wynn.github.io
 | Unravel | Wanderlust | Anaerobic | Skidbladnir |
 | Cumulonimbus |  | The Ephemeral | Ventus Tail |
 | Keratoconus |  | Sagittarius |  |
-| Dune Storm |  |  |  |
+| Dune Storm |  | Second Wind |  |
+
 
 #### 彩虹/通用
 | 头盔 | 胸甲 | 护腿 | 靴子 |
