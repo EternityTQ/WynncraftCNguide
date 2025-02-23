@@ -80,7 +80,7 @@ https://hppeng-wynn.github.io
 
 :::tip 万能公式
 另外如果你实在不想思考，这里有一个当前版本的万能公式可以抄：
-头盔：Morph-stardust
+头盔：Spectrum/Sequencer
 胸甲：Libra
 裤子：Aleph-Null/Vaward
 靴子：你有什么神话鞋就用什么神话鞋/Epilogue/Capricorn
