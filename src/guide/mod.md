@@ -18,7 +18,7 @@ icon: handshake-angle
 ### Wynntils是什么？
 Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD
 
-目前除1.20.2版本以外**均已停更**
+目前除1.21.4版本以外**均已停更**
 
 下载地址：<https://modrinth.com/mod/wynntils/>
 
