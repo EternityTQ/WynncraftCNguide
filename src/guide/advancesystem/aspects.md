@@ -24,32 +24,7 @@ icon: paper-plane
 
 Aspects，是在2.1版本中更新的新系统，你可以简单理解为Tome的加强版本
 
-## 介绍
 
-Aspect可以直接加强你的技能树，每一个Aspect可以加强一个能力，一个角色至多同时装备5个Aspect
-
-不同于Tome的灵魂绑定，Aspect为**账号通用**，所有Aspect均可以被账号上任意存档使用(只要职业匹配)
-
-Aspect没有需要鉴定的鉴定词条，也不作为独立的物品存在，其被存于独立的Aspects仓库中。当然，Aspects都是不可交易的
-
-虽然Aspects不需要鉴定，但是其有独特的升级系统。每收集一定数量重复的Aspects，即可升级。
-
-Aspects也分品质，*升级所需的Aspects数量依品质而提升*
-
-
-*就目前官网透露的数据来看，Fabled品质的Aspect升级所需的Aspects数量能达到两位数*
-
-*就个人大胆猜测，Mythic品质的Aspect升级所需的数量很有可能会去到三位数*
-
-## 来源
-
-Aspects可以从RAID中获取，也可来自于公会奖励，(*个人推测类似于公会Tome一样的获取方法*)
-
-其中，RAID可以通过勾选Gambits来提升Aspects的掉落数量，每勾选一个Gambits，结算后可获得一个保底Aspect掉落，至多勾选三个。
-
-(*不勾选任何Gambits的掉落数量尚不明确*)
-
-## 功能
 
 
 
