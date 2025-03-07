@@ -4,12 +4,6 @@ icon: wheelchair-move
 pageview: true
 ---
 
-:::danger 警告
-本页面内容已经过时，编者无力维护更新
-
-等待有缘人接手。
-
-:::
 
 首先先解释一下，何谓lootrun?
 
@@ -58,9 +52,9 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 ![直接点击即可直接追踪！](/assets/img/questbook5.jpg)
 
-截止至2.0.4版本，一共有4处**Lootrun Camp**
+截止至2.1版本，一共有5处**Lootrun Camp**
 
-它们分别位于**Molten Heights**(火山)、**Sky Islands**(Sky)、**Corkus**、**Silent Expanse**(se)
+它们分别位于**Canyon Of The Lost**、**Molten Heights**(火山)、**Sky Islands**(Sky)、**Corkus**、**Silent Expanse**(se)
 
 你可以找到**Lootrun Camp**中的<font color=FF55FF>**Lootrun Master**</font>来开始新lr
 
@@ -407,27 +401,27 @@ Static祝福**在选择时**的数值为随机数值
 
 | 名称               | 效果     |
 |---------------------|-------------------------------------------------------------------------------------------|
-| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启Flying Chest后，随机清除一个已有的诅咒|
-| <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)|
-| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现  |
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除一个诅咒|
+| <font color='FFCC00'> **High Roller** </font>         | 获得2次奖励刷新机会|
+| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再出现  |
 | <font color='FFCC00'> **Hoarder** </font>         | 每当你从箱子中累计见到20件物品时，获得一个随机祝福  |
-| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计见到20件物品时，从pulls+3，祝福\*1，诅咒\*1，计时器+30s中随机抽取一个并获得  |
 | <font color='FFCC00'> **Treasure Hunting** </font>         | 红色信标现在会给予你一次二选一祝福的机会 |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 祝福增加50%额外效果|
+| <font color='5555FF'> **Orphion's Grace** </font>     | 祝福额外增加50%效果|
 | <font color='5555FF'> **Gourmand** </font>     | 每当你获得祝福时，获得一次信标重抽机会|
-| <font color='5555FF'> **Porphyrophobia** </font>     | 蓝信标现在会+1pulls，但每次见到紫色信标都会获得一个诅咒|
+| <font color='5555FF'> **Porphyrophobia** </font>     | 蓝信标现在会+1pulls，但每次见到紫色信标都会获得1个诅咒|
+| <font color='5555FF'> **Chronokinesis** </font>         | 每开启一个箱子会+1pull，但会扣除10秒时间，每个箱子会使该惩罚时间额外+5s<br>完成任意挑战可使该惩罚时间-10s|
 | <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，换取1个额外挑战轮数  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每当得到2个诅咒后，获得1个随机祝福|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半|
+| <font color='AA00AA'> **Jester's Trick** </font>         | 每当你从飞箱中累计见到20件物品时，从pulls+3，祝福\*1，诅咒\*1，计时器+30s中随机抽取一个并获得  |
 | <font color='AA00AA'> **Complete Chaos** </font>         | 每次完成挑战后，有80%的概率额外获得一个随机信标效果|
 | <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
-| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个箱子会+1pull，但会扣除10秒时间，每个箱子会使该惩罚时间额外+5s<br>完成任意挑战可使该惩罚时间-10s|
+| <font color='00BB00'> **Safety Seeker** </font>          | 获得2次奖励刷新机会和1次奖励献祭机会，但信标选数-1|
 | <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，会强制扣除300s换取1次奖励刷新机会。<br>每一轮结束后，下一次花费增加60s|
 | <font color='FF5555'> **Redemption** </font>          | 获得1次奖励献祭机会|
 | <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次奖励献祭机会以及2次奖励刷新机会；<br>每当计时器减少2min时，随机清除一个已有祝福；<br>从任意途径获得时间延缓该倒计时|
-| <font color='FF5555'> **Safety Seeker** </font>          | 获得2次奖励刷新机会和1次奖励献祭机会，但信标选数-1|
-| <font color='FF5555'> **Warmth Devourer** </font>          | 蓝信标不再出现。每次完成挑战后，花费1个祝福和1个挑战轮数来获得1次奖励献祭机会|
+| <font color='FF5555'> **Warmth Devourer** </font>          | 蓝信标不再出现。每次完成挑战后，消除1个祝福和1个挑战轮数来获得1次奖励献祭机会|
 :::tip
 在完成`获得时间`的条件时
 
