@@ -11,8 +11,9 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 114514 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 1919810 绿宝石![](/assets/icon/Emerald.png =20x)
++ 11000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 384 绿宝石![](/assets/icon/Emerald.png =20x) 
++ Vindicator(手镯)
 
 ### Step 1 接取任务
 ---
@@ -24,56 +25,62 @@ icon: scroll
 ![](/assets/img/lv30-1.png)
 
 
-### Step 2 XXXX
+### Step 2 开始会议
 ---
 
+和<NPC>Admiral Amerigo</NPC><CC>[979 85 -1971]</CC>对话，然后跟着他进入身后的会议室，开始会议。
 
-### Step 3 XXXX
+![](/assets/img/lv30-2.png)
+
+
+### Step 3 前往前线
 ---
 
+会议结束后，离开会议室，前往营地<CC>[1371 95 -2152]</CC>和众人会合
 
-### Step 4 XXXX
+![](/assets/img/lv30-4.png)
+
+
+### Step 4 突袭兵营
 --- 
 
+在<CC>[1347 78 -2267]</CC>附近和<NPC>Linton</NPC>对话，准备使用炸药突袭营地。
 
-### Step 5 XXXX
+![](/assets/img/lv30-5.png)
+
+
+### Step 5 消灭叛军
 ---
 
+等<NPC>Linton</NPC>炸开墙后，潜入兵营，一路杀进去，第一个十字路口直走，然后拐两个弯上楼，一直找路上楼即可
 
-### Step 6 XXXX
+再上一层楼后，来到<CC>[1392 94 -2257]</CC>，偷听众人对话，随后触发战斗，消灭<mob>Takan</mob>
+
+
+### Step 6 获取钥匙
 --- 
 
+<NPC>Takan</NPC>逃跑后，再上一层楼，来到<CC>[1382 104 -2264]</CC>，与<NPC>Shadow Spears Leader</NPC>对话，拿到`Tower Key`，触发战斗解决掉出现的敌人
 
-### Step 7 XXXX
+![](/assets/img/lv30-6.png)
+
+
+
+### Step 7 补刀
 --- 
 
+用钥匙打开身后泛着绿光的门，然后继续上楼，前往塔顶补刀<mob>Takan</mob>
 
-### Step 8 XXXX
+### Step 8 离开兵营
 --- 
 
+返回<CC>[1374 84 -2179]</CC>与众人会合
 
-### Step 9 XXXX
+![](/assets/img/lv30-7.png)
+
+### Step 9 汇报结果
 --- 
-
-
-### Step 10 XXXX
---- 
-
-
-### Step 11 XXXX
----
-
-
-### Step 12 XXXX
----
-
-
-### Step 13 XXXX
----
-
-
-### Step 14 XXXX
----
+和<NPC>Admiral Amerigo</NPC><CC>[979 85 -1971]</CC>对话
 
 
 ## 剧情省流 / Summary
@@ -91,31 +98,6 @@ icon: scroll
 兰努和梅尔留下清理残局，林顿匆匆离开，阿莱达尔则若有所思地陪同玩家交还徽章，暗示塔坎的控诉背后或许另有隐情。
 
 
-<span class="stage-index">1.</span> 在**Detlas**找到<NPC>Military Scout</NPC><CC>[482 70 -1585]</CC>对话
 
-<span class="stage-index">2.</span> 前往**Almuj**，进入<CC>[983 83 -1973]</CC>的屋子，下楼
-
-<span class="stage-index">3.</span> 开始参加会议
-
-<span class="stage-index">4.</span> 会议结束后，离开会议室，和众人在兵营<CC>[1348 78 -2267]</CC>会和
-
-<span class="stage-index">5.</span> 等队友炸开墙后，潜入兵营，一路杀进去，第一个十字路口直走，然后拐两个弯上楼，一直找路上楼即可
-
-<span class="stage-index">6.</span> 再上一层楼后，来到<CC>[1392 94 -2257]</CC>，偷听众人对话，然后与**Takan**对话时选择<CC>[1]</CC>干掉他
-
->没时间做完所有分支了，等wiki更新看看这里选2会发生啥再更新
-
-<span class="stage-index">7.</span> **Takan**逃跑后，再上一层楼，来到<CC>[1382 104 -2264]</CC>，与士兵队长对话，拿到`Tower Key`，触发战斗解决掉出现的敌人，随后上楼
-
-<span class="stage-index">8.</span> 用钥匙打开面前的塔楼门(泛着绿光的)，然后经过一个小跑酷抵达楼顶，解决掉**Takan**
-
-<span class="stage-index">9.</span> 离开兵营，在<CC>[1374 84 -2179]</CC>与队友会和
-
-<span class="stage-index">10.</span> 回到**Almuj**，和<NPC>Admiral Amerigo</NPC><CC>[979 84 -1971]</CC>对话，交差
-
-奖励
-+ 11000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 384 绿宝石![](/assets/icon/Emerald.png =20x) 
-+ Vindicator(手镯)
 
 
