@@ -183,7 +183,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 这个真的很重要！！！
 :::
 
-## 计时器(Timer)
+## 计时器 / Timer
 
 一旦计时器耗尽或者轮次数耗尽，你都会被立刻结算并且传送回Lootrun Camp
 
@@ -203,7 +203,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 
 
-## 信标(Beacons)
+## 信标 / Beacons
 
 ![](/assets/img/lootrun10.jpg)
 
@@ -229,7 +229,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+5(10)** | 1 |
 | <font color = "grey">**灰色信标**</font> | 从 **3(4)** 个任务中选择1个接取 | 3 |
 | <font color = "red">**红色信标**</font> | 挑战轮数 **+2(4)**，且 **2(4)** 轮内不会有时间奖励 | 无上限 |
-| <font color = FF66FF>**彩虹信标**</font> | 本次lootrun中出现的信标均升级为Vibrant | 1 |
+| <font color = FF66FF>**彩虹信标**</font> | 在接下来的 **10(20)** 轮中，出现的信标均升级为Vibrant | 无上限 |
 
 部分信标有一点需要注意的特性
 
@@ -259,7 +259,7 @@ Vibrant信标拥有原信标的双倍效果
 但是，刷新后该信标消失时，下一轮仍然会继续出现
 :::
 
-## 挑战(Challenges)
+## 挑战 / Challenges
 挑战一共分为5大类
 | 名称 | 目标 | 备注 |
 | --- | --- | --- |
@@ -289,7 +289,7 @@ Vibrant信标拥有原信标的双倍效果
 失败后，你的总轮数上限-1，同时你不会得到该次挑战的信标效果
 :::
 
-## 诅咒(Curses)
+## 诅咒 / Curses
 
 在吃到紫信标或暗灰信标后，你会受到随机诅咒(Curses)
 
@@ -300,10 +300,10 @@ Vibrant信标拥有原信标的双倍效果
 + 生命(每次+40%)
 + 伤害(每次+30%)
 + 攻击速度(每次+25%)
-+ 移动速度(每次+35%)
-+ 抗性(每次+12%，上限84%)
++ 移动速度(每次+35%，上限+200%)
++ 抗性(每次+10%，上限70%)
 
-## 祝福(Boons)
+## 祝福 / Boons
 
 在吃到蓝信标或者有任务加成的紫信标、暗灰信标后，你会受到祝福(boon)
 
@@ -392,7 +392,7 @@ Static祝福**在选择时**的数值为随机数值
 
 :::
 
-## 任务(Quests)
+## 任务 / Quests
 在2.0.4版本中，新增加了任务系统
 
 在完成4轮挑战后，你可以从3个任务中选择一个进行接取
@@ -405,21 +405,29 @@ Static祝福**在选择时**的数值为随机数值
 
 任务在完成对应目标后会提供非常强力的效果
 
-| 名称               | 效果                                                                                                                         |
+| 名称               | 效果     |
 |---------------------|-------------------------------------------------------------------------------------------|
-| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启Flying Chest后，随机清除一个已有的诅咒                                                                              |
-| <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)                                                                                                            |
-| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现                                  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 祝福增加50%额外效果                                                                                                      |
-| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，换取1个额外挑战轮数                                            |
-| <font color='AA00AA'> **Equilibrium** </font>         | 每次得到1个诅咒后，获得1个随机祝福                                                                                         |
-| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半                                                                                                      |
-| <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会                                                                         |
-| <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)                                                                         |
-| <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，会强制扣除300s换取1次最终奖励刷新机会。<br>每一轮结束后，下一次花费增加60s       |
-| <font color='FF5555'> **Redemption** </font>          | 获得1次最终奖励献祭机会                                                                                                          |
-| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次最终奖励献祭机会以及2次最终奖励刷新机会；<br>每当计时器减少2min时，随机清除一个已有祝福；<br>从任意途径获得时间延缓该倒计时       |
-
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启Flying Chest后，随机清除一个已有的诅咒|
+| <font color='FFCC00'> **High Roller** </font>         | 获得2次最终奖励刷新机会(End Reward Reroll)|
+| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再单独出现  |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你从箱子中累计见到20件物品时，获得一个随机祝福  |
+| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计见到20件物品时，从pulls+3，祝福\*1，诅咒\*1，计时器+30s中随机抽取一个并获得  |
+| <font color='FFCC00'> **Treasure Hunting** </font>         | 红色信标现在会给予你一次二选一祝福的机会 |
+| <font color='5555FF'> **Orphion's Grace** </font>     | 祝福增加50%额外效果|
+| <font color='5555FF'> **Gourmand** </font>     | 每当你获得祝福时，获得一次信标重抽机会|
+| <font color='5555FF'> **Porphyrophobia** </font>     | 蓝信标现在会+1pulls，但每次见到紫色信标都会获得一个诅咒|
+| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，换取1个额外挑战轮数  |
+| <font color='AA00AA'> **Equilibrium** </font>         | 每当得到2个诅咒后，获得1个随机祝福|
+| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半|
+| <font color='AA00AA'> **Complete Chaos** </font>         | 每次完成挑战后，有80%的概率额外获得一个随机信标效果|
+| <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
+| <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
+| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个箱子会+1pull，但会扣除10秒时间，每个箱子会使该惩罚时间额外+5s<br>完成任意挑战可使该惩罚时间-10s|
+| <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，会强制扣除300s换取1次奖励刷新机会。<br>每一轮结束后，下一次花费增加60s|
+| <font color='FF5555'> **Redemption** </font>          | 获得1次奖励献祭机会|
+| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次奖励献祭机会以及2次奖励刷新机会；<br>每当计时器减少2min时，随机清除一个已有祝福；<br>从任意途径获得时间延缓该倒计时|
+| <font color='FF5555'> **Safety Seeker** </font>          | 获得2次奖励刷新机会和1次奖励献祭机会，但信标选数-1|
+| <font color='FF5555'> **Warmth Devourer** </font>          | 蓝信标不再出现。每次完成挑战后，花费1个祝福和1个挑战轮数来获得1次奖励献祭机会|
 :::tip
 在完成`获得时间`的条件时
 
