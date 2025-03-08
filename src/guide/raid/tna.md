@@ -9,7 +9,7 @@ icon: ghost
 简称：TNA
 最低等级需求：103
 入场费用：1 Tol Runes
-前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)
+前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20a%20journey%20further.html)
 
 Tna是当前游戏流程内最难的raid之一
 
