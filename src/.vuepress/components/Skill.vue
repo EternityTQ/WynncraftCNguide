@@ -5,17 +5,18 @@
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
     >
-      
-      <div class="skill-name" :style="{ color: categoryColor }">{{ skillData.name }}</div>
-      <img :src="skillData.icon" class="skill-icon" />
+      <div v-if="skillData.name" class="skill-name" :style="{ color: categoryColor }">
+        {{ skillData.name }}
+      </div>
+      <img v-if="skillData.icon" :src="skillData.icon" class="skill-icon" />
       <div
-        v-if="tooltipVisible"
+        v-if="tooltipVisible && skillData.description"
         class="tooltip"
         :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"
         v-html="skillData.description"
       ></div>
     </div>
-  </template>
+</template>
   
   <script>
   import skillData from "./data/skills.json";
@@ -44,6 +45,8 @@
     },
     computed: {
       skillData() {
+        if (!this.skillData.name) return;
+        
         return skillData[this.name] || {
           name: "未知技能",
           icon: "/assets/unknown.png",
@@ -61,6 +64,7 @@
     },
     methods: {
       showTooltip(event) {
+        if (!this.skillData.name) return;
         if (!this.skillData.description) return;
         this.tooltipVisible = true;
         this.updateTooltipPosition(event);
