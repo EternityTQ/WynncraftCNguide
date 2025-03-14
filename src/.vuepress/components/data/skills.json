@@ -139,9 +139,9 @@
   },
   "Frenzy": {
     "name": "极速狂热",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>极速狂热</b></font><br><br><font color=\"BBBBBB\">每命中一次敌人，给自身叠加一层<font color=\"FFFFFF\"> 3%</font> 移动速度(上限70%)，每秒衰减<font color=\"white\"> 10% </font>的移动速度</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>极速狂热</b></font><br><br><font color=\"BBBBBB\">每命中一次敌人，给自身叠加一层<font color=\"FFFFFF\"> 3%</font> 移动速度(上限70%)，每秒衰减<font color=\"white\"> 10% </font>的移动速度</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Guardian_Angels": {
     "name": "守护天使",
