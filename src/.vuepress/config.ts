@@ -1,4 +1,5 @@
 import { defineUserConfig } from "vuepress";
+
 import { registerComponentsPlugin } from '@vuepress/plugin-register-components'
 import theme from "./theme.js";
 

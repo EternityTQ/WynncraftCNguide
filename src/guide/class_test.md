@@ -13,8 +13,8 @@ title: 新技能树测试界面
 |      |      |      |      |<skill name="竖线"/>|      |      |      |      |
 |      |      |      |      |<skill name="Heart_Shatter"/>|      |      |      |      |
 |      |      |      |      |<skill name="竖线"/>|      |      |      |      |
-|      |      |<skill name="Double_Shots"/>|<skill name="横线"/>|<skill name="Escape"/>|<skill name="横线"/>|<skill name="Power_Shots"/>      |      |      |
-|      |      |      |      |      |      |      |      |      |
+|      |      |<skill name="Double_Shots"/>|<skill name="横线"/>|<skill name="Escape"/>|<skill name="横线"/>|<skill name="Power_Shots"/> |      |      |
+|      |      |<skill name="竖线"/>|      |      |      |<skill name="竖线"/>|      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
