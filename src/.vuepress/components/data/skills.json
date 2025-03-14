@@ -11,6 +11,12 @@
     "category": "small",
     "description": "<font color=\"WHITE\"><b>弓箭精通 I</b></font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及范围</font><br>"
   },
+  "测试": {
+    "name": "弓箭精通 I",
+    "icon": "/assets/img/class/small.png",
+    "category": "small",
+    "description": "测试测试测试"
+  },
   "爆炸箭减耗 I": {
     "name": "爆炸箭减耗 I",
     "icon": "/assets/img/class/small.png",
@@ -39,7 +45,7 @@
     "name": "强力箭矢",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"FFFFFF\"><b>强力箭矢</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>射出的箭矢将提高飞行速度以及击退能力</font>"
+    "description": "<font color=\"FFFFFF\"><b>强力箭矢</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>射出的箭矢将提高飞行速度以及击退能力</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "Arrow_Storm": {
     "name": "箭雨",

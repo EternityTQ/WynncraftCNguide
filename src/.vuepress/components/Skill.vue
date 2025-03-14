@@ -32,7 +32,13 @@
           "large": "#FF55FF",
           "medium": "ORANGE",
           "small": "white",
-          "main": "#00BB00"
+          "main": "#00BB00",
+          "blue": "#97E6FC",
+          "archer_green": "#00BB00",
+          "assassin_green": "#00BB00",
+          "mage_green": "#00BB00",
+          "shaman_green": "#00BB00",
+          "warrior_green": "#00BB00",
         }
       };
     },
@@ -46,7 +52,11 @@
         };
       },
       categoryColor() {
-        return this.categoryColors[this.skillData.category] || "#FFFFFF";
+        let color = this.categoryColors[this.skillData.category] || "white";
+      if (color === "white") {
+        color = this.$isDarkmode ? "rgb(208, 208, 217)" : "rgb(60,60,67)";
+      }
+      return color;
       }
     },
     methods: {
@@ -78,7 +88,9 @@
   <style>
 .skill-container {
   position: relative;
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .skill-icon {
   width: 40px;
@@ -87,6 +99,12 @@
 .skill-name {
   font-size: 12px;
   font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  white-space: nowrap;
+  width: 100%;
 }
 .tooltip {
     position: fixed;
