@@ -1,11 +1,11 @@
 {
-  "爆炸箭": {
+  "Arrow_Bomb": {
     "name": "爆炸箭",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
     "description": "<font color=\"#00BB00\"><b>爆炸箭</b></font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">射出一支远距离的箭矢，其命中后会爆炸，并在大范围内造成伤害。</font><font color=\"555555\"><br>(并对自己造成爆炸伤害10%的伤害)</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">45</font><br>范围：<font color=\"white\">26格</font><br>爆炸范围：<font color=\"white\">4.5格</font></font>"
   },
-  "弓箭精通 I": {
+  "Bow_Proficiency I": {
     "name": "弓箭精通 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
@@ -17,7 +17,7 @@
     "category": "small",
     "description": "测试测试测试"
   },
-  "爆炸箭减耗 I": {
+  "Cheaper_Arrow_Bomb I": {
     "name": "爆炸箭减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
@@ -67,9 +67,9 @@
   },
   "Windy_Feet": {
     "name": "疾风步伐",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>疾风步伐</b></font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>会给予你和周围的友军一段时间的速度加成</font><br><br><font color=\"BBBBBB\">效果：<font color=\"white\">+20%</font>速度加成      <br>持续时间：<font color=\"white\">120秒</font></font><br>范围：<font color=\"white\">8格</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>疾风步伐</b></font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>会给予你和周围的友军一段时间的速度加成</font><br><br><font color=\"BBBBBB\">效果：<font color=\"white\">+20%</font>速度加成      <br>持续时间：<font color=\"white\">120秒</font><br>范围：<font color=\"white\">8格</font></font>"
   },
   "Air_Mastery_(Archer)": {
     "name": "气元素精通",
@@ -103,39 +103,39 @@
   },
   "Nimble_String": {
     "name": "迅捷弓弦",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>迅捷弓弦</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>的箭矢飞行速度加倍，同时每道箭流额外<font color=\"white\"> +6 </font>根箭矢      <br><br>每根箭矢的伤害 <font color=\"FF5555\"> -10% </font></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"#FF55FF\"><b>迅捷弓弦</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>的箭矢飞行速度加倍，同时每道箭流额外<font color=\"white\"> +6 </font>根箭矢      <br><br>每根箭矢的伤害 <font color=\"FF5555\"> -10% </font></font>"
   },
   "Arrow_Rain": {
     "name": "箭雨滂沱",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"FFFFFF\"><b>箭雨滂沱</b></font><br><br><font color=\"BBBBBB\">当<u>箭盾</u>的次数耗尽时，在你的周围喷涌出<font color=\"WHITE\">150</font>根箭矢，倾泻在周围的敌人身上</font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>箭雨滂沱</b></font><br><br><font color=\"BBBBBB\">当<u>箭盾</u>的次数耗尽时，在你的周围喷涌出<font color=\"WHITE\">150</font>根箭矢，倾泻在周围的敌人身上</font>"
   },
   "Bryophyte_Roots": {
     "name": "苔藓缠身",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>苔藓缠身</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>击中敌人时，生成一个苔藓圈，圈内敌人减速且每<font color=\"white\"> 0.4秒 </font>持续受到伤害      <br><br>减速效果：<font color=\"WHITE\"> +40% </font><br>持续时间：<font color=\"WHITE\"> 5秒 </font></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>苔藓缠身</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>击中敌人时，生成一个苔藓圈，圈内敌人受到减速且每<font color=\"white\"> 0.4秒 </font>受到一次伤害      <br><br>减速效果：<font color=\"WHITE\"> +40% </font><br>持续时间：<font color=\"WHITE\"> 5秒 </font></font>"
   },
   "Fire_Creep": {
     "name": "烈火蔓延",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>烈火蔓延</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>将会点燃飞行沿途区域持续<font color=\"FFFFFF\">6秒</font>(3秒冷却)，期间持续对在其上方的敌人每<font color=\"white\"> 0.4秒 </font>造成伤害</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>烈火蔓延</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>将会点燃飞行沿途区域持续<font color=\"FFFFFF\">6秒</font>(3秒冷却)，期间持续对在其上方的敌人每<font color=\"white\"> 0.4秒 </font>造成伤害</font>"
   },
   "Phantom_Ray": {
     "name": "幻影射线",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>幻影射线</b></font><br><br><font color=\"BBBBBB\">将<u>箭雨</u>浓缩为一条射线，对敌人造成<font color=\"WHITE\">10次</font>伤害</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">-5</font><br>范围：<font color=\"white\">16格</font><br>持续时间：<font color=\"white\">1.2秒</font></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>幻影射线</b></font><br><br><font color=\"BBBBBB\">将<u>箭雨</u>浓缩为一条射线，对敌人造成<font color=\"WHITE\">10次</font>伤害</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">-5</font><br>范围：<font color=\"white\">16格</font><br>持续时间：<font color=\"white\">1.2秒</font></font>"
   },
   "Triple_Shots": {
     "name": "三重射击",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>三重射击</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color=\"FF5555\">-20%</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>三重射击</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color=\"FF5555\">-10%</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">对于每根箭矢，其生命窃取、法力窃取以及粉末主动充能效率降低至33%</font>"
   },
   "Frenzy": {
     "name": "极速狂热",
@@ -143,29 +143,29 @@
     "category": "medium",
     "description": "<font color=\"ORANGE\"><b>极速狂热</b></font><br><br><font color=\"BBBBBB\">每命中一次敌人，给自身叠加一层<font color=\"FFFFFF\"> 3%</font> 移动速度(上限70%)，每秒衰减<font color=\"white\"> 10% </font>的移动速度</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
-  "守护天使": {
+  "Guardian_Angels": {
     "name": "守护天使",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>守护天使</b></font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的功能将转换为召唤2个守护天使，其可以自动攻击周围的怪物至多 <font color=\"WHITE\"> 8 </font>次      <br><br>范围：<font color=\"WHITE\"> 6格</font><br>持续时间：<font color=\"WHITE\"> 60秒</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font></font>"
+    "description": "<font color=\"FF5555\"><b>守护天使</b></font><br><br><font color=\"BBBBBB\">释放<u>箭盾</u>将转为召唤 <font color=white>2</font> 个守护天使，其可以自动攻击周围的怪物至多 <font color=\"WHITE\"> 8 </font>次      <br><br>范围：<font color=\"WHITE\"> 6格</font><br>持续时间：<font color=\"WHITE\"> 60秒</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font></font>"
   },
-  "磐石陷阱": {
+  "Basaltic_Trap": {
     "name": "磐石陷阱",
     "icon": "/assets/img/class/special.png",
     "category": "special",
     "description": "<font color=\"FF5555\"><b>磐石陷阱</b></font><br><br><font color=\"BBBBBB\">使用<u>爆炸箭</u>击打到地面时，留下一个可以伤害到敌人的<font color=\"AQUA\">陷阱</font>(至多2个)      <br><br>触发范围：<font color=\"WHITE\"> 2格</font><br>爆炸范围：<font color=\"WHITE\"> 7格</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><font color=\"AQUA\">陷阱</font>放置后，有1.5秒无法引爆的启动时间，并且会在30秒后自动引爆</font>"
   },
-  "全神贯注": {
+  "Focus": {
     "name": "全神贯注",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>全神贯注</b></font><br><br><font color=\"BBBBBB\">当攻击到<font color=\"WHITE\"> 5格以外 </font>的敌人时，获得一层<font color=\"aqua\">专注值</font>(上限3层，1.1秒的获得冷却)      <br><font color=\"555555\">当攻击未命中目标时，失去所有已叠加的专注值</font><br><br>伤害加成：<font color=\"WHITE\">+15%</font><font color=\"555555\">(每层专注值)</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>幻影射线</u>只需要命中一次敌人就不会丢失专注值。      <br><u>爆炸箭</u>必须要直接击打到敌人才不会丢失专注值。      <br>随从的攻击无法给自身叠加专注值。      <br>类似<u>箭雨滂沱</u>的技能，一旦有一根箭矢空箭了，就算作一次失误。</font>"
+    "description": "<font color=\"FF5555\"><b>全神贯注</b></font><br><br><font color=\"BBBBBB\">当攻击到<font color=\"WHITE\"> 5格以外 </font>的敌人时，获得一层<font color=\"aqua\">专注值</font>(上限3层，CD为1.1秒)      <br><font color=\"555555\">当攻击未命中目标时，失去所有已叠加的专注值</font><br><br>伤害加成：<font color=\"WHITE\">+15%</font><font color=\"555555\">(每层专注值)</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>幻影射线</u>只需要命中一次敌人就不会丢失专注值。      <br><u>爆炸箭</u>必须要直接击打到敌人才不会丢失专注值。      <br>随从的攻击无法给自身叠加专注值。      <br>类似<u>箭雨滂沱</u>的技能，一旦有一根箭矢空箭了，就算作一次失误。</font>"
   },
   "Windstorm": {
     "name": "风暴箭阵",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>风暴箭阵</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>将额外射出<font color=\"white\"> +1 </font>道箭流，且每道箭流额外 <font color=\"white\">+2 </font>支箭</font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>风暴箭阵</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>将额外射出<font color=\"white\"> +1 </font>道箭流，且每道箭流额外 <font color=\"white\">+2 </font>支箭<br><br>在空中释放<u>箭雨</u>时，获得后坐力</font>"
   },
   "Cheaper_Arrow_Storm_I": {
     "name": "箭雨减耗 I",
@@ -179,17 +179,17 @@
     "category": "medium",
     "description": "<font color=\"ORANGE\"><b>聚爆</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>会将敌人拉向自己。如果周围有<font color=\"aqua\">陷阱</font>，则会将怪物拉向<font color=\"aqua\">陷阱</font>而不是自己      <br><br>额外增加<u>碎心</u>的伤害</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
-  "More_Shields": {
-    "name": "盾牌精修",
+  "Arrow_Wall": {
+    "name": "众矢成墙",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>盾牌精修</b></font><br><br><font color=\"BBBBBB\"><u>箭盾</u>增加<font color=\"FFFFFF\"> 2 </font>次耐久      <br><br><u>守护天使</u>的数量<font color=\"FFFFFF\"> +2 </font>，同时降低伤害</font>"
+    "description": "<font color=\"#FFFFFF\"><b>众矢成墙</b></font><br><br><font color=\"BBBBBB\"><u>箭盾</u>增加<font color=\"FFFFFF\"> 2 </font>次耐久      <br><br><u>守护天使</u>的数量<font color=\"FFFFFF\"> +2 </font>，同时降低伤害</font>"
   },
   "Patient_Hunter": {
     "name": "韬光养晦",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>韬光养晦</b></font><br><br><font color=\"BBBBBB\">你的<font color=\"aqua\">陷阱</font>在激活后，每秒 <font color=\"FFFFFF\">+20% </font>伤害。(上限+100%)</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>韬光养晦</b></font><br><br><font color=\"BBBBBB\">你的<font color=\"aqua\">陷阱</font>在激活后，每秒 <font color=\"FFFFFF\">+20% </font>伤害。(上限+100%)<br><br>你的<font color=aqua>陷阱</font>数量上限<font color=white> +1 </font></font><font color=\"00AA00\"><br><br><b>陷阱射手 分支</b></font>"
   },
   "Grappling_Hook": {
     "name": "抓钩",

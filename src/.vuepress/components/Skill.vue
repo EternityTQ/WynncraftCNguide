@@ -97,7 +97,7 @@
   height: 40px;
 }
 .skill-name {
-  font-size: 12px;
+  font-size: 10px;
   font-weight: bold;
   display: flex;
   justify-content: center;
