@@ -264,22 +264,22 @@
     "description": "<font color=\"#FFFFFF\"><b>炙热地表</b></font><br><br><font color=\"BBBBBB\"><u>火焰轨迹</u>的伤害增加，持续时间增加<font color=\"FFFFFF\"> 2秒 </font></font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "More_Traps": {
-    "name": "更多陷阱",
+    "name": "陷阱扩容",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>更多陷阱</b></font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">陷阱</font>的数量上限<font color=\"white\">+2</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>陷阱扩容</b></font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">陷阱</font>的数量上限<font color=\"white\"> +3</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
   "Refined_Gunpowder": {
-    "name": "精致火药",
+    "name": "精制火药",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>精致火药</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的基础伤害增加<font color=\"FFFFFF\"> +50%</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>精制火药</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的基础伤害增加<font color=\"FFFFFF\"> +50%</font></font>"
   },
   "Fierce_Stomp": {
     "name": "急速踹击",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>急速踹击</b></font><br><br><font color=\"BBBBBB\">在使用<u>逃脱</u>时，按住SHIFT将极速下落，并在落地时造成伤害。      <br><br>伤害半径：<font color=\"white\">4格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>急速踹击</b></font><br><br><font color=\"BBBBBB\">在使用<u>逃脱</u>时，按住SHIFT将极速下落，并在落地时造成伤害。      <br><br>伤害半径：<font color=\"white\">4格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Cheaper_Arrow_Shield_I": {
     "name": "箭盾减耗 I",
