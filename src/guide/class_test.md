@@ -34,10 +34,9 @@ title: 新技能树测试界面
 |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |<skill name="Rocket_Jump"/>|<skill name="竖线"/>|<skill name="Scorched_Earth"/>|<skill name="竖线"/>|
 |<skill name="竖线"/>|      |      |<skill name="More_Traps"/>|<skill name="左下"/>|      |<skill name="竖线"/>|      |<skill name="竖线"/>|
 |<skill name="Refined_Gunpowder"/>|<skill name="丁字"/>|<skill name="Fierce_Stomp"/>|<skill name="丁字"/>|<skill name="Cheaper_Arrow_Shield_I"/>|<skill name="丁字"/>|<skill name="Honed_Shield"/>|<skill name="丁字"/>|<skill name="Shocking_Bomb"/>|
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
+|<skill name="竖线"/>|<skill name="Bounding_Stride"/>|<skill name="竖线"/>|<skill name="竖线"/>|      |<skill name="Homing_Shots"/>|      |<skill name="竖线"/>|      |
+|<skill name="竖线"/>|      |<skill name="竖线"/>|<skill name="竖线"/>|      |      |      |<skill name="竖线"/>|      |
+|<skill name="竖线"/>|      |<skill name="竖线"/>|<skill name="Mana_Trap"/>|<skill name="丁字"/>|<skill name="Cheaper_Arrow_Storm_II"/>|<skill name="丁字"/>|<skill name="Initiator"/>|      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |

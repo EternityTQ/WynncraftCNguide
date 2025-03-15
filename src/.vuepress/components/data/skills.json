@@ -299,23 +299,23 @@
     "category": "large",
     "description": "<font color=\"FF55FF\"><b>震慑爆弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>不再受到重力下坠影响，同时增加爆炸伤害</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b> </font>"
   },
-  "Better_Leap": {
-    "name": "飞跃精通",
+  "Bounding_Stride": {
+    "name": "闪击步伐",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>飞跃精通</b></font><br><br><font color=\"BBBBBB\"><u>飞跃</u>的冷却时间<font color=\"FFFFFF\"> -1s</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>闪击步伐</b></font><br><br><font color=\"BBBBBB\"><u>飞跃</u>的冷却时间<font color=\"FFFFFF\"> -2s</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Homing_Shots": {
-    "name": "导引箭",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>导引箭</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>将自动锁定周围的敌人，且不再受到重力下坠影响</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b> </font>"
+    "name": "导引箭矢",
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>导引箭矢</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>将自动锁定周围的敌人，且不再受到重力下坠影响</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b> </font>"
   },
-  "法力陷阱": {
+  "Mana_Trap": {
     "name": "法力陷阱",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>法力陷阱</b></font><br><br><font color=\"BBBBBB\">你的每个<font color=\"aqua\">陷阱</font>每秒将给予你<font color=\"white\"> 0.5 </font>法力，在爆炸时，回收<font color=\"white\"> 10 </font>法力。      <br><br>蓝耗：<font color=\"FF5555\">+10</font><br>恢复范围：<font color=\"white\">16格</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">只有处于恢复范围内，才能回收到每秒以及爆炸的蓝耗。当处于回收范围时，陷阱会变成蓝色</font>"
+    "description": "<font color=\"FF5555\"><b>法力陷阱</b></font><br><br><font color=\"BBBBBB\">你的每个<font color=\"aqua\">陷阱</font>每秒将给予你<font color=\"white\"> 0.5 </font>法力，其在爆炸时，回收<font color=\"white\"> 10 </font>法力。<br><br>你的<font color=\"aqua\">陷阱</font>数量上限<font color=\"white\"> +1 </font>      <br><br>蓝耗：<font color=\"FF5555\">+10</font><br>恢复范围：<font color=\"white\">16格</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">只有处于恢复范围内，才能回收到法力。当处于回收范围时，陷阱会变成蓝色</font>"
   },
   "Cheaper_Arrow_Storm_II": {
     "name": "箭雨减耗 II",
