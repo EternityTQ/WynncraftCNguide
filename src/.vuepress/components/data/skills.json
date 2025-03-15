@@ -285,19 +285,19 @@
     "name": "箭盾减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 I</b></font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 I</b></font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
-  "Better_Arrow_Shield": {
+  "Honed_Shield": {
     "name": "箭盾精制",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>箭盾精制</b></font><br><br><font color=\"BBBBBB\">增加<u>箭盾</u>的伤害半径、击退能力以及伤害      <br><br><u>守护天使</u>的伤害些许增加      <br><br>伤害半径：<font color=\"white\">+1格</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>箭盾精制</b></font><br><br><font color=\"BBBBBB\">增加<u>箭盾</u>的伤害半径、击退能力以及伤害      <br><br><u>守护天使</u>的伤害些许增加</font>"
   },
   "Shocking_Bomb": {
-    "name": "震撼弹",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>震撼弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>不再受到重力下坠影响，同时增加爆炸伤害</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b> </font>"
+    "name": "震慑爆弹",
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>震慑爆弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>不再受到重力下坠影响，同时增加爆炸伤害</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b> </font>"
   },
   "Better_Leap": {
     "name": "飞跃精通",
