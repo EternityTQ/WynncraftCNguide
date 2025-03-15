@@ -39,6 +39,8 @@
           "mage_green": "#00BB00",
           "shaman_green": "#00BB00",
           "warrior_green": "#00BB00",
+          "light_green": "#00FF00",
+          "dark":"#555555"
         }
       };
     },

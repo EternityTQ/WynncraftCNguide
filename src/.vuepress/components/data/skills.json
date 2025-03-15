@@ -31,9 +31,9 @@
   },
   "Double_Shots": {
     "name": "双发箭矢",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"FFFFFF\"><b>双发箭矢</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>将同时射出两发箭矢</font><br><font color=\"BBBBBB\">但每支箭矢的伤害将会降低<font color=\"FF5555\">30%</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>双发箭矢</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>将同时射出两发箭矢，</font><font color=\"BBBBBB\">但每支箭矢的伤害将会降低<font color=\"FF5555\">40%</font><font color=\"555555\"><br>(更难命中较远的敌人)</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Escape": {
     "name": "逃脱",
@@ -43,15 +43,15 @@
   },
   "Power_Shots": {
     "name": "强力箭矢",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"FFFFFF\"><b>强力箭矢</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>射出的箭矢将提高飞行速度以及击退能力</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>强力箭矢</b></font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>射出的箭矢具有更高的飞行速度以及击退能力</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "Arrow_Storm": {
     "name": "箭雨",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>箭雨</b></font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">35</font><br>范围：<font color=\"white\">16格</font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">每支箭矢在发射时，均会对玩家造成小幅后坐力</font>"
+    "description": "<font color=\"#00BB00\"><b>箭雨</b></font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">35</font><br>范围：<font color=\"white\">16格</font></font>"
   },
   "Cheaper_Escape_I": {
     "name": "逃脱减耗 I",
@@ -193,51 +193,57 @@
   },
   "Grappling_Hook": {
     "name": "抓钩",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>抓钩</b></font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的功能转换为投掷出一个钩子，当钩子抓取到方块时，会将你快速拉向方块；当钩子抓取到怪物时，会将怪物拉向你。      <br><br>范围：<font color=\"white\">30格</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>抓钩</b></font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的功能转换为投掷出一个钩子，当钩子抓取到方块时，会将你快速拉向方块；当钩子抓取到怪物时，会将怪物拉向你。      <br><br>范围：<font color=\"white\">30格</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font></font>"
   },
   "More_Focus_I": {
-    "name": "更加专注",
+    "name": "专心致志",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>更加专注</b></font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2 </font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>专心致志</b></font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2 </font></font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "Stormy_Feet": {
     "name": "暴风步伐",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>暴风步伐</b></font><br><br><font color=\"BBBBBB\"><u>疾风步伐</u>的持续时间及速度效果额外增加      <br><br>速度加成：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">+60秒</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>暴风步伐</b></font><br><br><font color=\"BBBBBB\"><u>疾风步伐</u>的持续时间及速度效果额外增加      <br><br>速度加成：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">+60秒</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Call_of_the_Hound": {
-    "name": "猎犬的呼唤",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>猎犬的呼唤</b></font><br><br><font color=\"BBBBBB\">使用<u>箭盾</u>将召唤一只<font color=\"aqua\">猎犬</font>，其会攻击敌人，并将敌人拉向你的陷阱      <br><br>猎犬索敌范围：<font color=\"white\">18格</font><br>持续时间：<font color=\"white\">60秒</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "name": "猎犬呼啸",
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>猎犬呼啸</b></font><br><br><font color=\"BBBBBB\">使用<u>箭盾</u>将召唤一只<font color=\"aqua\">猎犬</font>，其会攻击敌人，并将敌人拉向你的陷阱      <br><br>猎犬索敌范围：<font color=\"white\">18格</font><br>持续时间：<font color=\"white\">60秒</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+  },
+  "Phantom_Force": {
+    "name": "幻影之力",
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>幻影之力</b></font><br><br><font color=\"BBBBBB\"><u>幻影射线</u>的可攻击范围增加，同时射线自身增加宽度</font>"
   },
   "Leap": {
     "name": "飞跃",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>飞跃</b></font><br><br><font color=\"BBBBBB\">在空中二段跳时，向前飞跃一段距离(2秒冷却)</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"#FF55FF\"><b>飞跃</b></font><br><br><font color=\"BBBBBB\">在空中二段跳时，向前飞跃一段距离。<br>飞跃的距离会取决于你的移动速度。<br><br>冷却时间: <font color=white>4秒</font</font>"
   },
   "Traveler": {
-    "name": "旅行者",
+    "name": "风行旅者",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>旅行者</b></font><br><br><font color=\"BBBBBB\">你的装备鉴定词条每有<font color=\"FFFFFF\"> 1% </font>的移动速度，就获得<font color=\"FFFFFF\"> 1 </font>点无属性技能伤害(至多+100点)</font>"
+    "description": "<font color=\"#FFFFFF\"><b>风行旅者</b></font><br><br><font color=\"BBBBBB\">你的装备鉴定词条每有<font color=\"FFFFFF\"> 1% </font>的移动速度，就增加<font color=\"FFFFFF\"> 1 </font>点无属性技能伤害(至多+100点)</font>"
   },
   "Bouncing_Bomb": {
     "name": "弹跳炸弹",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>弹跳炸弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>攻击到敌人或击打到地面时，弹跳一次</font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>弹跳炸弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>攻击到敌人或击打到地面时，弹跳一次。</font>"
   },
   "Ivyroot_Mamba": {
     "name": "蔓生毒蝰",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>蔓生毒蝰</b></font><br><br><font color=\"BBBBBB\"><u>假根</u>在消失后将召唤<font color=\"aqua\">猎蛇</font>，其会向敌人吐出虚弱毒液(召唤上限为1)      <br>被攻击到的敌人将被虚弱<font color=\"white\"> 1.5 </font>秒      <br><br>虚弱效果：<font color=\"white\">攻击-15%</font><br>猎蛇索敌范围：<font color=\"white\">12格</font><br>持续时间：<font color=\"white\">18秒</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>蔓生毒蝰</b></font><br><br><font color=\"BBBBBB\"><u>苔藓缠身</u>的效果消失后将召唤<font color=\"aqua\">猎蛇</font>，其会向敌人吐出虚弱毒液(召唤上限为1)      <br>被攻击到的敌人将被虚弱<font color=\"white\"> 1.5 </font>秒      <br><br>虚弱效果：<font color=\"white\">攻击 -15%</font><br>猎蛇索敌范围：<font color=\"white\">12格</font><br>持续时间：<font color=\"white\">18秒</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
   "Twain's_Arc": {
     "name": "吐温虹弧",
@@ -247,15 +253,15 @@
   },
   "Rocket_Jump": {
     "name": "火箭飞跃",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>火箭飞跃</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的反冲力增加，同时其对自己造成的伤害降低至<font color=\"FFFFFF\"> 1% </font></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>火箭飞跃</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的反冲力增加，同时其对自己造成的伤害降低至<font color=\"FFFFFF\"> 5% </font></font>"
   },
   "Scorched_Earth": {
-    "name": "灼焦的地表",
+    "name": "炙热地表",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>灼焦的地表</b></font><br><br><font color=\"BBBBBB\"><u>火焰轨迹</u>的伤害增加，持续时间增加<font color=\"FFFFFF\"> 2秒 </font></font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>炙热地表</b></font><br><br><font color=\"BBBBBB\"><u>火焰轨迹</u>的伤害增加，持续时间增加<font color=\"FFFFFF\"> 2秒 </font></font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "More_Traps": {
     "name": "更多陷阱",
