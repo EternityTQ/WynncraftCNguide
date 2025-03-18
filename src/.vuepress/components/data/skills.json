@@ -325,27 +325,27 @@
   },
   "Decimator": {
     "name": "聚能连击",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>聚能连击</b></font><br><br><font color=\"BBBBBB\"><u>幻影射线</u>每连续攻击到一次敌人且不空箭时，伤害<font color=\"white\">+10%</font>。(至多70%)</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>聚能连击</b></font><br><br><font color=\"BBBBBB\"><u>幻影射线</u>每连续攻击到一次敌人时，伤害<font color=\"white\">+10%</font>。(至多70%)<br><br><u>幻影射线</u>的直线攻击范围增加</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
-  "Better_Guardian_Angels": {
-    "name": "强化守护天使",
+  "Vigilant_Sentinels": {
+    "name": "警戒模式",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>强化守护天使</b></font><br><br><font color=\"BBBBBB\"><u>守护天使</u>将增加范围，同时在消失前可以额外攻击<font color=\"FFFFFF\"> 4 </font>次。      <br><br>攻击范围：<font color=\"white\">+2格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>警戒模式</b></font><br><br><font color=\"BBBBBB\"><u>守护天使</u>将增加范围，同时在消失前可以额外攻击<font color=\"FFFFFF\"> 4 </font>次。      <br><br>攻击范围：<font color=\"white\">+2格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Escape_Artist": {
-    "name": "逃脱艺术家",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>逃脱艺术家</b></font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>时，往后跳的反方向倾泻<font color=\"FFFFFF\"> 100 </font>根箭矢。      <br><br><font color=\"00FF00\">备注</font><br>怪物只能吃到同一次技能内的1根箭矢</font>"
+    "name": "逃脱艺术",
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>逃脱艺术</b></font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>时，往后跳的反方向倾泻<font color=\"FFFFFF\"> 100 </font>根箭矢。      <br><br><font color=\"00FF00\">备注</font><br>怪物只能吃到同一次技能内的1根箭矢</font>"
   },
   "Murder_Flock": {
     "name": "雾鸦群袭",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>雾鸦群袭</b></font><br><br><font color=\"BBBBBB\">当<u>磐石陷阱</u>爆炸后，召唤一只<font color=\"aqua\">乌鸦</font>去啄击敌人。(上限2只)      <br>敌人在被攻击时会被失明<font color=\"white\"> 0.2秒</font><br><br>乌鸦索敌范围：<font color=\"white\">18格</font><br>持续时间：<font color=\"white\">12秒</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>雾鸦群袭</b></font><br><br><font color=\"BBBBBB\">当<u>磐石陷阱</u>爆炸后，召唤一只<font color=\"aqua\">乌鸦</font>去啄击敌人。(上限2只)      <br>敌人在被攻击时会被失明<font color=\"white\"> 0.2秒</font><br><br>乌鸦索敌范围：<font color=\"white\">18格</font><br>持续时间：<font color=\"white\">12秒</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
   "Initiator": {
     "name": "羽下藏锋",
@@ -357,7 +357,7 @@
     "name": "相位光束",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>相位光束</b></font><br><br><font color=\"BBBBBB\"><u>吐温虹弧</u>充能速度增加<font color=\"WHITE\"> 20%</font> ，且现在能穿透<font color=\"WHITE\"> 5 </font>个敌人，激光伤害在穿透后将会下降</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+    "description": "<font color=\"ORANGE\"><b>相位光束</b></font><br><br><font color=\"BBBBBB\"><u>吐温虹弧</u>充能速度增加<font color=\"WHITE\"> 20%</font> ，且现在能穿透<font color=\"WHITE\"> 5 </font>个敌人，激光伤害在穿透后将会下降。</font><br><font color=#555555>(该伤害视作<u>普通攻击</u>伤害)</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "Recycling": {
     "name": "箭矢回收",

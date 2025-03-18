@@ -37,8 +37,8 @@ title: 新技能树测试界面
 |<skill name="竖线"/>|<skill name="Bounding_Stride"/>|<skill name="竖线"/>|<skill name="竖线"/>|      |<skill name="Homing_Shots"/>|      |<skill name="竖线"/>|      |
 |<skill name="竖线"/>|      |<skill name="竖线"/>|<skill name="竖线"/>|      |      |      |<skill name="竖线"/>|      |
 |<skill name="竖线"/>|      |<skill name="竖线"/>|<skill name="Mana_Trap"/>|<skill name="丁字"/>|<skill name="Cheaper_Arrow_Storm_II"/>|<skill name="丁字"/>|<skill name="Initiator"/>|      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
+|<skill name="Vigilant_Sentinels"/>|<skill name="横线"/>|<skill name="Escape_Artist"/>|<skill name="横线"/>|<skill name="Murder_Flock"/>|<skill name="丁字"/>|<skill name="Decimator"/>|<skill name="丁字"/>|<skill name="Phasing_Beam"/>|
+|<skill name="竖线"/>|      |<skill name="竖线"/>|      |<skill name="竖线"/>|      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
