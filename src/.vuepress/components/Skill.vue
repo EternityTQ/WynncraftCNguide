@@ -4,6 +4,7 @@
       @mouseover="showTooltip"
       @mousemove="updateTooltipPosition"
       @mouseleave="hideTooltip"
+      @click.stop="toggleTooltipFixed"
     >
       
       <div class="skill-name" :style="{ color: categoryColor }">{{ skillData.name }}</div>
@@ -11,6 +12,7 @@
       <div
         v-if="tooltipVisible"
         class="tooltip"
+        ref="tooltip"
         :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }"
         v-html="skillData.description"
       ></div>
@@ -24,9 +26,12 @@
     props: ["name"],
     data() {
       return {
+        isTooltipFixed: false,
         tooltipVisible: false,
         tooltipTop: 0,
         tooltipLeft: 0,
+        fixedPageX: 0,
+        fixedPageY: 0,
         categoryColors: {
           "special": "#FF5555",
           "large": "#FF55FF",
@@ -64,15 +69,54 @@
     methods: {
       showTooltip(event) {
         if (!this.skillData.description) return;
-        this.tooltipVisible = true;
+        if (!this.isTooltipFixed) this.tooltipVisible = true;
         this.updateTooltipPosition(event);
       },
       hideTooltip() {
+        if (!this.isTooltipFixed) this.tooltipVisible = false;
+      },
+      onMouseLeave() {
+        this.hideTooltip();
+      },
+      toggleTooltipFixed(event) {
+        const tooltipEl = this.$refs.tooltip;
+        if (tooltipEl && tooltipEl.contains(event.target)) {
+          console.log("点击在当前 tooltip 内部，不切换固定状态");
+          return;
+        }
+      this.isTooltipFixed = !this.isTooltipFixed;
+      if (this.isTooltipFixed) {
+        this.fixedPageX = event.pageX;
+        this.fixedPageY = event.pageY;
+        this.updateTooltipFixedPosition();
+      }
+
+      this.tooltipVisible = this.isTooltipFixed;
+    },
+      updateTooltipFixedPosition() {
+        if (this.isTooltipFixed) {
+          this.tooltipTop = this.fixedPageY - window.scrollY + 10;
+          this.tooltipLeft = this.fixedPageX - window.scrollX + 10;
+        }
+      },
+      handleClickOutside(event) {
+
+        const tooltipEl = document.querySelector(".tooltip");
+        console.log("event.target:", event.target);
+        if (tooltipEl && tooltipEl.contains(event.target)) {
+          console.log("点击在 tooltip 内部，不关闭");
+          return; // 不隐藏
+        }
+        this.isTooltipFixed = false;
         this.tooltipVisible = false;
+        
       },
       updateTooltipPosition(event) {
         if (!event) return;
-        
+        if (this.isTooltipFixed) return;
+        this.tooltipTop = event.clientY + 10;
+        this.tooltipLeft = event.clientX + 10;
+        /*
         this.$nextTick(() => {
         this.tooltipTop = event.pageY - window.scrollY + 10;
         this.tooltipLeft = event.pageX + 10;
@@ -81,9 +125,20 @@
         } else if (event.clientX > window.innerWidth *0.58) {
             this.tooltipLeft -= 330;
         }
-        });
+        }
+        );*/
       }
-    }
+    },
+    mounted() {
+      this.boundHandleClickOutside = this.handleClickOutside.bind(this);
+  document.addEventListener("click", this.boundHandleClickOutside);
+  window.addEventListener("scroll", this.updateTooltipFixedPosition);
+  },
+  beforeDestroy() {
+    document.removeEventListener("click", this.handleClickOutside);
+    window.removeEventListener("scroll", this.updateTooltipFixedPosition);
+  },
+
   };
   </script>
   

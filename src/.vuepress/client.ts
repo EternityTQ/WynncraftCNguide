@@ -5,6 +5,7 @@ import Copy from "./components/Copy.vue";
 import mob from "./components/Mob.vue";
 import guard from "./components/Guard.vue";
 import skill from "./components/Skill.vue";
+import tip from "./components/Tip.vue"
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
     app.component("CC", CC);
@@ -13,5 +14,6 @@ export default defineClientConfig({
     app.component("mob", mob);
     app.component("guard", guard);
     app.component("skill", skill);
+    app.component("tip", tip);
   },
 });
