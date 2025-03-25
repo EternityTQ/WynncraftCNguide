@@ -9,7 +9,7 @@
     "name": "弓箭精通 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"WHITE\"><b>弓箭精通 I</b></font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及范围</font><br>"
+    "description": "<font color=\"WHITE\"><b>弓箭精通 I</b></font><br><br><font color=\"BBBBBB\">增加<tip name=\"普通攻击\">普通攻击</tip>的伤害及范围</font><br>"
   },
   "测试": {
     "name": "弓箭精通 I",
@@ -330,10 +330,10 @@
     "description": "<font color=\"FF55FF\"><b>聚能连击</b></font><br><br><font color=\"BBBBBB\"><u>幻影射线</u>每连续攻击到一次敌人时，伤害<font color=\"white\">+10%</font>。(至多70%)<br><br><u>幻影射线</u>的直线攻击范围增加</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "Vigilant_Sentinels": {
-    "name": "警戒模式",
+    "name": "警戒哨卫",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>警戒模式</b></font><br><br><font color=\"BBBBBB\"><u>守护天使</u>将增加范围，同时在消失前可以额外攻击<font color=\"FFFFFF\"> 4 </font>次。      <br><br>攻击范围：<font color=\"white\">+2格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>警戒哨卫</b></font><br><br><font color=\"BBBBBB\"><u>守护天使</u>将增加范围，同时在消失前可以额外攻击<font color=\"FFFFFF\"> 4 </font>次。      <br><br>攻击范围：<font color=\"white\">+2格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Escape_Artist": {
     "name": "逃脱艺术",
@@ -359,65 +359,83 @@
     "category": "medium",
     "description": "<font color=\"ORANGE\"><b>相位光束</b></font><br><br><font color=\"BBBBBB\"><u>吐温虹弧</u>充能速度增加<font color=\"WHITE\"> 20%</font> ，且现在能穿透<font color=\"WHITE\"> 5 </font>个敌人，激光伤害在穿透后将会下降。</font><br><font color=#555555>(该伤害视作<u>普通攻击</u>伤害)</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
+  "Spectral_Hover": {
+    "name": "灵态停浮",
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>灵态停浮</b></font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>时将会获得<font color=\"WHITE\"> 缓降 </font>效果，可以随时按下潜行来清除该效果<br><br>持续时间：<font color=white>5秒</font></font>"
+  },
   "Recycling": {
     "name": "箭矢回收",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>箭矢回收</b></font><br><br><font color=\"BBBBBB\">每一根没有命中目标的箭矢都将回收成<font color=\"WHITE\"> 0.08 </font>法力</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "description": "<font color=\"FF55FF\"><b>箭矢回收</b></font><br><br><font color=\"BBBBBB\">每一根没有命中目标的投掷物都将回收成<font color=\"WHITE\"> 0.08 </font>法力</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Shrapnel_Bomb": {
     "name": "破片炸弹",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>破片炸弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>命中并爆炸后，产生<font color=\"white\"> 15 </font>枚弹片，对大范围内的敌人造成伤害。</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>破片炸弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>命中并爆炸后，迸发出<font color=\"white\"> 25 </font>枚弹片，对大范围内的敌人造成伤害。</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Cheaper_Escape_II": {
     "name": "逃脱减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>逃脱减耗 II</b></font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>逃脱减耗 II</b></font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Cheaper_Arrow_Shield_II": {
     "name": "箭盾减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 II</b></font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 II</b></font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
-  "Stronger_Hook": {
+  "Hookshot": {
     "name": "强力抓钩",
     "icon": "/assets/img/class/small.png",
     "category": "small",
     "description": "<font color=\"#FFFFFF\"><b>强力抓钩</b></font><br><br><font color=\"BBBBBB\">增加<u>抓钩</u>的范围、拉扯速度以及拉扯力量      <br><br>范围：<font color=\"white\">+8格</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
+  "Ghostly_Trigger": {
+    "name": "拟灵扳机",
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>拟灵扳机</b></font><br><br><font color=\"BBBBBB\">在使用<u>逃脱</u>后的滞空期间内，使用<u>普通攻击</u>将会立即使<u>吐温虹弧</u>发射一次<br><br>冷却时间<font color=\"white\">10秒</font></font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+  },
   "Coursing_Restraints": {
     "name": "震慑束缚",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>震慑束缚</b></font><br><br><font color=\"BBBBBB\"><u>震撼弹</u>现在将使敌人进入战栗状态，降低敌人的防御6秒。(12秒冷却时间)</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>震慑束缚</b></font><br><br><font color=\"BBBBBB\"><u>震撼弹</u>现在将使敌人进入战栗状态，降低敌人的防御，持续4秒。(12秒冷却时间)</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
-  "飓风箭阵": {
+  "Arrow_Hurricane": {
     "name": "飓风箭阵",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>飓风箭阵</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>将额外射出<font color=\"white\"> 2 </font>道箭流</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "description": "<font color=\"FF5555\"><b>飓风箭阵</b></font><br><br><font color=\"BBBBBB\"><u>箭雨</u>将额外射出<font color=\"white\"> 2 </font>道箭流<br><br><u>箭雨</u>的后坐力加倍</font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
   "Tangled_Traps": {
     "name": "绊线陷阱",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>绊线陷阱</b></font><br><br><font color=\"BBBBBB\">你的每个<font color=\"aqua\">陷阱</font>之间会有绊线连接，触碰绊线的敌人每<font color=\"white\"> 0.2秒</font> 受到一次伤害。</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>绊线陷阱</b></font><br><br><font color=\"BBBBBB\">你的每个<font color=\"aqua\">陷阱</font>之间会有绊线连接，触碰绊线的敌人每<font color=\"white\"> 0.2秒</font> 受到一次伤害。<br><br>你的<font color=aqua>陷阱</font>数量上限<font color=white> +1 </font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
   "Beast_Lore": {
-    "name": "理塘",
+    "name": "狩猎传说",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>理塘</b></font><br><br><font color=\"BBBBBB\">你的<font color=\"aqua\">猎蛇</font>召唤数量上限<font color=\"FFFFFF\"> +1</font></font><br><font color=\"BBBBBB\">你的<font color=\"aqua\">乌鸦</font>召唤数量上限<font color=\"FFFFFF\"> +2</font></font><br><font color=\"BBBBBB\">你的<font color=\"aqua\">猎犬</font>攻击伤害增加<font color=\"FFFFFF\"> 40%</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>狩猎传说</b></font><br><br><font color=\"BBBBBB\">你的<font color=\"aqua\">猎蛇</font>召唤数量上限<font color=\"FFFFFF\"> +1</font></font><br><font color=\"BBBBBB\">你的<font color=\"aqua\">乌鸦</font>召唤数量上限<font color=\"FFFFFF\"> +2</font></font><br><font color=\"BBBBBB\">你的<font color=\"aqua\">猎犬</font>攻击伤害增加<font color=\"FFFFFF\"> 40%</font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
-  "暮色流光": {
+  "Crepuscular_Ray": {
     "name": "暮色流光",
     "icon": "/assets/img/class/special.png",
     "category": "special",
     "description": "<font color=\"FF5555\"><b>暮色流光</b></font><br><br><font color=\"BBBBBB\">当你拥有<font color=\"white\"> 5 </font>层<font color=\"aqua\">专注值</font>及以上时，在高于地面<font color=\"white\"> 4格以上 </font>的空中施放<u>箭雨</u>将会使你保持浮空，并且每秒射出<font color=\"white\"> 20 </font>只导引箭，直到所有的<font color=\"aqua\">专注值</font>耗尽</font><br><br><font color=\"BBBBBB\">技能施放期间，每秒消退<font color=\"white\"> 1 </font>层<font color=\"aqua\">专注值</font>。</font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+  },
+  "Chilling_Snare": {
+    "name": "凛冬阵法",
+    "icon": "/assets/img/class/special.png",
+    "category": "special",
+    "description": "<font color=\"FF5555\"><b>凛冬阵法</b></font><br><br><font color=\"BBBBBB\">对一个<u>磐石陷阱</u>施加寒冰附魔，其在触发后会释放巨大寒冰阵法，对阵法内的敌人造成减速效果，且每<font color=\"white\"> 0.2 </font>秒造成一次伤害<br><br>你的<font color=aqua>陷阱</font>数量上限<font color=white> +1 </font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
   "陷阱雷区": {
     "name": "陷阱雷区",
@@ -427,27 +445,27 @@
   },
   "All-Seeing_Panoptes": {
     "name": "全知天使",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>全知天使</b></font><br><br><font color=\"BBBBBB\">你的<u>守护天使</u>将提升攻击范围、伤害，同时每个守护天使可以额外攻击<font color=\"WHITE\"> 4次</font><br><br>范围：<font color=\"white\">+4格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>全知天使</b></font><br><br><font color=\"BBBBBB\">你的<u>守护天使</u>将提升攻击范围、伤害，同时每个守护天使可以额外攻击<font color=\"WHITE\"> 4次</font><br><br>范围：<font color=\"white\">+4格</font></font><br><br><font color=\"FFFF55\"><b>闪击射手 分支</b></font>"
   },
-  "猎人狩猎法则": {
+  "Swift_Primer": {
     "name": "猎人狩猎法则",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>猎人狩猎法则</b></font><br><br><font color=\"BBBBBB\"><u>韬光养晦</u>每秒增加的陷阱伤害<font color=\"FFFFFF\"> +10% </font>，同时总额外伤害上限 <font color=\"FFFFFF\"> +100% </font>。</font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>猎人狩猎法则</b></font><br><br><font color=\"BBBBBB\"><u>韬光养晦</u>每秒增加的陷阱伤害<font color=\"FFFFFF\"> +10% </font>，同时总额外伤害上限 <font color=\"FFFFFF\"> +100% </font>。<br><br>你的<font color=aqua>陷阱</font>数量上限<font color=white> +1 </font></font><br><br><font color=\"00AA00\"><b>陷阱射手 分支</b></font>"
   },
   "Grape_Bomb": {
     "name": "分裂炸弹",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>分裂炸弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>在爆炸时将额外分裂出<font color=\"WHITE\"> 2个 </font>小型炸弹</font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">如果点了<u>磐石陷阱</u>，则分裂出的炸弹在击打到地面时仍然可以生成新的陷阱</font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>分裂炸弹</b></font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>在爆炸时将额外分裂出<font color=\"WHITE\"> 2个 </font>小型炸弹</font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">如果点了<u>磐石陷阱</u>，则分裂出的炸弹在击打到地面时仍然可以生成新的陷阱</font>"
   },
   "More_Focus_II": {
-    "name": "更加专注 II",
+    "name": "聚精凝神",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>更加专注 II</b></font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>聚精凝神</b></font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"FF55FF\"><b>鹰眼射手 分支</b></font>"
   },
   "Elusive": {
     "name": "空灵",
@@ -457,15 +475,15 @@
   },
   "Geyser_Stomp": {
     "name": "喷泉践踏",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>喷泉践踏</b></font><br><br><font color=\"BBBBBB\"><u>猛烈踹击</u>落地后形成喷泉，提升造成的伤害，同时击飞被命中的敌人      <br><br>伤害半径：</font>+1格    "
-  },
-  "Snow_Storm": {
-    "name": "暴风雪",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>暴风雪</b></font><br><br><font color=\"BBBBBB\">在你附近的敌人将受到减速效果</font><br><br><font color=\"BBBBBB\">减速效果：<font color=\"white\">+30%</font><br>范围：<font color=\"white\">3格</font></font>"
+    "description": "<font color=\"FF55FF\"><b>喷泉践踏</b></font><br><br><font color=\"BBBBBB\"><u>猛烈踹击</u>落地后形成喷泉，提升造成的伤害，同时击飞被命中的敌人      <br><br>伤害半径：</font>+1格    "
+  },
+  "Snow_Storm": {
+    "name": "寒霜风暴",
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>寒霜风暴</b></font><br><br><font color=\"BBBBBB\">在你附近的敌人将受到减速效果</font><br><br><font color=\"BBBBBB\">减速效果：<font color=\"white\">+30%</font><br>范围：<font color=\"white\">3格</font></font>"
   },
   "Cheaper_Arrow_Bomb_II": {
     "name": "爆炸箭减耗 II",
