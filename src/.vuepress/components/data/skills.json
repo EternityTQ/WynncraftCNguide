@@ -3,7 +3,7 @@
     "name": "爆炸箭",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>爆炸箭</b><br>(Arrow Bomb)<br></font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">射出一支远距离的箭矢，其命中后会爆炸，造成大范围的伤害。</font><font color=\"555555\"><br>(并对自己造成爆炸伤害10%的伤害)</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">45</font><br>射程：<font color=\"white\">26格</font><br>爆炸范围：<font color=\"white\">4.5格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>爆炸箭</b><br>(Arrow Bomb)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">射出一支远距离的箭矢，其命中后会爆炸，造成大范围的伤害。</font><font color=\"555555\"><br>(并对自己造成爆炸伤害10%的伤害)</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">45</font><br>射程：<font color=\"white\">26格</font><br>爆炸范围：<font color=\"white\">4.5格</font></font>"
   },
   "Bow_Proficiency I": {
     "name": "弓箭精通 I",
@@ -39,7 +39,7 @@
     "name": "逃脱",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>逃脱</b><br>(Escape)<br></font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">快速后跳来规避危险</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">20</font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">逃脱最多连续触发一次，其在空中也能触发。落地后刷新使用次数</font>"
+    "description": "<font color=\"#00BB00\"><b>逃脱</b><br>(Escape)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">快速后跳来规避危险</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">20</font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">逃脱最多连续触发一次，其在空中也能触发。落地后刷新使用次数</font>"
   },
   "Power_Shots": {
     "name": "强力箭矢",
@@ -51,7 +51,7 @@
     "name": "箭雨",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>箭雨</b><br>(Arrow Storm)<br></font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">35</font><br>范围：<font color=\"white\">16格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>箭雨</b><br>(Arrow Storm)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">35</font><br>范围：<font color=\"white\">16格</font></font>"
   },
   "Cheaper_Escape_I": {
     "name": "逃脱减耗 I",
@@ -63,7 +63,7 @@
     "name": "箭盾",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>箭盾</b><br>(Arrow Shield)<br></font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤一面盾牌，其可以对接近的怪物造成伤害并击飞。(2次耐久)</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">2.3格</font><br>持续时间：<font color=\"white\">60秒</font></font>"
+    "description": "<font color=\"#00BB00\"><b>箭盾</b><br>(Arrow Shield)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤一面盾牌，其可以对接近的怪物造成伤害并击飞。(2次耐久)</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">2.3格</font><br>持续时间：<font color=\"white\">60秒</font></font>"
   },
   "Windy_Feet": {
     "name": "疾风步伐",
@@ -929,29 +929,29 @@
     "category": "medium",
     "description": "<font color=\"ORANGE\"><b>殉道</b><br>(Martyr)</font><br><br><font color=\"BBBBBB\">受到致命伤害时，令周围的友军获得<font color=\"white\"> 3秒 </font>的无敌效果</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
-  "陨石": {
+  "Meteor": {
     "name": "陨石",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>陨石</b><br>(陨石)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">50</font><br>召唤范围：<font color=\"white\">18格</font><br>爆炸范围：<font color=\"white\">5格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>陨石</b><br>(Meteor)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">50</font><br>召唤范围：<font color=\"white\">18格</font><br>爆炸范围：<font color=\"white\">5格</font></font>"
   },
-  "流星": {
+  "Shooting_Star": {
     "name": "流星",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>流星</b><br>(流星)</font><br><br><font color=\"BBBBBB\">大幅度增加<u>陨石</u>的下落速度</font>"
+    "description": "<font color=\"ORANGE\"><b>流星</b><br>(Shooting Star)</font><br><br><font color=\"BBBBBB\">大幅度增加<u>陨石</u>的下落速度</font>"
   },
-  "法杖精通 II": {
+  "Wand_Proficiency_II": {
     "name": "法杖精通 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>法杖精通 II</b><br>(法杖精通 II)</font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br><br>攻击范围：</font>+2格      <br><br><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>法杖精通 II</b><br>(Wand Proficiency II)</font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br><br>攻击范围：</font>+2格      <br><br><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
   },
-  "传送": {
+  "Teleport": {
     "name": "传送",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>传送</b><br>(传送)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">向前方快速位移一段距离</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">25</font><br>范围：<font color=\"white\">16格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>传送</b><br>(Teleport)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">向前方快速位移一段距离</font><br><br><font color=\"BBBBBB\">蓝耗：<font color=\"white\">25</font><br>范围：<font color=\"white\">16格</font></font>"
   },
   "智慧": {
     "name": "智慧",

@@ -4,5 +4,18 @@
     },
     "普通攻击":{
         "description": "鼠标左键(弓箭手为右键)按下时，发动的攻击，又称\"平A\""
+    },
+    "空白":{
+        "description": "鼠标左键(弓箭手为右键)按下时，发动的攻击，又称\"平A\""
+    },
+    "能力树":{
+        "description": "<img src=\"/assets/img/Ability_Tree.png\"/>"
+    },
+    "指南针":{
+        "description": "<img src=\"/assets/img/指南针.png\"/>"
+    },
+    "aspects1":{
+        "description": "<img src=\"/assets/img/Aspects1.png\"/>"
     }
+    
 }
