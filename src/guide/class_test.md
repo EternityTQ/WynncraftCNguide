@@ -52,13 +52,13 @@ title: 新技能树测试界面
 |      |      |      |      |      |      |      |      |      |
 |------|------|------|------|------|------|------|------|------|
 |      |      |      |      |<skill name="Meteor"/>|      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
+|      |      |      |      |<skill name="竖线"/>|      |      |      |      |
+|      |      |      |      |<skill name="Wand_Proficiency_I"/>|<skill name="横线"/>|<skill name="Cheaper_Meteor"/>|      |      |
+|      |      |      |      |<skill name="竖线"/>|      |      |      |      |
+|      |      |      |      |<skill name="Shooting_Star"/>|      |      |      |      |
+|      |      |      |      |<skill name="竖线"/>|      |      |      |      |
+|      |      |      |      |<skill name="竖线"/>|      |      |      |      |
+|      |      |<skill name="Wand_Proficiency_II"/>|<skill name="横线"/>|<skill name="Teleport"/>|<skill name="横线"/>|<skill name="Wisdom"/>|      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |

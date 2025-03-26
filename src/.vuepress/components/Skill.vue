@@ -69,6 +69,7 @@ export default {
       this.hideTooltip();
     },
     toggleTooltipFixed(event) {
+      if (!this.skillData.description) return;
       const tooltipEl = this.$refs.tooltip;
       if (tooltipEl && tooltipEl.contains(event.target)) return;
 
