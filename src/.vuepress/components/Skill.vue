@@ -71,13 +71,14 @@ export default {
     toggleTooltipFixed(event) {
       if (!this.skillData.description) return;
       const tooltipEl = this.$refs.tooltip;
-      if (tooltipEl && tooltipEl.contains(event.target)) return;
+      const isMobile = window.innerWidth < 768 || window.innerWidth < window.innerHeight;
+      if (tooltipEl && tooltipEl.contains(event.target)&&!isMobile) return;
 
       this.isTooltipFixed = !this.isTooltipFixed;
 
       if (this.isTooltipFixed) {
         // 判断是否移动端
-        const isMobile = window.innerWidth < 768 || window.innerWidth < window.innerHeight;
+        
 
         if (isMobile) {
           this.fixedPageX = 10;
@@ -106,8 +107,9 @@ export default {
 
       const tooltipEl = document.querySelector(".tooltip");
       console.log("event.target:", event.target);
-      if (tooltipEl && tooltipEl.contains(event.target)) {
-        console.log("点击在 tooltip 内部，不关闭");
+      const isMobile = window.innerWidth < 768 || window.innerWidth < window.innerHeight;
+      if (tooltipEl && tooltipEl.contains(event.target) &&!isMobile) {
+        //console.log("点击在 tooltip 内部，不关闭");
         return; // 不隐藏
       }
       this.isTooltipFixed = false;
