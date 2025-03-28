@@ -262,3 +262,22 @@ hm的配装思路，使用高面板，攻速为Super slow的武器，使用提�
 同时，气火的面板又使得无烟煤的build一般都会有客观的生存能力
 
 如果你需要进一步提高伤害，记得不要丢失鹰眼射手的Focus点数！
+
+### \[Warrior\]Desperate Facsimile
+[满级](https://wynnbuilder.github.io/builder/#9_07F0BO0030uf0OS0OS0K40OH0yt1U210j0O0e1g00002CPZ6C000060z0z0+0+0+0+0-1T-VVyxuk4)
+[lv80](https://wynnbuilder.github.io/builder/#9_0K80kJ0XY0m-0Zi0Zi09o0tt0yt0n1J0T000e1G00002CPZ6C000060z0z0+0+0+0+0-1T-c+udqF) (胸甲可以换成Bete Noire牺牲ehp换取高dps，但是lv80真的会在乎这些吗)
+
+>粉末比武器贵系列
+
+在80级有非常抽象的面板，以及强力的majorID，本身伤害不高，但是七粉槽+very fast让这把武器可以向任何属性开发(想要的话你把他打成彩虹都行)
+
+副手可以配一把奶叉(catamaran)回血
+
+### \[Warrior\]Zephra Shredder
+[小hero](https://wynnbuilder.github.io/builder/?v=14#9_0tx09-0jn07W0K20OK0K40UB0tE0X0X1f-w1f1g1003FU01003FU1003FU1000FU0z0z0+0+0+0+0-1T-+-G7pGbw0)
+
+这个build的尴尬之处在于没有可以用的位移副手(不是你能买idol做副手还会用这玩意吗)
+
+除了没有majorid，这把刀的面板其实能跟hero打一架。在majorid没有触发的时候甚至伤害能比hero高点。
+
+>萌新lr的好朋友
