@@ -28,6 +28,8 @@ icon: code
 ## /pfinder
 组队指令
 
+你可以在里面找到待组队的队伍
+
 通过/pfinder，你可以快速地找到野队，比如经验刷怪点、raid甚至是社交队伍都能在里面找到
 
 如果你没有足够的人员可以组起队伍，不妨看看pfinder
@@ -90,23 +92,13 @@ icon: code
 
 调整特效级别
 
+你可以用这个指令来调整粒子特效的强度/数量
+
 有off/low/medium/high/veryhigh/highest几个选项
 
 推荐常驻/pq off来获得最佳的游戏体验，不然真的太卡了...
 
-## /changetag
 
-rank限定
-
-使用后可以将你名字前的rank标改为指定的rank(**不高于**自己的rank的标都可以改)
-
-参数为VIP/VIP+/HERO/CHAMPION/RESET
-
-## /switch
-
-hero及以上rank限定
-
-可以直接快速转移到指定的线路
 
 ## /hub
 
@@ -129,6 +121,8 @@ hero及以上rank限定
 ## /totems
 
 可以快速打开mob totem界面
+
+
 
 ## /toggle
 
@@ -162,3 +156,18 @@ hero及以上rank限定
 | bombbell | 是否开启bombbell(champion限定) |
 | outlines | 是否开启玩家轮廓(发光效果) |
 | pouchpickup | 是否开启素材袋自动拾取 |
+
+
+## /changetag
+
+rank限定
+
+使用后可以将你名字前的rank标改为指定的rank(**不高于**自己的rank的标都可以改)
+
+参数为VIP/VIP+/HERO/CHAMPION/RESET
+
+## /switch
+
+hero及以上rank限定
+
+可以直接快速转移到指定的线路
