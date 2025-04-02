@@ -4,8 +4,10 @@ icon: exclamation
 # A Sandy Scandal (level 32)
 <span style="font-size: 25px;">**沙城劫案**</span>
 
-:::tip 重要任务
-解锁Almuj的银行
+:::danger
+
+这个界面有待更新，敬请留意
+
 :::
 
 <span class="stage-index">1.</span> 在**Almuj**城和<font color=00AA00>**Almuj Bank Guard**</font>`[976 83 -1963]`对话

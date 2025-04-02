@@ -1,6 +1,12 @@
 # Pirate`s Trove (level 39)
 <span style="font-size: 25px;">**海盗的宝库**</span>
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1.</span> 和<font color=00AA00>**Damiral**</font>在`[-1937 38 -4260]`谈话<br><br>
 
 <span class="stage-index">2.</span> 根据依次给出的线索，到达对应地点找到黑石，激活下一个线索

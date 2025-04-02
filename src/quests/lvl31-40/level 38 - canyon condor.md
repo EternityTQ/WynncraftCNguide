@@ -6,6 +6,12 @@ icon: route
 
 >杀鸡任务，多少人被一只鸡杀了
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1.</span> 和**Rymek**镇的<font color=00AA00>**Svin**</font>`[1352 30 -1300]`对话
 
 <span class="stage-index">2.</span> 和<font color=00AA00>**Jankan**</font>`[1434 31 -1360]`说话

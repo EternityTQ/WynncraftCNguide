@@ -3,6 +3,12 @@
 
 >圣诞节系列任务，但是现在系列任务只剩这一个了，悲
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1.</span> 跟<font color=00AA00>**Haily**</font>`[929 75 -1899]` 在**almuj**城谈话
 
 <span class="stage-index">2.</span> 跟<font color=00AA00>**Nick**</font>`[936 68 -1841]`在贫困区对话

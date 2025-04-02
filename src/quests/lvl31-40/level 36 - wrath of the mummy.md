@@ -1,6 +1,9 @@
 # Wrath of the Mummy (level 36)
 <span style="font-size: 25px;">**木乃伊之怒**</span>
 
+
+
+
 <span class="stage-index">1.</span> 和**Almuj**城旁的沙漠的<font color=00AA00>**Ormrod**</font>`[979 69 -1808]`说话
 
 <span class="stage-index">2.</span> 和在**Almuj**城的<font color=00AA00>**Achper**</font>`[872 67 -1932]`谈论有关这个诅咒

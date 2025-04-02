@@ -1,6 +1,12 @@
 # Tribal Aggression (level 35)
 <span style="font-size: 25px;">**部落冲突**</span>
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1 </span> 和<font color=00AA00>**Caras**</font>`[1077 84 -1613]`在Mesa说话
 
 <span class="stage-index">2 </span> 进入“鹰营”然后和<font color=00AA00>**Favian**</font>`[1399 84 -1618]`说话

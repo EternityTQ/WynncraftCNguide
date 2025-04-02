@@ -1,6 +1,12 @@
 # Ice Nations (level 40)
 <span style="font-size: 25px;">**冰之国度**</span>
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1.</span> 和**Icy Islands**的<font color=00AA00>**Adigard**</font>`[806 59 -3353]`交谈
 
 <span class="stage-index">2.</span> 跟<font color=00AA00>**Hallfred**</font>`[993 38 -3500]`讨论有关和平条约的事情

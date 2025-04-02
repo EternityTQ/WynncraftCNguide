@@ -1,6 +1,12 @@
 # Clearing the Camps (level 39)
 <span style="font-size: 25px;">**清剿营地**</span>
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1.</span> 和**Llevigar**外围的<font color=00AA00>**Captain Kymer**</font>`[-1991 34 -4658]`对话
 
 <span class="stage-index">2.</span> 在**Llevigar**平原解决掉三名兽人头目

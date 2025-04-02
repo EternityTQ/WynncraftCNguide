@@ -4,6 +4,12 @@ icon: scroll
 ---
 <span style="font-size: 25px;">**绿色粘液**</span>
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1.</span> 和<NPC>Eluzterp</NPC>`[1172 8 -2072]`对话
 
 <span class="stage-index">2.</span> 和<NPC>Yodbon</NPC>`[985 86 -1946]`对话

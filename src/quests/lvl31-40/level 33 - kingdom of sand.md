@@ -4,7 +4,11 @@ title: Kingdom of Sand (level 33)
 
 <span style="font-size: 25px;">**沙海帝国**</span>
 
+:::danger
 
+这个界面有待更新，敬请留意
+
+:::
 
 <span class="stage-index">1.</span> 和<font color=00AA00>**Junes**</font>`[1341 81 -1826]`对话
 

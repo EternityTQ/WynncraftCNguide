@@ -7,6 +7,12 @@ icon: bookmark
 
 >注：此系列任务剧情大赞，建议看一下
 
+:::danger
+
+这个界面有待更新，敬请留意
+
+:::
+
 <span class="stage-index">1.</span> 和<font color=00AA00>**Excavator Vade**</font>在`[1150 54 -1770]`交谈
 
 <span class="stage-index">2.</span> 把古代文献拿给<font color=00AA00>**Tesha**</font>`[1082 70 -179]`看
