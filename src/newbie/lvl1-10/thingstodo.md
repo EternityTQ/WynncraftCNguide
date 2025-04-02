@@ -176,7 +176,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 前期请积极地以完成任务为目标继续前进吧！
 
-之后记得完成[Infested Plants (level 4)](/quests/lvl1-10/level%204%20-%20Infested%20Plants.html)任务！这是后面一系列任务的起头，不完成的话你将体验不到后续的部分教程任务
+之后记得完成[Infested Plants (level 4)](/quests/lvl1-10/level%204%20-%20infested%20plants.html)任务！这是后面一系列任务的起头，不完成的话你将体验不到后续的部分教程任务
 
 :::tip
 这游戏没有所谓的“主线”
@@ -189,7 +189,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 :::
 
 ## 第一个地牢
-在完成[Sewers of Ragni (level 5)](/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html)任务后，你将会解锁你旅途上的第一个地牢
+在完成[Sewers of Ragni (level 5)](/quests/lvl1-10/level%205%20-%20sewers%20of%20ragni.html)任务后，你将会解锁你旅途上的第一个地牢
 
 在进入这个地牢前，最好做足准备！
 
@@ -256,7 +256,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 ## 使用快速旅行！
 
-在完成[Tunnel Trouble ( level 6 )](/quests/lvl1-10/level%206%20-%20Tunnel%20Trouble.html)后，会提示你解锁了一个快速旅行
+在完成[Tunnel Trouble ( level 6 )](/quests/lvl1-10/level%206%20-%20tunnel%20trouble.html)后，会提示你解锁了一个快速旅行
 
 其实就是通过你接取任务进去的洞穴入口和完成任务时的洞穴出口来快速双向往返**Ragni**和**Detlas**
 
@@ -290,7 +290,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 你可以通过交易市场来花点小钱，快速升级你的装备！
 
-具体介绍可以看看[这一章](/guide/basesystem/trademarket.html)
+具体介绍可以看看[这一章](/guide/commonfunction/trademarket.html)
 
 ## 路边的带文字的箱子是什么？
 那是Champion才可以设置的移动商店(如上图右侧所示)
