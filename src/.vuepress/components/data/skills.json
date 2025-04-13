@@ -171,7 +171,7 @@
     "name": "箭雨减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>箭雨减耗 I</b><br>(Cheaper Arrow Storm I)</font><br><br><font color=\"BBBBBB\"><u>箭雨</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>箭雨减耗 I</b><br>(Cheaper Arrow Storm)</font><br><br><font color=\"BBBBBB\"><u>箭雨</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
   },
   "Implosion": {
     "name": "聚爆",
@@ -201,7 +201,7 @@
     "name": "专心致志",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>专心致志</b><br>(More Focus I)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2 </font></font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>专心致志</b><br>(More Focus)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2 </font></font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
   },
   "Stormy_Feet": {
     "name": "暴风步伐",
@@ -285,7 +285,7 @@
     "name": "箭盾减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 I</b><br>(Cheaper Arrow Shield I)</font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 I</b><br>(Cheaper Arrow Shield)</font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Honed_Shield": {
     "name": "箭盾精制",
@@ -321,7 +321,7 @@
     "name": "箭雨减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>箭雨减耗 II</b><br>(Cheaper Arrow Storm II)</font><br><br><font color=\"BBBBBB\"><u>箭雨</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>箭雨减耗 II</b><br>(Cheaper Arrow Storm)</font><br><br><font color=\"BBBBBB\"><u>箭雨</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Decimator": {
     "name": "聚能连击",
@@ -381,13 +381,13 @@
     "name": "逃脱减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>逃脱减耗 II</b><br>(Cheaper Escape II)</font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>逃脱减耗 II</b><br>(Cheaper Escape)</font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Cheaper_Arrow_Shield_II": {
     "name": "箭盾减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 II</b><br>(Cheaper Arrow Shield II)</font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>箭盾减耗 II</b><br>(Cheaper Arrow Shield)</font><br><br><font color=\"BBBBBB\"><u>箭盾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Hookshot": {
     "name": "强力抓钩",
@@ -465,7 +465,7 @@
     "name": "聚精凝神",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>聚精凝神</b><br>(More Focus II)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>聚精凝神</b><br>(More Focus)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">专注值</font>的上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
   },
   "Elusive": {
     "name": "空灵",
@@ -489,7 +489,7 @@
     "name": "爆炸箭减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>爆炸箭减耗 II</b><br>(Cheaper Arrow Bomb II)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>爆炸箭减耗 II</b><br>(Cheaper Arrow Bomb)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
   },
   "Bash": {
     "name": "重击",
@@ -501,13 +501,13 @@
     "name": "重击减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>重击减耗 I</b><br>(Cheaper Bash I)</font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的技能消耗<font color=\"FFFFFF\"> -10</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>重击减耗 I</b><br>(Cheaper Bash)</font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的技能消耗<font color=\"FFFFFF\"> -10</font></font>"
   },
   "Spear_Proficiency_I": {
     "name": "长矛精通 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>长矛精通 I</b><br>(Spear Proficiency I)</font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的范围及伤害      <br><br>攻击范围：</font>+1格    "
+    "description": "<font color=\"#FFFFFF\"><b>长矛精通 I</b><br>(Spear Proficiency)</font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的范围及伤害      <br><br>攻击范围：</font>+1格    "
   },
   "Double_Bash": {
     "name": "双重击",
@@ -543,7 +543,7 @@
     "name": "冲锋减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>冲锋减耗 I</b><br>(Cheaper Charge I)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>冲锋减耗 I</b><br>(Cheaper Charge)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "War_Scream": {
     "name": "战吼",
@@ -651,13 +651,13 @@
     "name": "长矛精通 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>长矛精通 II</b><br>(Spear Proficiency II)</font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的范围及伤害      <br><br>攻击范围：</font>+1格    "
+    "description": "<font color=\"#FFFFFF\"><b>长矛精通 II</b><br>(Spear Proficiency)</font><br><br><font color=\"BBBBBB\">增加<u>普通攻击</u>的范围及伤害      <br><br>攻击范围：</font>+1格    "
   },
   "Cheaper_Uppercut_I": {
     "name": "上挑斩减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>上挑斩减耗 I</b><br>(Cheaper Uppercut I)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>上挑斩减耗 I</b><br>(Cheaper Uppercut)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Aerodynamics": {
     "name": "灵巧冲锋",
@@ -729,7 +729,7 @@
     "name": "战吼减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>战吼减耗 I</b><br>(Cheaper War Scream I)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>战吼减耗 I</b><br>(Cheaper War Scream)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Cleansing_Breeze": {
     "name": "净化之风",
@@ -855,13 +855,13 @@
     "name": "重击减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>重击减耗 II</b><br>(Cheaper Bash II)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>重击减耗 II</b><br>(Cheaper Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Cheaper_War_Scream_II": {
     "name": "战吼减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>战吼减耗 II</b><br>(Cheaper War Scream II)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>战吼减耗 II</b><br>(Cheaper War Scream)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "混沌连击": {
     "name": "混沌连击",
@@ -921,7 +921,7 @@
     "name": "上挑斩减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>上挑斩减耗 II</b><br>(Cheaper Uppercut II)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>上挑斩减耗 II</b><br>(Cheaper Uppercut)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Martyr": {
     "name": "殉道",
@@ -939,13 +939,13 @@
     "name": "法杖精通 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>法杖精通 I</b><br>(Wand Proficiency I)</font><br/><br/><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br/><br/>攻击范围：</font>+2格    "
+    "description": "<font color=\"#FFFFFF\"><b>法杖精通 I</b><br>(Wand Proficiency)</font><br/><br/><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br/><br/>攻击范围：</font>+2格    "
   },
   "Cheaper_Meteor_I": {
     "name": "陨石减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>陨石减耗 I</b><br>(Cheaper Meteor I)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>的技能消耗<font color=\"FFFFFF\"> -10 </font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>陨石减耗 I</b><br>(Cheaper Meteor)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>的技能消耗<font color=\"FFFFFF\"> -10 </font></font>"
   },
   "Shooting_Star": {
     "name": "流星",
@@ -957,7 +957,7 @@
     "name": "法杖精通 II",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>法杖精通 II</b><br>(Wand Proficiency II)</font><br/><br/><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br/><br/>攻击范围：</font>+2格<br><br><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+    "description": "<font color=\"ORANGE\"><b>法杖精通 II</b><br>(Wand Proficiency)</font><br/><br/><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br/><br/>攻击范围：</font>+2格<br><br><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
   },
   "Teleport": {
     "name": "传送",
@@ -981,7 +981,7 @@
     "name": "传送减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>传送减耗 I</b><br>(Cheaper Teleport I)</font><br/><br/><font color=\"BBBBBB\"><u>传送</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>传送减耗 I</b><br>(Cheaper Teleport)</font><br/><br/><font color=\"BBBBBB\"><u>传送</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
   },
   "Ice_Snake": {
     "name": "冰蛇",
@@ -1071,7 +1071,7 @@
     "name": "治疗减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>治疗减耗 I</b><br>(Cheaper Heal I)</font><br/><br/><font color=\"BBBBBB\"><u>治疗</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>治疗减耗 I</b><br>(Cheaper Heal)</font><br/><br/><font color=\"BBBBBB\"><u>治疗</u>的技能消耗<font color=\"FFFFFF\">-5</font></font>"
   },
   "Purification": {
     "name": "净化",
@@ -1104,16 +1104,16 @@
     "description": "<font color=\"#FFFFFF\"><b>广域治疗</b><br>(Larger Heal)</font><br/><br/><font color=\"BBBBBB\">增加<u>治疗</u>的范围      <br/><br/>范围：</font>+2格      <br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font>"
   },
   "Larger_Mana_Bank_I": {
-    "name": "法力储备扩充 I",
+    "name": "魔能蓄流 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>法力储备扩充 I</b><br>(Larger Mana Bank I)</font><br/><br/><font color=\"BBBBBB\">你的<font color=\"aqua\">法力储备</font>上限<font color=\"FFFFFF\"> +30</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>魔能蓄流 I</b><br>(Larger Mana Bank)</font><br/><br/><font color=\"BBBBBB\">你的<font color=\"aqua\">法力储备</font>上限<font color=\"FFFFFF\"> +30</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "Cheaper_Ice_Snake_I": {
     "name": "冰蛇减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>冰蛇减耗 I</b><br>(Cheaper Ice Snake I)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>冰蛇减耗 I</b><br>(Cheaper Ice Snake)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Fortitude": {
     "name": "强韧意志",
@@ -1125,7 +1125,7 @@
     "name": "传送减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>传送减耗 II</b><br>(Cheaper Teleport II)</font><br/><br/><font color=\"BBBBBB\"><u>传送</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>传送减耗 II</b><br>(Cheaper Teleport)</font><br/><br/><font color=\"BBBBBB\"><u>传送</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Pyrokinesis": {
     "name": "驭火术",
@@ -1212,46 +1212,52 @@
     "description": "<font color=\"ORANGE\"><b>极速奥术</b><br>(Arcane Speed)</font><br/><br/><font color=\"BBBBBB\">在使用<u>治疗</u>或<u>奥术转换</u>后，获得持续<font color=\"white\"> 4秒 </font>的<font color=\"white\"> 80% </font>速度加成</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "Larger_Mana_Bank_II": {
-    "name": "法力储备扩充 II",
+    "name": "魔能蓄流 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>法力储备扩充 II</b><br>(Larger Mana Bank II)</font><br/><br/><font color=\"BBBBBB\">你的<font color=\"aqua\">法力储备</font>上限<font color=\"FFFFFF\"> +30</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>魔能蓄流 II</b><br>(Larger Mana Bank)</font><br/><br/><font color=\"BBBBBB\">你的<font color=\"aqua\">法力储备</font>上限<font color=\"FFFFFF\"> +30</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "More_Winded_I": {
     "name": "风印涌动 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>风印(winded)涌动 I</b><br>(More Winded I)</font><br/><br/><font color=\"BBBBBB\">怪物可被叠加的<font color=\"aqua\">风印(winded)</font>数量上限<font color=\"FFFFFF\"> +10</font></font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>风印(winded)涌动 I</b><br>(More Winded)</font><br/><br/><font color=\"BBBBBB\">怪物可被叠加的<font color=\"aqua\">风印(winded)</font>数量上限<font color=\"FFFFFF\"> +10</font></font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
   },
   "Psychokinesis": {
     "name": "意念陨石",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>意念陨石</b><br>(Psychokinesis)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>改为从自身抛出而非从天上落下      <br/><br/>攻击范围：</font>+20格      <br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>意念陨石</u>本质上是将<u>陨石</u>变为远程抛射，而不是原来的延迟伤害，这意味着你可以在接近怪物时更快命中怪物，并且将更好命中具有巨大碰撞箱的怪物      <br/><br/>需要注意的是，<u>意念陨石</u>所瞄准的落点必须要有\"地面\"，即你不能对着整齐墙壁发射，但是可以对着墙壁凸出来的方块发射。如果对着墙壁发射了，则陨石会抛到面前的地面，射程将大幅度减少。</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>意念陨石</b><br>(Psychokinesis)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>改为从自身抛出而非从天上落下      <br/><br/>攻击范围：</font>+20格      <br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>意念陨石</u>本质上是将<u>陨石</u>变为远程抛射，而不是原来的延迟伤害，这意味着你可以在接近怪物时更快命中怪物，并且将更好命中具有巨大碰撞箱的怪物   </font>"
   },
   "Cheaper_Ice_Snake_II": {
     "name": "冰蛇减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>冰蛇减耗 II</b><br>(Cheaper Ice Snake II)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>冰蛇减耗 II</b><br>(Cheaper Ice Snake)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Explosive_Entrance": {
     "name": "闪现爆破",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>闪现爆破</b><br>(Explosive Entrance)</font><br/><br/><font color=\"BBBBBB\">使用<u>传送</u>后，在目标地点造成一次爆炸</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>闪现爆破</b><br>(Explosive Entrance)</font><br/><br/><font color=\"BBBBBB\">使用<u>传送</u>后，在目标地点造成一次爆炸</font>"
   },
   "Cheaper_Meteor_II": {
+    "name": "陨石减耗 II",
+    "icon": "/assets/img/class/small.png",
+    "category": "small",
+    "description": "<font color=\"#FFFFFF\"><b>陨石减耗 II</b><br>(Cheaper Meteor)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+  },
+  "Chaos_Explosion": {
     "name": "混沌爆破",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>混沌爆破</b><br>(Cheaper Meteor II)</font><br/><br/><font color=\"BBBBBB\">当你的<font color=\"aqua\">法力储备</font>达到<font color=\"white\"> 120 </font>后，使用<u>奥术转换</u>将快速并依次触发先前释放的<font color=\"WHITE\"> 3个 </font>技能</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>奥术转换</u>不计入技能释放列表内。<u>混沌爆破</u>释放的技能不消耗法力，每个技能释放时间间隔为0.4秒。同时其释放的技能同样可以为你的<font color=\"aqua\">法力储备</font>增加法力</font>"
+    "description": "<font color=\"FF5555\"><b>混沌爆破</b><br>(Chaos Explosion)</font><br/><br/><font color=\"BBBBBB\">当你的<font color=\"aqua\">法力储备</font>达到<font color=\"white\"> 120 </font>后，使用<u>奥术转换</u>将快速并依次触发先前释放的<font color=\"WHITE\"> 3个 </font>技能</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>奥术转换</u>不计入技能释放列表内。<u>混沌爆破</u>释放的技能不消耗法力，每个技能释放时间间隔为0.4秒。同时其释放的技能同样可以为你的<font color=\"aqua\">法力储备</font>增加法力</font>"
   },
   "Time_Dilation": {
     "name": "时空扩张",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>时空扩张</b><br>(Time Dilation)</font><br/><br/><font color=\"BBBBBB\">疾跑时，在路径上留下加速区域，友军在其中疾跑时移动速度增加<br/><font color=\"555555\">(离开区域或停止疾跑时区域消散)</font></font><br/><br/><font color=\"BBBBBB\">速度加成：<font color=\"white\">+10%</font><font color=\"555555\">(每秒，至多+300%)</font><br/>范围：<font color=\"white\">2格</font></font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>时空扩张</b><br>(Time Dilation)</font><br/><br/><font color=\"BBBBBB\">疾跑时，在路径上留下加速区域，友军在其中疾跑时移动速度增加<br/><font color=\"555555\">(离开区域或停止疾跑时区域消散)</font></font><br/><br/><font color=\"BBBBBB\">速度加成：<font color=\"white\">+10%</font><font color=\"555555\">(每秒，至多+300%)</font><br/>范围：<font color=\"white\">2格</font></font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
   },
   "Gust": {
     "name": "蛇疾如风",
@@ -1259,89 +1265,101 @@
     "category": "medium",
     "description": "<font color=\"ORANGE\"><b>蛇疾如风</b><br>(Gust)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>命中敌人时，叠加一层<font color=\"aqua\">风印(winded)</font>，同时造成更多伤害</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>蛇疾如风</u>与<u>普通攻击</u>的<font color=\"aqua\">风印(winded)</font>堆叠冷却是一起计算的。<br/><br/>被<u>蛇巢</u>的多条蛇命中的敌人仅计算1次额外伤害和1层<font color=\"aqua\">风印(winded)</font>。</font>"
   },
-  "Better_Ophanim": {
-    "name": "座天使增量",
+  "Augury": {
+    "name": "先兆",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>座天使增量</b><br>(Better Ophanim)</font><br/><br/><font color=\"BBBBBB\"><u>座天使</u>召唤的光球数量<font color=\"FFFFFF\"> +1</font></font><br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>先兆</b><br>(Augury)</font><br/><br/><font color=\"BBBBBB\"><u>座天使</u>召唤的光球数量<font color=\"FFFFFF\"> +1</font></font><br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font>"
   },
   "Arctic_Snake": {
     "name": "极寒冰蛇",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>极寒冰蛇</b><br>(Arctic Snake)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>现在会冻结命中的敌人<font color=\"white\"> 2秒 </font>。</font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>冰蛇</u>原有的减速效果不再生效。</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>极寒冰蛇</b><br>(Arctic Snake)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>现在会冻结命中的敌人<font color=\"white\"> 2秒 </font>。</font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>冰蛇</u>原有的减速效果不再生效。</font>"
   },
-  "Stronger_Sunshower": {
-    "name": "烈阳雨",
+  "Searing_Light": {
+    "name": "炙热光芒",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>烈阳雨</b><br>(Stronger Sunshower)</font><br/><br/><font color=\"BBBBBB\"><u>太阳雨</u>的伤害增加</font>"
+    "description": "<font color=\"#FFFFFF\"><b>炙热光芒</b><br>(Searing Light)</font><br/><br/><font color=\"BBBBBB\"><u>太阳雨</u>的伤害增加</font>"
   },
   "Arcane_Power": {
     "name": "奥术之力",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>奥术之力</b><br>(Arcane Power)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>现在会额外向<font color=\"aqua\">法力储备</font>增加<font color=\"FFFFFF\"> 2 </font>点法力</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
-  },
-  "More_Winded_II": {
-    "name": "风印(winded)涌动 II",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>风印(winded)涌动 II</b><br>(More Winded II)</font><br/><br/><font color=\"BBBBBB\">怪物可被叠加的<font color=\"aqua\">风印(winded)</font>上限<font color=\"FFFFFF\"> +10</font></font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
-  },
-  "Dynamic_Faith": {
-    "name": "动摇的信仰",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>动摇的信仰</b><br>(Dynamic Faith)</font><br/><br/><font color=\"BBBBBB\">你每从装备鉴定词条上累计获得<font color=\"FFFFFF\"> 2% </font>的疾跑上限，就获得<font color=\"FFFFFF\"> 1% </font>的雷属性伤害加成(上限+40%)</font>"
-  },
-  "Healthier_Ophanim_II": {
-    "name": "光球韧化 II",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>光球韧化 II</b><br>(Healthier Ophanim II)</font><br/><br/><font color=\"BBBBBB\"><u>座天使</u>召唤的光球生命上限额外<font color=\"FFFFFF\"> +3000</font></font><br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font>"
-  },
-  "Larger_Mana_Bank_III": {
-    "name": "法力储备扩充 III",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>法力储备扩充 III</b><br>(Larger Mana Bank III)</font><br/><br/><font color=\"BBBBBB\">你的<font color=\"aqua\">法力储备</font>上限<font color=\"FFFFFF\"> +30</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
-  },
-  "Devitalize": {
-    "name": "凋亡风印(winded)",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>凋亡风印(winded)</b><br>(Devitalize)</font><br/><br/><font color=\"BBBBBB\">敌人受到的每层<font color=\"aqua\">风印(winded)</font>的效果会令其造成的伤害<font color=\"white\"> -0.5% </font>。</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+    "description": "<font color=\"ORANGE\"><b>奥术之力</b><br>(Arcane Power)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>现在会在每次命中敌人时额外向<font color=\"aqua\">法力储备</font>增加<font color=\"FFFFFF\"> 12 </font>点法力</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+  },
+  "More_Winded_II": {
+    "name": "风印涌动 II",
+    "icon": "/assets/img/class/small.png",
+    "category": "small",
+    "description": "<font color=\"#FFFFFF\"><b>风印涌动 II</b><br>(More Winded)</font><br/><br/><font color=\"BBBBBB\">怪物可被叠加的<font color=\"aqua\">风印(winded)</font>上限<font color=\"FFFFFF\"> +10</font></font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+  },
+  "Devitalize": {
+    "name": "凋亡风印",
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>凋亡风印</b><br>(Devitalize)</font><br/><br/><font color=\"BBBBBB\">敌人受到的每层<font color=\"aqua\">风印(winded)</font>的效果会令其造成的伤害<font color=\"white\"> -0.5% </font>。</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+  },
+  "Everlasting_Light": {
+    "name": "永恒圣光",
+    "icon": "/assets/img/class/small.png",
+    "category": "small",
+    "description": "<font color=\"#FFFFFF\"><b>永恒圣光</b><br>(Everlasting Light)</font><br/><br/><font color=\"BBBBBB\"><u>座天使</u>召唤的光球生命上限额外<font color=\"FFFFFF\"> +3000</font></font><br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font>"
+  },
+  "Larger_Mana_Bank_III": {
+    "name": "魔能蓄流 III",
+    "icon": "/assets/img/class/small.png",
+    "category": "small",
+    "description": "<font color=\"#FFFFFF\"><b>魔能蓄流 III</b><br>(Larger Mana Bank III)</font><br/><br/><font color=\"BBBBBB\">你的<font color=\"aqua\">法力储备</font>上限<font color=\"FFFFFF\"> +30</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "Divination": {
+    "name": "天使预言",
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=FF55FF><b>天使预言</b><br>(Divination)</font><br><br><font color = BBBBBB><u>座天使</u>召唤的光球数量<font color=WHITE> +3 </font>，但是其打击伤害降低</font><br><br><font color=WHITE><b>圣光使者 分支</b></font>"
+  },
+  "Sunflare": {
     "name": "太阳光辉",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>太阳光辉</b><br>(Divination)</font><br/><br/><font color=\"BBBBBB\">在<font color=\"WHITE\"> 10秒 </font>内造成自身生命值上限的<font color=\"WHITE\"> 300% </font>治疗量后，你的下一次<u>治疗</u>会给予周围的友军单位一段时间的<font color=\"white\"> 抗性极大幅度提升 </font>效果      <br/><br/>抗性提升：<font color=\"WHITE\">+100%</font><br/>范围：<font color=\"WHITE\">12格</font><br/>持续时间：<font color=\"WHITE\">5秒</font><br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font></font>"
+    "description": "<font color=\"FF5555\"><b>太阳光辉</b><br>(Divination)</font><br/><br/><font color=\"BBBBBB\">在<font color=\"WHITE\"> 10秒 </font>内造成自身生命值上限的<font color=\"WHITE\"> 250% </font>治疗量后，你的下一次<u>治疗</u>会开启<u>太阳光辉</u>状态。<br><br><u>太阳光辉</u>状态期间，周围的友方玩家每秒恢复你生命值和魔力值上限的<font color=white> 5% </font>，并且你的光球会自动高频率进行攻击。<br><br><font color=\"WHITE\"><b>圣光使者 分支</b></font></font>"
   },
-  "Better_Lightweaver": {
+  "Halo": {
+    "name": "天使光轮",
+    "icon": "/assets/img/class/small.png",
+    "category": "small",
+    "description": "<font color=FFFFFF><b>天使光轮</b><br>(Halo)</font><br><br><font color = BBBBBB><u>圣光领域</u>所召唤的环绕光球数量上限<font color = FFFFFF> +2</font></font><br><br><font color=WHITE><b>圣光使者 分支</b></font>"
+  },
+  "Arcane_Overflow": {
+    "name": "奥术过载",
+    "icon": "/assets/img/class/special.png",
+    "category": "special",
+    "description": "<font color=FF5555><b>奥术过载</b></font><br><br><font color = BBBBBB>使用<u>奥术转换</u>时，溢出的法力将允许超过自身法力上限(至多共计300点)<br><br><font color=AA00AA><b>奥术法师 分支</b></font></font><br><br><font color=00FF00>备注</font><br><font color = BBBBBB>蓝量超过上限时，将会以每秒<font color=white> -5 </font>点的速度消退。法力恢复与法力窃取的词条在法力超过上限时失去效果</font>"
+  },
+  "Timelock": {
     "name": "时空凝滞",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>时空凝滞</b><br>(Better Lightweaver)</font><br/><br/><font color=\"BBBBBB\">按住潜行键并使用<u>治疗</u>时，将吸取周围敌人所有已有的<font color=\"aqua\">风印(winded)</font>层数，并使你进入<font color=\"aqua\">凝滞</font>状态      <br/><br/><font color=\"aqua\">凝滞</font>期间，使用技能不消耗法力，同时你无法受到任何击退效果。敌人将会根据你吸收的<font color=\"aqua\">风印(winded)</font>数量受到额外伤害(至多60层)      <br/><br/>吸收范围：<font color=\"WHITE\">12格</font><br/>持续时间：<font color=\"white\">1秒</font><font color=\"555555\">(每吸取10层风印(winded)，增加一秒，至多5秒)</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">在<font color=\"aqua\">凝滞</font>期间，你无法给敌人叠加<font color=\"aqua\">风印(winded)</font>，但是其他玩家仍可以给敌人叠加</font>"
+    "description": "<font color=\"FF5555\"><b>时空凝滞</b><br>(Timelock)</font><br/><br/><font color=\"BBBBBB\">按住潜行键并使用<u>治疗</u>时，将吸取周围敌人所有已有的<font color=\"aqua\">风印(winded)</font>层数，并使你进入<font color=\"aqua\">凝滞</font>状态      <br/><br/><font color=\"aqua\">凝滞</font>期间，使用技能不消耗法力，同时你无法受到任何击退效果。敌人将会根据你吸收的<font color=\"aqua\">风印(winded)</font>数量受到额外伤害(至多60层)      <br/><br/>吸收范围：<font color=\"WHITE\">12格</font><br/>持续时间：<font color=\"white\">1秒</font><font color=\"555555\">(每吸取10层风印，增加一秒，至多5秒)</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">在<font color=\"aqua\">凝滞</font>期间，你无法给敌人叠加<font color=\"aqua\">风印(winded)</font>，但是其他玩家仍可以给敌人叠加</font>"
   },
   "Cheaper_Heal_II": {
     "name": "治疗减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>治疗减耗 II</b><br>(Cheaper Heal II)</font><br/><br/><font color=\"BBBBBB\"><u>治疗</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>治疗减耗 II</b><br>(Cheaper Heal)</font><br/><br/><font color=\"BBBBBB\"><u>治疗</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Manastorm": {
     "name": "法力风暴",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>法力风暴</b><br>(Manastorm)</font><br/><br/><font color=\"BBBBBB\">当法力值超过<font color=\"white\"> 100 </font>点后，使用技能会在<font color=\"white\"> 5秒 </font>内恢复<font color=\"white\"> 10 </font>点法力</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">如果释放了多个符合条件的技能，则额外的法力将会堆叠恢复(不会损失)</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>法力风暴</b><br>(Manastorm)</font><br/><br/><font color=\"BBBBBB\">当法力值超过<font color=\"white\"> 100 </font>点后，使用技能会在<font color=\"white\"> 2秒 </font>内恢复<font color=\"white\"> 5 </font>点法力</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">如果释放了多个符合条件的技能，则额外的法力将会堆叠恢复(不会损失)</font>"
   },
   "Memory_Recollection": {
-    "name": "重拾记忆",
+    "name": "记忆回响",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>重拾记忆</b><br>(Memory Recollection)</font><br/><br/><font color=\"BBBBBB\"><u>混沌爆破</u>的释放技能数量额外<font color=\"FFFFFF\"> +2</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>记忆回响</b><br>(Memory Recollection)</font><br/><br/><font color=\"BBBBBB\"><u>混沌爆破</u>的释放技能数量额外<font color=\"FFFFFF\"> +2</font></font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "Spin_Attack": {
     "name": "回旋斩",
@@ -1353,13 +1371,13 @@
     "name": "回旋斩减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>回旋斩减耗 I</b><br>(Cheaper Spin Attack I)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>回旋斩减耗 I</b><br>(Cheaper Spin Attack)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Dagger_Proficiency_I": {
     "name": "匕首精通 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>匕首精通 I</b><br>(Dagger Proficiency I)</font><br/><br/><font color=\"BBBBBB\">增加你的<u>移动速度</u>，并提升<u>普通攻击</u>的伤害</font>"
+    "description": "<font color=\"#FFFFFF\"><b>匕首精通 I</b><br>(Dagger Proficiency)</font><br/><br/><font color=\"BBBBBB\">增加你的<u>移动速度</u>，并提升<u>普通攻击</u>的伤害</font>"
   },
   "Double_Spin": {
     "name": "再斩",
@@ -1395,7 +1413,7 @@
     "name": "突进减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>突进减耗 I</b><br>(Cheaper Dash I)</font><br/><br/><font color=\"BBBBBB\"><u>突进</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>突进减耗 I</b><br>(Cheaper Dash)</font><br/><br/><font color=\"BBBBBB\"><u>突进</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Multihit": {
     "name": "多重斩",
@@ -1527,13 +1545,13 @@
     "name": "多重斩减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>多重斩减耗 I</b><br>(Cheaper Multihit I)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>多重斩减耗 I</b><br>(Cheaper Multihit)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Dagger_Proficiency_II": {
     "name": "匕首精通 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>匕首精通 II</b><br>(Dagger Proficiency II)</font><br/><br/><font color=\"BBBBBB\">你造成的所有伤害增加 <font color=\"white\">5 </font>点，且<u>普通攻击</u>范围增加<font color=\"white\"> 1 </font>格</font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">多段伤害的每一段都会被该技能点提升。</font>"
+    "description": "<font color=\"#FFFFFF\"><b>匕首精通 II</b><br>(Dagger Proficiency)</font><br/><br/><font color=\"BBBBBB\">你造成的所有伤害增加 <font color=\"white\">5 </font>点，且<u>普通攻击</u>范围增加<font color=\"white\"> 1 </font>格</font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">多段伤害的每一段都会被该技能点提升。</font>"
   },
   "Bamboozle": {
     "name": "虚张声势",
@@ -1551,7 +1569,7 @@
     "name": "烟雾弹减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>烟雾弹减耗 I</b><br>(Cheaper Smoke Bomb I)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>烟雾弹减耗 I</b><br>(Cheaper Smoke Bomb)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Blazing_Powder": {
     "name": "灼热的刀",
@@ -1653,7 +1671,7 @@
     "name": "突进减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>突进减耗 I</b><br>(Cheaper Dash II)</font><br/><br/><font color=\"BBBBBB\"><u>突进</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>突进减耗 I</b><br>(Cheaper Dash)</font><br/><br/><font color=\"BBBBBB\"><u>突进</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Parry": {
     "name": "锐羽",
@@ -1665,7 +1683,7 @@
     "name": "回旋斩减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>回旋斩减耗 I</b><br>(Cheaper Spin Attack II)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>回旋斩减耗 I</b><br>(Cheaper Spin Attack)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Nightcloak_Knife": {
     "name": "暗幕之刃",
@@ -1677,7 +1695,7 @@
     "name": "多重斩减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>多重斩减耗 II</b><br>(Cheaper Multihit II)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>多重斩减耗 II</b><br>(Cheaper Multihit)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Hoodwink": {
     "name": "移花接木",
@@ -1737,7 +1755,7 @@
     "name": "烟雾弹减耗 II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>烟雾弹减耗 II</b><br>(Cheaper Smoke Bomb II)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>烟雾弹减耗 II</b><br>(Cheaper Smoke Bomb)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Blade_Fury": {
     "name": "狂锋",
@@ -1821,13 +1839,13 @@
     "name": "图腾精通 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>图腾精通 I</b><br>(Relik Proficiency I)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>造成的伤害增加，且<u>普通攻击</u>的射线飞行速度加快</font>"
+    "description": "<font color=\"#FFFFFF\"><b>图腾精通 I</b><br>(Relik Proficiency)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>造成的伤害增加，且<u>普通攻击</u>的射线飞行速度加快</font>"
   },
   "Cheaper_Totem_I": {
     "name": "图腾减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>图腾减耗 I</b><br>(Cheaper Totem I)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>图腾减耗 I</b><br>(Cheaper Totem)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Totemic_Smash": {
     "name": "图腾冲击",
@@ -1863,7 +1881,7 @@
     "name": "牵引减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>牵引减耗 I</b><br>(Cheaper Haul I)</font><br><br><font color=\"BBBBBB\"><u>牵引</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>牵引减耗 I</b><br>(Cheaper Haul)</font><br><br><font color=\"BBBBBB\"><u>牵引</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Aura": {
     "name": "光环",
@@ -1959,13 +1977,13 @@
     "name": "光环减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>光环减耗 I</b><br>(Cheaper Aura I)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>光环减耗 I</b><br>(Cheaper Aura)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Cheaper_Uproot_I": {
     "name": "铲除减耗 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>铲除减耗 I</b><br>(Cheaper Uproot I)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>铲除减耗 I</b><br>(Cheaper Uproot)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Rebound": {
     "name": "回响之环",
@@ -1977,7 +1995,7 @@
     "name": "魔偶军团 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>魔偶军团 I</b><br>(More Puppets I)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +1</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>魔偶军团 I</b><br>(More Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +1</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
   },
   "Haunting_Memory": {
     "name": "灵界沟通",
@@ -2013,7 +2031,7 @@
     "name": "无底血池 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>无底血池 I</b><br>(More Blood Pool I)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">血池</font>的最大容量<font color=\"FFFFFF\"> +30</font></font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>无底血池 I</b><br>(More Blood Pool)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">血池</font>的最大容量<font color=\"FFFFFF\"> +30</font></font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Bullwhip": {
     "name": "鞭笞",
@@ -2025,7 +2043,7 @@
     "name": "魔偶军团II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>魔偶军团II</b><br>(More Puppets II)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>魔偶军团II</b><br>(More Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
   },
   "Mask_of_the_Fanatic": {
     "name": "狂热假面",
@@ -2055,7 +2073,7 @@
     "name": "图腾减耗II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>图腾减耗II</b><br>(Cheaper Totem II)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>图腾减耗II</b><br>(Cheaper Totem)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Storm_Dance": {
     "name": "唤风",
@@ -2079,13 +2097,13 @@
     "name": "牵引减耗II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>牵引减耗II</b><br>(Cheaper Haul II)</font><br><br><font color=\"BBBBBB\"><u>牵引</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>牵引减耗II</b><br>(Cheaper Haul)</font><br><br><font color=\"BBBBBB\"><u>牵引</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Cheaper_Aura_II": {
     "name": "光环减耗II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>光环减耗II</b><br>(Cheaper Aura II)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>光环减耗II</b><br>(Cheaper Aura)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Stronger_Totem": {
     "name": "致伤图腾",
@@ -2133,7 +2151,7 @@
     "name": "无底血池II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>无底血池II</b><br>(More Blood Pool II)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">血池</font>的最大容量<font color=\"FFFFFF\"> +30</font></font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>无底血池II</b><br>(More Blood Pool)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">血池</font>的最大容量<font color=\"FFFFFF\"> +30</font></font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Maddening_Roots": {
     "name": "怨念缠身",
@@ -2223,7 +2241,7 @@
     "name": "牵引减耗II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>牵引减耗II</b><br>(Cheaper Uproot II)</font><br><br><font color=\"BBBBBB\"><u>牵引</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>牵引减耗II</b><br>(Cheaper Uproot)</font><br><br><font color=\"BBBBBB\"><u>牵引</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
   "Awakened": {
     "name": "觉醒形态",

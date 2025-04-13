@@ -77,22 +77,15 @@ title: 新技能树测试界面
 |<skill name="竖线"/>|      |<skill name="右下"/>|<skill name="Resilient_Light"/>|<skill name="丁字"/>|<skill name="Snake_Nest"/>|<skill name="丁字"/>|<skill name="Seance"/>|<skill name="左下"/>|
 |<skill name="Transonic_Warp"/>|<skill name="丁字"/>|<skill name="Fluid_Healing_(Mage)"/>|<skill name="横线"/>|<skill name="Orphion's_Pulse"/>|<skill name="丁字"/>|<skill name="Arcane_Restoration"/>|      |<skill name="竖线"/>|
 |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|<skill name="Incandescence"/>|      |      |<skill name="竖线"/>|
-|      |<skill name="Diffusion"/>|      |      |<skill name="Lightweaver"/>|<skill name="丁字"/>|<skill name="Arcane_Speed"/>|      |<skill name="Larger_Mana_Bank_II"/>|
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
+|<skill name="右下"/>|<skill name="Diffusion"/>|      |      |<skill name="Lightweaver"/>|<skill name="丁字"/>|<skill name="Arcane_Speed"/>|<skill name="右下"/>|<skill name="Larger_Mana_Bank_II"/>|
+|<skill name="More_Winded_I"/>|<skill name="竖线"/>|      |      |      |<skill name="竖线"/>|      |<skill name="Psychokinesis"/>|<skill name="竖线"/>|
+|<skill name="右下"/>|<skill name="Cheaper_Ice_Snake_II"/>|<skill name="丁字"/>|<skill name="Explosive_Entrance"/>|<skill name="丁字"/>|<skill name="Cheaper_Meteor_II"/>|      |<skill name="右下"/>|<skill name="Chaos_Explosion"/>|
+|<skill name="Time_Dilation"/>|      |<skill name="Gust"/>|<skill name="丁字"/>|<skill name="Augury"/>|      |<skill name="右下"/>|<skill name="Arctic_Snake"/>|      |
+|<skill name="竖线"/>|      |      |<skill name="Searing_Light"/>|<skill name="竖线"/>|      |<skill name="Arcane_Power"/>|<skill name="竖线"/>|      |
+|<skill name="More_Winded_II"/>|<skill name="横线"/>|<skill name="Devitalize"/>|<skill name="丁字"/>|<skill name="Everlasting_Light"/>|<skill name="右下"/>|      |<skill name="Larger_Mana_Bank_III"/>|      |
+|<skill name="竖线"/>|      |      |<skill name="Divination"/>|<skill name="右下"/>|<skill name="Sunflare"/>|      |<skill name="竖线"/>|      |
+|<skill name="竖线"/>|      |      |      |<skill name="Halo"/>|<skill name="右丁字"/>|<skill name="横线"/>|<skill name="Arcane_Overflow"/>|<skill name="左下"/>|
+|<skill name="Timelock"/>|<skill name="横线"/>|<skill name="Cheaper_Heal_II"/>|<skill name="横线"/>|<skill name="横线"/>|<skill name="Manastorm"/>|      |      |<skill name="Memory_Recollection"/>|
 
 
 |      |      |      |      |      |      |      |      |      |
