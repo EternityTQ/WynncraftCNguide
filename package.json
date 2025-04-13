@@ -1,9 +1,9 @@
 {
   "name": "wynncraft-cn-guide",
-  "version": "2.0.0",
   "description": "Wynncraft中文攻略",
-  "type": "module",
+  "version": "2.0.0",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
@@ -11,17 +11,17 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
-    "vuepress": "2.0.0-rc.18",
-    "@vuepress/bundler-vite": "2.0.0-rc.18",
+    "@vuepress/bundler-vite": "2.0.0-rc.19",
     "@vuepress/plugin-register-components": "2.0.0-rc.66",
-    "@vuepress/plugin-slimsearch": "2.0.0-rc.61",
-    "vuepress-theme-hope": "2.0.0-rc.70",
     "@waline/client": "^3.5.1",
     "katex": "^0.16.21",
     "markmap-lib": "^0.18.9",
     "markmap-toolbar": "^0.18.9",
     "markmap-view": "^0.18.9",
     "sass-embedded": "^1.83.0",
-    "vue": "^3.5.13"
+    "vue": "^3.5.13",
+    "vuepress": "2.0.0-rc.19",
+    "vuepress-theme-hope": "2.0.0-rc.71",
+    "@vuepress/plugin-slimsearch": "2.0.0-rc.62"
   }
 }
