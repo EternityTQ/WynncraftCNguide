@@ -1317,13 +1317,13 @@
     "name": "天使预言",
     "icon": "/assets/img/class/blue.png",
     "category": "blue",
-    "description": "<font color=FF55FF><b>天使预言</b><br>(Divination)</font><br><br><font color = BBBBBB><u>座天使</u>召唤的光球数量<font color=WHITE> +3 </font>，但是其打击伤害降低</font><br><br><font color=WHITE><b>圣光使者 分支</b></font>"
+    "description": "<font color=97E6FC><b>天使预言</b><br>(Divination)</font><br><br><font color = BBBBBB><u>座天使</u>召唤的光球数量<font color=WHITE> +3 </font>，但是其打击伤害降低</font><br><br><font color=WHITE><b>圣光使者 分支</b></font>"
   },
   "Sunflare": {
     "name": "太阳光辉",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>太阳光辉</b><br>(Divination)</font><br/><br/><font color=\"BBBBBB\">在<font color=\"WHITE\"> 10秒 </font>内造成自身生命值上限的<font color=\"WHITE\"> 250% </font>治疗量后，你的下一次<u>治疗</u>会开启<u>太阳光辉</u>状态。<br><br><u>太阳光辉</u>状态期间，周围的友方玩家每秒恢复你生命值和魔力值上限的<font color=white> 5% </font>，并且你的光球会自动高频率进行攻击。<br><br><font color=\"WHITE\"><b>圣光使者 分支</b></font></font>"
+    "description": "<font color=\"FF5555\"><b>太阳光辉</b><br>(Sunflare)</font><br/><br/><font color=\"BBBBBB\">在<font color=\"WHITE\"> 10秒 </font>内造成自身生命值上限的<font color=\"WHITE\"> 250% </font>治疗量后，你的下一次<u>治疗</u>会开启<u>太阳光辉</u>状态。<br><br><u>太阳光辉</u>状态期间，周围的友方玩家每秒恢复你生命值和魔力值上限的<font color=white> 5% </font>，并且你的光球会自动高频率进行攻击。<br><br><font color=\"WHITE\"><b>圣光使者 分支</b></font></font>"
   },
   "Halo": {
     "name": "天使光轮",
