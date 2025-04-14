@@ -933,7 +933,7 @@
     "name": "陨石",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>陨石</b><br>(Meteor)</font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br/><br/><font color=\"BBBBBB\">召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">50</font><br/>召唤范围：<font color=\"white\">18格</font><br/>爆炸范围：<font color=\"white\">5格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>陨石</b><br>(Meteor)</font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br/><br/><font color=\"BBBBBB\">召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">50</font><br/>召唤范围：<font color=\"white\">18格</font><br/>爆炸范围：<font color=\"white\">5格</font><br><br><font color=ORANGE><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Comet</font><br>爆炸范围额外 <font color=white>+0.65/+1.15/+1.65/+2</font></font>"
   },
   "Wand_Proficiency_I": {
     "name": "法杖精通 I",
@@ -963,7 +963,7 @@
     "name": "传送",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>传送</b><br>(Teleport)<br></font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br/><br/><font color=\"BBBBBB\">立即向你面朝的方向传送一段距离<br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">25</font><br/>传送距离：<font color=\"white\">16格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>传送</b><br>(Teleport)<br></font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br/><br/><font color=\"BBBBBB\">立即向你面朝的方向传送一段距离<br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">25</font><br/>传送距离：<font color=\"white\">16格</font><br><br><font color=ORANGE><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Dimension's Door</font><br>传送距离额外 <font color=white>+2/+3.5/+5/+6</font>"
   },
   "Wisdom": {
     "name": "智慧",
