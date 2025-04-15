@@ -513,13 +513,13 @@
     "name": "双重击",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>双重击</b><br>(Double Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>将会对更远的范围额外造成一次伤害，但每一击的伤害<font color=\"FF5555\"> -40% </font><br><br>攻击范围：</font>+3格    "
+    "description": "<font color=\"ORANGE\"><b>双重击</b><br>(Double Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>将会对更远的范围额外造成一次伤害，但每一击的伤害<font color=\"FF5555\"> -30% </font><br><br>攻击范围：</font>+3格    "
   },
   "Vehement": {
     "name": "热烈之力",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>热烈之力</b><br>(Vehement)</font><br><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的普攻伤害，就获得<font color=\"white\"> 2% </font>的移动速度(至多+20%)      <br>同时，你的所有伤害 <font color=\"white\">+5 </font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>热烈之力</b><br>(Vehement)</font><br><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的普攻伤害，就获得<font color=\"white\"> 2% </font>的移动速度(至多+20%)      <br>同时，你的所有伤害 <font color=\"white\">+5 </font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Charge": {
     "name": "冲锋",
@@ -529,15 +529,15 @@
   },
   "Tougher_Skin": {
     "name": "坚韧之力",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>坚韧之力</b><br>(Tougher Skin)</font><br><br><font color=\"BBBBBB\">硬化你的皮肤，增加<font color=\"FFFFFF\"> 5% </font>的基础防御值</font><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的生命恢复，就获得<font color=\"white\"> 10 </font>点的血量(至多100点)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"ORANGE\"><b>坚韧之力</b><br>(Tougher Skin)</font><br><br><font color=\"BBBBBB\">硬化你的皮肤，增加<font color=\"FFFFFF\"> 5% </font>的基础防御值</font><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的生命恢复，就获得<font color=\"white\"> 10 </font>点的血量(至多100点)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Uppercut": {
     "name": "上挑斩",
     "icon": "/assets/img/class/warrior_green.png",
     "category": "warrior_green",
-    "description": "<font color=\"#00BB00\"><b>上挑斩</b><br>(Uppercut)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">将怪物击飞到空中，造成成吨的伤害</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>伤害范围：<font color=\"white\">5格</font><br>挑飞高度：<font color=\"white\">1-3格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>上挑斩</b><br>(Uppercut)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">将怪物击飞到空中，造成成吨的伤害</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>伤害范围：<font color=\"white\">6.5格</font><br>挑飞高度：<font color=\"white\">1-4格</font></font>"
   },
   "Cheaper_Charge_I": {
     "name": "冲锋减耗 I",
