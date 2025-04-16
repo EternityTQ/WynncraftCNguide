@@ -215,11 +215,7 @@ icon: hat-wizard
 >尽管大多数时候在你叠满Winded之前就已经把怪物解决了
 
 **重要技能：**
-+ Windsweeper：你的每次平A会给敌人叠加1层Winded
-
-+ Breathless：陨石会根据敌人已有的Winded造成额外伤害
-
-+ Gust：冰蛇会给敌人叠加1层Winded，同时造成更多伤害
+<skill name="Windsweeper"/> <skill name="Blink"/> <skill name="Transonic_Warp"/> <skill name="Gust"/> <skill name="Timelock"/>
   
 
 @tab <font color="grey"> Light Bender 圣光使者</font>

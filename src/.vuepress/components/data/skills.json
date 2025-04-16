@@ -641,11 +641,11 @@
     "category": "special",
     "description": "<font color=\"FF5555\"><b>神圣披风</b><br>(神圣披风)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>后，在自身周围生成一块神圣的披风，其可以为你接下来受到的<font color=\"white\"> 3 </font>次攻击抵挡<font color=\"white\"> 70% </font>的伤害      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">在<u>神圣披风</u>抵挡攻击后，接下来的0.5秒内减伤效果依然存在。</font>"
   },
-  "腐化之力": {
+  "Bak'al's Grasp": {
     "name": "腐化之力",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>腐化之力</b><br>(腐化之力)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>将会使你进入<font color=\"aqua\">腐化</font>状态。(15秒冷却)      <br><font color=\"555555\">(潜行时再使用战吼，或切换武器来退出腐化状态)</font><br><br><font color=\"aqua\">腐化</font>期间，你无法受到任何<font color=\"white\">治疗</font>效果。你每失去<font color=\"white\"> 2% </font>的生命值，就会获得 <font color=\"white\">4 </font>点的伤害提升(至多+120)      <br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font>"
+    "description": "<font color=\"FF5555\"><b>腐化之力</b><br>(Bak'al's Grasp)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>将会使你进入<font color=\"aqua\">腐化</font>状态。(15秒冷却)      <br><font color=\"555555\">(潜行时再使用战吼，或切换武器来退出腐化状态)</font><br><br><font color=\"aqua\">腐化</font>期间，你无法受到任何<font color=\"white\">治疗</font>效果。你每失去<font color=\"white\"> 2% </font>的生命值，就会获得 <font color=\"white\">4 </font>点的伤害提升(至多+120)      <br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font>"
   },
   "Spear_Proficiency_II": {
     "name": "长矛精通 II",
