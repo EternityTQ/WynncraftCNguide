@@ -38,7 +38,7 @@ Gold Bars可以留着，后面会有任务要来Rymek用Gold Bars买东西
 
 Nesaak南边有通天塔——[Tower of Ascension](/quests/lvl31-40/level%2040%20-%20tower%20of%20ascension.html)，它的第一层对应等级就是40级，但是后续层回越来越难，设计上是让玩家75级才能完成的。你可以尝试自己打，但是打不过千万不要急着找人带，有被管理员查号的风险！等到等级足够了再来打就可以了。
 
-# 前往海的对岸——Gavel省
+## 前往海的对岸——Gavel省
 
 ## 石英之城——Llevigar
 
