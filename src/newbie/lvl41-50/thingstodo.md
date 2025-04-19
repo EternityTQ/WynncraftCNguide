@@ -12,3 +12,5 @@ icon: marker
 lv54的任务[光域I](/quests/lvl51-60/level%2054%20-%20realm%20of%20light%20i%20-%20the%20worm%20holes.html)完成后会解锁你的第一个Raid——NOTG。
 
 这时你可以去尝试一下，但是不建议打很多。等级低的时候boss战很可能打不动，而且野队队友也不能保证carry。如果没有朋友带的话我不建议你在得到一套像样的build前打raid，raid的入场费对于新人挺贵的。
+
+这段时间相对而言会比较难熬，游戏难度几乎是断层的增加，但是装备的强度并没有显著提升。同时lv60~80升级也很缓慢，建议从partyfinder找mob grinding的组队，可以直接做任务+刷级跳过这段时间。
