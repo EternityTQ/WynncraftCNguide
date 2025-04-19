@@ -32,7 +32,7 @@ RiftWalker，法师的一个分支职业名
 ### **奥术/arc**
 Arcanist，法师的一个分支职业名
 
-### **球法**
+### **球法/lb**
 Light Bender，法师的一个分支职业名
 
 ### **ts**
@@ -47,6 +47,14 @@ heavy meele，一种通过降低攻速成型的流派名称，常见于刺客和
 有些老登会沿用以前的叫法
 
 ## 生活类
+
+:::tip
+
+讨论装备时用到的一些缩写是直接根据首字母拼出来的
+
+比如sd = spell dmg，wd = water dmg
+
+:::
 
 ### **e**
 emerald,绿宝石，这个游戏的货币基础交易单位
@@ -102,12 +110,12 @@ Silverbull，指的是Silverbull系统，你可以理解为wynncraft月卡
 氪金道具。
 
 ### **lb**
-绝大部分情况下指Loot bouns，战利品加成
-
-偶尔会有老外在问职业的时候使用lb来指球法
+球法，有时候指loot bonus
 
 ### **lq**
 Loot Quality，战利品质量
+
+lb是增加战利品的数量，lq是增加质量
 
 ### **三问**
 指80级的任务`???`
@@ -326,9 +334,6 @@ for real，真的
 ### **m8**
 mate，伙伴
 
-### **irl**
-in real life，三次元
-
 ### **u/ur**
 you/your，你/你的
 
@@ -344,18 +349,19 @@ what do you mean，什么意思？(非贬义)
 如果你听不懂老外说的话，可以用这个来追问老外说的什么
 
 ## 装备类
-
-### **dz**
-divzer，弓箭手的雷属性神话
-
-### **gma/奶奶**
-grandmather，弓箭手的地属性神话
-
-### **扭曲/瓦普**
-Warp，法师的气属性神话
-
 ### **cata**
-cataclysm，刺客的雷属性神话
+cataclysm，刺客的雷属性神话。有时指海盗船的产品catamaran
 
-### **水刀**
-Nirvana，刺客的水属性神话
+### **奶叉/奶锤**
+分别指catamaran和rhyme of the seasons，两个有回血majorid的矛
+
+### **腐化头**
+caesura，地雷属性的头盔
+
+### **xx圣所**
+字面意思，是cls的裤子，包括各元素对应的圣所和彩虹圣所
+
+### **42spell**
+字面意思，腐化战士特有的-mr自制饰品
+
+### ****
