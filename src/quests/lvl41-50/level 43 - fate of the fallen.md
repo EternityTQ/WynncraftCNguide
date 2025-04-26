@@ -11,7 +11,7 @@ icon: skull
 
 <span class="stage-index">1.</span> 和<font color=00AA00>**Telvu**</font>`[165, 74, -675]`对话
 
-<span class="stage-index">2.</span> 在**Nesaak**的银行内拿到<font color=00AA00>**Theorick**</font>的权杖，带回去交给<font color=00AA00>**Telvu**</font>`[165, 74, -675]`
+<span class="stage-index">2.</span> 在**Nesaak**的银行内拿到<font color=00AA00>**Theorick**</font>的权杖，带回去交给<font color=00AA00>**Telvu**</font>`[136, 73, -688]`
 >在旁边找条路上去即可 很好找
 
 ![](/assets/img/lvl43-1.jpg)
