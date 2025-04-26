@@ -12,7 +12,7 @@ icon: exclamation
 尽管如此，整个任务流程还是非常漫长，正常做需要一个小时的时长，时间基本都在跑图上。
 
 该任务需要途径的且有传送卷轴的地点有：
-Deltas, Ragni, **Troms**, Nessak, Selchar
+Deltas, Ragni, **Troms**, Nessak, Selchar, Rymek
 
 建议提前准备好传送卷轴(其中Troms需要多次往返)
 
