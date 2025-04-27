@@ -11,7 +11,7 @@ icon: skull
 
 <span class="stage-index">1.</span> 和<font color=00AA00>**Telvu**</font>`[165, 74, -675]`对话
 
-<span class="stage-index">2.</span> 在**Nesaak**的银行内拿到<font color=00AA00>**Theorick**</font>的权杖，带回去交给<font color=00AA00>**Telvu**</font>`[165, 74, -675]`
+<span class="stage-index">2.</span> 在**Nesaak**的银行内拿到<font color=00AA00>**Theorick**</font>的权杖，带回去交给<font color=00AA00>**Telvu**</font>`[136, 73, -688]`
 >在旁边找条路上去即可 很好找
 
 ![](/assets/img/lvl43-1.jpg)
@@ -41,4 +41,3 @@ icon: skull
 + 20000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Avalanche(一个属性非常不错的头盔)
 + 1 Ice Barrows Dungeon Key
-+ 可以进入 Ice Barrows 副本了
