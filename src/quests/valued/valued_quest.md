@@ -1,4 +1,4 @@
----
+ ---
 title: 值得做的任务
 icon: money-bill
 ---
@@ -57,7 +57,6 @@ X：解锁的功能有意义，但都不是很重要
 | [Misadventure on the Sea (level 28)](/quests/lvl21-30/level%2028%20-%20misadventure%20on%20the%20sea.html) | 去Selchar的船票不再收费 | X |
 | [A Sandy Scandal (level 32)](/quests/lvl31-40/level%2032%20-%20a%20sandy%20scandal.html) | 解锁了Almuj的银行 | XXX- |
 | [Canyon Condor (level 38)](/quests/lvl31-40/level%2038%20-%20canyon%20condor.html) | 可以使用Rymek大电梯了<br>(不重要的原因是这地方不常来) | X |
-| [Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20realm%20of%20light%20i%20-%20the%20worm%20holes.html) | 解锁了Tome系统 | XXX |
 | [The Passage(level 57)](/quests/lvl51-60/level%2057%20-%20the%20passage.html) | 解锁了Troms-猪人峡谷之间的通道<br>(不重要的原因是之后一般用快速传送卷轴了) | XX |
 | [The Order of the Grook (level 59)](/quests/lvl51-60/level%2059%20-%20the%20order%20of%20the%20grook.html) | 解锁了魔法传送通道<br>(重要的原因是奖励很值钱) | XXX |
 | [Flight In distress (level 75)](/quests/lvl71-80/level%2075%20-%20flight%20in%20distress.html) | 解锁了Detlas-Cinfras的快速旅行<br>(不重要的原因是之后一般用快速传送卷轴了) | X |
