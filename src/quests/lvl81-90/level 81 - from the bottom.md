@@ -12,7 +12,7 @@
 
 <span class="stage-index">4.</span> <font color=00AA00>**Dorroc**</font>用`Golemlus Power Core`跟你交换了物品，找到想要这个东西的NPC——<font color=00AA00>**Lodog**</font>`[159 6 -5285]`
 
-<span class="stage-index">5.</span> <font color=00AA00>**Lodog**</font>用`Ice Drake Scales`跟你交换了物品，找到想要这个东西的NPC——<font color=00AA00>**Mastro**</font>`[159 6 -5255]`
+<span class="stage-index">5.</span> <font color=00AA00>**Lodog**</font>用`Ice Drake Scales`跟你交换了物品，找到想要这个东西的NPC——<font color=00AA00>**Mastro**</font>`[157 6 -5256]`
 
 <span class="stage-index">6.</span> <font color=00AA00>**Mastro**</font>用`Ardent Magma Crystal`跟你交换了物品，找到想要这个东西的NPC——<font color=00AA00>**Dohstaj**</font>`[179 6 -5253]`
 
