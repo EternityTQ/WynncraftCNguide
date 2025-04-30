@@ -19,7 +19,7 @@ icon: skull
 
 <span class="stage-index">5.</span>去找<font color=00AA00>**Grandmaster Shaman**</font>并和他谈话`[-1579 147 -3313]`
 
-<span class="stage-index">6.</span>打开他左边的木门，然后通过<font color=00AA00>**Grandmaster Shaman**</font>帮你搭的路进入神殿
+<span class="stage-index">6.</span>打开他左边的木门，然后通过<font color=00AA00>**Grandmaster Shaman**</font>帮你搭的路进入神殿`[-1510 135 -3305]`
 >根本不用等他搭路...可以直接位移过来...
 
 <span class="stage-index">7.</span>拿到钥匙
