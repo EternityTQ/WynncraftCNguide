@@ -16,7 +16,7 @@ build指的是一整套装备，通常，对于某个特定武器(如神话武�
 
 你可以使用下面这个网址进行配装的尝试和装备信息的查询：
 
-https://hppeng-wynn.github.io
+https://wynnbuilder.github.io
 
 这个网址是国外大佬做的，看不懂可以到群里问问
 
