@@ -8,7 +8,7 @@ icon: ghost
 名称：The Nameless Anomaly
 简称：TNA
 最低等级需求：103
-入场费用：1 Tol Runes
+入场费用：1 Tol Rune
 前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20a%20journey%20further.html)
 
 Tna是当前游戏流程内最难的raid之一

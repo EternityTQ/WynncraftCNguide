@@ -8,7 +8,7 @@ icon: shield
 名称：The Canyon Colossus
 简称：TCC
 最低等级需求：95
-入场费用：1 Tol Runes
+入场费用：1 Tol Rune
 前置任务：[The Breaking Point (level 97)](/quests/lvl91-100/level%2097%20-%20the%20breaking%20point.html)
 
 Tcc是当前游戏流程内最难的raid之一
