@@ -1,66 +1,133 @@
 ---
-icon: exclamation
+title: A Sandy Scandal (level 32)
+icon: scroll
 ---
-# A Sandy Scandal (level 32)
-<span style="font-size: 25px;">**沙城劫案**</span>
 
-:::danger
+## 任务信息 / Information
+任务等级：Level 32 / 推荐等级： Level 32
+任务时长：中等 / 任务难度：中等
+中文译名：沙城劫案
 
-这个界面有待更新，敬请留意
 
-:::
+## 奖励清单 / Rewards
 
-<span class="stage-index">1.</span> 在**Almuj**城和<font color=00AA00>**Almuj Bank Guard**</font>`[976 83 -1963]`对话
++ 22000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 128 绿宝石![](/assets/icon/Emerald.png =20x)
 
-<span class="stage-index">2.</span> 去第一个目击证人所报告的地点`[954 75 -1985]`
+### Step 1 接取任务
+---
+在**Almuj**城和<NPC>Almuj Bank Guard</NPC><CC>976 83 -1963</CC>对话
 
-<span class="stage-index">3.</span> 打开地下室的金库 密码是7812
+![](/assets/img/lv32-1.png)
 
-<span class="stage-index">4.</span> 和<font color=00AA00>**Almuj Bank Guard**</font>对话
+### Step 2 第一位证人
+---
+去第一个目击证人所报告的地点<CC>954 75 -1985</CC>
 
-<span class="stage-index">5.</span> 去第二个目击证人所报告的地点`[922 79 -1927]`
+![](/assets/img/lv32-2.png)
 
-<span class="stage-index">6.</span> 调查爆炸的来源`[-13900, 37, 21019]`
+### Step 3 检查金库
+---
 
-![](../../.vuepress/public/assets/img/lvl32-1.jpg)
+打开地下室的金库 密码是7812
+
+>密码的获取方式在刚才的剧情中
+
+![](/assets/img/lv32-3.png)
+
+开门后，在密码墙右侧开了一扇门，进去看一圈然后出来。
+
+
+### Step 4 汇报情况
+--- 
+
+和<NPC>Almuj Bank Guard</NPC><CC>976 83 -1963</CC>对话
+
+![](/assets/img/lv32-1.png)
+
+
+### Step 5 第二位证人
+---
+
+去第二个目击证人所报告的地点<CC>922 79 -1927</CC>
+
+![](/assets/img/lv32-4.png)
+
+### Step 6 调查爆炸
+--- 
+调查爆炸的来源<CC>-13900, 37, 21019</CC>
+
+![](/assets/img/lvl32-1.jpg)
+
+进入房子后，上二楼，进入<tip name="lv32-1">武器库</tip>，触发剧情之后即可离开
 :::tip
-如果你在这一步中死亡了，你可以进入这一步中爆炸的房子来进入任务场景`[960 75 -1898]`
+如果你在这一步中死亡了，你可以进入这一步中爆炸的房子来进入任务场景<CC>960 75 -1898</CC>
 :::
 
-<span class="stage-index">7.</span> 继续和<font color=00AA00>**Almuj Bank Guard**</font>对话
+### Step 7 汇报情况
+--- 
 
-<span class="stage-index">8.</span> 赶往刚刚被劫掠的房子`[930 75 -2034]`
+继续和<NPC>Almuj Bank Guard</NPC><CC>976 83 -1963</CC>对话
 
-<span class="stage-index">9.</span> 寻找劫匪的下落
+![](/assets/img/lv32-1.png)
+
+### Step 8 突发情况
+--- 
+
+赶往刚刚被劫掠的房子<CC>930 75 -2034</CC>
+
+### Step 9 寻找劫匪
+--- 
+寻找劫匪的下落
 
 :::tip
 沿着地上掉落的金锭即可找到山洞
+
+![](/assets/img/lv32-6.png)
 :::
 
-<span class="stage-index">10.</span> 逃出巢穴
+### Step 10 得知情况
+--- 
 
-<span class="stage-index">11.</span> 跟随劫匪进入下一个房间`[1029 83 -1982]`(就是被炸出来后面前的洞)
+进入巢穴，偷听完对话后，逃出巢穴
 
-<span class="stage-index">12.</span> 别让劫匪跑了
-:::tip
-此处你需要生存一段时间。
+### Step 11 紧随其后
+---
+跟随劫匪进入下一个房间<CC>1029 83 -1982</CC>(就是被炸出来后，面前的洞)
 
-劫匪头子会每隔一段时间在场地四周随机一处放置tnt，你需要站在对应的tnt附近的压力板站一会才能解除爆炸，一旦被击飞则倒计时重置。时间非常紧迫，请注意
+![](/assets/img/lv32-7.png)
 
-每次解除爆炸后，下一次所需的爆炸时间延长
+### Step 12 消灭头子
+---
 
-此处非常折磨人，注意尽量与怪物拉远距离或使用击飞手段再去踩压力板阻止tnt爆炸
+别让劫匪跑了！
 
-如果被怪物击飞，导致踩不够时间会直接任务失败(此阶段重新开始)
+击杀面前的劫匪头子即可
+### Step 13 交付任务
+---
 
-一共需要抢4次点
+和<NPC>Almuj Bank Guard</NPC>谈话
 
-抢点环节结束后，杀死劫匪头目即可出门
-:::
 
-<span class="stage-index">13 </span> 和<font color=00AA00>**Almuj Bank Guard**</font>谈话
 
-奖励
-+ 22000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 128 绿宝石![](/assets/icon/Emerald.png =20x)
-+ 现在可以进入Almuj城的银行了
+## 剧情省流 / Summary
+
+Almuj的银行卫兵请求冒险者协助调查一系列可疑的盗窃事件。
+
+第一份目击报告来自矿业用品店的店主Gibbs，他描述了两名携带匕首的强盗闯入店铺，逼迫他交出炸药仓库的密码，并在得手后将其击昏。
+
+冒险者前往仓库确认TNT确实被盗，随后带回情报。
+
+第二位目击者是一位卷轴商人，他在屋顶花园中目睹两名携带炸药的可疑男子闯入邻居家，并引发爆炸，盗走了两把珍贵武器。
+
+调查中，冒险者确认武器已被盗走，可能用于更大的袭击。
+
+正当调查陷入僵局时，城中住宅区发生抢劫，冒险者前往现场，发现强盗留下的金块线索并追踪至其藏身处。
+
+在藏匿点中，冒险者偶然听到强盗头目谈话，得知他们计划使用TNT与武器抢劫银行。
+
+强盗引爆藏身处试图毁灭证据，冒险者成功逃出并追踪至他们炸开的银行入口。
+
+最终，冒险者在银行金库中击败了强盗头目，成功阻止了抢劫。
+
+银行卫兵对此表示钦佩，并对冒险者表达了感谢。

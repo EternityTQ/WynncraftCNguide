@@ -2,7 +2,11 @@
 <span style="font-size: 25px;">**木乃伊之怒**</span>
 
 
+:::danger
 
+这个界面有待更新，敬请留意
+
+:::
 
 <span class="stage-index">1.</span> 和**Almuj**城旁的沙漠的<font color=00AA00>**Ormrod**</font>`[979 69 -1808]`说话
 

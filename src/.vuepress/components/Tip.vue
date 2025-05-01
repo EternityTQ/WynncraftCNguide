@@ -114,6 +114,11 @@
     max-width: 300px;
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
     font-size: 14px;
+    
   }
+  .tip-container {
+  color:rgb(0, 85, 255);
+  }
+
   </style>
   
