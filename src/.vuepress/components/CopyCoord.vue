@@ -30,7 +30,6 @@ export default {
         const text = this.$el.textContent.trim();
       const temp = document.createElement('textarea');
       let str = text;
-      str=str.slice(1,-1);
       str='/compass at '+str;
       temp.value = str;
       
@@ -46,7 +45,6 @@ export default {
         const text = this.$el.textContent.trim();
       const temp = document.createElement('textarea');
       let str = text;
-      str=str.slice(1,-1);
       str='/compass at '+str;
       temp.value = str;
       

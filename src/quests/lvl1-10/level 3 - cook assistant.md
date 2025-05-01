@@ -23,7 +23,7 @@ icon: scroll
 ---
 \> Talk to the Cook in Ragni at [-854, 67, -1563].
 
-到Ragni城里和<NPC>厨师</NPC><CC>[-846 67 -1561]</CC>对话
+到Ragni城里和<NPC>厨师</NPC><CC>-846 67 -1561</CC>对话
 
 ![](/assets/img/lv3-1.png)
 
@@ -47,7 +47,7 @@ icon: scroll
 ---
 \> Return to the cook at [-854, 67, -1563] and bring him the cake.
 
-回到Ragni城里和<NPC>厨师</NPC><CC>[-846 67 -1561]</CC>交差
+回到Ragni城里和<NPC>厨师</NPC><CC>-846 67 -1561</CC>交差
 
 
 :::tip 小趣事

@@ -18,7 +18,7 @@ icon: scroll
 ---
 \> Talk to Merloni in Nemract at [210, 37, -2150]
 
-和**Namract**的<NPC>Merloni</NPC><CC>[210 37 -2150]</CC>对话
+和**Namract**的<NPC>Merloni</NPC><CC>210 37 -2150</CC>对话
 
 ![](/assets/img/lv20-1.png)
 
@@ -26,7 +26,7 @@ icon: scroll
 ---
 \> Explore the pit at [356, 58, -1914] and find the shrine
 
-探索巨坑<CC>[356 58 -1914]</CC>
+探索巨坑<CC>356 58 -1914</CC>
 
 ![](/assets/img/lv20-2.png)
 
@@ -46,7 +46,7 @@ icon: scroll
 ---
 \> Go back to Nemract and tell Merloni that you succeeded
 
-回去找<NPC>Merloni</NPC><CC>[210 37 -2150]</CC>交差即可
+回去找<NPC>Merloni</NPC><CC>210 37 -2150</CC>交差即可
 
 
 

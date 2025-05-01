@@ -18,21 +18,21 @@ icon: bookmark
 ---
 \> Meet up with Tasim at the entrance to Nivla Woods at [-424, 71, -1595].
 
-与<NPC>Tasim</NPC><CC>[-424 68 -1595]</CC>对话 
+与<NPC>Tasim</NPC><CC>-424 68 -1595</CC>对话 
 
 
 ### Step 2 蜘蛛洞前会面
 ---
 \> Follow Ope to the cave at [-320 70 -1565].
 
-对话完成后在洞穴前找到<NPC>Ope</NPC><CC>[-320 70 -1565]</CC>，对话完成后进入蜘蛛洞中
+对话完成后在洞穴前找到<NPC>Ope</NPC><CC>-320 70 -1565</CC>，对话完成后进入蜘蛛洞中
 
 
 ### Step 3 击败小BOSS
 ---
 \> Locate the medicine in the spider cave behind Ope at [-322, 75, -1565].
 
-进入洞穴中，前往<CC>[-343 41 -1522]</CC>，击败蜘蛛女王，然后从出口离开
+进入洞穴中，前往<CC>-343 41 -1522</CC>，击败蜘蛛女王，然后从出口离开
 
 ![](/assets/img/lv4-1.png)
 
@@ -54,7 +54,7 @@ icon: bookmark
 ---
 \> Speak to Mayor Alvin in Alekin Village at [-181, 71, -1615].
 
-与<NPC>Mayor Alvin</NPC><CC>[-181 71 -1615]</CC>对话
+与<NPC>Mayor Alvin</NPC><CC>-181 71 -1615</CC>对话
 
 
 ![](/assets/img/lv16-4.png)

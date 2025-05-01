@@ -23,7 +23,7 @@ icon: skull
 ---
 \> Talk to General Graken at [242, 50, -1931]
 
-和<NPC>General Graken</NPC><CC>[242 50 -1931]</CC>对话
+和<NPC>General Graken</NPC><CC>242 50 -1931</CC>对话
 
 ![](/assets/img/lv21-1.png)
 
@@ -31,7 +31,7 @@ icon: skull
 ---
 \> Investigate the house in Ancient Nemract at [226, 49, -1910].
 
-探索位于Nemract旧城区的宅邸<CC>[226 49 -1910]</CC>
+探索位于Nemract旧城区的宅邸<CC>226 49 -1910</CC>
 
 ![](/assets/img/lv21-2.png)
 
@@ -50,7 +50,7 @@ icon: skull
 
 一直往前走即可，注意有跳吓。
 
-怕走反的话可以标个点<CC>[6983 46 -1860]</CC>
+怕走反的话可以标个点<CC>6983 46 -1860</CC>
 
 来到地下室，墙壁塌陷后，继续往前走即可
 
@@ -68,7 +68,7 @@ icon: skull
 --- 
 \> Return the ruby to Graken at [242, 50, -1931]
 
-和<NPC>General Graken</NPC><CC>[242 50 -1931]</CC>对话
+和<NPC>General Graken</NPC><CC>242 50 -1931</CC>对话
 
 ## 剧情省流 / Summary
 

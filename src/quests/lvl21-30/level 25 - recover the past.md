@@ -34,7 +34,7 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 ### Step 1 接取任务
 ---
 
-和<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC> 对话
+和<NPC>Dr. Picard</NPC> <CC>103 90 -1200</CC> 对话
 
 ![](/assets/img/lv25-12.png)
 
@@ -43,7 +43,7 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 
 帮助<NPC>Dr. Picard</NPC>抓到第一个倒霉蛋来帮忙做记忆复苏的实验。
 
-沿着路直走，直到走到河边，和<NPC>Sailor Caid</NPC><CC>[-45 65 -1217]</CC>对话
+沿着路直走，直到走到河边，和<NPC>Sailor Caid</NPC><CC>-45 65 -1217</CC>对话
 
 ![](/assets/img/lv25-13.png)
 
@@ -52,7 +52,7 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 
  <NPC>Sailor Caid</NPC>的船只卡在河里出不去了，你得帮他找朋友帮忙。
 
-跟村子里的<NPC>Alchemist</NPC> <CC>[22 75 -1166]</CC> 对话
+跟村子里的<NPC>Alchemist</NPC> <CC>22 75 -1166</CC> 对话
 
 ![](/assets/img/lv25-14.png)
 
@@ -61,7 +61,7 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 
  <NPC>Alchemist</NPC>的药水还缺少原材料，你得帮他找齐。
 
-在<CC>[-9 72 -1229]</CC>的教堂后院找到`Bloom of Doom`，然后拿回去交给<NPC>Alchemist</NPC><CC>[22 75 -1166]</CC>
+在<CC>-9 72 -1229</CC>的教堂后院找到`Bloom of Doom`，然后拿回去交给<NPC>Alchemist</NPC><CC>22 75 -1166</CC>
 
 注意，打掉的时候会刷怪。
 
@@ -70,14 +70,14 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 ### Step 5 缩小船只
 ---
 
-把缩小药水拿回去交给<NPC>Sailor Caid</NPC><CC>[-45 65 -1217]</CC>
+把缩小药水拿回去交给<NPC>Sailor Caid</NPC><CC>-45 65 -1217</CC>
 
 ![](/assets/img/lv25-13.png)
 
 ### Step 6 带人回去
 --- 
 
-你帮他完成了任务，现在将<NPC>Sailor Caid</NPC>带回去给<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>
+你帮他完成了任务，现在将<NPC>Sailor Caid</NPC>带回去给<NPC>Dr. Picard</NPC> <CC>103 90 -1200</CC>
 
 ![](/assets/img/lv25-12.png)
 
@@ -87,12 +87,12 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 
 你观看了<NPC>Sailor Caid</NPC>的记忆...
 
-现在和<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>再次对话。
+现在和<NPC>Dr. Picard</NPC> <CC>103 90 -1200</CC>再次对话。
 
 ### Step 8 第二个倒霉蛋
 --- 
 
-离开塔楼，去找守卫村庄的士兵<NPC>Scout Reynauld</NPC><CC>[28 66 -1247]</CC>对话
+离开塔楼，去找守卫村庄的士兵<NPC>Scout Reynauld</NPC><CC>28 66 -1247</CC>对话
 
 ![](/assets/img/lv25-16.png)
 
@@ -114,7 +114,7 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 ### Step 10 带人回去
 --- 
 
-你帮士兵完成了任务，现在将<NPC>Scout Reynauld</NPC>带回去给<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>
+你帮士兵完成了任务，现在将<NPC>Scout Reynauld</NPC>带回去给<NPC>Dr. Picard</NPC> <CC>103 90 -1200</CC>
 
 ![](/assets/img/lv25-12.png)
 
@@ -124,7 +124,7 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 
 你观看了<NPC>Scout Reynauld</NPC>的记忆...
 
-现在和<NPC>Dr. Picard</NPC> <CC>[103 90 -1200]</CC>再次对话，然后观看<NPC>Tasim</NPC>的记忆。
+现在和<NPC>Dr. Picard</NPC> <CC>103 90 -1200</CC>再次对话，然后观看<NPC>Tasim</NPC>的记忆。
 
 ![令人感叹](/assets/img/lv25-17.png)
 
@@ -148,7 +148,7 @@ Ability Shard的来源为每日宝箱奖励/市场购买/Raid奖励
 ---
 
 
-在塔楼外和<NPC>Tasim</NPC><CC>[86 76 -1194]</CC>对话
+在塔楼外和<NPC>Tasim</NPC><CC>86 76 -1194</CC>对话
 
 ![](/assets/img/lv25-18.png)
 

@@ -21,7 +21,7 @@ icon: star
 ---
 \> Talk to Enkser outside Detlas at [561, 67, -1598]
 
-和**Detlas**旁边的<NPC>Enkser</NPC><CC>[561 67 -1598]</CC>对话
+和**Detlas**旁边的<NPC>Enkser</NPC><CC>561 67 -1598</CC>对话
 
 ![](/assets/img/lv13-1.png)
 
@@ -29,7 +29,7 @@ icon: star
 ---
 \> Bring back [1 Stable Key] to Enkser from the tunnel at [836, 69, -1649]
 
-来到**Ternaves**的马棚<CC>[838 69 -1650]</CC>，下去一直走直到杀死小BOSS
+来到**Ternaves**的马棚<CC>838 69 -1650</CC>，下去一直走直到杀死小BOSS
 
 :::tip 打法攻略
 BOSS的技能分为两个：[撼地]和[冲锋]
@@ -44,7 +44,7 @@ BOSS的技能分为两个：[撼地]和[冲锋]
 
 :::
 
-获取`Stable Key`后，回去找<NPC>Enkser</NPC><CC>[561 67 -1598]</CC>对话
+获取`Stable Key`后，回去找<NPC>Enkser</NPC><CC>561 67 -1598</CC>对话
 
 
 

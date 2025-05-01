@@ -21,13 +21,13 @@ icon: skull
 ---
 \> The Lieutenant at [-893, 70, -1910] needs help.
 
-和Ragni下水道旁边的<NPC>Jenprest</NPC><CC>[-892 67 -1909]</CC>谈话。
+和Ragni下水道旁边的<NPC>Jenprest</NPC><CC>-892 67 -1909</CC>谈话。
 
 ### Step 2 进入下水道
 ---
 \> Enter the sewer at [-935, 80, -1918] and find the blockage.
 
-进入下水道<CC>[-935 80 -1918]</CC>
+进入下水道<CC>-935 80 -1918</CC>
 
 **警告**：该任务场景的怪物数值较高，请做好准备再进入
 
@@ -70,7 +70,7 @@ icon: skull
 ---
 \> Talk to Jenprest at [-920, 65, -1882]
 
-离开下水道后，与<NPC>Jenprest</NPC><CC>[-920 65 -1882]</CC>对话
+离开下水道后，与<NPC>Jenprest</NPC><CC>-920 65 -1882</CC>对话
 
 ## 剧情省流 / Summary
 

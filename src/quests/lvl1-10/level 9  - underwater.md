@@ -25,13 +25,13 @@ icon: handshake-angle
 ---
 \> Talk to Omango located at the North of Maltic at [-540, 34, -2020]
 
-与<NPC>Omango</NPC><CC>[-540 34 -2020]</CC>对话
+与<NPC>Omango</NPC><CC>-540 34 -2020</CC>对话
 
 ### Step 2 前往船只
 ---
 \> Go through the cave at [-509 31 -2017] to find Sayrr on his boat on the other side
 
-穿过旁边的洞穴，找到<NPC>Sayrr</NPC><CC>[-419 41 -2157]</CC>的船只，与其对话
+穿过旁边的洞穴，找到<NPC>Sayrr</NPC><CC>-419 41 -2157</CC>的船只，与其对话
 
 ![](/assets/img/lv9-1.png)
 
@@ -42,7 +42,7 @@ icon: handshake-angle
 ---
 \> bring back [10 Gudgeon Meat] found in the cave at [-383 31 -2100] to Sayrr
 
-回去刚才的洞穴，获取10个`Gudgeon Meat`后，找<NPC>Sayrr</NPC><CC>[-419 41 -2157]</CC>交差。
+回去刚才的洞穴，获取10个`Gudgeon Meat`后，找<NPC>Sayrr</NPC><CC>-419 41 -2157</CC>交差。
 
 注意：10个`Gudgeon Meat`都需要是同品质的
 
@@ -59,7 +59,7 @@ icon: handshake-angle
 
 ![](/assets/img/lv9-3.png)
 
-比较推荐前往<CC>[-438 9 -2060]</CC>的资源点进行采集，较为集中。
+比较推荐前往<CC>-438 9 -2060</CC>的资源点进行采集，较为集中。
 
 在采集过程中，怪物会失去对你的所有仇恨，所以可以放心采集。
 :::
@@ -68,13 +68,13 @@ icon: handshake-angle
 ---
 \> Explore the crashed ship for a lost treasure at [-537, 34, -2026]
 
-返回沉船<CC>[-538 35 -2026]</CC>，佩戴刚刚获得的`Breathing Helmet I`进入沉船
+返回沉船<CC>-538 35 -2026</CC>，佩戴刚刚获得的`Breathing Helmet I`进入沉船
 
 ### Step 5 获取宝藏
 ---
 \> Break the crate and bring [4 Old Treasure] to Omango at [-540, 34, -2020]
 
-到达沉船深处，击破Damaged Crate，拿掉落物回去找<NPC>Omango</NPC><CC>[-540 34 -2020]</CC>交差。
+到达沉船深处，击破Damaged Crate，拿掉落物回去找<NPC>Omango</NPC><CC>-540 34 -2020</CC>交差。
 
 ![](/assets/img/lv9-4.png)
 

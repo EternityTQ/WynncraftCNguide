@@ -23,13 +23,13 @@ icon: handshake-angle
 ---
 \> Talk to Captain Ragon in the Detlas Barracks at [518, 67, -1631].
 
-与<NPC>Captain Ragon</NPC><CC>[518 67 -1631]</CC>对话
+与<NPC>Captain Ragon</NPC><CC>518 67 -1631</CC>对话
 
 ### Step 2 前往训练场
 ---
 \> Follow Captain Ragon to the Training Room at [531, 52, -1671].
 
-直走，左转下楼，在训练场找到<NPC>Captain Ragon</NPC><CC>[531 52 -1671]</CC>
+直走，左转下楼，在训练场找到<NPC>Captain Ragon</NPC><CC>531 52 -1671</CC>
 
 ### Step 3 进行元素训练
 ---
@@ -67,7 +67,7 @@ icon: handshake-angle
 ---
 \> Follow Captain Ragon to Detlas' north gate at [485, 67, -1658] to face the undead forces.
 
-前往北门<CC>[485 67 -1658]</CC>，与<NPC>Captain Ragon</NPC>对话后，开始抵御腐化军队。
+前往北门<CC>485 67 -1658</CC>，与<NPC>Captain Ragon</NPC>对话后，开始抵御腐化军队。
 
 :::tip
 接下来要面对的头目弱水属性，你可以提前准备好水属性武器，或者提前给武器打上水粉，来降低战斗难度。
@@ -77,7 +77,7 @@ icon: handshake-angle
 --- 
 \> Return to the Detlas Barracks and talk to Captain Ragon at [516, 67, -1629].
 
-返回军营，与<NPC>Captain Ragon</NPC><CC>[518 67 -1631]</CC>对话。
+返回军营，与<NPC>Captain Ragon</NPC><CC>518 67 -1631</CC>对话。
 
 ## 剧情省流 / Summary
 

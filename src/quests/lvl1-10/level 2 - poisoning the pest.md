@@ -17,7 +17,7 @@ icon: scroll
 ---
 \> Talk to Farmer Cevalus at [-749, 67, -1664]
 
-和**Ragni**城旁边的<NPC>Farmer Cevalus</NPC><CC>[-748 64 -1663]</CC>说话
+和**Ragni**城旁边的<NPC>Farmer Cevalus</NPC><CC>-748 64 -1663</CC>说话
    
 ### Step 2 获取鼠药
 ---

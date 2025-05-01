@@ -27,7 +27,7 @@ icon: route
 ---
 \> Talk to Ope in Detlas at [492, 67, -1588].
 
-在**Detlas**内与<NPC>Ope</NPC><CC>[492 67 -1588]</CC>对话
+在**Detlas**内与<NPC>Ope</NPC><CC>492 67 -1588</CC>对话
 
 ![](/assets/img/lv16-1.png)
 
@@ -44,20 +44,20 @@ icon: route
 ![](/assets/img/lv16-3.png)
 
 :::tip
-如果你选中了Ironman挑战，这个步骤中你会被要求去找<NPC>Tasim</NPC><CC>[528 52 -1669]</CC>对话。
+如果你选中了Ironman挑战，这个步骤中你会被要求去找<NPC>Tasim</NPC><CC>528 52 -1669</CC>对话。
 :::
 
 ### Step 3 汇报情况
 ---
 \> Return to Ope with the supply crate at [492, 67, -1588]
 
-再次和<NPC>Ope</NPC><CC>[492 67 -1588]</CC>对话
+再次和<NPC>Ope</NPC><CC>492 67 -1588</CC>对话
 
 ### Step 4 输送货物
 --- 
 \> Bring the supply crate to Mayor Alvin in Alekin Village at [-181, 71, -1615].
 
-回**Alekin**村和<NPC>Mayor Alvin</NPC><CC>[-181 71 -1615]</CC>对话(选高亮选项)
+回**Alekin**村和<NPC>Mayor Alvin</NPC><CC>-181 71 -1615</CC>对话(选高亮选项)
 
 ![](/assets/img/lv16-4.png)
 

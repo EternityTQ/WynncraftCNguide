@@ -16,6 +16,16 @@
     },
     "aspects1":{
         "description": "<img src=\"/assets/img/Aspects1.png\"/>"
+    },
+    "lv31-1":{
+        "description": "<img src=\"/assets/img/lvl31-2.jpg\"/>"
+    },
+    "lv31-2":{
+        "description": "<img src=\"/assets/img/lv31-3.png\"/>"
+    },
+    "lv31-3":{
+        "description": "<img src=\"/assets/img/lv31-4.png\"/>"
     }
+
     
 }

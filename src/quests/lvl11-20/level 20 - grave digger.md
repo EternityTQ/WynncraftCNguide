@@ -20,7 +20,7 @@ icon: scroll
 ### Step 1 接取任务
 ---
 
-和**Detlas**城北门的<NPC>Sayleros</NPC><CC>[476, 69, -1624]</CC>对话
+和**Detlas**城北门的<NPC>Sayleros</NPC><CC>476, 69, -1624</CC>对话
 
 ![](/assets/img/lv20-5.png)
 
@@ -32,7 +32,7 @@ icon: scroll
 
 ![](/assets/img/lv20-6.png)
 
-然后和<NPC>Drucksh</NPC><CC>[72, 40, -2180]</CC>对话即可
+然后和<NPC>Drucksh</NPC><CC>72, 40, -2180</CC>对话即可
 
 ![](/assets/img/lv20-7.png)
 
@@ -46,7 +46,7 @@ icon: scroll
 ---
 \> Talk to The Priest in the old cathedral at [319, 56, -2160]
 
-在教堂与<NPC>The Priest</NPC><CC>[319 56 -2160]</CC>交谈
+在教堂与<NPC>The Priest</NPC><CC>319 56 -2160</CC>交谈
 
 ![](/assets/img/lv20-8.png)
 
@@ -58,21 +58,21 @@ icon: scroll
 
 **地下室内怪群较多，请注意带足血药**
 
-首先，你需要前往<CC>[301 35 -2113]</CC>拿到钥匙
+首先，你需要前往<CC>301 35 -2113</CC>拿到钥匙
 
 ![](/assets/img/lv20-10.png)
 
-然后返回大门<CC>[312 35 -2164]</CC>，使用钥匙
+然后返回大门<CC>312 35 -2164</CC>，使用钥匙
 
 ![](/assets/img/lv20-9.png)
 
 开门后，进入下一层。
 
-先别急着往前，刚到下一层后立刻右拐，走到走廊尽头拿到钥匙<CC>[309 21 -2105]</CC>
+先别急着往前，刚到下一层后立刻右拐，走到走廊尽头拿到钥匙<CC>309 21 -2105</CC>
 
 ![](/assets/img/lv20-11.png)
 
-之后来到第二层的大门<CC>[344 18 -2118]</CC>，进入BOSS战
+之后来到第二层的大门<CC>344 18 -2118</CC>，进入BOSS战
 
 ![](/assets/img/lv20-12.png)
 
@@ -83,7 +83,7 @@ BOSS战没什么好说的，比较简单，单纯血牛怪，一共6个阶段，
 ---
 \> Bring Sayleros' brother's will to Sayleros at [318, 56, -2165] in the Nemract cathedral.
 
-离开地下室，和<NPC>The Priest</NPC><CC>[319 56 -2160]</CC>对话。
+离开地下室，和<NPC>The Priest</NPC><CC>319 56 -2160</CC>对话。
 
 ## 剧情省流 / Summary
 

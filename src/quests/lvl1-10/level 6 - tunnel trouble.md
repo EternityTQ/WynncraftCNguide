@@ -25,7 +25,7 @@ title: Tunnel Trouble (level 6)
 ---
 \> Talk to Captain Fenor in front of Detlas at [379, 67, -1569]
 
-和**Detlas**西大门的<NPC>Captain Fenor</NPC><CC>[379 67 -1569]</CC>交谈
+和**Detlas**西大门的<NPC>Captain Fenor</NPC><CC>379 67 -1569</CC>交谈
 
 
 ### Step 2 进入隧道
@@ -109,7 +109,7 @@ title: Tunnel Trouble (level 6)
 ---
 \> Speak to Sergeant Klafson next to the Ragni entrance of the cave.
 
-出洞口后和洞口的<NPC>Sergeant Klafson</NPC><CC>[-738 67 -1595]</CC>对话
+出洞口后和洞口的<NPC>Sergeant Klafson</NPC><CC>-738 67 -1595</CC>对话
 
 ![](/assets/img/lv6-6.png)
 

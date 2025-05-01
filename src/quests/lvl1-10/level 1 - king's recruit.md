@@ -115,10 +115,10 @@ icon: handshake-angle
 ---
 \> Exit the caravan and talk to the Caravan Driver at [-1573 51 -1626]
 
-和<NPC>Caravan Driver</NPC><CC>[-1573 51 -1626]</CC>对话
+和<NPC>Caravan Driver</NPC><CC>-1573 51 -1626</CC>对话
 
 :::tip 如何使用本教程?
-本教程内形如<CC>[-1573 51 -1626]</CC>的坐标，你都可以直接点击。
+本教程内形如<CC>-1573 51 -1626</CC>的坐标，你都可以直接点击。
 
 复制到聊天框中，是一串指令：`/compass at -1573 51 -1626`
 
@@ -146,7 +146,7 @@ icon: handshake-angle
 ---
 \> Walk down the path towards the gate to the Wynn Province at [-1529, 54, -1539].
 
-跟随<NPC>Tasim</NPC>前往永利省的大门<CC>[-1529 54 -1539]</CC>，路上的鸡没必要杀
+跟随<NPC>Tasim</NPC>前往永利省的大门<CC>-1529 54 -1539</CC>，路上的鸡没必要杀
 
 :::tip 注意疾跑条
 
@@ -178,7 +178,7 @@ icon: handshake-angle
 ---
 \>  Talk to the Soldier at [-1457, 54, -1531]
 
-和<NPC>Soldier</NPC><CC>[-1457 51 -1531]</CC>对话
+和<NPC>Soldier</NPC><CC>-1457 51 -1531</CC>对话
 
 对于任何NPC，==靠近右键==与其对话
 
@@ -189,7 +189,7 @@ icon: handshake-angle
 ---
 \>  Cross the bridge at [-1376, 53, -1529].
 
-沿着路一直走即可。走到桥上<CC>[-1372 50 -1528]</CC>会触发剧情，随后退回桥边会继续剧情
+沿着路一直走即可。走到桥上<CC>-1372 50 -1528</CC>会触发剧情，随后退回桥边会继续剧情
 
 ### Step 7 找另外的方式过桥
 
@@ -197,7 +197,7 @@ icon: handshake-angle
 
 >Search for another way across the ravine at [-1394, 54, -1553].
 
-来到<CC>[-1393 50 -1551]</CC>的树边，使用你刚拿到的武器对着树使用【鼠标左键】攻击几次。
+来到<CC>-1393 50 -1551</CC>的树边，使用你刚拿到的武器对着树使用【鼠标左键】攻击几次。
 
 ![](/assets/img/lv1-8_new.png)
 
@@ -214,14 +214,14 @@ icon: handshake-angle
 
 >Talk to the Guard at [-1298, 53, -1584].
 
-和<NPC>Guard</NPC><CC>[-1297 50 -1583]</CC>对话
+和<NPC>Guard</NPC><CC>-1297 50 -1583</CC>对话
 
 ### Step 10 初探洞穴
 
 ---
 \> Enter the cave and find some armour at [-1301, 52, -1560].
 
-进入旁边的洞穴<CC>[-1301 52 -1560]</CC>寻找一些装备
+进入旁边的洞穴<CC>-1301 52 -1560</CC>寻找一些装备
 
 ![](/assets/img/lv1-10_new.png)
 
@@ -242,13 +242,13 @@ icon: handshake-angle
 ---
 \> Talk to the Guard at [-1298, 53, -1584].
 
-回去找守卫<CC>[-1301 52 -1560]</CC>交差，他会叫你去旁边鉴定装备。
+回去找守卫<CC>-1301 52 -1560</CC>交差，他会叫你去旁边鉴定装备。
 
 ### Step 12 鉴定装备
 
 ---
 
-与鉴定师(Item Identifier)<CC>[-1300 50 -1595]</CC>对话，鉴定你刚刚获得的装备。
+与鉴定师(Item Identifier)<CC>-1300 50 -1595</CC>对话，鉴定你刚刚获得的装备。
 
 ![](/assets/img/lv1-9_new.png)
 
@@ -268,7 +268,7 @@ icon: handshake-angle
 
 \>  Enter the underpass at [-1288, 52, -1584].
 
-鉴定完毕后，回去找守卫<CC>[-1301 52 -1560]</CC>，他会开启山洞的大门，此时可以进入了。
+鉴定完毕后，回去找守卫<CC>-1301 52 -1560</CC>，他会开启山洞的大门，此时可以进入了。
 
 ### Step 14 穿过山洞
 
@@ -290,7 +290,7 @@ icon: handshake-angle
 ---
 \> Talk to the Lieutenant at [-1001, 67, -21554].
 
-与<NPC>Lieutenant</NPC><CC>[-1001, 67, -21554]</CC>对话，然后你们会被击飞。
+与<NPC>Lieutenant</NPC><CC>-1001, 67, -21554</CC>对话，然后你们会被击飞。
 
 ### Step 17 学习加点
 
@@ -354,7 +354,7 @@ icon: handshake-angle
 ---
 \> Talk to Ragni's King at [-939, 70, -1567].
 
-与<NPC>Ragni's King</NPC><CC>[-939, 70, -1567]</CC>对话。
+与<NPC>Ragni's King</NPC><CC>-939, 70, -1567</CC>对话。
 
 如果这里人不见了可以使用`/class`然后切回来。
 

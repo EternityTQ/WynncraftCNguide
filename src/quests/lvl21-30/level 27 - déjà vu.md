@@ -18,7 +18,7 @@ icon: scroll
 ### Step 1 接取任务
 ---
 
-与在时间峡谷的<NPC>Asher</NPC><CC>[-449 72 -1153]</CC>对话
+与在时间峡谷的<NPC>Asher</NPC><CC>-449 72 -1153</CC>对话
 
 ![](/assets/img/lv27-1.png)
 
@@ -26,7 +26,7 @@ icon: scroll
 ### Step 2 寻找铲子
 ---
 
-找到<NPC>Asher</NPC>的铲子<CC>[-560 70 -1100]</CC>
+找到<NPC>Asher</NPC>的铲子<CC>-560 70 -1100</CC>
 
 沿着路上的花走即可
 
@@ -51,7 +51,7 @@ icon: scroll
 
 帮助<NPC>Asher</NPC>逃离时间悖论。
 
-首先，进入任务场景后**向右转**，直走进入右前方的区域，踩上踏板上楼<CC>[-3953 71 1316]</CC>。
+首先，进入任务场景后**向右转**，直走进入右前方的区域，踩上踏板上楼<CC>-3953 71 1316</CC>。
 
 ![](/assets/img/lv27-5.png)
 
@@ -74,12 +74,12 @@ icon: scroll
 ### Step 6 倾听教诲
 --- 
 
-和<NPC>Old Man Martyn</NPC><CC>[-449 72 -1153]</CC>对话
+和<NPC>Old Man Martyn</NPC><CC>-449 72 -1153</CC>对话
 
 ### Step 7 结算任务
 --- 
 
-和<NPC>Asher</NPC><CC>[-449 72 -1153]</CC>对话
+和<NPC>Asher</NPC><CC>-449 72 -1153</CC>对话
 
 ## 剧情省流 / Summary
 

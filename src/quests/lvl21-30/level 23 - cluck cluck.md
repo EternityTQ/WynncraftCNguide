@@ -18,10 +18,10 @@ icon: bookmark
 ---
 \> Talk to Nohno on Rooster Island at [-83, 45, -2497]
 
-和**Rooster Island**的<NPC>Nohno</NPC><CC>[-83 45 -2497]</CC>交谈
+和**Rooster Island**的<NPC>Nohno</NPC><CC>-83 45 -2497</CC>交谈
 
 :::tip 如何前往Rooster Island?
-你可以从**Nemract**的码头出发<CC>[182 34 -2272]</CC>
+你可以从**Nemract**的码头出发<CC>182 34 -2272</CC>
 
 ![](/assets/img/lv23-1.png)
 :::
@@ -36,7 +36,7 @@ icon: bookmark
 
 ![](/assets/img/lv23-2.png)
 
-杀完后回去找<NPC>Nohno</NPC><CC>[-83 45 -2497]</CC>对话
+杀完后回去找<NPC>Nohno</NPC><CC>-83 45 -2497</CC>对话
 
 ## 剧情省流 / Summary
 

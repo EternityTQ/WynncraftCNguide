@@ -22,7 +22,7 @@ icon: handshake-angle
 ---
 \> Speak to Aledar in the Detlas Barracks at [511, 67, -1613].
 
-与<NPC>Aledar</NPC><CC>[511 67 -1613]</CC>对话。
+与<NPC>Aledar</NPC><CC>511 67 -1613</CC>对话。
 
 对话中，按下选项[1]接取任务。
 
@@ -34,7 +34,7 @@ icon: handshake-angle
 ---
 \> Follow Aledar to the Powder Master at [485, 67, -1624].
 
-前往军营门口的粉末大师门口<CC>[485 67 -1624]</CC>，与<NPC>Aledar</NPC>对话
+前往军营门口的粉末大师门口<CC>485 67 -1624</CC>，与<NPC>Aledar</NPC>对话
 
 ### Step 3 学习武器打粉
 ---
@@ -71,13 +71,13 @@ icon: handshake-angle
 ---
 \>  Meet up with Lieutenant Van's squad near the Raging Tower at [231, 69, -1620].
 
-与<NPC>Lieutenant Van</NPC><CC>[231 69 -1620]</CC>汇合后对话
+与<NPC>Lieutenant Van</NPC><CC>231 69 -1620</CC>汇合后对话
 
 ### Step 5 进入塔楼
 ---
 \> Assault the Raging Tower at [155, 67, -1698] and defeat the monster at the top.
 
-进入塔楼<CC>[155 66 -1698]</CC>，进入顶层解决掉小BOSS
+进入塔楼<CC>155 66 -1698</CC>，进入顶层解决掉小BOSS
 
 塔楼内的路很好找，你只需要狂上梯子即可。
 
@@ -91,7 +91,7 @@ icon: handshake-angle
 --- 
 >Report back to Lieutenant Van about your success at [231, 67, -1620]
 
-回去找<NPC>Lieutenant Van</NPC><CC>[231 69 -1620]</CC>交差。
+回去找<NPC>Lieutenant Van</NPC><CC>231 69 -1620</CC>交差。
 
 ## 剧情省流 / Summary
 

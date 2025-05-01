@@ -25,19 +25,19 @@ icon: skull
 ---
 \> Talk to Admiral Aegis in the Detlas Barracks at [519, 67, -1628].
 
-与<NPC>Admiral Aegis</NPC> <CC>[519 67 -1628]</CC>对话，对话进度到2/11暂停，然后跟随他前往军营的顶层<CC>[521 83 -1627]</CC>再次对话
+与<NPC>Admiral Aegis</NPC> <CC>519 67 -1628</CC>对话，对话进度到2/11暂停，然后跟随他前往军营的顶层<CC>521 83 -1627</CC>再次对话
 
 ### Step 2 领取补给
 ---
 \> Speak to Private Cob in the Savannah at [682, 74, -1714] to receive supplies.
 
-和<NPC>Private Cob</NPC><CC>[682 74 -1714]</CC>对话
+和<NPC>Private Cob</NPC><CC>682 74 -1714</CC>对话
 
 ### Step 3 输送补给
 ---
 \> Bring the supplies to Captain Enduyn at [-192, 44, -1822].
 
-沿着地上烧焦的痕迹走，将补给品送到<NPC>Captain Enduyn</NPC><CC>[-192 44 -1822]</CC>处。
+沿着地上烧焦的痕迹走，将补给品送到<NPC>Captain Enduyn</NPC><CC>-192 44 -1822</CC>处。
 ### Step 4 选择队友
 --- 
 \> Decide who to bring with you into Mount Wynn at [-192, 44, -1822].
@@ -48,7 +48,7 @@ icon: skull
 ---
 \> Enter Mount Wynn and reach the summit through the cave at [-120, 76, -1888].
 
-进入**Mt.Wynn**<CC>[-120 76 -1888]</CC>
+进入**Mt.Wynn**<CC>-120 76 -1888</CC>
 
 路上你会遇到一堆自爆蜘蛛。不用管，抓紧跑路即可，实在被缠上了就清理掉。
 
@@ -64,7 +64,7 @@ icon: skull
 --- 
 \> Return to Captain Enduyn with the flame at [-192, 44, -1822].
 
-与<NPC>Captain Enduyn</NPC><CC>[-192 44 -1822]</CC>对话
+与<NPC>Captain Enduyn</NPC><CC>-192 44 -1822</CC>对话
 ## 剧情省流 / Summary
 
 

@@ -19,7 +19,7 @@ icon: scroll
 ---
 \>  Talk to Colonel Gailard at [670, 80, -1755]
 
-与<NPC>Colonel Gailard</NPC><CC>[670 80 -1755]</CC>对话
+与<NPC>Colonel Gailard</NPC><CC>670 80 -1755</CC>对话
 
 ![](/assets/img/lv18-1.png)
 
@@ -30,7 +30,7 @@ icon: scroll
 
 在熔岩泉旁边找到三处腐化的迹象(找到红名物品打一下)
 
-分别在<CC>[646 77 -1729]</CC>、<CC>[640 73 -1761]</CC>、<CC>[665 76 -1777]</CC>
+分别在<CC>646 77 -1729</CC>、<CC>640 73 -1761</CC>、<CC>665 76 -1777</CC>
 
 ![](/assets/img/lv18-2.png)
 
@@ -38,13 +38,13 @@ icon: scroll
 ---
 \> Go back to Colonel Gailard at [670, 80, -1755]
 
-与<NPC>Colonel Gailard</NPC><CC>[670 80 -1755]</CC>对话
+与<NPC>Colonel Gailard</NPC><CC>670 80 -1755</CC>对话
 
 ### Step 4 调查药师
 --- 
 \> Talk to Gregor outside the Bremminglar well at [720, 70, -2098]
 
-在**Bremminglar**找到<NPC>Gregor</NPC><CC>[720 70 -2098]</CC>，对话后跳进井内
+在**Bremminglar**找到<NPC>Gregor</NPC><CC>720 70 -2098</CC>，对话后跳进井内
 
 ![](/assets/img/lv18-3.png)
 
@@ -53,7 +53,7 @@ icon: scroll
 \> Enter the Bremminglar well and talk to the healer at [720, 70, -2098]
 
 
-和<NPC>Nami The Healer</NPC><CC>[652 6 -2075]</CC>对话，拿到耐热药水后离开
+和<NPC>Nami The Healer</NPC><CC>652 6 -2075</CC>对话，拿到耐热药水后离开
 
 ![](/assets/img/lv18-4.png)
 
@@ -67,7 +67,7 @@ icon: scroll
 --- 
 \> Report back to Colonel Gailard at [670, 80, -1755]
 
-与<NPC>Colonel Gailard</NPC><CC>[670 80 -1755]</CC>对话
+与<NPC>Colonel Gailard</NPC><CC>670 80 -1755</CC>对话
 
 ### Step 7 进入熔泉
 --- 
@@ -86,7 +86,7 @@ icon: scroll
 --- 
 \> Tell Colonel Gailard at [670, 80, -1755] that you destroyed the heart
 
-与<NPC>Colonel Gailard</NPC><CC>[670 80 -1755]</CC>对话
+与<NPC>Colonel Gailard</NPC><CC>670 80 -1755</CC>对话
 
 
 

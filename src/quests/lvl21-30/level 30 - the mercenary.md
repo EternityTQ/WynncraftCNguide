@@ -18,9 +18,9 @@ icon: scroll
 ### Step 1 接取任务
 ---
 
-在**Detlas**找到<NPC>Military Scout</NPC><CC>[482 70 -1585]</CC>对话
+在**Detlas**找到<NPC>Military Scout</NPC><CC>482 70 -1585</CC>对话
 
-你也可以在**Nemract**<CC>[155 40 -2180]</CC>以及**Tempo Town**<CC>[-297 53 -1167]</CC>找到他。
+你也可以在**Nemract**<CC>155 40 -2180</CC>以及**Tempo Town**<CC>-297 53 -1167</CC>找到他。
 
 ![](/assets/img/lv30-1.png)
 
@@ -28,7 +28,7 @@ icon: scroll
 ### Step 2 开始会议
 ---
 
-和<NPC>Admiral Amerigo</NPC><CC>[979 85 -1971]</CC>对话，然后跟着他进入身后的会议室，开始会议。
+和<NPC>Admiral Amerigo</NPC><CC>979 85 -1971</CC>对话，然后跟着他进入身后的会议室，开始会议。
 
 ![](/assets/img/lv30-2.png)
 
@@ -36,7 +36,7 @@ icon: scroll
 ### Step 3 前往前线
 ---
 
-会议结束后，离开会议室，前往营地<CC>[1371 95 -2152]</CC>和众人会合
+会议结束后，离开会议室，前往营地<CC>1371 95 -2152</CC>和众人会合
 
 ![](/assets/img/lv30-4.png)
 
@@ -44,7 +44,7 @@ icon: scroll
 ### Step 4 突袭兵营
 --- 
 
-在<CC>[1347 78 -2267]</CC>附近和<NPC>Linton</NPC>对话，准备使用炸药突袭营地。
+在<CC>1347 78 -2267</CC>附近和<NPC>Linton</NPC>对话，准备使用炸药突袭营地。
 
 ![](/assets/img/lv30-5.png)
 
@@ -54,13 +54,13 @@ icon: scroll
 
 等<NPC>Linton</NPC>炸开墙后，潜入兵营，一路杀进去，第一个十字路口直走，然后拐两个弯上楼，一直找路上楼即可
 
-再上一层楼后，来到<CC>[1392 94 -2257]</CC>，偷听众人对话，随后触发战斗，消灭<mob>Takan</mob>
+再上一层楼后，来到<CC>1392 94 -2257</CC>，偷听众人对话，随后触发战斗，消灭<mob>Takan</mob>
 
 
 ### Step 6 获取钥匙
 --- 
 
-<NPC>Takan</NPC>逃跑后，再上一层楼，来到<CC>[1382 104 -2264]</CC>，与<NPC>Shadow Spears Leader</NPC>对话，拿到`Tower Key`，触发战斗解决掉出现的敌人
+<NPC>Takan</NPC>逃跑后，再上一层楼，来到<CC>1382 104 -2264</CC>，与<NPC>Shadow Spears Leader</NPC>对话，拿到`Tower Key`，触发战斗解决掉出现的敌人
 
 ![](/assets/img/lv30-6.png)
 
@@ -74,13 +74,13 @@ icon: scroll
 ### Step 8 离开兵营
 --- 
 
-返回<CC>[1374 84 -2179]</CC>与众人会合
+返回<CC>1374 84 -2179</CC>与众人会合
 
 ![](/assets/img/lv30-7.png)
 
 ### Step 9 汇报结果
 --- 
-和<NPC>Admiral Amerigo</NPC><CC>[979 85 -1971]</CC>对话
+和<NPC>Admiral Amerigo</NPC><CC>979 85 -1971</CC>对话
 
 
 ## 剧情省流 / Summary

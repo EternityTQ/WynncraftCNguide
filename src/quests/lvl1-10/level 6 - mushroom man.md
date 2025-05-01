@@ -26,19 +26,19 @@ icon: handshake-angle
 ---
 \> Talk to Tasim in Alekin Village at [-158, 73, -1621].
 
-和<NPC>Tasim</NPC><CC>[-158 73 -1621]</CC>对话
+和<NPC>Tasim</NPC><CC>-158 73 -1621</CC>对话
 
 ### Step 2 和奇怪的人对话
 ---
 \>  Speak to the strange man at [-175, 74, -1633].
 
-和<NPC>Yahya</NPC><CC>[-174 74 -1632]</CC>对话
+和<NPC>Yahya</NPC><CC>-174 74 -1632</CC>对话
 
 ### Step 3 前往蘑菇园
 ---
 \> Follow Yahya to his infested mushroom patch at [-208, 76, -1694].
 
-跟随<NPC>Yahya</NPC>来到他被感染的蘑菇园<CC>[-214 76 -1692]</CC>
+跟随<NPC>Yahya</NPC>来到他被感染的蘑菇园<CC>-214 76 -1692</CC>
 
 ### Step 4 清理蜘蛛
 ---
@@ -64,7 +64,7 @@ icon: handshake-angle
 \> Return to Mayor Alvin at [-181, 71, -1615] with news about the spiders.
 
 
-目睹<NPC>Yahya</NPC>被蜘蛛捉走后，回<NPC>Mayor Alvin</NPC><CC>[-182 71 -1615]</CC>处汇报情况
+目睹<NPC>Yahya</NPC>被蜘蛛捉走后，回<NPC>Mayor Alvin</NPC><CC>-182 71 -1615</CC>处汇报情况
 
 ![](/assets/img/lv16-4.png)
 
@@ -72,7 +72,7 @@ icon: handshake-angle
 ---
 \> Travel to Detlas to request the help of their military at [513, 68, -1629].
 
-前往**Detlas**的兵营<CC>[513,68,-1629]</CC>请求援助
+前往**Detlas**的兵营<CC>513,68,-1629</CC>请求援助
 
 在路上，你会遇到一只怪物，你可以选择打，Tasim会帮忙奶你
 

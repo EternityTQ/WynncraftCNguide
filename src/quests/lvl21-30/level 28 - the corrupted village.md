@@ -17,21 +17,21 @@ icon: scroll
 ### Step 1 接取任务
 ---
 
-和<NPC>Orikal</NPC><CC>[322 78 -1097]</CC>对话
+和<NPC>Orikal</NPC><CC>322 78 -1097</CC>对话
 
 ![](/assets/img/lv28-1.png)
 
 
 ### Step 2 勘察情况
 ---
-前往<NPC>Orikal</NPC>旁边的大黑柱子（就是有点斜过来的高高的，）顺着红色羊毛上去，爬到<CC>[347 97 -1136]</CC>，左下角出现字了就可以回去找<NPC>Orikal</NPC>
+前往<NPC>Orikal</NPC>旁边的大黑柱子（就是有点斜过来的高高的，）顺着红色羊毛上去，爬到<CC>347 97 -1136</CC>，左下角出现字了就可以回去找<NPC>Orikal</NPC>
 
 ![](/assets/img/lv28-2.png)
 
 ### Step 3 汇报情况
 ---
 
-和<NPC>Orikal</NPC><CC>[322 78 -1097]</CC>对话
+和<NPC>Orikal</NPC><CC>322 78 -1097</CC>对话
 
 ![](/assets/img/lv28-1.png)
 
@@ -39,7 +39,7 @@ icon: scroll
 ### Step 4 查看洞穴
 --- 
 
-进入大黑柱子旁边的洞穴<CC>[333 70 -1116]</CC>
+进入大黑柱子旁边的洞穴<CC>333 70 -1116</CC>
 
 进入后触发一系列剧情，看两名矿工对话即可。
 
@@ -49,27 +49,27 @@ icon: scroll
 ### Step 5 说明情况
 ---
 
-和<NPC>Orikal</NPC><CC>[322 78 -1097]</CC>对话
+和<NPC>Orikal</NPC><CC>322 78 -1097</CC>对话
 
 ![](/assets/img/lv28-1.png)
 
 ### Step 6 搜集原料
 --- 
 
-到营地里去拿东西<CC>[435, 81, -1106]</CC>
+到营地里去拿东西<CC>435, 81, -1106</CC>
 
 + `Unstable Corrupted Ore` 是要从右边的洞穴走进去，去最里面拿到矿，在倒计时之内将矿放进外面的<NPC>Explosive-Cloaker Machine</NPC>里
 + `Switch Fuse` 去按下吊锤机的按钮，就会砸开一个洞穴，进入洞穴打掉Incendiary Fluid获得
 ![](/assets/img/lv28-4.png)
 
-+ `Incendiary Fluid` 从中间的坑下去<CC>[444 73 -1102]</CC>，一直走到最深处，按下**FILL**金色按钮。之后回到地表，按下绿宝石按钮，等东西上来就可以获得`Incendiary Fluid`
++ `Incendiary Fluid` 从中间的坑下去<CC>444 73 -1102</CC>，一直走到最深处，按下**FILL**金色按钮。之后回到地表，按下绿宝石按钮，等东西上来就可以获得`Incendiary Fluid`
   ![](/assets/img/lv28-5.png)
 
 
 ### Step 7 制作炸弹
 --- 
 
-将这3个东西交给<NPC>Okiral</NPC><CC>[322 78 -1097]</CC>
+将这3个东西交给<NPC>Okiral</NPC><CC>322 78 -1097</CC>
 
 ![](/assets/img/lv28-1.png)
 
@@ -77,7 +77,7 @@ icon: scroll
 ### Step 8 安置炸弹
 --- 
 
-将获得的炸弹（信标）放到之前进入的洞穴<CC>[333 70 -1116]</CC>里的那个放炸弹的位置
+将获得的炸弹（信标）放到之前进入的洞穴<CC>333 70 -1116</CC>里的那个放炸弹的位置
 
 ![](/assets/img/lv28-6.png)
 

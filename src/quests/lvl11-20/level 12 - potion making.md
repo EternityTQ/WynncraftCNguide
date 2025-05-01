@@ -19,7 +19,7 @@ icon: scroll
 ---
 \> Talk to The Assistant in Detlas at [491, 67, -1575]
 
-与**Detlas**城的<NPC>The Assistant</NPC><CC>[491 67 -1575]</CC>对话
+与**Detlas**城的<NPC>The Assistant</NPC><CC>491 67 -1575</CC>对话
 
 ![](/assets/img/lv12-2.png)
 
@@ -28,7 +28,7 @@ icon: scroll
 \> Bring back [8 Red Mushrooms] to The Assistant in Detlas
 
 
-带回8个红蘑菇给<NPC>The Assistant</NPC><CC>[491 67 -1575]</CC>，**Detlas**东边附近的哞菇<CC>[582 64 -1557]</CC>会掉落红蘑菇
+带回8个红蘑菇给<NPC>The Assistant</NPC><CC>491 67 -1575</CC>，**Detlas**东边附近的哞菇<CC>582 64 -1557</CC>会掉落红蘑菇
 
 :::tip
 红蘑菇会直接进入你的素材袋中，注意查收。
@@ -44,7 +44,7 @@ icon: scroll
 ---
 \> Enter the hut at [616, 67, -1616] and slay Essren
 
-进入位于<CC>[616, 67, -1616]</CC>的房子，击杀<mob>Essran</mob>
+进入位于<CC>616, 67, -1616</CC>的房子，击杀<mob>Essran</mob>
 
 ![](/assets/img/lv12-3.png)
 
@@ -58,7 +58,7 @@ icon: scroll
 --- 
 \> Bring back Essren's Dusty Coat to The Assistant in Detlas
 
-回去找<NPC>The Assistant</NPC><CC>[491 67 -1575]</CC>对话。
+回去找<NPC>The Assistant</NPC><CC>491 67 -1575</CC>对话。
 
 ## 剧情省流 / Summary
 

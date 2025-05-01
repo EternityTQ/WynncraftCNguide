@@ -19,7 +19,7 @@ icon: scroll
 \> Talk to Laen in Nemract.
 
 
-和**Nemract**的<NPC>Laen</NPC><CC>[24 37 -2199]</CC>对话
+和**Nemract**的<NPC>Laen</NPC><CC>24 37 -2199</CC>对话
 
 ![](/assets/img/lv24-1.png)
 
@@ -27,7 +27,7 @@ icon: scroll
 ---
 \> Find the lost tower in Ancient Nemract.
 
-在Nemract古城找到失落之塔<CC>[185 57 -1883]</CC>
+在Nemract古城找到失落之塔<CC>185 57 -1883</CC>
 
 ![](/assets/img/lv24-2.png)
 
@@ -45,7 +45,7 @@ icon: scroll
 --- 
 \> Bring back the book to Laen.
 
-回去找<NPC>Laen</NPC><CC>[24 37 -2199]</CC>对话
+回去找<NPC>Laen</NPC><CC>24 37 -2199</CC>对话
 
 ## 剧情省流 / Summary
 
