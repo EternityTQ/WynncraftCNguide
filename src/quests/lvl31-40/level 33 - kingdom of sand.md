@@ -23,19 +23,19 @@ icon: skull
 
 ![](/assets/img/lv33-14.png)
 
-### Step 2 XXXX
+### Step 2 寻找情报
 ---
 
 到盗贼的藏身处查看情况<CC>1314 91 -1660</CC>，和房子内的<NPC>Vault Guard</NPC>对话，随后触发剧情
 
 ![](/assets/img/lv33-15.png)
-### Step 3 XXXX
+### Step 3 得到线索
 ---
 
 到藏身处外面和<NPC>Geo & Tarek</NPC><CC>1311 90 -1654</CC>对话
 
 ![](/assets/img/lv33-16.png)
-### Step 4 XXXX
+### Step 4 获取信任
 --- 
 
 潜入Rymek大厦<CC>1179 32 -1295</CC>的最高房间，偷取`Journal`
@@ -69,43 +69,43 @@ icon: skull
 7. 到达顶楼，获取`Journal`
 :::
 
-### Step 5 XXXX
+### Step 5 离开建筑
 ---
 
 破坏壁炉，赶快跑路！
 
 ![](/assets/img/lv33-17.png)
-### Step 6 XXXX
+### Step 6 返回窝点
 --- 
 
 和<NPC>Geo & Tarek</NPC>对话，然后上旁边的马车 
 
 ![](/assets/img/lv33-18.png)
-### Step 7 XXXX
+### Step 7 偷听会议
 --- 
 
 回到盗贼藏身处，和<NPC>Vault Guard</NPC>对话，进入旁边的地道最底部触发剧情
 
 ![](/assets/img/lv33-15.png)
-### Step 8 XXXX
+### Step 8 前往马车
 --- 
 
-找盗贼所说的破车<CC>1183 76 -1857</CC>
+找盗贼所说破旧马车<CC>1183 76 -1857</CC>
 
 ![](/assets/img/lv33-19.png)
-### Step 9 XXXX
+### Step 9 解决马贼
 --- 
 
 触发战斗，解决盗贼！
 
 
-### Step 10 XXXX
+### Step 10 拿下权杖
 --- 
 
 到旁边的屋子<CC>1220 77 -1876</CC>二楼拿到权杖
 
 ![](/assets/img/lv33-20.png)
-### Step 11 XXXX
+### Step 11 交付任务
 ---
 
 回到坟墓前和<NPC>Junes</NPC><CC>1408 94 -1823</CC>对话
