@@ -7,7 +7,7 @@ icon: route
 
 
 ## 任务信息 / Information
-任务等级：Level 34 / 推荐等级： Level 34
+任务等级：Level 34 / 推荐等级： Level 38
 任务时长：中等 / 任务难度：中等
 中文译名：峡谷秃鹫
 
@@ -17,10 +17,14 @@ icon: route
 
 + 21000经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 640绿宝石![](/assets/icon/Emerald.png =20x)
-+ 可以使用Rymek大电梯了(很容易能看到)
++ 可以使用Rymek大电梯了
+
+![峡谷的大电梯非常多，如图所示均为本任务解锁的电梯](/assets/img/lv34-8.png)
 
 :::tip
-**Rymek**镇可以通过在(1249,1688)附近的大瀑布进行上下,这里的货币是`gold bar`,附近怪物掉落。
+**Rymek**镇可以通过在<CC>1238 85 -1655</CC>附近的大瀑布进行上下,这里的货币是`gold bar`,附近怪物掉落。
+
+![在没解锁电梯之前可以从这两条路上下](/assets/img/lv34-9.png)
 
 这里的村民是黄名,伤到了会来打你。小心被群殴死。
 :::
