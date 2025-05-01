@@ -12,7 +12,7 @@ author: leo7668
 名称：Orphion's Nexus of Light
 简称：NOL
 最低等级需求：79
-入场费用：1 Uth Runes
+入场费用：1 Uth Rune
 前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20light%20v%20-%20the%20realm%20of%20light.html)
 
 Nol是整个游戏流程中，等级限制第二低的raid
