@@ -70,7 +70,6 @@ icon: skull
 + Electro Mage's Boots (非常牛逼的鞋子)
 + 1 Fallen Factory Key
 + 可以乘坐往返于Corkus-Kandon Beda之间的热气球了
-+ 可以进入Fallen Factory副本了
 
 :::tip 热气球在哪?
 ![Kandon-Beda](/assets/img/lvl89-1.jpg =350x)
