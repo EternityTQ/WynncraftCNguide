@@ -1,22 +1,44 @@
 ---
 title: Kingdom of Sand (level 33)
+icon: skull
 ---
 
-<span style="font-size: 25px;">**沙海帝国**</span>
+## 任务信息 / Information
+任务等级：Level 33 / 推荐等级：Level 33
+任务时长：中等 / 任务难度：中等
+中文译名：沙海帝国
 
-:::danger
 
-这个界面有待更新，敬请留意
+## 奖励清单 / Rewards
 
-:::
++ 10500 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 192 绿宝石![](/assets/icon/Emerald.png =20x)
++ 1 Sand-Swept Tomb地牢钥匙
++ 1 Hashr's Bone(SST通关奖励)
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Junes**</font>`[1341 81 -1826]`对话
+### Step 1 接取任务
+---
 
-<span class="stage-index">2.</span> 到盗贼的藏身处查看情况`[1314 91 -1660]`，和房子内的<font color=00AA00>**Vault Guard**</font>对话，随后触发剧情
+和<NPC>Junes</NPC><CC>1341 78 -1825</CC>对话
 
-<span class="stage-index">3.</span> 到藏身处外和<font color=00AA00>**Geo & Tarek**</font>`[1311 90 -1654]`对话
+![](/assets/img/lv33-14.png)
 
-<span class="stage-index">4.</span> 潜入Rymek大厦`[1179 32 -1295]`的最高房间，偷取`Journal`
+### Step 2 XXXX
+---
+
+到盗贼的藏身处查看情况<CC>1314 91 -1660</CC>，和房子内的<NPC>Vault Guard</NPC>对话，随后触发剧情
+
+![](/assets/img/lv33-15.png)
+### Step 3 XXXX
+---
+
+到藏身处外面和<NPC>Geo & Tarek</NPC><CC>1311 90 -1654</CC>对话
+
+![](/assets/img/lv33-16.png)
+### Step 4 XXXX
+--- 
+
+潜入Rymek大厦<CC>1179 32 -1295</CC>的最高房间，偷取`Journal`
 
 :::details 按下列步骤走
 
@@ -47,25 +69,57 @@ title: Kingdom of Sand (level 33)
 7. 到达顶楼，获取`Journal`
 :::
 
-<span class="stage-index">5.</span> 破坏壁炉，赶快跑路！
+### Step 5 XXXX
+---
 
-<span class="stage-index">6.</span> 和<font color=00AA00>**Geo & Tarek**</font>对话，然后上旁边的马车 
+破坏壁炉，赶快跑路！
 
-<span class="stage-index">7.</span> 回到盗贼藏身处，和<font color=00AA00>**Vault Guard**</font>对话，进入旁边的地道最底部触发剧情
+![](/assets/img/lv33-17.png)
+### Step 6 XXXX
+--- 
 
-<span class="stage-index">8.</span> 找盗贼所说的破车`[1183 76 -1857]`
+和<NPC>Geo & Tarek</NPC>对话，然后上旁边的马车 
 
-<span class="stage-index">9.</span> 触发战斗，解决盗贼！
+![](/assets/img/lv33-18.png)
+### Step 7 XXXX
+--- 
 
-<span class="stage-index">10.</span> 到旁边的屋子`[1220 77 -1876]`二楼拿到权杖
+回到盗贼藏身处，和<NPC>Vault Guard</NPC>对话，进入旁边的地道最底部触发剧情
 
-<span class="stage-index">11.</span> 回到坟墓前和<font color=00AA00>**Junes**</font>`[1408 97 -1824]`对话
+![](/assets/img/lv33-15.png)
+### Step 8 XXXX
+--- 
 
-奖励：
-+ 10500 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 192 绿宝石![](/assets/icon/Emerald.png =20x)
-+ 1 SST地牢钥匙
-+ 1 Hashr's Bone(SST通关奖励)
+找盗贼所说的破车<CC>1183 76 -1857</CC>
+
+![](/assets/img/lv33-19.png)
+### Step 9 XXXX
+--- 
+
+触发战斗，解决盗贼！
 
 
+### Step 10 XXXX
+--- 
 
+到旁边的屋子<CC>1220 77 -1876</CC>二楼拿到权杖
+
+![](/assets/img/lv33-20.png)
+### Step 11 XXXX
+---
+
+回到坟墓前和<NPC>Junes</NPC><CC>1408 94 -1823</CC>对话
+
+![](/assets/img/lv33-21.png)
+
+## 剧情省流 / Summary
+
+冒险者在Almuj附近遇见考古学家Junes，她请求帮忙找回传说中的“帝王权杖”。据传这件神器曾属于沙漠皇帝，在其子Hashr弑父后遗失，现被当地强盗团伙持有。
+
+Junes提到权杖可能藏在强盗据点，但冒险者被守卫拦下。此时强盗成员Geo和Tarek出现，暗示进入需要“赃物”作为凭证，并提议偷取Rymek市长Rymek的丑闻日记来换取信任。
+
+冒险者潜入Rymek宅邸顶楼，避开守卫和警戒土狼，成功窃取日记。Geo和Tarek认可冒险者的能力，用日记作为“密码”协助其进入强盗据点。
+
+在据点内，冒险者偷听到强盗首领的会议——权杖被藏在河边的破旧马车里。但当冒险者前往搜查时，却遭遇埋伏。击败强盗首领后，发现线索纸条指向附近废弃房屋。
+
+冒险者在房屋二楼找到帝王权杖，其蕴含的古老力量令人震撼。将权杖交还给Junes时，她激动不已，计划前往Almuj深入研究，并警告冒险者陵墓中潜藏着Hashr王子亡魂等致命危险。
