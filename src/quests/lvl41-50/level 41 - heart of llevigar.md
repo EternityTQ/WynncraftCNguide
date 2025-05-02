@@ -1,49 +1,106 @@
-# Heart of Llevigar(level 41)
-<span style="font-size: 25px;">**Llevigar之心**</span>
+---
+title: Heart of Llevigar(level 41)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 在**Llevigar**能源控制中心找到<font color=00AA00>**Zenam**</font>`[-1872 55 -4593]`
+## 任务信息 / Information
+任务等级：Level 41 / 推荐等级： Level 41
+任务时长：较长 / 任务难度：中等
+中文译名：城市核心
 
-<span class="stage-index">2 </span> 进入**Llevigar**银行对面的排水沟`[-1998 77 -4507]`，站在坑里按下按钮
 
-![](../../.vuepress/public/assets/img/lvl41-1.jpg)
+## 奖励清单 / Rewards
+
++ 24500 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 224 绿宝石![](/assets/icon/Emerald.png =20x)
++ Generator Amulet(项链)
+
+### Step 1 接取任务
+---
+在**Llevigar**能源控制中心找到<NPC>Zenam</NPC><CC>-1872 55 -4593</CC>
+
+![](/assets/img/lv41-1.png)
+
+### Step 2 进入核心
+---
+进入**Llevigar**银行对面的排水沟<CC>-1998 77 -4507</CC>，站在坑里按下按钮
+
+![](/assets/img/lvl41-1.jpg)
 
 :::tip
 下落过程中不能有任何移动
+
+下来后直接往里走就好，不要走黑色洞口，那里是出口。。
 :::
 
-<span class="stage-index">3.</span> 和能源工厂的<font color=00AA00>**Head Engineer**</font>`[-2058 4 -4498]`说话
 
-<span class="stage-index">4.</span> 从`[-2056 4 -4526]`的洞里进去，然后立刻右拐进入`[-2061 24 -4507]`的洞，最后直走即可
+### Step 3 了解情况
+---
+和能源工厂的<NPC>Head Engineer</NPC><CC>-2058 4 -4498</CC>说话
 
-<span class="stage-index">5.</span> 解决谜题：让墙上的铁块和金块变成地板上的样子，灰色玻璃表示空出来的格
+![](/assets/img/lv41-2.png)
+
+### Step 4 寻找核心
+--- 
+从<CC>-2056 4 -4526</CC>的洞里进去，然后立刻右拐进入<CC>-2061 24 -4507</CC>的洞，最后直走即可
+
+### Step 5 第一道谜题
+---
+解决谜题：让墙上的方块变成地板上的样子，灰色玻璃表示空出来的格
 
 :::tip
 红色按钮代表1，绿色按钮代表2，蓝色按钮代表3，黄色按钮代表4.则顺序为↓<br>**1243 1243 1243 421**
 :::
 
-然后按下右边绿宝石![](/assets/icon/Emerald.png =20x)块上的按钮。接下来回头到刚才的入口跳进坑里
+最后按下右边绿宝石块上的按钮。接下来回头到刚才的入口跳进坑里
 
 >原理，按对应颜色按钮触发对应颜色边的活塞/粘性活塞
 
-<span class="stage-index">6.</span> 直直通过走廊
+![](/assets/img/lv41-3.png)
 
-<span class="stage-index">7.</span> 通过迷宫
+### Step 6 穿过走廊
+--- 
+直直通过走廊
+
+![](/assets/img/lv41-4.png)
+
+### Step 7 穿过迷宫
+--- 
+
+通过迷宫
 
 :::tip
 跟着天花板上面的黄色玻璃轨迹移动
 :::
 
-<span class="stage-index">8.</span> 解密图见下图，然后按下confirm的按钮，然后通过房间。
->原理：旁边的按钮表示你可以通过按着按钮来粉刷原来地上的方块，不同按钮对应不同颜色，按钮下的方块(比如黄色羊毛)可以连接按钮旁边的方块(对应的黄色黏土)，解开正好把整个地面涂满。
+![](/assets/img/lv41-5.png)
+### Step 8 第二道谜题
+--- 
 
-![](../../.vuepress/public/assets/img/lvl41-2.jpg)
+解密图见下图，然后按下绿宝石块上confirm的按钮，然后通过房间。
 
-<span class="stage-index">9.</span> 报告给<font color=00AA00>**Head Engineer**</font>。
+原理：四周的按钮为选择颜色，选择完毕后可以直接按下地板上的按钮来粉刷颜色。
 
-<span class="stage-index">10.</span> 找<font color=00AA00>**Zenam**</font>要工资。
+最后需要将相同颜色的染色粘土连在一起，且连线不能交叉
 
-奖励
+![](/assets/img/lvl41-2.jpg)
+### Step 9 汇报情况
+--- 
 
-+ 24500 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 224 绿宝石![](/assets/icon/Emerald.png =20x)
-+ Generator Amulet(项链)
+报告给<NPC>Head Engineer</NPC><CC>-2058 4 -4498</CC>
+
+![](/assets/img/lv41-2.png)
+### Step 10 交付任务
+--- 
+找<NPC>Zenam</NPC><CC>-1872 55 -4593</CC>要工资。
+
+![](/assets/img/lv41-1.png)
+
+## 剧情省流 / Summary
+Zenam在Llevigar电力控制中心发现城市核心“Llevigar之心”即将熔毁，紧急求助冒险者。这位惊慌失措的工程师语无伦次地宣称系统本应完美无缺，却因不明原因开始过载，并催促冒险者立刻前往地下发电厂。
+
+通过银行对面的下水道入口，冒险者在轰鸣的机房找到总工程师。对方透露一个月前的停电事故导致系统紊乱，必须深入机械核心手动重启。此时紫色电弧已在管道间肆虐，墙缝中爬出受辐射变异的机械甲虫。
+
+冒险者攀爬彩色地毯覆盖的维修通道，解开移动方块与流光线路两道古老谜题，最终抵达猩红色的重置按钮。随着系统重启，总工程师如释重负，却嘟囔着“甲虫？我们修好的明明是电路故障”。
+
+返回地面后，Zenam边擦拭冷汗边支付酬劳，提到曾有骗子试图冒领功劳。他望着重新稳定的能量核心，祈祷这座维系城市的巨构体别再出乱子——毕竟下次未必能找到真正的专家来化解危机。
