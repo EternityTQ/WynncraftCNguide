@@ -19,7 +19,7 @@ icon: route
 
 <span class="stage-index">5.</span> 找到Axelus后，跟随他留下的纸条前往图书馆的入口`[1024 13 -5050]`
 
-<span class="stage-index">6.</span> 进入左侧的通道，将大炮对准大门(默认应该是对准的)，点击绿宝石![](/assets/icon/Emerald.png =20x)按钮发射
+<span class="stage-index">6.</span> 进入左侧的通道，将大炮对准大门(默认应该是对准的)，点击绿宝石块上的按钮发射
 
 ![](/assets/img/lvl91-1.jpg)
 
