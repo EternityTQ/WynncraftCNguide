@@ -85,12 +85,14 @@
 
 <span class="stage-index">7.</span> 在矿洞内走到最里面，然后...
 
-**<font color = "red">&*%&@#*(_@#&*($&*()))</font>**
+
+
+<font color="red"><gt text="&*%&@#*(_@#&*($&*()))" :speed="30" /></font>
 
 跟金丝雀聊会天，选第一个选项才能继续剧情
 选二三选项都会死
 
-如果你死了，你可以回到这个矿洞继续任务，**然后%^(#&@W^&(_*@#^&%*()))**
+如果你死了，你可以回到这个矿洞继续任务，然后<font color="red"><gt text="&*%&@#*(_@#&*($&*()))" :speed="30" /></font>
 
 <span class="stage-index">8.</span> 击败Canary
 :::tip
