@@ -6,6 +6,7 @@ import mob from "./components/Mob.vue";
 import guard from "./components/Guard.vue";
 import skill from "./components/Skill.vue";
 import tip from "./components/Tip.vue"
+import gt from "./components/GlitchText.vue"
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
     app.component("CC", CC);
@@ -15,5 +16,6 @@ export default defineClientConfig({
     app.component("guard", guard);
     app.component("skill", skill);
     app.component("tip", tip);
+    app.component("gt", gt);
   },
 });
