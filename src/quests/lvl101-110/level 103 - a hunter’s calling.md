@@ -89,7 +89,7 @@ icon: exclamation
 
 <span class="stage-index">11.</span> 去Corkus城的`[-1550 68 -2919]`的电梯 上楼2次然后直走再右转，来到`[-1502 108 -2885]`触发剧情
 
-传送后在左边房屋楼上拿Electromagnetical Battery，在`[12091 35 6107]`拿到石头
+传送后在左边房屋楼上`[12133 43 6059]`拿Electromagnetical Battery，在`[12091 35 6107]`拿到石头
 
 然后放到弹射器上，跟着箭头偷走图腾并从左边窗户出来
 

@@ -5,6 +5,8 @@ icon: ghost
 
 <span style="font-size: 25px;">**无名异象**</span>
 
+>greg = The nameless anomaly boss
+
 名称：The Nameless Anomaly
 简称：TNA
 最低等级需求：103
