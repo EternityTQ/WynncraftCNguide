@@ -1,43 +1,103 @@
 ---
+title: Fate of the Fallen (level 43)
 icon: skull
 ---
 
-# Fate of the Fallen (level 43)
-<span style="font-size: 25px;">**陨落者的命运**</span>
+## 任务信息 / Information
+任务等级：Level 43 / 推荐等级： Level 45
+任务时长：长 / 任务难度：中等
+中文译名：陨落者的命运
 
 :::tip 重要任务
-解锁Ice Barrows副本
+
+此任务将会引导你进入Ice Barrow地牢
 :::
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Telvu**</font>`[165, 74, -675]`对话
 
-<span class="stage-index">2.</span> 在**Nesaak**的银行内拿到<font color=00AA00>**Theorick**</font>的权杖，带回去交给<font color=00AA00>**Telvu**</font>`[136, 73, -688]`
->在旁边找条路上去即可 很好找
-
-![](/assets/img/lvl43-1.jpg)
-
-<span class="stage-index">3.</span> 进入<font color=00AA00>**Telvu**</font>开启的传送门
-
-<span class="stage-index">4.</span> 进入时间之门`[-582 70 -1176]`，利用权杖回到过去
-
-<span class="stage-index">5.</span> 探索过去的**Nesaak**，和NPC`[3796 73 1185]`对话
-
-<span class="stage-index">6.</span> 来到`[3651 69 1208]`触发剧情
-
-<span class="stage-index">7.</span> 在<font color=00AA00>**Theorick**</font>的基地和众人回合`[3738 67 1265]`
-
-<span class="stage-index">8.</span> 在<font color=00AA00>**Theorick**</font>进入传送门后，自己被弹走至断桥前，保护传送门，击杀怪物，将指定掉落物丢进漏斗内
-
-:::tip
-在<font color=00AA00>**Theorick**</font>的进去前的对话结束后，如果你能在被弹走前使用位移技能快速冲到传送门前，则可以直接跳过杀怪的流程
-:::
-
-<span class="stage-index">9.</span> 桥建好后，靠近传送门触发剧情
-
-<span class="stage-index">10.</span> 告诉<font color=00AA00>**Telvu**</font>过去发生了什么
-
-奖励
+## 奖励清单 / Rewards
 
 + 20000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + Avalanche(一个属性非常不错的头盔)
 + 1 Ice Barrows Dungeon Key
++ Theorick's Ice Shard(IB副本掉落物)
+
+### Step 1 接取任务
+---
+和<NPC>Telvu</NPC><CC>136 73 -686</CC>对话
+
+![](/assets/img/lv43-1.png)
+
+### Step 2 获取法杖
+---
+在**Nesaak**的银行内拿到<NPC>Theorick</NPC>的权杖，带回去交给<NPC>Telvu</NPC><CC>136 73 -686wq</CC>
+
+![](/assets/img/lv43-2.png)
+
+### Step 3 进入传送门
+---
+进入<NPC>Telvu</NPC>开启的传送门
+
+![](/assets/img/lv43-3.png)
+
+### Step 4 穿越时空
+--- 
+
+进入时间之门<CC>-582 70 -1176</CC>，右键中央祭坛，回到过去
+
+![](/assets/img/lv43-4.png)
+### Step 5 获取情报
+---
+
+探索过去的**Nesaak**，和<NPC>Psern</NPC><CC>3796 73 1185</CC>对话
+
+![](/assets/img/lv43-5.png)
+### Step 6 冰爷神力
+--- 
+来到<CC>3651 69 1208</CC>触发剧情
+
+![](/assets/img/lv43-6.png)
+
+### Step 7 准备出发
+--- 
+在<NPC>Theorick</NPC>的基地和众人会和<CC>3738 67 1265</CC>
+
+
+![](/assets/img/lv43-7.png)
+
+### Step 8 守卫断桥
+--- 
+在<NPC>Theorick</NPC>进入传送门后，自己被弹走至断桥前，保护传送门
+
+:::tip
+在此阶段，你需要先按下地板上的绿宝石按钮，才会开启刷怪波次。
+
+
+
+在坚持90秒后，将周围掉落的`Molten Core`进行交付，方可继续任务
+:::
+![](/assets/img/lv43-8.png)
+
+### Step 9 绝望而返
+--- 
+桥建好后，靠近传送门触发剧情
+
+### Step 10 告知情况
+--- 
+
+告诉<NPC>Telvu</NPC><CC>136 73 -686</CC>过去发生了什么
+
+![](/assets/img/lv43-1.png)
+
+
+## 剧情省流 / Summary
+在Nesaak陷入冰封之前，这片土地曾温暖如春。强大法师Theorick Twain不知因何原因，施展冰魔法将其冻结，并隐居于此。
+
+冒险者接受了法师Telvu的请求，回到过去调查Theorick的动机。在过去的Nesaak，冒险者目睹了Theorick奋战于腐化战争之中，为拯救一名女孩展现出强大的冰之力量。
+
+随后，Theorick强行征召冒险者前往腐化根源之地。他命令冒险者守护腐化之门，自己孤身进入传送门对抗腐化本源。
+
+然而，当他返回后已近崩溃边缘。他痛苦地表示自己失败了，腐化正在侵蚀他的心智。为了保护他人，他决定施展冰封咒语，将整个Nesaak冻结，使腐化无法蔓延。
+
+在将自己封印前，Theorick恳求冒险者传达他的意愿：这场冰封并非恶意，而是一种牺牲。他希望终有一日，能被真正解脱。
+
+冒险者回到Telvu处，将所见一切告知。Telvu震惊地意识到Theorick的行为其实是为了守护这片土地，并请求冒险者继续使命，进入冰封墓穴，将那位曾为众人抗争的法师从永恒的枷锁中拯救出来。

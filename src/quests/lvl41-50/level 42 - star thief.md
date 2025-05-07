@@ -4,8 +4,8 @@ icon: scroll
 ---
 
 ## 任务信息 / Information
-任务等级：Level  / 推荐等级： Level 
-任务时长： / 任务难度： 
+任务等级：Level 42 / 推荐等级： Level 42
+任务时长：短 / 任务难度：中等
 中文译名：偷星大盗
 
 
@@ -66,12 +66,6 @@ icon: scroll
 ![](/assets/img/lv42-7.png)
 
 
-### Step 7 XXXX
---- 
-
-
-### Step 8 XXXX
---- 
 
 
 

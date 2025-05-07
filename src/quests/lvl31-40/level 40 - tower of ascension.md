@@ -51,6 +51,6 @@ solo通天塔教程：
 
 奖励
 + 925000 经验值![](/assets/icon/Experience_Orb.gif =20x)
->只有75级及以后完成任务才能得到此显示的经验值![](/assets/icon/Experience_Orb.gif =20x)，否则你得到的实际经验值![](/assets/icon/Experience_Orb.gif =20x)会比925000少
+>只有75级及以后完成任务才能得到此显示的经验值，否则你得到的实际经验值会比925000少
 + 32768 绿宝石![](/assets/icon/Emerald.png =20x)
 + 一套冠军铠甲(四件)
