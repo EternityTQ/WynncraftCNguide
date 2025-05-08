@@ -22,7 +22,7 @@ icon: route
 ![](/assets/img/lvl25-1.jpg =600x)
 
 :::tip
-<mob>Time Trouble</mob>会每隔**现实时间24小时**于下列地点刷新
+<mob>Time Trouble</mob>会每隔**现实时间8小时**于下列地点刷新
 　
 <CC>-454 75 -1207</CC>; <CC>-410 73 -1132</CC>; <CC>-192 67 -1324</CC>; <CC>-470 74 -1030</CC>; <CC>-500 83 -1150</CC>
 ![](/assets/img/lvl25-2.jpg)
