@@ -1,46 +1,94 @@
-# The House of Twain(level 49)
-<span style="font-size: 25px;">**吐温凶宅**</span>
+---
+title: The House of Twain(level 49)
+icon: bookmark
+---
 
->在做这个任务之前，请自备若干个绿宝石![](/assets/icon/Emerald.png =20x)或者<font color=00AA00>绿帽子</font>Ghostly Cap。
+## 任务信息 / Information
+任务等级：Level 49 / 推荐等级： Level 49
+任务时长：较长 / 任务难度：中等
+中文译名：吐温凶宅
 
-<span class="stage-index">1.</span>  和<font color=00AA00>**Twendle**</font>`[12 76 -456]`说话
+>在做这个任务之前，请自备若干个绿宝石或者<font color=00AA00>绿帽子</font>Ghostly Cap。
 
-<span class="stage-index">2.</span>  进入吐温之家`[93 74 -359]`
+## 奖励清单 / Rewards
+
++ 45000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
+
+### Step 1 接取任务
+---
+
+和<NPC>Twendle</NPC><CC>12 76 -456</CC>说话
+
+![](/assets/img/lv49-2.png)
+
+### Step 2 进入凶宅
+---
+进入吐温之家<CC>93 74 -359</CC>
 
 :::tip
 如果你已经提前准备好了`Ghostly Cap`，你可以直接跳过以下步骤，从第8步开始做起
 :::
 
-<span class="stage-index">3.</span>  进门后，上正面大楼梯二楼，左拐后直走，看到螺旋楼梯后，先进入左侧的小门`[104 79 -392]`，来到室外小墓地，如果触发失明说明触发成功了，击杀新刷出来的怪物，获得`Ghostly Seed`
+### Step 3 获取种子
+---
+进门后，上正面大楼梯二楼，左拐后直走，看到螺旋楼梯后，先进入左侧的小门<CC>104 79 -392</CC>，来到室外小墓地，如果触发失明说明触发成功了，击杀新刷出来的怪物，获得`Ghostly Seed`
 
-    如果没有失明，你可能需要换条线路
+ 如果没有失明，你可能需要换条线路
 
-![](/assets/img/lv49-1.jpg =400x)
+![](/assets/img/lv49-1.jpg)
 
-<span class="stage-index">4.</span>  打完后，沿着上图的螺旋楼梯上一层，进入如下图的牢房`[112 84 -393]`中，触发事件，击杀新刷出来的怪物，获得`Ghostly Quill`
+### Step 4 获取羽毛
+--- 
+打完后，沿着上图的螺旋楼梯上一层，进入如下图的牢房<CC>112 84 -393</CC>中，触发事件，击杀新刷出来的怪物，获得`Ghostly Quill`
 
-![](/assets/img/lv49-2.jpg =400x)
+![](/assets/img/lv49-2.jpg)
 
-<span class="stage-index">5.</span>  上一步做完后，沿着同层走廊一直走，走到走廊最尽头的左侧房间`[112 84 -334]`，进入后，击杀新刷出来的怪物，获得`Ghostly Ingredient`
+### Step 5 获取素材
+---
+上一步做完后，沿着同层走廊一直走，走到走廊最尽头的左侧房间<CC>112 84 -334</CC>，进入后，击杀新刷出来的怪物，获得`Ghostly Ingredient`
 
-<span class="stage-index">6.</span>  来到同层楼的中间`[128 86 -359]`，进入如下图中的房间，把上面打到的三个材料全部丢进中间的漏斗内，出现跳吓后，拿走面前出现的未鉴定的帽子
+### Step 6 召唤帽子
+--- 
+来到同层楼的中间<CC>128 86 -359</CC>，进入如下图中的房间，把上面打到的三个材料全部丢进中间的漏斗内，出现跳吓后，拿走面前出现的未鉴定的帽子
 
-![](/assets/img/lv49-3.jpg =400x)
+![](/assets/img/lv49-3.jpg)
 
-<span class="stage-index">7.</span>  回到一楼的鉴定师`[78 71 -348]`处，对帽子进行鉴定，后面要带上。
+### Step 7 进行鉴定
+--- 
+回到一楼的鉴定师<CC>78 71 -348</CC>处，对帽子进行鉴定，后面要带上。
+![](/assets/img/lv49-1.png)
 
-<span class="stage-index">8.</span>  重新进入吐温之家，这次不要上楼，进入楼梯右手边的房间`[107 75 -345]`，手持绿宝石右键如下图所示的地毯上的红圈后，面前的火炉将会被打开
+### Step 8 进入火炉
+--- 
+重新进入吐温之家，这次不要上楼，进入楼梯右手边的房间<CC>107 75 -345</CC>，手持绿宝石右键如下图所示的地毯上的红圈后，面前的火炉将会被打开
 
-![](/assets/img/lv49-4.jpg =400x)
+![](/assets/img/lv49-4.jpg)
 
-<span class="stage-index">9.</span>  将绿宝石![](/assets/icon/Emerald.png =20x)丢入房间内的墓地上`[108 74 -304]`，然后马上出去，来到外面的墓地`[64 71 -315]`处，进入白色墓碑下面的密道，==注意需要佩戴上面鉴定的`Ghostly Cap`才能进入==
 
-![](/assets/img/lv49-5.jpg =400x)
+### Step 9 打开密道
+--- 
 
-<span class="stage-index">10.</span>  进去密道后就可以把`Ghostly Cap`摘下来了，一直沿路走，在`[-24 37 -491]`输入密码`5 7 3 2`，密码的来源是数对应房间里面有多少个头颅
+手持绿宝石，右键房间内的墓地<CC>108 74 -304</CC>，然后马上出去，来到外面的墓地<CC>64 71 -315</CC>处，进入白色墓碑下面的密道，==注意需要佩戴上面鉴定的`Ghostly Cap`才能进入==
 
-<span class="stage-index">11.</span>  击杀底部的BOSS，获得`Twain Journal`，然后回去找<font color=00AA00>**Twendle**</font>`[12 76 -456]`交差
+![](/assets/img/lv49-5.jpg)
+### Step 10 进入密道
+--- 
+进去密道后就可以把`Ghostly Cap`摘下来了，一直沿路走，在<CC>-24 37 -491</CC>输入密码`5 7 3 2`，密码的来源是数对应房间里面有多少个头颅
 
-奖励
-+ 45000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
+### Step 11 击杀头目
+---
+击杀底部的BOSS，获得`Twain Journal`，然后回去找<NPC>Twendle</NPC><CC>12 76 -456</CC>交差
+
+![](/assets/img/lv49-4.png)
+
+
+
+## 剧情省流 / Summary
+Twendle在Twain家族的古老宅邸前拦下冒险者，透露这座破败建筑曾属于其祖先Dwendle Twain，内部藏有家族失传的历史与魔法奥秘。他恳请冒险者突破幽灵阻挠，寻找深藏于宅邸的《Twain日志》。
+
+冒险者闯入阴森宅邸，在仆从区触发机关潜入地窖。通过向压力板放置物品解开密室，发现指引“向野兽之眼献祭”的谜题。他们在宅邸三层与花园中遭遇三次幽灵突袭，收集到幽灵头盔后，于宴会厅地毯上的凋灵骷髅图案眼眶处嵌入绿宝石，成功开启壁炉后的密道。
+
+穿过密道尽头的魔法画作，冒险者根据提示在灵魂沙坟墓献祭绿宝石，激活宅邸外石英墓碑的通道。坠入地下洞穴后，他们破解灵魂监狱中四间囚室的装饰物数量密码（5732），直面守护者Phantom Twain并夺取日志。
+
+Twendle接过日志后，决定公开家族被掩埋的黑暗历史，并将许诺的绿宝石报酬交给冒险者。随着秘密曝光，这座承载着魔法与诅咒的宅邸再度归于沉寂。

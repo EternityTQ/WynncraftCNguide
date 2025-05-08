@@ -4,8 +4,8 @@ icon: scroll
 ---
 
 ## 任务信息 / Information
-任务等级：Level  / 推荐等级： Level 
-任务时长： / 任务难度： 
+任务等级：Level 48 / 推荐等级： Level 48
+任务时长：中等 / 任务难度：简单
 中文译名：冰封的啮痕
 
 ## 奖励清单 / Rewards
