@@ -1,44 +1,111 @@
-# Frost Bite ( level 48)
+---
+title: Frost Bite (level 48)
+icon: scroll
+---
 
+## 任务信息 / Information
+任务等级：Level  / 推荐等级： Level 
+任务时长： / 任务难度： 
+中文译名：冰封的啮痕
 
-<span style="font-size: 25px;">**冰封的啮痕**</span>
+## 奖励清单 / Rewards
 
-:::warning 旧任务提醒
-本任务部分步骤不清晰
-
-预计于下次大版本更新后一起更新
-:::
-
-<span class="stage-index">1.</span> 在 `[-207 37 -531]` 附近找到<font color=00AA00>**Eppo**</font>
-
-<span class="stage-index">2.</span> 深入洞穴并与<font color=00AA00>**Rhudya**</font>交谈
-
-<span class="stage-index">3.</span> 带着tnt回去找<font color=00AA00>**Eppo**</font>
-
-<span class="stage-index">4.</span> 通过矿井并前往熔岩池
-
-<span class="stage-index">5.</span> 完成拼图并将熔岩带回给<font color=00AA00>**Eppo**</font>
-
-根据颜色放置碎片(下图答案来自wiki) 
-![](../../.vuepress/public/assets/img/lvl48-1.jpg)
-
-<span class="stage-index">6.</span> 乘坐附近的矿车回到<font color=00AA00>**Eppo**</font>
-
-<span class="stage-index">7.</span> 融化冰块，找到<font color=00AA00>**Servant**</font>的尸体。
-:::tip
-没必要刻意卡融化的时机，目标尸体在最上层，你只要全融了找到不可以被融化的阶梯再上去就可以了
-:::
-
-<span class="stage-index">8.</span> 进入Theorick的豪宅
-
-<span class="stage-index">9.</span> 在Theorick的豪宅中进入秘密房间找到财富。
-:::tip
-进入秘密房间的方式：将两侧的银色雕像转向它们之间的金色雕像，再将金色雕像转至彼此面对面
-:::
-
-<span class="stage-index">10.</span> 找到进入金库的方法(获得3瓶水,然后上楼右键点击每一个壁炉)
-
-奖励
 + 60000 经验值![](/assets/icon/Experience_Orb.gif =20x)
 + 640 绿宝石![](/assets/icon/Emerald.png =20x)
-+ Glaciate(一条裤子) 
++ Glaciate(护腿) 
+
+### Step 1 接取任务
+---
+在 <CC>-207 37 -531</CC> 附近找到<NPC>Eppo</NPC>，然后自动触发剧情
+
+![](/assets/img/lv48-1.png)
+
+### Step 2 获取炸药
+---
+深入洞穴并与<NPC>Rhudya</NPC>交谈，然后通过一段小跑酷抵达终点
+
+![](/assets/img/lv48-2.png)
+
+### Step 3 返回报告
+---
+带着tnt回去找<NPC>Eppo</NPC><CC>-279 40 -587</CC>
+
+![](/assets/img/lv48-3.png)
+
+### Step 4 新的密道
+--- 
+刚才洞穴深处的大门旁炸开了一条道，通过小道前往熔岩池<CC>-307 37 -570</CC>
+
+![](/assets/img/lv48-4.png)
+
+### Step 5 解开谜题
+---
+完成拼图并将熔岩带回给<NPC>Eppo</NPC>
+:::tip
+你可以按照如图所示的路线摆放方块
+
+注意，这个不是逐次移动，是可以直接摆放的，你只需要将对应的路线摆放好即可
+
+![](/assets/img/lv48-5.png)
+
+
+:::
+
+### Step 6 乘坐矿车
+--- 
+
+乘坐附近的矿车回去找<NPC>Eppo</NPC><CC>-279 40 -587</CC>
+
+![](/assets/img/lv48-3.png)
+
+:::tip
+你不能在矿车内按动按钮
+
+建议现在车外按下按钮，然后快速上车
+:::
+### Step 7 寻找钥匙
+--- 
+
+融化冰块，找到<NPC>Servant</NPC>的尸体，然后离开洞穴
+
+![](/assets/img/lv48-6.png)
+:::tip
+没必要刻意卡融化的时机，目标尸体在最上层，而浮冰无法被融化。
+
+你只需要专门找浮冰，走到最上面即可
+:::
+
+
+### Step 8 进入宅邸
+--- 
+进入Theorick的豪宅
+
+![](/assets/img/lv48-7.png)
+
+### Step 9 发现财宝
+--- 
+在Theorick的豪宅中进入秘密房间找到财宝。
+:::tip
+进入秘密房间的方式：在<CC>-185 24 577</CC>的房间中，将两侧的银色雕像转向它们之间的金色雕像，再将金色雕像转至彼此面对面
+:::
+
+![](/assets/img/lv48-8.png)
+
+### Step 10 进入金库
+--- 
+找到进入金库的方法(在一楼拿到3瓶水,然后上楼右键点击每一个壁炉)
+
+![](/assets/img/lv48-9.png)
+
+
+
+## 剧情省流 / Summary
+矿工Eppo在冰峡谷带领团队使用钻机试图破除 Theorick 创造的魔法冰墙，但屡次失败。他透露这些冰层是数百年前名为Theorick的Twain为抵御腐化而冻结的，内部还封存着许多遇难者。Eppo请求冒险者寻找爆破专家Rhudya获取炸药。
+
+冒险者在洞穴深处找到Rhudya，获得TNT后返回。然而爆破依旧无法损伤冰层。Rhudya意外发现一条通往熔岩矿洞的古旧矿道，提议用炽热熔岩尝试破冰。
+
+Eppo将熔岩制成破冰棒交给冒险者，并坦言真实目的是寻找被冰封仆从身上的宅邸钥匙——他们计划进入Theorick的宅邸，夺取其囤积的财富以补偿受压迫的后代。冒险者成功融化特定冰柱，取得钥匙。
+
+前往宅邸途中，Eppo讲述Theorick的黑暗历史：这位掌握冰魔法的Twain以保护为名压榨民众，最终堕入腐化前将整片区域连同居民彻底冰封。众人进入阴森宅邸后频遭机关暗算，Eppo多次坠入陷阱，抱怨Theorick的偏执性格。
+
+解决雕像谜题后，冒险者打开密道进入核心区域。他们冻结水流启动机关，最终开启藏有巨额财宝的保险库。Eppo讽刺Theorick贪婪本性时再次被魔法陷阱弹飞，而冒险者获得了记载着冰魔法秘密的护甲碎片。
