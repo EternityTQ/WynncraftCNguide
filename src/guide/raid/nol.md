@@ -330,9 +330,9 @@ Escape: 跳走同时向后发射一堆箭矢
 Arrow Storm: 发射一堆箭矢攻击其他玩家。
 Arrow Shield: 抵抗6下攻击。
 
->🟨 被寄生的玩家职业是Assassin:
+>🟧 被寄生的玩家职业是Assassin:
 Spin Attack: 攻击圆形范围内所有玩家。
-Dash: 往前冲一小段距离，同时攻击经过的玩家。
+Dash: 进入隐身状态，过一段时间后背刺目标玩家
 Multihit: 对前方玩家造成多段伤害。
 Smoke Bomb: 发射烟雾弹，伤害所有处在烟雾内的玩家。
 
