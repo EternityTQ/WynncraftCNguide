@@ -40,20 +40,20 @@ title: The Order of the Grook (level 59)
 ### Step 1 接取任务
 ---
 
-在**Mage Island**和<NPC>Seasum</NPC><CC>[940 77 -2866]</CC>对话
+在**Mage Island**和<NPC>Seasum</NPC><CC>\940 77 -2866</CC>对话
 
 ![](/assets/img/lv59-1.png)
 
 ### Step 2 获取信件
 ---
 
-进入房间，拿Invitation Letter并交给<NPC>Seasum</NPC><CC>[940 77 -2866]</CC>
+进入房间，拿Invitation Letter并交给<NPC>Seasum</NPC><CC>\940 77 -2866</CC>
 
 ![](/assets/img/lv59-2.png)
 
 ### Step 3 前往码头
 ---
-在<CC>[893 37 -2777]</CC>的码头，找到魔法学院的船，等船出来后上去
+在<CC>\893 37 -2777</CC>的码头，找到魔法学院的船，等船出来后上去
 
 ![](/assets/img/lv59-3.png)
 
@@ -62,13 +62,13 @@ title: The Order of the Grook (level 59)
 ---
 
 
-找到<CC>[6372 15 4513]</CC>处的隐藏洞口进入
+找到<CC>\6372 15 4513</CC>处的隐藏洞口进入
 
 ![](/assets/img/lv59-4.png)
 
 ### Step 5 初探学院
 --- 
-和<NPC>Cidre</NPC><CC>[6710 37 4444]</CC>对话，获得`Wand Vocher`和`Magical Book Vocher`
+和<NPC>Cidre</NPC><CC>\6710 37 4444</CC>对话，获得`Wand Vocher`和`Magical Book Vocher`
 
 ![](/assets/img/lv59-5.png)
 
@@ -101,7 +101,7 @@ title: The Order of the Grook (level 59)
 
 ### Step 7 进入学院
 --- 
-前往<CC>[6718 49 4391]</CC>，进入Grookwarts
+前往<CC>\6718 49 4391</CC>，进入Grookwarts
 
 ![](/assets/img/lv59-6.png)
 
@@ -114,7 +114,7 @@ title: The Order of the Grook (level 59)
 ![](/assets/img/lv59-7.png)
 
 
-结束后右键<CC>[10943 34 4742]</CC>的书选择课程
+结束后右键<CC>\10943 34 4742</CC>的书选择课程
 
 第一步是选择5种元素之一
 
@@ -168,7 +168,7 @@ title: The Order of the Grook (level 59)
 
 在房间内跑酷，拿到三个水晶球即可
 
-位置分别在<CC>[10870 13 4826]</CC>，<CC>[10875 23 4863]</CC>，<CC>[10884 14 4840]</CC>
+位置分别在<CC>\10870 13 4826</CC>，<CC>\10875 23 4863</CC>，<CC>\10884 14 4840</CC>
 
 进入房间后，会给你`Magical Flying Item`，右键可以跳高高。
 
