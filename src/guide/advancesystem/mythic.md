@@ -5,7 +5,7 @@ icon: chess-king
 
 神话物品作为游戏终期的目标，具有极高的独特性以及价值
 
->《价值》
++ 《价值》
 
 每件神话物品都有其独特的属性、用途等
 
@@ -29,11 +29,15 @@ icon: chess-king
 
 当前版本下，每个职业共有8把神话武器
 
-其中，分为1把低级神话武器(60-80级)，5把各属性的神话武器，1把彩虹神话武器，以及1把高等级神话武器(100+)
+其中，分为1把低级神话武器(60-80级)，5把各属性的神话武器，1把彩虹神话武器，2把高等级神话武器(100+)
 
 而鞋子基本没有特定的元素分类，可以看成按等级分?
 
 需要注意的是鞋子没有低级神话
+
+:::details 评论区
+
+:::
 
 
 ## 战士
@@ -48,9 +52,9 @@ icon: chess-king
       <span class="item-attribute">Super Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 315-525</span><br>
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 440-820</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">536</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 375-575</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 450-800</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">574</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -68,7 +72,7 @@ icon: chess-king
       <span class="bonus-negative">-65 <span class="bonus-to-negative">to</span> -35%</span> Water Damage<br>
       <span class="bonus-negative">-91 <span class="bonus-to-negative">to</span> -49%</span> Water Defence<br>
       <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325%</span> Fire Defence<br>
-      <span class="major-id-name">+Hellfire:</span> <span class="major-id-desc">Bash becomes one giant 325% damage hit, and Boiling Blood burns faster and stronger but can't slow.</span>
+      <span class="major-id-name">+Hellfire:</span> <span class="major-id-desc">Bash is replaced by a single hit, gaining +3 radius and dealing ✤225%, ❋40%, and ✹60%. Boiling Blood burns faster for ✤+40% and ✹+50% but can't slow.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -80,36 +84,46 @@ icon: chess-king
 
 别名：apoc/天启
 
-IT脑瘫更新受益者，一下从神话最底层一跃而上，成为新的输出神话
+曾经是CT乱改受益者，目前的base甚至快比hero高了。
 
-被加了个majorID硬抬了一手，使其成为了非常恐怖的输出端
+随着爆炸改动可能会成为超新星，实际行不行还得看爆炸词条的效果。
 
-但是马上就被削废了，嗯。
+在NOTG有点说法，可以是欺负虫子的玩具
 
-风光下葬。
+强度在经过你好泽尔0的制裁之后一蹶不振 最近的dps buff让所有人以为它能重现光明，实际上还是守卫者的大头儿子。
 
-活了几个小时的战神。
+2.1ID重做之后实在是太烂了，于是加强了一波id，然而效果依旧很烂。
 
->ct教你如何曲解游戏
+本来就不太强的spell流随着fallen的倒下也倒下了。要是拿去玩paladin的话为什么不用guardian呢
 
->i only test on my own server
 
->火神话の神秘第六人
+:::details 评论区
++ ct教你如何曲解游戏
 
->他就是神话
++ i only test on my own server
 
->三十年河东，三十年河西
++ 火神话の神秘第六人
 
->这下真是战士最强火神话了
++ 他就是神话
 
->hm apoc(划走)
++ hm apoc(划走)
 
->能被7吱吱捧上天，但是都7吱吱了
++ 能被7吱吱捧上天，但是都7吱吱了
 
->你要做几个小时的超大杯，还是永远的下水道
++ 你要做几个小时的超大杯，还是永远的下水道
 
->apoc要aspect才能玩 这才是最搞笑的
++ apoc要aspect才能玩 这才是最搞笑的
 
++ 福瑞控的玩具
+
++ solo war大将军，继承了selvut的意志 但却惨遭其他ct无情打压😭
+
++ 🔥
+
+> 沸血满地流
+> 服务器苦不堪言
+> 光速被整改
+:::
 ### Hero
 
 <div class="item-window">
@@ -120,9 +134,9 @@ IT脑瘫更新受益者，一下从神话最底层一跃而上，成为新的输
       <span class="item-attribute">Very Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 40-60</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 100-140</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">527</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 35-55</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 90-130</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">480</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -148,30 +162,52 @@ IT脑瘫更新受益者，一下从神话最底层一跃而上，成为新的输
 </div>
 
 
-别名：嗨肉
 
-唯一真神
 
-伤害要比idol还高，同时拥有与fallen契合度最高的被动——ssac
+<p style="text-align: center;"><span style="font-size: 50px;"><b>永远悼念</b></span></p>
 
-不吃鉴定，能走地能踩头能raid能路特润
+<p style="text-align: center;"><span style="font-size: 50px;"><b>R.I.P.</b></span></p>
 
-虽被正侧面砍数刀 但是还是能玩
+别名：嗨肉/英雄
 
-hero是最全能的武器.png
+传奇耐砍王，然而终于倒在了ct对fallen的削弱面前。
 
->神中神，代代神
+面板一削再削，加上风属性组件和自制组件也被大砍
 
->战士真正的彩虹武器，指能打彩虹粉
+英雄玩fallen太强势导致武器一直被削，最后带着fallen一起被砍似了
 
->人如其名
+曾经玩fallen的所有战士神话都活在他的阴影之下，最后他的倒下把fallen给砸死了。
 
->传奇耐砍王
+单走能力大幅下降 想单走玩自理就要压血 压血容错支线降低。
 
->轮椅摇摇车
+虽然能玩，但也仅限于能玩，往日风光已不再。
 
->一个版本一个武器玩法
 
+
+
+但是不可否认的是依旧是版本lr meta的热门选手之一
+
+
+:::details 评论区
++ 耐砍王还是被砍死了
+
++ 传奇耐砍王
+
++ 一个版本一个武器玩法
+  
++ 这个版本的玩法是不玩Hero
+
++ 经历了六次削弱最终倒在rally的手上
+
++ 传奇跑步镰刀人英雄小妞
+  
++ 不过是做了一场超大杯的梦
+
++ 强行拿奶叉甚至回不满血（0mr的情况）
+
++ 胸部掠夺还是英雄小姐最后的一条蕾丝.jpg
+
+:::
 ### Guardian
 
 <div class="item-window">
@@ -214,29 +250,39 @@ hero是最全能的武器.png
 
 别名：嘎点
 
-名副其实的火神话，拥有丧心病狂的的血量加成以及hpr
+名副其实的火神话，拥有丧心病狂的的血量加成以及hpr，还有能给队友承伤的被动
 
-还有能给队友承伤的被动
+新版本翻身了，十万大C。用仅有别人60-80%的dps，换你三倍的ehp，让游戏变成打桩游戏
 
-新版本翻身了，十万大C。用仅有别人60-80%的dps，换你三倍的ehp
+铁打的war dps 流水的守卫者+在所有meta被艾了一轮草之后成了声名远扬的版本单体巨兽
 
->战士最肉火神话
+光屁股只拿武器（拿的起来的话）的ehp都比任何一个玻璃大炮肉几倍的超人
 
->单体巨兽
+30radiance享受者，现在版本不削弱就是最大的增强
 
->拜托在notg让我看到你
 
->notg摧毁者
+:::details 评论区
+  
++ 群体巨兽
+  
++ 拜托在notg让我看到你
+  
++ notg摧毁者
+  
++ gw不能没有噶点 就像西方不能没有耶路撒冷
+  
++ gw的星怒罢了
+  
++ 神不需要输出词条来证明自己的含金量
+  
++ boreal guardian best
++ 穿铂臻纯肉进raid我捅死你穿铂臻纯肉进raid我捅死你穿铂臻纯肉进raid我捅死你穿铂臻纯肉进raid我捅死你穿铂臻纯肉进raid我捅死你穿铂臻纯肉进raid我捅死你
+  
++ 你怎么越来越贵😰
+  
++ 传奇肘击王
 
->bmonk最强武器
-
->gw不能没有噶点 就像西方不能没有耶路撒冷
-
->gw的星怒罢了
-
->神不需要输出词条来证明自己的含金量
-
->boreal guardian best
+:::
 
 ### Alkatraz
 
@@ -289,13 +335,13 @@ etf五兄弟之一
 
 挺垃圾的武器 只有伤害高
 
->笑点解析：charge alka
++ 笑点解析：charge alka
 
->叛变了
++ 叛变了
 
->曾经高高在上的大小姐 如今在地上任人摆布
++ 曾经高高在上的大小姐 如今在地上任人摆布
 
->鱼的最爱
++ 鱼的最爱
 
 ### Idol
 
@@ -333,36 +379,37 @@ etf五兄弟之一
 </div>
 
 
-<p style="text-align: center;"><span style="font-size: 50px;"><b>永远悼念</b></span></p>
-
-<p style="text-align: center;"><span style="font-size: 50px;"><b>R.I.P.</b></span></p>
-
-一把因为炒作而待在了绝不该属于它的位置的武器
->强但绝没有炒作的那么强
->好用但绝没大神描述的那么好用
-
->他们都是为了向你推销自己的idildo，只有我在劝你别被洗脑
+别名：偶像
 
 自身作为水属性武器带来了优秀的技能循环，同时有伤害加成来提高输出
 
-"高额"的2技能cost构成了这把武器独特的玩法——利用频繁charge对敌人造成高额伤害
+"高额"的2技能cost构成了这把武器独特的玩法——利用频繁charge对敌人造成高额伤害 ~~虽然这个玩法已经死了~~
 
-但实际上idol伤害是不如hero的
+非常舒适的武器，赶路打怪都很舒服
 
+目前因为一众战士神话被削废了，于是偶像小姐近期有复出的趋势，也可能因为飞踢buff而焕发第二春。
 
->谁家charging flame
+:::details 评论区
++ 让人欲罢不能的戟把
 
->CT教你玩游戏系列
++ 偶像小姐的复出是英雄的血垫的.jpg
 
->idol大小姐下海咯，开香槟
++ 跑lr做梦都想握在手里的飞天扫帚
 
->now i will choose cat girl without hesitate
++ lootrun的底层逻辑 曾经的踩踩背
 
->这下已经沦为嗨肉指定副手了
++ 我说圣骑士idol是按摩大脑你二龙吗
 
->hero指定星怒
++ 永利高铁
 
->定王工具人
++ 飞天领域大神
+
++ 让我在raid看到你玩resur爱豆我就操死你让我在raid看到你玩resur爱豆我就操死你让我在raid看到你玩resur爱豆我就操死你让我在raid看到你玩resur爱豆我就操死你
+
++ 你这第二春怎么是paladin？不对劲吧？
+
+:::
+
 
 
 :::details meme
@@ -430,10 +477,27 @@ super idol 的笑容，都没你的甜
 
 现在没有性价比了。贵得要死
 
-会玩就是乱杀不会就是开摆
+本来就不怎么出众的情况下，还在一次hero大人的削弱中也惨遭连带base削弱
 
->兄弟你真的不是水棍吗
+etf第三大受益者+勉强在Gnotg苟活+因为slayer nerf而半截入土+未来一片迷茫
 
+
+:::details 评论区
++ 兄弟你真的不是水棍吗
+
++ 冲刺🦽冲刺🦽冲
+
++ 地电三兄弟
+
++ 水猛棍哥
+
++ 电棍的强度就像电棍的职业生涯
+
++ 电棍是什么神话，第一次见
+
++ 现在电棍最后的底裤就是notg graid了
+
+:::
 
 
 
@@ -496,15 +560,15 @@ bmonk被削之前还行，现在就是查无此人。
 
 彩虹圣所复活了一半。
 
->伟大
++ 伟大
 
->Morph代言人
++ Morph代言人
 
->萌新之友
++ 萌新之友
 
->刀刀烈火，实则dps不破十万
++ 刀刀烈火，实则dps不破十万
 
->打团气氛组，只听人在响，没见人在输出
++ 打团气氛组，只听人在响，没见人在输出
 
 ### Convergence
 
@@ -553,17 +617,17 @@ bmonk被削之前还行，现在就是查无此人。
 
 打上三个气粉你就是新任彩虹，非常好雷地伤水火武器
 
->前上挑代言人
++ 前上挑代言人
 
->非常好词条和面板设计，使我滨州旋转
++ 非常好词条和面板设计，使我滨州旋转
 
->cumvergence
++ cumvergence
 
->拥有高贵的体力条再生词条，可以让你恢复体力条更快，无敌。
++ 拥有高贵的体力条再生词条，可以让你恢复体力条更快，无敌。
 
->设计最有特色的神话.jpg
++ 设计最有特色的神话.jpg
 
->七自制fallen conv
++ 七自制fallen conv
 
 :::details
 
@@ -617,21 +681,29 @@ bmonk被削之前还行，现在就是查无此人。
 
 看上去很美 实际用起来一堆问题
 
->fallen武器给650ls不知道是怎么设计出来的
+:::details 评论区
 
->富哥的时尚小玩具
++ fallen武器给650ls不知道是怎么设计出来的
 
->风险收益绝对不平均
++ 富哥的时尚小玩具
 
->年度未来可期武器
++ 风险收益绝对不平均
 
->你猜五个黑神话里没有MajorID的是谁.jpg
++ 年度未来可期武器
 
->没有majorid的样子就像anni神话组乐队然后bb是被优化掉的那个路边粉毛
++ 你猜五个黑神话里没有MajorID的是谁.jpg
 
->拉低出cache喜悦值的
++ 没有majorid的样子就像anni神话组乐队然后bb是被优化掉的那个路边粉毛
 
->锁死玩法的印度武器
++ 拉低出cache喜悦值的
+
++ 锁死玩法的印度武器
+
++ 导购每次change都在期待给bb加major
+  
++ 在针对fallen的大清缴削弱中作为绑定fallen线的黑神话被寄予厚望获得id作为补偿，结果id出来发现是极点的
+
+:::
 
 ## 法师
 
@@ -645,10 +717,10 @@ bmonk被削之前还行，现在就是查无此人。
       <span class="item-attribute">Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 0-5</span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 20-45</span></span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 15-55</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">175</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 5-5</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 20-40</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 15-50</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">169</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -657,7 +729,7 @@ bmonk被削之前还行，现在就是查无此人。
       Agility Min: 30
     </p>
     <p class="bonuses">
-      <span class="bonus-negative">-130 <span class="bonus-to-negative">to</span> -70%</span> Main Attack Damage<br>
+      <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Main Attack Damage<br>
       <span class="bonus-positive">+120 <span class="bonus-to">to</span> +520%</span> Spell Damage<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26/3s</span> Mana Steal<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Reflection<br>
@@ -677,16 +749,29 @@ bmonk被削之前还行，现在就是查无此人。
 
 力大砖飞的词条，高额的经验加成，在练级时如果能有一把这种武器那将无比舒适(非贬义，真的)
 
+瀑布垃圾场大杀四方
+
+她好像慈祥的萝莉妈妈 前期带我走过刷级场 我长大满级后帮我看管仓库
+
 旧神之一 现在的好朋友
 
 曾经只有Pure拥有高贵的陨石三倍下落速度，如今被无情的咸牛无情地剥夺，并换上了新的被动
 
->但是新的Major ID也好他妈牛逼
+:::details 评论区
++ 但是新的Major ID也好他妈牛逼
 
->哥们哇啦哇啦乱打xp就拉满了，你sage词条再好也干不过的
++ 哥们哇啦哇啦乱打xp就拉满了，你sage词条再好也干不过的
 
->新手眼馋系列
++ 新手眼馋系列
 
++ 萝莉
+
++ 纯纯的纯
+
++ pure的握把短短的香香的🤤
+
++ 这玩意不够萝莉吗，不管身板还是什么都太幼了
+:::
 
 ### Lament
 
@@ -698,9 +783,9 @@ bmonk被削之前还行，现在就是查无此人。
       <span class="item-attribute">Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 70-90</span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 180-190</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">398</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 60-90</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 160-190</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">375</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -713,9 +798,9 @@ bmonk被削之前还行，现在就是查无此人。
     <p class="bonuses">
       <span class="bonus-negative">-650 <span class="bonus-to-negative">to</span> -350/3s</span> Life Steal<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52/3s</span> Mana Steal<br>
-      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +40%</span> Healing Efficiency<br>
-      <span class="bonus-negative">-10 <span class="bonus-to-negative">to</span> -45%</span> Heal Cost<br>
-      <span class="bonus-positive">+24 <span class="bonus-to">to</span> +104%</span> Water Damage
+      <span class="bonus-positive">+4 <span class="bonus-to">to</span> +18%</span> Healing Efficiency<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Heal Cost<br>
+      <span class="bonus-positive">+23 <span class="bonus-to">to</span> +100%</span> Water Damage
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -727,7 +812,7 @@ bmonk被削之前还行，现在就是查无此人。
 
 别名：lameme
 
->多吃lameme
+> 多吃lameme
 
 非常抽象的面板设计，明明是水神话但是却以ms为主要续航方式
 
@@ -739,17 +824,32 @@ bmonk被削之前还行，现在就是查无此人。
 
 就像拉面一样
 
->指伤害
+> 指伤害
 
 球法的指定星怒之一
 
->要奶有奶，要伤害有奶，要辅助有奶
+使用星露收益最高的神话💪💪💪
 
->你游唯二指定奶妈
+耐gambit王，多抽象的gambit遇到Lament一切都会好起来的
 
->还是看看远方的koh吧家人们
+在你面前的是：版本之子+gust最大受益者+球法战神+懂没懂20风sunflare彩虹18w能拳打巨像脚踢老头横扫四大raid爆锤公会塔的强度啊
 
->问：有多少神级lament一夜之间变成废品
+当前版本的价格和强度非常恐怖，尤其是周围一堆法师神话都在挨刀的情况下，拉面是一颗正在冉冉升起的新星 ~~真新星吗？真冉冉升起吗？别下一个挨刀的法师神话就是拉面了。~~
+
+:::details 评论区
++ 要奶有奶，要伤害有奶，要辅助有奶
+
++ 你游唯二指定奶妈
+
++ 版本答案
+
++ 唯时代尔
+
++ 水最多的一集
+
+:::
+
+
 
 ### Gaia
 
@@ -761,9 +861,9 @@ bmonk被削之前还行，现在就是查无此人。
       <span class="item-attribute">Very Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 150-220</span><br>
-      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 380-490</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">515</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 140-220</span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 370-480</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">502</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -776,10 +876,10 @@ bmonk被削之前还行，现在就是查无此人。
     <p class="bonuses">
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Main Attack Damage<br>
       <span class="bonus-positive">+173 <span class="bonus-to">to</span> +748</span> Main Attack Damage<br>
-      <span class="bonus-negative">-214 <span class="bonus-to-negative">to</span> -115</span> Spell Damage<br>
-      <span class="bonus-positive">+3600 <span class="bonus-to">to</span> +15600/3s</span> Poison<br>
-      <span class="bonus-negative">-3 <span class="bonus-to-negative">to</span> -12</span> Ice Snake Cost<br>
-      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Thorns
+      <span class="bonus-positive">+6000 <span class="bonus-to">to</span> +26000/3s</span> Poison<br>
+      <span class="bonus-positive">-3 <span class="bonus-to">to</span> -12</span> Ice Snake Cost<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Thorns<br>
+      <span class="major-id-name">+Earthen Splinter:</span> <span class="major-id-desc">Quake channels nature energy into a powerful root, travelling underground and emerging under the nearest mob for ✤1200%</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -791,9 +891,7 @@ bmonk被削之前还行，现在就是查无此人。
 
 别名：盖亚
 
->盖亚！！！！！！！！！
-
-时代的遗弃者
+> 盖亚！！！！！！！！！
 
 据说当过一段时间的神，然而现在是下水道的看门大爷
 
@@ -801,19 +899,39 @@ bmonk被削之前还行，现在就是查无此人。
 
 高贵的地伤武器，配合特定装备可以让冰蛇的蓝耗降低到1，这样就可以让怪物一直被减速……算了我编不下去了
 
->跟个几把似的
+版本更新后多了一种非常抽象的rw gaia玩法，最早备战rw的神话，似乎好像有点说法...
 
->名字四个字 肯定很吊 不用说了 直接拿下 无敌
+最近在开发的新法师神话（包括但不限于常规rw+tl的rw+eta陨石gaia+etwa rage陨石盖亚）+意义不明的大地女神notg地刺+hf on testing ur dps
 
->macrowalker最喜欢的一集
+:::details 评论区
++ 跟个几把似的
 
->棍子上都长花了怎么玩
++ 名字四个字 肯定很吊 不用说了 直接拿下 无敌
 
->头上一朵花 长相像鸡吧 伤害是一坨 cost更牛叉
++ macrowalker最喜欢的一集
 
->长得太丑了，跟个棍子似的，估计和战士武器拿错了
++ 棍子上都长花了怎么玩
 
->我们名字是四个字母的神话们真的太强啦
++ 头上一朵花 长相像鸡吧 伤害是一坨 cost更牛叉
+
++ 长得太丑了，跟个棍子似的，估计和战士武器拿错了
+
++ 我们名字是四个字母的神话们真的太强啦
+
++ 幽默
+
++ 蛇最多的一集
+
++ 曹飞raid boss
+
++ 这是新神话吗
+
++ 唯一一个能顶♂飞奥菲翁的武器
+
++ 最未来可期的神话
+:::
+
+
 
 ### Monster
 
@@ -825,9 +943,9 @@ bmonk被削之前还行，现在就是查无此人。
       <span class="item-attribute">Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 110-140</span><br>
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 160-220</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">473</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 90-140</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 150-210</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">442</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -842,7 +960,7 @@ bmonk被削之前还行，现在就是查无此人。
       <span class="bonus-positive">+900 <span class="bonus-to">to</span> +3900/3s</span> Health<br>
       <span class="bonus-positive">+150 <span class="bonus-to">to</span> +650/3s</span> Life Steal<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/3s</span> Mana Steal<br>
-      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +3</span> Heal Cost<br>
+      <span class="bonus-negative">+5 <span class="bonus-to-negative">to</span> +3</span> Heal Cost<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Fire Damage
     </p>
     <p class="powder-rarity">
@@ -856,7 +974,7 @@ bmonk被削之前还行，现在就是查无此人。
 别名：怪兽
 
 
-gw指定星怒，球法最强武器
+gw指定星怒，球法最强武器~~吗?~~
 
 hmelee法师创始人，gw solo的神！
 
@@ -864,15 +982,33 @@ hmelee法师创始人，gw solo的神！
 
 总之就是单刷gw唯一指定用具
 
->长得还挺帅
+法师版本耐肘王，但是版本弃子之一.jpg 因为根本扛不住哀叹的温文尔雅
 
->要奶有奶要ehp有ehp要强度有奶有ehp
+短暂因为泰坦头的出现散发过第二春 但是因为anni法杖的出现又成为了下水道
 
->在公会战能够横行霸道的神级武器
+:::details 评论区
++ 长得还挺帅
 
->21w的ehp使我安全感拉满
++ 要奶有奶要ehp有ehp要强度有奶又有ehp
 
->最适合玩hmelee的法师武器，高贵的52%melee
++ 在公会战能够横行霸道的神级武器
+
++ 21w的ehp使我安全感拉满
+
++ 最适合玩hmelee的法师武器，高贵的52%melee
+
++ 二号炮机
+  
++ 一想到怪兽就会联想到greatone程度的武器
+
++ 厕所里的💩，又臭又硬的
+  
++ raid恩情课文之lb爷爷拿monster磨死了虫子/奥菲翁/峡谷巨像/老头
+
++ 最近变成绿毛少女了（不是）
+:::
+
+
 
 
 ### Fatal
@@ -885,8 +1021,8 @@ hmelee法师创始人，gw solo的神！
       <span class="item-attribute">Very Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 1-360</span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">560</span></span>
+      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 1-310</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">482</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -899,8 +1035,8 @@ hmelee法师创始人，gw solo的神！
     <p class="bonuses">
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Spell Damage<br>
       <span class="bonus-positive">+2 <span class="bonus-to">to</span> +8/3s</span> Mana Steal<br>
-      <span class="bonus-positive">+36 <span class="bonus-to">to</span> +20%</span> Heal Cost<br>
-      <span class="bonus-negative">-15 <span class="bonus-to-negative">to</span> -64%</span> Teleport Cost<br>
+      <span class="bonus-negative">+36 <span class="bonus-to-negative">to</span> +20%</span> Heal Cost<br>
+      <span class="bonus-positive">-15 <span class="bonus-to">to</span> -64%</span> Teleport Cost<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Walk Speed
     </p>
     <p class="powder-rarity">
@@ -911,7 +1047,7 @@ hmelee法师创始人，gw solo的神！
 </div>
 
 
-别名：无
+别名：法头
 
 输出最高的法师武器，雷电法王
 
@@ -921,17 +1057,31 @@ hmelee法师创始人，gw solo的神！
 
 由于奥术法师的优秀模板，使得作为电神话的fatal能够选择拥有优秀ehp和输出能力同时缺少mr的彩虹build，同时选择奥术还能让fatal直接删除一个负面词条，非常强劲
 
-自身作为电属性武器还提供了不俗的电点数，rw 奥术 甚至球都能玩的神
+自身作为电属性武器还提供了不俗的电点数，rw 奥术 甚至球法都能玩的神
 
->这位更是神仙
+三号炮机+第二个正在开发的东西（包括但不限于rw或者rw或者rw）+过去的anni大杀器+可能因为奥术树的改动再次成为tcc陨石meta
 
->Fat a L
 
->属性上的1ms特地设计来搞笑的 不要问为什么只有1
 
->你见过能和十字军搭配的电神话吗？fatal就是
+:::details 评论区
++ 诶不是你怎么和电棍一起似了
+  
++ 这位更是神仙
 
->作为电神话面板都没warp高 
++ Fat a L
+
++ 作为电神话面板都没warp高 
+
++ 电棍粉丝
+  
++ 你的build出现了致命的问题
+
++ 五字神武
+
++ 感觉，不如羽蛇神
+:::
+
+
 
 ### Singularity
 
@@ -943,12 +1093,12 @@ hmelee法师创始人，gw solo的神！
       <span class="item-attribute">Super Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="fire">✹ Fire</span> <span class="gray">Damage: 125-275</span><br>
-      <span class="water">❉ Water</span> <span class="gray">Damage: 150-250</span><br>
-      <span class="air">❋ Air</span> <span class="gray">Damage: 100-300</span><br>
-      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 75-325</span><br>
-      <span class="earth">✤ Earth</span> <span class="gray">Damage: 175-225</span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">510</span></span>
+      <span class="earth">✤ Earth</span> <span class="gray">Damage: 165-205</span><br>
+      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 60-305</span><br>
+      <span class="water">❉ Water</span> <span class="gray">Damage: 135-230</span><br>
+      <span class="fire">✹ Fire</span> <span class="gray">Damage: 110-255</span><br>
+      <span class="air">❋ Air</span> <span class="gray">Damage: 85-280</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">465</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -968,7 +1118,8 @@ hmelee法师创始人，gw solo的神！
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Spell Damage<br>
       <span class="bonus-positive">+67 <span class="bonus-to">to</span> +289</span> Spell Damage<br>
       <span class="bonus-positive">+75 <span class="bonus-to">to</span> +325</span> Health Regen<br>
-      <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Walk Speed
+      <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Walk Speed<br>
+      <span class="major-id-name">+Orbital Chain:</span> <span class="major-id-desc">Chain Lightning hits slower, rebounds, adds 6 chains, and pulls mobs closer for a ✤750% explosion spell.</span>
     </p>
     <p class="powder-rarity">
       [15] Powder slots<br>
@@ -982,17 +1133,31 @@ hmelee法师创始人，gw solo的神！
 
 吃粉末效率低 自身面板也不高
 
->法师的下水道看门大爷这么多啊
+专门新加了一个Major，但是攒六秒来换取一个陨石倍率的主动，你是来搞笑的吗。
 
->名字太长了，而且里面还带了个Lari，太不行了
+新major出的那天让倒爷们都要高潮了，只不过最后寸止了。
 
->singu lari ty
+:::details 评论区
++ 唱歌lari 但是唱的不好听
 
->谁家武器要你妈15个粉槽，粉末都快比武器贵了
++ 法师的下水道看门大爷这么多啊
 
->ws扣烂了
++ 名字太长了，而且里面还带了个Lari，太不行了
 
->垃圾 下一位
++ singu lari ty
+
++ 谁家武器要你妈15个粉槽，粉末都快比武器贵了
+
++ ws扣烂了
+
++ 垃圾 下一位
+
++ 多少导购因为唱歌拉里一夜上天台
+
++ 最傻逼的major
+:::
+
+
 
 ### Warp
 
@@ -1004,9 +1169,9 @@ hmelee法师创始人，gw solo的神！
       <span class="item-attribute">Very Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 40-70</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 160-190</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">713</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 30-60</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 125-145</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">558</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -1018,10 +1183,10 @@ hmelee法师创始人，gw solo的神！
     </p>
     <p class="bonuses">
       <span class="bonus-negative">-260 <span class="bonus-to-negative">to</span> -140%</span> Health Regen<br>
-      <span class="bonus-negative">-780 <span class="bonus-to-negative">to</span> -420</span> Health Regen<br>
+      <span class="bonus-negative">-585 <span class="bonus-to-negative">to</span> -315</span> Health Regen<br>
       <span class="bonus-negative">-58 <span class="bonus-to-negative">to</span> -31/5s</span> Mana Regen<br>
-      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +3</span> Heal Cost<br>
-      <span class="bonus-negative">-90 <span class="bonus-to-negative">to</span> -389</span> Teleport Cost<br>
+      <span class="bonus-negative">-39% <span class="bonus-to-negative">to</span> -21%</span> Healing Efficiency<br>
+      <span class="bonus-positive">-90 <span class="bonus-to">to</span> -389</span> Teleport Cost<br>
       <span class="bonus-positive">+27 <span class="bonus-to">to</span> +117%</span> Reflection<br>
       <span class="bonus-positive">+54 <span class="bonus-to">to</span> +234%</span> Walk Speed<br>
       <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Exploding<br>
@@ -1037,15 +1202,8 @@ hmelee法师创始人，gw solo的神！
 
 别名：扭曲
 
->这位更是重量级
 
->这武器一堆负面属性 看着就不好用
 
->扣回蓝，扣回血，太垃圾了
-
->拿着这把武器我一直流血 垃圾
-
->-hpr还-mr 一眼弱
 
 Warp的设计很明显，牺牲续航换来你游天花板级别的功能性和综合强度
 
@@ -1057,19 +1215,43 @@ Warp的设计很明显，牺牲续航换来你游天花板级别的功能性和�
 
 负面效果在这力量面前不值一提。
 
->同时还能给你提供agi的魅力
+> 同时还能给你提供agi的魅力
 
 不同情况适用于不同流派，机动性极强
 
-伤害目前算是仅次于fatal的神话
+经过几轮大削，如今扭曲小姐真的入土了
 
-Warp对于三个职业分支来说都可以很"愉快"的游玩
-
-对于球法以外的玩法来说，几乎强绑定月塔，需注意
-
->byd月塔的价格已经被扭曲拱上天了我草
+Warp的市场如今非常癫狂，市场好几页的Warp，有梦你就来。
 
 
+
+salute to player killed shiny warp+致敬传奇845x3.6+传奇耐砍王+无法超越的lr meta之一
+
+:::details 评论区
++ 这位更是重量级
+
++ 这武器一堆负面属性 看着就不好用
+
++ 扣回蓝，扣回血，太垃圾了
+
++ 拿着这把武器我一直流血 垃圾
+
++ -hpr还-mr 一眼弱
+  
++ byd月塔的价格已经被扭曲拱上天了我草
+
++ 传奇耐削王
+
++ 把我卖了都买不起
+
++ 买不起能玩的 不评价了
+
++ 300组传说
+
++ Shiny Tracker: Players Banned
+
++ 永利跑男噢,你太卑鄙了
+:::
 
 
 
@@ -1084,10 +1266,10 @@ Warp对于三个职业分支来说都可以很"愉快"的游玩
       <span class="item-attribute">Very Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 25-45</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 45-75</span></span><br>
-      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 50-70</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">481</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 20-40</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 35-75</span></span><br>
+      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 40-70</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">434</span></span>
     </p>
     <p class="requirements">
       Class Req: Mage/Dark Wizard<br>
@@ -1099,9 +1281,9 @@ Warp对于三个职业分支来说都可以很"愉快"的游玩
       <span class="bonus-positive">+29</span> Main Attack Damage
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+81 <span class="bonus-to">to</span> +351</span> Spell Damage<br>
-      <span class="bonus-positive">+427 <span class="bonus-to">to</span> +1850/3s</span> Life Steal<br>
-      <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Healing Efficiency<br>
+      <span class="bonus-positive">+77 <span class="bonus-to">to</span> +332</span> Spell Damage<br>
+      <span class="bonus-positive">+450 <span class="bonus-to">to</span> +1950/3s</span> Life Steal<br>
+      <span class="bonus-negative">-78 <span class="bonus-to-negative">to</span> -42%</span> Healing Efficiency<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +36%</span> Walk Speed<br>
       <span class="bonus-positive">+1 <span class="bonus-to">to</span> +3</span> Jump Height
     </p>
@@ -1116,17 +1298,95 @@ Warp对于三个职业分支来说都可以很"愉快"的游玩
 
 最强陨石神话之一，但是存在死命不让玩rage的ls，太幽默了哥
 
-未来可期，指没强势过，也不是很出名
+羽蛇神目前风评有上升的趋势，也是因为周围神话都被削了一圈。
 
->怎么有warp的模型没有warp的强度
+目前价格也在持续上升中。
 
->可以用羽蛇神冒充warp去野队装大哥，只要别被中键查出来
+:::details 评论区
++ 羽蛇 神.
 
->理应是位神，只是生错了时代
++ 大家都是说着玩的，你还真靠life steal回血啊？
 
->大家都是说着玩的，你还真靠life steal回血啊？
++ 拳打扭曲，脚踢致命，我说是奥法一哥你耳朵聋吗！
 
->好像有点强度
++ he扣的还是不够多
+
++ 打桩机
+
++ 名字太难念了哥
+
++ 你和warp不要在同一个lr池子里
+:::
+
+
+### Trance
+
+
+<div class="item-window">
+  <img src="/assets/img/trance.webp" alt="Trance" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Trance</span><br>
+      <span class="item-attribute">Super Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 20-52</span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 10-50</span></span><br>
+      <span class="fire">✹ Fire</span> <span class="gray">Damage: 25-35</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">413</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Mage/Dark Wizard<br>
+      Combat Lv. Min: 104<br>
+      Dexterity Min: 80<br>
+      Defence Min: 70
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+225 <span class="bonus-to">to</span> +975/3s</span> Life Steal<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/3s</span> Mana Steal<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13 tier</span> Attack Speed<br>
+      <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Stealing<br>
+      <span class="major-id-name">+Fixate:</span> <span class="major-id-desc">Devitalize increases your Winded cap by 70 but loses 0.15% weaken per stack and decreases Winded damage effects by 55%.</span>
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+别名：无
+
+非常...额...善于反复横跳的武器
+
+anni黑神话二等奖，价格稍贵
+
+Major马上要回调，不好评价。
+
+本来设计出来玩rw的武器却从来没有玩过rw
+
+:::details 评论区
+
++ trance＝monster+fatal
+
++ trance是bete十字军etf的起源武器，开启了大乌龟时代👍
+
++ ♿
+
++ 大炮机
+
++ 更臭更硬的💩
+
++ 花了一年回到原点的武器
+
++ 以后要同时养三只rw
+
++ 你叠完风boss已经死了
+
++ Selv独家研制，机制玩法有保障👍
+:::
 
 ## 弓手
 
@@ -1154,7 +1414,8 @@ Warp对于三个职业分支来说都可以很"愉快"的游玩
       <span class="bonus-positive">+15</span> Defence
     </p>
     <p class="bonuses">
-      <span class="bonus-negative">-7 <span class="bonus-to-negative">to</span> -30%</span> Arrow Storm Cost<br>
+      <span class="bonus-positive">-7 <span class="bonus-to
+      ">to</span> -30%</span> Arrow Storm Cost<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Xp Bonus<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Water Damage<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Fire Damage
@@ -1176,17 +1437,21 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 曾经是超越spring的水神话，直到后来弓手删了爆伤
 
->所以我弓箭手号74级的时候为什么没有出az
+:::details 评论区
 
->“大佬们，az的毕业配装是啥啊？”
+:::
 
->和quetz一样有神的模型，但是没有神的强度
++ 所以我弓箭手号74级的时候为什么没有出az
 
->它好像也没什么值得锐评的
++ “大佬们，az的毕业配装是啥啊？”
 
->我草 那必须是az啊，高贵的水火电神话，高贵的减cost，箭爆射到你虚脱，射到你怀疑人生
++ 和quetz一样有神的模型，但是没有神的强度
 
->拱手唯一一个五粉槽武器
++ 它好像也没什么值得锐评的
+
++ 我草 那必须是az啊，高贵的水火电神话，高贵的减cost，箭爆射到你虚脱，射到你怀疑人生
+
++ 拱手唯一一个五粉槽武器
 
 ### Freedom
 
@@ -1198,12 +1463,12 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
       <span class="item-attribute">Normal Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="fire">✹ Fire</span> <span class="gray">Damage: 75-119</span><br>
-      <span class="water">❉ Water</span> <span class="gray">Damage: 65-129</span><br>
-      <span class="air">❋ Air</span> <span class="gray">Damage: 55-139</span><br>
-      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 45-149</span><br>
-      <span class="earth">✤ Earth</span> <span class="gray">Damage: 85-109</span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">999</span></span>
+      <span class="earth">✤ Earth</span> <span class="gray">Damage: 75-105</span><br>
+      <span class="thunder">✦ Thunder</span> <span class="gray">Damage: 35-145</span><br>
+      <span class="water">❉ Water</span> <span class="gray">Damage: 55-125</span><br>
+      <span class="fire">✹ Fire</span> <span class="gray">Damage: 65-115</span><br>
+      <span class="air">❋ Air</span> <span class="gray">Damage: 55-135</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">927</span></span>
     </p>
     <p class="requirements">
       Class Req: Archer/Hunter<br>
@@ -1243,9 +1508,13 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 缺点是彩虹圣所没有被加强
 
->最大的削弱是失去了1-1的neutral伤害
+:::details 评论区
 
->很好的freedom，新手最推荐弓，但是很贵。
+:::
+
++ 最大的削弱是失去了1-1的neutral伤害
+
++ 很好的freedom，新手最推荐弓，但是很贵。
 
 ### Grandmother
 
@@ -1257,9 +1526,9 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
       <span class="item-attribute">Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 150-250</span><br>
-      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 440-595</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">1076</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 120-250</span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 410-565</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">1009</span></span>
     </p>
     <p class="requirements">
       Class Req: Archer/Hunter<br>
@@ -1288,7 +1557,7 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 别名：奶奶/gma
 
->gma的来源是Grandma
++ gma的来源是Grandma
 
 旧版本的神，一血奇迹选手
 
@@ -1296,11 +1565,13 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 这就是你李奶奶的地神话
 
->gma 拥有经验与战利品加成，手持他可以让你在lr开箱子获得更多奖励，还可以让你更快的到达106级！
++ gma 拥有经验与战利品加成，手持他可以让你在lr开箱子获得更多奖励，还可以让你更快的到达106级！
 
->坏消息 输出没高多少
++ 坏消息 输出没高多少
 好消息 仍然够用
+:::details 评论区
 
+:::
 
 
 ### Ignis
@@ -1313,9 +1584,9 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
       <span class="item-attribute">Normal Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 150-210</span><br>
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 160-235</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">778</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 130-210</span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 140-225</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">726</span></span>
     </p>
     <p class="requirements">
       Class Req: Archer/Hunter<br>
@@ -1328,12 +1599,11 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
     <p class="bonuses">
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Health Regen<br>
       <span class="bonus-positive">+104 <span class="bonus-to">to</span> +449</span> Health Regen<br>
-      <span class="bonus-positive">+1200 <span class="bonus-to">to</span> +5200</span> Health<br>
+      <span class="bonus-positive">+900 <span class="bonus-to">to</span> +3900</span> Health<br>
       <span class="bonus-negative">-10 <span class="bonus-to-negative">to</span> -45%</span> Arrow Shield Cost<br>
-      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Fire Damage<br>
       <span class="bonus-positive">+30 <span class="bonus-to">to</span> +130%</span> Fire Defence<br>
       <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Air Defence<br>
-      <span class="major-id-name">+Heart of the Pack:</span> <span class="major-id-desc">Nearby players gain 35% of the health you naturally regenerate</span>
+      <span class="major-id-name">+Heart of the Pack:</span> <span class="major-id-desc">Nearby players gain 100% of the health you gain from Health Regen and Life Steal.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -1344,9 +1614,9 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 别名：火神
 
->这是哪位
++ 这是哪位
 
->查无此人
++ 查无此人
 
 价格很高但是没见过人用过的武器
 
@@ -1356,9 +1626,12 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 但问题是弓手是个输出位而不是抗伤位
 
->你好，你是无烟煤吗？
++ 你好，你是无烟煤吗？
 
->全游戏唯一指定无限血瓶
++ 全游戏唯一指定无限血瓶
++ :::details 评论区
+
+:::
 
 ### Divzer
 
@@ -1370,9 +1643,9 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
       <span class="item-attribute">Super Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 38-39</span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 240-240</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">1198</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 35-36</span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 235-235</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">1163</span></span>
     </p>
     <p class="requirements">
       Class Req: Archer/Hunter<br>
@@ -1387,7 +1660,7 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
     <p class="bonuses">
       <span class="bonus-positive">+161 <span class="bonus-to">to</span> +697</span> Main Attack Damage<br>
       <span class="bonus-positive">+76 <span class="bonus-to">to</span> +329</span> Spell Damage<br>
-      <span class="bonus-positive">+292 <span class="bonus-to">to</span> +1265/3s</span> Life Steal<br>
+      <span class="bonus-positive">+274 <span class="bonus-to">to</span> +1186/3s</span> Life Steal<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/3s</span> Mana Steal<br>
       <span class="bonus-positive">+1 tier</span> Attack Speed<br>
       <span class="bonus-negative">-715 <span class="bonus-to-negative">to</span> -385%</span> Water Damage<br>
@@ -1412,24 +1685,26 @@ tna常驻嘉宾
 
 现有版本里伤害依旧数一数二的神话弓
 
->什么时候加强一下dz
++ 什么时候加强一下dz
 
->脆皮鸡
++ 脆皮鸡
 
->哎你怎么死了
++ 哎你怎么死了
 
->进攻是最好的防守
++ 进攻是最好的防守
 
->tmd老头龙吼了 我不玩了
++ tmd老头龙吼了 我不玩了
 
->此武器带有隐藏的Major id 消耗2点灵魂点进入死亡状态
++ 此武器带有隐藏的Major id 消耗2点灵魂点进入死亡状态
 
->此物品带有隐藏属性，被怪物碰到能立刻帮你回出生点
++ 此物品带有隐藏属性，被怪物碰到能立刻帮你回出生点
 
->意义不明的115+37的dex设计，完全溢出
++ 意义不明的115+37的dex设计，完全溢出
 
->super fast加上+1 tier，带来更加惊艳的平A体验
++ super fast加上+1 tier，带来更加惊艳的平A体验
+:::details 评论区
 
+:::
 
 
 ### Spring
@@ -1442,9 +1717,9 @@ tna常驻嘉宾
       <span class="item-attribute">Normal Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 150-185</span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 200-310</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">870</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 135-185</span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 170-310</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">824</span></span>
     </p>
     <p class="requirements">
       Class Req: Archer/Hunter<br>
@@ -1458,6 +1733,8 @@ tna常驻嘉宾
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/5s</span> Mana Regen<br>
+      <span class="bonus-positive">+6% <span class="bonus-to">to</span> +25%</span> Slow Enemy<br>
+      <span class="bonus-positive">+6% <span class="bonus-to">to</span> +25%</span> Weaken Enemy<br>
       <span class="bonus-negative">-65 <span class="bonus-to-negative">to</span> -35%</span> Thunder Damage<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Water Damage
     </p>
@@ -1482,17 +1759,20 @@ tna常驻嘉宾
 
 最适合新人的一把神话弓，价格也很便宜
 
->byd哪个策划为了抬spring把弓手的爆伤砍没了，什么地位不用多说了吧
++ byd哪个策划为了抬spring把弓手的爆伤砍没了，什么地位不用多说了吧
 
->曾经的spring有多牛逼 现在的它就有多拉胯
++ 曾经的spring有多牛逼 现在的它就有多拉胯
 
->射到我停不下来
++ 射到我停不下来
 
->只要其他弓都在削弱，我就是被加强了
++ 只要其他弓都在削弱，我就是被加强了
 
->spring优势区间:不用修
++ spring优势区间:不用修
 
->莫名其妙的虚弱词条，变相加生存，但我要的是生存吗
++ 莫名其妙的虚弱词条，变相加生存，但我要的是生存吗
+:::details 评论区
+
+:::
 
 ### Stratiformis
 
@@ -1504,9 +1784,9 @@ tna常驻嘉宾
       <span class="item-attribute">Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 95-175</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 170-300</span></span><br>
-      <span class="average-dps">Average DPS: <span class="gray">925</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 75-175</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 14-300</span></span><br>
+      <span class="average-dps">Average DPS: <span class="gray">862</span></span>
     </p>
     <p class="requirements">
       Class Req: Archer/Hunter<br>
@@ -1537,7 +1817,7 @@ tna常驻嘉宾
 
 版本红利享受者，砍雷伤抬气伤这一不明操作中唯一获利者
 
->也是新lr受害者，连着三周进池子直接把价格橄榄了
++ 也是新lr受害者，连着三周进池子直接把价格橄榄了
 
 极高的面板但是多少有点可惜的伤害
 
@@ -1549,9 +1829,13 @@ tna常驻嘉宾
 
 旧lr的真神 拥有超高的ws
 
->可是哥们 它加100移速诶
++ 可是哥们 它加100移速诶
 
->如果属性太差会变成大杯gale's force
++ 如果属性太差会变成大杯gale's force
+
+:::details 评论区
+
+:::
 
 ### Epoch
 
@@ -1563,10 +1847,10 @@ tna常驻嘉宾
       <span class="item-attribute">Super Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 500-620</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 520-600</span></span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 480-640</span></span><br>
-      <span class="average-dps">Average DPS: <span class="gray">857</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 450-620</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 440-600</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 480-560</span></span><br>
+      <span class="average-dps">Average DPS: <span class="gray">803</span></span>
     </p>
     <p class="requirements">
       Class Req: Archer/Hunter<br>
@@ -1575,12 +1859,12 @@ tna常驻嘉宾
       Agility Min: 70
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+231 <span class="bonus-to">to</span> +1000</span> Main Attack Damage<br>
+      <span class="bonus-positive">+92 <span class="bonus-to">to</span> +400</span> Main Attack Damage<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Spell Damage<br>
-      <span class="bonus-positive">+248 <span class="bonus-to">to</span> +1073/3s</span> Life Steal<br>
+      <span class="bonus-positive">+233 <span class="bonus-to">to</span> +1008/3s</span> Life Steal<br>
       <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -4/3s</span> Mana Steal<br>
-      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -5</span> Arrow Storm Cost<br>
-      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -5</span> Arrow Shield Cost<br>
+      <span class="bonus-positive">-1 <span class="bonus-to">to</span> -5</span> Arrow Storm Cost<br>
+      <span class="bonus-positive">-1 <span class="bonus-to">to</span> -5</span> Arrow Shield Cost<br>
       <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14%</span> Walk Speed<br>
       <span class="bonus-positive">+21 <span class="bonus-to">to</span> +91%</span> Sprint
     </p>
@@ -1594,39 +1878,86 @@ tna常驻嘉宾
 
 别名：纪元/一炮吃
 
->noob gun
++ noob gun
 
 不需要脑子的武器，搭配上专用的build，只要右键按死，一切都会结束的
 
 进行了一点算是增强的改动，但是对TS流基本没有影响。。
 
->不是你秒怪就是怪秒你
++ 不是你秒怪就是怪秒你
 
->（右键）你说（右键）ts这玩意（右键）谁发明的（右键）
++ （右键）你说（右键）ts这玩意（右键）谁发明的（右键）
 
->大号无烟煤
++ 大号无烟煤
 
->我tna就靠这个免队友喷了
++ 我tna就靠这个免队友喷了
 
->“哥们带我tna”
++ “哥们带我tna”
 “哥们你操作好帅啊”
 “哥们为啥你伤害没我高”
 
->曾经十字军epoch让所有top raider哀嚎半个月
++ 曾经十字军epoch让所有top raider哀嚎半个月
 
->真正把wynncraft变成了click game的武器
++ 真正把wynncraft变成了click game的武器
 
->为了削弱epoch，把弓手一整个右路全毁了
++ 为了削弱epoch，把弓手一整个右路全毁了
 
->美国著名五星上将麦克阿瑟曾评价道 “当我在tna看到epoch 我就知道我多余了”
++ 美国著名五星上将麦克阿瑟曾评价道 “当我在tna看到epoch 我就知道我多余了”
 
->有一种看见super slow就起星域的病
++ 有一种看见super slow就起星域的病
 
->改了跟没改一样
++ 改了跟没改一样
 
->玩spell我为什么不玩dz呢.jpg
++ 玩spell我为什么不玩dz呢.jpg
 
->你改个escape cost都比给那两个cost好
++ 你改个escape cost都比给那两个cost好
+
+:::details 评论区
+
+:::
+
+### Labyrinth
+<div class="item-window">
+  <img src="/assets/img/trance.webp" alt="Trance" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Labyrinth</span><br>
+      <span class="item-attribute">Very Slow Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 485-515</span></span><br>
+      <span class="fire">✹ Fire</span> <span class="gray">Damage: 470-530</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">830</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Archer/Hunter<br>
+      Combat Lv. Min: 104<br>
+      Strength Min: 70<br>
+      Defence Min: 85
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +14/3s</span> Mana Stea<br>
+      <span class="bonus-positive">-6 <span class="bonus-to">to</span> -25%</span> Arrow Bomb Cost<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +14%</span> Slow Enemy<br>
+      <span class="bonus-positive">+7 <span class="bonus-to">to</span> +30%</span> Earth Damage<br>
+      <span class="bonus-positive">+7 <span class="bonus-to">to</span> +30%</span> Fire Damage<br>
+      <span class="major-id-name">+Twisting Threads:</span> <span class="major-id-desc">Tangled Traps ropes gain +1 range, can overlap up to 3 times, and deal ✤40%. Gain +12 traps that cannot be triggered by enemies.</span>
+    </p>
+    <p class="powder-rarity">
+      [2] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+
+
+:::details 评论区
+
+:::
 ## 刺客
 
 ### Archangel
@@ -1676,15 +2007,15 @@ slider以1ws的劣势惜败archangel
 
 拿来练级也不合适，因为刺客弱
 
->刺客从战士那借的武器 忘记还了
++ 刺客从战士那借的武器 忘记还了
 
->长得像hero，应该挺帅，可惜是刺客武器
++ 长得像hero，应该挺帅，可惜是刺客武器
 
->对战士拙劣的模仿
++ 对战士拙劣的模仿
 
->加的移速很多
++ 加的移速很多
 
->等级需求：69
++ 等级需求：69
 
 
 ### Nullification
@@ -1737,23 +2068,23 @@ slider以1ws的劣势惜败archangel
 
 别名：null
 
->哥们你有这么多幽默词条是有什么心事吗
++ 哥们你有这么多幽默词条是有什么心事吗
 
 好看，也仅仅是好看
 
->和collapse凑一对吧 锁死
++ 和collapse凑一对吧 锁死
 
->设计师觉得自己的元素防御很厉害，于是他做了这把武器
++ 设计师觉得自己的元素防御很厉害，于是他做了这把武器
 
->很好的rare武器
++ 很好的rare武器
 
->有赌博性的武器（指roll词条）
++ 有赌博性的武器（指roll词条）
 
->nulli如果给+120 def点那还是可以的
++ nulli如果给+120 def点那还是可以的
 
->实在没什么好锐评的
++ 实在没什么好锐评的
 
->适合搭配煌黑龙套装
++ 适合搭配煌黑龙套装
 
 ### Weathered
 
@@ -1806,7 +2137,7 @@ slider以1ws的劣势惜败archangel
 
 所以他中规中矩没啥亮点。
 
->byd最近有人在赌风刀，把unid都扫完了，贵麻了
++ byd最近有人在赌风刀，把unid都扫完了，贵麻了
 
 风刀自身没啥削弱，但是风刀build里需要的其他装备都被削了个遍
 
@@ -1854,13 +2185,13 @@ slider以1ws的劣势惜败archangel
 
 很酷，但是刺客武器
 
->跟大锤换一下职业需求就好了
++ 跟大锤换一下职业需求就好了
 
 不知道为什么没有cherry bomb的major
 
 进能打spell 退能打heavy melee
 
->一拳超人一刀4m的含金量听说过没
++ 一拳超人一刀4m的含金量听说过没
 
 ### Cataclysm
 
@@ -1901,11 +2232,11 @@ slider以1ws的劣势惜败archangel
 
 别名：cata
 
->扣这么多血，垃圾
++ 扣这么多血，垃圾
 
->献祭队友换取伤害
++ 献祭队友换取伤害
 
->有一种数值的美
++ 有一种数值的美
 
 献祭整个刺客技能树的强度换来的强度，朴实无华的强，无需解释
 
@@ -1913,21 +2244,21 @@ slider以1ws的劣势惜败archangel
 
 你游输出的顶点，divzer只是虚假的依靠了弓箭手的优势
 
->使用divzer享受ehp没有hp高的配装 
++ 使用divzer享受ehp没有hp高的配装 
 
 会玩和不会玩是两把武器
 
 不会玩滚键盘也能打一波爆发 打个2-3m还是轻轻松松
 
->建议删除cata，这样就有理由逼着官方加强刺客了
++ 建议删除cata，这样就有理由逼着官方加强刺客了
 
->为了平衡cata，刺客其他武器都被削了个遍
++ 为了平衡cata，刺客其他武器都被削了个遍
 
->byd策划都削cata了为什么不加强刺客
++ byd策划都削cata了为什么不加强刺客
 
->为了削弱cata 连樱桃炸弹都被增强了
++ 为了削弱cata 连樱桃炸弹都被增强了
 
->有一种没玩过游戏不知道到底谁强只好给面板来一刀的美感
++ 有一种没玩过游戏不知道到底谁强只好给面板来一刀的美感
 
 
 :::details meme
@@ -1981,17 +2312,17 @@ slider以1ws的劣势惜败archangel
 
 扣血并不掩盖水刀的优秀设计，作为水神话来说，有这么一个强力的MajorID非常的舒适
 
->nirvana o na na
++ nirvana o na na
 
->mr往死里堆整个acrobat滚鼠标飞
++ mr往死里堆整个acrobat滚鼠标飞
 
->转起来了
++ 转起来了
 
 尽管如此，最近水刀价格几乎跌到了最低点，嗯
 
->哥们你怎么就死了
++ 哥们你怎么就死了
 
->nirvana，名为涅槃，结果是水神话
++ nirvana，名为涅槃，结果是水神话
 
 
 
@@ -2045,20 +2376,20 @@ hm有发挥空间，但是真的有人玩hm吗
 
 最大的痛点是没有续航
 
->拿在手里感觉会烫手
++ 拿在手里感觉会烫手
 
->2.0查无此神话
++ 2.0查无此神话
 
->当你拿到96-100级刺客神话武器盒子的时候
++ 当你拿到96-100级刺客神话武器盒子的时候
 你无法判断里面到底是inferno还是nirvana
 最终到你鉴定这个盒子的时候
 它一定会坍缩到inferno上
 
->幽默-1cost
++ 幽默-1cost
 
->inferno最大的痛点在于当你尝试为inferno配装的时候，一定会落到雷火上
++ inferno最大的痛点在于当你尝试为inferno配装的时候，一定会落到雷火上
 
->inferno要不还是重做回去吧
++ inferno要不还是重做回去吧
 
 
 
@@ -2104,27 +2435,27 @@ hm有发挥空间，但是真的有人玩hm吗
 
 别名：Obli/遗忘
 
->和名字一样，已经遗忘了
++ 和名字一样，已经遗忘了
 
 刺客真正的彩虹神话，指模型
 
 有效面板1000左右 不低 但是和cata没法比
 
->对得起价格
++ 对得起价格
 
->如果让我利用50%的生存能力换取两倍的伤害，那我需要考虑一下——出自某不愿透露姓名的玩家对grimtrap和oblivion二者的对比
++ 如果让我利用50%的生存能力换取两倍的伤害，那我需要考虑一下——出自某不愿透露姓名的玩家对grimtrap和oblivion二者的对比
 
->但如果用90%的生存换十倍的伤害，那可太妙了——后者指的是cata
++ 但如果用90%的生存换十倍的伤害，那可太妙了——后者指的是cata
 
->原本贵的一批，因为可以打melee，还被人用来打wars了
++ 原本贵的一批，因为可以打melee，还被人用来打wars了
 
->wynncraft玩家对于melee的热爱...
++ wynncraft玩家对于melee的热爱...
 
->有一种看见super slow就起星域的病
++ 有一种看见super slow就起星域的病
 
->我原本有很多话要说 但我忘了
++ 我原本有很多话要说 但我忘了
 
->这东西带的50exploding可以让sveil爽到蛇
++ 这东西带的50exploding可以让sveil爽到蛇
 
 ## 萨满
 
@@ -2174,17 +2505,17 @@ hm有发挥空间，但是真的有人玩hm吗
 
 萨满唯一地神话，加伤害加防御加血加攻击力面板还高
 
->你和toxo打一架吧
++ 你和toxo打一架吧
 
->隔壁toxo的dps只有9 闹麻了
++ 隔壁toxo的dps只有9 闹麻了
 
->没想到byd萨满最能打的武器居然是低级神话
++ 没想到byd萨满最能打的武器居然是低级神话
 
->爆！
++ 爆！
 
->Super Slow Attack Speed
++ Super Slow Attack Speed
 
->有一种看见super slow就起星域的病
++ 有一种看见super slow就起星域的病
 
 
 ### Olympic
@@ -2230,15 +2561,15 @@ hm有发挥空间，但是真的有人玩hm吗
 
 跳高高可太好玩了，只要你蹦在空中你就是无敌的
 
->落地解除无敌状态
++ 落地解除无敌状态
 
->跳高冠军
++ 跳高冠军
 
 配合strato或dv，叠起来可以有10+的jh，日常玩起来十分欢乐，tna打老头也有一定的实战价值(吗?)
 
 伤害也还不错，刮痧老头的神
 
->好了现在萨满能打的武器到这里就结束了
++ 好了现在萨满能打的武器到这里就结束了
 
 ### Hadal
 
@@ -2276,17 +2607,17 @@ hm有发挥空间，但是真的有人玩hm吗
 
 幽默req，曾经有高达150的int需求
 
->水神话之耻
++ 水神话之耻
 
->你谁
++ 你谁
 
->加这么多伤害 一定伤害很高吧
++ 加这么多伤害 一定伤害很高吧
 
->水神话一定可以流畅的刷技能吧
++ 水神话一定可以流畅的刷技能吧
 
->Had a L
++ Had a L
 
->玩hadal不如去玩spring
++ 玩hadal不如去玩spring
 
 部分情况下伤害挺高，但是要求也挺高
 
@@ -2329,15 +2660,15 @@ hm有发挥空间，但是真的有人玩hm吗
 
 没救了，最大cjb
 
->当时有lapis饰品的时候价格被炒上天，结果发现牛逼的是lapis不是它
++ 当时有lapis饰品的时候价格被炒上天，结果发现牛逼的是lapis不是它
 
->这个...没法评价
++ 这个...没法评价
 
->对这个武器没有任何除了太阳星星以外的任何印象
++ 对这个武器没有任何除了太阳星星以外的任何印象
 
->真·电神话之耻
++ 真·电神话之耻
 
->它改了什么？我咋没印象了？
++ 它改了什么？我咋没印象了？
 
 
 ### Fantasia
@@ -2392,19 +2723,19 @@ hm有发挥空间，但是真的有人玩hm吗
 
 可以爽搓 但是没伤害
 
->fanta能用 但是好像不太好用
++ fanta能用 但是好像不太好用
 
->为什么这游戏有这个东西
++ 为什么这游戏有这个东西
 
->彩虹神话之耻，唯一一个看不上眼的
++ 彩虹神话之耻，唯一一个看不上眼的
 
->anxio挚友
++ anxio挚友
 
->长得还挺好看
++ 长得还挺好看
 
->用起来真的难受
++ 用起来真的难受
 
->fanta太难re了
++ fanta太难re了
 
 ### Toxoplasmosis
 
@@ -2454,13 +2785,13 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
 
 目前版本完全上不去牌面，在其他所有伤害都在数值膨胀的情况下，毒伤机制不升反降，只能说幽默
 
->萨满不玩toxo刷素材流就好像飞机杯只拿来喝水
++ 萨满不玩toxo刷素材流就好像飞机杯只拿来喝水
 
->如果不重做请把这武器改成legendary，不要占用神话的位置
++ 如果不重做请把这武器改成legendary，不要占用神话的位置
 
->wynn掌管素材的神
++ wynn掌管素材的神
 
->古希腊掌管刷材料的神
++ 古希腊掌管刷材料的神
 
 
 
@@ -2512,11 +2843,11 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 但guild war仍旧是唯一healer位
 
->没有见过trift abso的人生是不完整的
++ 没有见过trift abso的人生是不完整的
 
->萨满奶量狂飙！！！
++ 萨满奶量狂飙！！！
 
->byd本身就没啥伤害只有功能性的武器还要砍他的功能性wynncraft设计师的脑子里是进shit了吗
++ byd本身就没啥伤害只有功能性的武器还要砍他的功能性wynncraft设计师的脑子里是进shit了吗
 
 ### Immolation
 
@@ -2563,16 +2894,16 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 曾经弱智流的高光，build里每一件装备都不可替换，每一件也都有这关键的用处
 
->曾经可以扣队友的血 最优秀的设计 怎么就修复了
++ 曾经可以扣队友的血 最优秀的设计 怎么就修复了
 
->dps better than cata
++ dps better than cata
 
->+150属性点，保送火气双满，这就是我们immo啊
++ +150属性点，保送火气双满，这就是我们immo啊
 
->史上最肉的武器，保送150agi 150def，前提是让战士能用
++ 史上最肉的武器，保送150agi 150def，前提是让战士能用
 
 
->我有immo症.jpg
++ 我有immo症.jpg
 
 :::details meme
 ![](/assets/img/immo.jpg =400x)
@@ -2674,9 +3005,9 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 缺点也很明显，降输出略多，同时一样扣除了少额移速
 
->可是一般有resu的地方都能用十字军替代，它还有什么意义吗
++ 可是一般有resu的地方都能用十字军替代，它还有什么意义吗
 
->属于是被版本淘汰的旧神
++ 属于是被版本淘汰的旧神
 
 ### Galleon
 <div class="item-window">
@@ -2764,7 +3095,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 </div>
 
 
->这贵物居然比十字军还肉
++ 这贵物居然比十字军还肉
 
 别名：bo真
 
@@ -2774,7 +3105,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 负面效果对于某些职业的技能可能会有大影响 同时限制了使用的武器属性
 
->能完美弥补一个叫扭曲的冲击波
++ 能完美弥补一个叫扭曲的冲击波
 
 ### Slayer
 
@@ -2816,7 +3147,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 非常实用的鞋，唯一缺点在于-hpr
 
->好像也不算什么缺点，扭曲说道
++ 好像也不算什么缺点，扭曲说道
 
 功能性较多，但是伤害不是很高
 
@@ -2879,7 +3210,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 但是月塔的好处是不吃鉴定，再烂的也能用
 
->只要穿上了月塔基本就不用惦记你那def了
++ 只要穿上了月塔基本就不用惦记你那def了
 
 ### Dawnbreak
 
@@ -2924,13 +3255,13 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 如今因为panic zealot的增强迎来了第二春，但是攻速只有-14/-15时才有就业空间
 
->panic zealot的指定星怒
++ panic zealot的指定星怒
 
 hmbuild指定组件，但是hm现在真的还有人玩吗？
 
->db在属性分配设计上就已经输的太多了，电火也太整蛊了
++ db在属性分配设计上就已经输的太多了，电火也太整蛊了
 
->很帅的名字，很拉胯的就业空间
++ 很帅的名字，很拉胯的就业空间
 
 
 
@@ -2977,9 +3308,9 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 但是成为了版本弃子
 
->谁让你一点点数都敢不加的啊？
++ 谁让你一点点数都敢不加的啊？
 
->没人能拒绝400raw spell的诱惑
++ 没人能拒绝400raw spell的诱惑
 
 ### Warchief
 
@@ -3034,7 +3365,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 和大锤与epoch的适用性极佳
 
->是个拖鞋 太low了 不行
++ 是个拖鞋 太low了 不行
 
 ### Revenant
 
@@ -3075,7 +3406,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 别名：reve
 
->creeper？aww man
++ creeper？aww man
 
 强度在线，但是玩法不多
 
@@ -3083,9 +3414,9 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 说人话就是用处基本没有
 
->你游最难鉴定的物品之一，这东西词条怎么这么多，上下限怎么还都这么高
++ 你游最难鉴定的物品之一，这东西词条怎么这么多，上下限怎么还都这么高
 
->但是revenant的超高移速拯救了绿拳
++ 但是revenant的超高移速拯救了绿拳
 
 
 
@@ -3121,11 +3452,11 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 其实皮是纯功能性的，现在就业空间只剩下刷材料了
 
->田娜它居然还给点经验，真是太强了吧
++ 田娜它居然还给点经验，真是太强了吧
 
 皮是唯一一个不加血量的神话物品
 
->金钱与财富，但是代价是什么...
++ 金钱与财富，但是代价是什么...
 
 <style>
 .item-window {
