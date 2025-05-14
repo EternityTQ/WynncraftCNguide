@@ -1367,6 +1367,8 @@ Major马上要回调，不好评价。
 
 本来设计出来玩rw的武器却从来没有玩过rw
 
+目前主流是etf炮机球（专用于tcc）+2.1ETF低能流的开山鼻祖+目前开发的方向在于所谓的rw（即使目前有着devit的限制）+未来改动拭目以待
+
 :::details 评论区
 
 + trance＝monster+fatal
