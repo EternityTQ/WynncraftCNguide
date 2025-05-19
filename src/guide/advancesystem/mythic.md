@@ -5,7 +5,9 @@ icon: chess-king
 
 神话物品作为游戏终期的目标，具有极高的独特性以及价值
 
-+ 《价值》
+> 《价值》
+
+>价值在哪
 
 每件神话物品都有其独特的属性、用途等
 
@@ -1440,9 +1442,6 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 曾经是超越spring的水神话，直到后来弓手删了爆伤
 
 :::details 评论区
-
-:::
-
 + 所以我弓箭手号74级的时候为什么没有出az
 
 + “大佬们，az的毕业配装是啥啊？”
@@ -1454,6 +1453,9 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 + 我草 那必须是az啊，高贵的水火电神话，高贵的减cost，箭爆射到你虚脱，射到你怀疑人生
 
 + 拱手唯一一个五粉槽武器
+
+:::
+
 
 ### Freedom
 
@@ -1920,7 +1922,7 @@ tna常驻嘉宾
 
 ### Labyrinth
 <div class="item-window">
-  <img src="/assets/img/trance.webp" alt="Trance" class="item-icon">
+  <img src="/assets/img/labyrinth.webp" alt="Trance" class="item-icon">
   <div class="item-details">
     <p class="item-header">
       <span class="item-name">Labyrinth</span><br>
@@ -1941,7 +1943,7 @@ tna常驻嘉宾
       <span class="bonus-positive">+20</span> Defence
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +14/3s</span> Mana Stea<br>
+      <span class="bonus-positive">+3 <span class="bonus-to">to</span> +14/3s</span> Mana Steal<br>
       <span class="bonus-positive">-6 <span class="bonus-to">to</span> -25%</span> Arrow Bomb Cost<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +14%</span> Slow Enemy<br>
       <span class="bonus-positive">+7 <span class="bonus-to">to</span> +30%</span> Earth Damage<br>
@@ -1973,8 +1975,8 @@ tna常驻嘉宾
     </p>
     <p class="damage">
       <span class="neutral-damage">✤ Neutral Damage: 20-60</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 165-200</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">556</span></span>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 145-175</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">500</span></span>
     </p>
     <p class="requirements">
       Class Req: Assassin/Ninja<br>
@@ -1987,9 +1989,10 @@ tna常驻嘉宾
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Health Regen<br>
-      <span class="bonus-positive">+36 <span class="bonus-to">to</span> +156</span> Health Regen<br>
+      <span class="bonus-positive">+45 <span class="bonus-to">to</span> +195</span> Health Regen<br>
       <span class="bonus-positive">+570 <span class="bonus-to">to</span> +2470</span> Health<br>
-      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +53%</span> Walk Speed
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +53%</span> Walk Speed<br>
+      <span class="bonus-positive">+38 <span class="bonus-to">to</span> +163%</span> Main Attack Range
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -2018,7 +2021,9 @@ slider以1ws的劣势惜败archangel
 + 加的移速很多
 
 + 等级需求：69
+:::details 评论区
 
+:::
 
 ### Nullification
 
@@ -2030,12 +2035,12 @@ slider以1ws的劣势惜败archangel
       <span class="item-attribute">Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 36-90</span></span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 46-80</span></span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 28-98</span></span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 22-104</span></span><br>
-      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 60-66</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">788</span></span>
+      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 55-65</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 15-105</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 45-75</span></span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 35-85</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 25-95</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">750</span></span>
     </p>
     <p class="requirements">
       Class Req: Assassin/Ninja<br>
@@ -2050,15 +2055,12 @@ slider以1ws的劣势惜败archangel
       <span class="bonus-positive">+40</span> Defence
     </p>
     <p class="bonuses">
-      <span class="bonus-negative">-13000 <span class="bonus-to-negative">to</span> -7000/3s</span> Poison<br>
-      <span class="bonus-positive">+149 <span class="bonus-to">to</span> +644/3s</span> Life Steal<br>
+      <span class="bonus-negative">-15600 <span class="bonus-to-negative">to</span> -8400/3s</span> Poison<br>
+      <span class="bonus-positive">+150 <span class="bonus-to">to</span> +650/3s</span> Life Steal<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +21/3s</span> Mana Steal<br>
       <span class="bonus-positive">+24 <span class="bonus-to">to</span> +104%</span> Reflection<br>
-      <span class="bonus-positive">+43 <span class="bonus-to">to</span> +186%</span> Earth Defence<br>
-      <span class="bonus-positive">+43 <span class="bonus-to">to</span> +186%</span> Thunder Defence<br>
-      <span class="bonus-positive">+43 <span class="bonus-to">to</span> +186%</span> Water Defence<br>
-      <span class="bonus-positive">+43 <span class="bonus-to">to</span> +186%</span> Fire Defence<br>
-      <span class="bonus-positive">+43 <span class="bonus-to">to</span> +186%</span> Air Defence
+      <span class="bonus-positive">+46 <span class="bonus-to">to</span> +200%</span> Elemental Defence<br>
+      <span class="major-id-name">+Punishment:</span> <span class="major-id-desc"> Reflected damage blinds enemies for 1s and makes them 10% more vulnerable to attacks for 3s.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -2066,7 +2068,9 @@ slider以1ws的劣势惜败archangel
     </p>
   </div>
 </div>
+:::details 评论区
 
+:::
 
 别名：null
 
@@ -2098,9 +2102,9 @@ slider以1ws的劣势惜败archangel
       <span class="item-attribute">Very Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 40-80</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 140-230</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">760</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 30-80</span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 130-220</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">713</span></span>
     </p>
     <p class="requirements">
       Class Req: Assassin/Ninja<br>
@@ -2142,7 +2146,9 @@ slider以1ws的劣势惜败archangel
 + byd最近有人在赌风刀，把unid都扫完了，贵麻了
 
 风刀自身没啥削弱，但是风刀build里需要的其他装备都被削了个遍
+:::details 评论区
 
+:::
 ### Grimtrap
 
 <div class="item-window">
@@ -2153,9 +2159,9 @@ slider以1ws的劣势惜败archangel
       <span class="item-attribute">Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 175-235</span><br>
-      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 305-425</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">855</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 160-220</span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 285-405</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">802</span></span>
     </p>
     <p class="requirements">
       Class Req: Assassin/Ninja<br>
@@ -2166,11 +2172,11 @@ slider以1ws的劣势惜败archangel
       <span class="bonus-positive">+15</span> Strength
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+3000 <span class="bonus-to">to</span> +13000/3s</span> Poison<br>
-      <span class="bonus-positive">+195 <span class="bonus-to">to</span> +845/3s</span> Life Steal<br>
+      <span class="bonus-positive">+3750 <span class="bonus-to">to</span> +16250/3s</span> Poison<br>
+      <span class="bonus-positive">+210 <span class="bonus-to">to</span> +910/3s</span> Life Steal<br>
       <span class="bonus-negative">-13 <span class="bonus-to-negative">to</span> -7/3s</span> Mana Steal<br>
-      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +3</span> Dash Cost<br>
-      <span class="bonus-negative">-3 <span class="bonus-to-negative">to</span> -13</span> Smoke Bomb Cost<br>
+      <span class="bonus-negative">+5 <span class="bonus-to-negative">to</span> +3</span> Dash Cost<br>
+      <span class="bonus-positive">-3 <span class="bonus-to">to</span> -13</span> Smoke Bomb Cost<br>
       <span class="bonus-positive">+21 <span class="bonus-to">to</span> +91%</span> Thorns
     </p>
     <p class="powder-rarity">
@@ -2194,7 +2200,9 @@ slider以1ws的劣势惜败archangel
 进能打spell 退能打heavy melee
 
 + 一拳超人一刀4m的含金量听说过没
+:::details 评论区
 
+:::
 ### Cataclysm
 
 <div class="item-window">
@@ -2267,7 +2275,9 @@ slider以1ws的劣势惜败archangel
 ![](/assets/img/cat.jpg =200x)
 :::
 
+:::details 评论区
 
+:::
 ### Nirvana
 
 <div class="item-window">
@@ -2278,8 +2288,8 @@ slider以1ws的劣势惜败archangel
       <span class="item-attribute">Normal Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 320-385</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">726</span></span>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 300-365</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">685</span></span>
     </p>
     <p class="requirements">
       Class Req: Assassin/Ninja<br>
@@ -2326,7 +2336,9 @@ slider以1ws的劣势惜败archangel
 
 + nirvana，名为涅槃，结果是水神话
 
+:::details 评论区
 
+:::
 
 ### Inferno
 
@@ -2338,8 +2350,8 @@ slider以1ws的劣势惜败archangel
       <span class="item-attribute">Very Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 855-1045</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">789</span></span>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 795-985</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">739</span></span>
     </p>
     <p class="requirements">
       Class Req: Assassin/Ninja<br>
@@ -2350,14 +2362,12 @@ slider以1ws的劣势惜败archangel
       <span class="bonus-positive">+15</span> Defence
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Main Attack Damage<br>
       <span class="bonus-positive">+168 <span class="bonus-to">to</span> +728</span> Main Attack Damage<br>
-      <span class="bonus-negative">-58 <span class="bonus-to-negative">to</span> -31%</span> Health Regen<br>
+      <span class="bonus-negative">-84 <span class="bonus-to-negative">to</span> -45%</span> Health Regen<br>
       <span class="bonus-positive">+450 <span class="bonus-to">to</span> +1950</span> Health<br>
-      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -4/5s</span> Mana Regen<br>
-      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -5</span> Spin Attack Cost<br>
+      <span class="bonus-positive">-1 <span class="bonus-to">to</span> -5</span> Spin Attack Cost<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Walk Speed<br>
-      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Fire Damage<br>
+      <span class="bonus-positive">+14 <span class="bonus-to">to</span> +60%</span> Fire Damage<br>
       <span class="bonus-negative">-52 <span class="bonus-to-negative">to</span> -28%</span> Water Defence
     </p>
     <p class="powder-rarity">
@@ -2394,7 +2404,9 @@ hm有发挥空间，但是真的有人玩hm吗
 + inferno要不还是重做回去吧
 
 
+:::details 评论区
 
+:::
 ### Oblivion
 
 <div class="item-window">
@@ -2406,9 +2418,9 @@ hm有发挥空间，但是真的有人玩hm吗
     </p>
     <p class="damage">
       <span class="neutral-damage">✤ Neutral Damage: 1-200</span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 600-999</span></span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 600-999</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">867</span></span>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 500-999</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 500-999</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">816</span></span>
     </p>
     <p class="requirements">
       Class Req: Assassin/Ninja<br>
@@ -2420,12 +2432,11 @@ hm有发挥空间，但是真的有人玩hm吗
       <span class="bonus-positive">+15</span> Dexterity
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+80 <span class="bonus-to">to</span> +345</span> Spell Damage<br>
+      <span class="bonus-positive">+74 <span class="bonus-to">to</span> +319</span> Spell Damage<br>
       <span class="bonus-negative">-39 <span class="bonus-to-negative">to</span> -21/5s</span> Mana Regen<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20/3s</span> Mana Steal<br>
-      <span class="bonus-negative">-6 <span class="bonus-to-negative">to</span> -26</span> Dash Cost<br>
-      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Exploding<br>
-      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Soul Point Regen
+      <span class="bonus-positive">-6 <span class="bonus-to">to</span> -26</span> Dash Cost<br>
+      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Exploding
     </p>
     <p class="powder-rarity">
       [4] Powder slots<br>
@@ -2458,7 +2469,49 @@ hm有发挥空间，但是真的有人玩hm吗
 + 我原本有很多话要说 但我忘了
 
 + 这东西带的50exploding可以让sveil爽到蛇
+:::details 评论区
 
+:::
+
+### Hanafubuki
+
+<div class="item-window">
+  <img src="https://cdn.wynncraft.com/nextgen/itemguide/icons/359_13.webp" alt="Weathered" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Hanafubuki</span><br>
+      <span class="item-attribute">Super Fast Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage: 160-220</span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">817</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Assassin/Ninja<br>
+      Combat Lv. Min: 102<br>
+      Intelligence Min: 65<br>
+      Agility Min: 85
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+15</span> Strength
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+77 <span class="bonus-to">to</span> +333%</span>  Elemental Damage<br>
+      <span class="bonus-negative">+33 <span class="bonus-to-negative">to</span> +18%</span> Multihit Cost<br>
+      <span class="bonus-negative">+20 <span class="bonus-to-negative">to</span> +11%</span> Smoke Bomb Cost<br>
+      <span class="bonus-positive">+1 <span class="bonus-to">to</span> +4</span> Jump Height<br>
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Earth Defence<br>
+      <span class="major-id-name">+Efflorescence:</span> <span class="major-id-desc"> Jasmine Bloom deals ✤15% and ✤✦❉✹❋15% at the cost of 6 blocks of vertical range. Swan Dive with a maximum size Jasmine Bloom deals ✤90% and ✤✦❉✹❋30%.</span>
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+:::details 评论区
+
+:::
 ## 萨满
 
 ### Aftershock
