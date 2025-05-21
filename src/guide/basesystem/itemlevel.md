@@ -13,9 +13,7 @@ icon: dice-d20
 
 建议安装wynntils这个模组，因为可以查看词条的鉴定度，非常方便。先以武器为例：
 
-![](/assets/img/id1.jpg =400x)
-
-<div class="item-window">
+<div class="item-window1">
   <div class="item-details">
     <p class="bigsize">
       <span class="rarity-bigsize"><tip name="物品名称">Aftershock</tip></span> <font color=yellow><tip name="总鉴定度">[69.1%]</tip></font><br>
@@ -31,82 +29,29 @@ icon: dice-d20
         <span class="earth">- </span>Radius: 6.5 blocks<br></tip>
     </p>
     <p class="bigsize">
-      Class Req: Shaman/Skyseer<br>
+      <tip name="装备需求">Class Req: Shaman/Skyseer<br>
       Combat Lv. Min: 77<br>
-      Strength Min: 80
+      Strength Min: 80</tip>
     </p>
     <p class="bigsize">
       <span class="bonus-positive">+20</span> Strength<br>
       <span class="bonus-positive">+20</span> Defence
     </p>
     <p class="bigsize">
-      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14%</span> Spell Damage<br>
-      <span class="bonus-positive">+555 <span class="bonus-to">to</span> +2405</span> Health<br>
-      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -36%</span> Uproot Cost<br>
-      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Damage<br>
-      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Defence
+    <tip name="装备词条"><span class="bonus-positive">+1869<span class="bonus-to">*</span></span> Health</tip>  <font color=yellow><tip name="词条鉴定度">[71.0%]</tip></font><br><br>
+      <tip name="装备词条"><span class="bonus-positive">+20%</span> Earth Defence</tip>  <font color=yellow><tip name="词条鉴定度">[70.0%]</tip></font><br><br>
+      <tip name="装备词条"><span class="bonus-positive">+15 </span> Earth Damage </tip>  <font color=orange><tip name="词条鉴定度">[45.0%]</tip></font><br>
+      <tip name="装备词条"><span class="bonus-negative">-18%</span> Spell Damage</tip>  <font color=yellow><tip name="词条鉴定度">[66.6%]</tip></font><br><br>
+      <tip name="装备词条"><span class="bonus-positive">-34%<span class="bonus-to">*</span></span> Uproot Cost</tip>  <font color=54FC54><tip name="词条鉴定度">[92.8%]</tip></font><br>
     </p>
     <p class="bigsize">
-      [4] Powder slots<br>
-      <span class="rarity-bigsize">Mythic Item</span>
+      <tip name="粉末">[4/4] Powder slots [<span class="earth">❋ ❋ ❋ ❋</span>]</tip><br>
+      <tip name="装备品质"><span class="rarity-bigsize">Mythic Item [3]</span></tip>
     </p>
   </div>
 </div>
 
-+ ①：武器的名称，右侧百分比为Wynntils的功能，代表武器的总鉴定度
-:::tip
-物品名称的颜色与物品品质有关
-:::
-+ ②：武器的原始攻速(可被攻速词条影响)
-:::tip
-每级的攻击间隔如下:
-Super Fast: 4.3
-Very Fast: 3.1
-Fast: 2.5
-Normal: 2.05
-Slow: 1.5
-Very Slow: 0.83
-Super Slow: 0.51
-:::
-+ ③：代表这个武器的面板，即元素种类、攻击力以及折算后的平均输出(DPS——Damage Per Second)
-:::tip
-绝大部分武器在原始形态都持有Neutral Damage，即中性伤害
-中性伤害可以被粉末转化为对应的元素伤害
-:::
-+ ④：武器需求，一般包括职业需求、等级需求以及属性点需求。部分武器还会有任务需求，即完成对应任务才能使用
-:::tip 关于装备需求的解释
-Class Req: 职业需求，一般只出现在武器上
 
-Combat Lv. Min: 等级需求，只看战斗等级
-
-Str/Dex/Int/Def/Agi Min: 属性点需求，你在指南针内的加点与**装备提供**的属性点总和需不小于这个数值
-
-Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以装备/使用
-
-:::
-+ ⑤：武器词条，最关键的部分。这些词条的数值会被鉴定所影响，在安装了wynntils模组后，按住shift则可以看到这些词条的浮动范围。
-
-当出现一颗星(x)时，代表这个词条的鉴定度为70%及以上
-
-当出现两颗星(xx)时，代表这个词条的鉴定度为95%及以上
-
-当出现三颗星(xxx)时，代表这个词条的鉴定度为满值
-
-注意，满值不一定为三颗星(例如区间过小的情况，一颗星也有可能满值)，但三颗星一定是满值
-
-:::tip 关于词条作用
-可以看看[这一章](/guide/identification.html)
-:::
-+ ⑥：武器粉槽，代表这个武器至多能装备多少个粉末
-:::tip 关于粉末系统
-可以看看[这一章](/guide/basesystem/powder.html)
-:::
-+ ⑦：武器的品质，右侧的数字为鉴定费用
-:::tip
-在重新鉴定后，品质右侧将会出现数字，代表这件装备被重新鉴定了几次
-:::
-在武器最下方一般还会有介绍，讲述了该件装备/武器的历史
-~~萨满武器没有介绍~~
 
 对于装备而言就不过多占篇幅介绍了，区别就在装备一般会有血量属性和元素防御属性，很好理解
 
@@ -173,19 +118,19 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
 
 
 <style>
-.item-window {
+.item-window1 {
   border: 2px solid #9400D3;
   background-color: #1a1a1a;
   color: #fff;
   padding: 10px;
   font-size: 12px;
-  width: 300px;
+  width: 400px;
   font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 
 .item-icon {
   width: 50px;
-  height: 50px;
+  height: 0px;
   display: block;
   margin: 0 auto;
 }

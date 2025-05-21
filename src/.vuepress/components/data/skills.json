@@ -1059,7 +1059,7 @@
     "name": "奥术转换",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>奥术转换</b><br>(Arcane Transfer)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>每命中一个敌人，将为<font color=\"aqua\">法力储备</font>增加<font color=\"white\"> 5 </font>点法力      <br/><br/><u>治疗</u>现在不再恢复生命，而是会将<font color=\"aqua\">法力储备</font>中的所有法力转换为可用的法力      <br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><font color=\"aqua\">法力储备</font>的基础上限为60，后续技能点可以扩充</font>"
+    "description": "<font color=\"FF5555\"><b>奥术转换</b><br>(Arcane Transfer)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>与<u>传送斩击</u>每命中一个敌人，将为<font color=\"aqua\">法力储备</font>增加<font color=\"white\"> 13 </font>点法力。当<u>雷暴</u>生效时，从<u>陨石</u>获取的<font color=\"aqua\">法力储备</font>减少至<font color=\"white\"> 4 </font>点<br/><br/><u>治疗</u>现在不再恢复生命，而是会将<font color=\"aqua\">法力储备</font>中的所有法力转换为可用的法力      <br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><font color=\"aqua\">法力储备</font>的基础上限为60，后续技能点可以扩充</font>"
   },
   "Ophanim": {
     "name": "座天使",
@@ -1227,7 +1227,7 @@
     "name": "意念陨石",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>意念陨石</b><br>(Psychokinesis)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>改为从自身抛出而非从天上落下      <br/><br/>攻击范围：</font>+20格      <br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>意念陨石</u>本质上是将<u>陨石</u>变为远程抛射，而不是原来的延迟伤害，这意味着你可以在接近怪物时更快命中怪物，并且将更好命中具有巨大碰撞箱的怪物   </font>"
+    "description": "<font color=\"FF55FF\"><b>意念陨石</b><br>(Psychokinesis)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>改为从自身抛出而非从天上落下      <br/><br/>射程：</font>+18格      <br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>意念陨石</u>本质上是将<u>陨石</u>变为远程抛射，而不是原来的延迟伤害，这意味着你可以在接近怪物时更快命中怪物，并且将更好命中具有巨大碰撞箱的怪物   </font>"
   },
   "Cheaper_Ice_Snake_II": {
     "name": "冰蛇减耗 II",
@@ -1263,7 +1263,7 @@
     "name": "蛇疾如风",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>蛇疾如风</b><br>(Gust)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>命中敌人时，叠加一层<font color=\"aqua\">风印(winded)</font>，同时造成更多伤害</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>蛇疾如风</u>与<u>普通攻击</u>的<font color=\"aqua\">风印(winded)</font>堆叠冷却是一起计算的。<br/><br/>被<u>蛇巢</u>的多条蛇命中的敌人仅计算1次额外伤害和1层<font color=\"aqua\">风印(winded)</font>。</font>"
+    "description": "<font color=\"ORANGE\"><b>蛇疾如风</b><br>(Gust)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>命中敌人时，叠加三层<font color=\"aqua\">风印(winded)</font>，同时造成更多伤害</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>蛇疾如风</u>与<u>普通攻击</u>的<font color=\"aqua\">风印(winded)</font>堆叠冷却是一起计算的。<br/><br/>被<u>蛇巢</u>的多条蛇命中的敌人仅计算1次额外伤害和1层<font color=\"aqua\">风印(winded)</font>。</font>"
   },
   "Augury": {
     "name": "先兆",
@@ -1287,7 +1287,7 @@
     "name": "奥术之力",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>奥术之力</b><br>(Arcane Power)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>现在会在每次命中敌人时额外向<font color=\"aqua\">法力储备</font>增加<font color=\"FFFFFF\"> 12 </font>点法力</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"ORANGE\"><b>奥术之力</b><br>(Arcane Power)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>与<u>传送斩击</u>现在会在每次命中敌人时额外向<font color=\"aqua\">法力储备</font>增加<font color=\"FFFFFF\"> 8 </font>点法力。当<u>雷暴</u>生效时，<u>陨石</u>仅增加<font color=\"FFFFFF\"> 2 </font>点法力<br/><br/><u>奥术回复</u>的回蓝时间减少<font color=white> 0.1 </font>秒。<br><br></font><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "More_Winded_II": {
     "name": "风印涌动 II",
