@@ -178,7 +178,7 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
   background-color: #1a1a1a;
   color: #fff;
   padding: 10px;
-  font-size: 20px;
+  font-size: 12px;
   width: 300px;
   font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
@@ -248,7 +248,7 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
 }
 
 .requirements, .attribute-bonus, .bonuses, .powder,.powder-rarity {
-  font-size: 20px;
+  font-size: 12px;
   color: rgb(170, 170, 170);
 }
 
