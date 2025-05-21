@@ -17,38 +17,38 @@ icon: dice-d20
 
 <div class="item-window">
   <div class="item-details">
-    <p class="bonuses">
-      <span class="rarity"><tip name="物品名称">Aftershock</tip></span> <font color=yellow><tip name="总鉴定度">[69.1%]</tip></font><br>
+    <p class="bigsize">
+      <span class="rarity-bigsize"><tip name="物品名称">Aftershock</tip></span> <font color=yellow><tip name="总鉴定度">[69.1%]</tip></font><br>
       <tip name="攻击速度">Super Slow Attack Speed</tip>
     </p>
-    <p class="damage">
+    <p class="bigsize">
       <tip name="DPS"><span><span class="earth">❋ Earth</span> <span class="gray">Damage: 1366-1566</span></span><br>
       <span><span class="average-dps">Average DPS:</span> <span class="gray">748</span></span></tip>
     </p>
-    <p class="powder">
+    <p class="bigsize">
         <tip name="粉末技能"><span class="earth">❋ Quake V<br></span>
         <span class="earth">- </span>Earth Damage: 400% <br>
         <span class="earth">- </span>Radius: 6.5 blocks<br></tip>
     </p>
-    <p class="requirements">
+    <p class="bigsize">
       Class Req: Shaman/Skyseer<br>
       Combat Lv. Min: 77<br>
       Strength Min: 80
     </p>
-    <p class="attribute-bonus">
+    <p class="bigsize">
       <span class="bonus-positive">+20</span> Strength<br>
       <span class="bonus-positive">+20</span> Defence
     </p>
-    <p class="bonuses">
+    <p class="bigsize">
       <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14%</span> Spell Damage<br>
       <span class="bonus-positive">+555 <span class="bonus-to">to</span> +2405</span> Health<br>
       <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -36%</span> Uproot Cost<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Damage<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Defence
     </p>
-    <p class="powder-rarity">
+    <p class="bigsize">
       [4] Powder slots<br>
-      <span class="rarity">Mythic Item</span>
+      <span class="rarity-bigsize">Mythic Item</span>
     </p>
   </div>
 </div>
@@ -201,13 +201,18 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
 }
 
 .item-attribute {
-  font-size: 20px;
+  font-size: 12px;
   margin-top: 5px;
   color: rgb(170, 170, 170);
 }
 
 .damage {
+  font-size: 12px;
+  color: rgb(170, 170, 170);
+}
+.bigsize {
   font-size: 20px;
+  color: rgb(170, 170, 170);
 }
 
 .health {
@@ -292,5 +297,10 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
   color: rgb(164, 57, 192);
   text-align: left;
   font-size: 12px;
+}
+.rarity-bigsize {
+  color: rgb(164, 57, 192);
+  text-align: left;
+  font-size: 20px;
 }
 </style>
