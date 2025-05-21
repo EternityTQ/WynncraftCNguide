@@ -9,7 +9,7 @@ icon: magnifying-glass
 
 ## 如何鉴定？
 
-![](/assets/img/id3.jpg)
+![](/assets/img/id3.png)
 
 找到鉴定师，直接将你希望鉴定的物品摆上去，点击√即可！
 

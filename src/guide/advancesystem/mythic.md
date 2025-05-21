@@ -1487,8 +1487,8 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
       <span class="bonus-positive">+30</span> Agility
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+33 <span class="bonus-to">to</span> +144</span> Main Attack Damage<br>
-      <span class="bonus-positive">+33 <span class="bonus-to">to</span> +144</span> Spell Damage<br>
+      <span class="bonus-positive">+60 <span class="bonus-to">to</span> +260</span> Main Attack Damage<br>
+      <span class="bonus-positive">+60 <span class="bonus-to">to</span> +260</span> Spell Damage<br>
       <span class="bonus-positive">+300 <span class="bonus-to">to</span> +1300</span> Health<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/5s</span> Mana Regen<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Walk Speed
@@ -1506,19 +1506,25 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 要伤害有坦度要续航有坦度要机动性有坦度
 
-彩虹神话的强度担当，属于是五角星选手 但是往哪个方向去深挖都有潜力，比如水头自由 db自由 pande自由 裹尸布自由
+均衡到连输出都没有，甚至不能玩trapper，无论怎么玩都很弱
 
-他就和他的属性一样，非常全面，咋玩都不弱，自由的面板决定了自由的玩法流派
-
-缺点是彩虹圣所没有被加强
+彩虹圣所加强了，但是自由烂完了
 
 :::details 评论区
-
-:::
-
 + 最大的削弱是失去了1-1的neutral伤害
 
-+ 很好的freedom，新手最推荐弓，但是很贵。
++ 冒充archer武器
+
++ 彩虹烂完了 评价不了
+
++ 吃尽了彩虹削弱红利 !!《红利》!!
+
++ changelog加了几十点rawspell，巨大增强👍🏻
+
++ 虽然不想在pf里看到，但鉴于目前阿彻的平均水平到也能接受
+:::
+
+
 
 ### Grandmother
 
@@ -1561,20 +1567,34 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 别名：奶奶/gma
 
-+ gma的来源是Grandma
+> gma的来源是Grandma
 
 旧版本的神，一血奇迹选手
 
 看得出想契合greedy所以塞了lb
 
-这就是你李奶奶的地神话
+这就是你李奶奶的地神话，平民核弹
+
+2.1初期风光无二 trapper削弱跌下王座✘
+
+目前玩Trapper还是有点强度，虽然就一点。。
+
+大伙印象里都觉得这东西还能玩，但是真正玩过的已经放弃了
+
+:::details 评论区
++ gma合法萝莉
 
 + gma 拥有经验与战利品加成，手持他可以让你在lr开箱子获得更多奖励，还可以让你更快的到达106级！
 
-+ 坏消息 输出没高多少
-好消息 仍然够用
-:::details 评论区
++ 莫名其妙的给trapper来了一刀大的
 
++ 血月时刻会扣血很合理吧
+
++ 阿彻版warp，但是移速在哪
+
++ gma的agi点数疑似比所有气神话都高
+
++ 奶奶还是老了
 :::
 
 
@@ -1604,7 +1624,7 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Health Regen<br>
       <span class="bonus-positive">+104 <span class="bonus-to">to</span> +449</span> Health Regen<br>
       <span class="bonus-positive">+900 <span class="bonus-to">to</span> +3900</span> Health<br>
-      <span class="bonus-negative">-10 <span class="bonus-to-negative">to</span> -45%</span> Arrow Shield Cost<br>
+      <span class="bonus-positive">-10 <span class="bonus-to">to</span> -45%</span> Arrow Shield Cost<br>
       <span class="bonus-positive">+30 <span class="bonus-to">to</span> +130%</span> Fire Defence<br>
       <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Air Defence<br>
       <span class="major-id-name">+Heart of the Pack:</span> <span class="major-id-desc">Nearby players gain 100% of the health you gain from Health Regen and Life Steal.</span>
@@ -1618,11 +1638,7 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 别名：火神
 
-+ 这是哪位
-
-+ 查无此人
-
-价格很高但是没见过人用过的武器
+没见过人用过的武器
 
 爆蛋流旧神之一，但是现在是个摆设
 
@@ -1630,11 +1646,31 @@ Az在74级时拥有极其优秀的面板，并且提供了一定的经验加成
 
 但问题是弓手是个输出位而不是抗伤位
 
+之前有一次削弱莫名其妙把Ignis小的可怜的火伤词条给删了，还顺便削了血量，CT你要几把干啥？？？
+
+:::details 评论区
+
++ 这是哪位
+
++ 查无此人
+  
++ 缅怀-hpr major的第一天
+  
 + 你好，你是无烟煤吗？
 
 + 全游戏唯一指定无限血瓶
-+ :::details 评论区
 
++ 火神话gang之耻
+
++ 只能在notg自理能玩的东西
+
++ 得了一种看到ignis就想笑的病
+
++ 阿彻：你的意思是，要我来奶？
+
++ 奶奶的小跟班
+
++ 没有体验过ewf的Wynner人生是不完整的
 :::
 
 ### Divzer
@@ -1689,6 +1725,9 @@ tna常驻嘉宾
 
 现有版本里伤害依旧数一数二的神话弓
 
+boltslinger的拯救者，服务器的撕碎者，玩家电脑的破坏者，高base和牺牲生存换来的爆发输出，打得非常快，死的也非常快，你游非常无脑的一把武器，ehp比自身hp还低是什么垃圾武器啊，比别人多一个gambit是为什么呢，会玩的它就很厉害，不会玩的在四个room都死一遍
+
+:::details 评论区
 + 什么时候加强一下dz
 
 + 脆皮鸡
@@ -1699,15 +1738,21 @@ tna常驻嘉宾
 
 + tmd老头龙吼了 我不玩了
 
-+ 此武器带有隐藏的Major id 消耗2点灵魂点进入死亡状态
++ 此武器带有隐藏的Major id，进入BOSS战自动进入观众席
 
 + 此物品带有隐藏属性，被怪物碰到能立刻帮你回出生点
 
 + 意义不明的115+37的dex设计，完全溢出
 
 + super fast加上+1 tier，带来更加惊艳的平A体验
-:::details 评论区
 
++ 玻璃大炮，但是小炮
+
++ 跟cata同病相怜的武器 !!但是cata比dz还肉!!
+
++ 死亡后聊天栏自动发送lag
+
++ dz的最大加强：灵魂点系统删了
 :::
 
 
@@ -1751,18 +1796,19 @@ tna常驻嘉宾
 
 别名：春天/弹簧/喷泉
 
-最被低估的神话弓 没有之一
+最被高估的神话弓 没有之一
 
 以降低大量暴击几率和电伤害为代价换来的极高的技能循环
 
 词条上伤害+mr的设计以及水神话的存在使得spring这个武器本身循环舒适度就十分之高
 
-旧时代自制水最大的儿子，如今在给咸牛不停打钱削弱自制水之后，终于熬出头来
+旧时代自制水最大的儿子，如今在给咸牛不停打钱削弱自制水之后，终于熬出头来，~~然后跟自制水一起下去了~~
 
-目前搭配适宜的build以后伤害直追地福泽(吗？)
 
 最适合新人的一把神话弓，价格也很便宜
 
+
+:::details 评论区
 + byd哪个策划为了抬spring把弓手的爆伤砍没了，什么地位不用多说了吧
 
 + 曾经的spring有多牛逼 现在的它就有多拉胯
@@ -1774,8 +1820,16 @@ tna常驻嘉宾
 + spring优势区间:不用修
 
 + 莫名其妙的虚弱词条，变相加生存，但我要的是生存吗
-:::details 评论区
 
++ sbring
+
++ 同样是水神话，跟idol比一比，算了没法比
+
++ 做完build换成legend弓，发现伤害更高了
+
++ 现在伤害确实可以追一下dz，因为dz伤害变低了
+
++ ehp也可以追一下ez了👍
 :::
 
 ### Stratiformis
@@ -1819,26 +1873,36 @@ tna常驻嘉宾
 
 99ws享受者，只要你跑的够快，怪物就打不到你
 
-版本红利享受者，砍雷伤抬气伤这一不明操作中唯一获利者
-
-+ 也是新lr受害者，连着三周进池子直接把价格橄榄了
-
 极高的面板但是多少有点可惜的伤害
 
 日常简直不要太舒服，搭配合适的build你就是永利跑男
 
 从1.16一直存活到1.20，非常长寿的神话弓
 
-2.0初版第一个能单挑greg的神话武器
-
 旧lr的真神 拥有超高的ws
 
+当前版本非常尴尬，base一削再削，raid也就能玩玩弱智trapper了，队友死了还能兜着走
+
+>但是队友怎么死的
+
+:::details 评论区
 + 可是哥们 它加100移速诶
+
++ 众所周知移速=生存
 
 + 如果属性太差会变成大杯gale's force
 
-:::details 评论区
++ 兄弟你词条呢，我的意思是你的伤害哪去了
 
++ 神秘前跳拉屎人
+
++ gogogo出发咯
+
++ 编者的亲女儿，你们不许黑她
+
++ 队友死了输出就来了
+
++ 前跳飞天拉屎陷阱师是你最后的荣光了
 :::
 
 ### Epoch
@@ -1880,13 +1944,23 @@ tna常驻嘉宾
 </div>
 
 
-别名：纪元/一炮吃
+别名：纪元/一炮吃/元神
 
-+ noob gun
+> noob gun
 
 不需要脑子的武器，搭配上专用的build，只要右键按死，一切都会结束的
 
 进行了一点算是增强的改动，但是对TS流基本没有影响。。
+
+当前版本非常尴尬，base和词条一砍再砍，太几把搞笑了兄弟
+
+ e p o g ，tcc的轮椅，其他raid听天由命
+
+>轮椅在哪，结果还不是buff给的安全感
+
+:::details 评论区
+
++ 我操，元
 
 + 不是你秒怪就是怪秒你
 
@@ -1894,19 +1968,13 @@ tna常驻嘉宾
 
 + 大号无烟煤
 
-+ 我tna就靠这个免队友喷了
-
 + “哥们带我tna”
-“哥们你操作好帅啊”
-“哥们为啥你伤害没我高”
++ “哥们你操作好帅啊”
++ “哥们为啥你伤害没我高”
 
 + 曾经十字军epoch让所有top raider哀嚎半个月
 
-+ 真正把wynncraft变成了click game的武器
-
 + 为了削弱epoch，把弓手一整个右路全毁了
-
-+ 美国著名五星上将麦克阿瑟曾评价道 “当我在tna看到epoch 我就知道我多余了”
 
 + 有一种看见super slow就起星域的病
 
@@ -1916,8 +1984,13 @@ tna常驻嘉宾
 
 + 你改个escape cost都比给那两个cost好
 
-:::details 评论区
++ 弦有三种选择，而元神有三种苦难：没ehp没续航没focus
 
++ 观者止步
+
++ epoch进了raid就知道自己是多余的
+
++ 有伤害的前提是队友全死
 :::
 
 ### Labyrinth
@@ -1957,10 +2030,36 @@ tna常驻嘉宾
   </div>
 </div>
 
+别名：Laby
 
+弓手一削再削的罪魁祸首，你一路看下来被削的弓全都是它干的👆
+
+打桩王 但是输出环境很看队友实力
+
+独一档的武器，玩pandemonium labyrinth直接在world event里挂机，拉屎拉依托输出可观，boss跑来跑去0输出
+
+但是他妈的为什么这么贵？？？？？
 
 :::details 评论区
++ 我的天呐迷宫大人
 
++  那一晚，火神和老奶奶喝醉了，他们一个人丢了伤害，一个人丢了面板，创造了迷宫小姐
+  
++  价格够买前面所有武器
+
++ 这才是真正的目光呆滞
+
++ 相比之下我们epoch都要吃操作多了
+
++ 操作哪里简单了，这么多版本一直都是这个操作好不好，挂机什么挂机，我在🦌
+
++ laby打金服，一键999
+
++ 刻意的游戏设计
+
++ 价值一页的tcc tna摆烂证
+
++ 所以蜡笔什么时候削
 :::
 ## 刺客
 
@@ -2012,6 +2111,9 @@ slider以1ws的劣势惜败archangel
 
 拿来练级也不合适，因为刺客弱
 
+:::details 评论区
++ 我去 hero
+
 + 刺客从战士那借的武器 忘记还了
 
 + 长得像hero，应该挺帅，可惜是刺客武器
@@ -2021,8 +2123,12 @@ slider以1ws的劣势惜败archangel
 + 加的移速很多
 
 + 等级需求：69
-:::details 评论区
 
++ 666这个人开桂了（163%main range）
+  
++ 刺客的经济型hero
+
++ 走好自己的路就行了，为什么加了个melee range词条，你是其他武器的移速副手吗
 :::
 
 ### Nullification
@@ -2068,30 +2174,40 @@ slider以1ws的劣势惜败archangel
     </p>
   </div>
 </div>
-:::details 评论区
 
-:::
 
 别名：null
 
-+ 哥们你有这么多幽默词条是有什么心事吗
+> 哥们你有这么多幽默词条是有什么心事吗
 
 好看，也仅仅是好看
 
-+ 和collapse凑一对吧 锁死
 
-+ 设计师觉得自己的元素防御很厉害，于是他做了这把武器
+:::details 评论区
++ 和collapse凑一对吧 锁死
 
 + 很好的rare武器
 
-+ 有赌博性的武器（指roll词条）
-
 + nulli如果给+120 def点那还是可以的
-
-+ 实在没什么好锐评的
 
 + 适合搭配煌黑龙套装
 
++ 招笑
+
++ 仙人掌武器
+
++ 比以前好roll了
+
++ 还是改词条前的词条看着比较炫酷
+
++ majorid的reflection真的有用吗
+
++ 惊天大乌龟,绝世反伤甲
+
++ 专门为这把武器做了一套新套装
+
++ BYD评到这的时候冷场了
+:::
 ### Weathered
 
 <div class="item-window">
@@ -2143,11 +2259,25 @@ slider以1ws的劣势惜败archangel
 
 所以他中规中矩没啥亮点。
 
-+ byd最近有人在赌风刀，把unid都扫完了，贵麻了
-
 风刀自身没啥削弱，但是风刀build里需要的其他装备都被削了个遍
 :::details 评论区
++ 天气之子
 
++ acrobat武器给个shade ID，你要几把干啥
+
++ 曾经把老外snipe到昏头的武器，兄弟你箱子没了
+
++ 刺客没有了风刀就像大海里没有双氧水
+
++ 咋配都是置换武器伤害更高
+
++ 冒充money fucked
+
++ 跟史有一样的模型 也跟史一样
+
++ 草钱武器的亲兄弟,跟他兄弟一样没用
+
++ 伤害前三的刺客武器
 :::
 ### Grimtrap
 
@@ -2193,15 +2323,25 @@ slider以1ws的劣势惜败archangel
 
 很酷，但是刺客武器
 
-+ 跟大锤换一下职业需求就好了
-
-不知道为什么没有cherry bomb的major
-
 进能打spell 退能打heavy melee
 
-+ 一拳超人一刀4m的含金量听说过没
-:::details 评论区
 
+:::details 评论区
++ 跟大锤换一下职业需求就好了
+
++ 一拳超人一刀4m的含金量听说过没
+
++ 再见了,所有的樱桃炸弹
+
++ 一刀砍死一个玩法
+
++ 比风刀好点，起码辉煌过
+
++ 比上一个强，但是比上一个弱不止一点
+
++ ct为了Rebalance给绿拳加了很多毒伤来代替👍🏻
+
++ 摔炮流风光无限 结果被一刀砍完又躺回去了
 :::
 ### Cataclysm
 
@@ -2242,23 +2382,28 @@ slider以1ws的劣势惜败archangel
 
 别名：cata
 
-+ 扣这么多血，垃圾
-
-+ 献祭队友换取伤害
-
-+ 有一种数值的美
-
 献祭整个刺客技能树的强度换来的强度，朴实无华的强，无需解释
 
 **神话品质的，传说中的，万众瞩目的，公会战战唯一指定输出的，不祥的，数据完全不符合游戏内其他武器设计曲线的，总之就是非常超模的**
 
 你游输出的顶点，divzer只是虚假的依靠了弓箭手的优势
 
-+ 使用divzer享受ehp没有hp高的配装 
-
 会玩和不会玩是两把武器
 
 不会玩滚键盘也能打一波爆发 打个2-3m还是轻轻松松
+
+水刀小姐的指甲刀+公会战被迫指定的dps（实际上被某触手大人吊着打）+猫爪玩具
+
+:::details meme
+![](/assets/img/cat.jpg =200x)
+:::
+
+:::details 评论区
++ 扣这么多血，垃圾
+
++ 献祭队友换取伤害
+
++ 有一种数值的美、
 
 + 建议删除cata，这样就有理由逼着官方加强刺客了
 
@@ -2270,13 +2415,15 @@ slider以1ws的劣势惜败archangel
 
 + 有一种没玩过游戏不知道到底谁强只好给面板来一刀的美感
 
++ 猫爪可爱捏
 
-:::details meme
-![](/assets/img/cat.jpg =200x)
-:::
++ 垃圾武器都别用让我一个人爽
 
-:::details 评论区
++ 只要Cataclysm开始输出，那么一切都会好起来的
 
++ 不太纯粹的数值依然是数值
+
++ 硕果仅存的dps 武器
 :::
 ### Nirvana
 
@@ -2324,20 +2471,33 @@ slider以1ws的劣势惜败archangel
 
 扣血并不掩盖水刀的优秀设计，作为水神话来说，有这么一个强力的MajorID非常的舒适
 
+
+而且最近水刀价格几乎涨到了**最高点**，嗯
+
+版本meta之子，tcc的真神，接近1m的dps，能在tcc摧毁一切
+
+目前刺客玩的最舒适的神话之一
+
+刺客最后的遮羞布+依旧是最舒服的武器+golem的搓澡工+水蚊子人间体
+
+:::details 评论区
 + nirvana o na na
 
 + mr往死里堆整个acrobat滚鼠标飞
 
 + 转起来了
 
-尽管如此，最近水刀价格几乎跌到了最低点，嗯
-
-+ 哥们你怎么就死了
++ 哥们你怎么就这么贵了
 
 + nirvana，名为涅槃，结果是水神话
 
-:::details 评论区
++ 石巨人我给你踩背来喽
 
++ 比cata还贵你药剂吧干啥
+
++ cata：《你是一把不错的神话，配装上也很多选择》《我会陪水刀东山再起》《部分神话缺乏职业道德》
+
++ 水神话价格之首
 :::
 
 ### Inferno
@@ -2382,30 +2542,32 @@ slider以1ws的劣势惜败archangel
 
 与其他火神话设计不同，inferno增加了血量，但是扣除了hpr%
 
-刺客最肉的神话武器，要坦度没伤害，要伤害没伤害，要续航没伤害
+刺客最肉的神话武器，现版本spell inferno还挺舒适的
 
 hm有发挥空间，但是真的有人玩hm吗
 
 最大的痛点是没有续航
 
+泰坦头指定亲儿子+双形态火烧玩具+你也不知道为什么hm玩家觉得火伤b用没有+仅存的地粉神话享受者之一+2.1的指定好大儿
+
+
+:::details 评论区
 + 拿在手里感觉会烫手
 
 + 2.0查无此神话
 
-+ 当你拿到96-100级刺客神话武器盒子的时候
-你无法判断里面到底是inferno还是nirvana
-最终到你鉴定这个盒子的时候
-它一定会坍缩到inferno上
-
-+ 幽默-1cost
+> 当你拿到96-100级刺客神话武器盒子的时候
+> 你无法判断里面到底是inferno还是nirvana
+> 最终到你鉴定这个盒子的时候
+> 它一定会坍缩到inferno上
 
 + inferno最大的痛点在于当你尝试为inferno配装的时候，一定会落到雷火上
 
-+ inferno要不还是重做回去吧
++ 一刀一刀燃烧刀
 
++ 扣1送地狱火
 
-:::details 评论区
-
++ 玩着玩着你就会怀疑他的属性
 :::
 ### Oblivion
 
@@ -2448,19 +2610,23 @@ hm有发挥空间，但是真的有人玩hm吗
 
 别名：Obli/遗忘
 
-+ 和名字一样，已经遗忘了
+
 
 刺客真正的彩虹神话，指模型
 
 有效面板1000左右 不低 但是和cata没法比
 
-+ 对得起价格
+
+:::details 评论区
++ 如今的一刀7m
+
++ 查无此人
 
 + 如果让我利用50%的生存能力换取两倍的伤害，那我需要考虑一下——出自某不愿透露姓名的玩家对grimtrap和oblivion二者的对比
 
 + 但如果用90%的生存换十倍的伤害，那可太妙了——后者指的是cata
 
-+ 原本贵的一批，因为可以打melee，还被人用来打wars了
++ 现在怎么这么贵了
 
 + wynncraft玩家对于melee的热爱...
 
@@ -2469,8 +2635,12 @@ hm有发挥空间，但是真的有人玩hm吗
 + 我原本有很多话要说 但我忘了
 
 + 这东西带的50exploding可以让sveil爽到蛇
-:::details 评论区
+  
++ 和名字一样，已经遗忘了
+  
++ 当年lucy玩的东西过了一年多才让世人想起来
 
++ 还是猫爪的指定玩具
 :::
 
 ### Hanafubuki
@@ -2509,7 +2679,32 @@ hm有发挥空间，但是真的有人玩hm吗
     </p>
   </div>
 </div>
+
+别名：花吹雪
+
+![](/assets/img/moneyfucker.jpg)
+
+很大胆的设计 但是给了一个错误的分支👍
+
+一个算法从宇宙机器人变成赛尔号的乐子
+
+很好的设计但没脑子的ct
+
+树的问题导致她真的只是个冰冻美人
+
+anni老师的指甲刀
+
 :::details 评论区
++ 操钱刀
+
++ MONEY FUCKER
+
++ tga年度最佳神话
+
+laby：谁是最强黑神话？
+hana：别别别
+
++ 名字强度大于武器
 
 :::
 ## 萨满
@@ -2963,6 +3158,46 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 :::details meme
 ![](/assets/img/immo.jpg =400x)
 :::
+### Resonance
+
+<div class="item-window">
+  <img src="/assets/img/reson.webp" alt="Immolation" class="item-icon">
+  <div class="item-details">
+    <p class="item-header">
+      <span class="item-name">Resonance</span><br>
+      <span class="item-attribute">Normal Attack Speed</span>
+    </p>
+    <p class="damage">
+      <span class="neutral-damage">✤ Neutral Damage:</span> <span class="gray">30-40</span><br>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 190-200</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 170-220</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">1088</span></span>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 104<br>
+      Strength Min: 75<br>
+      Intelligence Min: 75
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+25</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-positive">+8 <span class="bonus-to">to</span> +36%</span> Elemental Spell Damage<br>
+      <span class="bonus-positive">+18 <span class="bonus-to">to</span> +78%</span> Health Regen<br>
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20/5s</span> Mana Regen<br>
+      <span class="bonus-positive">-6 <span class="bonus-to">to</span> -25%</span> Uproot Cost<br>
+      <span class="bonus-negative">-234 <span class="bonus-to-negative">to</span> -126%</span> Health Regen<br>
+      <span class="bonus-negative">-650 <span class="bonus-to-negative">to</span> -350%</span> Healing Efficiency
+    </p>
+    <p class="powder-rarity">
+      [3] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
+
 ## 装备
 
 ### Crusade Sabatons

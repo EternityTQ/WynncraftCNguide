@@ -1,6 +1,10 @@
 <template>
-  <span class="tip-container" @mouseover="showTooltip" @mousemove="updateTooltipPosition" @mouseleave="hideTooltip"
-    @click.stop="toggleTooltipFixed($event)" style="text-decoration: underline; cursor: pointer;">
+  <span class="tip-container" 
+  :class="{ 'tip-highlight': highlight }"
+  @mouseover="showTooltip" 
+  @mousemove="updateTooltipPosition" 
+  @mouseleave="hideTooltip"
+    @click.stop="toggleTooltipFixed($event)" style="cursor: pointer;">
     <slot></slot>
     <div v-if="tooltipVisible" ref="tooltip" class="tooltip"
       :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }" v-html="tipData.description"></div>
@@ -15,7 +19,11 @@ export default {
     name: {
       type: String,
       required: true
-    }
+    },
+    highlight: {
+      type: Boolean,
+      default: true,
+    },
   },
   data() {
     return {
@@ -147,7 +155,10 @@ export default {
 
 }
 
-.tip-container {
-  color: rgb(0, 85, 255);
+
+.tip-highlight {
+  text-decoration: underline;
+  text-decoration-color: #3399ff;
+  text-underline-offset: 2px;
 }
 </style>

@@ -31,6 +31,21 @@
     },
     "lv42-1":{
         "description": "<img src=\"/assets/img/lv42-4.png\"/>"
+    },
+    "攻击速度":{
+        "description": "这一条为你的平A攻击速度，一共分为7个等级，从快到慢分别为：Super Fast、Very Fast、Fast、Normal、Slow、Very Slow、Super Slow。"
+    },
+    "物品名称":{
+        "description":"这一条为你的物品名称，其中颜色即为品质，品质从常见到稀有分为：<font color=white>白色</font>，<font color=yellow>黄色</font>，<font color=FC54FC>粉色</font>，<font color=aqua>青色</font>，<font color=FF5555>红色</font>，<font color=purple>紫色</font>。此外还有特殊的<font color=54FC54>绿色</font>套装。"
+    },
+    "总鉴定度":{
+        "description":"显示在物品名称右侧的百分比值为这件物品的总鉴定度。这个功能为Wynntils附带，可以方便你判定这件物品的总好坏度，一般来说总鉴定度(简称\"oa\")高于80%时，通常会说这是一件\"好看的装备\"。"
+    },
+    "DPS":{
+        "description":"这一条为武器的dps和伤害元素种类，其中你只需要参考<u>Average DPS</u>这一条即可。绝大多数武器在打粉末之前都会存在<font color=FFAA00>中性伤害</font>，其可以被粉末转换为对应的元素伤害。<br><br>注意：武器的DPS是面板伤害和原始攻速等级计算后得到，你无法通过从装备上提高攻速来提升面板dps。"
+    },
+    "粉末技能":{
+        "description":"这一条为你的粉末技能，当你的装备/武器至少有2个4级及以上的同属性粉末时，即可触发，触发后才会显示在这一栏中。<br><br>武器的释放方式为平A攒条，然后蹲下平A触发；装备的粉末为被动技能。"
     }
 
     

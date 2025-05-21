@@ -18,7 +18,7 @@ icon: scroll
 ---
 \> Speak to Gana at [426, 101, -4829].
 
-跟<NPC>Gana</NPC>谈话<CC>[426 101 -4829]</CC>
+跟<NPC>Gana</NPC>谈话<CC>426 101 -4829<CC>
 
 ![](/assets/img/lv84-1.png)
 
@@ -33,7 +33,7 @@ icon: scroll
 ---
 \> Find Seluc in his camp at [551, 52, -5032].
 
-找到洞里的<NPC>Seluc</NPC><CC>[551 52 -5032]</CC>
+找到洞里的<NPC>Seluc</NPC><CC>551 52 -5032<CC>
 
 >其实只要走到<NPC>Gana</NPC>后面的光圈即可直接传送到他旁边
 
@@ -49,7 +49,7 @@ icon: scroll
 \> Escort Seluc back to Gana.
 
 
-下去对话后，把<NPC>Seluc</NPC>带回去给<NPC>Gana</NPC><CC>[426 101 -4829]</CC>
+下去对话后，把<NPC>Seluc</NPC>带回去给<NPC>Gana</NPC><CC>426 101 -4829<CC>
 
 你可以按文章开头的路线图走。
 
@@ -73,6 +73,11 @@ icon: scroll
 
 ![](/assets/img/lv84-5.png)
 
+:::warning
+这一步开始，如果你离Seluc太远了，他会直接回到这一步的障碍前
+:::
+
+
 ### Step 7 再次信仰之跃
 --- 
 
@@ -85,14 +90,14 @@ icon: scroll
 \> Retrieve the coat Seluc left behind at [486, 32, -4950].
 
 
-继续上山直到触发剧情，然后回<CC>[486 32 -4950]</CC>帮他拿件外套
+继续上山直到触发剧情，然后回<CC>486 32 -4950<CC>帮他拿件外套
 
 ![](/assets/img/lv84-6.png)
 
 ### Step 9 交付任务
 --- 
 
-跟<NPC>Gana</NPC><CC>[426 101 -4829]</CC>谈话
+跟<NPC>Gana</NPC><CC>426 101 -4829<CC>谈话
 
 
 :::tip

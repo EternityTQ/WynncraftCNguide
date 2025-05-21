@@ -15,6 +15,44 @@ icon: dice-d20
 
 ![](/assets/img/id1.jpg =400x)
 
+<div class="item-window">
+  <div class="item-details">
+    <p class="bonuses">
+      <span class="rarity"><tip name="物品名称">Aftershock</tip></span> <font color=yellow><tip name="总鉴定度">[69.1%]</tip></font><br>
+      <tip name="攻击速度">Super Slow Attack Speed</tip>
+    </p>
+    <p class="damage">
+      <tip name="DPS"><span><span class="earth">❋ Earth</span> <span class="gray">Damage: 1366-1566</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">748</span></span></tip>
+    </p>
+    <p class="powder">
+        <tip name="粉末技能"><span class="earth">❋ Quake V<br></span>
+        <span class="earth">- </span>Earth Damage: 400% <br>
+        <span class="earth">- </span>Radius: 6.5 blocks<br></tip>
+    </p>
+    <p class="requirements">
+      Class Req: Shaman/Skyseer<br>
+      Combat Lv. Min: 77<br>
+      Strength Min: 80
+    </p>
+    <p class="attribute-bonus">
+      <span class="bonus-positive">+20</span> Strength<br>
+      <span class="bonus-positive">+20</span> Defence
+    </p>
+    <p class="bonuses">
+      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14%</span> Spell Damage<br>
+      <span class="bonus-positive">+555 <span class="bonus-to">to</span> +2405</span> Health<br>
+      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -36%</span> Uproot Cost<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Damage<br>
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Earth Defence
+    </p>
+    <p class="powder-rarity">
+      [4] Powder slots<br>
+      <span class="rarity">Mythic Item</span>
+    </p>
+  </div>
+</div>
+
 + ①：武器的名称，右侧百分比为Wynntils的功能，代表武器的总鉴定度
 :::tip
 物品名称的颜色与物品品质有关
@@ -132,3 +170,127 @@ Quest Req: 任务需求，通常为任务奖励，需要完成该任务才可以
 
 
 
+
+
+<style>
+.item-window {
+  border: 2px solid #9400D3;
+  background-color: #1a1a1a;
+  color: #fff;
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+  font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+
+.item-icon {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: 0 auto;
+}
+
+.item-header {
+  text-align: center;
+}
+
+.item-name {
+  color: rgb(164, 57, 192);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.item-attribute {
+  font-size: 20px;
+  margin-top: 5px;
+  color: rgb(170, 170, 170);
+}
+
+.damage {
+  font-size: 20px;
+}
+
+.health {
+  color: rgb(170, 0, 0);
+}
+
+
+.neutral-damage {
+  color: rgb(255, 170, 0);
+}
+
+.fire {
+  color: rgb(255, 85, 85);
+}
+
+.water {
+  color: #00FFFF;
+}
+
+.air {
+  color: #FFFFFF;
+}
+
+.thunder {
+  color: #FFFF00;
+}
+
+.earth {
+  color: rgb(0, 170, 0);
+}
+
+.gray {
+  color: rgb(170, 170, 170);
+}
+
+.average-dps {
+  color: rgb(85, 85, 85);
+}
+
+.requirements, .attribute-bonus, .bonuses, .powder,.powder-rarity {
+  font-size: 20px;
+  color: rgb(170, 170, 170);
+}
+
+.requirements {
+  margin-top: 10px;
+}
+
+.bonuses {
+  margin-top: 10px;
+}
+
+.bonus-positive {
+  color: rgb(85, 255, 85);
+}
+
+.bonus-negative {
+  color: rgb(255, 85, 85);
+}
+
+.bonus-to {
+  color: rgb(0, 170, 0);
+}
+
+.bonus-to-negative {
+  color: rgb(170, 0, 0);
+}
+
+.major-id-name {
+  color: #55FFFF;
+}
+
+.major-id-desc {
+  color: #00AAAA;
+}
+
+.powder-rarity {
+  margin-top: 10px;
+}
+
+.rarity {
+  color: rgb(164, 57, 192);
+  text-align: left;
+  font-size: 12px;
+}
+</style>
