@@ -130,7 +130,7 @@ icon: dice-d20
 
 .item-icon {
   width: 50px;
-  height: 0px;
+  height: 50px;
   display: block;
   margin: 0 auto;
 }
