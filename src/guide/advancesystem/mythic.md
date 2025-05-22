@@ -1279,9 +1279,6 @@ salute to player killed shiny warp+致敬传奇845x3.6+传奇耐砍王+无法超
       Strength Min: 70<br>
       Agility Min: 70
     </p>
-    <p class="attribute-bonus">
-      <span class="bonus-positive">+29</span> Main Attack Damage
-    </p>
     <p class="bonuses">
       <span class="bonus-positive">+77 <span class="bonus-to">to</span> +332</span> Spell Damage<br>
       <span class="bonus-positive">+450 <span class="bonus-to">to</span> +1950/3s</span> Life Steal<br>
