@@ -2752,11 +2752,13 @@ hana：别别别
 
 萨满唯一地神话，加伤害加防御加血加攻击力面板还高
 
+
+
+:::details 评论区
+
 + 你和toxo打一架吧
 
 + 隔壁toxo的dps只有9 闹麻了
-
-+ 没想到byd萨满最能打的武器居然是低级神话
 
 + 爆！
 
@@ -2764,6 +2766,10 @@ hana：别别别
 
 + 有一种看见super slow就起星域的病
 
++ 现在终于不如日星了
+
++ 萨满版本,但是查无此人
+:::
 
 ### Olympic
 
@@ -2775,8 +2781,8 @@ hana：别别别
       <span class="item-attribute">Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 345-375</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">900</span></span>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 325-355</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">850</span></span>
     </p>
     <p class="requirements">
       Class Req: Shaman/Skyseer<br>
@@ -2804,20 +2810,38 @@ hana：别别别
 
 别名：oly/奥林匹克
 
-位移 爽 但是萨满的位移 不是很爽
+新 神 已 至
 
-跳高高可太好玩了，只要你蹦在空中你就是无敌的
+在隔壁法师和战士气神话一砍再砍的时候，我们的奥林匹克同志乘着血萨史诗级加强的东风，成为了气神话的扛把子
 
-+ 落地解除无敌状态
+尽管气组件也是被削了一圈，但力量足够了。
 
-+ 跳高冠军
+自身没有被怎么动刀，外加血萨夸张的倍率和功能性，使得Olympic成为了新时代的气神话荣光
 
-配合strato或dv，叠起来可以有10+的jh，日常玩起来十分欢乐，tna打老头也有一定的实战价值(吗?)
+独特的机动性勉强弥补了萨满的龟爬，战斗时也可以通过跳跃来规避伤害
 
-伤害也还不错，刮痧老头的神
 
-+ 好了现在萨满能打的武器到这里就结束了
+:::details 评论区
++ 马里奥林匹克
 
++ 赌博地狱
+
++ 操你们吗的血萨这么强能不能别玩傻逼summoner了啊
+
++ 气神话扛把子但是所有人冲着summoner去玩+只玩abso=？
+
++ 拳打warp脚踩hero
+
++ 落地解除无敌
+
++ 笑点解析：奥林匹克现在是气神话扛把子
+
++ 跳 高 冠 军
+
++ 鉴定好了叫奥运会，鉴定烂了叫残奥会
+
++ 银发冲天双马尾
+:::
 ### Hadal
 
 <div class="item-window">
@@ -2828,8 +2852,8 @@ hana：别别别
       <span class="item-attribute">Super Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 1750-2150</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">995</span></span>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 1620-2025</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">931</span></span>
     </p>
     <p class="requirements">
       Class Req: Shaman/Skyseer<br>
@@ -2839,8 +2863,9 @@ hana：别别别
     <p class="bonuses">
       <span class="bonus-positive">+23 <span class="bonus-to">to</span> +98%</span> Spell Damage<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/5s</span> Mana Regen<br>
-      <span class="bonus-positive">+65 <span class="bonus-to">to</span> +35%</span> Aura Cost<br>
-      <span class="bonus-positive">+65 <span class="bonus-to">to</span> +35%</span> Uproot Cost
+      <span class="bonus-negative">+65 <span class="bonus-to-negative">to</span> +35%</span> Aura Cost<br>
+      <span class="bonus-negative">+65 <span class="bonus-to-negative">to</span> +35%</span> Uproot Cost<br>
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65</span> Max Mana
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -2850,10 +2875,19 @@ hana：别别别
 </div>
 
 
-别名：无
+别名：哈达尔
 
 幽默req，曾经有高达150的int需求
 
+部分情况下伤害挺高，但是要求也挺高
+
+现在有一个挺爆的迫击炮Hadal，dps400k，但是桩逼王，非常龟爬因此毫无实战性可言...吗？
+
+萨满真正的扛把子之一，纯享水体触手让你欲罢不能
+
+
+
+:::details 评论区
 + 水神话之耻
 
 + 你谁
@@ -2864,10 +2898,12 @@ hana：别别别
 
 + Had a L
 
-+ 玩hadal不如去玩spring
++ nol特供清真宝宝人参果
 
-部分情况下伤害挺高，但是要求也挺高
++ 旺旺碎冰冰享受者
 
++ 超新星war dps
+:::
 ### Sunstar
 
 <div class="item-window">
@@ -2875,12 +2911,12 @@ hana：别别别
   <div class="item-details">
     <p class="item-header">
       <span class="item-name">Sunstar</span><br>
-      <span class="item-attribute">Slow Attack Speed</span>
+      <span class="item-attribute">Very Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span class="neutral-damage">✤ Neutral Damage: 200-260</span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 375-545</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">1035</span></span>
+      <span class="neutral-damage">✤ Neutral Damage: 245-355</span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 785-1015</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">996</span></span>
     </p>
     <p class="requirements">
       Class Req: Shaman/Skyseer<br>
@@ -2888,12 +2924,13 @@ hana：别别别
       Dexterity Min: 115
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+173 <span class="bonus-to">to</span> +750</span> Main Attack Damage<br>
-      <span class="bonus-positive">+188 <span class="bonus-to">to</span> +813/3s</span> Life Steal<br>
+      <span class="bonus-positive">+306 <span class="bonus-to">to</span> +1325</span> Main Attack Damage<br>
+      <span class="bonus-positive">+210 <span class="bonus-to">to</span> +910/3s</span> Life Steal<br>
       <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Healing Efficiency<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Thorns<br>
       <span class="bonus-positive">+27 <span class="bonus-to">to</span> +117%</span> Reflection<br>
-      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Thunder Damage
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Thunder Damage<br>
+      <span class="bonus-positive">+1 tier</span> Attack Speed
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -2903,10 +2940,15 @@ hana：别别别
 </div>
 
 
-别名：太阳星
+别名：日星
 
 没救了，最大cjb
 
+唯三不给技能点的神话
+
+
+
+:::details 评论区
 + 当时有lapis饰品的时候价格被炒上天，结果发现牛逼的是lapis不是它
 
 + 这个...没法评价
@@ -2917,7 +2959,10 @@ hana：别别别
 
 + 它改了什么？我咋没印象了？
 
++ 这是新神话吗？
 
++ 金发贫乳双马尾大姐姐
+:::
 ### Fantasia
 
 <div class="item-window">
@@ -2928,12 +2973,12 @@ hana：别别别
       <span class="item-attribute">Very Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 185-295</span></span><br>
-      <span><span class="water">❉ Water</span> <span class="gray">Damage: 200-280</span></span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 215-265</span></span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 230-250</span></span><br>
-      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 170-310</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">996</span></span>
+      <span><span class="earth">✤ Earth</span> <span class="gray">Damage: 160-300</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 220-240</span></span><br>
+      <span><span class="water">❉ Water</span> <span class="gray">Damage: 190-270</span></span><br>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 175-285</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 205-255</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">954</span></span>
     </p>
     <p class="requirements">
       Class Req: Shaman/Skyseer<br>
@@ -2951,10 +2996,10 @@ hana：别别别
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Spell Damage<br>
       <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14/5s</span> Mana Regen<br>
       <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14/3s</span> Mana Steal<br>
-      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Totem Cost<br>
-      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Haul Cost<br>
-      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Aura Cost<br>
-      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -35%</span> Uproot Cost
+      <span class="bonus-positive">-13 <span class="bonus-to">to</span> -55%</span> Totem Cost<br>
+      <span class="bonus-positive">-13 <span class="bonus-to">to</span> -55%</span> Haul Cost<br>
+      <span class="bonus-positive">-13 <span class="bonus-to">to</span> -55%</span> Aura Cost<br>
+      <span class="bonus-positive">-13 <span class="bonus-to">to</span> -55%</span> Uproot Cost
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -2970,6 +3015,13 @@ hana：别别别
 
 可以爽搓 但是没伤害
 
+aura spam享受者
+
+最意义不明的彩虹神话设计
+
+200+的cost%值得200k的价格
+
+:::details 评论区
 + fanta能用 但是好像不太好用
 
 + 为什么这游戏有这个东西
@@ -2984,6 +3036,12 @@ hana：别别别
 
 + fanta太难re了
 
++ 赌博地狱
+
++ 这个是真没救了
+
++ 全游总点数需求最高的武器
+:::
 ### Toxoplasmosis
 
 <div class="item-window">
@@ -3006,11 +3064,11 @@ hana：别别别
       <span class="bonus-positive">+40</span> Strength
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+9600 <span class="bonus-to">to</span> +41600/3s</span> Poison<br>
+      <span class="bonus-positive">+15000 <span class="bonus-to">to</span> +65000/3s</span> Poison<br>
       <span class="bonus-positive">+150 <span class="bonus-to">to</span> +650/3s</span> Life Steal<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +23/3s</span> Mana Steal<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Walk Speed<br>
-      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Loot Bonus
+      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Loot Bonus<br>
     </p>
     <p class="powder-rarity">
       [2] Powder slots<br>
@@ -3032,6 +3090,9 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
 
 目前版本完全上不去牌面，在其他所有伤害都在数值膨胀的情况下，毒伤机制不升反降，只能说幽默
 
+<s><span class="major-id-name">+Double Down:</span> <span class="major-id-desc"> The poison of this weapon will randomly double during an upcoming changelog.</span></s>
+
+:::details 评论区
 + 萨满不玩toxo刷素材流就好像飞机杯只拿来喝水
 
 + 如果不重做请把这武器改成legendary，不要占用神话的位置
@@ -3040,7 +3101,14 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
 
 + 古希腊掌管刷材料的神
 
++ 牢大的证明
 
++ 永利农业发展不可缺少的一环
+
++ you gotta move～
+
++ 和虫子一样在神话强度地板蠕动
+:::
 
 
 ### Absolution
@@ -3053,8 +3121,8 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
       <span class="item-attribute">Super Fast Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 195-205</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">860</span></span>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 175-185</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">774</span></span>
     </p>
     <p class="requirements">
       Class Req: Shaman/Skyseer<br>
@@ -3064,9 +3132,8 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
     <p class="bonuses">
       <span class="bonus-positive">+900 <span class="bonus-to">to</span> +3900</span> Health<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +21/5s</span> Mana Regen<br>
-      <span class="bonus-positive">+30 <span class="bonus-to">to</span> +130%</span> Healing Efficiency<br>
-      <span class="bonus-negative">-6 <span class="bonus-to-negative">to</span> -26</span> Totem Cost<br>
-      <span class="bonus-positive">+7 <span class="bonus-to">to</span> +30%</span> Soul Point Regen<br>
+      <span class="bonus-positive">+23 <span class="bonus-to">to</span> +100%</span> Healing Efficiency<br>
+      <span class="bonus-positive">-6 <span class="bonus-to">to</span> -26</span> Totem Cost<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Fire Damage<br>
       <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Earth Defence<br>
       <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Thunder Defence
@@ -3082,20 +3149,33 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
 
 Absolution拥有优秀的蓝量恢复，高额的生命值加成，同时大幅降低图腾的cost，还可以为你提供高额的治疗率
 
-Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生的
+Abso的功能决定了它几乎与Acolyte强绑定，它就是为当奶妈而生的
 
-代价是abso伤害十分低下，非常刮。
+目前版本一样乘着Acolyte史诗级加强的东风起飞了，能打能奶，简直是notg的亲爹，在nol也有一战之力
 
-但很可惜，萨满右路一砍再砍，连着把abso的强度一起砍废了
+非常彪悍的奶量，一下aura可以直接奶满，外加洗脑和部分新火组件的力量，让abso大人在这个版本直接起飞。~~同时起飞的还有价格~~
 
-但guild war仍旧是唯一healer位
 
+
+:::details 评论区
 + 没有见过trift abso的人生是不完整的
 
 + 萨满奶量狂飙！！！
 
-+ byd本身就没啥伤害只有功能性的武器还要砍他的功能性wynncraft设计师的脑子里是进shit了吗
++ 血萨加强之前谁知道你abso
 
++ 现在伤害起来了，当然这不是它本身伤害很高，而是acolyte的力量太强大了
+
++ 我的天哪abso大人
+
++ 轮椅（下版本翻面）
+
++ 正如名字一样的绝对强度
+
++ 我操你们妈怎么真有人在pf玩summoner abso
+
++ 所以abso是一个没有触手找不到家庭的玩意.json
+:::
 ### Immolation
 
 <div class="item-window">
@@ -3106,9 +3186,9 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
       <span class="item-attribute">Slow Attack Speed</span>
     </p>
     <p class="damage">
-      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 230-495</span></span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 350-375</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">1088</span></span>
+      <span><span class="fire">✹ Fire</span> <span class="gray">Damage: 175-445</span></span><br>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 295-325</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">930</span></span>
     </p>
     <p class="requirements">
       Class Req: Shaman/Skyseer<br>
@@ -3141,19 +3221,35 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 曾经弱智流的高光，build里每一件装备都不可替换，每一件也都有这关键的用处
 
-+ 曾经可以扣队友的血 最优秀的设计 怎么就修复了
+如今据说也挺能打..吗？~~笔者曾经在看到公会真的有人在玩immo的时候被震撼到了~~
 
-+ dps better than cata
+三分支都容不下的贵物，以前有过辉煌但是被ct一刀枪毙base
+
+与当今萨满主流玩法格格不入最终成为summoner的指定大儿
+
+:::details 我有immo症.jpg
+![](/assets/img/immo.jpg =400x)
+:::
+
+
+:::details 评论区
++ 曾经可以扣队友的血 最优秀的设计 怎么就修复了
 
 + +150属性点，保送火气双满，这就是我们immo啊
 
 + 史上最肉的武器，保送150agi 150def，前提是让战士能用
 
++ 可以在anni里面假装你是abso
 
-+ 我有immo症.jpg
++ 身上插4把abso就能奶人了👍
 
-:::details meme
-![](/assets/img/immo.jpg =400x)
++ 这玩意之前base比sunstar还高，结果被削弱了
+
++ 很难想象有一把武器的词条能直接压死一个分支玩法
+
++ 比SilverSound弱
+
++ 很好的设计+很蠢的树=用粪煮了只龙虾
 :::
 ### Resonance
 
@@ -3168,7 +3264,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
       <span class="neutral-damage">✤ Neutral Damage:</span> <span class="gray">30-40</span><br>
       <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 190-200</span></span><br>
       <span><span class="water">❉ Water</span> <span class="gray">Damage: 170-220</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">1088</span></span>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">876</span></span>
     </p>
     <p class="requirements">
       Class Req: Shaman/Skyseer<br>
@@ -3184,8 +3280,9 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
       <span class="bonus-positive">+18 <span class="bonus-to">to</span> +78%</span> Health Regen<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20/5s</span> Mana Regen<br>
       <span class="bonus-positive">-6 <span class="bonus-to">to</span> -25%</span> Uproot Cost<br>
-      <span class="bonus-negative">-234 <span class="bonus-to-negative">to</span> -126%</span> Health Regen<br>
-      <span class="bonus-negative">-650 <span class="bonus-to-negative">to</span> -350%</span> Healing Efficiency
+      <span class="bonus-negative">-36 <span class="bonus-to-negative">to</span> -20%</span> Sprint<br>
+      <span class="bonus-negative">-56 <span class="bonus-to-negative">to</span> -31%</span> Air Defence<br>
+      <span class="major-id-name">+Lifestream:</span> <span class="major-id-desc"> Blood Sorrow deals <span class="neutral-damage">✤500%</span> and grants 4 times the overhealth, but shortens its duration by 75%.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -3194,6 +3291,42 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
   </div>
 </div>
 
+别名：reson
+
+神中神
+
+reson的强度在血萨加强之前就有了，非常彪悍的major设计硬抬一个玩法。
+
+唯一在etw的萨满武器，非常十足的伤害。
+
+曾经有个非常彪悍的碎图腾广播体操，金液狂飙，然后碎图腾抽的血就被暗改了，CT让你飙不出来。
+
+虽然与ec多少有点格格不入但不影响人家的major发光发热
+
+
+
+黑神话一等奖，开到就是赚到 ~~虽然最近价格好像被Trance反超了~~
+
+anni指定非ban位，anni队伍的免死金牌，
+:::details 评论区
++ 这位更是重量级
+
++ 浓缩金液发射器
+
++ 甚至走etw还能补25def，什么变态面板设计。
+
++ anni指定容错率玩具
+  
++ bs指定亲儿子
+  
++ 真正的war dps
+  
++ world event指定图腾
+  
++ 超绝彩虹萨满享受者
+  
++ 大帆船指定亲爹
+:::
 
 ## 装备
 
@@ -3216,11 +3349,11 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
     </p>
     <p class="attribute-bonus">
       <span class="bonus-positive">+20</span> Strength<br>
-      <span class="bonus-positive">+30</span> Defence
+      <span class="bonus-positive">+25</span> Defence
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +40%</span> Health Regen<br>
-      <span class="bonus-positive">+750 <span class="bonus-to">to</span> +3250</span> Health<br>
+      <span class="bonus-positive">+525 <span class="bonus-to">to</span> +2750</span> Health<br>
       <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Thorns<br>
       <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Earth Defence<br>
@@ -3238,15 +3371,31 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 唯一真神
 
-拥有高额的血量加成(最高可达8300血)和强劲的属性点补给(共计50点)
+拥有高额的血量加成(最高可达7325血)和强劲的属性点补给(共计25点)
 
 而缺点却只有小许的负移速
 
-是目前最为昂贵的神话鞋子
+是目前最为昂贵的神话鞋子~~之一~~
 
 如果你不知道如何提高你build的ehp，往里塞一件十字军，一切都会好起来的.jpg
 
+:::details 评论区
++ 安全感
 
++ ehp拯救者
+
++ 从来就没便宜过的传奇
+
++ 最长的河
+
++ etf指定亲爹
+  
++ b事不干只管强度
+  
++ 在炮机的世界里所有人都不在乎那点ws所以你说的对但是我十字军炮机就是玩的爽
+  
++ mantle walker进阶版
+:::
 ### Resurgence
 
 <div class="item-window">
@@ -3271,10 +3420,9 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
     <p class="bonuses">
       <span class="bonus-negative">-58 <span class="bonus-to-negative">to</span> -31%</span> Main Attack Damage<br>
       <span class="bonus-negative">-45 <span class="bonus-to-negative">to</span> -24%</span> Spell Damage<br>
-      <span class="bonus-positive">+117 <span class="bonus-to">to</span> +507</span> Health Regen<br>
+      <span class="bonus-positive">+150 <span class="bonus-to">to</span> +650</span> Health Regen<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39/5s</span> Mana Regen<br>
-      <span class="bonus-negative">-18 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed<br>
-      <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Soul Point Regen
+      <span class="bonus-negative">-18 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed
     </p>
     <p class="powder-rarity">
       [4] Powder slots<br>
@@ -3292,9 +3440,20 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 缺点也很明显，降输出略多，同时一样扣除了少额移速
 
-+ 可是一般有resu的地方都能用十字军替代，它还有什么意义吗
+新版本给resu还加了点hpr，使得其续航更加得劲了
 
-+ 属于是被版本淘汰的旧神
+目前有一套非常舒服的resu idol lrbd，使得resu终于有了些就业空间。
+
+
+:::details 评论区
++ 新时代风怒必备
+  
++ 喜欢我二郎神emby复兴守卫者吗
+
++ 喜欢我超绝双回转但是又断腿又哑火的复兴么
+
+
+:::
 
 ### Galleon
 <div class="item-window">
@@ -3316,9 +3475,9 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+14 <span class="bonus-to">to</span> +59%</span> Main Attack Damage<br>
-      <span class="bonus-positive">+3750 <span class="bonus-to">to</span> +16250/3s</span> Poison<br>
+      <span class="bonus-positive">+4800 <span class="bonus-to">to</span> +20800/3s</span> Poison<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26/3s</span> Mana Steal<br>
-      <span class="bonus-negative">-1 <span class="bonus-to-negative">to</span> -1</span> tier Attack Speed<br>
+      <span class="bonus-negative">-1 tier</span>  Attack Speed<br>
       <span class="bonus-positive">+6 <span class="bonus-to">to</span> +26%</span> Loot Bonus<br>
       <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Stealing<br>
       <span class="bonus-positive">+11 <span class="bonus-to">to</span> +47%</span> Earth Damage<br>
@@ -3340,10 +3499,22 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 属于毒伤的必备组件，什么都加但是不加点数
 
-完全塞不进水属性为主的build
+完全塞不进水属性为主的build，但是reson的指定亲儿子
 
-**未来可期**
+旧时代spring和gma的好大儿但因为拱手的死亡而消逝
 
+~~**未来可期**~~
+:::details 评论区
++ reson的出现让大伙以为噶冷终于有就业空间了，结果发现好像还是不如星露
+
++ 88-92鞋盒的史
+
++ 拉低出鞋盒期望值的
+
++ galleon‘s graveyard.jpg
+
++ 星露谷物语太好玩了呢共振小姐 所以帆船你慢慢爬去吧.jpg
+:::
 
 ### Boreal
 
@@ -3365,12 +3536,12 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+30 <span class="bonus-to">to</span> +130%</span> Health Regen<br>
-      <span class="bonus-positive">+81 <span class="bonus-to">to</span> +350</span> Health Regen<br>
+      <span class="bonus-positive">+104 <span class="bonus-to">to</span> +450</span> Health Regen<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/5s</span> Mana Regen<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Reflection<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Walk Speed<br>
-      <span class="bonus-negative">-97 <span class="bonus-to-negative">to</span> -52%</span> Earth Damage<br>
-      <span class="bonus-negative">-97 <span class="bonus-to-negative">to</span> -52%</span> Thunder Damage<br>
+      <span class="bonus-negative">-39 <span class="bonus-to-negative">to</span> -21%</span> Earth Damage<br>
+      <span class="bonus-negative">-39 <span class="bonus-to-negative">to</span> -21%</span> Thunder Damage<br>
       <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Fire Defence<br>
       <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Air Defence
     </p>
@@ -3382,7 +3553,6 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 </div>
 
 
-+ 这贵物居然比十字军还肉
 
 别名：bo真
 
@@ -3392,8 +3562,31 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 负面效果对于某些职业的技能可能会有大影响 同时限制了使用的武器属性
 
+全方位的加强导致它正式上了台面，结合2.1的装备让它正式有点发光发热的效果
+
+研究了两个月发现只有国人会玩boreal lr warp build，所以就当他很强吧
+
+
+
+:::details 评论区
++ 这贵物居然比十字军还肉
+
 + 能完美弥补一个叫扭曲的冲击波
 
++ 不要让我在raid里看见铂臻火鸟噶点
+
++ boreal guardian滚出游戏啊
+
++ 再让我在pf看到铂臻噶点我捅死你再让我在pf看到铂臻噶点我捅死你再让我在pf看到铂臻噶点我捅死你再让我在pf看到铂臻噶点我捅死你再让我在pf看到铂臻噶点我捅死你再让我在pf看到铂臻噶点我捅死你
+
++ 瘤子
+
++ 强力胶
+
++ Guardian指定好大儿
+
++ 喜欢我120ws的超绝火鸟波真赦免么
+:::
 ### Slayer
 
 <div class="item-window">
@@ -3415,10 +3608,10 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
       <span class="bonus-positive">+20</span> Dexterity
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+86 <span class="bonus-to">to</span> +371</span> Main Attack Damage<br>
-      <span class="bonus-negative">-351 <span class="bonus-to-negative">to</span> -189</span> Health Regen<br>
-      <span class="bonus-negative">-9 <span class="bonus-to-negative">to</span> -39%</span> 3rd Spell Cost<br>
-      <span class="bonus-positive">+1</span> tier Attack Speed<br>
+      <span class="bonus-positive">+105 <span class="bonus-to">to</span> +455</span> Main Attack Damage<br>
+      <span class="bonus-negative">-455 <span class="bonus-to-negative">to</span> -245</span> Health Regen<br>
+      <span class="bonus-positive">-9 <span class="bonus-to">to</span> -39%</span> 3rd Spell Cost<br>
+      <span class="bonus-positive">+1 tier</span> Attack Speed<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +35%</span> Walk Speed<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13%</span> Stealing
     </p>
@@ -3430,11 +3623,11 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 </div>
 
 
-别名：鲨手(嗯这是我编的)
+别名：杀手
 
 非常实用的鞋，唯一缺点在于-hpr
 
-+ 好像也不算什么缺点，扭曲说道
+
 
 功能性较多，但是伤害不是很高
 
@@ -3442,6 +3635,24 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 就业面很广！
 
+但是近期hpr改动的受害者。
+
+
+:::details 评论区
++ 好像扣血也不算什么缺点，扭曲说道
+
++ BYD上次砍hpr tome说是因为可以full cancel slayer的hpr，结果这回又把slayer的hpr砍了，CT你到底要几把干啥
+
++ 曾经是无烟煤的好搭档，现在怎么样了我不好说
+
++ eta指定亲爹之一
+
++ 最意义不明的设计和词条range
+
++ 2.1就业面基本缩小至只剩下陨石和电棍
+
++ 最近的patch让杀手成为了砂布.json
+:::
 ### Moontower
 
 <div class="item-window">
@@ -3487,7 +3698,7 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 现在向我们迎面走来的是：
 
-**扭曲小姐的唯一指定星怒，八十英雄副手偶像享受者，邪门build参与者——月塔！**
+**扭曲小姐的唯一指定星怒，月塔英雄享受者，邪门build参与者——月塔！**
 
 没有任何伤害，月塔只是纯粹的点数暴力补给机
 
@@ -3497,8 +3708,29 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 但是月塔的好处是不吃鉴定，再烂的也能用
 
+只可惜lr改动导致月塔lr扭曲有一键暴毙的功能
+
+:::details 评论区
++ lr增益改动的最大受害者
+
 + 只要穿上了月塔基本就不用惦记你那def了
 
++ 一般与扭曲和英雄价格呈负相关
+
++ 点数大王
+
++ 扭曲常有而月塔不常有
+
++ 月塔噶点on top
+
++ agi failure享受者
+
++ 扭曲小姐指定水晶鞋
+
++ 唯一一个在价格层面与武器呈负相关的东西
+
++ 什么时候改月塔（因为我真不打算看到这货一天到晚只绑死扭曲和一个英雄构筑）
+:::
 ### Dawnbreak
 
 <div class="item-window">
@@ -3521,9 +3753,9 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
     </p>
     <p class="bonuses">
       <span class="bonus-positive">+810 <span class="bonus-to">to</span> +3510</span> Main Attack Damage<br>
-      <span class="bonus-positive">+105 <span class="bonus-to">to</span> +455/3s</span> Life Steal<br>
+      <span class="bonus-positive">+120 <span class="bonus-to">to</span> +520/3s</span> Life Steal<br>
       <span class="bonus-positive">+4 <span class="bonus-to">to</span> +16/3s</span> Mana Steal<br>
-      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14</span> tier Attack Speed<br>
+      <span class="bonus-negative">-26 <span class="bonus-to-negative">to</span> -14 tier</span> Attack Speed<br>
       <span class="bonus-positive">+7 <span class="bonus-to">to</span> +30%</span> Exploding<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +35%</span> Thunder Damage<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +35%</span> Fire Damage
@@ -3542,15 +3774,39 @@ Abso的功能决定了它几乎与右路强绑定，它就是为当奶妈而生�
 
 如今因为panic zealot的增强迎来了第二春，但是攻速只有-14/-15时才有就业空间
 
-+ panic zealot的指定星怒
+~~但是pz也快死了，写上面这句话的时候是一年前的事，真是风水轮流转啊~~
 
 hmbuild指定组件，但是hm现在真的还有人玩吗？
 
+2.1初代恍惚的指定好大儿却被智慧球碾碎，现今inferno的好大儿之一
+
+
+:::details 评论区
 + db在属性分配设计上就已经输的太多了，电火也太整蛊了
 
 + 很帅的名字，很拉胯的就业空间
+  
++ panic zealot的指定星怒
 
++ D（大）B（便）
 
++ 永利大彩票有胆你就来💪
+
++ DB已经足够强大到HM Build都可以不带他了，实在是厉害
+
++ 抛开强度不谈 难道不帅吗这名字
+
++ 现在还在未来可期
+
++ trance原配被洗脑十字军绿了
+
+“说起来trance最开始有想过和db配”
+“在这个配装做出来之前都挺美好的”
+“做出来就露馅了”
+
++ 还得强烈谴责一下CT加强Blind Thrust没有加强DB的行为
+
+:::
 
 ### Stardew
 
@@ -3591,14 +3847,37 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 别名：星露/~~星露谷~~
 
+神中神
+
 伤害最高的神话鞋，有着两种截然不同的搭配玩法
 
-但是成为了版本弃子
+目前实用性拉满，感觉只要沾点水电都能塞星露。。~~笔者3双星露都还不够用~~
 
-+ 谁让你一点点数都敢不加的啊？
+2.1版本最大收益者之一，新版本从版本弃子彻底翻身。
 
+:::details 评论区
 + 没人能拒绝400raw spell的诱惑
 
++ 水电领域大神
+
++ 他来了 他来了 他带着 reson lament走来了
+
++ 纯粹的输出，纯粹的数值
+
++ 这400raw 是别人的一辈子了
+
++ 水刀的星怒
+
++ 倒的最多的鞋子
+
++ lament小姐和共振小姐的水晶鞋
+
++ 什么是电星露
+
++ 2.1obli的指定小玩具但最后被美丽新世界的memeto爆杀
+
++ 倒钩最喜欢的鞋
+:::
 ### Warchief
 
 <div class="item-window">
@@ -3625,12 +3904,12 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
       <span class="bonus-positive">+10</span> Dexterity
     </p>
     <p class="bonuses">
-      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Main Attack Damage<br>
+      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Main Attack Damage<br>
       <span class="bonus-positive">+95 <span class="bonus-to">to</span> +410</span> Main Attack Damage<br>
       <span class="bonus-negative">-19 <span class="bonus-to-negative">to</span> -10%</span> Walk Speed<br>
-      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Exploding<br>
-      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Earth Damage<br>
-      <span class="bonus-positive">+15 <span class="bonus-to">to</span> +65%</span> Thunder Damage
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +23%</span> Exploding<br>
+      <span class="bonus-positive">+9 <span class="bonus-to">to</span> +38%</span> Earth Damage<br>
+      <span class="bonus-positive">+11 <span class="bonus-to">to</span> +46%</span> Thunder Damage
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -3652,8 +3931,27 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 和大锤与epoch的适用性极佳
 
+2.1版本改动最大受害者之一。
+
+:::details 评论区
 + 是个拖鞋 太low了 不行
 
++ Epoch享受者
+
++ ts神鞋
+
++ 赌博地狱
+
++ 尿尿枪的指定输尿管
+
++ 残存的ts享受者的遮羞布
+
++ 超绝exploding nerf for fun
+
++ 消逝的spell chief
+
++ 你说的对但这就是我们纪元玩家的指定特步啊.json
+:::
 ### Revenant
 
 <div class="item-window">
@@ -3677,7 +3975,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
       <span class="bonus-positive">+156 <span class="bonus-to">to</span> +676</span> Main Attack Damage<br>
       <span class="bonus-negative">-3250 <span class="bonus-to-negative">to</span> -1750</span> Health<br>
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/3s</span> Mana Steal<br>
-      <span class="bonus-negative">-8 <span class="bonus-to-negative">to</span> -36%</span> 4th Spell Cost<br>
+      <span class="bonus-positive">-8 <span class="bonus-to">to</span> -36%</span> 4th Spell Cost<br>
       <span class="bonus-positive">+36 <span class="bonus-to">to</span> +156%</span> Reflection<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Walk Speed<br>
       <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Earth Damage<br>
@@ -3693,18 +3991,27 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 别名：reve
 
-+ creeper？aww man
-
 强度在线，但是玩法不多
 
-点数需求有点苛刻，导致绑死了一些build
+新版本有神人研发出了reve hero，结果这套bd被泄露出去了，导致reve的价格一路飞升。
 
-说人话就是用处基本没有
+之后又有人做了reve olympic，我们olympic也是喝到汤了。
 
+除了伤害高，跑得快，甚至还有cost%，太顶了哥
+
+:::details 评论区
 + 你游最难鉴定的物品之一，这东西词条怎么这么多，上下限怎么还都这么高
 
-+ 但是revenant的超高移速拯救了绿拳
++ 物品鉴定师指定合作伙伴
 
++ 谁脑洞这么大开发的rev hero？
+
++ 强的不是rev 是 42 ~~现在是35了~~
+
++ 大鞋头号赌场
+
++ 奥林匹克hero的拖鞋
+:::
 
 
 ### Discoverer
@@ -3737,13 +4044,26 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 
 时代的眼泪，豹皮别名的来源就是因为它曾经很高贵，只能从T3+箱子开出还贵的一批
 
-其实皮是纯功能性的，现在就业空间只剩下刷材料了
-
-+ 田娜它居然还给点经验，真是太强了吧
 
 皮是唯一一个不加血量的神话物品
 
+纯功能性的神话，你可以拿皮去刷材料，也可以穿着皮去新lr跑飞箱流，效果拔群。
+
+目前地位稍微回暖了一些，但是价格一蹶不振。
+
+
+:::details 评论区
++ 田娜它居然还给点经验，真是太强了吧
+
 + 金钱与财富，但是代价是什么...
+
++ rich
+
++ 群友神秘赌博小玩具
+
++ 真正的永利大彩票
+:::
+
 
 <style>
 .item-window {
@@ -3773,13 +4093,13 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 }
 
 .item-attribute {
-  font-size: 14px;
+  font-size: 16px;
   margin-top: 5px;
   color: rgb(170, 170, 170);
 }
 
 .damage {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .health {
@@ -3820,7 +4140,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 }
 
 .requirements, .attribute-bonus, .bonuses, .powder-rarity {
-  font-size: 12px;
+  font-size: 14px;
   color: rgb(170, 170, 170);
 }
 

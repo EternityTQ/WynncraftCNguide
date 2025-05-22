@@ -145,16 +145,6 @@ icon: dice-d20
   font-weight: bold;
 }
 
-.item-attribute {
-  font-size: 12px;
-  margin-top: 5px;
-  color: rgb(170, 170, 170);
-}
-
-.damage {
-  font-size: 12px;
-  color: rgb(170, 170, 170);
-}
 .bigsize {
   font-size: 20px;
   color: rgb(170, 170, 170);
@@ -195,11 +185,6 @@ icon: dice-d20
 
 .average-dps {
   color: rgb(85, 85, 85);
-}
-
-.requirements, .attribute-bonus, .bonuses, .powder,.powder-rarity {
-  font-size: 12px;
-  color: rgb(170, 170, 170);
 }
 
 .requirements {
