@@ -3,7 +3,7 @@ title: 支持我们&感谢名单
 icon: truck-medical
 ---
 
-![](/assets/img/afdian-EternityTQ.jfif)
+https://afdian.com/a/EternityTQ
 
 制作网站非常不易，我们非常渴望得到您的支持！！
 
