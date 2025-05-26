@@ -3,7 +3,7 @@
     "name": "爆炸箭",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>爆炸箭</b><br>(Arrow Bomb)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">射出一支远距离的箭矢，其命中后会爆炸，造成大范围的伤害。</font><font color=\"555555\"><br>(并对自己造成爆炸伤害10%的伤害)</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">45</font><br>射程：<font color=\"white\">26格</font><br>爆炸范围：<font color=\"white\">4.5格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>爆炸箭</b><br>(Arrow Bomb)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">射出一支远距离的箭矢，其命中后会爆炸，造成大范围的伤害。</font><font color=\"555555\"><br>(并对自己造成爆炸伤害10%的伤害)</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">45</font><br>射程：<font color=\"white\">26格</font><br>爆炸范围：<font color=\"white\">4.5格</font></font>"
   },
   "Bow_Proficiency I": {
     "name": "弓箭精通 I",
@@ -27,31 +27,31 @@
     "name": "碎心",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>碎心</b><br>(Heart Shatter)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的箭矢直接攻击到敌人时，造成额外伤害</font>"
+    "description": "<font color=\"FCDE4C\"><b>碎心</b><br>(Heart Shatter)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的箭矢直接攻击到敌人时，造成额外伤害</font>"
   },
   "Double_Shots": {
     "name": "双发箭矢",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>双发箭矢</b><br>(Double Shots)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>将同时射出两发箭矢，</font><font color=\"BBBBBB\">但每支箭矢的伤害将会降低<font color=\"FF5555\">40%</font><font color=\"555555\"><br>(更难命中较远的敌人)</font></font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>双发箭矢</b><br>(Double Shots)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>将同时射出两发箭矢，</font><font color=\"BBBBBB\">但每支箭矢的伤害将会降低<font color=\"FF5555\">40%</font><font color=\"555555\"><br>(更难命中较远的敌人)</font></font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
   },
   "Escape": {
     "name": "逃脱",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>逃脱</b><br>(Escape)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">快速后跳来规避危险</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">20</font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">逃脱最多连续触发一次，其在空中也能触发。落地后刷新使用次数</font>"
+    "description": "<font color=\"#00BB00\"><b>逃脱</b><br>(Escape)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">快速后跳来规避危险</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">20</font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">逃脱最多连续触发一次，其在空中也能触发。落地后刷新使用次数</font>"
   },
   "Power_Shots": {
     "name": "强力箭矢",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>强力箭矢</b><br>(Power Shots)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>射出的箭矢具有更高的飞行速度以及击退能力</font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>强力箭矢</b><br>(Power Shots)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>射出的箭矢具有更高的飞行速度以及击退能力</font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
   },
   "Arrow_Storm": {
     "name": "箭雨",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>箭雨</b><br>(Arrow Storm)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">35</font><br>范围：<font color=\"white\">16格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>箭雨</b><br>(Arrow Storm)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">35</font><br>范围：<font color=\"white\">16格</font></font>"
   },
   "Cheaper_Escape_I": {
     "name": "逃脱减耗 I",
@@ -63,7 +63,7 @@
     "name": "箭盾",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>箭盾</b><br>(Arrow Shield)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤一面盾牌，其可以对接近的怪物造成伤害并击飞。(2次耐久)</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">2.3格</font><br>持续时间：<font color=\"white\">60秒</font></font>"
+    "description": "<font color=\"#00BB00\"><b>箭盾</b><br>(Arrow Shield)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 左键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤一面盾牌，其可以对接近的怪物造成伤害并击飞。(2次耐久)</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">2.3格</font><br>持续时间：<font color=\"white\">60秒</font></font>"
   },
   "Windy_Feet": {
     "name": "疾风步伐",
@@ -111,7 +111,7 @@
     "name": "箭雨滂沱",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>箭雨滂沱</b><br>(Arrow Rain)</font><br><br><font color=\"BBBBBB\">当<u>箭盾</u>的次数耗尽时，在你的周围喷涌出<font color=\"WHITE\">150</font>根箭矢，倾泻在周围的敌人身上</font>"
+    "description": "<font color=\"FCDE4C\"><b>箭雨滂沱</b><br>(Arrow Rain)</font><br><br><font color=\"BBBBBB\">当<u>箭盾</u>的次数耗尽时，在你的周围喷涌出<font color=\"WHITE\">150</font>根箭矢，倾泻在周围的敌人身上</font>"
   },
   "Bryophyte_Roots": {
     "name": "苔藓缠身",
@@ -135,7 +135,7 @@
     "name": "三重射击",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>三重射击</b><br>(Triple Shots)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color=\"FF5555\">-10%</font></font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">对于每根箭矢，其生命窃取、法力窃取以及粉末主动充能效率降低至33%</font>"
+    "description": "<font color=\"FCDE4C\"><b>三重射击</b><br>(Triple Shots)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color=\"FF5555\">-10%</font></font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">对于每根箭矢，其生命窃取、法力窃取以及粉末主动充能效率降低至33%</font>"
   },
   "Frenzy": {
     "name": "极速狂热",
@@ -177,7 +177,7 @@
     "name": "聚爆",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>聚爆</b><br>(Implosion)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>会将敌人拉向自己。如果周围有<font color=\"aqua\">陷阱</font>，则会将怪物拉向<font color=\"aqua\">陷阱</font>而不是自己      <br><br>额外增加<u>碎心</u>的伤害</font><br><br><font color=\"00AA00\"><b>陷阱师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>聚爆</b><br>(Implosion)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>会将敌人拉向自己。如果周围有<font color=\"aqua\">陷阱</font>，则会将怪物拉向<font color=\"aqua\">陷阱</font>而不是自己      <br><br>额外增加<u>碎心</u>的伤害</font><br><br><font color=\"00AA00\"><b>陷阱师 分支</b></font>"
   },
   "Arrow_Wall": {
     "name": "众矢成墙",
@@ -195,7 +195,7 @@
     "name": "抓钩",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>抓钩</b><br>(Grappling Hook)</font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的功能转换为投掷出一个钩子，当钩子抓取到方块时，会将你快速拉向方块；当钩子抓取到怪物时，会将怪物拉向你。      <br><br>范围：<font color=\"white\">30格</font><br><br><font color=\"00AA00\"><b>陷阱师 分支</b></font></font>"
+    "description": "<font color=\"FCDE4C\"><b>抓钩</b><br>(Grappling Hook)</font><br><br><font color=\"BBBBBB\"><u>逃脱</u>的功能转换为投掷出一个钩子，当钩子抓取到方块时，会将你快速拉向方块；当钩子抓取到怪物时，会将怪物拉向你。      <br><br>范围：<font color=\"white\">30格</font><br><br><font color=\"00AA00\"><b>陷阱师 分支</b></font></font>"
   },
   "More_Focus_I": {
     "name": "专心致志",
@@ -207,7 +207,7 @@
     "name": "暴风步伐",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>暴风步伐</b><br>(Stormy Feet)</font><br><br><font color=\"BBBBBB\"><u>疾风步伐</u>的持续时间及速度效果额外增加      <br><br>速度加成：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">+60秒</font></font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>暴风步伐</b><br>(Stormy Feet)</font><br><br><font color=\"BBBBBB\"><u>疾风步伐</u>的持续时间及速度效果额外增加      <br><br>速度加成：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">+60秒</font></font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
   },
   "Call_of_the_Hound": {
     "name": "猎犬呼啸",
@@ -219,7 +219,7 @@
     "name": "幻影之力",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>幻影之力</b><br>(Phantom Force)</font><br><br><font color=\"BBBBBB\"><u>幻影射线</u>的可攻击范围增加，同时射线自身增加宽度</font>"
+    "description": "<font color=\"FCDE4C\"><b>幻影之力</b><br>(Phantom Force)</font><br><br><font color=\"BBBBBB\"><u>幻影射线</u>的可攻击范围增加，同时射线自身增加宽度</font>"
   },
   "Leap": {
     "name": "飞跃",
@@ -255,7 +255,7 @@
     "name": "火箭飞跃",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>火箭飞跃</b><br>(Rocket Jump)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的反冲力增加，同时其对自己造成的伤害降低至<font color=\"FFFFFF\"> 5% </font></font>"
+    "description": "<font color=\"FCDE4C\"><b>火箭飞跃</b><br>(Rocket Jump)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>的反冲力增加，同时其对自己造成的伤害降低至<font color=\"FFFFFF\"> 5% </font></font>"
   },
   "Scorched_Earth": {
     "name": "炙热地表",
@@ -339,7 +339,7 @@
     "name": "逃脱艺术",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>逃脱艺术</b><br>(Escape Artist)</font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>时，往后跳的反方向倾泻<font color=\"FFFFFF\"> 100 </font>根箭矢。      <br><br><font color=\"00FF00\">备注</font><br>怪物只能吃到同一次技能内的1根箭矢</font>"
+    "description": "<font color=\"FCDE4C\"><b>逃脱艺术</b><br>(Escape Artist)</font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>时，往后跳的反方向倾泻<font color=\"FFFFFF\"> 100 </font>根箭矢。      <br><br><font color=\"00FF00\">备注</font><br>怪物只能吃到同一次技能内的1根箭矢</font>"
   },
   "Murder_Flock": {
     "name": "雾鸦群袭",
@@ -357,13 +357,13 @@
     "name": "相位光束",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>相位光束</b><br>(Phasing Beam)</font><br><br><font color=\"BBBBBB\"><u>吐温虹弧</u>充能速度增加<font color=\"WHITE\"> 20%</font> ，且现在能穿透<font color=\"WHITE\"> 5 </font>个敌人，激光伤害在穿透后将会下降。</font><br><font color=#555555>(该伤害视作<u>普通攻击</u>伤害)</font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>相位光束</b><br>(Phasing Beam)</font><br><br><font color=\"BBBBBB\"><u>吐温虹弧</u>充能速度增加<font color=\"WHITE\"> 20%</font> ，且现在能穿透<font color=\"WHITE\"> 5 </font>个敌人，激光伤害在穿透后将会下降。</font><br><font color=#555555>(该伤害视作<u>普通攻击</u>伤害)</font><br><br><font color=\"FF55FF\"><b>神射手 分支</b></font>"
   },
   "Spectral_Hover": {
     "name": "灵态停浮",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>灵态停浮</b><br>(Spectral Hover)</font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>时将会获得<font color=\"WHITE\"> 缓降 </font>效果，可以随时按下潜行来清除该效果<br><br>持续时间：<font color=white>5秒</font></font>"
+    "description": "<font color=\"FCDE4C\"><b>灵态停浮</b><br>(Spectral Hover)</font><br><br><font color=\"BBBBBB\">使用<u>逃脱</u>时将会获得<font color=\"WHITE\"> 缓降 </font>效果，可以随时按下潜行来清除该效果<br><br>持续时间：<font color=white>5秒</font></font>"
   },
   "Recycling": {
     "name": "箭矢回收",
@@ -459,7 +459,7 @@
     "name": "分裂炸弹",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>分裂炸弹</b><br>(Grape Bomb)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>在爆炸时将额外分裂出<font color=\"WHITE\"> 2个 </font>小型炸弹</font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">如果点了<u>磐石陷阱</u>，则分裂出的炸弹在击打到地面时仍然可以生成新的陷阱</font>"
+    "description": "<font color=\"FCDE4C\"><b>分裂炸弹</b><br>(Grape Bomb)</font><br><br><font color=\"BBBBBB\"><u>爆炸箭</u>在爆炸时将额外分裂出<font color=\"WHITE\"> 2个 </font>小型炸弹</font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">如果点了<u>磐石陷阱</u>，则分裂出的炸弹在击打到地面时仍然可以生成新的陷阱</font>"
   },
   "More_Focus_II": {
     "name": "聚精凝神",
@@ -471,7 +471,7 @@
     "name": "空灵",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>空灵</b><br>(Elusive)</font><br><br><font color=\"BBBBBB\">当你连续<font color=\"white\"> 4秒以上 </font>没有受到攻击时，免疫<u>爆炸箭</u>对自己造成的伤害，同时<u>箭雨</u>取消后坐力</font><br><font color=\"555555\">(被闪避的攻击不视作被击中)</font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>空灵</b><br>(Elusive)</font><br><br><font color=\"BBBBBB\">当你连续<font color=\"white\"> 4秒以上 </font>没有受到攻击时，免疫<u>爆炸箭</u>对自己造成的伤害，同时<u>箭雨</u>取消后坐力</font><br><font color=\"555555\">(被闪避的攻击不视作被击中)</font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
   },
   "Geyser_Stomp": {
     "name": "喷泉践踏",
@@ -483,7 +483,7 @@
     "name": "寒霜风暴",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>寒霜风暴</b><br>(Snow Storm)</font><br><br><font color=\"BBBBBB\">在你附近的敌人将受到减速效果</font><br><br><font color=\"BBBBBB\">减速效果：<font color=\"white\">+30%</font><br>范围：<font color=\"white\">3格</font></font>"
+    "description": "<font color=\"FCDE4C\"><b>寒霜风暴</b><br>(Snow Storm)</font><br><br><font color=\"BBBBBB\">在你附近的敌人将受到减速效果</font><br><br><font color=\"BBBBBB\">减速效果：<font color=\"white\">+30%</font><br>范围：<font color=\"white\">3格</font></font>"
   },
   "Cheaper_Arrow_Bomb_II": {
     "name": "爆炸箭减耗 II",
@@ -495,7 +495,7 @@
     "name": "重击",
     "icon": "/assets/img/class/warrior_green.png",
     "category": "warrior_green",
-    "description": "<font color=\"#00BB00\"><b>重击</b><br>(Bash)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">对前方大范围区域重劈并造成伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>攻击范围：<font color=\"white\">3格</font><br>重劈范围：<font color=\"white\">4格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>重击</b><br>(Bash)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">对前方大范围区域重劈并造成伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>攻击范围：<font color=\"white\">3格</font><br>重劈范围：<font color=\"white\">4格</font></font>"
   },
   "Cheaper_Bash_I": {
     "name": "重击减耗 I",
@@ -513,31 +513,31 @@
     "name": "双重击",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>双重击</b><br>(Double Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>将会对更远的范围额外造成一次伤害，但每一击的伤害<font color=\"FF5555\"> -30% </font><br><br>攻击范围：</font>+3格    "
+    "description": "<font color=\"FCDE4C\"><b>双重击</b><br>(Double Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>将会对更远的范围额外造成一次伤害，但每一击的伤害<font color=\"FF5555\"> -30% </font><br><br>攻击范围：</font>+3格    "
   },
   "Vehement": {
     "name": "热烈之力",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>热烈之力</b><br>(Vehement)</font><br><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的普攻伤害，就获得<font color=\"white\"> 2% </font>的移动速度(至多+20%)      <br>同时，你的所有伤害 <font color=\"white\">+5 </font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>热烈之力</b><br>(Vehement)</font><br><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的普攻伤害，就获得<font color=\"white\"> 2% </font>的移动速度(至多+20%)      <br>同时，你的所有伤害 <font color=\"white\">+5 </font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Charge": {
     "name": "冲锋",
     "icon": "/assets/img/class/warrior_green.png",
     "category": "warrior_green",
-    "description": "<font color=\"#00BB00\"><b>冲锋</b><br>(Charge)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">向正前方发起冲锋</font><font color=\"555555\"><br>(按住潜行键可取消冲锋)</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">25</font></font>"
+    "description": "<font color=\"#00BB00\"><b>冲锋</b><br>(Charge)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">向正前方发起冲锋</font><font color=\"555555\"><br>(按住潜行键可取消冲锋)</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">25</font></font>"
   },
   "Tougher_Skin": {
     "name": "坚韧之力",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>坚韧之力</b><br>(Tougher Skin)</font><br><br><font color=\"BBBBBB\">硬化你的皮肤，增加<font color=\"FFFFFF\"> 5% </font>的基础防御值</font><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的生命恢复，就获得<font color=\"white\"> 10 </font>点的血量(至多100点)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>坚韧之力</b><br>(Tougher Skin)</font><br><br><font color=\"BBBBBB\">硬化你的皮肤，增加<font color=\"FFFFFF\"> 5% </font>的基础防御值</font><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1 </font>或<font color=\"white\"> 1% </font>点的生命恢复，就获得<font color=\"white\"> 10 </font>点的血量(至多100点)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Uppercut": {
     "name": "上挑斩",
     "icon": "/assets/img/class/warrior_green.png",
     "category": "warrior_green",
-    "description": "<font color=\"#00BB00\"><b>上挑斩</b><br>(Uppercut)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">将怪物击飞到空中，造成成吨的伤害</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>伤害范围：<font color=\"white\">6.5格</font><br>挑飞高度：<font color=\"white\">1-4格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>上挑斩</b><br>(Uppercut)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">将怪物击飞到空中，造成成吨的伤害</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>伤害范围：<font color=\"white\">6.5格</font><br>挑飞高度：<font color=\"white\">1-4格</font></font>"
   },
   "Cheaper_Charge_I": {
     "name": "冲锋减耗 I",
@@ -549,13 +549,13 @@
     "name": "战吼",
     "icon": "/assets/img/class/warrior_green.png",
     "category": "warrior_green",
-    "description": "<font color=\"#00BB00\"><b>战吼</b><br>(War Scream)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">发出战吼，令范围内的敌人受到伤害并向你的位置拉扯，令自身和范围内的队友获得免伤。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>免伤效果：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">30秒</font><br>作用范围：<font color=\"white\">12格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>战吼</b><br>(War Scream)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">发出战吼，令范围内的敌人受到伤害并向你的位置拉扯，令自身和范围内的队友获得免伤。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>免伤效果：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">30秒</font><br>作用范围：<font color=\"white\">12格</font></font>"
   },
   "Heavy_Impact": {
     "name": "冲锋冲击",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>冲锋冲击</b><br>(Heavy Impact)</font><br><br><font color=\"BBBBBB\">使用<u>冲锋</u>后，对落地位置附近敌人造成伤害。</font>"
+    "description": "<font color=\"FCDE4C\"><b>冲锋冲击</b><br>(Heavy Impact)</font><br><br><font color=\"BBBBBB\">使用<u>冲锋</u>后，对落地位置附近敌人造成伤害。</font>"
   },
   "Earth_Mastery_(Warrior)": {
     "name": "地元素精通",
@@ -589,63 +589,63 @@
   },
   "Quadruple_Bash": {
     "name": "四重重击",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>四重重击</b><br>(Quadruple Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>连续造成<font color=\"white\"> 4 </font>次伤害，且伤害间隔减小，攻击范围增大，但每击伤害降低</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>四重重击</b><br>(Quadruple Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>连续造成<font color=\"white\"> 4 </font>次伤害，且伤害间隔减小，射程增大，但每击伤害降低</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Fireworks": {
     "name": "烟火爆破",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>烟火爆破</b><br>(Fireworks)</font><br><br><font color=\"BBBBBB\">被<u>上挑斩</u>击中的敌人将会在半空中爆炸，受到一次额外伤害</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>烟火爆破</b><br>(Fireworks)</font><br><br><font color=\"BBBBBB\">被<u>上挑斩</u>击中的敌人将会在半空中爆炸，受到一次额外伤害</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Flyby_Jab": {
     "name": "冲锋刺击",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>冲锋刺击</b><br>(Flyby Jab)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>期间将会对路径上的敌人造成伤害</font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"#FCDE4C\"><b>冲锋刺击</b><br>(Flyby Jab)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>期间将会对路径上的敌人造成伤害</font>"
   },
   "Flaming_Uppercut": {
     "name": "烈焰挑斩",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>烈焰挑斩</b><br>(Flaming Uppercut)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>将会点燃命中的敌人，使其每<font color=\"white\"> 0.6 </font>秒受到一次伤害      <br><br>燃烧时间：</font>3s      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FCDE4C\"><b>烈焰挑斩</b><br>(Flaming Uppercut)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>将会点燃命中的敌人，使其每<font color=\"white\"> 0.6 </font>秒受到一次伤害      <br><br>燃烧时间：</font>3s      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Half-Moon_Swipe": {
     "name": "半月横扫",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>半月横扫</b><br>(Half-Moon Swipe)</font><br><br><font color=\"BBBBBB\"><u>半月斩</u>将以更长、更高的角度进行横扫，但是整体伤害减少      <br><br>法力消耗：<font color=\"white\">-5</font><br>攻击范围：</font>+1.5格      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>半月横扫</u>的竖直角度从80°提升至100°</font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>半月横扫</b><br>(Half-Moon Swipe)</font><br><br><font color=\"BBBBBB\"><u>半月斩</u>将以更长、更高的角度进行横扫，但减少部分伤害      <br><br>法力消耗：<font color=\"white\">-5</font><br>攻击范围：</font>+1.5格      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>半月横扫</u>的竖直角度从80°提升至100°</font>"
   },
   "Iron_Lungs": {
     "name": "钢铁之肺",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>钢铁之肺</b><br>(Iron Lungs)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>和<u>声浪</u>将会造成更多伤害</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"FCDE4C\"><b>钢铁之肺</b><br>(Iron Lungs)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>和<u>声浪</u>将会造成更多伤害</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
-  "多面手": {
+  "Generalist": {
     "name": "多面手",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>多面手</b><br>(多面手)</font><br><br><font color=\"BBBBBB\">当连续使用<font color=\"WHITE\"> 3 </font>个不同技能时，你的下一个技能仅需<font color=\"white\"> 1 </font>点技能消耗      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>多面手</u>减耗的技能依旧计入使用列表中，意味着下一个1技能消耗的技能只需要额外使用2次不同技能</font>"
+    "description": "<font color=\"FF5555\"><b>多面手</b><br>(Generalist)</font><br><br><font color=\"BBBBBB\">当连续使用<font color=\"WHITE\"> 3 </font>个不同技能时，你的下一个技能仅需<font color=\"white\"> 1 </font>点技能消耗      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>多面手</u>减耗的技能依旧计入使用列表中，意味着下一个1技能消耗的技能只需要额外使用2次不同技能</font>"
   },
   "Air_Shout": {
     "name": "声浪",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>声浪</b><br>(Air Shout)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>将会射出一道可穿透墙体的声波，其会对穿过的怪物每<font color=\"white\"> 0.1 </font>秒造成1次伤害      <br><br>攻击范围：</font>32格      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>声浪</b><br>(Air Shout)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>将会射出一道可穿透墙体的声波，其会对穿过的怪物每<font color=\"white\"> 0.1 </font>秒造成1次伤害      <br><br>射程：</font>32格      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
-  "神圣披风": {
+  "Mental_of_the_Bovemists": {
     "name": "神圣披风",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>神圣披风</b><br>(神圣披风)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>后，在自身周围生成一块神圣的披风，其可以为你接下来受到的<font color=\"white\"> 3 </font>次攻击抵挡<font color=\"white\"> 70% </font>的伤害      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">在<u>神圣披风</u>抵挡攻击后，接下来的0.5秒内减伤效果依然存在。</font>"
+    "description": "<font color=\"FF5555\"><b>神圣披风</b><br>(Mental of the Bovemists)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>后，在自身周围生成一块神圣的披风，其可以为你接下来受到的<font color=\"white\"> 3 </font>次攻击抵挡<font color=\"white\"> 70% </font>的伤害      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">在<u>神圣披风</u>抵挡攻击后，接下来的0.5秒内减伤效果依然存在。</font>"
   },
-  "Bak'al's Grasp": {
+  "Bak'al's_Grasp": {
     "name": "腐化之力",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>腐化之力</b><br>(Bak'al's Grasp)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>将会使你进入<font color=\"aqua\">腐化</font>状态。(15秒冷却)      <br><font color=\"555555\">(潜行时再使用战吼，或切换武器来退出腐化状态)</font><br><br><font color=\"aqua\">腐化</font>期间，你无法受到任何<font color=\"white\">治疗</font>效果。你每失去<font color=\"white\"> 2% </font>的生命值，就会获得 <font color=\"white\">4 </font>点的伤害提升(至多+120)      <br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font>"
+    "description": "<font color=\"FF5555\"><b>腐化之力</b><br>(Bak'al's Grasp)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>将会使你进入<font color=\"aqua\">腐化</font>状态。(10秒冷却)      <br><font color=\"555555\">(潜行时再使用战吼，或切换武器来退出腐化状态)</font><br><br><font color=\"aqua\">腐化</font>期间，你无法受到任何<font color=\"white\">治疗</font>效果。你每失去<font color=\"white\"> 2% </font>的生命值，就会获得 <font color=\"white\">4 </font>点的伤害提升(至多+120)      <br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font>"
   },
   "Spear_Proficiency_II": {
     "name": "长矛精通 II",
@@ -661,15 +661,15 @@
   },
   "Aerodynamics": {
     "name": "灵巧冲锋",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>灵巧冲锋</b><br>(Aerodynamics)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>期间可以自由变更方向</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>灵巧冲锋</b><br>(Aerodynamics)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>期间可以自由变更方向</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
   "Provoke": {
     "name": "挑衅",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>挑衅</b><br>(Provoke)</font><br><br><font color=\"BBBBBB\">受到<u>战吼</u>攻击的敌人将会在<font color=\"white\"> 8 </font>秒内把仇恨转移到你身上(10秒冷却)      <br><br>法力消耗：</font>-5    "
+    "description": "<font color=\"FCDE4C\"><b>挑衅</b><br>(Provoke)</font><br><br><font color=\"BBBBBB\">受到<u>战吼</u>攻击的敌人将会在<font color=\"white\"> 8 </font>秒内把仇恨转移到你身上(10秒冷却)      <br><br>法力消耗：</font>-5    "
   },
   "Precise_Strikes": {
     "name": "精准打击",
@@ -679,15 +679,15 @@
   },
   "Counter": {
     "name": "借力打力",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>借力打力</b><br>(Counter)</font><br><br><font color=\"BBBBBB\">成功闪避敌人的伤害时，有<font color=\"white\"> 30% </font>的概率免疫此次伤害并立刻进行一次反击</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>借力打力</b><br>(Counter)</font><br><br><font color=\"BBBBBB\">成功闪避敌人的伤害时，有<font color=\"white\"> 30% </font>的概率免疫此次伤害并立刻进行一次反击</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
   "Manachism": {
     "name": "法力吸收",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>法力吸收</b><br>(Manachism)</font><br><br><font color=\"BBBBBB\">受到伤害时，若此次伤害低于自身血量的<font color=\"WHITE\"> 5% </font>，则回复<font color=\"white\"> 10点 </font>法力(冷却1秒)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>法力吸收</b><br>(Manachism)</font><br><br><font color=\"BBBBBB\">受到伤害时，若此次伤害低于自身血量的<font color=\"WHITE\"> 5% </font>，则回复<font color=\"white\"> 10 </font>点法力(冷却1秒)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Enraged_Blow": {
     "name": "怒火强袭",
@@ -697,9 +697,9 @@
   },
   "Flying_Kick": {
     "name": "飞踢",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>飞踢</b><br>(Flying Kick)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>期间撞到怪物时，会立即停下，并将怪物踢飞</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">你可以通过往旁边看或向上看来穿过怪物，避免停下</font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>飞踢</b><br>(Flying Kick)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>期间撞到怪物时，会立即停下，并将怪物踢飞</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">你可以通过往旁边看或向上看来穿过怪物，避免停下</font>"
   },
   "Stronger_Mantle": {
     "name": "圣域披风",
@@ -723,7 +723,7 @@
     "name": "嗜血",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>嗜血</b><br>(Intoxicating Blood)</font><br><br><font color=\"BBBBBB\">解除<font color=\"aqua\">腐化</font>状态时，当次<font color=\"aqua\">腐化</font>期间每击杀1个敌人都会使你恢复<font color=\"white\"> 5% </font>的血量</font>"
+    "description": "<font color=\"FCDE4C\"><b>嗜血</b><br>(Intoxicating Blood)</font><br><br><font color=\"BBBBBB\">解除<font color=\"aqua\">腐化</font>状态时，当次<font color=\"aqua\">腐化</font>期间每次击打敌怪或击杀敌怪都会使你恢复<font color=\"white\"> 2.5% </font>的已损失血量</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">击打敌怪存在0.5秒的冷却，而击杀敌怪没有冷却。</font>"
   },
   "Cheaper_War_Scream_I": {
     "name": "战吼减耗 I",
@@ -737,17 +737,17 @@
     "category": "small",
     "description": "<font color=\"#FFFFFF\"><b>净化之风</b><br>(Cleansing Breeze)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>将会解除你自身及路径上的友军身上所有的负面效果与燃烧状态(3秒冷却)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
-  "Stronger_Bash": {
-    "name": "重击强化",
+  "Crushing_Blow": {
+    "name": "毁灭打击",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>重击强化</b><br>(Stronger Bash)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的技能伤害<font color=\"FFFFFF\"> +30%</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>毁灭打击</b><br>(Crushing Blow)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的技能伤害<font color=\"FFFFFF\"> +30%</font></font>"
   },
   "Boiling_Blood": {
     "name": "沸血",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>沸血</b><br>(Boiling Blood)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的第一段攻击会在地上留下一片沸血，对其上方的敌人每<font color=\"white\"> 0.4秒 </font>造成一次伤害，并持续造成<font color=\"white\"> 20% </font>减速效果      <br><br>持续时间：</font>3秒    "
+    "description": "<font color=\"FCDE4C\"><b>沸血</b><br>(Boiling Blood)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的第一段攻击会在地上留下一片沸血，对其上方的敌人每<font color=\"white\"> 0.4秒 </font>造成一次伤害，并持续造成<font color=\"white\"> 20% </font>减速效果      <br><br>持续时间：</font>3秒    "
   },
   "Ragnarokkr": {
     "name": "诸神黄昏",
@@ -759,7 +759,7 @@
     "name": "动能定律",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>动能定律</b><br>(Collide)</font><br><br><font color=\"BBBBBB\">被<u>飞踢</u>命中而撞到墙壁的敌人将造成一次爆炸，受到额外伤害</font>"
+    "description": "<font color=\"FCDE4C\"><b>动能定律</b><br>(Collide)</font><br><br><font color=\"BBBBBB\">被<u>飞踢</u>命中而撞到墙壁的敌人将造成一次爆炸，受到额外伤害</font>"
   },
   "再生皮肤": {
     "name": "再生皮肤",
@@ -771,7 +771,7 @@
     "name": "彗星陨落",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>彗星陨落</b><br>(Comet)</font><br><br><font color=\"BBBBBB\">被<u>烟火爆破</u>击中的敌人，将会被砸向地面，并在落地时受到额外伤害</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>彗星陨落</b><br>(Comet)</font><br><br><font color=\"BBBBBB\">被<u>烟火爆破</u>击中的敌人，将会被砸向地面，并在落地时受到额外伤害</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Uncontainable_Corruption": {
     "name": "狂野腐化",
@@ -795,7 +795,7 @@
     "name": "秘银皮肤",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>秘银皮肤</b><br>(Mythril Skin)</font><br><br><font color=\"BBBBBB\">你的基础抗性<font color=\"white\"> +5% </font>，同时你不再会受到击退效果的影响</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>秘银皮肤</b><br>(Mythril Skin)</font><br><br><font color=\"BBBBBB\">你的基础抗性<font color=\"white\"> +5% </font>，同时你不再会受到击退效果的影响</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Armour_Breaker": {
     "name": "破甲攻击",
@@ -805,9 +805,9 @@
   },
   "Shield_Strike": {
     "name": "盾牌打击",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>盾牌打击</b><br>(Shield Strike)</font><br><br><font color=\"BBBBBB\">当<u>神圣披风</u>耗尽所有防御次数后，对周围的敌人根据已损失的盾牌数量，造成伤害</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>盾牌打击</b><br>(Shield Strike)</font><br><br><font color=\"BBBBBB\">每当<u>神圣披风</u>被破坏一次时，获得一层破损盾牌。<br><br>对敌人使用<u>重击</u>会将所有的破损盾牌进行发射，对周围的敌怪造成伤害。</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Sparkling_Hope": {
     "name": "闪烁的希望",
@@ -825,7 +825,7 @@
     "name": "暴风战吼",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>暴风战吼</b><br>(Tempest)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>将造成<font color=\"white\"> 3 </font>次大范围的伤害</font>"
+    "description": "<font color=\"FCDE4C\"><b>暴风战吼</b><br>(Tempest)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>将造成<font color=\"white\"> 3 </font>次大范围的伤害</font>"
   },
   "Spirit_of_the_Rabbit": {
     "name": "动如脱兔",
@@ -837,7 +837,7 @@
     "name": "无情屠戮",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>无情屠戮</b><br>(Massacre)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，若你的总攻击速度为慢(slow)及以下，使用<u>普通攻击</u>命中敌人会增加你<font color=\"white\"> 4% </font>的<font color=\"aqua\">腐化进度</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>无情屠戮</u>获得的额外腐化进度可以影响例如<u>怒火强袭</u>、<u>巨大重击</u>等需要消耗生命值来增加效果的技能，换句话说就是可以无需承伤来增加卖血进度</font>"
+    "description": "<font color=\"FCDE4C\"><b>无情屠戮</b><br>(Massacre)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，若你的总攻击速度为慢(slow)及以下，使用<u>普通攻击</u>命中敌人会增加你<font color=\"white\"> 4% </font>的<font color=\"aqua\">腐化进度</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>无情屠戮</u>获得的额外腐化进度可以影响例如<u>怒火强袭</u>、<u>巨大重击</u>等需要消耗生命值来增加效果的技能，换句话说就是可以无需承伤来增加卖血进度</font>"
   },
   "Axe_Kick": {
     "name": "斧击",
@@ -873,7 +873,7 @@
     "name": "气旋",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>气旋</b><br>(Cyclone)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>后，以旋风围绕自身，对周围的敌人每<font color=\"white\"> 0.5秒 </font>造成一次伤害。      <br><br>持续时间：</font>20秒      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>气旋</b><br>(Cyclone)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>后，以旋风围绕自身，对周围的敌人每<font color=\"white\"> 0.5秒 </font>造成一次伤害。      <br><br>持续时间：</font>20秒      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
   "Stronger_Sacred_Surge": {
     "name": "神圣浪潮",
@@ -891,13 +891,13 @@
     "name": "天雷破",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>天雷破</b><br>(Thunderclap)</font><br><br><font color=\"BBBBBB\"><u>重击</u>现在将全部以自身为释放中心，并且加倍释放速度，增加攻击范围</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>天雷破</b><br>(Thunderclap)</font><br><br><font color=\"BBBBBB\"><u>重击</u>现在将全部以自身为释放中心，并且加倍释放速度，增加攻击范围</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
-  "血之契约": {
+  "Blood_Pact": {
     "name": "血之契约",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>血之契约</b><br>(血之契约)</font><br><br><font color=\"BBBBBB\">当你没有足够的法力使用技能时，你可以消耗血量来使用      <br>每点法力消耗 <font color=\"WHITE\"> 0.4% </font>的生命值      <br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>血之契约</u>不会使你死亡，最低保留1点血量</font>"
+    "description": "<font color=\"FF5555\"><b>血之契约</b><br>(Blood Pact)</font><br><br><font color=\"BBBBBB\">当你没有足够的法力使用技能时，你可以消耗血量以替代法力使用技能。      <br>(每点法力消耗 <font color=\"WHITE\"> 0.35% </font>的生命值。)<br><br>若你释放技能消耗了血量，则本次技能伤害<font color=WHITE> +15% </font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>血之契约</u>不会使你死亡，最低保留1点血量</font>"
   },
   "重获生机": {
     "name": "重获生机",
@@ -927,13 +927,13 @@
     "name": "殉道",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>殉道</b><br>(Martyr)</font><br><br><font color=\"BBBBBB\">受到致命伤害时，令周围的友军获得<font color=\"white\"> 3秒 </font>的无敌效果</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>殉道</b><br>(Martyr)</font><br><br><font color=\"BBBBBB\">受到致命伤害时，令周围的友军获得<font color=\"white\"> 3秒 </font>的无敌效果</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Meteor": {
     "name": "陨石",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>陨石</b><br>(Meteor)</font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br/><br/><font color=\"BBBBBB\">召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">50</font><br/>召唤范围：<font color=\"white\">18格</font><br/>爆炸范围：<font color=\"white\">5格</font><br><br><font color=ORANGE><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Comet</font><br>爆炸范围额外 <font color=white>+0.65/+1.15/+1.65/+2</font></font>"
+    "description": "<font color=\"#00BB00\"><b>陨石</b><br>(Meteor)</font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br/><br/><font color=\"BBBBBB\">召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">50</font><br/>召唤范围：<font color=\"white\">18格</font><br/>爆炸范围：<font color=\"white\">5格</font><br><br><font color=FCDE4C><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Comet</font><br>爆炸范围额外 <font color=white>+0.65/+1.15/+1.65/+2</font></font>"
   },
   "Wand_Proficiency_I": {
     "name": "法杖精通 I",
@@ -951,31 +951,31 @@
     "name": "流星",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>流星</b><br>(Shooting Star)</font><br/><br/><font color=\"BBBBBB\">大幅增加<u>陨石</u>的下落速度</font>"
+    "description": "<font color=\"FCDE4C\"><b>流星</b><br>(Shooting Star)</font><br/><br/><font color=\"BBBBBB\">大幅增加<u>陨石</u>的下落速度</font>"
   },
   "Wand_Proficiency_II": {
     "name": "法杖精通 II",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>法杖精通 II</b><br>(Wand Proficiency)</font><br/><br/><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br/><br/>攻击范围：</font>+2格<br><br><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>法杖精通 II</b><br>(Wand Proficiency)</font><br/><br/><font color=\"BBBBBB\">增加<u>普通攻击</u>的伤害及攻击范围      <br/><br/>攻击范围：</font>+2格<br><br><font color=\"55FFFF\"><b>时空行者 分支</b></font>"
   },
   "Teleport": {
     "name": "传送",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>传送</b><br>(Teleport)<br></font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br/><br/><font color=\"BBBBBB\">立即向你面朝的方向传送一段距离<br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">25</font><br/>传送距离：<font color=\"white\">16格</font><br><br><font color=ORANGE><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Dimension's Door</font><br>传送距离额外 <font color=white>+2/+3.5/+5/+6</font>"
+    "description": "<font color=\"#00BB00\"><b>传送</b><br>(Teleport)<br></font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br/><br/><font color=\"BBBBBB\">立即向你面朝的方向传送一段距离<br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">25</font><br/>传送距离：<font color=\"white\">16格</font><br><br><font color=FCDE4C><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Dimension's Door</font><br>传送距离额外 <font color=white>+2/+3.5/+5/+6</font>"
   },
   "Wisdom": {
     "name": "智慧",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>智慧</b><br>(Wisdom)</font><br/><br/><font color=\"BBBBBB\">你每从装备或物品上得到<font color=\"FFFFFF\"> 2% </font>或<font color=\"FFFFFF\"> 2点 </font>法术伤害加成，就额外增加<font color=\"FFFFFF\"> 1/5s </font>法力回复(上限5/5s)</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>智慧</b><br>(Wisdom)</font><br/><br/><font color=\"BBBBBB\">你每从装备或物品上得到<font color=\"FFFFFF\"> 2% </font>或<font color=\"FFFFFF\"> 2点 </font>法术伤害加成，就额外增加<font color=\"FFFFFF\"> 1/5s </font>法力回复(上限5/5s)</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "Heal": {
     "name": "治疗",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>治疗</b><br>(Heal)<br></font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br/><br/><font color=\"BBBBBB\">对大范围内的友军及自己进行治疗</font><font color=\"555555\"><br/>(治疗其他人时，单次至多恢复其生命值上限的30%)</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">35</font><br/>治疗效果：<font color=\"white\">15%</font><font color=\"555555\">(你的最大生命值)</font><br/>治疗范围：<font color=\"white\">5格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>治疗</b><br>(Heal)<br></font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br/><br/><font color=\"BBBBBB\">对大范围内的友军及自己进行治疗</font><font color=\"555555\"><br/>(治疗其他人时，单次至多恢复其生命值上限的30%)</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">35</font><br/>治疗效果：<font color=\"white\">15%</font><font color=\"555555\">(你的最大生命值)</font><br/>治疗范围：<font color=\"white\">5格</font></font>"
   },
   "Cheaper_Teleport_I": {
     "name": "传送减耗 I",
@@ -987,7 +987,7 @@
     "name": "冰蛇",
     "icon": "/assets/img/class/mage_green.png",
     "category": "mage_green",
-    "description": "<font color=\"#00BB00\"><b>冰蛇</b><br>(Ice Snake)<br></font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br/><br/><font color=\"BBBBBB\">召唤一条快速移动的冰蛇来对敌人造成伤害，并造成减速效果。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br/>范围：<font color=\"white\">18格</font><br/>伤害范围：<font color=\"white\">2格</font><br/>减速效果：<font color=\"white\">+40%</font><br/>持续时间：<font color=\"white\">3秒</font></font>"
+    "description": "<font color=\"#00BB00\"><b>冰蛇</b><br>(Ice Snake)<br></font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br/><br/><font color=\"BBBBBB\">召唤一条快速移动的冰蛇来对敌人造成伤害，并造成减速效果。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br/>范围：<font color=\"white\">18格</font><br/>伤害范围：<font color=\"white\">2格</font><br/>减速效果：<font color=\"white\">+40%</font><br/>持续时间：<font color=\"white\">3秒</font></font>"
   },
   "Air_Mastery_(Mage)": {
     "name": "气元素精通",
@@ -1065,7 +1065,7 @@
     "name": "座天使",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=FF5555><b>座天使</b><br>(Ophanim)</font><br><br><font color = BBBBBB>使用<u>陨石</u>时，改为召唤<font color=white> 2 </font>个光之宝珠(光球)，它们会在你使用<u>普通攻击</u>时一起攻击，且拥有<font color=white> 200 </font>点生命值<br><br>当其对敌人造成伤害时，损失<font color=white> 20% </font>生命值，但可以被你治疗<br><br>法力消耗：<font color=FF5555>+30</font><br><br><font color=WHITE><b>圣光使者 分支</b></font><br><br><font color=ORANGE><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Comet</font><br>光球的攻击距离 <font color=white>+2.5/+4.5/+6.5/+8</font><br>光球的飞行速度 <font color=white>+11%/+21%/+29%/+37%</font><br><br><font color=AA00AA>- Light Bender's Aspect</font><br>光球额外召唤 <font color=white>0/1/1</font> 个<br><br><font color=00FF00>备注</font><br><font color = BBBBBB>治疗光球计入部分技能的治疗量需求。<br><br>光球颜色代表当前血量，绿色为70%以上，黄色为50%-70%，红色为50%以下，同时当光球不攻击时，每秒流失1%的生命值</font></font>"
+    "description": "<font color=FF5555><b>座天使</b><br>(Ophanim)</font><br><br><font color = BBBBBB>使用<u>陨石</u>时，改为召唤<font color=white> 2 </font>个光之宝珠(光球)，它们会在你使用<u>普通攻击</u>时一起攻击，且拥有<font color=white> 200 </font>点生命值<br><br>当其对敌人造成伤害时，损失<font color=white> 20% </font>生命值，但可以被你治疗<br><br>法力消耗：<font color=FF5555>+30</font><br><br><font color=WHITE><b>圣光使者 分支</b></font><br><br><font color=FCDE4C><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Comet</font><br>光球的攻击距离 <font color=white>+2.5/+4.5/+6.5/+8</font><br>光球的飞行速度 <font color=white>+11%/+21%/+29%/+37%</font><br><br><font color=AA00AA>- Light Bender's Aspect</font><br>光球额外召唤 <font color=white>0/1/1</font> 个<br><br><font color=00FF00>备注</font><br><font color = BBBBBB>治疗光球计入部分技能的治疗量需求。<br><br>光球颜色代表当前血量，绿色为70%以上，黄色为50%-70%，红色为50%以下，同时当光球不攻击时，每秒流失1%的生命值</font></font>"
   },
   "Cheaper_Heal_I": {
     "name": "治疗减耗 I",
@@ -1137,7 +1137,7 @@
     "name": "闪烁",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>闪烁</b><br>(Blink)</font><br/><br/><font color=\"BBBBBB\"><u>传送</u>将额外释放一次      <br/><br/>传送范围：</font><font color=\"FF5555\">-4</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">两次传送间隔为<font color=\"white\"> 0.5秒 </font>，同时你能在此期间快速调换方向来改变传送方向</font>"
+    "description": "<font color=\"FCDE4C\"><b>闪烁</b><br>(Blink)</font><br/><br/><font color=\"BBBBBB\"><u>传送</u>将额外释放一次      <br/><br/>传送范围：</font><font color=\"FF5555\">-4</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">两次传送间隔为<font color=\"white\"> 0.5秒 </font>，同时你能在此期间快速调换方向来改变传送方向</font>"
   },
   "Freezing_Sigil": {
     "name": "冰封纹章",
@@ -1155,7 +1155,7 @@
     "name": "蛇巢",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>蛇巢</b><br>(Snake Nest)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>将召唤出<font color=\"white\"> 3 </font>条冰蛇<br><br><font color=ORANGE><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Cone of Cold</font><br>冰蛇的数量额外 <font color=white>+2/+4/+6/+8</font><br>冰蛇扩散的角度 <font color=white>+10°/+20°/+30°/+40°</font></font>"
+    "description": "<font color=\"FF55FF\"><b>蛇巢</b><br>(Snake Nest)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>将召唤出<font color=\"white\"> 3 </font>条冰蛇<br><br><font color=FCDE4C><b>Aspect效果</b></font><br><font color=aqua>- Aspect of the Cone of Cold</font><br>冰蛇的数量额外 <font color=white>+2/+4/+6/+8</font><br>冰蛇扩散的角度 <font color=white>+10°/+20°/+30°/+40°</font></font>"
   },
   "Seance": {
     "name": "通灵",
@@ -1185,7 +1185,7 @@
     "name": "奥术回复",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>奥术回复</b><br>(Arcane Restoration)</font><br/><br/><font color=\"BBBBBB\"><u>驭火术</u>在命中敌人后的<font color=white> 2.5秒 </font>内，每<font color=\"white\"> 0.25秒 </font>往<font color=\"aqua\">法力储备</font>中填充<font color=\"white\"> 1 </font>点法力<br/><font color=\"AA00AA\"><br><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>奥术回复</b><br>(Arcane Restoration)</font><br/><br/><font color=\"BBBBBB\"><u>驭火术</u>在命中敌人后的<font color=white> 2.5秒 </font>内，每<font color=\"white\"> 0.25秒 </font>往<font color=\"aqua\">法力储备</font>中填充<font color=\"white\"> 1 </font>点法力<br/><font color=\"AA00AA\"><br><b>奥术法师 分支</b></font>"
   },
   "Incandescence": {
     "name": "白炽",
@@ -1203,13 +1203,13 @@
     "name": "圣光领域",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>圣光领域</b><br>(Lightweaver)</font><br/><br/><font color=\"BBBBBB\">在<font color=\"WHITE\"> 10秒 </font>内造成自身最大生命值<font color=\"WHITE\"> 50% </font>的治疗量后，召唤一颗环绕于自身的光球，对接触的敌人造成伤害(至多召唤3颗)      <br/><br/>持续时间：<font color=\"WHITE\">20秒</font><br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font><br><br><font color=ORANGE><b>Aspect效果</b></font><br><font color=AA00AA>- Light Bender's Aspect</font><br>环绕光球额外召唤 <font color=white>2/2/3</font> 个</font>"
+    "description": "<font color=\"FF5555\"><b>圣光领域</b><br>(Lightweaver)</font><br/><br/><font color=\"BBBBBB\">在<font color=\"WHITE\"> 10秒 </font>内造成自身最大生命值<font color=\"WHITE\"> 50% </font>的治疗量后，召唤一颗环绕于自身的光球，对接触的敌人造成伤害(至多召唤3颗)      <br/><br/>持续时间：<font color=\"WHITE\">20秒</font><br/><br/><font color=\"WHITE\"><b>圣光使者 分支</b></font><br><br><font color=FCDE4C><b>Aspect效果</b></font><br><font color=AA00AA>- Light Bender's Aspect</font><br>环绕光球额外召唤 <font color=white>2/2/3</font> 个</font>"
   },
   "Arcane_Speed": {
     "name": "极速奥术",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>极速奥术</b><br>(Arcane Speed)</font><br/><br/><font color=\"BBBBBB\">在使用<u>治疗</u>或<u>奥术转换</u>后，获得持续<font color=\"white\"> 4秒 </font>的<font color=\"white\"> 80% </font>速度加成</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>极速奥术</b><br>(Arcane Speed)</font><br/><br/><font color=\"BBBBBB\">在使用<u>治疗</u>或<u>奥术转换</u>后，获得持续<font color=\"white\"> 4秒 </font>的<font color=\"white\"> 80% </font>速度加成</font><br/><br/><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "Larger_Mana_Bank_II": {
     "name": "魔能蓄流 II",
@@ -1263,7 +1263,7 @@
     "name": "蛇疾如风",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>蛇疾如风</b><br>(Gust)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>命中敌人时，叠加三层<font color=\"aqua\">风印(winded)</font>，同时造成更多伤害</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>蛇疾如风</u>与<u>普通攻击</u>的<font color=\"aqua\">风印(winded)</font>堆叠冷却是一起计算的。<br/><br/>被<u>蛇巢</u>的多条蛇命中的敌人仅计算1次额外伤害和1层<font color=\"aqua\">风印(winded)</font>。</font>"
+    "description": "<font color=\"FCDE4C\"><b>蛇疾如风</b><br>(Gust)</font><br/><br/><font color=\"BBBBBB\"><u>冰蛇</u>命中敌人时，叠加三层<font color=\"aqua\">风印(winded)</font>，同时造成更多伤害</font><br/><br/><font color=\"55FFFF\"><b>时空行者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>蛇疾如风</u>与<u>普通攻击</u>的<font color=\"aqua\">风印(winded)</font>堆叠冷却是一起计算的。<br/><br/>被<u>蛇巢</u>的多条蛇命中的敌人仅计算1次额外伤害和1层<font color=\"aqua\">风印(winded)</font>。</font>"
   },
   "Augury": {
     "name": "先兆",
@@ -1287,7 +1287,7 @@
     "name": "奥术之力",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>奥术之力</b><br>(Arcane Power)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>与<u>传送斩击</u>现在会在每次命中敌人时额外向<font color=\"aqua\">法力储备</font>增加<font color=\"FFFFFF\"> 8 </font>点法力。当<u>雷暴</u>生效时，<u>陨石</u>仅增加<font color=\"FFFFFF\"> 2 </font>点法力<br/><br/><u>奥术回复</u>的回蓝时间减少<font color=white> 0.1 </font>秒。<br><br></font><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>奥术之力</b><br>(Arcane Power)</font><br/><br/><font color=\"BBBBBB\"><u>陨石</u>与<u>冰蛇</u>与<u>传送斩击</u>现在会在每次命中敌人时额外向<font color=\"aqua\">法力储备</font>增加<font color=\"FFFFFF\"> 8 </font>点法力。当<u>雷暴</u>生效时，<u>陨石</u>仅增加<font color=\"FFFFFF\"> 2 </font>点法力<br/><br/><u>奥术回复</u>的回蓝时间减少<font color=white> 0.1 </font>秒。<br><br></font><font color=\"AA00AA\"><b>奥术法师 分支</b></font>"
   },
   "More_Winded_II": {
     "name": "风印涌动 II",
@@ -1365,7 +1365,7 @@
     "name": "回旋斩",
     "icon": "/assets/img/class/assassin_green.png",
     "category": "assassin_green",
-    "description": "<font color=\"#00BB00\"><b>回旋斩</b><br>(Spin Attack)</font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br/><br/><font color=\"BBBBBB\">快速对周围进行斩击，对大范围的区域造成伤害。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br/>范围：<font color=\"white\">4.5格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>回旋斩</b><br>(Spin Attack)</font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br/><br/><font color=\"BBBBBB\">快速对周围进行斩击，对大范围的区域造成伤害。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br/>范围：<font color=\"white\">4.5格</font></font>"
   },
   "Cheaper_Spin_Attack_I": {
     "name": "回旋斩减耗 I",
@@ -1383,7 +1383,7 @@
     "name": "再斩",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>再斩</b><br>(Double Spin)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>将斩击两次且每次伤害降低，第二次斩击的范围更大</font>"
+    "description": "<font color=\"FCDE4C\"><b>再斩</b><br>(Double Spin)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>将斩击两次且每次伤害降低，第二次斩击的范围更大</font>"
   },
   "Poisoned_Blade": {
     "name": "淬毒之刃",
@@ -1395,7 +1395,7 @@
     "name": "突进",
     "icon": "/assets/img/class/assassin_green.png",
     "category": "assassin_green",
-    "description": "<font color=\"#00BB00\"><b>突进</b><br>(Dash)</font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br/><br/><font color=\"BBBBBB\">向前方进行突进</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">20</font></font>"
+    "description": "<font color=\"#00BB00\"><b>突进</b><br>(Dash)</font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br/><br/><font color=\"BBBBBB\">向前方进行突进</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">20</font></font>"
   },
   "Double_Slice": {
     "name": "双重打击",
@@ -1407,7 +1407,7 @@
     "name": "烟雾弹",
     "icon": "/assets/img/class/assassin_green.png",
     "category": "assassin_green",
-    "description": "<font color=\"#00BB00\"><b>烟雾弹</b><br>(Smoke Bomb)</font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br/><br/><font color=\"BBBBBB\">投掷烟雾弹，对范围内的敌人每0.5秒造成一次伤害。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">35</font><br/>范围：<font color=\"white\">10格</font><br/>持续时间：<font color=\"white\">5s</font><br/>烟雾范围：<font color=\"white\">3格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>烟雾弹</b><br>(Smoke Bomb)</font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br/><br/><font color=\"BBBBBB\">投掷烟雾弹，对范围内的敌人每0.5秒造成一次伤害。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">35</font><br/>范围：<font color=\"white\">10格</font><br/>持续时间：<font color=\"white\">5s</font><br/>烟雾范围：<font color=\"white\">3格</font></font>"
   },
   "Cheaper_Dash_I": {
     "name": "突进减耗 I",
@@ -1419,7 +1419,7 @@
     "name": "多重斩",
     "icon": "/assets/img/class/assassin_green.png",
     "category": "assassin_green",
-    "description": "<font color=\"#00BB00\"><b>多重斩</b><br>(Multihit)</font><br/><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br/><br/><font color=\"BBBBBB\">对前方敌人进行连续8次斩击，造成高额伤害。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br/>范围：<font color=\"white\">3格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>多重斩</b><br>(Multihit)</font><br/><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br/><br/><font color=\"BBBBBB\">对前方敌人进行连续8次斩击，造成高额伤害。</font><br/><br/><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br/>范围：<font color=\"white\">3格</font></font>"
   },
   "Earth_Mastery_(Assassin)": {
     "name": "地元素精通",
@@ -1455,13 +1455,13 @@
     "name": "背刺",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>背刺</b><br>(Backstab)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>改为只进行一次更为强力的攻击且耗能<font color=\"FFFFFF\">-5</font>。若于敌人背后使用此技能命中敌人，造成双倍伤害。</font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>背刺</b><br>(Backstab)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>改为只进行一次更为强力的攻击且耗能<font color=\"FFFFFF\">-5</font>。若于敌人背后使用此技能命中敌人，造成双倍伤害。</font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
   },
   "Fatality": {
     "name": "终斩",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>终斩</b><br>(Fatality)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>在连斩结束后额外斩击一次。</font>"
+    "description": "<font color=\"FCDE4C\"><b>终斩</b><br>(Fatality)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>在连斩结束后额外斩击一次。</font>"
   },
   "Vanish": {
     "name": "影逝",
@@ -1473,13 +1473,13 @@
     "name": "粘性炸弹",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>粘性炸弹</b><br>(Sticky Bomb)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>将会粘在敌人身上并造成额外伤害。</font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>粘性炸弹</b><br>(Sticky Bomb)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>将会粘在敌人身上并造成额外伤害。</font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
   },
   "Righting_Reflex": {
     "name": "踏云",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>踏云</b><br>(Righting Reflex)</font><br/><br/><font color=\"BBBBBB\">在半空中按住潜行键时，缓慢滑翔并取消摔落伤害。(至多5s)</font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>踏云</b><br>(Righting Reflex)</font><br/><br/><font color=\"BBBBBB\">在半空中按住潜行键时，缓慢滑翔并取消摔落伤害。(至多5s)</font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font>"
   },
   "Surprise_Strike": {
     "name": "奇袭",
@@ -1515,7 +1515,7 @@
     "name": "烟雾幕墙",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>烟雾幕墙</b><br>(Wall of Smoke)</font><br/><br/><font color=\"BBBBBB\">使用<u>烟雾弹</u>时额外丢出两颗烟雾弹，降低每发烟雾弹的伤害</font>"
+    "description": "<font color=\"FCDE4C\"><b>烟雾幕墙</b><br>(Wall of Smoke)</font><br/><br/><font color=\"BBBBBB\">使用<u>烟雾弹</u>时额外丢出两颗烟雾弹，降低每发烟雾弹的伤害</font>"
   },
   "Shenanigans": {
     "name": "智取巧夺",
@@ -1539,7 +1539,7 @@
     "name": "影步",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>影步</b><br>(Shadow Travel)</font><br/><br/><font color=\"BBBBBB\"><u>影逝</u>期间额外增加<font color=\"white\"> 120% </font>的移速。</font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>影步</b><br>(Shadow Travel)</font><br/><br/><font color=\"BBBBBB\"><u>影逝</u>期间额外增加<font color=\"white\"> 120% </font>的移速。</font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
   },
   "Cheaper_Multihit_I": {
     "name": "多重斩减耗 I",
@@ -1563,7 +1563,7 @@
     "name": "诡影缠身",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>诡影缠身</b><br>(Distraction)</font><br/><br/><font color=\"BBBBBB\">每次对敌人造成伤害都会使其伤害降低<font color=\"white\"> 0.1% </font>(最高降低15%)，该效果每秒消散<font color=\"white\"> 0.3% </font></font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>诡影缠身</b><br>(Distraction)</font><br/><br/><font color=\"BBBBBB\">每次对敌人造成伤害都会使其伤害降低<font color=\"white\"> 0.1% </font>(最高降低15%)，该效果每秒消散<font color=\"white\"> 0.3% </font></font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
   },
   "Cheaper_Smoke_Bomb_I": {
     "name": "烟雾弹减耗 I",
@@ -1575,7 +1575,7 @@
     "name": "灼热的刀",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>灼热的刀</b><br>(Blazing Powder)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩击</u>或<u>斩空</u>将造成额外的火属性伤害，且会令敌对目标致盲1s</font>"
+    "description": "<font color=\"FCDE4C\"><b>灼热的刀</b><br>(Blazing Powder)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩击</u>或<u>斩空</u>将造成额外的火属性伤害，且会令敌对目标致盲1s</font>"
   },
   "Weightless": {
     "name": "鹤步",
@@ -1587,19 +1587,19 @@
     "name": "黑洞",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>黑洞</b><br>(Black Hole)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>将会拉扯附近的敌人</font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">只在烟雾弹落地时拉扯一次而非持续拉；效果很华丽所以可能导致卡顿，且并不提升伤害，慎点</font>"
+    "description": "<font color=\"FCDE4C\"><b>黑洞</b><br>(Black Hole)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>将会拉扯附近的敌人</font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">只在烟雾弹落地时拉扯一次而非持续拉；效果很华丽所以可能导致卡顿，且并不提升伤害，慎点</font>"
   },
   "Sandbagging": {
     "name": "假意不敌",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>假意不敌</b><br>(Sandbagging)</font><br/><br/><font color=\"BBBBBB\">当你受到伤害后，若本次伤害量小于你最大生命值的<font color=\"FFFFFF\">5%</font>，你的所有其他技能的冷却减少<font color=\"FFFFFF\">3</font>秒。      <br/><br/>内置CD：<font color=\"white\">1s</font></font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>假意不敌</b><br>(Sandbagging)</font><br/><br/><font color=\"BBBBBB\">当你受到伤害后，若本次伤害量小于你最大生命值的<font color=\"FFFFFF\">5%</font>，你的所有其他技能的冷却减少<font color=\"FFFFFF\">3</font>秒。      <br/><br/>内置CD：<font color=\"white\">1s</font></font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
   },
   "Hop": {
     "name": "雀跃",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>雀跃</b><br>(Hop)</font><br/><br/><font color=\"BBBBBB\">双击跳跃键时，向前飞跃一段距离。<br/><br/>内置CD：<font color=\"white\">2s</font></font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>雀跃</b><br>(Hop)</font><br/><br/><font color=\"BBBBBB\">双击跳跃键时，向前飞跃一段距离。<br/><br/>内置CD：<font color=\"white\">2s</font></font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font>"
   },
   "Flow_State": {
     "name": "奔流形态",
@@ -1611,7 +1611,7 @@
     "name": "杀戮漩涡",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>杀戮漩涡</b><br>(Violent Vortex)</font><br/><br/><font color=\"BBBBBB\">若你造成的单次伤害量大于你最大生命值的<font color=\"WHITE\">1.5倍</font>，令周围所有敌人受到这次伤害量的<font color=\"WHITE\">30%</font>。      <br/><br/>范围：<font color=\"white\">10格</font><br/>内置CD：<font color=\"white\">2s</font></font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>杀戮漩涡</b><br>(Violent Vortex)</font><br/><br/><font color=\"BBBBBB\">若你造成的单次伤害量大于你最大生命值的<font color=\"WHITE\">1.5倍</font>，令周围所有敌人受到这次伤害量的<font color=\"WHITE\">30%</font>。      <br/><br/>范围：<font color=\"white\">10格</font><br/>内置CD：<font color=\"white\">2s</font></font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
   },
   "Delirious_Gas": {
     "name": "怪诞魔雾",
@@ -1665,7 +1665,7 @@
     "name": "厄运磁铁",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>厄运磁铁</b><br>(Death Magnet)</font><br/><br/><font color=\"BBBBBB\"><u>影逝</u>结束时，将大范围的敌人拉向你进入<u>影逝</u>的位置</font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>厄运磁铁</b><br>(Death Magnet)</font><br/><br/><font color=\"BBBBBB\"><u>影逝</u>结束时，将大范围的敌人拉向你进入<u>影逝</u>的位置</font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font>"
   },
   "Cheaper_Dash_II": {
     "name": "突进减耗 I",
@@ -1701,25 +1701,25 @@
     "name": "移花接木",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>移花接木</b><br>(Hoodwink)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>每次命中时，都会将你自身所有负面状态的30%(持续时间的30%)转移给命中的敌人。      <br/><font color=\"aqua\">诱饵</font>也能被该技能转移，但部分BOSS、特殊敌人免疫效果<font color=\"aqua\">诱饵</font></font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>移花接木</b><br>(Hoodwink)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>每次命中时，都会将你自身所有负面状态的30%(持续时间的30%)转移给命中的敌人。      <br/><font color=\"aqua\">诱饵</font>也能被该技能转移，但部分BOSS、特殊敌人免疫效果<font color=\"aqua\">诱饵</font></font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
   },
   "Choke_Bomb": {
     "name": "窒息毒雾",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>窒息毒雾</b><br>(Choke Bomb)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>将对范围内的敌人造成减速。</font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>窒息毒雾</b><br>(Choke Bomb)</font><br/><br/><font color=\"BBBBBB\"><u>烟雾弹</u>将对范围内的敌人造成减速。</font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font>"
   },
   "Wall_Jump": {
     "name": "虎跃",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>虎跃</b><br>(Wall Jump)</font><br/><br/><font color=\"BBBBBB\"><u>雀跃</u>的冷却时间<font color=\"FFFFFF\">-1s</font>，使用<u>雀跃</u>后若碰到墙壁则会借力跳跃(按住潜行可取消)</font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">该技能可产生多次连续跳跃，且反墙跳的方向难以控制。</font>"
+    "description": "<font color=\"FCDE4C\"><b>虎跃</b><br>(Wall Jump)</font><br/><br/><font color=\"BBBBBB\"><u>雀跃</u>的冷却时间<font color=\"FFFFFF\">-1s</font>，使用<u>雀跃</u>后若碰到墙壁则会借力跳跃(按住潜行可取消)</font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">该技能可产生多次连续跳跃，且反墙跳的方向难以控制。</font>"
   },
   "Fatal_Spin": {
     "name": "夺命斩",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>夺命斩</b><br>(Fatal Spin)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>的范围变大且可对命中的敌人附加1层<font color=\"aqua\">刺杀印记</font></font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">该技能依旧受刺杀印记自身的CD影响</font>"
+    "description": "<font color=\"FCDE4C\"><b>夺命斩</b><br>(Fatal Spin)</font><br/><br/><font color=\"BBBBBB\"><u>回旋斩</u>的范围变大且可对命中的敌人附加1层<font color=\"aqua\">刺杀印记</font></font><br/><br/><font color=\"AA0000\"><b>影步者 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">该技能依旧受刺杀印记自身的CD影响</font>"
   },
   "Dissolution": {
     "name": "影遁",
@@ -1761,7 +1761,7 @@
     "name": "狂锋",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>狂锋</b><br>(Blade Fury)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>现在可以瞄准任何方向并会将被命中的目标锁定在你前方，且将造成额外的雷属性伤害</font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">没有该技能点的<u>多重斩</u>只能瞄准水平方向(人话：不能低头打)      <br/>该技能不会增加<u>背刺</u>的伤害</font>"
+    "description": "<font color=\"FCDE4C\"><b>狂锋</b><br>(Blade Fury)</font><br/><br/><font color=\"BBBBBB\"><u>多重斩</u>现在可以瞄准任何方向并会将被命中的目标锁定在你前方，且将造成额外的雷属性伤害</font><br/><br/><font color=\"WHITE\"><b>身法刺 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\">没有该技能点的<u>多重斩</u>只能瞄准水平方向(人话：不能低头打)      <br/>该技能不会增加<u>背刺</u>的伤害</font>"
   },
   "More_Marks": {
     "name": "刺杀狂潮",
@@ -1773,7 +1773,7 @@
     "name": "助战分身",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>助战分身</b><br>(Stronger Clones)</font><br/><br/><font color=\"BBBBBB\">当你至少存在一个<font color=\"aqua\">暗影分身</font>时，提升你自己造成的伤害。</font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>镜像回响</u>决定了分身的输出会继承本体的伤害倍率，请注意。</font>"
+    "description": "<font color=\"FCDE4C\"><b>助战分身</b><br>(Stronger Clones)</font><br/><br/><font color=\"BBBBBB\">当你至少存在一个<font color=\"aqua\">暗影分身</font>时，提升你自己造成的伤害。</font><br/><br/><font color=\"FF55FF\"><b>幻术师 分支</b></font><br/><br/><font color=\"00FF00\">备注</font><br/><font color=\"BBBBBB\"><u>镜像回响</u>决定了分身的输出会继承本体的伤害倍率，请注意。</font>"
   },
   "Ricochets": {
     "name": "弹星",
@@ -1833,7 +1833,7 @@
     "name": "图腾",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>图腾</b><br>(Totem)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤并投掷一个<u>图腾</u>，落地后对大范围内的敌人每0.4秒造成一次伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">8格</font><br>持续时间：<font color=\"white\">12s</font></font>"
+    "description": "<font color=\"#00BB00\"><b>图腾</b><br>(Totem)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤并投掷一个<u>图腾</u>，落地后对大范围内的敌人每0.4秒造成一次伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">8格</font><br>持续时间：<font color=\"white\">12s</font></font>"
   },
   "Relik_Proficiency_I": {
     "name": "图腾精通 I",
@@ -1851,19 +1851,19 @@
     "name": "图腾冲击",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>图腾冲击</b><br>(Totemic Smash)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>落地后对小范围内的敌人造成伤害。</font>"
+    "description": "<font color=\"FCDE4C\"><b>图腾冲击</b><br>(Totemic Smash)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>落地后对小范围内的敌人造成伤害。</font>"
   },
   "Distant_Grasp": {
     "name": "收束之握",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>收束之握</b><br>(Distant Grasp)</font><br><br><font color=\"BBBBBB\">降低你的<u>普通攻击</u>发出的射线之间的夹角，并提升射线的飞行速度</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>收束之握</b><br>(Distant Grasp)</font><br><br><font color=\"BBBBBB\">降低你的<u>普通攻击</u>发出的射线之间的夹角，并提升射线的飞行速度</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Haul": {
     "name": "牵引",
     "icon": "/assets/img/class/shaman_green.png",
     "category": "shaman_green",
-    "description": "<font color=\"#00BB00\"><b>牵引</b><br>(Haul)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">向你最后丢出的<u>图腾</u>所在的位置跳跃一段距离</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">15</font></font>"
+    "description": "<font color=\"#00BB00\"><b>牵引</b><br>(Haul)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 右键</font><br><br><font color=\"BBBBBB\">向你最后丢出的<u>图腾</u>所在的位置跳跃一段距离</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">15</font></font>"
   },
   "Hand_of_the_Shaman": {
     "name": "祭司之握",
@@ -1875,7 +1875,7 @@
     "name": "铲除",
     "icon": "/assets/img/class/shaman_green.png",
     "category": "shaman_green",
-    "description": "<font color=\"#00BB00\"><b>铲除</b><br>(Uproot)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">释放一道攻击，命中后爆炸对敌人造成伤害并击退。      <br>按住潜行键释放时，击退改为向你的位置拉扯</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">18格</font><br>爆炸范围：<font color=\"white\">5格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>铲除</b><br>(Uproot)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 右键 - 左键</font><br><br><font color=\"BBBBBB\">释放一道攻击，命中后爆炸对敌人造成伤害并击退。      <br>按住潜行键释放时，击退改为向你的位置拉扯</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">18格</font><br>爆炸范围：<font color=\"white\">5格</font></font>"
   },
   "Cheaper_Haul_I": {
     "name": "牵引减耗 I",
@@ -1887,19 +1887,19 @@
     "name": "光环",
     "icon": "/assets/img/class/shaman_green.png",
     "category": "shaman_green",
-    "description": "<font color=\"#00BB00\"><b>光环</b><br>(Aura)</font><br><font color=\"ORANGE\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">令<u>图腾</u>释放向外扩散的光环，对敌人造成伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>范围：<font color=\"white\">16格</font></font>"
+    "description": "<font color=\"#00BB00\"><b>光环</b><br>(Aura)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">令<u>图腾</u>释放向外扩散的光环，对敌人造成伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>范围：<font color=\"white\">16格</font></font>"
   },
   "Earth_Mastery_(Shaman)": {
     "name": "地元素精通",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>地元素精通</b><br>(Earth Mastery (Shaman))</font><br><br><font color=\"BBBBBB\">增加所有地属性的伤害</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>地元素精通</b><br>(Earth Mastery (Shaman))</font><br><br><font color=\"BBBBBB\">增加所有地属性的伤害</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Air_Mastery_(Shaman)": {
     "name": "气元素精通",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>气元素精通</b><br>(Air Mastery (Shaman))</font><br><br><font color=\"BBBBBB\">增加所有气属性的伤害</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>气元素精通</b><br>(Air Mastery (Shaman))</font><br><br><font color=\"BBBBBB\">增加所有气属性的伤害</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Thunder_Mastery_(Shaman)": {
     "name": "雷元素精通",
@@ -1917,7 +1917,7 @@
     "name": "惊蛰",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>惊蛰</b><br>(Nature's Jolt)</font><br><br><font color=\"BBBBBB\">使用<u>牵引</u>落地后，对周围小范围内的敌人造成伤害</font>"
+    "description": "<font color=\"FCDE4C\"><b>惊蛰</b><br>(Nature's Jolt)</font><br><br><font color=\"BBBBBB\">使用<u>牵引</u>落地后，对周围小范围内的敌人造成伤害</font>"
   },
   "Water_Mastery_(Shaman)": {
     "name": "水元素精通",
@@ -1929,31 +1929,31 @@
     "name": "震击光环",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>震击光环</b><br>(Shocking Aura)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的扩散速度增加，并造成额外雷属性伤害</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>震击光环</b><br>(Shocking Aura)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的扩散速度增加，并造成额外雷属性伤害</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Flaming_Tongue": {
     "name": "火舌",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>火舌</b><br>(Flaming Tongue)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>的效果改为命中后造成<font color=\"white\">3</font>次伤害，全部元素转化率转变为火，且不再产生爆炸和击退</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>火舌</b><br>(Flaming Tongue)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>的效果改为命中后造成<font color=\"white\">3</font>次伤害，全部元素转化率转变为火，且不再产生爆炸和击退</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Overseer": {
     "name": "先知洞察",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>先知洞察</b><br>(Overseer)</font><br><br><font color=\"BBBBBB\">提升<u>铲除</u>和<u>灵界沟通</u>的最大范围，若<u>铲除</u>或<u>灵界沟通</u>命中了你的<u>图腾</u>，令其持续时间刷新</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>先知洞察</b><br>(Overseer)</font><br><br><font color=\"BBBBBB\">提升<u>铲除</u>和<u>灵界沟通</u>的最大范围，若<u>铲除</u>或<u>灵界沟通</u>命中了你的<u>图腾</u>，令其持续时间刷新</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Rain_Dance": {
     "name": "祈雨",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>祈雨</b><br>(Rain Dance)</font><br><br><font color=\"BBBBBB\">释放<u>图腾</u>后，其在半空中时对经过的路径降雨，对其中的敌人每<font color=\"white\">0.4s</font>造成一次伤害。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>祈雨</b><br>(Rain Dance)</font><br><br><font color=\"BBBBBB\">释放<u>图腾</u>后，其在半空中时对经过的路径降雨，对其中的敌人每<font color=\"white\">0.4s</font>造成一次伤害。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Puppet_Master": {
     "name": "偶术大师",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>偶术大师</b><br>(Puppet Master)</font><br><br><font color=\"BBBBBB\">你的<u>图腾</u>将会持续召唤<font color=\"aqua\">魔偶</font>直至上限，<font color=\"aqua\">魔偶</font>会持续丢刀攻击附近的敌人。      <br><br>召唤间隔：<font color=\"WHITE\">3s</font><br>魔偶上限：<font color=\"WHITE\">3</font><br>魔偶持续时间：<font color=\"WHITE\">30s</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"FF5555\"><b>偶术大师</b><br>(Puppet Master)</font><br><br><font color=\"BBBBBB\">你的<u>图腾</u>将会持续召唤<font color=\"aqua\">魔偶</font>直至上限，<font color=\"aqua\">魔偶</font>会持续丢刀攻击附近的敌人。      <br><br>召唤间隔：<font color=\"WHITE\">3s</font><br>魔偶上限：<font color=\"WHITE\">3</font><br>魔偶持续时间：<font color=\"WHITE\">30s</font></font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Mask_of_the_Lunatic": {
     "name": "荒诞假面",
@@ -1971,7 +1971,7 @@
     "name": "踵击",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>踵击</b><br>(Stagnation)</font><br><br><font color=\"BBBBBB\">被<u>惊蛰</u>命中的敌人将会减速</font>"
+    "description": "<font color=\"FCDE4C\"><b>踵击</b><br>(Stagnation)</font><br><br><font color=\"BBBBBB\">被<u>惊蛰</u>命中的敌人将会减速</font>"
   },
   "Cheaper_Aura_I": {
     "name": "光环减耗 I",
@@ -1995,7 +1995,7 @@
     "name": "魔偶军团 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>魔偶军团 I</b><br>(More Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +1</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>魔偶军团 I</b><br>(More Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +1</font></font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Haunting_Memory": {
     "name": "灵界沟通",
@@ -2013,13 +2013,13 @@
     "name": "血肉链接",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>血肉链接</b><br>(Blood Connection)</font><br><br><font color=\"BBBBBB\">若你处于<u>图腾</u>的范围之外，<u>牵引</u>会先将你传送至你最后丢出的图腾。</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>血肉链接</b><br>(Blood Connection)</font><br><br><font color=\"BBBBBB\">若你处于<u>图腾</u>的范围之外，<u>牵引</u>会先将你传送至你最后丢出的图腾。</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Exploding_Puppets": {
     "name": "自爆魔偶",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>自爆魔偶</b><br>(Exploding Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>剩余的持续时间不足3s时，它们会快速冲向附近的敌人并爆炸造成伤害。</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>自爆魔偶</b><br>(Exploding Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>剩余的持续时间不足3s时，它们会快速冲向附近的敌人并爆炸造成伤害。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Hymn_of_Hate": {
     "name": "憎恶之诗",
@@ -2037,13 +2037,13 @@
     "name": "鞭笞",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>鞭笞</b><br>(Bullwhip)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>或<u>灵界沟通</u>会为目标附加<font color=\"aqua\">鞭挞</font>印记，你的<font color=\"aqua\">召唤物</font>会优先攻击拥有<font color=\"aqua\">鞭挞</font>印记的目标并造成额外伤害。</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"FF55FF\"><b>鞭笞</b><br>(Bullwhip)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>或<u>灵界沟通</u>会为目标附加<font color=\"aqua\">鞭挞</font>印记，你的<font color=\"aqua\">召唤物</font>会优先攻击拥有<font color=\"aqua\">鞭挞</font>印记的目标并造成额外伤害。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "More_Puppets_II": {
     "name": "魔偶军团II",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>魔偶军团II</b><br>(More Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>魔偶军团II</b><br>(More Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>的数量上限<font color=\"FFFFFF\"> +2</font></font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Mask_of_the_Fanatic": {
     "name": "狂热假面",
@@ -2055,7 +2055,7 @@
     "name": "复仇之灵",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>复仇之灵</b><br>(Vengeful Spirit)</font><br><br><font color=\"BBBBBB\">你的<u>图腾</u>会令范围内的所有友方单位获得伤害加成</font><br><br><font color=\"red\"><b>血教徒 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">图腾落地前此技能点不生效      <br>若附近有多个图腾(不论施法者是谁)，该效果不叠加</font>"
+    "description": "<font color=\"FCDE4C\"><b>复仇之灵</b><br>(Vengeful Spirit)</font><br><br><font color=\"BBBBBB\">你的<u>图腾</u>会令范围内的所有友方单位获得伤害加成</font><br><br><font color=\"red\"><b>血教徒 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">图腾落地前此技能点不生效      <br>若附近有多个图腾(不论施法者是谁)，该效果不叠加</font>"
   },
   "Masquerade": {
     "name": "假面狂欢",
@@ -2067,7 +2067,7 @@
     "name": "图腾之林",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>图腾之林</b><br>(Double Totem)</font><br><br><font color=\"BBBBBB\">可同时存在的<u>图腾</u>数量<font color=\"white\"> +1</font>，<u>图腾</u>和<u>光环</u>造成的伤害降低。      <br><u>治愈图腾</u>和<u>鲜血圣坛</u>的治疗量降低<font color=\"red\"> -40%</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">与<u>回响之环</u>叠加后会造成<u>鲜血圣坛</u>的治疗量大幅下降(叠加算法为加算而非乘算)。</font>"
+    "description": "<font color=\"FCDE4C\"><b>图腾之林</b><br>(Double Totem)</font><br><br><font color=\"BBBBBB\">可同时存在的<u>图腾</u>数量<font color=\"white\"> +1</font>，<u>图腾</u>和<u>光环</u>造成的伤害降低。      <br><u>治愈图腾</u>和<u>鲜血圣坛</u>的治疗量降低<font color=\"red\"> -40%</font></font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">与<u>回响之环</u>叠加后会造成<u>鲜血圣坛</u>的治疗量大幅下降(叠加算法为加算而非乘算)。</font>"
   },
   "Cheaper_Totem_II": {
     "name": "图腾减耗II",
@@ -2079,7 +2079,7 @@
     "name": "唤风",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>唤风</b><br>(Storm Dance)</font><br><br><font color=\"BBBBBB\"><u>光环</u>将造成额外气属性伤害，且命中的敌人将会被拉扯向你的图腾所在的位置。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>唤风</b><br>(Storm Dance)</font><br><br><font color=\"BBBBBB\"><u>光环</u>将造成额外气属性伤害，且命中的敌人将会被拉扯向你的图腾所在的位置。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Blood_Moon": {
     "name": "血月将至",
@@ -2091,7 +2091,7 @@
     "name": "治愈图腾",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>治愈图腾</b><br>(Regeneration)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>将为范围内的友方单位持续恢复生命。</font>"
+    "description": "<font color=\"FCDE4C\"><b>治愈图腾</b><br>(Regeneration)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>将为范围内的友方单位持续恢复生命。</font>"
   },
   "Cheaper_Haul_II": {
     "name": "牵引减耗II",
@@ -2133,7 +2133,7 @@
     "name": "绯红魔像",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>绯红魔像</b><br>(Crimson Effigy)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>或<u>灵界沟通</u>命中<u>图腾</u>后，召唤一个<font color=\"aqua\">绯红魔像</font>，<font color=\"aqua\">绯红魔像</font>会追踪附近的敌人造成近战伤害，并将其向你<u>图腾</u>所在的位置拉扯。</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"FF5555\"><b>绯红魔像</b><br>(Crimson Effigy)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>或<u>灵界沟通</u>命中<u>图腾</u>后，召唤一个<font color=\"aqua\">绯红魔像</font>，<font color=\"aqua\">绯红魔像</font>会追踪附近的敌人造成近战伤害，并将其向你<u>图腾</u>所在的位置拉扯。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Mask_of_the_Coward": {
     "name": "畏惧假面",
@@ -2145,7 +2145,7 @@
     "name": "水疗术",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>水疗术</b><br>(Fluid Healing (Shaman))</font><br><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1% </font>的水属性伤害，你的<u>光环</u>就获得<font color=\"white\"> 0.3% </font>的治疗加成。</font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">负数的水伤不会降低治疗量</font><br>"
+    "description": "<font color=\"FCDE4C\"><b>水疗术</b><br>(Fluid Healing (Shaman))</font><br><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">1% </font>的水属性伤害，你的<u>光环</u>就获得<font color=\"white\"> 0.3% </font>的治疗加成。</font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">负数的水伤不会降低治疗量</font><br>"
   },
   "More_Blood_Pool_II": {
     "name": "无底血池II",
@@ -2157,13 +2157,13 @@
     "name": "怨念缠身",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>怨念缠身</b><br>(Maddening Roots)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>将会使敌人减速</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>怨念缠身</b><br>(Maddening Roots)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>将会使敌人减速</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Chant_of_the_Coward": {
     "name": "畏惧之章",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>畏惧之章</b><br>(Chant of the Coward)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">畏惧假面</font>时，对附近的敌人造成伤害和击退。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>畏惧之章</b><br>(Chant of the Coward)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">畏惧假面</font>时，对附近的敌人造成伤害和击退。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Blood_Rite": {
     "name": "血之祭礼",
@@ -2175,13 +2175,13 @@
     "name": "双生魔像",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>双生魔像</b><br>(More Effigies)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">绯红魔像</font>的召唤上限<font color=\"FFFFFF\"> +1</font>，单个魔像的伤害降低。</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>双生魔像</b><br>(More Effigies)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">绯红魔像</font>的召唤上限<font color=\"FFFFFF\"> +1</font>，单个魔像的伤害降低。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Chant_of_the_Fanatic": {
     "name": "狂热之颂",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>狂热之颂</b><br>(Chant of the Fanatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">狂热假面</font>时，令自身和附近的队友获得短暂高额免伤。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>狂热之颂</b><br>(Chant of the Fanatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">狂热假面</font>时，令自身和附近的队友获得短暂高额免伤。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Stronger_Tether": {
     "name": "血手夺魄",
@@ -2193,13 +2193,13 @@
     "name": "图腾之森",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>图腾之森</b><br>(Triple Totem)</font><br><br><font color=\"BBBBBB\">可同时存在的<u>图腾</u>数量<font color=\"white\"> +1</font>，<u>图腾</u>和<u>光环</u>造成的伤害降低。      <br><u>治愈图腾</u>和<u>鲜血圣坛</u>的治疗量降低<font color=\"red\"> -50%</font></font><br><br><font color=\"orange\"><b>召唤师 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">与图腾之林的减益以乘算叠加</font>"
+    "description": "<font color=\"FCDE4C\"><b>图腾之森</b><br>(Triple Totem)</font><br><br><font color=\"BBBBBB\">可同时存在的<u>图腾</u>数量<font color=\"white\"> +1</font>，<u>图腾</u>和<u>光环</u>造成的伤害降低。      <br><u>治愈图腾</u>和<u>鲜血圣坛</u>的治疗量降低<font color=\"red\"> -50%</font></font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">与图腾之林的减益以乘算叠加</font>"
   },
   "Invigorating_Wave": {
     "name": "活力之潮",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>活力之潮</b><br>(Invigorating Wave)</font><br><br><font color=\"BBBBBB\"><u>光环</u>命中你的<font color=\"aqua\">召唤物</font>后，令其攻击速度提升。命中玩家时，其获得<font color=\"WHITE\">5</font>点法力。</font><br><br><font color=\"orange\"><b>召唤师 分支</b></font>"
+    "description": "<font color=\"FF55FF\"><b>活力之潮</b><br>(Invigorating Wave)</font><br><br><font color=\"BBBBBB\"><u>光环</u>命中你的<font color=\"aqua\">召唤物</font>后，令其攻击速度提升。命中玩家时，其获得<font color=\"WHITE\">5</font>点法力。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Seeking_Totem": {
     "name": "图腾随行",
@@ -2223,13 +2223,13 @@
     "name": "倏忽傀影",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>倏忽傀影</b><br>(Shepherd)</font><br><br><font color=\"BBBBBB\">当你的召唤物杀死一个敌人时，临时增加 <font color=\"white\">1 </font>个<font color=\"aqua\">魔偶</font>上限。(持续<font color=\"WHITE\"> 15s </font>，最多<font color=\"WHITE\"> +8 </font>)      <br><br><font color=\"orange\"><b>召唤师 分支</b></font></font>"
+    "description": "<font color=\"FF5555\"><b>倏忽傀影</b><br>(Shepherd)</font><br><br><font color=\"BBBBBB\">当你的召唤物杀死一个敌人时，临时增加 <font color=\"white\">1 </font>个<font color=\"aqua\">魔偶</font>上限。(持续<font color=\"WHITE\"> 15s </font>，最多<font color=\"WHITE\"> +8 </font>)      <br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font></font>"
   },
   "Chant_of_the_Lunatic": {
     "name": "荒诞之歌",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"ORANGE\"><b>荒诞之歌</b><br>(Chant of the Lunatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">荒诞假面</font>时，短暂令附近较大范围内的敌对单位抗性降低。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>荒诞之歌</b><br>(Chant of the Lunatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">荒诞假面</font>时，短暂令附近较大范围内的敌对单位抗性降低。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Blood_Sorrow": {
     "name": "猩红挽歌",

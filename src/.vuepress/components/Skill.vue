@@ -25,7 +25,7 @@ export default {
       categoryColors: {
         "special": "#FF5555",
         "large": "#FF55FF",
-        "medium": "ORANGE",
+        "medium": "FCDE4C",
         "small": "white",
         "main": "#00BB00",
         "blue": "#97E6FC",
@@ -52,6 +52,9 @@ export default {
       let color = this.categoryColors[this.skillData.category] || "white";
       if (color === "white") {
         color = this.$isDarkmode ? "rgb(208, 208, 217)" : "rgb(60,60,67)";
+      }
+      if(color=="FCDE4C"){
+        color = this.$isDarkmode ? "#FCDE4C" : "ORANGE";
       }
       return color;
     }
