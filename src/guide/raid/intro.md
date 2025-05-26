@@ -128,7 +128,7 @@ dungeon bomb并不能抵消raid的入场费用
 | **Outworn Soldier's**  | 你的法术至少需要消耗20点法力值。                                |
 | **Shattered Mortal's** | 每次死亡后，你在副本剩余时间内造成的伤害减少15%。                            |
 
-### Gambit与职业
+### Gambit耐草榜
 
 叠甲：本表格仅表示对应**纯分支**在各种gambit下的表现情况，包含主观因素，仅供参考
 
