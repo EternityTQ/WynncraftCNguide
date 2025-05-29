@@ -667,9 +667,9 @@
   },
   "Provoke": {
     "name": "挑衅",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>挑衅</b><br>(Provoke)</font><br><br><font color=\"BBBBBB\">受到<u>战吼</u>攻击的敌人将会在<font color=\"white\"> 8 </font>秒内把仇恨转移到你身上(10秒冷却)      <br><br>法力消耗：</font>-5    "
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>挑衅</b><br>(Provoke)</font><br><br><font color=\"BBBBBB\">受到<u>战吼</u>攻击的敌人将会在<font color=\"white\"> 8 </font>秒内把仇恨转移到你身上(15秒冷却)      <br><br>法力消耗：</font>-5    "
   },
   "Precise_Strikes": {
     "name": "精准打击",
@@ -691,9 +691,9 @@
   },
   "Enraged_Blow": {
     "name": "怒火强袭",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>怒火强袭</b><br>(Enraged Blow)</font><br><br><font color=\"BBBBBB\">进入<font color=\"aqua\">腐化</font>状态时，期间每失去<font color=\"white\"> 1% </font>的生命值就会提升你<font color=\"white\"> 1.5% </font>的所有伤害(至多+80%)</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>怒火强袭</b><br>(Enraged Blow)</font><br><br><font color=\"BBBBBB\">进入<font color=\"aqua\">腐化</font>状态时，期间每失去<font color=\"white\"> 1% </font>的生命值就会提升你<font color=\"white\"> 1.5% </font>的所有伤害(至多+65%)</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Flying_Kick": {
     "name": "飞踢",
@@ -711,7 +711,7 @@
     "name": "神圣之力",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>神圣之力</b><br>(Sacred Surge)</font><br><br><font color=\"BBBBBB\">当你施放任何主技能，或触发任何能力时，你获得<font color=\"white\"> 1% </font>的<font color=\"aqua\">神圣之力</font><br><br>使用<u>重击</u>或<u>上挑斩</u>时，消耗<font color=\"white\"> 15% </font>的<font color=\"aqua\">神圣之力</font>，增加额外伤害</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "description": "<font color=\"FF55FF\"><b>神圣之力</b><br>(Sacred Surge)</font><br><br><font color=\"BBBBBB\">当你施放任何技能或分支能力时，你获得<font color=\"white\"> 1% </font>的<font color=\"aqua\">神圣之力</font><br><br>使用<u>上挑斩</u>时，消耗<font color=\"white\"> 25% </font>的<font color=\"aqua\">神圣之力</font>，增加额外伤害</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Riposte": {
     "name": "反制还击",
@@ -733,9 +733,9 @@
   },
   "Cleansing_Breeze": {
     "name": "净化之风",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>净化之风</b><br>(Cleansing Breeze)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>将会解除你自身及路径上的友军身上所有的负面效果与燃烧状态(3秒冷却)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"#FCDE4C\"><b>净化之风</b><br>(Cleansing Breeze)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>将会解除你自身及路径上的友军身上所有的负面效果与燃烧状态(3秒冷却)</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Crushing_Blow": {
     "name": "毁灭打击",
@@ -745,33 +745,39 @@
   },
   "Boiling_Blood": {
     "name": "沸血",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>沸血</b><br>(Boiling Blood)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的第一段攻击会在地上留下一片沸血，对其上方的敌人每<font color=\"white\"> 0.4秒 </font>造成一次伤害，并持续造成<font color=\"white\"> 20% </font>减速效果      <br><br>持续时间：</font>3秒    "
-  },
-  "Ragnarokkr": {
-    "name": "诸神黄昏",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>诸神黄昏</b><br>(Ragnarokkr)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>增加持续时间，同时可以给予周围友军增伤效果，但技能消耗增加</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"FF5555\">+10</font><br>伤害加成：<font color=\"white\">20%</font><br>持续时间：<font color=\"white\">+15秒</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "description": "<font color=\"FF55FF\"><b>沸血</b><br>(Boiling Blood)</font><br><br><font color=\"BBBBBB\"><u>重击</u>的第一段攻击会在地上留下一片沸血，对其上方的敌人每<font color=\"white\"> 0.4秒 </font>造成一次伤害，并持续造成<font color=\"white\"> 20% </font>减速效果      <br><br>持续时间：</font>3秒    "
+  },
+  "Emboldening_Cry": {
+    "name": "振奋之声",
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>振奋之声</b><br>(Emboldening Cry)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>可以给予周围友军增伤效果，同时增加额外的抗性加成。<br><br>伤害加成：<font color=\"white\"> +8%</font><br>抗性加成：<font color=\"white\"> +5%</font></font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Collide": {
     "name": "动能定律",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>动能定律</b><br>(Collide)</font><br><br><font color=\"BBBBBB\">被<u>飞踢</u>命中而撞到墙壁的敌人将造成一次爆炸，受到额外伤害</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>动能定律</b><br>(Collide)</font><br><br><font color=\"BBBBBB\">被<u>飞踢</u>命中而撞到墙壁的敌人将造成一次爆炸，受到额外伤害<br><br><u>飞踢</u>将造成更多的伤害</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
-  "再生皮肤": {
+  "Rejuvenating_Skin": {
     "name": "再生皮肤",
-    "icon": "/assets/img/class/special.png",
-    "category": "special",
-    "description": "<font color=\"FF5555\"><b>再生皮肤</b><br>(再生皮肤)</font><br><br><font color=\"BBBBBB\">你受到的任何伤害，都会在接下来<font color=\"WHITE\"> 30秒 </font>内缓慢恢复该次伤害的<font color=\"white\"> 30% </font></font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>再生皮肤</b><br>(Rejuvenating Skin)</font><br><br><font color=\"BBBBBB\">你受到的任何伤害，都会在接下来<font color=\"WHITE\"> 15秒 </font>内缓慢恢复该次伤害的<font color=\"white\"> 30% </font></font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Comet": {
     "name": "彗星陨落",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>彗星陨落</b><br>(Comet)</font><br><br><font color=\"BBBBBB\">被<u>烟火爆破</u>击中的敌人，将会被砸向地面，并在落地时受到额外伤害</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>彗星陨落</b><br>(Comet)</font><br><br><font color=\"BBBBBB\">被<u>烟火爆破</u>击中的敌人，将会被砸向地面，并在落地时受到额外伤害</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+  },
+  "Luster_Purge": {
+    "name": "净化光泽",
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>净化光泽</b><br>(Luster Purge)</font><br><br><font color=\"BBBBBB\">当你至少有<font color=white> 10 </font>点<font color=aqua>神圣之力</font>时，你的<u>普通攻击</u>将会充满力量，提升攻击伤害和攻击范围。</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Uncontainable_Corruption": {
     "name": "狂野腐化",
@@ -783,13 +789,13 @@
     "name": "光之信徒",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>光之信徒</b><br>(Radiant Devotee)</font><br><br><font color=\"BBBBBB\">你的装备鉴定词条上每有 <font color=\"white\">4% </font>的反射，就获得<font color=\"white\"> 1/5s </font>点法力回复(至多+10/5s)</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>光之信徒</b><br>(Radiant Devotee)</font><br><br><font color=\"BBBBBB\">你每有 <font color=\"white\">4% </font>的反射，就获得<font color=\"white\"> 1/5s </font>点法力回复(至多+10/5s)</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
-  "旋风打击": {
+  "Whirlwind_Strike": {
     "name": "旋风打击",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>旋风打击</b><br>(旋风打击)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>将会斩出一道强气流，令你和命中的敌人一起被击飞。      <br><font color=\"555555\">(按住潜行键取消自身的击飞效果)</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>上挑斩</u>现在的攻击范围为球形，你可以击中位于你正上方的怪      <br><br><u>旋风打击</u>只能连续击飞自身2次，当次数耗尽后，你需要接近地面来刷新击飞次数。</font>"
+    "description": "<font color=\"FF5555\"><b>旋风打击</b><br>(Whirlwind Strike)</font><br><br><font color=\"BBBBBB\"><u>上挑斩</u>将会斩出一道强气流，令你和命中的敌人一起被击飞。      <br><font color=\"555555\">(按住潜行键取消自身的击飞效果)</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>上挑斩</u>现在的攻击范围为球形，你可以击中位于你正上方的怪      <br><br><u>旋风打击</u>只能连续击飞自身2次，当次数耗尽后，你需要接近地面来刷新击飞次数。</font>"
   },
   "Mythril_Skin": {
     "name": "秘银皮肤",
@@ -799,9 +805,9 @@
   },
   "Armour_Breaker": {
     "name": "破甲攻击",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>破甲攻击</b><br>(Armour Breaker)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，当你损失了<font color=\"white\"> 30% </font>的生命值后，令你下一次的<u>上挑斩</u>附带破甲效果</font><br><br><font color=\"BBBBBB\">减少防御：<font color=\"white\"> -30%</font><br>持续时间：<font color=\"white\">8秒</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>破甲攻击</b><br>(Armour Breaker)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，当你损失了<font color=\"white\"> 30% </font>的生命值后，下一次释放<u>上挑斩</u>附带增伤效果</font><br><br><font color=\"BBBBBB\">伤害增加：<font color=\"white\"> +20%</font><br>持续时间：<font color=\"white\">8秒</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Shield_Strike": {
     "name": "盾牌打击",
@@ -811,33 +817,33 @@
   },
   "Sparkling_Hope": {
     "name": "闪烁的希望",
-    "icon": "/assets/img/class/special.png",
-    "category": "special",
-    "description": "<font color=\"FF5555\"><b>闪烁的希望</b><br>(Sparkling Hope)</font><br><br><font color=\"BBBBBB\">每当你恢复<font color=\"white\"> 5% </font>的生命值时，对你周围的敌人造成一次伤害      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">你不一定非要一次性恢复5%，只需要每次累积5%的恢复量即可</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>闪烁的希望</b><br>(Sparkling Hope)</font><br><br><font color=\"BBBBBB\">每当你恢复<font color=\"white\"> 5% </font>的生命值时，对你周围的敌人造成一次伤害      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">你不一定非要一次性恢复5%，只需要每次累积5%的恢复量即可</font>"
   },
   "Massive_Bash": {
     "name": "巨大重击",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>巨大重击</b><br>(Massive Bash)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，你每失去<font color=\"white\"> 3% </font>的生命值，<u>重击</u>的伤害范围就将增加<font color=\"white\"> 1 </font>格(上限10格)</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>巨大重击</b><br>(Massive Bash)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，你每失去<font color=\"white\"> 3% </font>的生命值，<u>重击</u>的伤害范围就将增加<font color=\"white\"> 1 </font>格(上限10格)</font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Tempest": {
     "name": "暴风战吼",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>暴风战吼</b><br>(Tempest)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>将造成<font color=\"white\"> 3 </font>次大范围的伤害</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>暴风战吼</b><br>(Tempest)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>将造成<font color=\"white\"> 3 </font>次大范围的伤害</font>"
   },
   "Spirit_of_the_Rabbit": {
-    "name": "动如脱兔",
+    "name": "灵跃之影",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>动如脱兔</b><br>(Spirit of the Rabbit)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>的技能消耗<font color=\"FFFFFF\"> -5</font> ，且你的移动速度<font color=\"white\"> +20% </font></font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>灵跃之影</b><br>(Spirit of the Rabbit)</font><br><br><font color=\"BBBBBB\"><u>冲锋</u>的技能消耗<font color=\"FFFFFF\"> -5</font> ，且你的移动速度<font color=\"white\"> +20% </font></font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
   "Massacre": {
     "name": "无情屠戮",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>无情屠戮</b><br>(Massacre)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，若你的总攻击速度为慢(slow)及以下，使用<u>普通攻击</u>命中敌人会增加你<font color=\"white\"> 4% </font>的<font color=\"aqua\">腐化进度</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>无情屠戮</u>获得的额外腐化进度可以影响例如<u>怒火强袭</u>、<u>巨大重击</u>等需要消耗生命值来增加效果的技能，换句话说就是可以无需承伤来增加卖血进度</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>无情屠戮</b><br>(Massacre)</font><br><br><font color=\"BBBBBB\">在<font color=\"aqua\">腐化</font>状态下，使用<u>普通攻击</u>命中敌人会增加你<font color=\"white\"> 4% </font>的<font color=\"aqua\">腐化进度</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>无情屠戮</u>获得的额外腐化进度可以影响例如<u>怒火强袭</u>、<u>巨大重击</u>等需要消耗生命值来增加效果的技能，换句话说就是可以无需承伤来增加卖血进度</font>"
   },
   "Axe_Kick": {
     "name": "斧击",
@@ -847,9 +853,15 @@
   },
   "Radiance": {
     "name": "光芒重击",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>光芒重击</b><br>(Radiance)</font><br><br><font color=\"BBBBBB\">使用<u>重击</u>时，攻击范围内的友军身上的正面装备词条效果提升</font><br><br><font color=\"BBBBBB\">效果：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">8秒</font></font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">实际上，<u>光芒重击</u>可以增益LB、LQ，以及从Charm上获取的属性，但是依旧无法增益gxp、gsb以及Tome的属性</font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>光芒重击</b><br>(Radiance)</font><br><br><font color=\"BBBBBB\">使用<u>重击</u>时，攻击范围内的友军身上的正面装备词条效果提升</font><br><br><font color=\"BBBBBB\">效果：<font color=\"white\">+20%</font><br>持续时间：<font color=\"white\">8秒</font></font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>光芒重击</u>无法增益LB、LQ、gxp、gsb以及Tome的属性</font>"
+  },
+  "Blessed_Bulwark": {
+    "name": "神圣壁垒",
+    "icon": "/assets/img/class/small.png",
+    "category": "small",
+    "description": "<font color=\"#FFFFFF\"><b>神圣壁垒</b><br>(Blessed Bulwark)</font><br><br><font color=\"BBBBBB\"><u>神圣披风</u>额外获得<font color=white> 2 </font>层次数</font>"
   },
   "Cheaper_Bash_II": {
     "name": "重击减耗 II",
@@ -863,35 +875,35 @@
     "category": "small",
     "description": "<font color=\"#FFFFFF\"><b>战吼减耗 II</b><br>(Cheaper War Scream)</font><br><br><font color=\"BBBBBB\"><u>战吼</u>的技能消耗<font color=\"FFFFFF\"> -5</font></font>"
   },
-  "混沌连击": {
+  "Discombobulate": {
     "name": "混沌连击",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>混沌连击</b><br>(混沌连击)</font><br><br><font color=\"BBBBBB\">你对敌人造成一次伤害后，对其造成的全属性伤害<font color=\"white\"> +5 </font>点(至多100点)，每秒消退<font color=\"white\"> 5 </font>点效果</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "description": "<font color=\"FF5555\"><b>混沌连击</b><br>(Discombobulate)</font><br><br><font color=\"BBBBBB\">你对敌人造成一次伤害后，对其造成的全属性伤害<font color=\"white\"> +5 </font>点(至多100点)，每秒消退<font color=\"white\"> 5 </font>点效果</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
   "Cyclone": {
     "name": "气旋",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>气旋</b><br>(Cyclone)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>后，以旋风围绕自身，对周围的敌人每<font color=\"white\"> 0.5秒 </font>造成一次伤害。      <br><br>持续时间：</font>20秒      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>气旋</b><br>(Cyclone)</font><br><br><font color=\"BBBBBB\">使用<u>战吼</u>后，以旋风围绕自身，对周围的敌人每<font color=\"white\"> 0.5秒 </font>造成一次伤害。      <br><br>持续时间：</font>20秒      <br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
-  "Stronger_Sacred_Surge": {
+  "Consecration": {
     "name": "神圣浪潮",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>神圣浪潮</b><br>(Stronger Sacred Surge)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">神圣之力</font>的伤害增加</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>神圣浪潮</b><br>(Consecration)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">神圣之力</font>的伤害增加</font><br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
-  "Better_Enraged_Blow": {
+  "Overwhelming_Rage": {
     "name": "炙火强袭",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>炙火强袭</b><br>(Better Enraged Blow)</font><br><br><font color=\"BBBBBB\"><u>怒火强袭</u>的伤害上限<font color=\"FFFFFF\"> +60%</font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>炙火强袭</b><br>(Overwhelming Rage)</font><br><br><font color=\"BBBBBB\"><u>怒火强袭</u>的伤害上限<font color=\"FFFFFF\"> +50%</font></font>"
   },
   "Thunderclap": {
     "name": "天雷破",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>天雷破</b><br>(Thunderclap)</font><br><br><font color=\"BBBBBB\"><u>重击</u>现在将全部以自身为释放中心，并且加倍释放速度，增加攻击范围</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>天雷破</b><br>(Thunderclap)</font><br><br><font color=\"BBBBBB\"><u>重击</u>现在将全部以自身为释放中心，并且加倍释放速度，增加攻击范围<br><br>当<u>四重重击</u>激活时，减少伤害。</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
   "Blood_Pact": {
     "name": "血之契约",
@@ -899,23 +911,35 @@
     "category": "special",
     "description": "<font color=\"FF5555\"><b>血之契约</b><br>(Blood Pact)</font><br><br><font color=\"BBBBBB\">当你没有足够的法力使用技能时，你可以消耗血量以替代法力使用技能。      <br>(每点法力消耗 <font color=\"WHITE\"> 0.35% </font>的生命值。)<br><br>若你释放技能消耗了血量，则本次技能伤害<font color=WHITE> +15% </font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><u>血之契约</u>不会使你死亡，最低保留1点血量</font>"
   },
-  "重获生机": {
-    "name": "重获生机",
+  "Bloodlust": {
+    "name": "血怒之焰",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>重获生机</b><br>(重获生机)</font><br><br><font color=\"BBBBBB\">受到致命伤时，免疫此次伤害，并恢复<font color=\"WHITE\"> 30% </font>的生命值(10分钟冷却)      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">无法免疫/kill的效果。</font>"
+    "description": "<font color=\"FF5555\"><b>血怒之焰</b><br>(Bloodlust)</font><br><br><font color=\"BBBBBB\">当离开<font color=aqua>腐化</font>状态时，摧毁周围的敌怪，造成大量伤害。退出腐化前每有<font colot=white> 1% </font>点的<font color=aqua>腐化进度</font>，最终伤害额外增加<font color=white> 5% </font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font></font>"
+  },
+  "Heavenly_Trumpet": {
+    "name": "天启号角",
+    "icon": "/assets/img/class/special.png",
+    "category": "special",
+    "description": "<font color=\"FF5555\"><b>天启号角</b><br>(Heavenly Trumpet)</font><br><br><font color=\"BBBBBB\">按住潜行键且至少持有<font color=white> 25% </font>的<font color=aqua>神圣之力</font>时，将会消耗全部的<font color=aqua>神圣之力</font>，使自身和周围的友军得到与所消耗的<font color=aqua>神圣之力</font>相等百分比的<font color=aqua>额外血量</font>，<font color=aqua>额外血量</font>将在<font color=white> 20 </font>秒内逐渐消退。<br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+  },
+  "Second_Chance": {
+    "name": "重获生机",
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>重获生机</b><br>(Second Chance)</font><br><br><font color=\"BBBBBB\">受到致命伤时，免疫此次伤害，使周围的友军获得短暂无敌效果，并恢复<font color=\"WHITE\"> 30% </font>的生命值(10分钟冷却)      <br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">无法免疫/kill的效果。</font>"
   },
   "Haemorrhage": {
     "name": "鲜血掌控",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>鲜血掌控</b><br>(Haemorrhage)</font><br><br><font color=\"BBBBBB\"><u>血之契约</u>每点法力的血量消耗改为<font color=\"FFFFFF\"> 0.25%</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
+    "description": "<font color=\"#FFFFFF\"><b>鲜血掌控</b><br>(Haemorrhage)</font><br><br><font color=\"BBBBBB\"><u>血之契约</u>每点法力的血量消耗降低，改为<font color=\"FFFFFF\"> 0.25%</font></font><br><br><font color=\"FF5555\"><b>腐化者 分支</b></font>"
   },
   "Brink_of_Madness": {
     "name": "绝境求生",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>绝境求生</b><br>(Brink of Madness)</font><br><br><font color=\"BBBBBB\">当你的生命值低于<font color=\"WHITE\"> 25% </font>时，获得<font color=\"WHITE\"> 40% </font>的抗性提升</font><br>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>绝境求生</b><br>(Brink of Madness)</font><br><br><font color=\"BBBBBB\">当你的生命值低于<font color=\"WHITE\"> 25% </font>时，获得<font color=\"WHITE\"> 40% </font>的抗性提升</font><br>"
   },
   "Cheaper_Uppercut_II": {
     "name": "上挑斩减耗 II",

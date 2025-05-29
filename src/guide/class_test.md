@@ -116,27 +116,20 @@ title: 新技能树测试界面
 |<skill name="Spear_Proficiency_II"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="Cheaper_Uppercut_I"/>|<skill name="丁字"/>|<skill name="Aerodynamics"/>|<skill name="丁字"/>|<skill name="Manachism"/>|<skill name="左下"/>|
 |<skill name="竖线"/>|<skill name="Intoxicating_Blood"/>|      |<skill name="竖线"/>|<skill name="Counter"/>|<skill name="横线"/>|<skill name="Shield_Strike"/>|      |<skill name="竖线"/>|
 |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |      |      |      |<skill name="竖线"/>|
-|<skill name="Blood_Pact"/>|<skill name="左下"/>|      |<skill name="Flying_Kick"/>|<skill name="丁字"/>|<skill name="丁字"/>|<skill name="Crushing_Blow"/>|      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
+|<skill name="Blood_Pact"/>|<skill name="左下"/>|      |<skill name="Flying_Kick"/>|<skill name="丁字"/>|<skill name="丁字"/>|<skill name="Crushing_Blow"/>|<skill name="横线"/>|<skill name="Rejuvenating_Skin"/>|
+|<skill name="竖线"/>|<skill name="Enraged_Blow"/>|      |<skill name="竖线"/>|<skill name="竖线"/>|<skill name="Riposte"/>|      |      |<skill name="竖线"/>|
+|<skill name="Intoxicating_Blood"/>|<skill name="竖线"/>|      |<skill name="右丁字"/>|<skill name="Cheaper_War_Scream_I"/>|<skill name="丁字"/>|<skill name="Cleansing_Breeze"/>|<skill name="丁字"/>|<skill name="Cheaper_Bash_II"/>|
+|<skill name="右下"/>|<skill name="Boiling_Blood"/>|<skill name="横线"/>|<skill name="Comet"/>|<skill name="竖线"/>|<skill name="Collide"/>|      |<skill name="Sacred_Surge"/>|<skill name="左下"/>|
+|<skill name="竖线"/>|      |      |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|<skill name="Emboldening_Cry"/>|
+|<skill name="Uncontainable_Corruption"/>|<skill name="丁字"/>|<skill name="Radiant_Devotee"/>|<skill name="横线"/>|<skill name="Whirlwind_Strike"/>|      |<skill name="右下"/>|<skill name="Mythril_Skin"/>|<skill name="左下"/>|
+|<skill name="竖线"/>|<skill name="Armour_Breaker"/>|      |      |<skill name="竖线"/>|      |<skill name="Luster_Purge"/>|<skill name="丁字"/>|<skill name="Sparkling_Hope"/>|
+|<skill name="Massive_Bash"/>|<skill name="丁字"/>|<skill name="Tempest"/>|<skill name="丁字"/>|<skill name="Spirit_of_the_Rabbit"/>|<skill name="左下"/>|      |<skill name="竖线"/>|      |
+|<skill name="竖线"/>|<skill name="Massacre"/>|<skill name="横线"/>|<skill name="Axe_Kick"/>|<skill name="竖线"/>|<skill name="Provoke"/>|<skill name="横线"/>|<skill name="Blessed_Bulwark"/>|<skill name="左下"/>|
+|<skill name="竖线"/>|      |      |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|<skill name="Radiance"/>|
+|<skill name="Cheaper_War_Scream_II"/>|<skill name="左下"/>|<skill name="Discombobulate"/>|<skill name="横线"/>|<skill name="Cyclone"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="Consecration"/>|      |
+|<skill name="竖线"/>|<skill name="Overwhelming_Rage"/>|      |      |      |<skill name="Thunderclap"/>|      |<skill name="竖线"/>|      |
+|<skill name="Bloodlust"/>|<skill name="横线"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="左下"/>|      |<skill name="右下"/>|<skill name="Heavenly_Trumpet"/>|<skill name="左下"/>|
+|      |      |<skill name="Haemorrhage"/>|      |<skill name="Brink_of_Madness"/>|<skill name="横线"/>|<skill name="Cheaper_Uppercut_II"/>|      |<skill name="Second_Chance"/>|
 
 @tab 刺客
 
@@ -177,25 +170,11 @@ title: 新技能树测试界面
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
 
 @tab 萨满
 
 |      |      |      |      |      |      |      |      |      |
 |------|------|------|------|------|------|------|------|------|
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
