@@ -879,7 +879,7 @@
     "name": "混沌连击",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>混沌连击</b><br>(Discombobulate)</font><br><br><font color=\"BBBBBB\">你对敌人造成一次伤害后，对其造成的全属性伤害<font color=\"white\"> +5 </font>点(至多100点)，每秒消退<font color=\"white\"> 5 </font>点效果</font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
+    "description": "<font color=\"FF5555\"><b>混沌连击</b><br>(Discombobulate)</font><br><br><font color=\"BBBBBB\">你对敌怪造成的每一次伤害，都会对其施加<font color=\"white\"> 5 </font>层<font color=aqua>混乱</font>(至多150层)<br><br>敌怪每持有<font color=white> 1 </font>层<font color=aqua>混乱</font>，你对其造成的中性伤害和元素伤害<font color=white> +1 </font>点，敌怪每秒消退<font color=\"white\"> 5 </font>点<font color=aqua>混乱</font></font><br><br><font color=\"FFFF55\"><b>武道士 分支</b></font>"
   },
   "Cyclone": {
     "name": "气旋",
@@ -921,7 +921,7 @@
     "name": "天启号角",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>天启号角</b><br>(Heavenly Trumpet)</font><br><br><font color=\"BBBBBB\">按住潜行键且至少持有<font color=white> 25% </font>的<font color=aqua>神圣之力</font>时，将会消耗全部的<font color=aqua>神圣之力</font>，使自身和周围的友军得到与所消耗的<font color=aqua>神圣之力</font>相等百分比的<font color=aqua>额外血量</font>，<font color=aqua>额外血量</font>将在<font color=white> 20 </font>秒内逐渐消退。<br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
+    "description": "<font color=\"FF5555\"><b>天启号角</b><br>(Heavenly Trumpet)</font><br><br><font color=\"BBBBBB\">按住潜行键且至少持有<font color=white> 25% </font>的<font color=aqua>神圣之力</font>时，将会消耗全部的<font color=aqua>神圣之力</font>，使自身和周围的友军得到与所消耗的<font color=aqua>神圣之力</font>相等百分比的<font color=aqua>临时生命</font>，<font color=aqua>临时生命</font>将在<font color=white> 20 </font>秒内逐渐消退。<br><br><font color=\"55FFFF\"><b>圣骑士 分支</b></font>"
   },
   "Second_Chance": {
     "name": "重获生机",
