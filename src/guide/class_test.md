@@ -196,13 +196,13 @@ title: 新技能树测试界面
 |      |<skill name="More_Puppets_I"/>|      |<skill name="Haunting_Memory"/>|<skill name="竖线"/>|<skill name="Totemic_Reach"/>|      |<skill name="竖线"/>|<skill name="Blood_Connection"/>|
 |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |
 |<skill name="右下"/>|<skill name="Exploding_Puppets"/>|      |<skill name="右下"/>|<skill name="Mask_of_the_Fanatic"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="More_Blood_Pool_I"/>|<skill name="左下"/>|
-|<skill name="Bullwhip"/>|<skill name="竖线"/>|      |<skill name="Totemic_Shatter"/>|<skill name="竖线"/>|<skill name="Masquerade"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="Lashing_Lance"/>|
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
-|      |      |      |      |      |      |      |      |      |
+|<skill name="Bullwhip"/>|<skill name="竖线"/>|      |<skill name="Totemic_Shatter"/>|<skill name="竖线"/>|<skill name="Masquerade"/>|<skill name="横线"/>|<skill name="丁字"/>|<skill name="Lashing_Lance"/>|
+|<skill name="竖线"/>|<skill name="More_Puppets_II"/>|<skill name="左下"/>|      |<skill name="Chant_of_the_Lunatic"/>|<skill name="竖线"/>|      |<skill name="Vengeful_Spirit"/>|<skill name="竖线"/>|
+|<skill name="Double_Totem"/>|<skill name="丁字"/>|<skill name="Cheaper_Totem_II"/>|<skill name="丁字"/>|<skill name="丁字"/>|<skill name="Storm_Dance"/>|<skill name="丁字"/>|<skill name="丁字"/> |<skill name="Cheaper_Haul_II"/>|
+|      |<skill name="竖线"/>|  |<skill name="Regeneration"/>|<skill name="竖线"/>|      |<skill name="Twisted_Tether"/>|<skill name="竖线"/>|      |
+|<skill name="右下"/>|<skill name="Crimson_Effigy"/>|<skill name="横线"/>|<skill name="丁字"/>|<skill name="Mask_of_the_Heretic"/>|<skill name="左下"/>|<skill name="右下"/>|<skill name="Eldritch_Call"/>|<skill name="左下"/>|
+|<skill name="Maddening_Roots"/>|<skill name="竖线"/>|      |<skill name="Seeking_Totem"/>|<skill name="竖线"/>|<skill name="Chant_of_the_Fanatic"/>|<skill name="竖线"/>|      |<skill name="竖线"/>|
+|<skill name="右下"/>|<skill name="Cheaper_Aura_II"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="Imbued_Totem"/>|<skill name="丁字"/>|<skill name="Fluid_Healing_(Shaman)"/>|      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |
 |      |      |      |      |      |      |      |      |      |

@@ -666,7 +666,7 @@ icon: hat-wizard
 |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |
 |      |<skill name="Windsweeper"/>|      |      |<skill name="Ophanim"/>|      |<skill name="右下"/>|<skill name="Arcane_Transfer"/>|      |
 |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |<skill name="竖线"/>|      |      |
-|<skill name="右下"/>|<skill name="Cheaper_Heal_I"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="Purification"/>|<skill name="横线"/>|<skill name="Sentient_Snake"/>|<skill name="丁字"/>|<skill name="左下"/>|
+|<skill name="右下"/>|<skill name="Cheaper_Heal_I"/>|<skill name="丁字"/>|<skill name="横线"/>|<skill name="Purification"/>|<skill name="丁字"/>|<skill name="Sentient_Snake"/>|<skill name="丁字"/>|<skill name="左下"/>|
 |<skill name="Eye_Piercer"/>|      |<skill name="Breathless"/>|      |<skill name="竖线"/>|<skill name="Larger_Heal"/>|      |<skill name="竖线"/>|<skill name="Larger_Mana_Bank_I"/>|
 |<skill name="竖线"/>|      |      |      |<skill name="竖线"/>|      |      |<skill name="竖线"/>|      |
 |<skill name="Cheaper_Ice_Snake_I"/>|<skill name="丁字"/>|<skill name="Fortitude"/>|<skill name="丁字"/>|<skill name="Cheaper_Teleport_II"/>|<skill name="丁字"/>|<skill name="丁字"/>|<skill name="Pyrokinesis"/>|      |
