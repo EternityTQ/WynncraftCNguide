@@ -138,10 +138,10 @@
     "description": "<font color=\"FCDE4C\"><b>三重射击</b><br>(Triple Shots)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害<font color=\"FF5555\">-10%</font></font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">对于每根箭矢，其生命窃取、法力窃取以及粉末主动充能效率降低至33%</font>"
   },
   "Frenzy": {
-    "name": "极速狂热",
+    "name": "极速🟨狂热",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"FF55FF\"><b>极速狂热</b><br>(Frenzy)</font><br><br><font color=\"BBBBBB\">每命中一次敌人，给自身叠加一层<font color=\"FFFFFF\"> 3%</font> 移动速度(上限70%)，每秒衰减<font color=\"white\"> 10% </font>的移动速度</font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
+    "description": "<font color=\"FF55FF\"><b>极速🟨狂热</b><br>(Frenzy)</font><br><br><font color=\"BBBBBB\">每命中一次敌人，给自身叠加一层<font color=\"FFFFFF\"> 3%</font> 移动速度(上限70%)，每秒衰减<font color=\"white\"> 10% </font>的移动速度</font><br><br><font color=\"FFFF55\"><b>闪击客 分支</b></font>"
   },
   "Guardian_Angels": {
     "name": "守护天使",
@@ -1857,13 +1857,13 @@
     "name": "图腾",
     "icon": "/assets/img/class/archer_green.png",
     "category": "archer_green",
-    "description": "<font color=\"#00BB00\"><b>图腾</b><br>(Totem)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤并投掷一个<u>图腾</u>，落地后对大范围内的敌人每0.4秒造成一次伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">8格</font><br>持续时间：<font color=\"white\">12s</font></font>"
+    "description": "<font color=\"#00BB00\"><b>图腾</b><br>(Totem)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 右键</font><br><br><font color=\"BBBBBB\">召唤并投掷一个<u>图腾</u>，落地后对大范围内的敌人每<font color=white> 0.4 </font>秒造成一次伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">30</font><br>范围：<font color=\"white\">8格</font><br>持续时间：<font color=\"white\">12s</font></font>"
   },
   "Relik_Proficiency_I": {
-    "name": "图腾精通 I",
+    "name": "巫杖精通 I",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>图腾精通 I</b><br>(Relik Proficiency)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>造成的伤害增加，且<u>普通攻击</u>的射线飞行速度加快</font>"
+    "description": "<font color=\"#FFFFFF\"><b>巫杖精通 I</b><br>(Relik Proficiency)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>造成的伤害增加，且<u>普通攻击</u>的射线飞行速度加快</font>"
   },
   "Cheaper_Totem_I": {
     "name": "图腾减耗 I",
@@ -1879,9 +1879,9 @@
   },
   "Distant_Grasp": {
     "name": "收束之握",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>收束之握</b><br>(Distant Grasp)</font><br><br><font color=\"BBBBBB\">降低你的<u>普通攻击</u>发出的射线之间的夹角，并提升射线的飞行速度</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"#FCDE4C\"><b>收束之握</b><br>(Distant Grasp)</font><br><br><font color=\"BBBBBB\">降低你的<u>普通攻击</u>发出的射线之间的夹角，并提升射线的飞行速度</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Haul": {
     "name": "牵引",
@@ -1891,9 +1891,9 @@
   },
   "Hand_of_the_Shaman": {
     "name": "祭司之握",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>祭司之握</b><br>(Hand of the Shaman)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>额外发出2发射线</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"#FCDE4C\"><b>祭司之握</b><br>(Hand of the Shaman)</font><br><br><font color=\"BBBBBB\">你的<u>普通攻击</u>额外发出2发射线</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Uproot": {
     "name": "铲除",
@@ -1912,6 +1912,12 @@
     "icon": "/assets/img/class/shaman_green.png",
     "category": "shaman_green",
     "description": "<font color=\"#00BB00\"><b>光环</b><br>(Aura)</font><br><font color=\"FCDE4C\">使用连招：</font><font color=\"#FF55FF\"> 右键 - 左键 - 左键</font><br><br><font color=\"BBBBBB\">令<u>图腾</u>释放向外扩散的光环，对敌人造成伤害。</font><br><br><font color=\"BBBBBB\">技能消耗：<font color=\"white\">40</font><br>范围：<font color=\"white\">16格</font></font>"
+  },
+    "Token_Shove": {
+    "name": "图腾推击",
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"FCDE4C\"><b>图腾推击</b><br>(Token Shove)</font><br><br><font color=\"BBBBBB\">当看向一个场上的图腾的同时释放<u>图腾</u>，会将其向前推动，对撞到的敌人造成伤害。<br><br><u>图腾冲击</u>将在图腾停止移动后再次释放。</font>"
   },
   "Earth_Mastery_(Shaman)": {
     "name": "地元素精通",
@@ -1939,9 +1945,9 @@
   },
   "Nature's_Jolt": {
     "name": "惊蛰",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>惊蛰</b><br>(Nature's Jolt)</font><br><br><font color=\"BBBBBB\">使用<u>牵引</u>落地后，对周围小范围内的敌人造成伤害</font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>惊蛰</b><br>(Nature's Jolt)</font><br><br><font color=\"BBBBBB\">使用<u>牵引</u>落地后，对周围小范围内的敌人造成伤害</font>"
   },
   "Water_Mastery_(Shaman)": {
     "name": "水元素精通",
@@ -1951,27 +1957,27 @@
   },
   "Shocking_Aura": {
     "name": "震击光环",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>震击光环</b><br>(Shocking Aura)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的扩散速度增加，并造成额外雷属性伤害</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>震击光环</b><br>(Shocking Aura)</font><br><br><font color=\"BBBBBB\"><u>光环</u>的扩散速度增加，并造成额外雷属性伤害</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
-  "Flaming_Tongue": {
+    "Flaming_Tongue": {
     "name": "火舌",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>火舌</b><br>(Flaming Tongue)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>的效果改为命中后造成<font color=\"white\">3</font>次伤害，全部元素转化率转变为火，且不再产生爆炸和击退</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>火舌</b><br>(Flaming Tongue)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>变为甩出火焰，命中敌人<font color=\"white\"> 3 </font>次，但不会爆炸或击退敌人。<br><br><u>灵界沟通</u>将不再向敌人附着<font color=\"aqua\">假面</font>。</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Overseer": {
     "name": "先知洞察",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>先知洞察</b><br>(Overseer)</font><br><br><font color=\"BBBBBB\">提升<u>铲除</u>和<u>灵界沟通</u>的最大范围，若<u>铲除</u>或<u>灵界沟通</u>命中了你的<u>图腾</u>，令其持续时间刷新</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>先知洞察</b><br>(Overseer)</font><br><br><font color=\"BBBBBB\">提升<u>铲除</u>和<u>灵界沟通</u>的最大射程，若<u>铲除</u>或<u>灵界沟通</u>命中了你的<u>图腾</u>，令其持续时间刷新</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Rain_Dance": {
     "name": "祈雨",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>祈雨</b><br>(Rain Dance)</font><br><br><font color=\"BBBBBB\">释放<u>图腾</u>后，其在半空中时对经过的路径降雨，对其中的敌人每<font color=\"white\">0.4s</font>造成一次伤害。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>祈雨</b><br>(Rain Dance)</font><br><br><font color=\"BBBBBB\">释放<u>图腾</u>后，其在半空中时对经过的路径降雨，对其中的敌人每<font color=\"white\">0.4s</font>造成一次伤害。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Puppet_Master": {
     "name": "偶术大师",
@@ -1983,13 +1989,13 @@
     "name": "荒诞假面",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>荒诞假面</b><br>(Mask of the Lunatic)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>时，改为佩戴<font color=\"aqua\">荒诞假面</font>。(按住潜行键并释放技能取下假面)      <br>佩戴这个假面时，牺牲抗性换取伤害加成，并令<u>光环</u>的法力消耗降低。      <br><br>伤害加成：<font color=\"WHITE\">+35%</font><br>抗性降低：<font color=\"red\">-20%</font><br>光环法力消耗：<font color=\"WHITE\">-30%</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">萨满自身抗性基础值为60%，在降低20%后仅剩40%，而非增加20%受到的伤害，前期慎点      <br>若拥有多个假面，则会按照荒诞-着魔-畏惧的顺序进行切换</font>"
+    "description": "<font color=\"FF5555\"><b>荒诞假面</b><br>(Mask of the Lunatic)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>时，改为佩戴<font color=\"aqua\">🟥荒诞假面</font>。<br><font color=555555>(按住潜行键并释放技能取下假面)</font>      <br><br>佩戴这个假面时，牺牲抗性换取伤害加成，并令<u>光环</u>的法力消耗降低。      <br><br>伤害加成：<font color=\"WHITE\">+35%</font><br>抗性降低：<font color=\"FF5555\">-20%</font><br>光环法力消耗：<font color=\"WHITE\">-30%</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">萨满自身抗性基础值为60%，在降低20%后仅剩40%，而非增加20%受到的伤害，前期慎点      <br>若拥有多个假面，则会按照🟥荒诞-🟨狂热-🟦畏惧的顺序进行切换</font>"
   },
   "Sacrificial_Shrine": {
     "name": "鲜血圣坛",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>鲜血圣坛</b><br>(Sacrificial Shrine)</font><br><br><font color=\"BBBBBB\">你的<u>图腾</u>将持续吸取你的生命值并将其存入<font color=\"aqua\">血池</font>。      <br>使用<u>光环</u>将会消耗<font color=\"aqua\">血池</font>中的<font color=\"white\"></font>的15点，增加其造成的伤害，并治疗队友。      <br><br>伤害加成：<font color=\"WHITE\">+35%</font><br>治疗加成：<font color=\"WHITE\">25%</font>你的最大生命值      <br><br><font color=\"red\"><b>血教徒 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><font color=\"aqua\">血池</font>初始上限30，每1%最大生命值折算为一点<font color=\"aqua\">血池</font>，<font color=\"aqua\">血池</font>会在没有得到补充一段时间后逐渐流失</font>"
+    "description": "<font color=\"FF5555\"><b>鲜血圣坛</b><br>(Sacrificial Shrine)</font><br><br><font color=\"BBBBBB\">你的<u>图腾</u>将持续吸取你的生命值并将其存入<font color=\"aqua\">血池</font>。<br><br>使用<u>光环</u>将会消耗<font color=\"aqua\">血池</font>中的<font color=\"white\"></font>的15点，增加其造成的伤害，并治疗队友。      <br><br>伤害加成：<font color=\"WHITE\">+35%</font><br>治疗量：最大生命值的<font color=\"WHITE\"> 25%</font>      <br><br><font color=\"red\"><b>血教徒 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\"><font color=\"aqua\">血池</font>初始上限30，每1%最大生命值折算为一点<font color=\"aqua\">血池</font>，<font color=\"aqua\">血池</font>会在没有得到补充一段时间后逐渐流失</font>"
   },
   "Stagnation": {
     "name": "踵击",
@@ -2011,9 +2017,9 @@
   },
   "Rebound": {
     "name": "回响之环",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>回响之环</b><br>(Rebound)</font><br><br><font color=\"BBBBBB\"><u>光环</u>向外扩散到最大范围后，将会再向内扩散，造成等额伤害和效果。      <br><u>鲜血圣坛</u>的治疗效果将降低40%</font><br>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>回响之环</b><br>(Rebound)</font><br><br><font color=\"BBBBBB\"><u>光环</u>向外扩散到最大范围后，将会再向内扩散，造成等额伤害和效果。<br><br><u>鲜血圣坛</u>的治疗效果将降低 <font color=FF5555>40%</font></font><br>"
   },
   "More_Puppets_I": {
     "name": "魔偶军团 I",
@@ -2023,15 +2029,15 @@
   },
   "Haunting_Memory": {
     "name": "灵界沟通",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>灵界沟通</b><br>(Haunting Memory)</font><br><br><font color=\"BBBBBB\">在你切换<font color=\"aqua\">假面</font>后，将切换前的假面向前丢出，对触碰到的第一个目标造成大量伤害并附着在其身上持续数秒，三种假面分别会降低目标的伤害(<font color=\"aqua\">荒诞假面</font>)、抗性(<font color=\"aqua\">狂热假面</font>)或移速(<font color=\"aqua\">畏惧假面</font>)。      <br>对应的<font color=\"aqua\">假面</font>被回收前，你无法获得其加成。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>灵界沟通</b><br>(Haunting Memory)</font><br><br><font color=\"BBBBBB\">在你切换<font color=\"aqua\">假面</font>后，将切换前的假面向前丢出，对触碰到的第一个目标造成大量伤害并附着在其身上持续数秒，三种假面分别会降低目标的伤害(<font color=\"aqua\">🟥荒诞假面</font>)、抗性(<font color=\"aqua\">🟨狂热假面</font>)或移速(<font color=\"aqua\">🟦畏惧假面</font>)。      <br><br>对应的<font color=\"aqua\">假面</font>被回收前，你无法获得其加成。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
-  "Better_Totem": {
+  "Totemic_Reach": {
     "name": "崇高图腾",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>崇高图腾</b><br>(Better Totem)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>的范围增加</font>"
+    "description": "<font color=\"#FFFFFF\"><b>崇高图腾</b><br>(Totemic Reach)</font><br><br><font color=\"BBBBBB\"><u>图腾</u>的范围增加</font>"
   },
   "Blood_Connection": {
     "name": "血肉链接",
@@ -2041,15 +2047,15 @@
   },
   "Exploding_Puppets": {
     "name": "自爆魔偶",
-    "icon": "/assets/img/class/medium.png",
-    "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>自爆魔偶</b><br>(Exploding Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>剩余的持续时间不足3s时，它们会快速冲向附近的敌人并爆炸造成伤害。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
+    "icon": "/assets/img/class/large.png",
+    "category": "large",
+    "description": "<font color=\"FF55FF\"><b>自爆魔偶</b><br>(Exploding Puppets)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">魔偶</font>剩余的持续时间不足3s时，它们会快速冲向附近的敌人并爆炸造成伤害。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Hymn_of_Hate": {
     "name": "憎恶之诗",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>憎恶之诗</b><br>(Hymn of Hate)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">荒诞假面</font>时，若使用<u>光环</u>击败敌人，则会以其为中心释放一次<u>光环</u>，且触发的光环伤害降低<font color=\"white\">50%</font>。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">额外释放的<u>光环</u>依旧会消耗血池，且伤害倍率为加算而非乘算。</font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"FCDE4C\"><b>憎恶之诗</b><br>(Hymn of Hate)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">🟥荒诞假面</font>时，若使用<u>光环</u>击败敌人，则会以其为中心释放一次<u>光环</u>，且触发的光环伤害降低<font color=\"white\">50%</font>。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">额外释放的<u>光环</u>依旧会消耗血池，且伤害倍率为加算而非乘算。</font>"
   },
   "More_Blood_Pool_I": {
     "name": "无底血池 I",
@@ -2059,9 +2065,9 @@
   },
   "Bullwhip": {
     "name": "鞭笞",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>鞭笞</b><br>(Bullwhip)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>或<u>灵界沟通</u>会为目标附加<font color=\"aqua\">鞭挞</font>印记，你的<font color=\"aqua\">召唤物</font>会优先攻击拥有<font color=\"aqua\">鞭挞</font>印记的目标并造成额外伤害。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>鞭笞</b><br>(Bullwhip)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>或<u>灵界沟通</u>会为目标附加<font color=\"aqua\">鞭挞</font>印记，你的<font color=\"aqua\">召唤物</font>会优先攻击拥有<font color=\"aqua\">鞭挞</font>印记的目标并造成额外伤害。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "More_Puppets_II": {
     "name": "魔偶军团II",
@@ -2073,7 +2079,7 @@
     "name": "狂热假面",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>狂热假面</b><br>(Mask of the Fanatic)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>时，改为佩戴<font color=\"aqua\">狂热假面</font>。(按住潜行键并释放技能取下假面)      <br>佩戴这个假面时，牺牲移速换取抗性加成，并令<u>图腾</u>的法力消耗降低。      <br><br>抗性加成：<font color=\"WHITE\">+35%</font><br>移速降低：<font color=\"red\">-35%</font><br>图腾法力消耗：<font color=\"WHITE\">-65%</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">萨满自身抗性基础值为60%，在增加35%后为95%，实际依旧比不上同属性战士的坦度。      <br>若拥有多个假面，则会按照荒诞-狂热-畏惧的顺序进行切换</font>"
+    "description": "<font color=\"FF5555\"><b>狂热假面</b><br>(Mask of the Fanatic)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>时，改为佩戴<font color=\"aqua\">🟨狂热假面</font>。<br><font color=555555>(按住潜行键并释放技能取下假面)</font>      <br>佩戴这个假面时，牺牲移速换取抗性加成，并令<u>图腾</u>的法力消耗降低。      <br><br>抗性加成：<font color=\"WHITE\">+35%</font><br>移速降低：<font color=\"FF5555\">-35%</font><br>图腾法力消耗：<font color=\"WHITE\">-65%</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">萨满自身抗性基础值为60%，在增加35%后为95%，实际依旧比不上同属性战士的坦度。      <br>若拥有多个假面，则会按照🟥荒诞-🟨狂热-🟦畏惧的顺序进行切换</font>"
   },
   "Vengeful_Spirit": {
     "name": "复仇之灵",
@@ -2083,9 +2089,15 @@
   },
   "Masquerade": {
     "name": "假面狂欢",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>假面狂欢</b><br>(Masquerade)</font><br><br><font color=\"BBBBBB\">每当你切换<font color=\"aqua\">假面</font><font color=\"FFFFFF\"> 2</font>次后，获得<font color=\"FFFFFF\"> 30</font>法力。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "icon": "/assets/img/class/medium.png",
+    "category": "medium",
+    "description": "<font color=\"#FCDE4C\"><b>假面狂欢</b><br>(Masquerade)</font><br><br><font color=\"BBBBBB\">每当你切换<font color=\"FFFFFF\"> 2 </font>次<font color=\"aqua\">假面</font>后，获得<font color=\"FFFFFF\"> 30 </font>法力。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+  },
+  "Lashing_Lance": {
+  "name": "鞭笞炎矛",
+  "icon": "/assets/img/class/blue.png",
+  "category": "blue",
+  "description": "<font color=\"#97E6FC\"><b>鞭笞炎矛</b><br>(Lashing Lance)</font><br><br><font color=\"BBBBBB\"><u>火舌</u>增加<font color=\"white\"> 1 </font>次打击次数，并使敌人<font color=\"aqua\">流血</font>，每次命中附加<font color=\"white\"> 1.5 </font>秒<font color=\"aqua\">流血</font>效果<font color=555555><br>(流血时间至多叠加6秒)</font><br><br><u>灵界沟通</u>的效果改为造成<font color=\"white\"> 6 </font>秒<font color=\"aqua\">流血</font>效果。<br><br><font color=\"BBBBBB\"><font color=\"aqua\">流血</font>效果：<br>• 敌人每<font color=\"white\"> 0.5 </font>秒受到一次伤害<br>• 在图腾范围内的<font color=\"aqua\">流血</font>伤害每次为<font color=\"aqua\">血池</font>增加<font color=\"white\"> 0.4 </font>点</font><br><br><font color=\"red\"><b>血教徒 分支</b></font>"
   },
   "Double_Totem": {
     "name": "图腾之林",
@@ -2143,9 +2155,9 @@
   },
   "Totemic_Shatter": {
     "name": "狂怒图腾",
-    "icon": "/assets/img/class/large.png",
-    "category": "large",
-    "description": "<font color=\"FF55FF\"><b>狂怒图腾</b><br>(Totemic Shatter)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">狂热假面</font>时，<u>图腾</u>落地时会立刻破碎，并在其范围内立刻造成等效于<u>图腾</u>持续<font color=\"white\">8s</font>产生的效果之和。      <br>只触发<u>治愈图腾</u>50%的效果。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">并不触发<u>鲜血圣坛</u>的吸血增加血池效果</font>"
+    "icon": "/assets/img/class/blue.png",
+    "category": "blue",
+    "description": "<font color=\"97E6FC\"><b>狂怒图腾</b><br>(Totemic Shatter)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">🟨狂热假面</font>时，<u>图腾</u>落地时会立刻破碎，并在其范围内立刻造成等效于<u>图腾</u>持续<font color=\"white\">8s</font>产生的效果之和。      <br>只触发<u>治愈图腾</u>50%的效果。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">同样可以触发<u>鲜血圣坛</u>的吸血增加血池效果，一次吸血约60%~70%</font>"
   },
   "Depersonalization": {
     "name": "自我陶醉",
@@ -2160,10 +2172,10 @@
     "description": "<font color=\"FF5555\"><b>绯红魔像</b><br>(Crimson Effigy)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>或<u>灵界沟通</u>命中<u>图腾</u>后，召唤一个<font color=\"aqua\">绯红魔像</font>，<font color=\"aqua\">绯红魔像</font>会追踪附近的敌人造成近战伤害，并将其向你<u>图腾</u>所在的位置拉扯。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Mask_of_the_Coward": {
-    "name": "畏惧假面",
+    "name": "🟦畏惧假面",
     "icon": "/assets/img/class/special.png",
     "category": "special",
-    "description": "<font color=\"FF5555\"><b>畏惧假面</b><br>(Mask of the Coward)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>时，改为佩戴<font color=\"aqua\">畏惧假面</font>。(按住潜行键并释放技能取下假面)      <br>佩戴这个假面时，牺牲伤害换取移速加成，并令<u>牵引</u>的法力消耗降低。      <br><br>移速加成：<font color=\"WHITE\">+80%</font><br>伤害降低：<font color=\"red\">-10%</font><br>图腾法力消耗：<font color=\"WHITE\">-50%</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">若拥有多个假面，则会按照荒诞-狂热-畏惧的顺序进行切换</font>"
+    "description": "<font color=\"FF5555\"><b>🟦畏惧假面</b><br>(Mask of the Coward)</font><br><br><font color=\"BBBBBB\">使用<u>铲除</u>时，改为佩戴<font color=\"aqua\">🟦畏惧假面</font>。(按住潜行键并释放技能取下假面)      <br>佩戴这个假面时，牺牲伤害换取移速加成，并令<u>牵引</u>的法力消耗降低。      <br><br>移速加成：<font color=\"WHITE\">+80%</font><br>伤害降低：<font color=\"red\">-10%</font><br>图腾法力消耗：<font color=\"WHITE\">-50%</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font><br><br><font color=\"00FF00\">备注</font><br><font color=\"BBBBBB\">若拥有多个假面，则会按照🟥荒诞-🟨狂热-🟦畏惧的顺序进行切换</font>"
   },
   "Fluid_Healing_(Shaman)": {
     "name": "水疗术",
@@ -2184,10 +2196,10 @@
     "description": "<font color=\"FCDE4C\"><b>怨念缠身</b><br>(Maddening Roots)</font><br><br><font color=\"BBBBBB\"><u>铲除</u>将会使敌人减速</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Chant_of_the_Coward": {
-    "name": "畏惧之章",
+    "name": "🟦畏惧之章",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>畏惧之章</b><br>(Chant of the Coward)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">畏惧假面</font>时，对附近的敌人造成伤害和击退。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>🟦畏惧之章</b><br>(Chant of the Coward)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">🟦畏惧假面</font>时，对附近的敌人造成伤害和击退。</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Blood_Rite": {
     "name": "血之祭礼",
@@ -2202,10 +2214,10 @@
     "description": "<font color=\"#FFFFFF\"><b>双生魔像</b><br>(More Effigies)</font><br><br><font color=\"BBBBBB\"><font color=\"aqua\">绯红魔像</font>的召唤上限<font color=\"FFFFFF\"> +1</font>，单个魔像的伤害降低。</font><br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font>"
   },
   "Chant_of_the_Fanatic": {
-    "name": "狂热之颂",
+    "name": "🟨狂热之颂",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>狂热之颂</b><br>(Chant of the Fanatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">狂热假面</font>时，令自身和附近的队友获得短暂高额免伤。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>🟨狂热之颂</b><br>(Chant of the Fanatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">🟨狂热假面</font>时，令自身和附近的队友获得短暂高额免伤。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Stronger_Tether": {
     "name": "血手夺魄",
@@ -2229,13 +2241,13 @@
     "name": "图腾随行",
     "icon": "/assets/img/class/small.png",
     "category": "small",
-    "description": "<font color=\"#FFFFFF\"><b>图腾随行</b><br>(Seeking Totem)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">畏惧假面</font>时，<u>图腾</u>会跟随施法者直到施法者处于<u>图腾</u>的范围之内。      <br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>图腾随行</b><br>(Seeking Totem)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">🟦畏惧假面</font>时，<u>图腾</u>会跟随施法者直到施法者处于<u>图腾</u>的范围之内。      <br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font>"
   },
   "Frog_Dance": {
     "name": "蛙之舞",
     "icon": "/assets/img/class/large.png",
     "category": "large",
-    "description": "<font color=\"#FFFFFF\"><b>蛙之舞</b><br>(Frog Dance)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">畏惧假面</font>时，使用<u>牵引</u>会令你逐渐高速跳跃<font color=\"white\">3</font>次并对附近的敌人造成伤害。      <br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font>"
+    "description": "<font color=\"#FFFFFF\"><b>蛙之舞</b><br>(Frog Dance)</font><br><br><font color=\"BBBBBB\">佩戴<font color=\"aqua\">🟦畏惧假面</font>时，使用<u>牵引</u>会令你逐渐高速跳跃<font color=\"white\">3</font>次并对附近的敌人造成伤害。      <br><br><font color=\"16d108\"><b>圣祭司 分支</b></font></font>"
   },
   "More_Blood_Pool_III": {
     "name": "无底血池III",
@@ -2250,10 +2262,10 @@
     "description": "<font color=\"FF5555\"><b>倏忽傀影</b><br>(Shepherd)</font><br><br><font color=\"BBBBBB\">当你的召唤物杀死一个敌人时，临时增加 <font color=\"white\">1 </font>个<font color=\"aqua\">魔偶</font>上限。(持续<font color=\"WHITE\"> 15s </font>，最多<font color=\"WHITE\"> +8 </font>)      <br><br><font color=\"FCDE4C\"><b>召唤师 分支</b></font></font>"
   },
   "Chant_of_the_Lunatic": {
-    "name": "荒诞之歌",
+    "name": "🟥荒诞之歌",
     "icon": "/assets/img/class/medium.png",
     "category": "medium",
-    "description": "<font color=\"FCDE4C\"><b>荒诞之歌</b><br>(Chant of the Lunatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">荒诞假面</font>时，短暂令附近较大范围内的敌对单位抗性降低。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
+    "description": "<font color=\"FCDE4C\"><b>🟥荒诞之歌</b><br>(Chant of the Lunatic)</font><br><br><font color=\"BBBBBB\">切换到佩戴<font color=\"aqua\">🟥荒诞假面</font>时，短暂令附近较大范围内的敌对单位抗性降低。（8秒冷却）</font><br><br><font color=\"16d108\"><b>圣祭司 分支</b></font>"
   },
   "Blood_Sorrow": {
     "name": "猩红挽歌",
