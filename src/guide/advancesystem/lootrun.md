@@ -312,8 +312,6 @@ Vibrant信标拥有原信标的双倍效果
 Dynamic为动态祝福，你有机会提高该祝福的层数
 
 :::tip
-进行到一定轮次时，不会出现除了<font color = 00BB00>**Clockworker**</font>和<font color = 00BB00>**Slowrunner**</font>以外的Dynamic祝福
-
 **Dynamic祝福是有可能减少层数的**
 :::
 
@@ -330,22 +328,22 @@ Static祝福**在选择时**的数值为随机数值
 
 | 名称                  | 种类 | 描述                                                                                                    | 最大层数 |
 |-----------------------|-----------|----------------------------------------------------------------------------------------------------------------|------------|
-| <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在本局游戏中累计见到6个蓝色信标或紫色信标时，获得 `祝福效果`                | -          |
-| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `祝福效果`                        | x15        |
-| <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `祝福效果`                                            | x15        |
-| <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `祝福效果`                            | -          |
-| <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `祝福效果`                                 | x15        |
-| <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每累计从箱子里见到4个物品都会获得一层 `祝福效果`                      | x15        |
-| <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `祝福效果`                                          | x15        |
-| <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `祝福效果`                                           | x10        |
-| <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除祝福都会增加/减少一层 `祝福效果`                                           | x8         |
-| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了3只怪物，获得一层持续60s的 `祝福效果`；在每次击杀怪物后，持续时间都会重置至60s | x100          |
-| <font color = CCCCCC>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `祝福效果`                               | x15          |
-| <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你累计完成了5个挑战后，获得 `祝福效果`                                      | -          |
+| <font color = FFAA00>**Persnickety**</font>           | Dynamic   | 当你在本局游戏中累计见到6个蓝色信标或紫色信标时，获得 `祝福效果`    | -          |
+| <font color = FFAA00>**Picky Looter**</font>          | Dynamic   | 在这次挑战后，每当你见到一个黄色信标，获得一层 `祝福效果`           | x15    |
+| <font color = FFAA00>**Heavensent**</font>            | Dynamic   | 在这次挑战后, 每当你见到一个信标，获得一层 `祝福效果`     | x15        |
+| <font color = 00BB00>**Slowrunner**</font>            | Dynamic   | 当计时器少于6min时，获得 `祝福效果`      | -          |
+| <font color = 00BB00>**Clockworker**</font>           | Dynamic   | 计时器剩余的每一分钟都会获得一层 `祝福效果`         | x15        |
+| <font color = FFCC00>**Looter**</font>                | Dynamic   | 在这次挑战后, 每累计从箱子里见到4个物品都会获得一层 `祝福效果`            | x15        |
+| <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `祝福效果`           | x15        |
+| <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `祝福效果`          | x10        |
+| <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除祝福都会增加/减少一层 `祝福效果`         | x8         |
+| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了5只怪物，获得一层持续60s的 `祝福效果`；在每次击杀怪物后，持续时间都会重置至60s | x50   |
+| <font color = CCCCCC>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `祝福效果`              | x15          |
+| <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你累计完成了30个挑战后，获得 `祝福效果`           | -          |
 | <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每累计见到4个物品都会获得一层 `祝福效果`           | x10        |
-| <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `祝福效果`                                   | x8        |
-| <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个祝福都会获得一层 `祝福效果`                                    | x5        |
-| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每累计击杀10只怪物都会获得一层 `祝福效果`                               | x12        |
+| <font color = FF55FF>**Madman**</font>                | Static    | 截止这次挑战前，你拥有的每一个诅咒都会获得一层 `祝福效果`               | x8        |
+| <font color = 5555FF>**Lightbringer**</font>          | Static    | 截止这次挑战前，你拥有的每一个祝福都会获得一层 `祝福效果`           | x5        |
+| <font color = FF5555>**Mob Slaughter**</font>         | Static    | 截止这次挑战前，每累计击杀10只怪物都会获得一层 `祝福效果`               | x12        |
 |<font color = CCCCCC> **Retrograde Champion**</font>   | Static    | 截止这次挑战前，每完成一次挑战都会获得一层 `祝福效果`                    | x10        |
 
 祝福效果如下列所示
@@ -362,7 +360,9 @@ Static祝福**在选择时**的数值为随机数值
 + 战利品加成
 + 战利品质量
 + 生命窃取
++ 最大法力值
 + 虚弱
++ 减速
 
 
 
@@ -405,13 +405,13 @@ Static祝福**在选择时**的数值为随机数值
 | <font color='FFCC00'> **High Roller** </font>         | 获得2次奖励刷新机会|
 | <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再出现  |
 | <font color='FFCC00'> **Hoarder** </font>         | 每当你从箱子中累计见到20件物品时，获得一个随机祝福  |
-| <font color='FFCC00'> **Treasure Hunting** </font>         | 红色信标现在会给予你一次二选一祝福的机会 |
+| <font color='FFCC00'> **Treasure Hunting** </font>         | 红色信标现在会给予你一次祝福二选一的机会 |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 祝福额外增加50%效果|
 | <font color='5555FF'> **Gourmand** </font>     | 每当你获得祝福时，获得一次信标重抽机会|
 | <font color='5555FF'> **Porphyrophobia** </font>     | 蓝信标现在会+1pulls，但每次见到紫色信标都会获得1个诅咒|
 | <font color='5555FF'> **Chronokinesis** </font>         | 每开启一个箱子会+1pull，但会扣除10秒时间，每个箱子会使该惩罚时间额外+5s<br>完成任意挑战可使该惩罚时间-10s|
 | <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，换取1个额外挑战轮数  |
-| <font color='AA00AA'> **Equilibrium** </font>         | 每当得到2个诅咒后，获得1个随机祝福|
+| <font color='AA00AA'> **Equilibrium** </font>         | 每得到1个诅咒后，获得1个随机祝福|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半|
 | <font color='AA00AA'> **Jester's Trick** </font>         | 每当你从飞箱中累计见到20件物品时，从pulls+3，祝福\*1，诅咒\*1，计时器+30s中随机抽取一个并获得  |
 | <font color='AA00AA'> **Complete Chaos** </font>         | 每次完成挑战后，有80%的概率额外获得一个随机信标效果|
@@ -485,7 +485,9 @@ sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pu
 
 ![](/assets/img/lootrun13.jpg =400x)
 
-1sac为保存50%的pulls，2sac为保存75%的pulls
+sac的保存数公式为：
+
+$$(1-\frac{1}{2^{sac}})×100\%$$
 
 
 在确认开启后，你就不能进行任何操作了，包括rr和sac
@@ -517,27 +519,165 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 :::
 
 
-## 圣经
+## 跑法策略
 
-:::tip 圣经
-lr我有八不跑
+在经过N次更新之后，目前的LR已经变成了一个非常公式化的游戏，有就有，没有就死。
 
-一是corkus我不跑，corkus存在大量的复杂洞穴，耗时耗力，再加上难度实在过于简单，导致整个流程就显得非常的简单枯燥折磨人
+以下攻略基于`2.1.2_3`版本编写，不保证时效性。
 
-二是火山我不跑，火山部分地区对大陆选手非常不友好，存在大量卡顿，再加上怪物强度比起corkus有了一定提升，导致整个区域就是又卡又难打
+### 职业选择
 
-三是空岛我不跑，空岛的怪物都是浮空怪，法师打不着，再加上有个√8黑色派大星，还有个漂移山羊塔，鬼才打空岛，反正我不跑
+---
 
-四是SE我不跑，二十倍血量巨人，漂移贵物红马，巨型移动坦克史莱姆，各种数值怪，se的恶心之处就不用我再多做解释了
+职业优先选择法师或者战士。
 
-五是短途我不跑，短途拿不到多少好奖励，而且短途开太短还会吃到15分钟冷却CD，浪费我时间
+法师能提供非常强劲的位移能力，但仅推荐Warp，走奥术法师。(如果你不嫌弃坐牢的话，球法也是可以跑的。)
 
-六是长途我不跑，费心费力跑了两个小时，最后一个le都没有，奖励宝箱红的红蓝的蓝，这种长途谁还想继续跑？反正我不跑
+战士能够提供非常恐怖的续航(Fallen)，或者非常恐怖的抗伤能力(Paladin)，非常适合新手起步LR。
 
-七是旧lr我不跑，旧lr的箱子已经被削成人模狗样了，开出来全是空的，一个满箱都没有，而且还少了snipe别人的快乐
+萨满勉强可以跑(得力于不俗的续航和伤害)，但跑起来非常非常费劲，尤其是某些比较复杂的洞穴会非常死亡。可能是我唯一一个看到ws增益想拿的职业。
 
-八是新lr我不跑，都说了是新lr，新东西肯定还有尚未完善的地方，而事实证明如此，新lr就是一个巨大的牢房，进去就是坐牢，这种牢房谁还愿意继续在里面蹲着？反正我不蹲，所以究竟是谁还在玩这个游戏
-:::
+至于刺客和弓箭手，**我祝他们幸福**，两个一点续航都没有的职业拿头打LR，只能说能跑，但是会非常吃屎，很难跑久。
+
+### 构筑思路
+
+---
+
+对于构筑选择，至少应当保证你的属性点有火属性，否则靠气属性撑ehp有被秒的风险。~~别跟我说你拿ETW打LR，那你也是个神人~~
+
+同时，最好有一些hpr，能保证你尽量减少血瓶依赖，除了SE以外的100级血瓶资源有限，光靠血瓶撑回血容易吃空。
+
+并且，你的构筑最好存在合适的法力续航，如果转不起来会非常难受。
+
+可以考虑适当丢弃伤害来保证舒适度，LR中你有一万种方式提升伤害，但是舒适度没了就容易被秒，生存下去才是硬道理。~~但是这不是你玩WFA的理由~~
+
+比较推荐在你的构筑中使用`Resurgence`，这双鞋同时有大量hpr和mr，是lr构筑中不可多得的优秀组件。
+
+如果你对你的战斗技术有把握，并且你的配装也有自信的话，可以考虑在峡谷以外的地方LR时塞一件`Discoverer`和LQ戒指来增加道中的收益。(尤其是飞箱局，塞皮能大幅提升收益)
+
+
+### 信标思路
+
+---
+
+这里只介绍比较通用的信标思路，这一块具体还是得看个人。
+
+1\~12轮，优先拿橙信标撑信标选数，**出了彩虹必拿**
+
+如果没有橙信标，就拿青信标，再没有就拿蓝信标。
+
+出了彩虹之后，尽快把vib青+vib白拿到，否则靠红信标撑回合数，这期间有橙拿橙**同时除了蓝信标以外的所有信标都需要先吃青再拿**
+
+一直没出彩虹信标可以跳了。
+
+在保证信标选数(稳定5-6选)和回合数(40/42轮)均足够了之后，13\~30轮尽快做完灰信标。
+
+跑长途的话，除了CR以外，尽量刚开始就马上连吃红信标把回合数撑到100来消除红信标。
+
+暗灰信标有信心可以直接吃，吃了之后直接消除一个信标选择对运营很有帮助。
+
+靠红信标的轮数记得吃绿信标来维持时间。
+
+其余时间可以看情况吃蓝+蓝或者青+紫
+
+这里的一些运营过程放到下面讲。
+
+
+
+### 增益选择
+
+---
+
+当前版本的增益大砍了一刀之后数值少得可怜。
+
+首先，`Life Steal`和`Slow Enemy`不要选，非常废物，除非你奥术想用`Life Steal`来凑50%法伤。
+
+`Max Mana`看个人，比较不推荐选，主要是这玩意还有上限，非常蛋疼，但是能提高首刀和位移舒适度是真的。
+
+`Walk Speed`也是提升舒适度的，一般用位移走路的不怎么选。~~萨满可以选~~
+
+属性点看个人，如果某一个属性点非常缺甚至几乎没有，那还是很推荐拿的。
+
+`Loot Bouns`，`Loot Quality`在你一点都没有的情况下可以拿(但是不如先拿伤害和生存)，前者拿满80%，后者拿满40%即可，不需要拿太多，衰减严重。
+
+`Health Regen`，`Weaken Enemy`，`Health`都是生存向的增益，如果你觉得生存非常吃力，最好多拿几个。但是要注意`Weaken Enemy`打到敌人才有效，而且上限50%，优先级不如另外两个，建议一次拿满。
+
+`Mana Regen`，`Damage`，`Element Damage`，`Critical Damage`看到就拿，无脑提升伤害。
+
+当然，以上都只是最基础的东西，你真正需要看的是**数值**
+
+是的，不同增益类型的数值是不一样的。
+
+首先，<font color = FF5555>**Killstreak**</font>如果给的属性恰当，看到就拿，这个能提供最高的属性加成。
+
+其次，<font color = FF55FF>**Bad Omen**</font>的数值也比较不错，可以拿。<font color = FF55FF>**Madman**</font>如果你的诅咒够，也是必拿。
+
+其他的就没什么值得讲的了。。个人比较推荐<font color = 00BB00>**Clockworker**</font>、<font color = FFAA00>**Picky Looter**</font>，这两个数值比较高，其他的就看个人吧..
+
+
+
+
+
+### 任务选择
+
+---
+
+这玩意其实才是大头，~~让我头大的玩意~~
+
+目前的版本中，任务直接决定了收益，好的任务能让你收益暴增，而烂任务会让你的游戏体验暴跌。
+
+这里将任务分为三个种类：运营类、奖励类、综合类。
+
+运营类能降低你的运营、战斗压力，甚至改变游戏玩法。
+
+奖励类能直接提高最终奖励。
+
+综合类可能二者兼得，或者有其他的效果。
+
+#### 运营类
+----
+
+
+| 任务名称 | 简评 |
+| ------- | ---- |
+| <font color='FFCC00'> **Cleansing Greed** </font> | 单走效果非常差，几乎强绑Materialism。起作用之后会有不错的效果，每轮稳定清2诅咒，跑长途会比较舒服。<br>现在感觉...不如Hoarder，数值可能拼不过人家。  |
+| <font color='FFCC00'> **Hoarder** </font> | 飞箱流滴神，但是最好搭配皮来保证满箱。这玩意单走也有点点强度，但是在增益数值大砍的当下，这个任务的优先级也是被大大降低了。 |
+| <font color='FFCC00'> **Treasure Hunting** </font> | 占任务池的垃圾任务，本身红信标吃的不多，纯靠单红信标没彩虹没青的局不如不跑，有彩虹基本都是直接吃五个青红把回合数撑爆，完全没用多吃红信标的意义。 |
+| <font color='5555FF'> **Orphion's Grace** </font> | 在增益大砍了之后非常尴尬，以前还能玩玩，现在是真的没啥用了，数值太低了... |
+| <font color='5555FF'> **Gourmand** </font> | 单走没强度，但是配合Equilibrium之后直接起飞，随随便便几十甚至上百rr，完全放弃信标运营，没有的信标直接转出来就好了。 |
+| <font color='AA00AA'> **Equilibrium** </font>| 减轻难度，任务本体增强了之后值得拿了，非常强力，尤其是长途，解锁无脑吃紫权，直接和怪正面硬撞数值 |
+| <font color='AA00AA'> **Inner Peace** </font> | **神**，最大的作用是抗性上限减半，大幅降低后期压力，长途最好优先考虑拿这个 |
+| <font color='00BB00'> **Backup Beat** </font> | 在没有其他任务的情况下可以拿，提供信标rr降低运营压力还是很好的，虽然还是不如隔壁傍上equi大哥的Gourmand |
+
+
+#### 奖励类
+----
+
+
+| 任务名称 | 简评 |
+| ------- | ---- |
+| <font color='FFCC00'> **High Roller** </font> | 短途/sac局可以拿，长途建议还是优先考虑拿sac |
+| <font color='5555FF'> **Porphyrophobia** </font>| 这几把是啥？纯傻逼任务。 |
+| <font color='5555FF'> **Chronokinesis** </font> | 可以拿，拿了之后保证每轮拿2-3个野箱即可，能当一个pull补充机。**注意这个只计入路边野箱和洞穴宝箱** |
+| <font color='00BB00'> **Safety Seeker** </font> | 可以拿，但是信标选数不够自助餐的话小心2选吃屎，~~梦回2.0.3~~ |
+| <font color='FF5555'> **Gambling Beast** </font> | 除了sac局以外不推荐拿，拿了之后等于游戏结束。或者如果任务条件恰当的话，你也可以试试领了任务拖着不完成，拿够pulls了之后再来结算任务。 |
+| <font color='FF5555'> **Redemption** </font> | 长途几乎必拿，现在太需要sac了。 |
+| <font color='FF5555'> **Ultimate Sacrifice** </font> | 短途必拿，长途有CR才拿，或者你能保证你的增益数量多到随便吃，那就拿。 |
+| <font color='FF5555'> **Warmth Devourer** </font> | sac局可以拿，高仿真lr属于是。 |
+
+#### 综合类
+----
+
+
+| 任务名称 | 简评 |
+| ------- | ---- |
+| <font color='FFCC00'> **Materialism** </font> | 神，提供大量飞箱收益+删除黄信标降低运营难度，以及能跟部分任务形成联动，非常值得拿甚至必拿。(峡谷得考虑一下，峡谷的箱子收益有点难评。) |
+| <font color='AA00AA'> **Cleansing Ritual** </font> | 长途滴神，无脑压到100轮，还能顺手减轻部分战斗难度，如果考虑跑长途必拿。 |
+| <font color='AA00AA'> **Jester's Trick** </font> | 额...能提供pull和增益不假，但是这玩意可能很多时候都在整蛊塞诅咒，而且还限定飞箱，如果不怕整蛊的话可以拿，拿完用青黄过飞箱或者跟Materialism联动。 |
+| <font color='AA00AA'> **Complete Chaos** </font> | **神，神，神中神**，直接改变游戏玩法的任务，看到无脑拿，**这玩意是可以塞给你额外的灰信标的**，而且还可以塞给你全种类信标，非常牛逼。 |
+| <font color='00BB00'> **Stasis** </font> | 比较尴尬的任务，如果你跑图比较慢的话可以用，但这玩意有的时候甚至会内鬼，比如选了usac的时候出现了需要获取时间才能完成的任务。 |
+
+### 过程与运营思路
 
 
 
