@@ -40,12 +40,10 @@ Nesaak南边有通天塔——[Tower of Ascension](/quests/lvl31-40/level%2040%2
 
 ## 前往海的对岸——Gavel省
 
-## 石英之城——Llevigar
+Llevigar是Gavel省的港口，从Llevigar开始你将接触到一系列关于Wynn大陆最深层的秘密，有一系列很棒的剧情线。
 
 40级左右可以从Nemract或Selchar坐船前往Llevigar。
 
 >不过其实30级就已经可以去了，不过考虑游戏体验，建议第一次玩的新人还是到了等级再去
-
-Llevigar是Gavel省的港口，从Llevigar开始你将接触到一系列关于Wynn大陆最深层的秘密，有一系列很棒的剧情线。
 
 Llevigar的npc种类很全，但是有些npc（如鉴定师、药剂师）离银行和集市太远了，所以一般Llevigar也不会长期逗留。
