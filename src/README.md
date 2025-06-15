@@ -18,6 +18,11 @@ actions:
     link: ./quests/
     type: primary
     icon: book
+  
+  - text: 常见问题（新手必看）
+    link: ./guide/qa.md
+    type: primary
+    icon: book
 
 
 
