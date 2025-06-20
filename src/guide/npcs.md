@@ -46,6 +46,8 @@ Emerald Merchant的标志是绿宝石
 ![](/assets/img/bank2.jpg)
 :::
 
+>除了银行外，还有专门存放杂项物品、Tome的“银行”，[具体见这里](/guide/commonfunction/house.md)
+
 ## Item Identifier
 ~~知名绿宝石诈骗商~~
 
