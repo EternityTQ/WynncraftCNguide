@@ -143,7 +143,7 @@ Ratity是1级的Legendary戒指
 
 但是要注意的是，lr也是后期内容，对你的装备要求是极高的！
 
-对于lootrun，可以看看[这一章](/guide/lootrun.html)
+对于lootrun，可以看看[这一章](/guide/advancesystem/lootrun.md)
 
 ## 赌博（特指鉴定游戏中的装备）
 
