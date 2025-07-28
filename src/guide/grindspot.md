@@ -56,7 +56,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 
 
-## Lv.5~Lv.10 大树下
+## Lv.1~Lv.10 大树下
 
 ![](/assets/img/grindspot1.jpg)
 
@@ -68,7 +68,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 这个等级被21级的怪物摸到基本就是直接秒杀
 
-## Lv.10~Lv.20 蘑菇平原
+## Lv.10~Lv.30 蘑菇平原
 
 ![](/assets/img/grindspot2.jpg)
 
@@ -77,6 +77,8 @@ Grind Spot的怪物强度往往高于其他怪物
 但是有远程，需要格外小心
 
 好处是离城镇近，如果被打残了直接跑路回城镇补给就可以了
+
+20级后比较乏力，但还是可以接着打
 
 ## Lv.18~Lv.35 蜘蛛山
 
@@ -89,7 +91,7 @@ Grind Spot的怪物强度往往高于其他怪物
 如果有组队的话，这里是个不错的点
 
 
-## Lv.20~Lv.40 墓地
+## Lv.20~Lv.45 墓地
 
 ![](/assets/img/grindspot4.jpg)
 
@@ -127,7 +129,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 队伍建议2~4人即可
 
-## Lv.60~Lv.80 肉洞
+## Lv.55~Lv.85 肉洞
 ![](/assets/img/grindspot11.jpg)
 
 其实这里并不是严格意义上的经验刷怪点，因为它有怪物掉落物
@@ -142,7 +144,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 >而且这个地方有掉落物，运气好的话还可以出把[pure](/guide/advancesystem/mythic.html#pure)，小声
 
-## Lv.65~Lv.85 瀑布洞
+## Lv.65~Lv.90 瀑布洞
 
 ![](/assets/img/grindspot8.jpg)
 
@@ -155,7 +157,7 @@ Grind Spot的怪物强度往往高于其他怪物
 推荐3~8人
 
 
-## Lv.85~Lv.105 垃圾场
+## Lv.80~Lv.105 垃圾场
 
 ![](/assets/img/grindspot9.jpg)
 
