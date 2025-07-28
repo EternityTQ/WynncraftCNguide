@@ -155,6 +155,8 @@ icon: hat-wizard
 武道士更需要的是玩家的游戏思路，而非操作
 
 **重要技能：**
++ Air Shout:战吼会释放一个弹射物，穿透敌人并造成多次伤害
+
 + Generalist：每施放3个不同的技能后，下一个技能只需1法力消耗
   
 + Aerodynamics：冲锋期间，可以调整方向
@@ -189,13 +191,13 @@ icon: hat-wizard
 
 + Cleansing Breeze：净化负面状态
 
++ Sacred Surge:任意技能可增长神圣能量，上挑可消耗能量并获得增伤
+
 + Mythril Skin：不会被击退
 
 + Radiance：范围增强友方装备的全部增益词条
 
-+ Second Chance：10分钟一次的被动复活
-
-+ Martyr：受到致死伤害时周围所有队友3秒内无敌
++ Heavenly Triumph: 消耗神圣能量获取大额伤害吸收
 
 :::
 
@@ -453,13 +455,13 @@ icon: hat-wizard
 **重要技能：**
 + Sacrificial Shrine：通过图腾牺牲生命值填充血池，使用aura会造成范围治疗效果
 
-+ Blood Connection：这个游戏中最难使用但是非常有用的位移技能，在图腾范围外使用haul会传送回图腾
-
 + Vengeful Spirit：图腾范围内增加伤害
 
-+ Fluid Healing：水伤增加治疗量
++ Eldritch Call: 对极大范围内的敌人造成极高伤害
 
 + Blood Rite：图腾范围内友方受到伤害会填充血池
+
++ Sanguine Strike: 近战击中会施加流血。
 
 :::
 

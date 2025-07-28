@@ -13,6 +13,8 @@ icon: dice-d20
 
 建议安装wynntils这个模组，因为可以查看词条的鉴定度，非常方便。先以武器为例：
 
+(把光标放在下面任意一行字上，获取具体说明！)
+
 <div class="item-window1">
   <div class="item-details">
     <p class="bigsize">

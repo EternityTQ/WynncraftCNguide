@@ -2,18 +2,6 @@
 title: Mastery Tome
 icon: book-open
 ---
-
-:::danger 警告
-本页面内容已经过时，编者无力维护更新
-
-等待有缘人接手。
-
-:::
-
-
-
-
-
 ## 简介
 
 ![](/assets/img/tome1.jpg)
@@ -28,46 +16,21 @@ Mastery Tome系统会在做完[Realm of Light I - The Worm Holes (level 54)](/qu
 
 Tome其实和装备类似，都是可以增加自己的基础属性。
 
-**你可以将Tome理解为某2023年金牌MOBA手游的铭文系统，功能上是差不多的。**
-
 每个位置可装备的tome效果也不同，可以分为7个种类的tome
 
+>分别为:Armourx4,Lootrunningx1,Weaponx2,Mysticismx2,Marathonx2,Expertisex2,Guildx1
 
-
-
-
-:::warning
-除了公会tome以外，所有tome都是各角色**灵魂绑定**，无法公用
+:::tip
+所有的tome都不可交易，必须自己刷！
 
 同时所有tome槽也是分存档解锁，不公用解锁情况
 
-每个角色死绑的tome只能存放在该角色的个人仓库内，但公会tome依旧可以存放于公共仓库
+tome可以跨存档使用，所以可以用一个号刷完，直接给另一个号拉满
 :::
 
 ## 解锁条件与攻略
 
-这里简单介绍一下解锁条件的攻略
-
-| 槽位名称 | 解锁条件 | 攻略 |
-| --- | --- | --- |
-| 武器 I | 总等级 Lv.300 | 这里的等级算上了副职等级！所以你需要一起把副职做了<br>比较建议将4个采集副职升到20，制作副职升到15。<br>注意制作的时候一定要上满6个素材！0星就行，很快就能做完 |
-| 武器 II | Raid - notg | 更简单了，刚开完tome系统野队去匹一把就行了<br>这个基本上野队能稳过！|
-| 防具 I | 25个秘密发现 | 建议对着[wiki](https://wynncraft.fandom.com/wiki/Secret_Discoveries)来找，差不多两三个地区找完就能解了|
-| 防具 II | 50个任务 | 迷你任务也计数！实在懒得做的话直接去市场买材料，<br>然后去交迷你任务就行了！<br>注意是slay的迷你任务，副职迷你任务还要副职等级比较麻烦！|
-| 防具 III | 10000只怪物 | 这个没什么好说的...一般你练到满级之后这个孔已经开了 |
-| 防御 IV | 12种地牢击破 | 去Forgery逛一圈，然后打一下低级地牢就好了！|
-| 杀怪 I | 开启200个箱子 | 这个也没什么好说的，路上野箱记得开开，很快的 |
-| 杀怪 II | 300次地区解锁 | 这个需要多跑图！<br>可以用任务书看看哪篇区域还没跑过，去那里逛一圈就行了 |
-| 采集 I | 10次公会战 | 这个需要你加公会才能打！<br>注意只算进入次数，你可以裸着进去蹭就行了！死了也计数！<br>你也可以找个有权限的帮你开10次gw！|
-| 采集 II | 进入8次家园 | 自己的家园也算数！来回进出8次就行了|
-| 副本 I | 完成任务：[tol](/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html)| 也没啥好说的，注意这个任务非常蛋疼 |
-| 副本 II |市场花费32k | 买买买就好了！ |
-| 公会 I | 15次raid | 比较建议去tcc或者tna，别浪费门票在低级raid!<br>你可以找群友带你 |
-| LR I | 5次LR | 这个tome能拿到的话槽位应该已经开了...没什么好说的 |
-
-对于每个tome槽，有不同的种类和解锁条件，你可以将光标移到槽位上查看详情
-
-![](/assets/img/tome2.jpg =500x)
+所有Tome Slot都有一定等级要求。满级后将自动解锁所有Tome！
 
 尽管每个槽位有自己的解锁等级限制，但大多数情况下是到了满级才会用到tome，因此本篇省略等级限制
 
@@ -76,13 +39,11 @@ Tome其实和装备类似，都是可以增加自己的基础属性。
 
 | 名称/等级 | notg | nol | tcc | tna |
 | --- | --- | --- | --- | --- |
-| 武器tome | I | II | - | III |
-| 防具tome | I | - | II | - |
-| 杀怪tome | I | II | II | III |
-| 副本tome | I | II | II | III |
-| 采集tome | I | II | II | III |
-
-目前的版本来说，**毕业**防具tome和武器tome分别需要在tcc和tna刷取
+| Weapon  | 有 | 有 | - | 有 |
+| Armour  | 有 | - | 有 | - |
+| Mysticism  | 有 | - | 有 | - |
+| Marathon  | 有 | - | 有 | - |
+| Expertise  | 有 | - | -- | 有 |
 
 公会tome需要在公会系统中由有权限的成员给予，通常需要符合一定条件或等待一段时间后才可领取
 
@@ -90,113 +51,104 @@ lootrun tome需要在lr中获取
 
 对于大多数情况，你只需要关注武器tome和防具tome即可
 
+:::tip
+Tome分有等级，根据你进行Raid时的战斗等级，发放的Tome等级也会不同。
+如果想获取毕业级的Tome，那么你需要用满级的职业去刷。
+:::
 
+:::tip
+notg的tome池子为大混池，从所有类型Tome中抽取部分作为本周奖励
+因此你需要时刻关注本周的notg轮换池是什么。
+理论上只打notg你能刷到所有tome
+:::
+
+:::danger
+下文介绍的Tome数值默认为最高级的数值。
+:::
 ## tome种类功能介绍
 
 这里将简单介绍一下每个槽位的特点
 
 ### 武器tome(Weapon Mastery)
 
-武器tome会增加你对怪物造成的伤害，同时给予点数或元素伤害加成，可装备两个
+武器tome会给予伤害加成，可装备两个。
 
-武器tome基础提供的伤害加成数值如下
-| 等级/品质 | Legendary | Fabled | Mythic |
-| --- | --- | --- | --- |
-| 1级 | +6% | +7% | - |
-| 2级 | - | +8% | +12% |
-| 3级 | - | +13% | +16% |
+按类别,鉴定最好的Tome可能提供以下数值：
 
-三个等级的武器tome副词条基本类似，如下(Legendary品质没有副词条)
-
+(每排为一本Tome可能有的词条)
 Fabled:
-+ +3点单一属性点
-+ +1点全属性点
-+ +1 mr/ms(1级或3级)
++ +10% Spell
++ +73 Raw spell
++ +95 Main attack Raw
++ +10% Main attack
+
 
 Mythic:
-+ 2%-10%单属性元素伤害
-+ 2%-8%全属性元素伤害
-  
++ 9%单属性元素伤害和5%全属性元素伤害 
   
 ### 防具tome(Armour Mastery)
-  防具tome会提升自身的基础抗性，同时给予部分辅助相关的属性，可装备四个
+ 防具tome会给予部分辅助相关的属性，可装备四个
 
-防具tome的基础抗性数值如下
-| 等级/品质 | Legendary | Fabled | Mythic |
-| --- | --- | --- | --- |
-| 1级 | 2% | 3% | - |
-| 2级 | - | 4% | 5% |
+鉴定最好的Tome可能提供以下数值：
 
+Fabled:
++ +345 HP +10% 单元素防御
 
-1级防具tome属性过低，本篇省略介绍
-
-2级Fabled品质的防具tome会拥有以下副词条之一：
-+ 2%-8% Main attack dmg + 2%-8% Exploding
-+ 2%-10% Throns + 2%-10% Reflection
-+ 2%-8% Spell damage
-+ 2%-8% Loot bonus
-+ 2%-8% Walk speed
-+ 29-65 Health Regen
-+ 24-98 life steal
-
-2级Mythic品质的防具tome会固定拥有以下两条副词条：
-
-+ 100-286 HP
-+ 2%-10% 随机单一元素防御，或2%-8%全元素防御
-
-:::tip 防具tome其实是Fabled品质更实用
-Mythic的防具tome仅提供血量与元素防御加成，一般情况下只有在公会战中才有装备Mythic防具tome的要求
-
-对于日常，基本都是装备更为实用的Fabled防具tome，因为其提供的副词条更加适合日常使用
-:::
+Mythic:
++ +390 HP +46 Health Regen Raw
++ +390 HP +91 Life Steal
   
-### 杀敌tome(Slaying Mastery)
-杀敌tome会增加你从击杀怪物获取的经验(不包括地牢结算经验)，可装备两个
+### 神秘tome(Mysticism Mastery)
+神秘tome会给予你技能回转的增益，可装备两个
 
- | 等级 | 产出地 | 效果 |
-  |--- | --- | --- |
-  | 1级 | notg | +15%杀怪经验加成 |
-  | 2级 | nol/tcc | +30%杀怪经验加成 |
-  | 3级 | tna | +45%杀怪经验加成 |
+Fabled:
++ +4 Mana Regen
++ +4 Mana Steal
 
-### 采集tome(Gathering Mastery)
-  采集tome会增加你进行副职**采集**时获得的经验，可装备两个
-  
+Mythic:
++ -5% 1st spell cost
++ -5% 2nd spell cost
++ -5% 3rd spell cost
++ -5% 4th spell cost
 
-  | 等级 | 产出地 | 效果 |
-  |--- | --- | --- |
-  | 1级 | notg | +15%采集经验加成 |
-  | 2级 | nol/tcc | +30%采集经验加成 |
-  | 3级 | tna | +45%采集经验加成 |
+### 马拉松tome(Marathon Mastery)
+  马拉松tome会给予你移速或体力加成，可装备两个
   
-### 地牢tome(Dungeoneering Mastery)
-地牢tome会增加你在完成地牢时获得的结算经验奖励，可装备两个
+Fabled:
++ +18% Walk Speed
++ +18% Spirit,+18% Spirit Regen
+### 专业tome(Expertise Mastery)
+专业tome会给予你一些特殊的加成。
   
-  | 等级 | 产出地 | 效果 |
-  |--- | --- | --- |
-  | 1级 | notg | +10%地牢经验加成 |
-  | 2级 | nol/tcc | +20%地牢经验加成 |
-  | 3级 | tna | +30%地牢经验加成 |
+Fabled:
++ +5% Stealing
++ +13% Health Regen（%）
++ +16% Thorns
++ +16% Reflection
+
+Mythic:
++ +9% Healing Efficiency
   
 ### 公会tome(Guild Mastery)
   公会tome会给予一定的属性点数，可装备一个
   
   公会tome只有Legendary品质，词条为下列中的随机一个:
 
-  + 提供3点单一属性点+2%-10%该属性伤害
+  + 提供4点单一属性点
   + 提供两种随机属性点各2点
   + 提供五种属性点各1点
   
   最后一种俗称彩虹tome，出现概率极低，经某工会数据统计大约一百个公会tome中仅出现过两次
   
 ### lr tome(Lootrunning Mastery)
-  lootrun tome会给予一定的lb加成以及元素伤害/元素防御加成，可装备一个
-  
-lr tome基础提供4%-20% loot bonus，剩余词条可总结为三大类：
+  lootrun tome会给予一定的lb加成和其他种类词条加成。
+             
+lr tome基础提供5%-20% loot bonus，剩余词条可总结为三大类：
 
-+ 最高52点额外单一元素伤害+最高10%同类元素防御
-+ 最高52点额外全元素伤害
-+ 最高52点额外中性伤害+最高52点HP
++ 最高10% Reflection
++ 最高10% Thorns
++ 最高3% Stealing
++ 最高7% Healing Efficiency
 
 
 
