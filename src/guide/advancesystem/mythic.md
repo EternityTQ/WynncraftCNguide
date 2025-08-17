@@ -163,8 +163,8 @@ icon: chess-king
     </p>
     <p class="damage">
       <span class="neutral-damage">✤ Neutral Damage: 35-55</span><br>
-      <span><span class="air">❋ Air</span> <span class="gray">Damage: 90-130</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">480</span></span>
+      <span><span class="air">❋ Air</span> <span class="gray">Damage: 85-120</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">457</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -397,7 +397,8 @@ etf五兄弟之一
       <span class="bonus-positive">+3 <span class="bonus-to">to</span> +13/5s</span> Mana Regen<br>
       <span class="bonus-positive">-15 <span class="bonus-to">to</span> -65</span> Charge Cost<br>
       <span class="bonus-positive">+9 <span class="bonus-to">to</span> +39%</span> Reflection<br>
-      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Water Defence
+      <span class="bonus-positive">+5 <span class="bonus-to">to</span> +20%</span> Water Defence<br>
+      <span class="major-id-name">+Tidal Drift:</span> <span class="major-id-desc">Flying Kick will instead send you forwards. This effect is limited to once per Charge cast.</span>
     </p>
     <p class="powder-rarity">
       [3] Powder slots<br>
@@ -677,9 +678,9 @@ bmonk被削之前还行，现在就是查无此人。
     </p>
     <p class="damage">
       <span class="neutral-damage">✤ Neutral Damage: 0-20</span><br>
-      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 175-220</span></span><br>
-      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 100-295</span></span><br>
-      <span><span class="average-dps">Average DPS:</span> <span class="gray">608</span></span>
+      <span><span class="earth">❋ Earth</span> <span class="gray">Damage: 195-220</span></span><br>
+      <span><span class="thunder">✦ Thunder</span> <span class="gray">Damage: 100-315</span></span><br>
+      <span><span class="average-dps">Average DPS:</span> <span class="gray">638</span></span>
     </p>
     <p class="requirements">
       Class Req: Warrior/Knight<br>
@@ -693,7 +694,7 @@ bmonk被削之前还行，现在就是查无此人。
     </p>
     <p class="bonuses">
       <span class="bonus-negative">-5200 <span class="bonus-to-negative">to</span> -2800</span> Health<br>
-      <span class="bonus-positive">+12 <span class="bonus-to">to</span> +52%</span> Life Steal<br>
+      <span class="bonus-positive">+185 <span class="bonus-to">to</span> +800/3s</span> Life Steal<br>
       <span class="bonus-negative">-130 <span class="bonus-to-negative">to</span> -70/5s</span> Mana Regen<br>
       <span class="bonus-positive">-3 <span class="bonus-to">to</span> -13</span> 1st Spell Cost<br>
       <span class="bonus-positive">+8 <span class="bonus-to">to</span> +33%</span> Walk Speed

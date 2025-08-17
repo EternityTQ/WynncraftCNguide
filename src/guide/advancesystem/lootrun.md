@@ -5,7 +5,7 @@ pageview: true
 ---
 
 
-首先先解释一下，何谓lootrun?
+首先解释一下，何谓lootrun?
 
 lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启，以此来获取装备，一般简称lr
 
@@ -24,11 +24,26 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 如果你想了解一下旧lr，可以看看[这篇文章](/guide/basesystem/cave.html)
 
 
+:::tip 关于译名
+
+End Reward Pulls → 结算抽取机会
+
+Pulls → 抽取机会
+
+End Reward Reroll → 奖励重掷
+
+End Reward Sacrifice → 奖励献祭
+
+Beacon Reroll → 信标刷新次数
+
+
+
+:::
 ## 新lr是什么？
 
 新lr类似于一种连续挑战。
 
-每轮中，你会被随机分配若干个地点，每个地点都会有一个不同颜色的信标指引你前往
+每轮中，系统会为你随机生成几个挑战地点，每个地点都会有一个不同颜色的信标指引你前往
 
 你需要自行选择一个地点，其中每个地点的信标会给予你不同的特殊效果
 
@@ -36,23 +51,35 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 关卡一般以战斗为主，哪怕是搜刮Cave的关卡也存在大量战斗环节
 
-在通关这一轮之后，除了搜刮Cave的关卡，其余种类的关卡都会生成一个"挑战宝箱"，搜刮后即可进入下一轮的挑战
+在完成这一轮之后，除了搜刮Cave的关卡，其余种类的关卡都会生成一个"挑战宝箱"，搜刮后即可进入下一轮的挑战
 
 每一轮结束时，怪物都会获得属性加成。
 
-在轮次数全部耗尽后，或者自己主动结算后，你将会被传送至最终宝箱前。
+所有挑战轮次用完后，或者自己主动结算后，你将会被传送至最终宝箱前。
 
 最终宝箱包含大量奖励
 
 ## 开始lootrun前
 
-在开始之前，你首先需要来到**Cinfras**附近的**Silverbull Trading Company**，和<font color=FF55FF>**Lootrun Chief**</font>`[-102 36 -4814]`对话来解锁lootrun以及`Silverbull Syndicate`副职
+在开始之前，你首先需要来到**Cinfras**附近的银牛大厦，和<font color=FF55FF>**Lootrun Chief**</font><CC>-102 36 -4814</CC>对话来解锁lootrun以及LR副职
 
 >其实直接随便找一个camp对话就能直接被赶到这里来，不用特意找
 
 然后你就能通过任务书来找到**Lootrun Camp**了
 
-![直接点击即可直接追踪！](/assets/img/questbook5.jpg)
+:::details 如何通过任务书找到lr camp
+对于Wynntils用户：
+
+![](/assets/img/lootrun_renew_1.png)
+
+打开你的Wynntils任务书，按照上述操作，接着点按中间的内容，你就可以导航到营地了
+
+对于原版：
+
+![](/assets/img/lootrun_renew_2.png)
+
+一样的操作即可！
+:::
 
 截止至2.1版本，一共有5处**Lootrun Camp**
 
@@ -60,15 +87,15 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 你可以找到**Lootrun Camp**中的<font color=FF55FF>**Lootrun Master**</font>来开始新lr
 
-![](/assets/img/lootrun7.jpg)
+![](/assets/img/lootrun7.jpg =300x)
 
-每一局lr的成功结算都可以增加`Silverbull Syndicate`的等级，经验上限为500(每日奖励的100经验不包含在上限内)
+每次结算LR后，都可以获得LR副职的经验值，每局经验值上限为500
 
-同时随着`Silverbull Syndicate`等级的提升，你都可以在lr中体验到新的内容
+同时随着LR副职等级的提升，你都可以在lootrun中体验到新的内容
 
-`Silverbull Syndicate`等级为账号通用
+LR副职等级为账号通用
 
-:::details 升级追加内容一览
+:::details 升级解锁内容一览
 | 等级 | 名称 | 所需经验 | 总计经验 | 效果 |
 | --- | --- | --- | --- | --- |
 | 1 | Rookie I | 0 | 0 | 无 |
@@ -78,7 +105,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 | 5 | Assistant II | 100 | 400 | 解锁绿色信标 |
 | 6 | Assistant III | 120 | 520 | +50%挑战外移动速度；+5%vib信标转换概率 |
 | 7 | Sentinel I | 150 | 670 | 解锁暗灰信标 |
-| 8 | Sentinel II | 190 | 860 | +1基础信标选数 |
+| 8 | Sentinel II | 190 | 860 | 可选信标+1 |
 | 9 | Sentinel III | 240 | 1100 | 解锁白色信标 |
 | 10 | Elite I | 300 | 1400 | 解锁灰色信标 |
 | 11 | Elite II | 380 | 1780 | +1最终奖励重抽机会(每日奖励) |
@@ -91,7 +118,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 :::
 
 ## 开始lootrun
-与Lootrun Master对话后，你就可以开始新lootrun了
+与Lootrun Master对话后，你就可以开始lootrun了
 
 :::warning
 在开始lr前，你一般需要完成前置条件
@@ -99,9 +126,11 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 所有区域的前置条件，角色之间不共用
 
 前置条件一般是跑遍这个区域的每一个Cave，以及完成特定前置任务
+
+设置前置条件的目的是为了先让玩家熟悉洞穴，免得不知道要怎么跑
 :::
 
-你可以在此看到最小挑战轮数以及最大挑战轮数还有基础挑战轮数。
+你可以在此看到挑战的基本信息
 
 ![](/assets/img/lootrun8.jpg)
 
@@ -127,28 +156,26 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 若你已经进入挑战，在上线后你当前的挑战将会重置
 
-处于Spelunk挑战中时，洞穴内所有T3T4箱子将会同时重置
+处于Spelunk挑战中时，不会重置已经开过的T3/T4箱子
 :::
 
-同时，你可以在任何时候找NPC结算(或者投降。)
+同时，你可以在任何时候找NPC投降
 
 ![](/assets/img/lootrun12.jpg)
 
-结算效果等于直接放弃接下来所有挑战数
+投降效果等于直接放弃接下来所有挑战数
 
-:::warning
-只有在成功完成4轮挑战后，整局lootrun才算成功
+若完成的挑战数小于4轮，则不会正常结算，将会判定失败，并且不会获得任何奖励
 
-在此之前若你失败过多次或找NPC直接结算，都会直接判Lootrun Failed且不会有任何奖励
-:::
+
 
 
 :::warning
 在lr期间，你不能跟除了铁匠、鉴定商、lr大师以外的npc交互
 
-同时，你也无法骑马，只能通过正常跑步进行跑图
+同时，你也无法骑马，只能通过正常跑步和位移技能进行跑图
 
-这意味着，你唯一存放身上物品的方式是通过使用RANK-CHAMPION的宠物运送功能
+这意味着，你唯一存放身上物品的方式是通过使用RANK的宠物运送功能
 
 ~~这真的不是骗氪吗~~
 :::
@@ -194,7 +221,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 在计时器超过15分钟时，进出挑战仅会获得1s的时间加成(以此来显示是否处于红信标的轮次)
 
 :::tip 
-计时器会在选择boon、选择任务、开启挑战最终宝箱时暂停计时
+计时器会在信标结算时暂停计时
 :::
 
 
@@ -225,6 +252,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+5(10)** | 1 |
 | <font color = "grey">**灰色信标**</font> | 从 **3(4)** 个任务中选择1个接取 | 3 |
 | <font color = "red">**红色信标**</font> | 挑战轮数 **+2(4)**，且 **2(4)** 轮内不会有时间奖励 | 无上限 |
+| <font color = AA0000>**绯红色信标**</font> | 从**2(3)**个试炼中选择1个接取 | 2 |
 | <font color = FF66FF>**彩虹信标**</font> | 在接下来的 **10(20)** 轮中，出现的信标均升级为Vibrant | 无上限 |
 
 部分信标有一点需要注意的特性
@@ -393,37 +421,35 @@ Static祝福**在选择时**的数值为随机数值
 
 在完成4轮挑战后，你可以从3个任务中选择一个进行接取
 
-任务同样也能通过灰信标接取，总任务上限是4个
+之后的任务需要通过完成灰信标来接取，总任务上限是4个
 
-在当前接取任务未完成之前，你无法再看到灰信标
+在当前接取任务未完成之前，灰信标无法再次出现
 
-任务目标是随机的，包括获得时间、获得Pulls、打开箱子、获得祝福、获得诅咒以及见到信标
+任务目标是随机的，包括获得时间、获得抽取机会、打开箱子、获得祝福、获得诅咒以及见到信标
 
 任务在完成对应目标后会提供非常强力的效果
 
 | 名称               | 效果     |
 |---------------------|-------------------------------------------------------------------------------------------|
-| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除一个诅咒|
-| <font color='FFCC00'> **High Roller** </font>         | 获得2次奖励刷新机会|
-| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果，同时黄色信标不再出现  |
-| <font color='FFCC00'> **Hoarder** </font>         | 每当你从箱子中累计见到20件物品时，获得一个随机祝福  |
-| <font color='FFCC00'> **Treasure Hunting** </font>         | 红色信标现在会给予你一次祝福二选一的机会 |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 祝福额外增加50%效果|
-| <font color='5555FF'> **Gourmand** </font>     | 每当你获得祝福时，获得一次信标重抽机会|
-| <font color='5555FF'> **Porphyrophobia** </font>     | 蓝信标现在会+1pulls，但每次见到紫色信标都会获得1个诅咒|
-| <font color='5555FF'> **Chronokinesis** </font>         | 每开启一个箱子会+1pull，但会扣除10秒时间，每个箱子会使该惩罚时间额外+5s<br>完成任意挑战可使该惩罚时间-10s|
-| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，换取1个额外挑战轮数  |
-| <font color='AA00AA'> **Equilibrium** </font>         | 每得到1个诅咒后，获得1个随机祝福|
-| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果折半|
-| <font color='AA00AA'> **Jester's Trick** </font>         | 每当你从飞箱中累计见到20件物品时，从pulls+3，祝福\*1，诅咒\*1，计时器+30s中随机抽取一个并获得  |
-| <font color='AA00AA'> **Complete Chaos** </font>         | 每次完成挑战后，有80%的概率额外获得一个随机信标效果|
-| <font color='00BB00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
+| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果  |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你从箱子中累计开出30件物品时，获得1个祝福  |
+| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出20件物品时，从1次抽取机会，1个祝福，1个诅咒，30s时间中随机获得一个  |
+| <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2次抽取次数时，都会为你下一次完成黄色信标时额外奖励1个飞箱(上限12个)  |
+| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%效果|
+| <font color='5555FF'> **Gourmand** </font>     | 每当你获得1个祝福时，获得1次信标刷新机会|
+| <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的抽取次数翻倍|
+| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，并增加1个挑战轮数  |
+| <font color='AA00AA'> **Equilibrium** </font>         | 每得到2个诅咒后，获得1个随机祝福|
+| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
-| <font color='00BB00'> **Safety Seeker** </font>          | 获得2次奖励刷新机会和1次奖励献祭机会，但信标选数-1|
-| <font color='FF5555'> **Gambling Beast** </font>      | 每次挑战完成后，会强制扣除300s换取1次奖励刷新机会。<br>每一轮结束后，下一次花费增加60s|
-| <font color='FF5555'> **Redemption** </font>          | 获得1次奖励献祭机会|
-| <font color='FF5555'> **Ultimate Sacrifice** </font>  | 获得1次奖励献祭机会以及2次奖励刷新机会；<br>每当计时器减少2min时，随机清除一个已有祝福；<br>从任意途径获得时间延缓该倒计时|
-| <font color='FF5555'> **Warmth Devourer** </font>          | 蓝信标不再出现。每次完成挑战后，消除1个祝福和1个挑战轮数来获得1次奖励献祭机会|
+| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个宝箱会获得1次抽取次数，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
+| <font color='FFAA00'> **Optimism** </font>         | 每次刷新信标后，获得1次抽取机会|
+| <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
+| <font color='FF5555'> **Thrill Seeker** </font>         | 红色信标会额外奖励1次从2个祝福中选取1个的机会|
+| <font color='EEEEEE'> **High Roller** </font>         | 获得1次结算重掷机会和10次抽取次数|
+| <font color='EEEEEE'> **Redemption** </font>          | 获得1次奖励献祭机会|
+| <font color='EEEEEE'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
 :::tip
 在完成`获得时间`的条件时
 
