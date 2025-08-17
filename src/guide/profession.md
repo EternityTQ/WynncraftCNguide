@@ -406,71 +406,71 @@ Ingredients在本篇中译为素材
 ### Woodcutting
 | 等级 | 资源名称 | 地点                   | 坐标                |
 |------|-----|-------------------|---------------------|
-| Lv.1    | Oak |NIVLA Forest           | `[-366,67,-1729]`   |
-| Lv.10   | Birch | Detlas Suburbs         | `[335,67,-1580]`    |
-| Lv.20   | Willow | Nemract Outskirts      | `[88,46,-2132]`     |
-| Lv.30   | Acacia | Bremminglar            | `[665,73,-2016]`    |
-| Lv.40   | Spruce | Nesaak Entrance        | `[85,68,-945]`      |
-| Lv.50   | Jungle | Dernel Mansion         | `[-941,23,-725]`    |
-| Lv.60   | Dark | Dark Forest Border     | `[-1387,44,-5051]`  |
-| Lv.70   | Light | Forgery Grove          | `[-856,45,-4990]`   |
-| Lv.80   | Pine | Thesead Entrance       | `[693,78,-5085]`    |
-| Lv.90   | Avo | Lighthouse Mountain    | `[-1362,122,-3029]` |
-| Lv.100  | Sky | Kandon Mountain<br>Wybel Island        | `[750,113,-4600]`<br>`[1296,66,-4693]`   |
-| Lv.110  | Dernic | Lutho Gate             | `[971,74,-628]`     |
+| Lv.1    | Oak |NIVLA Forest           | <CC>-366 67 -1729</CC>   |
+| Lv.10   | Birch | Detlas Suburbs         | <CC>335 67 -1580</CC>    |
+| Lv.20   | Willow | Nemract Outskirts      | <CC>88 46 -2132</CC>     |
+| Lv.30   | Acacia | Bremminglar            | <CC>665 73 -2016</CC>    |
+| Lv.40   | Spruce | Nesaak Entrance        | <CC>85 68 -945</CC>      |
+| Lv.50   | Jungle | Dernel Mansion         | <CC>-941 23 -725</CC>    |
+| Lv.60   | Dark | Dark Forest Border     | <CC>-1387 44 -5051</CC>  |
+| Lv.70   | Light | Forgery Grove          | <CC>-856 45 -4990</CC>   |
+| Lv.80   | Pine | Thesead Entrance       | <CC>693 78 -5085</CC>    |
+| Lv.90   | Avo | Lighthouse Mountain    | <CC>-1362 122 -3029</CC> |
+| Lv.100  | Sky | Kandon Mountain<br>Wybel Island        | <CC>750 113 -4600</CC><br><CC>1296 66 -4693</CC>   |
+| Lv.110  | Dernic | Lutho Gate             | <CC>971 74 -628</CC>     |
 
 
 	
 ### Farming
 | 等级   | 资源名称 |地点                   | 坐标                   |
 |--------|---|---------------------|------------------------|
-| Lv.1   | Wheat |Ragni Wheat Fields     | `[-776,67,-1736]`      |
-| Lv.10  | Barley |Durum Isles            | `[541,35,-2956]`       |
-| Lv.20  | Oat |Durum Isles            | `[500,35,-2838]`       |
-| Lv.30  | Malt |Durum Isles            | `[385,35,-2836]`       |
-| Lv.40  | Hops |Olux Farms             | `[-1630,51,-5428]`     |
-| Lv.50  | Rye |Wormhole Farms<br>**Forgotten Burrows**         | `[-2068,53,-5462]`<br>`[-2041,57,-5388]`     |
-| Lv.60  | Millet |Forgery Farms<br>**Forgotten Burrows**          | `[-724,44,-5014]`<br>`[-2041,57,-5388]`      |
-| Lv.70  | Decay Roots |Forgery Farms          | `[-724,44,-5014]`      |
-| Lv.80  | Rice |Hobgoblin Fields       | `[79,42,-4838]`        |
-| Lv.90  | Sorghum |Lighthouse Farm        | `[-1378,123,-3013]`    |
-| Lv.100 | Hemp |Kandon Caverns         | `[850,40,-4423]`       |
-| Lv.110 | Dernic Seed	 |Void Valley Upper      | `[1089,135,-1130]`     |
+| Lv.1   | Wheat |Ragni Wheat Fields     | <CC>-776 67 -1736</CC>      |
+| Lv.10  | Barley |Durum Isles            | <CC>541 35 -2956</CC>       |
+| Lv.20  | Oat |Durum Isles            | <CC>500 35 -2838</CC>       |
+| Lv.30  | Malt |Durum Isles            | <CC>385 35 -2836</CC>       |
+| Lv.40  | Hops |Olux Farms             | <CC>-1630 51 -5428</CC>     |
+| Lv.50  | Rye |Wormhole Farms<br>**Forgotten Burrows**         | <CC>-2068 53 -5462</CC><br><CC>-2041 57 -5388</CC>     |
+| Lv.60  | Millet |Forgery Farms<br>**Forgotten Burrows**          | <CC>-724 44 -5014</CC><br><CC>-2041 57 -5388</CC>      |
+| Lv.70  | Decay Roots |Forgery Farms          | <CC>-724 44 -5014</CC>      |
+| Lv.80  | Rice |Hobgoblin Fields       | <CC>79 42 -4838</CC>        |
+| Lv.90  | Sorghum |Lighthouse Farm        | <CC>-1378 123 -3013</CC>    |
+| Lv.100 | Hemp |Kandon Caverns         | <CC>850 40 -4423</CC>       |
+| Lv.110 | Dernic Seed	 |Void Valley Upper      | <CC>1089 135 -1130</CC>     |
 
 
 
 ### Mining
 | 等级   | 资源名称 | 地点                   | 坐标                   |
 |--------|---|---------------------|------------------------|
-| Lv.1   | Copper |Ragni Mine             | `[-572,69,-1556]`      |
-| Lv.10  | Granite |Corrupted Mines        | `[786,86,-1242]`       |
-| Lv.20  | Gold |Corrupted Mines        | `[685,89,-1217]`       |
-| Lv.30  | Sandstone | Bandit Barracks        | `[1478,91,-2178]`      |
-| Lv.40  | Iron |Nesaak Mountain Side<br>**Karoc Quarry**   | `[260,89,-700]`<br>`[-1655,76,-4347]`        |
-| Lv.50  | Silver | Troms Silver Mine      | `[-620,83,-1009]`      |
-| Lv.60  | Cobalt | Olux River Source      | `[-1444,48,-5367]`     |
-| Lv.70  | Kanderstone |Prison Caverns         | `[-790,108,-5628]`     |
-| Lv.80  | Diamond |Colossus Mines<br>**Maex Mine**          | `[560,120,-4355]`<br>`[1535,61,-5339]`      |
-| Lv.90 | Molten | **Maex Mine**<br>Molten Upper Mine    | `[1535,61,-5339]`<br>`[1433,142,-5106]`      |
-| Lv.100 | Voidstone | Sky Caverns<br>Kandon Beda Cave   | `[872,34,-4775]`<br>`[850,40,-4423]`       |
-| Lv.110 | Dernic | Olmic Mine             | `[492,93,-525]`        |
+| Lv.1   | Copper |Ragni Mine             | <CC>-572 69 -1556</CC>      |
+| Lv.10  | Granite |Corrupted Mines        | <CC>786 86 -1242</CC>       |
+| Lv.20  | Gold |Corrupted Mines        | <CC>685 89 -1217</CC>       |
+| Lv.30  | Sandstone | Bandit Barracks        | <CC>1478 91 -2178</CC>      |
+| Lv.40  | Iron |Nesaak Mountain Side<br>**Karoc Quarry**   | <CC>260 89 -700</CC><br><CC>-1655 76 -4347</CC>        |
+| Lv.50  | Silver | Troms Silver Mine      | <CC>-620 83 -1009</CC>      |
+| Lv.60  | Cobalt | Olux River Source      | <CC>-1444 48 -5367</CC>     |
+| Lv.70  | Kanderstone |Prison Caverns         | <CC>-790 108 -5628</CC>     |
+| Lv.80  | Diamond |Colossus Mines<br>**Maex Mine**          | <CC>560 120 -4355</CC><br><CC>1535 61 -5339</CC>      |
+| Lv.90 | Molten | **Maex Mine**<br>Molten Upper Mine    | <CC>1535 61 -5339</CC><br><CC>1433 142 -5106</CC>      |
+| Lv.100 | Voidstone | Sky Caverns<br>Kandon Beda Cave   | <CC>872 34 -4775</CC><br><CC>850 40 -4423</CC>       |
+| Lv.110 | Dernic | Olmic Mine             | <CC>492 93 -525</CC>        |
 
 
 ### Fishing
 | 等级   | 资源名称 | 地点                   | 坐标                   |
 |--------|-----|-------------------|------------------------|
-| Lv.1   | Gudgeon |Ragni Pond             | `[-634,67,-1536]`      |
-| Lv.10  | Trout |Wynn Plains River      | `[53,58,-1494]`        |
-| Lv.20  | Salmon |Saint’s Row Beach      | `[371,34,-2126]`       |
-| Lv.30  | Carp |Desert River Source    | `[1182,154,-2248]`     |
-| Lv.40  | Icefish |Nodguj Island          | `[891,34,-3372]`       |
-| Lv.50  | Piranha |Iboju Waterfall<br>Forgotten Burrows        | `[-780,74,-724]`<br>`[-2041,57,-5388]`       |
-| Lv.60  | Koi |Willow Pond            | `[-1303,51,-5194]`     |
-| Lv.70  | Gylia Fish |Lake Gylia             | `[-207,29,-5204]`      |
-| Lv.80  | Bass |Relos Coast            | `[-1860,37,-2191]`     |
-| Lv.90  | Molten Eel |Molten Heights Lake<br>**Maex Mine**    | `[1435,139,-5091]`<br>`[1535,61,-5339]`     |
-| Lv.100 | Starfish |Kandon Pond Lower      | `[689,88,-4605]`       |
-| Lv.110 | Dernic Fish |Toxic Hill Upper       | `[786,148,-983]`       |
+| Lv.1   | Gudgeon |Ragni Pond             | <CC>-634 67 -1536</CC>      |
+| Lv.10  | Trout |Wynn Plains River      | <CC>53 58 -1494</CC>        |
+| Lv.20  | Salmon |Saint’s Row Beach      | <CC>371 34 -2126</CC>       |
+| Lv.30  | Carp |Desert River Source    | <CC>1182 154 -2248</CC>     |
+| Lv.40  | Icefish |Nodguj Island          | <CC>891 34 -3372</CC>       |
+| Lv.50  | Piranha |Iboju Waterfall<br>Forgotten Burrows        | <CC>-780 74 -724</CC><br><CC>-2041 57 -5388</CC>       |
+| Lv.60  | Koi |Willow Pond            | <CC>-1303 51 -5194</CC>     |
+| Lv.70  | Gylia Fish |Lake Gylia             | <CC>-207 29 -5204</CC>      |
+| Lv.80  | Bass |Relos Coast            | <CC>-1860 37 -2191</CC>     |
+| Lv.90  | Molten Eel |Molten Heights Lake<br>**Maex Mine**    | <CC>1435 139 -5091</CC><br><CC>1535 61 -5339</CC>     |
+| Lv.100 | Starfish |Kandon Pond Lower      | <CC>689 88 -4605</CC>       |
+| Lv.110 | Dernic Fish |Toxic Hill Upper       | <CC>786 148 -983</CC>       |
 
 ### Tools
 | 等级 | 地点                  | 花费            |
