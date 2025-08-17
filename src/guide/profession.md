@@ -487,7 +487,3 @@ Ingredients在本篇中译为素材
 | Tier.12   | CGG & Eldritch Outlook      | 9 Fragment +4096e|
 
 
-
-:::tip 
-本文作者:kotoko
-:::
