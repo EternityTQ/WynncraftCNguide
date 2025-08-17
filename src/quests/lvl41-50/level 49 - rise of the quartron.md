@@ -6,7 +6,7 @@ icon: scroll
 ## 任务信息 / Information
 任务等级：Level 49 / 推荐等级： Level 49
 任务时长：长 / 任务难度：困难
-中文译名：石英崛起
+中文译名：遗失的石英
 
 ## 奖励清单 / Rewards
 
