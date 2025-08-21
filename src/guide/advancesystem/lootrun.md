@@ -723,7 +723,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | --- | --- | 
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  这个任务在IS出现之后变得神起来了，自带奖励和祝福两方面，这里主要讲奖励，Jester+IS能让你大幅提升pull数，平均一轮能多出4-6pull出来，非常丧心病狂的效果。  |
 |  <font color='AA00AA'> **Porphyrophobia** </font>  | 在改版之后稍有强度了，配合equi可以碰瓷式给增益，并且紫信标pull数加倍也非常强力，诅咒流值得一拿   |
-|  <font color='00BB00'> **Chronokinesis** </font>  | 曾经的神，目前表现一般。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，~~但是可能会比较累~~   |
+|  <font color='00BB00'> **Chronokinesis** </font>  | 曾经的神，目前表现一般。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，~~但是可能会比较累~~ 。**注意这个只计入路边野箱和洞穴宝箱**  |
 |   <font color='FFAA00'> **Optimism** </font> |  配合Gourmand或者BB的Pull机，但组件需求过高且收益不在预期，因此不太建议拿这个任务。  |
 |  <font color='EEEEEE'> **High Roller** </font>  |  削弱了一波之后。。。只能说适合短途吧，如果跑结算宝箱的话还是值得拿的  |
 | <font color='EEEEEE'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
