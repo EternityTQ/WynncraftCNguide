@@ -11,8 +11,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 6500 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 64 绿宝石![](/assets/icon/Emerald.png =20x)
++ 6500 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 64 绿宝石![=20x](/assets/icon/Emerald.png)
 
 ### Step 1 接取任务
 ---

@@ -1,0 +1,174 @@
+{
+    "Fallen": {
+        "baseClass": "Warrior",
+        "color": "#FF5555",
+        "skills": [
+            "Bak'al's Grasp",
+            "Enraged Blow",
+            "Intoxicating Blood",
+            "Blood Pact"
+        ]
+    },
+    "Battle Monk": {
+        "baseClass": "Warrior",
+        "color": "#FFA500",
+        "skills": [
+            "Air Shout",
+            "Generalist",
+            "Aerodynamics",
+            "Flying Kick",
+            "Whirlwind Strike",
+            "Thunderclap",
+            "Discombobulate"
+        ]
+    },
+    "Paladin": {
+        "baseClass": "Warrior",
+        "color": "#18c7f0",
+        "skills": [
+            "Mantle of the Bovemists",
+            "Provoke",
+            "Rejuvenating Skin",
+            "Cleansing Breeze",
+            "Sacred Surge",
+            "Mythril Skin",
+            "Radiance"
+        ]
+    },
+    "Riftwalker": {
+        "baseClass": "Mage",
+        "color": "#18c7f0",
+        "skills": [
+            "Windsweeper",
+            "Blink",
+            "Transonic Warp",
+            "Gust",
+            "Timelock"
+        ]
+    },
+    "Light Bender": {
+        "baseClass": "Mage",
+        "color": "#A0A0A0",
+        "skills": [
+            "Ophanim",
+            "Fortitude",
+            "Orphion's Pulse",
+            "Fluid Healing",
+            "Divination",
+            "Lightweaver",
+            "Sunflare"
+        ]
+    },
+    "Arcanist": {
+        "baseClass": "Mage",
+        "color": "#800080",
+        "skills": [
+            "Arcane Transfer",
+            "Psychokinesis",
+            "Chaos Explosion",
+            "Arcane Overflow",
+            "Manastorm"
+        ]
+    },
+    "Boltslinger": {
+        "baseClass": "Archer",
+        "color": "#FFCC00",
+        "skills": [
+            "Guardian Angels",
+            "Windstorm",
+            "Arrow Hurricane",
+            "Elusive"
+        ]
+    },
+    "Trapper": {
+        "baseClass": "Archer",
+        "color": "#00AA00",
+        "skills": [
+            "Bryophyte Roots",
+            "Basaltic Trap",
+            "Call of the Hound",
+            "Ivyroot Mamba",
+            "Mana Trap",
+            "Murder Flock",
+            "Tangled Traps"
+        ]
+    },
+    "Sharpshooter": {
+        "baseClass": "Archer",
+        "color": "#FF55FF",
+        "skills": [
+            "Phantom Ray",
+            "Focus",
+            "Twain's Arc",
+            "Homing Shots",
+            "Initiator",
+            "Coursing Restraints"
+        ]
+    },
+    "Shadestepper": {
+        "baseClass": "Assassin",
+        "color": "#AA0000",
+        "skills": [
+            "Backstab",
+            "Marked",
+            "Nightcloak Knife",
+            "Satsujin"
+        ]
+    },
+    "Trickster": {
+        "baseClass": "Assassin",
+        "color": "#FF55FF",
+        "skills": [
+            "Mirror Image",
+            "Mirage",
+            "Echo",
+            "Malicious Mockery",
+            "Distraction",
+            "Shadow Projection",
+            "Noxious Haze",
+            "Soul Siphon"
+        ]
+    },
+    "Acrobat": {
+        "baseClass": "Assassin",
+        "color": "#7f8c8d",
+        "skills": [
+            "Lacerate",
+            "Weightless",
+            "Shurikens",
+            "Blade Fury",
+            "Jasmine Bloom"
+        ]
+    },
+    "Summoner": {
+        "baseClass": "Shaman",
+        "color": "#FFA500",
+        "skills": [
+            "Puppet Master",
+            "Exploding Puppets",
+            "Bullwhip",
+            "Crimson Effigy"
+        ]
+    },
+    "Ritualist": {
+        "baseClass": "Shaman",
+        "color": "#16d108",
+        "skills": [
+            "Mask of the Lunatic",
+            "Mask of the Fanatic",
+            "Mask of the Coward",
+            "Awakened"
+        ]
+    },
+    "Acolyte": {
+        "baseClass": "Shaman",
+        "color": "#FF5555",
+        "skills": [
+            "Sacrificial Shrine",
+            "Vengeful Spirit",
+            "Eldritch Call",
+            "Blood Rite",
+            "Sanguine Strike"
+        ]
+    }
+}

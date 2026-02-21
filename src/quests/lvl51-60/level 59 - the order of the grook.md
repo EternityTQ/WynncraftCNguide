@@ -24,8 +24,8 @@ title: The Order of the Grook (level 59)
 
 ## 奖励清单 / Rewards
 
-+ 242500 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 640/896/1728/2048 绿宝石![](/assets/icon/Emerald.png =20x)
++ 242500 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 640/896/1728/2048 绿宝石![=20x](/assets/icon/Emerald.png)
 + 允许使用 magic tunnel fast travel(快捷传送通道)
 + 1 Draoi Fair/Dragon’s eye bracelet/Renda Langit(都是Fabled品质饰品，且时常会用在毕业配装内)
   

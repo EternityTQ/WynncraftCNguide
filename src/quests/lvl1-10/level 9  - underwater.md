@@ -14,9 +14,9 @@ icon: handshake-angle
 
 ## 奖励清单 / Rewards
 
-+ 550 经验值![](/assets/icon/Experience_Orb.gif =20x) 
-+ 32 绿宝石![](/assets/icon/Emerald.png =20x)
-+ 50 钓鱼经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 550 经验值![=20x](/assets/icon/Experience_Orb.gif) 
++ 32 绿宝石![=20x](/assets/icon/Emerald.png)
++ 50 钓鱼经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 1级鱼竿
 + 潜水头盔I(Quest item)
 + Treasure Boots

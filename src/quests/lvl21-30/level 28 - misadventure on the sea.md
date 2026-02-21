@@ -11,8 +11,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 8500 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 320 绿宝石![](/assets/icon/Emerald.png =20x)
++ 8500 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 320 绿宝石![=20x](/assets/icon/Emerald.png)
 + 今后去Selchar无需支付船票
 + 任务途中获得的各种材料
 

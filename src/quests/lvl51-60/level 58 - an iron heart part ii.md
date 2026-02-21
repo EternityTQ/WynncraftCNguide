@@ -45,8 +45,8 @@ icon: bookmark
 如果你不继续对话，直接从出口离开，回去找<font color=00AA00>**Detective Hart**</font>`[-1744 66 -5478]`，<br>你会拿到Greaves of honor，XP bonus非常高的裤子
 
 奖励
-+ 160000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 512/768 绿宝石![](/assets/icon/Emerald.png =20x)
++ 160000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 512/768 绿宝石![=20x](/assets/icon/Emerald.png)
 + 1 Greaves of honor/ 1 Greaves of Shame
 
 :::tip

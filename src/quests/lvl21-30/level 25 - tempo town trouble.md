@@ -14,12 +14,12 @@ icon: route
 
 ## 奖励清单 / Rewards
 
-+ 5650 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 5650 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 1 Time Fragment
 + 可以击杀Time Trouble了
 + 可以使用往返于Nemract和Tempo Town之间的快速旅行了(石柱)
 
-![](/assets/img/lvl25-1.jpg =600x)
+![=600x](/assets/img/lvl25-1.jpg)
 
 :::tip
 <mob>Time Trouble</mob>会每隔**现实时间8小时**于下列地点刷新

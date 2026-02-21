@@ -20,7 +20,7 @@
   + `[-12126 24 4198]`的房间内，有一个空桶，去浴室装满水，可以去控制室浇水获得一个素材
   
   
-  ![](/assets/img/lvl72-1.jpg =400x)
+  ![=400x](/assets/img/lvl72-1.jpg)
   :::
 
 <span class="stage-index">4.</span> 清理完后，回去入口找守卫对话，进入吃饭环节，桌子任选
@@ -37,7 +37,7 @@
   + 调查Warden的房间，获取情报
   + 调查大门
   
-![](/assets/img/lvl72-2.jpg =400x)
+![=400x](/assets/img/lvl72-2.jpg)
 <span class="stage-index">6.</span> 回到入口和守卫汇报工作
 
 <span class="stage-index">7.</span> 继续一段剧情后 再次回到大厅 在Warden的房间旁 拆下栏杆进入通风管道
@@ -54,11 +54,11 @@
 
 <span class="stage-index">9.</span> 逃跑路线如下(红点为必须触发的拉仇恨事件)
 
-![往左直走可以救人，救完后去Cinfras领30eb](/assets/img/lvl72-3.jpg =400x)
+![往左直走可以救人，救完后去Cinfras领30eb =400x](/assets/img/lvl72-3.jpg)
 
-![](/assets/img/lvl72-4.jpg =400x)
+![=400x](/assets/img/lvl72-4.jpg)
 
-![](/assets/img/lvl72-5.jpg =200x) ![](/assets/img/lvl72-6.jpg =200x)  ![](/assets/img/lvl72-7.jpg =300x)
+![=200x](/assets/img/lvl72-5.jpg) ![=200x](/assets/img/lvl72-6.jpg)  ![=300x](/assets/img/lvl72-7.jpg)
 
 <span class="stage-index">10.</span> 逃出来后 销毁自己的记录 然后大摇大摆的离开监狱
 

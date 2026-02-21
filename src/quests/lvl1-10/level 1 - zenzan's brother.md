@@ -9,8 +9,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
   
-+ 100 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 1 First Steps ![](https://cdn.wynncraft.com/nextgen/itemguide/icons/259_15.webp =20x)
++ 100 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 1 First Steps ![=20x](https://cdn.wynncraft.com/nextgen/itemguide/icons/259_15.webp)
 
 First Steps需要鉴定后使用，且需要完成cook assistant任务(Level 3)
 

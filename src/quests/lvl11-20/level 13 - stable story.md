@@ -13,7 +13,7 @@ icon: star
 
 ## 奖励清单 / Rewards
 
-+ 900 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 900 经验值![=20x](/assets/icon/Experience_Orb.gif) 
 + 1 棕马
 + 解锁了马匹系统
 

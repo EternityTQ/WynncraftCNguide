@@ -41,7 +41,7 @@ icon: skull
 
 <span class="stage-index">9.</span>去金库里面`[-1498 69 -2918]`跟NPC对话
 
-![进城堡右手边很容易看到](/assets/img/lvl89-2.jpg =300x)
+![进城堡右手边很容易看到 =300x](/assets/img/lvl89-2.jpg)
 
 <span class="stage-index">10.</span>跟着地上的作物走 找到隐藏的机械基地`[-1444 87 -2728]`
 
@@ -50,7 +50,7 @@ icon: skull
 
 <span class="stage-index">12.</span> 按动门上的按钮，找到地下基地，拿到钥匙
 :::tip 如何找到地下基地?
-进入屋子后首先上二楼，按下绿宝石![](/assets/icon/Emerald.png =20x)按钮开启暗门
+进入屋子后首先上二楼，按下绿宝石![=20x](/assets/icon/Emerald.png)按钮开启暗门
 
 然后去地下室，地下室在一楼进门左手边
 
@@ -66,14 +66,14 @@ icon: skull
 <span class="stage-index">13.</span>跟<font color=00AA00>**Maxie**</font>在工厂外谈话`[-1707 75 -2610]`
 
 奖励
-+ 3050000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 3050000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + Electro Mage's Boots (非常牛逼的鞋子)
 + 1 Fallen Factory Key
 + 可以乘坐往返于Corkus-Kandon Beda之间的热气球了
 + 可以进入Fallen Factory副本了
 
 :::tip 热气球在哪?
-![Kandon-Beda](/assets/img/lvl89-1.jpg =350x)
+![Kandon-Beda =350x](/assets/img/lvl89-1.jpg)
 
-![Corkus](/assets/img/lvl89-4.jpg =350x)
+![Corkus =350x](/assets/img/lvl89-4.jpg)
 :::

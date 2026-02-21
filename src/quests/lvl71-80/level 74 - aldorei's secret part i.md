@@ -7,7 +7,7 @@ icon: bookmark
 
 <span class="stage-index">1.</span> 和Aldorei村口的<font color=00AA00>**守卫**</font>`[-461 132 -4460]`对话
 :::tip 如何进入这个地方
-![](/assets/img/lvl74-1.jpg =400x)
+![=400x](/assets/img/lvl74-1.jpg)
 路线差不多长这样
 
 跟着走就行了！
@@ -87,14 +87,14 @@ icon: bookmark
 
 收据同样可以在Collectibles Merchant`[-286, 103, -4405]`卖出
 
-但只有1绿宝石![](/assets/icon/Emerald.png =20x)。
+但只有1绿宝石![=20x](/assets/icon/Emerald.png)。
 :::
 
 
 
 奖励
-+ 512500 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 0 / 8192 绿宝石![](/assets/icon/Emerald.png =20x)
++ 512500 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 0 / 8192 绿宝石![=20x](/assets/icon/Emerald.png)
 + Elven Medallion / Receipt
 + 可以进入Aldorei Town了(但是得接part II才能进去)
 

@@ -17,7 +17,7 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 55000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 55000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + Bob's Battle Plate
 + 可以进入Bob's tomb了
 

@@ -16,7 +16,7 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 1000经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 1000经验值![=20x](/assets/icon/Experience_Orb.gif)
 + Rynend的感激之情(真抠)
 
 ### Step 1 接取任务

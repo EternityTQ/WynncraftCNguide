@@ -17,8 +17,8 @@ icon: route
 
 ## 奖励清单 / Rewards
 
-+ 2000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
-+ 128绿宝石![](/assets/icon/Emerald.png =20x)
++ 2000 经验值![=20x](/assets/icon/Experience_Orb.gif) 
++ 128绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以使用往返于Alekin村和Detlas之间的马车了
 
 ![](/assets/img/lv16-5.png)

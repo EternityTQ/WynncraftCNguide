@@ -17,8 +17,8 @@ icon: star
 
 ## 奖励清单 / Rewards
 
-+ 100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 768 绿宝石![](/assets/icon/Emerald.png =20x)
++ 100000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 768 绿宝石![=20x](/assets/icon/Emerald.png)
 + 6 Az Runes
 + 可以进入Nest of the Grootslangs RAID了
 + 解锁了Mastery Tomes功能

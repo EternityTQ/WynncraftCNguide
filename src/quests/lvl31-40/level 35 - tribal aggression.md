@@ -12,7 +12,7 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 24000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 24000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 42 Gold Bars(可在Rymek兑换物品和绿宝石)
 
 :::tip

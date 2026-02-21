@@ -17,8 +17,8 @@ title: Tunnel Trouble (level 6)
 
 ## 奖励清单 / Rewards
 
-+ 300 经验值![](/assets/icon/Experience_Orb.gif =20x) 
-+ 55 绿宝石![](/assets/icon/Emerald.png =20x)
++ 300 经验值![=20x](/assets/icon/Experience_Orb.gif) 
++ 55 绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以使用往返于Ragni和Detlas之间的隧道了(就是你做任务的入口和出口)
 
 ### Step 1 接取任务

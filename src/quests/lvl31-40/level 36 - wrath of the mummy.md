@@ -12,8 +12,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 16600经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 128绿宝石![](/assets/icon/Emerald.png =20x)
++ 16600经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 128绿宝石![=20x](/assets/icon/Emerald.png)
 + Mummy's Rag(胸甲)
 
 ### Step 1 接取任务

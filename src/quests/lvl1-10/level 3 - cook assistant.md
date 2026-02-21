@@ -12,8 +12,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 200 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 28 绿宝石![](/assets/icon/Emerald.png =20x)
++ 200 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 28 绿宝石![=20x](/assets/icon/Emerald.png)
 + 1 Waist Apron(裤子)
 + 可以使用First steps戒指了(Enzan's brother任务搞到的)
 

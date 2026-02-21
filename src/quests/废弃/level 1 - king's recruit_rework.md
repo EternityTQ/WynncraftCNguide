@@ -14,7 +14,7 @@ icon: exclamation
 
 当你第一次进入游戏时，你会看到如下的职业选择界面：
 
-![](/assets/img/lv1-1.png =400x)
+![=400x](/assets/img/lv1-1.png)
 
 首先，先依次介绍一下各个框内的内容：
 
@@ -53,13 +53,13 @@ icon: exclamation
 :::tip 关于如何使用本篇教程
 如上述的坐标<CC>[-1573 51 -1626]</CC>，首先你可以把这个坐标直接打到公屏上
 
-![](/assets/img/lv1-2.jpg =400x)
+![=400x](/assets/img/lv1-2.jpg)
 
 如果你看不到的话，==强烈建议==安装[这个MOD](https://modrinth.com/mod/wynntils/)，目前版本是1.20.2，装上就能看到了
 
 在公屏点击该坐标，即可出现指南针，导向目标NPC
 
-![](/assets/img/lv1-3.jpg =400x)
+![=400x](/assets/img/lv1-3.jpg)
 
 :::
 
@@ -81,7 +81,7 @@ icon: exclamation
 
 当你在疾跑时，会出现一个计量条
 
-![](/assets/img/lv1-4.jpg =200x)
+![=200x](/assets/img/lv1-4.jpg)
 
 疾跑并不会消耗你的“饥饿值”，取而代之的是消耗该计量条，即疾跑条
 
@@ -93,21 +93,21 @@ icon: exclamation
 
 <span class=stage-index>3.</span> 迈入Wynn省份的大门
 
-![](/assets/img/lv1-5.jpg =400x)
+![=400x](/assets/img/lv1-5.jpg)
 
 <span class=stage-index>4.</span> 和<font color=00AA00>**Soldier**</font>`[-1457 51 -1531]`对话
 
 对于任何NPC，==靠近右键==与其对话
 
-![](/assets/img/lv1-6.jpg =400x)
+![=400x](/assets/img/lv1-6.jpg)
 
 进入众人旁边的山洞
 
-![](/assets/img/lv1-7.jpg =400x)
+![=400x](/assets/img/lv1-7.jpg)
 
 <span class=stage-index>5.</span> 进入山洞，==左键==击破如下图的石柱
 
-![](/assets/img/lv1-8.jpg =400x)
+![=400x](/assets/img/lv1-8.jpg)
 
 :::tip
 对于如上图的绿名、带等级[lv. 0]的东西，都可以打掉
@@ -115,9 +115,9 @@ icon: exclamation
 一般都作为场地交互，或者物品给予的功能存在
 :::
 
-<span class=stage-index>6.</span> ==右键==打开面前的宝箱，拿到未鉴定的头盔，和8个绿宝石![](/assets/icon/Emerald.png =20x)
+<span class=stage-index>6.</span> ==右键==打开面前的宝箱，拿到未鉴定的头盔，和8个绿宝石![=20x](/assets/icon/Emerald.png)
 
-![](/assets/img/lv1-9.jpg =400x)
+![=400x](/assets/img/lv1-9.jpg)
 
 :::tip 关于宝箱
 
@@ -134,20 +134,20 @@ icon: exclamation
 
 这里的Item Identifier位于`[-1420 50 -1554]`
 
-![](/assets/img/lv1-10.jpg =400x)
+![=400x](/assets/img/lv1-10.jpg)
 
 :::danger
 <span style="font-size: 25px;">**这里很重要很重要很他妈重要**</span>
 
-![](/assets/img/lv1-9.jpg =400x)
+![=400x](/assets/img/lv1-9.jpg)
 
 如图的所有未鉴定的装备，都需要找到<span style="font-size: 25px;">**上图的NPC进行鉴定才能装备**</span>
 
-![](/assets/img/lv1-11.jpg =400x)
+![=400x](/assets/img/lv1-11.jpg)
 
 与NPC交互打开GUI后，打开上图的界面，点击确认
 
-![](/assets/img/lv1-12.jpg =400x)
+![=400x](/assets/img/lv1-12.jpg)
 
 然后你才能获得**可以用**的装备
 :::
@@ -156,7 +156,7 @@ icon: exclamation
 
 <span class=stage-index>9.</span> 来到旁边的树`[-1391 50 -1556]`，右键击倒，过桥
 
-![](/assets/img/lv1-13.jpg =400x)
+![=400x](/assets/img/lv1-13.jpg)
 
 <span class=stage-index>10.</span> 来到山洞口前`[-1302 50 -1584]`，与门口的士兵对话，获取武器，继续前进
 
@@ -170,7 +170,7 @@ icon: exclamation
 
 <span class=stage-index>12.</span> 触发遭遇战，你需要负责杀死三只怪物中的骷髅
 
-![](/assets/img/lv1-14.jpg =400x)
+![=400x](/assets/img/lv1-14.jpg)
 
 <span class=stage-index>13.</span>  继续前进，路上的怪全都不用管，直到来到<font color=00AA00>**Guard**</font>面前
  
@@ -181,15 +181,15 @@ icon: exclamation
 
 首先，手持、右键打开你的指南针
 
-![](/assets/img/lv1-15.jpg =400x)
+![=400x](/assets/img/lv1-15.jpg)
 
 打开左侧的技能树
 
-![](/assets/img/lv1-16.jpg =400x)
+![=400x](/assets/img/lv1-16.jpg)
 
 点亮你的第一个技能
 
-![](/assets/img/lv1-17.jpg =400x)
+![=400x](/assets/img/lv1-17.jpg)
 
 ==务必注意黄框内的技能释放顺序，这里是你第一个技能的技能释放顺序==
 
@@ -212,13 +212,13 @@ icon: exclamation
 
 <span class=stage-index>15.</span> 进入**Ragni**，与<font color=00AA00>**Ragni's King**</font>对话
 
-![](/assets/img/lv1-18.jpg =600x)
+![=600x](/assets/img/lv1-18.jpg)
 
 奖励  
 
-+ 35 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 6 绿宝石![](/assets/icon/Emerald.png =20x)
-+ 1 Ragni的传送卷轴 ![](/assets/icon/paper.png =20x)
++ 35 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 6 绿宝石![=20x](/assets/icon/Emerald.png)
++ 1 Ragni的传送卷轴 ![=20x](/assets/icon/paper.png)
 + 进入Wynn行省的权限(在Wynncraft的设定中有两个行省分别是Wynn&Gavel，后续可能还会更新新的，这里实际上就是告诉你，你已经完成了新手教程，可以正式游玩了)
 
 :::tip

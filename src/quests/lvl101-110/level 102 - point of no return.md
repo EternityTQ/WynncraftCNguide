@@ -132,5 +132,5 @@
 <span class="stage-index">12.</span> 再次和<font color=00AA00>**Lutho Citizen**</font>`[1014 77 -676]`对话
 
 奖励
-+ 7000000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 8192 绿宝石![](/assets/icon/Emerald.png =20x)
++ 7000000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 8192 绿宝石![=20x](/assets/icon/Emerald.png)

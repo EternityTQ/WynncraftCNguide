@@ -17,8 +17,8 @@ icon: star
 ## 奖励清单 / Rewards
 
 
-+ 7000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
-+ 1024 绿宝石![](/assets/icon/Emerald.png =20x)
++ 7000 经验值![=20x](/assets/icon/Experience_Orb.gif) 
++ 1024 绿宝石![=20x](/assets/icon/Emerald.png)
 + 6 Ability Shard
 + 1 Shattered Memory Shard(素材)
 

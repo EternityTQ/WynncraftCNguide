@@ -32,6 +32,6 @@ icon: route
 <span class="stage-index">4.</span> 带回`antic bead`给<font color=00AA00>**Ilden**</font>`[-870 94 -1034]`
 
 奖励
-+ 140000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 256 绿宝石![](/assets/icon/Emerald.png =20x)
++ 140000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 256 绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以使用往返于猪人峡谷和Troms之间的快速通道了

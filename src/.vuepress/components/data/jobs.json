@@ -1,0 +1,272 @@
+[
+    {
+        "id": "Fallen",
+        "name": "Fallen 腐化者",
+        "color": "#FF5555",
+        "description": "拥有极高输出的狂战士，通过战吼进入腐化状态，牺牲恢复能力并利用血量代替法力施法。在刀尖上起舞，受伤越重，力量越强。",
+        "tags": [
+            "近战",
+            "爆发",
+            "高风险"
+        ],
+        "stats": {
+            "output": 5,
+            "survival": 1,
+            "sustain": 4,
+            "difficulty": 5,
+            "mobility": 2
+        }
+    },
+    {
+        "id": "BattleMonk",
+        "name": "Battle Monk 武道士",
+        "color": "#FFA500",
+        "description": "拥有独特的连招循环机制。通过技能组合触发低蓝耗高输出，比起手速，更考验玩家的战斗思路与节奏把控。",
+        "tags": [
+            "连击",
+            "节奏",
+            "持续输出"
+        ],
+        "stats": {
+            "output": 3,
+            "survival": 3,
+            "sustain": 3,
+            "difficulty": 3,
+            "mobility": 4
+        }
+    },
+    {
+        "id": "Paladin",
+        "name": "Paladin 圣骑士",
+        "color": "#18c7f0",
+        "description": "团队坚实的护盾，拥有全游戏最高的基础抗性和无敌复活机制。能抗能奶，还能通过光环增强队友装备词条，是攻防一体的多边形战士。",
+        "tags": [
+            "坦克",
+            "辅助",
+            "复活"
+        ],
+        "stats": {
+            "output": 2,
+            "survival": 5,
+            "sustain": 4,
+            "difficulty": 1,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Riftwalker",
+        "name": "Riftwalker 时空行者",
+        "color": "#18c7f0",
+        "description": "兼顾治疗与输出的法师，利用传送在战场穿梭。极度依赖叠加“风印”来暖机输出，常作为辅助为队友提供增益。",
+        "tags": [
+            "远程",
+            "传送",
+            "辅助"
+        ],
+        "stats": {
+            "output": 3,
+            "survival": 3,
+            "sustain": 2,
+            "difficulty": 3,
+            "mobility": 5
+        }
+    },
+    {
+        "id": "LightBender",
+        "name": "Light Bender 圣光使者",
+        "color": "#A0A0A0",
+        "description": "专精治疗与辅助，通过光球进行攻击和自我治疗。虽然失去了群伤能力，但拥有极强的单体保护和兜底能力，是队伍最后的防线。",
+        "tags": [
+            "治疗",
+            "辅助",
+            "续航"
+        ],
+        "stats": {
+            "output": 1,
+            "survival": 5,
+            "sustain": 5,
+            "difficulty": 1,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Arcanist",
+        "name": "Arcanist 奥术法师",
+        "color": "#800080",
+        "description": "完全舍弃治疗换取极致爆发的玻璃大炮。拥有特殊的“法力储备”系统，能实现电表倒转般的无限火力，瞬间倾泻成吨伤害。",
+        "tags": [
+            "爆发",
+            "循环",
+            "电表倒转"
+        ],
+        "stats": {
+            "output": 5,
+            "survival": 1,
+            "sustain": 5,
+            "difficulty": 4,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Boltslinger",
+        "name": "Boltslinger 闪击射手",
+        "color": "#FFCC00",
+        "description": "穿梭于怪群之间的敏捷射手，擅长贴脸释放箭雨对敌人造成极高的爆发伤害，拥有守护天使辅助，跑图与战斗兼备。",
+        "tags": [
+            "中近程",
+            "爆发",
+            "高机动"
+        ],
+        "stats": {
+            "output": 5,
+            "survival": 2,
+            "sustain": 1,
+            "difficulty": 3,
+            "mobility": 5
+        }
+    },
+    {
+        "id": "Trapper",
+        "name": "Trapper 陷阱师",
+        "color": "#00AA00",
+        "description": "擅长阵地战的战术大师，利用地雷、爆炸箭和召唤出的动物伙伴进行输出。由于依赖陷阱布置，在面对群体敌人时拥有极强的AOE能力。",
+        "tags": [
+            "召唤",
+            "陷阱",
+            "控场"
+        ],
+        "stats": {
+            "output": 3,
+            "survival": 3,
+            "sustain": 5,
+            "difficulty": 1,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Sharpshooter",
+        "name": "Sharpshooter 鹰眼射手",
+        "color": "#FF55FF",
+        "description": "上限较高的远程狙击手，核心在于维持“专注”层数。箭雨转化为激光，虽牺牲了部分生存能力，但能换来指哪打哪的精准打击。",
+        "tags": [
+            "远程",
+            "狙击",
+            "飞行"
+        ],
+        "stats": {
+            "output": 3,
+            "survival": 3,
+            "sustain": 2,
+            "difficulty": 4,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Shadestepper",
+        "name": "Shadestepper 影步者",
+        "color": "#AA0000",
+        "description": "行走于暗影中的刺客，通过隐身、背刺、印记等多重倍率叠加，能打出全游戏最高的单次爆发伤害，名副其实的一击必杀。",
+        "tags": [
+            "隐身",
+            "猴戏",
+            "核爆"
+        ],
+        "stats": {
+            "output": 5,
+            "survival": 2,
+            "sustain": 3,
+            "difficulty": 4,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Trickster",
+        "name": "Trickster 诡术师",
+        "color": "#FF55FF",
+        "description": "擅长欺诈的诡术师，利用隐身召唤大量分身协同作战。通过给敌人叠加大量负面效果来叠加自身伤害，还可辅助队友。",
+        "tags": [
+            "分身",
+            "debuff",
+            "辅助"
+        ],
+        "stats": {
+            "output": 5,
+            "survival": 3,
+            "sustain": 2,
+            "difficulty": 5,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Acrobat",
+        "name": "Acrobat 凌空客",
+        "color": "#7f8c8d",
+        "description": "在空中起舞的舞者，不需要隐身，而是通过极其频繁的位移和滞空连招来规避伤害并回复法力，操作行云流水。",
+        "tags": [
+            "滞空",
+            "连招",
+            "续航"
+        ],
+        "stats": {
+            "output": 3,
+            "survival": 4,
+            "sustain": 5,
+            "difficulty": 4,
+            "mobility": 5
+        }
+    },
+    {
+        "id": "Summoner",
+        "name": "Summoner 召唤师",
+        "color": "#FFA500",
+        "description": "统御图腾与生灵的指挥官。能同时召唤人偶、魔像和蜂鸟协同作战，自身只需在后方提供光环支援，操作舒适，适合新手。",
+        "tags": [
+            "召唤",
+            "图腾",
+            "安逸"
+        ],
+        "stats": {
+            "output": 4,
+            "survival": 3,
+            "sustain": 4,
+            "difficulty": 2,
+            "mobility": 3
+        }
+    },
+    {
+        "id": "Ritualist",
+        "name": "Ritualist 圣祭祀",
+        "color": "#16d108",
+        "description": "变幻莫测的面具大师。通过切换不同的假面来应对战局，觉醒时更能集众家之长，拥有极高的适应性。",
+        "tags": [
+            "形态切换",
+            "全能",
+            "增益"
+        ],
+        "stats": {
+            "output": 4,
+            "survival": 3,
+            "sustain": 3,
+            "difficulty": 4,
+            "mobility": 2
+        }
+    },
+    {
+        "id": "Acolyte",
+        "name": "Acolyte 血教徒",
+        "color": "#FF5555",
+        "description": "掌控鲜血的职业，通过献祭自身生命值填充血池，以此施展治疗或召唤恐怖的触手与金血。高风险高回报，操作难度极高。",
+        "tags": [
+            "鲜血",
+            "献祭",
+            "超远程"
+        ],
+        "stats": {
+            "output": 5,
+            "survival": 2,
+            "sustain": 5,
+            "difficulty": 5,
+            "mobility": 2
+        }
+    }
+]

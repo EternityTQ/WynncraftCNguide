@@ -55,7 +55,7 @@ Prelude to Annihilation(下文简称"anni")是一个特殊的世界事件，其�
 
 并且，在聊天框中，所有玩家都会不定期收到消息：
 
-> <font color=FF5555>Hateful echoes erupt from the Portal. Wynn faces Annihilation. Prepare to defend the province at the Corruption Portal in [times]</font>
+![anni警报](../../.vuepress/public/assets/img/worldevent.png)
 
 在事件开始前，强烈建议你提前至少1个小时集结或寻找队伍。
 

@@ -73,7 +73,7 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 
 你可以找到**Lootrun Camp**中的<font color=FF55FF>**Lootrun Master**</font>来开始新lr
 
-![](/assets/img/lootrun7.jpg =300x)
+![=300x](/assets/img/lootrun7.jpg)
 
 每次结算LR后，都可以获得LR副职的经验值，每局经验值上限为500
 
@@ -503,7 +503,7 @@ sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pu
 
 相当于保底机制
 
-![](/assets/img/lootrun13.jpg =400x)
+![=400x](/assets/img/lootrun13.jpg)
 
 sac的保存数公式为：
 

@@ -9,8 +9,8 @@ icon: scroll
 中文译名：失联
 
 ## 奖励清单 / Rewards
-+ 1575000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 2048 绿宝石![](/assets/icon/Emerald.png =20x)
++ 1575000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 2048 绿宝石![=20x](/assets/icon/Emerald.png)
 + Canyon Chart(地图)
 
 

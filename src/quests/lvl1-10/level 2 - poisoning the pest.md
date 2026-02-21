@@ -9,8 +9,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 145 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 25 绿宝石![](/assets/icon/Emerald.png =20x)
++ 145 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 25 绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以进入<NPC>Farmer Cevalus</NPC>的农场了(在后面)
 
 ### Step 1 接取任务

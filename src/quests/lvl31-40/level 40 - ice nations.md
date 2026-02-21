@@ -24,8 +24,8 @@ icon: bookmark
 
 ## 奖励清单 / Rewards
 
-+ 25000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 256 绿宝石![](/assets/icon/Emerald.png =20x)
++ 25000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 256 绿宝石![=20x](/assets/icon/Emerald.png)
 + 1 Climbing Helmet
 
 ### Step 1 接取任务

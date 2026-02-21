@@ -26,8 +26,8 @@
 
 
 ## 奖励清单 / Rewards
-+ 1400000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 6144 绿宝石![](/assets/icon/Emerald.png =20x)
++ 1400000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 6144 绿宝石![=20x](/assets/icon/Emerald.png)
 + Altum Spatium(XP bonus 项链)
 + Cosmic Armour(XP bonus 套装)
 
@@ -69,11 +69,11 @@
 
 打死下图的NPC，拿到一个锄头，当拿着锄头时，玩家可以推动田间的干草捆(靠近就行)
 
-![](/assets/img/lvl80-13.jpg =400x)
+![=400x](/assets/img/lvl80-13.jpg)
 
 将干草堆推动成如下的形状
 
-![](/assets/img/lvl80-2.jpg =400x)
+![=400x](/assets/img/lvl80-2.jpg)
 :::tip
 位置和方向也需要一样，注意看清楚了，可以参考旁边的石块位置
 
@@ -103,7 +103,7 @@
 铁栏杆装置如下图所示
 
 
-![](/assets/img/lvl80-1.jpg =400x)
+![=400x](/assets/img/lvl80-1.jpg)
 
 :::
 先在流星区域获得蓝色陨石碎片
@@ -117,7 +117,7 @@
 
 然后找到下图的地方
 
-![](/assets/img/lv80-14.png =400x)
+![=400x](/assets/img/lv80-14.png)
 
 水里有个按钮(在箭头所指的地方)，按下去后在旁边就会开扇门，进去就是了
 
@@ -138,11 +138,11 @@
 
 3. 进入旁边的矿洞，来到入口旁边的平台上<CC>-1879 80 -4422</CC>，会有一辆矿车，推它！
 
-![](/assets/img/lvl80-8.jpg =400x)
+![=400x](/assets/img/lvl80-8.jpg)
 
 4. 快要到铁道岔路的时候停下来，按按钮，然后快速推过左边的岔路
 
-![](/assets/img/lvl80-9.jpg =400x)
+![=400x](/assets/img/lvl80-9.jpg)
 
 :::tip
 乘坐矿车的状态是不能按按钮的，必须要下车才能按
@@ -150,17 +150,17 @@
 
 5. 矿车推到底部后会有另一个按钮，按了之后让它弹射起步进入另一条岔路，这里需要坐上去前进，不然动力不足
 
-![](/assets/img/lvl80-10.jpg =400x)
+![=400x](/assets/img/lvl80-10.jpg)
 
 6. 推到外面的木桩后按按钮，继续进另一条岔路
 
-![](/assets/img/lvl80-11.jpg =400x)
+![=400x](/assets/img/lvl80-11.jpg)
 
 7. 矿车抵达终点后下车，使用旁边的加号，此时矿车会变为TNT矿车并转移到另一条轨道上，推动矿车会开到一处岩石，炸开后进入暗门，拿到`Mechanical Chip`
 
 8. 来到<CC>16 120 -5634</CC>，你会看到一朵小黄花，把上一步拿到的`Mechanical Chip`丢到花上，会在旁边开启一扇门，进去经过一小段下水道来到解密区
 
-![从这条山路上去](/assets/img/lvl80-16.jpg =400x)
+![从这条山路上去 =400x](/assets/img/lvl80-16.jpg)
 
 :::warning 
 下水道内含跳吓
@@ -172,10 +172,10 @@
 
 按下面的路线将绿色方块铺满面前的屏幕即可
 
-![](/assets/img/lvl80-4.jpg =400x)
+![=400x](/assets/img/lvl80-4.jpg)
 
 10. 找红色羊毛<CC>115 129 -5716</CC>丢入如图所示的铁栏杆装置内，进入传送装置传送至流星区域
-![](/assets/img/lvl80-12.jpg =400x)
+![=400x](/assets/img/lvl80-12.jpg)
 
 11. 拿到`Meteor Shard`后进入陨石内待命
 
@@ -271,7 +271,7 @@
 在打完之后，记得上到上面的平台，进入炸开的房门
 
 1. 找黄色羊毛<CC>-1430 57 -5631</CC>丢下图的铁栏杆装置内，进入传送装置传送至流星区域
-![](/assets/img/lvl80-15.jpg =400x)
+![=400x](/assets/img/lvl80-15.jpg)
 
 1. 找到碎片后找落脚点往下走<CC>2494 52 -5741</CC>，穿过岩浆进入陨石内待命
 
@@ -314,7 +314,7 @@
 
 ①、见下图
 
-![](/assets/img/lvl80-5.jpg =400x)
+![=400x](/assets/img/lvl80-5.jpg)
 
 ②、按顺序踩房间四个角落的压力板：
 
@@ -361,7 +361,7 @@
 
 由一名指挥员将以下步骤依次打在游戏内，每个人就能知道要做什么了
 
-![颜色标号以及区域标号用于方便指挥](/assets/img/lvl80-17.jpg =400x)
+![颜色标号以及区域标号用于方便指挥 =400x](/assets/img/lvl80-17.jpg)
 
 <Copy>1.  A B C 踩在红圈</Copy>
 　
@@ -409,7 +409,7 @@
 
 你可以参考下图
 
-![](/assets/img/lvl80-7.jpg =400x)
+![=400x](/assets/img/lvl80-7.jpg)
 
 :::tip
 如果这一步中，队伍有玩家不熟练的话

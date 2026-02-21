@@ -308,7 +308,7 @@ Qira在这阶段将会转向近战攻击
 :::
 
 奖励：
-+ 6250000 经验值![](/assets/icon/Experience_Orb.gif =20x)(只有在95级以上才能吃到所有的经验值![](/assets/icon/Experience_Orb.gif =20x))
++ 6250000 经验值![=20x](/assets/icon/Experience_Orb.gif)(只有在95级以上才能吃到所有的经验值![=20x](/assets/icon/Experience_Orb.gif))
 + Thunder Voucher
 + Air Voucher
 + Earth Voucher

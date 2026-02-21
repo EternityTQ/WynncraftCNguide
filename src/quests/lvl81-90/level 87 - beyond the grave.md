@@ -9,8 +9,8 @@ icon: scroll
 中文译名：鬼门关
 
 ## 奖励清单 / Rewards
-+ 2100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 8912 绿宝石![](/assets/icon/Emerald.png =20x)
++ 2100000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 8912 绿宝石![=20x](/assets/icon/Emerald.png)
 + Raging Wind(戒指)
 
 

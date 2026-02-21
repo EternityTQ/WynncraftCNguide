@@ -14,7 +14,7 @@ icon: skull
 
 ## 奖励清单 / Rewards
 
-+ 2400 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 2400 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + Dark Diadem(项链)
 + 1 Underworld Crypt 钥匙
 + Charon's Brain

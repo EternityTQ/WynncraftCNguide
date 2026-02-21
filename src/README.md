@@ -3,11 +3,14 @@ home: true
 icon: home
 title: 主页
 heroImage: /logo.svg
+
 heroFullScreen: true
 bgImageStyle:
   background-attachment: fixed
 heroText: Wynncraft中文攻略
 tagline: 服务器IP：play.wynncraft.com
+
+
 actions:
   - text: 游戏指南
     link: ./guide/
@@ -19,7 +22,7 @@ actions:
     type: primary
     icon: book
   
-  - text: 常见问题（新手必看）
+  - text: 新手必看
     link: ./guide/qa.md
     type: primary
     icon: book

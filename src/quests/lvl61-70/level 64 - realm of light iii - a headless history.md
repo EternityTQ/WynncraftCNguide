@@ -56,5 +56,5 @@ icon: bookmark
 <span class="stage-index">19.</span> 出来后，从二楼走进侧门，然后直走进刚刚打开的门，一路触发剧情
 
 奖励
-+ 385000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 385000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + Cloak of Luminosity(衣服)

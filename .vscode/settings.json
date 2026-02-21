@@ -1,0 +1,20 @@
+{
+    // --- Paste Image 插件专属配置 ---
+    
+    // 1. 设置图片的实际保存物理路径（同你之前的需求）
+    "pasteImage.path": "${projectRoot}/src/.vuepress/public/assets/img",
+    
+    // 2. 最关键的一步：设置路径的“基准目录”。
+    // 插件逻辑是：物理保存路径(path) 减去 基准目录(basePath) = Markdown 渲染的最终路径。
+    // 这刚好会帮我们把前面的冗长目录裁掉，保留成完美的 /assets/img/...
+    "pasteImage.basePath": "${projectRoot}/src/.vuepress/public",
+    
+    // 3. 强制使用网页标准正斜杠 (避免 Windows 自动生成反斜杠 \)
+    "pasteImage.forceUnixStyleSeparator": true,
+
+
+    // --- 关闭 VSCode 原生粘贴，避免冲突（强烈建议）---
+    "markdown.editor.filePaste.enabled": false,
+    "markdown.editor.drop.enabled": false,
+    "pasteImage.prefix": "/"
+}

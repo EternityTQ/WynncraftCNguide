@@ -37,13 +37,13 @@ icon: magnifying-glass
 
 重鉴定次数可以在物品介绍下方的品质右侧看到
 
-![](/assets/img/id4.jpg =300x500)
+![=300x500](/assets/img/id4.jpg)
 
 ## 使用鉴定增幅道具
 
 在鉴定时，你可以选择切换至副鉴定屏来添加鉴定道具
 
-![](/assets/img/id5.jpg)
+![](../../.vuepress/public/assets/img/identify.png)
 
 每一次只能对一个装备进行附带鉴定增幅道具的鉴定，同时至多应用3个鉴定道具(实际上现在最多只能同时用两个)
 

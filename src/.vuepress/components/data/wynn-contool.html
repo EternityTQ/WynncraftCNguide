@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Wynncraft Skill Tree Editor - Pro</title>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <style>
+        /* --- 全局样式 --- */
+        :root {
+            --bg-dark: #1e1e1e;
+            --bg-panel: #252526;
+            --border-color: #3e3e42;
+            --accent: #007acc;
+            --accent-hover: #005a9e;
+            --text-main: #cccccc;
+            --grid-line: #333;
+            --cell-bg: #2d2d2d;
+            --cell-hover: #383838;
+            --node-border: #666;
+            --danger: #d9534f;
+        }
+
+        body, html {
+            margin: 0; padding: 0; height: 100%; font-family: 'Segoe UI', sans-serif;
+            background-color: var(--bg-dark); color: var(--text-main); overflow: hidden;
+        }
+
+        #app { display: flex; height: 100vh; width: 100vw; }
+
+        /* --- 左侧侧边栏 --- */
+        .sidebar {
+            width: 340px; min-width: 340px;
+            background-color: var(--bg-panel);
+            border-right: 1px solid var(--border-color);
+            display: flex; flex-direction: column;
+            overflow-y: auto;
+        }
+
+        .panel-section { padding: 15px; border-bottom: 1px solid var(--border-color); }
+        .panel-title { font-size: 14px; font-weight: bold; color: #fff; margin-bottom: 10px; }
+
+        /* 工具图标网格 */
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 6px;
+        }
+
+        .tool-item {
+            aspect-ratio: 1;
+            background-color: #333;
+            border: 2px solid transparent;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: all 0.1s;
+        }
+
+        .tool-item:hover { background-color: #444; }
+        .tool-item.active {
+            border-color: var(--accent);
+            background-color: #2d2d30;
+            box-shadow: inset 0 0 10px rgba(0,0,0,0.5);
+        }
+
+        .tool-icon { width: 24px; height: 24px; stroke: #fff; stroke-width: 2; fill: none; }
+        .tool-name { font-size: 10px; margin-top: 2px; color: #aaa; }
+        .tool-key {
+            position: absolute; top: 2px; right: 4px;
+            font-size: 9px; color: var(--accent); font-weight: bold;
+            opacity: 0.8;
+        }
+
+        /* 拖拽区域 */
+        .drop-zone {
+            border: 2px dashed #555;
+            border-radius: 6px;
+            padding: 15px;
+            text-align: center;
+            color: #888;
+            font-size: 12px;
+            cursor: pointer;
+            transition: all 0.2s;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .drop-zone:hover, .drop-zone.drag-over {
+            border-color: var(--accent);
+            background-color: rgba(0, 122, 204, 0.1);
+            color: #fff;
+        }
+        .drop-zone input[type="file"] {
+            position: absolute; top: 0; left: 0; width: 100%; height: 100%;
+            opacity: 0; cursor: pointer;
+        }
+
+        /* 按钮 */
+        .btn-group { display: flex; gap: 5px; margin-top: 5px; }
+        .btn {
+            flex: 1; padding: 8px; background: #3a3a3a; color: white;
+            border: 1px solid #555; border-radius: 3px; cursor: pointer;
+            font-size: 12px;
+        }
+        .btn:hover { background-color: #4a4a4a; }
+        .btn.primary { background-color: var(--accent); border-color: var(--accent); }
+        .btn.danger { background-color: var(--danger); border-color: var(--danger); }
+        .btn:active { transform: translateY(1px); }
+
+        textarea {
+            width: 100%; height: 60px; background: #1e1e1e; border: 1px solid #444;
+            color: #888; font-family: monospace; font-size: 10px; resize: none; margin-top: 5px;
+        }
+
+        /* --- 右侧主区域 --- */
+        .main-view { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+        .top-bar {
+            height: 45px; background-color: #2d2d2d; border-bottom: 1px solid var(--border-color);
+            display: flex; align-items: center; padding: 0 20px; z-index: 10;
+        }
+        .class-select {
+            background: #444; color: white; border: 1px solid #555;
+            padding: 4px 10px; border-radius: 4px; font-size: 14px;
+        }
+
+        .canvas-scroller {
+            flex: 1; overflow: auto; background-color: #111; padding: 40px;
+            display: flex; justify-content: center; align-items: flex-start;
+        }
+
+        .skill-grid {
+            display: grid; grid-template-columns: repeat(9, 64px); gap: 2px;
+            background-color: #222; padding: 2px; border: 2px solid #444;
+            position: relative; user-select: none;
+        }
+
+        .cell {
+            width: 64px; height: 64px; background-color: var(--cell-bg);
+            position: relative; display: flex; align-items: center; justify-content: center;
+        }
+        .cell:hover { background-color: var(--cell-hover); }
+
+        .node {
+            position: absolute; width: 54px; height: 54px;
+            background-color: #3a3a3a; border: 2px solid var(--node-border); border-radius: 4px;
+            z-index: 10; display: flex; flex-direction: column; align-items: center; justify-content: center;
+            font-size: 10px; text-align: center; pointer-events: none; padding: 2px; overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+        }
+
+        .connector-svg { width: 100%; height: 100%; pointer-events: none; }
+        .connector-path { stroke: white; stroke-width: 4; fill: none; stroke-linecap: square; }
+
+        .toast {
+            position: fixed; bottom: 30px; right: 30px; background: #4CAF50; color: white;
+            padding: 10px 20px; border-radius: 4px; opacity: 0; transition: opacity 0.3s;
+            pointer-events: none; z-index: 100; font-size: 14px; box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+        }
+        .toast.show { opacity: 1; }
+        .toast.error { background: var(--danger); }
+    </style>
+</head>
+<body>
+
+<div id="app">
+    <aside class="sidebar">
+        <div class="panel-section">
+            <div class="panel-title">绘制工具 (快捷键 1-4, Q-R)</div>
+            <div class="tools-grid">
+                <div v-for="tool in sortedTools" 
+                     :key="tool.id" 
+                     class="tool-item" 
+                     :class="{ active: selectedTool === tool.id }"
+                     @click="selectedTool = tool.id">
+                    <span class="tool-key">{{ tool.key.toUpperCase() }}</span>
+                    <svg class="tool-icon" viewBox="0 0 24 24">
+                        <path :d="tool.path" stroke="currentColor" fill="none" />
+                    </svg>
+                    <span class="tool-name">{{ tool.id }}</span>
+                </div>
+            </div>
+            <div style="font-size: 11px; color: #666; margin-top: 8px; text-align: center;">
+                左键拖拽绘制 · 右键点击擦除
+            </div>
+        </div>
+
+        <div class="panel-section">
+            <div class="panel-title">连线管理 (Connectors)</div>
+            
+            <div class="drop-zone" 
+                 @dragover.prevent="dragOver" 
+                 @dragleave="dragLeave" 
+                 @drop.prevent="handleConnectorsDrop">
+                <input type="file" accept=".json" @change="handleConnectorsFileSelect">
+                📂 拖入或点击导入 connectors.json<br>
+                <span style="font-size: 10px; color:#666">(将在现有基础上修改)</span>
+            </div>
+
+            <div class="panel-title" style="margin-top: 15px;">导出</div>
+            <div class="btn-group">
+                <button class="btn primary" @click="exportJson(false)">📄 仅当前职业</button>
+                <button class="btn primary" @click="exportJson(true)">📚 全部职业</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn danger" @click="clearConnectors">🗑️ 清空当前</button>
+            </div>
+        </div>
+
+        <div class="panel-section" style="border-bottom: none;">
+            <div class="panel-title">数据源 (Tree Data)</div>
+            <div class="drop-zone" 
+                 @dragover.prevent="dragOver" 
+                 @dragleave="dragLeave" 
+                 @drop.prevent="handleAtreeDrop">
+                <input type="file" accept=".json" @change="handleAtreeFileSelect">
+                📦 拖入或点击导入 atree.json
+            </div>
+            <textarea v-model="rawAtreeData" placeholder="JSON 数据预览..." readonly></textarea>
+            <div style="text-align: right; margin-top: 5px; color: #666; font-size: 11px;">
+                {{ loadedNodesCount }} 个节点已加载
+            </div>
+        </div>
+    </aside>
+
+    <main class="main-view">
+        <header class="top-bar">
+            <div style="font-weight: bold; margin-right: 20px;">Wynn Editor</div>
+            <label style="margin-right: 10px; color: #aaa;">职业:</label>
+            <select v-model="currentClass" class="class-select" @change="changeClass">
+                <option v-for="cls in availableClasses" :key="cls" :value="cls">{{ cls }}</option>
+            </select>
+            <div style="margin-left: auto; font-size: 12px; color: #666;">
+                {{ currentClass ? `${currentClass} (${connectorCount} lines)` : 'No Data' }}
+            </div>
+        </header>
+
+        <div class="canvas-scroller">
+            <div class="skill-grid"
+                 :style="{ gridTemplateRows: `repeat(${gridRows}, 64px)` }"
+                 @mouseleave="isDragging = false"
+                 @mouseup="isDragging = false">
+                
+                <div v-for="cell in gridCells" 
+                     :key="cell.id" 
+                     class="cell"
+                     @mousedown.left.prevent="startDraw(cell.r, cell.c)"
+                     @mouseenter="onMouseEnter(cell.r, cell.c)"
+                     @contextmenu.prevent="eraseCell(cell.r, cell.c)">
+                    
+                    <svg v-if="getConnector(cell.r, cell.c)" class="connector-svg" viewBox="0 0 24 24">
+                        <path :d="toolMap[getConnector(cell.r, cell.c)].path" class="connector-path" />
+                    </svg>
+                </div>
+
+                <div v-for="node in visibleNodes" 
+                     :key="node.id"
+                     class="node"
+                     :style="{ 
+                         gridRowStart: node.display.row + 1, 
+                         gridColumnStart: node.display.col + 1
+                     }">
+                    <div style="font-size: 16px;">📦</div>
+                    <div style="line-height: 1.1; overflow: hidden; max-height: 24px;">{{ node.display_name }}</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div class="toast" :class="{ show: toastMsg.text, error: toastMsg.isError }">{{ toastMsg.text }}</div>
+</div>
+
+<script>
+const { createApp, ref, computed, onMounted, reactive, onUnmounted } = Vue;
+
+// 定义工具及其顺序、快捷键
+// 第一行：1,2,3,4
+// 第二行：q,w,e,r
+const TOOL_DEFINITIONS = [
+    { id: '横线',   key: '1', path: 'M0,12 L24,12' },
+    { id: '竖线',   key: '2', path: 'M12,0 L12,24' },
+    { id: '丁字',   key: '3', path: 'M0,12 L24,12 M12,12 L12,24' }, // 连接左下右
+    { id: '十字',   key: '4', path: 'M12,0 L12,24 M0,12 L24,12' },
+    
+    { id: '左下',   key: 'q', path: 'M0,12 L12,12 L12,24' },       // 连接左下
+    { id: '左丁字', key: 'w', path: 'M12,0 L12,24 M12,12 L0,12' }, // 连接上下左
+    { id: '右丁字', key: 'e', path: 'M12,0 L12,24 M12,12 L24,12' },// 连接上下右
+    { id: '右下',   key: 'r', path: 'M24,12 L12,12 L12,24' }       // 连接右下
+];
+
+// 将 Array 转为 Object 方便查找
+const TOOL_MAP = TOOL_DEFINITIONS.reduce((acc, t) => { acc[t.id] = t; return acc; }, {});
+const KEY_MAP = TOOL_DEFINITIONS.reduce((acc, t) => { acc[t.key] = t.id; return acc; }, {});
+
+// 默认空数据结构
+const DEFAULT_ATREE = `{"Archer": []}`;
+
+createApp({
+    setup() {
+        const rawAtreeData = ref(DEFAULT_ATREE);
+        const parsedData = ref({ Archer: [] });
+        const currentClass = ref('Archer');
+        
+        // 数据存储: { ClassName: { row: { col: 'Type' } } }
+        const connectorData = reactive({});
+        
+        const selectedTool = ref('横线');
+        const sortedTools = TOOL_DEFINITIONS;
+        const toolMap = TOOL_MAP;
+        
+        const isDragging = ref(false);
+        const toastMsg = reactive({ text: '', isError: false });
+
+        // --- 核心逻辑：数据加载与解析 ---
+
+        const loadAtreeData = (jsonStr) => {
+            try {
+                const data = JSON.parse(jsonStr);
+                parsedData.value = data;
+                
+                // 确保 connectorData 包含所有职业的 keys
+                Object.keys(data).forEach(cls => {
+                    if (!connectorData[cls]) connectorData[cls] = {};
+                });
+
+                if (!data[currentClass.value] || !parsedData.value[currentClass.value]) {
+                    currentClass.value = Object.keys(data)[0] || '';
+                }
+                rawAtreeData.value = jsonStr; // 更新预览
+                showToast(`成功加载 ${Object.keys(data).length} 个职业数据`);
+            } catch (e) {
+                showToast('JSON 格式错误: ' + e.message, true);
+            }
+        };
+
+        // --- 核心逻辑：导入 Connectors ---
+        const importConnectorsData = (jsonStr) => {
+            try {
+                const imported = JSON.parse(jsonStr);
+                let count = 0;
+                
+                // 遍历导入的数据结构: { Class: { Type: [ {row, col} ] } }
+                for (const cls in imported) {
+                    if (!connectorData[cls]) connectorData[cls] = {};
+                    
+                    const types = imported[cls];
+                    for (const typeKey in types) {
+                        // 检查连线类型是否合法
+                        if (!TOOL_MAP[typeKey]) continue;
+
+                        const points = types[typeKey];
+                        if (Array.isArray(points)) {
+                            points.forEach(p => {
+                                if (!connectorData[cls][p.row]) connectorData[cls][p.row] = {};
+                                connectorData[cls][p.row][p.col] = typeKey;
+                                count++;
+                            });
+                        }
+                    }
+                }
+                showToast(`成功导入 ${count} 条连线数据`);
+            } catch (e) {
+                showToast('Connectors JSON 错误: ' + e.message, true);
+            }
+        };
+
+        // --- 文件处理 (Drag & Drop / Select) ---
+        const readFile = (file, callback) => {
+            const reader = new FileReader();
+            reader.onload = (e) => callback(e.target.result);
+            reader.readAsText(file);
+        };
+
+        const handleAtreeDrop = (e) => {
+            const file = e.dataTransfer.files[0];
+            if (file) readFile(file, loadAtreeData);
+            e.target.classList.remove('drag-over');
+        };
+        const handleAtreeFileSelect = (e) => {
+            const file = e.target.files[0];
+            if (file) readFile(file, loadAtreeData);
+        };
+
+        const handleConnectorsDrop = (e) => {
+            const file = e.dataTransfer.files[0];
+            if (file) readFile(file, importConnectorsData);
+            e.target.classList.remove('drag-over');
+        };
+        const handleConnectorsFileSelect = (e) => {
+            const file = e.target.files[0];
+            if (file) readFile(file, importConnectorsData);
+        };
+
+        const dragOver = (e) => e.target.classList.add('drag-over');
+        const dragLeave = (e) => e.target.classList.remove('drag-over');
+
+        // --- 网格计算 ---
+        const availableClasses = computed(() => Object.keys(parsedData.value));
+        const loadedNodesCount = computed(() => {
+            return parsedData.value[currentClass.value] ? parsedData.value[currentClass.value].length : 0;
+        });
+
+        const visibleNodes = computed(() => parsedData.value[currentClass.value] || []);
+        
+        const gridRows = computed(() => {
+            if (visibleNodes.value.length === 0) return 20;
+            return Math.max(...visibleNodes.value.map(n => n.display.row)) + 6;
+        });
+
+        const gridCells = computed(() => {
+            const cells = [];
+            for (let r = 0; r < gridRows.value; r++) {
+                for (let c = 0; c < 9; c++) cells.push({ id: `${r}-${c}`, r, c });
+            }
+            return cells;
+        });
+
+        // --- 绘图逻辑 ---
+        const getConnector = (r, c) => connectorData[currentClass.value]?.[r]?.[c] || null;
+        
+        const setConnector = (r, c) => {
+            if (!connectorData[currentClass.value]) connectorData[currentClass.value] = {};
+            if (!connectorData[currentClass.value][r]) connectorData[currentClass.value][r] = {};
+            connectorData[currentClass.value][r][c] = selectedTool.value;
+        };
+
+        const eraseCell = (r, c) => {
+            if (connectorData[currentClass.value]?.[r]) delete connectorData[currentClass.value][r][c];
+        };
+
+        const startDraw = (r, c) => { isDragging.value = true; setConnector(r, c); };
+        const onMouseEnter = (r, c) => { if (isDragging.value) setConnector(r, c); };
+        const clearConnectors = () => { if(confirm('确认清空当前职业连线?')) connectorData[currentClass.value] = {}; };
+
+        const connectorCount = computed(() => {
+            let count = 0;
+            const map = connectorData[currentClass.value];
+            if(map) Object.values(map).forEach(r => count += Object.keys(r).length);
+            return count;
+        });
+
+        // --- 导出逻辑 ---
+        const exportJson = (exportAll) => {
+            const result = {};
+            // 决定遍历哪些职业
+            const classesToExport = exportAll ? Object.keys(connectorData) : [currentClass.value];
+
+            classesToExport.forEach(cls => {
+                const classMap = connectorData[cls];
+                if (!classMap) return;
+
+                const clsObj = {};
+                let hasData = false;
+                
+                // 初始化所有类型的数组
+                Object.keys(TOOL_MAP).forEach(key => clsObj[key] = []);
+
+                // 转换 Grid -> List
+                for (const rKey in classMap) {
+                    const r = parseInt(rKey);
+                    for (const cKey in classMap[r]) {
+                        const type = classMap[r][cKey];
+                        if (clsObj[type]) {
+                            clsObj[type].push({ row: r, col: parseInt(cKey) });
+                            hasData = true;
+                        }
+                    }
+                }
+
+                // 清理空键
+                for (const key in clsObj) if (clsObj[key].length === 0) delete clsObj[key];
+
+                if (hasData) result[cls] = clsObj;
+            });
+
+            const jsonStr = JSON.stringify(result, null, 2);
+            navigator.clipboard.writeText(jsonStr)
+                .then(() => showToast(exportAll ? '📚 全部职业已复制' : '📄 当前职业已复制'))
+                .catch(e => {
+                    console.error(e);
+                    showToast('复制失败，请看控制台', true);
+                });
+        };
+
+        const showToast = (text, isError = false) => {
+            toastMsg.text = text; toastMsg.isError = isError;
+            setTimeout(() => toastMsg.text = '', 2000);
+        };
+
+        // --- 快捷键逻辑 ---
+        const handleKeydown = (e) => {
+            if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
+            const key = e.key.toLowerCase();
+            if (KEY_MAP[key]) {
+                selectedTool.value = KEY_MAP[key];
+            }
+        };
+
+        onMounted(() => {
+            window.addEventListener('keydown', handleKeydown);
+            loadAtreeData(rawAtreeData.value); // 初始化
+        });
+
+        onUnmounted(() => {
+            window.removeEventListener('keydown', handleKeydown);
+        });
+
+        return {
+            rawAtreeData, currentClass, availableClasses, visibleNodes, loadedNodesCount,
+            gridRows, gridCells, sortedTools, toolMap, selectedTool,
+            getConnector, startDraw, onMouseEnter, eraseCell, clearConnectors,
+            handleAtreeDrop, handleAtreeFileSelect, handleConnectorsDrop, handleConnectorsFileSelect,
+            dragOver, dragLeave, exportJson, toastMsg, isDragging, connectorCount
+        };
+    }
+}).mount('#app');
+</script>
+
+</body>
+</html>

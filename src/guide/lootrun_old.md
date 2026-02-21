@@ -505,7 +505,7 @@ sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pu
 
 相当于保底机制
 
-![](/assets/img/lootrun13.jpg =400x)
+![=400x](/assets/img/lootrun13.jpg)
 
 1sac为保存50%的pulls，2sac为保存75%的pulls
 

@@ -13,7 +13,7 @@ icon: bookmark
 
 ## 奖励清单 / Rewards
 
-+ 15000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 15000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 1 Yellow Crystal Shards（Wynn Excavation Site B任务的物品）
 
 ### Step 1 接取任务

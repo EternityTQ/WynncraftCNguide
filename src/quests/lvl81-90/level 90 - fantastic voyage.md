@@ -7,13 +7,13 @@
 :::tip
 先和<font color=00AA00>**Jofash Resident**</font>对话，选标蓝的选项
 
-![你可以很轻松的找到他，他会在附近晃悠](/assets/img/lvl90-1.jpg =400x)
+![你可以很轻松的找到他，他会在附近晃悠 =400x](/assets/img/lvl90-1.jpg)
 
 然后和酒吧老板`[1333 39 -4071]`对话，他会告诉你鹦鹉在左边的露台，出去就看到了
 
 接着出来瞎晃悠一下，就会触发Jofash Resident的走路剧情，他会把你带到椰树下让你看到鹦鹉`[1301 36 -4121]`
 
-![](/assets/img/lvl90-3.jpg =400x)
+![=400x](/assets/img/lvl90-3.jpg)
 
 爬上树右键鹦鹉就能拿到地图了
 :::
@@ -93,8 +93,8 @@
 
 
 奖励
-+ 3100000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 6144 绿宝石![](/assets/icon/Emerald.png =20x)
++ 3100000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 6144 绿宝石![=20x](/assets/icon/Emerald.png)
 + Pendant of Prosperity(项链)
 
 :::tip

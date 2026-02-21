@@ -11,7 +11,7 @@ icon: bookmark
 
 ## 奖励清单 / Rewards
 
-+ 2800 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 2800 经验值![=20x](/assets/icon/Experience_Orb.gif) 
 + Cluckles' Favourite Feather(Quest Item)
 
 ### Step 1 接取任务

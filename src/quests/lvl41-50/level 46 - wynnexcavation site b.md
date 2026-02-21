@@ -10,8 +10,8 @@ icon: bookmark
 
 ## 奖励清单 / Rewards
 
-+ 50000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 1536 绿宝石![](/assets/icon/Emerald.png =20x)
++ 50000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 1536 绿宝石![=20x](/assets/icon/Emerald.png)
 + 1 Purple Crystal Shards (quest item)
 
 ### Step 1 接取任务

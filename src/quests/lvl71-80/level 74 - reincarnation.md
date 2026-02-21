@@ -28,7 +28,7 @@
 <span class="stage-index">4.</span> 带回`bob's seal of approval`给<font color=00aa00>**batelu**</font>
 
 奖励
-+ 750000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 750000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + stone of myths
 
 :::tip

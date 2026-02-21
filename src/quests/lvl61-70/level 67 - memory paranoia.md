@@ -60,6 +60,6 @@
 <span class="stage-index">21.</span> 跟<font color=00AA00>**Antisun**</font>说话
 
 奖励
-+ 375000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 1536 绿宝石![](/assets/icon/Emerald.png =20x)
++ 375000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 1536 绿宝石![=20x](/assets/icon/Emerald.png)
 + Ring of Generosity(一个饰品)

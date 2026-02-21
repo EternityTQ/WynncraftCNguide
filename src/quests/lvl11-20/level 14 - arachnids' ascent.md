@@ -17,7 +17,7 @@ icon: skull
 
 ## 奖励清单 / Rewards
 
-+ 1000经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 1000经验值![=20x](/assets/icon/Experience_Orb.gif) 
 + 1 Infested Pit Key
 + Arakadicus's Eye
 

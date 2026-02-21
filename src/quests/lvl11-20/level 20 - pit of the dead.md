@@ -11,7 +11,7 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 2675 经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 2675 经验值![=20x](/assets/icon/Experience_Orb.gif) 
 + Skeletal Legs
 
 ### Step 1 接取任务

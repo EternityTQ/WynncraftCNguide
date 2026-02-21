@@ -33,14 +33,14 @@
 
 注意如果继续摸牌然后把总分摸爆了，你就结束了...
 
-筹码为1~64绿宝石![](/assets/icon/Emerald.png =20x)
+筹码为1~64绿宝石![=20x](/assets/icon/Emerald.png)
 :::
 
 <span class="stage-index">7.</span> 从后方出去房子，在`[-505 46 -4972]`找到证据
 
 奖励
-+ 350000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 3072 绿宝石![](/assets/icon/Emerald.png =20x)
++ 350000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 3072 绿宝石![=20x](/assets/icon/Emerald.png)
 + 1 Detective's Ring
   
 :::tip

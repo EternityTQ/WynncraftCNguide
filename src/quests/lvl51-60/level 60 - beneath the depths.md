@@ -17,13 +17,13 @@
 
 <span class="stage-index">4.</span> <font color=00AA00>**Javier**</font>会还给你地图。带着地图去到在**Mage Island**的<font color=00AA00>**Dalben**</font>`[883 46 -2872]`
 
-<span class="stage-index">5 </span> 给<font color=00AA00>**Dalben**</font> 5 个 绿宝石![](/assets/icon/Emerald.png =20x)块 和 1 个 褪色的地图
+<span class="stage-index">5 </span> 给<font color=00AA00>**Dalben**</font> 5 个 绿宝石![=20x](/assets/icon/Emerald.png)块 和 1 个 褪色的地图
 
 <span class="stage-index">6.</span> <font color=00AA00>**Dalben**</font>给你一个unenchanted map(未附魔的地图)。按照地图的标记寻找到指定的位置，并且进入OceanCave`[-187 16 -3452]`。进入洞穴之后向南走，走通道不要进大房间小房间，(小心某个没有实体一击就死但是一套伤害1800的怪，有特殊音效)。走到底`[-78 14 -3039]`并且杀死宝藏守护者[Treasure Guardian]。你将会获得一个叫做Ocean Treasure(海之宝藏)的金条。原路返回，带着他回去给<font color=00AA00>**Javier**</font>
 
 奖励
-+ 185000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
-+ 1 绿宝石![](/assets/icon/Emerald.png =20x)(对，就一个绿宝石![](/assets/icon/Emerald.png =20x))
++ 185000 经验值![=20x](/assets/icon/Experience_Orb.gif) 
++ 1 绿宝石![=20x](/assets/icon/Emerald.png)(对，就一个绿宝石![=20x](/assets/icon/Emerald.png))
 + Abysso Galoshes(Quest Item)
 + 一个帆船葬场(缩写为GG的地牢)的钥匙
 

@@ -11,8 +11,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 3300 经验值![](/assets/icon/Experience_Orb.gif =20x) 
-+ 128 绿宝石![](/assets/icon/Emerald.png =20x)
++ 3300 经验值![=20x](/assets/icon/Experience_Orb.gif) 
++ 128 绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以进入教堂后面的墓地了(非常好的刷级点)
 
 ![](/assets/img/lv20-13.png)

@@ -12,7 +12,7 @@ Mastery Tome系统会在做完[Realm of Light I - The Worm Holes (level 54)](/qu
 
 打开Mastery Tome后你会看到Tome装备页面
 
-![](/assets/img/tome3.jpg =500x)
+![=500x](/assets/img/tome3.jpg)
 
 Tome其实和装备类似，都是可以增加自己的基础属性。
 

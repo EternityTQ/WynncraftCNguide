@@ -22,7 +22,7 @@ icon: wheelchair-move
 :::tip
 Wynntils按J键可以打开领地地图。
 
-![](/assets/img/gw1.jpg =400x)
+![=400x](/assets/img/gw1.jpg)
 :::
 
 ## 打法
@@ -35,7 +35,7 @@ Dps采用的是刺客Cataclysm，Tank是战士噶点，Healer则是奶妈absolut
 
 一支训练有素的队伍理论上可以推平整个wynncraft大陆。
 
-![](/assets/img/gw2.jpg =300x)
+![=300x](/assets/img/gw2.jpg)
 
 首都周边线路连接地是它的link点，每一个link点都会给首都一定的加成
 
@@ -45,7 +45,7 @@ HQ Team要做的就是10分钟内推掉所有的link点，然后开战首都。
 
 #### 站位
 
-![](/assets/img/gw3.jpg =300x)
+![=300x](/assets/img/gw3.jpg)
 
 开战后坦克吸引到塔的仇恨后往后撤，前排留给DPS。
 

@@ -10,7 +10,7 @@ export default hopeTheme({
   hostname: "https://github.com/EternityTQ/WynncraftCNguide",
 
   author: {
-    name: "筱缇Vellichor",
+    name: "EternityTQ",
   },
 
   logo: "/logo.svg",

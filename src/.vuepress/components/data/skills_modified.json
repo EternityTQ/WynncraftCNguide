@@ -11,12 +11,6 @@
     "category": "small",
     "description": "<font color=\"WHITE\"><b>弓箭精通 I</b><br>(Bow Proficiency)</font><br><br><font color=\"BBBBBB\">增加<tip name=\"普通攻击\">普通攻击</tip>的伤害及范围</font><br>"
   },
-  "测试": {
-    "name": "弓箭精通 I",
-    "icon": "/assets/img/class/small.png",
-    "category": "small",
-    "description": "测试测试测试"
-  },
   "Cheaper_Arrow_Bomb I": {
     "name": "爆炸箭减耗 I",
     "icon": "/assets/img/class/small.png",

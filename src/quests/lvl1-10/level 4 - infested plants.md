@@ -12,7 +12,7 @@ icon: bookmark
 ## 奖励清单 / Rewards
 
 + 270 经验值
-+ 32 绿宝石![](/assets/icon/Emerald.png =20x)
++ 32 绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以使用Waist Apron了
 ### Step 1 接取任务
 ---

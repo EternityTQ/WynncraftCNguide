@@ -99,7 +99,7 @@ icon: route
 <span class="stage-index">18.</span> 和<font color=00AA00>**Plario**</font>`[1379 142 -5305]`对话
 
 奖励
-+ 3300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 3300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 1 Dogun Badge of Trust(Quest Item)
 + 可以使用Molten Heights的电梯了
 

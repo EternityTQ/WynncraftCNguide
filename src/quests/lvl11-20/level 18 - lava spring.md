@@ -11,8 +11,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 4000 经验值![](/assets/icon/Experience_Orb.gif =20x) 
-+ 192 绿宝石![](/assets/icon/Emerald.png =20x)
++ 4000 经验值![=20x](/assets/icon/Experience_Orb.gif) 
++ 192 绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以进入**Bremminglar**的药水商店了
 
 ### Step 1 接取任务

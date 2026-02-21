@@ -27,9 +27,9 @@
 <span class="stage-index">6.</span> 你被带到了兽人帐篷里要求帮他们治疗
 :::tip
 拿以下三种花放在药草槽内
-![](../../.vuepress/public/assets/img/lvl64-1.jpg =400x)
+![=400x](../../.vuepress/public/assets/img/lvl64-1.jpg)
 
-![](../../.vuepress/public/assets/img/lvl64-2.jpg =400x)
+![=400x](../../.vuepress/public/assets/img/lvl64-2.jpg)
 其中，黄花Yarrow要拿两个
 :::
 
@@ -121,6 +121,6 @@ Peaches`[-1320 53 -4799]`
 <span class="stage-index">10.</span> 剧情结束后，把停战协议交给<font color=00AA00>**Captain Goruca**</font>`[-1419 43 -4689]`
 
 奖励
-+ 350000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 3072 绿宝石![](/assets/icon/Emerald.png =20x)
++ 350000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 3072 绿宝石![=20x](/assets/icon/Emerald.png)
 + Upgraded Orc Mask(面罩)

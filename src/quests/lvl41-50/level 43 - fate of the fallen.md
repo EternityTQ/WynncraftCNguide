@@ -16,7 +16,7 @@ icon: skull
 
 ## 奖励清单 / Rewards
 
-+ 20000 经验值![](/assets/icon/Experience_Orb.gif =20x)
++ 20000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + Avalanche(一个属性非常不错的头盔)
 + 1 Ice Barrows Dungeon Key
 + Theorick's Ice Shard(IB副本掉落物)

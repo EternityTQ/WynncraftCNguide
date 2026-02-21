@@ -29,7 +29,7 @@ icon: exclamation
 :::tip
 按下图路线挖就好了
 
-![](/assets/img/lvl100-1.jpg =500x)
+![=500x](/assets/img/lvl100-1.jpg)
 
 如果挖错了，你可以用`/class`重置
 :::
@@ -65,14 +65,14 @@ icon: exclamation
 
 在此处互动，重新进入任务场景，开始护送任务
 
-![](/assets/img/lvl100-2.jpg =500x)
+![=500x](/assets/img/lvl100-2.jpg)
 :::
 
 
 
 奖励
-+ 6000000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 12288 绿宝石![](/assets/icon/Emerald.png =20x)
++ 6000000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 12288 绿宝石![=20x](/assets/icon/Emerald.png)
 :::tip
 该任务的怪物都比较强大 如果死了没复活在里面可以从`[750 -1300]`的Abandoned Mines的山上重新进入the silent expanse
 

@@ -11,7 +11,7 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 1600经验值![](/assets/icon/Experience_Orb.gif =20x) 
++ 1600经验值![=20x](/assets/icon/Experience_Orb.gif) 
 + Essren's Coat
 + 1 Weakening Catalyst
 

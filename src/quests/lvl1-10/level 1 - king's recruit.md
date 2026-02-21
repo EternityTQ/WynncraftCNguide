@@ -16,9 +16,9 @@ icon: handshake-angle
 
 
 ## 奖励清单 / Rewards
-+ 35 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 6 绿宝石![](/assets/icon/Emerald.png =20x)
-+ 1 Ragni的传送卷轴 ![](/assets/icon/paper.png =20x)
++ 35 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 6 绿宝石![=20x](/assets/icon/Emerald.png)
++ 1 Ragni的传送卷轴 ![=20x](/assets/icon/paper.png)
 + 可以正式开始游戏了
 
 
@@ -28,7 +28,7 @@ icon: handshake-angle
 
 当你第一次进入游戏时，你会看到如下的职业选择界面：
 
-![](/assets/img/lv1-1_new.png =400x)
+![=400x](/assets/img/lv1-1_new.png)
 
 你可以使用【鼠标滚轮】来进行职业选择，选择完毕后按下【鼠标左键】确认，即可进入下一步。
 
@@ -38,7 +38,7 @@ icon: handshake-angle
 
 在进入下一步后，你会看到如下的二级菜单：
 
-![](/assets/img/lv1-2_new.png =400x)
+![=400x](/assets/img/lv1-2_new.png)
 
 下面按照标点来依次介绍一下各个功能
 
@@ -302,15 +302,15 @@ icon: handshake-angle
 
 首先，打开你背包中的指南针
 
-![](/assets/img/lv1-11_new.png =400x)
+![=400x](/assets/img/lv1-11_new.png)
 
 再点击左侧的能力树
 
-![](/assets/img/lv1-12_new.png =400x)
+![=400x](/assets/img/lv1-12_new.png)
 
 再点亮上面的第一个能力点即可，需要特别注意红框为该技能的触发方式。
 
-![](/assets/img/lv1-13_new.png =400x)
+![=400x](/assets/img/lv1-13_new.png)
 
 如图上的技能顺序，为手持武器依次点击鼠标右键-鼠标左键-鼠标右键，即可释放，其他职业需要看是什么顺序。
 

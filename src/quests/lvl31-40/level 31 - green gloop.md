@@ -13,8 +13,8 @@ icon: scroll
 
 ## 奖励清单 / Rewards
 
-+ 9500 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 192 绿宝石![](/assets/icon/Emerald.png =20x)
++ 9500 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 192 绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以进入Almuj的饰品商店了
 
 ### Step 1 接取任务
@@ -34,7 +34,7 @@ icon: scroll
 
 在全沙漠找<tip name="lv31-1">长成这样的沙子怪</tip>，击杀得到5个<tip name="lv31-2">Soft Sand</tip>，然后回去找<NPC>Yodbon</NPC><CC>985 86 -1946</CC>
 
-![沙子怪会在上图的区域内刷新](/assets/img/lvl31-3.jpg =500x)
+![沙子怪会在上图的区域内刷新 =500x](/assets/img/lvl31-3.jpg)
 
 这一步建议在区域内到处逛逛，刷新频率还挺高的。
 

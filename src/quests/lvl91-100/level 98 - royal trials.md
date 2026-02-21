@@ -45,6 +45,6 @@
 <span class="stage-index">12.</span> 跟<font color=00AA00>**Trials Overseer**</font>谈话
 
 奖励
-+ 7270000经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 4096绿宝石![](/assets/icon/Emerald.png =20x)
++ 7270000经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 4096绿宝石![=20x](/assets/icon/Emerald.png)
 + The Queen's Headpiece{一个头盔}

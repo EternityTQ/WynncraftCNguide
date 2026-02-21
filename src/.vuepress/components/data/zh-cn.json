@@ -1,0 +1,3621 @@
+{
+  "Arrow Bomb": {
+    "name": "爆炸箭",
+    "combo": "左键 - 右键 - 右键",
+    "desc": "射出一支远距离的箭矢，其命中后会爆炸，造成大范围的伤害。\n *(并对自己造成爆炸伤害10%的伤害)*",
+    "stats_keys": [
+      "range",
+      "aoe",
+      "cost"
+    ]
+  },
+  "Bow Proficiency": {
+    "name": "弓箭精通 I",
+    "combo": "",
+    "desc": "增加_普通攻击_的伤害及范围",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Cheaper Arrow Bomb I": {
+    "name": "爆炸箭减耗 I",
+    "combo": "",
+    "desc": "降低_爆炸箭_的技能消耗",
+    "properties": {
+      "cost": -10
+    },
+    "stats_keys": [],
+    "note": ""
+  },
+  "Heart Shatter": {
+    "name": "碎心",
+    "combo": "",
+    "desc": "用_爆炸箭_直接命中怪物时，会击碎其心脏并造成额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Double Shots": {
+    "name": "双发箭矢",
+    "combo": "",
+    "desc": "你的_普通攻击_将同时射出两发箭矢，但每支箭矢的伤害将会降低 ! 40% ! \n*(更难命中较远的敌人)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Escape": {
+    "name": "逃脱",
+    "combo": "左键 - 左键 - 左键",
+    "desc": "快速后跳来规避危险\n*(逃脱最多连续触发一次，其在空中也能触发。落地后刷新使用次数)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Power Shots": {
+    "name": "强力箭矢",
+    "combo": "",
+    "desc": "你的_普通攻击_射出的箭矢具有更高的飞行速度以及击退能力",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Arrow Storm": {
+    "name": "箭雨",
+    "combo": "左键 - 右键 - 左键",
+    "desc": "快速射出8支箭矢，对邻近的怪物造成大量伤害，同时小幅击退怪物",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Cheaper Escape I": {
+    "name": "逃脱减耗 I",
+    "combo": "",
+    "desc": "降低_逃脱_的技能消耗。",
+    "properties": {},
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Arrow Shield": {
+    "name": "箭盾",
+    "combo": "左键 - 左键 - 右键",
+    "desc": "在你周围形成一个护盾，对接触的怪物造成伤害并将其击退。*(3层充能)*",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "charges",
+      "duration",
+      "resistance"
+    ],
+    "note": ""
+  },
+  "Windy Feet": {
+    "name": "疾风步伐",
+    "combo": "",
+    "desc": "使用_逃脱_会给予你和周围的友军一段时间的速度加成",
+    "properties": {
+      "aoe": 8,
+      "duration": 120,
+      "speed": 20
+    },
+    "stats_keys": [
+      "aoe",
+      "duration",
+      "speed"
+    ],
+    "note": ""
+  },
+  "Air Mastery": {
+    "name": "气元素精通",
+    "combo": "",
+    "desc": "增加所有气属性的伤害",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Thunder Mastery": {
+    "name": "电元素精通",
+    "combo": "",
+    "desc": "增加所有电属性的伤害",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Fire Mastery": {
+    "name": "火元素精通",
+    "combo": "",
+    "desc": "增加所有火属性的伤害",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Water Mastery": {
+    "name": "水元素精通",
+    "combo": "",
+    "desc": "增加所有水属性的伤害",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Earth Mastery": {
+    "name": "地元素精通",
+    "combo": "",
+    "desc": "增加所有地属性的伤害",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Nimble String": {
+    "name": "迅捷弓弦",
+    "combo": "",
+    "desc": "_箭雨_的箭矢飞行速度加倍，同时每道箭流额外 ^ +6 ^ 根箭矢\n每根箭矢的伤害 ! -10% !",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Buckshot": {
+    "name": "散射",
+    "combo": "",
+    "desc": "当_箭盾_的次数耗尽时，在你的周围喷涌出 ^75^ 根箭矢，倾泻在周围的敌人身上",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Bryophyte Roots": {
+    "name": "苔藓缠身",
+    "combo": "",
+    "desc": "_箭雨_击中敌人时，生成一个苔藓圈，圈内敌人受到减速且每 ^ 0.4秒 ^ 受到一次伤害",
+    "properties": {},
+    "stats_keys": [
+      "aoe",
+      "duration",
+      "slowness"
+    ],
+    "note": ""
+  },
+  "Fire Creep": {
+    "name": "烈火蔓延",
+    "combo": "",
+    "desc": "_爆炸箭_将会点燃飞行沿途区域持续^ 6秒 ^，期间持续对在其上方的敌人每 ^ 0.4秒 ^ 造成伤害",
+    "properties": {
+      "cooldown": "3"
+    },
+    "stats_keys": [
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Phantom Ray": {
+    "name": "幻影射线",
+    "combo": "",
+    "desc": "将_箭雨_浓缩为一条射线，对敌人造成 ^10次^ 伤害",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "ray_duration"
+    ],
+    "note": ""
+  },
+  "Triple Shots": {
+    "name": "三重射击",
+    "combo": "",
+    "desc": "你的_普通攻击_同时射出三根箭矢，但每根箭矢相对正常箭矢的伤害 ! -10% ! \n*(对于每根箭矢，其生命窃取、法力窃取以及粉末主动充能效率降低至33%)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Frenzy": {
+    "name": "极速狂热",
+    "combo": "",
+    "desc": "每命中一次敌人，给自身叠加一层 ^ 3% ^ 移动速度(上限70%)，该加成效果每秒衰减! 10% !",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Guardian Angels": {
+    "name": "守护天使",
+    "combo": "",
+    "desc": "你的_箭盾_箭矢转化为 ^ 2 ^ 把守护天使，每 ^ 0.45s ^ 射击附近的敌人，每把拥有 ^ 10 ^ 发弹药。\n*(_箭盾_不再击退敌人或提供抗性)*",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Basaltic Trap": {
+    "name": "磐石陷阱",
+    "combo": "",
+    "desc": "当_爆炸箭_击中地面时，留下一个伤害敌人的$陷阱$。(至多 2 个)",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Focus": {
+    "name": "全神贯注",
+    "combo": "",
+    "desc": "当命中^ 5 ^格及以外的敌对生物时，获得 ^1^ 层$专注$。(上限 3 层) *(如果失误一次，失去 50% 专注)*",
+    "properties": {
+      "cooldown": 1
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Windstorm": {
+    "name": "风暴箭阵",
+    "combo": "",
+    "desc": "_箭雨_ 将额外射出^ +1 ^道箭流，且每道箭流额外 ^+2^ 支箭。 _箭雨_在空中时会产生后坐力。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Arrow Storm I": {
+    "name": "箭雨减耗 I",
+    "combo": "",
+    "desc": "降低 _箭雨_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Implosion": {
+    "name": "聚爆",
+    "combo": "",
+    "desc": "_爆炸箭_会将敌人拉向你。如果附近有$陷阱$，则会将敌人拉向$陷阱$。 \n增加 _碎心_ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Arrow Wall": {
+    "name": "众矢成墙",
+    "combo": "",
+    "desc": "给予 _箭盾_ ^+2^ 次额外充能。\n _守护天使_的数量^ +2 ^，但造成的伤害降低 !-40% !。",
+    "properties": {},
+    "stats_keys": [
+      "charges"
+    ],
+    "note": ""
+  },
+  "Patient Hunter": {
+    "name": "韬光养晦",
+    "combo": "",
+    "desc": "你的$陷阱$激活期间每秒伤害增加 ^+20%^ 。(上限 +100%) \n你的$陷阱$上限^ +1 ^。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Grappling Hook": {
+    "name": "抓钩",
+    "combo": "",
+    "desc": "使用_逃脱_时，投掷一个钩子，命中方块时将你拉向目标。如果命中敌人，则将其拉向你。 *(_逃脱_不再使你向后退)*",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "More Focus I": {
+    "name": "专心致志",
+    "combo": "",
+    "desc": "增加你的 $专注$ 上限 ^ +2 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Phantom Force": {
+    "name": "幻影之力",
+    "combo": "",
+    "desc": "_幻影射线_ 获得额外的直线射程，并且变得更宽。",
+    "properties": {
+      "range": "+0.2"
+    },
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Stormy Feet": {
+    "name": "暴风步伐",
+    "combo": "",
+    "desc": "_疾风步伐_ 持续时间更长，并给予更强的速度加成。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Arsenal Synergy": {
+    "name": "武器协同",
+    "combo": "",
+    "desc": "_箭雨_每射出16支箭矢，都会存储一支燧石箭。*(上限5支)* \n\n 存有燧石箭时，_普通攻击_将额外射出一支燧石箭，造成额外伤害。",
+    "properties": {
+      "duration": 6
+    },
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Call of the Hound": {
+    "name": "猎犬呼啸",
+    "combo": "",
+    "desc": "使用_箭盾_将会召唤一只$猎犬$，每 ^0.25s^ 攻击一次敌对生物，并将其拖向你的$陷阱$。",
+    "properties": {},
+    "stats_keys": [
+      "vision",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Leap": {
+    "name": "飞跃",
+    "combo": "",
+    "desc": "二段跳时向前飞跃。飞跃距离随你的移动速度增加。",
+    "properties": {},
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Traveler": {
+    "name": "风行旅者",
+    "combo": "",
+    "desc": "你的装备每有 ^ 1% ^ 的移动速度，获得 ^ 1 ^ 点法术伤害 (上限 100)。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Bouncing Bomb": {
+    "name": "弹跳炸弹",
+    "combo": "",
+    "desc": "_爆炸箭_击中方块或敌人时会弹跳一次。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Ivyroot Mamba": {
+    "name": "蔓生毒蝰",
+    "combo": "",
+    "desc": "_苔藓缠身_的效果消失后召唤一条$毒蛇$ ，每^ 1s^ 向敌对生物喷射虚弱毒液。*（召唤上限：1）*\n敌人将被虚弱 ^ 1.5s ^ 。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Twain's Arc": {
+    "name": "吐温虹弧",
+    "combo": "",
+    "desc": "如果你拥有^2^层及以上的$专注$ ，按住潜行键将召唤吐温虹弧。充能后射出一道毁灭性的远距离光束。",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Rocket Jump": {
+    "name": "火箭飞跃",
+    "combo": "",
+    "desc": "_爆炸箭_ 的反冲力增加，同时其对自己造成的伤害降低至 ^ 1% ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Scorched Earth": {
+    "name": "炙热地表",
+    "combo": "",
+    "desc": "_烈火蔓延_ 变得更加强力。",
+    "properties": {
+      "duration": "+2"
+    },
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "More Traps": {
+    "name": "陷阱扩容",
+    "combo": "",
+    "desc": "你的$陷阱$上限 ^+3^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Divine Intervention": {
+    "name": "神圣干涉",
+    "combo": "",
+    "desc": "_守护天使_增加^ 8 ^发弹药上限，且每当你施法时，_守护天使_获得短暂强化。\n\n 施放_箭雨_使其射速加快 ^ 2.25x ^，持续时间 ^0.9s^ 。 \n\n施放_爆炸箭_使其射出爆炸射击，造成 ^ +20% ^ 伤害，持续时间 ^3s^",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Fierce Stomp": {
+    "name": "急速踹击",
+    "combo": "",
+    "desc": "在使用 _逃脱_ 时，按住潜行键将极速下落，对敌人造成伤害并致盲。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Cheaper Arrow Shield I": {
+    "name": "箭盾减耗 I",
+    "combo": "",
+    "desc": "降低_箭盾_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Honed Shield": {
+    "name": "箭盾精制",
+    "combo": "",
+    "desc": "增加_箭盾_的作用范围、击退能力以及伤害。\n增加 _守护天使_ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Shocking Bomb": {
+    "name": "震慑爆弹",
+    "combo": "",
+    "desc": "_爆炸箭_ 不再受到重力下坠影响，同时增加爆炸伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Bounding Stride": {
+    "name": "闪击步伐",
+    "combo": "",
+    "desc": "_飞跃_ 的冷却时间^ -2s ^。",
+    "properties": {
+      "cooldown": -2
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Homing Shots": {
+    "name": "导引箭矢",
+    "combo": "",
+    "desc": "你的_普通攻击_所射出的箭矢将追踪附近的敌人，且不再受到重力下坠影响。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Mana Trap": {
+    "name": "法力陷阱",
+    "combo": "",
+    "desc": "你的 $陷阱$ 每秒给予你 ^0.5^ 法力，并在爆炸时给予 ^10^ 法力。 \n你的$陷阱$上限^ +1^ 。",
+    "properties": {
+      "cost": "+10"
+    },
+    "stats_keys": [
+      "range",
+      "cost"
+    ],
+    "note": "只有在陷阱范围内，你才可以获得法力。"
+  },
+  "Cheaper Arrow Storm II": {
+    "name": "箭雨减耗 II",
+    "combo": "",
+    "desc": "降低 _箭雨_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Initiator": {
+    "name": "蓄势待发",
+    "combo": "",
+    "desc": "当连续 ^4s^ 或更久没有对敌人造成伤害时，下一次命中的攻击造成 ^+60%^ 伤害并获得^1^ 层$专注$ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Vigilant Sentinels": {
+    "name": "警戒哨卫",
+    "combo": "",
+    "desc": "增加 _守护天使_ 的射程和伤害。\n在 _守护天使_ 激活时使用 _箭盾_ 将同时释放 _散射_ 。增加 _散射_ 的伤害。",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Parting Gift": {
+    "name": "临别赠礼",
+    "combo": "",
+    "desc": "使用 _逃脱_ 时，在半空中释放一枚集束炸弹，爆炸后向你之前的位置倾泻 ^ 150 ^ 支箭矢。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "每一只敌人仅可被该技能的一支箭矢攻击到一次。"
+  },
+  "Murder Flock": {
+    "name": "雾鸦群袭",
+    "combo": "",
+    "desc": "_磐石陷阱_ 爆炸后召唤一只 $乌鸦$ 啄击敌人。(上限 2 只) 被攻击的敌人将失明 ^ 0.2s ^ 。",
+    "properties": {},
+    "stats_keys": [
+      "vision",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Decimator": {
+    "name": "聚能连击",
+    "combo": "",
+    "desc": "_幻影射线_ 每次未失误地命中敌人时，伤害增加 ^ 15% ^ 。(上限 90%)\n_幻影射线_ 获得额外的直线射程。",
+    "properties": {
+      "range": "+8"
+    },
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Spectral Hover": {
+    "name": "灵态停浮",
+    "combo": "",
+    "desc": "使用 _逃脱_ 后获得 ^缓降^ 效果。任何时候潜行将取消此效果。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Phasing Beam": {
+    "name": "相位光束",
+    "combo": "",
+    "desc": "_吐温虹弧_ 充能速度增加 ^ 25% ^ ，且现在能穿透至多 ^5^ 个敌人，穿透后伤害降低。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Recycling": {
+    "name": "箭矢回收",
+    "combo": "",
+    "desc": "当你的投掷物未命中时，获得 ^+0.1^ 法力。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Shrapnel Bomb": {
+    "name": "破片炸弹",
+    "combo": "",
+    "desc": "_爆炸箭_ 爆炸时迸发出 ^ 25 ^ 枚弹片，对大范围内的敌人造成伤害。",
+    "properties": {},
+    "stats_keys": [
+      "bombs"
+    ],
+    "note": ""
+  },
+  "Cheaper Escape II": {
+    "name": "逃脱减耗 II",
+    "combo": "",
+    "desc": "降低 _逃脱_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Cheaper Arrow Shield II": {
+    "name": "箭盾减耗 II",
+    "combo": "",
+    "desc": "降低 _箭盾_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Hookshot": {
+    "name": "强力抓钩",
+    "combo": "",
+    "desc": "增加你的_抓钩_的范围、速度和力度。",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Coursing Restraints": {
+    "name": "震慑束缚",
+    "combo": "",
+    "desc": "_震慑爆弹_ 将会暂时震慑敌人，降低他们的防御。",
+    "properties": {},
+    "stats_keys": [
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Arrow Hurricane": {
+    "name": "飓风箭阵",
+    "combo": "",
+    "desc": "_箭雨_ 将额外射出 ^ 2 ^ 道箭流。 _箭雨_ 的后坐力加倍。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Tangled Traps": {
+    "name": "绊线陷阱",
+    "combo": "",
+    "desc": "你的 $陷阱$ 之间会有绊线连接，每 ^ 0.2s ^ 对敌人造成一次伤害。 增加 $陷阱$ 上限 ^ +1 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Beast Lore": {
+    "name": "狩猎传说",
+    "combo": "",
+    "desc": "你的 $毒蛇$ 上限 ^ +1 ^ ，$乌鸦$ 上限 ^ +2 ^ 。\n 增加 $猎犬$ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Crepuscular Ray": {
+    "name": "暮色流光",
+    "combo": "",
+    "desc": "如果你拥有 ^5^ 层及以上的$专注$ ，在高于地面 ^ 4+ ^ 格的空中施放 _箭雨_ 将会导致你浮空并每秒射出 ^ 20 ^ 支导引箭，该状态持续到 $专注$ 耗尽。在此状态下，每 ^ 0.5s ^ 失去 ! 1 ! 层 $专注$ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Chilling Snare": {
+    "name": "凛冬阵法",
+    "combo": "",
+    "desc": "对 _磐石陷阱_ 施加寒冰附魔，引爆后每 ^ 0.2s ^ 对附近敌人造成伤害并大幅抑制其行动。 你的 $陷阱$ 上限 ^ +1 ^ 。",
+    "properties": {
+      "duration": 5,
+      "cooldown": 12,
+      "slowness": 10
+    },
+    "stats_keys": [
+      "duration",
+      "cooldown",
+      "slowness"
+    ],
+    "note": ""
+  },
+  "Pyrotechnics": {
+    "name": "烟火术",
+    "combo": "",
+    "desc": "_爆炸箭_ 和 _分裂炸弹_ 变得更加炽热，并增加爆炸伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Swift Primer": {
+    "name": "猎人狩猎法则",
+    "combo": "",
+    "desc": "_韬光养晦_ 每秒增加的伤害 ^ +10% ^ ，并使其最大伤害上限 ^ +100% ^ 。 你的 $陷阱$ 上限 ^ +1 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Snow Storm": {
+    "name": "寒霜风暴",
+    "combo": "",
+    "desc": "在你附近的敌人将受到减速效果。",
+    "properties": {
+      "slowness": 30
+    },
+    "stats_keys": [
+      "range",
+      "slowness"
+    ],
+    "note": ""
+  },
+  "More Focus II": {
+    "name": "聚精凝神",
+    "combo": "",
+    "desc": "你的 $专注$ 上限 ^ +2 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Ghostly Trigger": {
+    "name": "拟灵扳机",
+    "combo": "",
+    "desc": "使用 _逃脱_ 后的滞空期间，你的下 ^ 3 ^ 次 _普通攻击_ 可以无视攻速限制快速连射，并立即触发 _吐温虹弧_ 。",
+    "properties": {
+      "cooldown": 6
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Elusive": {
+    "name": "空灵",
+    "combo": "",
+    "desc": "_爆炸箭_ 和 _箭雨_ 不再产生后坐力，且你的 _爆炸箭_ 不再造成自我伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Grape Bomb": {
+    "name": "分裂炸弹",
+    "combo": "",
+    "desc": "_爆炸箭_ 在爆炸时将额外分裂出 ^ 3 ^ 个小型炸弹。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Arrow Bomb II": {
+    "name": "爆炸箭减耗 II",
+    "combo": "",
+    "desc": "降低 _爆炸箭_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Bash": {
+    "name": "重击",
+    "combo": "右键 - 左键 - 右键",
+    "desc": "对前方大范围区域重劈并造成大量伤害。",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "aoe",
+      "hits"
+    ],
+    "note": ""
+  },
+  "Spear Proficiency 1": {
+    "name": "长矛精通 I",
+    "combo": "",
+    "desc": "使用长矛时，增加 _普通攻击_ 的伤害及范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Bash I": {
+    "name": "重击减耗 I",
+    "combo": "",
+    "desc": "降低 _重击_ 的技能消耗。",
+    "properties": {
+      "cost": -10
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Double Bash": {
+    "name": "双重击",
+    "combo": "",
+    "desc": "_重击_ 将会在更远的地方造成第二次伤害。",
+    "properties": {
+      "hits": "+1"
+    },
+    "stats_keys": [
+      "range",
+      "hits"
+    ],
+    "note": ""
+  },
+  "Charge": {
+    "name": "冲锋",
+    "combo": "右键 - 右键 - 右键",
+    "desc": "向正前方高速冲锋。\n*(冲锋时按住Shift键可取消)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Heavy Impact": {
+    "name": "冲锋冲击",
+    "combo": "",
+    "desc": "使用 _冲锋_ 后，猛烈地撞击地面并造成伤害。",
+    "properties": {
+      "aoe": 4
+    },
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Vehement": {
+    "name": "热烈之力",
+    "combo": "",
+    "desc": "你的装备鉴定词条上每有 ^ 1% ^ 或 ^ 1 ^ 点普攻伤害，就获得 ^ +2% ^ 移动速度。(上限 20%)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Tougher Skin": {
+    "name": "坚韧之力",
+    "combo": "",
+    "desc": "硬化你的皮肤，增加 ^ +5% ^ 基础防御。\n你的装备鉴定词条上每有 ^ 1% ^ 或 ^ 1 ^ 点生命恢复，就获得 ^ +10 ^ 生命值。(上限 100)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Uppercut": {
+    "name": "上挑斩",
+    "combo": "右键 - 左键 - 左键",
+    "desc": "将敌人击飞到空中并造成成吨的伤害。",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Cheaper Charge": {
+    "name": "冲锋减耗",
+    "combo": "",
+    "desc": "降低 _冲锋_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "War Scream": {
+    "name": "战吼",
+    "combo": "右键 - 右键 - 左键",
+    "desc": "发出战吼，对周围敌人造成伤害并将其拉向你，同时令自身和周围的队友获得抗性。",
+    "properties": {},
+    "stats_keys": [
+      "aoe",
+      "duration",
+      "defense_bonus"
+    ],
+    "note": ""
+  },
+  "Quadruple Bash": {
+    "name": "四重重击",
+    "combo": "",
+    "desc": "_重击_ 将以双倍速度连续施放 ^ 4 ^ 次。",
+    "properties": {
+      "hits": "+2"
+    },
+    "stats_keys": [
+      "range",
+      "hits"
+    ],
+    "note": ""
+  },
+  "Fireworks": {
+    "name": "烟火爆破",
+    "combo": "",
+    "desc": "被 _上挑斩_ 击中的敌人将会在半空中爆炸，受到额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Half-Moon Swipe": {
+    "name": "半月横扫",
+    "combo": "",
+    "desc": "_上挑斩_ 将进行一次距离更远、角度更宽的横扫攻击。",
+    "properties": {
+      "angle": "+10"
+    },
+    "stats_keys": [
+      "range",
+      "angle"
+    ],
+    "note": ""
+  },
+  "Flyby Jab": {
+    "name": "冲锋刺击",
+    "combo": "",
+    "desc": "使用 _冲锋_ 时，对路径上的敌人造成伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Flaming Uppercut": {
+    "name": "烈焰挑斩",
+    "combo": "",
+    "desc": "_上挑斩_ 将点燃敌人，使其每 ^ 0.6s ^ 受到一次伤害。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Iron Lungs": {
+    "name": "钢铁之肺",
+    "combo": "",
+    "desc": "_战吼_ 将造成更多伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Generalist": {
+    "name": "多面手",
+    "combo": "",
+    "desc": "当连续使用 ^ 3 ^ 个不同技能后，你的下一个技能仅消耗 ^ 1 ^ 点法力。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "触发该被动的当次技能一样计入连续技能的数量中。"
+  },
+  "Air Shout": {
+    "name": "声浪",
+    "combo": "",
+    "desc": "_战吼_ 将发射一道可穿透墙体的声波，对同一个敌人至多造成 ^ 3 ^ 次伤害。",
+    "properties": {
+      "range": 32
+    },
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Mantle of the Bovemists": {
+    "name": "神圣披风",
+    "combo": "",
+    "desc": "使用 _战吼_ 后，在自身周围生成一块神圣的披风，其可以为你接下来受到的 ^ 3 ^ 次攻击抵挡 ! -70% ! 的伤害。",
+    "properties": {
+      "cooldown": 20
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": "在受到攻击后，减伤实际会短暂持续。"
+  },
+  "Bak'al's Grasp": {
+    "name": "腐化之力",
+    "combo": "",
+    "desc": "使用 _战吼_ 将会使你进入 $腐化$ 状态。*(Shift + 战吼 可取消)*\n在 $腐化$ 期间，你无法受到 ^治疗^ ，且每失去 ^ 1% ^ 生命值将获得 ^ +1% ^ $腐化$ 进度。\n每 ^ 2% ^ $腐化$ 进度增加 ^ +4 ^ 的伤害。(上限 +120)",
+    "properties": {
+      "cooldown": 10
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Spear Proficiency II": {
+    "name": "长矛精通 II",
+    "combo": "",
+    "desc": "使用长矛时，增加 _普通攻击_ 的伤害及范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Uppercut": {
+    "name": "上挑斩减耗 I",
+    "combo": "",
+    "desc": "降低 _上挑斩_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Aerodynamics": {
+    "name": "灵巧冲锋",
+    "combo": "",
+    "desc": "_冲锋_ 期间可以自由变更方向。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Counter": {
+    "name": "借力打力",
+    "combo": "",
+    "desc": "受到敌人攻击时，减免 ^ 25% ^ 伤害并进行反击。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Manachism": {
+    "name": "法力吸收",
+    "combo": "",
+    "desc": "受到伤害时，若此次伤害低于自身血量的 ^ 5% ^ ，则回复 ^ 10 ^ 点法力。",
+    "properties": {},
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Blood Pact": {
+    "name": "血之契约",
+    "combo": "",
+    "desc": "如果法力不足，消耗生命值来施放技能。*(每 1 点法力消耗 ^ 0.35% ^ 生命值)*\n使用生命值施放的技能将造成 ^ +15% ^ 至 ^ +25% ^ 的额外伤害，具体取决于支付了多少生命值。",
+    "properties": {},
+    "stats_keys": [
+      "health_cost",
+      "damage_boost"
+    ],
+    "note": ""
+  },
+  "Flying Kick": {
+    "name": "飞踢",
+    "combo": "",
+    "desc": "_冲锋_ 期间撞到怪物时，会立即停下，并将怪物踢飞。",
+    "properties": {
+      "aoe": 4
+    },
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Cheaper Bash II": {
+    "name": "重击减耗 II",
+    "combo": "",
+    "desc": "降低 _重击_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Sacred Surge": {
+    "name": "神圣之力",
+    "combo": "",
+    "desc": "获得释放 $神圣浪潮$ 的能力。每当你触发法术或能力时，增加 ^ 1% ^ $神圣之力$ 。\n_上挑斩_ 将消耗 ^ 25% ^ $神圣之力$ 重击敌人，造成额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Emboldening Cry": {
+    "name": "英勇战吼",
+    "combo": "",
+    "desc": "_战吼_ 能够鼓舞勇气，给予玩家伤害加成和额外抗性。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Enraged Blow": {
+    "name": "怒火强袭",
+    "combo": "",
+    "desc": "每 ^ 1% ^ $腐化$ 进度增加 ^ +1.5% ^ 伤害。(上限 +65%)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Sparkling Hope": {
+    "name": "闪烁的希望",
+    "combo": "",
+    "desc": "每当你恢复 ^ 5% ^ 的最大生命值时，对你周围的敌人造成一次伤害。\n*(至多同时触发 5 次)*",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Riposte": {
+    "name": "反制还击",
+    "combo": "",
+    "desc": "增加 _借力打力_ 的伤害减免 ^ +10% ^ 。\n增加 _借力打力_ 的伤害并减少其冷却时间 ^ 0.5s ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Exhilarate": {
+    "name": "振奋",
+    "combo": "",
+    "desc": "退出 $腐化$ 状态后，回复等同于 $腐化$ 进度 ^ 30% ^ 的最大生命值。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper War Scream I": {
+    "name": "战吼减耗 I",
+    "combo": "",
+    "desc": "降低 _战吼_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Cleansing Breeze": {
+    "name": "净化之风",
+    "combo": "",
+    "desc": "_冲锋_ 将会解除你自身及路径上的友军身上所有的负面效果与燃烧状态。",
+    "properties": {
+      "cooldown": 3,
+      "aoe": 3
+    },
+    "stats_keys": [
+      "cooldown",
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Crushing Blow": {
+    "name": "沉重打击",
+    "combo": "",
+    "desc": "增加 _重击_ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Boiling Blood": {
+    "name": "沸血",
+    "combo": "",
+    "desc": "_重击_ 的第一次爆炸后会留下一滩沸血，每 ^ 0.4s ^ 对其上的敌人造成伤害并减速。",
+    "properties": {
+      "cooldown": 3
+    },
+    "stats_keys": [
+      "duration",
+      
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Intoxicating Blood": {
+    "name": "嗜血",
+    "combo": "",
+    "desc": "退出 $腐化$ 状态后，根据 $腐化$ 期间造成的攻击次数和击杀数，恢复 ^ 2.5% ^ 已损失的生命值。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "对于攻击次数的计数增长有0.45s的冷却时间"
+  },
+  "Comet": {
+    "name": "彗星陨落",
+    "combo": "",
+    "desc": "被 _烟火爆破_ 击中的敌人，将会被砸向地面，受到额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Collide": {
+    "name": "动能定律",
+    "combo": "",
+    "desc": "被 _飞踢_ 命中而撞到墙壁的敌人将造成一次爆炸，受到额外伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Rejuvenating Skin": {
+    "name": "再生皮肤",
+    "combo": "",
+    "desc": "受到伤害后的 ^ 15s ^ 内，逐渐回复该次伤害 ^ 30% ^ 的生命值。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Uncontainable Corruption": {
+    "name": "狂野腐化",
+    "combo": "",
+    "desc": "减少 _腐化之力_ ^ -5s ^ 冷却时间，并且每损失 ^ 2% ^ 生命值，获得的原始伤害增加 ^ +1 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Radiant Devotee": {
+    "name": "光之信徒",
+    "combo": "",
+    "desc": "你的装备鉴定词条上每有 ^ 4% ^ 反射，就获得 ^ +1/5s ^ 法力回复。(上限 10/5s)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Whirlwind Strike": {
+    "name": "旋风打击",
+    "combo": "",
+    "desc": "_上挑斩_ 将卷起一阵强风，将你与敌人一同带向空中。*(按住 Shift 键可保持在地面)*",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Mythril Skin": {
+    "name": "秘银皮肤",
+    "combo": "",
+    "desc": "增加 ^ +5% ^ 基础防御，并免疫击退。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Armour Breaker": {
+    "name": "破甲攻击",
+    "combo": "",
+    "desc": "当获得 ^ 40% ^ $腐化$ 进度时，你的下一次 _上挑斩_ 将获得^ 30% ^伤害加成。",
+    "properties": {
+      "cooldown": 16
+    },
+    "stats_keys": [
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Shield Strike": {
+    "name": "盾牌打击",
+    "combo": "",
+    "desc": "每当 _神圣披风_ 失去一层充能时，获得一层破碎披风。\n使用 _重击_ 命中敌人时，发射所有破碎披风，对附近的敌人造成伤害。",
+    "properties": {
+      "duration": 20,
+      "aoe": 7
+    },
+    "stats_keys": [
+      "duration",
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Luster Purge": {
+    "name": "光辉净化",
+    "combo": "",
+    "desc": "当你拥有 ^ 10 ^ 点 $神圣之力$ 时，你的 _普通攻击_ 获得强化，并给予你 ^ 5 ^ 点 $神圣之力$ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Hallowed Blaze": {
+    "name": "神圣烈焰",
+    "combo": "",
+    "desc": "_烈焰挑斩_ 造成的伤害增加，且每次造成伤害时获得 ^ 1 ^ 点 $神圣之力$ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Massive Bash": {
+    "name": "巨大重击",
+    "combo": "",
+    "desc": "每拥有 ^ 3% ^ $腐化$ 进度，增加 ^ +1 ^ 格 _重击_ 的范围半径。(上限 +10)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Tempest": {
+    "name": "暴风战吼",
+    "combo": "",
+    "desc": "_战吼_ 将震荡地面，每 ^ 0.6s ^ 对大范围内的敌人造成共计 ^ 3 ^ 次伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Spirit of the Rabbit": {
+    "name": "动如脱兔",
+    "combo": "",
+    "desc": "降低 _冲锋_ 的技能消耗，并增加 ^ +20% ^ 移动速度。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Provoke": {
+    "name": "挑衅",
+    "combo": "",
+    "desc": "受到 _战吼_ 伤害的敌人将被 $激怒$ ，以你为最高仇恨目标，持续至少 ^ 8s ^ 。\n降低 _战吼_ 的技能消耗。",
+    "properties": {
+      "cost": -5,
+      "cooldown": 15
+    },
+    "stats_keys": [
+      "cost",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Massacre": {
+    "name": "无情屠戮",
+    "combo": "",
+    "desc": "在 $腐化$ 状态下，使用 _普通攻击_ 命中敌人将增加 ^ +1.5% ^ $腐化$ 进度。*(_粉末主动_命中时增加 +3%)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Axe Kick": {
+    "name": "斧击",
+    "combo": "",
+    "desc": "增加 _上挑斩_ 的伤害和法力消耗。",
+    "properties": {
+      "cost": "+5"
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Radiance": {
+    "name": "光芒重击",
+    "combo": "",
+    "desc": "_重击_ 将增幅你与盟友身上的正面鉴定词条。*(经验加成、战利品加成/品质、采集经验/速度除外)*",
+    "properties": {
+      "cooldown": 15
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Blessed Bulwark": {
+    "name": "圣域披风",
+    "combo": "",
+    "desc": "_神圣披风_ 增加 ^ +2 ^ 次额外充能。",
+    "properties": {},
+    "stats_keys": [
+      "charges"
+    ],
+    "note": ""
+  },
+  "Cheaper War Scream II": {
+    "name": "战吼减耗 II",
+    "combo": "",
+    "desc": "降低 _战吼_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Overwhelming Rage": {
+    "name": "盛怒",
+    "combo": "",
+    "desc": "_怒火强袭_ 的伤害加成上限 ^ +50% ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Discombobulate": {
+    "name": "瓦解",
+    "combo": "",
+    "desc": "伤害敌人会对其施加 ^ +2 ^ 层 $瓦解$ 。(上限 150) \n敌人每有一层 $瓦解$ ，你对其造成的中性和元素伤害增加 ^ +1 ^ 。每秒衰减 ! 4 ! 层。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Thunderclap": {
+    "name": "天雷破",
+    "combo": "",
+    "desc": "_重击_ 将在玩家位置以双倍速度施放，并增加范围。\n若激活了 _四重重击_ ，则降低伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cyclone": {
+    "name": "气旋",
+    "combo": "",
+    "desc": "使用 _战吼_ 后，以旋风包裹自身，每 ^ 0.35s ^ 对附近的敌人造成伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Consecration": {
+    "name": "圣化",
+    "combo": "",
+    "desc": "增加 _神圣之力_ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Heavenly Trumpet": {
+    "name": "天堂号角",
+    "combo": "",
+    "desc": "在拥有至少 ^ 25% ^ $神圣之力$ 时按住 Shift 施放 _战吼_ ，将消耗所有 $神圣之力$ 吹响号角。\n每消耗 1 点 $神圣之力$ ，给予附近盟友 ^ +1% ^ $超额生命$ 。$超额生命$ 在 ^ 20s ^ 内持续衰减。",
+    "properties": {
+      "cooldown": 20,
+      "aoe": 16
+    },
+    "stats_keys": [
+      "cooldown",
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Brink of Madness": {
+    "name": "绝境求生",
+    "combo": "",
+    "desc": "当生命值低于 ^ 25% ^ 时，获得 ^ +40% ^ 抗性。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Bloodlust": {
+    "name": "血之渴望",
+    "combo": "",
+    "desc": "退出 $腐化$ 状态后，歼灭周围所有敌人。曾经每拥有 ^ 1% ^ $腐化$ 进度，伤害增加 ^ 5% ^ 。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Cheaper Uppercut 2": {
+    "name": "上挑斩减耗 II",
+    "combo": "",
+    "desc": "降低 _上挑斩_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Second Chance": {
+    "name": "重获生机",
+    "combo": "",
+    "desc": "受到致命伤害时，保留 ^ 30% ^ 生命值存活，并使附近所有盟友暂时无敌。",
+    "properties": {
+      "cooldown": 600
+    },
+    "stats_keys": [
+      "aoe",
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Haemorrhage": {
+    "name": "鲜血掌控",
+    "combo": "",
+    "desc": "降低 _血之契约_ 的生命值消耗。*(每 1 点法力消耗 0.235% 生命值)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Freestream Flow": {
+    "name": "御风而行",
+    "combo": "",
+    "desc": "在 _冲锋_ 期间下落速度变慢。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Mindless Slaughter": {
+    "name": "盲目屠杀",
+    "combo": "",
+    "desc": "_无情屠戮_ 增加双倍的 $腐化$ 进度。\n你的 _普通攻击_ 和 _粉末主动_ 现在消耗 ^ 0.5% ^ 生命值，并触发 _血之契约_ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Pressure": {
+    "name": "施压",
+    "combo": "",
+    "desc": "当 _多面手_ 生效时，技能获得强化。\n_重击_ 攻击次数翻 ^ 4 ^ 倍，且速度加快 ^ 0.1s ^ 。\n_上挑斩_ 造成额外伤害。\n_战吼_ 给予伤害加成，但持续时间缩短。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Reverberance": {
+    "name": "回响",
+    "combo": "",
+    "desc": "_声浪_ 可额外命中 ^ +2 ^ 次，并造成更多伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Meteor": {
+    "name": "陨石",
+    "combo": "右键 - 左键 - 左键",
+    "desc": "召唤一个缓慢但威力巨大的陨石从天而降，对地面大范围的敌人造成大量伤害。",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Wand Proficiency I": {
+    "name": "法杖精通 I",
+    "combo": "",
+    "desc": "使用法杖时，增加 _普通攻击_ 的伤害及范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Meteor I": {
+    "name": "陨石减耗 I",
+    "combo": "",
+    "desc": "降低 _陨石_ 的技能消耗。",
+    "properties": {
+      "cost": -10
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Shooting Star": {
+    "name": "流星",
+    "combo": "",
+    "desc": "大幅度增加 _陨石_ 的下落速度。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Wand Proficiency II": {
+    "name": "法杖精通 II",
+    "combo": "",
+    "desc": "使用法杖时，增加 _普通攻击_ 的伤害及范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Teleport": {
+    "name": "传送",
+    "combo": "右键 - 右键 - 右键",
+    "desc": "向你面对的方向快速位移一段距离。",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Wisdom": {
+    "name": "智慧",
+    "combo": "",
+    "desc": "你每从装备上获得 ^ 2% ^ 或 ^ 2 ^ 点法术伤害，就获得 ^ +1/5s ^ 法力回复。(上限 5/5s)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Heal": {
+    "name": "治疗",
+    "combo": "右键 - 左键 - 右键",
+    "desc": "治疗你和周围大范围内的盟友。\n*(当治疗他人时，无法治疗超过其最大生命值的 30%)*",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+      
+    ],
+    "note": ""
+  },
+  "Cheaper Teleport": {
+    "name": "传送减耗 I",
+    "combo": "",
+    "desc": "降低 _传送_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Ice Snake": {
+    "name": "冰蛇",
+    "combo": "右键 - 右键 - 左键",
+    "desc": "召唤一条快速移动的冰蛇，对敌人造成伤害并减速。",
+    "properties": {
+      "slowness": 40
+    },
+    "stats_keys": [
+      "range",
+      "aoe",
+      "slowness",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Wind Slash": {
+    "name": "传送斩击",
+    "combo": "",
+    "desc": "使用 _传送_ 时，斩裂空气并对穿过的敌人造成伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Thunderstorm": {
+    "name": "雷暴",
+    "combo": "",
+    "desc": "使用 _陨石_ 后，召唤 ^ 3 ^ 道落雷造成额外伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Burning Sigil": {
+    "name": "灼热纹章",
+    "combo": "",
+    "desc": "_陨石_ 和 _座天使_ 将会在地面留下火焰纹章，每 ^ 0.4s ^ 对敌人造成伤害。",
+    "properties": {
+      "cooldown": 8
+    },
+    "stats_keys": [
+      "aoe",
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Sunshower": {
+    "name": "太阳雨",
+    "combo": "",
+    "desc": "_治疗_ 释放强光，伤害附近的敌人。\n\n当通过_奥数转换_获得至少 ^30^点法力时，_奥术转换_ 将伤害附近的敌人。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Crashing Comet": {
+    "name": "天煞星",
+    "combo": "",
+    "desc": "增加 _陨石_ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Windsweeper": {
+    "name": "疾风清扫",
+    "combo": "",
+    "desc": "你的 _普通攻击_ 命中敌人时，对其施加 ^ 1 ^ 层 $风印$ 。*(风印上限 10，0.2s 叠加冷却)*\n\n_冰蛇_ 将根据敌人身上的 $风印$ 造成额外伤害。\n\n$风印$ 每 ^ 4s ^ 衰减一次。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Ophanim": {
+    "name": "座天使",
+    "combo": "",
+    "desc": "使用 _陨石_ 时，改为召唤 ^ 2 ^ 个光之宝珠，拥有 ^ 200 ^ 生命值，它们会在你使用 _普通攻击_ 时一起攻击。\n当它们造成伤害时，损失 ^ 20% ^ 生命值。它们可以被治疗。",
+    "properties": {
+      "cost": "+30"
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Arcane Transfer": {
+    "name": "奥术转换",
+    "combo": "",
+    "desc": "_陨石_ 、 _冰蛇_ 和 _传送斩击_ 每击中一个敌对生物，将向 $法力储备$ 中存入 ^ +13 ^ 法力。\n拥有 _雷暴_ 时，_陨石_ 仅存入 ^ 4 ^ 法力。\n\n_治疗_ 现在不再恢复生命，而是将 $法力储备$ 转换为可用的法力。",
+    "properties": {},
+    "stats_keys": [
+      "bank"
+    ],
+    "note": ""
+  },
+  "Cheaper Heal": {
+    "name": "治疗减耗 I",
+    "combo": "",
+    "desc": "降低 _治疗_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Purification": {
+    "name": "净化",
+    "combo": "",
+    "desc": "_治疗_ 和 _奥术转换_ 将净化盟友身上的所有负面效果及着火效果。",
+    "properties": {
+      "cooldown": 3
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Sentient Snake": {
+    "name": "灵蛇",
+    "combo": "",
+    "desc": "_冰蛇_ 将跟随你的朝向移动，允许你控制它。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Eye Piercer": {
+    "name": "刺目闪光",
+    "combo": "",
+    "desc": "_传送_ 将致盲敌人，使其短暂混乱。",
+    "properties": {
+      "duration": 1
+    },
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Breathless": {
+    "name": "绝息",
+    "combo": "",
+    "desc": "_陨石_ 和 _座天使_ 将根据敌人身上的 $风印$ 造成额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Larger Heal": {
+    "name": "治疗范围",
+    "combo": "",
+    "desc": "增加 _治疗_ 的范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Larger Mana Bank": {
+    "name": "法力扩容 I",
+    "combo": "",
+    "desc": "增加你的 $法力储备$ 上限。",
+    "properties": {
+      "bank": "+30"
+    },
+    "stats_keys": [
+      "bank"
+    ],
+    "note": ""
+  },
+  "Cheaper Ice Snake": {
+    "name": "冰蛇减耗 I",
+    "combo": "",
+    "desc": "降低 _冰蛇_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Fortitude": {
+    "name": "强韧意志",
+    "combo": "",
+    "desc": "在 ^ 10s ^ 内恢复 ^ 120% ^ 最大生命值后，给予所有被你治疗过的玩家伤害加成。",
+    "properties": {
+      "cooldown": 15,
+      "attack": 40
+    },
+    "stats_keys": [
+      "duration",
+      "cooldown",
+      "attack"
+    ],
+    "note": ""
+  },
+  "Cheaper Teleport II": {
+    "name": "传送减耗 II",
+    "combo": "",
+    "desc": "降低 _传送_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Pyrokinesis": {
+    "name": "驭火术",
+    "combo": "",
+    "desc": "当你的 $法力储备$ 达到 ^ 30 ^ 时，你的 _普通攻击_ 命中敌人时将会爆炸。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Blink": {
+    "name": "闪烁",
+    "combo": "",
+    "desc": "_传送_ 将会快速连续触发 ^ 2 ^ 次。",
+    "properties": {
+      "range": -4
+    },
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Freezing Sigil": {
+    "name": "寒冰纹章",
+"combo": "",
+"desc": "_冰蛇_ 将在脚下留下冰冻纹章，每 ^ 0.8s ^ 对敌人造成减速和伤害。站在纹章上的盟友免疫击退。",
+    "properties": {
+      "cooldown": 8
+    },
+    "stats_keys": [
+      "aoe",
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Resilient Light": {
+    "name": "韧性之光",
+    "combo": "",
+    "desc": "增加 _座天使_ 光球 ^ 800 ^ 生命值，并将其受到的伤害 ^ -5% ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Snake Nest": {
+    "name": "蛇巢",
+    "combo": "",
+    "desc": "_冰蛇_ 将召唤 ^ 3 ^ 条蛇。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Seance": {
+    "name": "通灵",
+    "combo": "",
+    "desc": "你的装备鉴定词条上每有 ^ 5/3s ^ 的生命窃取，就获得 ^ +1% ^ 技能伤害。(上限 50%)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Transonic Warp": {
+    "name": "超音速折跃",
+    "combo": "",
+    "desc": "_传送_ 将根据敌人身上的 $风印$ 造成额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Fluid Healing": {
+    "name": "生命源泉",
+    "combo": "",
+    "desc": "你的装备鉴定词条上每有 ^ 1% ^ 水属性伤害加成，增加 _治疗_ 的治疗量 ^ 0.3% ^ 。(上限 +75%)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Orphion's Pulse": {
+    "name": "治疗脉冲",
+    "combo": "",
+    "desc": "_治疗_ 变得更慢且更强，额外脉冲 ^ 2 ^ 次以提供更高的治疗量。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": "额外治疗脉冲每1.5s触发一次。\n\n重复施放 _治疗_ 将会清除先前仍未施放的额外治疗脉冲"
+  },
+  "Arcane Restoration": {
+    "name": "奥术恢复",
+    "combo": "",
+    "desc": "当击中敌对生物时，_驭火术_ 每 ^ 0.25s ^ 向你的 $法力储备$ 增加 ^ +1 ^ 法力。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Incandescence": {
+    "name": "白热化",
+    "combo": "",
+    "desc": "增加 _座天使_ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Diffusion": {
+    "name": "风印扩散",
+    "combo": "",
+    "desc": "当你杀死了一个带有 $风印$ 的敌人时，剩余的 $风印$ 将传播给附近的敌人。(上限 10)",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Lightweaver": {
+    "name": "织光者",
+    "combo": "",
+    "desc": "在 ^ 10s ^ 内恢复 ^ 50% ^ 最大生命值后，召唤一个旋转的光球，接触敌人时造成伤害。(上限 3 个)",
+    "properties": {
+      "duration": 20
+    },
+    "stats_keys": [
+      "range",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Arcane Speed": {
+    "name": "奥术加速",
+    "combo": "",
+    "desc": "施放 _治疗_ 或 _奥术转换_ 后获得 ^80%^ 移动速度加成。",
+    "properties": {
+      "duration": 4,
+      "cooldown": 8
+    },
+    "stats_keys": [
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Larger Mana Bank II": {
+    "name": "法力扩容 II",
+    "combo": "",
+    "desc": "增加你的 $法力储备$ 上限",
+    "properties": {
+      "bank": "+30"
+    },
+    "stats_keys": [
+      "bank"
+    ],
+    "note": ""
+  },
+  "More Winded": {
+    "name": "风印涌动",
+    "combo": "",
+    "desc": "增加你的 $风印$ 上限 ^ +10 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Psychokinesis": {
+    "name": "意念陨石",
+    "combo": "",
+    "desc": "_陨石_ 变为从你射出的缓慢飞行物。",
+    "properties": {
+      "range": "+18"
+    },
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Cheaper Ice Snake II": {
+    "name": "冰蛇减耗 II",
+    "combo": "",
+    "desc": "降低 _冰蛇_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Explosive Entrance": {
+    "name": "瞬星破空",
+    "combo": "",
+    "desc": "_传送_ 到目的地时对该区域造成伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Cheaper Meteor II": {
+    "name": "陨石减耗 II",
+    "combo": "",
+    "desc": "降低 _陨石_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Chaos Explosion": {
+    "name": "混沌爆发",
+    "combo": "",
+    "desc": "当你的 $法力储备$ 达到 ^ 120 ^ 时，施放 _奥术转换_ 将快速按顺序释放你最后使用的 ^ 3 ^ 个法术。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "可释放的技能不包括_传送_和_奥术转换_"
+  },
+  "Time Dilation": {
+    "name": "时空扩张",
+    "combo": "",
+    "desc": "冲刺时创造一个区域，盟友在其中奔跑时间越长，移动速度越快。\n*(停止奔跑后每秒失去 30% 加成)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Gust": {
+    "name": "蛇疾如风",
+    "combo": "",
+    "desc": "_冰蛇_ 将施加 ^ +3 ^ 层 $风印$ 并造成更高伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Augury": {
+    "name": "先兆",
+    "combo": "",
+    "desc": " _座天使_ 的光球上限 ^ +1 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Arctic Snake": {
+    "name": "极寒冰蛇",
+"combo": "",
+"desc": "_冰蛇_ 将冻结敌人 ^ 2s ^ 。",
+    "properties": {
+      "slowness": 100
+    },
+    "stats_keys": [
+      "slowness"
+    ],
+    "note": ""
+  },
+  "Searing Light": {
+    "name": "灼热之光",
+    "combo": "",
+    "desc": "增加 _太阳雨_ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Arcane Power": {
+    "name": "奥术之力",
+    "combo": "",
+    "desc": "_陨石_ 、 _冰蛇_ 和 _传送斩击_ 每击中一个敌对生物，将向 $法力储备$ 中存入 ^ +8 ^ 法力。拥有 _雷暴_ 时，_陨石_ 仅增加 ^ +2 ^ 法力。\n\n_奥术恢复_ 恢复法力的速度加快 ^ 0.1s ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "More Winded II": {
+    "name": "风印翻涌",
+    "combo": "",
+    "desc": "你的 $风印$ 上限 ^ +10 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Devitalize": {
+    "name": "凋亡风印",
+    "combo": "",
+    "desc": "敌人身上每有一层 $风印$ ，其造成的伤害降低 ^ -0.5% ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Everlasting Light": {
+    "name": "永恒之光",
+    "combo": "",
+    "desc": "_座天使_ 的光球 ^ +3000 ^ 生命值。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Larger Mana Bank III": {
+    "name": "法力扩容 III",
+    "combo": "",
+    "desc": "增加你的 $法力储备$ 上限 。",
+    "properties": {
+      "bank": "+30"
+    },
+    "stats_keys": [
+      "bank"
+    ],
+    "note": ""
+  },
+  "Windcharged": {
+    "name": "风能灌注",
+"combo": "",
+"desc": "_陨石_ 飞行速度加倍。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Divination": {
+    "name": "天使预言",
+"combo": "",
+"desc": "增加 _座天使_ 的光球上限 ^ +3 ^ ，但降低它们的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Sunflare": {
+    "name": "太阳耀斑",
+"combo": "",
+"desc": "在 ^ 10s ^ 内恢复 ^ 250% ^ 最大生命值后，下一次 _治疗_ 将激活 $日耀$ 。$日耀$ 激活期间，恢复附近盟友的生命值和法力，且 _座天使_ 光球会持续攻击。",
+    "properties": {
+      "cooldown": 20
+    },
+    "stats_keys": [
+      "aoe",
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Halo": {
+    "name": "圣环",
+"combo": "",
+"desc": "增加 _织光者_ 的最大光球数 ^ +2 ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Arcane Overflow": {
+    "name": "奥术过载",
+"combo": "",
+"desc": "使用 _奥术转换_ 时，允许你的法力在转换后溢出上限。(上限 300)",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Timelock": {
+    "name": "时空凝滞",
+"combo": "",
+"desc": "潜行时使用 _治疗_ 将吸收附近至多 ^ 60 ^ 层 $风印$ 并使你进入 $时间停滞$ 状态。$时间停滞$ 期间，_传送_ 变为致命的穿透射线，提供飞行能力且不消耗法力。所有敌人受到的伤害增加，如同它们拥有你吸收的 $风印$ 层数一样。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Heal II": {
+    "name": "治疗减耗 II",
+"combo": "",
+"desc": "降低 _治疗_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Manastorm": {
+    "name": "法力风暴",
+"combo": "",
+"desc": "如果法力值超过 ^ 100 ^ ，施放法术将在 ^ 2s ^ 内恢复 ^ 5 ^ 点法力。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Memory Recollection": {
+    "name": "记忆回溯",
+"combo": "",
+"desc": "_混沌爆发_ 将额外施放 ^ +2 ^ 个法术。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Spin Attack": {
+    "name": "旋风斩",
+"combo": "右键 - 左键 - 右键",
+"desc": "快速旋转并攻击周围大范围内的敌人。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Dagger Proficiency I": {
+    "name": "匕首精通 I",
+"combo": "",
+"desc": "使用匕首时，增加 _普通攻击_ 的伤害及范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Spin Attack I": {
+    "name": "旋风斩减耗 I",
+"combo": "",
+"desc": "降低 _旋风斩_ 的技能消耗。",
+    "properties": {
+      "cost": -10
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Double Spin": {
+    "name": "双重旋风",
+"combo": "",
+"desc": "_旋风斩_ 将会再次施放一次，且第二次的伤害和范围更大",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Poisoned Blade": {
+    "name": "剧毒利刃",
+    "combo": "",
+    "desc": "你装备上的每 ^ 2% ^ 或 ^ 2点 ^ 普通攻击伤害，将给予你 ^ +5/3s ^ 的毒属性伤害。(上限 50/3s)\n\n增加_普通攻击_的攻击范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Dash": {
+    "name": "突进",
+"combo": "右键 - 右键 - 右键",
+"desc": "向你面对的方向快速突进一段距离。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Double Slice": {
+    "name": "双重切割",
+    "combo": "",
+    "desc": "你的_普通攻击_将命中两次，但每次伤害降低 ! -40% ! 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Smoke Bomb": {
+    "name": "烟雾弹",
+    "combo": "右键 - 右键 - 左键",
+    "desc": "投掷一颗缓慢散发烟雾的炸弹，每 ^ 0.5s ^ 对其中的敌人造成一次伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Dash": {
+    "name": "突进减耗 I",
+    "combo": "",
+    "desc": "降低_突进_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Multihit": {
+    "name": "多重击",
+    "combo": "右键 - 左键 - 左键",
+    "desc": "对面前的敌人快速发动 ^ 8 ^ 次多重击，造成大量伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Backstab": {
+    "name": "背刺",
+    "combo": "",
+    "desc": "将_多重击_变为一次毁灭性的攻击。\n如果你从背后攻击敌人，将造成 ^ 双倍 ^ 伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "背刺的判定范围较广，是敌人正背后±70°的范围。"
+  },
+  "Ripple": {
+    "name": "狂乱震荡",
+    "combo": "",
+    "desc": "坠落超过 ^ 5 ^ 格时，落地会对周围造成伤害。\n\n坠落高度每增加一格，伤害增加 ^ +12% ^ ，至多增加 ^ +10 ^ 格。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Finality": {
+    "name": "终焉狂热",
+    "combo": "",
+    "desc": "_多重击_的伤害随攻击次数递增，造成额外伤害。\n伤害加成在 ^ 8 ^ 次多重击时达到上限。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Vanish": {
+    "name": "隐身",
+    "combo": "",
+    "desc": "_突进_将会使你遁入暗影，令敌人无法察觉，丢失仇恨。在该状态下你无法恢复生命或法力。\n *(攻击或受到伤害将取消隐身)*",
+    "properties": {},
+    "stats_keys": [
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Sticky Bomb": {
+    "name": "黏性炸弹",
+    "combo": "",
+    "desc": "_烟雾弹_将附着在敌人身上，并造成额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Righting Reflex": {
+    "name": "平衡反射",
+    "combo": "",
+    "desc": "在空中按住潜行键时，缓慢滑翔并免疫摔落伤害。(至多10秒)",
+    "properties": {},
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Surprise Strike": {
+    "name": "奇袭",
+    "combo": "",
+    "desc": "施放_隐身_后的第一次攻击将造成 ^ +80% ^ 更多伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "该技能对于多段伤害，仅增幅第一段伤害"
+  },
+  "Mirror Image": {
+    "name": "镜影幻术",
+    "combo": "",
+    "desc": "从_隐身_状态显形后，召唤 ^ 3 ^ 个 $镜影分身$ 跟随并保护你。\n\n受到伤害时，失去一个 $镜影分身$ ，减少 ^ 25% ^ 受到的伤害并给予你 ^ 3s ^ 的伤害加成。",
+    "properties": {},
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Lacerate": {
+    "name": "撕裂",
+    "combo": "",
+    "desc": "_旋风斩_会令你向前突进，造成 ^ 3 ^ 次打击，然后将你向上挑起。\n\n在_撕裂_激活期间使用_跳跃_会让你飞得更远。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Silent Killer": {
+    "name": "冷面杀手",
+    "combo": "",
+    "desc": "击杀敌人后重置_隐身_的冷却时间。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "对友好生物不起效"
+  },
+  "Wall of Smoke": {
+    "name": "烟幕之墙",
+    "combo": "",
+    "desc": "_烟雾弹_将额外投掷 ^ 2 ^ 颗炸弹。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Rolling Fog": {
+    "name": "流雾",
+    "combo": "",
+    "desc": "增加_烟雾弹_的射程及爆炸范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Shadow Travel": {
+    "name": "暗影穿梭",
+    "combo": "",
+    "desc": "在_隐身_期间获得 ^ +120% ^ 的速度加成。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Multihit I": {
+    "name": "多重击减耗 I",
+    "combo": "",
+    "desc": "降低_多重击_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Shadow Siphon": {
+    "name": "暗影虹吸",
+    "combo": "",
+    "desc": "使用_背刺_从背后攻击敌人后，减少_隐身_ ^ -1.75s ^ 的冷却时间。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Last Laugh": {
+    "name": "谢幕一击",
+    "combo": "",
+    "desc": "失去任何 $分身$ 时，它会在消失前施放你的一个技能。\n\n$镜影分身$ 会在消失前施放_多重击_。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Smoke Bomb": {
+    "name": "烟雾弹减耗 I",
+    "combo": "",
+    "desc": "降低 _烟雾弹_ 的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Blazing Powder": {
+    "name": "烈火附刃",
+    "combo": "",
+    "desc": "_旋风斩_和_撕裂_造成额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Weightless": {
+    "name": "身轻如燕",
+    "combo": "",
+    "desc": "如果在空中攻击敌人，获得 ^ 1 ^ 点法力。\n *(离地1.25格以上视为在空中)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Black Hole": {
+    "name": "黑洞",
+    "combo": "",
+    "desc": "_烟雾弹_将会把附近的敌人拉向中心。",
+    "properties": {
+      "range": 6
+    },
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Sandbagging": {
+    "name": "以己之长",
+    "combo": "",
+    "desc": "每当你受到的伤害低于最大生命值的 ^ 10% ^ 时，减少所有技能 ^ 30% ^ 的冷却时间。",
+    "properties": {},
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Hop": {
+    "name": "雀跃",
+    "combo": "",
+    "desc": "二段跳时向前跃进。",
+    "properties": {
+      "cooldown": 2
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Dancing Blade": {
+    "name": "剑舞",
+    "combo": "",
+    "desc": "拥有 ^ 3+ ^ 层 $动量$ 时使用_天鹅坠落_时，落地 ^ 0.25s ^ 后会再次跃入空中。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Violent Vortex": {
+    "name": "暴戾漩涡",
+    "combo": "",
+    "desc": "单次攻击造成超过你的最大生命值 ^ 1.5x ^ 的伤害时，会对周围其他敌人造成该次伤害 ^ 45% ^ 的伤害。",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Duplicity": {
+    "name": "重影",
+    "combo": "",
+    "desc": "_镜像分身_将额外召唤 ^ +2 ^ 个 $镜像分身$ 。",
+    "properties": {
+      "cooldown": "+5"
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Mutilate": {
+    "name": "肢解",
+    "combo": "",
+    "desc": "增加_多重击_ ^ 3 ^ 次攻击次数。\n\n_终结_ 增加^ 3 ^ 次伤害加成上限。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Marked": {
+    "name": "死亡标记",
+    "combo": "",
+    "desc": "_烟雾弹_命中敌人时会对其施加 ^ +1 ^ 层 $标记$ 。\n\n敌人每有一层 $标记$ ，受到的伤害增加 ^ +7% ^ 。\n\n $标记$ 每 ^ 10s ^ 衰减一层。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "$标记$初始上限为4，存在0.1s的叠加冷却时间。"
+  },
+  "Malicious Mockery": {
+    "name": "Malicious Mockery",
+    "combo": "",
+    "name": "恶毒嘲讽",
+    "combo": "",
+    "desc": "_谢幕一击_根据 $分身$ 的种类，在敌人身上存储一定数量的 $诡术$ 。(上限25层)\n\n潜行时使用_突进_将引爆附近所有存储的 $诡术$ ，根据消耗的层数造成伤害。\n\n $镜像分身$ 每次攻击施加 ^ +1 ^ 层 $诡术$ 。\n $幻象分身$ 每次攻击施加 ^ +2 ^ 层 $诡术$ 。\n $暗影分身$ 每次攻击施加 ^ +8 ^ 层 $诡术$ 。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Echo": {
+    "name": "镜中回响",
+    "combo": "",
+    "desc": "失去一个 $镜像分身$ 后，你下一次施放_旋风斩_或_烟雾弹_时，所有存活的 $分身$ 都会复制该技能。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Shurikens": {
+    "name": "手里剑",
+    "combo": "",
+    "desc": "使用_突进_后，准备 ^ +3 ^ 枚手里剑 *(上限9枚)* 。\n\n你的下一次_普通攻击_将投掷所有准备好的手里剑。",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Far Reach": {
+    "name": "长斩",
+    "combo": "",
+    "desc": "增加_多重击_的攻击范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Psithurism": {
+    "name": "风语",
+    "combo": "",
+    "desc": "增加 ^ +20% ^ 移动速度以及 ^ +1 ^ 跳跃高度。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Ambush": {
+    "name": "伏击",
+    "combo": "",
+    "desc": "增加_奇袭_ ^ +40% ^ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Dash II": {
+    "name": "突进减耗 II",
+    "combo": "",
+    "desc": "降低_突进_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Aerial Ace": {
+    "name": "燕返",
+    "combo": "",
+    "desc": "使用_天鹅坠落_击中敌人将给予你伤害加成。",
+    "properties": {
+      "duration": 7.5,
+      "damage_boost": 35
+    },
+    "stats_keys": [
+      "damage_boost",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Cheaper Spin Attack II": {
+    "name": "旋风斩减耗 II",
+    "combo": "",
+    "desc": "降低_旋风斩_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Death Magnet": {
+    "name": "死亡牵引",
+    "combo": "",
+    "desc": "退出_隐身_状态时，将附近所有附带 $标记$ 的敌人拉向你进入_隐身_时的位置。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Multihit II": {
+    "name": "多重击减耗 II",
+    "combo": "",
+    "desc": "降低_多重击_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Hoodwink": {
+    "name": "偷天换日",
+    "combo": "",
+    "desc": "击杀敌人后，回收其身上 ^ 50% ^ 的 $诡术$ 。(每只怪上限10层，总上限40层)\n\n潜行时施放_旋风斩_会将回收的 $诡术$ 转移到敌人身上并立即引爆。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Wall Jump": {
+    "name": "蹬墙跳",
+    "combo": "",
+    "desc": "_跳跃_ 的冷却时间 ^-1s^。对着墙壁使用_跳跃_会使你反向弹开。\n *(按住潜行键取消)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Fatal Spin": {
+    "name": "致命旋风",
+    "combo": "",
+    "desc": "增加_旋风斩_和_撕裂_的范围及伤害，并对命中的敌人施加 ^ 1 ^ 层 $标记$ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Eviscerate": {
+    "name": "剔骨",
+    "combo": "",
+    "desc": "_撕裂_造成更多伤害，并增加 ^ 1 ^ 次斩击。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Bladestorm": {
+    "name": "剑刃风暴",
+    "combo": "",
+    "desc": "增加_暴戾漩涡_ ^ 55% ^ 的伤害，并将其触发要求提高至最大生命值的 ^ 2.5x ^ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Harvester": {
+    "name": "影逝收割",
+    "combo": "",
+    "desc": "击杀敌人时，每层剩余的 $标记$ 给予你 ^ +2 ^ 法力。你使用技能时，每消耗一层 $标记$ 也给予相同法力。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Smoke Bomb II": {
+    "name": "烟雾弹减耗 II",
+    "combo": "",
+    "desc": "降低_烟雾弹_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Blade Fury": {
+    "name": "乱舞",
+    "combo": "",
+    "desc": "_多重击_获得额外伤害，并且可以全方位攻击。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "More Marks": {
+    "name": "印记扩容",
+    "combo": "",
+    "desc": "增加 ^ 2 ^ 层 $标记$ 的叠加层数上限。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Deflagrate": {
+    "name": "焰火绚爆",
+    "combo": "",
+    "desc": "_神出鬼没_会给被击中的敌人涂上易燃催化剂，每当你攻击他们时，使其积累 ^ +1% ^ $爆燃$ 进度。\n\n催化剂在进度达到 ^ 100% ^ 或持续时间结束时爆发，根据目标的 $爆燃$ 程度造成伤害。\n\n处于 $爆燃$ 状态的敌人受到来自你的火属性伤害增加 ^ +30% ^ 。",
+    "properties": {
+      "cooldown": 8
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Ricochets": {
+    "name": "连锁弹射",
+    "combo": "",
+    "desc": "你的_手里剑_命中后将在敌人之间弹射 ^ 2 ^ 次。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Satsujin": {
+    "name": "瞬狱杀",
+    "combo": "",
+    "desc": "若敌人拥有 ^ 4+ ^ 层 $标记$ ，你的下一次_背刺_将造成 ^ 200% ^ 伤害，或者你的下一次_粉末主动_将造成 ^ 100% ^ 伤害。\n\n两种情况都会消耗敌人身上所有的 $标记$ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "每个敌人对该技能的冷却为15秒。"
+  },
+  "Noxious Haze": {
+    "name": "剧毒阴霾",
+    "combo": "",
+    "desc": "站在_烟雾弹_中会使你和队友进入 $淬毒$ 状态，离开区域后该状态仍会持续。\n\n处于 $淬毒$ 状态时，敌人每拥有一种减益效果，对其造成的伤害增加 ^ +10% ^ 。(上限5层)\n\n队友仅获得 ^ 30% ^ 的加成。",
+    "properties": {
+      "duration": 3
+    },
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Jasmine Bloom": {
+    "name": "茉莉印记",
+    "combo": "",
+    "desc": "消耗 ^ 40 ^ 法力或获得 ^ 4 ^ 层 $动量$ 后，在你脚下生成花丛，每 ^ 0.3s ^ 对其中的敌人造成伤害。\n\n每次开花都会重置持续时间并增加范围。(上限5次)\n\n在最大范围的_茉莉印记_中使用_天鹅坠落_将引发巨大的爆炸并重置_茉莉印记_的范围。",
+    "properties": {
+      "duration": 5
+    },
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Petal Storm": {
+    "name": "花瓣风暴",
+    "combo": "",
+    "desc": "最大范围的_茉莉印记_会将_天鹅坠落_转化为巨大的花瓣风暴，消耗花朵并增加其伤害及范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Devour": {
+    "name": "暗影吞噬",
+    "combo": "",
+    "desc": "_影逝收割_将额外给予 ^ +2 ^ 法力。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Marked for Death": {
+    "name": "致死印记",
+    "combo": "",
+    "desc": "每个 $标记$ 增加 ^ 4% ^ 的伤害加成。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Bamboozle": {
+    "name": "神出鬼没",
+    "combo": "",
+    "desc": "_多重击_将改为令你向前传送，并造成一次残酷的火焰斩击。",
+    "properties": {
+      "cooldown": 5
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Distraction": {
+    "name": "声东击西",
+    "combo": "",
+    "desc": "引爆敌人身上的 ^ 15+ ^ 层 $诡术$ 时，暂时降低他们的伤害。\n\n大于叠加要求的每层 $诡术$ 都会使 $诡术$ 施加的减益效果持续时间增加 ^ 0.4s ^ 。",
+    "properties": {
+      "duration": 10,
+      "weakness": -15
+    },
+    "stats_keys": [
+      "duration",
+      "weakness"
+    ],
+    "note": ""
+  },
+  "Misdirection": {
+    "name": "瓦解思维",
+    "combo": "",
+    "desc": "引爆敌人身上的 ^ 25+ ^ 层 $诡术$ 将使其 $混乱$ 。\n\n $混乱$ 的敌人受到来自你的电属性伤害增加 ^ +30% ^ ，并且在攻击时会受到反噬伤害。\n\n你可以对敌人额外存储 ^ +15 ^ 层 $诡术$ 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Shadow Projection": {
+    "name": "暗之投影",
+    "combo": "",
+    "desc": "二段跳时，朝你面向的方向生成一个 $暗影分身$ 。\n\n潜行时再次二段跳，可传送到分身位置并将其引爆。\n\n $暗影分身$ 会施放_旋风斩_并触发_谢幕一击_。",
+    "properties": {
+      "cooldown": 8,
+      "duration": 8
+    },
+    "stats_keys": [
+      "cooldown",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Toxic Sludge": {
+    "name": "剧毒污泥",
+    "combo": "",
+    "desc": "引爆敌人身上的 ^ 20+ ^ 层 $诡术$ 将用毒泥 $污染$ 他们。\n\n被 $污染$ 的敌人受到来自你的地属性伤害增加 ^ +30% ^ ，并在死亡时爆炸伤害周围的敌人。\n\n你可以对敌人额外存储 ^ 15 ^ 层 $诡术$ 。",
+    "properties": {
+      "duration": 25
+    },
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Nightcloak Knife": {
+    "name": "夜幕飞刀",
+    "combo": "",
+    "desc": "施放_旋风斩_时若处于_隐身_期间，将消耗附近敌人身上的所有 $标记$ 。每消耗 ^ 2 ^ 层 $标记$ ，召唤一把 $飞刀$ 。(上限5把)\n\n造成伤害时， $飞刀$ 会飞向目标，每把造成你该次伤害 ^ 13% ^ 的伤害。",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Dissolution": {
+    "name": "消散",
+    "combo": "",
+    "desc": "进入和退出_隐身_时，免疫击退并获得短暂的抗性。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Swan Dive": {
+    "name": "天鹅坠落",
+    "combo": "",
+    "desc": "在空中对敌人造成 ^ 15 ^ 次伤害将赋予你 ^ +1 ^ 层 $动量$ 。 *(上限10层)* \n\n_狂乱震荡_将消耗你的 $动量$ ，释放强力爆炸造成巨额伤害并短暂致盲敌人。\n每层 $动量$ 使该爆炸伤害增加 ^ +10% ^ 。\n\n在空中时，按住潜行键可快速下坠。",
+    "properties": {
+      "duration":1
+    },
+    "stats_keys": [
+      "aoe",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Soul Siphon": {
+    "name": "灵魂虹吸",
+    "combo": "",
+    "desc": "引爆敌人身上的 ^ 30+ ^ 层 $诡术$ 将使其获得 ^ 200% ^ 的$枯竭$ ，并受到来自你的水属性伤害增加 ^ +30% ^ 。\n\n每当你或队友攻击 $枯竭$ 的敌人时，汲取其 ^ 7.5% ^的$枯竭$ ，转化为自身 ^ 7.5% ^ $护盾$ ，该护盾在 ^ 20s ^ 内衰减。(上限25%)\n\n你可以对敌人额外存储 ^ 20 ^ 层 $诡术$ 。",
+    "properties": {
+      "duration": 25,
+      "cooldown": 2
+    },
+    "stats_keys": [
+      "duration",
+      "cooldown"
+
+    ],
+    "note": ""
+  },
+  "Foul Play": {
+    "name": "阴险手段",
+    "combo": "",
+    "desc": "当_镜像分身_激活时，_神出鬼没_将通过处决一个 $镜像分身$ 来代替冷却。\n\n降低_多重击_的法力消耗。",
+    "properties": {
+        "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": "处决分身后，冷却时间降低至0"
+  },
+  "Mirage": {
+    "name": "重影幻象",
+    "combo": "",
+    "desc": "使用_神出鬼没_或_暗之投影_传送后，在原地留下一个 $幻象分身$ ，吸引 ^ 8 ^ 格内的怪物。\n\n当敌人靠近至 ^ 0.75 ^ 格内或持续时间结束时， $幻象分身$ 消失，并触发_谢幕一击_施放_烟雾弹_。",
+    "properties": {
+      "duration": 5,
+      "cooldown": 2
+    },
+    "stats_keys": [
+      "duration",
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Totem": {
+    "name": "图腾",
+    "combo": "右键 - 左键 - 右键",
+    "desc": "召唤一个图腾，每 ^ 0.4s ^ 对周围的敌人造成一次伤害。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Relik Proficiency 1": {
+    "name": "图腾精通",
+    "combo": "",
+    "desc": "使你的_普通攻击_射线飞行速度翻倍，并增加使用图腾武器时的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Totem I": {
+    "name": "图腾减耗",
+    "combo": "",
+    "desc": "降低_图腾_的技能消耗。",
+    "properties": {
+      "cost": -10
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Totemic Smash": {
+    "name": "图腾冲击",
+    "combo": "",
+    "desc": "_图腾_将在落地时造成伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Distant Grasp": {
+    "name": "收束之握",
+    "combo": "",
+    "desc": "降低_普通攻击_的散射角度，并增加 ^ +33% ^ 的射线速度。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Haul": {
+    "name": "牵引",
+    "combo": "右键 - 右键 - 右键",
+    "desc": "向你的 _图腾_ 飞跃。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Hand of the Shaman": {
+    "name": "祭司之握",
+    "combo": "",
+    "desc": "你的_普通攻击_将额外发出 ^ +2 ^ 束射线。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Uproot": {
+    "name": "铲除",
+    "combo": "右键 - 右键 - 左键",
+    "desc": "发射一道高速射流，命中后爆炸并击退敌人。\n *(按住潜行键将击退改为拉扯)*",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Cheaper Haul I": {
+    "name": "牵引减耗",
+    "combo": "",
+    "desc": "降低_牵引_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Aura": {
+    "name": "光环",
+    "combo": "右键 - 左键 - 左键",
+    "desc": "令你的_图腾_释放一道光环，伤害周围的敌人。",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": ""
+  },
+  "Totem Shove": {
+    "name": "图腾推射",
+    "combo": "",
+    "desc": "看向现存的_图腾_施放_图腾_技能时，将其向前推射，对撞到的任何敌人造成伤害。\n *(潜行可反向推射)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Nature's Jolt": {
+    "name": "惊蛰",
+    "combo": "",
+    "desc": "使用_牵引_落地后，对周围造成伤害。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Overseer": {
+    "name": "先知洞察",
+    "combo": "",
+    "desc": "增加_铲除_和_灵界沟通_的射程。\n使用这两个技能命中_图腾_将重置其持续时间。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Rain Dance": {
+    "name": "祈雨",
+    "combo": "",
+    "desc": "当_图腾_位于空中时，它会在下方降下雨幕，每 ^ 0.4s ^ 伤害其中的敌人。",
+    "properties": {},
+    "stats_keys": [
+      "aoe",
+      "duration"
+      
+    ],
+    "note": ""
+  },
+  "Shocking Aura": {
+    "name": "震击光环",
+    "combo": "",
+    "desc": "_光环_的扩散速度加快 ，并造成额外伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Flaming Tongue": {
+    "name": "火舌",
+    "combo": "",
+    "desc": "_铲除_变为火焰鞭挞，造成 ^ 3 ^ 次伤害，但不再产生爆炸或击退。\n\n_灵界沟通_将不再把 $假面$ 附着在敌人身上。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Puppet Master": {
+    "name": "偶术大师",
+    "combo": "",
+    "desc": "你的_图腾_每 ^ 3s ^ 会召唤 ^ 1 ^ 个 $魔偶$ 。(上限3个)\n它们每 ^ 0.5s ^ 会向附近的敌人投掷飞刀。",
+    "properties": {},
+    "stats_keys": [
+      "range",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Mask of the Lunatic": {
+    "name": "荒诞假面",
+    "combo": "",
+    "desc": "使用_铲除_时，改为佩戴 $荒诞假面$ 。\n *(潜行+_铲除_可取下)*\n\n佩戴此 $假面$ 时，_光环_的法力消耗降低，获得大量伤害加成，但降低大量抗性。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Sacrificial Shrine": {
+    "name": "鲜血圣坛",
+    "combo": "",
+    "desc": "你的_图腾_每 ^ 0.4s ^ 会汲取你 ^ 2% ^ 的生命值，并将其存入 $血池$ 中。\n\n_光环_将消耗 $血池$ 中的 ^ 15 ^ 点，造成 ^ +35% ^ 的伤害并治疗所有盟友。",
+    "properties": {},
+    "stats_keys": [
+      "blood_pool"
+    ],
+    "note": ""
+  },
+  "Stagnation": {
+    "name": "踵击",
+    "combo": "",
+    "desc": "被_惊蛰_命中的敌人将受到减速效果。",
+    "properties": {
+        "duration": 3,
+        "slowness": 40
+    },
+    "stats_keys": [
+        "duration",
+        "slowness"
+    ],
+    "note": ""
+  },
+  "Cheaper Aura I": {
+    "name": "光环减耗",
+    "combo": "",
+    "desc": "降低_光环_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Cheaper Uproot I": {
+    "name": "铲除减耗 I",
+    "combo": "",
+    "desc": "降低_铲除_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Rebound": {
+    "name": "回响之环",
+    "combo": "",
+    "desc": "_光环_达到最大范围后将折返，并再次造成效果。\n\n_鲜血圣坛_的治疗量减少 ! 35% ! 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "经过玩家时，鲜血圣坛才会造成治疗。因此尽管该技能能提高总治疗量，但是在刚需极速抬血线的场合，这个技能有可能会演。"
+  },
+  "More Puppets I": {
+    "name": "魔偶军团 I",
+    "combo": "",
+    "desc": "$魔偶$ 的召唤上限^ +1^。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Haunting Memory": {
+    "name": "灵界沟通",
+    "combo": "",
+    "desc": "当你切换 $假面$ 时，将前一个假面向前掷出。如果命中敌人，它会附着在敌人身上并施加减益。\n在 $假面$ 返回之前，你无法获得其加成效果。",
+    "properties": {},
+    "stats_keys": [
+      "range"
+    ],
+    "note": "$荒诞假面$(红面具)会附加 ^-15%^ 的攻击降低。\n$狂热假面$(黄面具)会附加 ^-15%^ 的抗性降低。\n$畏惧假面$(蓝面具)会附加 ^-30%^ 的移动速度降低。"
+  },
+  "Totemic Reach": {
+    "name": "崇高图腾",
+    "combo": "",
+    "desc": "增加_图腾_的影响范围。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Blood Connection": {
+    "name": "血肉链接",
+    "combo": "",
+    "desc": "若你处于_图腾_范围之外，_牵引_会将你传送至图腾处。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Exploding Puppets": {
+    "name": "自爆魔偶",
+    "combo": "",
+    "desc": "当 $魔偶$ 的剩余时间少于 ^ 3s ^ 时，它们会高速冲向敌人并自爆。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Hymn of Hate": {
+    "name": "憎恶之诗",
+    "combo": "",
+    "desc": "佩戴 $荒诞假面$ 时，若使用_光环_击杀敌人，将在该位置触发一个新的_光环_，造成 ^ -50% ^ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": "若点了血池，则该技能击杀敌人时，新触发的额外_光环_一样会消耗血池进行回血。"
+  },
+  "Larger Blood Pool": {
+    "name": "无底血池",
+    "combo": "",
+    "desc": "$血池$ 的容量上限^ +30 ^ 点。",
+    "properties": {
+        "blood_pool": "+30"
+    },
+    "stats_keys": [
+      "blood_pool"
+    ],
+    "note": ""
+  },
+  "Bullwhip": {
+    "name": "鞭笞",
+    "combo": "",
+    "desc": "使用_铲除_或_灵界沟通_命中敌人会对其施加 $鞭挞$ 标记。\n你的 $召唤物$ 会优先攻击被 $鞭挞$ 的敌人，并造成额外伤害。",
+    "properties": {},
+    "stats_keys": [
+      "duration",
+      "damage_boost"
+    ],
+    "note": ""
+  },
+  "More Puppets II": {
+    "name": "魔偶军团 II",
+    "combo": "",
+    "desc": "$魔偶$ 的召唤上限 ^+2^。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Mask of the Fanatic": {
+    "name": "狂热假面",
+    "combo": "",
+    "desc": "使用_铲除_时，改为佩戴 $狂热假面$ 。\n *(潜行+铲除可取下)*\n\n佩戴此 $假面$ 时，_图腾_的法力消耗降低，获得抗性加成，但移动速度降低。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Lashing Lance": {
+    "name": "穿刺火舌",
+    "combo": "",
+    "desc": "_火舌_获得 ^ 1 ^ 次攻击次数，且每次命中施加 ^ 1.5s ^ 的 $流血$ 。 *(上限6s)*\n\n_灵界沟通_将改为施加 ^ +6s ^ 的 $流血$ 。\n\n $流血$  的敌人在_图腾_范围内受到的伤害将为你的 $血池$ 填充 ^ 0.8 ^ 点。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Vengeful Spirit": {
+    "name": "复仇之灵",
+    "combo": "",
+    "desc": "你的_图腾_会给予范围内所有玩家伤害加成。",
+    "properties": {
+      "damage_boost": 20
+    },
+    "stats_keys": [
+      "damage_boost"
+    ],
+    "note": ""
+  },
+  "Masquerade": {
+    "name": "假面狂欢",
+    "combo": "",
+    "desc": "每切换 ^ 2 ^ 次 $假面$ ，获得 ^ 30 ^ 点法力。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Double Totem": {
+    "name": "图腾之林",
+    "combo": "",
+    "desc": " _图腾_的最大存在数量^ +1 ^。\n_图腾_和_光环_的伤害降低 ! 40% ! 。\n\n_治愈图腾_和_鲜血圣坛_的治疗量降低 ! 40% ! 。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Cheaper Totem II": {
+    "name": "图腾减耗 II",
+    "combo": "",
+    "desc": "降低_图腾_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Storm Dance": {
+    "name": "唤风",
+    "combo": "",
+    "desc": "被_光环_命中的敌人将被拉向你的图腾。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Regeneration": {
+    "name": "治愈图腾",
+    "combo": "",
+    "desc": "你的_图腾_每 ^ 0.4s ^ 恢复范围内的玩家少许生命值。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Cheaper Haul II": {
+    "name": "牵引减耗 II",
+    "combo": "",
+    "desc": "降低_牵引_的技能消耗。",
+    "properties": {
+        "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Cheaper Aura II": {
+    "name": "光环减耗 II",
+    "combo": "",
+    "desc": "降低_光环_的技能消耗。",
+    "properties": {
+        "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  },
+  "Imbued Totem": {
+    "name": "致伤图腾",
+    "combo": "",
+    "desc": "增加_图腾_的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Twisted Tether": {
+    "name": "索命夺魂",
+    "combo": "",
+    "desc": "你每失去 ^ 2% ^ 的生命值，附近处于 $流血$ 状态的敌人就会受到一次伤害。\n *(同时至多触发10次)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Totemic Shatter": {
+    "name": "狂怒图腾",
+    "combo": "",
+    "desc": "佩戴 $狂热假面$ 时，你的_图腾_将在落地时碎裂，立即触发相当于 ^ 8s ^ 持续时间的效果。\n\n_治愈图腾_仅产生 ^ 50% ^ 的治疗量。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Depersonalization": {
+    "name": "自我陶醉",
+    "combo": "",
+    "desc": "_假面狂欢_触发所需的 $假面$ 切换次数 ^ -1 ^ ，但获得的法力值 ! -10 ! 。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Crimson Effigy": {
+    "name": "绯红魔像",
+    "combo": "",
+    "desc": "_图腾_将召唤一个 $绯红魔像$ ，每 ^ 0.5s ^ 攻击敌人并将其推向最近的_图腾_。\n $绯红魔像$ 的存在时间与_图腾_相同。\n\n每个_图腾_都会召唤自己的 $魔像$ 。每多召唤一个 $魔像$ ，所有 $魔像$ 的伤害降低至 ! 0.8x ! 。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Mask of the Heretic": {
+    "name": "异端假面",
+    "combo": "",
+    "desc": "使用_铲除_时，改为佩戴 $异端假面$ 。\n *(潜行+铲除可取下)*\n\n佩戴此 $假面$ 时，_牵引_的法力消耗降低，获得移动速度加成，但造成的伤害降低。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Eldritch Call": {
+    "name": "古神呼唤",
+    "combo": "",
+    "desc": "按住潜行键施放_图腾_将消耗 $血池$  中的 ^ 30 ^ 点 *(每根图腾)* ，召唤 ^ 4 ^ 条梦魇触须。\n\n触须会削弱范围内 $流血$ 的敌人，并且每 ^ 2s ^ 对一名敌人造成伤害。\n\n_古神呼唤_激活期间，_血肉链接_变为传送技能。",
+    "properties": {
+      "duration": 10
+    },
+    "stats_keys": [
+      "duration"
+    ],
+    "note": "在触手持续期间，再次召唤触手可以直接将持续时间重置回10s。"
+  },
+  "Bloodier I": {
+    "name": "鲜血淋漓 I",
+    "combo": "",
+    "desc": "增加 $血池$  ^ 30 ^ 点容量上限。\n增加 $流血$  ^ +1.5s ^ 的最大持续时间。",
+    "properties": {
+      "blood_pool": "+30"
+    },
+    "stats_keys": [
+      "blood_pool"
+    ],
+    "note": ""
+  },
+  "Maddening Roots": {
+    "name": "怨念缠身",
+    "combo": "",
+    "desc": "_铲除_将使敌人减速。",
+    "properties": {
+      "duration": 3,
+      "slowness": 40
+    },
+    "stats_keys": [
+      "slowness",
+      "duration"
+    ],
+    "note": ""
+  },
+  "Chant of the Heretic": {
+    "name": "异端之章",
+    "combo": "",
+    "desc": "切换至 $异端假面$ 时，给予你和盟友速度加成。\n加成效果每秒衰减 ^ -15% ^ 。",
+    "properties": {},
+    "stats_keys": [
+      "aoe"
+    ],
+    "note": ""
+  },
+  "Deeper Wounds": {
+    "name": "创口撕裂",
+    "combo": "",
+    "desc": "增加 $流血$ 的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Blood Rite": {
+    "name": "血之祭礼",
+    "combo": "",
+    "desc": "任何玩家在你的_图腾_范围内受到伤害时，其受到的相当于你最大生命值 ^ 35% ^ 的比例部分的伤害值将存入你的 $血池$  中。\n *(每次受击存储的血池上限为10点)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Sanguine Strike": {
+    "name": "嗜血打击",
+    "combo": "",
+    "desc": "大幅降低_普通攻击_的散射。\n\n你的_普通攻击_每束射线将对敌人施加 ^ +0.25s ^ 的 $流血$  。\n\n $流血$  的敌人在_图腾_范围内受到的伤害将为你的 $血池$  增加 ^ 0.8 ^ 点。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Friendly Fire": {
+    "name": "残酷鞭策",
+    "combo": "",
+    "desc": "使用_普通攻击_命中你的 $魔偶$ 会消耗它们 ^ 2s ^ 的持续时间，但给予它们伤害提升。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Chant of the Fanatic": {
+    "name": "狂热之颂",
+    "combo": "",
+    "desc": "切换至 $狂热假面$ 时，给予你和盟友短暂的抗性加成。",
+    "properties": {
+      "cooldown": 8
+    },
+    "stats_keys": [
+      "cooldown"
+    ],
+    "note": ""
+  },
+  "Bloodletting": {
+    "name": "血手夺魄",
+    "combo": "",
+    "desc": "增加_索命夺魂_的伤害。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Triple Totem": {
+    "name": "图腾之森",
+    "combo": "",
+    "desc": "增加 ^ +1 ^ _图腾_的最大存在数量。\n_图腾_和_光环_的伤害降低 ! 50% ! 。\n\n_治愈图腾_和_鲜血圣坛_的治疗量降低 ! 50% ! 。",
+    "properties": {},
+    "stats_keys": [
+      "num_totems"
+    ],
+    "note": ""
+  },
+  "Invigorating Wave": {
+    "name": "活力之潮",
+    "combo": "",
+    "desc": "_光环_将暂时提高你的 $召唤物$ 的攻击速度。\n被_光环_命中的玩家获得 ^ 2 ^ 点法力。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Seeking Totem": {
+    "name": "图腾随行",
+    "combo": "",
+    "desc": "佩戴 $异端假面$ 时，你的_图腾_会向你移动，直到你处于其范围之内。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Frog Dance": {
+    "name": "蛙之舞",
+    "combo": "",
+    "desc": "佩戴 $异端假面$ 时，_牵引_将改为让你在地面弹跳 ^ 3 ^ 次，速度递增，并伤害附近的敌人。\n\n_蛙之舞_不需要_图腾_即可使用。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Chant of the Lunatic": {
+    "name": "荒诞之颂",
+    "combo": "",
+    "desc": "切换至 $荒诞假面$ 时，降低附近敌人的防御。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Bloodier II": {
+    "name": "鲜血淋漓 II",
+    "combo": "",
+    "desc": "$血池$的容量上限^ +30 ^。\n增加 $流血$ ^ 1.5s ^ 的最大持续时间。",
+    "properties": {},
+    "stats_keys": [
+      "blood_pool"
+    ],
+    "note": ""
+  },
+  "Shepherd": {
+    "name": "倏忽傀影",
+    "combo": "",
+    "desc": "当你或你的 $召唤物$ 击杀敌人时， $魔偶$ 上限临时^ +1 ^ ，持续 ^ 15s ^ 。 *(上限 +8)*",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Commander": {
+    "name": "傀儡号令",
+    "combo": "",
+    "desc": "按住潜行键施放_光环_将召集所有活跃的 $魔偶$ 到你身边，提高它们的攻击速度和投掷准确度。\n\n每一个被召集的 $魔偶$ 使你的_普通攻击_伤害增加 ^ 3% ^ 。\n\n未被召集时， $召唤物$ 的每次攻击会为该技能积攒 ^ 0.1s ^ 的持续时间。 *(上限30s)*",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Soaring Wingbeats": {
+    "name": "凌空振翅",
+    "combo": "",
+    "desc": "提升 $蜂鸟$ 的被动效果：移速增加 ^20%^，且额外获得 ^2 ^格跳跃高度。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Hummingbirds' Song": {
+    "name": "蜂鸟之歌",
+    "combo": "",
+    "desc": "召唤 ^ 2 ^ 只 $蜂鸟$ 环绕着你，被动给予移动速度加成。\n\n按住潜行键施放_牵引_将暂时派遣 $蜂鸟$ 攻击附近的敌人，每 ^ 0.25s ^ 快速穿透它们。\n再次施放可提前召回。\n\n攻击期间， $蜂鸟$ 不会提供被动效果。",
+    "properties": {},
+    "stats_keys": [
+    ],
+    "note": ""
+  },
+  "Awakened": {
+    "name": "觉醒形态",
+    "combo": "",
+    "desc": "通过 $假面$ 的减耗效果累计节省 ^ 150 ^ 法力后，切换 $假面$ 将使你 $觉醒$  ^ 25s ^ ，同时获得所有 $假面$ 的正面效果且无负面效果。\n\n在 $觉醒$  期间切换至附着的 $假面$ 会将其立即召回。",
+    "properties": {},
+    "stats_keys": [],
+    "note": ""
+  },
+  "Blood Sorrow": {
+    "name": "猩红挽歌",
+    "combo": "",
+    "desc": "按住潜行键施放_铲除_或_灵界沟通_时，消耗 ^ 70 ^ 点$血池$  ，发射一道毁灭光束，在敌人和盟友之间产生连锁，每 ^ 0.2s ^ 造成一次伤害。\n\n你和光束内的盟友每次命中获得 ^ +2% ^ $超量生命$ 。\n$超量生命$在 ^ 20s ^ 内逐渐衰减。",
+    "properties": {},
+    "stats_keys": [
+      "duration"
+    ],
+    "note": ""
+  },
+  "Cheaper Uproot II": {
+    "name": "铲除减耗 II",
+    "combo": "",
+    "desc": "降低_铲除_的技能消耗。",
+    "properties": {
+      "cost": -5
+    },
+    "stats_keys": [
+      "cost"
+    ],
+    "note": ""
+  }
+}

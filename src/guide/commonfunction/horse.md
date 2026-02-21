@@ -1,5 +1,5 @@
 ---
-title: 马匹系统
+title: 坐骑系统
 icon: horse
 ---
 
@@ -12,7 +12,10 @@ icon: horse
 在完成[Stable Story](/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)后，你将解锁马匹商人
 
 马匹商人可以在Ternaves和Bucie中找到
->之后再来补坐标，感兴趣的话可以通过Wynntils的Map找到
+
+![Detlas附近的马匹商人](../../.vuepress/public/assets/img/horse-1.png)
+
+![Bucie附近的马匹商人](../../.vuepress/public/assets/img/horse-2.png)
 
 一级马匹需要花费24个绿宝石块来购买，算是比较昂贵了(对新手来说)
 

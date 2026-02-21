@@ -15,8 +15,8 @@ icon: route
 
 ## 奖励清单 / Rewards
 
-+ 21000经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 640绿宝石![](/assets/icon/Emerald.png =20x)
++ 21000经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 640绿宝石![=20x](/assets/icon/Emerald.png)
 + 可以使用Rymek大电梯了
 
 ![峡谷的大电梯非常多，如图所示均为本任务解锁的电梯](/assets/img/lv34-8.png)
@@ -28,6 +28,9 @@ icon: route
 
 这里的村民是黄名,伤到了会来打你。小心被群殴死。
 :::
+
+
+
 
 ### Step 1 接取任务
 ---

@@ -21,7 +21,7 @@
 <span class="stage-index">6.</span> 把干草堆推到有台阶和栅栏的地方，让你可以走上去(右键推)
 
 第二个地方这么推，然后从旁边走上来
-![](/assets/img/lvl86-1.jpg =400x)
+![=400x](/assets/img/lvl86-1.jpg)
 
 :::tip
 这个任务偶尔会卡bug出现干草堆无法推拉的情况
@@ -31,7 +31,7 @@
 :::
 
 <span class="stage-index">7.</span> 进到谷仓里面，找到下图按钮，按下去等一会就行
-![](/assets/img/lvl86-2.jpg =400x)
+![=400x](/assets/img/lvl86-2.jpg)
 
 <span class="stage-index">8.</span> 和<font color=00AA00>**Receptionist**</font>对话
 
@@ -65,8 +65,8 @@
 <span class="stage-index">13.</span> 进入实验舱，然后再次和<font color=00AA00>**Drale**</font>对话
 
 奖励
-+ 2300000 经验值![](/assets/icon/Experience_Orb.gif =20x)
-+ 4096 绿宝石![](/assets/icon/Emerald.png =20x)
++ 2300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 4096 绿宝石![=20x](/assets/icon/Emerald.png)
 
 :::tip
 即使任务已经完成你仍可以通过任务中点击过的那个告示牌旁的按钮再次进入Woc营地
