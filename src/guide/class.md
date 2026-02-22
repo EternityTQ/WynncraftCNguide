@@ -509,24 +509,34 @@ icon: hat-wizard
 :::tabs
 
 @tab 弓手
-
+<ClientOnly>
 <st currentClass="Archer" />
 
-@tab 战士
+</ClientOnly>
 
+@tab 战士
+<ClientOnly>
 <st currentClass="Warrior" />
 
-@tab 法师
+</ClientOnly>
 
+@tab 法师
+<ClientOnly>
 <st currentClass="Mage" />
 
-@tab 刺客
+</ClientOnly>
 
+@tab 刺客
+<ClientOnly>
 <st currentClass="Assassin" />
 
-@tab 萨满
+</ClientOnly>
 
+@tab 萨满
+<ClientOnly>
 <st currentClass="Shaman" />
+
+</ClientOnly>
 
 :::
 
