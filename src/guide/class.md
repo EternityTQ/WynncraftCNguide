@@ -120,7 +120,7 @@ icon: hat-wizard
 ### 战士
 ::: tabs
 
-@tab <font color="#FF5555">Fallen 腐化者</font>
+@tab <font color=FF5555>Fallen 腐化者</font>
 
 <jc name="Fallen"/>
 
@@ -150,7 +150,7 @@ icon: hat-wizard
 
 <ks name="Battle Monk"/>
 
-@tab <font color="#18c7f0"> Paladin 圣骑士</font>
+@tab <font color=18c7f0> Paladin 圣骑士</font>
 
 <jc name="Paladin"/>
 
@@ -172,7 +172,7 @@ icon: hat-wizard
 
 ### 法师
 ::: tabs
-@tab <font color="#18c7f0"> Riftwalker 时空行者</font>
+@tab <font color=18c7f0> Riftwalker 时空行者</font>
 
 <jc name="Riftwalker"/>
 
@@ -260,7 +260,7 @@ icon: hat-wizard
 
 <ks name="Boltslinger"/>
 
-@tab <font color="#00AA00">Trapper 陷阱师 </font>
+@tab <font color=00AA00>Trapper 陷阱师 </font>
 
 <jc name="Trapper"/>
 
@@ -278,7 +278,7 @@ icon: hat-wizard
 
 <ks name="Trapper"/>
 
-@tab <font color="#FF55FF"> Sharpshooter 鹰眼射手 </font>
+@tab <font color=FF55FF> Sharpshooter 鹰眼射手 </font>
 
 
 <jc name="Sharpshooter"/>
@@ -299,7 +299,7 @@ icon: hat-wizard
 
 :::tabs
 
-@tab <font color="#AA0000"> Shadestepper 影步者 </font>
+@tab <font color=AA0000> Shadestepper 影步者 </font>
 
 <jc name="Shadestepper"/>
 
@@ -311,7 +311,7 @@ icon: hat-wizard
 
 <ks name="Shadestepper"/>
 
-@tab <font color="#FF55FF"> Trickster 诡术师 </font>
+@tab <font color=FF55FF> Trickster 诡术师 </font>
 
 <jc name="Trickster"/>
 
@@ -373,7 +373,7 @@ icon: hat-wizard
 
 <ks name="Summoner"/>
 
-@tab <font color="#16d108"> Ritualist 圣祭祀 </font>
+@tab <font color=16d108> Ritualist 圣祭祀 </font>
 
 <jc name="Ritualist"/>
 
@@ -385,7 +385,7 @@ icon: hat-wizard
 
 <ks name="Ritualist"/>
 
-@tab <font color="#FF5555"> Acolyte 血教徒 </font>
+@tab <font color=FF5555> Acolyte 血教徒 </font>
 
 <jc name="Acolyte"/>
 
