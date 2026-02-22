@@ -2,13 +2,6 @@
 title: 游戏指南
 icon: lightbulb
 ---
-:::danger
-
-请确定该网站无法解决你的问题后，再向他人求助！
-请确定该网站无法解决你的问题后，再向他人求助！
-请确定该网站无法解决你的问题后，再向他人求助！
-
-:::
 
 
 这里是游戏指南
@@ -17,10 +10,7 @@ icon: lightbulb
 
 请从左侧侧边栏进入文章
 
-阅读过程中有任何问题可以[在这里](https://github.com/EternityTQ/WynncraftCNguide/issues/new)提交问题
-
-网站首选IP：http://wynn.tqkhn.love/ (国内浏览效果更好)
-备用IP：http://wcg.tqkhn.love/ 
+阅读过程中有任何问题可以在交流群内提交问题
 
 :::tip 如何使用本攻略？
 本部分主要是讲解各类机制
