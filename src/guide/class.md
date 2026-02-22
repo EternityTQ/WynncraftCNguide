@@ -120,7 +120,7 @@ icon: hat-wizard
 ### 战士
 ::: tabs
 
-@tab <font color=FF5555>Fallen 腐化者</font>
+@tab <font color="#FF5555">Fallen 腐化者</font>
 
 <jc name="Fallen"/>
 
@@ -150,9 +150,10 @@ icon: hat-wizard
 
 <ks name="Battle Monk"/>
 
-@tab <font color=18c7f0> Paladin 圣骑士</font>
+@tab <font color="#18c7f0"> Paladin 圣骑士</font>
 
 <jc name="Paladin"/>
+
 圣骑士能达到比另外两条技能分支更高的基础抗性，这也意味着圣骑士拥有全游戏最高的基础抗性
 
 防御能力方面，圣骑士拥有更高基础抗性的同时，可以通过战吼召唤格挡70%伤害的小盾，亦能通过秘银皮肤获得完全的击退抗性
@@ -171,7 +172,7 @@ icon: hat-wizard
 
 ### 法师
 ::: tabs
-@tab <font color=18c7f0> Riftwalker 时空行者</font>
+@tab <font color="#18c7f0"> Riftwalker 时空行者</font>
 
 <jc name="Riftwalker"/>
 
@@ -192,6 +193,7 @@ icon: hat-wizard
 并且除了BOSS之外，大多数情况你都看不到其他怪物能叠到满级风印，如果出现了小怪叠满了风印，这时候就得想想是不是你自己的问题了。
 
 总的来说，时空行者是一名做不好工作的输出职业，现版本中存在的意义就是给其他两条分支提供风印的技能点(俗称风奴)
+
 <ks name="Riftwalker"/>
   
 
@@ -216,6 +218,7 @@ icon: hat-wizard
 <ks name="Light Bender"/>
 
 @tab <font color="purple"> Arcanist 奥术法师</font>
+
 <jc name="Arcanist"/>
 
 
@@ -257,9 +260,10 @@ icon: hat-wizard
 
 <ks name="Boltslinger"/>
 
-@tab <font color=00AA00>Trapper 陷阱师 </font>
+@tab <font color="#00AA00">Trapper 陷阱师 </font>
 
 <jc name="Trapper"/>
+
 陷阱师并不对自身的箭雨进行提升，而是提升爆炸箭的属性，并且能在爆炸箭的落点处放置地雷对目标再度造成伤害
 
 陷阱师也可以将自身后跳能力转化为抓钩，这是一个更适合陷阱师技能树的位移技能
@@ -274,10 +278,11 @@ icon: hat-wizard
 
 <ks name="Trapper"/>
 
-@tab <font color=FF55FF> Sharpshooter 鹰眼射手 </font>
+@tab <font color="#FF55FF"> Sharpshooter 鹰眼射手 </font>
 
 
 <jc name="Sharpshooter"/>
+
 鹰眼射手是一个独具特色的分支，其独特的“专注”能力决定了它是一个上限极高的分支
 
 鹰眼的核心能力在于命中敌人时叠加专注，未命中时失去专注，专注维持的越高，输出也会越高
@@ -294,9 +299,10 @@ icon: hat-wizard
 
 :::tabs
 
-@tab <font color=AA0000> Shadestepper 影步者 </font>
+@tab <font color="#AA0000"> Shadestepper 影步者 </font>
 
 <jc name="Shadestepper"/>
+
 影步者的核心能力在于替换多重斩的背刺，通过破隐增伤+背刺增伤+印记增伤+重斩增伤的多段**倍率叠加**打出全游戏最高的单次爆发伤害
 
 但是由于MC本身的机制限制，在部分战斗(如TCC BOSS战)中背刺的判定很诡异，甚至无法触发
@@ -305,9 +311,10 @@ icon: hat-wizard
 
 <ks name="Shadestepper"/>
 
-@tab <font color=FF55FF> Trickster 诡术师 </font>
+@tab <font color="#FF55FF"> Trickster 诡术师 </font>
 
 <jc name="Trickster"/>
+
 诡术师可以通过召唤不同的分身，来在战场上施加各式诡计。
 
 诡术师可以通过给敌人叠加"诡计"，来叠加不同的增伤，然后通过处决分身进行爆发，来对敌人造成极其爆裂的打击伤害。
@@ -321,6 +328,7 @@ icon: hat-wizard
 @tab <font color="grey"> Acrobat 凌空客 </font>
 
 <jc name="Acrobat"/>
+
 凌空客不需要隐身的机制，其主要手法在于起飞→积攒动量→坠落的循环。
 
 在空中进行输出时，凌空客拥有独特的法力恢复机制，因此不需要太担心回转。
@@ -330,6 +338,7 @@ icon: hat-wizard
 尽管如此，凌空客还是需要注意使用多重击来对敌人造成补充伤害。
 
 当前版本的凌空客较为尴尬，输出显得不是很足，操作感倒是拉满了。
+
 <ks name="Acrobat"/>
 
 :::
@@ -341,6 +350,7 @@ icon: hat-wizard
 @tab <font color="orange"> Summoner 召唤师 </font>
 
 <jc name="Summoner"/>
+
 召唤师使用多个图腾和召唤物来压制敌人。
 
 召唤师至多能同时召唤4个图腾(需要Aspect)，图腾可以为周围的友军提供缓回能力。
@@ -363,9 +373,10 @@ icon: hat-wizard
 
 <ks name="Summoner"/>
 
-@tab <font color=16d108> Ritualist 圣祭祀 </font>
+@tab <font color="#16d108"> Ritualist 圣祭祀 </font>
 
 <jc name="Ritualist"/>
+
 圣祭祀拥有召唤圣假面的能力，每个面具都会降低自身某种属性来增强另一项(移速，伤害，防御)
 
 在每一个圣假面的加持之下，圣祭司的技能也会获得不同的加成，而面具能力会牺牲圣祭司的其中一个技能：uproot
@@ -374,9 +385,10 @@ icon: hat-wizard
 
 <ks name="Ritualist"/>
 
-@tab <font color=FF5555> Acolyte 血教徒 </font>
+@tab <font color="#FF5555"> Acolyte 血教徒 </font>
 
 <jc name="Acolyte"/>
+
 血教徒是上手难度最高的技能分支之一，其核心机制为血池——通过图腾牺牲自己的生命值填充血池，再利用血池进行输出和治疗
 
 虽然血池的治疗在熟练掌握后是非常强大的续航手段，但是不熟练血池节奏的情况下，很有可能因为血池意外将自己抽干而失去续航能力
@@ -392,6 +404,7 @@ icon: hat-wizard
 总得来说，血教徒是一位输出辅助两手抓的T0职业，缺点是需要玩家对游戏有所理解，否则容易把自己抽干，~~然后嫌弃这个职业怎么这么菜~~
 
 <ks name="Acolyte"/>
+
 :::
 
 ## 技能树介绍
