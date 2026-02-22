@@ -505,7 +505,7 @@ icon: hat-wizard
 本篇翻译仅为初翻，尚未精修。
 若出现理解不清、名词错翻，恳请及时反馈，多谢你的理解。
 :::
-<ClientOnly>
+
 :::tabs
 
 @tab 弓手
@@ -530,7 +530,7 @@ icon: hat-wizard
 
 :::
 
-</ClientOnly>
+
 <br><br><br><br><br><br><br><br><br><br>
 
 <script>
