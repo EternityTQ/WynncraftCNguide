@@ -98,11 +98,11 @@ const MATERIAL_NAMES = {
     40: { wood: 'Spruce Wood', paper: 'Spruce Paper', ingot: 'Iron Ingot', gem: 'Iron Gem', string: 'Hops String', grain: 'Hops Grain', meat: 'Icefish Meat', oil: 'Icefish Oil' },
     50: { wood: 'Jungle Wood', paper: 'Jungle Paper', ingot: 'Silver Ingot', gem: 'Silver Gem', string: 'Rye String', grain: 'Rye Grain', meat: 'Piranha Meat', oil: 'Piranha Oil' },
     60: { wood: 'Dark Wood', paper: 'Dark Paper', ingot: 'Cobalt Ingot', gem: 'Cobalt Gem', string: 'Millet String', grain: 'Millet Grain', meat: 'Koi Meat', oil: 'Koi Oil' },
-    70: { wood: 'Light Wood', paper: 'Light Paper', ingot: 'Kanderstone Ingot', gem: 'Kanderstone Gem', string: 'Decay String', grain: 'Decay Roots', meat: 'Gylia Meat', oil: 'Gylia Oil' },
+    70: { wood: 'Light Wood', paper: 'Light Paper', ingot: 'Kanderstone Ingot', gem: 'Kanderstone Gem', string: 'Decay String', grain: 'Decay Grain', meat: 'Gylia Meat', oil: 'Gylia Oil' },
     80: { wood: 'Pine Wood', paper: 'Pine Paper', ingot: 'Diamond Ingot', gem: 'Diamond Gem', string: 'Rice String', grain: 'Rice Grain', meat: 'Bass Meat', oil: 'Bass Oil' },
-    90: { wood: 'Avo Wood', paper: 'Avo Paper', ingot: 'Molten Ingot', gem: 'Molten Gem', string: 'Sorghum String', grain: 'Sorghum Grain', meat: 'Molten Eel Meat', oil: 'Molten Eel Oil' },
-    100: { wood: 'Sky Wood', paper: 'Sky Paper', ingot: 'Voidstone Ingot', gem: 'Voidstone Gem', string: 'Hemp String', grain: 'Hemp', meat: 'Starfish Meat', oil: 'Starfish Oil' },
-    110: { wood: 'Dernic Wood', paper: 'Dernic Paper', ingot: 'Dernic Ingot', gem: 'Dernic Gem', string: 'Dernic String', grain: 'Dernic Seed', meat: 'Dernic Fish Meat', oil: 'Dernic Fish Oil' }
+    90: { wood: 'Avo Wood', paper: 'Avo Paper', ingot: 'Molten Ingot', gem: 'Molten Gem', string: 'Sorghum String', grain: 'Sorghum Grain', meat: 'Molten Meat', oil: 'Molten Oil' },
+    100: { wood: 'Sky Wood', paper: 'Sky Paper', ingot: 'Voidstone Ingot', gem: 'Voidstone Gem', string: 'Hemp String', grain: 'Hemp Grain', meat: 'Starfish Meat', oil: 'Starfish Oil' },
+    110: { wood: 'Dernic Wood', paper: 'Dernic Paper', ingot: 'Dernic Ingot', gem: 'Dernic Gem', string: 'Dernic String', grain: 'Dernic Grain', meat: 'Dernic Fish Meat', oil: 'Dernic Oil' }
 };
 
 // 职业配方数据 (保持不变)

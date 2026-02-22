@@ -3,13 +3,8 @@ title: 节日活动
 icon: ice-cream
 ---
 
-:::tip 当前节日
-![](/assets/img/fes_hero_2024.jpg)
 
-2024英雄节
 
-2024.3.23 2am \~ 2024.4.15 10am
-:::
 ## 总体介绍
 
 ### 举办时间
