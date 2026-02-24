@@ -412,7 +412,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出20件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获得一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2次抽取次数时，都会为你下一次完成黄色信标时额外奖励1个飞箱(上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%效果|
-| <font color='5555FF'> **Gourmand** </font>     | 每累计见到2个信标选择后，获得1次信标刷新机会|
+| <font color='5555FF'> **Gourmand** </font>     | 每累计见到2个信标后，获得1次信标刷新机会|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
 | <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，并增加1个挑战轮数  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每得到2个诅咒后，获得1个随机祝福|
@@ -507,7 +507,7 @@ sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pu
 
 sac的保存数公式为：
 
-$$(1-\frac{1}{2^{sac}})×100\%$$
+$$(1-\frac{1}{sac+1})×100\%$$
 
 
 在确认开启后，你就不能进行任何操作了，包括rr和sac
@@ -547,6 +547,12 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 **2.1.4版本更新总结：建议不跑**
 
+:::tip 搬运许可
+本章节的部分内容来自作者`Rover Makyr`
+![](/assets/img/lootrun.md-02-24-20-50-34.png)
+非常感谢搬运许可！
+:::
+
 ### 职业选择
 
 ---
@@ -555,7 +561,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 + **法师**：其具有非常强劲的位移手段，非常适合LR，但上手成本较高，通常仅推荐使用Warp奥术来进行LR。另外战斗的肉度可能不及战士。当然如果你想用球法也是可以的，就是缺乏群伤手段会非常坐牢。另外，推荐法师的另一个原因是法杖目前还有值钱货，不像隔壁战士一样烂完了。
 
-+ **战士**：战士在战斗方面有着非常舒适的续航以及抗伤能力，目前三条线均在LR有说法，续航都还算可以。但问题是战士的神话武器现在基本没一个值钱了，开箱子时出的神话武器会优先出本职业的，因此从赚钱的角度不太推荐使用战士来进行LR，当然，从起步的角度来说，战士还是非常适合新手的，~~神话武器贬值意味着起步成本低~~。
++ **战士**：战士在战斗方面有着非常舒适的续航以及抗伤能力，目前三条线均在LR有说法，续航都还算可以。但是速度可能没有法师快，属于是比较舒服但是不够爽。另外，现在战士神话hero和idol都挺贵的，开到就是赚到。
 
 + **萨满**：萨满的战斗输出非常强劲，自身也有非常恐怖的续航，但问题是位移手段太烂了，需要绑定某些装备才能获得较好的位移体验，否则很多时间都是浪费在跑图上。另外，萨满也算是有个值钱武器，所以对于战士来说也是好点。当然，萨满LR的难度还是太大了，因此不怎么推荐给新手
   
@@ -646,7 +652,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 此时你可以决定这把是短途还是长途
 
-如果选择短途，尽力拿诅咒到42轮直接结算，要打不过直接投了也行。
+如果选择短途，尽力拿诅咒到42轮直接结算，要是打不过直接投了也行。
 
 如果选择长途，此时你应当保证任务中至少有增益来源，否则你没有足够的数值来跑长途，收益很低。
 
@@ -706,7 +712,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 | 名称 | 简评 |
 | --- | --- | 
-| <font color='5555FF'> **Gourmand** </font> | 刷新流核心组件，基本绑定战斗类任务(特别是equi)。配合Optimism也没啥强度，这个任务最大的用处是让你在有equi没任务可以选的时候选一个玩玩，可以信标刷新到死，完全没有运营压力。 |
+| <font color='5555FF'> **Gourmand** </font> | 刷新流核心组件，强绑Optimism，配合极佳，信标刷到四给一大坨pulls，爽到姥姥家|
 | <font color='AA00AA'> **Cleansing Ritual** </font> | 尽管CR存在消除诅咒的功能，但还是放到了运营类任务，因为它可以让你无脑过到100轮，在当前红信标接取试炼可能致死的情况下，有CR会使你的运营压力小很多(至少终于不用拿红了) |
 | <font color='00BB00'> **Stasis** </font> | 比较适合新手的任务，**避免跑图过慢导致超时**，但本身真的是没啥强度，挺菜的，而且在完成任务的时候还有可能内鬼(指时间不掉导致需要手动kill来降时间)，总之如果你有把握不会跑超时的话这个任务可以别选 |
 | <font color='FFAA00'> **Backup Beat** </font> | 也算是个保底任务，本身挺菜的，360s的要求有点多，正常打需要2轮才能获得一次信标rr，虽然靠绿信标能获得更多就是了。总之就是不推荐拿 |
@@ -725,9 +731,9 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 |  <font color='AA00AA'> **Porphyrophobia** </font>  | 在改版之后稍有强度了，配合equi可以碰瓷式给增益，并且紫信标pull数加倍也非常强力，诅咒流值得一拿   |
 |  <font color='00BB00'> **Chronokinesis** </font>  | 曾经的神，目前表现一般。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，~~但是可能会比较累~~ 。**注意这个只计入路边野箱和洞穴宝箱**  |
 |   <font color='FFAA00'> **Optimism** </font> |  配合Gourmand或者BB的Pull机，但组件需求过高且收益不在预期，因此不太建议拿这个任务。  |
-|  <font color='EEEEEE'> **High Roller** </font>  |  削弱了一波之后。。。只能说适合短途吧，如果跑结算宝箱的话还是值得拿的  |
-| <font color='EEEEEE'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
-| <font color='EEEEEE'> **Complete Chaos** </font>  |  大砍了一波之后优先级大大降低了。如果是跑长途的话还是值得一拿的，但是要非常小心狂塞红信标导致内鬼 |
+|  <font color='DDDDDD'> **High Roller** </font>  |  削弱了一波之后。。。只能说适合短途吧，如果跑结算宝箱的话还是值得拿的  |
+| <font color='DDDDDD'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
+| <font color='DDDDDD'> **Complete Chaos** </font>  |  大砍了一波之后优先级大大降低了。如果是跑长途的话还是值得一拿的，但是要非常小心狂塞红信标导致内鬼 |
 
 **战斗类**
 
@@ -740,56 +746,148 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | <font color='AA00AA'> **Equilibrium** </font>   |  **诅咒流核心组件**，尽管又被削了一刀，但诅咒流还是需要和怪物硬碰数值的，equi可以让你保持和对面一样的属性增长，避免属性撞不过对面  |
 |   <font color='AA00AA'> **Inner Peace** </font>  |   **诅咒流优先级极高**，IP主要是可以使对面诅咒抗性折半，这样更好应对数值了。另外，在有All in的情况下，IP还能避免怪物出现抗性超过100%的死局。 |
 |  <font color='FF5555'> **Thrill Seeker** </font>  | 废物，不多讲   |
-#### 常见的任务组合
 
-任务选择服务于你本局的目的。
 
-1.若你有很多上把保存的pulls(通常是150+):只拿有rr或sac的任务！此时你的sac和rr数是大头，可以直接做完四个任务跑路。
+### 常见的任务/试炼组合
 
->在这类任务中，有两个特殊的东西：Warmth Devourer和Gambling Beast。拿这两个任务意味着你的lr要到头了，一般在任务#3或#4拿。如果这两东西出现在前期，请慎重考虑是否选取！（特例是诅咒触发的Gambling Beast，可以拿一大堆青绿再拿诅咒开闸）
+#### <font color='FFCC00'> <b>Jester's Trick</b> </font> + <font color='FFCC00'> <b>Interest Scheme</b> </font>
 
-2.若你无献祭的pulls或pull很少：你需要完成一次100挑战数的lr积累本金。
+(预期350-450pulls和八千以上的飞箱)
 
-:::tip
+非常丧心病狂的组合，主要玩法是通过这两个核动力任务狂转飞箱，获取大量的pulls和飞箱。
 
-跑到100轮次的核心是随机boons的任务
+综合收益极高，强烈推荐。
 
-无论怎样，你都需要Hoarder或Equilibrium支撑你到100轮次。
+如果可以的话，尽可能在拥有`Loot Chest Bomb`的线路开始游玩，能达到最高效果。
 
-:::
+玩法套路是不停青黄循环，青黄会给予大量飞箱，Jester能从飞箱中转出大量的pulls，IS又能从pulls中转出大量飞箱，超级循环机。
+
+本组合如果你想专注开飞箱，你甚至可以无视绯红色信标
+
+需要注意的是，**本任务在SE、火山、sky效果最佳，corkus尽量不要用，峡谷完全不要用**，因为飞箱能开出来的神话取决于地区等级，而后两者的等级区间较低，开出来的神话范围很差。
+
+核心任务:
++ <font color='FFCC00'><tip>Interest Scheme</tip> </font>
++ <font color='FFCC00'><tip>Jester's Trick</tip> </font>
+
+配合极好的子任务:
++ <font color='FFCC00'><tip>Hoarder</tip> </font>
++ <font color='FFCC00'><tip>Materialism</tip></font>
++ <font color='DDDDDD'><tip>Complete Chaos</tip></font>
+
+可与本组合配合的其他任务：
++ <font color='DDDDDD'><tip>Redemption</tip></font>
++ <font color='DDDDDD'><tip>High Roller</tip> </font>
++ <font color='AA00AA'><tip>Cleansing Ritual</tip></font>
++ <font color='00BB00'><tip>Chronokinesis</tip> </font>
+
+#### <font color='AA00AA'> <b>Porphyrophobia</b> </font> + <font color='AA00AA'> <b>Equilibrium</b> </font>
+
+(预期450-650pulls)
+
+传统派。
+
+狂刷紫信标，equi能保证你的强度能跟上怪物的强度增长，porph能提供大量的pulls。
+
+注意本任务最好最好吃绯红信标来提高收益。
+
+核心任务:
++ <font color='AA00AA'><tip>Equilibrium </tip> </font>
++ <font color='AA00AA'><tip>Porphyrophobia </tip> </font>
+
+配合极好的子任务：
++ <font color='DDDDDD'><tip>Complete Chaos </tip> </font>
++ <font color='AA00AA'><tip>Cleansing Ritual</tip> </font>
++ <font color='AA00AA'><tip>Inner Peace</tip> </font>
+
+可与本组合配合的其他任务:
++ <font color='DDDDDD'><tip>Redemption </tip> </font>
++ <font color='DDDDDD'><tip>High Roller </tip> </font>
+
+#### <font color='5555FF'> <b>Gourmand</b> </font> + <font color='FFAA00'> <b>Optimism</b> </font>
+
+(预期600-800pulls)
+
+有点牛逼的新时代组合。
+
+Gourmand增强后来了个大的
+
+注意，进行这个组合的时候，不要把彩虹信标干到100轮，也别把深灰信标提前吃掉。
+
+总体策略是，通过红信标和白信标确保挑战次数达到90轮左右，尽早用绿信标塞爆你的计时器，全程保持4-5个信标选数防止最后猴戏失败，直到90轮。
+
+然后，在信标选数达到6及以上时，把所有的信标刷新次数用掉。这个时候你可以不用彩虹信标效果了，但别吃满彩虹信标。
+
+为了最大化你的pulls获取，还有一种邪门方法：你可以尝试全程保持6-8的信标选数，并且在每轮挑战中都刷新一次。这样，像青、红、绿这种不会连续出现的信标，现在每轮挑战都能出现，以此来提高你的pulls总数。这种方法风险更高，实施起来也更难，而且你需要保证青红绿都在一轮内同步。
+
+核心任务:
++ <font color='5555FF'><tip>Gourmand </tip> </font>
++ <font color='FFAA00'><tip>Optimism </tip> </font>
+
+可与本组合配合的其他任务:
++ <font color='DDDDDD'><tip>Redemption </tip> </font>
++ <font color='DDDDDD'><tip>High Roller</tip> </font>
++ <font color='FFAA00'><tip>Backup Beat</tip> </font>
+
+#### Gambling Beast 
+
+在通过sac之后存储大量pulls后，可以通过赌博怪兽来一次获取大量rr来获取大量奖励。
+
+此组合假设你在第二个绯红信标拿到赌博野兽，并优先考虑怎么最大化从赌博野兽薅rr次数。
+
+为了尽可能最大化利用赌博野兽，你需要在拿到第二个绯红信标前后，通过绿信标积累大量的计时。为了做到这一点，你可以单吃灰(不叠青)来加快进度，你的目标是在20挑战之前至少完成3个任务，并且通过橙信标持有足够的信标选数。
+
+以下任务可以顺便提高你的rr次数，或者提高稳定性：
++ <font color='DDDDDD'><tip>Redemption </tip> </font>
++ <font color='DDDDDD'><tip>High Roller</tip> </font>
++ <font color='FFAA00'><tip>Backup Beat</tip> </font>
++ <font color='FFAA00'><tip>Stasis</tip> </font>
+
+为了在吃到赌博野兽之前留出足够的时间来完成所有的灰信标，并且堆叠足够的绿信标，理想情况下，第一个绯红信标应该拿Ultimate Sacrifice或者Hubris，因为它们能提供10次挑战的缓冲；只要Warmth Devourer别吃太多挑战，你也可以拿。
+
+如果你成功在第二个绯红信标拿到了赌博野兽，那么狂用青叠绿信标就完事了。这么一套下来你能拿到6\~15的rr次数。
 
 :::warning
-
-如果你脸黑，没有拿到任何Reward Sacrifice，那我建议你直接跑路。
-
-如果继续跑长途但是最终箱没出货，那你两个小时就白搭进去了
-
+如果赌博野兽将你的计时器归零，而且你又没在红信标里面，那么<font color='FFAA00'><tip>Stasis</tip></font>会阻止你的游戏结束，这样做甚至能让你第一个试炼就可以吃赌博野兽。但是这样做不会让你继续获得rr次数，因为如果赌博野兽吃的时间不足，那就不会获得rr次数。
 :::
 
->组合1:Cleansing Ritual+Equilibrium+任意两个rr，sac类任务。这个无脑保送100轮，没啥好说的。
+#### Lights Out + Chrono
 
->组合2:Materialism+Equilibrium、Hoarder2选1+任意两个rr，sac类任务。开飞箱的同时顺便保送100轮。手法是拿红到100后全拿诅咒，注意穿插拿绿续时长。飞箱出神话的概率还行，两把一个都算脸黑
+长途的另外一种组合，虽然效果通常不如其他策略，但是可以加快挑战速度。
 
->组合3:Equilibrium+3个rr，sac类任务。与cr类不同，这个需要手动拿红到100挑战数。
+除了Lights Out试炼以外，以下任务也会有帮助：
 
-:::warning 请特别留意Safety Seeker的负面效果！
+几乎必拿：
++ <font color='00BB00'><tip>Chronokinesis</tip> </font>
 
-Safety Seeker让你三选变两选，这可能导致你无法一直拿青紫/续不上彩虹信标/续不上红绿！
+可以拿：
++ <font color='DDDDDD'><tip>Redemption </tip> </font>
++ <font color='DDDDDD'><tip>High Roller</tip> </font>
++ <font color='AA00AA'><tip>Porphyrophobia</tip> </font>
 
-请尝试用Materialism消除黄信标，或使用橙信标扩充选择。
 
-:::
+#### 无组合
 
->组合4:Complete Chaos+上述的任意类型。Complete Chaos可以塞给你额外的灰信标，大大提高了LR的灵活性。（就是赌博了，这b任务有时候也会演你）
+有时候你可能拿不到合适的任务组合，但是还是想把这把lr赤完，那你可以尝试以下任务：
++ <font color='DDDDDD'><tip>Redemption </tip> </font>
++ <font color='DDDDDD'><tip>High Roller</tip> </font>
++ <font color='AA00AA'><tip>Porphyrophobia</tip> </font>
++ <font color='AA00AA'><tip>Inner Peace</tip> </font>
 
-:::tip
+<font color='AA00AA'><tip>Porphyrophobia</tip> </font> + <font color='AA00AA'><tip>Inner Peace</tip> </font>仍然可以有200+的pulls
 
-如果你想跑长途但是没有拿到上述组合，怎么办？
 
-一直拿诅咒直到你打不过，然后投降开下一把。
+#### 思维导图
 
-:::
+这个导图可以让你有一个明确的任务抓取思路。
 
+优先级按照红黄绿依次降低。
+
+![](/assets/img/lootrun.md-02-24-22-26-25.png)
+
+![](/assets/img/lootrun.md-02-24-22-26-32.png)
+
+![](/assets/img/lootrun.md-02-24-22-26-40.png)
 
 ### 关于试炼
 

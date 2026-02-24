@@ -61,6 +61,63 @@
     },
     "装备品质":{
         "description":"这里是这件装备的品质，在下文有介绍。旁边的数字为这件装备被重新鉴定的次数，[3]表示这件装备一共鉴定了三次。"
+    },
+    "Cleansing Greed": {
+        "description": "每次开启飞箱后，随机清除1个诅咒"
+    },
+    "Materialism": {
+        "description": "所有挑战额外附加黄色信标的效果"
+    },
+    "Hoarder": {
+        "description": "每当你从箱子中累计开出30件物品时，获得1个祝福"
+    },
+    "Jester's Trick": {
+        "description": "每当你从飞箱中累计开出20件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获得一个"
+    },
+    "Interest Scheme": {
+        "description": "每当你获得2次抽取次数时，都会为你下一次完成黄色信标时额外奖励1个飞箱(上限12个)"
+    },
+    "Orphion's Grace": {
+        "description": "每个祝福额外增加50%效果"
+    },
+    "Gourmand": {
+        "description": "每累计见到2个信标后，获得1次信标刷新机会"
+    },
+    "Porphyrophobia": {
+        "description": "每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍"
+    },
+    "Cleansing Ritual": {
+        "description": "每次完成挑战后，可以消除1个诅咒，并增加1个挑战轮数"
+    },
+    "Equilibrium": {
+        "description": "每得到2个诅咒后，获得1个随机祝福"
+    },
+    "Inner Peace": {
+        "description": "诅咒效果和上限折半"
+    },
+    "Stasis": {
+        "description": "在信标选择阶段，计时器不会减少时间(持续上限5min)"
+    },
+    "Chronokinesis": {
+        "description": "每开启一个宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s"
+    },
+    "Optimism": {
+        "description": "每次刷新信标后，获得1 pull"
+    },
+    "Backup Beat": {
+        "description": "每累计获得360s的时间后，增加一次信标刷新机会"
+    },
+    "Thrill Seeker": {
+        "description": "红色信标会额外奖励1次从2个祝福中选取1个的机会"
+    },
+    "High Roller": {
+        "description": "获得1次结算重掷机会和10次抽取次数"
+    },
+    "Redemption": {
+        "description": "获得1次奖励献祭机会"
+    },
+    "Complete Chaos": {
+        "description": "每次完成挑战后，额外获得1个随机信标效果"
     }
 
     

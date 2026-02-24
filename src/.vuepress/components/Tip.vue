@@ -5,7 +5,9 @@
   @mousemove="updateTooltipPosition" 
   @mouseleave="hideTooltip"
     @click.stop="toggleTooltipFixed($event)" style="cursor: pointer;">
-    <slot></slot>
+    
+    <span ref="slotContent"><slot></slot></span>
+    
     <div v-if="tooltipVisible" ref="tooltip" class="tooltip"
       :style="{ top: tooltipTop + 'px', left: tooltipLeft + 'px' }" v-html="tipData.description"></div>
   </span>
@@ -18,7 +20,8 @@ export default {
   props: {
     name: {
       type: String,
-      required: true
+      // 2. 移除 required: true，改为默认空字符串
+      default: "" 
     },
     highlight: {
       type: Boolean,
@@ -32,12 +35,20 @@ export default {
       tooltipTop: 0,
       tooltipLeft: 0,
       fixedPageX: 0,
-      fixedPageY: 0
+      fixedPageY: 0,
+      // 3. 新增变量，用于存储从插槽中提取的文本
+      autoName: "" 
     };
   },
   computed: {
+    // 4. 新增计算属性：决定最终使用哪个词去查 JSON
+    actualName() {
+      // 优先使用传入的 name，如果没传，则使用自动提取的 autoName
+      return this.name || this.autoName;
+    },
     tipData() {
-      return tipData[this.name] || {
+      // 5. 改用 actualName 匹配数据
+      return tipData[this.actualName] || {
         description: "无描述"
       };
     }
@@ -63,9 +74,6 @@ export default {
       this.isTooltipFixed = !this.isTooltipFixed;
 
       if (this.isTooltipFixed) {
-        // 判断是否移动端
-        
-
         if (isMobile) {
           this.fixedPageX = 10;
           this.fixedPageY = event.pageY;
@@ -77,10 +85,8 @@ export default {
           this.fixedPageX = offsetX;
           this.fixedPageY = event.pageY;
         }
-
         this.updateTooltipFixedPosition();
       }
-
       this.tooltipVisible = this.isTooltipFixed;
     },
     updateTooltipFixedPosition() {
@@ -90,49 +96,56 @@ export default {
       }
     },
     handleClickOutside(event) {
-
       const tooltipEl = document.querySelector(".tooltip");
-      console.log("event.target:", event.target);
       const isMobile = window.innerWidth < 768 || window.innerWidth < window.innerHeight;
       if (tooltipEl && tooltipEl.contains(event.target) &&!isMobile) {
-        //console.log("点击在 tooltip 内部，不关闭");
-        return; // 不隐藏
+        return; 
       }
       this.isTooltipFixed = false;
       this.tooltipVisible = false;
-
     },
     updateTooltipPosition(event) {
       if (!event || this.isTooltipFixed) return;
 
       this.$nextTick(() => {
-        // 基础位置计算
         let top = event.pageY - window.scrollY + 10;
         let left = event.pageX + 10;
 
-        // 判断是否为手机端（竖屏或较小视口）
         const isMobile = window.innerWidth < 768 || window.innerWidth < window.innerHeight;
 
         if (isMobile) {
-          // 手机端固定在左上角
           this.tooltipTop = top;
           this.tooltipLeft = 10;
         } else {
-          // 桌面端右侧显示遮挡处理
           if (event.clientX > window.innerWidth * 0.58) {
-            left -= 330; // 向左偏移，避免遮挡
+            left -= 330; 
           }
           this.tooltipTop = top;
           this.tooltipLeft = left;
         }
       });
+    },
+    // 提取文本的逻辑封装，方便复用
+    extractSlotText() {
+      if (!this.name && this.$refs.slotContent) {
+        // 获取纯文本并去除首尾可能存在的空格与换行
+        this.autoName = (this.$refs.slotContent.textContent || "").trim();
+      }
     }
-
   },
   mounted() {
     this.boundHandleClickOutside = this.handleClickOutside.bind(this);
     document.addEventListener("click", this.boundHandleClickOutside);
     window.addEventListener("scroll", this.updateTooltipFixedPosition);
+
+    // 6. 组件挂载时提取一次文本
+    this.$nextTick(() => {
+      this.extractSlotText();
+    });
+  },
+  updated() {
+    // 7. （可选）如果你中间的文本是响应式动态渲染的，例如 <tip>{{ dynamicVar }}</tip>，确保文本更新时 autoName 也更新
+    this.extractSlotText();
   },
   beforeDestroy() {
     document.removeEventListener("click", this.handleClickOutside);
@@ -152,9 +165,7 @@ export default {
   max-width: 300px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
   font-size: 14px;
-
 }
-
 
 .tip-highlight {
   text-decoration: underline;
