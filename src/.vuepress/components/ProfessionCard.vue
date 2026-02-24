@@ -102,7 +102,7 @@ const MATERIAL_NAMES = {
     80: { wood: 'Pine Wood', paper: 'Pine Paper', ingot: 'Diamond Ingot', gem: 'Diamond Gem', string: 'Rice String', grain: 'Rice Grain', meat: 'Bass Meat', oil: 'Bass Oil' },
     90: { wood: 'Avo Wood', paper: 'Avo Paper', ingot: 'Molten Ingot', gem: 'Molten Gem', string: 'Sorghum String', grain: 'Sorghum Grain', meat: 'Molten Meat', oil: 'Molten Oil' },
     100: { wood: 'Sky Wood', paper: 'Sky Paper', ingot: 'Voidstone Ingot', gem: 'Voidstone Gem', string: 'Hemp String', grain: 'Hemp Grain', meat: 'Starfish Meat', oil: 'Starfish Oil' },
-    110: { wood: 'Dernic Wood', paper: 'Dernic Paper', ingot: 'Dernic Ingot', gem: 'Dernic Gem', string: 'Dernic String', grain: 'Dernic Grain', meat: 'Dernic Fish Meat', oil: 'Dernic Oil' }
+    110: { wood: 'Dernic Wood', paper: 'Dernic Paper', ingot: 'Dernic Ingot', gem: 'Dernic Gem', string: 'Dernic String', grain: 'Dernic Grain', meat: 'Dernic Meat', oil: 'Dernic Oil' }
 };
 
 // 职业配方数据 (保持不变)
