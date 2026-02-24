@@ -237,7 +237,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = "555555">**暗灰色信标**</font> | 获得 **3(6)** 个随机诅咒，同时最终奖励抽取物品数 **+3(6)** | 1 |
 | <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+5(10)** | 1 |
 | <font color = "grey">**灰色信标**</font> | 从 **3(4)** 个任务中选择1个接取 | 3 |
-| <font color = "red">**红色信标**</font> | 挑战轮数 **+2(4)**，且 **2(4)** 轮内不会有时间奖励 | 无上限 |
+| <font color = "red">**红色信标**</font> | 挑战轮数 **+3(5)**，且 **3(5)** 轮内不会有时间奖励 | 无上限 |
 | <font color = AA0000>**绯红色信标**</font> | 从**2(3)**个试炼中选择1个接取 | 2 |
 | <font color = FF66FF>**彩虹信标**</font> | 在接下来的 **10(20)** 轮中，出现的信标均升级为Vibrant | 无上限 |
 
@@ -412,7 +412,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出20件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获得一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2次抽取次数时，都会为你下一次完成黄色信标时额外奖励1个飞箱(上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%效果|
-| <font color='5555FF'> **Gourmand** </font>     | 每当你获得1个祝福时，获得1次信标刷新机会|
+| <font color='5555FF'> **Gourmand** </font>     | 每累计见到2个信标选择后，获得1次信标刷新机会|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
 | <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，并增加1个挑战轮数  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每得到2个诅咒后，获得1个随机祝福|
@@ -422,9 +422,9 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='FFAA00'> **Optimism** </font>         | 每次刷新信标后，获得1 pull|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
 | <font color='FF5555'> **Thrill Seeker** </font>         | 红色信标会额外奖励1次从2个祝福中选取1个的机会|
-| <font color='EEEEEE'> **High Roller** </font>         | 获得1次结算重掷机会和10次抽取次数|
-| <font color='EEEEEE'> **Redemption** </font>          | 获得1次奖励献祭机会|
-| <font color='EEEEEE'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
+| <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10次抽取次数|
+| <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
+| <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
 :::tip
 在完成`获得时间`的条件时
 
