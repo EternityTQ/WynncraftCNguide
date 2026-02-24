@@ -1,6 +1,6 @@
 ---
 icon: scroll
-name: 敬请期待
+title: 敬请期待
 ---
 
 
