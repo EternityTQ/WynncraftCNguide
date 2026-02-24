@@ -86,6 +86,13 @@ export default sidebar({
           collapsible: true,
         },
         {
+          text: "level 111~120",
+          icon: "book",
+          prefix: "lvl111-120/",
+          children: "structure",
+          collapsible: true,
+        },
+        {
           text: "特殊/过时任务",
           icon: "book",
           prefix: "special/",
