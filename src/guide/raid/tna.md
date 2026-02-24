@@ -73,7 +73,7 @@ Void hole下方有粉色方块作为位置标记，trapper的技能Fire Creep会
 ![](/assets/img/raids/tna1-2.png)
 这一挑战中的区域十分开阔，中间有一凸起的平台，需要一名玩家站立在上方来启动倒计时。
 
-每当倒计时数减少5s时，场景内会随机刷新出一个Void hole。
+每当倒计时数减少8s时，场景内会随机刷新出一个Void hole。
 
 Void hole会随机刷在场地的随机位置，在到时间时请务必注意Void hole
 
