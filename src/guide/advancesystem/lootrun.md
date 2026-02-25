@@ -412,7 +412,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出20件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获得一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2次抽取次数时，都会为你下一次完成黄色信标时额外奖励1个飞箱(上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%效果|
-| <font color='5555FF'> **Gourmand** </font>     | 每累计见到2个信标后，获得1次信标刷新机会|
+| <font color='5555FF'> **Gourmand** </font>     | 在蓝信标界面每累计见到2个祝福选择后，获得1次信标刷新机会|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
 | <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，并增加1个挑战轮数  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每得到2个诅咒后，获得1个随机祝福|
