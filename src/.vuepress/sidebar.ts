@@ -133,9 +133,10 @@ export default sidebar({
         children: "structure",
       }, "class", {
         text: "新手指南",
-        link: "/newbie/",
+        prefix: "newbie/",
         icon: "route",
         collapsible: true,
+        children: ["beforegame","earlygame","midgame","lategame","endgame"],
       }, "npcs", "dungeon", "profession", {
         text: "RAID",
         prefix: "raid/",

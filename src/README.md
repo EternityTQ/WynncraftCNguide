@@ -1,6 +1,6 @@
 ---
 home: true
-icon: home
+icon: house
 title: 主页
 heroImage: /logo.svg
 
