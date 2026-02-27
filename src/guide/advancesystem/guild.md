@@ -103,23 +103,23 @@ guild obj相较于daily obj，会有更高的完成条件，同时存在Raid Com
 + Recruit
   普通成员，没有任何特殊权限
 
-+ Recruiter(<HopeIcon icon="star" />)
++ Recruiter(::star::)
   可以邀请其他玩家加入公会
 
-+ Captain(<HopeIcon icon="star" /><HopeIcon icon="star" />)
++ Captain(::star::::star::)
   可以将成员的等级在Recruiter及以下调整
   可以对其他公会的领地发起攻击
 
-+ Strategist(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)
++ Strategist(::star::::star::::star::)
   可以将成员的等级在Captain及以下调整，同时可以请离Captain及以下的成员
   可以发起攻击/发起防御
   可以使用高等级的公会银行
 
-+ Chief(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)
++ Chief(::star::::star::::star::::star::)
   可以将成员的等级在Strategist及以下调整，同时可以请离Strategist及以下的成员
   可以编辑公会旗帜
 
-+ Owner(<HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" /><HopeIcon icon="star" />)
++ Owner(::star::::star::::star::::star::::star::)
   公会的唯一创始人
   拥有所有权限
 
@@ -140,15 +140,6 @@ Everyone等级的银行任何人都可以使用
 
 因此如果你希望只拿出一个物品，需要先全部取出，在背包内分离一个后，再将剩余物品重新放回银行内
 
-## 公会战
-
-关于公会战的内容，由于笔者技艺不精，这里不再加以讲解，但是这是整个公会系统的核心所在(纯大便。。)
-
-公会战是老外公会的重要社交方式，俗话说不打不相识
-
-如果有兴趣，可以移步来自**Tankofpacer**大神的视频讲解
-
-<https://www.bilibili.com/video/BV1KD4y1Y7hH/>
 
 ## 公会广告
 

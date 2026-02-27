@@ -15,7 +15,7 @@ icon: map
 
 当然，你也可以选择前往海的对岸——Gavel省
 
-![](/assets/img/thingstodo-1.png)
+![](/assets/img/midgame.md-02-28-02-45-49.png)
 
 这一篇将会采用wynn线和gavel线两种线路，帮助读者理清在这两块地有什么好做的。
 
