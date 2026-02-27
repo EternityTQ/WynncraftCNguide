@@ -12,6 +12,7 @@ import gt from "./components/GlitchText.vue"
 import jc from "./components/JobCard.vue"
 import ks from "./components/KeySkills.vue"
 import pc from "./components/ProfessionCard.vue"
+import rb from "./components/rb.vue"
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
     app.component("CC", CC);
@@ -27,5 +28,6 @@ export default defineClientConfig({
     app.component("jc", jc);
     app.component("ks", ks);
     app.component("pc", pc);
+    app.component("rb",rb);
   },
 });
