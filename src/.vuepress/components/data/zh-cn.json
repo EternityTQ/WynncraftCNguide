@@ -101,7 +101,7 @@
     "properties": {
       "aoe": 8,
       "duration": 120,
-      "speed": 20
+      "speed": 40
     },
     "stats_keys": [
       "aoe",
@@ -699,7 +699,7 @@
       "cooldown",
       "slowness"
     ],
-    "note": ""
+    "note": "引爆后的阵法每次攻击到敌人时，叠加一层减速，最高可以叠加至90%减速。"
   },
   "Pyrotechnics": {
     "name": "烟火术",

@@ -418,7 +418,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='AA00AA'> **Equilibrium** </font>         | 每得到2个诅咒后，获得1个随机祝福|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
-| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
+| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
 | <font color='FFAA00'> **Optimism** </font>         | 每刷新掉1个信标选数，就增加一次信标刷新机会。|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
 | <font color='FF5555'> **Thrill Seeker** </font>         | 红色信标会额外奖励1次从2个祝福中选取1个的机会|
