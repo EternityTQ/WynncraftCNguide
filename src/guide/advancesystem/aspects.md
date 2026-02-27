@@ -66,9 +66,210 @@ Aspect的装备取决于你需要什么。
 
 最后，legendary基本上是一些提升舒适度的小asp，取决于你的需求。
 
-### ASP推荐
+## ASP推荐
 
 这里是一些你可以直接抄的现成作业
+
+叠加：笔者游戏理解并非最优秀，下列作业仅供参考
+
+>而且笔者号上asp都没满。。
+
+### 战士
+
+:::tabs
+
+@tab Fallen
+![](/assets/img/aspects.md-02-28-01-03-19.png)
+
+![](/assets/img/aspects.md-02-28-01-03-37.png)
+
+![](/assets/img/aspects.md-02-28-01-04-47.png)
+
+![](/assets/img/aspects.md-02-28-01-04-50.png)
+
+![](/assets/img/aspects.md-02-28-01-09-19.png)
+
+@tab Battle Monk
+![](/assets/img/aspects.md-02-28-01-09-04.png)
+
+![](/assets/img/aspects.md-02-28-01-09-27.png)
+
+![](/assets/img/aspects.md-02-28-01-09-40.png)
+
+![](/assets/img/aspects.md-02-28-01-10-09.png)
+
+![](/assets/img/aspects.md-02-28-01-10-25.png)
+
+
+@tab Paladin
+
+![](/assets/img/aspects.md-02-28-01-10-32.png)
+
+![](/assets/img/aspects.md-02-28-01-10-38.png)
+
+![](/assets/img/aspects.md-02-28-01-10-41.png)
+
+![](/assets/img/aspects.md-02-28-01-10-48.png)
+
+![](/assets/img/aspects.md-02-28-01-10-56.png)
+
+
+:::
+
+### 弓箭手
+
+:::tabs
+
+@tab Boltslinger
+
+![](/assets/img/aspects.md-02-28-01-19-49.png)
+
+![](/assets/img/aspects.md-02-28-01-20-06.png)
+
+![](/assets/img/aspects.md-02-28-01-20-12.png)
+
+![](/assets/img/aspects.md-02-28-01-20-17.png)
+
+![](/assets/img/aspects.md-02-28-01-20-20.png)
+
+@tab Trapper
+
+![](/assets/img/aspects.md-02-28-01-21-55.png)
+
+![](/assets/img/aspects.md-02-28-01-22-00.png)
+
+![](/assets/img/aspects.md-02-28-01-22-04.png)
+
+![](/assets/img/aspects.md-02-28-01-22-12.png)
+
+![](/assets/img/aspects.md-02-28-01-22-37.png)
+
+@tab SharpShooter
+
+![](/assets/img/aspects.md-02-28-01-22-43.png)
+
+![](/assets/img/aspects.md-02-28-01-23-16.png)
+
+![](/assets/img/aspects.md-02-28-01-23-21.png)
+
+![](/assets/img/aspects.md-02-28-01-23-32.png)
+
+![](/assets/img/aspects.md-02-28-01-23-53.png)
+
+:::
+
+### 法师
+
+:::tabs
+
+@tab RiftWalker
+
+(马上要更新了，更新后再补)
+
+
+
+@tab LightBender
+
+![](/assets/img/aspects.md-02-28-01-31-41.png)
+
+![](/assets/img/aspects.md-02-28-01-31-48.png)
+
+![](/assets/img/aspects.md-02-28-01-31-52.png)
+
+![](/assets/img/aspects.md-02-28-01-31-55.png)
+
+![](/assets/img/aspects.md-02-28-01-32-16.png)
+
+@tab Arcanist
+
+![](/assets/img/aspects.md-02-28-01-32-19.png)
+
+![](/assets/img/aspects.md-02-28-01-32-23.png)
+
+![](/assets/img/aspects.md-02-28-01-32-25.png)
+
+![](/assets/img/aspects.md-02-28-01-32-29.png)
+
+(还有一个是新版本的)
+
+:::
+
+### 刺客
+
+:::tabs
+
+@tab Shade
+
+![](/assets/img/aspects.md-02-28-01-36-11.png)
+
+![](/assets/img/aspects.md-02-28-01-36-20.png)
+
+![](/assets/img/aspects.md-02-28-01-36-24.png)
+
+![](/assets/img/aspects.md-02-28-01-36-33.png)
+
+![](/assets/img/aspects.md-02-28-01-36-42.png)
+
+@tab Trickster
+
+![](/assets/img/aspects.md-02-28-01-36-48.png)
+
+![](/assets/img/aspects.md-02-28-01-36-55.png)
+
+![](/assets/img/aspects.md-02-28-01-37-02.png)
+
+![](/assets/img/aspects.md-02-28-01-37-09.png)
+
+![](/assets/img/aspects.md-02-28-01-37-36.png)
+
+@tab Acrobat
+
+![](/assets/img/aspects.md-02-28-01-37-41.png)
+
+![](/assets/img/aspects.md-02-28-01-39-11.png)
+
+![](/assets/img/aspects.md-02-28-01-39-14.png)
+
+![](/assets/img/aspects.md-02-28-01-39-18.png)
+
+![](/assets/img/aspects.md-02-28-01-39-20.png)
+
+:::
+
+### 萨满
+
+:::tabs
+
+@tab Summoner
+
+![](/assets/img/aspects.md-02-28-01-40-23.png)
+
+![](/assets/img/aspects.md-02-28-01-40-28.png)
+
+![](/assets/img/aspects.md-02-28-01-40-49.png)
+
+![](/assets/img/aspects.md-02-28-01-41-01.png)
+
+![](/assets/img/aspects.md-02-28-01-41-16.png)
+
+@tab Ritualist
+
+(看新版本情况)
+
+@tab Acolyte
+
+![](/assets/img/aspects.md-02-28-01-39-46.png)
+
+![](/assets/img/aspects.md-02-28-01-39-50.png)
+
+![](/assets/img/aspects.md-02-28-01-39-55.png)
+
+![](/assets/img/aspects.md-02-28-01-39-58.png)
+
+![](/assets/img/aspects.md-02-28-01-40-44.png)
+
+:::
+
 
 
 
