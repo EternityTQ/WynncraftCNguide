@@ -13,6 +13,8 @@ import jc from "./components/JobCard.vue"
 import ks from "./components/KeySkills.vue"
 import pc from "./components/ProfessionCard.vue"
 import rb from "./components/rb.vue"
+import MythicItem from "./components/MythicItem.vue"
+import ipb from "./components/ItemPanelBlock.vue"
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
     app.component("CC", CC);
@@ -29,5 +31,8 @@ export default defineClientConfig({
     app.component("ks", ks);
     app.component("pc", pc);
     app.component("rb",rb);
+    app.component("MythicItem", MythicItem);
+    app.component("ipb",ipb);
+
   },
 });
