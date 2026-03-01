@@ -436,16 +436,14 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
 | <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
-| <font color='FFAA00'> **Optimism** </font>         | 每刷新掉1个信标选数，就增加一次信标刷新机会。|
+| <font color='FFAA00'> **Optimism** </font>         | 每刷新掉1个信标选数，就获得1 Pull。|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
 | <font color='FF5555'> **Thrill Seeker** </font>         | 红色信标会额外奖励1次从2个祝福中选取1个的机会|
-| <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10次抽取次数|
+| <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
 | <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
 :::tip
-在完成`获得时间`的条件时
-
-使用`/kill`快速减少时间是非常不错的选择
+在完成`获得时间`的条件时，溢出的时间仍然作数。
 :::
 
 :::danger
@@ -516,9 +514,9 @@ rr相当于重抽一次，且不会保留你重抽前的任何物品
 
 在确认开启前，如果你通过任务获得了sac数，你可以随时选择献祭奖励(End Reward Sacrifice)
 
-sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局
+sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局。你的sac越多，能保存的pulls就越多。
 
-相当于保底机制
+相当于保底机制，省的这局所有pulls全部白搭。。
 
 ![=400x](/assets/img/lootrun13.jpg)
 
