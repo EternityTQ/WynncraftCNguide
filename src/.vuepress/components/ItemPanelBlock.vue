@@ -9,7 +9,7 @@
       </p>
 
       <p class="damage">
-        <span v-if="item.hp" class="health">❤ Health: +{{ item.hp }}</span><br v-if="item.hp">
+        <span v-if="item.hp" class="health">❤ Health: {{ item.hp > 0 ? '+' : '' }}{{ item.hp }}</span><br v-if="item.hp">
         
         <span v-if="isNonZeroDamage(item.nDam)" class="neutral-damage">✤ Neutral Damage: {{ item.nDam }}<br></span>
         <span v-if="isNonZeroDamage(item.eDam)"><span><span class="earth">❋ Earth</span> <span class="gray">Damage: {{ item.eDam }}</span></span><br></span>

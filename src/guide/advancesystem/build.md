@@ -164,56 +164,56 @@ https://wynnbuilder.github.io
 #### 雷
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
-| Caesura | Delirium | Tera | Electro Mage's Boots |
-| Neuron | Tesla | Asphyxia | Sine |
-| Cumulonimbus | Discharge | Leictreach Makani | Weatherwalkers |
-| Logistics | Stratosphere | Antebellum | Steamjet Walkers |
-| Nychthemeron | Bete Noire | Entanglement | Ventus Tail |
-| Hollow Virtue | Etiolation | | |
-| | Insignia | | |
+| <MythicItem mode="inline">Caesura</MythicItem> | <MythicItem mode="inline">Delirium</MythicItem> | <MythicItem mode="inline">Tera</MythicItem> | <MythicItem mode="inline">Electro Mage's Boots</MythicItem> |
+| <MythicItem mode="inline">Neuron</MythicItem> | <MythicItem mode="inline">Tesla</MythicItem> | <MythicItem mode="inline">Asphyxia</MythicItem> | <MythicItem mode="inline">Sine</MythicItem> |
+| <MythicItem mode="inline">Cumulonimbus</MythicItem> | <MythicItem mode="inline">Discharge</MythicItem> | <MythicItem mode="inline">Leictreach Makani</MythicItem> | <MythicItem mode="inline">Weatherwalkers</MythicItem> |
+| <MythicItem mode="inline">Logistics</MythicItem> | <MythicItem mode="inline">Stratosphere</MythicItem> | <MythicItem mode="inline">Antebellum</MythicItem> | <MythicItem mode="inline">Steamjet Walkers</MythicItem> |
+| <MythicItem mode="inline">Nychthemeron</MythicItem> | <MythicItem mode="inline">Bete Noire</MythicItem> | <MythicItem mode="inline">Entanglement</MythicItem> | <MythicItem mode="inline">Ventus Tail</MythicItem> |
+| <MythicItem mode="inline">Hollow Virtue</MythicItem> | <MythicItem mode="inline">Etiolation</MythicItem> | | |
+| | <MythicItem mode="inline">Insignia</MythicItem> | | |
 
 
 #### 水
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
-| Anamnesis | Stratosphere | Seipodon | Pro Tempore |
-| Cumulonimbus | Soul Signal | Aleph Null | Virtuoso |
-| Aquamarine | Aquarius | Rapids | Steamjet Walkers |
-| Neuron | Time Rift | Entanglement | Wavedash |
-| Gnossis | Schadenfreude | Efteling |  |
-| Resolution | | Memento | |
+| <MythicItem mode="inline">Anamnesis</MythicItem> | <MythicItem mode="inline">Stratosphere</MythicItem> | <MythicItem mode="inline">Seipodon</MythicItem> | <MythicItem mode="inline">Pro Tempore</MythicItem> |
+| <MythicItem mode="inline">Cumulonimbus</MythicItem> | <MythicItem mode="inline">Soul Signal</MythicItem> | <MythicItem mode="inline">Aleph Null</MythicItem> | <MythicItem mode="inline">Virtuoso</MythicItem> |
+| <MythicItem mode="inline">Aquamarine</MythicItem> | <MythicItem mode="inline">Aquarius</MythicItem> | <MythicItem mode="inline">Rapids</MythicItem> | <MythicItem mode="inline">Steamjet Walkers</MythicItem> |
+| <MythicItem mode="inline">Neuron</MythicItem> | <MythicItem mode="inline">Time Rift</MythicItem> | <MythicItem mode="inline">Entanglement</MythicItem> | <MythicItem mode="inline">Wavedash</MythicItem> |
+| <MythicItem mode="inline">Gnossis</MythicItem> | <MythicItem mode="inline">Schadenfreude</MythicItem> | <MythicItem mode="inline">Efteling</MythicItem> | |
+| <MythicItem mode="inline">Resolution</MythicItem> | | <MythicItem mode="inline">Memento</MythicItem> | |
 
 #### 火
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
-| Capsid Frame | Soulflare | Black Lily | Mantlewalkers |
-| Dreadnought | Hetusol | Greaves of the Veneer | Phage Pins |
-| Titanomachia | Blank Stare | Cinderchain | Nether's Scar  |
-| Transplanted Psyche | Medeis | Doomsday Omen | Equites |
-| Albacore | Empyreal Emberplate | Adrenaline | |
-| Sparkweaver | | | |
-| Darksteel Full Helm | | | |
-| Iosis| | | |
+| <MythicItem mode="inline">Capsid Frame</MythicItem> | <MythicItem mode="inline">Soulflare</MythicItem> | <MythicItem mode="inline">Black Lily</MythicItem> | <MythicItem mode="inline">Mantlewalkers</MythicItem> |
+| <MythicItem mode="inline">Dreadnought</MythicItem> | <MythicItem mode="inline">Hetusol</MythicItem> | <MythicItem mode="inline">Greaves of the Veneer</MythicItem> | <MythicItem mode="inline">Phage Pins</MythicItem> |
+| <MythicItem mode="inline">Titanomachia</MythicItem> | <MythicItem mode="inline">Blank Stare</MythicItem> | <MythicItem mode="inline">Cinderchain</MythicItem> | <MythicItem mode="inline">Nether's Scar</MythicItem> |
+| <MythicItem mode="inline">Transplanted Psyche</MythicItem> | <MythicItem mode="inline">Medeis</MythicItem> | <MythicItem mode="inline">Doomsday Omen</MythicItem> | <MythicItem mode="inline">Equites</MythicItem> |
+| <MythicItem mode="inline">Albacore</MythicItem> | <MythicItem mode="inline">Empyreal Emberplate</MythicItem> | <MythicItem mode="inline">Adrenaline</MythicItem> | |
+| <MythicItem mode="inline">Sparkweaver</MythicItem> | | | |
+| <MythicItem mode="inline">Darksteel Full Helm</MythicItem> | | | |
+| <MythicItem mode="inline">Iosis</MythicItem> | | | |
 
 #### 气
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
-| Propeller Hat | Conduit of Spirit | Dark Shroud | Steamjet Walkers |
-| Gale's Sight | Etiolation | Leictreach Makani | Cloudwalkers |
-| Unravel | Wanderlust | Anaerobic | Skidbladnir |
-| Cumulonimbus | Echoes of the Lost | The Ephemeral | Ventus Tail |
-| Keratoconus |  | Sagittarius |  |
-| Dune Storm |  | Second Wind |  |
+| <MythicItem mode="inline">Propeller Hat</MythicItem> | <MythicItem mode="inline">Conduit of Spirit</MythicItem> | <MythicItem mode="inline">Dark Shroud</MythicItem> | <MythicItem mode="inline">Steamjet Walkers</MythicItem> |
+| <MythicItem mode="inline">Gale's Sight</MythicItem> | <MythicItem mode="inline">Etiolation</MythicItem> | <MythicItem mode="inline">Leictreach Makani</MythicItem> | <MythicItem mode="inline">Cloudwalkers</MythicItem> |
+| <MythicItem mode="inline">Unravel</MythicItem> | <MythicItem mode="inline">Wanderlust</MythicItem> | <MythicItem mode="inline">Anaerobic</MythicItem> | <MythicItem mode="inline">Skidbladnir</MythicItem> |
+| <MythicItem mode="inline">Cumulonimbus</MythicItem> | <MythicItem mode="inline">Echoes of the Lost</MythicItem> | <MythicItem mode="inline">The Ephemeral</MythicItem> | <MythicItem mode="inline">Ventus Tail</MythicItem> |
+| <MythicItem mode="inline">Keratoconus</MythicItem> | | <MythicItem mode="inline">Sagittarius</MythicItem> | |
+| <MythicItem mode="inline">Dune Storm</MythicItem> | | <MythicItem mode="inline">Second Wind</MythicItem> | |
 
 
 #### 彩虹/通用
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
-| Morph-Stardust | Libra | Vaward | Capricorn |
-| Cumulonimbus | Far Cosmos | Rainbow Sanctuary | Epilogue |
-| Spectrum |  | Aleph Null | Pro Tempore |
-| Sequencer |  | Equalizer | Boots of Blue Stone |
-| | | Ringlets | |
+| <MythicItem mode="inline">Morph-Stardust</MythicItem> | <MythicItem mode="inline">Libra</MythicItem> | <MythicItem mode="inline">Vaward</MythicItem> | <MythicItem mode="inline">Capricorn</MythicItem> |
+| <MythicItem mode="inline">Cumulonimbus</MythicItem> | <MythicItem mode="inline">Far Cosmos</MythicItem> | <MythicItem mode="inline">Rainbow Sanctuary</MythicItem> | <MythicItem mode="inline">Epilogue</MythicItem> |
+| <MythicItem mode="inline">Spectrum</MythicItem> | | <MythicItem mode="inline">Aleph Null</MythicItem> | <MythicItem mode="inline">Pro Tempore</MythicItem> |
+| <MythicItem mode="inline">Sequencer</MythicItem> | | <MythicItem mode="inline">Equalizer</MythicItem> | <MythicItem mode="inline">Boots of Blue Stone</MythicItem> |
+| | | <MythicItem mode="inline">Ringlets</MythicItem> | |
 
 
 **其中，鞋子大多数情况下都使用对应属性合适的神话鞋子**
