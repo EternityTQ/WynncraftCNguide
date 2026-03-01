@@ -148,16 +148,18 @@ https://wynnbuilder.github.io
 
 对于每种元素类型，都有非常合适的优质单件可以优先考虑加入构筑：
 
+
+
 #### 地
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
-| Pisces | Delirium | Chain Rule | Crater Print |
-| Caesura | Terra's Mold | Tera | Pro Tempore |
-| Nychthemeron | Dondasch | Physalis | Repurposed Vessels |
-| Dune Storm | Bete Noire | Post-Ultima | Blind Thrust |
-| The Siren's Call | Leviathan | Anaerobic | Earthsky Eclipse |
-| Shawl of Gaea | Phantasmal Hostag | | Mantlewalkers |
-| Nuclear Emesis | | | |
+| <MythicItem mode="inline">Pisces</MythicItem> | <MythicItem mode="inline">Delirium</MythicItem> | <MythicItem mode="inline">Chain Rule</MythicItem> | <MythicItem mode="inline">Crater Print</MythicItem> |
+| <MythicItem mode="inline">Caesura</MythicItem> | <MythicItem mode="inline">Terra's Mold</MythicItem> | <MythicItem mode="inline">Tera</MythicItem> | <MythicItem mode="inline">Pro Tempore</MythicItem> |
+| <MythicItem mode="inline">Nychthemeron</MythicItem> | <MythicItem mode="inline">Dondasch</MythicItem> | <MythicItem mode="inline">Physalis</MythicItem> | <MythicItem mode="inline">Repurposed Vessels</MythicItem> |
+| <MythicItem mode="inline">Dune Storm</MythicItem> | <MythicItem mode="inline">Bete Noire</MythicItem> | <MythicItem mode="inline">Post-Ultima</MythicItem> | <MythicItem mode="inline">Blind Thrust</MythicItem> |
+| <MythicItem mode="inline">The Siren's Call</MythicItem> | <MythicItem mode="inline">Leviathan</MythicItem> | <MythicItem mode="inline">Anaerobic</MythicItem> | <MythicItem mode="inline">Earthsky Eclipse</MythicItem> |
+| <MythicItem mode="inline">Shawl of Gaea</MythicItem> | <MythicItem mode="inline">Phantasmal Hostage</MythicItem> | | <MythicItem mode="inline">Mantlewalkers</MythicItem> |
+| <MythicItem mode="inline">Nuclear Emesis</MythicItem> | | | |
 
 #### 雷
 | 头盔 | 胸甲 | 护腿 | 靴子 |

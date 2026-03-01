@@ -1,232 +1,314 @@
 <template>
-    <span v-if="mode === 'inline'" class="mythic-inline-wrapper" @mouseenter="showTooltip = true"
-        @mouseleave="showTooltip = false">
-        <span class="inline-text">
-            <slot>{{ name }}</slot>
-        </span>
-
-        <Transition name="fade">
-            <div v-show="showTooltip" class="mythic-tooltip">
-                <ItemPanelBlock :item="itemData" :icon="iconUrl" :identifications="identifications"
-                    :major-ids="majorIds" />
-            </div>
-        </Transition>
+  <span 
+    v-if="mode === 'inline'" 
+    class="mythic-inline-wrapper" 
+    @mouseenter="handleMouseEnter" 
+    @mouseleave="handleMouseLeave"
+    ref="wrapperRef"
+  >
+    <span class="inline-text" :class="itemTierClass" ref="slotRef">
+      <slot>{{ name }}</slot>
     </span>
+    
+    <ClientOnly>
+      <Teleport to="body">
+        <Transition name="fade">
+          <div 
+            v-if="showTooltip" 
+            class="mythic-tooltip-teleported"
+            :style="tooltipStyle"
+          >
+            <ItemPanelBlock 
+              v-if="hasValidData"
+              :item="itemData" 
+              :icon="iconUrl" 
+              :identifications="identifications" 
+              :major-ids="majorIds" 
+            />
+            <div v-else class="mythic-error-panel">
+              [物品数据读取失败: {{ resolvedName }}]
+            </div>
+          </div>
+        </Transition>
+      </Teleport>
+    </ClientOnly>
+  </span>
 
-    <div v-else class="mythic-block-wrapper">
-        <ItemPanelBlock :item="itemData" :icon="iconUrl" :identifications="identifications" :major-ids="majorIds" />
+  <div v-else class="mythic-block-wrapper">
+    <ItemPanelBlock 
+      v-if="hasValidData"
+      :item="itemData" 
+      :icon="iconUrl" 
+      :identifications="identifications" 
+      :major-ids="majorIds" 
+    />
+    <div v-else class="mythic-error-panel" style="width: 300px;">
+      [物品数据读取失败: {{ resolvedName }}]
     </div>
+  </div>
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
+import { ref, computed, onMounted } from 'vue';
 
-// 引入你存放在 data 目录下的 JSON 数据
 import itemsJson from './data/items.json';
 import majidJson from './data/majid.json';
 import mythicIconsJson from './data/mythic-icons.json';
 
-// 为了防止代码太长，把 UI 渲染部分写为内部私有组件 (可以直接在 setup 里写，或者拆出去)
-import ItemPanelBlock from './ItemPanelBlock.vue';
+import ItemPanelBlock from './ItemPanelBlock.vue'; 
 
 const props = defineProps({
-    name: {
-        type: String,
-        required: true
-    },
-    mode: {
-        type: String,
-        default: 'block', // 可选: 'block' | 'inline'
-    }
+  name: {
+    type: String,
+    default: '' 
+  },
+  mode: {
+    type: String,
+    default: 'block'
+  }
 });
 
-const showTooltip = ref(false);
+const slotRef = ref(null);
+const wrapperRef = ref(null);
+const slotText = ref(''); // 专门用于保存插槽提取到的文本
 
-// 1. 获取对应物品的底层数据
+// 挂载后：尝试读取插槽内的纯文本并去除首尾空格
+onMounted(() => {
+  if (slotRef.value) {
+    slotText.value = slotRef.value.textContent.trim();
+  }
+});
+
+// 计算出最终查询用的名字 (优先用传入的 props.name，否则用插槽文本)
+const resolvedName = computed(() => props.name || slotText.value);
+
+// 获取对应物品的底层数据
 const itemData = computed(() => {
-    // 通过名称或展示名称匹配（预防大小写问题，最好统一转小写匹配，这里直接按你原本的名字查找）
-    return itemsJson.items.find(i => i.name === props.name || i.displayName === props.name) || {};
+  const targetName = resolvedName.value;
+  if (!targetName) return {};
+  return itemsJson.items.find(i => 
+    i.name.toLowerCase() === targetName.toLowerCase() || 
+    (i.displayName && i.displayName.toLowerCase() === targetName.toLowerCase())
+  ) || {};
 });
 
-// 2. 匹配图标 (仅限神话物品且有对应图标配置)
+// 检查是否真实读取到了数据
+const hasValidData = computed(() => Object.keys(itemData.value).length > 0);
+
+// 品质颜色类名
+const itemTierClass = computed(() => {
+  if (!hasValidData.value) return '';
+  return itemData.value.tier ? itemData.value.tier.toLowerCase() : '';
+});
+
+// 匹配图标
 const iconUrl = computed(() => {
-    if (itemData.value.tier === 'Mythic' && mythicIconsJson[props.name]) {
-        return mythicIconsJson[props.name];
-    }
-    return null;
+  if (itemData.value.tier === 'Mythic' && mythicIconsJson[resolvedName.value]) {
+    return mythicIconsJson[resolvedName.value];
+  }
+  return null;
 });
 
-// 3. 鉴定范围计算 (正数 30%~130%，负数 70%~130%但70%是极品/最大值)
-const calcRoll = (val, lowerIsBetter = false) => {
-    if (val === 0) return { min: 0, max: 0, isPositive: true };
-
-    let min, max, isPositive;
-
-    if (!lowerIsBetter) {
-        // 【常规词条】：越高越好
-        if (val > 0) {
-            min = Math.round(val * 0.3); // 最烂 30%
-            max = Math.round(val * 1.3); // 最好 130%
-            isPositive = true;
-        } else {
-            min = Math.round(val * 1.3); // 最烂 130% (扣得最多)
-            max = Math.round(val * 0.7); // 最好 70%  (扣得最少)
-            isPositive = false;
-        }
+// 鉴定范围计算 (包含 Cost 类词条的反转逻辑)
+const calcRoll = (val, lowerIsBetter = false, isFixed = false) => {
+  if (val === 0) return { min: 0, max: 0, isPositive: true };
+  let min, max, isPositive;
+  
+  if (!lowerIsBetter) {
+    // 常规词条
+    isPositive = val > 0;
+    if (isFixed) {
+      min = val; max = val;
     } else {
-        // 【Cost类词条】：越低越好 (降低蓝耗为正面，增加蓝耗为负面)
-        if (val > 0) {
-            min = Math.round(val * 1.3); // 加蓝耗，最烂 130%
-            max = Math.round(val * 0.7); // 加蓝耗，最好 70%
-            isPositive = false;          // 颜色判为红
-        } else {
-            min = Math.round(val * 0.3); // 减蓝耗，最烂 30% (减得少)
-            max = Math.round(val * 1.3); // 减蓝耗，最好 130% (减得多)
-            isPositive = true;           // 颜色判为绿
-        }
+      if (val > 0) {
+        min = Math.round(val * 0.3); max = Math.round(val * 1.3);
+      } else {
+        min = Math.round(val * 1.3); max = Math.round(val * 0.7);
+      }
     }
-
-    // 无论如何，min 永远代表最烂(左)，max 永远代表最好(右)
-    return { min, max, isPositive };
+  } else {
+    // 耗蓝类词条 (越低越好)
+    isPositive = val < 0; // 减少蓝耗为正收益，增加为负收益
+    if (isFixed) {
+      min = val; max = val;
+    } else {
+      if (val > 0) {
+        min = Math.round(val * 1.3); max = Math.round(val * 0.7);
+      } else {
+        min = Math.round(val * 0.3); max = Math.round(val * 1.3);
+      }
+    }
+  }
+  return { min, max, isPositive };
 };
 
-// 4. 技能耗蓝文本字典映射
 const spellNames = {
-    "warrior": ["Bash", "Charge", "Uppercut", "War Scream"],
-    "mage": ["Heal", "Teleport", "Meteor", "Ice Snake"],
-    "archer": ["Arrow Storm", "Escape", "Arrow Bomb", "Arrow Shield"],
-    "assassin": ["Spin Attack", "Dash", "Multihit", "Smoke Bomb"],
-    "shaman": ["Totem", "Haul", "Aura", "Uproot"]
+  "warrior": ["Bash", "Charge", "Uppercut", "War Scream"],
+  "mage": ["Heal", "Teleport", "Meteor", "Ice Snake"],
+  "archer": ["Arrow Storm", "Escape", "Arrow Bomb", "Arrow Shield"],
+  "assassin": ["Spin Attack", "Dash", "Multihit", "Smoke Bomb"],
+  "shaman": ["Totem", "Haul", "Aura", "Uproot"]
 };
 
-// 5. 普通词条翻译字典 (带有后缀信息)
 const idMap = {
-    hpBonus: { name: 'Health', suffix: '' },
-    hprRaw: { name: 'Health Regen', suffix: '' },
-    hprPct: { name: 'Health Regen', suffix: '%' },
-    mr: { name: 'Mana Regen', suffix: '/5s' },
-    ms: { name: 'Mana Steal', suffix: '/3s' },
-    ls: { name: 'Life Steal', suffix: '/3s' },
-    mdRaw: { name: 'Main Attack Damage', suffix: '' },
-    mdPct: { name: 'Main Attack Damage', suffix: '%' },
-    sdRaw: { name: 'Spell Damage', suffix: '' },
-    sdPct: { name: 'Spell Damage', suffix: '%' },
-    rDamPct: { name: 'Elemental Damage', suffix: '%' },
-    poison: { name: 'Poison', suffix: '/3s' },
-    expd: { name: 'Exploding', suffix: '%' },
-    spd: { name: 'Walk Speed', suffix: '%' },
-    sprint: { name: 'Sprint', suffix: '%' },
-    sprintReg: { name: 'Sprint Regen', suffix: '%' },
-    jh: { name: 'Jump Height', suffix: '' },
-    xpb: { name: 'Xp Bonus', suffix: '%' },
-    lb: { name: 'Loot Bonus', suffix: '%' },
-    thorns: { name: 'Thorns', suffix: '%' },
-    ref: { name: 'Reflection', suffix: '%' },
-    healPct: { name: 'Healing Efficiency', suffix: '%' },
-    eSteal: { name: 'Stealing', suffix: '%' },
-    critDamPct: { name: 'Critical Damage Bonus', suffix: '%' },
-    kb: { name: 'Knockback', suffix: '%' },
-    weakenEnemy: { name: 'Weaken Enemy', suffix: '%' },
-    slowEnemy: { name: 'Slow Enemy', suffix: '%' },
-    eDamPct: { name: 'Earth Damage', suffix: '%' },
-    tDamPct: { name: 'Thunder Damage', suffix: '%' },
-    wDamPct: { name: 'Water Damage', suffix: '%' },
-    fDamPct: { name: 'Fire Damage', suffix: '%' },
-    aDamPct: { name: 'Air Damage', suffix: '%' },
-    eDefPct: { name: 'Earth Defence', suffix: '%' },
-    tDefPct: { name: 'Thunder Defence', suffix: '%' },
-    wDefPct: { name: 'Water Defence', suffix: '%' },
-    fDefPct: { name: 'Fire Defence', suffix: '%' },
-    aDefPct: { name: 'Air Defence', suffix: '%' },
+  hpBonus: { name: 'Health', suffix: '' },
+  hprRaw: { name: 'Health Regen', suffix: '' },
+  hprPct: { name: 'Health Regen', suffix: '%' },
+  mr: { name: 'Mana Regen', suffix: '/5s' },
+  ms: { name: 'Mana Steal', suffix: '/3s' },
+  ls: { name: 'Life Steal', suffix: '/3s' },
+  mdRaw: { name: 'Main Attack Damage', suffix: '' },
+  mdPct: { name: 'Main Attack Damage', suffix: '%' },
+  sdRaw: { name: 'Spell Damage', suffix: '' },
+  sdPct: { name: 'Spell Damage', suffix: '%' },
+  rDamPct: { name: 'Elemental Damage', suffix: '%' },
+  poison: { name: 'Poison', suffix: '/3s' },
+  expd: { name: 'Exploding', suffix: '%' },
+  spd: { name: 'Walk Speed', suffix: '%' },
+  sprint: { name: 'Sprint', suffix: '%' },
+  sprintReg: { name: 'Sprint Regen', suffix: '%' },
+  jh: { name: 'Jump Height', suffix: '' },
+  xpb: { name: 'Xp Bonus', suffix: '%' },
+  lb: { name: 'Loot Bonus', suffix: '%' },
+  thorns: { name: 'Thorns', suffix: '%' },
+  ref: { name: 'Reflection', suffix: '%' },
+  healPct: { name: 'Healing Efficiency', suffix: '%' },
+  eSteal: { name: 'Stealing', suffix: '%' },
+  critDamPct: { name: 'Critical Damage Bonus', suffix: '%' },
+  kb: { name: 'Knockback', suffix: '%' },
+  weakenEnemy: { name: 'Weaken Enemy', suffix: '%' },
+  slowEnemy: { name: 'Slow Enemy', suffix: '%' },
+  eDamPct: { name: 'Earth Damage', suffix: '%' },
+  tDamPct: { name: 'Thunder Damage', suffix: '%' },
+  wDamPct: { name: 'Water Damage', suffix: '%' },
+  fDamPct: { name: 'Fire Damage', suffix: '%' },
+  aDamPct: { name: 'Air Damage', suffix: '%' },
+  eDefPct: { name: 'Earth Defence', suffix: '%' },
+  tDefPct: { name: 'Thunder Defence', suffix: '%' },
+  wDefPct: { name: 'Water Defence', suffix: '%' },
+  fDefPct: { name: 'Fire Defence', suffix: '%' },
+  aDefPct: { name: 'Air Defence', suffix: '%' },
 };
 
-// 6. 计算装备的所有鉴定词条
+// 计算装备的所有鉴定词条
 const identifications = computed(() => {
   const item = itemData.value;
   if (!item.name) return [];
-  
   const results = [];
   
-  // 遍历普通词条 (默认越高越好，传 false)
+  // 提取当前物品是否是固定数值
+  const isFixed = !!item.fixID;
+  
   for (const [key, meta] of Object.entries(idMap)) {
     if (item[key]) {
-      const { min, max, isPositive } = calcRoll(item[key], false);
-      results.push({ name: meta.name, min, max, suffix: meta.suffix, isPositive });
+      const { min, max, isPositive } = calcRoll(item[key], false, isFixed);
+      results.push({ name: meta.name, min, max, suffix: meta.suffix, isPositive, isFixed });
     }
   }
 
-  // 动态处理技能耗蓝词条 (spPct1~4, spRaw1~4)
   const cls = (item.classReq || "").toLowerCase();
   for (let i = 1; i <= 4; i++) {
     const spellName = (spellNames[cls] && spellNames[cls][i - 1]) 
-      ? `${spellNames[cls][i - 1]} Cost` 
-      : `${i}st Spell Cost`;
+      ? `${spellNames[cls][i - 1]} Cost` : `${i}st Spell Cost`;
 
-    // Cost类词条，lowerIsBetter 传 true
     if (item[`spRaw${i}`]) {
-      const { min, max, isPositive } = calcRoll(item[`spRaw${i}`], true);
-      results.push({ name: spellName, min, max, suffix: '', isPositive });
+      const { min, max, isPositive } = calcRoll(item[`spRaw${i}`], true, isFixed);
+      results.push({ name: spellName, min, max, suffix: '', isPositive, isFixed });
     }
     if (item[`spPct${i}`]) {
-      const { min, max, isPositive } = calcRoll(item[`spPct${i}`], true);
-      results.push({ name: spellName, min, max, suffix: '%', isPositive });
+      const { min, max, isPositive } = calcRoll(item[`spPct${i}`], true, isFixed);
+      results.push({ name: spellName, min, max, suffix: '%', isPositive, isFixed });
     }
   }
 
   return results;
 });
 
-// 7. 提取 Major IDs 并映射名字与描述
+// 提取 Major IDs
 const majorIds = computed(() => {
-    const item = itemData.value;
-    if (!item.majorIds || !Array.isArray(item.majorIds)) return [];
-
-    return item.majorIds.map(id => {
-        const majorData = majidJson[id] || {};
-        return {
-            name: majorData.displayName || id, // 修正为读取 displayName
-            description: majorData.description || "Unknown Major ID effect."
-        };
-    });
+  const item = itemData.value;
+  if (!item.majorIds || !Array.isArray(item.majorIds)) return [];
+  return item.majorIds.map(id => {
+    const majorData = majidJson[id] || {};
+    return {
+      name: majorData.displayName || id,
+      description: majorData.description || "Unknown Major ID effect."
+    };
+  });
 });
+
+// === 悬浮窗的动态坐标与显隐 ===
+const showTooltip = ref(false);
+const tooltipStyle = ref({});
+
+const handleMouseEnter = () => {
+  // 即使没有数据也不 return，以展示报错面板
+  if (wrapperRef.value) {
+    const rect = wrapperRef.value.getBoundingClientRect();
+    tooltipStyle.value = {
+      top: `${rect.top + window.scrollY - 10}px`,
+      left: `${rect.left + window.scrollX + (rect.width / 2)}px`
+    };
+  }
+  showTooltip.value = true;
+};
+
+const handleMouseLeave = () => {
+  showTooltip.value = false;
+};
 </script>
 
 <style scoped>
-/* 行内文字样式 */
+/* 行内文字基础样式 */
 .inline-text {
-    color: #9400D3;
-    text-decoration: underline dashed;
-    cursor: help;
-    font-weight: bold;
+  text-decoration: underline dashed;
+  cursor: help;
+  font-weight: bold;
 }
+
+/* 匹配游戏里的品质颜色 */
+.inline-text.mythic { color: rgb(164, 57, 192); }
+.inline-text.fabled { color: #FF5555; }
+.inline-text.legendary { color: #55FFFF; }
+.inline-text.set { color: #55FF55; }
+.inline-text.rare { color: #FF55FF; }
+.inline-text.unique { color: #FFFF55; }
+.inline-text.normal { color: #FFFFFF; }
 
 .mythic-inline-wrapper {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
-/* Tooltip 悬浮窗定位 */
-.mythic-tooltip {
-    position: absolute;
-    bottom: 120%;
-    /* 悬浮在文字正上方 */
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 9999;
-    width: max-content;
-    pointer-events: none;
-    /* 防止鼠标穿透引发闪烁 */
+/* 数据读取失败的面板样式 */
+.mythic-error-panel {
+  background-color: #1a1a1a;
+  border: 2px dashed #FF5555;
+  color: #FF5555;
+  padding: 12px;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+</style>
+
+<style>
+/* 传送至 Body 后的全局定位样式 */
+.mythic-tooltip-teleported {
+  position: absolute;
+  transform: translate(-50%, -100%);
+  z-index: 999999;
+  pointer-events: none;
 }
 
-/* 渐隐渐现动画 */
-.fade-enter-active,
-.fade-leave-active {
-    transition: opacity 0.2s ease, transform 0.2s ease;
+/* 动画效果：改由比最终位置偏高（-8px）的地方轻柔落下 */
+.fade-enter-active, .fade-leave-active {
+  transition: opacity 0.15s ease-out, transform 0.15s ease-out;
 }
-
-.fade-enter-from,
-.fade-leave-to {
-    opacity: 0;
-    transform: translate(-50%, 5px);
+.fade-enter-from, .fade-leave-to {
+  opacity: 0;
+  transform: translate(-50%, calc(-100% - 8px)); 
 }
 </style>

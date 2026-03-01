@@ -159,11 +159,9 @@ Everyone等级的银行任何人都可以使用
 
 [【腾讯文档】Wynncraft [CNM] 公会申请表](https://docs.qq.com/form/page/DSmVSQkpRWEFlSk9p)
 
-:::details lmao
+Q：加入 ChinaNumberOne (CNM) 会不会显得有点“夜郎自大”？
 
-![](/assets/img/guild.md-02-28-11-09-47.png)
-
-:::
+A： 是的，听上去很尬，加入了之后更尬💦💦。但如果你能承受这种尴尬，并且有一定的实力和游戏理解，欢迎来我们这里体验实力最顶尖的国人工会氛围。
 
 ### sequoia(SEQ)
 
