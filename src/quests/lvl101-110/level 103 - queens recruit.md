@@ -1,18 +1,19 @@
 ---
-title: A journey Home (Level 104)
+title: Queen's Recruit (Level 103)
 icon: scroll
 ---
 
 ## 任务信息 / Information
-任务等级：Level 104 / 推荐等级： Level 104
+任务等级：Level 103 / 推荐等级： Level 103
 任务时长：长 / 任务难度：困难
 中文译名：
 
+> Time to Fruma...
+
 ## 奖励清单 / Rewards
 
-+ 15300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 10000000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 20480 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 可以进入Auburn Forest了
 
 ### Step 1 接取任务
 ---

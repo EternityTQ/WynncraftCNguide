@@ -1,17 +1,20 @@
 ---
-title: xxx
+title: A New Beginning (Level 105)
 icon: scroll
 ---
 
 ## 任务信息 / Information
-任务等级：Level  / 推荐等级： Level 
+任务等级：Level 105 / 推荐等级： Level 105
 任务时长： / 任务难度： 
 中文译名：
 
 ## 奖励清单 / Rewards
 
-+ 114514 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 1919810 绿宝石![=20x](/assets/icon/Emerald.png)
++ 15000000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 可以进入Espren了
++ 1份 Espren护照
++ 1份 Espren传送卷轴
++ 1个 Meliorim
 
 ### Step 1 接取任务
 ---

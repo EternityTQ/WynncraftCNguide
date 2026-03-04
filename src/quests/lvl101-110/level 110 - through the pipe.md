@@ -1,18 +1,16 @@
 ---
-title: A journey Home (Level 104)
+title: Through the Pipe (Level 110)
 icon: scroll
 ---
 
 ## 任务信息 / Information
-任务等级：Level 104 / 推荐等级： Level 104
-任务时长：长 / 任务难度：困难
+任务等级：Level 110 / 推荐等级： Level 110
+任务时长：中等 / 任务难度：中等
 中文译名：
 
 ## 奖励清单 / Rewards
 
-+ 15300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 20480 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 可以进入Auburn Forest了
++ 取决于你的选择...
 
 ### Step 1 接取任务
 ---
