@@ -26,7 +26,7 @@ icon: scroll
 
 
 
-### Step 2 XXXX
+### Step 2 秘密谈话
 ---
 
 会议结束后，在屋子入口和<NPC>Zeph</NPC><CC>-2234 27 -1192</CC>对话。
@@ -36,7 +36,7 @@ icon: scroll
 
 
 
-### Step 3 XXXX
+### Step 3 树屋碰面
 ---
 
 
@@ -46,7 +46,7 @@ icon: scroll
 
 
 
-### Step 4 XXXX
+### Step 4 试图潜入
 --- 
 
 跟随<NPC>Zeph</NPC>前进到<CC>-2055 59 -1063</CC>，准备开始潜入。
@@ -59,7 +59,7 @@ icon: scroll
 
 
 
-### Step 5 XXXX
+### Step 5 潜入失败
 ---
 
 回到红狐树屋咖啡馆<CC>-2040 46 -1086</CC>，与<NPC>Zeph</NPC>对话。
@@ -67,7 +67,7 @@ icon: scroll
 ![](/assets/img/level%20108%20-%20revalations%20in%20fall.md-03-04-20-50-46.png)
 
 
-### Step 6 XXXX
+### Step 6 寻找队友
 --- 
 
 在湖边<CC>-1951 15 -1011</CC>和<NPC>Sui</NPC>对话。
@@ -75,36 +75,38 @@ icon: scroll
 ![](/assets/img/level%20108%20-%20revalations%20in%20fall.md-03-04-20-53-41.png)
 
 
-### Step 7 XXXX
+### Step 7 战前试炼
 --- 
 
+返回<CC>-2234 24 -1191</CC>，和一旁的<NPC>Mora</NPC>对话，然后跟随他进入山洞内<CC>-2297 26 -1167</CC>，进行一场决斗。
 
-### Step 8 XXXX
+![](/assets/img/level%20108%20-%20revalations%20in%20fall.md-03-04-22-45-51.png)
+
+
+### Step 8 寻找队友
+--- 
+回到古树顶端<CC>-2132 54 -1274</CC>，和<NPC>Rex</NPC>对话
+
+![](/assets/img/level%20108%20-%20revalations%20in%20fall.md-03-04-22-53-24.png)
+
+
+### Step 9 一起会合
 --- 
 
+返回营地<CC>-2235 24 -1181</CC>，和众人会合。
 
-### Step 9 XXXX
+![](/assets/img/level%20108%20-%20revalations%20in%20fall.md-03-04-22-58-01.png)
+
+
+### Step 10 穿过大门
 --- 
 
+来到<CC>-2071 24 -938</CC>，前往工业区
 
-### Step 10 XXXX
---- 
-
-
-### Step 11 XXXX
----
+![](/assets/img/level%20108%20-%20revalations%20in%20fall.md-03-04-23-08-15.png)
 
 
-### Step 12 XXXX
----
 
-
-### Step 13 XXXX
----
-
-
-### Step 14 XXXX
----
 
 
 ## 剧情省流 / Summary
