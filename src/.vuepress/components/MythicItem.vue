@@ -188,6 +188,27 @@ const idMap = {
   wDefPct: { name: 'Water Defence', suffix: '%' },
   fDefPct: { name: 'Fire Defence', suffix: '%' },
   aDefPct: { name: 'Air Defence', suffix: '%' },
+  eSdRaw: { name: 'Earth Spell Damage', suffix: '' },
+  tSdRaw: { name: 'Thunder Spell Damage', suffix: '' },
+  wSdRaw: { name: 'Water Spell Damage', suffix: '' },
+  fSdRaw: { name: 'Fire Spell Damage', suffix: '' },
+  aSdRaw: { name: 'Air Spell Damage', suffix: '' },
+  maxMana: { name: 'Max Mana', suffix: '' },
+  eMdRaw: { name: 'Earth Main Attack Damage', suffix: '' },
+  tMdRaw: { name: 'Thunder Main Attack Damage', suffix: '' },
+  wMdRaw: { name: 'Water Main Attack Damage', suffix: '' },
+  fMdRaw: { name: 'Fire Main Attack Damage', suffix: '' },
+  aMdRaw: { name: 'Air Main Attack Damage', suffix: '' },
+  eSdPct: { name: 'Earth Spell Damage', suffix: '%' },
+  tSdPct: { name: 'Thunder Spell Damage', suffix: '%' },
+  wSdPct: { name: 'Water Spell Damage', suffix: '%' },
+  fSdPct: { name: 'Fire Spell Damage', suffix: '%' },
+  aSdPct: { name: 'Air Spell Damage', suffix: '%' },
+  eMdPct: { name: 'Earth Main Attack Damage', suffix: '%' },
+  tMdPct: { name: 'Thunder Main Attack Damage', suffix: '%' },
+  wMdPct: { name: 'Water Main Attack Damage', suffix: '%' },
+  fMdPct: { name: 'Fire Main Attack Damage', suffix: '%' },
+  aMdPct: { name: 'Air Main Attack Damage', suffix: '%' }
 };
 
 // 计算装备的所有鉴定词条
