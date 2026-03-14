@@ -208,7 +208,12 @@ const idMap = {
   tMdPct: { name: 'Thunder Main Attack Damage', suffix: '%' },
   wMdPct: { name: 'Water Main Attack Damage', suffix: '%' },
   fMdPct: { name: 'Fire Main Attack Damage', suffix: '%' },
-  aMdPct: { name: 'Air Main Attack Damage', suffix: '%' }
+  aMdPct: { name: 'Air Main Attack Damage', suffix: '%' },
+  eDamRaw: { name: 'Earth Damage', suffix: '' }, 
+  tDamRaw: { name: 'Thunder Damage', suffix: '' },
+  wDamRaw: { name: 'Water Damage', suffix: '' },
+  fDamRaw: { name: 'Fire Damage', suffix: '' },
+  aDamRaw: { name: 'Air Damage', suffix: '' }
 };
 
 // 计算装备的所有鉴定词条
