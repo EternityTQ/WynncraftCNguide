@@ -293,7 +293,7 @@ Topaz价格目前也比较亲民，选高经验的购买也不算很贵
 
 比较特殊的等级
 
-这个等级意味着你可以直接去做[三问任务](/quests/lvl71-80/level%2080%20-%20Z？？？.html)来获取全游最高经验加成的经验套<font color=green>**Cosmic Set**</font>
+这个等级意味着你可以直接去做[三问任务](/quests/lvl71-80/level%2080%20-%20z？？？.html)来获取全游最高经验加成的经验套<font color=green>**Cosmic Set**</font>
 
 但是三问任务需要一共4个人来完成
 
