@@ -1,21 +1,62 @@
-# Lost in the Jungle(level 62)
-<span style="font-size: 25px;">**丛林迷失记**</span>
+---
+title: Lost in the Jungle (level 62)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Gracen**</font>`[-753 79 -663]`说话
->游戏内任务坐标有误，不要走空了
+## 任务信息 / Information
+任务等级：Level 62 / 推荐等级：Level 62
+任务时长：中等 / 任务难度：中等
+中文译名：丛林迷失记
 
-<span class="stage-index">2.</span> 通过`[-796 89 -654]`的通道进入**Dernel Jungle**，跟着地上的粉/紫色方块走，找到神殿`[-671 27 -355]`，在里面找到Aryn
-
-这一步要注意<font color=00AA00>**Aryn**</font>在地下室，而地下室的入口在1层台阶两边的小洞，不在顶层。顶层的Y轴约为40，1层的Y轴约为30。
-
-总之跟着紫色路径走绝对没错
-
-<span class="stage-index">3.</span> 向<font color=00AA00>**aryn**</font>走的时候被传送进副本，打死小的会原地生成大的，大的会喷火，伤害是普通攻击的一半。打死后进传送点，被传送看见绿名<font color=00AA00>**aryn**</font>，和他交谈完走向传送门，被传送回1层
-
-<span class="stage-index">4.</span> 把boss的掉落物Mysterious Gemstone带给<font color=00AA00>**Gracen**</font>`[-753 79 -663]`
->其实跟着紫色路径回去就行了
-
-奖励
+## 奖励清单 / Rewards
 + 225000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 3 Jungle Jest Shard(货币，在Charmcrafter Merchant`[-771 94 -627]`使用)
-+ 进入Garcen屋子的权限(应该就是上面这个Merchant的所在地)
++ 3个 `Jungle Jet Shards`
++ 获得进入 <NPC>Gracen</NPC> 房屋的权限
+
+### Step 1 接受寻人委托
+---
+前往 Iboju Village，与 <NPC>Gracen</NPC> 交谈，坐标 <CC>-753 82 -663</CC>。
+
+### Step 2 深入丛林寻找
+---
+深入 Dernel Jungle 寻找 <NPC>Aryn</NPC>。
+
+:::tip
+你可以通过 <CC>-796 89 -654</CC> 的通道进入丛林。跟着地上与宝石颜色一致的粉/紫色方块踪迹走，找到神殿 <CC>-671 27 -355</CC>。
+
+注意：<NPC>Aryn</NPC> 在神殿的地下室，地下室的入口在1层台阶两边的小洞，不在顶层。总之跟着紫色路径走绝对能找到。
+:::
+
+### Step 3 击败附身恶灵
+---
+靠近 <NPC>Aryn</NPC> 时会被传送进副本。击败附身在 Aryn 身上的恶灵 <mob>Possessed Aryn</mob>。
+
+:::tip
+Boss 战分为两个阶段：击败第一阶段后会原地生成更强大的第二阶段（会释放喷火等技能）。
+:::
+
+击败后进入传送点，拾取掉落的 `Mysterious Gemstone`。
+
+### Step 4 确认安全
+---
+在坐标 <CC>-699 6 -354</CC> 处与恢复清醒的 <NPC>Aryn</NPC> 交谈，确认他已经安全。
+
+### Step 5 交付危险宝石
+---
+带着 `Mysterious Gemstone` 原路返回（跟着紫色路径往回走即可），交给位于 <CC>-753 82 -663</CC> 的 <NPC>Gracen</NPC> 交差。
+
+:::tip 彩蛋 (Epilogue)
+完成任务后，进入 <NPC>Gracen</NPC> 的屋子，你会发现一个名为 <mob>Engraved Keystone</mob> 的怪物。击杀它会掉落一个刻有坐标信息 (-701, 15, -275) 的同名物品 `Engraved Keystone`。前往 Dernel Jungle 的该坐标处，你会发现一座神殿，将该物品放置在散发紫色粒子的祭坛上，会触发一道红色光束揭示隐藏的刷怪点（Grind spot）。
+:::
+
+## 剧情省流 / Summary
+在 Iboju 村庄，Gracen 焦急地请求冒险者帮忙寻找他的儿子 Aryn。Aryn 最近刚完成了部落传统的成年礼，独自在危险的 Dernel 丛林中生存了三天并成功生还。然而，他带回了一块奇怪的紫色宝石。尽管部落萨满警告这块宝石是不祥之兆，但沉浸在庆祝喜悦中的 Gracen 并没有在意。不久后，Aryn 带着宝石离奇失踪了，而部落的勇士们又不敢深入丛林寻人。Gracen 偶然发现地上有一条与宝石颜色相同的紫色奇异踪迹，便恳求冒险者顺着踪迹去寻找他的儿子。
+
+
+冒险者顺着紫色踪迹深入丛林，在一座古老的神殿地下室里找到了 Aryn。此时的 Aryn 已经被封印在宝石中数千年的远古恶灵所附身。恶灵贪图冒险者更加强壮的躯体，妄图击败冒险者并夺取肉身。经过一番激烈的战斗，冒险者成功击退了恶灵，将 Aryn 从控制中解救了出来。
+
+
+恢复清醒的 Aryn 虽然身体虚弱，但已无大碍。他惊魂未定，不敢再靠近那块招致灾祸的紫色宝石，便拜托冒险者将宝石带走，并表示自己稍作休整后会自行返回村庄。
+
+
+冒险者带着宝石回到村庄交给了 Gracen。Gracen 得知真相后非常懊悔自己无视了萨满的警告，但对儿子的平安归来感到万分庆幸。他发现这块宝石如果碾成粉末，可以用来制作特殊的护身符，于是他将宝石碾碎，将碎片赠予冒险者以备不时之需。为了感谢冒险者的恩情，Gracen 宣布冒险者从今往后就是部落的一员，并随时欢迎冒险者来他家里做客。

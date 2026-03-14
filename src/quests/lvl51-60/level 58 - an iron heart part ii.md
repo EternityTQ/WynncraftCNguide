@@ -6,8 +6,8 @@ icon: bookmark
 ## 任务信息 / Information
 任务等级：Level 58 / 推荐等级：Level 58
 任务时长：长 / 任务难度：中等
-前置任务：An Iron Heart Part I
-中文译名：钢铁之心
+前置任务：[An Iron Heart Part I](/quests/lvl41-50/level%2049%20-%20an%20iron%20heart%20part%20i.html)
+中文译名：钢铁之心 下篇
 
 ## 奖励清单 / Rewards
 + 160000 经验值![=20x](/assets/icon/Experience_Orb.gif)

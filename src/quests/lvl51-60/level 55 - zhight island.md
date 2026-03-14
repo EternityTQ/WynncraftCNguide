@@ -6,7 +6,7 @@ icon: bookmark
 ## 任务信息 / Information
 任务等级：Level 55 / 推荐等级：Level 55
 任务时长：中等 / 任务难度：简单
-前置任务：Ice Nations
+前置任务：[Ice Nations](/quests/lvl31-40/level%2040%20-%20ice%20nations.html)
 中文译名：Zhight岛
 
 :::tip

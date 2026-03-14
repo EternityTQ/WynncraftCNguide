@@ -6,7 +6,7 @@ icon: bookmark
 ## 任务信息 / Information
 任务等级：Level 55 / 推荐等级：Level 55
 任务时长：中等 / 任务难度：中等
-前置任务：WynnExcavation Site B
+前置任务：[WynnExcavation Site B](/quests/lvl41-50/level%2046%20-%20wynnexcavation%20site%20b.html)
 中文译名：Wynn考古集团 地点C
 
 :::tip

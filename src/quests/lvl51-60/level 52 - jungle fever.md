@@ -6,7 +6,7 @@ icon: bookmark
 ## 任务信息 / Information
 任务等级：Level 52 / 推荐等级：Level 52
 任务时长：长 / 任务难度：困难
-前置任务：A Sandy Scandal
+前置任务：[A Sandy Scandal](/quests/lvl31-40/level%2032%20-%20a%20sandy%20scandal.html)
 中文译名：丛林热
 
 :::tip Troms要怎么过去？

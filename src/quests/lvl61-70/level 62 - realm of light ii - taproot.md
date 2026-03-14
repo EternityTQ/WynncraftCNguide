@@ -1,44 +1,91 @@
 ---
+title: Realm of Light II - Taproot (level 62)
 icon: bookmark
 ---
 
+## 任务信息 / Information
+任务等级：Level 62 / 推荐等级： Level 62
+任务时长：长 / 任务难度：中等
+前置任务：[Realm of Light I - The Worm Holes](/quests/lvl51-60/level%2054%20-%20realm%20of%20light%20i%20-%20the%20worm%20holes.html)
+中文译名：光之领域 Part II - 根源
 
-# Realm of Light II - Taproot (level 62)
 
-<span style="font-size: 25px;">**光之领域 Part II - 根源**</span>  
 
-前置任务:[Realm of Light I -  The Worn Holes](/quests/lvl51-60/level%2054%20-%20realm%20of%20light%20i%20-%20the%20worm%20holes.html)
 
-<span class="stage-index">1.</span> 在**Dark Forest**与<font color=00AA00>**Lari**</font>对话`[-1257 43 -5474]`
 
-<span class="stage-index">2.</span> 跟着<font color=00AA00>**Lari**</font>走到旁边的腐化点`[-1296 44 -5481]`
-
-<span class="stage-index">3.</span> 跟着魔法路径到`[-1329 85 -5606]` 和<font color=00AA00>**Lari**</font>对话
->其实不用死跟着，直接到终点马上就能触发下一步了
-
-<span class="stage-index">4.</span> 等待<font color=00AA00>**Lari**</font>开门 并潜入进去偷听
-
-<span class="stage-index">5.</span> 等对话结束后 进去把<font color=00AA00>**Mayor of Olux**</font>(右边的NPC)杀了 并传送回Lari旁边 与Lari进行对话 
-
-<span class="stage-index">6.</span> 对话结束后 **Taproot**大门会打开 继续往前走 进入**Taproot**
-
-<span class="stage-index">7.</span> 右键旁边绿色的物体 会生成海晶灯路到旁边的树 通过跑酷 到`[-1519 57 -6285]`
-
-<span class="stage-index">8.</span> 继续往前走 跳到坑里并传送到过去的**Light Forest**
-
-<span class="stage-index">9.</span> 沿着路一直往下走 走到城门口`[-1841 41 -6940]` 杀死守卫后，城门会打开
-
-<span class="stage-index">10.</span> 进入城门 先到`[-1922 44  -6944]`附近收集一个`Iron Cog Piece`
-
-然后到`[-1946 64 -6861]`收集一个`Golden Cog Piece`
-
-沿着路到`[-1894 48 -6799]` 把`Iron Cog Piece`和`Golden Cog Piece`放到城门旁边旁边对应的地方 机器会把城门打开;
-
-<span class="stage-index">11.</span> 继续沿着路走到`[-1813 45 -6723]`附近 靠近两山中间的魔法阵就会开始传送 继续看<font color=00AA00>**Lari**</font>和腐化对抗的剧情
-
-<span class="stage-index">12.</span> 剧情结束后 传送回<font color=00AA00>**Lari**</font>旁边 对话后结束任务
-
-奖励
+## 奖励清单 / Rewards
 + 275000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 1600 绿宝石![=20x](/assets/icon/Emerald.png)
-+ Photon(非常神的戒指 可以卖掉 总之别丢)
++ `Photon` (戒指)
+
+:::tip
+`Photon` 是一个非常优秀的戒指，如果不使用也可以卖掉，总之别随便丢弃。
+:::
+
+### Step 1 接取任务
+---
+前往 Dark Forest，在坐标 <CC>-1257 43 -5474</CC> 处找到 <NPC>Lari</NPC> 并与她对话。
+
+### Step 2 调查腐化点
+---
+跟着 <NPC>Lari</NPC> 走到她营地旁边的一个黑色腐化点，坐标位于 <CC>-1298 43 -5481</CC>。
+
+### Step 3 追随魔法路径
+---
+沿着从腐化点延伸出来的魔法路径一路前进，直到抵达 <CC>-1329 85 -5606</CC>。在这扇奇怪的大门外再次与 <NPC>Lari</NPC> 对话。
+
+:::tip
+其实不用死跟着魔法路径，直接走到终点马上就能触发下一步。
+:::
+
+### Step 4 门后的抉择
+---
+等待 <NPC>Lari</NPC> 将门打开后进入其中，潜入进去偷偷倾听秘密会议。
+
+你会听到 <NPC>Mayor</NPC> 和 <NPC>Dr. Urelix</NPC> 在争论。当对话结束后，神秘的声音会要求你做出选择。为了向光之声证明你的果断并推进任务，你需要进去把右侧的 <NPC>Mayor</NPC> 杀了。完成抉择后，你会被传送回 <NPC>Lari</NPC> 旁边，再次与她进行对话。
+
+### Step 5 进入 Taproot
+---
+对话结束后，通往 Taproot 的大门将会为你打开。继续往前走，进入 Taproot 领域。
+
+### Step 6 奇异领域的跑酷
+---
+右键点击旁边的绿色物体，它会生成一条通往旁边树木的海晶灯路径。通过跑酷跨越这个奇异的领域，沿途注意躲避偶尔生成的怪物，一直前进到坐标 <CC>-1519 57 -6285</CC> 处。
+
+### Step 7 坠入过去的森林
+---
+继续往前走，跳入前方的坑中，你将被传送到过去的 Light Forest。
+
+### Step 8 开启城门
+---
+沿着道路一直往下走，走到城门口处 <CC>-1850 41 -6942</CC>。守卫 <mob>Watchman</mob> 会散发粒子并攻击你，将它杀死后，城门便会打开。
+
+### Step 9 修复齿轮机构
+---
+进入城门后继续沿着路走，你会抵达另一扇紧闭的门 <CC>-1892 50 -6800</CC>，提示齿轮缺少部件，需要你原路返回寻找。
+
+首先到 <CC>-1922 44 -6944</CC> 附近收集一个 `Iron Cog Piece`。
+然后到 <CC>-1946 64 -6861</CC> 处收集一个 `Golden Cog Piece`。
+
+收集完毕后，沿着路回到城门旁的机关处 <CC>-1894 48 -6799</CC>，将 `Iron Cog Piece` 和 `Golden Cog Piece` 放入对应的缺口位置。机器修好后，城门就会被打开。
+
+### Step 10 见证过往的记忆
+---
+继续沿着路走到 <CC>-1813 45 -6723</CC> 附近，在两块石头后面的暗斑处，靠近魔法阵就会触发传送。接下来请观看 <NPC>Lari</NPC> 在过去与黑暗寄生生物对抗的剧情动画。
+
+### Step 11 返回现实
+---
+漫长的剧情过场结束后，你会被传送回现实中 Taproot 大门外的 <NPC>Lari</NPC> 身边。与她对话后即可结束任务。
+
+## 剧情省流 / Summary
+冒险者在森林中找到了Lari，此时她正试图用魔法清除地上的严重腐化痕迹。然而，和过去数十年的无数次尝试一样，她的魔法再次失败了。就在她感到极度绝望和沮丧时，那个一直赐予她力量的神秘声音突然联系了她，并在他们面前显现了一扇原本无法通行的大门。Lari对门后的考验感到困惑与愤怒，于是请求冒险者代为调查大门后的情况。
+
+进入大门后，冒险者偷听到了市长与Urelix医生的秘密会议。市长因为无法忍受为了赢得对抗腐化的战争而不断牺牲无辜平民的生命，愤怒地想要告发一切。而Urelix医生则冷酷地认为，牺牲少数人来拯救成千上万的人是绝对必要的。此时，神秘的声音要求冒险者做出抉择。冒险者选择了代表“绝对必要性”的一方，杀死了市长。这个理智而冷酷的决定让冒险者通过了考验。
+
+门外的Lari得知大门竟然为冒险者敞开，感到极其崩溃与不公。她不明白为什么自己几十年来为这片土地倾尽心血却被拒之门外，而一个初来乍到的异乡人却得到了光的认可。神秘的声音解释说，Lari的心智被情感所蒙蔽，而冒险者则拥有清醒的判断力。随后，冒险者进入了根源深处。
+
+神秘的声音向冒险者揭示，光与暗的斗争正在导致光的生命逐渐衰竭，这片领域正在因为失去光芒而变得扭曲。为了让冒险者明白为何光之领域需要他们，声音将冒险者送回了过去，重温腐化最初爆发时的记忆。
+
+在过往的记忆中，Lari遭遇了一个黑暗寄生生物。尽管她拥有着强大的光之力量，但她内心极度抗拒战斗，不断试图用言语劝退怪物。她的软弱与犹豫导致她错失了反击的机会，最终未能阻止腐化在这片土地上蔓延。神秘的声音表示，正是Lari这种充满矛盾的内心让她无法真正引导光的力量。
+
+回到现实后，Lari向冒险者道歉，为自己之前的嫉妒和失态感到愧疚。她承认冒险者确实与光有着特殊的联系，并承诺自己会找到其他方式来继续提供帮助。
