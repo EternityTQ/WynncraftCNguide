@@ -1,54 +1,68 @@
 ---
+title: An Iron Heart Part II (level 58)
 icon: bookmark
 ---
 
+## 任务信息 / Information
+任务等级：Level 58 / 推荐等级：Level 58
+任务时长：长 / 任务难度：中等
+前置任务：An Iron Heart Part I
+中文译名：钢铁之心
 
-# An Iron Heart Part II(level 58)
-<span style="font-size: 25px;">**钢铁之心**</span>
-
-前置任务：[An Iron Heart Part I](/quests/lvl41-50/level%2049%20-%20an%20iron%20heart%20part%20i.html)
-
->接受我的贿赂?/还是说出真相!
-
-<span class="stage-index">1.</span> 在Olux找到<font color=00AA00>**Detective Hart**</font>`[-1744 66 -5478]`
-
-<span class="stage-index">2.</span> 跟着路找到<font color=00AA00>**Daxe**</font>`[-1924 55 -5466]`，跟他对话触发一系列剧情
-
-<span class="stage-index">3.</span> 顺着路来到傀儡工厂`[-2119 55 -5557]`，手持前置任务中获得的`Mechanical Reactor`与守门傀儡交互
-
-:::tip
-如果你弄丢了`Mechanical Reactor`，你可以回到前置任务中的<font color=00AA00>**Duvale**</font>`[-1620 51 -4974]`，找他对话重新获取一个
-:::
-
-<span class="stage-index">4.</span> 和屋子内的<font color=00AA00>**Urelix**</font>对话
-
-<span class="stage-index">5.</span> 拉下`[-2117 57 -5574]`的拉杆，然后门外的铁门会打开
-:::tip
-这个铁门特别容易卡住人，可以考虑使用位移技能进入
-:::
-
-<span class="stage-index">6.</span> 沿着铁门的楼梯一路往上直到顶层，在顶层打掉二层钥匙后，回到二层(就是阳台)打开铁门
-
-<span class="stage-index">7.</span> 屋子内的按钮按顺序按下`A B C D E`，然后进入暗门出来一路上到屋顶，进入秘密工厂的暗门
-
-<span class="stage-index">8.</span> 进入工厂后，一路前进触发剧情即可，注意躲避一系列机关，杀怪环节可以不用理会直接往前即可
->那个躲避激光的上升环节伤害低得要死...甚至可以挂机
-
-<span class="stage-index">9.</span> 冲进去实验室最里面跟<font color=00AA00>**Dr. Urelix**</font>对话
-
-:::danger
-注意这里千万别点上头了，一定要注意分歧点，别怪我没提醒了！！！
-:::
-
-<span class="stage-index">10.</span> 分歧点：如果你接受<font color=00AA00>**Dr.Urelx**</font>的贿赂，**继续和他对话**，<br>你会拿到Shameful Greaves，loot bonus非常高的裤子
-
-如果你不继续对话，直接从出口离开，回去找<font color=00AA00>**Detective Hart**</font>`[-1744 66 -5478]`，<br>你会拿到Greaves of honor，XP bonus非常高的裤子
-
-奖励
+## 奖励清单 / Rewards
 + 160000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 512/768 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 1 Greaves of honor/ 1 Greaves of Shame
++ 512 或 768 绿宝石![=20x](/assets/icon/Emerald.png)（取决于最终选择）
++ 1个 `Greaves of Honor` 或 `Shameful Greaves`（取决于最终选择）
+
+### Step 1 接受调查
+---
+在 Olux 找到 <NPC>Detective Hart</NPC> 并与他交谈，坐标为 <CC>-1745 66 -5479</CC>。
+
+### Step 2 拜访线人
+---
+沿着向西的路找到线人 <NPC>Daxe</NPC>，坐标 <CC>-1924 55 -5466</CC>，并带上在前置任务中获得的 `Mechanical Reactor` 触发剧情对话。
 
 :::tip
-强烈建议最后的环节选择离开拿到Greaves of honor，这个等级段唯一指定经验神裤，就算你不想穿也能卖个好价钱
+如果你不小心弄丢了 `Mechanical Reactor`，可以回到前置任务中 <NPC>Duvale</NPC> 的位置（<CC>-1620 51 -4974</CC>），找他对话重新获取一个。
 :::
+
+### Step 3 潜入工厂
+---
+顺着路来到傀儡工厂 <CC>-2119 55 -5557</CC>，手持 `Mechanical Reactor` 与守门魔像交互使其瘫痪。进入屋子内与 <NPC>Urelix</NPC> 对话。
+
+### Step 4 寻找暗门
+---
+在屋内寻找线索并进入真正的秘密工厂。
+
+:::tip 解谜流程提示
+1. 拉下坐标 <CC>-2117 57 -5574</CC> 的拉杆，门外的铁门将会打开（铁门容易卡住人，可考虑使用位移技能进入）。
+2. 沿着铁门后的楼梯一路往上直到顶层，打掉二层的门锁机制。
+3. 回到二层阳台打开铁门，进入房间内，按顺序按下按钮 `A B C D E`。
+4. 进入出现的暗门，一路走到屋顶，进入通往秘密工厂的通道。
+:::
+
+### Step 5 逃离流水线
+---
+进入工厂后，沿着生产线一路前进。注意躲避沿途的激光机关，你可以无视怪物直接往深处冲。在实验室最里面找到 <NPC>Dr. Urelix</NPC> 并与他对话。
+
+### Step 6 艰难的抉择 (剧情分歧点)
+---
+在听完 <NPC>Dr. Urelix</NPC> 的疯狂言论后，你面临一个抉择。请**谨慎操作**，这将决定你的最终奖励：
+
+* **选项 A (接受贿赂)：** 听从他的提议并**继续与他对话**，你将成为共犯。获得 768 绿宝石和 `Shameful Greaves`（高战利品加成/Loot Bonus）。
+* **选项 B (揭发真相)：** 拒绝他的提议并**直接离开工厂**，不要拿他的东西。原路返回去寻找 <NPC>Detective Hart</NPC> <CC>-1744 66 -5478</CC> 汇报真相。获得 512 绿宝石和 `Greaves of Honor`（高经验加成/XP Bonus）。
+
+:::tip
+强烈建议选择选项 B (揭发真相) 拿到 `Greaves of Honor`。这是该等级段极佳的经验神裤，即使你自己不想穿，在交易市场上也能卖个好价钱。
+:::
+
+## 剧情省流 / Summary
+Olux 的侦探 Hart 正在调查镇上居民频繁失踪的案件。他委托冒险者去向一个有犯罪前科的线人 Daxe 打探情报。
+
+冒险者带着从上一个任务中获得的机械反应堆找到了 Daxe。反应堆意外激活了 Daxe 旁边的守卫魔像，魔像竟然发出了失踪者 Theodore 的声音，并痛苦地呼唤着他女儿 Madeleine 的名字。Daxe 对此感到震惊和恐惧，坦白他曾在工厂行窃时发现了这个可怕的秘密，工厂的人给了他这个魔像以封他的口。他指引冒险者去寻找工厂的负责人 Urelix。
+
+冒险者来到工厂，瘫痪了门口的守卫魔像，并与 Urelix 对峙。Urelix 傲慢地否认了所有指控，并挑衅冒险者自己去搜查证据。冒险者解开重重机关潜入地下工厂，目睹了魔像骇人的生产线。
+
+在工厂最深处，冒险者见到了 Dr. Urelix。Urelix 毫不掩饰地承认，所有的铁魔像都是将活人与金属融合制造而成的，为了保持服从，他们压抑了受害者的情感和记忆。他辩称这是为了在战争中保护 Gavel 和 Wynn 必须做出的牺牲。随后，Urelix 试图用大量的绿宝石和精良的装备贿赂冒险者，要求其对此事保密。
+
+此时冒险者面临抉择：要么收下贿赂成为共犯；要么拒绝同流合污，回去向侦探 Hart 揭发这起惨案，让警方捣毁这座邪恶的工厂。

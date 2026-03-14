@@ -1,60 +1,100 @@
-# The Shadow of the Beast (level 54)
-<span style="font-size: 25px;">**野兽秘影**</span>
+---
+title: The Shadow of the Beast (level 54)
+icon: scroll
+---
+
+## 任务信息 / Information
+任务等级：Level 54 / 推荐等级：Level 54
+任务时长：长 / 任务难度：中等
+中文译名：野兽秘影
 
 :::tip
-前置要求:挖矿、砍树、钓鱼副职等级均达到20级
+前置要求：挖矿、砍树、钓鱼副职等级均达到 20 级。
 :::
 
-<span class="stage-index">1.</span> 在<font color=00AA00>**Dereg**</font>的房子前对话`[-1483 47 -5218]`
-
-<span class="stage-index">2.</span>  跟着地上的血迹(红石粉)走来找到更多线索,走到血迹没有了为止
-
-<span class="stage-index">3.</span> 问一下农田的主人<font color=00AA00>**Tolem**</font>`[-1663, 53, -5271]`看看有没有什么线索
-
-<span class="stage-index">4.</span> 帮助<font color=00AA00>**Tolem**</font>带回他的三只牛
-
-:::tip 
-其实你带不回牛的，直接杀掉就行了
-
-牛分别在下面的坐标：
-
-+ `[-1692 55 -5292]`
-
-+ `[-1706 55 -5276]`
-
-+ `[-1695 39 -5310]`
-:::
-
-<span class="stage-index">5.</span> 在附近采集10个`Willow Wood`交给<font color=00AA00>**Tolem**</font>
->附近有很多，可以找找
-
-<span class="stage-index">6.</span> 去`[-1770 54 -5244]`击杀木头一样的绿名怪 带 `6 Marsh Robur` 回去给<font color=00AA00>**Tolem**</font>
-
-<span class="stage-index">7.</span> 跟着脚印(地上的洞)寻找另外一位受害者<font color=00AA00>**Kroac**</font>`[-1583 51 -5438]`
-
-<span class="stage-index">8.</span> 在`[-1560 50 -5442]`的洞采集10个`Cobblestone`交给<font color=00AA00>**Kroac**</font>
-
-<span class="stage-index">9.</span> 帮助Kroac修复他的房屋
-:::tip
-你可能需要再采集4个圆石来修复
-
-直接爬上房顶就行了，能看到哪里需要修复
-:::
-<span class="stage-index">10.</span> 跟着脚印(地上的洞)继续寻找另外一位受害者<font color=00AA00>**Rileen**</font>`[-1434, 47, -5503]`
-
-<span class="stage-index">11.</span> 在附近采集10个`Salmon Oil`交给<font color=00AA00>**Releen**</font>
-
-<span class="stage-index">12.</span> 继续跟着脚印来到野兽的洞穴`[-1384 45 -5529]`
-:::tip
-洞窟内密码:粉色、浅蓝色、绿色、黄色
-:::
-
-<span class="stage-index">13.</span> 杀死野兽，带着掉落物回<font color=00AA00>**Dereg**</font>交差
-
-奖励
+## 奖励清单 / Rewards
 + 100000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 512 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 1 Crushed Bigfoot Bone(在olux的武器商买, Olux prized weapon，传说品质武器)
++ 768 绿宝石![=20x](/assets/icon/Emerald.png)
 + 3200 钓鱼经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 3200 挖矿经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 3200 砍树经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 1个 `Crushed Bigfoot Bone` (可在 Olux 的武器商人处兑换传说品质武器)
+
+### Step 1 接受委托
+---
+在 <NPC>Dereg</NPC> 的房子前与他交谈，坐标 <CC>-1483 51 -5218</CC>。
+
+### Step 2 追踪血迹
+---
+顺着野兽留在地上的血迹（红石粉）寻找线索，一直走到位于 <CC>-1663 52 -5271</CC> 的 <NPC>Tolem</NPC> 处。
+
+### Step 3 “带回”逃跑的牛
+---
+帮助 <NPC>Tolem</NPC> 找回在房子附近和农场下方洞穴里的三只逃跑的牛，带回它们各自掉落的物品。
+
+:::tip
+其实你无法活捉它们，直接杀掉就行了。
+牛分别在以下坐标：
++ <CC>-1692 54 -5291</CC> (掉落 Skin)
++ <CC>-1705 54 -5275</CC> (掉落 Beef)
++ <CC>-1694 38 -5309</CC> (掉落 Eye)
+:::
+
+### Step 4 采集柳木
+---
+在附近采集 10 个 `Willow Planks`（柳木板/柳树原木）交给 <NPC>Tolem</NPC>。
+
+### Step 5 追踪巨大脚印
+---
+顺着 <NPC>Tolem</NPC> 房子旁地上巨大的脚印（地上的坑洞）追踪，前往坐标 <CC>-1583 55 -5438</CC>。
+
+### Step 6 询问第二位受害者
+---
+与房屋被破坏的 <NPC>Kroac</NPC> 交谈。
+
+### Step 7 采集圆石
+---
+进入坐标 <CC>-1560 50 -5436</CC> 的矿洞中，采集 10 个 `Cobblestone`。
+
+### Step 8 修复房屋
+---
+使用刚刚采集的圆石帮助 <NPC>Kroac</NPC> 修复他的房屋。
+    
+:::tip
+直接爬上房顶，拿着圆石右键点击需要修复的四个破洞即可。
+:::
+
+### Step 9 继续追踪
+---
+继续跟着野兽的脚印向东走，前往坐标 <CC>-1445 47 -5529</CC>。你会看到一段野兽摧毁房屋的过场动画，随后与惊慌失措的 <NPC>Rileen</NPC> 交谈。
+
+### Step 10 采集鲑鱼油
+---
+在后面的池塘里采集 10 个 `Salmon Oil` 交给 <NPC>Rileen</NPC> 以制作急救药膏。
+
+### Step 11 寻找野兽洞穴
+---
+沿着 <NPC>Rileen</NPC> 房子后面的脚印继续追踪，找到野兽的洞穴，坐标 <CC>-1384 45 -5529</CC>。
+
+:::tip
+洞窟内大门开启的密码顺序为：粉色 (Pink)、浅蓝色 (Light Blue)、绿色 (Green)、黄色 (Yellow)。击杀对应颜色的 <mob>Ancient Guardian</mob> 获取羊毛即可开门。
+:::
+
+### Step 12 击杀野兽
+---
+进入大门杀死巨型野兽 <mob>Bigfoot</mob>，拾取它掉落的 `Piece of Bigfoot Bone` 作为死亡证明，并带回给位于 <CC>-1483 51 -5218</CC> 的 <NPC>Dereg</NPC> 交差。
+
+## 剧情省流 / Summary
+Dereg 告诉冒险者，他在沼泽里看到了一只像树一样高大的巨型野兽。由于没人相信他，他请求冒险者顺着地上新鲜的血迹去追踪并猎杀这头野兽，以防它袭击城镇。
+
+
+冒险者顺着血迹找到了农夫 Tolem。Tolem 的牛圈被野兽彻底摧毁了，他请求冒险者帮忙把受惊逃跑的三头牛找回来。然而，冒险者简单粗暴地直接杀死了牛并带回了牛肉等掉落物。Tolem 见状勃然大怒，痛骂冒险者是个白痴暴徒，并要求冒险者去砍伐 10 块柳木板来赔偿损失。拿到木板后，Tolem 没好气地打发冒险者继续顺着地上的巨大脚印去追捕那头惹祸的野兽。
+
+
+脚印将冒险者引向了木匠 Kroac。Kroac 的房子刚刚被这只狂奔的巨兽撞得支离破碎。由于他背部有伤无法干重活，他拜托冒险者去附近的矿洞开采 10 块圆石，并帮忙爬上屋顶修补破洞。修好屋顶后，Kroac 对冒险者感激不尽，并指引冒险者继续向东追踪野兽的脚印。
+
+
+顺着脚印，冒险者亲眼目睹巨兽摧毁了另一座房屋。当地居民 Rileen 正惊慌失措，因为许多村民受了伤，而他们急需的药物配方里缺少池塘里的鲑鱼油。冒险者主动前往池塘收集了足够的鲑鱼油交给了她。Rileen 对冒险者的善举感到非常惊讶，一改对人类的偏见，并告诉冒险者巨兽跑进了东边的洞穴。
+
+
+冒险者深入洞穴，解开了遗迹守卫的机关，最终击杀了名为 Bigfoot 的巨型野兽。冒险者带着它的骨骸作为凭证回到了 Dereg 处。Dereg 称赞了冒险者的狩猎技术，并建议冒险者把这块稀有的骨头带给城里热衷于研究神秘生物的武器商人，去换取精良的装备。

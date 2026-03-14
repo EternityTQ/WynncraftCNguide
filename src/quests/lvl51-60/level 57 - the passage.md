@@ -1,37 +1,51 @@
 ---
+title: The Passage (level 57)
 icon: route
 ---
 
-
-# The Passage(level 57)
-<span style="font-size: 25px;">**捷径**</span>
+## 任务信息 / Information
+任务等级：Level 57 / 推荐等级：Level 57
+任务时长：短 / 任务难度：困难
+中文译名：捷径
 
 :::tip Troms要怎么过去？
-
 ![](/assets/img/qa6.jpg)
 
 从如图所示的路径过去即可
 
-注意：图上的路径会经过一座桥(The Great Bridge)，桥上怪物伤害较高，建议骑马或者直接用技能冲过去
+注意：图上的路径会经过一座桥(The Great Bridge)，桥上会经历一场BOSS战，有点难度。
 :::
 
-<span class="stage-index">1.</span> 与**Troms**的<font color=00AA00>**Wirt**</font>`[-820 94 -1040]`对话
-
-<span class="stage-index">2.</span> 找到**Troms**的<font color=00AA00>**Ilden**</font>`[-870 94 -1034]`，告诉他你想成为这个城镇的一员
-
-<span class="stage-index">3.</span> 拿着4个`zombie eyes`去boss altar`[-712 57 -658]`，把`zombie eyes`右键放入。传送之后杀掉boss
-
-:::tip
-`zombie eyes`在附近的僵尸就能掉
-
-{boss会读条后连续跳跃拉近距离，也会放烟幕弹(2500左右的伤害，面前一条)所以boss用技能的时候离远一点 不然会被秒。附近持杖的法师会读条技能可能是治疗优先杀掉}
-:::
-
-捡起`antic bead`(很多，在丛林村庄可以用来换不同元素种类的面具，很好看，且是不错的过渡装备)
-
-<span class="stage-index">4.</span> 带回`antic bead`给<font color=00AA00>**Ilden**</font>`[-870 94 -1034]`
-
-奖励
+## 奖励清单 / Rewards
 + 140000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 256 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 可以使用往返于猪人峡谷和Troms之间的快速通道了
++ 可以使用往返于猪人峡谷和Troms之间的快速通道 (Access to The Passage)
+
+### Step 1 遭遇阻拦
+---
+与位于 Troms 的 <NPC>Wirt</NPC> 对话，坐标为 <CC>-820 94 -1040</CC>。
+
+### Step 2 申请入城
+---
+找到 Troms 的城镇招募员 <NPC>Ildan</NPC>（坐标 <CC>-870 94 -1034</CC>），告诉他你想成为这个城镇的一员。
+
+### Step 3 击杀部落首领
+---
+前往坐标 <CC>-712 57 -628</CC> 附近的祭坛寻找线索，进入 Boss Altar 并击杀 Boss，带回 1 个 `Antic Bead` 给 <NPC>Ildan</NPC>。
+
+:::tip
+前往祭坛的路上可以顺手打附近的僵尸收集 4 个 `Zombie Eyes`，需要将其丢入祭坛开启 Boss 战。
+
+首领 Boss 会读条后连续跳跃拉近距离，也会放烟幕弹（面前一条直线，造成 2500 左右的伤害），所以 Boss 使用技能的时候请务必离远一点，不然会被秒杀。附近持杖的法师会读条技能（可能是治疗），建议优先杀掉。
+
+击杀后掉落的 `Antic Bead` 很多，可以在丛林村庄用来换取不同元素种类的面具，外观好看且是不错的过渡装备。如果你之前打过这个 Boss 并持有 `Antic Bead`，你可以直接交给 <NPC>Ildan</NPC> 完成任务，无需再打一次。
+:::
+
+## 剧情省流 / Summary
+冒险者试图通过连接 Troms 和猪人峡谷的通道，但被 Wirt 拦住了。Wirt 表示只有本镇的居民才能通过，并指示冒险者去找城镇的招募员 Ildan 申请入城。
+
+
+冒险者找到 Ildan 后，Ildan 提出必须先为城镇排忧解难才能成为居民。他解释说，附近的一个部落曾有一位强大的首领，战死后被部落用邪恶的死灵法术复活。部落意识到铸成大错后，将首领锁在了一座坟墓里，但首领不断复活手下，给城镇军队造成了很大的麻烦。Ildan 要求冒险者前往祭坛寻找进入坟墓的方法，并带回首领掉落的古董珠子作为击杀证明。
+
+
+冒险者成功击败了复活的部落首领，拿着珠子回到了 Ildan 处。Ildan 对此印象深刻，正式欢迎冒险者成为 Troms 的公民。随后，Ildan 告诉冒险者，这种祭坛坟墓并不唯一，整个省份甚至 Gavel 地区都散落着许多类似的 Boss 祭坛，虽然战斗艰难，但里面往往藏着丰厚的奖励，鼓励冒险者去探索。

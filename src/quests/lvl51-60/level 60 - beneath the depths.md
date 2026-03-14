@@ -1,35 +1,77 @@
-# Beneath the Depths(level 60)
-<span style="font-size: 25px;">**深空之下**</span>
+---
+title: Beneath the Depths (level 60)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 在Pirate Cove与<font color=00AA00>**Javier**</font>`[-640 53 -3117]`对话
->Pirate Cove的船票可以在Selchar/Llevigar购买
+## 任务信息 / Information
+任务等级：Level 60 / 推荐等级：Level 60
+任务时长：长 / 任务难度：困难
+中文译名：深空之下
 
-<span class="stage-index">2.</span> 找到藏在Skull Cave`[-673 45 -3190]`(岛屿上有个巨大骷髅的嘴巴)的Javier的地图
-:::tip 按以下步骤走
-1.  进去下楼梯，左拐，能看到一个房间，里面有猪人
-2.  丢一个绿宝石块在里面的地毯`[-683 19 -3206]`上，之后你身后的墙会打开
-3.  直走，触发机关，上楼，能看到一个扑过来的尸体
-4.  打死之后向前走，小心地上有1个会消失的地板和很多地雷
-5.  通过躲避炮弹，炮弹高度一定，右二上有地方可以停步，然后前方会有个坑,下去到底。
+:::tip 
+Pirate Cove 的船票可以在 Selchar 或 Llevigar 购买。
+去找 Dalben 之前，记得带上 5 个绿宝石块（EB），以免你往返两次。Pirate Cove 岛上虽然是海盗据点，但其实是有银行的。
 :::
 
-<span class="stage-index">3.</span> 给<font color=00AA00>**Javier**</font>`[-640 53 -3117]`已经褪色的地图
+## 奖励清单 / Rewards
++ 185000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 1 绿宝石![=20x](/assets/icon/Emerald.png)（对，真的就只给一个绿宝石）
++ 1个 `Abysso Galoshes` (Quest Item / 传说级靴子)
++ 1把 `Galleon's Graveyard Key` (帆船葬场地牢钥匙)
 
-<span class="stage-index">4.</span> <font color=00AA00>**Javier**</font>会还给你地图。带着地图去到在**Mage Island**的<font color=00AA00>**Dalben**</font>`[883 46 -2872]`
+### Step 1 接受海盗的委托
+---
+在 Pirate Cove 与老海盗 <NPC>Javier</NPC> 对话，坐标为 <CC>-640 53 -3117</CC>。
 
-<span class="stage-index">5 </span> 给<font color=00AA00>**Dalben**</font> 5 个 绿宝石![=20x](/assets/icon/Emerald.png)块 和 1 个 褪色的地图
+### Step 2 探索骷髅洞穴
+---
+进入岛屿入口处巨大骷髅嘴巴里的 Skull Cave（入口坐标 <CC>-673 45 -3190</CC>），寻找 <NPC>Javier</NPC> 藏起来的地图。
 
-<span class="stage-index">6.</span> <font color=00AA00>**Dalben**</font>给你一个unenchanted map(未附魔的地图)。按照地图的标记寻找到指定的位置，并且进入OceanCave`[-187 16 -3452]`。进入洞穴之后向南走，走通道不要进大房间小房间，(小心某个没有实体一击就死但是一套伤害1800的怪，有特殊音效)。走到底`[-78 14 -3039]`并且杀死宝藏守护者[Treasure Guardian]。你将会获得一个叫做Ocean Treasure(海之宝藏)的金条。原路返回，带着他回去给<font color=00AA00>**Javier**</font>
+:::tip 洞穴解谜与跑酷步骤：
+1. 进去后下楼梯，左拐，能看到一个有死海盗怪物的房间。
+2. 丢一个**绿宝石块**在坐标 <CC>-683 19 -3206</CC> 的地毯上，随后你身后的墙壁会打开一条隐藏通道。注意：丢出绿宝石块后不要一直停留在楼梯上，否则门关上后你会被困住。
+3. 顺着通道直走，触发机关上楼，击杀扑过来的尸体怪物 <mob>Deceased Trespasser</mob>。
+4. 继续向前走，注意地上有一块会消失的地板和许多地雷陷阱。
+5. 躲避发射的炮弹（炮弹高度是固定的），在右侧第二个向上的位置有安全区可以停步喘息。然后前方会有一个坑，直接跳下去到达最深处的房间，拿到 `Faded Map`。
+:::
 
-奖励
-+ 185000 经验值![=20x](/assets/icon/Experience_Orb.gif) 
-+ 1 绿宝石![=20x](/assets/icon/Emerald.png)(对，就一个绿宝石![=20x](/assets/icon/Emerald.png))
-+ Abysso Galoshes(Quest Item)
-+ 一个帆船葬场(缩写为GG的地牢)的钥匙
+### Step 3 寻求法师的帮助
+---
+带着拿到手的褪色地图回到 <CC>-640 53 -3117</CC> 交给 <NPC>Javier</NPC>。因为地图已经难以辨认，他会把地图还给你，让你去找 Mage Island 的 <NPC>Dalben</NPC> 帮忙修复。
+
+### Step 4 修复褪色的地图
+---
+前往 Mage Island 找到 <NPC>Dalben</NPC>（坐标 <CC>883 46 -2871</CC>），听完他的讲述后，将 5 个绿宝石块（Emerald Blocks）和褪色的地图交给他，换取一张未附魔的清晰地图（Unenchanted Map）。
 
 :::tip
-
-在你去找Dalben之前，记得带着5个EB，以免你往返两次。海盗岛上有银行(？？？哪里不对)
-
-最后海底洞里的怪物有很小概率掉Naval stone三星材料，挺值钱的
+如果你已经完成了任务 `The Order of the Grook`，在 Pirate Cove 坐标 <CC>-675 35 -3140</CC> 处有一个魔法传送门可以快速前往 Mage Island。
 :::
+
+### Step 5 潜入海底沉没的村庄
+---
+按照清晰地图的指引，前往位于大海中央的海底洞穴（Sarnfic），入口坐标为 <CC>-187 16 -3452</CC>。
+
+:::tip
+最快到达海底洞穴的方法是从 Mage Island 乘船返回 Selchar，然后再从 Selchar 游过去或开船过去。
+进入洞穴后一直向南走，顺着主通道前进，不要进旁边的房间。注意躲避一种名为 <mob>Hurricane</mob> 的怪物，它没有实体，靠近后会自爆秒杀玩家（一套伤害约 1800）。
+这里的怪物有很小概率掉落 3 星材料 `Naval Stone`，在交易市场上挺值钱的。
+:::
+
+### Step 6 击败宝藏守卫
+---
+走到海底洞穴的最深处 <CC>-78 14 -3039</CC>，击杀房间里的 <mob>Treasure Guardian</mob>，拾取掉落的 `Ocean Treasure`（一块金条）。
+
+:::tip
+Treasure Guardian 会使用 Arrow Storm (箭雨) 射击你，并使用 Push (击退) 试图将你推入场地边缘的岩浆中。你可以利用场地内的四根柱子作为掩体来躲避箭雨，或者背靠柱子防止被推入岩浆。
+:::
+
+### Step 7 返回交差
+---
+原路返回，带着金条回到 Pirate Cove，交还给 <CC>-640 53 -3117</CC> 的 <NPC>Javier</NPC> 以完成任务。
+
+## 剧情省流 / Summary
+在海盗湾，年迈的海盗 Javier 提议与冒险者做一笔交易。他声称自己在年轻时曾将一批宝藏藏在一个名叫 Sarnfic 的海洋村庄的密室里，但后来这个村庄离奇消失了。由于年事已高，他委托冒险者去他设在岛上骷髅洞穴内的旧据点寻找藏宝图，并承诺事成之后平分宝藏。
+
+冒险者闯过骷髅洞穴的重重陷阱，找到了藏宝图交还给 Javier，却发现地图已经严重褪色无法阅读。Javier 指示冒险者去法师岛寻找一位名叫 Dalben 的老朋友帮忙修复地图。Dalben 看到地图后大惊失色，向冒险者道出了真相：当初法师议会为了封印一件充满黑暗魔法的物品（一双邪恶的黑色靴子），迫不得已使用强力魔法将整个 Sarnfic 村庄沉入了海底。Dalben 认为当年那个愚蠢的海盗 Javier 根本不知道自己藏起来的到底是什么可怕的东西。为了防止宝藏再次落入海盗手中，Dalben 收取了 5 个绿宝石块的费用，不仅解除了地图的附魔，还鼓励冒险者去拿走宝藏，期望冒险者能将这双拥有黑暗力量的靴子用于正道。
+
+冒险者顺着修复后的地图潜入海底，来到了被淹没的 Sarnfic 村庄遗址。在最深处的密室中，冒险者击败了强大的宝藏守卫，拿到了一块作为宝藏一部分的金条，并将其带回海盗湾交给了 Javier。Javier 拿到金条后非常高兴，不仅爽快地支付了报酬（虽然只给了一个绿宝石），还将那双封印着深渊力量的靴子以及一把传说中海盗沉船地牢的钥匙作为额外奖励送给了冒险者。

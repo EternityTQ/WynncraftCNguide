@@ -1,30 +1,60 @@
-# Death Whistle (level 53)
+---
+title: Death Whistle (level 53)
+icon: scroll
+---
 
+## 任务信息 / Information
+任务等级：Level 53 / 推荐等级：Level 53
+任务时长：短 / 任务难度：简单
+中文译名：死亡之哨
 
+## 奖励清单 / Rewards
++ 95000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 1 `Death Whistle Leaf`
++ 3 `Cyclone Blue Leaves`
++ 3 `Pink Pelulite`
++ 5 `Pink Pelute`
 
-<span style="font-size: 25px;">**一个买错药的故事**</span>
+### Step 1 寻找草药商人
+---
+和草药商人 <NPC>Voer</NPC> 交谈，坐标位于 <CC>-2103 59 -5427</CC>。
 
-:::warning 旧任务提醒
-本任务沿用老攻略，可能存在过时情况
+### Step 2 攀登最高峰
+---
+找到位于 <CC>-2064 56 -5190</CC> 的山峰，并寻找上到山顶的路。
 
-预计于下次大版本更新后一起确认更新
+:::tip
+山北有山路，走到一半路断了但是有传送区，进去就到了一个小副本。冲到最高处，你就会被传送到接近山顶的地方。
+
+注意：为了确保任务能正常推进到后续阶段，请务必沿着实际的小路/副本脚印前进，**不要**直接用位移技能直接飞到山顶。
 :::
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Voer**</font>在`[-2103 59 -5427]`讲话
+### Step 3 采集黑哨叶
+---
+到达山顶，击杀绿名怪物 <mob>Death Whistle</mob> 拿到一个 `Black Whistle Leaf`。
+（击杀后附近会有一朵 Cyclone Blue 花，可以踩上去，它会将你直接传送回靠近 <NPC>Voer</NPC> 的区域）
 
-<span class="stage-index">2.</span> 找到位于`[-2064 56 -5190]`的山峰，和上到其山顶的路。(山北有山路，走到一半路断了但是有传送区，进去就到了一个小副本，冲到最高处你就被传送到了山顶不到一点)
+### Step 4 买错药的事故
+---
+将 `Black Whistle Leaf` 带回给 <CC>-2103 59 -5427</CC> 的 <NPC>Voer</NPC>，此时会触发他与精灵 <NPC>Lari</NPC> 的剧情对话。
 
-<span class="stage-index">3.</span> 去到山顶击杀绿名拿到一个`Black Whistle Leaf`
+### Step 5 追踪危险残渣
+---
+沿着有残渣的小路前往女巫的洞穴（买家的洞穴），坐标 <CC>-2190 56 -5240</CC>。
 
-<span class="stage-index">4.</span> 将一个`Black Whistle Leaf`交给<font color=00AA00>**Voer**</font>
+:::tip
+沿着地上有粉红色地毯（花瓣残渣）的小路走即可找到。
+:::
 
-<span class="stage-index">5.</span> 沿着有残渣的小路去女巫的洞穴`[-2195 56 -5242]`(沿着地上有粉红色地毯的小路走)
+### Step 6 解救女巫
+---
+在洞穴中，买家女巫已经失控。击败这名 <mob>Confused Witch</mob>，从她身上剥离出掉落的 `Pink Pelulite` 花朵，并立即带回给 <NPC>Voer</NPC>。
 
-<span class="stage-index">6.</span> 把女巫杀了，带给<font color=00AA00>**Voer**</font>一个`Pink Pelulite`
+## 剧情省流 / Summary
+在沼泽里，冒险者遇到了一位名叫 Voer 的外来植物商人。Voer 抱怨沼泽的腐化导致魔法植物枯萎，而法师们对药草的需求却在激增。他急需一种名为“死亡之哨”的稀有植物来补充库存，并指引冒险者去沼泽东南部尚未被腐化蔓延到的最高山峰上寻找。
 
-奖励
-+ 95000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 1 Death Whistle Leaf (素材)
-+ 3 Cyclone Blue Leaves (素材)
-+ 3 Pink Pelulite (素材)
-+ 5 Pink Pelute (素材)
+冒险者费尽周折登上山顶，击败了被魔法赋予生命的植物，带着采摘到的黑哨叶回到了 Voer 的营地。然而，此时精灵女孩 Lari 正在严厉斥责 Voer。原来，Voer 偷了 Lari 的草药学书籍，并且因为粗心大意，将极度危险、能让人狂躁失控的粉色草药（Pink Pelulite）当成安神祈福用的普通粉色花瓣（Pink Pelute）卖给了一位常客。Lari 批评了 Voer 的鲁莽草率后便转身离开，留下烂摊子让 Voer 自己解决。
+
+焦急万分的 Voer 恳求冒险者顺着地上散落的粉色花瓣痕迹，赶在悲剧发生前找回那株危险的植物。冒险者一路追踪来到了女巫的洞穴，发现女巫已经失去了对身体的控制权，并恳求冒险者离开以免受伤。冒险者无奈之下击败了陷入混乱的女巫，从她身上成功夺回了危险的粉色草药。
+
+带着草药返回营地后，Voer 对冒险者的及时救援感激涕零，庆幸自己的常客没有酿成大错。为了表达感谢，他将自己库存中一些经过安全处理的药草赠送给了冒险者，并承诺以后会更加小心。
