@@ -1,111 +1,145 @@
-# Purple and Blue(level77)
-<span style="font-size: 25px;">**紫与蓝**</span>
+---
+title: Purple and Blue (level 77)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Korun**</font>对话`[-236 34 -5224]`
+## 任务信息 / Information
+任务等级：Level 77 / 推荐等级： Level 77
+任务时长：长 / 任务难度：中等
+中文译名：紫与蓝
 
-<span class="stage-index">2.</span> 跟随<font color=00AA00>**Korun**</font>进入地下室，然后进入旁边的通道，被劝退后触发剧情
+## 奖励清单 / Rewards
+根据你的结局选择，奖励会有所不同：
++ 775000 / 790000 / 810000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 2048 / 2560 / 2816 绿宝石![=20x](/assets/icon/Emerald.png)
++ 额外奖励（详见第12步）
 
-<span class="stage-index">3.</span> 前往Nikoler的房子寻找线索`[-163 29 -5388]`
+### Step 1 接受委托
+---
+在 Lake Gylia 附近 <CC>-236 34 -5224</CC> 和 <NPC>Korun</NPC> 对话。他告诉你他的竞争对手 Nikoler 失踪了，怀疑他找到了进入湖泊深处的方法。
+
+### Step 2 探索地下通道
+---
+跟随 <NPC>Korun</NPC> 进入他家的地下室，然后进入旁边的铁活板门通道。通道里充满了强大的魔法力量，你受到伤害被劝退。随后 <NPC>Korun</NPC> 让你去北海岸边 Nikoler 的房子里找线索。
+
+### Step 3 寻找线索
+---
+前往 <NPC>Nikoler</NPC> 的房子 <CC>-163 29 -5388</CC> 寻找线索。
+
 :::tip 如何获得线索?
-你需要数屋子内点燃蜡烛的总数，共8根
-
-然后在二楼阳台外`[-152 34 -5401]`和管道房间`[-163 35 -5397]`拿到两处的雕刻石
-
-将标有3和5的雕刻石放入二楼管道
-
-最后按下旁边按钮，跟着痕迹下楼，在楼梯下方会开启一扇暗门
-
-拿走暗门房间内的地图即可
+根据二楼书桌 <CC>-155 36 -5391</CC> 上的笔记，你需要数屋子内点燃蜡烛的总数，共 8 根。
+然后在二楼阳台外 <CC>-151 36 -5401</CC> 和二楼管道房间 <CC>-162 37 -5395</CC> 的盒子里拿到标有数字 5 和 3 的雕刻石 `Engraved Stone`。
+将这两块石头放入二楼管道（相加为 8）。
+最后下楼，在楼梯下方会开启一扇通往地下室的暗门。
+拿走暗门房间内的地图 `Gylia Treasure Map` 即可。
 :::
 
-<span class="stage-index">4.</span> 跟着线索来到`[-273 34 -5293]`，对着坐标处的岩石一直放技能直到开门
->马德这地图朝向根本不是北朝上
+### Step 4 开启洞穴
+---
+跟着地图线索来到 <CC>-274 35 -5292</CC> 的棕色岩石处，对着岩石释放两次技能直到炸开一扇门。
 
-<span class="stage-index">5.</span> 进入洞穴内，进入两侧岔路开启拉杆，随后落入陷阱
+### Step 5 触发陷阱
+---
+进入洞穴 <CC>-286 30 -5296</CC> 内，进入左右两侧的岔路分别拉下两个拉杆，随后你会落入一个有着巨大水晶的房间陷阱。
 
-<span class="stage-index">6.</span> 交互中间的蓝紫水晶，保护水晶
+### Step 6 守卫水晶
+---
+触碰中间的水晶，你获得了一个装置 `Crystal Capsule`，随后保护水晶的战斗开始。
+
 :::tip 关于机制
-进入场地后会给你一个 `Crystal Capsule`
-
-场地内共有三个需要保护的水晶(左侧蓝，中间蓝紫，右侧紫)
-
-**手持**`Crystal Capsule`左键水晶可以消耗6个`Crystal Shard`召唤一个群攻守卫，右键水晶消耗3个`Crystal Shard`召唤一个单体守卫
-
-`Crystal Shard`可以通过击杀怪物获得
-
-战斗持续几分钟，有一点久，守卫乱召就没问题了
+你需要保护水晶免受怪物（Weirds）的攻击，水晶只有 30 HP，且不会回复。
+击杀怪物会掉落 `Cosmic Shard`。
+**手持** `Crystal Capsule` 左键可以消耗 6 个 `Cosmic Shard` 召唤一个远程守卫（Cosmic Marksman），右键消耗 3 个 `Cosmic Shard` 召唤一个近战守卫（Cosmic Sentinel）。
+战斗共有 4 波，持续时间较长，只要多召唤守卫并且优先处理名字加粗的怪物（它们通常会优先攻击水晶）就没问题了。
 :::
 
-<span class="stage-index">7.</span> 战斗结束后回到中间蓝紫水晶交互一下，然后离开
+### Step 7 获取护身符
+---
+战斗结束后，水晶会生成一块石头 `Cosmic Stone`。将这块石头插入旁边大门的孔内，解锁后面的房间并拿到护身符 `Impervious Talisman`。
 
-<span class="stage-index">8.</span> 将`Cosmic Stone`插入出来后面前大门的孔内，拿到中间的护身符
+### Step 8 汇报情况
+---
+回去跟 <NPC>Korun</NPC> 报告。他让你带着护身符进入他家地下室的通道，去探索 Gylia 的核心，如果发现了 Nikoler 就把他带回来。
 
-<span class="stage-index">9.</span> 回去跟<font color=00AA00>**Korun**</font>报告
+### Step 9 潜入核心
+---
+手持护身符进入地下通道（Heart of Lake Gylia）。
 
-<span class="stage-index">10.</span> 手持护身符进入第二步中的地下通道
 :::tip
-这一步屏幕可能会很闪
-
-其实不拿护身符也可以，如果你不想被闪可以快速传送过去
+这一步屏幕可能会很闪。其实不拿护身符也可以，如果你不想被闪可以快速传送过去。
 :::
 
-<span class="stage-index">11.</span> 找到漂浮在空中的三个木头按钮，然后按下门旁边的按钮
+### Step 10 解开谜题
+---
+在核心区域你需要解开几个简单的谜题：
+1. 找到漂浮在空中的三个木头按钮并按下，然后按下门旁边的按钮。
+2. 信标关，按下代表紫与蓝颜色的按钮以匹配右侧的信标颜色。
+3. 跑酷关，对着绿色粒子右键就可以启用平台，一路往前跳过去就行了。
 
-<span class="stage-index">12.</span> 信标关，按下蓝和紫就可以了
+### Step 11 追上 Nikoler
+---
+你发现了正在钻探陨石的 <NPC>Nikoler</NPC>，迅速追上他。由于钻探导致洞穴变得极不稳定，爆炸引发了地震，落石将 <NPC>Nikoler</NPC> 压在了下面。
 
-<span class="stage-index">13.</span> 小跑酷，对着绿色粒子右键就可以启用平台，一路往前就行了
+### Step 12 作出选择
+---
+你必须在崩塌的洞穴中作出选择，你的选择会影响最终的逃跑时间和奖励：
 
-<span class="stage-index">14.</span> 追上<font color=00AA00>**Nikoler**</font>
-
-<span class="stage-index">15.</span> 作出选择
 :::tabs
-@tab 1.救出<font color=00AA00>**Nikoler**</font>
-逃出洞穴，然后结束剧情
+@tab 1. 救出Nikoler (推荐)
+选择救他（Save Nikoler），你有 1 分钟 30 秒逃脱。
+逃出洞穴后结束剧情。
 
-奖励
-+ 790000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 2816 绿宝石![=20x](/assets/icon/Emerald.png)
+奖励：
++ 790,000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 2,816 绿宝石![=20x](/assets/icon/Emerald.png)
   
-并且...
-你还可以在Nikoler的房子`[-169 29 -5377]`找到他，还会再给你一些奖励
-+ 24个t1 Gylia Meat
-+ 4个t3 Gylia Meat
-+ 4eb
+**额外奖励：**
+完成任务后，你可以在 <NPC>Nikoler</NPC> 的房子外 <CC>-169 29 -5377</CC> 找到他，他会给你：
++ 24 个 Tier 1 Gylia Meat
++ 4 个 Tier 3 Gylia Meat
++ 4 绿宝石块
 
-@tab 2.抢走陨石碎片
-在逃出洞穴后，你可以选择是否告诉<font color=00AA00>**Korun**</font>关于拿走陨石碎片的事
+@tab 2. 抢走陨石碎片
+选择拿走陨石碎片 `Meteor Shard`，<NPC>Nikoler</NPC> 会被落石砸死。你有 1 分钟 45 秒逃脱，并且逃亡中途房间会颠倒。
+逃出后，你可以选择是否告诉 <NPC>Korun</NPC> 你拿了碎片。
 
-如果你选择了如实讲述
-
-奖励
-+ 810000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 2560 绿宝石![=20x](/assets/icon/Emerald.png)
+**如果如实上交碎片：**
++ 810,000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 2,560 绿宝石![=20x](/assets/icon/Emerald.png)
   
-——————————————————————————————————————————
-如果你选择了撒谎
-
-奖励
-+ 775000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 2048 绿宝石![=20x](/assets/icon/Emerald.png)
+**如果隐瞒并私吞碎片：**
++ 775,000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 2,048 绿宝石![=20x](/assets/icon/Emerald.png)
   
-并且
-在Korun的房子的地下室，你可以用陨石碎片开启暗门`[-255 23 -5228]`得到如下额外奖励
-+ 3eb
-+ 12个Nii Runes
-+ 4个Uth Runes
-+ 10个Magicule Samples
-+ 5个Gylia Essences
-+ 3个Astral Alloys
-@tab 3.直接跑路
-逃出洞穴，然后结束剧情
+**额外奖励（隐瞒路线）：**
+在 <NPC>Korun</NPC> 的地下室，你可以用陨石碎片开启暗门 <CC>-255 23 -5228</CC> 得到：
++ 3 绿宝石块
++ 12 个 Nii Runes
++ 4 个 Uth Runes
++ 10 个 Magicule Samples
++ 5 个 Gylia Essences
++ 3 个 Astral Alloys
 
-奖励
-+ 775000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 2048 绿宝石![=20x](/assets/icon/Emerald.png)
+@tab 3. 直接跑路
+什么都不管直接逃跑，你有 2 分钟逃脱。
 
+奖励：
++ 775,000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 2,048 绿宝石![=20x](/assets/icon/Emerald.png)
+无任何额外奖励。
 :::
+
 :::tip
-如果你希望拿到更多的绿宝石![=20x](/assets/icon/Emerald.png)，救出Nikoler是最好的选择
-
-如果你希望拿到更多的素材，你可以选择私吞陨石碎片
+如果你希望拿到更多的绿宝石![=20x](/assets/icon/Emerald.png)，救出 Nikoler 是最好的选择。
+如果你希望拿到更多的符文和素材，你可以选择拿走并私吞陨石碎片。
+直接跑路是收益最低的选项。
 :::
+
+## 剧情省流 / Summary
+Lake Gylia蕴含着奇特的宇宙魔法，住在这里的科学家Korun和Nikoler是一对互相看不顺眼的死对头，他们都在暗中研究湖泊深处的秘密。一天，Korun发现Nikoler失踪了，怀疑他找到了进入湖泊核心的方法，于是雇佣冒险者去Nikoler的房子里搜寻线索。
+
+冒险者破解了Nikoler留下的解密机关，在地下室找到了一张藏宝图。顺着地图的指引，冒险者炸开了一座隐藏的洞穴，并在其中经历了一场保卫水晶的试炼，最终获得了能够抵御湖泊核心魔法伤害的护身符。拿着护身符，冒险者潜入了Gylia的核心区域，解开重重谜题后，终于追上了失踪的Nikoler。
+
+此时的Nikoler正陷入狂热之中，他试图用钻探机从巨大的紫蓝色陨石上切下一块碎片，以此向Korun证明自己才是更优秀的科学家。然而，暴力的钻探破坏了洞穴的稳定，引发了剧烈的地震和崩塌，Nikoler不幸被落石死死压住。
+
+在生死存亡的关头，冒险者面临着抉择：是伸出援手救出被困的Nikoler，还是趁火打劫夺走他挖出的陨石碎片，亦或是丢下他独自逃命。逃出生天后，冒险者向Korun讲述了洞穴中发生的一切。根据冒险者的选择，这两位科学家的命运走向了截然不同的结局：他们或许能够放下芥蒂握手言和，共同研究湖泊的秘密；又或许是以一方的惨死收场，留下无穷的悔恨与贪婪的果实。

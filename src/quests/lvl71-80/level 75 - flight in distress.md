@@ -1,68 +1,81 @@
 ---
+title: Flight in Distress (level 75)
 icon: route
 ---
 
-# Flight In distress (level 75)
-<span style="font-size: 25px;">**飞艇事故**</span>
+## 任务信息 / Information
+任务等级：Level 75 / 推荐等级： Level 75
+任务时长：长 / 任务难度：困难
+中文译名：飞艇事故
+前置任务：[Acquiring Credentials](/quests/lvl71-80/level%2074%20-%20aquiring%20of%20credentials.html)
+
 :::tip 重要任务
-解锁Detlas-Cinfras的快速旅行
-:::
-前置任务:[Acquiring Credentials](/quests/lvl71-80/level%2074%20-%20aquiring%20of%20credentials.html)
-
-
-<span class="stage-index">1.</span> 带上前置任务中获得的`Gavelian Passport`和<font color=00AA00>**Airship Clerk**</font>对话`[-172 108 -4946]`，然后登上飞艇
-:::tip
-如果你的`Gavelian Passport`丢失了
-
-你可以走进前置任务中的护照办理馆`[-256 57 -4983]`
-
-会自动重新获取护照
+解锁 Detlas - Cinfras 的快速旅行。
 :::
 
-
-<span class="stage-index">2.</span> 前往最顶层舰桥与<font color=00AA00>**Captain Ackbar**</font>对话
-
-<span class="stage-index">3.</span> 回到一层，从飞艇往外走，沿着北边一路找到失踪的小孩
-
-<span class="stage-index">4.</span> 回去顶楼和<font color=00AA00>**Captain Ackbar**</font>报告
-
-<span class="stage-index">5.</span> 前往引擎室询问<font color=00AA00>**Engineer Eric**</font>有什么需要帮助的(就在舰桥下面)
-
-<span class="stage-index">6.</span> 从舰桥来到飞艇气球上方，问题在飞艇的东北侧(找一下红色飞艇在哪一侧，就是那边)
-:::tip 关于修复引擎
-只需要对着**木质**按钮猛按就行了
-
-注意千万不要靠太近，容易误判到石质按钮
-:::
-
-<span class="stage-index">7.</span> 和<font color=00AA00>**Engineer Eric**</font>汇报情况
-
-<span class="stage-index">8.</span> 回到你的房间休息
-和引擎室在同一层，直走经过餐厅，左侧第一间房Room 24就是了
-
-<span class="stage-index">9.</span> 被突发事件惊醒后，下去到一层，跑酷进入另一艘飞艇，进行几波遭遇战
-
-<span class="stage-index">10.</span> 进入敌方飞艇的底层甲板，和<font color=00AA00>**Captured Prisoner**</font>`[-513 18 -10704]`对话(在中间左侧)
-
-<span class="stage-index">11.</span> 进入**Equipment Storage**制作钥匙(在下来楼梯的后方)
-:::tip 钥匙长啥样?
-![](/assets/img/lvl75-1.jpg)
-
-你可以通过在空贼首领的门前潜行来得知钥匙的模样，如上图所示。
-
-制作钥匙的时候，做成对应模样即可
-:::
-<span class="stage-index">12.</span> 击败空贼首领
-
-<span class="stage-index">13.</span> 回来后继续和<font color=00AA00>**Captain Ackbar**</font>对话
-
-<span class="stage-index">14.</span> 回到一层甲板，和NPC对话后回到Detlas
-
-<span class="stage-index">15.</span> 和一旁的<font color=00AA00>**Calo**</font>`[416 82 -1515]`对话
-
-
-
-奖励
+## 奖励清单 / Rewards
 + 750000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + Ring of Rubies
-+ 可以使用往返于Detlas和Cinfras之间的快速旅行了
++ 可以使用往返于 Detlas 和 Cinfras 之间的快速旅行了
+
+### Step 1 登机准备
+---
+带上前置任务中获得的 `Gavellian Passport` 和 Letvus Airbase 的 <NPC>Airship Clerk</NPC> <CC>-172 108 -4946</CC> 对话，然后登上前往 Detlas 的飞艇。
+
+:::tip
+如果你的 `Gavellian Passport` 丢失了，你可以走进前置任务中的护照办理馆 <CC>-256 57 -4980</CC>，会自动重新获取护照。
+:::
+
+### Step 2 寻找失踪儿童
+---
+登机后，飞艇广播播报有乘客失踪。前往最顶层舰桥与 <NPC>Captain Ackbar</NPC> 对话，志愿协助搜寻。
+回到一层，从飞艇往外走到底层观景台，沿着北边一路找到失踪的小孩 `Missing Child`。
+找到后，回去顶楼和 <NPC>Captain Ackbar</NPC> 报告。
+
+### Step 3 协助修理引擎
+---
+刚汇报完，飞艇发生剧烈震动，一侧引擎熄火。前往舰桥下方的引擎室询问 <NPC>Engineer Eric</NPC> 有什么需要帮助的。
+从舰桥来到飞艇气球上方，损坏的引擎在飞艇的一侧螺旋桨处（通常是东北侧，跟着指示走即可）。
+
+:::tip 关于修复引擎
+你需要根据提示，在引擎过热前按下所有的**木质**按钮。
+注意千万不要靠太近或按错，绝对不能按到石质按钮（STONE SWITCHES）。一共需要完成三轮。
+:::
+修复完毕后，回到引擎室和 <NPC>Engineer Eric</NPC> 汇报情况。
+
+### Step 4 遭遇空贼
+---
+完成修理后，回到你的房间（Room 24）休息。
+不久后你被紧急广播和突发事件惊醒。下去到一层的装载区，发现飞艇正遭到空贼（Skyraider）飞船的袭击！
+跑酷跳入敌方飞艇，并在甲板上进行三波遭遇战（分别击败 5、7、9 个空贼）。
+
+### Step 5 制作钥匙
+---
+清空甲板后，进入敌方飞艇的底层甲板，和牢房里的 <NPC>Captured Prisoner</NPC> 对话（在中间左侧）。他以前是名锁匠，被抓来当苦力，他告诉你可以在走廊尽头的储藏室制作钥匙进入空贼女王的房间。
+
+:::tip 钥匙长啥样?
+![](/assets/img/lvl75-1.jpg)
+你可以通过在空贼女王的门前潜行（Look into the keyhole）来得知锁孔的形状。
+进入楼梯后方的设备储藏室（Equipment Storage），将合成台上的部件摆放成对应模样即可制作钥匙。
+:::
+
+### Step 6 击败空贼女王
+---
+使用钥匙开门，击败 <mob>Skyraider Queen</mob>。
+
+### Step 7 获得快速旅行凭证
+---
+原路返回己方飞艇，继续和 <NPC>Captain Ackbar</NPC> 对话。为了感谢你拯救了全船人，他将女王的戒指送给你，并为你安排了往返 Detlas 和 Cinfras 的免费私人飞艇服务。
+回到一层甲板，右键点击离开飞艇的全息图（hologram），抵达 Detlas。
+最后，和码头旁小飞艇处的 <NPC>Calo</NPC> <CC>416 82 -1515</CC> 对话，完成任务并解锁快速旅行。
+
+## 剧情省流 / Summary
+冒险者带着办好的护照，登上了从Cinfras飞往Detlas的民用飞艇。然而，这趟旅程可谓是一波三折。
+
+飞艇刚起飞不久，广播便播报有儿童失踪。冒险者主动向船长Ackbar请缨，最终在底层观景台找到了因为看风景而走丢的小孩。然而，冒险者刚向船长汇报完毕，飞艇便发生剧烈震动，一侧的引擎突然熄火。冒险者再次挺身而出，爬上飞艇外部的气球，协助工程师在千钧一发之际手动重启了故障的引擎。
+
+经过一番折腾，冒险者回到客舱休息，却很快被凄厉的最高级别警报惊醒。原来，一艘臭名昭著的空贼飞船趁虚而入，正在对这艘毫无武装的民用飞艇进行接舷战劫掠。为了拯救全船乘客，冒险者孤身一人跃入敌方飞船，在甲板上击溃了来犯的空贼大军。
+
+在敌船底层，冒险者遇到了一位被囚禁的老锁匠。在老人的指点下，冒险者通过门孔观察锁芯形状，利用储藏室的工具现场打造出了一把钥匙，成功闯入空贼首领的房间。经过激烈的交锋，冒险者击败了空贼女王，彻底解除了飞艇的危机。
+
+飞艇平安抵达Detlas后，船长Ackbar对冒险者单枪匹马拯救全船的英雄壮举感激涕零。作为回报，他不仅将从空贼女王那里缴获的戒指赠予冒险者，还联系了一位欠他巨大人情的私人飞艇船长Calo，为冒险者提供了永久免费的Cinfras-Detlas往返特权。
