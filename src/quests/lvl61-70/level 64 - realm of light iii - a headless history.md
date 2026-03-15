@@ -1,60 +1,97 @@
 ---
+title: Realm of Light III - A Headless History (level 64)
 icon: bookmark
 ---
 
+## 任务信息 / Information
+任务等级：Level 64 / 推荐等级： Level 64
+任务时长：长 / 任务难度：中等
+中文译名：光之领域 Part III - 无头的往事
+前置任务：[Realm of Light II - Taproot (level 62)](/quests/lvl61-70/level%2062%20-%20realm%20of%20light%20ii%20-%20taproot.html)
 
-# Realm of Light III - A Headless History (level 64)
-<span style="font-size: 25px;">**光之领域 Part III - 无头的往事**</span>
+## 奖励清单 / Rewards
++ 385000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ Cloak of Luminosity
 
-前置任务:[Realm of Light II - Taproot (level 62)](/quests/lvl61-70/level%2062%20-%20realm%20of%20light%20ii%20-%20taproot.html)
+### Step 1 异常的邻居
+---
+在 **Gelibord** 郊外与 <NPC>Hans</NPC> <CC>-1096 42 -5384</CC> 对话。他告诉你他的邻居 <NPC>Referick</NPC> 最近行为非常诡异，好几天不吃不喝，希望你能去看看情况。
 
->本任务全是剧情，又臭又长
+### Step 2 调查房屋
+---
+前往隔壁 <NPC>Referick</NPC> 的房子，上楼在 <CC>-1086 48 -5376</CC> 与他对话。他眼神空洞，毫无反应，仿佛失去了灵魂。<NPC>Hans</NPC> 建议你在房子里找找线索。
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Hans**</font>`[-1096 42 -5384]`对话
+### Step 3 望远镜的线索
+---
+在二楼阳台调查望远镜。<NPC>Hans</NPC> 发现望远镜正对着北边的城堡。他提到两百多年前那里住着一个叫 Dullahan 的精灵，镇上一直有关于他鬼魂的传说。由于城堡大门紧锁，他建议你从地下室进入调查。
 
-<span class="stage-index">2.</span> 和<font color=00AA00>**Referick**</font>`[-1086 43 -5372]`对话，发现他不对劲
+### Step 4 前往地牢
+---
+前往北边城堡的地下室入口 <CC>-1089 51 -5565</CC>。
 
-<span class="stage-index">3.</span> 到`[-1075 48 -5372]`的望远镜窥一下(就在房子二楼的阳台)
+### Step 5 夺回灵魂
+---
+进入地下监牢。一路往里走，在牢房 <CC>-1086 49 -5668</CC> 处你会发现一个发光的灵魂（获得了 `Referick's Soul`）。此时一个神秘的声音响起，要求你离开，并召唤恶魔守卫攻击你。你可以选择战斗或直接逃离。
 
-<span class="stage-index">4.</span> 前往北边的城堡查看情况，进入地下的监牢`[-1089 51 -5565]`
+### Step 6 唤醒 Referick
+---
+带着灵魂回到 <NPC>Referick</NPC> 身边 <CC>-1079 44 -5551</CC>。失去的灵魂归位后，<NPC>Referick</NPC> 尖叫着醒来，证实了他的阴谋论：Dullahan 正在从城堡中吸取镇民的灵魂！<NPC>Hans</NPC> 认为大部队去只会送人头，建议你独自前往城堡深处调查。
 
-<span class="stage-index">5.</span> 到一楼那个发光的灵魂那里，打破走人
+### Step 7 进入城堡
+---
+进入 Dullahan 的城堡。走上楼梯，进入 <CC>-1079 85 -5600</CC> 的大门。那个神秘的声音再次响起，对你冒着生命危险救下一个普通村民的灵魂感到困惑，并要求你交出自己的灵魂。
 
-<span class="stage-index">6.</span> 进行一场战斗，或者快速离开，来到监牢前和<font color=00AA00>**Referick**</font>`[-1079 44 -5551]`对话
+### Step 8 第一幅画
+---
+走到房间尽头调查发光的画作 <CC>-3474 36 -10651</CC>，进入其中。一段回忆剧情开始播放：展现了 Lari 在与黑暗寄生虫的战斗后，Dullahan 试图治愈她的场景。
 
-<span class="stage-index">7.</span> 进入Dullahan的城堡
+### Step 9 收集钥匙
+---
+神秘声音（Dullahan）对你窥探他的记忆感到愤怒。继续在城堡内探索：
+1. 避开或击杀 <mob>Demon of the Prison Keeper</mob>，进入第二个画作房间。
+2. 观看另一段回忆：Dullahan 试图说服 Lari 彻底杀死寄生虫，但 Lari 坚持要寻找和平的解决方式。
+3. 击杀房间内的 <mob>Spirit of the Keeper of Keys</mob> 获取 `Castle Key 2`。
+4. 在 <CC>-3473 36 -10613</CC> 处使用钥匙开门。
+5. 在下一个房间内击杀 8 只怪物（<mob>Spirit of a Gavelian Soldier</mob> 或 <mob>Spirit of a Lost Mage</mob>）以开启下一扇门。
+6. 进入正对入口大门的画作。
 
-<span class="stage-index">8.</span> 直走进入画，进入剧情
+### Step 10 智者守卫
+---
+观看剧情：两人终于找到了正在冬眠的黑暗寄生虫。看完后离开房间，回到第二个画作所在的房间。
+前往 <CC>-3475 36 -10636</CC> 的门，进去后等待地板塌陷掉入下一层。
+Dullahan 派出了 <mob>Warden of Wisdom</mob> 来终结你。Boss会不断召唤低血量的分身，击杀本体即可开门。
+进入 <CC>-3647 41 -10659</CC> 的画作观看后续回忆：Lari 试图用光之魔法困住寄生虫但失败了，寄生虫挣脱束缚并咬伤了 Dullahan。
 
-<span class="stage-index">9.</span> 出来画后，来到当前右侧的雕像上方触发机关，然后沿着路到另一侧的雕像同样位置触发机关，随后进入地下暗门
+### Step 11 逃亡跑酷
+---
+离开画作，回到第二幅画的房间。画作两侧的门现在打开了，进入 <CC>-3445 51 -10546</CC> 的门。
+你必须完成一段跑酷，并躲避身后不断追击的爆炸。接着跑过一条走廊，避开 <mob>Entrapped Spirit</mob>，跳入尽头的洞中。
+进入下一幅画观看剧情：Dullahan 在 Lari 离开时，被 Gelibord 镇上愚昧的暴民送上了断头台。
+回到餐厅，进入对面打开的门。
 
-<span class="stage-index">10.</span> 拿到钥匙后，进入二楼大门，继续直走进画，进入剧情
-
-<span class="stage-index">11.</span> 出来后，先解决正前方的钥匙怪拿到钥匙，然后去底层开门继续前进
-
-<span class="stage-index">12.</span> 击杀8个小怪后，进入大门，再次进画
-
-<span class="stage-index">13.</span> 离开画后，出门直走，等开门，进入掉下来后触发小战斗，接着继续直走进画
-
-<span class="stage-index">14.</span> 再次离开画后，进入左边的大门，出来后两边侧门开了(不在楼下，别下楼)
-
-<span class="stage-index">15.</span> 进入侧门后，把食物和蛋糕摆在对应的位置上，然后进入打开的侧门，通过一段小跑酷
->如果这里和你朋友一起在做任务，最好让你的朋友/class 摆完位置再让你的朋友回来，两个以上玩家同时在房间内会使食物无法摆放
-
-<span class="stage-index">16.</span> 跑酷结束后，上二楼，继续剧情
-
-<span class="stage-index">17.</span> 出来画后，一路直走进入另一扇打开的侧门，然后完成一段小跑酷
 :::tip
-此处必须开启粒子效果
-
-部分职业可以直接狂用位移技能逃课(弓手可以反向escape后接二段跳)
+这个房间的跑酷极度依赖粒子效果来指引，**请务必在设置中开启所有粒子效果 (All Particles)**。
+跳过紫色的粒子平台，利用浅蓝色的粒子波浪将你向上推，并避开黑色的云朵粒子。
+部分职业可以使用位移技能逃课。
 :::
 
-<span class="stage-index">18.</span> 然后继续进画
->这任务屁画真多...
+跑酷结束后进入下一幅画：悲痛欲绝的 Lari 使用 Lazarus Pit 的泉水复活了 Dullahan，但他已经被黑暗彻底腐化，失去了心智与情感。从画作两侧的楼梯上楼，进入尽头的门。
 
-<span class="stage-index">19.</span> 出来后，从二楼走进侧门，然后直走进刚刚打开的门，一路触发剧情
+### Step 12 悲剧的终结
+---
+进入餐厅的最后一扇门。继续向前走以推进剧情：复活后被腐化的 Dullahan 开始残忍地吞噬无辜镇民的灵魂。Lari 终于意识到自己的大错铸成，痛苦地在城堡大门上施加了结界，将 Dullahan 永远封印在内，期望有一天能找到治愈他的方法。
 
-奖励
-+ 385000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ Cloak of Luminosity(衣服)
+### Step 13 无法挽回的过去
+---
+走到城堡尽头的黑色大门前调查。Dullahan 的声音告诉你，这道结界至今无法被打破。他通过吞噬灵魂来折磨那些曾经迫害过他的村民的后代。你已经看完了他所有的悲惨过去，这里已经没有别的东西了，他命令你离开并永远不要回来。任务完成。
+
+## 剧情省流 / Summary
+Hans请求冒险者去探望他行为异常的邻居Referick。冒险者在二楼发现Referick如同失去灵魂般僵坐着。通过他留下的望远镜，冒险者将目光锁定在了北边废弃已久的Dullahan城堡上。
+
+进入城堡地下监牢后，冒险者从一个神秘存在手中夺回了Referick的发光灵魂。灵魂归位后，Referick惊恐地尖叫起来，证实了他一直以来的猜想：传说中的精灵Dullahan正在城堡里远程吸取镇民的灵魂。为了彻底解决危机，冒险者独自一人深入城堡内部。
+
+在城堡深处，冒险者被卷入了一系列魔法画作中，被迫见证了Dullahan被封印在自己脑海深处的悲惨记忆。几百年前，Dullahan为了协助Lari对抗黑暗寄生虫，不惜离开家乡。然而，Lari天真的和平主义让她在绝佳的机会面前拒绝下杀手。这导致寄生虫积蓄力量后彻底爆发，不仅轻易击碎了Lari的魔法，还狠狠咬伤了Dullahan，将黑暗的诅咒注入他的体内。
+
+随着黑暗侵蚀，Dullahan变得虚弱且偏执。某天，趁Lari短暂离开营地，Gelibord镇上愚昧的暴民将森林腐化的罪名扣在了Dullahan头上，残忍地将他推上了断头台。Lari归来后目睹惨状，悲痛欲绝的她不顾一切地使用了传说中的拉撒路之水将Dullahan复活。
+
+然而，复活的只是一个被黑暗彻底吞噬、充满无尽暴怒与仇恨的空壳。失去理智的Dullahan当着Lari的面，残忍地吸取了无辜镇民的灵魂。面对自己亲手造就的怪物，心碎的Lari流着泪施展了强大的结界，将Dullahan永远封印在这座城堡之中，祈求未来能找到救赎他的方法。了解了这段充满绝望与遗憾的历史后，冒险者止步于那道至今无法被打破的封印门前，在Dullahan凄厉的逐客令中默然离去。

@@ -1,30 +1,53 @@
-# Lost Royalty(level 65)
-<span style="font-size: 25px;">**走失的皇子**</span>
+---
+title: Lost Royalty (level 65)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 和Troms城的<font color=00AA00>**Yavlis**</font>`[-848 85 -875]`说话
+## 任务信息 / Information
+任务等级：Level 65 / 推荐等级： Level 65
+任务时长：中等 / 任务难度：中等
+中文译名：走失的皇子
 
-<span class="stage-index">2.</span> 和Troms城外的<font color=00AA00>**Mercenary Leader**</font>`[-804 35 -742]`交谈(在`[-736 62 -827]`的洞里)
+## 奖励清单 / Rewards
++ 290000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 2048 绿宝石![=20x](/assets/icon/Emerald.png)
 
-<span class="stage-index">3.</span> 到丛林神庙里`[-489 78 -889]`寻找到他们要的护身符。
+### Step 1 接取任务
+---
+和 **Troms** 城的 <NPC>Yavlis</NPC> <CC>-848 85 -875</CC> 说话。他告诉你国王的儿子失踪了，大家怀疑是被丛林里的雇佣兵绑架了。
 
-杀死<font color=FF5555><b>Ancient Skeleton</b></font>获得护身符
+### Step 2 寻找绑匪
+---
+和城外的 <NPC>Mercenary Leader</NPC> <CC>-804 35 -742</CC> 交谈（藏身处的洞口坐标在 <CC>-736 62 -827</CC> ）。他承认男孩在他们手上，并要求你用一件护身符来交换王子。
+
+### Step 3 寻找护身符
+---
+到丛林神庙里 <CC>-489 78 -889</CC> 寻找到他们要的护身符。击杀王座室里的 <mob>Ancient Skeleton</mob> 以获得 `Talisman`。
 
 :::tip
 路线如下：
-
-进入神殿后，一直往前走，你会经过一座断桥，不用管，直接下去然后顺着阶梯往上走
-
-一直走然后掉进一个坑里，此时左拐，直走，再次掉进一个小坑，然后顺着唯一的路一直走，经过一个小跑酷和一个机关门
-
-然后你就到了
+进入神殿后，一直往前走，你会经过一座断桥，不用管，直接下去然后顺着阶梯往上走。
+一直走然后掉进一个坑里，此时左拐，直走，再次掉进一个小坑，然后顺着唯一的路一直走，经过一个小跑酷和一个机关门。
+然后你就到了。
 :::
 
-<span class="stage-index">4.</span> 从骷髅右侧的暗门出来后，把护身符带回给<font color=00AA00>**Mercenary Leader**</font>`[-804 35 -742]`
+### Step 4 交付护身符
+---
+从骷髅右侧的暗门出来后，把 `Talisman` 带回给 <NPC>Mercenary Leader</NPC> <CC>-804 35 -742</CC>。
 
-<span class="stage-index">5.</span> 和国王的儿子`[-791 35 -733]`(就在旁边不用回城,墙上有按钮)交谈
+### Step 5 皇子的真相
+---
+和旁边的牢房里的 <NPC>King's Son</NPC> <CC>-791 35 -733</CC> 交谈（就在旁边不用回城，墙上有按钮）。他告诉你他是自己跑出来的。
 
-<span class="stage-index">6.</span> 告诉<font color=00AA00>**Yavlis**</font>`[-848 85 -875]`这个消息
+### Step 6 汇报情况
+---
+回去把这个消息告诉 <NPC>Yavlis</NPC> <CC>-848 85 -875</CC>。
 
-奖励
-+ 290000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 2048 绿宝石![=20x](/assets/icon/Emerald.png)
+## 剧情省流 / Summary
+Yavlis向冒险者求助，称国王的儿子失踪了，怀疑是被丛林里的一群雇佣兵绑架的。由于国王对儿子的失踪忧心忡忡，城里的很多事务都停滞了，因此他急需冒险者去和雇佣兵谈判赎人事宜。
+
+冒险者前往城外的农场遗迹，找到了雇佣兵的藏身处。Mercenary Leader承认男孩在他们手上，但他要求冒险者去附近一座刚被挖掘出来的丛林神庙里，取回一个能强化他手下的特殊护身符作为交换。冒险者深入神庙，突破了重重机关，最终从一具古老的骷髅身上拿到了护身符。
+
+将护身符交给Mercenary Leader后，他信守承诺让冒险者去见男孩。然而，王子却透露自己根本没有被绑架，而是主动逃跑的。他极度讨厌政治和皇室对他寄予的厚望，他的梦想是成为一名像Tisaun那样保护弱者的伟大雇佣兵，因此坚决不愿回到城堡。
+
+冒险者将真相带回给Yavlis。Yavlis对此感到惊讶但也无可奈何，表示如果这是王子自己选择的道路，那他们也无能为力。他只希望王子加入雇佣兵的初衷真的是为了保护人民，而不是为了金钱与暴力。作为跑腿的谢礼，Yavlis将原本准备用于赎回王子的绿宝石奖励给了冒险者。

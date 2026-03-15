@@ -1,28 +1,64 @@
+---
+title: Lost Soles (level 66)
+icon: scroll
+---
 
-# Lost Soles(level 66)
-<span style="font-size: 25px;">**遗失的鞋底**</span>
+## 任务信息 / Information
+任务等级：Level 66 / 推荐等级： Level 66
+任务时长：长 / 任务难度：中等
+中文译名：遗失的鞋底
+前置任务：[Beneath the Depths](/quests/lvl51-60/level%2060%20-%20beneath%20the%20depths.html)
 
-前置任务：
-+ [Beneath the Depths](/quests/lvl51-60/level%2060%20-%20beneath%20the%20depths.html)
+:::tip
+在开始本任务前，请确保你的背包中带着 `Abysso Galoshes`（Beneath the Depths 任务的奖励），这样你就不用再跑回 Troms 银行取了。你不需要提前鉴定它。
+:::
 
-<span class="stage-index">1.</span> 通过`[-791 84 -657]`的通道进入Dernel Jungle，把Abysso Galoshes(Beneath the Depths任务奖励)给<font color=00AA00>**Ferndor**</font>`[-915 33 -750]`(本任务有很多解谜内容，有兴趣的可以不看攻略)
-
-<span class="stage-index">2.</span> 和<font color=00AA00>**Grandon**</font>`[-901 31 -749]`说话
-
-<span class="stage-index">3.</span> 踩下`[-901 38 -746]`的踏板，进去Grandon后面打开的暗室`[-901 30 -745]`。并和<font color=00AA00>**Grandon**</font>报告情况。
-
-<span class="stage-index">4.</span> 踩下`[-894 31 -774]`的踏板，进去餐桌上`[-900  32  -763]`的地洞，并和<font color=00AA00>**Grandon**</font>报告情况。
-
-<span class="stage-index">5.</span> 往`[-893 31 -746]`的地图随便丢点东西，然后再和<font color=00AA00>**Grandon**</font>对话
-
-<span class="stage-index">6.</span> 按下`[-912 31 -773]`的按钮，从`[-891 39 -755]`的地方上2楼。不要原路返回，小心被卡。有地方可以上顶楼，房间里四处看看也好，有很多细节。
-
-<span class="stage-index">7.</span> 来到`[-930 31 -795]`的地方，要从房子外面走。我选择直接从顶楼跳出去。解开密码门{密码：6218}.进去，通过迷宫，打死boss，原路返回带回掉落物给<font color=00AA00>**Ferndor**</font>`[-915 33  -750]`。
-
-迷宫地图如下：
-![](/assets/img/lvl66-1.jpg)
-
-奖励
+## 奖励清单 / Rewards
 + 352000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 1152 绿宝石![=20x](/assets/icon/Emerald.png)
 + Sodeta Boots
+
+### Step 1 归还鞋靴
+---
+通过 <CC>-791 84 -657</CC> 的通道进入 Dernel Jungle，将 `Abysso Galoshes` 交给 <NPC>Ferndor</NPC> <CC>-915 33 -750</CC>。他告诉你这双鞋靴曾属于他的祖先，并请你帮他解开庄园地下的秘密以阻止庄园腐坏。
+
+### Step 2 调查日记
+---
+前往餐厅与 <NPC>Grandon</NPC> <CC>-901 31 -749</CC> 说话。他告诉你有一本日记记载了关于这双鞋的诅咒，他们当年将其买下后发现鞋子带有腐蚀一切的黑魔法，因此需要找到一个能抵消诅咒的特殊容器。
+
+### Step 3 雕像的秘密
+---
+根据日记的第一条线索，踩下 <CC>-901 38 -746</CC> 的踏板（位于大厅上方的雕像鼻子上）。这会打开 <NPC>Grandon</NPC> 后面的一间暗室 <CC>-901 30 -745</CC>。进去查看后，向 <NPC>Grandon</NPC> 报告你的发现。
+
+### Step 4 餐桌的秘密
+---
+根据第二条线索，踩下 <CC>-894 31 -774</CC> 异色地毯下的踏板。接着进入餐桌上打开的地洞 <CC>-900 32 -763</CC>，随后再次向 <NPC>Grandon</NPC> 报告情况。
+
+### Step 5 地图的秘密
+---
+根据第三条线索，往墙上的地图 <CC>-893 31 -746</CC> 后面随便丢点东西，以获取地下室密码的一部分。然后再和 <NPC>Grandon</NPC> 对话。
+
+### Step 6 前往二楼
+---
+按下老鼠洞内 <CC>-912 31 -773</CC> 的按钮。这会打开蓝色旗帜上方的通道，从 <CC>-891 39 -755</CC> 处上二楼收集剩下的密码线索。
+:::tip
+不要原路返回，小心被卡。有地方可以上顶楼，房间里四处看看也好，有很多细节。
+:::
+
+### Step 7 地下室与容器
+---
+收集齐密码后，前往庄园外部的地下室入口 <CC>-930 31 -795</CC>（Wiki中标注的入口位置在 <CC>-922 31 -785</CC>）。在密码门处输入密码 **6218**。
+进入地下室后，通过迷宫，击败深处的 <mob>Boot Container</mob>，获得 `Boot Container`。
+原路返回，将容器与鞋靴一起带给 <NPC>Ferndor</NPC> <CC>-915 33 -750</CC> 完成任务。
+
+:::tip
+迷宫地图如下：
+![](/assets/img/lvl66-1.jpg)
+:::
+
+## 剧情省流 / Summary
+冒险者带着从海盗处寻回的Abysso Galoshes来到了Dernel Jungle的Sodeta庄园，将其交还给了Ferndor。Ferndor解释说这双鞋曾是他祖先的遗物，但上面附着了可怕的黑暗魔法，会不断腐蚀周围的一切。
+
+为了彻底封印这双鞋，冒险者需要找到当年用来抵消诅咒的特殊容器。在Grandon的指引下，冒险者解读了祖先日记中留下的种种谜语。通过解开大厅雕像、餐桌暗道以及墙上地图后隐藏的机关，冒险者逐步收集到了开启地下室的密码。
+
+随后，冒险者进入庄园外的地下室，穿过复杂的迷宫并击败了地下室内的守护物，成功取回了容器。最终，Ferndor将受诅咒的鞋靴放入容器中，彻底阻止了庄园的腐坏，并慷慨地将另一双不带诅咒的传家宝靴子赠予了冒险者作为谢礼。

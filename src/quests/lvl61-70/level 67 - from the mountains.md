@@ -1,37 +1,69 @@
-# From the Mountains(level 67)
+---
+title: From the Mountains (level 67)
+icon: scroll
+---
 
-:::warning 旧任务提醒
-本任务沿用老攻略，可能存在过时情况
+## 任务信息 / Information
+任务等级：Level 67 / 推荐等级： Level 67
+任务时长：长 / 任务难度：困难
+中文译名：跋山涉水
 
-预计于下次大版本更新后一起确认更新
+:::tip
+BOSS Volatile Fleris 弱水，尽管任何属性的武器都能对其造成伤害。在与 BOSS 战斗时，请务必保持移动并注意躲避其法术，如果准备不足或被多次击中，可能会导致死亡。
 :::
 
-<span style="font-size: 25px;">**跋山涉水**</span>
-
-<span class="stage-index">1.</span> 和<font color=00AA00>**Arnod**</font>`[-1366 42 -4543]`对话
-
-<span class="stage-index">2.</span> 在他身后的房子二楼`[-1376 48 -4549]`找到`Lost Dentures`并带回给<font color=00AA00>**Arnod**</font>
-
-<span class="stage-index">3.</span> 在Bucie城寻找到<font color=00AA00>**Axelus**</font>`[-1410 43 -4729]`，对话并跟随他走回<font color=00AA00>**Arnod**</font>[-1366 42 -4543]那里
-
-<span class="stage-index">4.</span> 从`[-1413 44 -4599]`的路上山，和<font color=00AA00>**Axelus**</font>对话
-
-<span class="stage-index">5.</span> 使用`Fire-Resistant Net`右键每一处火，然后根据提示捕捉岩浆史莱姆，总共有5处
-
-`[-1379 84 -4457]`处 击杀出现的史莱姆
-
-`[-1411 99 -4490]`处 上车再次用网右键捕捉史莱姆 
-
-`[-1433 96 -4509]`处 快速再次右键史莱姆
-
-`[-1451 97 -4507]`处 史莱姆会有火焰粒子和爆炸的声音，爆炸后右键捕捉
-
-`[-1406 111 -4485]`处 扑灭火焰后前往`[-1414 -4476 109]`捕捉史莱姆
-
-<span class="stage-index">6.</span> 跟随<font color=00AA00>**Axelus**</font>进入`[-1391 95 -4466]`的洞，并带着他走向`[-1317 48 -4415]`的大洞穴，一路走到底，传送到Boss房，这里有概率不刷boss，/class也无效，需要切换服务器
-
-<span class="stage-index">7.</span> 离开洞穴,和<font color=00AA00>**Axelus**</font>对话
-
-奖励
+## 奖励清单 / Rewards
 + 390000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ Fire Wire(裤子)
++ Fire Wire
+
+### Step 1 不断起火的房屋
+---
+前往 <CC>-1366 42 -4542</CC> 寻找 <NPC>Arnod</NPC>。他说话含糊不清，但一直指着他身后正在燃烧的房子。
+
+### Step 2 寻找假牙
+---
+进入 <NPC>Arnod</NPC> 身后的房子，在二楼 <CC>-1376 48 -4549</CC> 找到 `Lost Dentures` 并带回给他。戴上假牙后，他终于能正常说话了，并恳求你赶紧去找人帮忙灭火，因为这火一直在反复燃烧。
+
+### Step 3 寻找帮手
+---
+前往 **Bucie** 城，在 <CC>-1409 43 -4728</CC> 找到 <NPC>Axelus</NPC>。他是一名来自 Molten Heights 的矮人，答应与你一起前往火灾现场看看。跟随他回到 <NPC>Arnod</NPC> <CC>-1366 42 -4543</CC> 处。<NPC>Axelus</NPC> 发现引发火灾的是一种名为 Fleris 的生物，这种生物通常生活在 Molten Heights，如果被带离温暖的地方，它们就会烧毁一切。<NPC>Arnod</NPC> 回忆起曾看到山上有类似焦油的物质滴落，你们决定上山调查。
+
+### Step 4 调查山脊
+---
+从 <CC>-1447 61 -4582</CC> 的小路上山，到达山顶 <CC>-1426 95 -4516</CC> 与 <NPC>Axelus</NPC> 对话。他发现了一辆损坏的马车，推断这是一起非法的 Fleris 走私活动。他要求你捕捉逃跑的 Flerisi，而他去修理马车以便稍后装载它们。
+
+### Step 5 捕捉史莱姆
+---
+使用 <NPC>Axelus</NPC> 给你的网捕捉散落的 Flerisi。所有 Flerisi 都藏在附近的火堆中，右键点击火堆即可将其扑灭并寻找它们。
+共有5处地点需要处理：
++ <CC>-1379 84 -4457</CC> 处，击杀出现的史莱姆。
++ <CC>-1411 99 -4490</CC> 处，上车再次用网右键捕捉史莱姆。
++ <CC>-1433 96 -4509</CC> 处，快速再次右键史莱姆。
++ <CC>-1451 97 -4507</CC> 处，史莱姆会有火焰粒子和爆炸的声音，爆炸后右键捕捉。
++ <CC>-1406 111 -4485</CC> 处，扑灭火焰后前往 <CC>-1414 109 -4476</CC> 捕捉史莱姆。
+
+完成捕捉后，回到马车旁与 <NPC>Axelus</NPC> 对话，他发现火势蔓延得很远，意味着有一只体型巨大的 Fleris 逃脱了，必须将其制服。
+
+### Step 6 追踪巨型史莱姆
+---
+跟随 <NPC>Axelus</NPC> 进入他挖出的洞穴 <CC>-1390 96 -4495</CC>。
+
+### Step 7 深入洞穴
+---
+调查洞穴内的火焰痕迹。巨型 Fleris 激怒了洞穴内的生物，你需要一边抵御怪物，一边跟随 <NPC>Axelus</NPC> 深入洞穴。由于怪物数量太多，<NPC>Axelus</NPC> 决定留下来断后，让你独自去对付巨型 Fleris。
+
+### Step 8 制服巨型史莱姆
+---
+走到洞穴尽头，准备迎战 BOSS <mob>Volatile Fleris</mob>。
+> 警告：该 BOSS 的伤害极高，其爆炸技能可能会直接秒杀部分较脆的职业，请务必保持距离。
+
+### Step 9 逃出生天
+---
+击败 BOSS 后离开洞穴，在 <CC>-1263 43 -4490</CC> 与 <NPC>Axelus</NPC> 对话。他对你的帮助表示感谢，并打算将这些 Flerisi 送回 Molten Heights。
+
+## 剧情省流 / Summary
+冒险者发现村民Arnod因为丢了假牙而说话含糊不清，帮他找回假牙后，得知他的房子不知为何总是反复起火。冒险者在Bucie城找到了一名叫Axelus的矮人帮忙调查。Axelus发现起火原因是一种原产于Molten Heights的生物Fleris，它们一旦离开温暖的环境就会四处纵火。
+
+两人追踪线索来到山顶，发现了一辆损坏的走私马车，证实这是一起非法的生物贩卖活动导致了Fleris逃脱。在Axelus修马车的间隙，冒险者四处扑灭火焰并抓捕了散落的Flerisi。但他们发现火势蔓延异常严重，这意味着还有一只巨型的Fleris逃跑了。
+
+Axelus迅速挖开了一条通往地下的通道，两人一路追踪巨型Fleris进入了一个庞大的洞穴。巨型Fleris激怒了洞内的其他怪物，为了争取时间，Axelus留下来抵挡兽群，让冒险者独自深入迎战。经历一番苦战，冒险者成功制服了巨型Fleris。最后，两人在洞外会合，Axelus感谢了冒险者的协助，并计划将这些被走私的Flerisi安全送回它们的故乡。
