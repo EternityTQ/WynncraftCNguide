@@ -117,6 +117,12 @@ anni作为游戏最终局的战斗，对队伍配置有着相当高的要求。
 
 当anni开始前十分钟，队伍即可前往传送门处集合。目前玩家基本会选择在剩余20-30秒时在倒计时下方使用卷轴消耗品
 
+配方自存：
+
+https://wynnbuilder-beta.github.io/crafter/#4mWCqCqmWmWmWqc00
+
+https://wynnbuilder-beta.github.io/crafter/#44eCqCq4e4eCqqc00
+
 ### 战斗中
 
 anni的机制由于目前打的比较快，其实没有什么好讲的，比较需要注意的是两个机制：
