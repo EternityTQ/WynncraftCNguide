@@ -20,7 +20,7 @@ icon: scroll
 \> Talk to Norsten.
 
 
-跟<NPC>Norsten</NPC>对话<CC>[437,77,-5056]</CC>
+跟<NPC>Norsten</NPC>对话<CC>437,77,-5056</CC>
 
 ![](/assets/img/lv83-1.png)
 
@@ -28,7 +28,7 @@ icon: scroll
 ---
 \> Go up the path to the wizard's tower, at [258, 79, -4934].
 
-通过捷径<CC>[258 79 -4934]</CC>上山，出来后直走
+通过捷径<CC>258 79 -4934</CC>上山，出来后直走
 
 ![](/assets/img/lv83-2.png)
 
@@ -89,7 +89,7 @@ icon: scroll
 ---
 \> Jump into Dramele's magical trash, at[371 160 -5034]
 
-从阳台<CC>[369 159 -5033]</CC>跳下洞内！
+从阳台<CC>369 159 -5033</CC>跳下洞内！
 
 ### Step 6 完成解密
 --- 
@@ -106,5 +106,5 @@ icon: scroll
 \> Talk to Norsten.
 
 
-跟<NPC>Norsten</NPC>对话<CC>[437,77,-5056]</CC>
+跟<NPC>Norsten</NPC>对话<CC>437,77,-5056</CC>
 
