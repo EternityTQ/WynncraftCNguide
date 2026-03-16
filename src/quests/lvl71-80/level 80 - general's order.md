@@ -1,44 +1,89 @@
-# General's Order(Level 80)
-<span style="font-size: 25px;">**长官的命令**</span>
+---
+title: General's Orders (level 80)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 和<font color=00AA00>**Private Tylas**</font>`[-121 49 -5437]`对话
+## 任务信息 / Information
+任务等级：Level 80 / 推荐等级： Level 80
+任务时长：长 / 任务难度：简单
+中文译名：长官的命令
 
-<span class="stage-index">2.</span> 跟<font color=00AA00>**General Lecade**</font>`[174 71 -5496]`对话
-
-<span class="stage-index">3.</span> 去外面`[86 44 -5374]`确认一下装备
-
-<span class="stage-index">4.</span> 回去和<font color=00AA00>**General Lecade**</font>`[174 71 -5496]`汇报
-
-<span class="stage-index">5.</span> 去总部外面的下水道`[127 68 -5488]`找到`Good-Luck Charm`
-:::tip
-下水道内含地图 跟着走就行了
-
-注意找到后不要原路返回
-
-跟着地图上左上角的出口走
-:::
-
-<span class="stage-index">6.</span> 离开下水道后，直走进另一条黑色通道，然后回去和<font color=00AA00>**General Lecade**</font>汇报
-
-<span class="stage-index">7.</span> 右拐直走上楼，来到`[158 76 -5456]`表演一下走绳索(栏杆)
-
-<span class="stage-index">8.</span> 回去和<font color=00AA00>**General Lecade**</font>汇报
->这人真疯了吧
-
-<span class="stage-index">9.</span> 一样右拐直走上楼，跟着蹦床一路走就行了！一路找蹦床直到来到山顶看到一个类似发射器的头颅，右键！
-
-<span class="stage-index">10.</span> 回去和<font color=00AA00>**General Lecade**</font>汇报
-
-<span class="stage-index">11.</span> 和<font color=00AA00>**Lieutenant Gren**</font>`[146 70 -5470]`对话(出来后左拐)
-
-<span class="stage-index">12.</span> 进入左边的时间机器
-
-<span class="stage-index">13.</span> 时间机器爆炸后，进入后面露出来的楼梯
-
-<span class="stage-index">14.</span> 旁边打到钥匙，开启监狱门，触发剧情
-:::tip
-选项可以乱选，没有影响
-:::
-奖励
+## 奖励清单 / Rewards
 + 1300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 1 Changeling's Chestplate(胸甲)
++ 1 `Changeling's Chestplate` (胸甲)
+
+### Step 1 营地门卫
+---
+和营地外的 <NPC>Private Tylas</NPC> <CC>121 49 -5437</CC> 对话。他会向你抱怨长官最近疯疯癫癫的。
+
+### Step 2 面见长官
+---
+进入指挥所，跟 <NPC>General Lecade</NPC> <CC>174 71 -5496</CC> 对话，听取他语无伦次的荒谬命令。
+
+### Step 3 检查装备
+---
+听从长官的命令，去营地外面 <CC>86 44 -5374</CC> 确认一下防御装备的状况。你会发现装备完好无损。
+
+### Step 4 第一次汇报
+---
+回去和 <NPC>General Lecade</NPC> <CC>174 71 -5496</CC> 汇报情况。
+
+### Step 5 寻找硬币
+---
+去总部外面的下水道入口 <CC>127 68 -5488</CC> 深入探索，找到 `Good-Luck Charm`。硬币的具体位置在 <CC>108 20 -6357</CC>。
+
+:::tip
+下水道内含地图，跟着走就行了。
+
+注意找到后不要原路返回，直接跟着地图上左上角的出口走。
+:::
+
+### Step 6 第二次汇报
+---
+离开下水道后，跟着挖掘的通道走出来，然后回去和 <NPC>General Lecade</NPC> <CC>174 71 -5496</CC> 汇报。
+
+### Step 7 走钢丝
+---
+从指挥官室出来右拐直走上楼，来到 <CC>158 76 -5456</CC> 的栏杆处，表演一下走绳索来“逗乐士兵”。
+
+### Step 8 第三次汇报
+---
+走过绳索后，回去和 <NPC>General Lecade</NPC> <CC>174 71 -5496</CC> 汇报。
+
+### Step 9 涂装山顶
+---
+一样从房间出来右拐直走上楼，前往蹦床处 <CC>163 74 -5444</CC>。跟着蹦床一路跳跃，直到来到山顶看到一个油漆桶，右键它把山顶涂成紫色！
+
+### Step 10 第四次汇报
+---
+通过戴着螺旋桨帽子的救援人员降落回地面，回去和 <NPC>General Lecade</NPC> <CC>174 71 -5496</CC> 汇报。
+
+### Step 11 时间机器
+---
+接取新命令后，出来左拐，和 <NPC>Lieutenant Gren</NPC> <CC>146 70 -5470</CC> 对话。
+
+### Step 12 发生意外
+---
+进入左边所谓的“时间机器”。时间机器发生故障并爆炸后，会炸出一条隐藏的通道。
+
+### Step 13 隐藏监狱
+---
+进入墙壁后面露出来的隐藏区域，找到掉落的 `Cell Key`。使用钥匙开启监狱铁门，触发剧情。
+
+### Step 14 辨认身份
+---
+真正的长官被放出来后，会和假长官当面对峙。
+
+:::tip
+对话中的选项可以随便乱选，不影响最终结果。假长官破绽百出，最终会变成史莱姆落荒而逃。
+:::
+
+
+## 剧情省流 / Summary
+冒险者来到峡谷中的Kitrios兵营，遇到了正在打瞌睡的列兵Tylas。Tylas抱怨说最近Lecade将军不知为何变得疯疯癫癫，总是下达一些极其荒谬的命令，并建议冒险者去跟将军谈谈以打发时间。
+
+冒险者见到了Lecade将军，发现他说话语无伦次、前言不搭后语。将军首先命令冒险者去营地外检查防御器械，冒险者发现装备完好无损。接着，将军又下达了一系列离谱的指令：去臭气熏天的下水道里帮士兵找回一枚“幸运硬币”；在半空中走钢丝绳索来“让士兵们感到开心”；甚至让冒险者利用蹦床跳到山顶，用油漆把山顶染成象征国王的紫色，仅仅因为他觉得光秃秃的山顶看起来“像垃圾一样”。
+
+在完成了这些令人啼笑皆非的任务后，将军又命令冒险者去协助中尉Gren建造一台所谓的“时间机器”。Gren对此感到十分无语，但还是让冒险者进入机器内部检查。谁知机器突然发生爆炸，在墙上炸出了一个大洞，露出了一座隐藏的地下监狱。
+
+冒险者深入监狱，震惊地发现真正的Lecade将军竟然被关押在这里！拿到钥匙释放他后，刚才那个发号施令的“假将军”出现了。真假将军当场对峙，假将军在常识问题上破绽百出（例如把Gavel省说成Gravel，连门口守卫的名字都叫错）。眼看伪装被识破，假将军现出原形，变成了一只史莱姆怪物落荒而逃。真正的Lecade将军感谢冒险者揭穿了这场阴谋，并让冒险者收下了怪物遗留下来的战利品。

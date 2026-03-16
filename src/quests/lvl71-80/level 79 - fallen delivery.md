@@ -1,41 +1,70 @@
-# Fallen Delivery (level 79)
-<span style="font-size: 25px;">**迟到的顺丰快递**</span>
+---
+title: Fallen Delivery (level 79)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 跟<font color=00AA00>**Bricot**</font>说话`[65 42 -4844]`
+## 任务信息 / Information
+任务等级：Level 79 / 推荐等级： Level 79
+任务时长：长 / 任务难度：中等
+中文译名：迟到的顺丰快递
 
-<span class="stage-index">2.</span> 进入旁边的屋子，从楼梯上去，在坠落的飞艇中搜寻幸存者
+## 奖励清单 / Rewards
++ 1300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 6144 绿宝石![=20x](/assets/icon/Emerald.png)
++ 可以使用Gawrick的实验性传送卷轴了
+
+### Step 1 接取任务
+---
+跟 <NPC>Bricot</NPC> 说话 <CC>65 42 -4844</CC>。
+
+### Step 2 搜寻幸存者
+---
+进入旁边的屋子，从楼梯上去，在坠落的飞艇中搜寻幸存者。
+
 :::tip 如何继续剧情？
 ![](/assets/img/lvl79-1.jpg)
 一直上到这个场景后，调查一下尸体，然后把截图处和后方的纸条带上，接着往截图的缺口直走就行了
 :::
 
-<span class="stage-index">3.</span> 去隔壁的强盗营地`[-20 41 -4828]`,在门口稍微离远点放个技能打破障碍
+### Step 3 强盗营地
+---
+去南边的佣兵营地 <CC>-20 41 -4828</CC>，在门口使用法术打破障碍。
 
-<span class="stage-index">4.</span> 进行一场遭遇战，然后进入屋子内，沿着路一直上到顶楼，和顶楼的<font color=00AA00>**Marden**</font>`[16 72 -4795]`对话
+### Step 4 遭遇战
+---
+击杀6个佣兵 <mob>Warder Mercenary</mob>，然后进入屋子内，沿着路一直上到顶楼，和顶楼的 <NPC>Marden</NPC> 对话。
 ![](/assets/img/lvl79-2.jpg)
 >只能说这里确实是有点抽象了...
 
-<span class="stage-index">5.</span> 跟着有纸的道路, 到`[-175 39 -4676]`的房子里面找到房子地下室里的信封
+### Step 5 寻找信封
+---
+跟着地上散落的纸张，到 <CC>-190 39 -4677</CC> 的房子里面找到地下室里的信封 `Sealed Envelope`。
+
 :::tip
 这里的纸条是绿名的！不是装饰哦
 
 从劫匪营地出来往左手边走就能看到
 :::
 
-<span class="stage-index">6.</span> 根据信封的描述，找到位于Cinfras的3号房子`[-481 48 -4884]`，和二楼的<font color=00AA00>**Gawrick**</font>对话
+### Step 6 寻找收件人
+---
+根据信封的描述，找到位于 Cinfras 的房子 <CC>-480 52 -4884</CC>，和二楼的 <NPC>Gawrick</NPC> 对话。
 
-<span class="stage-index">7.</span> 经过一小段传送后，直走进入空军办公室`[-257 57 -4980]`
+### Step 7 飞艇办公室
+---
+经过一段奇妙的传送后，前往飞艇基地的代表办公室外 <CC>-258 58 -4999</CC>。
 
-<span class="stage-index">8.</span> 进入左手边的通道，推动书架，进入通道
+### Step 8 寻找入口
+---
+进入左手边的通道，寻找进入代表办公室的方法。
 
-<span class="stage-index">9.</span> 逮住<font color=00AA00>**Ernold**</font>，找机会右键他就是了
+### Step 9 逮住代表
+---
+逮住正在不断到处传送的 <NPC>Representative Ernold</NPC>，找机会右键他以夺回卷轴 `Spell Scroll`。
 
-<span class="stage-index">9.</span> 把卷轴带回去给<font color=00AA00>**Gawrick**</font>
-
-奖励
-+ 1300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 1le 32eb
-+ 可以使用Gawrick的实验性传送卷轴了
+### Step 10 交付任务
+---
+把卷轴带回去给 <NPC>Gawrick</NPC> <CC>-486 52 -4882</CC>。
 
 :::tip 如何使用Gawrick的实验性传送卷轴？
 完成任务后你首先需要离开屋子
@@ -46,3 +75,14 @@
 
 注意会随机传送到Gavel的某一个地方。
 :::
+
+## 剧情省流 / Summary
+农夫 Bricot 的房子被一艘坠毁的飞艇砸毁了。他惊慌失措地请求冒险者去飞艇废墟中寻找幸存者。在确认船员全部遇难且飞艇是被炮弹击落后，愤怒的 Bricot 拜托冒险者去南边的佣兵营地讨个说法。
+
+冒险者攻入营地并击败了守卫，见到了佣兵头目 Marden。Marden 解释说，他们受一位匿名雇主指使击落飞艇，目的仅仅是为了截获船上的一封信件。但坠机导致货物散落，信件也丢失了。他让冒险者顺着散落的纸页自己去找。
+
+沿着纸页的线索，冒险者在一个地窖里找到了一封密封的信件，并将其送到了 Cinfras 的收件人 Gawrick 手中。Gawrick 发现这正是他丢失的实验性无限传送卷轴。他推测是飞艇公司为了防止这项发明威胁到他们的生意而痛下杀手。为了查明真相，Gawrick 直接将冒险者传送到了飞艇基地代表的办公室。
+
+在办公室内，冒险者发现代表 Ernold 正因为误触了卷轴而在房间里不受控制地疯狂传送。冒险者找准机会夺下卷轴救下了他。Ernold 随后承认了自己雇凶击落飞艇的罪行，他辩解称如果不阻止这个无限制传送卷轴的面世，飞艇行业将会崩溃，成千上万的人会因此失业。
+
+冒险者将损坏的卷轴带回给 Gawrick。Gawrick 并没有追究 Ernold 的责任，因为卷轴的墨水在剧烈晃动中已经脱落失效，他也忘了当初是怎么做出来的。不过他并不在意，因为他已经开始着手其他实验，并邀请冒险者来试用他的新型随机传送卷轴。

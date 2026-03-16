@@ -1,40 +1,84 @@
-# The Hunger of Gerts Part I (level77)
-<span style="font-size: 25px;">**饥饿的Gerts们**</span>
+---
+title: Hunger of the Gerts Part I (level 77)
+icon: bookmark
+---
 
-<span class="stage-index">1.</span> 跟<font color=00AA00>**Cikal**</font>说话`[-27 73 -5413]`(从塔楼中间的电梯按按钮上去)
+## 任务信息 / Information
+任务等级：Level 77 / 推荐等级： Level 77
+任务时长：长 / 任务难度：中等
+中文译名：饥饿的Gerts们
 
-<span class="stage-index">2.</span> 和<font color=00AA00>**Jitak**</font>交谈`[-174 32 -5469]`
-
-<span class="stage-index">3.</span> 去调查Gert的小营地`[-238 35 -5479]`(沿着血迹进洞)
-
-<span class="stage-index">4.</span> 往里走到触发剧情让你偷听后，往左拐，一直走到红旗帜上面触发剧情
-
-<span class="stage-index">5.</span> 不要原路返回，往前走离开洞穴，和<font color=00AA00>**Jitak**</font>汇报情况
-
-<span class="stage-index">6.</span> 去南瓜农场顺个南瓜`[-248 37 -5425]`
-:::tip
-你可以在守卫左侧的苹果树触发剧情，放几个技能把苹果摇下来
-
-然后把苹果放在守卫前方道路的绿圈处，就可以进去了
-:::
-
-<span class="stage-index">7.</span> 找到最大的南瓜，然后开始雕刻
-:::tip 关于雕刻南瓜
-注意一定要选Hungry
-
-墙上的只是给你参考的，你需要拿刀在地板划拉。
-:::
-
-<span class="stage-index">8.</span> 雕刻完后带上面罩，离开触发剧情，和<font color=00AA00>**Jitak**</font>汇报情况
-
-<span class="stage-index">9.</span> 前往Gert的营地`[-4 33 -5516]`
-:::tip
-在洞穴内你需要持续杀死动物，间隔不能超过10秒，否则会失败
-
-走到洞穴尽头触发剧情
-:::
-<span class="stage-index">10.</span> 作出选择，然后结束任务
->选择完全没有后续影响...
-
-奖励
+## 奖励清单 / Rewards
 + 675000 经验值![=20x](/assets/icon/Experience_Orb.gif)
+
+### Step 1 接取任务
+---
+和 <NPC>Cikal</NPC> <CC>-27 73 -5413</CC> 说话。（从塔楼中间的电梯按按钮上去）
+
+### Step 2 了解情况
+---
+和农夫 <NPC>Jitak</NPC> <CC>-174 32 -5469</CC> 交谈。
+
+### Step 3 调查营地
+---
+去调查Gert的营地 <CC>-238 35 -5479</CC>。（沿着血迹进洞）
+
+### Step 4 深入探索
+---
+探索洞穴。往里走到触发剧情让你偷听后，往左拐，一直走到红旗帜上面触发剧情，偷听Gerts们的谈话。
+
+### Step 5 汇报情况
+---
+不要原路返回，往前走离开洞穴，回到 <CC>-174 32 -5469</CC> 和 <NPC>Jitak</NPC> 汇报情况。
+
+### Step 6 寻找伪装
+---
+前往南瓜农场 <CC>-248 37 -5425</CC> 寻找伪装。
+
+:::tip
+你可以在守卫左侧的苹果树触发剧情，放几个技能把苹果摇下来。
+
+然后把苹果放在守卫前方道路的绿圈处引开守卫，就可以进去了。
+:::
+
+### Step 7 制作面具
+---
+进入农场，找到最大的南瓜，然后开始雕刻。
+
+:::tip
+关于雕刻南瓜：注意一定要选Hungry（饥饿）的表情。
+
+墙上的图案只是给你参考的，你需要拿刀在地板上的方格里划拉。
+:::
+
+### Step 8 再次汇报
+---
+雕刻完后戴上面罩，离开时会触发剧情，随后回去向 <NPC>Jitak</NPC> <CC>-174 32 -5469</CC> 汇报情况。
+
+### Step 9 潜入隧道
+---
+前往Gert的主营地，进入秘密隧道 <CC>-4 33 -5516</CC>。
+
+:::tip
+在洞穴内你需要持续杀死动物进食以防暴露，间隔不能超过10秒，否则会失败。
+
+走到洞穴尽头触发剧情，偷听Gylia Watch的谈话。
+:::
+
+### Step 10 做出选择
+---
+离开隧道，根据你偷听到的信息作出选择。你可以选择向 Gert Battle Chief 或者 <NPC>Cikal</NPC> 汇报。
+
+> 选择完全没有后续影响...
+
+
+## 剧情省流 / Summary
+冒险者来到Gylia Watch，Cikal自豪地介绍他们防范Gerts的功绩，并委托冒险者去调查最近农夫失踪的传闻。
+
+冒险者找到农夫Jitak，他抱怨Gerts偷走了他的猪，而守卫队对此毫不作为。根据指引，冒险者潜入了一个Gert营地，并偷听到Gerten Chief Snaga的谈话，得知他们挖了一条通往农场的地道。
+
+冒险者将此事汇报给Jitak，Jitak提议冒险者伪装成Gert潜入他们的主营地。冒险者来到南瓜农场，用树上掉落的苹果引开饥饿的守卫，成功潜入并为自己雕刻了一个符合Gert传统“饥饿”表情的南瓜面具。
+
+戴上面具后，冒险者成功混入Gert的主营地隧道。在隧道深处，冒险者与两名Gert一同偷听了Gylia Captain和Gylia Watchman的谈话，震惊地发现原来是守卫队一直在贪污本该按和平条约发给Gerts的每月物资，导致Gerts极度饥饿才四处觅食。
+
+得知真相后，冒险者面临抉择。如果将此事告知Gerten Battle Chief，后者会愤怒地宣布将对守卫队开战；如果回去质问Cikal，Cikal则会毫无悔意地承认贪污事实，并傲慢地表示完全不把Gerts的威胁放在眼里。
