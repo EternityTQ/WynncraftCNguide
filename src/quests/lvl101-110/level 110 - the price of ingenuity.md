@@ -4,7 +4,7 @@ icon: scroll
 ---
 
 ## 任务信息 / Information
-任务等级：Level 107 / 推荐等级： Level 107
+任务等级：Level 110 / 推荐等级： Level 110
 任务时长：中等 / 任务难度：中等
 中文译名：
 
@@ -15,6 +15,12 @@ icon: scroll
 
 ### Step 1 接取任务
 ---
+
+在基地里你的房间睡觉<CC>-2078 6 -708</CC>
+
+
+![](/assets/img/level%20110%20-%20the%20price%20of%20ingenuity.md-03-18-19-09-18.png)
+
 
 
 ### Step 2 XXXX
