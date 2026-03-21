@@ -1,13 +1,37 @@
-# The Thanos Depository (level 81)
-<span style="font-size: 25px;">**Thanos的宝库**</span>
+---
+title: The Thanos Depository (level 81)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 去看看`[167 6 -5184]`发生了什么
+## 任务信息 / Information
+任务等级：Level 81 / 推荐等级： Level 81
+任务时长：长 / 任务难度：困难
+中文译名：Thanos的宝库
 
-<span class="stage-index">2.</span> 和<font color=00AA00>**Coulmis**</font>`[163 6 -5169]`对话
+:::tip
+本任务包含对网络延迟要求较高的矿车跑酷阶段，如果你的网络延迟极高，请做好心理准备。多次失败后系统会提供跳过选项，请务必同意。
+:::
 
-<span class="stage-index">3.</span> 直走进入面前的宝库，途中会进行一波战斗，解决继续走就可以了
+## 奖励清单 / Rewards
++ 800000 经验值![=20x](/assets/icon/Experience_Orb.gif)
++ 4096 绿宝石![=20x](/assets/icon/Emerald.png)
++ 1 `Dragon Hide Plate` (胸甲)
 
-<span class="stage-index">4.</span> 寻找进入宝库的路
+### Step 1 了解情况
+---
+去看看 <CC>167 6 -5184</CC> 发生了什么，并和 <NPC>Coulmis</NPC> <CC>163 6 -5169</CC> 对话。
+
+### Step 2 进入宝库
+---
+前往 <CC>167 8 -5145</CC> ，直走进入面前的宝库。
+
+### Step 3 击退防御系统
+---
+前往 Thanos 宝库深处 <CC>171 21 -4977</CC>。途中会发生地震，随后宝库会检测到入侵者并激活防御系统。你需要击败 <mob>Dragon Sentinel</mob> 才能继续前进。（注意：战斗中防御系统会瞄准部分区域，使其冒烟并喷发火焰，站在这些区域内会受到伤害。）
+
+### Step 4 寻找出路
+---
+寻找进入宝库深处的路。
 
 :::tip
 首先你会遇到一个有两个大炮的地方
@@ -38,7 +62,10 @@
 大炮开炮后会炸烂尽头处的火枪，直走右拐即可
 :::
 
-<span class="stage-index">5.</span> 驾驶矿车，前往尽头处的宝库
+### Step 5 驾驶矿车
+---
+驾驶矿车，前往尽头处的宝库。
+
 :::warning
 如果你的延迟极高，尝试过这关会非常非常坐牢
 
@@ -60,7 +87,9 @@
 + 在最后的连续开关处，一定要提前关，延迟高的话走到了再关一定会掉
 :::
 
-<span class="stage-index">6.</span> 和巨龙来一个123木头人的游戏。
+### Step 6 盗取龙蛋
+---
+和巨龙 Ozoth 来一个123木头人的游戏。
 
 当巨龙出现睁眼动画时就不要动了！
 
@@ -69,12 +98,23 @@
 回到起点的升降机跑路
 ![](/assets/img/lvl81-4.jpg)
 
-<span class="stage-index">7.</span> 上楼，将巨蛋安置在巢穴内，触发剧情
+### Step 7 逃离宝库
+---
+使用升降机逃离宝库，并在上方与侦察小队队长 <NPC>Atila</NPC> 对话。
 
+### Step 8 归还龙蛋
+---
+上楼，前往 <CC>169 199 -5208</CC> 将巨蛋安置在巢穴内。一段时间后，巨龙 Ozoth 会飞回它的巢穴，并用翅膀护住龙蛋。
 
+### Step 9 交付任务
+---
+与 <NPC>Atila</NPC> 以及赶来的 <NPC>Coulmis</NPC> 对话，完成任务。
 
+## 剧情省流 / Summary
+平时栖息在塔楼顶端的巨龙 Ozoth 突然闯入了 Thanos 的宝库中，并在里面筑巢孵蛋，这严重威胁到了 Thanos 居民的安全。
 
-奖励
-+ 800000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 4096 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 1 Dragon Hide Plate(胸甲)
+Coulmis 和侦察小队队长 Atila 试图派人潜入宝库偷走龙蛋并放回塔楼，以此引走巨龙。然而，由于无法掌握巨龙的睡眠时间，加上宝库的防御系统失控，回收小队的行动屡屡受挫。走投无路的 Coulmis 只好请求路过的冒险者伸出援手。
+
+冒险者深入宝库，沿途不仅击毁了暴走的防御系统，还巧妙利用防御大炮炸开墙壁，穿过了喷火陷阱与岩浆池。在经历了一段惊险的地下矿车轨道后，冒险者成功潜入巨龙的临时巢穴。趁着巨龙在黑暗中闭眼的间隙，冒险者步步为营，成功偷走了龙蛋并搭乘升降机逃出生天。
+
+在上方接应的 Atila 看到冒险者生还并带回龙蛋，感到无比震惊与喜悦。冒险者随后将龙蛋护送至塔楼顶端原本的巢穴中，巨龙 Ozoth 果然跟随着龙蛋飞回了塔顶。Thanos 的危机就此解除，Coulmis 赶来向冒险者致以最崇高的敬意，并赐予了丰厚的奖励。

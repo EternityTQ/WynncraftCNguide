@@ -1,36 +1,66 @@
 ---
-icon: exclamation
+title: The Olmic Rune (level 100)
+icon: star
 ---
-# The Olmic Rune ( level 100 )
-<span style="font-size: 25px;">**Olm的符文机器**</span>
 
+## 任务信息 / Information
+任务等级：Level 100 / 推荐等级： Level 100
+任务时长：中等 / 任务难度：中等
+中文译名：Olm的符文机器
+前置任务：[A Journey Beyond](/quests/lvl91-100/level%20100%20-%20a%20journey%20beyond.html)
 
-(先做好防止在游戏中晕倒的准备)
 :::tip
+(先做好防止在游戏中晕倒的准备)
 解锁可用于合成Tol Rune的Tol Altar
 :::
-<span class="stage-index">1.</span> 在`[585 89  457]`和机器谈话
 
-<span class="stage-index">2.</span> 进入`[694 85 -551]`的洞穴,在洞穴尽头打怪开路,然后沿着路走上去得到`spike shatterer`
-:::tip
-这一段有反胃
-
-如果怪杀死了反胃没有停止请先得到`spike shatterer`再class
-:::
-
-<span class="stage-index">3.</span> 打开在刚进入洞穴没多久的地面,下去收集32个 `Fuel Sprites`然后出去,回到第一步的机器那里
-
-<span class="stage-index">4.</span> 生存150秒,然后和机器进行对话打开门
-
-奖励
+## 奖励清单 / Rewards
 + 5800000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 使用Tol Altar的权限 
++ 使用 Tol Altar 的权限
 
 :::tip
 Tol Altar可用于将低级Runes合成为Tol Rune
 4 Nii Rune = 1 Tol Rune
 2 Uth Rune = 1 Tol Rune
 
-the Forgery中修复Broken Corrupted Undergrowth Ruins Key和Broken Corrupted Galleon's Graveyard Key需要Tol Rune
-
+the Forgery中修复 Broken Corrupted Undergrowth Ruins Key 和 Broken Corrupted Galleon's Graveyard Key 需要 Tol Rune
 :::
+
+### Step 1 调查机器
+---
+在 <CC>585 89 -457</CC> 附近找到废弃的采矿机器 <NPC>Abandoned Drill</NPC> 并与之互动。 发现它需要燃料才能重新启动。
+
+### Step 2 寻找燃料
+---
+进入位于 Ruined Olmic City 坐标 <CC>694 85 -551</CC> 的洞穴寻找燃料。
+
+### Step 3 破碎结晶
+---
+在洞穴尽头打怪开路，击杀 <mob>Eyed Shade</mob> 后会开启一条通路。 沿着路走上去得到 `Spike Shatterer`。 将其用于破坏地板上不稳定的魔法结晶。
+
+:::tip
+这一段有反胃效果。 如果怪杀死了反胃没有停止，请先得到 `Spike Shatterer` 再输入 `/class` 重新加载。
+:::
+
+### Step 4 收集燃料精灵
+---
+打开进入洞穴没多久的地面通道并下去，通过击杀里面的怪物收集 32 个 `Fuel Sprites`。
+
+### Step 5 重启机器
+---
+带着收集好的 32 个 `Fuel Sprites` 回到 <CC>585 89 -457</CC> 的机器处，重新启动它。 机器发出的巨大噪音吸引了周围大批游荡的怪物。
+
+### Step 6 坚守阵地
+---
+保护机器免受怪物攻击，坚持生存 150 秒。
+
+### Step 7 进入地宫
+---
+防守成功后机器会凿穿岩层挖开一条通道，进入新打开的地下室即可完成任务。
+
+## 剧情省流 / Summary
+冒险者在探索废弃的奥尔姆城市时，发现了一台拥有数百年历史的废弃采矿机器。 这台机器似乎正试图挖掘进入某个秘密区域，但由于缺乏燃料而停止了运转。
+
+为了重新启动这台机器，冒险者深入城市中的一处洞穴寻找燃料。 在洞穴深处，冒险者击败了盘踞在那里的怪物，找到了一块能够击碎不稳定魔法结晶的尖刺破碎器。 利用这个工具，冒险者打破了地面的魔法结晶，进入了更深层的地下空间，并在那里收集到了充足的燃料精灵。
+
+带着收集到的燃料，冒险者返回并成功重新启动了采矿机器。 然而，机器运转产生的巨大噪音立刻吸引了周遭游荡的怪物。 经过一番激烈的阵地防守战，冒险者成功保护了机器。 最终，采矿机器顺利凿穿了岩层，为冒险者打开了通往隐藏地下室的入口。

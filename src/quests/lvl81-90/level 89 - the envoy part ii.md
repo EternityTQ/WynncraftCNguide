@@ -1,79 +1,109 @@
 ---
+title: The Envoy Part II (level 89)
 icon: skull
 ---
 
-# The Envoy Part II (Level 89)
-<span style="font-size: 25px;">**使节 下篇**</span>
-
-<span class="stage-index">1.</span> 前往Maxie的房子`[-1571 68 -2876]`
+## 任务信息 / Information
+任务等级：Level 89 / 推荐等级： Level 89
+任务时长：长 / 任务难度：困难
+中文译名：使节 下篇
+前置任务：[The Envoy Part I](/quests/lvl81-90/level%2083%20-%20the%20envoy%20part%20i.html) 
 
 :::tip
-别忘了带在前置任务中获得的房子钥匙！
+别忘了带在前置任务中获得的 `Maxie's House Key`！
 :::
 
-<span class="stage-index">2.</span> 和房子内的<font color=00AA00>**Maxie**</font>对话
-
-<span class="stage-index">3.</span>找到`[-1712 38 -3100]`的弹射器(位于**Corkus**北部) ,随便按两下,然后等Maxie说完话之后坐上去,按按钮启动
-
-<span class="stage-index">4.</span> 找到<font color=00AA00>**Avos Chief**</font>`[-1811 133 -3063]`
-
-<span class="stage-index">5.</span>去找<font color=00AA00>**Grandmaster Shaman**</font>并和他谈话`[-1579 147 -3313]`
-
-<span class="stage-index">6.</span>打开他左边的木门，然后通过<font color=00AA00>**Grandmaster Shaman**</font>帮你搭的路进入神殿`[-1510 135 -3305]`
->根本不用等他搭路...可以直接位移过来...
-
-<span class="stage-index">7.</span>拿到钥匙
-:::tip
-神殿内机关没什么好说的
-
-跑酷需要注意一下时间
-
-**强烈建议**直接传送上来`[-7122 58 -1961]`
-
-之后简单杀三波怪就行了
-
-记得把掉落物丢进中间的漏斗！
-
-拿到钥匙就可以离开了
-:::
-
-<span class="stage-index">8.</span> 回到Maxie的房子，交给他钥匙
-
-<span class="stage-index">9.</span>去金库里面`[-1498 69 -2918]`跟NPC对话
-
-![进城堡右手边很容易看到 =300x](/assets/img/lvl89-2.jpg)
-
-<span class="stage-index">10.</span>跟着地上的作物走 找到隐藏的机械基地`[-1444 87 -2728]`
-
-<span class="stage-index">11.</span>穿过洞穴，跟<font color=00AA00>**Maxie**</font>谈话 进入一段剧情
-
-
-<span class="stage-index">12.</span> 按动门上的按钮，找到地下基地，拿到钥匙
-:::tip 如何找到地下基地?
-进入屋子后首先上二楼，按下绿宝石![=20x](/assets/icon/Emerald.png)按钮开启暗门
-
-然后去地下室，地下室在一楼进门左手边
-
-跟着红色地毯进入一个螺旋下降的楼梯就找到了！
-
-然后是一段跑酷
-
-跟着地毯走就行，当然你也可以直接传送到终点，在通道尽头的上面
-
-进到最后杀掉小BOSS拿到钥匙就可以走了
-:::
-
-<span class="stage-index">13.</span>跟<font color=00AA00>**Maxie**</font>在工厂外谈话`[-1707 75 -2610]`
-
-奖励
+## 奖励清单 / Rewards
 + 3050000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ Electro Mage's Boots (非常牛逼的鞋子)
-+ 1 Fallen Factory Key
-+ 可以乘坐往返于Corkus-Kandon Beda之间的热气球了
-+ 可以进入Fallen Factory副本了
++ `Electro Mage's Boots` (非常强力的鞋子)
++ 1 `Fallen Factory Key`
++ 可以乘坐往返于 Corkus 与 Kandon Beda 之间的热气球了
++ 可以进入 Fallen Factory 副本了
 
 :::tip 热气球在哪?
 ![Kandon-Beda =350x](/assets/img/lvl89-1.jpg)
 
 ![Corkus =350x](/assets/img/lvl89-4.jpg)
 :::
+
+### Step 1 进入 Maxie 的秘密基地
+---
+使用 `Maxie's House Key` 进入位于 Corkus 城的 Maxie 的房子 <CC>-1571 68 -2876</CC>。
+
+### Step 2 计划潜入工厂
+---
+在房子一楼与 <NPC>Maxie</NPC> 对话。他告诉你，为了进入并关闭暴走的工厂，需要分别拿到由 Avos 和 Corkians 保管的两把钥匙。由于边境紧张，他提议使用城外西北部的一个装置将你发射过去寻找 Avos 酋长。
+
+### Step 3 发射弹射器
+---
+前往 Corkus 北部的村庄，找到弹射器 <CC>-1702 55 -3115</CC>。Maxie 正在那里等你。按下按钮启动弹射器，你将被发射到 Avos 的领地。
+
+### Step 4 寻找 Avos 酋长
+---
+降落后，询问当地的 Avos 居民，最终在 <CC>-1811 133 -3063</CC> 找到 <NPC>Chief Avos</NPC> 并与他对话。他表示看到了你在码头与机甲的战斗，决定信任你，并指引你去找大萨满获取钥匙。
+
+### Step 5 拜访大萨满
+---
+前往 <CC>-1587 147 -3321</CC> 寻找 <NPC>Grandmaster Shaman</NPC>。她对人类不太信任，但还是遵循命令，让你去她房子后面见面。
+
+### Step 6 进入神殿
+---
+走到她房子后面，她会为你搭建一座桥，让你进入神殿 <CC>-1510 135 -3305</CC>。
+
+:::tip
+其实根本不用等她搭路，你完全可以直接使用位移技能跳过去...
+:::
+
+### Step 7 夺取 Avos 钥匙
+---
+在神殿内寻找钥匙。
+
+:::tip
+神殿内的机关和跑酷需要注意一下时间限制。**强烈建议**直接传送到 <CC>-7122 58 -1961</CC>。
+清理掉三波怪物后，击败最后的守卫 <mob>Key Temple Guard</mob> 即可获得 `Avos Factory Key`。记得把掉落物丢进中间的漏斗以开启出口！
+:::
+
+### Step 8 汇合与侦察
+---
+拿到钥匙后回到 Maxie 的房子，将钥匙交给他。他让你去 Corkus 城堡里的金库 <CC>-1498 69 -2910</CC> 侦察一下 Corkian 钥匙的情况。
+
+![进城堡右手边很容易看到 =300x](/assets/img/lvl89-2.jpg)
+
+### Step 9 金库失窃
+---
+来到金库，与里面的 <NPC>Corkus Delegate</NPC> 对话。她无奈地承认 Maxie 是对的，那个新型机甲 Mech X 轻易地击穿了金库并抢走了钥匙。她让你顺着机甲身上掉落的农产品痕迹去追踪它。
+
+### Step 10 追踪神秘机甲
+---
+跟着地上的农作物痕迹，在田野里找到一个伪装成人类农夫的机甲 <CC>-1444 87 -2728</CC>。Maxie 会赶来识破它的伪装并炸开隐藏机械基地的门。
+
+### Step 11 深入机械基地
+---
+进入地下基地，寻找被抢走的钥匙。
+
+:::tip 如何找到地下基地?
+进入屋子后首先上二楼，按下绿宝石![=20x](/assets/icon/Emerald.png)按钮开启暗门。
+然后去地下室，地下室在一楼进门左手边。
+跟着红色地毯进入一个螺旋下降的楼梯就找到了！
+接着是一段跑酷，跟着地毯走就行（当然你也可以直接传送到终点上方）。
+最后在通道尽头击败小 BOSS <mob>Mech X</mob>，拿到 `Corkian Factory Key` 就可以离开了。
+:::
+
+### Step 12 前往坠落工厂
+---
+拿到钥匙后，前往 Fallen Factory 副本门外 <CC>-1707 75 -2610</CC> 找 <NPC>Maxie</NPC> 汇合。
+
+### Step 13 准备决战
+---
+与 <NPC>Maxie</NPC> 对话。他为你制作了一双融合了电磁魔法的强力战靴 `Electro Mage's Boots` 作为感谢，并提醒你工厂内由纯粹的电磁魔法生物控制，极度危险。任务完成，你现在可以进入工厂副本了。
+
+## 剧情省流 / Summary
+冒险者使用钥匙潜入了 Maxie 位于 Corkus 城的秘密基地。Maxie 解释说，为了彻底关闭失控的机甲工厂，必须集齐当年由 Avos 和 Corkians 分别保管的两把工厂钥匙。为了避开紧张的边境封锁，Maxie 利用一个秘密弹射装置将冒险者直接发射到了 Avos 的领地。
+
+在 Avos 村庄，冒险者找到了酋长。酋长表示他们目睹了冒险者之前在码头与暴走机甲的战斗，决定信任这个外来者，并允许冒险者进入神殿取走钥匙。在神殿中，冒险者击败了古老的守卫，成功拿到了 Avos 工厂钥匙。
+
+带着钥匙回到 Maxie 处后，两人计划去 Corkus 城堡的金库侦察另一把钥匙的情况。然而，当冒险者到达金库时，却发现金库的墙壁被炸出了一个大洞。Corkus 代表无奈地承认，之前那台新型机甲 Mech X 已经袭击了金库并夺走了钥匙。
+
+顺着机甲逃跑时掉落的农产品痕迹，冒险者和 Maxie 在一片农田中发现了一个伪装成农夫的侦察机甲，并借此找到了隐藏在地下的机甲基地。冒险者孤身深入基地，击败了强大的 Mech X，夺回了被抢走的 Corkian 工厂钥匙。
+
+集齐两把钥匙后，冒险者与 Maxie 在坠落工厂的大门外汇合。Maxie 运用自己的电磁魔法天赋，为冒险者打造了一双强力的战靴作为谢礼，并警告冒险者：工厂内部由一个拥有自我意识且道德扭曲的纯粹电磁魔法生物掌控，一场恶战在所难免。

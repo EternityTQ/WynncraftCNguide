@@ -1,56 +1,94 @@
 ---
+title: The Feathers Fly Part I (level 91)
 icon: bookmark
 ---
 
-# The Feathers Fly Part I(level 91)
-<span style="font-size: 25px;">**翼之翱翔 Part I**</span>
+## 任务信息 / Information
+任务等级：Level 91 / 推荐等级： Level 91
+任务时长：长 / 任务难度：困难
+中文译名：翼之翱翔 Part I
+前置任务：[The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html)
 
-前置任务：
-+ [The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html)
 
-<span class="stage-index">1.</span> 进入位于`[-1731 134 -3267]`的作坊，触发剧情
-
-<span class="stage-index">2.</span> 传送到Avos村后，在`[-1840 123 -3086]`处和<font color=00AA00>**Ava**</font>对话
-
-<span class="stage-index">3 </span> 在`[-1819 131 -3071]`和<font color=00AA00>**Avos Chief**</font>对话，触发让他分心的剧情，
-:::tip
-在每次耐心条过半的时候和房间里一件冒绿光的物品交互降低耐心条
-
-坚持60s就行了，阳间操作基本都能过
-
-注意每件物品只能交互一次，最好不要太急着对话，有可能会浪费
-:::
-
-<span class="stage-index">4.</span> 和<font color=00AA00>**Ava**</font>在他的作坊`[-1731 134 -3267]`对话，结束后到`[-1463 127 -3087]`和<font color=00AA00>**Ava**</font>会和
-
-:::tip
-这里比较难上去，你可以从Corkus城东边往北走上去
-:::
-
-<span class="stage-index">5.</span> 进入`[-1440 134 -3109]`的店铺，和店员对话后被赶出来，然后和Ava对话后再次进入店铺，再次被赶出来
-
-<span class="stage-index">6.</span> 和<font color=00AA00>**Ava**</font>`[16325 140 13567]`对话，然后打店铺周围的怪，收集16个`Electroshard`后在房子后面提交
-
-<span class="stage-index">7.</span> 进入房子底部的控制系统，让<font color=00AA00>**Ava**</font>将水倒到右边的控制面板上
-
-<span class="stage-index">8.</span> 和<font color=00AA00>**Ava**</font>在他的作坊`[-1731 134 -3267]`对话
-
-<span class="stage-index">9.</span> 在作坊外和<font color=00AA00>**Ava**</font>对话
-
-<span class="stage-index">10.</span> 帮助<font color=00AA00>**Ava**</font>测试她的机器
-:::tip
-很简单，跟着屏幕中间的提示按左右键就行了
-
-最好对着天上按
-:::
-
-<span class="stage-index">11.</span> 和<font color=00AA00>**Ava**</font>对话，前往**Avos**的领地，然后去<font color=00AA00>**Avos Chief**</font>的房间触发剧情
-
-<span class="stage-index">12.</span> 继续帮忙遥控机器
-
-<span class="stage-index">13.</span> 和<font color=00AA00>**Avos Chief**</font>`[-1819 131 -3071]`对话
-
-奖励
+## 奖励清单 / Rewards
 + 2900000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 20 Bipedal Springs(道具)
-+ 3 Golden Avia Feathers(素材)
++ 20 `Bipedal Springs`
++ 3 `Golden Avia Feathers`
+
+### Step 1 接取任务
+---
+前往位于 <CC>-1731 134 -3267</CC> 的作坊，与 <NPC>Ava</NPC> 对话。她表示自己需要一些自然魔法来完成她的发明。
+
+### Step 2 潜入准备
+---
+前往 <CC>-1840 123 -3086</CC> 与 <NPC>Ava</NPC> 会合。<NPC>Ava</NPC> 计划潜入图腾室，需要你去分散酋长的注意力。
+
+### Step 3 转移注意
+---
+前往 <CC>-1819 131 -3071</CC> 与 <NPC>Avos Chieftain</NPC> 对话，触发让他分心的剧情小游戏。
+
+:::tip
+右键点击酋长开始小游戏。你需要坚持60秒不让他的怀疑值（耐心条）积满。
+每次耐心条增加时，点击房间里特定的物品来转移他的注意力。
+推荐的点击顺序：先点击架子（shelves），然后是装羽毛的箱子（feathery crate），接着是漂浮的书（floating book），最后是紫藤树（Wisteria tree）。
+注意：千万不要点击普通的书本（books），那会增加他的怀疑值！
+:::
+
+### Step 4 汇报情况
+---
+成功拖延时间后，回到作坊 <CC>-1731 134 -3267</CC> 向 <NPC>Ava</NPC> 汇报。<NPC>Ava</NPC> 成功收集到了魔法，现在她还需要去 Corkian 商店买些零件。
+
+### Step 5 前往商店
+---
+前往 Corkian 商店附近 <CC>-1463 127 -3087</CC> 与 <NPC>Ava</NPC> 会合（你可以选择让她带你飞过去或者自己走过去）。进入商店后，由于店主歧视 Avo 族，<NPC>Ava</NPC> 会被直接赶出来。
+
+### Step 6 尝试购买
+---
+在 <CC>-1436 134 -3109</CC> 再次进入店铺，尝试自己向店员购买 `Enhanced Potential Microchip`。由于你刚才和 <NPC>Ava</NPC> 走在一起，店员也会将你赶出店铺。
+
+### Step 7 破坏控制面板
+---
+在店铺外 <CC>-1436 134 -3109</CC> 找到控制面板并与 <NPC>Ava</NPC> 对话。既然无法正常购买，你们决定破坏控制面板来瘫痪商店的防御。
+
+<NPC>Ava</NPC> 会让你选择把水倒在哪个面板上：
++ **左侧面板**：触发安全传送，你需要击败 <mob>Endangered Power Core</mob> 才能逃脱。
++ **中间面板**：随机获得一个微芯片。如果不是任务需要的芯片，可以继续尝试。
++ **右侧面板**：直接关闭防御协议，安全过关。
+
+:::tip
+如果你想获取最多的材料：先选择中间面板获得一个随机芯片，再选择左侧面板击败首领，这样可以获得额外掉落物。
+如果你只想快速推进任务：直接选择右侧面板即可。
+:::
+
+### Step 8 返回作坊
+---
+<NPC>Ava</NPC> 拿到了需要的芯片并留下了一些绿宝石作为补偿。前往作坊 <CC>-1731 134 -3267</CC> 与 <NPC>Ava</NPC> 会合，机器终于组装完成了。
+
+### Step 9 机器测试
+---
+来到作坊外面的山丘上 <CC>-1719 173 -3348</CC> 帮助 <NPC>Ava</NPC> 测试她的“生长加速器”。
+
+:::tip
+这部分很简单，你需要在45秒内，根据屏幕中间的提示，使用手中的遥控器按鼠标左键或右键来为机器充能。充能完成后，树苗会瞬间长成大树。
+:::
+
+### Step 10 成果展示
+---
+前往 Avos 酋长的房间 <CC>-1819 131 -3071</CC>，<NPC>Ava</NPC> 想要向 <NPC>Avos Chieftain</NPC> 展示她的成果，以证明电磁魔法和自然魔法结合的潜力。
+
+你需要再次操作遥控器为机器充能，这次需要连续充能三次，且时间限制会越来越短。
+
+### Step 11 最终判决
+---
+机器在最后稍微失控，击退了一名警卫。在 <CC>-1819 131 -3071</CC> 与 <NPC>Avos Chieftain</NPC> 对话。酋长并不认可 <NPC>Ava</NPC>，并要求她彻底停止这种危险的研究。
+
+## 剧情省流 / Summary
+冒险者在作坊里遇到了一位名叫Ava的Avo族女孩。与排斥科技的族人不同，Ava对电磁魔法充满热情。她正试图发明一台生长加速器来帮助穷苦的人，但机器还需要摄取自然魔法和购买特殊的科技零件。
+
+为了获取自然魔法，冒险者来到酋长的房间，通过询问历史和展示文物成功分散了酋长的注意力，掩护Ava潜入图腾室收集到了所需的魔法能量。随后，两人前往Corkus的机械商店购买强化潜能微芯片。然而，充满偏见的店主拒绝将商品卖给身为Avo族的Ava，并将两人粗暴地赶出了门。
+
+咽不下这口气的Ava决定采取非正常手段。在冒险者的协助下，他们破坏了商店外部的控制面板，瘫痪了安保系统。Ava潜入商店拿到了微芯片，但还是在柜台上留下了买芯片的钱。
+
+回到作坊后，Ava成功组装了生长加速器。在冒险者的操作配合下，机器成功运转，瞬间将一棵小树苗催生成了参天大树。兴奋的Ava带着冒险者和机器来到酋长面前，渴望用这项能造福大众的发明证明自己的价值。
+
+在展示过程中，由于机器输出的能量过载，一根粗壮的树枝突然长出并击飞了旁边的警卫。这一意外让原本就对电磁魔法充满戒心的酋长勃然大怒。酋长提起了曾经造成无数伤亡的“工厂”惨剧，警告Ava这种力量过于危险，并给她下达了最后通牒：立即停止一切实验，否则将永远流放她。对族人守旧思想感到绝望和愤怒的Ava严词拒绝，她坚信自己的发明能改变世界，并发誓总有一天会向所有人证明她的正确。

@@ -1,76 +1,107 @@
-# Cowfusion (Level 86)
-<span style="font-size: 25px;">**变牛记**</span>
+---
+title: Cowfusion (level 86)
+icon: scroll
+---
 
-前置任务：[Tunnel Trouble ( level 6 )](/quests/lvl1-10/level%206%20-%20tunnel%20trouble.html)
+## 任务信息 / Information
+任务等级：Level 86 / 推荐等级： Level 86
+任务时长：长 / 任务难度：中等
+中文译名：变牛记
+前置任务：[Tunnel Trouble](/quests/lvl1-10/level%206%20-%20tunnel%20trouble.html) 
 
-<span class="stage-index">1.</span> 跟<font color=00AA00>**Ranol**</font>对话`[768 45 -5425]`
-
-<span class="stage-index">2.</span> 往北走，找路进入实验室`[803,50,-5592]`
-:::tip
-跟着右边的棕色地毯就能找到门的开关
-:::
-
-<span class="stage-index">3.</span> 进入实验室，进入实验舱内带走钥匙，然后...
-
->你变成牛了。
-
-<span class="stage-index">4.</span> 回去找<font color=00AA00>**Ranol**</font>
-
-<span class="stage-index">5.</span> 和栅栏里面的<font color=00AA00>**Suspicous Cow**</font>对话，选项选1或3
-
-<span class="stage-index">6.</span> 把干草堆推到有台阶和栅栏的地方，让你可以走上去(右键推)
-
-第二个地方这么推，然后从旁边走上来
-![=400x](/assets/img/lvl86-1.jpg)
-
-:::tip
-这个任务偶尔会卡bug出现干草堆无法推拉的情况
-
-但无论什么情况，你都可以在栅栏的位置利用class大法逃课
-
-:::
-
-<span class="stage-index">7.</span> 进到谷仓里面，找到下图按钮，按下去等一会就行
-![=400x](/assets/img/lvl86-2.jpg)
-
-<span class="stage-index">8.</span> 和<font color=00AA00>**Receptionist**</font>对话
-
-<span class="stage-index">9.</span> 沿着走廊一直走到走廊尽头找到<font color=00AA00>**Drale**</font>
-:::tip
-这里的选项不会影响奖励
-
-但是会稍微影响到后续的对话
-
-就不细讲了，有兴趣可以查阅wiki
-
-~~这个种族叫做Woc,Cow反向~~
-
-:::
-
-<span class="stage-index">10.</span> 离开焚化炉
-:::tip
-这是一个小型地牢，慢慢杀出去就好了
-
-虽然还是不能跳跃
-
-注意最终BOSS不能直接打，要引诱它经过十次火堆
-
-有点疼的，血药得备好
-:::
-
-<span class="stage-index">11.</span> 和<font color=00AA00>**worker**</font>对话，进入管道
-
-<span class="stage-index">12.</span> 和<font color=00AA00>**Drale**</font>对话，回到实验室
-
-<span class="stage-index">13.</span> 进入实验舱，然后再次和<font color=00AA00>**Drale**</font>对话
-
-奖励
+## 奖励清单 / Rewards
 + 2300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 4096 绿宝石![=20x](/assets/icon/Emerald.png)
 
 :::tip
-即使任务已经完成你仍可以通过任务中点击过的那个告示牌旁的按钮再次进入Woc营地
-
-~~但为什么~~
-
+即使任务已经完成，你仍可以通过任务中点击过的那个告示牌旁的按钮再次进入 Woc 营地。
 :::
+
+### Step 1 农夫的委托
+---
+在 **Canyon of the Lost** 找到农夫 <NPC>Ranol</NPC> <CC>768 45 -5425</CC> 并与他对话。他抱怨他的奶牛一直神秘失踪，怀疑是北边实验室的科学家干的，请求你去调查。
+
+### Step 2 潜入实验室
+---
+往北走，寻找进入实验室的方法 <CC>803 43 -5576</CC>。
+
+:::tip
+跟着右边的棕色地毯就能找到门的开关。
+:::
+
+### Step 3 寻找失踪的奶牛
+---
+进入实验室后，顺着地毯找到关押奶牛的牢房。进入实验舱内试图带走牛栏钥匙（Cow Pen Key），结果门突然锁死，你掉入了一个五彩斑斓的通道中……你变成了一头牛！
+
+### Step 4 弄巧成拙
+---
+发现自己无法施法和跳跃后，离开实验室回去找农夫 <NPC>Ranol</NPC>。结果他根本认不出你，直接把你当成逃跑的牛关进了牛圈。
+
+### Step 5 密谋越狱
+---
+和牛圈里的 <NPC>Suspicious Cow</NPC> 对话（对话选项选1或3）。它察觉到你不是普通的牛，并告诉你谷仓下面有一个反抗压迫的秘密基地，需要你利用干草堆逃出去。
+
+### Step 6 逃出牛圈
+---
+把干草堆推到有台阶和栅栏的地方，让你可以走上去（左键拉，右键推）。
+
+第二个地方这么推，然后从旁边走上来：
+![=400x](/assets/img/lvl86-1.jpg)
+
+:::tip
+这个任务偶尔会卡bug出现干草堆无法推拉的情况。但无论什么情况，你都可以在栅栏的位置利用 `/class` 大法逃课。
+:::
+
+### Step 7 进入秘密基地
+---
+逃出牛圈后，进到谷仓里面。找到带有告示牌的入口，按下旁边的按钮“Moo”一声，等一会门就会打开。
+![=400x](/assets/img/lvl86-2.jpg)
+
+### Step 8 基地前台
+---
+进入基地后，和 <NPC>Receptionist</NPC> 对话。他发现你身上有种没当过牛的违和感，让你去走廊尽头找首领。
+
+### Step 9 寻找首领
+---
+沿着走廊一直走到尽头，找到负责管理这里的首领 <NPC>Drale</NPC>。
+
+:::tip
+这里的对话选项会稍微影响到后续的对话细节，但不会影响最终奖励。
+:::
+
+### Step 10 意外坠落
+---
+和 <NPC>Drale</NPC> 交流后，他在尝试帮你打开笼子时拉错了拉杆（或者故意将你丢下去），你掉入了充满废弃实验体和怪物的深坑（The Pit）。
+
+### Step 11 逃离深坑
+---
+此时你的法术已恢复（但仍无法跳跃）。你需要穿过这片小型地牢：
+1. 击杀小头目 <mob>Carnivorous Sludge</mob> 爬上绳索。
+2. 穿过充满风扇的通风管道迷宫。
+3. 清理 <mob>Weak Zombie</mob> 收集内脏开门。
+4. 躲避 <mob>Cowbomination</mob> 的袭击。
+
+:::tip
+注意，在焚化炉房间的最终 BOSS <mob>Bovine Monstrosity</mob> 不能直接造成伤害，你需要引诱它经过中央的火堆 10 次将其烧死。BOSS 伤害较高，请备好血药。
+:::
+
+### Step 12 遇见工人
+---
+离开焚化炉后，和深坑里的 <NPC>Worker</NPC> 对话。他会对 Drale 的粗心大意表示无奈，并让你顺着管道回到上方的实验室。
+
+### Step 13 恢复人形
+---
+回到实验室后再次和 <NPC>Drale</NPC> 对话。随后进入一旁的恢复机器（Transmutation Machine）中，你终于变回了人类。
+
+### Step 14 交付任务
+---
+恢复原状后，与 <NPC>Drale</NPC> 对话。他解释了他们这些“Woc”其实是寻找回家之路的流亡者，并对刚才的意外表示歉意，随后给予了你奖励。
+
+## 剧情省流 / Summary
+农夫 Ranol 抱怨他农场里的奶牛经常神秘失踪，并怀疑是住在北边峡谷实验室里的疯狂科学家干的。冒险者接受委托前往调查，潜入实验室后发现了一群被关押的奶牛。但在尝试解救它们时，冒险者误入了一台奇怪的机器，竟意外变成了一头奶牛！
+
+无奈之下，冒险者回到农场找 Ranol 求助，结果 Ranol 根本没认出冒险者，直接将其当作逃跑的奶牛关进了牛圈。在牛圈里，一头神秘的奶牛察觉到了冒险者的异常，并透露了在谷仓下方有一个由觉醒奶牛建立的秘密反抗基地。在神秘奶牛的指引下，冒险者利用干草堆翻过栅栏，成功潜入了地下基地。
+
+在基地深处，冒险者惊讶地发现这里的负责人竟是曾在 Katoa 农场结识的老熟人 Drale。然而，迷糊的 Drale 在尝试打开机关时拉错了拉杆（或者因为冒险者态度不好而发火），直接将冒险者掉进了充满变异怪物和废弃实验体的深坑中。
+
+冒险者在深坑中艰难求生，击败了恐怖的肉食淤泥和变异牛怪，最终在一个废弃焚化炉里利用火焰陷阱消灭了巨大的牛型怪物。随后，深坑里的工人们帮助冒险者通过管道回到了实验室。充满歉意的 Drale 赶忙将冒险者重新塞进机器，成功恢复了其人类的身体。Drale 解释说，他们其实是一群渴望返回家乡的流亡者，正在这里积蓄力量。化解了误会后，Drale 给予了冒险者丰厚的补偿，这场荒诞的变牛之旅也终于告一段落。

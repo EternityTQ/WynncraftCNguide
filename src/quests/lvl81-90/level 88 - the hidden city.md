@@ -1,45 +1,100 @@
-# The Hidden City (Level 88)
-<span style="font-size: 25px;">**隐蔽的城镇**</span>
+---
+title: The Hidden City (level 88)
+icon: route
+---
 
-<span class="stage-index">1.</span> 跟Thesead旁边的<font color=00AA00>**Narder**</font>`[711 78 -5072]`对话
+## 任务信息 / Information
+任务等级：Level 88 / 推荐等级： Level 88
+任务时长：长 / 任务难度：中等
+中文译名：隐蔽的城镇
 
-<span class="stage-index">2.</span> 前往`[857 47 -5389]`，跨过障碍沿山路往上走
-
-<span class="stage-index">3.</span> 和好奇的村民`[980 91 -5399]`对话
-
-<span class="stage-index">4.</span> 沿右侧小路上楼，经过一段小跑酷，对着最上面的石柱放技能
-
-
-<span class="stage-index">5.</span> 等村民跑出去后，进入左侧洞口`[984 109 -5439]`，和里面的<font color=00AA00>**Eltom Guard**</font>对话
-
-<span class="stage-index">6.</span> 在Eltom的城镇大厅`[932 119 -5516]`里和<font color=00AA00>**Mayor Eoric**</font>对话
-
-<span class="stage-index">7.</span> 和面包店里的<font color=00AA00>**Lumilda**</font>`[1022 109 -5483]`对话
-
-<span class="stage-index">8.</span> 前往东侧出口`[1024 112 -5539]`一探究竟，在靠近墙里面后会炸出来一个洞，进去，找路往上爬，抵达`[1084 133 -5604]`的洞口
-
-<span class="stage-index">9.</span> 按照记忆开门,选出不一样的颜色.重复三次即可开门
 :::tip
-如果记不住颜色 可以先截图  再对照
+本任务将解锁 Thesead 和 Eltom 之间的快速传送通道。
 :::
 
-<span class="stage-index">10.</span> 探索路尽头的屋子，触发剧情，然后在里面找线索(二楼的Note)
-
-<span class="stage-index">11.</span> 前往Eltom的机场，和<font color=00AA00>**Hilan**</font>`[971 146 -5465]`对话，走进中央的升降台上楼，上船
-
-<span class="stage-index">12.</span> 拿钥匙后逃出你的牢房 按青色方块左边的按钮5次 再按金色方块左边的按钮5次
->即三个栅栏连成一条直线位于正上方即可开门
-
-<span class="stage-index">13.</span> 上楼,右键药水台获得威士忌
-
-然后倒到楼下的引擎处(左键击破)   
-
-楼梯处原本被封闭的活板门就会开启了，下去，关掉引擎
-
-<span class="stage-index">14.</span> 被炸到Thesead附近后，到`[857 112 -5040]`和<font color=00AA00>**Thesead's Mayor**</font>对话
-
-奖励
+## 奖励清单 / Rewards
 + 2700000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 4096 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 解锁Thesead和Eltom之间的快速传送(桌子下的暗道)
-+ 解锁Cinfras到Thesead的快速传送(橙色台子)
++ 解锁 Thesead 和 Eltom 之间的快速传送 (Thesead市长桌下的暗道)
++ 解锁 Juggler 的快速旅行，可前往 Thesead
+
+### Step 1 接受委托
+---
+在 **Thesead** 找到腿骨折的佣兵 <NPC>Narder</NPC> <CC>661 78 -5069</CC> 并与他对话。他告诉你山谷里隐藏着一个违法建造的人类城镇，且该城镇的秘密可能已经泄露。他委托你代他前往调查并找出内鬼。
+
+### Step 2 前往山谷
+---
+前往 <CC>890 47 -5388</CC>，跨过障碍沿着山路往上走，在 <CC>978 91 -5399</CC> 找到一个被石门挡住的洞口。洞外站着一个 <NPC>Curious Villager</NPC>。
+
+### Step 3 制造假坍塌
+---
+你需要想办法让 <NPC>Curious Villager</NPC> 离开。
+
+:::tip
+沿右侧小路上楼，经过一段小跑酷，对着最上面的石柱放技能，制造洞穴即将坍塌的假象。
+:::
+
+<NPC>Curious Villager</NPC> 吓跑后，靠近石门，石门会开启并允许你进入。
+
+### Step 4 进入 Eltom
+---
+进入洞口 <CC>984 109 -5437</CC> 后，和里面的 <NPC>Eltom Guard</NPC> 对话，随后进入隐蔽城镇 **Eltom**。
+
+### Step 5 会见市长
+---
+前往 Eltom 的城镇大厅 <CC>942 119 -5550</CC>，与 <NPC>Mayor Eoric</NPC> 对话。他要求你作为侦探在镇上四处打听，找出泄露城镇位置的叛徒。
+
+### Step 6 调查线索
+---
+在镇上询问市民，最后前往面包店 <CC>1022 109 -5483</CC> 与 <NPC>Lumilda</NPC> 对话。她告诉你曾有一个神秘的兜帽男经常在东边出口附近活动。
+
+### Step 7 探索东侧洞穴
+---
+前往东侧出口 <CC>1020 112 -5534</CC>。抬头向上看，找路往上爬，进入上方的隐藏洞口 <CC>1084 133 -5604</CC>。
+
+### Step 8 记忆解谜
+---
+洞口内有一道记忆门，需要按照墙上显示的颜色顺序，选出**不同**颜色的方块。连续正确完成三次即可开门。
+
+:::tip
+如果记不住颜色，可以先截图，然后再对照选择。
+:::
+
+### Step 9 发现内鬼
+---
+探索通道尽头的屋子，内鬼 <NPC>Ardulf</NPC> 会现身并嘲讽你。他对 Eltom 充满敌意，企图将它的存在报告给 Thesead 市长以换取赏金，随后他便逃跑了。
+
+### Step 10 追踪线索
+---
+阅读屋子内桌子上的笔记，发现 <NPC>Ardulf</NPC> 计划乘坐 6:15 的飞艇前往 Thesead，并计划将信件交给 Thesead 市长。
+
+### Step 11 前往机场
+---
+前往 Eltom 的机场 <CC>968 152 -5463</CC>，找到被打伤的 <NPC>Hilan</NPC>。他告诉你兜帽男已经抢走了一艘飞艇。赶紧乘坐中央的升降台上楼，登上一艘货船追击。
+
+### Step 12 破坏飞艇
+---
+登上货船后，你会被打晕并关在牢房里。
+
+:::tip
+要逃出牢房，你需要解开墙上的锁：按青色方块左边的按钮 5 次，再按金色方块左边的按钮 5 次。让三个栅栏连成一条直线位于正上方即可开门。
+:::
+
+出狱后，阅读工程师的纸条，得知引擎不能进水。上楼右键药水台获得 `Nemract Whiskey`，然后将它倒入楼下的引擎（左键击破机器并倒入）。
+
+引擎发生故障后，楼梯处原本被封闭的活板门会开启。跳下去，关掉引擎，飞艇将坠毁在 Thesead 附近。
+
+### Step 13 交付任务
+---
+在飞艇坠毁后，前往 Thesead 顶层 <CC>832 113 -4994</CC> 与 <NPC>Thesead's Mayor</NPC> 对话。
+
+## 剧情省流 / Summary
+冒险者在 Thesead 遇到了一名腿部骨折的佣兵 Narder。Narder 透露，峡谷深处隐藏着一个违法建造的人类城镇 Eltom，由于最近城镇的秘密似乎被泄露，Eltom 的市长雇佣他去找出内鬼。Narder 委托冒险者代替他完成这个任务。
+
+冒险者利用假装洞穴坍塌的计谋吓跑了堵在 Eltom 门口的好奇村民，成功潜入了这座隐蔽的城镇。在与 Eltom 市长 Eoric 交谈后，冒险者开始在镇上收集线索。面包店老板 Lumilda 提供了一条关键信息：曾有一个神秘的兜帽男经常在东侧出口附近鬼鬼祟祟地活动。
+
+顺着线索，冒险者在东侧悬崖上方发现了一个隐藏的洞穴，并通过了记忆锁的考验进入了兜帽男的房间。在这里，冒险者遇到了内鬼 Ardulf。Ardulf 对 Eltom 充满了仇恨，认为这些逃避战争的人类不配在这里建立城市，并计划乘坐飞艇前往 Thesead，向当地市长告发 Eltom 的存在以换取赏金。
+
+冒险者急忙赶往机场，却还是晚了一步，Ardulf 已经打伤了守卫并抢走了一艘货运飞艇。冒险者登上一艘飞艇追击，却不慎被 Ardulf 打晕并关进牢房。醒来后，冒险者巧妙地解开了牢房门锁，并利用威士忌破坏了飞艇的引擎，导致飞艇坠毁在 Thesead 附近。
+
+当冒险者赶到 Thesead 市长办公室，准备拦截 Ardulf 的告密信时，却听到了一个惊人的真相。Thesead 市长坦然表示她早就知道 Eltom 的存在，因为 Eltom 的市长 Eoric 正是她的前夫，而那个试图告密的兜帽男 Ardulf，则是他们两人的混血儿子。由于担心混血儿的身份暴露会引来灾祸，Eoric 当年抛弃了他们母子逃到了 Eltom。Ardulf 此次的行动并非单纯为了赏金，而是出于对父亲抛弃他们的怨恨。市长表示会妥善处理此事并保守秘密，随后向冒险者展示了她桌下的秘密通道，以此作为奖励。
