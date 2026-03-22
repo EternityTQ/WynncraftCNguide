@@ -226,11 +226,11 @@
             "安逸"
         ],
         "stats": {
-            "output": 4,
+            "output": 5,
             "survival": 3,
             "sustain": 4,
             "difficulty": 2,
-            "mobility": 3
+            "mobility": 1
         }
     },
     {
@@ -262,11 +262,11 @@
             "超远程"
         ],
         "stats": {
-            "output": 5,
+            "output": 4,
             "survival": 2,
             "sustain": 5,
             "difficulty": 5,
-            "mobility": 2
+            "mobility": 3
         }
     }
 ]
