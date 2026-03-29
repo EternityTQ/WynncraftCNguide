@@ -75,7 +75,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 中间插一根mob totem后基本无脑刷，非常爽。
 
-## Lv.10~Lv.30 蘑菇平原 💀
+## Lv.10~Lv.30 蘑菇平原 
 
 ![](/assets/img/grindspot2.jpg)
 
