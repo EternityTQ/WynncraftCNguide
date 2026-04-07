@@ -76,25 +76,91 @@ icon: route
 ### Step 9 XXXX
 --- 
 
+去调查一下铁路系统的入口<CC>-2100 6 -627</CC>，发现被堵上了...然后回到大厅
+
+>去触发一下对话即可
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-05-56.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-07-27.png)
+
 
 ### Step 10 XXXX
 --- 
 
+跟着<NPC>Yuman</NPC>前往隧道入口，跟<NPC>Zeph</NPC>对话<CC>-2162 4 -628</CC>
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-13-32.png)
 
 ### Step 11 XXXX
 ---
 
+从旁边的出口离开隧道，和众人汇合<CC>-2163 43 -624</CC>
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-14-18.png)
 
 ### Step 12 XXXX
 ---
+
+跳下房顶，将欺负队友的卫兵打退，然后和小队对话
 
 
 ### Step 13 XXXX
 ---
 
+将地上的背包拿起来，去附近收集有用的物品。
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-19-11.png)
+
+
+去<CC>-2181 32 -622</CC>获取汤
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-22-01.png)
+
+<CC>-2178 32 -628</CC>拿个锅
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-22-12.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-24-06.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-26-14.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-26-25.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-00.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-14.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-25.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-37.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-35-29.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-38-20.png)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-38-52.png)
+
+
+
 
 ### Step 14 XXXX
 ---
 
+跟着队友从梯子离开现场，从刚才的隧道入口离开<CC>-2126 50 -624</CC>，然后在基地和队友对话
+
+一定一定要跟上队友，否则会卡关(不知道正式服会不会修)
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-48-25.png)
+
+### Step 15 XXXX
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-56-08.png)
+
+
+### Step 16 
+
+会议结束后，和<NPC>Sui</NPC>对话，看完表演后和水池后面的队友对话，观看CG
+
+![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-57-48.png)
 
 ## 剧情省流 / Summary

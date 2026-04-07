@@ -1,59 +1,94 @@
 ---
+title: Dwarves and Doguns Part II (level 92)
 icon: route
 ---
-# Dwarves and Doguns Part II(level 92)
-<span style="font-size: 25px;">**矮人族与多贡族的纷争 Part II**</span>
 
-:::tip 重要任务
-
-解锁了Thanos-Rodoroc的往返隧道
-:::
-
-前置任务：[Dwarves and Doguns part I(level 91)](/quests/lvl91-100/level%2091%20-%20dwarves%20and%20doguns%20part%20i.html)
-
-<span class="stage-index">1.</span> 带着前置给的`Dogun Badge of Trust`进入会议室入口`[1372 142 -5306]`，触发剧情
-
-进入会议室，看完对话，出来
-
-<span class="stage-index">2.</span> 在`[1383 13 -5088]`和Axelus对话(在sky的入口旁边，附近是你part1第二次看戏的地方)
-
-<span class="stage-index">3.</span> 靠近大门，触发战斗，击杀四个指挥官Commander(刷的非常慢)
-
-<span class="stage-index">4.</span> 跟着<font color=00AA00>**Axelus**</font>来到`[1324 20 -5062]`，在身后的洞穴(入口挂着钻石镐)下去拿把镐子 然后回去，在门口拆砖块，引岩浆烧门
-
-<span class="stage-index">5.</span> 进入密室，完成小游戏。
+## 任务信息 / Information
+任务等级：Level 92 / 推荐等级： Level 92
+任务时长：长 / 任务难度：困难
+中文译名：矮人族与多贡族的纷争 Part II
+前置任务：[Dwarves and Doguns Part I (Level 91)](/quests/lvl91-100/level%2091%20-%20dwarves%20and%20doguns%20part%20i.html)
 
 :::tip
-
-先拿上弹药`Rock`装填大炮，然后爬上大炮顶端，分别击毁旁边的两个机器，然后再拿上TNT，装填大炮，让大炮炸膛。
-
-如果出现弹药或者TNT无法拿取的情况，原地/class重新开始
-
-时间不足的话或者提前炸膛了，原地等结束就行了
+完成本任务可解锁 Thanos（萨诺斯）与 Rodoroc（罗多洛克）之间的快速往返隧道。
 :::
 
-<span class="stage-index">6.</span> 继续跟着<font color=00AA00>**Axelus**</font>来到`[1275 23 -5040]`，触发剧情后生存两分钟
-
-<span class="stage-index">7.</span> 到旁边的大炮，向左3次，转向2次对准墙，炸开洞，进入
-
-<span class="stage-index">8.</span> 往前走，到下水道门口，沿着红地毯上楼，在二楼找到起火器。点燃门口的火药，炸开大门，进入触发剧情，对话完成后沿着水流上升
-
-:::tip
-你如果找不到下水道门口，你可以找找白名NPC-Goben`[1101 9 -5003]`
-
-他的旁边就是了
-:::
-
-<span class="stage-index">9.</span> 出来，避开守卫，从二楼直走，和国王对话完后，从王座的背后离开
-
-奖励
+## 奖励清单 / Rewards
 + 3500000 经验值![=20x](/assets/icon/Experience_Orb.gif)
-+ 1 Letter to Korzim(Quest Item)
++ 1 `Letter to Korzim`
 + 可以进入Thanos-Rodoroc的往返隧道了
 
 :::tip
-
 ![](/assets/img/lvl92-1.jpg)
-
-快速传送就不多讲了，两个地区就只有这一个，很好找
+快速传送隧道入口在南部洞穴里，两个地区就只有这一个，很好找。
 :::
+
+### Step 1 危机降临
+---
+带着前置任务给的 `Dogun Badge of Trust` 返回 Dogun 村庄，与 <NPC>Dogun Chieftain</NPC> <CC>1371 141 -5306</CC> 对话。Dogun 的藏身处已被矮人发现，必须商讨对策。
+
+### Step 2 紧急会议
+---
+进入会议室观看剧情。<NPC>Axelus</NPC> 突然闯入会议，提议由他和你去破坏矮人的军械库拖延时间，而 <NPC>Korzim</NPC> 则负责带领 Dogun 族人撤离。
+
+### Step 3 军械库外
+---
+沿着 Rodoroc 南边的道路向天空岛入口方向走，在 <CC>1383 13 -5088</CC> 附近与 <NPC>Axelus</NPC> 会合。
+
+### Step 4 遭遇守卫
+---
+靠近军械库大门，触发战斗。击杀 4 名守卫指挥官（<mob>Rodoroc Commander</mob> 等）。注意怪物的刷新速度可能较慢。
+
+### Step 5 破门而入
+---
+虽然击败了守卫，但大门已被关上。跟着 <NPC>Axelus</NPC> 来到 <CC>1324 20 -5062</CC>。
+
+进入身后的洞穴（入口挂着钻石镐），在里面拿到一把镐子，然后回到门口拆除黑色的砖块，引导岩浆流下烧毁木门。
+
+### Step 6 破坏兵器
+---
+进入密室，破坏矮人的战争机器。
+
+:::tip
+这是一个小游戏：
+1. 先拿上弹药 `Rock` 装填大炮，然后爬上大炮顶端，分别击毁大炮旁边的两个机器。
+2. 然后再拿上 `TNT` 装填大炮，让大炮炸膛自我毁灭。
+如果出现弹药或者 TNT 无法拿取的情况，请原地使用 `/class` 重新开始。如果时间不足或者提前炸膛了，原地等结束就行了。
+:::
+
+### Step 7 瘫痪核心
+---
+继续跟着 <NPC>Axelus</NPC> 深入 Rodoroc 寻找城市动力核心 <CC>1275 23 -5040</CC>。触发剧情后，你需要抵挡矮人军队的进攻，保护 <NPC>Axelus</NPC> 并生存两分钟。
+
+### Step 8 逃入贫民窟
+---
+动力核心瘫痪后，你们逃到了贫民窟（Slum of Rodoroc）。到旁边的大炮处，将其向左移动 3 次，转向 2 次对准墙壁，发射炸开一个洞，进入其中。
+
+### Step 9 寻找下水道
+---
+在贫民窟中寻找进入下水道系统的路线。沿着红地毯上楼，在二楼找到起火器（fire starter）。点燃下水道门口的火药，炸开大门。
+
+:::tip
+如果你找不到下水道的门口，你可以寻找白名NPC <NPC>Goben</NPC> <CC>1101 9 -5003</CC>，门口就在他的旁边。
+:::
+
+### Step 10 潜入王宫
+---
+进入炸开的大门触发剧情。对话完成后，沿着下水管道里的水流一路上升，进入矮人王宫的内部。
+
+### Step 11 直面国王
+---
+注意避开巡逻的守卫，从二楼直走。找到并与矮人国王 <NPC>King of Rodoroc</NPC> 对话。<NPC>Axelus</NPC> 试图说服他的父亲停止这场战争。
+
+### Step 12 离开王宫
+---
+国王拒绝了 <NPC>Axelus</NPC> 的请求。从王座的背后离开王宫。<NPC>Axelus</NPC> 决定留下来做最后的交涉，并让你将一封信带给 <NPC>Korzim</NPC>。完成任务。
+
+## 剧情省流 / Summary
+Dogun村庄的位置被矮人军队发现，Dogun酋长紧急召开会议商讨撤离计划。会议中，被矮人通缉的Axelus突然出现，提议由自己和冒险者潜入矮人军械库破坏武器，以此拖延敌军，为Korzim带领族人撤离争取时间。尽管心存疑虑，酋长还是同意了这个冒险的计划。
+
+冒险者与Axelus在军械库外会合，击退了外围的指挥官。由于守卫紧闭大门，两人另辟蹊径，利用岩浆烧毁了木门潜入其中。在军械库内，他们联手摧毁了矮人的战争机器。随后，两人继续深入城市，破坏了利用Dogun魔法运作的城市地热动力核心。在抵挡住矮人军队的猛烈反扑后，城市暂时陷入瘫痪。
+
+为了逃避军队的追捕，两人撤退至贫民窟，利用大炮炸开墙壁，通过下水道系统秘密潜入了王宫内部。Axelus直面他的父亲——矮人国王，恳求他停止这场种族灭绝战争，并向民众公开矮人祖先挑起战争的历史真相。然而，国王冷酷地拒绝了。他表示自己深知历史是谎言，但认为一旦真相大白，国家将陷入暴乱与革命。他宁愿继续维持谎言、彻底消灭Dogun，以换取自己作为“带来和平的英雄”的万世威名。
+
+交涉破裂后，国王派守卫将两人驱逐出宫，但允许冒险者使用通往外界的贸易隧道。不愿放弃的Axelus决定独自留下做最后的尝试，他将一封信件托付给冒险者，嘱咐其带给正在组织撤离的Korzim。

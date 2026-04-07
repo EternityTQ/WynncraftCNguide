@@ -21,13 +21,17 @@ icon: coins
 一个t3/t4的箱子有自己的quality（可以在洞穴外面看到），代表洞穴刷新时间，建议等到100%再去开箱子
 :::
 
-对于新手，这个方法真的特别好用（但是需要运气好），找到一个rarity基本上就赚到了8个le
+对于新手，这个方法真的特别好用（但是需要运气好），找到一个rarity基本上就赚到了4个le
 
 Ratity是1级的Legendary戒指
+
+![](/assets/img/earnle.md-03-25-03-10-21.png)
 
 具体操作，其实就是去Ragni附近的几个洞穴开箱子（只有t3-t4的箱子才可以开出来），开到一个Rarity去市场上卖掉就行
 
 注意，请在市场上使用reveal功能，使其揭露为unid装备后再进行售卖，千万不要直接去鉴定
+
+![](/assets/img/earnle.md-03-25-03-10-32.png)
 
 
 ## 海底捞
@@ -45,7 +49,7 @@ Ratity是1级的Legendary戒指
 ![](/assets/img/earnle2.jpg)
 
 
-这也是前期获得绿宝石最简单的途径，效率约为1小时1.5le
+这也是前期获得绿宝石最简单的途径，效率约为1小时1.5le，实际上有点点低
 
 当然，海底捞也只推荐给50级前没有太多赚钱途径的新手，到了中后期会有更多效率比海底捞高的方法来赚钱
 
@@ -54,7 +58,7 @@ Ratity是1级的Legendary戒指
 :::tip
 高价值的杂物其实都有固定的刷新点位，建议自行探索
 
-同时，强烈建议读者做完[Underwater ( level 8 )](/quests/lvl1-10/level%208%20%20-%20Underwater.html)或者[Underice(level 43)](/quests/lvl41-50/level%2043%20-%20Underice.html)之后，佩戴任务中获得的潜水头盔再进行海底捞，可以减少换气时间，效率会高很多！
+同时，强烈建议读者做完[Underwater ( level 8 )](/quests/lvl1-10/level%208%20%20-%20underwater.html)或者[Underice(level 43)](/quests/lvl41-50/level%2043%20-%20underice.html)之后，佩戴任务中获得的潜水头盔再进行海底捞，可以减少换气时间，效率会高很多！
 :::
 
 ## 任务
@@ -67,7 +71,7 @@ Ratity是1级的Legendary戒指
 
 但是如果加上部分任务的装备，不止这个数
 
-举个非常简单的例子：[An Iron Heart Part II](/quests/lvl51-60/level%2058%20-%20An%20Iron%20Heart%20Part%20II.html)任务中，
+举个非常简单的例子：[An Iron Heart Part II](/quests/lvl51-60/level%2058%20-%20an%20iron%20heart%20part%20ii.html)任务中，
 
 最终奖励可以选择一条非常强力的经验裤子`Greaves of honor`
 
@@ -114,6 +118,7 @@ Ratity是1级的Legendary戒指
 一些世界事件有一定的解锁条件（如下图这个需要完成Ice Nations [Quest]）
 :::
 在任务书中，你可以找到World Event一栏来看是否有即将开始的世界事件
+
 ![](/assets/img/earnle3.png)
 
 一些事件的奖励箱能开出昂贵素材/武器/装备 一些会连刷且能产出符文 这也是赚钱的点

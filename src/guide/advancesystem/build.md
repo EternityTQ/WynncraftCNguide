@@ -3,154 +3,174 @@ title: 配装思路与推荐
 icon: shield
 ---
 
-什么是配装(build)？
+## 前言——什么是配装?
 
-build指的是一整套装备，通常，对于某个特定武器(如神话武器)想要发挥其最大作用，需要特定的技能树和装备，这便是build。
+首先，能看到这篇文章，说明你也已经体验这个游戏有一定时间了，你应该发现了这个MMO与其他绝大部分MMO都很不一样的地方——Wynncraft有着非常独特的配装系统。
 
-一般来说，玩家在满级前不需要特别完备的build，能撑到满级后再使用强力build(大部分时候是抄前人留下的完备build)即可。
+在传统MMO中，大部分装备都仅仅只是"越高级越好"，或者说只有一整套套装，根据需要来在几个套装里面选择。
 
-当然，如果你想从零开始自己创造一套完善的build供自己使用，那你就需要知道一些配装的思路，这便是这篇文档要讲述的内容。
+但是，在Wynncraft中，一个武器位(可能有副手)、四个装备位、四个饰品位，都会因为玩家的需求和想法不同而不同。
 
-:::tip
-在下面提及的配装思路中，会出现一些常用的装备
+配装绝不是无脑穿高等级装备或者高血量装备。简单来说，Wynncraft的配装系统就是**围绕你的武器进行搭配，使其发挥的威力能够最大化**的过程。
 
-你可以使用下面这个网址进行配装的尝试和装备信息的查询：
+对于新手而言，一套逻辑自洽的低级搭配，在实战中的表现远比一身毫无关联的高级散件要强大得多。
 
-https://wynnbuilder.github.io
+下面，笔者会以让新手也能看懂的目的，带领读者浅尝配装系统。
 
-这个网址是国外大佬做的，看不懂可以到群里问问
+## 1 看懂装备
 
-当然大部分时候抄作业足够满足你的日常需求
+
+
+### 1.1 元素属性
+
+首先，你需要理解五种属性点和你的配装之间的关系。
+
+装备和武器的属性，会在Req里面有所体现。
+
+例如下图，是一件火、气的双属性装备，如果你的武器是火、气或者火气双属性，那么可以考虑用这么一件装备。
+
+![](/assets/img/build.md-04-02-21-25-32.png)
+
+对于五种属性，可以分为三类：
+
+伤害类(地、电)：可以提升你的伤害
+
+生存类(火、气)：可以提升你的等效血量
+
+施法类(水)：可以降低你的技能蓝耗
+
+### 1.2 装备面板
+
+前文说到，五种属性可以分成三类
+
+那么这就引到了装备面板。
+
+配装最重要的是装备的词条，你需要通过词条来判断这件装备是用在什么元素的构筑、干什么用的。
+
+:::tip raw和%的区别
+先介绍一个概念：
+
+raw指纯数值，例如`+260 Health Regen`就是raw
+
+%指百分比，例如`+50% Health Regen`就是%
 :::
 
-## 开始之前
 
-想要自己构建合适的build，首先需要注意几个基础信息：
+你需要关注的词条如下：
 
-1.确定自己想用什么武器
-2.大部分武器，装备都有属性点数的需求
-3.一个满级的class最多只能使用200点自由分配的属性点，且单个属性点只能主动分配最多100个
-4.护甲和饰品提供的属性点能帮助你穿上原本不足以穿上的装备，而武器上的属性点无法被有效利用
+`Mana Regen`：如果你是法术流，一定要保证有足够的法力回转。你也可以用`Mana Steal`来回转，但你需要保持平A，比较麻烦。
 
-大招有一个思路后，就可以进行接下来的讲解。
+`Damage`：如果你在组dps配装，则除了`Main Attack Damage`以外的伤害词条最好都得关注。
 
-## 基础
+`Raw Health Regen`：尽量不要维持在负数，这样你就需要另外的手段来回血，比较麻烦！
 
-一个合格的 build 需要在生存和输出之间找到平衡。对于新手，建议参考以下核心指标：
+`属性点数`：正常的配装仅靠初始的200点属性点比较吃力，你需要关注装备上是否会给予额外的属性点！
 
-+ 生存指标 (Hp & EHP)： 推荐 HP > 10000，EHP (有效血量) > 25000。火属性和气属性能显著提升 EHP。
+`Walk Speed`：如果装备给予的移速过低，你在战斗时可能会非常缺少机动性！
 
-+ 输出与续航指标： 主要关注装备上的增伤词条 (如 spell dmg, spell dmg%, element dmg) 和能量续航 (mr/ms/技能减耗)。
 
-+ 回蓝需求 (MR)： 除特定流派（如不需要特别注重能量的奥术法师、腐化战士等）外，具体需要多少 MR 取决于你的施法习惯和技能树。
+下文会举几个例子，来帮助你理解要如何了解一件装备的用途，可以通过打开折叠来看
 
-+ 元素搭配建议： 新手配装尽量包含三种属性需求，必须包含水属性，且至少包含火或气属性之一。（实在不想思考，可以直接使用全彩虹配装）。
+:::details
 
-:::tip
-![=400x](/assets/img/build1.jpg)
 
-你的血量和有效血量可以在指南针的此处查看！
-:::
+:::tabs
 
-~~别用morph打团本，算我求你了~~
+@tab Aquarius
+<MythicItem name="Aquarius"></MythicItem>
 
-### **简单快速上手的配装思路**
+这是一件胸甲
 
-这里给大家提供一个快速上手的配装思路：
+首先，从装备需求可以看出，这是一件可以用在水属性配装的装备，需要100的int
 
-1. 挑选武器： 非神话的强力武器大多集中在 Lv81~100，Lv100 以上除了两把神话基本没啥能用的。
+这件装备给予极大的Mana Regen，同时有少量的Water Spell Damage%，因此比较适合给需要大量释放技能的水属性武器，比如弓箭手的水属性武器。
 
-2. 穿戴核心万金油： 裤子选择 Vaward，手镯选择 Prowess（这将直接无条件为你提供所有属性点各10点）。
+同时，也不一定需要水属性武器，因为这件装备的100int是可以手动点上去的，因此如果某个构筑刚好有大量水并且缺少足够的回转，也可以考虑塞一件这个装备，但是相比其他选择会丢很多伤害，仅仅只是为了舒适度。
 
-3. 保障基础回蓝： 装备一枚 Moon Pool Circlet（Qira 水层获取），大约能满足整套配装 30% 左右的回蓝需求。
+@tab Chain Rule
 
-4. 填充Qira任务装备： 优先使用 Qira 任务兑换的高质量单件，但需确保元素属性与武器契合（例如：主武器为 Gale's force，可搭配地水气，避开水火气）。
+<MythicItem name="Chain Rule"></MythicItem>
 
-5. 查漏补缺： 利用剩余 2-3 个空位补充喜欢的单件，将总血量撑到 >12000，总回蓝 (mr+ms) 凑到 >40。
 
-6. 优化生存 (进阶)： 尽量让生命恢复 (HPR) >200，可大幅省去血药需求。
+@tab Transplanted Psyche
 
-7. 分配剩余点数： 若点数仍有剩余，尝试将使用的 Qira 装备替换为等级需求 >=101 的同位装备；多余属性点尽量均分给火和气。
-
-按照上述步骤后，得到的一整套build应当能保证你的生存和续航需求，可以保证你在大部分环境下不会暴毙，当然这只是一个快速上手，并不一定能发挥你手上的武器的最大作用。
-
-:::tip 万能公式
-另外如果你实在不想思考，这里有一个当前版本的万能公式可以抄：
-头盔：Spectrum/Sequencer
-胸甲：Libra
-裤子：Aleph-Null/Vaward
-靴子：你有什么神话鞋就用什么神话鞋/Epilogue/Capricorn
-戒指：intensity/mool pool/summa
-手镯：Prowess/Remika's/Succession
-项链：Contrast/Diamond fusion/Gigabyte
-绝大多数的武器都能套这个公式，得到的结果不会太弱，也不会很脆。
-:::
-
-若你指向对配装的逻辑浅尝辄止，到这里的内容已经能满足你的需求，可以自己先去尝试或者抄别人的作业了，再接下来的内容会更主观，且以经验为主，或许你可以自己总结出更好的经验。
-
-:::danger 关于hive装备
-配装时务必时刻记住，hive同层的装备是无法同时装备的，否则会受到大量负面效果
-
-例如，prowess与contrust，intensity这三件饰品只能同时装备一件在身上
-:::
-
-## 进阶
-
-配装首先要决定你喜欢的玩法，从而确定所选的武器，
-
-如果你是solo玩家，打团本也喜欢~~或者不得不~~打野队，建议直接无脑气、水。这两个元素的装备可以提供很好的综合性能和续航，保证你~~在队友全死了之后~~既有充足的输出又有够用的续航。
-
-除此之外，一般而言dps用地、电、气，坦克用地、火，奶妈用水、火。具体情况也要看职业的武器~~比如萨满的地神话toxo就不是用来给你打dps的~~。
-
-除去神话品质的靴子，每件装备能为你提供大约2000~4000的血量。能够用于满级构筑的装备大部分都是等级需求在Lvl 60以上的装备
-
-:::tip 装备设计规律
-**绝大部分护甲类装备**的设计都遵循以下规律：
-
-1.如果装备的属性点需求以雷/气属性为主，那么该装备能提供的血量偏低，如果提供能量回复手段多数为mana steal，一般不提供hpr而是提供hps
-
-2.如果装备的属性点需求以地/火属性为主，那么该装备会提供高于平均水准的血量，一般副词条中增伤词条较少，生存类词条(额外hp/hpr等)较多，如果提供mana regen则数值会较低
-
-3.如果装备的属性点需求包含水，那么该装备一般会提供mana regen或者spell damage词条，且提供的血量会偏低
-
-4.如果装备的属性点需求是三或四种，那么该装备一般比较极端，难以运用到配装当中，如果你是第一次尝试配装，不建议死磕在某一件这样的单件上
-
-5.如果这件装备看起来啥都有(彩虹)，那它大概率泛用性很高(如：vaward,libra,gigabyte)
-
-6.如果一件装备提供了很强的输出能力，那它提供的血量和属性点会偏少(如Conduit of Spirit)，反之亦然(如Cancer)。
-
-当然，凡事都有特例，上面列举的只是绝大部分装备的设计规律。
+<MythicItem name="Transplanted Psyche"></MythicItem>
 
 :::
 
-一般来说，在配装中如果你强烈要使用某件对你输出提升特别大的单件，那你必然需要一件提供更多血量的装备来平衡，否则整个配装的整体生存能力就会偏弱(游戏技术上来了之后可以不考虑后者)。
 
-对于饰品，一般用传说岛的钻石饰品补足空位即可拥有足够的强度，除此之外，你可以根据自己的需求，参考下面的饰品推荐表，来选择合适的饰品填充空位
 
-对于法师或者弓箭手这样的**远程职业**，在能力允许的范围内，可以尝试适当降低装备的ehp，选用输出更高的装备或者是自制装备来进一步提升输出，前提是你自己要有能力活下来
->理论输出再高，一旦被秒，那输出都是0。
 
-对于**属性点不足**的情况，可以优先考虑Vaward/Prowess/Gigabyte几个无条件提供大量属性点的装备，其次考虑Libra/Far Cosmos/Diamond Fusion Necklace这类彩虹点数装备，再考虑提供大量单种或两种属性点的装备(Pisces, Cancer等)
 
-除此之外，仅对于**提升伤害**来说，游戏内存在两个优先级非常高的词条：Spell Damage Raw(额外中性技能伤害，后用Raw spell代表)和Spell Damage %(spell%)
+## 2 配装流派
 
-打个不太准确的比方：你的武器DPS是500，装备提供100的Raw spell，那最终DPS就会被提升为600，这种情况下100Raw spell的提升跟20 spell%的提升差不多，换言之，武器面板越低，Raw spell的提升越明显，甚至超过Spell%对输出的提升，而如果你对装备类型熟悉就会知道，单件装备很难有超过30%的伤害提升，而出现Raw spell的装备几乎都能提供超过100的数值。
+这一节主要讲述一些常见的配装思路。
 
-这类装备诸如Wanderlust, Aleph null, Stardew对于整体dps的提升都很显著，缺点就是对于新玩家而言比较贵，且像Stardew这样的装备很难塞进常规的build当中。
+### 2.1 Spell Spam
 
-:::tip
-一般而言，武器基础面板强度从大到小依次为萨满>弓手>刺客≈战士>法师
+最常见的流派。这个流派的打法是堆砌一定的法力回转，然后拼命放技能砸怪。
 
-因此一般法师优先raw spell，其余优先spell%
-:::
+你需要重点关注的：
 
-### 装备推荐表
+- Mana Regen
+- Spell Damage
+- Elemental Damage(看你武器属性)
+
+**新手只需要关注这个流派即可**
+
+### 2.2 Tier Stack
+
+这个流派简单的解释就是，以本来给超慢攻速的超大面板，和强行叠上去的超快的攻速相结合，变成超大面板+超快攻速的平A组合。
+
+武器最好是Super Slow攻速，最差也要Very Slow(但一般连这个都不用)，主要是为了大面板。
+
+装备上需要凑齐+6 Attack Speed Tier来使最终攻速打到Super Fast
+
+然后需要有很多没有-Tier的Main Attack Damage装备。
+
+打法是平A，平A，还有平A。
+
+常见的武器有Epoch、Alka，以前还有Singularity之类的。
+
+### 2.3 Heavy melee
+
+武器要求同上，建议SS攻速，最差VS。
+
+这个流派中，武器需要打地属性粉末，打出地震主动来。
+
+主要打法是通过猴戏，使地震主动一次打出极大的伤害。
+
+配装需要有极大的Main Attack Damage，大部分有超大平A伤害的装备都有超大的减攻速词条，非常适合拿来做HM
+
+常见的武器有Inferno，Oblivion
+
+
+## 3 我的武器和我的职业需要什么样的配装？
+
+
+
+## 4 在哪里组装配装？
+
+(Wynnbuilder的介绍)
+
+## 5 如何在游戏内收集我的配装组件？
+
+### 5.1 市场
+
+### 5.2 Legendary Island
+
+### 5.3 Qira Hive
+
+## 6 我懒得看，在哪里抄现成的？
+
+
+## 装备推荐表
 
 对于每种元素类型，都有非常合适的优质单件可以优先考虑加入构筑：
 
 
 
-#### 地
+### 地
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
 | <MythicItem mode="inline">Pisces</MythicItem> | <MythicItem mode="inline">Delirium</MythicItem> | <MythicItem mode="inline">Chain Rule</MythicItem> | <MythicItem mode="inline">Crater Print</MythicItem> |
@@ -161,7 +181,7 @@ https://wynnbuilder.github.io
 | <MythicItem mode="inline">Shawl of Gaea</MythicItem> | <MythicItem mode="inline">Phantasmal Hostage</MythicItem> | | <MythicItem mode="inline">Mantlewalkers</MythicItem> |
 | <MythicItem mode="inline">Nuclear Emesis</MythicItem> | | | |
 
-#### 雷
+### 雷
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
 | <MythicItem mode="inline">Caesura</MythicItem> | <MythicItem mode="inline">Delirium</MythicItem> | <MythicItem mode="inline">Tera</MythicItem> | <MythicItem mode="inline">Electro Mage's Boots</MythicItem> |
@@ -173,15 +193,15 @@ https://wynnbuilder.github.io
 | | <MythicItem mode="inline">Insignia</MythicItem> | | |
 
 
-#### 水
+### 水
 | 头盔 | 胸甲 | 护腿 | 靴子 |
 | :---: | :---: | :---: | :---: |
 | <MythicItem mode="inline">Anamnesis</MythicItem> | <MythicItem mode="inline">Stratosphere</MythicItem> | <MythicItem mode="inline">Seipodon</MythicItem> | <MythicItem mode="inline">Pro Tempore</MythicItem> |
 | <MythicItem mode="inline">Cumulonimbus</MythicItem> | <MythicItem mode="inline">Soul Signal</MythicItem> | <MythicItem mode="inline">Aleph Null</MythicItem> | <MythicItem mode="inline">Virtuoso</MythicItem> |
 | <MythicItem mode="inline">Aquamarine</MythicItem> | <MythicItem mode="inline">Aquarius</MythicItem> | <MythicItem mode="inline">Rapids</MythicItem> | <MythicItem mode="inline">Steamjet Walkers</MythicItem> |
 | <MythicItem mode="inline">Neuron</MythicItem> | <MythicItem mode="inline">Time Rift</MythicItem> | <MythicItem mode="inline">Entanglement</MythicItem> | <MythicItem mode="inline">Wavedash</MythicItem> |
-| <MythicItem mode="inline">Gnossis</MythicItem> | <MythicItem mode="inline">Schadenfreude</MythicItem> | <MythicItem mode="inline">Efteling</MythicItem> | |
-| <MythicItem mode="inline">Resolution</MythicItem> | | <MythicItem mode="inline">Memento</MythicItem> | |
+| <MythicItem mode="inline">Gnossis</MythicItem> | <MythicItem mode="inline">Schadenfreude</MythicItem> | <MythicItem mode="inline">Efteling</MythicItem> | <MythicItem mode="inline">Memento</MythicItem>|
+| <MythicItem mode="inline">Resolution</MythicItem> | |  |  |
 
 #### 火
 | 头盔 | 胸甲 | 护腿 | 靴子 |

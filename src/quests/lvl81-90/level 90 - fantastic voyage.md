@@ -1,102 +1,124 @@
-# Fantastic Voyage (Level 90)
-<span style="font-size: 25px;">**奇妙的航行**</span>
+---
+title: Fantastic Voyage (level 90)
+icon: scroll
+---
 
-<span class="stage-index">1.</span> 跟<font color=00AA00>**Relend**</font>对话 `[1304,35,-4043]`
+## 任务信息 / Information
+任务等级：Level 90 / 推荐等级： Level 90
+任务时长：长 / 任务难度：困难
+中文译名：奇妙的航行
 
-<span class="stage-index">2.</span> 找到鹦鹉
-:::tip
-先和<font color=00AA00>**Jofash Resident**</font>对话，选标蓝的选项
-
-![你可以很轻松的找到他，他会在附近晃悠 =400x](/assets/img/lvl90-1.jpg)
-
-然后和酒吧老板`[1333 39 -4071]`对话，他会告诉你鹦鹉在左边的露台，出去就看到了
-
-接着出来瞎晃悠一下，就会触发Jofash Resident的走路剧情，他会把你带到椰树下让你看到鹦鹉`[1301 36 -4121]`
-
-![=400x](/assets/img/lvl90-3.jpg)
-
-爬上树右键鹦鹉就能拿到地图了
-:::
-
-<span class="stage-index">3.</span> 回去<font color=00AA00>**Relend**</font>那里准备航行，然后上船！
-
-<span class="stage-index">4.</span> 在船上和跟船长<font color=00AA00>**Relend**</font>对话
-
-<span class="stage-index">5.</span> 找到三个材料
-:::tip
-`Wooden Board`位于最顶层的船帆上`[2640 78 -4130]`
-
-`Center Piece`位于底层甲板尾部
-
-`String`就在一楼，很好找
-
-:::
-
-<span class="stage-index">6.</span> 用工作台做出个`Steering Wheel`
-
-<span class="stage-index">7.</span> 装上方向盘，一颗赛艇，开船，别撞上障碍物就行！
-
-<span class="stage-index">8.</span> 船撞毁了，去底层夹板
-:::tip
-你可以通过原先一楼的房间，然后会触发地板塌陷，下到底层甲板处
-:::
-
-<span class="stage-index">9.</span> (经过七绕八绕)找到加农炮弹，塞大炮里开一炮，救出<font color=00AA00>**Relend**</font>
-
-<span class="stage-index">10.</span> 随便往出口放个技能，离开
-
-<span class="stage-index">11.</span> 跟<font color=00AA00>**Relend**</font>对话
-
-<span class="stage-index">12.</span> 收集<font color=00AA00>**Relend**</font>要的所有材料，然后在`Cooking Pot`里面烹饪
-:::tip
-`Coconut`在最开始旁边的椰子树就会掉落
-
-`7 Berries`可以在岛的任意地方打到，推荐沿路走
-
-`10 Raw Mutton`可以在岛上刷新的Sheep打到
-
-`5 Edible Mushrooms`可以在`[19954 24 -4499]`处的洞穴打到(棕色蘑菇)
-:::
-
-
-<span class="stage-index">13.</span> 把`Odd Stew`拿给<font color=00AA00>**Relend**</font>
-
-<span class="stage-index">14.</span> 调查一下岛屿东边的蓝色帐篷
-
-<span class="stage-index">15.</span> 回去没有被毒死的<font color=00AA00>**Relend**</font>那里
-
-<span class="stage-index">16.</span> 调查奇怪的巨石(要和那个发光的东西聊一下)
-
-<span class="stage-index">17.</span> 回去<font color=00AA00>**Relend**</font>那里
-
-<span class="stage-index">18.</span> 再次收集Relend要的所有材料，然后在`Crafting Table`处合成炸药
-:::tip
-`5 Gritty Sand`位于岛屿北边的沙滩上，你可以经过蜘蛛洞找到
-
-`3 Saw Dust`位于岛屿上方的大树下`[19964 78 -4587]`
-
-`1 Black Powder`可以前往火山顶触发火山喷发剧情，你被炸下来的时候就会获得了
-:::
-
-<span class="stage-index">19.</span> 在巨石前放置炸药(按下按钮)
-
-<span class="stage-index">20.</span> 进入洞穴最深处
-
-<span class="stage-index">21.</span> 带领<font color=00AA00>**Relend**</font>，继续探索洞窟
-
-<span class="stage-index">22.</span> 进去神秘的传送门
-
-<span class="stage-index">23.</span> 在这块很像se的地方找到<font color=00AA00>**Relend**</font>，然后触发剧情
-:::tip
-他在往东南角飙车，一直往东南角跑`[-23456 4 -9652]`就行了
-:::
-
-
-奖励
+## 奖励清单 / Rewards
 + 3100000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 6144 绿宝石![=20x](/assets/icon/Emerald.png)
-+ Pendant of Prosperity(项链)
++ `Pendant of Prosperity` (项链)
 
 :::tip
-出来后，你会发现你来到了Wynn的Abandon Mine...
+任务结束后，你会发现你被传送到了 Wynn 省的 Abandon Mine 附近...
 :::
+
+### Step 1 寻找航海图
+---
+在 **Jofash Docks** 与 <NPC>Relend</NPC> <CC>1304 35 -4043</CC> 对话。他想带你去找他失踪的老朋友，但在展示航海图时，一只鹦鹉突然飞下来把图抢走了。
+
+### Step 2 追捕鹦鹉
+---
+你需要找到那只抢走地图的鹦鹉。
+
+:::tip
+1. 先和旁边结巴的 <NPC>Jofash Resident</NPC> 对话，选择带有“parrot（鹦鹉）”或“bird（鸟）”的选项。
+2. 去找 <NPC>Jofash Clairvoyant</NPC> 花 1 LE 占卜（会全额退还），他会指引你去找南边摊位的酒馆老板。
+3. 和酒馆老板 <NPC>Tavern Owner</NPC> <CC>1333 39 -4071</CC> 对话，他会告诉你鹦鹉在右边的露台上。
+4. 去露台找到鹦鹉，它会飞走。
+5. 再次找到那个结巴的 <NPC>Jofash Resident</NPC>，稍微走远一点，他就会触发剧情，带你找到停在椰子树上的鹦鹉 <CC>1301 36 -4121</CC>。
+6. 爬上树右键鹦鹉，拿回地图。
+:::
+
+### Step 3 准备起航
+---
+将地图带回给 <NPC>Relend</NPC>。他会让你登上他的船 `Little Wing` 准备出航。
+
+### Step 4 修理船舵
+---
+上船后与船长 <NPC>Relend</NPC> 对话。他表示船舵坏了，为了避免撞上礁石，需要你找材料制作一个新船舵。
+
+### Step 5 收集修船材料
+---
+在船上收集三个材料：
++ `Wooden Board` 位于最顶层的船帆上 <CC>2640 78 -4130</CC>。
++ `Center Piece` 位于底层甲板尾部。
++ `String` 就在一楼。
+
+### Step 6 制作并安装船舵
+---
+在船头的 `Crafting Table` 处使用收集到的材料制作出 `Steering Wheel`，然后将它交给 <NPC>Relend</NPC>。
+
+### Step 7 亲自掌舵
+---
+<NPC>Relend</NPC> 坦白他其实根本不会开船，把方向盘交给了你。你需要驾驶船只避开海面上的障碍物，但最终由于速度太快，船还是不可避免地撞毁了。
+
+### Step 8 营救 Relend
+---
+船撞毁后，去底层甲板寻找被困的 <NPC>Relend</NPC>。
+
+:::tip
+你可以通过原先一楼的房间，触发地板塌陷，掉到底层甲板处。
+:::
+
+### Step 9 破墙而出
+---
+在废墟中找到加农炮弹，塞进大炮里开一炮炸开墙壁，救出 <NPC>Relend</NPC>。然后对着外面的墙壁随便放个技能打破弱点，逃出沉船。
+
+### Step 10 荒岛求生
+---
+逃出沉船后，与沙滩上的 <NPC>Relend</NPC> 对话。你们漂流到了 **Gateway Island**。他肚子饿了，让你收集材料煮一锅奇怪的炖汤。
+
+:::tip
++ `Coconut` 在最开始旁边的椰子树就会掉落。
++ `7 Berries` 可以在岛的任意地方打到，推荐沿路走。
++ `10 Raw Mutton` 击杀岛上刷新的 <mob>Sheep</mob> 掉落。
++ `5 Edible Mushrooms` 可以在 <CC>19954 24 -4499</CC> 处的洞穴里击杀甲虫掉落。
+:::
+
+在 `Cooking Pot` 里将材料煮成 `Odd Stew` 并交给他。
+
+### Step 11 寻找旧友
+---
+<NPC>Relend</NPC> 让你去调查岛屿东边的破旧蓝色帐篷，希望能找到他朋友的线索。调查后发现帐篷空无一人，回去向 <NPC>Relend</NPC> 报告。
+
+### Step 12 制作炸药
+---
+<NPC>Relend</NPC> 决定用炸药炸开岛上一块挡路的巨石。你需要再次收集材料：
+:::tip
++ `5 Gritty Sand` 位于岛屿北边的沙滩上，你可以穿过蜘蛛洞找到。
++ `3 Saw Dust` 位于岛屿上方的大树下 <CC>19964 78 -4587</CC> 附近。
++ `1 Black Powder` 可以前往火山顶 <CC>19989 132 -4624</CC> 触发火山喷发，被炸下来时就会获得。
+:::
+在 `Crafting Table` 处合成炸药。
+
+### Step 13 炸开通道
+---
+在巨石前放置炸药并按下按钮引爆。
+
+### Step 14 深入洞窟
+---
+跟随 <NPC>Relend</NPC> 探索洞窟深处。你们在尽头发现了一个神秘的传送门，<NPC>Relend</NPC> 确信他的朋友就是从这里消失的，并激动地冲了进去。
+
+### Step 15 异界追寻
+---
+跟着 <NPC>Relend</NPC> 进入传送门，来到一个诡异的黑暗空间。你需要在这个充满强大怪物的地方追上他。
+
+:::tip
+他移动速度极快，一直往东南角跑，在 <CC>-23456 4 -9652</CC> 附近找到他即可。
+:::
+
+### Step 16 遭遇不可名状之物
+---
+找到 <NPC>Relend</NPC> 后，一个神秘的实体出现在你们面前，并用 Wynnic 语发出警告。随后发生了一阵混乱，任务结束。
+
+## 剧情省流 / Summary
+冒险者在 Jofash Docks 遇到了一位名叫 Relend 的奇怪老船长。Relend 满口押韵，声称要带着冒险者去寻找一位在 Gateway Island 失踪的传奇老朋友。在经历了一番鸡飞狗跳的追捕、从一只狡猾的鹦鹉口中夺回航海图后，两人终于扬帆起航。
+
+然而，航行并不顺利。Relend 坦白自己其实根本不懂航海，甚至连船舵都是冒险者临时拼凑的。果不其然，在冒险者手忙脚乱的驾驶下，船只不幸触礁沉没。两人被冲刷到了神秘的 Gateway Island 上。在解决温饱问题后，他们在岛上发现了一个废弃已久的帐篷。为了寻找更多线索，冒险者收集材料自制了炸药，炸开了挡住山洞的巨石。
+
+在山洞深处，两人发现了一个散发着诡异光芒的传送门。Relend 坚信他的朋友就在门后，毫不犹豫地冲了进去。冒险者紧随其后，发现传送门连接着一个充满腐化怪物和令人毛骨悚然气息的异次元空间。在黑暗中狂奔追上 Relend 后，一个神秘而恐怖的实体降临在他们面前。伴随着实体用古老语言发出的驱逐警告和 Relend 凄厉的惨叫，冒险者被一股神秘力量传送到了 Wynn 省一处废弃矿井中，这场奇妙而又诡异的航行也就此戛然而止。
