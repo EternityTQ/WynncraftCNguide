@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>Wynncraft Skill Tree Editor - Pro</title>
+    <title>Wynncraft Skill Tree Editor - Pro Max</title>
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <style>
         /* --- 全局样式 --- */
@@ -143,6 +143,9 @@
         }
         .cell:hover { background-color: var(--cell-hover); }
 
+        /* 拥有节点时的格子悬停样式，提示不可画线 */
+        .cell.has-node:hover { background-color: var(--cell-bg); cursor: not-allowed; }
+
         .node {
             position: absolute; width: 54px; height: 54px;
             background-color: #3a3a3a; border: 2px solid var(--node-border); border-radius: 4px;
@@ -183,7 +186,7 @@
                 </div>
             </div>
             <div style="font-size: 11px; color: #666; margin-top: 8px; text-align: center;">
-                左键拖拽绘制 · 右键点击擦除
+                🖱️ <b>左键拖拽</b>：连续绘制 &nbsp;|&nbsp; 🖱️ <b>右键拖拽</b>：连续擦除
             </div>
         </div>
 
@@ -195,8 +198,7 @@
                  @dragleave="dragLeave" 
                  @drop.prevent="handleConnectorsDrop">
                 <input type="file" accept=".json" @change="handleConnectorsFileSelect">
-                📂 拖入或点击导入 connectors.json<br>
-                <span style="font-size: 10px; color:#666">(将在现有基础上修改)</span>
+                📂 拖入或点击导入 connectors.json
             </div>
 
             <div class="panel-title" style="margin-top: 15px;">导出</div>
@@ -205,7 +207,7 @@
                 <button class="btn primary" @click="exportJson(true)">📚 全部职业</button>
             </div>
             <div class="btn-group">
-                <button class="btn danger" @click="clearConnectors">🗑️ 清空当前</button>
+                <button class="btn danger" @click="clearConnectors">🗑️ 清空当前连线</button>
             </div>
         </div>
 
@@ -240,15 +242,16 @@
         <div class="canvas-scroller">
             <div class="skill-grid"
                  :style="{ gridTemplateRows: `repeat(${gridRows}, 64px)` }"
-                 @mouseleave="isDragging = false"
-                 @mouseup="isDragging = false">
+                 @mouseleave="stopDrag"
+                 @contextmenu.prevent="">
                 
                 <div v-for="cell in gridCells" 
                      :key="cell.id" 
                      class="cell"
-                     @mousedown.left.prevent="startDraw(cell.r, cell.c)"
-                     @mouseenter="onMouseEnter(cell.r, cell.c)"
-                     @contextmenu.prevent="eraseCell(cell.r, cell.c)">
+                     :class="{'has-node': checkHasNode(currentClass, cell.r, cell.c)}"
+                     @mousedown.left.prevent="startDrag('draw', cell.r, cell.c)"
+                     @mousedown.right.prevent="startDrag('erase', cell.r, cell.c)"
+                     @mouseenter="onMouseEnter(cell.r, cell.c)">
                     
                     <svg v-if="getConnector(cell.r, cell.c)" class="connector-svg" viewBox="0 0 24 24">
                         <path :d="toolMap[getConnector(cell.r, cell.c)].path" class="connector-path" />
@@ -275,26 +278,21 @@
 <script>
 const { createApp, ref, computed, onMounted, reactive, onUnmounted } = Vue;
 
-// 定义工具及其顺序、快捷键
-// 第一行：1,2,3,4
-// 第二行：q,w,e,r
 const TOOL_DEFINITIONS = [
     { id: '横线',   key: '1', path: 'M0,12 L24,12' },
     { id: '竖线',   key: '2', path: 'M12,0 L12,24' },
-    { id: '丁字',   key: '3', path: 'M0,12 L24,12 M12,12 L12,24' }, // 连接左下右
+    { id: '丁字',   key: '3', path: 'M0,12 L24,12 M12,12 L12,24' },
     { id: '十字',   key: '4', path: 'M12,0 L12,24 M0,12 L24,12' },
     
-    { id: '左下',   key: 'q', path: 'M0,12 L12,12 L12,24' },       // 连接左下
-    { id: '左丁字', key: 'w', path: 'M12,0 L12,24 M12,12 L0,12' }, // 连接上下左
-    { id: '右丁字', key: 'e', path: 'M12,0 L12,24 M12,12 L24,12' },// 连接上下右
-    { id: '右下',   key: 'r', path: 'M24,12 L12,12 L12,24' }       // 连接右下
+    { id: '左下',   key: 'q', path: 'M0,12 L12,12 L12,24' },
+    { id: '左丁字', key: 'w', path: 'M12,0 L12,24 M12,12 L0,12' },
+    { id: '右丁字', key: 'e', path: 'M12,0 L12,24 M12,12 L24,12' },
+    { id: '右下',   key: 'r', path: 'M24,12 L12,12 L12,24' }
 ];
 
-// 将 Array 转为 Object 方便查找
 const TOOL_MAP = TOOL_DEFINITIONS.reduce((acc, t) => { acc[t.id] = t; return acc; }, {});
 const KEY_MAP = TOOL_DEFINITIONS.reduce((acc, t) => { acc[t.key] = t.id; return acc; }, {});
 
-// 默认空数据结构
 const DEFAULT_ATREE = `{"Archer": []}`;
 
 createApp({
@@ -303,24 +301,45 @@ createApp({
         const parsedData = ref({ Archer: [] });
         const currentClass = ref('Archer');
         
-        // 数据存储: { ClassName: { row: { col: 'Type' } } }
         const connectorData = reactive({});
-        
         const selectedTool = ref('横线');
         const sortedTools = TOOL_DEFINITIONS;
         const toolMap = TOOL_MAP;
         
-        const isDragging = ref(false);
+        // 拖拽模式：'draw' (左键绘制) | 'erase' (右键擦除) | null
+        const dragMode = ref(null);
         const toastMsg = reactive({ text: '', isError: false });
 
-        // --- 核心逻辑：数据加载与解析 ---
+        // --- 节点排他性映射表 (高效查询 O(1)) ---
+        const nodeOccupancyMap = computed(() => {
+            const map = {};
+            for (const cls in parsedData.value) {
+                map[cls] = {};
+                if (Array.isArray(parsedData.value[cls])) {
+                    parsedData.value[cls].forEach(node => {
+                        const r = node.display?.row;
+                        const c = node.display?.col;
+                        if (r !== undefined && c !== undefined) {
+                            if (!map[cls][r]) map[cls][r] = {};
+                            map[cls][r][c] = true;
+                        }
+                    });
+                }
+            }
+            return map;
+        });
 
+        // 检查某格子是否被技能点占用
+        const checkHasNode = (cls, r, c) => {
+            return nodeOccupancyMap.value[cls]?.[r]?.[c] === true;
+        };
+
+        // --- 核心逻辑：数据加载与解析 ---
         const loadAtreeData = (jsonStr) => {
             try {
                 const data = JSON.parse(jsonStr);
                 parsedData.value = data;
                 
-                // 确保 connectorData 包含所有职业的 keys
                 Object.keys(data).forEach(cls => {
                     if (!connectorData[cls]) connectorData[cls] = {};
                 });
@@ -328,26 +347,23 @@ createApp({
                 if (!data[currentClass.value] || !parsedData.value[currentClass.value]) {
                     currentClass.value = Object.keys(data)[0] || '';
                 }
-                rawAtreeData.value = jsonStr; // 更新预览
+                rawAtreeData.value = jsonStr;
                 showToast(`成功加载 ${Object.keys(data).length} 个职业数据`);
             } catch (e) {
                 showToast('JSON 格式错误: ' + e.message, true);
             }
         };
 
-        // --- 核心逻辑：导入 Connectors ---
         const importConnectorsData = (jsonStr) => {
             try {
                 const imported = JSON.parse(jsonStr);
                 let count = 0;
                 
-                // 遍历导入的数据结构: { Class: { Type: [ {row, col} ] } }
                 for (const cls in imported) {
                     if (!connectorData[cls]) connectorData[cls] = {};
                     
                     const types = imported[cls];
                     for (const typeKey in types) {
-                        // 检查连线类型是否合法
                         if (!TOOL_MAP[typeKey]) continue;
 
                         const points = types[typeKey];
@@ -366,7 +382,7 @@ createApp({
             }
         };
 
-        // --- 文件处理 (Drag & Drop / Select) ---
+        // --- 文件处理 ---
         const readFile = (file, callback) => {
             const reader = new FileReader();
             reader.onload = (e) => callback(e.target.result);
@@ -417,10 +433,17 @@ createApp({
             return cells;
         });
 
-        // --- 绘图逻辑 ---
-        const getConnector = (r, c) => connectorData[currentClass.value]?.[r]?.[c] || null;
+        // --- 绘图与拖拽逻辑 ---
+        const getConnector = (r, c) => {
+            // 如果此格子被技能点占用，强制前端隐藏连线（技能点拥有最高显示优先级）
+            if (checkHasNode(currentClass.value, r, c)) return null;
+            return connectorData[currentClass.value]?.[r]?.[c] || null;
+        };
         
         const setConnector = (r, c) => {
+            // 技能点格子禁止生成连线
+            if (checkHasNode(currentClass.value, r, c)) return;
+
             if (!connectorData[currentClass.value]) connectorData[currentClass.value] = {};
             if (!connectorData[currentClass.value][r]) connectorData[currentClass.value][r] = {};
             connectorData[currentClass.value][r][c] = selectedTool.value;
@@ -430,8 +453,21 @@ createApp({
             if (connectorData[currentClass.value]?.[r]) delete connectorData[currentClass.value][r][c];
         };
 
-        const startDraw = (r, c) => { isDragging.value = true; setConnector(r, c); };
-        const onMouseEnter = (r, c) => { if (isDragging.value) setConnector(r, c); };
+        // 开始拖拽 (区分左右键)
+        const startDrag = (mode, r, c) => { 
+            dragMode.value = mode; 
+            if (mode === 'draw') setConnector(r, c);
+            else if (mode === 'erase') eraseCell(r, c);
+        };
+
+        // 鼠标滑过格子时执行连续操作
+        const onMouseEnter = (r, c) => { 
+            if (dragMode.value === 'draw') setConnector(r, c);
+            else if (dragMode.value === 'erase') eraseCell(r, c);
+        };
+
+        const stopDrag = () => { dragMode.value = null; };
+
         const clearConnectors = () => { if(confirm('确认清空当前职业连线?')) connectorData[currentClass.value] = {}; };
 
         const connectorCount = computed(() => {
@@ -441,10 +477,9 @@ createApp({
             return count;
         });
 
-        // --- 导出逻辑 ---
+        // --- 导出逻辑 (双重过滤保证绝对纯净) ---
         const exportJson = (exportAll) => {
             const result = {};
-            // 决定遍历哪些职业
             const classesToExport = exportAll ? Object.keys(connectorData) : [currentClass.value];
 
             classesToExport.forEach(cls => {
@@ -454,22 +489,24 @@ createApp({
                 const clsObj = {};
                 let hasData = false;
                 
-                // 初始化所有类型的数组
                 Object.keys(TOOL_MAP).forEach(key => clsObj[key] = []);
 
-                // 转换 Grid -> List
                 for (const rKey in classMap) {
                     const r = parseInt(rKey);
                     for (const cKey in classMap[r]) {
+                        const c = parseInt(cKey);
+                        
+                        // 【双重保险】导出时强行剔除落在技能点位置上的连线数据（比如从旧 JSON 导入时的脏数据）
+                        if (checkHasNode(cls, r, c)) continue;
+
                         const type = classMap[r][cKey];
                         if (clsObj[type]) {
-                            clsObj[type].push({ row: r, col: parseInt(cKey) });
+                            clsObj[type].push({ row: r, col: c });
                             hasData = true;
                         }
                     }
                 }
 
-                // 清理空键
                 for (const key in clsObj) if (clsObj[key].length === 0) delete clsObj[key];
 
                 if (hasData) result[cls] = clsObj;
@@ -489,7 +526,6 @@ createApp({
             setTimeout(() => toastMsg.text = '', 2000);
         };
 
-        // --- 快捷键逻辑 ---
         const handleKeydown = (e) => {
             if (e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT') return;
             const key = e.key.toLowerCase();
@@ -500,19 +536,21 @@ createApp({
 
         onMounted(() => {
             window.addEventListener('keydown', handleKeydown);
-            loadAtreeData(rawAtreeData.value); // 初始化
+            window.addEventListener('mouseup', stopDrag); // 鼠标在外部松开时停止拖拽
+            loadAtreeData(rawAtreeData.value); 
         });
 
         onUnmounted(() => {
             window.removeEventListener('keydown', handleKeydown);
+            window.removeEventListener('mouseup', stopDrag);
         });
 
         return {
             rawAtreeData, currentClass, availableClasses, visibleNodes, loadedNodesCount,
             gridRows, gridCells, sortedTools, toolMap, selectedTool,
-            getConnector, startDraw, onMouseEnter, eraseCell, clearConnectors,
+            getConnector, startDrag, stopDrag, onMouseEnter, checkHasNode, clearConnectors,
             handleAtreeDrop, handleAtreeFileSelect, handleConnectorsDrop, handleConnectorsFileSelect,
-            dragOver, dragLeave, exportJson, toastMsg, isDragging, connectorCount
+            dragOver, dragLeave, exportJson, toastMsg, connectorCount
         };
     }
 }).mount('#app');

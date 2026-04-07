@@ -243,6 +243,12 @@ Grind Spot的怪物强度往往高于其他怪物
 你其实也可以考虑使用正常战斗装备在经验刷怪点进行刷怪
 :::
 
+当然，笔者在这里更推荐你用`Corrupt Chain`素材做一身装备，每个装备塞6个`Corrupt Chain`，一共需要24个，这个做出来的装备1级就能有极强的杀伤力。
+
+但是`Corrupt Chain`基本没货，得你自己去刷，在Ragni附近找到下图所示的红方块，打死有概率掉落。
+
+![](/assets/img/grindspot.md-03-30-10-45-28.png)
+
 ### Lv.29~Lv.40
 
 ![](/assets/img/lianji2.jpg)
