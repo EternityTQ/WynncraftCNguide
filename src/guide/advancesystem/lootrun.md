@@ -817,30 +817,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 + <font color='DDDDDD'><tip>Redemption </tip> </font>
 + <font color='DDDDDD'><tip>High Roller </tip> </font>
 
-#### <font color='5555FF'> <b>Gourmand</b> </font> + <font color='FFAA00'> <b>Optimism</b> </font>
 
-(预期600-800pulls)
-
-有点牛逼的新时代组合。
-
-Gourmand增强后来了个大的
-
-注意，进行这个组合的时候，不要把彩虹信标干到100轮，也别把深灰信标提前吃掉。
-
-总体策略是，通过红信标和白信标确保挑战次数达到90轮左右，尽早用绿信标塞爆你的计时器，全程保持4-5个信标选数防止最后猴戏失败，然后尽可能多拿蓝信标来填充rr次数，直到90轮。
-
-然后，在信标选数达到6及以上时，把所有的信标刷新次数用掉。这个时候你可以不用彩虹信标效果了，但别吃满彩虹信标。
-
-为了最大化你的pulls获取，还有一种邪门方法：你可以尝试全程保持6-8的信标选数，并且在每轮挑战中都刷新一次。这样，像青、红、绿这种不会连续出现的信标，现在每轮挑战都能出现然后被你刷新，就提高了所得的pulls总量，但这种方法需要这三个信标保持同步，而且可能会对运营产生影响。
-
-核心任务:
-+ <font color='5555FF'><tip>Gourmand </tip> </font>
-+ <font color='FFAA00'><tip>Optimism </tip> </font>
-
-可与本组合配合的其他任务:
-+ <font color='DDDDDD'><tip>Redemption </tip> </font>
-+ <font color='DDDDDD'><tip>High Roller</tip> </font>
-+ <font color='FFAA00'><tip>Backup Beat</tip> </font>
 
 #### Gambling Beast 
 
@@ -864,43 +841,7 @@ Gourmand增强后来了个大的
 如果赌博野兽将你的计时器归零，而且你又没在红信标里面，那么<font color='FFAA00'><tip>Stasis</tip></font>会阻止你的游戏结束，这样做甚至能让你第一个试炼就可以吃赌博野兽。但是这样做不会让你继续获得rr次数，因为如果赌博野兽吃的时间不足，那就不会获得rr次数。
 :::
 
-#### Lights Out + Chrono
 
-长途的另外一种组合，虽然效果通常不如其他策略，但是可以加快挑战速度。
-
-除了Lights Out试炼以外，以下任务也会有帮助：
-
-几乎必拿：
-+ <font color='00BB00'><tip>Chronokinesis</tip> </font>
-
-可以拿：
-+ <font color='DDDDDD'><tip>Redemption </tip> </font>
-+ <font color='DDDDDD'><tip>High Roller</tip> </font>
-+ <font color='AA00AA'><tip>Porphyrophobia</tip> </font>
-
-
-#### 无组合
-
-有时候你可能拿不到合适的任务组合，但是还是想把这把lr赤完，那你可以尝试以下任务：
-+ <font color='DDDDDD'><tip>Redemption </tip> </font>
-+ <font color='DDDDDD'><tip>High Roller</tip> </font>
-+ <font color='AA00AA'><tip>Porphyrophobia</tip> </font>
-+ <font color='AA00AA'><tip>Inner Peace</tip> </font>
-
-<font color='AA00AA'><tip>Porphyrophobia</tip> </font> + <font color='AA00AA'><tip>Inner Peace</tip> </font>仍然可以有200+的pulls
-
-
-#### 思维导图
-
-这个导图可以让你有一个明确的任务抓取思路。
-
-优先级按照红黄绿依次降低。
-
-![](/assets/img/lootrun.md-02-24-22-26-25.png)
-
-![](/assets/img/lootrun.md-02-24-22-26-32.png)
-
-![](/assets/img/lootrun.md-02-24-22-26-40.png)
 
 ### 关于试炼
 
