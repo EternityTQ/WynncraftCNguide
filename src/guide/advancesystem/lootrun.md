@@ -432,11 +432,11 @@ Vibrant信标拥有原信标的双倍效果
 | 名称               | 效果     |
 |---------------------|-------------------------------------------------------------------------------------------|
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
-| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果  |
+| <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  |
 | <font color='FFCC00'> **Hoarder** </font>         | 每当你开启7个箱子后，在下一轮结束时从3个100%效能的祝福中选择一个并获取。  |
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出30件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%效果|
+| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
 | <font color='5555FF'> **Opal Offering** </font>     | 每次获得1个诅咒后，消耗1个祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
 | <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+1 (上限为6)；开始任意挑战后重置该效果|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
@@ -444,7 +444,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='AA00AA'> **Radiant Hunter** </font>    | 每次击杀被强化的怪物时，+1 pull (每轮上限 5 pull)  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每得到1个诅咒，会使下次获取的祝福效能+50% (上限+300%)|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
-| <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，其效果包括轮次属性和诅咒|
+| <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
 | <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
 | <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你没有信标可以出现了，否则被刷新的信标将不再出现|
