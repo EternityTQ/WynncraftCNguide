@@ -6,7 +6,7 @@ icon: scroll
 ## 任务信息 / Information
 任务等级：Level 103 / 推荐等级： Level 103
 任务时长：长 / 任务难度：困难
-中文译名：
+中文译名：女王的征召
 
 > Time to Fruma...
 

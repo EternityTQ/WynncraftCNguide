@@ -6,13 +6,13 @@ icon: scroll
 ## 任务信息 / Information
 任务等级：Level 104 / 推荐等级： Level 104
 任务时长：长 / 任务难度：困难
-中文译名：
+中文译名：归乡之旅
 
 ## 奖励清单 / Rewards
 
 + 15300000 经验值![=20x](/assets/icon/Experience_Orb.gif)
 + 20480 绿宝石![=20x](/assets/icon/Emerald.png)
-+ 可以进入Auburn Forest了
++ 可以进入Fruma和Auburn Forest了
 
 
 
