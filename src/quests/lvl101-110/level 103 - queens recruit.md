@@ -28,7 +28,7 @@ icon: scroll
 :::tip
 任务开始前，强烈建议在包里随时携带Ragni和Nemract卷轴。
 
-你之后会用到的
+你之后会用到的！
 :::
 
 和位于Detlas的<NPC>Tasim</NPC><CC>630 67 -1575</CC>对话。
