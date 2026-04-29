@@ -67,9 +67,9 @@ lootrun即跑箱，在一定的区域内寻找散落在各处的宝箱并开启�
 一样的操作即可！
 :::
 
-截止至2.1版本，一共有5处**Lootrun Camp**
+截止至2.2版本，一共有7处**Lootrun Camp**
 
-它们分别位于**Canyon Of The Lost**、**Molten Heights**(火山)、**Sky Islands**(Sky)、**Corkus**、**Silent Expanse**(se)
+它们分别位于**Canyon Of The Lost**、**Molten Heights**(火山)、**Sky Islands**(Sky)、**Corkus**、**Silent Expanse**(se)、**Fruma West**、**Fruma East**
 
 你可以找到**Lootrun Camp**中的<font color=FF55FF>**Lootrun Master**</font>来开始新lr
 
@@ -134,13 +134,13 @@ LR副职等级为账号通用
 每个账号在每天第一次lootrun完成时，都能获得每日奖励
 
 :::tip
-在满级后，每日奖励包含+5pulls以及+1rr
+在满级后，每日奖励包含+5pulls以及+1rr，拥有银牛订阅时
 
 注意：这仅适用于每日第一次**成功结算**的局数
 
 这意味着，如果你今天已经吃了每日奖励，你仍然可以保持已经开始的游戏不结算，并等待至第二天每日奖励刷新时再进行结算，以此来吃到每日奖励
 
-每日奖励的刷新时间是北京时间早上八点    
+每日奖励的刷新时间是夏令时北京时间中午十二点，冬令时中午十三点    
 
 特别地，如果你每日第一局失败了，不会消耗每日奖励
 :::
@@ -170,7 +170,7 @@ LR副职等级为账号通用
 :::warning
 在lr期间，你不能跟除了铁匠、鉴定商、lr大师以外的npc交互
 
-同时，你也无法骑马，只能通过正常跑步和位移技能进行跑图
+但是，你可以骑乘坐骑。
 
 这意味着，你唯一存放身上物品的方式是通过使用RANK的宠物运送功能
 
@@ -239,7 +239,7 @@ Vibrant信标拥有原信标的双倍效果
 
 | 信标名称 | 效果 | 最大获取上限 |
 | --- | --- | :---: |
-| <font color = "blue">**蓝色信标**</font> | 从 **3 / 4 / 5** 个祝福效果中选择1个 | 无上限 |
+| <font color = "blue">**蓝色信标**</font> | 从4个 **100% / 200% / 600%** 效能的祝福中选择1个并获取 | 无上限 |
 | <font color = "purple">**紫色信标**</font> | 获得 **1 / 2 / 6** 个随机诅咒，同时最终奖励抽取物品数 **+1 / +2 / +6** | 无上限 |
 | <font color = FFCC00>**黄色信标**</font> | 生成 **1 / 2 / 6** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
 | <font color = 00CCFF>**青色信标**</font> | 下一个信标的效果 **+100% / +200%** | 无上限 |
@@ -249,6 +249,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+5 / +10 / +30** | 1 |
 | <font color = "grey">**灰色信标**</font> | 从 **3 / 4 / 5** 个任务中选择1个接取 | 3 |
 | <font color = "red">**红色信标**</font> | 挑战轮数 **+3 / +5 / +15**，且 **3 / 5 / 15** 轮内不会有时间补偿 | 无上限 |
+| <font color = #FA71AF>**粉色信标**</font> | 获得 **1 / 2 / 6** 次信标刷新次数 | 无上限 |
 | <font color = AA0000>**绯红色信标**</font> | 从 **2 / 3 / 4** 个试炼中选择1个接取 | 2 |
 | <rb><b>彩虹信标</b></rb> | 在接下来的 **10 / 20 / 60** 轮中，出现的信标均升级为Vibrant | 无上限 |
 
@@ -256,7 +257,6 @@ Vibrant信标拥有原信标的双倍效果
 
 | 信标名称 | 特性 |
 | --- | --- |
-| <font color = "blue">**蓝色信标**</font> | 选数上限为5；青信标为每100%选数+1 |
 | <font color = 00CCFF>**青色信标**</font> | 只会连续出现1次；**死亡会导致已持有的青色信标状态清空** |
 | <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant祝福的是挑战轮数 |
 | <font color = "CCCCCC">**白色信标**</font> | 总轮数到达100轮时消失 |
@@ -329,13 +329,21 @@ Vibrant信标拥有原信标的双倍效果
 
 + 生命(每次+30%)
 + 伤害(每次+25%)
-+ 攻击速度(每次+10%)
-+ 移动速度(每次+10%，上限+200%)
++ 强化概率(每次+2.5%)
++ 强化效果(每次+1)
 + 抗性(每次+5%，上限70%)
 
 :::danger
 诅咒增幅的属性非常高，因此正常游玩请尽量少吃诅咒，避免属性增长打不过怪物
 :::
+
+### 强化 / Radiant
+
+在2.2更新后，Lootrun新增了一种名为Radiant的诅咒效果。
+
+该诅咒效果会使怪物有概率得到强化，受到强化的怪物会显示白色边框的血条。
+
+强化的效果会根据Radiant Power来增加，Radiant Power越高，受到强化的怪物越强。
 
 ## 祝福 / Boons
 
@@ -343,13 +351,15 @@ Vibrant信标拥有原信标的双倍效果
 
 祝福会给你带来不同属性的提升以帮助你更好完成接下来的挑战
 
-在吃到蓝信标时，你可以从若干选项中选择你想要的祝福
+在吃到蓝信标时，你可以从四个选项中选择你想要的祝福
 
 每个祝福由祝福种类和祝福效果组成
 
 祝福种类决定了这个祝福的生效条件以及叠加层数等，以及是否可以继续增长数值
 
-而祝福效果决定了该祝福能够增幅哪条属性，其数值也和祝福名称有关
+而祝福效果决定了该祝福能够增幅哪条属性，其数值也和祝福种类有关
+
+另外，祝福的效能也决定了其数值。
 
 
 | 种类                  | 特性 | 描述                                                                                                    | 最大层数 |
@@ -404,8 +414,6 @@ Vibrant信标拥有原信标的双倍效果
 
 虚弱效果(Weaken Enemy)实际的作用是，你的任何平A、技能都会给怪物上数秒的减少攻击的DEBUFF，上限-50%
 
-总之还是先着重提升ehp才是最好提升防御的方法！
-
 :::
 
 ## 任务 / Mission
@@ -424,21 +432,24 @@ Vibrant信标拥有原信标的双倍效果
 | 名称               | 效果     |
 |---------------------|-------------------------------------------------------------------------------------------|
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
-| <font color='FFCC00'> **Materialism** </font>         | 所有挑战额外附加黄色信标的效果  |
-| <font color='FFCC00'> **Hoarder** </font>         | 每当你从箱子中累计开出30件物品时，获得1个祝福  |
-| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出20件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获得一个  |
-| <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2次抽取次数时，都会为你下一次完成黄色信标时额外奖励1个飞箱(上限12个)  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%效果|
-| <font color='5555FF'> **Gourmand** </font>     | 在蓝信标界面每累计见到2个祝福选择后，获得1次信标刷新机会|
+| <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启7个箱子后，在下一轮结束时从3个100%效能的祝福中选择一个并获取。  |
+| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出30件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获取一个  |
+| <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
+| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
+| <font color='5555FF'> **Opal Offering** </font>     | 每次获得1个诅咒后，消耗1个祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
+| <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+1 (上限为6)；开始任意挑战后重置该效果|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
-| <font color='AA00AA'> **Cleansing Ritual** </font>    | 每次完成挑战后，可以消除1个诅咒，并增加1个挑战轮数  |
-| <font color='AA00AA'> **Equilibrium** </font>         | 每得到2个诅咒后，获得1个随机祝福|
+| <font color='AA00AA'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数  |
+| <font color='AA00AA'> **Radiant Hunter** </font>    | 每次击杀被强化的怪物时，+1 pull (每轮上限 5 pull)  |
+| <font color='AA00AA'> **Equilibrium** </font>         | 每得到1个诅咒，会使下次获取的祝福效能+50% (上限+300%)|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
+| <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
 | <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
-| <font color='FFAA00'> **Optimism** </font>         | 每刷新掉1个信标选数，就获得1 Pull。|
-| <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得360s的时间后，增加一次信标刷新机会|
-| <font color='FF5555'> **Thrill Seeker** </font>         | 红色信标会额外奖励1次从2个祝福中选取1个的机会|
+| <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你没有信标可以出现了，否则被刷新的信标将不再出现|
+| <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
+| <font color='FF5555'> **Thrill Seeker** </font>         | 获取红信标后会额外从5个祝福中选择1个并获取|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
 | <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
@@ -467,19 +478,18 @@ Vibrant信标拥有原信标的双倍效果
 
 | 名称 | 效果 | 奖励 |
 | --- | --- | --- |
-| <mob>Light Out</mob> |彩虹信标和Vibrant信标将不再出现 | 每次完成挑战将获得2 pull |
+| <mob>Light Out</mob> | 直到击杀25只强化怪物之前，每轮结束后都会获得2个强化概率的诅咒 | 试炼完成后，清除所有强化概率和强化效果的诅咒，每清除1个，给予5 pull |
+| <mob>Dying Light</mob> | 直到你共计获得1000%的祝福效能之前，你的祝福将以每秒2%的速度逐个衰减。 | 彩虹信标将给予1次奖励献祭 |
+| <mob>Monochromokopia</mob> | 直到获得30 pulls之前，被完成的信标将会被遮蔽5轮挑战，被遮蔽期间无法看到信标种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
+| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 绿信标将会净化5%的诅咒数量，并给予当前pulls数量的3.5% (向上取整) |
 |  <mob>Warmth Devourer</mob> | 直到你达到(当前pulls+20) pull之前，每轮挑战结束后扣除2个祝福和1个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
 |  <mob>Hubris</mob> | 接下来10轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
-|  <mob> All In</mob> | 接下来10轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为2次奖励重掷 |
-|  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除60秒 |每次扣除时间时获得1次奖励重掷 |
+|  <mob> All In</mob> | 接下来10轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为3次奖励重掷 |
+|  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除90秒 | 每次扣除时间时获得1次奖励重掷 |
 |  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你进入挑战、开始挑战、结束挑战时，都会把计时器重置至75秒，期间死亡不会扣除时间 |获得2次奖励重掷 |
 |  <mob>Treasury Bill</mob> |直到你达到(当前pulls+20) pull之前，每45秒扣除1 pull |额外获得完成试炼时的pulls的75% |
 |  <mob>Ultimate Sacrifice</mob> | 接下来10轮中，所有祝福失效| 获得2次奖励献祭|
 
-特别地，部分试炼有需要注意的特性：
-| 名称 | 备注 |
-| --- | --- |
-| <mob> All In</mob> | 当前抗性翻倍无视原有上限，若你原有怪物抗性超过50%，则翻倍会导致无法对怪物造成伤害 |
 
 ## 最终奖励
 在完成lootrun后，你可以开启最终奖励宝箱
@@ -817,30 +827,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 + <font color='DDDDDD'><tip>Redemption </tip> </font>
 + <font color='DDDDDD'><tip>High Roller </tip> </font>
 
-#### <font color='5555FF'> <b>Gourmand</b> </font> + <font color='FFAA00'> <b>Optimism</b> </font>
 
-(预期600-800pulls)
-
-有点牛逼的新时代组合。
-
-Gourmand增强后来了个大的
-
-注意，进行这个组合的时候，不要把彩虹信标干到100轮，也别把深灰信标提前吃掉。
-
-总体策略是，通过红信标和白信标确保挑战次数达到90轮左右，尽早用绿信标塞爆你的计时器，全程保持4-5个信标选数防止最后猴戏失败，然后尽可能多拿蓝信标来填充rr次数，直到90轮。
-
-然后，在信标选数达到6及以上时，把所有的信标刷新次数用掉。这个时候你可以不用彩虹信标效果了，但别吃满彩虹信标。
-
-为了最大化你的pulls获取，还有一种邪门方法：你可以尝试全程保持6-8的信标选数，并且在每轮挑战中都刷新一次。这样，像青、红、绿这种不会连续出现的信标，现在每轮挑战都能出现然后被你刷新，就提高了所得的pulls总量，但这种方法需要这三个信标保持同步，而且可能会对运营产生影响。
-
-核心任务:
-+ <font color='5555FF'><tip>Gourmand </tip> </font>
-+ <font color='FFAA00'><tip>Optimism </tip> </font>
-
-可与本组合配合的其他任务:
-+ <font color='DDDDDD'><tip>Redemption </tip> </font>
-+ <font color='DDDDDD'><tip>High Roller</tip> </font>
-+ <font color='FFAA00'><tip>Backup Beat</tip> </font>
 
 #### Gambling Beast 
 
@@ -864,43 +851,7 @@ Gourmand增强后来了个大的
 如果赌博野兽将你的计时器归零，而且你又没在红信标里面，那么<font color='FFAA00'><tip>Stasis</tip></font>会阻止你的游戏结束，这样做甚至能让你第一个试炼就可以吃赌博野兽。但是这样做不会让你继续获得rr次数，因为如果赌博野兽吃的时间不足，那就不会获得rr次数。
 :::
 
-#### Lights Out + Chrono
 
-长途的另外一种组合，虽然效果通常不如其他策略，但是可以加快挑战速度。
-
-除了Lights Out试炼以外，以下任务也会有帮助：
-
-几乎必拿：
-+ <font color='00BB00'><tip>Chronokinesis</tip> </font>
-
-可以拿：
-+ <font color='DDDDDD'><tip>Redemption </tip> </font>
-+ <font color='DDDDDD'><tip>High Roller</tip> </font>
-+ <font color='AA00AA'><tip>Porphyrophobia</tip> </font>
-
-
-#### 无组合
-
-有时候你可能拿不到合适的任务组合，但是还是想把这把lr赤完，那你可以尝试以下任务：
-+ <font color='DDDDDD'><tip>Redemption </tip> </font>
-+ <font color='DDDDDD'><tip>High Roller</tip> </font>
-+ <font color='AA00AA'><tip>Porphyrophobia</tip> </font>
-+ <font color='AA00AA'><tip>Inner Peace</tip> </font>
-
-<font color='AA00AA'><tip>Porphyrophobia</tip> </font> + <font color='AA00AA'><tip>Inner Peace</tip> </font>仍然可以有200+的pulls
-
-
-#### 思维导图
-
-这个导图可以让你有一个明确的任务抓取思路。
-
-优先级按照红黄绿依次降低。
-
-![](/assets/img/lootrun.md-02-24-22-26-25.png)
-
-![](/assets/img/lootrun.md-02-24-22-26-32.png)
-
-![](/assets/img/lootrun.md-02-24-22-26-40.png)
 
 ### 关于试炼
 

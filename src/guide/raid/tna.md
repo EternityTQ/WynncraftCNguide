@@ -13,13 +13,6 @@ icon: ghost
 入场费用：1 Tol Rune
 前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20a%20journey%20further.html)
 
-Tna是当前游戏流程内最难的raid之一
-
-Tna是当前版本难度最高的Raid，同时也有最高的综合收益，且能产出当前版本的毕业武器tome(3级)以及部分强力装备，是游戏必要的流程之一。
-
-如果您觉得riad困难，请不要吝惜各类消耗品。
-
->上面那话句的错别字是故意的。
 
 
 :::danger
