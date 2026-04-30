@@ -39,10 +39,13 @@ icon: skull
 ### Step 3 保护 Aledar
 ---
 继续沿着主路前进，<NPC>Aledar</NPC> 会突然感到极度虚弱和不适。此时会有 <mob>Radiated Mutant Spider</mob> 等怪物袭来，请挺身而出，保护无法自卫的 <NPC>Aledar</NPC>。
+![](/assets/img/level%20101%20-%20a%20journey%20further.md-04-29-23-53-26.png)
 
 ### Step 4 虚空之洞
 ---
 战斗结束后，<NPC>Aledar</NPC> 喝下一瓶药水压制住了虚弱的症状，并向你展示了一种名为“Void Hole”的传送门。跟着他尝试跳进旁边的虚空洞里。
+
+![](/assets/img/level%20101%20-%20a%20journey%20further.md-04-29-23-55-26.png)
 
 ### Step 5 寻找绕行路线
 ---
@@ -51,8 +54,14 @@ icon: skull
 利用周围的虚空洞（Void Holes）寻找通过这个屏障的路线。
 
 :::tip
-中途路基本就一条，进入各种虚空洞并且沿着路走就好了！有一些史莱姆跑酷，可能会稍微有些难度。
+中途路基本就一条，进入各种虚空洞并且直走沿着路走就好了！有一些史莱姆跑酷，可能会稍微有些难度。
+
+如果你想要速通的话，你可以直接TP到图上的柱子上面的虚空洞。
+
+![](/assets/img/level%20101%20-%20a%20journey%20further.md-04-29-23-58-08.png)
 :::
+
+![](/assets/img/level%20101%20-%20a%20journey%20further.md-04-29-23-56-18.png)
 
 ### Step 6 破坏屏障
 ---

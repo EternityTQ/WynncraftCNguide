@@ -18,28 +18,43 @@ icon: star
 + 允许进入 **The Silent Expanse**
 
 :::tip
-该任务的怪物都比较强大，如果死了没复活在任务区域内，可以从Abandoned Mines的山上 <CC>750 70 -1300</CC> 重新进入任务。
+如果死了没复活在任务区域内，可以从Abandoned Mines的山上 <CC>750 70 -1300</CC> 重新进入任务。
 :::
 
 ### Step 1 接取任务
 ---
 在 **Detlas** 的酒馆里和 <NPC>Elphaba</NPC> 谈话 <CC>419 67 -1533</CC>，加入她的绝密任务。
 
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-08-09.png)
+
 ### Step 2 遭遇幽灵
 ---
 对话完后你和其他三位队友（在接下来都会协同作战）会被传送到 **The Silent Expanse** 的入口。
 
-跟着NPC继续进行对话，遭遇怪物 <mob>Black Geist</mob>。此时怪物拥有屏障，是打不死的。对话进行到一半时，<NPC>Aledar</NPC> 会叫你赶紧出门，这时候向洞口放个法术技能封锁洞口。等洞口倒塌一系列剧情结束后即可。
+跟着NPC继续进行对话，遭遇怪物 <mob>Black Geist</mob>。此时怪物拥有屏障，是打不死的。对话进行到一半时，<NPC>Aledar</NPC> 会叫你赶紧出门，出去后向洞口放个技能封锁洞口。等洞口倒塌一系列剧情结束后即可。
+
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-12-40.png)
 
 ### Step 3 寻求破解之法
 ---
-前往黑路（Black Road）的 <CC>730 61 -1434</CC> 寻找铁匠 <NPC>Dren</NPC>，并和他们继续对话。铁匠告知需要一明一暗两件物品来消除你们身上的黑暗元素，才能击败这只幽灵。
+前往Black Road的 <CC>730 61 -1434</CC> 寻找铁匠 <NPC>Dren</NPC>，并和他们继续对话。铁匠告知需要一明一暗两件物品来消除你们身上的黑暗元素，才能击败这只幽灵。
+
+>此处NPC可能不刷新，此时尝试多/class几次
+
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-15-07.png)
 
 ### Step 4 深入腐化之根
 ---
-被传送到 **Roots of Corruption** 后，和 <NPC>Aledar</NPC> 谈话。在附近击杀 10 只 <mob>Cthonic Beast</mob> 获得 `Beastly Wings`。
+被传送到 **Roots of Corruption** 后，来到<CC>269 39 -1223</CC>和 <NPC>Aledar</NPC> 谈话，推进剧情
+
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-17-00.png)
+
+
+下去后，在附近击杀 10 只 <mob>Cthonic Beast</mob> 获得 `Beastly Wings`。
 
 将翅膀拿在手里（不要丢弃），它能让你在跳跃时滑翔。利用它飞过岩浆，注意躲避岩浆柱的喷发，深入洞穴到达 <CC>241 39 -1225</CC>。
+
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-18-31.png)
 
 ### Step 5 获取黑暗物品
 ---
@@ -47,11 +62,20 @@ icon: star
 
 击杀拦路的 10 只 <mob>Progenitor</mob> 开启入口，随后在最深处击杀小BOSS <mob>Mangled Progeny</mob>，获取任务物品 `Corrupt Pearl`。
 
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-19-46.png)
+
+
+
+
 ### Step 6 击败恶灵
 ---
 带着碎片返回铁匠 <NPC>Dren</NPC> 处 <CC>730 61 -1434</CC>，他利用这颗珍珠净化了小队。
 
-被传送到入口后，重新面对 <mob>Black Geist</mob>，这次你们可以成功杀死它。击杀后进入 **The Silent Expanse**，跟着NPC完成对话。在这期间，<NPC>Elphaba</NPC> 遭遇幻觉不见了，<NPC>Lucio</NPC> 也跑丢了。
+被传送到入口后，重新面对 <mob>Black Geist</mob>，这次你们可以成功杀死它。击杀后进入 **The Silent Expanse**，跟着NPC完成对话，注意全程跟着。
+
+>又臭又长...
+
+在这期间，<NPC>Elphaba</NPC> 遭遇幻觉不见了，<NPC>Lucio</NPC> 也跑丢了...
 
 ### Step 7 寻找同伴 (Lucio)
 ---
@@ -105,12 +129,20 @@ icon: star
 
 在护送过程中，大怪物会攻击你，而小怪物会去攻击矿车。注意 <NPC>Aledar</NPC> 只有 20 滴血，如果他死了或者你死了，都需要从头重新开始护送。
 
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-42-55.png)
+
 :::tip
 当你在这一阶段失败后，可以回到 <CC>687 90 -405</CC>。
 
 在此处互动，重新进入任务场景，开始护送任务。
 
 ![=500x](/assets/img/lvl100-2.jpg)
+:::
+
+:::danger
+Aledar在最后一波怪由于BUG，一定会吃到6血伤害。
+
+请注意不要在前面让他有太多的受伤。
 :::
 
 ## 剧情省流 / Summary
