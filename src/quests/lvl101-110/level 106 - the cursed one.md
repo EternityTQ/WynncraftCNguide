@@ -6,7 +6,7 @@ icon: scroll
 ## 任务信息 / Information
 任务等级：Level 106 / 推荐等级： Level 106 
 任务时长：长 / 任务难度：中等 
-中文译名：
+中文译名：被诅咒之人
 
 ## 奖励清单 / Rewards
 
@@ -15,59 +15,170 @@ icon: scroll
 
 ### Step 1 接取任务
 ---
+回到反抗军营地，和<NPC>Syndra</NPC><CC>-2235 27 -1191</CC>对话，然后过一段剧情。
 
 
-### Step 2 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-42-09.png)
+
+
+### Step 2 秘密会谈
 ---
 
+对话结束后，出去外面和<NPC>Zeph</NPC><CC>-2207 29 -1181</CC>对话
 
-### Step 3 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-45-36.png)
+
+
+### Step 3 寻找宝石
 ---
 
+前往被封锁的洞窟<CC>-2310 36 -1133</CC>，完成一系列跑酷
 
-### Step 4 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-48-03.png)
+
+
+在洞窟的最后，击杀甲壳虫，然后进入深处与<NPC>Zeph</NPC>对话
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-49-13.png)
+
+然后离开洞窟，记得别忘记拿上地上的宝石！
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-49-37.png)
+
+### Step 4 教授魔法
 --- 
 
+出洞，返回反抗军营地，触发对话
 
-### Step 5 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-51-47.png)
+
+
+### Step 5 演示法术
 ---
+在NPC面前随便施放任意技能！然后等对话结束再施放一个，随后继续对话，要你施放技能就再来一个。
 
 
-### Step 6 XXXX
+
+
+
+### Step 6 队友尝试
 --- 
 
+过剧情，看<NPC>Zeph</NPC>装逼。
 
-### Step 7 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-53-56.png)
+
+### Step 7 前往大树
 --- 
 
+前往大树，和<NPC>Zeph</NPC><CC>-2143 35 -1258</CC>对话
 
-### Step 8 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-57-56.png)
+
+
+### Step 8 进入大树
 --- 
 
+跟着<NPC>Zeph</NPC>前往大树顶，对话后用任意技能砸开大树，触发剧情。
 
-### Step 9 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-01-23-59-57.png)
+
+### Step 9 收集古木
 --- 
 
+完成跑酷，注意可以用位移技能！
 
-### Step 10 XXXX
+走到底触发剧情
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-00-57.png)
+
+
+### Step 10 返回城镇
 --- 
 
+和<NPC>Zeph</NPC>在Espren门口<CC>-2091 27 -1090</CC>对话
 
-### Step 11 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-02-19.png)
+
+### Step 11 秘密跟踪
 ---
 
+跟随Zhiraok，注意不要被发现！不要走在它们前头就行，也不要离太远了！
 
-### Step 12 XXXX
+路上他会有五次检查，躲在下面这些地方即可，红线是它们的路线，绿框是你的躲藏点。
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-06-02.png)
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-06-38.png)
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-07-36.png)
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-11-04.png)
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-11-32.png)
+
+### Step 12 购买金属
 ---
 
+和金属商人对话<CC>-2006 19 -1013</CC>，然后跟着Zeph一起离开，他会问你是要跟他一起回反抗军营地还是你自己回。
 
-### Step 13 XXXX
+自己回的话要自己去坐标<CC>-2235 27 -1191</CC>，一起回就帮你TP了，最好还是一起回吧。
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-13-10.png)
+
+
+### Step 13 前往节庆
 ---
 
+和众人在女王节场地前碰面<CC>-2211 14 -1070</CC>
 
-### Step 14 XXXX
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-17-07.png)
+
+
+### Step 14 完成活动
 ---
 
+跟着他们来到场地后，你需要完成3个活动来推进剧情
+
+:::tip
+场地里面有若干NPC可以交互来完成活动
+
+以下是坐标：
+
++ <CC>-2195 8 -1022</CC>
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-23-49.png)
+
+
++ <CC>-2192 8 -1012</CC>
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-24-24.png)
+
++ <CC>-2189 8 -1002</CC>
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-25-52.png)
+
++ <CC>-2190 16 -982</CC>
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-26-46.png)
+
+还有一个敲南瓜的，要敲够分数，比较看脸还麻烦，不建议做！只贴这四个出来就行了。
+
+:::
+
+### Step 15 汇报感受
+---
+
+完成活动后，过去找<NPC>Syndra</NPC><CC>-2150 23 -1000</CC>对话，然后进入剧情。
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-29-07.png)
+
+
+:::tip
+场地内的Tea Merchant<CC>-2195 8 -1024</CC>售卖一种非常便宜好用的mr消耗品蘑菇，值得来购买！
+
+![](/assets/img/level%20106%20-%20the%20cursed%20one.md-05-02-00-37-14.png)
+
+:::
 
 ## 剧情省流 / Summary
 
