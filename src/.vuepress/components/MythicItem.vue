@@ -213,7 +213,11 @@ const idMap = {
   tDamRaw: { name: 'Thunder Damage', suffix: '' },
   wDamRaw: { name: 'Water Damage', suffix: '' },
   fDamRaw: { name: 'Fire Damage', suffix: '' },
-  aDamRaw: { name: 'Air Damage', suffix: '' }
+  aDamRaw: { name: 'Air Damage', suffix: '' },
+  rSdRaw: {name: 'Elemental Spell Damage', suffix: ''}, 
+  rDefPct: {name: 'Elemental Defence', suffix: '%'},
+  atkTier: {name: 'Attack Speed',suffix:' Tier'},
+  mainAttackRange: {name: 'Main Attack Range', suffix: '%'},
 };
 
 // 计算装备的所有鉴定词条
@@ -222,13 +226,28 @@ const identifications = computed(() => {
   if (!item.name) return [];
   const results = [];
   
-  // 提取当前物品是否是固定数值
+  // 提取当前物品是否是全局固定数值
   const isFixed = !!item.fixID;
   
   for (const [key, meta] of Object.entries(idMap)) {
-    if (item[key]) {
-      const { min, max, isPositive } = calcRoll(item[key], false, isFixed);
-      results.push({ name: meta.name, min, max, suffix: meta.suffix, isPositive, isFixed });
+    if (item[key] !== undefined) {
+      let val = item[key];
+      let currentIsFixed = isFixed;
+
+      // 修复 BUG：如果数据是对象（例如 { static: true, raw: 10 }），则提取内部属性
+      if (typeof val === 'object' && val !== null) {
+        // 如果词条自带 static 属性，则覆盖全局的 isFixed
+        if (val.static !== undefined) {
+          currentIsFixed = val.static;
+        }
+        val = val.raw; // 提取实际的数值
+      }
+
+      // 确保提取出来的值是数字，再传入 calcRoll 进行计算
+      if (typeof val === 'number') {
+        const { min, max, isPositive } = calcRoll(val, false, currentIsFixed);
+        results.push({ name: meta.name, min, max, suffix: meta.suffix, isPositive, isFixed: currentIsFixed });
+      }
     }
   }
 
@@ -237,14 +256,25 @@ const identifications = computed(() => {
     const spellName = (spellNames[cls] && spellNames[cls][i - 1]) 
       ? `${spellNames[cls][i - 1]} Cost` : `${i}st Spell Cost`;
 
-    if (item[`spRaw${i}`]) {
-      const { min, max, isPositive } = calcRoll(item[`spRaw${i}`], true, isFixed);
-      results.push({ name: spellName, min, max, suffix: '', isPositive, isFixed });
-    }
-    if (item[`spPct${i}`]) {
-      const { min, max, isPositive } = calcRoll(item[`spPct${i}`], true, isFixed);
-      results.push({ name: spellName, min, max, suffix: '%', isPositive, isFixed });
-    }
+    // 为了代码健壮性，这里也封装一个内部处理函数，防范耗蓝词条未来也变成对象结构
+    const processSpellCost = (spellVal, isPct) => {
+      if (spellVal === undefined) return;
+      let val = spellVal;
+      let currentIsFixed = isFixed;
+
+      if (typeof val === 'object' && val !== null) {
+        if (val.static !== undefined) currentIsFixed = val.static;
+        val = val.raw;
+      }
+
+      if (typeof val === 'number') {
+        const { min, max, isPositive } = calcRoll(val, true, currentIsFixed);
+        results.push({ name: spellName, min, max, suffix: isPct ? '%' : '', isPositive, isFixed: currentIsFixed });
+      }
+    };
+
+    processSpellCost(item[`spRaw${i}`], false);
+    processSpellCost(item[`spPct${i}`], true);
   }
 
   return results;

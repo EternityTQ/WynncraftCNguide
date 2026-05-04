@@ -3678,49 +3678,53 @@
         "note": ""
     },
     "Sniffer Dog": {
-        "name": "Sniffer Dog",
+        "name": "嗅探猎犬",
         "combo": "",
-        "desc": "Your Hound has a 15% chance to dig up a Trap when attacking enemies.",
+        "desc": "你的$猎犬$在攻击敌人时有^ 15% ^的几率同时放置一个陷阱 ",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Quick Draw": {
-        "name": "Quick Draw",
+        "name": "快速上膛",
         "combo": "",
-        "desc": "Not missing with Phantom Ray 7 times in a row will transform your next Main Attack into a Twain's Arc beam.",
+        "desc": "使用_幻影射线_连续7次成功命中敌人时，你的下一次_普通攻击_将会转换为_吐温虹弧_的光波",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Repel": {
-        "name": "Repel",
+        "name": "斥退",
         "combo": "",
-        "desc": "Casting Arrow Shield will push back nearby enemies.</br>Reduce cooldown by 2s when Arrow Shield loses a charge.</br>Cooldown: 10s</br>Area of Effect: 6 Blocks",
-        "properties": {},
-        "stats_keys": [],
+        "desc": "施放_箭盾_将会将周围的敌人击退。</br>每当_箭盾_失去一次使用次数时，该技能点的冷却时间 ^-2s^",
+        "properties": {
+            "cooldown": 10
+        },
+        "stats_keys": [
+                "cooldown"
+        ],
         "note": ""
     },
     "Repositioning": {
-        "name": "Repositioning",
+        "name": "再定位",
         "combo": "",
-        "desc": "Gain a brief speed boost after shooting Twain's Arc.",
+        "desc": "在施放_吐温虹弧_后获得短暂的速度提升加成。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Mael's Quiver": {
-        "name": "Mael's Quiver",
+        "name": "箭袋扩容",
         "combo": "",
-        "desc": "Increase the damage of Crepuscular Ray.</br>[30%n/10%w]",
+        "desc": "增加_暮色流光_的伤害",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Shrieking Arrows": {
-        "name": "Shrieking Arrows",
+        "name": "尖啸之箭",
         "combo": "",
-        "desc": "Arrow Storm and Phantom Ray will deal additional damage.</br></br>Damage: [6%n/1%t/1%a] for Arrow Storm</br>Damage: [2%n/1%w] for Phantom Ray",
+        "desc": "箭雨和幻影射线将造成额外伤害。",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3728,7 +3732,7 @@
     "Warding Wisps": {
         "name": "Warding Wisps",
         "combo": "",
-        "desc": "Gain a Wisp after losing an Arrow Shield Charge. (Max 12)</br>Wisps possess nearby enemies for 3s, dealing damage every 0.75s and slowing them.</br>Effect: 20% Slowness",
+        "desc": "_箭盾_消耗次数后获得一个灵体。(最多12个)</br>灵体将束缚附近的敌人3秒，每0.75秒造成一次伤害并将其减速。",
         "properties": {},
         "stats_keys": [],
         "note": ""

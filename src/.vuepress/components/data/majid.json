@@ -50,7 +50,7 @@
     },
     "HAWKEYE": {
         "displayName": "Hawkeye",
-        "description": "Arrow Hurricane becomes a condensed stream of 25 arrows, dealing [neutral]33%, [thunder]4%, and [air]4% each.",
+        "description": "Arrow Hurricane becomes a condensed stream of 25 arrows, dealing [neutral]45%, [thunder]6%, and [air]6% each.",
         "abilities": [
             {
                 "class": "Archer",
@@ -78,12 +78,12 @@
                         "target_part": "Single Arrow",
                         "behavior": "overwrite",
                         "multipliers": [
-                            33,
+                            45,
                             0,
-                            4,
+                            6,
                             0,
                             0,
-                            4
+                            6
                         ]
                     }
                 ]
@@ -106,14 +106,9 @@
         "description": "Picking up emeralds heals you and nearby players for 8% max health.",
         "abilities": []
     },
-    "CAVALRYMAN": {
-        "displayName": "Cavalryman",
-        "description": "You may cast spells and attack with a -30% damage penalty while on a horse.",
-        "abilities": []
-    },
     "GUARDIAN": {
         "displayName": "Guardian",
-        "description": "35% of damage taken by nearby allies is redirected to you.",
+        "description": "Devout Union gains +20% damage redirection and +4 radius.",
         "abilities": []
     },
     "HERO": {
@@ -268,7 +263,7 @@
                                 "name": "Total Damage",
                                 "type": "total",
                                 "hits": {
-                                    "Single Bomb": 1
+                                    "Single Bomb": "7.bombCount"
                                 }
                             }
                         ]
@@ -386,7 +381,7 @@
     },
     "FOREST_BLESSING": {
         "displayName": "Forest's Blessing",
-        "description": "Your hound gains increased movement speed, attack speed, vision, and [neutral]+60%. Arrow Bomb's damage is reduced by [neutral] -30%.",
+        "description": "Your hound gains 50% more movement speed, attack speed and vision. Arrow Bomb's damage is reduced by [neutral]-30%.",
         "abilities": [
             {
                 "class": "Archer",
@@ -399,19 +394,6 @@
                         "behavior": "modify",
                         "multipliers": [
                             -30,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
-                        ]
-                    },
-                    {
-                        "type": "add_spell_prop",
-                        "base_spell": 8,
-                        "target_part": "Single Hit",
-                        "multipliers": [
-                            60,
                             0,
                             0,
                             0,
@@ -452,7 +434,7 @@
     },
     "STRINGS_OF_FATE": {
         "displayName": "Strings of Fate",
-        "description": "Your puppets have a lifetime of 3 seconds and deal double damage with attacks and explosions.",
+        "description": "Your puppets have a lifetime of 3 seconds and deal 50% increased damage with attacks and explosions.",
         "abilities": [
             {
                 "class": "Shaman",
@@ -464,12 +446,12 @@
                             {
                                 "type": "stat",
                                 "name": "damMult.FateString:6.Puppet Hit",
-                                "value": 100
+                                "value": 50
                             },
                             {
                                 "type": "stat",
                                 "name": "damMult.FateString:6.Puppet Explosion",
-                                "value": 100
+                                "value": 50
                             }
                         ]
                     },
@@ -530,7 +512,7 @@
     },
     "DIVINE_HONOR": {
         "displayName": "Divine Honor",
-        "description": "Increases the bonus from Radiance by 10%. Bash deals [earth]-15% per hit.",
+        "description": "Increases the bonus from Radiance by 5%. Bash deals [earth]-15% per hit.",
         "abilities": [
             {
                 "class": "Warrior",
@@ -663,7 +645,7 @@
         "abilities": [
             {
                 "class": "Shaman",
-                "base_abil": 48,
+                "base_abil": 47,
                 "effects": [
                     {
                         "type": "raw_stat",
@@ -908,28 +890,24 @@
     },
     "LIFESTREAM": {
         "displayName": "Lifestream",
-        "description": "Blood Sorrow deals [neutral]450% and grants 4 times the overhealth, but shortens its duration by 75%.",
+        "description": "Blood Sorrow has 4 times the damage and overhealth, but its duration is shortened by 75%.",
         "abilities": [
             {
                 "class": "Shaman",
-                "base_abil": 75,
+                "base_abil": 74,
                 "dependencies": [
-                    75
+                    74
                 ],
                 "properties": {},
                 "effects": [
                     {
-                        "type": "add_spell_prop",
-                        "base_spell": 10,
-                        "target_part": "Beam Tick Damage",
-                        "behavior": "overwrite",
-                        "multipliers": [
-                            450,
-                            0,
-                            0,
-                            0,
-                            0,
-                            0
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.Lifestream:10.Beam Tick Damage",
+                                "value": 300
+                            }
                         ]
                     },
                     {
@@ -937,7 +915,7 @@
                         "bonuses": [
                             {
                                 "type": "prop",
-                                "abil": 75,
+                                "abil": 74,
                                 "name": "duration",
                                 "mult": true,
                                 "value": 0.25
@@ -950,52 +928,79 @@
     },
     "FIXATE": {
         "displayName": "Fixate",
-        "description": "Devitalize doubles your Winded cap, but lowers Winded damage effects by 30%. Timelock absorbs up to 120 Winded.",
+        "description": "Distortion decays at a halved rate and Devitalize effects are doubled. However, Distortion effects on abilities are reduced by 40% and Meteor Shower now requires +50% Distortion per Meteor.",
         "abilities": [
             {
                 "class": "Mage",
                 "base_abil": 20,
                 "dependencies": [
+                    62
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Devitalize",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "defMult.Devitalize",
+                                "value": 15
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "class": "Mage",
+                "base_abil": 20,
+                "dependencies": [
+                    39
+                ],
+                "properties": {
+                    "meteorRate": -0.02
+                },
+                "effects": []
+            },
+            {
+                "class": "Mage",
+                "base_abil": 20,
+                "dependencies": [
+                    27
+                ],
+                "effects": [
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Distortion",
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Distortion:4.Damage per Tick"
+                        },
+                        "scaling": [
+                            -0.48
+                        ]
+                    }
+                ]
+            },
+            {
+                "class": "Mage",
+                "base_abil": 20,
+                "dependencies": [
+                    27,
                     61
                 ],
-                "properties": {},
                 "effects": [
-                    {
-                        "type": "raw_stat",
-                        "bonuses": [
-                            {
-                                "type": "stat",
-                                "name": "damMult.Fixate:2.Winded Damage",
-                                "value": -30
-                            },
-                            {
-                                "type": "stat",
-                                "name": "damMult.Fixate:3.Winded Damage",
-                                "value": -30
-                            },
-                            {
-                                "type": "stat",
-                                "name": "damMult.Fixate:4.Winded Damage",
-                                "value": -30
-                            }
-                        ]
-                    },
-                    {
-                        "type": "raw_stat",
-                        "bonuses": [
-                            {
-                                "type": "prop",
-                                "abil": 20,
-                                "name": "max",
-                                "value": 10
-                            }
-                        ]
-                    },
                     {
                         "type": "stat_scaling",
                         "slider": true,
-                        "slider_name": "Winded",
-                        "slider_max": 10
+                        "slider_name": "Distortion",
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Distortion:4.Damage per Tick"
+                        },
+                        "scaling": [
+                            -0.168
+                        ]
                     }
                 ]
             },
@@ -1003,27 +1008,20 @@
                 "class": "Mage",
                 "base_abil": 20,
                 "dependencies": [
-                    61,
                     48
                 ],
-                "properties": {},
                 "effects": [
-                    {
-                        "type": "raw_stat",
-                        "bonuses": [
-                            {
-                                "type": "prop",
-                                "abil": 20,
-                                "name": "max",
-                                "value": 10
-                            }
-                        ]
-                    },
                     {
                         "type": "stat_scaling",
                         "slider": true,
-                        "slider_name": "Winded",
-                        "slider_max": 10
+                        "slider_name": "Distortion",
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Distortion:0.Vacuokinesis"
+                        },
+                        "scaling": [
+                            -0.4
+                        ]
                     }
                 ]
             },
@@ -1031,45 +1029,21 @@
                 "class": "Mage",
                 "base_abil": 20,
                 "dependencies": [
-                    61,
-                    60
+                    48,
+                    61
                 ],
-                "properties": {},
                 "effects": [
                     {
-                        "type": "raw_stat",
-                        "bonuses": [
-                            {
-                                "type": "prop",
-                                "abil": 20,
-                                "name": "max",
-                                "value": 10
-                            }
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Distortion",
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Distortion:0.Vacuokinesis"
+                        },
+                        "scaling": [
+                            -0.14
                         ]
-                    },
-                    {
-                        "type": "stat_scaling",
-                        "slider": true,
-                        "slider_name": "Winded",
-                        "slider_max": 10
-                    }
-                ]
-            },
-            {
-                "class": "Mage",
-                "base_abil": 20,
-                "dependencies": [
-                    61,
-                    69
-                ],
-                "properties": {},
-                "effects": [
-                    {
-                        "type": "stat_scaling",
-                        "slider": true,
-                        "slider_name": "Winded",
-                        "behavior": "overwrite",
-                        "slider_max": 120
                     }
                 ]
             }
@@ -1106,7 +1080,7 @@
     },
     "EFFLORESCENCE": {
         "displayName": "Efflorescence",
-        "description": "Jasmine Bloom deals [neutral]25% and \n[earth][thunder][water][fire][air]25% at the cost of 6 blocks of vertical range. \nSwan Dive deals [neutral]16% and [earth][thunder][water][fire][air]16%.",
+        "description": "Serpent's Garden now centers to where you land with Swan Dive. Damage of Swan Dive, Serpent's Garden and Jasmine Bloom are distributed across all elements.",
         "abilities": [
             {
                 "class": "Assassin",
@@ -1122,12 +1096,12 @@
                         "target_part": "Per Hit",
                         "behavior": "overwrite",
                         "multipliers": [
-                            25,
-                            25,
-                            25,
-                            25,
-                            25,
-                            25
+                            20,
+                            20,
+                            20,
+                            20,
+                            20,
+                            20
                         ]
                     }
                 ]
@@ -1155,6 +1129,30 @@
                         ]
                     }
                 ]
+            },
+            {
+                "class": "Assassin",
+                "base_abil": 94,
+                "dependencies": [
+                    94
+                ],
+                "properties": {},
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 16,
+                        "target_part": "Damage per Tick",
+                        "behavior": "overwrite",
+                        "multipliers": [
+                            66.66,
+                            66.66,
+                            66.66,
+                            66.66,
+                            66.66,
+                            66.66
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -1164,9 +1162,9 @@
         "abilities": [
             {
                 "class": "Shaman",
-                "base_abil": 40,
+                "base_abil": 39,
                 "dependencies": [
-                    40
+                    39
                 ],
                 "properties": {
                     "switch_count": 1,
@@ -1272,9 +1270,9 @@
         "abilities": [
             {
                 "class": "Shaman",
-                "base_abil": 49,
+                "base_abil": 48,
                 "dependencies": [
-                    49
+                    48
                 ],
                 "properties": {},
                 "effects": [
@@ -1458,9 +1456,6 @@
             {
                 "class": "Warrior",
                 "base_abil": 72,
-                "dependencies": [
-                    72
-                ],
                 "properties": {},
                 "effects": [
                     {
@@ -1488,6 +1483,29 @@
                         },
                         "scaling": [
                             5.0
+                        ]
+                    }
+                ]
+            },
+            {
+                "class": "Warrior",
+                "base_abil": 72,
+                "dependencies": [
+                    82
+                ],
+                "properties": {},
+                "effects": [
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "behavior": "modify",
+                        "slider_name": "Corrupted",
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Bloodlust:10.Annihilation"
+                        },
+                        "scaling": [
+                            2.0
                         ]
                     }
                 ]
@@ -1625,7 +1643,7 @@
     },
     "DISPLACE": {
         "displayName": "Displace",
-        "description": "Wind Slash deals massive knockback to enemies hit by Teleport.",
+        "description": "Etheric Slash deals massive knockback to enemies hit by Teleport.",
         "abilities": []
     },
     "TACKLE": {
@@ -1634,7 +1652,7 @@
         "abilities": [
             {
                 "class": "Warrior",
-                "base_abil": 46,
+                "base_abil": 4,
                 "dependencies": [
                     46
                 ],
@@ -1700,7 +1718,7 @@
     },
     "EVERSHOT": {
         "displayName": "Evershot",
-        "description": "Arrow Hurricane becomes a consistent, straight stream of arrows with a slower fire rate, dealing greater knockback and triple damage per arrow.",
+        "description": "Arrow Hurricane becomes a consistent, straight stream of arrows with a slower fire rate, dealing greater knockback and triple damage per arrow. Additionally, Arsenal Synergy requires 10 less arrows for each flint arrow.",
         "abilities": [
             {
                 "class": "Archer",
@@ -1875,7 +1893,7 @@
                 "class": "Shaman",
                 "base_abil": 5,
                 "dependencies": [
-                    52
+                    66
                 ],
                 "effects": [
                     {
@@ -1970,7 +1988,7 @@
                         "bonuses": [
                             {
                                 "type": "stat",
-                                "name": "damMult.Punishment",
+                                "name": "damMult.Vulnerability",
                                 "value": 10
                             }
                         ]
@@ -2025,7 +2043,7 @@
     },
     "PIONEERS_ECHO": {
         "displayName": "Pioneer's Echo",
-        "description": "Phantom Ray deals two bursts of [neutral] 150%, [water] 60% over 1 second. Decimator's increase and cap are raised to 140%.",
+        "description": "Phantom Ray deals two bursts of [neutral] 150%, [water] 60% over 1 second. Decimator's increase and cap are raised to 140% and Quick Draw's activation threshold is decreased to 2.",
         "abilities": [
             {
                 "class": "Archer",
@@ -2096,7 +2114,7 @@
     },
     "DAUNTLESS_INFERNO": {
         "displayName": "Dauntless Inferno",
-        "description": "Courage casts a series of 5 infernos that expand after the last, dealing [fire]125% each, and grants 20% resistance instead of a damage boost.",
+        "description": "Courage casts a series of 5 infernos that expand after the last, dealing [fire]150% each, and grants 20% resistance instead of a damage boost.",
         "abilities": [
             {
                 "class": "Any",
@@ -2118,7 +2136,7 @@
                                     0,
                                     0,
                                     0,
-                                    125,
+                                    150,
                                     0
                                 ]
                             },
@@ -2130,7 +2148,7 @@
                                     0,
                                     0,
                                     0,
-                                    125,
+                                    150,
                                     0
                                 ],
                                 "ignored_mults": [
@@ -2182,34 +2200,12 @@
                         ]
                     }
                 ]
-            },
-            {
-                "class": "Warrior",
-                "base_abil": 54,
-                "effects": [
-                    {
-                        "type": "raw_stat",
-                        "toggle": "Activate Luster Purge",
-                        "bonuses": [
-                            {
-                                "type": "stat",
-                                "name": "damMult.Luster Purge:20.Single Inferno",
-                                "value": 40
-                            },
-                            {
-                                "type": "stat",
-                                "name": "damMult.Luster Purge:20.First Inferno",
-                                "value": 40
-                            }
-                        ]
-                    }
-                ]
             }
         ]
     },
     "SUPERCONDUCTOR": {
         "displayName": "Superconductor",
-        "description": "Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for [thunder]225% and stunning them for 1s. You take 10% more damage for 4s.",
+        "description": "Chain Lightning channels three massive lightning bolts through you, arcing to enemies within 8 blocks for [thunder]270% and stunning them for 1s. You take 10% more damage for 4s.",
         "abilities": [
             {
                 "class": "Any",
@@ -2218,7 +2214,7 @@
                     {
                         "type": "replace_spell",
                         "name": "Superconductor",
-                        "base_spell": 20,
+                        "base_spell": 27,
                         "scaling": "melee",
                         "use_atkspd": false,
                         "display": "Total Damage",
@@ -2229,7 +2225,7 @@
                                 "multipliers": [
                                     0,
                                     0,
-                                    225,
+                                    270,
                                     0,
                                     0,
                                     0
@@ -2241,7 +2237,7 @@
                                 "multipliers": [
                                     0,
                                     0,
-                                    225,
+                                    270,
                                     0,
                                     0,
                                     0
@@ -2274,28 +2270,6 @@
                                 "type": "stat",
                                 "name": "damMult.Satsujin:20.First Lightning Bolt",
                                 "value": 100
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "class": "Warrior",
-                "base_abil": 54,
-                "effects": [
-                    {
-                        "type": "raw_stat",
-                        "toggle": "Activate Luster Purge",
-                        "bonuses": [
-                            {
-                                "type": "stat",
-                                "name": "damMult.Luster Purge:20.Single Lightning Bolt",
-                                "value": 40
-                            },
-                            {
-                                "type": "stat",
-                                "name": "damMult.Luster Purge:20.First Lightning Bolt",
-                                "value": 40
                             }
                         ]
                     }
@@ -2351,7 +2325,7 @@
                     {
                         "type": "replace_spell",
                         "name": "Orbital Chain",
-                        "base_spell": 21,
+                        "base_spell": 28,
                         "display": "Explosion Damage",
                         "parts": [
                             {
@@ -2384,7 +2358,7 @@
     },
     "EARTHEN_SPLINTER": {
         "displayName": "Earthen Splinter",
-        "description": "Quake channels nature energy into a powerful root, travelling underground and emerging under the nearest mob for [neutral]1200%",
+        "description": "Quake channels nature energy into a powerful root, travelling underground and emerging under the nearest mob for [neutral]1200%.",
         "abilities": [
             {
                 "class": "Any",
@@ -2393,7 +2367,7 @@
                     {
                         "type": "replace_spell",
                         "name": "Earthen Splinter",
-                        "base_spell": 21,
+                        "base_spell": 29,
                         "scaling": "melee",
                         "use_atkspd": false,
                         "display": "Quake Root Damage",
@@ -2418,7 +2392,7 @@
     },
     "TROLL_BARGE": {
         "displayName": "Troll Barge",
-        "description": "Quake allows you to charge forth, dealing [neutral]80% and \n[earth]20% to any mobs hit, and ending with a powerful stomp for [neutral]400% and \n[earth]150%. This will leave you vulnerable.",
+        "description": "Quake allows you to charge forth, dealing [neutral]80% and [earth]20% to any mobs hit, and ending with a powerful stomp for [neutral]400% and [earth]150%. This will leave you vulnerable.",
         "abilities": [
             {
                 "class": "Any",
@@ -2427,7 +2401,7 @@
                     {
                         "type": "replace_spell",
                         "name": "Troll Barge",
-                        "base_spell": 21,
+                        "base_spell": 30,
                         "scaling": "melee",
                         "use_atkspd": false,
                         "display": "Total Damage",
@@ -2467,28 +2441,6 @@
                         ]
                     }
                 ]
-            },
-            {
-                "class": "Warrior",
-                "base_abil": 54,
-                "effects": [
-                    {
-                        "type": "raw_stat",
-                        "toggle": "Activate Luster Purge",
-                        "bonuses": [
-                            {
-                                "type": "stat",
-                                "name": "damMult.Luster Purge:21.Quake Charge Damage",
-                                "value": 40
-                            },
-                            {
-                                "type": "stat",
-                                "name": "damMult.Luster Purge:21.Quake Stomp Damage",
-                                "value": 40
-                            }
-                        ]
-                    }
-                ]
             }
         ]
     },
@@ -2499,7 +2451,7 @@
     },
     "TIDAL_DRIFT": {
         "displayName": "Tidal Drift",
-        "description": "Flying Kick will instead send\nyou forwards.\nThis effect is limited to once per Charge cast.",
+        "description": "Flying Kick will instead send you forwards. This effect is limited to once per Charge cast.",
         "abilities": []
     },
     "SPACE_GLIDE": {
@@ -2624,7 +2576,7 @@
     },
     "HEARTBEAT": {
         "displayName": "Heartbeat",
-        "description": "Arrow Shield is locked to 2 charges but deals doubled damage.\nArrow Wall instead triples Arrow Shield damage and doubles Guardian Angels ammo.",
+        "description": "Arrow Shield is set to 2 charges but deals doubled damage. Arrow Wall instead triples Arrow Shield damage and doubles Guardian Angels ammo.",
         "abilities": [
             {
                 "class": "Archer",
@@ -2647,7 +2599,10 @@
             },
             {
                 "class": "Archer",
-                "base_abil": 23,
+                "base_abil": 9,
+                "dependencies": [
+                    23
+                ],
                 "properties": {
                     "charges": 1
                 },
@@ -2672,6 +2627,11 @@
                                 "value": 100
                             },
                             {
+                                "type": "stat",
+                                "name": "damMult.Arrow Wall:4.Single Shot",
+                                "value": 40
+                            },
+                            {
                                 "type": "prop",
                                 "abil": 9,
                                 "name": "shots",
@@ -2687,6 +2647,1192 @@
     "SPECTRAL_MEMORY": {
         "displayName": "Spectral Memory",
         "description": "Ghostly Trigger lasts until landing, but no longer increases attack speed. Its cooldown is reduced by 33%.",
+        "abilities": []
+    },
+    "MANA_SURGE": {
+        "displayName": "Mana Surge",
+        "description": "Curse instead releases a calming wave with a radius of 8 blocks. Allies affected will have their Mana Regen and Mana Steal are increased by 25% for 6s.",
+        "abilities": []
+    },
+    "DESPERATE_MEASURES": {
+        "displayName": "Desperate Measures",
+        "description": "Walk Speed increases by 1% and Jump Height increases by 2% for every 1% hp missing.",
+        "abilities": []
+    },
+    "PIROUETTE": {
+        "displayName": "Pirouette",
+        "description": "Dancing Blade enhances Dash. Dashing into an enemy now vaults you upwards and resets dash as if you touched the ground.",
+        "abilities": []
+    },
+    "FLIGHT_BURST": {
+        "displayName": "Flight Burst",
+        "description": "Arrow Storm recoil is increased and activates while grounded.",
+        "abilities": []
+    },
+    "BRUTAL_BLOW": {
+        "displayName": "Brutal Blow",
+        "description": "Armour Breaker now gives an extra +10% damage and has its cooldown reduced by 5s, but lasts half as long.",
+        "abilities": [
+            {
+                "class": "Warrior",
+                "base_abil": 8,
+                "dependencies": [],
+                "properties": {
+                    "potency": 10
+                },
+                "effects": []
+            }
+        ]
+    },
+    "CULICIDAE_CREED": {
+        "displayName": "Culicidae Creed",
+        "description": "Leap becomes fully vertical, and Spectral Hover lasts twice as long.",
+        "abilities": []
+    },
+    "SPLIT_SECOND": {
+        "displayName": "Split Second",
+        "description": "Aura now travels faster with Invigorating Wave unlocked, but no longer gives mana.",
+        "abilities": []
+    },
+    "MOB_MENTALITY": {
+        "displayName": "Mob Mentality",
+        "description": "Commander places puppets ahead of where you are facing.",
+        "abilities": []
+    },
+    "BOUND_BY_BLOOD": {
+        "displayName": "Bound by Blood",
+        "description": "Shadow Projection's teleport range, duration, and launch strength is doubled.",
+        "abilities": []
+    },
+    "LASSO": {
+        "displayName": "Lasso",
+        "description": "Grappling Hook, War Scream, and Uproot now pull enemies with much more force.",
+        "abilities": []
+    },
+    "GUNK_SHOT": {
+        "displayName": "Gunk Shot",
+        "description": "Arrow Bomb's velocity is doubled but loses -66% radius and -20% damage.",
+        "abilities": [
+            {
+                "class": "Archer",
+                "base_abil": 0,
+                "dependencies": [
+                    49
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.GunkShot:3.Arrow Bomb",
+                                "value": -20
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "NET_SHOT": {
+        "displayName": "Net Shot",
+        "description": "Bryophyte Roots is now triggered from Buckshot, doubling its slowness and damage.",
+        "abilities": [
+            {
+                "class": "Archer",
+                "base_abil": 7,
+                "dependencies": [
+                    18
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.NetShot:1.Bryophyte Roots",
+                                "value": 100
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "RIVER_OF_SOULS": {
+        "displayName": "River of Souls",
+        "description": "Phantom Ray gains massive radius, but reduced damage by 20%.",
+        "abilities": [
+            {
+                "class": "Archer",
+                "base_abil": 7,
+                "dependencies": [
+                    20
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.RiverOfSouls:1.Single Tick",
+                                "value": -20
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FINAL_GAMBIT": {
+        "displayName": "Final Gambit",
+        "description": "When Second Chance activates, all allies within 10 blocks of you get a 20% damage boost for 15s.",
+        "abilities": [
+            {
+                "class": "Warrior",
+                "base_abil": 74,
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Final Gambit",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.Potion",
+                                "value": 20
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "SLOW_BOIL": {
+        "displayName": "Slow Boil",
+        "description": "Bakal's Grasp and Enraged Blow have their caps doubled, but Corruption charges 20% as fast.",
+        "abilities": []
+    },
+    "STAGNANT_AIR": {
+        "displayName": "Stagnant Air",
+        "description": "Air Shout gains doubled area and damage, but is delayed with decreased velocity and hit rate.",
+        "abilities": [
+            {
+                "class": "Warrior",
+                "base_abil": 10,
+                "dependencies": [
+                    23
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.StagnantAir:4.Air Shout",
+                                "value": 100
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ONESELF_UNTO_ALL": {
+        "displayName": "Oneself Unto All",
+        "description": "Radiance's radius extends 4 blocks beyond Bash and buffs allies with your stats instead of theirs.",
+        "abilities": []
+    },
+    "BATTLEFIELD_BRILLIANCE": {
+        "displayName": "Battlefield Brilliance",
+        "description": "Generalist instead makes your next Main Attack deal quadruple damage, followed by a tactical retreat.",
+        "abilities": [
+            {
+                "class": "Warrior",
+                "base_abil": 999,
+                "dependencies": [
+                    22
+                ],
+                "effects": [
+                    {
+                        "type": "replace_spell",
+                        "name": "Battlefield Brilliance",
+                        "base_spell": 22,
+                        "scaling": "melee",
+                        "use_atkspd": false,
+                        "display": "Total Damage",
+                        "parts": [
+                            {
+                                "name": "Total Damage",
+                                "type": "damage",
+                                "multipliers": [
+                                    400,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ONEIRO": {
+        "displayName": "Oneiro",
+        "description": "Your maximum Mana Bank is increased by 50, but your spells now charge it by -3 less per hit.",
+        "abilities": []
+    },
+    "SOLAR_WIND": {
+        "displayName": "Solar Wind",
+        "description": "Thunderstorm disables Meteor and grants +3 thunderbolts, +3 radius and deal [neutral]100% and [thunder]110% each. Unstable now activates on Thunderstorm for 400% bonus damage.",
+        "abilities": [
+            {
+                "class": "Mage",
+                "base_abil": 0,
+                "dependencies": [
+                    88
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.SolarWind:3.Meteor Damage",
+                                "value": -100
+                            }
+                        ]
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "target_part": "Lightning Damage",
+                        "behavior": "overwrite",
+                        "multipliers": [
+                            100,
+                            0,
+                            110,
+                            0,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "target_part": "Total Damage",
+                        "base_spell": 3,
+                        "hits": {
+                            "Lightning Damage": 3
+                        }
+                    }
+                ]
+            },
+            {
+                "class": "Mage",
+                "base_abil": 87,
+                "dependencies": [
+                    88
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Unstable",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.Unstable:3.Lightning Damage",
+                                "value": 400
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "FISSURE": {
+        "displayName": "Fissure",
+        "description": "Ice Snake moves much more slowly, but deals massive knockback, [neutral]+275%, and [water]+155%.",
+        "abilities": [
+            {
+                "class": "Mage",
+                "base_abil": 9,
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 4,
+                        "target_part": "Ice Snake Damage",
+                        "behavior": "modify",
+                        "multipliers": [
+                            275,
+                            0,
+                            0,
+                            155,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "DISASSOCIATE": {
+        "displayName": "Disassociate",
+        "description": "You can now have twice the Nightcloak Knives, but they each deal 30% less damage.",
+        "abilities": [
+            {
+                "class": "Assassin",
+                "base_abil": 75,
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.Nightcloak",
+                                "value": -30
+                            }
+                        ]
+                    },
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Knives Active",
+                        "slider_max_mult": 2
+                    }
+                ]
+            }
+        ]
+    },
+    "LIGHTNING_CRASH": {
+        "displayName": "Lightning Crash",
+        "description": "Dash becomes a downward dive. Ripple has tripled height amplification and deals [neutral]250% and [thunder]100%.",
+        "abilities": [
+            {
+                "class": "Assassin",
+                "base_abil": 16,
+                "effects": [
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Blocks Fallen",
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Ripple:9.Ripple Damage"
+                        },
+                        "scaling": [
+                            24
+                        ]
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 9,
+                        "target_part": "Ripple Damage",
+                        "behavior": "overwrite",
+                        "multipliers": [
+                            250,
+                            0,
+                            100,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CHAOS_REACH": {
+        "displayName": "Chaos Reach",
+        "description": "Blood Sorrow spends 20 less points of Blood Pool and inflicts enemies with 0.3 seconds of Bleeding per hit, but no longer grants overhealth.",
+        "abilities": []
+    },
+    "LIT_FUSE": {
+        "displayName": "Lit Fuse",
+        "description": "Friendly Fire now works on Totem as well. When Totem's timer runs out, it explodes, firing 5 beams in all directions, each dealing [neutral]500%.",
+        "abilities": [
+            {
+                "class": "Shaman",
+                "base_abil": 0,
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 1,
+                        "target_part": "Lit Fuse",
+                        "multipliers": [
+                            500,
+                            0,
+                            0,
+                            0,
+                            0,
+                            0
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "CLAMBER": {
+        "displayName": "Clamber",
+        "description": "Wall Jump becomes a sheer vertical climb.",
+        "abilities": []
+    },
+    "WAVEBREAK": {
+        "displayName": "Wavebreak",
+        "description": "Meteor's [earth] damage is replaced by [water] damage.\nPsychokinesis can bounce up to 5 times, dealing [neutral]100% and [water]50% area damage, as well\nas [neutral]200% and [water]100% direct hit damage, increasing by 10% after each bounce. Mana Bank gains 3 less mana from Meteor.",
+        "abilities": [
+            {
+                "class": "Mage",
+                "base_abil": 0,
+                "properties": {
+                    "meteor_bounces": 0
+                },
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "target_part": "Meteor Damage",
+                        "multipliers": [
+                            0,
+                            -70,
+                            0,
+                            70,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "target_part": "Meteor Bounce",
+                        "multipliers": [
+                            200,
+                            0,
+                            0,
+                            100,
+                            0,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Meteor Bounces",
+                        "slider_max": 5,
+                        "output": {
+                            "type": "prop",
+                            "name": "meteor_bounces",
+                            "abil": 0
+                        },
+                        "scaling": [
+                            1
+                        ]
+                    },
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Meteor Bounces",
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Wavebreak:3.Meteor Bounce"
+                        },
+                        "scaling": [
+                            4
+                        ]
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "target_part": "Total Damage",
+                        "hits": {
+                            "Meteor Bounce": "0.meteor_bounces"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "FLAIN_REMNANTS": {
+        "displayName": "Flain Remnants",
+        "description": "Destroying a Puppet with Friendly Fire calls forth a Remnant. (Max 5) Each Remnant lasts for 20 seconds, fires an explosive tracking projectile every second that deals [neutral]95%, and increases your Main Attack damage by 15%.",
+        "abilities": [
+            {
+                "class": "Shaman",
+                "base_abil": 60,
+                "properties": {
+                    "remnant_count": 0,
+                    "remnant_atkspd": 1
+                },
+                "effects": [
+                    {
+                        "type": "replace_spell",
+                        "name": "Flain Remnants",
+                        "base_spell": 24,
+                        "display": "Total Remnant DPS",
+                        "parts": [
+                            {
+                                "name": "Remnant Hit",
+                                "multipliers": [
+                                    95,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "name": "Remnant DPS",
+                                "hits": {
+                                    "Remnant Hit": "60.remnant_atkspd"
+                                }
+                            },
+                            {
+                                "name": "Total Remnant DPS",
+                                "hits": {
+                                    "Remnant DPS": "60.remnant_count"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Active Remnants",
+                        "slider_max": 5,
+                        "output": [
+                            {
+                                "type": "prop",
+                                "abil": 60,
+                                "name": "remnant_count"
+                            }
+                        ],
+                        "scaling": [
+                            1
+                        ]
+                    },
+                    {
+                        "type": "stat_scaling",
+                        "slider": false,
+                        "inputs": [
+                            {
+                                "type": "prop",
+                                "abil": 60,
+                                "name": "remnant_count"
+                            }
+                        ],
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.Remnant:0.Single Beam"
+                        },
+                        "scaling": [
+                            15
+                        ]
+                    }
+                ]
+            },
+            {
+                "class": "Shaman",
+                "base_abil": 35,
+                "dependencies": [
+                    60
+                ],
+                "properties": {},
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Bullwhip",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.Bullwhip:23.Remnant Hit",
+                                "value": "35.damage_boost"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "class": "Shaman",
+                "base_abil": 64,
+                "dependencies": [
+                    60
+                ],
+                "properties": {},
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Invigorate Puppets",
+                        "bonuses": [
+                            {
+                                "type": "prop",
+                                "abil": 60,
+                                "name": "remnant_atkspd",
+                                "value": 0.3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ICE_STORM": {
+        "displayName": "Ice Storm",
+        "description": "Arrow Shield and Snowstorm's radius' increase by 6 blocks. Arrow Shield's charges are doubled, but no longer give defense.",
+        "abilities": [
+            {
+                "class": "Archer",
+                "base_abil": 9,
+                "dependencies": [
+                    9
+                ],
+                "properties": {
+                    "range": 6,
+                    "charges": 3,
+                    "resistance": -20
+                },
+                "effects": []
+            }
+        ]
+    },
+    "REGICIDES_VANTAGE": {
+        "displayName": "Regicide",
+        "description": "Your deal 2% more damage for every block you are away from your target (Max 120%).",
+        "abilities": [
+            {
+                "class": "Archer",
+                "base_abil": 999,
+                "effects": [
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Distance Rampup",
+                        "slider_max": 60,
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.RegicidesVantage"
+                        },
+                        "scaling": [
+                            2
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "DIVINE_RIGHT": {
+        "displayName": "Divine Right",
+        "description": "Your Maximum Health is reduced by 60%. For every 100 HP lost, Sacred Surge's damage is increased by 5%.",
+        "abilities": [
+            {
+                "class": "Warrior",
+                "base_abil": 34,
+                "effects": [
+                    {
+                        "type": "stat_scaling",
+                        "slider": false,
+                        "inputs": [
+                            {
+                                "type": "stat",
+                                "name": "hpBonus"
+                            },
+                            {
+                                "type": "stat",
+                                "name": "hp"
+                            }
+                        ],
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.DivineRight:3.Smite Damage"
+                        },
+                        "scaling": [
+                            0.03,
+                            0.03
+                        ]
+                    },
+                    {
+                        "type": "stat_scaling",
+                        "slider": false,
+                        "positive": false,
+                        "inputs": [
+                            {
+                                "type": "stat",
+                                "name": "hpBonus"
+                            },
+                            {
+                                "type": "stat",
+                                "name": "hp"
+                            }
+                        ],
+                        "output": {
+                            "type": "stat",
+                            "name": "hp"
+                        },
+                        "scaling": [
+                            -0.6,
+                            -0.6
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "MANIC_EDGE": {
+        "displayName": "Manic Edge",
+        "description": "While vanished, lose 5% of your max mana per second. Increase Surprise Strike's damage bonus by 5% per mana lost from this effect, up to 130%.",
+        "abilities": [
+            {
+                "class": "Assassin",
+                "base_abil": 5,
+                "dependencies": [
+                    21
+                ],
+                "effects": [
+                    {
+                        "type": "stat_scaling",
+                        "slider": true,
+                        "slider_name": "Mana Lost",
+                        "slider_max": 26,
+                        "output": {
+                            "type": "stat",
+                            "name": "damMult.SurpriseStrike"
+                        },
+                        "scaling": [
+                            5
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "PSYCHIC_OBSESSION": {
+        "displayName": "+Psychic Obsession",
+        "description": "Your Totems will now all move towards you at an increased rate, if you are using Mask of the Heretic.",
+        "abilities": []
+    },
+    "BURNT_SHADOWS": {
+        "displayName": "Burnt Shadows",
+        "description": "Buried Light burns faster and is controlled by the direction you face. Enemies in the light instead take [fire]80% and recieve 10% more damage.",
+        "abilities": [
+            {
+                "class": "Warrior",
+                "base_abil": 89,
+                "properties": {
+                    "hitsPerSecond": 2
+                },
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 10,
+                        "target_part": "Damage per Tick",
+                        "behavior": "overwrite",
+                        "multipliers": [
+                            0,
+                            0,
+                            0,
+                            0,
+                            80,
+                            0
+                        ]
+                    },
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Burnt Shadows",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.Vulnerability",
+                                "value": 10
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "THREE_BODIES": {
+        "displayName": "Three Bodies",
+        "description": "Pressure grants additional effects: Bash gains +4 radius, Uppercut gains [water]+75%, and War Scream's buff gains +12s duration",
+        "abilities": [
+            {
+                "class": "Warrior",
+                "base_abil": 10,
+                "dependencies": [
+                    78
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Pressure",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "wConvBase:3.Uppercut",
+                                "value": 75
+                            },
+                            {
+                                "type": "prop",
+                                "abil": 0,
+                                "name": "aoe",
+                                "value": 4
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "COSMIC_CAPTURE": {
+        "displayName": "Cosmic Capture",
+        "description": "Meteor falls twice as fast, has +3 blast radius, and pulls enemies upon impact.",
+        "abilities": []
+    },
+    "GRAND_INFLUENCE": {
+        "displayName": "Grand Influence",
+        "description": "While above 80% maximum health, nearby allies gain 15% increased health gain from all sources and 25% Walk Speed.",
+        "abilities": []
+    },
+    "IGNITION_WHIRLWIND": {
+        "displayName": "Ignition Whirlwind",
+        "description": "Blazing Powder adds +8 rotations to spin attack, but lowers the damage by 75%.",
+        "abilities": [
+            {
+                "class": "Assassin",
+                "base_abil": 0,
+                "dependencies": [
+                    32
+                ],
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 1,
+                        "target_part": "Total Damage",
+                        "hits": {
+                            "Spin Attack": 8
+                        }
+                    },
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.IgnitionWhirlwind:1.Spin Attack",
+                                "value": -75
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "INCISION_ELEGY": {
+        "displayName": "Incision Elegy",
+        "description": "Lacerate becomes a forward-moving projectile, but no longer lunges.",
+        "abilities": []
+    },
+    "OLD_SPARK": {
+        "displayName": "Old Spark",
+        "description": "Whirlwind transforms into a travelling projectile, exploding on contact and knocking enemies into the air. Hold shift to rise with them.",
+        "abilities": []
+    },
+    "DEATH_SENTENCE": {
+        "displayName": "Death Sentence",
+        "description": "Courage will immediately combust Guardian Angels, dealing [neutral]4000% and enkindling Buckshot's arrows with [neutral]20% Main Attack damage.",
+        "abilities": [
+            {
+                "class": "Archer",
+                "base_abil": 9,
+                "dependencies": [
+                    23
+                ],
+                "effects": [
+                    {
+                        "type": "replace_spell",
+                        "name": "Death Sentence",
+                        "base_spell": 25,
+                        "display": "Total Damage",
+                        "parts": [
+                            {
+                                "name": "Combustion Damage",
+                                "type": "damage",
+                                "multipliers": [
+                                    4000,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "name": "Buckshot Enkindle Damage",
+                                "type": "damage",
+                                "scaling": "melee",
+                                "use_atkspd": false,
+                                "multipliers": [
+                                    20,
+                                    0,
+                                    0,
+                                    0,
+                                    0,
+                                    0
+                                ]
+                            },
+                            {
+                                "name": "Total Damage",
+                                "type": "total",
+                                "hits": {
+                                    "Combustion Damage": 1,
+                                    "Buckshot Enkindle Damage": 75
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BLINDING_LIGHTS": {
+        "displayName": "Blinding Lights",
+        "description": "All Ophanim orbs deal 250% increased damage, gain +5 Crystallize per hit, and instead orbit around you. Using Main Attack causes all orbs to travel faster.",
+        "abilities": [
+            {
+                "class": "Mage",
+                "base_abil": 22,
+                "properties": {
+                    "blinding_lights_atkrate": 0.5
+                },
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.BlindingLights:3.Per Orb",
+                                "value": 250
+                            }
+                        ]
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "display": "Total Orb DPS",
+                        "target_part": "Total Orb DPS",
+                        "hits": {
+                            "Per Orb DPS": "22.num_orbs"
+                        }
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "target_part": "Per Orb DPS",
+                        "hits": {
+                            "Per Orb": "22.blinding_lights_atkrate"
+                        },
+                        "hide": true
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "target_part": "Maximum Orb DPS",
+                        "hits": {
+                            "Per Orb": "22.num_orbs"
+                        }
+                    },
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 3,
+                        "target_part": "Per Melee (max)",
+                        "hits": {
+                            "Per Orb": 0
+                        },
+                        "hide": true
+                    },
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Blinding Lights",
+                        "bonuses": [
+                            {
+                                "type": "prop",
+                                "abil": 45,
+                                "name": "atk_rate",
+                                "value": 0.3
+                            },
+                            {
+                                "type": "prop",
+                                "abil": 22,
+                                "name": "blinding_lights_atkrate",
+                                "value": 0.3
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "ORBWALK": {
+        "displayName": "Orbwalk",
+        "description": "Lightweaver Orbs gain +1 area of effect, [neutral]20%, and [air]20%, but move slower.",
+        "abilities": [
+            {
+                "class": "Mage",
+                "base_abil": 45,
+                "properties": {
+                    "atk_rate": -0.214285714286
+                },
+                "effects": [
+                    {
+                        "type": "add_spell_prop",
+                        "base_spell": 5,
+                        "target_part": "Single Orb",
+                        "behavior": "modify",
+                        "multipliers": [
+                            20,
+                            0,
+                            0,
+                            0,
+                            0,
+                            20
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "UNSTABLE_REACTION": {
+        "displayName": "Unstable Reaction",
+        "description": "Judrajim no longer ramps in damage after each hit. When it expires, it releases 115% of its potential in an explosion of 20 blocks.",
+        "abilities": [
+            {
+                "class": "Mage",
+                "base_abil": 23,
+                "dependencies": [
+                    70
+                ],
+                "properties": {},
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.UnstableReaction:10.Scaled Tick",
+                                "value": 15
+                            },
+                            {
+                                "type": "stat",
+                                "name": "damMult.UnstableReaction:10.Ramp Tick",
+                                "value": 15
+                            },
+                            {
+                                "type": "stat",
+                                "name": "damMult.UnstableReaction:10.Ramp Base",
+                                "value": 15
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "LIVING_MUSEUM": {
+        "displayName": "Living Museum",
+        "description": "Players within 10 blocks of Mirage, Shadow, or Another Self clones will get 20% resistance, and be healed 10%, 20%, or 50% max health when the respective clone is destroyed.",
+        "abilities": [
+            {
+                "class": "Assassin",
+                "base_abil": 999,
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Living Museum",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "defMult.LivingMuseum",
+                                "value": 20
+                            }
+                        ]
+                    },
+                    {
+                        "type": "replace_spell",
+                        "name": "Living Museum",
+                        "base_spell": 26,
+                        "display": "Mirage Clone Heal",
+                        "parts": [
+                            {
+                                "name": "Mirage Clone Heal",
+                                "power": 0.1
+                            },
+                            {
+                                "name": "Shadow Clone Heal",
+                                "power": 0.2
+                            },
+                            {
+                                "name": "Another Self Clone Heal",
+                                "power": 0.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "STARCROSSED": {
+        "displayName": "Starcrossed",
+        "description": "Hitting an enemy with Haunting Memory makes it Linked. You can have up to two targets Linked at once. When one Linked enemy takes damage, the other Linked enemy takes that damage as well.",
+        "abilities": []
+    },
+    "OUTBREAK": {
+        "displayName": "Outbreak",
+        "description": "When you are within Totem range, the Totem becomes Primed, adding 4% of your Poison ID every 0.25s. Hitting a Primed totem with Uproot will create a 6 block wide poison cloud instantly dealing the stored Poison.",
+        "abilities": []
+    },
+    "ENLIGHTENMENT": {
+        "displayName": "Enlightenment",
+        "description": "25% chance for spells to cost no mana and instead refund 25% of their original cost.",
+        "abilities": []
+    },
+    "HEROINES_BLESSING": {
+        "displayName": "Heroine's Blessing",
+        "description": "Devout Union gains +25% damage redirection and +8 radius. Additionally, Enlightenment now only requires 1 broken mantle per mantle given to allies.",
+        "abilities": []
+    },
+    "ELVEN_CURRENT": {
+        "displayName": "Elven Current",
+        "description": "Escape can be re-cast twice in mid-air.",
+        "abilities": []
+    },
+    "TORMENT_LITURGY": {
+        "displayName": "Torment Liturgy",
+        "description": "Shadow Siphon now immediately refreshes Vanish when triggered, but reduces Surprise Strike's multiplier by -30%.",
+        "abilities": [
+            {
+                "class": "Assassin",
+                "base_abil": 5,
+                "dependencies": [
+                    21
+                ],
+                "effects": [
+                    {
+                        "type": "raw_stat",
+                        "toggle": "Activate Surprise Strike",
+                        "bonuses": [
+                            {
+                                "type": "stat",
+                                "name": "damMult.SurpriseStrike",
+                                "value": -30
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "BACKSTEP": {
+        "displayName": "Backstep",
+        "description": "Charge and Teleport will travel backwards.",
         "abilities": []
     }
 }
