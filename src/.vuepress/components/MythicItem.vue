@@ -218,6 +218,9 @@ const idMap = {
   rDefPct: {name: 'Elemental Defence', suffix: '%'},
   atkTier: {name: 'Attack Speed',suffix:' Tier'},
   mainAttackRange: {name: 'Main Attack Range', suffix: '%'},
+  damPct: {name: 'Damage', suffix: '%'},
+  defPct: {name: 'Defence', suffix: '%'},
+  rMdRaw: {name: 'Elemental Main Attack Damage', suffix: ''},
 };
 
 // 计算装备的所有鉴定词条

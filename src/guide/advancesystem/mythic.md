@@ -1469,7 +1469,9 @@ IT组真的很希望玩家玩Hybrid Bolt
 
 + mid名字还挺帅的 什么为什么刚注意到
 
-+ 
++ 实在想不出骚话了。
+
++ 末世拼尽全力做到了500k
 :::
 
 
@@ -1840,12 +1842,57 @@ hana：别别别
 
 <MythicItem name="Vengeance" />
 
+讨论度很少的大爆武器
+
+我说不当网红好啊，别像隔壁Monster和Halcyon一样搞得所有组件全部大涨价。
+
+heavy melee本身玩法非常小众(相比之下)，但碍不住它的伤害真的高啊。
+
+hm的QOL比较堪忧，需要队友，但如果BOSS房能暴击就能让队友直呼什么B伤害~~这是笔者真实经历~~
+
+:::details 评论区
++ 1刀12m 重塑hm传奇
+
++ 一刀给raid boss裤衩子剁开线了
+
++ 大数字爱好者
+
++ 1刀下去暴击了顶别人20秒的输出
+
++ 一爪超人
+
++ 大数字制造者
+
++ 皮炎收割者
+
+:::
+
 ### Architect
 
 <MythicItem name="Architect" />
 
+网红武器二代目
+
+怎么网红武器全是你们匕首？？？
+
+wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
+
+日常体验很爽，we随便单刷，raid的话除了tcc这种非常需要灌伤害的都可以随便打
+
+~~tcc不是不能打，是打起来感觉很无力~~
 
 
+伤害比他高的只有cata，生存比他高的没有
+
+:::details
++ trickster拉了但是建筑师撑起来了
+
++ ：要真因为wintel被nerf了我杀了他的马.jpg
+
++ 名垂千古圣号巍巍神威赫赫win圣帝君都有人黑啊，nb。。。
+
++ ascended masterwork nullification
+:::
 ## 萨满
 
 ### Aftershock
@@ -2207,10 +2254,54 @@ reson的强度在血萨加强之前就有了，非常彪悍的major设计硬抬�
 
 <MythicItem name="Transfiguration" />
 
+非常小众变态的武器
+
+变态指的是队友的精神污染
+
+很几把吵。
+
+而且打起来没时间平a，所以major=白板
+
+召批操作量已经max了怎么你mid还要我考虑更多的东西
+
+伤害不低，但是major有点搞笑
+
+>就是你玩这个东西肯定是为了major或者hybrid
+>但实际上环境不允许你这么玩 这么玩输出还会变低
+>那major就变成了白板 最后这武器剩下的就是1087base和300raw
+
+:::details 评论区
++ eta家族的废物
+
++ 这武器比riptide还吵
+
++ 怪怪的mid 数值也很一般
+:::
 
 ### Fate
 
 <MythicItem name="Fate" />
+
+we removed ritualist. we gave up.
+
+名字叫命运其实是指武器和分支的命运一样都是无人在意
+
+目前就是没啥特色，也没有数值，属于既不好玩也不强
+
+:::details 评论区
++ 没见人用过
+
++ 战未来最有希望的人物
+
++ 四字神话.jpg
+
++ who？
+
++ 其他热门神话都有changelog，我们的fate可以说是一刀未动，和ritualist一起被遗忘
+
++ 命运的命运....是什么呢
+:::
+
 
 ## 装备
 
