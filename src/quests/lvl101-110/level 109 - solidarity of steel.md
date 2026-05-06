@@ -110,6 +110,8 @@ icon: route
 
 将地上的背包拿起来，去附近收集有用的物品。
 
+一共有四种物品，每种拿一样即可：
+
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-19-11.png)
 
 
