@@ -144,16 +144,16 @@ Content team，制作wynncraft服务器内容的人(有好几种)，在服务器
 moderator，服务器管理员或志愿者(后者职能是帮助玩家解决bug之类的问题)
 
 ### **ajb**
-[A jounery beyound](/quests/lvl91-100/level%20100%20-%20A%20Journey%20Beyond.html)，重要任务名缩写
+[A jounery beyound](/quests/lvl91-100/level%20100%20-%20a%20journey%20beyond.html)，重要任务名缩写
 
 ### **ajf**
-[A jounery further](/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)，重要任务名缩写
+[A jounery further](/quests/lvl101-110/level%20101%20-%20a%20journey%20further.html)，重要任务名缩写
 
 ### **tbp**
-[The breaking point](/quests/lvl91-100/level%2097%20-%20The%20Breaking%20Point.html)，重要任务名缩写
+[The breaking point](/quests/lvl91-100/level%2097%20-%20the%20breaking%20point.html)，重要任务名缩写
 
 ### **ahc**
-[A hunter’s calling](/quests/lvl101-110/level%20103%20-%20A%20hunter’s%20calling.html)，重要任务名缩写
+[A hunter’s calling](/quests/lvl101-110/level%20103%20-%20a%20hunter’s%20calling.html)，重要任务名缩写
 
 ### **rol**
 指系列任务光之领域，亦或指光之领域地名
