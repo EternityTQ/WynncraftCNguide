@@ -107,7 +107,7 @@ anni作为游戏最终局的战斗，对队伍配置有着相当高的要求。
 + str
 + dex
 
-关于配方这里暂时不提及(主要是编者没有。)，你可以在anni开始前在市场上购买自制消耗品。
+你可以在anni开始前在市场上购买自制消耗品。
 
 在组队伍前，比较建议在anni开始前1-2个小时选择一个人少的新开的服务器，在里面进行组队。
 
@@ -117,11 +117,45 @@ anni作为游戏最终局的战斗，对队伍配置有着相当高的要求。
 
 当anni开始前十分钟，队伍即可前往传送门处集合。目前玩家基本会选择在剩余20-30秒时在倒计时下方使用卷轴消耗品
 
-配方自存：
+消耗品配方推荐：
 
-https://wynnbuilder-beta.github.io/crafter/#4mWCqCqmWmWmWqc00
+[卷轴——Strength](https://wynnbuilder-beta.github.io//crafter/#4WEWEWEWEWEWEKg00)
 
-https://wynnbuilder-beta.github.io/crafter/#44eCqCq4e4eCqqc00
+[卷轴——Dexterity](https://wynnbuilder-beta.github.io//crafter/#4OGOGOGOGOGOGKg00)
+
+[卷轴——Intelligence & Spell Damage](https://wynnbuilder-beta.github.io//crafter/#44N4N4N4N4N4NKg00)
+
+[卷轴——Defense & HP Bonus](https://wynnbuilder-beta.github.io//crafter/#4yEyEyEyEyEyEKg00)
+
+[卷轴——Agility](https://wynnbuilder-beta.github.io//crafter/#48N8N8N8N8N8NKg00)
+
+[卷轴——Raw Spell Damage](https://wynnbuilder-beta.github.io//crafter/#4iPCqCqiPiPiPKg00)
+
+[卷轴——Mana Regen](https://wynnbuilder-beta.github.io//crafter/#4mRmRmRmRmRmRKg00)
+
+[卷轴——Rainbow Damage(二星原料注意)](https://wynnbuilder-beta.github.io//crafter/#4KdCqCqKdKdCqKgW0)
+
+[卷轴——Elemental Damage & Heal Effectiveness](https://wynnbuilder-beta.github.io//crafter/#44nCqCq4n4n4nKg00)
+
+[卷轴——Elemental Defense](https://wynnbuilder-beta.github.io//crafter/#40uCqCq0u0u0uKg00)
+
+[药水——Spell Damage](https://wynnbuilder-beta.github.io/crafter/#4mWCqCqmWmWmWqc00)
+
+[药水——Rainbow Damage](https://wynnbuilder-beta.github.io/crafter/#44eCqCq4e4eCqqc00)
+
+[药水——HP Bonus](https://wynnbuilder-beta.github.io//crafter/#4aoCqCqaoaoaoig00)
+
+[药水——Defense & Agility](https://wynnbuilder-beta.github.io//crafter/#4aKaKaKaKaKaKig00)
+
+[药水——Mana Regen](https://wynnbuilder-beta.github.io//crafter/#4eyeyeyeyeyeyig00)
+
+[食物——Health Bonus(扣HPR注意)](https://wynnbuilder-beta.github.io//crafter/#4WKWKWKWKWKWK4h00)
+
+[食物——Health Regen(于上述HP食物对冲)](https://wynnbuilder-beta.github.io//crafter/#4KsKsKsKsKsKs4h00)
+
+[食物——True Rainbow Food](https://wynnbuilder-beta.github.io//crafter/#4GoKnKnKnKnKn4h00)
+
+
 
 ### 战斗中
 
