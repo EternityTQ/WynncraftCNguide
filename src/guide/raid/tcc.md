@@ -340,6 +340,15 @@ Colossal Shards会向玩家发射激光，Onyx Axons会向范围内的玩家发�
 
 Pesky Peridotites带有原版的发光效果。
 
+:::warning
+这个页面有待重构，这里只是临时提示。
+
+在巨像血量降至一定程度后，场地中后方将会刷新colossus core，并且附带提示。
+
+core将会给巨像提供大量抗性，如未及时清理，会对输出造成很大影响。
+
+:::
+
 当Canyon Colossus被击败后，它会倒在竞技场的平台上。当出现“Raid Completed”的提示后，玩家会被传送至战利品房。
 
 ### **过关技巧**

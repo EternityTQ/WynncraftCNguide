@@ -116,6 +116,15 @@ icon: hat-wizard
 
 :::
 
+:::tip 关于下文的"续航"
+五维图的续航中，如果该职业能回血，则"续航"指的是回复血量的能力，但也会参考这个职业需要多少回转。
+
+如果不能回血，那么指的就是需要多少回转。
+
+续航能力越强，职业要的回转水平就越低。
+
+:::
+
 
 ### 战士
 ::: tabs
@@ -124,15 +133,50 @@ icon: hat-wizard
 <ClientOnly>
 <jc name="Fallen"/>
 </ClientOnly>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
 腐化者拥有战士分支中最高的输出，并且会在受伤时变得更加强大
 
 腐化者的机制为施放战吼进入腐化状态
 
 期间根据失去生命值提升额外攻击，并且失去所有恢复手段
 
-腐化者的终极技能允许玩家利用血量代替法力施法
+腐化者的技能允许玩家利用血量代替法力施法
 
 这意味着腐化者在拥有极高伤害的同时，也会有极高的风险，需要一定的操作能力
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+首先，强烈建议携带一把拿得起的副手，这样需要取消腐化状态时，切到副手即可快速取消腐化状态。
+
+fallen通常进腐化后，用443或者1313的循环，慢慢把血烧到你觉得合适的时候切出腐化状态即打完一轮。
+
+实战较为自由，但需要注意腐化期间需要命中足够多次怪物，或者击杀足够多的怪物，才能保证切出腐化状态后能及时回满状态。
+
+尽量不要非满血进腐化，比较亏。
+
+注意不要把血烧的太极限了，容易被秒，按笔者自己的感受烧到剩余25%血再切出腐化即可。
+
+
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+fallen在目前的版本中地位实在是很差。
+
+历经2.1整个版本的不停削弱，直到2.2新版本大部分职业都吃到新技能树的红利的情况下，fallen仍然没有半点长进。
+
+简单来说就是，它的输出能力配不上它的生存代价。
+
+大招据说还可以，但问题是放不出来，而且触发方式有点费劲。
+
+总而言之，fallen在目前的版本难以成为输出，能不能打过其他职业是个问题。
+
+~~战士真的没有多少能拿的出来的输出了~~
+
+
+
 <ClientOnly>
 <ks name="Fallen"/>
 </ClientOnly>
@@ -140,13 +184,62 @@ icon: hat-wizard
 <ClientOnly>
 <jc name="BattleMonk"/>
 </ClientOnly>
+
+
+<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
 武道士拥有游戏内独特的技能循环与操作机制，能轻松的在长线作战中维持持续输出能力，但有一定的上手难度
 
-其独特的技能机制允许武道士在有序操作下每第三个技能仅消耗1点法力，搭配斧踢(上挑蓝耗增加，伤害增加)可以在低蓝耗的技能循环中打出高输出
+武道士可以通过合适的技能施放次序，让循环中每施放3个不同技能就能让第3个技能吃到一次强化效果
 
-当前版本，即使将武道士的关键技能都点亮，仍然会有较多技能点富余，这允许玩家进行技能树之间的搭配
+受到强化的技能仅需1蓝耗，并且能爆发出更强的能力。
 
-武道士更需要的是玩家的游戏思路，而非操作
+通过这种方式，武道士不仅能减少技能蓝耗，还能通过合适的手法来增强自身的伤害。
+
+简单来说，是个手法角色。
+
+
+
+<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+武道士的技能手法具体说起来，非常费劲。
+
+以下是一个可供参考的循环，俗称跳跳虎(因为每次uppercut都会跳起来)：
+
+4 1 3 **3** (确保用强化uppercut启动循环)
+
+4 1 **4** 1 3 **1** (强化战吼接强化bash)
+
+3 4 **1** (基础循环，强化bash)
+
+4 3 **4** 1 3 **1** (没强化战吼了用这个)
+
+简而言之，多面手的手感需要读者自己在实战中多加尝试，习惯了之后就会好很多了。
+
+
+
+
+<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+比隔壁fallen舒适的同时，伤害也没人家fallen高。
+
+主打一个qol
+
+但真的也很难上桌，不配etw就完全没伤害，很难想象2.2了居然还有这种大职业存在。
+
+大招很几把搞笑，你已急哭，推荐开完大切两次F5看看。
+
+打world event还够看，要是打raid的话就不得不try hard了。
+
+目前bmonk主要还是玩idol居多，而且主要也只有idol能转的起来。
+
+很难顶。
+
+噢，但不得不说bmonk跑lr还挺舒适的。
+
+手法职业真的很难玩。
+
+
 <ClientOnly>
 <ks name="Battle Monk"/>
 </ClientOnly>
@@ -154,6 +247,9 @@ icon: hat-wizard
 <ClientOnly>
 <jc name="Paladin"/>
 </ClientOnly>
+
+<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
 圣骑士能达到比另外两条技能分支更高的基础抗性，这也意味着圣骑士拥有全游戏最高的基础抗性
 
 防御能力方面，圣骑士拥有更高基础抗性的同时，可以通过战吼召唤格挡70%伤害的小盾，亦能通过秘银皮肤获得完全的击退抗性
@@ -165,6 +261,11 @@ icon: hat-wizard
 同时，圣骑士还能消耗神圣之力，为周围友军生成宝贵的金血资源，最高可达一倍的HP
 
 圣骑士在版本更新后，也拥有了不俗的输出，是一个能打能抗的多边形角色
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Paladin"/>
 </ClientOnly>
@@ -193,6 +294,11 @@ icon: hat-wizard
 并且除了BOSS之外，大多数情况你都看不到其他怪物能叠到满级风印，如果出现了小怪叠满了风印，这时候就得想想是不是你自己的问题了。
 
 总的来说，时空行者是一名做不好工作的输出职业，现版本中存在的意义就是给其他两条分支提供风印的技能点(俗称风奴)
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Riftwalker"/>
 </ClientOnly>  
@@ -212,6 +318,11 @@ icon: hat-wizard
 圣光使者的终极大招开启后，可以持续恢复周围友军的生命值和法力，并且可以对前方敌人持续造成大量伤害。
 
 总的来说，圣光使者在战斗时通常是一名非常优秀的辅助职业。在其他输出职业不慎死了个干净时，圣光使者还往往担任兜底的角色。
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 
 
 <ClientOnly>
@@ -231,6 +342,11 @@ icon: hat-wizard
 奥术法师的终极技能将在奥术法师一次性转换大量法力的同时，无蓝耗迸发出先前已释放过的数个技能，达成爆发式伤害，同时又能继续为法力储备充能
 
 输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Arcanist"/>
 </ClientOnly>
@@ -257,6 +373,11 @@ icon: hat-wizard
 但代价是，闪击射手的技能树非常匮乏法力的回转，且其本身是一个极其依赖回转的职业。
 
 这就导致你的构筑必须要极高的回转，否则玩起来会相当的难受。
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Boltslinger"/>
 </ClientOnly>
@@ -275,6 +396,11 @@ icon: hat-wizard
 其大招能够召唤大型冰阵，对周围的怪物造成大范围的减速和削弱，尽管似乎没什么用。
 
 陷阱师的技能树提供了大量的法力回转，且陷阱师自身也不会频繁释放技能，因此基本上什么构筑都能很舒服地玩陷阱师，只是伤害可能不是很可观。
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Trapper"/>
 </ClientOnly>
@@ -290,6 +416,11 @@ icon: hat-wizard
 其箭雨技能也将被转化为特殊的激光，没有后坐力的同时精准度更高，更容易维持专注
 
 鹰眼的终极技能~~虽然没什么用~~可以在叠满专注时化身雷霆战机~~飞行木桩~~造成高额爆发~~并牺牲持续输出能力~~
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Sharpshooter"/>
 </ClientOnly>
@@ -308,6 +439,11 @@ icon: hat-wizard
 但是由于MC本身的机制限制，在部分战斗(如TCC BOSS战)中背刺的判定很诡异，甚至无法触发
 
 游戏后期的影步者能轻松打出六位数甚至七位数的单次爆发输出
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Shadestepper"/>
 </ClientOnly>
@@ -322,6 +458,11 @@ icon: hat-wizard
 现版本的诡术师爆发伤害十分可观，甚至可以比肩隔壁的shade，但是空窗期较为乏力，且非常注重熟练度。
 
 总得来说，诡术师所需的操作难度是极大的。
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Trickster"/>
 </ClientOnly>
@@ -338,6 +479,11 @@ icon: hat-wizard
 尽管如此，凌空客还是需要注意使用多重击来对敌人造成补充伤害。
 
 当前版本的凌空客较为尴尬，输出显得不是很足，操作感倒是拉满了。
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Acrobat"/>
 </ClientOnly>
@@ -368,6 +514,11 @@ icon: hat-wizard
 其还可以通过进入指挥、鞭挞等特殊状态来提高召唤物的伤害
 
 相比隔壁各方面都极其优秀的血萨，召唤师尽管略逊一筹，但自身机制优秀，玩法舒适，适合新手萨满入手
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 
 
 <ClientOnly>
@@ -382,6 +533,11 @@ icon: hat-wizard
 在每一个圣假面的加持之下，圣祭司的技能也会获得不同的加成，而面具能力会牺牲圣祭司的其中一个技能：uproot
 
 圣祭司的终极技能则允许其在特定条件下召唤觉醒假面一段时间，觉醒假面拥有所有圣假面的增益，但会清除其减益
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Ritualist"/>
 </ClientOnly>
@@ -402,6 +558,11 @@ icon: hat-wizard
 血教徒可以通过平A对敌人施加流血状态。敌人处于流血状态时，会持续受到伤害，并填充血池。当自身流失生命时，还会对周围处于流血状态下的敌人造成伤害。
 
 总得来说，血教徒是一位输出辅助两手抓的T0职业，缺点是需要玩家对游戏有所理解，否则容易把自己抽干，~~然后嫌弃这个职业怎么这么菜~~
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Acolyte"/>
 </ClientOnly>

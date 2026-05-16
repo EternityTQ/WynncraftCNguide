@@ -175,5 +175,5 @@ SUN，anni在血量掉至一定阶段时会在头顶召唤SUN，如果不及时�
 
 最重要的是 Corrupted Caches ，其只有5%的几率掉落，能开出五把黑神话中的随机一把。
 
-
+![](/assets/img/worldevent.md-05-08-17-15-37.png)
 

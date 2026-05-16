@@ -29,7 +29,7 @@ Asp分为三个等级：<font color=aqua>Legendary</font>、<font color=FF5555>F
 
  <font color=FF5555>Fabled</font>主要对分支职业的技能点进行一定程度的加强
 
-　<font color=purple>Mythic</font>为特殊asp，每个<font color=purple>Mythic Aspect</font>都对应着一个分支职业，并大幅度加强该分支职业的核心机制。需要注意的是，每个存档仅限同时装备一件<font color=purple>Mythic Aspect</font>。
+　<font color=purple>Mythic</font>为特殊asp，每个<font color=purple>Mythic Aspect</font>都对应着一个分支职业，并大幅度加强该分支职业的核心机制。以及还有特殊的职业通用aspect，主要加强大招。需要注意的是，每个存档仅限同时装备一件<font color=purple>Mythic Aspect</font>。
 
 ## 获取渠道
 

@@ -3,14 +3,14 @@
         "id": "Fallen",
         "name": "Fallen 腐化者",
         "color": "#FF5555",
-        "description": "拥有极高输出的狂战士，通过战吼进入腐化状态，牺牲恢复能力并利用血量代替法力施法。在刀尖上起舞，受伤越重，力量越强。",
+        "description": "拥有高输出的狂战士，通过战吼进入腐化状态，牺牲恢复能力并利用血量代替法力施法。在刀尖上起舞，受伤越重，力量越强。",
         "tags": [
             "近战",
             "爆发",
             "高风险"
         ],
         "stats": {
-            "output": 5,
+            "output": 4,
             "survival": 1,
             "sustain": 4,
             "difficulty": 5,
@@ -57,17 +57,17 @@
         "id": "Riftwalker",
         "name": "Riftwalker 时空行者",
         "color": "#18c7f0",
-        "description": "兼顾治疗与输出的法师，利用传送在战场穿梭。极度依赖叠加“风印”来暖机输出，常作为辅助为队友提供增益。",
+        "description": "兼顾治疗与输出的法师，利用传送在战场穿梭。极度依赖叠加“扭曲”来暖机输出，拥有极其灵活的机动性和极其强大的伤害。",
         "tags": [
-            "远程",
-            "传送",
-            "辅助"
+            "暖机",
+            "持续输出",
+            "续航"
         ],
         "stats": {
-            "output": 3,
-            "survival": 3,
-            "sustain": 2,
-            "difficulty": 3,
+            "output": 4,
+            "survival": 4,
+            "sustain": 5,
+            "difficulty": 2,
             "mobility": 5
         }
     },
