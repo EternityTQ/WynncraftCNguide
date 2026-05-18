@@ -485,9 +485,36 @@ we也是神
 
 <span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
+闪击射手是一名中近距离的爆发职业
+
+其最高输出的箭雨技能扩散极大，若未贴脸释放将丢失大量伤害。
+
+闪击射手具有独特的"守护天使"，其会消耗弹药自动攻击敌人，通过释放箭雨和炸弹箭将在短时间内强化守护天使。
+
+在释放箭雨后，会自动获得燧石箭，其可通过平A打出，数量由平A箭矢数量决定
+
+燧石箭每命中敌人，都可以为下一次箭雨增加持续时长。
+
+通过燧石箭这一中继，闪击射手可左脚踩右脚，实现尿不尽的箭雨(理想情况下)
 
 
 <span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+闪击射手目前有两种流派
+
+第一种是完全摒弃燧石箭的纯法术流派，主要打法是4 1 3 3 1 3 3作为循环，一直打下去
+
+但是这个版本中，小飞机和炸弹箭的伤害被削烂了，导致这个流派的伤害...不是特别可观。
+
+典型例子是spring这么玩只剩400k了
+
+第二种是利用燧石箭作为中继的hybrid流派，主要打法是4 1 3后按住平A，然后续个1继续A，直到小飞机打空后作为一个循环。
+
+这个流派中，燧石箭命中的越多，箭雨的持续时间就越长，回转要求就越低。
+
+非常灵活，大部分伤害都在箭雨上。
+
+你甚至不需要智力，智力占模了。
 
 <span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
