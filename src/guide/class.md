@@ -407,7 +407,7 @@ we也是神
 
 其实现在圣光使者，也就是所谓的球法，已经没人玩了。
 
-为什么？因为所有的球法武器都被一个叫翡翠鸡Halcyon的武器压烂了
+为什么？因为所有的球法武器都被一个叫翡翠鸡Halcyon的武器压死了
 
 球法只有玩翡翠鸡的球法和不玩翡翠鸡的球法，后者已经完全被爆了
 
@@ -428,18 +428,49 @@ we也是神
 
 
 
-奥术法师完全牺牲了治疗能力，换得了特殊的"法力储备"系统，其可以做到滚雪球式地储能，能轻松达成电表倒转的同时也有极高的爆发伤害
 
-奥术法师每个技能命中敌人时，都会额外填充"法力储备"，而使用奥术转换，可以直接将额外的法力储备转换为可用的法力
+<span style="font-size: 24px; border-bottom: 3px solid purple; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
+奥术法师是一名完全牺牲了恢复能力，换来高爆发的远程输出职业。
+
+其独特的法力储备机制，能让你的陨石和冰蛇在命中敌人时，向法力储备中填充法力
+
+在使用由Heal转换而来的"Arcane Transfer"之后，能将法力储备中的法力全部转移为可用的法力
+
+中期解锁"Chaos Explosion"后，每当用Arcane Transfer一次性转移足够的法力后，将免费按序释放最后数个所使用的陨石或冰蛇技能，并且释放的技能也能填充法力储备，真正实现电表倒转。
+
+在法力储备拥有足够法力时，按下shift使用transfer将会召唤一枚电球，电球会持续消耗法力，攻击周围的怪物，并给怪物施加"unstable"的debuff。电球每次攻击的伤害和消耗的法力会随着攻击次数的提高而提高。
+
+当怪物拥有"unstable"时，施放陨石将会消耗掉unstable，并使这次攻击造成双倍伤害。
+
+奥术法师的大招将召唤两条神龙~~神区~~，其中一条会持续攻击敌人，施加unstable，另一条会持续消耗unstable，造成大量伤害。
+
+<span style="font-size: 24px; border-bottom: 3px solid purple; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+奥术法师的实战较为简单
+
+用冰蛇/陨石启动chaos explosion，然后用免费送的技能继续砸怪砸到电表倒转，然后mana bank满了就放电球，非常简单。
+
+难点主要在如何启动和电球可能会干空蓝。
+
+启动的话，如果tp cost较低，可以考虑点出中路的TP造成伤害，这个也能加mana bank。
+
+如果冰蛇cost较低，也可以考虑点出冰蛇来启动。
+
+方法还挺多的！
+<span style="font-size: 24px; border-bottom: 3px solid purple; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+本来奥术相比上版本加的伤害还挺多的
+
+但是隔壁RW直接翻身了，搞得奥术这边完全不够看
+
+主要奥术缺的RW基本都有，奥术有的RW基本也有，就很尴尬...
+
+还有一个问题是电球它是会沿着固定轨迹缓慢移动的，实战尽管可以头朝下固定住电球，但还是会大概率出现打不到怪的情况，非常尴尬。
+
+现在隔壁RW的raid出场率已经是第一了，但是奥术...我只能说祝他幸福...
 
 
-
-
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
-
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
-
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Arcanist"/>
 </ClientOnly>
@@ -451,26 +482,14 @@ we也是神
 <ClientOnly>
 <jc name="Boltslinger" />
 </ClientOnly>
-闪击射手可以在中短距离内打出成吨的伤害
 
-闪击射手主要依赖箭雨进行输出，可以轻易地打出非常高的伤害，但是只有在对敌人贴脸释放时才能吃满伤害
+<span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
-其在空中释放箭雨时，会受到非常强的后坐力，但是后期可以完全取消该后坐力。
 
-其职业特点是可以召唤帮助辅助攻击的"守护天使"，闪击射手有一半的输出都来源于它。
 
-通过释放技能，可以暂时强化"守护天使"的dps，使其与本体输出相辅相成。
+<span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
-在更新后，闪击射手的输出来到了一个非常恐怖的级别。
-
-但代价是，闪击射手的技能树非常匮乏法力的回转，且其本身是一个极其依赖回转的职业。
-
-这就导致你的构筑必须要极高的回转，否则玩起来会相当的难受。
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
-
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
-
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+<span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Boltslinger"/>
 </ClientOnly>
@@ -544,16 +563,31 @@ we也是神
 <ClientOnly>
 <jc name="Trickster"/>
 </ClientOnly>
-诡术师可以通过召唤不同的分身，来在战场上施加各式诡计。
 
-诡术师可以通过给敌人叠加"诡计"，来叠加不同的增伤，然后通过处决分身进行爆发，来对敌人造成极其爆裂的打击伤害。
 
-现版本的诡术师爆发伤害十分可观，甚至可以比肩隔壁的shade，但是空窗期较为乏力，且非常注重熟练度。
-
-总得来说，诡术师所需的操作难度是极大的。
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
+Trickster 是一个兼顾坦度和输出，但拥有输出就没有坦度，拥有坦度就没有输出的职业
+
+其主要通过召唤分身复制自己的法术，并利用分身亡语为怪物叠加tricks，引爆tricks后施加的大量负面效果提升自己的战斗力
+
+Trickster常态有三种类型的分身：通过vanish召唤的**镜像分身**，通过失去其他类型分身召唤的**残影分身**，通过双击跳跃键掷出的**暗影分身**。
+
+在失去镜像分身后，所有的分身都会响应并复制你的下一次法术
+
+失去分身后，根据失去的分身类型不同分身会释放不同的亡语，由分身亡语释放的法术在造成伤害时会为敌人叠加tricks，按住蹲并使用dash会引爆周围怪物身上的tricks，造成伤害并根据引爆的tricks层数对它们施加debuff
+
+Trickster的大招是召唤一个完美的分身，它会复制你的法术并根据怪物的tricks层数造成更高的伤害，在拥有完美分身的时候再次点下大招会传送到完美分身的位置并使其使用你的三个攻击性法术
+
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+Trickster的机制看似复杂，但实战只要在保证自己拥有镜像分身的情况下交替使用multihit和spinattack即可
+
+需要注意在开始循环前投掷你的暗影分身(拍两下空格)至你想攻击的目标身边，正如介绍中所说，暗影分身也会响应你的法术并复制
+
+在第一轮镜面分身全部消耗完后，可以切换至拥有法力恢复的其他武器等待镜像分身的冷却，并再次召唤分身使用和第一次一样的循环
+
+注意，第二次召唤分身时需要按住蹲，用以引爆第一轮分身为怪物叠加的tricks并施加debuff
 
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
@@ -563,18 +597,18 @@ we也是神
 <ClientOnly>
 <jc name="Acrobat"/>
 </ClientOnly>
-凌空客不需要隐身的机制，其主要手法在于起飞→积攒动量→坠落的循环。
 
-在空中进行输出时，凌空客拥有独特的法力恢复机制，因此不需要太担心回转。
-
-达到一定高度时坠落，或者消耗一定法力值，即可释放茉莉印记，积攒茉莉印记来对敌人造成爆炸性的输出。
-
-尽管如此，凌空客还是需要注意使用多重击来对敌人造成补充伤害。
-
-当前版本的凌空客较为尴尬，输出显得不是很足，操作感倒是拉满了。
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
+Acrobat是一名输出较高，高机动性的职业
+
+其主要通过lacerate hop dash滞空并从天赋节点中获取收益，在滞空状态下造成伤害可以回复法力，叠加动量，从高空落地会猛烈震地，消耗全部的动量造成一次高伤害的AOE并为自己附加额外的正面效果
+
+Acrobat的终极技能可以在指定的区域种下一片花田，花田会在持续时间内对其中的怪物造成高额的伤害并大幅加速acrobat在其中叠加动量的速度
+
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程https://youtu.be/MA95vutzvjo?si=E71IGoMV_O28HMZb，熟练后可以高速施法使用124 123 124 123穿插hop的循环
 
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
