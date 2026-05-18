@@ -214,9 +214,9 @@ fallen在目前的版本中地位实在是很差。
 
 4 3 **4** 1 3 **1** (没强化战吼了用这个)
 
-简而言之，多面手的手感需要读者自己在实战中多加尝试，习惯了之后就会好很多了。
+多面手的手感需要读者自己在实战中多加尝试，习惯了之后就会好很多了。
 
-
+主要就是通过调整技能次序，让想要的技能吃到pressure，大幅提升输出或buff效果。
 
 
 <span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">风评地位</span>
@@ -252,20 +252,52 @@ fallen在目前的版本中地位实在是很差。
 
 圣骑士能达到比另外两条技能分支更高的基础抗性，这也意味着圣骑士拥有全游戏最高的基础抗性
 
-防御能力方面，圣骑士拥有更高基础抗性的同时，可以通过战吼召唤格挡70%伤害的小盾，亦能通过秘银皮肤获得完全的击退抗性
+防御能力方面，圣骑士拥有更高基础抗性的同时，可以通过战吼召唤格挡50%伤害的小盾，亦能通过秘银皮肤获得完全的击退抗性
 
 辅助能力方面，圣骑士拥有嘲讽、可以净化队友身上的负面状态，并且拥有全游戏仅有的词条增益：Radience，范围增强友方装备中的全部增益词条
 
-圣骑士的终极技能，是每10分钟可以使用一次的被动复活，并且可以再度增益，在触发复活时为全体队友附加无敌效果
+同时，圣骑士还拥有每10分钟可以使用一次的被动复活，并且可以再度增益，在触发复活时为全体队友附加无敌效果
 
-同时，圣骑士还能消耗神圣之力，为周围友军生成宝贵的金血资源，最高可达一倍的HP
+圣骑士还能消耗神圣之力，为周围友军生成宝贵的金血资源，最高可达一倍的HP
 
 圣骑士在版本更新后，也拥有了不俗的输出，是一个能打能抗的多边形角色
 
 
 <span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
+目前paladin有两种构筑思路
+
+第一种是纯paladin，即点满paladin的树，这样为纯辅路线。纯辅paladin缺少回转，并且技能蓝耗较大，因此放技能的频率不会很频繁，主要只是给队友盾和抗伤。
+
+实战中，基本上只用嘲讽，T住怪物就可以了。用4 4 1来刷hold power后，shift+4来给队友金血，然后记得定时补嘲讽，纯辅paladin的操作就是这么简单。
+
+第二种是血契paladin，要求点出左路的blood pact，这样可以用血量来代替法力，弥补了没有回转的问题。
+
+这种是半辅paladin，右路的部分技能肯定是点不上了，但是好处是可以将过剩的生存能力转换为输出。
+
+实战手法就是4 4 3，定期补1，如果太闲了可以考虑给队友上金血。
+
+血契paladin要求构筑有极高的health regen，有很多构筑都会强绑fire bird+boreal来保证大量的hpr
+
+
+
 <span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+虽然是辅助，但他真的很能打。
+
+在团本中的表现非常亮眼。
+
+如果队伍中有guardian在，那么能非常安心地打完这一把raid
+
+主要发挥的作用是抗伤+嘲讽，特别是twp中可以让raid变成打桩游戏，直接质变。
+
+目前版本中twp几乎刚需guardian，就业空间非常广泛。
+
+但缺点是真的没有伤害，如果去排野队很容易遇上队友也完全没输出的问题。
+
+总而言之，是一个非常团队的职业💪
+
+
 <ClientOnly>
 <ks name="Paladin"/>
 </ClientOnly>
@@ -279,11 +311,52 @@ fallen在目前的版本中地位实在是很差。
 </ClientOnly>
 
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+时空行者是一名输出很高、综合能力极强的职业
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+其主要通过叠加"扭曲(Distortion)"来提高战斗中自身的战斗力，通过普攻、TP等手段均能叠加扭曲，但扭曲会随时间衰减
+
+扭曲越高，陨石雨和飓风持续时间越长，从而减少技能蓝耗。
+
+同时，在使用TP时，会产生"时空裂隙"，在裂隙范围内能得到减伤、返还技能消耗等效果
+
+时空行者还能把"时空裂隙"转移到自己身上，这么做会在持续时间内阻止扭曲衰减。
+
+时空行者的大招会使自身激活飞行模式，且完全取消技能蓝耗。大招期间，TP会变成激光，对敌人造成瞬间伤害。
+
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+RW的机制看着很复杂，但实战其实很简单，总结下来就以下几点要注意的：
+
+TP蹭出裂隙后，shift+heal顶到自己头上，这个叫**riftbound**，riftbound的20秒冷却好了就重复这个操作，注意裂隙也是有CD的。
+
+TP蹭怪可以加扭曲，刚开局的时候要多蹭蹭，蹭到100扭曲就可以停了，后续用一个TP+一个陨石或者一个TP+一个风来维持扭曲。
+
+飓风一定不要频繁放，它会随着持续时间提升伤害，放飓风多了会丢很多伤害，看风没了补一个就行
+
+陨石持续时间较短，注意不要让陨石雨停下来，快没了就补
+
+如果你是平A流RW，还需要注意不要让time dilated开始衰减，要多跑跑。
+
+总而言之，**RW不需要特别频繁地放技能**，其更像是慢工出细活。
+
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+强，无比强，爆炸强
+
+简直是版本之子，玩一天少一天的程度
+
+伟大无需多言，横扫raid和lr
+
+we也是神
+
+玩rw能不笑的都得确诊抑郁症了。
+
 <ClientOnly>
 <ks name="Riftwalker"/>
 </ClientOnly>  
@@ -292,22 +365,57 @@ fallen在目前的版本中地位实在是很差。
 <ClientOnly>
 <jc name="LightBender"/>
 </ClientOnly>
-圣光使者的职业特点是偏向治疗和辅助能力，作为代价，其失去了群伤能力，在面对怪海群时非常乏力。
 
-圣光使者的主要战斗方式为召唤光球后，通过平A使光球向前方攻击。同时其可以利用光球的攻击掉血，来对光球进行治疗，造成治疗量来触发技能树的各类技能。
 
-其主要手法为：释放光球后，根据自身需要交替释放冰蛇和治疗以及平A，不需要再次释放光球了。在战斗过程中，需要时刻注意光球状态，及时释放治疗，或者憋一波治疗量攒大招。
 
-在点出强韧意志(fortitude)后，每当造成一定数量的治疗量，圣光使者即可为大范围的友军施加伤害提升效果，这是圣光使者的核心技能。
+<span style="font-size: 24px; border-bottom: 3px solid grey; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
-圣光使者的终极大招开启后，可以持续恢复周围友军的生命值和法力，并且可以对前方敌人持续造成大量伤害。
+圣光使者是一名完全的辅助向职业，其舍弃了群伤能力，换取了机制的辅助能力~~和兜底能力~~
 
-总的来说，圣光使者在战斗时通常是一名非常优秀的辅助职业。在其他输出职业不慎死了个干净时，圣光使者还往往担任兜底的角色。
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+战斗中，圣光使者主要可以召唤光球(Ophanim Orbs)，通过平A来指挥光球攻击敌人，注意与平A攻速无关，光球会持续攻击到该次平A冷却结束为止。
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+光球攻击敌人时会减少生命值，自身也会随时间衰减生命值，但圣光使者可以通过治疗来恢复光球的血量。
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+圣光使者10秒内的治疗量越高，就能触发其技能树的更多能力，治疗光球和治疗友军均计入治疗量，治疗量的统计基于自身的最大生命值。
+
+治疗量达到50%时，会触发"lightweaver"，召唤一只额外的环绕光球对敌人造成伤害，最多召唤3只
+
+治疗量达到120%时，会触发"fortitude"，给范围内的友军提供大量伤害加成
+
+治疗量达到250%时，会触发"sunflare"，给自身提供大量伤害加成的同时，为周围友军持续恢复血量和法力。
+
+圣光使者的环绕光球和普通光球在攻击敌人时，会叠加"水晶化"的debuff，当水晶化叠加到100时，释放冰蛇即可破冰，对敌人造成大量伤害。
+
+圣光使者的大招将召唤一枚巨大的奥菲翁太阳，生成海量的全屏弹幕对大范围的敌人造成单体伤害
+
+
+<span style="font-size: 24px; border-bottom: 3px solid grey; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+实战手法？其实圣光使者完全没有手法。
+
+非常推荐点出技能树中间的龙卷风，这样可以全自动碎冰，避免废手，进一步提升QOL
+
+圣光使者要做的事，就是开局召唤光球，然后按住平A，中途偶尔穿插治疗和冰蛇/龙卷风
+
+好啦！这就完了。这个职业真的很简单
+
+需要注意及时碎冰，圣光使者很大一部分伤害都在这里。
+
+关于大招，实战能大幅提升伤害，主要这玩意是能吃大体积的，体积越大吃的越狠，像twp这样的地方轻松打出1M dps，非常夸张。
+
+<span style="font-size: 24px; border-bottom: 3px solid grey; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+其实现在圣光使者，也就是所谓的球法，已经没人玩了。
+
+为什么？因为所有的球法武器都被一个叫翡翠鸡Halcyon的武器压烂了
+
+球法只有玩翡翠鸡的球法和不玩翡翠鸡的球法，后者已经完全被爆了
+
+什么叫能打300k还能爆吃大体积的BOSS？噢我的上帝。
+
+正常球法基本上只是沦为了普通辅助，论输出显然不够看。
+
+
 
 
 <ClientOnly>
@@ -324,9 +432,9 @@ fallen在目前的版本中地位实在是很差。
 
 奥术法师每个技能命中敌人时，都会额外填充"法力储备"，而使用奥术转换，可以直接将额外的法力储备转换为可用的法力
 
-奥术法师的终极技能将在奥术法师一次性转换大量法力的同时，无蓝耗迸发出先前已释放过的数个技能，达成爆发式伤害，同时又能继续为法力储备充能
 
-输出环境合适的条件下，奥术师能打出比弓箭手更稳定的持续爆发
+
+
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
