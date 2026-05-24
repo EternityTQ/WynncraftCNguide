@@ -3730,7 +3730,7 @@
         "note": ""
     },
     "Warding Wisps": {
-        "name": "Warding Wisps",
+        "name": "守护精灵",
         "combo": "",
         "desc": "_箭盾_消耗次数后获得一个灵体。(最多12个)</br>灵体将束缚附近的敌人3秒，每0.75秒造成一次伤害并将其减速。",
         "properties": {},
@@ -3738,25 +3738,25 @@
         "note": ""
     },
     "Angelic Ascension": {
-        "name": "Angelic Ascension",
+        "name": "天使化身",
         "combo": "",
-        "desc": "Call upon the power of the Light to empower your attacks for 15s.</br></br>Main Attack will instead shoot Light Arrows that deal 50% more damage over 2s.</br></br>Arrow Storm will home onto enemies.</br></br>Arrow Bomb will smite enemies it hits directly with a bolt from the heavens.</br></br>Guardian Angels will have unlimited ammunition.</br></br>Damage: [300%n/150%t/100%a] for Smite",
+        "desc": "在15秒内召唤光之力量来强化你的攻击，并且使_飞跃_取消冷却时间。_普通攻击_将会转为射出光之箭矢，在 ^2秒 ^内造成 ^50%^ 额外伤害。<br><br>_箭雨_和_神圣干涉_的持续时间增加至 ^2.5倍^。<br><br>_炸弹箭_将用一道从天而降的闪电直接打击目标敌人。<br><br>_守护天使_将拥有无限弹药，且在发射 ^14^ 发弹药后触发_散射_",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Extinction Event": {
-        "name": "Extinction Event",
+        "name": "武装行动",
         "combo": "",
-        "desc": "Designate a target area.</br></br>A flock of tactical crows will initiate a carpet bombing of the designated target area.</br></br>Bombs will leave behind Basaltic Traps and occasionally Chilling Snares</br></br>Damage: [2400%n/600%f]</br>Range: 20 Blocks</br>Area of Effect: 4 Blocks",
+        "desc": "召唤一群武装雾鸦，对你正前方的区域进行地毯式轰炸。<br><br>所投下的爆炸箭将会留下_磐石陷阱_，有一定概率转换为_凛冬阵法_",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "The Twilight Zone": {
-        "name": "The Twilight Zone",
+        "name": "暮光视域",
         "combo": "",
-        "desc": "Enter a focused state for 8s.</br></br>While in this state, you jump higher, fall slower, and all enemies within your line of sight will be marked by Twlight every 0.05s. (Max 100)</br></br>At the end of its duration or by casting offhand, fire arrows at all marked enemies.</br>Arrows will deal bonus damage for each Twilight stacks on a target.</br></br>Damage: [1500%n/500%w] + [75%n/25%w] per 1 Twilight, spell</br>Damage: [400%n] + [15%n] per 1 Twilight, main attack</br>Range: 64 Blocks",
+        "desc": "在 ^8秒^ 内进入专注状态。<br><br>在此状态下，你获得跳跃提升与缓降效果，并且处于你视野中的敌人每 ^0.05秒^ 会被标记一次$ 暮光$。*(上限为100)*<br>在持续时间结束后，或者主动按下_副手键_，向所有被标记的敌人射出一支强力的普通攻击箭矢和一支强力的技能箭矢。箭矢会根据敌人身上叠加的 $暮光$ 层数造成额外伤害。",
         "properties": {},
         "stats_keys": [
             "stacks"
@@ -3764,7 +3764,7 @@
         "note": ""
     },
     "Rumble": {
-        "name": "Rumble",
+        "name": "狂躁",
         "combo": "",
         "desc": "Increase Bash's damage by 4%</br> per 1 Area of Effect it has.",
         "properties": {},
