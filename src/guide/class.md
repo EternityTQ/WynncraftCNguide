@@ -517,6 +517,19 @@ we也是神
 你甚至不需要智力，智力占模了。
 
 <span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+被砍了之后很少有人玩了(大概)
+
+但实际上只是换了个思路，笔者个人认为还是可以玩的
+
+在tcc、tna中表现很亮眼，在其他raid表现有点一般
+
+目前可能算个冷门职业...因为大家目前对bolt的认知都是被削烂的职业。
+
+
+
+
+
 <ClientOnly>
 <ks name="Boltslinger"/>
 </ClientOnly>
@@ -524,31 +537,31 @@ we也是神
 <ClientOnly>
 <jc name="Trapper"/>
 </ClientOnly>
-陷阱师并不对自身的箭雨进行提升，而是提升爆炸箭的属性，并且能在爆炸箭的落点处放置地雷对目标再度造成伤害
 
-陷阱师也可以将自身后跳能力转化为抓钩，这是一个更适合陷阱师技能树的位移技能
+<span style="font-size: 24px; border-bottom: 3px solid #00AA00; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
-陷阱师的各个技能也能召唤出不同的小动物协助输出：箭雨触发藤蔓召唤蛇，地雷爆破召唤乌鸦，释放箭盾召唤狼
+陷阱师是一名中距离的爆发职业
 
-陷阱师的绝大部分输出来自于自身放置的地雷，因此并不适合对付木桩型敌人，对付群体敌人时，陷阱师能造成大量AOE输出
+陷阱师在使用炸弹箭时，会在地面上生成地雷，地雷会随着时间慢慢充能直至最大伤害。在爆炸后，会对周围的敌人造成大量伤害。
 
-其大招能够召唤大型冰阵，对周围的怪物造成大范围的减速和削弱，尽管似乎没什么用。
+陷阱师可以召唤诸多召唤物协助作战。
 
-陷阱师的技能树提供了大量的法力回转，且陷阱师自身也不会频繁释放技能，因此基本上什么构筑都能很舒服地玩陷阱师，只是伤害可能不是很可观。
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+猎犬可以将敌人拉扯至陷阱上，避免炸空，同时其在攻击敌人时还有概率直接在敌人脚下布置地雷。
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #00AA00; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #00AA00; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Trapper"/>
 </ClientOnly>
-@tab <font color=FF55FF> Sharpshooter 鹰眼射手 </font>
+@tab <font color=FF55FF> Sharpshooter 神射手 </font>
 
 <ClientOnly>
 <jc name="Sharpshooter"/>
 </ClientOnly>
-鹰眼射手是一个独具特色的分支，其独特的“专注”能力决定了它是一个上限极高的分支
+神射手是一个独具特色的分支，其独特的“专注”能力决定了它是一个上限极高的分支
 
 鹰眼的核心能力在于命中敌人时叠加专注，未命中时失去专注，专注维持的越高，输出也会越高
 
@@ -573,14 +586,32 @@ we也是神
 <ClientOnly>
 <jc name="Shadestepper"/>
 </ClientOnly>
-影步者的核心能力在于替换多重斩的背刺，通过破隐增伤+背刺增伤+印记增伤+重斩增伤的多段**倍率叠加**打出全游戏最高的单次爆发伤害
 
-但是由于MC本身的机制限制，在部分战斗(如TCC BOSS战)中背刺的判定很诡异，甚至无法触发
-
-游戏后期的影步者能轻松打出六位数甚至七位数的单次爆发输出
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
+Shadestepper 是一名高输出并在部分情况下拥有高坦度的职业
+
+其主要通过Vanish进入隐身并获得高额伤害和抗性提升，成功使用该分支特有的multihit变体法术backstab背刺你的敌人可以减少Vanish的冷却时间
+
+Shadestepper可以通过smokebomb/spinattack施加marks，并对拥有marks的敌人造成更高的伤害
+
+对拥有4层或更多marks的敌人使用backstab/粉末主动会引爆他们身上的marks并超大幅度提升你这次攻击的伤害
+
+Shadestepper的大招可以让你进入一段时间的无限隐身，在无限隐身期间你享有隐身状态给予你的所有增益
+
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+Shadestepper偏为主流的玩法有两种，其一是施法循环
+
+利用成功backstab会减少vanish冷却的能力，使用233循环持续获取隐身增伤和抗性
+
+另外一种是重击
+
+利用shadestepper的高额增伤，积攒粉末主动，为怪物叠加marks至最大层数并隐身后使用粉末主动造成一次超高额的伤害
+
+无论哪种玩法，都需要玩家偶尔使用smokebomb为目标续上marks并在没有小刀的情况下对拥有marks的怪物使用隐身+spinattack获取小刀
+
+
 
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
