@@ -1452,7 +1452,7 @@
     "Bloodlust": {
         "name": "血之渴望",
         "combo": "",
-        "desc": "退出 $腐化$ 状态后，歼灭周围所有敌人。曾经每拥有 ^ 1% ^ $腐化$ 进度，伤害增加 ^ 5% ^ 。",
+        "desc": "退出 $腐化$ 状态后，歼灭周围所有敌人。退出腐化状态时，每拥有 ^ 1% ^ $腐化$ 进度，伤害增加 ^ 5% ^ 。",
         "properties": {},
         "stats_keys": [
             "aoe"
@@ -3663,8 +3663,7 @@
         "combo": "",
         "desc": "_苔藓缠身_的作用范围更广，且造成伤害的频率提高^ 33% ^。",
         "properties": {},
-        "stats_keys": [
-        ],
+        "stats_keys": [],
         "note": ""
     },
     "Canine Colleague": {
@@ -3701,7 +3700,7 @@
             "cooldown": 10
         },
         "stats_keys": [
-                "cooldown"
+            "cooldown"
         ],
         "note": ""
     },
@@ -3766,79 +3765,79 @@
     "Rumble": {
         "name": "狂躁",
         "combo": "",
-        "desc": "Increase Bash's damage by 4%</br> per 1 Area of Effect it has.",
+        "desc": "_重击_每有1点攻击范围，就增加 ^4%^ 的伤害。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Bloodied Armory": {
-        "name": "Bloodied Armory",
+        "name": "血之武装",
         "combo": "",
-        "desc": "Activating Blood Pact adds a blood swipe to</br>your next Main Attack. (Max 5)</br>(Damage is dealt as Main Attack Damage)</br>[65%n]</br>Area of Effect: 1-4 blocks (Cone Shaped)</br>Range: 6.5 blocks",
+        "desc": "每次触发_血之契约_后，为你的下一次_普通攻击_附加一次血腥挥击*(最多存储5次)*，造成额外普通攻击伤害。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Ecstasy": {
-        "name": "Ecstasy",
+        "name": "狂喜",
         "combo": "",
-        "desc": "Increases the cap of Enraged Blow by +30%.</br></br>Increases Bloodlust's bonus damage per 1% Corrupted by +2%.",
+        "desc": "_怒火强袭_的伤害加成上限增加^30%^.</br></br> 退出$腐化$时每^1%^的腐化，可为_血之渴望_再增加^2%^的伤害",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Spectacle": {
-        "name": "Spectacle",
+        "name": "奇观",
         "combo": "",
-        "desc": "Increase Fireworks' damage by [30%n/30%t] and Comet's damage by [60%n/60%e]",
+        "desc": " _烟火爆破_的伤害增加[30%n/30%t]且_彗星强袭_的伤害增加[60%n/60%e]",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Tempestuous Winds": {
-        "name": "Tempestuous Winds",
+        "name": "狂暴飓风",
         "combo": "",
-        "desc": "Cyclone will deal damage 0.15s faster.",
+        "desc": "_暴风战吼_每次造成伤害的间隔减少^0.15^秒",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Acceleration": {
-        "name": "Acceleration",
+        "name": "加速冲击",
         "combo": "",
-        "desc": "Increase Flying Kick's damage by +10% per block travelled.</br>(Max +150%)",
+        "desc": "_飞踢_命中前，每经过一格，飞踢的伤害增加^10%^。</br>(最大 ^+150%^)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Harmony": {
-        "name": "Harmony",
+        "name": "内在和谐",
         "combo": "",
-        "desc": "Activating Generalist grants +1 Harmony for 10s. (Max 5)</br></br>Gain +4% damage per Harmony.",
+        "desc": "激活$多面手$后,获得一层_和谐_. (最大^5^层)</br></br>每有一层_和谐_，造成的伤害增加4%。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Baffling Blows": {
-        "name": "Baffling Blows",
+        "name": "分解打击",
         "combo": "",
-        "desc": "Increase your maximum Discombobulate by +50.",
+        "desc": "可施加的最大_瓦解_层数增加^50^层。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Shine": {
-        "name": "Shine",
+        "name": "闪耀",
         "combo": "",
-        "desc": "Increase Radiance's Effectiveness by +5%.",
+        "desc": "_光芒重击_额外增加^5%^的鉴定值。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Buried Light": {
-        "name": "Buried Light",
+        "name": "深埋之光",
         "combo": "",
-        "desc": "Casting Shift + Bash will consume 25 Holy Power to summon a beam of light which slowly moves forward,</br>damaging enemies every 0.5s.</br></br>Damage: [200%n/50%t/50%f]",
+        "desc": "蹲下时释放_重击_ 会消耗25点$神圣能量$生成一个缓慢移动的光束,</br>每0.5秒造成一次伤害。</br></br>伤害: [200%n/50%t/50%f]",
         "properties": {},
         "stats_keys": [
             "duration",
@@ -3849,15 +3848,15 @@
     "Devout Union": {
         "name": "Devout Union",
         "combo": "",
-        "desc": "15% of damage taken by nearby allies is redirected to you.</br>Gain +5% Base Resistance.</br>Area of Effect: 8 Blocks",
+        "desc": "你吸收周围盟友受到伤害的_15%_。.</br>增加_5%_的基础抗性。.</br>范围:8格",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Enlightenment": {
-        "name": "Enlightenment",
+        "name": "启蒙",
         "combo": "",
-        "desc": "Add +1 additional charges to Mantle of the Bovemists.</br></br>Shield Strike will also grant 1 charge of Mantle of the Bovemists to nearby allies for every 2 broken mantles used.</br>Area of Effect: 8 Blocks",
+        "desc": "$神圣披风$的充能数^+1^.</br></br>每通过_盾牌打击_发射两个破碎披风，周围的盟友获得一个神圣披风充能。</br>范围:8格",
         "properties": {},
         "stats_keys": [
             "charges"
@@ -3865,25 +3864,25 @@
         "note": ""
     },
     "Beyond Salvation": {
-        "name": "Beyond Salvation",
+        "name": "超越救赎",
         "combo": "",
-        "desc": "Summon 6 Corrupted Spikes that rise from the earth around you, dealing damage.</br></br>Casting Main Attack on a spike will detonate it, dealing damage and granting 10% Overhealth even while corrupted.</br></br>Damage: [2000%n/1000%e] on summon</br>Area of Effect: 4 Blocks</br>Range:5-8 Blocks</br></br>Damage: [1000%n/500%e/500%f] on detonate</br>Area of Effect: 10 Blocks",
+        "desc": "在你周围的地面生成6个尖刺,生成时造成伤害。</br></br>使用_普通攻击_或者_上挑斩_命中尖刺会引爆它们, 造成伤害并获得^10%^的过量治疗，此效果不会被腐化阻止。</br></br>伤害: [2000%n/1000%e] 生成时</br>范围：4格</br>半径:5-8格</br></br>伤害: [1000%n/500%e/500%f]引爆时</br>范围:10格",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Zenith Stance": {
-        "name": "Zenith Stance",
+        "name": "天神姿态",
         "combo": "",
-        "desc": "Manifest your combat mastery as 2 floating fists that you freely command.</br></br>Casting Main Attack with them active performs an attack, and casting Offhand switches between dealing spell and melee damage.</br></br>Damage: [2100%n/300%a]</br>Area of Effect: 5 Blocks</br>Range: 7 Blocks</br>Duration: 10s",
+        "desc": "召唤两个受你控制的浮空拳套，展现你的战斗技能。</br></br>使用普通攻击时，拳套会进行打击。使用副手交换按钮会切换攻击伤害的类型。*普通攻击或法术*</br></br>伤害: [2100%n/300%a](法术)</br>伤害: [1400%n/200%a](普通攻击)</br>伤害范围: 5 Blocks</br>射程：7格</br>持续时间: 10s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Judgement": {
-        "name": "Judgement",
+        "name": "审判之刃",
         "combo": "",
-        "desc": "Call upon a blade from the heavens that will deal damage upon impact and grant buffs to nearby allies.</br></br>Damage: [3500%n/1000%e/500%f]</br>Area of Effect: 12 Blocks</br>Effect: +20% Damage Bonus</br>+20% Resistance Bonus</br>+40% ID Effectiveness</br>Duration: 15s",
+        "desc": "召唤一把从天而降的圣剑，在落地时造成伤害，并为周围友军提供增益。</br></br>伤害: [3500%n/1000%e/500%f]</br>范围：12格</br>效果: ^+20%^ 伤害</br>^+20%^ 抗性</br>^+40%^ 鉴定数值</br>持续时间: 15s",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4125,41 +4124,41 @@
         "note": ""
     },
     "Thrill": {
-        "name": "Thrill",
+        "name": "过度刺激",
         "combo": "",
-        "desc": "Gain +50% Speed Bonus after hitting a successful Backstab.</br>Duration: 2s",
+        "desc": "成功_背刺_后，获得^50%^的移动速度。</br>持续时间: ^2s^",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Shadow Dance": {
-        "name": "Shadow Dance",
+        "name": "暗影之舞",
         "combo": "",
-        "desc": "Your second hit after casting Vanish will deal +50% damage.</br>Cooldown: 3s",
+        "desc": "退出$隐身$后，第二次攻击的伤害增加^50%^</br>冷却: ^3s^",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Billowing Death": {
-        "name": "Billowing Death",
+        "name": "死亡扩散",
         "combo": "",
-        "desc": "When you hit an enemy with 2+ Marks with a successful Backstab, send out a cloud of smoke</br>that applies 50% of the enemy's Marks to other enemies.</br></br>Area of Effect: 5 Blocks</br>Cooldown: 3s",
+        "desc": "成功_背刺_一个拥有至少2点$标记$的敌人后, 生成一股烟雾，</br>烟雾会对周围敌人施加背刺目标50%的$标记$。</br></br>范围：5格</br>冷却: 3s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Looming Presence": {
-        "name": "Looming Presence",
+        "name": "不详存在",
         "combo": "",
-        "desc": "Increases the range of Backstab.</br>Range: +2 Blocks",
+        "desc": "增加_背刺_的距离。</br>距离: +2 格",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Doppelganger": {
-        "name": "Doppelganger",
+        "name": "替身",
         "combo": "",
-        "desc": "+1 Mirror Image clone",
+        "desc": "$镜像分身$的数量^+1^",
         "properties": {},
         "stats_keys": [
             "clone"
@@ -4167,33 +4166,33 @@
         "note": ""
     },
     "Paranoia": {
-        "name": "Paranoia",
+        "name": "妄想症",
         "combo": "",
-        "desc": "Gain +20% Speed Bonus after losing a Mirror Clone.",
+        "desc": "失去一个$镜像分身%后，获得一个暂时的^20%^移动速度增益。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Disappearing Act": {
-        "name": "Disappearing Act",
+        "name": "遁形艺术",
         "combo": "",
-        "desc": "After losing all of your Mirror Clones, create an explosion the next time you enter Vanish.",
+        "desc": "失去所有$镜像分身$后，下一次进入隐身时产生一次爆炸。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Choke Bomb": {
-        "name": "Choke Bomb",
+        "name": "窒息炸弹",
         "combo": "",
-        "desc": "Smoke Bomb releases a cloud of dust every 0.5s, applying Hypoxia for +2s.</br>(Max 10s)</br></br>Enemies suffering from Hypoxia are slowed by 20% and take +30% more Air damage from you.",
+        "desc": "_烟雾弹_每0.5秒释放一次粉尘，为敌人施加^2s^的窒息效果。</br>(最大10秒)</br></br>窒息的敌人获得^20%^缓慢，且你对窒息的敌人造成的气属性伤害增加^30%^。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Celerity": {
-        "name": "Celerity",
+        "name": "敏捷",
         "combo": "",
-        "desc": "+2% to Swan Dive Momentum scaling</br>+10% horizontal Dash velocity",
+        "desc": "使用_天鹅坠落_时，每层$动量$额外增加^2%^的伤害。</br>突进的水平速度增加^10%^。",
         "properties": {},
         "stats_keys": [
             "momentum_scaling"
@@ -4201,17 +4200,17 @@
         "note": ""
     },
     "Dextrous Hands": {
-        "name": "Dextrous Hands",
+        "name": "迅捷之手",
         "combo": "",
-        "desc": "Hop will now prepare 3 shurikens.</br>+3 maximum shurikens.",
+        "desc": "使用雀跃后，获得^3^个手里剑。</br>可持有的手里剑数量^+3^。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Thermobaric Smoke": {
-        "name": "Thermobaric Smoke",
+        "name": "温压炸弹",
         "combo": "",
-        "desc": "-0.3s smoke interval, -1s smoke duration, -5%n scaling",
+        "desc": "向_烟雾弹_中注入不稳定的化合物。烟雾弹会更快的造成伤害，但持续时间和伤害降低。",
         "properties": {},
         "stats_keys": [
             "ticksPerSecond",
@@ -4220,25 +4219,25 @@
         "note": ""
     },
     "Braced Impact": {
-        "name": "Braced Impact",
+        "name": "加固落地",
         "combo": "",
-        "desc": "50% res for 2s on Swan Dive",
+        "desc": "使用_天鹅坠落_后，获得2秒的^50%^抗性。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Pierce the Veil": {
-        "name": "Pierce the Veil",
+        "name": "超脱面纱",
         "combo": "",
-        "desc": "Cloak yourself in shadow, gaining all benefits of Vanish for the duration. Health and mana will still generate, and this state cannot be canceled.</br></br>While cloaked, nearby enemies will gain +1 Mark every 0.25s.</br></br>Area of Effect: 5 Blocks</br>Duration: 10s",
+        "desc": "你被暗影庇护，获得来自$隐身$的所有增益。生命和魔力会持续回复，且此状态不可取消。</br></br>大招期间，周围的敌人每0.25秒获得1层$标记$。</br></br>范围：5格</br>持续时间: 10秒",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Serpent's Garden": {
-        "name": "Serpent's Garden",
+        "name": "蛇之花园",
         "combo": "",
-        "desc": "Leap into the air before plummeting back to earth, spurring a garden of flowers to grow at your feet.They deal damage to enemies within every 0.25s.</br></br>While above your garden, your momentum doesn't deplete, charges twice as fast, and gains +5 maximum stacks.</br></br>Damage: [200%n/100%e/100%a]</br>Duration: 20s",
+        "desc": "飞向天空，随后砸向地面，在你脚下生成一片鲜花，每^0.25秒^造成一次伤害。.</br></br>在你的花园上方，你的$动量$不会衰减，获得双倍充能速度，且最大层数^+5^。</br></br>伤害: [200%n/100%e/100%a]</br>持续时间: 20s",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4299,9 +4298,9 @@
         "note": ""
     },
     "Puppetry": {
-        "name": "Puppetry",
+        "name": "魔偶之海",
         "combo": "",
-        "desc": "Increase your maximum Puppets by +2.</br></br>Totem summons Puppets 25% faster.",
+        "desc": "$魔偶$的召唤上限^+2^。</br></br>图腾召唤$魔偶$的速度增加^25%^。",
         "properties": {},
         "stats_keys": [
             "max_puppets"
@@ -4309,25 +4308,25 @@
         "note": ""
     },
     "Slingshot": {
-        "name": "Slingshot",
+        "name": "弹弓突进",
         "combo": "",
-        "desc": "Haul slings you upwards before leaping towards Totem.",
+        "desc": "_牵引_将使你垂直向上弹射，随后飞跃至_图腾_。",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Crystal Knives": {
-        "name": "Crystal Knives",
+        "name": "水晶刀片",
         "combo": "",
-        "desc": "Your Puppet's knives become stronger, and can pass through walls and enemies.</br>(Max 2 enemies)</br></br>Damage: [3%n/2%e]",
+        "desc": "$魔偶$的刀伤害增加，且可以穿透敌人和墙壁。</br>(最多^2^个敌人)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Fortified Formation": {
-        "name": "Fortified Formation",
+        "name": "护驾队形",
         "combo": "",
-        "desc": "If your health drops to 30% or less, your Effigies protect you until you are above 50% health again.</br></br>While protected, you take reduced damage and your Effigies strike back at attackers every 2s.</br></br>Damage: [180%n/80%f/40%t]</br>Effects: 50% Resistance Bonus to Self</br>Duration: 10s</br>Cooldown: 15s",
+        "desc": "生命值降低到^30%^以下后, 你的$绯红魔像$会保护你，直到你的生命值回复到^50%^以上。</br></br>被保护时，你获得伤害减免，且魔像每2s发动一次反击。",
         "properties": {},
         "stats_keys": [
             "resistance"
@@ -4335,9 +4334,9 @@
         "note": ""
     },
     "Freestyle": {
-        "name": "Freestyle",
+        "name": "自由舞步",
         "combo": "",
-        "desc": "Haul, Blood Connection, and Frog Dance launch you further.",
+        "desc": "_牵引_，_血肉链接_和_青蛙舞_将你发射的更远。",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4438,6 +4437,102 @@
         "desc": "Your Totem will be possessed by an eldritch demon, transforming into a statue and granting +5% Blood Pool to all players in Totem's range every 0.4s.</br></br>If a player cannot receive any Blood Pool, you instead gain +5% health.</br></br>Duration: 15s",
         "properties": {},
         "stats_keys": [],
+        "note": ""
+    },
+    "Etheric Slash": {
+        "name": "Etheric Slash",
+        "combo": "",
+        "desc": "When using Teleport, slash through reality and deal damage to enemies you pierce. </br> </br><span class='mc-white'>Total Damage</span>: 200% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 150%)   </br>&emsp;(<span class='aDam'>Air</span>: 50%) </br>Area of Effect: 3 Blocks (Circle-Shaped)",
+        "properties": {},
+        "stats_keys": [
+            "blink_count"
+        ],
+        "note": ""
+    },
+    "Frozen Tornado": {
+        "name": "Frozen Tornado",
+        "combo": "",
+        "desc": "Casting Ice Snake instead summons a frozen tornado that deals damage every 0.5s. </br> For every +1 Distortion, the tornado gains +0.025 </br>Area of Effect and +1.1% Damage. </br> </br><span class='mc-white'>Total Damage</span>: 80% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 60%)   </br>&emsp;(<span class='wDam'>Water</span>: 10%)   </br>&emsp;(<span class='aDam'>Air</span>: 10%) </br>Area of Effect: 6 Blocks (Circle-Shaped) </br>Effect: 50% Slowness to Enemies </br>Tornado Duration: 5s </br>Slow Duration: 1s",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Void Acceleration": {
+        "name": "Void Acceleration",
+        "combo": "",
+        "desc": "Double Meteor's speed and increase its damage. </br> Meteor Shower summons meteors +25% faster. </br> </br><span class='mc-white'>Total Damage</span>: +110% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +75%)   </br>&emsp;(<span class='aDam'>Air</span>: +35%)",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Mana Current": {
+        "name": "Mana Current",
+        "combo": "",
+        "desc": "Dimensional Tear reduces the mana cost of your spells while inside it. </br> Mana Cost: -25%",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Paradox": {
+        "name": "Paradox",
+        "combo": "",
+        "desc": "You send 25% of the damage you take to the future, dealing it over 10s and borrow mana from the past, refunding 25% of your spent mana over 10s. </br> For every +1 Distortion, the mana is refunded -0.02s faster.",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Another Self": {
+        "name": "Another Self",
+        "combo": "",
+        "desc": "Click Combo: F </br> Create a perfect clone of yourself to work with as a united duet, it copying every spell you cast. </br> The clone's health is proportional to your  own effective health, and while it lives, the effectiveness of your debuffs is doubled. </br> Casting F again swaps your positions, detonates Tricks on nearby enemies, and makes  your clone cast all available Damage Spells. </br> If no enemy had more than 10 Tricks detonated in the swap, the clone loses -2000 health. However, for every Trick detonated over the threshold, those Damage Spells deal 3% more damage. </br> </br>Duration: 20s </br> Activate abilities or take damage to charge your Ultimate Meter to 100%",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Bloody": {
+        "name": "Bloody",
+        "combo": "",
+        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
+        "properties": {},
+        "stats_keys": [
+            "blood_pool"
+        ],
+        "note": ""
+    },
+    "Scourge": {
+        "name": "Scourge",
+        "combo": "",
+        "desc": "Flaming Tongue gains +1 hit and attacks +40% faster.",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Bloodier": {
+        "name": "Bloodier",
+        "combo": "",
+        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
+        "properties": {},
+        "stats_keys": [
+            "blood_pool"
+        ],
+        "note": ""
+    },
+    "Eldritch Transfusion": {
+        "name": "Eldritch Transfusion",
+        "combo": "",
+        "desc": "Refreshing Eldritch Call while it is already active will imbue its attacks with blood, granting it +1 stack of Transfused (Max 3). </br> For every 1 stack of Transfused Eldritch Call has, its attacks deal more damage. All stacks are lost when Eldritch Call ends. </br> </br>Effect: +7% damage to Eldritch Call (Per stack)",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Bloodiest": {
+        "name": "Bloodiest",
+        "combo": "",
+        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
+        "properties": {},
+        "stats_keys": [
+            "blood_pool"
+        ],
         "note": ""
     }
 }
