@@ -71,14 +71,7 @@ Item Identifier的标志是末影之眼+紫色地毯
 :::
 
 
-## Powder Master
-
-关于粉末的机制，你可以跳到[这一章](/guide/basesystem/powder.html)
-
-:::tip
-Powder Master的标志是高级雷粉+橙黄色地毯
-![](/assets/img/powder1.jpg)
-:::
+## Upgrader
 
 ## Blacksmith
 
@@ -120,23 +113,19 @@ Potion Merchant的标志是治疗药水+红紫色地毯
 :::
 
 ## Scroll Merchant
-卷轴商人能出售当前城市的传送卷轴，玩家可以通过在任意安全区域使用传送卷轴来进行快速传送，注意每次使用都需要消耗1点灵魂点
+卷轴商人能出售当前城市的传送卷轴，玩家可以通过在任意安全区域使用传送卷轴来进行快速传送
 
 只有大城市例如Ragni、Detlas才存在Scroll Merchant，较小的城市是没有Scroll Merchant的。
 
 你还可以在Scroll Merchant买到其他城市的传送卷轴，但是注意会比其他城市高几倍的价格，最好只买当前城市的。
+
+每次使用卷轴会消耗1点传送次数。传送次数为全账号全卷轴通用，上限3点，每10分钟补充一点。当传送次数耗尽后，在补充次数前你无法使用任何传送卷轴
 
 :::tip
 Scroll Merchant的标志是白纸+白色地毯
 ![](/assets/img/scroll.jpg)
 :::
 
-### Dungeon Scroll Merchants
-Scroll Merchant的一个变体，Dungeon Scroll Merchants一定会存在于副本入口的区域，同时部分城镇也会有
-
-玩家可以消耗2个副本碎片来兑换1个Dungeon Scroll，作用是快速传送到副本门口且**不消耗灵魂点**
-
-在The forgery兑换的副本卷轴则是传送到The forgery
 
 ## Weapon Merchant / Armour Merchant
 因为存在感实在太低所以放在一起介绍了。
