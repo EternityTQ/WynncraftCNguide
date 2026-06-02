@@ -6,7 +6,7 @@ icon: place-of-worship
 <span style="font-size: 25px;">**战祸宫阙**</span>
 
 名称：The Wartorn Palace
-简称：TWP
+简称：TWP / WTP(官方简称)
 最低等级需求：119
 入场费用：1 EK Rune
 前置任务：Apotheosis(账号前置) [A journey Home (Level 104)](/quests/lvl101-110/level%20104%20-%20a%20journey%20home.html)(角色前置)
