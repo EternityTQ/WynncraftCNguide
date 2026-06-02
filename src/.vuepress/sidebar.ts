@@ -142,7 +142,7 @@ export default sidebar({
         prefix: "raid/",
         icon: "skull",
         collapsible: true,
-        children: ["intro","newbie", "notg", "nol", "tcc", "tna"],
+        children: ["intro","newbie", "notg", "nol", "tcc", "tna","twp"],
       }, "grindspot", "earnle", "vip", "festival", "mod", "slang", "community", "qa", "support","rules"],
     },
   ],

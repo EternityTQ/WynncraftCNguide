@@ -9,18 +9,20 @@ icon: place-of-worship
 简称：TWP
 最低等级需求：119
 入场费用：1 EK Rune
-前置任务：
+前置任务：Apotheosis(账号前置) [A journey Home (Level 104)](/quests/lvl101-110/level%20104%20-%20a%20journey%20home.html)(角色前置)
 
 TWP是目前游戏流程中最难的RAID，其具有最高的数值，对玩家的配置、配合要求有很高的挑战。
 
 不建议在没做好准备之前尝试攻克。
 
 :::tip 职业选择
-处于王房的设计，笔者非常推荐你选择能够飞天的职业，例如SharpShooter、Battle Monk、Acrobat
+处于王房的设计，**如果没有合适的队伍**笔者非常推荐你选择能够飞天的职业，例如SharpShooter、Battle Monk、Acrobat
 
 再不济，可以选择机动性较高的武器，例如Olympic、Warp等等。
 
 如果选择龟爬配装，会相当吃力。
+
+如果队伍中有Guardian或者Ascendancy负责拉怪，则完全可以使用你想用的配装来打
 
 :::
 
@@ -28,13 +30,15 @@ TWP是目前游戏流程中最难的RAID，其具有最高的数值，对玩家�
 
 ### Regal Ballroom
 
+![](/assets/img/twp.md-06-02-12-48-27.png)
+
 这一面为纯粹的战斗爽环节。
 
 小队会遇到连续的若干房间，击杀房间内的所有怪物即可进入下一间房间。
 
 在进入房间前，小队需要选择当前房间的怪物属性，有克制关系但基本上是什么属性抗什么。
 
-请注意，尽量避免选择气，气属性房间的怪物会使用远程攻击，非常夸张。
+请注意，尽量避免选择气和地，气属性房间的怪物会使用远程攻击和漂浮，比较碍事；地属性的小怪会使用一个比较强的地震技能，容易暴毙。
 
 打到中间会出现两扇分支门，小队需要兵分两路拿到两把钥匙，每个分支有两个房间，一样需要选择属性。打完分支的所有怪物即可自动获取钥匙。
 
@@ -43,6 +47,8 @@ TWP是目前游戏流程中最难的RAID，其具有最高的数值，对玩家�
 
 
 ### Grand Aisles
+
+![](/assets/img/twp.md-06-02-12-49-21.png)
 
 这一面中，需要有一个处理机制位。
 
@@ -60,6 +66,8 @@ Guild Raid中，控制器需要区分左右键来砸烂屋顶。
 
 当破坏完屋顶后，天台的玩家需要看向地面，由地面的玩家负责清理BOSS，然后准备轰炸。
 
+
+
 **BOSS死亡后，所有小怪会被吸引至BOSS处，然后散开**
 
 天台的玩家需要趁此机会砸小怪。
@@ -70,9 +78,19 @@ Guild Raid中，控制器需要区分左右键来砸烂屋顶。
 
 这一关非常需要配合，如果你是组队进入，可以让地面队友要击杀之前报信号，如果击杀后再蓄力可能来不及。
 
+:::tip
+强烈推荐由Guardian玩家负责拉怪。
+
+小怪聚集的时候很快就会重新散开，如果没有Guardian玩家将很难把握时机。
+
+或者，也可以让地面玩家在怪堆中竖直向上位移来保证怪物不要散开，方便顶上玩家开炮
+:::
+
 ## Room 2
 
 ### Statuary Hall
+
+![](/assets/img/twp.md-06-02-12-51-18.png)
 
 这一面中，需要有一个机制处理位。
 
@@ -84,13 +102,36 @@ Guild Raid中，控制器需要区分左右键来砸烂屋顶。
 
 前往上方平台的玩家需要快速清理盾牌，确保地面玩家可以对BOSS造成有效输出。
 
+在平台上，每次潜行会直接击杀一个盾牌，需要通过快速潜行的方式来击杀。
+
 平台大小为5*5，每隔数秒会随机刷新16个尖刺，会有前摇提醒，尖刺会对踩在上面的玩家造成大量伤害。
 
-机制处理位要么需要注意尖刺，要么可以用acrobat、sharpshooter之类的可飞天职业进行逃课。
+盾牌对应的抗性如下：
+
+5/5 Shields Alive – 95% Boss Resistance
+4/5 Shields Alive – 75% Boss Resistance
+3/5 Shields Alive – 50% Boss Resistance
+2/5 Shields Alive – 30% Boss Resistance
+1/5 Shields Alive – 15% Boss Resistance
+0/5 Shields Alive – 0% Boss Resistance
+
+
+
+:::tip
+站在平台的边缘，可以不被尖刺攻击。
+
+此时可以尽情处理盾牌
+
+需要注意的是，可能会被下面的余波打下来
+
+可以考虑用有反击退的职业来处理机制，例如球法和paladin
+:::
 
 ## Room 3
 
 ### The Spire's Shadow
+
+![](/assets/img/twp.md-06-02-12-53-17.png)
 
 这一面中，需要有一个机制处理位。
 
@@ -100,13 +141,15 @@ Guild Raid中，控制器需要区分左右键来砸烂屋顶。
 
 发光怪会持续牵引手持长矛的玩家，将其杀死后可为长矛充能。
 
-场地初始会刷新若干尖刺，以及中央平台，它们都可以用长矛右键来冲锋破坏，他们盖住了水晶的部分刷新点，需要破坏才能露出刷新点。
+场地初始会刷新三个尖刺，以及中央平台，它们都可以用长矛右键来冲锋破坏，他们盖住了水晶的部分刷新点，需要将其破坏才能露出刷新点。
 
-然后，场地会有9个水晶刷新点，将刷新点的血条打爆之后，会暂时露出水晶。水晶周围若有玩家，则不会落下，否则会缓缓落下，**队友需要配合长毛玩家，站住水晶避免其落下**，水晶会对周围玩家造成地火、火环伤害，注意规避。
+然后，场地会有9个水晶刷新点，它们的刷新点均为随机，但都符合3行3列的分布。
+
+将刷新点的血条打爆之后，会暂时露出水晶。水晶周围若有玩家，则不会落下，否则会缓缓落下，**队友需要配合长矛玩家，站住水晶避免其落下**，水晶会对周围玩家造成地火、火环伤害，注意规避。
 
 手持长矛的玩家需要趁此机会向水晶冲锋来进行破坏。
 
-过关技巧：
+长矛玩家需要注意的是：
 
 1. 长矛玩家视角中，所有可被破坏的目标都有白光标识。
 
@@ -114,10 +157,33 @@ Guild Raid中，控制器需要区分左右键来砸烂屋顶。
 
 3. 冲锋距离中，如果有多个可破坏目标，即可同时进行破坏。
 
+:::tip
+这关的主流标准解法是：首先站在平台中间，朝一个孤立的刺冲锋
+
+然后，一起处理剩下的两个尖刺
+
+这样，你就处理了所有盖住水晶的障碍物
+
+然后，按水晶洞分布来一行一行处理，一次处理3个水晶
+
+像这样：
+
+![](/assets/img/twp.md-06-02-12-56-29.png)
+
+一般来说，可以用Wynnmod的标点指示功能来指挥队友需要处理的水晶
+
+正常的话，5次冲锋即可解决这一面！
+
+:::
+
 
 ## BOSS
 
+![](/assets/img/twp.md-06-02-12-59-15.png)
+
 BOSS房会有非常多的小零食，伤害非常痛，如果ehp不够高建议时刻注意机制。
+
+这里主要介绍一些机制：
 
 空中鱼雷：女王朝着边缘冲刺，途中召唤一些绑起来的鱼雷，它们过一段时间后会爆炸，对空中目标造成伤害，并且发射弹幕喷向周围的地面玩家。
 如果你是sharp之类的飞天选手，要注意离鱼雷远点，尽管它们的伤害似乎不算太高...
@@ -143,10 +209,68 @@ BOSS房会有非常多的小零食，伤害非常痛，如果ehp不够高建议�
 
 电锯狂飙：50%血线触发，场地内不同角的分界线会持续刷新电锯，电锯会往中间滚，碰到电锯会受到伤害。
 
-锁链【重要】：关卡机制，50%血线触发，BOSS获得50%减伤。
+**锁链【重要】**：关卡机制，50%血线触发，BOSS获得50%减伤。
 
 场地内会刷新6枚锁链，它们初始时会刷新在空中，其会攻击下方的玩家，随后掉落在地面上，此时会亮血条，可对其进行攻击。
 被打爆的血条会附到BOSS身上，BOSS每被附上一条锁链，就会受到50%的额外伤害，最多额外受到300%的伤害。
+
+### 过关方式
+
+目前主流的打法，是由paladin负责将女王嘲讽至中间拉住，避免其乱跑，然后其他人输出即可
+
+比较好用的武器是Halcyon、萨满等
+
+有这个就可以把TWP变成打桩游戏了！
+
+什么？你说你们没有Paladin?
+
+那就得退化回beta打法了，主流职业是Sharpshooter、Bmonk之类的飞天职业
+
+然后注意时刻追击女王进行输出
+
+**无论什么打法，一定要在半血后及时处理机制，击杀锁链**
+
+## Power Ups
+
+在每关结束后，你都可以选择一个buff
+
+但是，在第三面结束后，你需要强制选择一个debuff
+
+>别试了，逃不掉的，假装掉线的话会自动帮你选一个
+
+| Powerup | Room 1 | Room 2 | Room 3 |
+| ------- | ------ | ------ | ------ |
+| Relentless / Restless | +30% Walk Speed<br>+600 Main Attack Damage<br>+35% Exploding | +8% Weaken Enemy<br>-75% 2nd Spell Cost<br>+25 Agility | <font color = "red">-35% Spell Damage<br>-25 Max Mana</font> |
+| Ingenious / Apathetic | +3,000 Health<br>-40% 4th Spell Cost<br>+25% Healing Efficiency | +30 Defence<br>+1,000 Health Regen<br>+Phoenix-Born Major ID | <font color = "red">-45% Walk Speed<br>-40% Main Attack Damage</font> |
+| Unrestrained / Faceless | -5 3rd Spell Cost<br>+25 Intelligence<br>-5 1st Spell Cost | +250 Damage<br>+250% Main Attack Damage<br>+30,000/3s Poison | <font color = "red">-10 Strength<br>-10 Dexterity<br>-10 Defence<br>-10 Agility</font> |
+| Opulent / Prideful | +25/5s Mana Regen<br>+40 Max Mana<br>+25% Elemental Damage | +200 Elemental Damage<br>+30% Elemental Damage<br>+Transcendence Major ID | <font color = "red">-3,000 Health<br>-50% Elemental Defence</font> |
+| Omniscient / Isolated | +650/3s Life Steal<br>+40 Max Mana<br>+20 Dexterity | +20/3s Mana Steal<br>+75% Main Attack Range<br>+20 Strength | <font color = "red">-375 Health Regen<br>-10/5s Mana Regen</font> |
+
+
+## Guild Raid
+
+在Guild Raid中，主要有以下改动：
+
+R1的Ballroom中，机制处理位需要区分鼠标左右键来砸天花板
+
+R2中，盾牌变为了6个
+
+R3中，**一旦长矛玩家冲锋撞到队友，就会立刻停下**
+
+需要队友站住水晶的同时，看到地面冲锋条变红后，立刻传送跑开
+
+BOSS房中，很多技能都得到了强化。
+
+最关键的是，腐化状态下，会生成追踪尖刺攻击玩家，该技能伤害极高，要求玩家移动进行躲避
+
+## Rewards
+
+以下是twp的特色产出：
+
++ Frightful Fragment：能修改Fruma的天气，回退至通关twp前的雷暴天气
++ Charm of the Corruption：增加Fruma区域的loot bonus，放在包内即可生效
++ Corkian Amplifiers IV：仅有TWP产出
++ Red ward：仅有TWP产出
 
 
 
