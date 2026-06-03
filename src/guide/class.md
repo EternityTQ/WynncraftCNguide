@@ -448,7 +448,7 @@ we也是神
 
 > 年轻的永利战士第一次感受到妈妈的温暖
 
-
+> 怀念最好的五个lb武器：拉面（已成区），怪兽（已rw），法头（已弱智），瓦铺（已过时），翡翠鸡（已王朝）
 
 
 <ClientOnly>
@@ -665,7 +665,7 @@ trapper的实战真的没什么手法。
 <jc name="Shadestepper"/>
 </ClientOnly>
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+<span style="font-size: 24px; border-bottom: 3px solid #AA0000; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
 Shadestepper 是一名高输出并在部分情况下拥有高坦度的职业
 
@@ -677,7 +677,7 @@ Shadestepper可以通过smokebomb/spinattack施加marks，并对拥有marks的�
 
 Shadestepper的大招可以让你进入一段时间的无限隐身，在无限隐身期间你享有隐身状态给予你的所有增益
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+<span style="font-size: 24px; border-bottom: 3px solid #AA0000; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
 Shadestepper偏为主流的玩法有两种，其一是施法循环
 
@@ -691,7 +691,7 @@ Shadestepper偏为主流的玩法有两种，其一是施法循环
 
 
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+<span style="font-size: 24px; border-bottom: 3px solid #AA0000; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Shadestepper"/>
 </ClientOnly>
@@ -701,7 +701,7 @@ Shadestepper偏为主流的玩法有两种，其一是施法循环
 </ClientOnly>
 
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+<span style="font-size: 24px; border-bottom: 3px solid #FF55FF; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
 Trickster 是一个兼顾坦度和输出，但拥有输出就没有坦度，拥有坦度就没有输出的职业
 
@@ -715,7 +715,7 @@ Trickster常态有三种类型的分身：通过vanish召唤的**镜像分身**�
 
 Trickster的大招是召唤一个完美的分身，它会复制你的法术并根据怪物的tricks层数造成更高的伤害，在拥有完美分身的时候再次点下大招会传送到完美分身的位置并使其使用你的三个攻击性法术
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+<span style="font-size: 24px; border-bottom: 3px solid #FF55FF; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
 Trickster的机制看似复杂，但实战只要在保证自己拥有镜像分身的情况下交替使用multihit和spinattack即可
 
@@ -725,7 +725,7 @@ Trickster的机制看似复杂，但实战只要在保证自己拥有镜像分�
 
 注意，第二次召唤分身时需要按住蹲，用以引爆第一轮分身为怪物叠加的tricks并施加debuff
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+<span style="font-size: 24px; border-bottom: 3px solid #FF55FF; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Trickster"/>
 </ClientOnly>
@@ -734,7 +734,7 @@ Trickster的机制看似复杂，但实战只要在保证自己拥有镜像分�
 <jc name="Acrobat"/>
 </ClientOnly>
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+<span style="font-size: 24px; border-bottom: 3px solid grey; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
 Acrobat是一名输出较高，高机动性的职业
 
@@ -742,11 +742,11 @@ Acrobat是一名输出较高，高机动性的职业
 
 Acrobat的终极技能可以在指定的区域种下一片花田，花田会在持续时间内对其中的怪物造成高额的伤害并大幅加速acrobat在其中叠加动量的速度
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+<span style="font-size: 24px; border-bottom: 3px solid grey; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
 Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程https://youtu.be/MA95vutzvjo?si=E71IGoMV_O28HMZb，熟练后可以高速施法使用124 123 124 123穿插hop的循环
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+<span style="font-size: 24px; border-bottom: 3px solid grey; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Acrobat"/>
 </ClientOnly>
@@ -760,6 +760,9 @@ Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程
 <ClientOnly>
 <jc name="Summoner"/>
 </ClientOnly>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
 召唤师使用多个图腾和召唤物来压制敌人。
 
 召唤师至多能同时召唤4个图腾(需要Aspect)，图腾可以为周围的友军提供缓回能力。
@@ -776,8 +779,9 @@ Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程
 
 其还可以通过进入指挥、鞭挞等特殊状态来提高召唤物的伤害
 
+大招还会召唤一只巨大石像，对周围造成客观的伤害
+
 相比隔壁各方面都极其优秀的血萨，召唤师尽管略逊一筹，但自身机制优秀，玩法舒适，适合新手萨满入手
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
