@@ -167,13 +167,21 @@ fallen在目前的版本中地位实在是很差。
 
 历经2.1整个版本的不停削弱，直到2.2新版本大部分职业都吃到新技能树的红利的情况下，fallen仍然没有半点长进。
 
-简单来说就是，它的输出能力配不上它的生存代价。
+简单来说就是，它的输出能力配不上它的生存代价，就算混点了盾也还是脆，人均aoe的时代容易死于不明aoe。
 
 大招据说还可以，但问题是放不出来，而且触发方式有点费劲。
 
 总而言之，fallen在目前的版本难以成为输出，能不能打过其他职业是个问题。
 
 ~~战士真的没有多少能拿的出来的输出了~~
+
+>牛头人分支，血契被隔壁两个分支拿完了
+
+>伐冷你复活吧
+
+>能不能把second chance分给我们fallen
+
+>这Fallen真tm废物😫这Fallen真tm废啊这个版本😡，太废了2.1打不过palamonk还被2.2改动跟条区一样😅hero三打一老头没打过玩什么这Fallen😩再稳一点早就进不了斩杀clog了😇2.2后你就看hero怎么暴打twp吧🥲真的我真服了😭 哎呀妈不说了😮‍💨我真他妈的这么菜呀！🤦这辈子过不去了😭 这辈子😭真的这辈子就强一个2.0吗🤦我操真服了🙏🎧
 
 
 
@@ -227,6 +235,8 @@ fallen在目前的版本中地位实在是很差。
 
 但真的也很难上桌，不配etw就完全没伤害，很难想象2.2了居然还有这种大职业存在。
 
+要出beta的时候还被挨了一刀pressure bash，难评。
+
 大招很几把搞笑，你已急哭，推荐开完大切两次F5看看。
 
 打world event还够看，要是打raid的话就不得不try hard了。
@@ -237,7 +247,7 @@ fallen在目前的版本中地位实在是很差。
 
 噢，但不得不说bmonk跑lr还挺舒适的。
 
-手法职业真的很难玩。
+手法职业真的很难玩。飞起来打不到，打的到飞不起来。
 
 
 <ClientOnly>
@@ -295,8 +305,15 @@ fallen在目前的版本中地位实在是很差。
 
 但缺点是真的没有伤害，如果去排野队很容易遇上队友也完全没输出的问题。
 
+而且现在paladin还有一个叫ascendancy的变态东西，难绷啊哥们
+
+
 总而言之，是一个非常团队的职业💪
 
+
+>Fallen（梦碎18次clog）Paladin（已王朝）
+
+>Paladin：fallen嘉豪别刷了，没人在意那几条we都打不明白的臭蛆😅😅😅
 
 <ClientOnly>
 <ks name="Paladin"/>
@@ -357,6 +374,18 @@ we也是神
 
 玩rw能不笑的都得确诊抑郁症了。
 
+> 我的天呐裂隙走路人大人.jpg
+
+> 栓个bonder都能玩
+
+> 你们不觉得那个飞来飞去然后一直放陨石和凤头顶尖尖的人很恐怖吗
+
+> 奥术: rwalker老师😭我还记得你😭一次一次😭把我踢进clog里
+ 
+> 当时 所有人都认为TP打伤害是搞笑的
+
+> 奥术：r小弟，你在那天的clog里到底放了什么，好晕好软啊，那一条条的真是加强吗
+
 <ClientOnly>
 <ks name="Riftwalker"/>
 </ClientOnly>  
@@ -414,6 +443,10 @@ we也是神
 什么叫能打300k还能爆吃大体积的BOSS？噢我的上帝。
 
 正常球法基本上只是沦为了普通辅助，论输出显然不够看。
+
+> 我打Halcyon?真的假的？
+
+> 年轻的永利战士第一次感受到妈妈的温暖
 
 
 
@@ -489,6 +522,8 @@ we也是神
 
 其最高输出的箭雨技能扩散极大，若未贴脸释放将丢失大量伤害。
 
+闪击射手还有独特的风步强化以及Frenzy，能获得大量额外的移动速度
+
 闪击射手具有独特的"守护天使"，其会消耗弹药自动攻击敌人，通过释放箭雨和炸弹箭将在短时间内强化守护天使。
 
 在释放箭雨后，会自动获得燧石箭，其可通过平A打出，数量由平A箭矢数量决定
@@ -548,11 +583,35 @@ we也是神
 
 猎犬可以将敌人拉扯至陷阱上，避免炸空，同时其在攻击敌人时还有概率直接在敌人脚下布置地雷。
 
+乌鸦可以对敌人造成伤害，减少攻击。
+
+陷阱师还可以召唤寒冰陷阱，对大范围的敌人造成伤害并减速
+
+陷阱师的大招可以对前方的大范围地面召唤空袭，生成大量地雷造成伤害
+
 
 
 <span style="font-size: 24px; border-bottom: 3px solid #00AA00; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
+trapper的实战真的没什么手法。
+
+你只需要丢炸弹箭在旁边，然后蹲在炸弹群里面回蓝，箭盾没了就补箭盾，怪来了就躲，然后...没了
+
+是的就是这么安逸。
+
+需要注意的是如果仇恨在别的队友身上，你的陷阱可能完全炸不到。
+
+箭雨招的毒蛇看情况放，一般是不咋放的，因为箭雨还挺贵的。
+
+
+
+
+
 <span style="font-size: 24px; border-bottom: 3px solid #00AA00; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+
+
+
 <ClientOnly>
 <ks name="Trapper"/>
 </ClientOnly>
@@ -561,18 +620,37 @@ we也是神
 <ClientOnly>
 <jc name="Sharpshooter"/>
 </ClientOnly>
-神射手是一个独具特色的分支，其独特的“专注”能力决定了它是一个上限极高的分支
 
-鹰眼的核心能力在于命中敌人时叠加专注，未命中时失去专注，专注维持的越高，输出也会越高
+<span style="font-size: 24px; border-bottom: 3px solid #FF55FF; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
-其箭雨技能也将被转化为特殊的激光，没有后坐力的同时精准度更高，更容易维持专注
+神射手是一名远距离的爆发职业
 
-鹰眼的终极技能~~虽然没什么用~~可以在叠满专注时化身雷霆战机~~飞行木桩~~造成高额爆发~~并牺牲持续输出能力~~
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+其独特的机制"专注"可以让其在远距离连续命中敌人时，持续叠加伤害。
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+与此同时，还有独特的漂浮机制可以使神射手在空中安全输出。
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+当专注叠加到一定层数后，在空中释放箭雨可以进入"暮色流光"状态，进入飞行形态并且射出数十根导引箭追踪敌人，造成大量破坏性伤害。
+
+神射手的大招可以进入瞄准模式后，对敌人造成极大的单次伤害。
+
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF55FF; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+本文主要介绍spell sharpshooter，还有另外一种打吐温射线的暂不介绍~~因为笔者没玩~~
+
+通常来说，在地面上使用射线攻击敌人积攒专注，攒够5层或8层专注后直接飞天即可
+
+有几个要注意的点：
+
+1. 专注要离敌人一定距离才能叠
+2. 专注层数影响暮色流光伤害，专注初始层数越高，暮色流光伤害越高
+
+当然，你也可以飞上天在漂浮的时候来攒专注，好处是更安全，坏处是通常5层专注就起飞了，打不了多少伤害
+
+然后大招攒够了找机会开即可
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF55FF; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
 <ks name="Sharpshooter"/>
 </ClientOnly>
