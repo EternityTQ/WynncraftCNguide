@@ -487,8 +487,8 @@ Vibrant信标拥有原信标的双倍效果
 |  <mob>Hubris</mob> | 接下来10轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
 |  <mob>All In</mob> | 接下来10轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为3次奖励重掷 |
 |  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除90秒 | 每次扣除时间时获得1次奖励重掷 |
-|  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你进入挑战、开始挑战、结束挑战时，都会把计时器重置至75秒，期间死亡不会扣除时间 |获得2次奖励重掷 |
-|  <mob>Treasury Bill </mob> |直到你达到(当前pulls+20) pull之前，每45秒扣除1 pull |额外获得完成试炼时的pulls的75% |
+|  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你进入挑战、开始挑战、结束挑战时，都会把计时器重置至75秒，在挑战期间死亡不会扣除时间 |获得2次奖励重掷 |
+|  <mob>Treasury Bill </mob> |直到你达到(当前pulls+20) pull之前，每60秒扣除1 pull |额外获得完成试炼时的pulls的75% |
 |  <mob>Ultimate Sacrifice</mob> | 接下来10轮中，所有祝福失效| 获得2次奖励献祭|
 
 
@@ -794,37 +794,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 |  <font color='FF5555'> **Thrill Seeker** </font>  | 废物，不多讲   |
 
 
-### 常见的任务/试炼组合
-
-#### <font color='FFCC00'> <b>Jester's Trick</b> </font> + <font color='FFCC00'> <b>Interest Scheme</b> </font>
-
-
-非常丧心病狂的组合，主要玩法是通过这两个核动力任务狂转飞箱，获取大量的pulls和飞箱。
-
-综合收益极高，强烈推荐。
-
-如果可以的话，尽可能在拥有`Loot Chest Bomb`的线路开始游玩，能达到最高效果。
-
-玩法套路是不停青黄循环，青黄会给予大量飞箱，Jester能从飞箱中转出大量的pulls，IS又能从pulls中转出大量飞箱，超级循环机。
-
-本组合如果你想专注开飞箱，你甚至可以无视绯红色信标
-
-需要注意的是，**本任务在SE、火山、sky效果最佳，corkus尽量不要用，峡谷完全不要用**，因为飞箱能开出来的神话取决于地区等级，而后两者的等级区间较低，开出来的神话范围很差。
-
-核心任务:
-+ <font color='FFCC00'><tip>Interest Scheme</tip> </font>
-+ <font color='FFCC00'><tip>Jester's Trick</tip> </font>
-
-配合极好的子任务:
-+ <font color='FFCC00'><tip>Hoarder</tip> </font>
-+ <font color='FFCC00'><tip>Materialism</tip></font>
-+ <font color='DDDDDD'><tip>Complete Chaos</tip></font>
-
-可与本组合配合的其他任务：
-+ <font color='DDDDDD'><tip>Redemption</tip></font>
-+ <font color='DDDDDD'><tip>High Roller</tip> </font>
-+ <font color='AA00AA'><tip>Cleansing Ritual</tip></font>
-+ <font color='00BB00'><tip>Chronokinesis</tip> </font>
+### 任务组合
 
 
 
