@@ -15,16 +15,8 @@ author: leo7668
 入场费用：1 Uth Rune
 前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20light%20v%20-%20the%20realm%20of%20light.html)
 
-Nol是整个游戏流程中，等级限制第二低的raid
-
-Nol曾经是整个游戏中最难的Raid，目前其难度依旧是数一数二的，虽然能在Lv 80 解锁，但不建议在这个等级区间挑战。
 
 :::tip
-由于Nol的机制难度非常高
-
-因此非常不建议匹配野队
-
-要么会匹配很长时间都没人，要么大概率翻车！
 
 只需要当前账号有任意存档完成前置任务，就可以解锁所有存档进入Nol的权限。但是没有完成前置任务：[Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20light%20v%20-%20the%20realm%20of%20light.html)的存档只能在Nol大厅和Light Portal之间往返，无法进入The Realm of Light
 :::
@@ -186,6 +178,8 @@ Nol曾经是整个游戏中最难的Raid，目前其难度依旧是数一数二�
 如果跌落虚空，则会受到巨额伤害，请尽量避免摔落。
 
 你不一定需要跟着手持水晶玩家走路线，你可以等到他走到金色平台后使用位移技能过去。
+
+实际上，目前的主流过法可能是...手持水晶的玩家直接飞过去，然后剩余人跟着他飞...至于怎么直接飞的你别问
 
 第三次的金色平台一定会生成在场地末尾中间的终点前，可以直接过去。
 
