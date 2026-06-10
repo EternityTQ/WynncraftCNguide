@@ -835,6 +835,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 核心组件:<font color='AA00AA'> **Inner Peace** </font>
 
 可选组件:<font color='AA00AA'> **Porphyrophobia** </font> + <font color='AA00AA'> **Radiant Hunter** </font>
+
 可选任务:<font color='AA00AA'> **Equilibrium** </font> / <font color='5555FF'> **Orphion's Grace** </font> / <font color='AA00AA'> **Sacrificial Ritual** </font>
 
 诅咒流顾名思义,就是通过紫信标刷取大量的pulls和诅咒,然后自身通过拿够多的boon和怪物数值对对碰
@@ -878,7 +879,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 核心组件:<mob> Chronotrigger </mob>
 
-燃料来源:<mob> **Light Out </mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font>
+燃料来源:<mob> Light Out </mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font>
 
 打法:首先完成chronotrigger,然后一直青紫循环,跑够100轮
 
@@ -932,17 +933,17 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 它们的强度和用法都在上文的任务选择里面单独介绍过了,这里不再进行赘述.
 
-<font color='DDDDDD'> **High Roller** </font>
++ <font color='DDDDDD'> **High Roller** </font>
 
-<font color='DDDDDD'> **Redemption** </font> 
++ <font color='DDDDDD'> **Redemption** </font> 
 
-<font color='DDDDDD'> **Complete Chaos** </font>
++ <font color='DDDDDD'> **Complete Chaos** </font>
 
-<font color='AA00AA'> **Radiant Hunter** </font>
++ <font color='AA00AA'> **Radiant Hunter** </font>
 
-<font color='00BB00'> **Chronokinesis** </font>
++ <font color='00BB00'> **Chronokinesis** </font>
 
-<font color='FFAA00'> **Optimism** </font>
++ <font color='FFAA00'> **Optimism** </font>
 
 ### 关于试炼
 

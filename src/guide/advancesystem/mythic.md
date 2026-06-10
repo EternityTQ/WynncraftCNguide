@@ -74,6 +74,36 @@ Shiny Mythic是比普通神话物品还要高级的神话。
 
 ### Ascend Mythic
 
+在2.2更新后，Fruma前的神话有了晋升的机会。
+
+晋升后的神话相比晋升前，会提升使用等级限制、提升词条范围、获得新的词条，甚至获得新的Major ID
+
+通常来说，晋升所带来的提升大约是10%\~15%左右。
+
+为了晋升，你需要凑齐以下材料：
+
+七种不同颜色的Ward，它们分别来自：
+
+绿Ward:LR限定Ward，会在峡谷、SE、Fruma西部的池子随机刷新
+
+橙Ward:LR限定Ward，会在Sky、Corkus的池子随机刷新
+
+粉Ward:LR限定Ward，会在火山池子随机刷新，在Fruma东部池子必刷
+
+红Ward:Raid限定Ward，只在twp可以获得
+
+蓝Ward:Raid限定Ward，随机刷新
+
+黄Ward:Raid限定Ward，随机刷新
+
+紫Ward:Raid限定Ward，随机刷新
+
+同时，你还需要一把对应神话作为燃料来确保你的晋升概率为100%，如果不添加燃料则晋升概率只有30%，非常扯淡。
+
+Shiny神话的燃料可以是普通版本的。
+
+当准备好晋升了，找到城镇里面的Upgrader即可，记得别放错想要晋升的主武器了
+
 ## 战士
 
 ### Apocalypse
@@ -85,7 +115,7 @@ Ascend版本：
 <MythicItem name="Masterwork Apocalypse" />
 
 
-别名：apoc/天启
+别名：apoc/天启/启示录
 
 曾经是CT乱改受益者，目前的base甚至快比hero高了。
 
