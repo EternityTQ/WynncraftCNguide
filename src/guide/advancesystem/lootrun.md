@@ -844,7 +844,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 核心组件IP必拿,抗性减半效果很好,radiant power折半更是神,没有IP基本不用打诅咒流了.
 
-至于Porphyrophobia和radiant hunter,看笔者选择,是可以都拿的,但是二选一的情况我更推荐选radiant hunter. 后者只需要你拿足够的radiant chance就可以不拿诅咒了,每轮固定+5pulls,但前者还是要一直拿诅咒,怪物多了可能会比较难打.
+至于Porphyrophobia和radiant hunter,看读者选择,是可以都拿的,但是二选一的情况我更推荐选radiant hunter. 后者只需要你拿足够的radiant chance就可以不拿诅咒了,每轮固定+5pulls,但前者还是要一直拿诅咒,怪物多了可能会比较难打.
 
 如果有Equilibrium,那就是青紫青蓝的节奏.
 
