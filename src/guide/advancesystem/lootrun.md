@@ -511,9 +511,10 @@ Vibrant信标拥有原信标的双倍效果
 **注意最终奖励宝箱的奖励抽取不受任何lb、lq的影响！**
 :::
 
-在打开最终宝箱确认结算前，你仍可以使用任务、试炼途径以及每日奖励获取到的**End Reward Reroll**和**End Reward Sacrifice**对奖励进行修改
+在打开最终宝箱确认结算前，你仍可以使用任务、试炼途径以及每日奖励获取到的**End Reward Reroll**和**End Reward Sacrifice**对不满意的奖励进行调整
 
-**End Reward Reroll**
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">End Reward Reroll</span>
+
 
 简称rr
 
@@ -521,13 +522,22 @@ Vibrant信标拥有原信标的双倍效果
 
 rr相当于重抽一次，且不会保留你重抽前的任何物品
 
-**End Reward Sacrifice**
+笔者更建议读者在出神话的时候不要问要不要留了,现在的爆率低的离谱,真的留下吧
+
+但是如果你执意要问,那我的建议就是**赌**
+
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">End Reward Sacrifice</span>
+
+
 
 简称sac
 
 在确认开启前，如果你通过任务获得了sac数，你可以随时选择献祭奖励(End Reward Sacrifice)
 
-sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局。你的sac越多，能保存的pulls就越多。
+sac会放弃当前所有奖励，根据你的sac数来保留当前的一部分pulls至下一局,会在下一局**结算的时候**增加至你的总pulls中。
+
+你的sac越多，能保存的pulls就越多。
 
 相当于保底机制，省的这局所有pulls全部白搭...
 
@@ -538,7 +548,7 @@ sac的保存数公式为：
 $$(1-\frac{1}{sac+1})×100\%_{\text{(50\%,66.6\%,75\%...)}}$$
 
 
-在确认开启后，你就不能进行任何操作了，包括rr和sac
+**在确认开启后**，你就不能再使用rr和sac了
 
 :::tip
 若下一局failed了，sac所继承的pulls会继续保留，直到成功结算为止
@@ -573,13 +583,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 在经过N次更新之后，目前的LR已经变成了一个巨大的牢房，在难度急剧增大的情况下奖励又屡次缩水，非常不建议耗费大量时间在LR上
 
-以下攻略基于`2.1.4`版本编写，不保证时效性。
-
-:::tip 搬运许可
-本章节的部分内容来自作者`Rover Makyr`
-![](/assets/img/lootrun.md-02-24-20-50-34.png)
-非常感谢搬运许可！
-:::
+以下攻略基于`2.2`版本编写，不保证时效性。
 
 ### 职业选择
 
@@ -632,11 +636,13 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 红信标很重要,必须吃1-2个来延长挑战,可以在任务间隙确认没有时间相关的任务后拿取
 
+这个阶段不会刷新彩虹,可以考虑吃青橙来提高信标选数,而不是单橙
+
 #### 第二阶段 挑战10-20
 
 此阶段重点在扩充挑战轮次并拿到彩虹信标。
 
-没彩虹就重复1-4轮的流程，有彩虹就收下
+没彩虹就重复1-10轮的流程，有彩虹就收下
 
 拿到彩虹后，尝试吃橙扩容信标选数，尽量吃到青色+白色的组合，可以增加30个挑战数。
 
@@ -804,20 +810,139 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 >听牌:现有任务要抓到哪些任务才能胡
 
-<span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">飞箱流</span>
+无论什么任务流派,都可以顺手抓下文提到的"散件流"任务进行组合
+
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">飞箱流</span>
+
+核心组件: <font color='FFCC00'> **Interest Scheme** </font> + <font color='FFCC00'> **Jester's Trick** </font>
+
+可选任务:<font color='FFCC00'> **Materialism** </font> >  <font color='AA00AA'> **Radiant Hunter** </font> > <font color='AA00AA'> **Sacrificial Ritual** </font>  > <font color='FFCC00'> **Cleansing Greed** </font> 
+
+打法:如果凑齐了这两个核心组件,那就用青紫获取pull启动IS,然后一直青黄循环,如果jester发的pulls足够多的话,就可以一直给IS添燃料,否则就要再拿青紫添火
+
+但是核心组件两个任务的出率都比较稀有.如果实在想跑飞箱的话,单一个materialism也能跑,尽管效率较低,但胜在稳定.
+
+Sacrificial Ritual能不浪费轮次拿红绿,利好飞箱,但需要注意的是它扣的pull同样会给IS扣燃料.
+
+Radiant Hunter是顺手的事,如果jester给的radiant chance足够多,就可以拿radiant hunter顺手加pulls,同时还可以给IS加燃料,超绝combo
+
+cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才会拿,让战斗变得更舒畅一点
+
+这个打法中,boon不需要拿的特别多.
+
+<span style="font-size: 20px; border-bottom: 3px solid #AA00AA; padding-bottom: 4px; font-weight: bold;">诅咒流</span>
+
+核心组件:<font color='AA00AA'> **Inner Peace** </font>
+
+可选组件:<font color='AA00AA'> **Porphyrophobia** </font> + <font color='AA00AA'> **Radiant Hunter** </font>
+可选任务:<font color='AA00AA'> **Equilibrium** </font> / <font color='5555FF'> **Orphion's Grace** </font> / <font color='AA00AA'> **Sacrificial Ritual** </font>
+
+诅咒流顾名思义,就是通过紫信标刷取大量的pulls和诅咒,然后自身通过拿够多的boon和怪物数值对对碰
+
+其实笔者是不太喜欢的,因为radiant怪有概率秒人.
+
+核心组件IP必拿,抗性减半效果很好,radiant power折半更是神,没有IP基本不用打诅咒流了.
+
+至于Porphyrophobia和radiant hunter,看笔者选择,是可以都拿的,但是二选一的情况我更推荐选radiant hunter. 后者只需要你拿足够的radiant chance就可以不拿诅咒了,每轮固定+5pulls,但前者还是要一直拿诅咒,怪物多了可能会比较难打.
+
+如果有Equilibrium,那就是青紫青蓝的节奏.
+
+有Orphion's Grace 可以考虑青紫青紫青蓝之类的节奏
+
+总之诅咒流一定要记得拿高效能boon,避免属性增长跟不上怪物被秒杀.
 
 
-<span style="font-size: 24px; border-bottom: 3px solid #AA00AA; padding-bottom: 4px; font-weight: bold;">诅咒流</span>
 
 
-<span style="font-size: 24px; border-bottom: 3px solid #5555FF; padding-bottom: 4px; font-weight: bold;">Opal流</span>
+<span style="font-size: 20px; border-bottom: 3px solid #5555FF; padding-bottom: 4px; font-weight: bold;">Opal流</span>
 
-<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">爆pulls流</span>
+核心组件: <font color='5555FF'> **Opal Offering** </font>
 
-<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">爆rr流</span>
+可选组件:<font color='AA00AA'> **Equilibrium** </font> / <font color='AA00AA'> **Sacrificial Ritual** </font> / <font color='AA00AA'> **Radiant Hunter** </font>
+
+简单来说,就是通过提前积攒大量高效能boon,然后吃大量诅咒引爆获得大量pulls.
+
+这种打法比较适合短途,但如果长途的话可能会比较吃运营.
+
+短途如果有equilibrium,可尝试青蓝青紫的运营节奏,这样的话能多吃点pulls
+
+有ritual也许可以考虑跑长途,虽然用红绿也行. 长途opal的打法就是全程吃青蓝,到90轮后猛吃青紫爆掉boon
+
+需要注意的是,**途中任何吃boon的试炼/给诅咒的任务试炼都会影响你的运营**,特别是lights out会自动爆掉你的boon,需要小心.
+
+如果考虑配合radiant hunter跑长途,需要注意chance要提前吃,避免不小心把boon吃了.
+
+总而言之是一个比较利好短途的任务组合
+
+<span style="font-size: 20px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">爆pulls流--长途</span>
+
+核心组件:<mob> Chronotrigger </mob>
+
+燃料来源:<mob> **Light Out </mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font>
+
+打法:首先完成chronotrigger,然后一直青紫循环,跑够100轮
+
+因为chronotrigger是按当前pulls百分比算的,所以你需要大量的pulls来启动,这也是上面说的燃料来源
+
+先获取大量的燃料(100-200,甚至更高)后,就可以开始循环了.
+
+同时,新版chronotrigger也要烧诅咒,你需要保持你的诅咒数量在一定数量,建议暗灰在70轮左右再获取.
+
+如果有porphyrophobia,你的chronotrigger大概会在每个绿信标4%左右平衡下来;如果没有,就是2%.
+
+如果没有reroll的话,可以考虑使用lr token氪金获取,虽然笔者只建议在1000+pulls的时候用
+
+<span style="font-size: 20px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">爆pulls流--短途</span>
+
+核心组件:<mob>Light Out</mob>
+
+可选组件:<font color='AA00AA'> **Inner Peace** </font>/ <mob> Treasury Bill </mob> / <font color='00BB00'> **Chronokinesis** </font>
+
+非常简单粗暴的效果,只需要你拿了light out之后,专门找怪少的洞打,或者找能瞬秒的destroy,也可以找defend(最次选),但是只平A拉仇恨不打死怪.
+
+通过这种方式来拼命拖回合数,你就可以获得大量的radiant chance,然后一口气转换为大量pulls
+
+如果有IP的话,进度条会更慢涨,更利好pulls获取
+
+可以在任务完成前吃掉青暗灰信标来进一步提升你的radiant诅咒数量
+
+如果试炼二能听到Treasury Bill,也能获得大量的pulls,不要错过了.
+
+<span style="font-size: 20px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">爆rr流</span>
+
+一号核心组件:<mob>Gambling Beast</mob>(可以有sac)
+
+二号核心组件:<mob>Dying Light</mob> + <mob>All In</mob>(完全没有sac)
+
+选一个就行.
+
+这种打法通常是已经有大量sac pulls的时候用的.
+
+对于一号核心组件,在准备吃之前先吃大量的青绿凑时间,然后进青绯红,如果运气好就能吃到.
+
+然后只要开始拼命吃青绿就可以了.
+
+对于二号核心组件,强烈建议先听dying light,再听all in.这俩一起出的概率很小,如果先拿了all in,你这把就完全没有sac了,很蛋疼.
 
 
 
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">散件流</span>
+
+这里推荐的任务可能不成体系,但是单独拿也很有强度,可以和其他流派进行配合.
+
+它们的强度和用法都在上文的任务选择里面单独介绍过了,这里不再进行赘述.
+
+<font color='DDDDDD'> **High Roller** </font>
+
+<font color='DDDDDD'> **Redemption** </font> 
+
+<font color='DDDDDD'> **Complete Chaos** </font>
+
+<font color='AA00AA'> **Radiant Hunter** </font>
+
+<font color='00BB00'> **Chronokinesis** </font>
+
+<font color='FFAA00'> **Optimism** </font>
 
 ### 关于试炼
 
@@ -988,9 +1113,20 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 ### 区域选择
 
+以下区域介绍,按照区域等级来升序排列.
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">峡谷</span>
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Corkus</span>
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">火山</span>
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">空岛</span>
 
 
 
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">SE</span>
 
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Fruma西部</span>
 
-
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Fruma东部</span>
