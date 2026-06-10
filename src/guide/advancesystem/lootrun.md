@@ -798,7 +798,24 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 |  <font color='FF5555'> **Thrill Seeker** </font>  | 废物，不多讲   |
 
 
-### 任务组合
+### 任务与试炼组合
+
+这里会介绍一些比较常见的任务/试炼组合,如果你不知道怎么去听牌的话,照着组合抓就完事了
+
+>听牌:现有任务要抓到哪些任务才能胡
+
+<span style="font-size: 24px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">飞箱流</span>
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #AA00AA; padding-bottom: 4px; font-weight: bold;">诅咒流</span>
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #5555FF; padding-bottom: 4px; font-weight: bold;">Opal流</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">爆pulls流</span>
+
+<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">爆rr流</span>
+
 
 
 
