@@ -374,7 +374,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = FFCC00>**Serendipity**</font>           | Dynamic   | 在这次挑战后, 每次开启箱子都会获得一层 `祝福效果`           | x15        |
 | <font color = FF55FF>**Bad Omen**</font>              | Dynamic   | 在这次挑战后, 每次获得/消除诅咒都会增加/减少一层 `祝福效果`          | x10        |
 | <font color = 5555FF>**Midas Touch**</font>           | Dynamic   | 在这次挑战后, 每次获得/消除祝福都会增加/减少一层 `祝福效果`         | x8         |
-| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了5只怪物，获得一层持续60s的 `祝福效果`；在每次击杀怪物后，持续时间都会重置至60s | x50   |
+| <font color = FF5555>**Killstreak**</font>            | Dynamic   | 在这次挑战后, 每当你击杀了10只怪物，获得一层持续60s的 `祝福效果`；在每次击杀怪物后，持续时间都会重置至60s | x50   |
 | <font color = CCCCCC>**Persistent Champion**</font>   | Dynamic   | 在这次挑战后, 每次完成挑战都会获得一层 `祝福效果`              | x15          |
 | <font color = CCCCCC>**Patient Champion**</font>      | Dynamic   | 当你累计完成了20个挑战后，获得 `祝福效果`           | -          |
 | <font color = FFCC00>**Parsimonious**</font>          | Static    | 截止这次挑战前，每累计开到4个物品都会获得一层 `祝福效果`           | x10        |
@@ -433,23 +433,23 @@ Vibrant信标拥有原信标的双倍效果
 |---------------------|-------------------------------------------------------------------------------------------|
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
 | <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  |
-| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启7个箱子后，在下一轮结束时从3个100%效能的祝福中选择一个并获取。  |
-| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出30件物品时，从1 pull，1个祝福，1个诅咒，30s时间中随机获取一个  |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启6个飞箱后，从3个200%效能的祝福中选择一个并获取。  |
+| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
-| <font color='5555FF'> **Opal Offering** </font>     | 每次获得1个诅咒后，消耗1个祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
+| <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
 | <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+1 (上限为6)；开始任意挑战后重置该效果|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
-| <font color='AA00AA'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数  |
-| <font color='AA00AA'> **Radiant Hunter** </font>    | 每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull)  |
-| <font color='AA00AA'> **Equilibrium** </font>         | 每得到1个诅咒，会使下次获取的祝福效能+50% (上限+300%)|
+| <font color='AA00AA'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数(挑战轮数达到上限后不再扣除pull)  |
+| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull)  |
+| <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
 | <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
 | <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
 | <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你没有信标可以出现了，否则被刷新的信标将不再出现|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
-| <font color='FF5555'> **Thrill Seeker** </font>         | 获取红信标后会额外从5个祝福中选择1个并获取|
+| <font color='FF5555'> **Thrill Seeker** </font>         | 完成红信标将给予1 pull;该数量每完成7轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
 | <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
@@ -479,11 +479,11 @@ Vibrant信标拥有原信标的双倍效果
 | 名称 | 效果 | 奖励 |
 | --- | --- | --- |
 | <mob>Light Out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予5 pull |
-| <mob>Dying Light</mob> | 直到你共计获得1000%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 彩虹信标将给予1次奖励献祭 |
+| <mob>Dying Light</mob> | 直到你共计获得1000%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 完成彩虹信标将给予1次奖励献祭 |
 | <mob>Monochromokopia</mob> | 直到获得30 pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
-| <mob>Adrenaline Junkie</mob> | 直到获得30 pulls之前，在跑图阶段每25秒失去一个祝福 | 获得2次奖励重掷 |
-| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 绿信标将会净化5%的诅咒数量，并给予当前pulls数量的3.5% (向上取整) |
-|  <mob>Warmth Devourer</mob> | 直到你达到(当前pulls+20) pull之前，每轮挑战结束后扣除1个祝福和1个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
+| <mob>Adrenaline Junkie</mob> | 直到获得25 pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
+| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 完成绿信标将会净化10%的诅咒数量;每清除1个诅咒,获得当前pulls总量的1%(每轮最高5%,向上取整) |
+|  <mob>Warmth Devourer</mob> | 直到你获得20 pull之前，每轮挑战完成后扣除3个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
 |  <mob>Hubris</mob> | 接下来10轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
 |  <mob>All In</mob> | 接下来10轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为3次奖励重掷 |
 |  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除90秒 | 每次扣除时间时获得1次奖励重掷 |
@@ -620,9 +620,9 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 笔者将LR分为四个阶段。
 
-#### 第一阶段 挑战1-4
+#### 第一阶段 挑战1-10
 
-此阶段重点在扩充信标选择数。
+此阶段重点在扩充信标选择数和挑战轮数。
 
 信标选择：橙>vib粉>蓝=普通粉
 
@@ -630,7 +630,9 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 普通蓝信标的数值很低，然后普通粉信标约等于空过一轮，按你自己选择，如果实在没得选了想侧重运营推荐选粉.jpg
 
-#### 第二阶段 挑战4-12
+红信标很重要,必须吃1-2个来延长挑战,可以在任务间隙确认没有时间相关的任务后拿取
+
+#### 第二阶段 挑战10-20
 
 此阶段重点在扩充挑战轮次并拿到彩虹信标。
 
@@ -657,21 +659,23 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 延长挑战数的优先级比完成任务高！
 
-你可以考虑拖着任务不完成来降低运营难度。
+你可以考虑拖着任务不完成来避免灰信标占位,降低运营难度。
 
 :::
 
-#### 第三阶段 挑战12-40
+#### 第三阶段 挑战20-40
 
 此阶段重点在完成任务和试炼并确定本局运营策略
 
 >下面会有任务组合讲解
 
-你应当尽快完成4个任务，如果接不到第四个任务，或者有灰信标失败的话，已经可以考虑跳水了。
+你应当尽快完成4个任务，如果接不到第四个任务，或者有灰信标失败的话，已经可以考虑结束游戏了。
 
 同时，你的彩虹信标有轮次限制，也请尽力续上彩虹信标的效果。
 
-在绯红信标出现后，尽可能吃到青+绯红来接取试炼，飞箱局以外的试炼能大幅提升你的收益。
+在绯红信标出现后，**尽可能吃到青+绯红来接取试炼**，飞箱局以外的试炼能大幅提升你的收益。
+
+如果没有青+绯红,也尽可能单吃绯红.不做试炼的收益将非常差劲
 
 :::tip
 
@@ -772,7 +776,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 | 名称 | 简评 |
 | --- | --- | 
-| <font color='5555FF'> **Opal Offering** </font>  | 非常适合短途的任务。一个600%的boon能给12pulls，前期快速拿完boon然后烧干跑路能给很多收益，不浪费时间。|
+| <font color='5555FF'> **Opal Offering** </font>  | 非常适合短途的任务。一个600%的boon能给12pulls，前期快速拿完boon然后烧干跑路能给很多收益，不浪费时间。不是很推荐拿这个跑长途,不是很稳定外加收益没其他任务高.|
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  这个任务在IS出现之后变得神起来了，自带奖励和祝福两方面，这里主要讲奖励，Jester+IS能让你大幅提升pull数，平均一轮能多出4-6pull出来，非常丧心病狂的效果。  |
 |  <font color='AA00AA'> **Porphyrophobia** </font>  | 在改版之后稍有强度了，诅咒流值得一拿，大幅提升pulls，但小心诅咒塞过多导致内鬼。   |
 | <font color='AA00AA'> **Radiant Hunter** </font> | 卧槽！我爹来了！只需要你有一点radiant chance，这个任务就是每轮固定+5pulls，甚至打的还舒服，不需要后续补curse了，非常安逸|
