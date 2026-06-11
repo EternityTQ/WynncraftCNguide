@@ -88,11 +88,6 @@ notg的tome池子为大混池，从所有类型Tome中抽取部分作为本周�
 | Surefooted Tome of the Marathon I | 60 | <font color=FF5555>Fabled</font> | Marathon | +3% to +13% Sprint<br>+3% to +13% Sprint Regen |
 | Ephemeral Tome of Mysticism I | 70 | <font color=FF5555>Fabled</font> | Mysticism | +1/5s to +3/5s Mana Regen |
 | Harvester's Tome of Mysticism I | 70 | <font color=FF5555>Fabled</font> | Mysticism | +1/3s to +3/3s Mana Steal |
-| Syndicate's Tome of Dividends I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+1% to +3% Stealing |
-| Syndicate's Tome of Safety I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+2% to +10% Thorns |
-| Syndicate's Tome of Caution I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+2% to +10% Reflection |
-| Syndicate's Tome of Care I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+2% to +8% Health Regen |
-| Syndicate's Tome of Hospitality I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+1% to +4% Healing Efficiency |
 | Sorcerer's Tome of Combat Mastery II | 80 | <font color=FF5555>Fabled</font> | Weapon | +2% to +8% Spell Damage |
 | Esoteric Tome of Combat Mastery II | 80 | <font color=FF5555>Fabled</font> | Weapon | +15 to +65 Spell Damage |
 | Fighter's Tome of Combat Mastery II | 80 | <font color=FF5555>Fabled</font> | Weapon | +2% to +8% Main Attack Damage |
@@ -202,7 +197,7 @@ Combat tome会给予你攻击相关的加成，最多装备两个。
 
 ### Expertise
 
-Expertise会给予你杂项相关的加成。
+Expertise tome会给予你杂项相关的加成。
 
 常用的有hpr%和he
 
@@ -215,3 +210,17 @@ Expertise会给予你杂项相关的加成。
 | Tome of Parrying Expertise III | 105 | <font color=FF5555>Fabled</font> | +4% to +16% Reflection |
 | Tome of Triage Expertise III | 105 | <font color=FF5555>Fabled</font> | +3% to +13% Health Regen |
 | Tome of Remedial Expertise III | 105 | <font color=purple>Mythic</font> | +2% to +6% Healing Efficiency |
+
+### Lootrun
+
+Lootrun tome可以给予你Loot bonus加成，以及少量副词条。
+
+比较好用的是he和hpr%
+
+| Name | Level Min. | Rarity | Identifications |
+| :--- | :--- | :--- | :--- |
+| Syndicate's Tome of Dividends I | 75 | <font color=FF5555>Fabled</font>  | +5% to +20% Loot Bonus<br>+1% to +3% Stealing |
+| Syndicate's Tome of Safety I | 75 | <font color=FF5555>Fabled</font>  | +5% to +20% Loot Bonus<br>+2% to +10% Thorns |
+| Syndicate's Tome of Caution I | 75 | <font color=FF5555>Fabled</font> | +5% to +20% Loot Bonus<br>+2% to +10% Reflection |
+| Syndicate's Tome of Care I | 75 | <font color=FF5555>Fabled</font>  | +5% to +20% Loot Bonus<br>+2% to +8% Health Regen |
+| Syndicate's Tome of Hospitality I | 75 | <font color=FF5555>Fabled</font> | +5% to +20% Loot Bonus<br>+1% to +4% Healing Efficiency |
