@@ -39,15 +39,22 @@ Asp仅在Raid中产出。
 
 不同Raid的奖池可重复
 
+在通关raid后，即可根据当前的aspect pulls获取对应数量的aspect
+
+gambit越多，奖励越多。
 ## Asp升级
 
 你可以通过获取重复的Asp来对其进行升级，不同的等级/品质所需的重复asp各不相同。
+
+需要注意的是，满级后的aspect溢出就真的是浪费了，完全没有其他用。~~脑残设计~~
 
 |品质|1级(解锁)|2级|3级|4级|
 |--|--|--|--|--|
 |<font color=aqua>Legendary</font>|1|4|25|120|
 |<font color=FF5555>Fabled</font>|1|14|60|/|
 |<font color=purple>Mythic</font>|1|4|10|/|
+
+
 
 
 ## Asp槽位解锁

@@ -48,7 +48,7 @@
         "stats": {
             "output": 2,
             "survival": 5,
-            "sustain": 4,
+            "sustain": 2,
             "difficulty": 1,
             "mobility": 3
         }
@@ -65,8 +65,8 @@
         ],
         "stats": {
             "output": 4,
-            "survival": 4,
-            "sustain": 5,
+            "survival": 5,
+            "sustain": 4,
             "difficulty": 2,
             "mobility": 5
         }
@@ -84,7 +84,7 @@
         "stats": {
             "output": 1,
             "survival": 5,
-            "sustain": 5,
+            "sustain": 2,
             "difficulty": 1,
             "mobility": 3
         }
@@ -120,7 +120,7 @@
         "stats": {
             "output": 5,
             "survival": 2,
-            "sustain": 1,
+            "sustain": 5,
             "difficulty": 3,
             "mobility": 5
         }
@@ -246,7 +246,7 @@
         "stats": {
             "output": 4,
             "survival": 3,
-            "sustain": 3,
+            "sustain": 2,
             "difficulty": 4,
             "mobility": 2
         }

@@ -103,10 +103,9 @@ const itemTierClass = computed(() => {
 
 // 匹配图标
 const iconUrl = computed(() => {
-  if (itemData.value.tier === 'Mythic' && mythicIconsJson[resolvedName.value]) {
-    return mythicIconsJson[resolvedName.value];
-  }
-  return null;
+  if (itemData.value.tier !== 'Mythic') return null;
+  const baseName = resolvedName.value.replace(/^Masterwork\s+/i, '');
+  return mythicIconsJson[baseName] || null;
 });
 
 // 鉴定范围计算 (包含 Cost 类词条的反转逻辑)

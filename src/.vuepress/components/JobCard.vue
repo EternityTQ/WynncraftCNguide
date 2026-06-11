@@ -28,7 +28,7 @@
         
         <text x="100" y="12" class="label" text-anchor="middle">输出</text>
         <text x="195" y="75" class="label" text-anchor="end">生存</text>
-        <text x="165" y="185" class="label" text-anchor="middle">续航</text>
+        <text x="165" y="185" class="label" text-anchor="middle">回转</text>
         <text x="35" y="185" class="label" text-anchor="middle">难度</text>
         <text x="5" y="75" class="label" text-anchor="start">位移</text>
       </svg>

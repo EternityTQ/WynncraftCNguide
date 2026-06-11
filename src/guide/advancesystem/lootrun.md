@@ -476,20 +476,20 @@ Vibrant信标拥有原信标的双倍效果
 
 以下是Trial的列表：
 
-| 名称 | 效果 | 奖励 |
-| --- | --- | --- |
-| <mob>Light Out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予5 pull |
-| <mob>Dying Light</mob> | 直到你共计获得1000%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 完成彩虹信标将给予1次奖励献祭 |
-| <mob>Monochromokopia</mob> | 直到获得30 pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
-| <mob>Adrenaline Junkie</mob> | 直到获得25 pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
-| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 完成绿信标将会净化10%的诅咒数量;每清除1个诅咒,获得当前pulls总量的1%(每轮最高5%,向上取整) |
-|  <mob>Warmth Devourer</mob> | 直到你获得20 pull之前，每轮挑战完成后扣除3个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
-|  <mob>Hubris</mob> | 接下来10轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
-|  <mob>All In</mob> | 接下来10轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为3次奖励重掷 |
-|  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除90秒 | 每次扣除时间时获得1次奖励重掷 |
-|  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你进入挑战、开始挑战、结束挑战时，都会把计时器重置至75秒，在挑战期间死亡不会扣除时间 |获得2次奖励重掷 |
-|  <mob>Treasury Bill </mob> |直到你达到(当前pulls+20) pull之前，每60秒扣除1 pull |额外获得完成试炼时的pulls的75% |
-|  <mob>Ultimate Sacrifice</mob> | 接下来10轮中，所有祝福失效| 获得2次奖励献祭|
+|图标 | 名称 | 效果 | 奖励 |
+| --- | --- | --- | --- |
+|![](/assets/img/lootrun.md-06-12-02-22-32.png) | <mob>Light Out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予5 pull |
+| ![](/assets/img/lootrun.md-06-12-02-22-24.png)| <mob>Dying Light</mob> | 直到你共计获得1000%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 完成彩虹信标将给予1次奖励献祭 |
+|![](/assets/img/lootrun.md-06-12-02-22-19.png) | <mob>Monochromokopia</mob> | 直到获得30 pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
+|![](/assets/img/lootrun.md-06-12-02-22-14.png) | <mob>Adrenaline Junkie</mob> | 直到获得25 pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
+| ![](/assets/img/lootrun.md-06-12-02-22-50.png)| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 完成绿信标将会净化10%的诅咒数量;每清除1个诅咒,获得当前pulls总量的1%(每轮最高5%,向上取整) |
+| ![](/assets/img/lootrun.md-06-12-02-22-59.png)|  <mob>Warmth Devourer</mob> | 直到你获得20 pull之前，每轮挑战完成后扣除3个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
+|![](/assets/img/lootrun.md-06-12-02-23-03.png) |  <mob>Hubris</mob> | 接下来10轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
+|![](/assets/img/lootrun.md-06-12-02-23-07.png) |  <mob>All In</mob> | 接下来10轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为3次奖励重掷 |
+| ![](/assets/img/lootrun.md-06-12-02-23-14.png)|  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除90秒 | 每次扣除时间时获得1次奖励重掷 |
+|![](/assets/img/lootrun.md-06-12-02-23-19.png) |  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你进入挑战、开始挑战、结束挑战时，都会把计时器重置至75秒，在挑战期间死亡不会扣除时间 |获得2次奖励重掷 |
+| ![](/assets/img/lootrun.md-06-12-02-23-24.png)|  <mob>Treasury Bill </mob> |直到你达到(当前pulls+20) pull之前，每60秒扣除1 pull |额外获得完成试炼时的pulls的75% |
+|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Ultimate Sacrifice</mob> | 接下来10轮中，所有祝福失效| 获得2次奖励献祭|
 
 
 ## 最终奖励
@@ -789,7 +789,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 |  <font color='00BB00'> **Chronokinesis** </font>  | 曾经的神，目前表现一般。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，~~但是可能会比较累~~ 。**注意这个只计入路边野箱和洞穴宝箱**  |
 |  <font color='DDDDDD'> **High Roller** </font>  |  值得一拿，毕竟rr还是很缺的。  |
 | <font color='DDDDDD'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
-| <font color='DDDDDD'> **Complete Chaos** </font>  | 如果是跑长途的话还是值得一拿的，但是要非常小心狂塞红信标导致内鬼，运气好的话提升非常大。 |
+| <font color='DDDDDD'> **Complete Chaos** </font>  | 如果是跑长途的话还是值得一拿的，但是要非常小心狂塞红信标导致内鬼，运气好的话提升非常大。<br>需要注意的是，CC发的信标池是下一轮的信标池，并非全随机。 |
 
 **战斗类**
 
@@ -933,17 +933,17 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 它们的强度和用法都在上文的任务选择里面单独介绍过了,这里不再进行赘述.
 
-+ <font color='DDDDDD'> **High Roller** </font>
++ <font color='DDDDDD'><b>High Roller</b></font>
 
-+ <font color='DDDDDD'> **Redemption** </font> 
++ <font color='DDDDDD'> <b>Redemption</b></font> 
 
-+ <font color='DDDDDD'> **Complete Chaos** </font>
++ <font color='DDDDDD'><b>Complete Chaos</b> </font>
 
-+ <font color='AA00AA'> **Radiant Hunter** </font>
++ <font color='AA00AA'> <b>Radiant Hunter</b> </font>
 
-+ <font color='00BB00'> **Chronokinesis** </font>
++ <font color='00BB00'> <b>Chronokinesis</b> </font>
 
-+ <font color='FFAA00'> **Optimism** </font>
++ <font color='FFAA00'> <b>Optimism</b> </font>
 
 ### 关于试炼
 
@@ -1112,22 +1112,64 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 
 
-### 区域选择
+### 区域介绍
 
 以下区域介绍,按照区域等级来升序排列.
 
-<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">峡谷</span>
+请注意，这里仅介绍区域的各项内容，到游戏后期一般都是以"哪里的池子好"来决定要跑哪里，而不是"哪里简单"。
 
-<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Corkus</span>
+——你总不能一辈子赖在峡谷吧？
 
-<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">火山</span>
+对于区域介绍，将从若干个维度来衡量
 
-<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">空岛</span>
++ 洞穴强度：综合战斗强度和绕路程度来评级。该等级越高，区域的洞穴通常越恶心。
++ 战斗强度：综合除了洞穴挑战以外的内容来评级。该等级越高，区域的部分slay/target挑战或者def挑战可能越有强度，或者越恶心。
++ 区域大小：该等级越高，区域越大，或者说跑图难度越大，你可能更需要更快的移动手段
 
 
 
-<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">SE</span>
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Canyon of the Lost Excursion (South) / 峡谷</span>
 
-<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Fruma西部</span>
+新手之友，区域等级最低的LR。
 
-<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Fruma东部</span>
+很遗憾的是，野箱开不出什么好东西。
+
+**洞穴强度**：2/5 仅有部分稍微折腾人的洞穴，大部分洞穴都是很快就能打完。需要注意的是，有部分洞穴在属性叠高后会秒人。
+**战斗强度**：2/5 绝大部分都是较低难度的战斗，除了传奇The armory。
+**区域大小**：2/5 峡谷区域非常小，主要难在纵深较大。需要玩家好好利用随处可见的弹跳云来快速提升自己的高度。
+
+
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">The Corkus Traversal / Corkus</span>
+
+**洞穴强度**：5/5 令人发指的洞穴强度，大部分洞穴都弯弯绕绕非常膈应人，很多人不喜欢跑Corkus很大程度上就是因为Corkus的洞穴，而且新版本还额外加了一个4箱洞穴，我呸。
+**战斗强度**：2/5 大部分战斗都没啥强度，除了少数几个比如机器人Def、Avos洞穴slay，其他的战斗都还好。
+**区域大小**：5/5 大的夸张的场地，但是如果能熟练使用管道快速传送，那么效率将大幅提升。
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Molten Heights Hike / 火山</span>
+
+**洞穴强度**：2/5 大部分洞穴基本都没有强度，除了龙嘴以外。
+**战斗强度**：2/5 非要说的话只有火山外的target和躲猫猫slay比较膈应人，其他的战斗几乎是没什么强度的！
+**区域大小**：1/5 火山的面积特别小，跑图难度不大
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Sky Islands Exploration  / 空岛</span>
+
+**洞穴强度**：3/5 传奇山羊塔、传奇道馆，非常膈应人。分主要是加在几个膈应人的洞穴上，其实大部分的洞穴都还好。
+**战斗强度**：4/5 在sky看到slay就反胃。。主要是很多slay都是浮空怪，场地又大，有几个还又肉又难打，比如月球slay，太膈应人了。
+**区域大小**：5/5 sky的LR区域也非常大，并且由于是虚空地形，对archer这种职业非常相当不友好，必须要走地。 
+
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Silent Expanse Expedition  / SE</span>
+
+**洞穴强度**：4/5 SE有几个洞穴的战斗强度不低，而且比如眼球洞这种还相当膈应人。还是需要小心的。
+**战斗强度**：4/5 曾经纯粹的数值，现在虽然在Fruma面前不够看了，但还是很可怕的，比如超大绿蜘蛛。
+**区域大小**：3/5 SE整体区域算中大型，其实跑图难度也不算很高
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">The Fruma Foray (West) / Fruma西部</span>
+
+**洞穴强度**：6/5 你妈逼的这都啥跟啥洞穴，致敬传奇武器工厂致敬传奇乱扔垃圾下水道致敬传奇雷霆将军，就尼玛离谱
+**战斗强度**：5/5 西部的slay其实强度不高，要命的是两个DEF都是极高数值，如果boon不够强去硬碰def有可能会暴毙，真的牛逼
+**区域大小**：4/5 其实西部的区域也算特别大了，但主要还是有corkus在前，显得西部的跑图难度不是很够看
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">The Fruma Foray (East) / Fruma东部</span>
+
+**洞穴强度**：7/5 写作洞穴读作bossrush，是什么让东部有好几个独家3pulls洞穴？？？直接爆表，虽然熟练了之后跑的很快，但跑的还是相当折腾人。不熟练就更不用说了，笔者跑东部前置洞穴花了足足快一个小时。
+**战斗强度**：6/5 懂不懂什么叫纯粹的数值啊，王宫门口target、堡垒门口slay都是几个相当要命的挑战，但def比西部友善多了。
+**区域大小**：4/5 跟西部的跑图难度类似，也还好
