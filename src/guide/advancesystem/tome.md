@@ -30,20 +30,12 @@ tome可以跨存档使用，所以可以用一个号刷完，直接给另一个�
 
 ## 解锁条件与攻略
 
-所有Tome Slot都有一定等级要求。满级后将自动解锁所有Tome！
+所有Tome Slot都有一定等级要求。满级后将自动解锁所有Tome槽位！
 
 尽管每个槽位有自己的解锁等级限制，但大多数情况下是到了满级才会用到tome，因此本篇省略等级限制
 
 ## 获取来源
-大部分强力tome的来源均为[RAID](/guide/raid/intro.html)，见下表
-
-| 名称/等级 | notg | nol | tcc | tna |
-| --- | --- | --- | --- | --- |
-| Weapon  | 有 | 有 | - | 有 |
-| Armour  | 有 | - | 有 | - |
-| Mysticism  | 有 | - | 有 | - |
-| Marathon  | 有 | - | 有 | - |
-| Expertise  | 有 | - | -- | 有 |
+大部分强力tome的来源均为[RAID](/guide/raid/intro.html)
 
 公会tome需要在公会系统中由有权限的成员给予，通常需要符合一定条件或等待一段时间后才可领取
 
@@ -69,86 +61,157 @@ notg的tome池子为大混池，从所有类型Tome中抽取部分作为本周�
 
 这里将简单介绍一下每个槽位的特点
 
-### 武器tome(Weapon Mastery)
+### 80级及以下的tome
 
-武器tome会给予伤害加成，可装备两个。
+这些tome基本只有在未满级的时候打notg和nol会产出，在数值上完全被满级后产出的tome所碾压，不建议保留。
 
-按类别,鉴定最好的Tome可能提供以下数值：
+:::details
 
-(每排为一本Tome可能有的词条)
-Fabled:
-+ +10% Spell
-+ +73 Raw spell
-+ +95 Main attack Raw
-+ +10% Main attack
+| Name | Level Min. | Rarity | Tome Slot | Identifications |
+| :--- | :--- | :--- | :--- | :--- |
+| Tome of Defensive Mastery | 60 | <font color=aqua>Legendary</font> | Armour | +44 to +189 Health |
+| Blooming Tome of Defensive Mastery I | 60 | <font color=FF5555>Fabled</font> | Armour | +50 to +215 Health<br>+2% to +8% Earth Defense |
+| Pulsing Tome of Defensive Mastery I | 60 | <font color=FF5555>Fabled</font> | Armour | +50 to +215 Health<br>+2% to +8% Thunder Defense |
+| Oceanic Tome of Defensive Mastery I | 60 | <font color=FF5555>Fabled</font> | Armour | +50 to +215 Health<br>+2% to +8% Water Defense |
+| Courageous Tome of Defensive Mastery I | 60 | <font color=FF5555>Fabled</font> | Armour | +50 to +215 Health<br>+2% to +8% Fire Defense |
+| Clouded Tome of Defensive Mastery I | 60 | <font color=FF5555>Fabled</font> | Armour | +50 to +215 Health<br>+2% to +8% Air Defense |
+| Tome of Combat Mastery | 60 | <font color=aqua>Legendary</font> | Weapon | +1% to +5% Damage |
+| Sorcerer's Tome of Combat Mastery I | 60 | <font color=FF5555>Fabled</font> | Weapon | +2% to +7% Spell Damage |
+| Esoteric Tome of Combat Mastery I | 60 | <font color=FF5555>Fabled</font> | Weapon | +10 to +44 Spell Damage |
+| Fighter's Tome of Combat Mastery I | 60 | <font color=FF5555>Fabled</font> | Weapon | +2% to +7% Main Attack Damage |
+| Nimble Tome of Combat Mastery I | 60 | <font color=FF5555>Fabled</font> | Weapon | +14 to +59 Main Attack Damage |
+| Tome of Scavenging Expertise I | 60 | <font color=FF5555>Fabled</font> | Expertise | +1% to +3% Stealing |
+| Tome of Countering Expertise I | 60 | <font color=FF5555>Fabled</font> | Expertise | +2% to +10% Thorns |
+| Tome of Parrying Expertise I | 60 | <font color=FF5555>Fabled</font> | Expertise | +2% to +10% Reflection |
+| Tome of Triage Expertise I | 60 | <font color=FF5555>Fabled</font> | Expertise | +2% to +8% Health Regen |
+| Fleetfooted Tome of the Marathon I | 60 | <font color=FF5555>Fabled</font> | Marathon | +2% to +7% Walk Speed |
+| Surefooted Tome of the Marathon I | 60 | <font color=FF5555>Fabled</font> | Marathon | +3% to +13% Sprint<br>+3% to +13% Sprint Regen |
+| Ephemeral Tome of Mysticism I | 70 | <font color=FF5555>Fabled</font> | Mysticism | +1/5s to +3/5s Mana Regen |
+| Harvester's Tome of Mysticism I | 70 | <font color=FF5555>Fabled</font> | Mysticism | +1/3s to +3/3s Mana Steal |
+| Syndicate's Tome of Dividends I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+1% to +3% Stealing |
+| Syndicate's Tome of Safety I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+2% to +10% Thorns |
+| Syndicate's Tome of Caution I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+2% to +10% Reflection |
+| Syndicate's Tome of Care I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+2% to +8% Health Regen |
+| Syndicate's Tome of Hospitality I | 75 | <font color=FF5555>Fabled</font> | Lootrun | +5% to +20% Loot Bonus<br>+1% to +4% Healing Efficiency |
+| Sorcerer's Tome of Combat Mastery II | 80 | <font color=FF5555>Fabled</font> | Weapon | +2% to +8% Spell Damage |
+| Esoteric Tome of Combat Mastery II | 80 | <font color=FF5555>Fabled</font> | Weapon | +15 to +65 Spell Damage |
+| Fighter's Tome of Combat Mastery II | 80 | <font color=FF5555>Fabled</font> | Weapon | +2% to +8% Main Attack Damage |
+| Nimble Tome of Combat Mastery II | 80 | <font color=FF5555>Fabled</font> | Weapon | +20 to +85 Main Attack Damage |
+| Seismic Tome of Combat Mastery II | 80 | <font color=purple>Mythic</font> | Weapon | +1% to +4% Damage<br>+2% to +8% Earth Damage |
+| Volatic Tome of Combat Mastery II | 80 | <font color=purple>Mythic</font> | Weapon | +1% to +4% Damage<br>+2% to +8% Thunder Damage |
+| Abyssal Tome of Combat Mastery II | 80 | <font color=purple>Mythic</font> | Weapon | +1% to +4% Damage<br>+2% to +8% Water Damage |
+| Infernal Tome of Combat Mastery II | 80 | <font color=purple>Mythic</font> | Weapon | +1% to +4% Damage<br>+2% to +8% Fire Damage |
+| Cyclonic Tome of Combat Mastery II | 80 | <font color=purple>Mythic</font> | Weapon | +1% to +4% Damage<br>+2% to +8% Air Damage |
+| Tome of Scavenging Expertise II | 80 | <font color=FF5555>Fabled</font> | Expertise | +1% to +4% Stealing |
+| Tome of Countering Expertise II | 80 | <font color=FF5555>Fabled</font> | Expertise | +3% to +13% Thorns |
+| Tome of Parrying Expertise II | 80 | <font color=FF5555>Fabled</font> | Expertise | +3% to +13% Reflection |
+| Tome of Triage Expertise II | 80 | <font color=FF5555>Fabled</font> | Expertise | +2% to +10% Health Regen |
+| Tome of Remedial Expertise II | 80 | <font color=purple>Mythic</font> | Expertise | +1% to +4% Healing Efficiency |
 
+:::
 
-Mythic:
-+ 9%单属性元素伤害和5%全属性元素伤害 
-  
-### 防具tome(Armour Mastery)
- 防具tome会给予部分辅助相关的属性，可装备四个
+### Defensive Mastery
 
-鉴定最好的Tome可能提供以下数值：
+Defensive tome会给予血量加成，神话品质还有hpr或者ls作为副词条。
 
-Fabled:
-+ +345 HP +10% 单元素防御
+会在notg(随机刷新)、tcc、twp产出
 
-Mythic:
-+ +390 HP +46 Health Regen Raw
-+ +390 HP +91 Life Steal
-  
-### 神秘tome(Mysticism Mastery)
-神秘tome会给予你技能回转的增益，可装备两个
+| Name | Level Min. | Rarity | Identifications |
+| :--- | :--- | :--- | :--- |
+| Blooming Tome of Defensive Mastery II | 100 | <font color=FF5555>Fabled</font> | +80 to +345 Health<br>+2% to +10% Earth Defense |
+| Pulsing Tome of Defensive Mastery II | 100 | <font color=FF5555>Fabled</font> | +80 to +345 Health<br>+2% to +10% Thunder Defense |
+| Oceanic Tome of Defensive Mastery II | 100 | <font color=FF5555>Fabled</font> | +80 to +345 Health<br>+2% to +10% Water Defense |
+| Courageous Tome of Defensive Mastery II | 100 | <font color=FF5555>Fabled</font> | +80 to +345 Health<br>+2% to +10% Fire Defense |
+| Clouded Tome of Defensive Mastery II | 100 | <font color=FF5555>Fabled</font> | +80 to +345 Health<br>+2% to +10% Air Defense |
+| Everlasting Tome of Defensive Mastery II | 100 | <font color=purple>Mythic</font> | +90 to +390 Health<br>+11 to +46 Health Regen |
+| Vampiric Tome of Defensive Mastery II | 100 | <font color=purple>Mythic</font> | +90 to +390 Health<br>+21/3s to +91/3s Life Steal |
+| Blooming Tome of Defensive Mastery III | 120 | <font color=FF5555>Fabled</font> | +90 to +390 Health<br>+3% to +12% Earth Defense |
+| Pulsing Tome of Defensive Mastery III | 120 | <font color=FF5555>Fabled</font> | +90 to +390 Health<br>+3% to +12% Thunder Defense |
+| Oceanic Tome of Defensive Mastery III | 120 | <font color=FF5555>Fabled</font> | +90 to +390 Health<br>+3% to +12% Water Defense |
+| Courageous Tome of Defensive Mastery III | 120 | <font color=FF5555>Fabled</font> | +90 to +390 Health<br>+3% to +12% Fire Defense |
+| Clouded Tome of Defensive Mastery III | 120 | <font color=FF5555>Fabled</font> | +90 to +390 Health<br>+3% to +12% Air Defense |
+| Everlasting Tome of Defensive Mastery III | 120 | <font color=purple>Mythic</font> | +105 to +455 Health<br>+17 to +73 Health Regen |
+| Vampiric Tome of Defensive Mastery III | 120 | <font color=purple>Mythic</font> | +105 to +455 Health<br>+24/3s to +104/3s Life Steal |
 
-Fabled:
-+ +4 Mana Regen
-+ +4 Mana Steal
+### Marathon
 
-Mythic:
-+ -5% 1st spell cost
-+ -5% 2nd spell cost
-+ -5% 3rd spell cost
-+ -5% 4th spell cost
+Marathon tome会给予移动速度相关的加成。
 
-### 马拉松tome(Marathon Mastery)
-  马拉松tome会给予你移速或体力加成，可装备两个
-  
-Fabled:
-+ +18% Walk Speed
-+ +18% Spirit,+18% Spirit Regen
-### 专业tome(Expertise Mastery)
-专业tome会给予你一些特殊的加成。
-  
-Fabled:
-+ +5% Stealing
-+ +13% Health Regen（%）
-+ +16% Thorns
-+ +16% Reflection
+会在notg(随机刷新)、tcc、twp产出
 
-Mythic:
-+ +9% Healing Efficiency
-  
-### 公会tome(Guild Mastery)
-  公会tome会给予一定的属性点数，可装备一个
-  
-  公会tome只有Legendary品质，词条为下列中的随机一个:
+| Name | Level Min. | Rarity | Identifications |
+| :--- | :--- | :--- | :--- |
+| Fleetfooted Tome of the Marathon II | 100 | <font color=FF5555>Fabled</font> | +2% to +8% Walk Speed |
+| Surefooted Tome of the Marathon II | 100 | <font color=FF5555>Fabled</font> | +4% to +18% Sprint<br>+4% to +18% Sprint Regen |
+| Fleetfooted Tome of the Marathon III | 120 | <font color=FF5555>Fabled</font> | +2% to +9% Walk Speed |
+| Surefooted Tome of the Marathon III | 120 | <font color=FF5555>Fabled</font> | +5% to +21% Sprint<br>+5% to +21% Sprint Regen |
 
-  + 提供4点单一属性点
-  + 提供两种随机属性点各2点
-  + 提供五种属性点各1点
-  
-  最后一种俗称彩虹tome，出现概率极低，经某工会数据统计大约一百个公会tome中仅出现过两次
-  
-### lr tome(Lootrunning Mastery)
-  lootrun tome会给予一定的lb加成和其他种类词条加成。
-             
-lr tome基础提供5%-20% loot bonus，剩余词条可总结为三大类：
+### Mysticism
 
-+ 最高10% Reflection
-+ 最高10% Thorns
-+ 最高3% Stealing
-+ 最高7% Healing Efficiency
+Mysticism tome会给予回转相关的加成。
 
+会在notg(随机刷新)、tcc、twp产出
 
+| Name | Level Min. | Rarity | Identifications |
+| :--- | :--- | :--- | :--- |
+| Ephemeral Tome of Mysticism II | 100 | <font color=FF5555>Fabled</font> | +1/5s to +4/5s Mana Regen |
+| Harvester's Tome of Mysticism II | 100 | <font color=FF5555>Fabled</font> | +1/3s to +4/3s Mana Steal |
+| Faerie's Tome of Mysticism II | 100 | <font color=purple>Mythic</font> | -1% to -5% 1st Spell Cost |
+| Pegasus' Tome of Mysticism II | 100 | <font color=purple>Mythic</font> | -2% to -8% 2nd Spell Cost |
+| Dragon's Tome of Mysticism II | 100 | <font color=purple>Mythic</font> | -1% to -5% 3rd Spell Cost |
+| Golem's Tome of Mysticism II | 100 | <font color=purple>Mythic</font> | -1% to -5% 4th Spell Cost |
+| Ephemeral Tome of Mysticism III | 120 | <font color=FF5555>Fabled</font> | +1/5s to +5/5s Mana Regen |
+| Harvester's Tome of Mysticism III | 120 | <font color=FF5555>Fabled</font> | +1/3s to +5/3s Mana Steal |
+| Faerie's Tome of Mysticism III | 120 | <font color=purple>Mythic</font> | -1% to -6% 1st Spell Cost |
+| Pegasus' Tome of Mysticism III | 120 | <font color=purple>Mythic</font> | -2% to -10% 2nd Spell Cost |
+| Dragon's Tome of Mysticism III | 120 | <font color=purple>Mythic</font> | -1% to -6% 3rd Spell Cost |
+| Golem's Tome of Mysticism III | 120 | <font color=purple>Mythic</font> | -1% to -6% 4th Spell Cost |
 
+### Allegiance
+
+Allegiance tome俗称公会tome，会给予你可用于配装的点数加成
+
+一般是公会向个人发放，公会产出途径一般是做每周任务。
+
+| Name | Level Min. | Rarity | Identifications |
+| :--- | :--- | :--- | :--- |
+| Brute's Tome of Allegiance | 100 | <font color=aqua>Legendary</font> | +4 Strength |
+| Sadist's Tome of Allegiance | 100 | <font color=aqua>Legendary</font> | +4 Dexterity |
+| Mastermind's Tome of Allegiance | 100 | <font color=aqua>Legendary</font> | +4 Intelligence |
+| Arsonist's Tome of Allegiance | 100 | <font color=aqua>Legendary</font> | +4 Defense |
+| Ghost's Tome of Allegiance | 100 | <font color=aqua>Legendary</font> | +4 Agility |
+| Assimilator's Tome of Allegiance | 100 | <font color=aqua>Legendary</font> | +1 Strength<br>+1 Dexterity<br>+1 Intelligence<br>+1 Defense<br>+1 Agility |
+
+### Combat Mastery
+
+Combat tome会给予你攻击相关的加成，最多装备两个。
+
+会在notg(随机刷新)、nol、tna产出
+
+| Name | Level Min. | Rarity | Identifications |
+| :--- | :--- | :--- | :--- |
+| Sorcerer's Tome of Combat Mastery III | 105 | <font color=FF5555>Fabled</font> | +2% to +10% Spell Damage |
+| Esoteric Tome of Combat Mastery III | 105 | <font color=FF5555>Fabled</font> | +17 to +73 Spell Damage |
+| Fighter's Tome of Combat Mastery III | 105 | <font color=FF5555>Fabled</font> | +2% to +10% Main Attack Damage |
+| Nimble Tome of Combat Mastery III | 105 | <font color=FF5555>Fabled</font> | +22 to +95 Main Attack Damage |
+| Seismic Tome of Combat Mastery III | 105 | <font color=purple>Mythic</font> | +1% to +5% Damage<br>+2% to +9% Earth Damage |
+| Voltaic Tome of Combat Mastery III | 105 | <font color=purple>Mythic</font> | +1% to +5% Damage<br>+2% to +9% Thunder Damage |
+| Abyssal Tome of Combat Mastery III | 105 | <font color=purple>Mythic</font> | +1% to +5% Damage<br>+2% to +9% Water Damage |
+| Infernal Tome of Combat Mastery III | 105 | <font color=purple>Mythic</font> | +1% to +5% Damage<br>+2% to +9% Fire Damage |
+| Cyclonic Tome of Combat Mastery III | 105 | <font color=purple>Mythic</font> | +1% to +5% Damage<br>+2% to +9% Air Damage |
+
+### Expertise
+
+Expertise会给予你杂项相关的加成。
+
+常用的有hpr%和he
+
+会在notg(随机刷新)、nol、tna产出
+
+| Name | Level Min. | Rarity | Identifications |
+| :--- | :--- | :--- | :--- |
+| Tome of Scavenging Expertise III | 105 | <font color=FF5555>Fabled</font> | +1% to +5% Stealing |
+| Tome of Countering Expertise III | 105 | <font color=FF5555>Fabled</font> | +4% to +16% Thorns |
+| Tome of Parrying Expertise III | 105 | <font color=FF5555>Fabled</font> | +4% to +16% Reflection |
+| Tome of Triage Expertise III | 105 | <font color=FF5555>Fabled</font> | +3% to +13% Health Regen |
+| Tome of Remedial Expertise III | 105 | <font color=purple>Mythic</font> | +2% to +6% Healing Efficiency |
