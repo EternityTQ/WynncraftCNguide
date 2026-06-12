@@ -441,7 +441,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标永远被遮蔽，但是它们永远持有Vib青效果(+100%效果)|
 | <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
 | <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (上限为6)；开始任意挑战后重置该效果|
-| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福种类下每个重复的祝福+3Pulls；每存在一种不同的祝福种类，所有的祝福效能-50%|
+| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+3 Pulls；每存在一种不同的持有两个及以上的祝福种类，所有的祝福效能-50%|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
 | <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得10 Pulls，就清除一个辉光概率的诅咒。  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
