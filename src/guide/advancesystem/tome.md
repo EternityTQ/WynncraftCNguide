@@ -183,6 +183,19 @@ Combat tome会给予你攻击相关的加成，最多装备两个。
 
 会在notg(随机刷新)、nol、tna产出
 
+:::tip 我该如何选武器tome?
+首先，如果你是单属性的武器，并且武器打粉后的dps高于521，那么无脑选对应元素的神话tome，否则进入下一步。
+
+其次，如果是双元素及以上，或者在上一步中被筛了下来，那么看你的武器dps。
+
+如果你的武器dps高于730，则选择spell%的fabled tome，否则选raw spell的fabled tome
+
+对于普攻tome，武器攻速快于normal选raw，慢于normal选%
+
+
+
+:::
+
 | Name | Level Min. | Rarity | Identifications |
 | :--- | :--- | :--- | :--- |
 | Sorcerer's Tome of Combat Mastery III | 105 | <font color=FF5555>Fabled</font> | +2% to +10% Spell Damage |
