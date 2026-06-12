@@ -453,7 +453,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到青色信标的效果|
 | <font color='FFAA00'> **High Spirits** </font>         | +35% Vibrant信标转换概率|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
-| <font color='FF5555'> **Thrill Seeker** </font>         | 完成红信标将给予1 pull;该数量每完成7轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
+| <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成7轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
 | <font color='FF5555'> **Knife Edge** </font>         | 完成挑战给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
 | <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
