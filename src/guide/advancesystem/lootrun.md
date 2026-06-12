@@ -239,19 +239,19 @@ Vibrant信标拥有原信标的双倍效果
 
 | 信标名称 | 效果 | 最大获取上限 |
 | --- | --- | :---: |
-| <font color = "blue">**蓝色信标**</font> | 从4个 **100% / 200% / 600%** 效能的祝福中选择1个并获取 | 无上限 |
-| <font color = "purple">**紫色信标**</font> | 获得 **1 / 2 / 6** 个随机诅咒，同时最终奖励抽取物品数 **+1 / +2 / +6** | 无上限 |
-| <font color = FFCC00>**黄色信标**</font> | 生成 **1 / 2 / 6** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
-| <font color = 00CCFF>**青色信标**</font> | 下一个信标的效果 **+100% / +200%** | 无上限 |
-| <font color = "orange">**橙色信标**</font> | 在接下来的 **5 / 10 / 30** 轮挑战中，信标选数+1 | 无上限 | 
-| <font color = 00BB00>**绿色信标**</font> | 获得 **120s / 240s / 720s** 的时间，且本轮怪物不会增加属性 | 无上限 |
-| <font color = "555555">**暗灰色信标**</font> | 获得 **3 / 6 / 18** 个随机诅咒，同时最终奖励抽取物品数 **+3 / +6 / +18** | 1 |
-| <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+5 / +10 / +30** | 1 |
-| <font color = "grey">**灰色信标**</font> | 从 **3 / 4 / 5** 个任务中选择1个接取 | 3 |
-| <font color = "red">**红色信标**</font> | 挑战轮数 **+3 / +5 / +15**，且 **3 / 5 / 15** 轮内不会有时间补偿 | 无上限 |
-| <font color = #FA71AF>**粉色信标**</font> | 获得 **1 / 2 / 6** 次信标刷新次数 | 无上限 |
-| <font color = AA0000>**绯红色信标**</font> | 从 **2 / 3 / 4** 个试炼中选择1个接取 | 2 |
-| <rb><b>彩虹信标</b></rb> | 在接下来的 **10 / 20 / 60** 轮中，出现的信标均升级为Vibrant | 无上限 |
+| <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 无上限 |
+| <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <rb>8</rb>** Pulls| 无上限 |
+| <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <rb>5</rb>** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
+| <font color = 00CCFF>**青色信标**</font> | 下一个信标的效果 **+50% / <font color = 00CCFF>+100%</font>** | 无上限 |
+| <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
+| <font color = 00BB00>**绿色信标**</font> | 获得 **210s / <font color = 00CCFF>330s</font> / <rb>570s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
+| <font color = "555555">**暗灰色信标**</font> | 获得 **5 / <font color = 00CCFF>10</font> / <rb>20</rb>** 个随机诅咒，同时获得 **5 / <font color = 00CCFF>10</font> / <rb>20</rb>** Pulls | 1 |
+| <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+10 / <font color = 00CCFF>+15</font> / <rb>+30</rb>** | 1 |
+| <font color = "grey">**灰色信标**</font> | 从 **3 / <font color = 00CCFF>4</font> / <rb>5</rb>** 个任务中选择1个接取 | 3 |
+| <font color = "red">**红色信标**</font> | 挑战轮数 **+6 / <font color = 00CCFF>+9</font> / <rb>+15</rb>**，且 **6 / <font color = 00CCFF>9</font> / <rb>15</rb>** 轮内不会有时间补偿 | 无上限 |
+| <font color = #FA71AF>**粉色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <rb>5</rb>** 次信标刷新次数 | 无上限 |
+| <font color = AA0000>**绯红色信标**</font> | 从 **2 / <font color = 00CCFF>3</font> / <rb>4</rb>** 个试炼中选择1个接取 | 2 |
+| <rb><b>彩虹信标</b></rb> | 在接下来的 **10 / <font color = 00CCFF>20</font> / <rb>40</rb>** 轮中，出现的信标均升级为Vibrant | 无上限 |
 
 部分信标有一点需要注意的特性
 
@@ -265,6 +265,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = "red">**红色信标**</font> | 只会连续出现1次；给予的不加时间的轮次从下一轮开始算起；<br>总轮数到达100轮时消失 |
 | <font color = AA0000>**绯红色信标**</font> | 第20轮后开始出现，之后随着出现次数的增加逐渐消失 |
 | <font color = "orange">**橙色信标**</font> |最多将信标选数扩充至6 | 
+| <rb><b>彩虹信标</b></rb> | 不出现的次数越多，刷新概率越高。 | 
 
 :::warning
 对于有上限的信标，当你走进挑战时，就已经计入总数了
@@ -437,22 +438,28 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
+| <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标永远被遮蔽，但是它们永远持有Vib青效果(+100%效果)|
 | <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
-| <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+1 (上限为6)；开始任意挑战后重置该效果|
+| <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (上限为6)；开始任意挑战后重置该效果|
+| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福种类下每个重复的祝福+3Pulls；每存在一种不同的祝福种类，所有的祝福效能-50%|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
-| <font color='AA00AA'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数(挑战轮数达到上限后不再扣除pull)  |
-| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull)  |
+| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得10 Pulls，就清除一个辉光概率的诅咒。  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
 | <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
 | <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
-| <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你没有信标可以出现了，否则被刷新的信标将不再出现|
+| <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你的信标池没有信标可以出现了，否则被刷新的信标将不再出现|
+| <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到青色信标的效果|
+| <font color='FFAA00'> **High Spirits** </font>         | +35% Vibrant信标转换概率|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
 | <font color='FF5555'> **Thrill Seeker** </font>         | 完成红信标将给予1 pull;该数量每完成7轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
+| <font color='FF5555'> **Knife Edge** </font>         | 完成挑战给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
+| <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
 | <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
+| <font color='DDDDDD'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数(挑战轮数达到上限后不再扣除pull)  |
 :::tip
 在完成`获得时间`的条件时，溢出15分钟的时间仍然作数，但如果通过绿信标获得了超过15分钟的时间，则之后溢出的时间不作数。
 :::
@@ -480,16 +487,17 @@ Vibrant信标拥有原信标的双倍效果
 | --- | --- | --- | --- |
 |![](/assets/img/lootrun.md-06-12-02-22-32.png) | <mob>Light Out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予5 pull |
 | ![](/assets/img/lootrun.md-06-12-02-22-24.png)| <mob>Dying Light</mob> | 直到你共计获得1000%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 完成彩虹信标将给予1次奖励献祭 |
-|![](/assets/img/lootrun.md-06-12-02-22-19.png) | <mob>Monochromokopia</mob> | 直到获得30 pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
-|![](/assets/img/lootrun.md-06-12-02-22-14.png) | <mob>Adrenaline Junkie</mob> | 直到获得25 pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
+|![](/assets/img/lootrun.md-06-12-02-22-19.png) | <mob>Monochromokopia</mob> | 直到获得30 Pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
+|![](/assets/img/lootrun.md-06-12-02-22-14.png) | <mob>Adrenaline Junkie</mob> | 直到获得25 Pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
 | ![](/assets/img/lootrun.md-06-12-02-22-50.png)| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 完成绿信标将会净化10%的诅咒数量;每清除1个诅咒,获得当前pulls总量的1%(每轮最高5%,向上取整) |
-| ![](/assets/img/lootrun.md-06-12-02-22-59.png)|  <mob>Warmth Devourer</mob> | 直到你获得20 pull之前，每轮挑战完成后扣除3个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
+| ![](/assets/img/lootrun.md-06-12-02-22-59.png)|  <mob>Warmth Devourer</mob> | 直到你获得20 Pulls之前，每轮挑战完成后扣除3个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
 |![](/assets/img/lootrun.md-06-12-02-23-03.png) |  <mob>Hubris</mob> | 接下来10轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
 |![](/assets/img/lootrun.md-06-12-02-23-07.png) |  <mob>All In</mob> | 接下来10轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为3次奖励重掷 |
 | ![](/assets/img/lootrun.md-06-12-02-23-14.png)|  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除90秒 | 每次扣除时间时获得1次奖励重掷 |
 |![](/assets/img/lootrun.md-06-12-02-23-19.png) |  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你进入挑战、开始挑战、结束挑战时，都会把计时器重置至75秒，在挑战期间死亡不会扣除时间 |获得2次奖励重掷 |
-| ![](/assets/img/lootrun.md-06-12-02-23-24.png)|  <mob>Treasury Bill </mob> |直到你达到(当前pulls+20) pull之前，每60秒扣除1 pull |额外获得完成试炼时的pulls的75% |
+| ![](/assets/img/lootrun.md-06-12-02-23-24.png)|  <mob>Treasury Bill </mob> |直到你获得20 Pulls之前，每60秒扣除1 pull |额外获得完成试炼时的pulls的75% |
 |![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Ultimate Sacrifice</mob> | 接下来10轮中，所有祝福失效| 获得2次奖励献祭|
+|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Imperitia</mob> | 直到你获得30 Pulls之前，每完成一轮挑战，技能消耗+10 Mana| 获得2次奖励献祭|
 
 
 ## 最终奖励
