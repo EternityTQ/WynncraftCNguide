@@ -1311,6 +1311,7 @@ ms削了降了下手感，倒是无伤大雅
 ### Stratiformis
 
 <MythicItem name="Stratiformis" />
+
 Ascend版本：
 
 <MythicItem name="Masterwork Stratiformis" />
@@ -1326,15 +1327,7 @@ Ascend版本：
 
 本身其实是没有问题的，主要问题出在气组件都是垃圾上...如果你想组一套Strati的bd，就会发现气组件凑不出几件能用的，非常搞笑哥们
 
-目前版本主要可以玩Sharpshooter，一定程度上弥补了缺少回转的问题。
-
-~~Trapper有点区~~
-
-如果你愿意的话还可以当隔壁Revolution的副手...~~尽管我真的很不想承认被拿来副手的命运~~
-
-Raid体验其实是还算可以的，问题主要是伤害....要不咱看看隔壁Grandmother吧。
-
-
+目前版本可以试试CT强推的Hybrid Strati 笔者强烈安利，500k薄纱tcc tna
 
 
 

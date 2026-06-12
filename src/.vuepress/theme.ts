@@ -17,6 +17,7 @@ export default hopeTheme({
 
   repo: "EternityTQ/WynncraftCNguide",
 
+  
   docsDir: "src",
   favicon: "/favicon.ico",
   // 导航栏
@@ -25,10 +26,13 @@ export default hopeTheme({
   // 侧边栏
   sidebar,
 
+
+
+
   // 页脚
   footer: "Wynncraft中文攻略",
   displayFooter: true,
-
+  contributors: false,
   // 加密配置
   encrypt: {
     config: {
