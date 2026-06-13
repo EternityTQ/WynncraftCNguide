@@ -233,25 +233,25 @@ LR副职等级为账号通用
 
 对于每个信标，在没有彩虹信标且满级的情况下，有10%的概率升级为Vibrant信标
 
-Vibrant信标拥有原信标的双倍效果
+基础信标效果如下表所示，其中数值分别为1 / 2 / 3 / 4级的效果
 
-基础信标效果如下表所示，其中数值分别为初始信标 / Vibrant信标 / Vibrant + Vib青信标
+vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+2级
 
 | 信标名称 | 效果 | 最大获取上限 |
 | --- | --- | :---: |
-| <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 无上限 |
-| <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <rb>8</rb>** Pulls| 无上限 |
-| <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <rb>5</rb>** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
-| <font color = 00CCFF>**青色信标**</font> | 下一个信标的效果 **+50% / <font color = 00CCFF>+100%</font>** | 无上限 |
-| <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
-| <font color = 00BB00>**绿色信标**</font> | 获得 **210s / <font color = 00CCFF>330s</font> / <rb>570s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
-| <font color = "555555">**暗灰色信标**</font> | 获得 **5 / <font color = 00CCFF>10</font> / <rb>20</rb>** 个随机诅咒，同时获得 **5 / <font color = 00CCFF>10</font> / <rb>20</rb>** Pulls | 1 |
-| <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+15 / <font color = 00CCFF>+20</font> / <rb>+30</rb>** | 1 |
-| <font color = "grey">**灰色信标**</font> | 从 **3 / <font color = 00CCFF>4</font> / <rb>5</rb>** 个任务中选择1个接取 | 3 |
-| <font color = "red">**红色信标**</font> | 挑战轮数 **+6 / <font color = 00CCFF>+9</font> / <rb>+15</rb>**，且 **6 / <font color = 00CCFF>9</font> / <rb>15</rb>** 轮内不会有时间补偿 | 无上限 |
-| <font color = #FA71AF>**粉色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <rb>5</rb>** 次信标刷新次数 | 无上限 |
-| <font color = AA0000>**绯红色信标**</font> | 从 **2 / <font color = 00CCFF>3</font> / <rb>4</rb>** 个试炼中选择1个接取 | 2 |
-| <rb><b>彩虹信标</b></rb> | 在接下来的 **10 / <font color = 00CCFF>20</font> / <rb>40</rb>** 轮中，出现的信标均升级为Vibrant | 无上限 |
+| <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <rb>300%</rb> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 无上限 |
+| <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <rb>6</rb> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <rb>6</rb> / <rb>8</rb>** Pulls| 无上限 |
+| <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <rb>4</rb> / <rb>5</rb>** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
+| <font color = 00CCFF>**青色信标**</font> |   **增强 /**  <font color = 00CCFF>**大幅增强**</font> 下一个信标的效果 | 无上限 |
+| <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <rb>20</rb> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
+| <font color = 00BB00>**绿色信标**</font> | 获得 **210s / <font color = 00CCFF>330s</font> / <rb>450s</rb> / <rb>570s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
+| <font color = "555555">**暗灰色信标**</font> | 获得 **5 / <font color = 00CCFF>10</font> / <rb>15</rb> / <rb>20</rb>** 个随机诅咒，同时获得 **5 / <font color = 00CCFF>10</font> / <rb>15</rb> / <rb>20</rb>** Pulls | 1 |
+| <font color = "CCCCCC">**白色信标**</font> |  获得 **15 / <font color = 00CCFF>20</font> / <rb>25</rb> / <rb>30</rb>** 个挑战轮数 | 1 |
+| <font color = "grey">**灰色信标**</font> | 从 **3 / <font color = 00CCFF>4</font> / <rb>4</rb> / <rb>5</rb>** 个任务中选择1个接取 | 3 |
+| <font color = "red">**红色信标**</font> | 获得 **6 / <font color = 00CCFF>9</font> / <rb>12 </rb>/ <rb>15</rb>** 轮没有时间补偿的挑战轮数| 无上限 |
+| <font color = #FA71AF>**粉色信标**</font> | 获得 **2 / <font color = 00CCFF>3</font> / <rb>4 </rb>/ <rb>5</rb>** 次信标刷新次数 | 无上限 |
+| <font color = AA0000>**绯红色信标**</font> | 从 **2 / <font color = 00CCFF>3</font> / <rb>4 </rb>/ <rb>4</rb>** 个试炼中选择1个接取 | 2 |
+| <rb><b>彩虹信标</b></rb> | 在接下来的 **10 / <font color = 00CCFF>20</font> / <rb>30</rb>/ <rb>40</rb>** 轮中，出现的信标均升级为Vibrant | 无上限 |
 
 部分信标有一点需要注意的特性
 
