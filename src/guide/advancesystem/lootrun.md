@@ -246,7 +246,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
 | <font color = 00BB00>**绿色信标**</font> | 获得 **210s / <font color = 00CCFF>330s</font> / <rb>570s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
 | <font color = "555555">**暗灰色信标**</font> | 获得 **5 / <font color = 00CCFF>10</font> / <rb>20</rb>** 个随机诅咒，同时获得 **5 / <font color = 00CCFF>10</font> / <rb>20</rb>** Pulls | 1 |
-| <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+10 / <font color = 00CCFF>+15</font> / <rb>+30</rb>** | 1 |
+| <font color = "CCCCCC">**白色信标**</font> | 挑战轮数 **+15 / <font color = 00CCFF>+20</font> / <rb>+30</rb>** | 1 |
 | <font color = "grey">**灰色信标**</font> | 从 **3 / <font color = 00CCFF>4</font> / <rb>5</rb>** 个任务中选择1个接取 | 3 |
 | <font color = "red">**红色信标**</font> | 挑战轮数 **+6 / <font color = 00CCFF>+9</font> / <rb>+15</rb>**，且 **6 / <font color = 00CCFF>9</font> / <rb>15</rb>** 轮内不会有时间补偿 | 无上限 |
 | <font color = #FA71AF>**粉色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <rb>5</rb>** 次信标刷新次数 | 无上限 |
@@ -441,7 +441,7 @@ Vibrant信标拥有原信标的双倍效果
 | <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标永远被遮蔽，但是它们永远持有Vib青效果(+100%效果)|
 | <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
 | <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (上限为6)；开始任意挑战后重置该效果|
-| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每重复持有一个祝福，+3 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
+| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每重复持有一个祝福，+2 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
 | <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得10 Pulls，就清除一个辉光概率的诅咒。  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
@@ -487,7 +487,7 @@ Vibrant信标拥有原信标的双倍效果
 | --- | --- | --- | --- |
 |![](/assets/img/lootrun.md-06-12-02-22-32.png) | <mob>Light Out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予5 pull |
 | ![](/assets/img/lootrun.md-06-12-02-22-24.png)| <mob>Dying Light</mob> | 直到你共计获得1000%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 完成彩虹信标将给予1次奖励献祭 |
-|![](/assets/img/lootrun.md-06-12-02-22-19.png) | <mob>Monochromokopia</mob> | 直到获得30 Pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
+|![](/assets/img/lootrun.md-06-12-02-22-19.png) | <mob>Monochromokopia</mob> | 直到获得35 Pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
 |![](/assets/img/lootrun.md-06-12-02-22-14.png) | <mob>Adrenaline Junkie</mob> | 直到获得25 Pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
 | ![](/assets/img/lootrun.md-06-12-02-22-50.png)| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 完成绿信标将会净化10%的诅咒数量;每清除1个诅咒,获得当前pulls总量的1%(每轮最高5%,向上取整) |
 | ![](/assets/img/lootrun.md-06-12-02-22-59.png)|  <mob>Warmth Devourer</mob> | 直到你获得20 Pulls之前，每轮挑战完成后扣除3个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
