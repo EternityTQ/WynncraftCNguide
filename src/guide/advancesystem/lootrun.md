@@ -239,7 +239,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 | 信标名称 | 效果 | 最大获取上限 |
 | --- | --- | :---: |
-| <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <font color=#BF40EB>300%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 无上限 |
+| <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <font color=#BF40EB>300%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 30 |
 | <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** Pulls| 无上限 |
 | <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <font color=#BF40EB>4</font> / <rb>5</rb>** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
 | <font color = 00CCFF>**青色信标**</font> |   **增强 /**  <font color = 00CCFF>**大幅增强**</font> 下一个信标的效果 | 无上限 |
@@ -434,7 +434,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 |---------------------|-------------------------------------------------------------------------------------------|
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
 | <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  |
-| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启6个飞箱后，从3个200%效能的祝福中选择一个并获取。  |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启8个飞箱后，在下轮结束时，从2个200%效能的祝福中选择一个并获取。  |
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
@@ -443,7 +443,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (上限为6)；开始任意挑战后重置该效果|
 | <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+2 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
-| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得10 Pulls，就清除一个辉光概率的诅咒。  |
+| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得15 Pulls，就清除一个辉光概率的诅咒。  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
 | <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒|
@@ -453,7 +453,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到该青色信标的效果|
 | <font color='FFAA00'> **High Spirits** </font>         | +35% Vibrant信标转换概率|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
-| <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成7轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
+| <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
 | <font color='FF5555'> **Knife Edge** </font>         | 完成挑战给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
 | <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
