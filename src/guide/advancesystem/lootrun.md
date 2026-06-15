@@ -703,8 +703,8 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | --- | --- | 
 | <font color='5555FF'> **Opal Offering** </font>  | 非常适合短途的任务。一个600%的boon能给12pulls，前期快速拿完boon然后烧干跑路能给很多收益，不浪费时间。不是很推荐拿这个跑长途,不是很稳定外加收益没其他任务高.|
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  这个任务在IS出现之后变得神起来了，自带奖励和祝福两方面，这里主要讲奖励，Jester+IS能让你大幅提升pull数，平均一轮能多出4-6pull出来，非常丧心病狂的效果。  |
-|  <font color='AA00AA'> **Porphyrophobia** </font>  | 在改版之后稍有强度了，诅咒流值得一拿，大幅提升pulls，但小心诅咒塞过多导致内鬼。   |
-| <font color='AA00AA'> **Radiant Hunter** </font> | 卧槽！我爹来了！只需要你有一点radiant chance，这个任务就是每轮固定+5pulls，甚至打的还舒服，不需要后续补curse了，非常安逸|
+|  <font color='AA00AA'> **Porphyrophobia** </font>  | 强度很高，诅咒流值得一拿，大幅提升pulls，但小心诅咒塞过多导致内鬼。   |
+| <font color='AA00AA'> **Radiant Hunter** </font> | 卧槽！我爹来了！只需要你有一点radiant chance，这个任务就是每轮固定+5pulls，甚至打的还舒服，非常安逸。但是需要注意3轮吃掉一个chance，需要及时补燃料|
 |  <font color='00BB00'> **Chronokinesis** </font>  | 曾经的神，目前表现一般。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，~~但是可能会比较累~~ 。**注意这个只计入路边野箱和洞穴宝箱**  |
 |  <font color='DDDDDD'> **High Roller** </font>  |  值得一拿，毕竟rr还是很缺的。  |
 | <font color='DDDDDD'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
@@ -717,10 +717,10 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | <font color='FFCC00'> **Cleansing Greed** </font>   | 飞箱+诅咒流可以拿，但是本身不提供任何增益手段，因此还是需要其他战斗类任务的帮助   |
 |   <font color='FFCC00'> **Hoarder** </font>  |  区了，别拿。hoarder现在的问题是给的是100%效能的boon，非常拉跨，不够看的。  |
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  **有IS的情况下是最高优先级**，这里主要讲战斗，Jester在有IS的情况下能提供大量的祝福和时间，可以让你安稳打过100轮；给予的时间还能避免红信标轮次内吃不到时间的窘境，总之是飞箱流核心组件  |
-|  <font color='5555FF'> **Orphion's Grace** </font>  |  版本更新之后非常值得拿了，尤其是现在boon质量大幅提高，一个900%的boon顶别人一辈子。  |
-| <font color='AA00AA'> **Equilibrium** </font>   |  不太好评价的东西，配合lights out之类的有奇葩的联动效果，但本体...其实是值得拿的，只是看个人吧。  |
+|  <font color='5555FF'> **Orphion's Grace** </font>  |  现在稍微略区，因为蓝信标最多就400%，而且还不是很好搞，彩虹出现的更少了。但总之如果没别的任务可以拿了，还是值得拿的  |
+| <font color='AA00AA'> **Equilibrium** </font>   |  可以拿，目前诅咒获取多了外加蓝信标半削弱，导致equi地位有所提升，配合indigo更是超神。  |
 |   <font color='AA00AA'> **Inner Peace** </font>  |   **诅咒流优先级极高**，IP主要是可以使对面诅咒抗性折半，这样更好应对数值了。另外，在有All in的情况下，IP还能避免怪物出现抗性超过100%的死局。 |
-|  <font color='FF5555'> **Thrill Seeker** </font>  |    |
+|  <font color='FF5555'> **Thrill Seeker** </font>  | 兄弟这改版后劲是真大。需要提高战斗和跑图速度，并且诅咒不能拿太多，以防打的慢。在开始暖机前需要先拿大量绿信标来当燃料，之后就最好不要中途再拿了。非常可以的挑战，尤其是现在信标劲都很大。   |
 
 
 ### 任务与试炼组合
