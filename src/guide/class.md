@@ -754,7 +754,7 @@ Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程
 <jc name="Summoner"/>
 </ClientOnly>
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
 召唤师使用多个图腾和召唤物来压制敌人。
 
@@ -776,9 +776,23 @@ Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程
 
 相比隔壁各方面都极其优秀的血萨，召唤师尽管略逊一筹，但自身机制优秀，玩法舒适，适合新手萨满入手
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">实战手法</span>
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+召唤师的手法相对来说比较简单
+
+简单来说，就是图腾放下来，小弟放出来的时候，就可以开始绕圈跑了。
+
+鸟一定要用shift+haul放出去啄人，伤害大头都在这里。
+
+时不时用uproot命中敌人进行标记，可以提升伤害。
+
+当commander条满了之后，就shift+aura激活指挥官状态加伤。
+
+如果想要进一步提升攻击，就可以用334的循环来爆aura，只要你能回的上来。
+
+在打BOSS的时候，确认bullwhip上在BOSS身上后，可以使用3331的循环，避免bullwhip上到其他怪物导致转火丢伤害。
+
+<span style="font-size: 24px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 
 
 <ClientOnly>
@@ -788,16 +802,36 @@ Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程
 <ClientOnly>
 <jc name="Ritualist"/>
 </ClientOnly>
-圣祭祀拥有召唤圣假面的能力，每个面具都会降低自身某种属性来增强另一项(移速，伤害，防御)
 
-在每一个圣假面的加持之下，圣祭司的技能也会获得不同的加成，而面具能力会牺牲圣祭司的其中一个技能：uproot
+<span style="font-size: 24px; border-bottom: 3px solid #16d108; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
-圣祭司的终极技能则允许其在特定条件下召唤觉醒假面一段时间，觉醒假面拥有所有圣假面的增益，但会清除其减益
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+圣祭祀拥有召唤面具进行辅助作战的能力，其三种面具都有不同的效果，通过切换面具可以享受任一效果。
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+红面具可以牺牲抗性提供伤害加成，同时减少Aura的法力消耗
 
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+黄面具可以牺牲移速提供抗性加成，同时减少Totem的法力消耗
+
+蓝面具可以牺牲伤害提供移速加成，同时减少Haul的法力消耗。
+
+在切换面具时，圣祭祀还可以为周围的友军提供一定的增益。
+
+当圣祭祀累计通过面具的减耗节省了一定量的法力后，即可激活觉醒效果。觉醒效果期间，圣祭祀享受所有面具的正面效果、免疫其负面效果。
+
+
+
+<span style="font-size: 24px; border-bottom: 3px solid #16d108; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+简单来说，圣祭祀的手法就是切黄面具，放几个totem之后攒满觉醒进度，然后直接进觉醒就可以了。
+
+觉醒期间，用334输出即可
+
+很简单！
+
+<span style="font-size: 24px; border-bottom: 3px solid #16d108; padding-bottom: 4px; font-weight: bold;">风评地位</span>
+
+
+
+
 <ClientOnly>
 <ks name="Ritualist"/>
 </ClientOnly>
@@ -805,22 +839,44 @@ Acrobat的实战略微有点复杂，详细的可以看这个youtube视频教程
 <ClientOnly>
 <jc name="Acolyte"/>
 </ClientOnly>
+
+<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
+
 血教徒是上手难度最高的技能分支之一，其核心机制为血池——通过图腾牺牲自己的生命值填充血池，再利用血池进行输出和治疗
 
 虽然血池的治疗在熟练掌握后是非常强大的续航手段，但是不熟练血池节奏的情况下，很有可能因为血池意外将自己抽干而失去续航能力
 
 血教徒通过使用血池释放Aura，不仅能治疗周围友军，还能为Aura增伤。
 
-血教徒在中期就可以解锁强大的大招——触手。通过消耗中等血池来让图腾召唤出巨大触手，触手可以对周围敌人施加DEBUFF同时造成大量伤害。但是要注意图腾的持续时间被重置至10秒，尽管在持续时间即将结束时可以通过再次召唤来刷新持续时间。
+血教徒在中期就可以解锁强大的技能——触手。通过消耗中等血池来让图腾召唤出巨大触手，触手可以对周围敌人施加DEBUFF同时造成大量伤害。但是要注意图腾的持续时间被重置至10秒，尽管在持续时间即将结束时可以通过再次召唤来刷新持续时间。
 
-血教徒在后期能解锁另一个大招：金血。通过消耗大量血池可以为自己添加金血，同时对周围的敌人造成大量持续伤害。
+血教徒在后期能解锁另一个强力技能：金血。通过消耗大量血池可以为自己添加金血，同时对周围的敌人造成大量持续伤害。
 
 血教徒可以通过平A对敌人施加流血状态。敌人处于流血状态时，会持续受到伤害，并填充血池。当自身流失生命时，还会对周围处于流血状态下的敌人造成伤害。
 
 总得来说，血教徒是一位输出辅助两手抓的T0职业，缺点是需要玩家对游戏有所理解，否则容易把自己抽干，~~然后嫌弃这个职业怎么这么菜~~
-<span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">职业介绍</span>
 
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">实战手法</span>
+
+需要注意的是，目前常见的血萨树都要点到左边的双图腾，方便抽血。
+
+在放两个图腾后即开始暖机，途中如果血线太低了，记得及时放Aura回血。
+
+目前主要分为两个流派，传统派和爆技能派(仅Reson)
+
+传统派的打法是，血池够了就放触手和Blood Sorrow，然后两者快没了就续
+
+注意，触手可以直接续，不需要再放一次新的图腾。
+
+Blood Sorrow需要听音效，最好不要停。
+
+同时，为了让Tether能打出更多的伤害，尽量保持血池不要满。
+
+如果血池太少了，可以用火舌去打点血池(但一般是溢出的)
+
+爆技能流派，就是不停334，途中不停补金血。
+
+
 
 <span style="font-size: 24px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">风评地位</span>
 <ClientOnly>
