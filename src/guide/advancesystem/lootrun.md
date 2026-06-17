@@ -156,11 +156,11 @@ LR副职等级为账号通用
 处于Spelunk挑战中时，不会重置已经开过的T3/T4箱子
 :::
 
-同时，你可以在任何时候找NPC投降
+同时，你可以在任何时候找NPC结算
 
 ![](/assets/img/lootrun12.jpg)
 
-投降效果等于直接放弃接下来所有挑战数
+结算效果等于直接放弃接下来所有挑战数
 
 若完成的挑战数小于4轮，则不会正常结算，将会判定失败，并且不会获得任何奖励
 
@@ -201,6 +201,8 @@ LR副职等级为账号通用
 注意当你出现了这个提示并且限时内无法回去时，一定要使用`/kill`来回到camp
 
 这个真的很重要！！！
+
+但是值得一提的是，在sky掉虚空了会把你拉回来，不用担心，只是扣你个90%血罢了。
 :::
 
 ## 计时器 / Timer
@@ -241,7 +243,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | --- | --- | :---: |
 | <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <font color=#BF40EB>300%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 30 |
 | <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** Pulls| 无上限 |
-| <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <font color=#BF40EB>4</font> / <rb>5</rb>** 个Flying Chest(相当于额外的战利品箱) | 无上限 |
+| <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <font color=#BF40EB>4</font> / <rb>5</rb>** 个飞箱(相当于额外的战利品箱) | 无上限 |
 | <font color = 00CCFF>**青色信标**</font> |   **增强 /**  <font color = 00CCFF>**大幅增强**</font> 下一个信标的效果 | 无上限 |
 | <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <font color=#BF40EB>20</font> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
 | <font color = 00BB00>**绿色信标**</font> | 获得 **210s / <font color = 00CCFF>330s</font> / <font color=#BF40EB>450s</font> / <rb>570s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
@@ -261,11 +263,11 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant祝福的是挑战轮数 |
 | <font color = "CCCCCC">**白色信标**</font> | 总轮数到达100轮时消失 |
 | <font color = 00BB00>**绿色信标**</font> | 只会连续出现1次；青信标会增幅`怪物不加属性`的轮次数而Vibrant不会 |
-| <font color = "grey">**灰色信标**</font> | 青信标会使其选数翻倍但选数上限为5；第5轮开始出现；<br>随着出现次数的增加逐渐消失，约第27~35轮后消失；任务进行时不会出现 |
+| <font color = "grey">**灰色信标**</font> | 第5轮开始出现；<br>随着出现次数的增加逐渐消失；任务进行时不会出现 |
 | <font color = "red">**红色信标**</font> | 只会连续出现1次；优先结算没有时间补偿的轮次；<br>总轮数到达100轮时消失 |
 | <font color = AA0000>**绯红色信标**</font> | 第20轮后开始出现，之后随着出现次数的增加逐渐消失 |
 | <font color = "orange">**橙色信标**</font> |最多将信标选数扩充至6 | 
-| <rb><b>彩虹信标</b></rb> | 仅在第10轮后开始出现；不出现的次数越多，刷新概率越高。 | 
+| <rb><b>彩虹信标</b></rb> | 第10轮后开始出现；不出现的次数越多，刷新概率越高。 | 
 
 :::warning
 对于有上限的信标，当你走进挑战时，就已经计入总数了
@@ -445,7 +447,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
 | <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标永远被遮蔽，但是它们永远被大幅增强(+2级效果)|
-| <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+2 pull (该祝福每有额外50%效能，则多+1 pull)|
+| <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull (该祝福每有额外50%效能，则多+2 pull)|
 | <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (上限为6)；开始任意挑战后重置该效果|
 | <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+1 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
 | <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
@@ -457,7 +459,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
 | <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你的信标池没有信标可以出现了，否则被刷新的信标将不再出现|
 | <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到该青色信标的效果|
-| <font color='FFAA00'> **High Spirits** </font>         | +35% Vibrant信标转换概率|
+| <font color='FFAA00'> **High Spirits** </font>         | +50% Vibrant信标转换概率|
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
 | <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
 | <font color='FF5555'> **Knife Edge** </font>         | 完成挑战给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
