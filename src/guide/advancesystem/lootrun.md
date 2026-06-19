@@ -442,7 +442,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 |---------------------|-------------------------------------------------------------------------------------------|
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
 | <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  |
-| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启8个飞箱后，在下轮结束时，从2个200%效能的祝福中选择一个并获取。  |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启8个飞箱后，在下轮结束时，从2个300%效能的祝福中选择一个并获取。  |
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
@@ -505,7 +505,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 |![](/assets/img/lootrun.md-06-12-02-23-19.png) |  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你进入挑战、开始挑战、结束挑战时，都会把计时器重置至75秒，在挑战期间死亡不会扣除时间 |获得2次奖励重掷 |
 | ![](/assets/img/lootrun.md-06-12-02-23-24.png)|  <mob>Treasury Bill </mob> |直到你获得20 Pulls之前，每60秒扣除1 pull |额外获得完成试炼时的pulls的75% |
 |![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Ultimate Sacrifice</mob> | 接下来10轮中，所有祝福失效| 获得2次奖励献祭|
-|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Imperitia</mob> | 直到你获得30 Pulls之前，每完成一轮挑战，技能消耗+5 Mana| 获得2次奖励献祭|
+|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Imperitia</mob> | 直到你获得30 Pulls之前，每完成一轮挑战，技能最终消耗+5 Mana| 获得2次奖励献祭|
 
 
 ## 最终奖励
@@ -692,13 +692,14 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 | 名称 | 简评 |
 | --- | --- | 
-| <font color='5555FF'> **Gourmand** </font> | 改版之后较废，不如隔壁optimism，别拿。|
-|   <font color='FFAA00'> **Optimism** </font> |  非常牛逼的运营类任务，拿到之后配合青粉直接信标自由。如果没有其他信标的话可以考虑拿，要注意这个任务不直接提供任何收益。  |
+| <font color='5555FF'> **Gourmand** </font> | 改版之后再增强了之后...还是感觉有点菜菜的，纯运营任务但是效果还是不够很好。|
+|   <font color='FFAA00'> **Optimism** </font> |  非常牛逼的运营类任务，拿到之后配合青粉直接信标自由。如果没有其他信标的话可以考虑拿，要注意这个任务不直接提供任何收益。<br>目前改版之后，抓位稍微降低，因为疑似无法直接刷出彩虹来，可能是BUG  |
 | <font color='AA00AA'> **Sacrificial Ritual** </font> | 花费20-30pulls保送100c，看似会亏，实际上全程青红青绿需要约12-16轮，这个任务实际上是以20p的代价省去了这些轮次，而不管是飞箱还是诅咒流，都可以轻松把20p追回来，总而言之是非常值得拿的运营类任务。唯一要注意的是如果是开头拿到这个任务，后续需要pulls启动的任务会容易做不完。 |
 | <font color='00BB00'> **Stasis** </font> | 比较适合新手的任务，**避免跑图过慢导致超时**，但本身真的是没啥强度，挺菜的，而且在完成任务的时候还有可能内鬼(指时间不掉导致需要手动kill来降时间)，总之如果你有把握不会跑超时的话这个任务可以不选 |
 | <font color='FFAA00'> **Backup Beat** </font> | 也算是个保底任务，本身挺菜的，300s的要求有点多，正常打需要2轮才能获得一次信标rr，虽然靠绿信标能获得更多就是了。总之就是不推荐拿，在fruma没任务拿的时候可以考虑拿一下。 |
 | <font color='00BB00'> **Requiem** </font> | 如果你有彩虹和充足的信标选数的话，可以拿，但本身是没其他选择了才会拿。。能确保在15分钟内吃完暗灰和大量紫能让你获得大量收益的同时，避免怪物属性增长，是个不错的方法。但是在Fruma中，这个任务生效的轮次会变少，需要注意。 |
-
+| <font color='FFAA00'> **Beleza Pura** </font>         | 神，神中神，尤其是现在抓青信标会亏的情况这个直接帮你省去一个轮次，跟以前做到两轮抛出三轮的收益，特别神。|
+| <font color='FFAA00'> **High Spirits** </font>         | 小彩虹，神，拿了之后可以显著增加收益下限，避免拿不到彩虹。但是要注意和knife edge相性不佳。|
 **奖励类 - 飞箱**
 | 名称 | 简评 |
 | --- | --- | 
@@ -709,14 +710,19 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 | 名称 | 简评 |
 | --- | --- | 
-| <font color='5555FF'> **Opal Offering** </font>  | 非常适合短途的任务。一个600%的boon能给12pulls，前期快速拿完boon然后烧干跑路能给很多收益，不浪费时间。不是很推荐拿这个跑长途,不是很稳定外加收益没其他任务高.|
+| <font color='5555FF'> **Opal Offering** </font>  | 非常适合短途的任务。在目前彩虹几乎不拿的版本中单走比较区，但是配合Equi非常有强度，一个吃满的boon能爆24pulls往上，相当夸张的收益|
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  这个任务在IS出现之后变得神起来了，自带奖励和祝福两方面，这里主要讲奖励，Jester+IS能让你大幅提升pull数，平均一轮能多出4-6pull出来，非常丧心病狂的效果。  |
-|  <font color='AA00AA'> **Porphyrophobia** </font>  | 强度很高，诅咒流值得一拿，大幅提升pulls，但小心诅咒塞过多导致内鬼。   |
+|  <font color='AA00AA'> **Porphyrophobia** </font>  | 强度很高，诅咒流几乎必拿，大幅提升pulls，但小心诅咒塞过多导致内鬼。   |
 | <font color='AA00AA'> **Radiant Hunter** </font> | 卧槽！我爹来了！只需要你有一点radiant chance，这个任务就是每轮固定+5pulls，甚至打的还舒服，非常安逸。但是需要注意3轮吃掉一个chance，需要及时补燃料|
-|  <font color='00BB00'> **Chronokinesis** </font>  | 曾经的神，目前表现一般。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，~~但是可能会比较累~~ 。**注意这个只计入路边野箱和洞穴宝箱**  |
+|  <font color='00BB00'> **Chronokinesis** </font>  | 塞pull机，表现很可疑。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，配合ritual可以狂贪箱子 。**注意这个只计入路边野箱和洞穴宝箱**  |
 |  <font color='DDDDDD'> **High Roller** </font>  |  值得一拿，毕竟rr还是很缺的。  |
 | <font color='DDDDDD'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
 | <font color='DDDDDD'> **Complete Chaos** </font>  | 如果是跑长途的话还是值得一拿的，但是要非常小心狂塞红信标导致内鬼，运气好的话提升非常大。<br>需要注意的是，CC发的信标池是下一轮的信标池，并非全随机。 |
+|  <font color='FF5555'> **Thrill Seeker** </font>  | 兄弟这改版后劲是真大。需要提高战斗和跑图速度，并且诅咒不能拿太多，以防打的慢。在开始暖机前需要先拿大量绿信标来当燃料，之后就最好不要中途再拿了。非常可以的任务，暖完机每轮+4pulls，特别爽。   |
+| <font color='FF5555'> **Knife Edge** </font>         |我草，神。注意这个任务不能拿彩虹。主要打法是到最后1-2轮的时候拿普通红信标，控制得当就是每轮3pulls的期望收益，非常可观。|
+| <font color='FF5555'> **King's Court** </font>         | 非常看脸的试炼，主要用途是能让你有机会凑出chronotrigger+light out+tb的组合，但...试炼太拖运营轮次了，如果有其他更好的选择的话，还是别选这个吧。|
+| <font color='5555FF'> **Ostinato** </font>     | 被连砍两刀之后，现在的收益是搞笑来的，急需rework。为了砍配合hoarder的收益，于是把ostinato的单走收益给砍废了，现在完全不值得拿，期望收益大约在拿满30个蓝信标+120pulls，但是是**拿满**，非常不值得拿了现在。除非你跑飞箱，有IS+hoarder可以顺手拿一个。|
+| <font color='5555FF'> **Route Indigo** </font>     | 很神，非常神，约等于直接给一个vib青。缺点是稍微影响运营，如果有要拿诅咒/祝福的任务试炼容易内鬼，要小心。|
 
 **战斗类**
 
@@ -726,9 +732,9 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 |   <font color='FFCC00'> **Hoarder** </font>  |  区了，别拿。hoarder现在的问题是给的是100%效能的boon，非常拉跨，不够看的。  |
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  **有IS的情况下是最高优先级**，这里主要讲战斗，Jester在有IS的情况下能提供大量的祝福和时间，可以让你安稳打过100轮；给予的时间还能避免红信标轮次内吃不到时间的窘境，总之是飞箱流核心组件  |
 |  <font color='5555FF'> **Orphion's Grace** </font>  |  现在稍微略区，因为蓝信标最多就400%，而且还不是很好搞，彩虹出现的更少了。但总之如果没别的任务可以拿了，还是值得拿的  |
-| <font color='AA00AA'> **Equilibrium** </font>   |  可以拿，目前诅咒获取多了外加蓝信标半削弱，导致equi地位有所提升，配合indigo更是超神。  |
+| <font color='AA00AA'> **Equilibrium** </font>   |  可以拿，目前诅咒获取多了外加蓝信标半削弱，导致equi地位有所提升，配合opal更是超神。  |
 |   <font color='AA00AA'> **Inner Peace** </font>  |   **诅咒流优先级极高**，IP主要是可以使对面诅咒抗性折半，这样更好应对数值了。另外，在有All in的情况下，IP还能避免怪物出现抗性超过100%的死局。 |
-|  <font color='FF5555'> **Thrill Seeker** </font>  | 兄弟这改版后劲是真大。需要提高战斗和跑图速度，并且诅咒不能拿太多，以防打的慢。在开始暖机前需要先拿大量绿信标来当燃料，之后就最好不要中途再拿了。非常可以的挑战，尤其是现在信标劲都很大。   |
+
 
 
 ### 任务与试炼组合
@@ -1008,7 +1014,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 不过可以在一试炼做完lights out的情况下做这个，效果会比较好。
 
-综合给到NPC。
+综合给到人上人，如果是第二个试炼且已经有大量pulls，则给到夯。
 
 <mob>Monochromokopia</mob>：
 
@@ -1034,6 +1040,13 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 综合给到拉完了。
 
+<mob>Imperitia</mob>：
+
+**这他妈是哪个傻逼CT设计出来的？？？？**
+
+这技能消耗甚至加的是最终消耗，直接干废warp，逼着玩家骑飞龙
+
+不解释，垃圾的要死。
 
 
 
@@ -1088,7 +1101,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 <span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">Silent Expanse Expedition  / SE</span>
 
 **洞穴强度**：4/5 SE有几个洞穴的战斗强度不低，而且比如眼球洞这种还相当膈应人。还是需要小心的。
-**战斗强度**：4/5 曾经纯粹的数值，现在虽然在Fruma面前不够看了，但还是很可怕的，比如超大绿蜘蛛。
+**战斗强度**：6/5 曾经纯粹的数值，现在居然还给加强了一波，比Fruma还顶级，牛逼。
 **区域大小**：3/5 SE整体区域算中大型，其实跑图难度也不算很高
 <span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">The Fruma Foray (West) / Fruma西部</span>
 

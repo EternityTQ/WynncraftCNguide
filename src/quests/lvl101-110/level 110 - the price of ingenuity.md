@@ -26,9 +26,17 @@ icon: scroll
 ### Step 2 XXXX
 ---
 
+被叫醒后，和门口的<NPC>Rex</NPC>对话
+
+![](/assets/img/level%20110%20-%20the%20price%20of%20ingenuity.md-06-19-18-07-07.png)
+
 
 ### Step 3 XXXX
 ---
+
+叫醒其他几个还在睡觉的B
+
+![](/assets/img/level%20110%20-%20the%20price%20of%20ingenuity.md-06-19-18-08-31.png)
 
 
 ### Step 4 XXXX
