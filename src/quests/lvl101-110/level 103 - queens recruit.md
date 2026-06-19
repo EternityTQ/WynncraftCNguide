@@ -10,6 +10,16 @@ icon: bookmark
 
 > Time to Fruma...
 
+:::tip 关于前置任务
+
+本任务有**账号前置任务**，你只需要有一个存档做完如下任务即可：
+
++ [Recover The Past (level 25)](/quests/lvl21-30/level%2025%20-%20recover%20the%20past.html)
++ [Realm of Light V - The Realm of Light (level 79)](/quests/lvl71-80/level%2079%20-%20realm%20of%20light%20v%20-%20the%20realm%20of%20light.html)
++ [A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20a%20journey%20further.html)
+
+:::
+
 
 :::warning
 从这个任务开始，Fruma的主线任务强度将迎来质的提升。
