@@ -22,27 +22,27 @@ icon: route
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-10-23-11-57.png)
 
 
-### Step 2 XXXX
+### Step 2 准备行动
 ---
 
 和城内的<NPC>Yuman</NPC>对话<CC>-1744 30 -512</CC>
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-10-23-19-47.png)
 
-### Step 3 XXXX
+### Step 3 前往屋顶
 ---
 进入面前的房子，上楼，沿着绿色痕迹一直走。
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-10-23-20-45.png)
 
-### Step 4 XXXX
+### Step 4 调查服饰
 --- 
 
 来到房顶第一个点，观察这里人的衣服<CC>-1716 40 -579</CC>
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-10-23-25-30.png)
 
-### Step 5 XXXX
+### Step 5 继续调查
 ---
 
 继续往前走，经过房子，来到房顶第二个点<CC>-1729 51 -608</CC>
@@ -50,14 +50,14 @@ icon: route
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-10-23-41-34.png)
 
 
-### Step 6 XXXX
+### Step 6 进入基地
 --- 
 
 来到水中的雕像处<CC>-1801 29 -520</CC>，和两位进行对话，然后跟随他们进入面前的下水道中。
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-11-00-24-26.png)
 
-### Step 7 XXXX
+### Step 7 与队友对话
 --- 
 
 在下水道中进行对话，然后前往<CC>-2087 6 -705</CC>找到<NPC>Sui</NPC>和<NPC>Mora</NPC>
@@ -65,7 +65,7 @@ icon: route
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-11-00-41-34.png)
 
 
-### Step 8 XXXX
+### Step 8 继续交谈
 --- 
 
 和旁边的<NPC>Syndra</NPC><CC>-2098 6 -717</CC>对话。
@@ -73,7 +73,7 @@ icon: route
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-11-00-44-45.png)
 
 
-### Step 9 XXXX
+### Step 9 调查入口
 --- 
 
 去调查一下铁路系统的入口<CC>-2100 6 -627</CC>，发现被堵上了...然后回到大厅
@@ -85,77 +85,66 @@ icon: route
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-07-27.png)
 
 
-### Step 10 XXXX
+### Step 10 准备离开
 --- 
 
 跟着<NPC>Yuman</NPC>前往隧道入口，跟<NPC>Zeph</NPC>对话<CC>-2162 4 -628</CC>
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-13-32.png)
 
-### Step 11 XXXX
+### Step 11 前往居住区
 ---
 
 从旁边的出口离开隧道，和众人汇合<CC>-2163 43 -624</CC>
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-14-18.png)
 
-### Step 12 XXXX
+### Step 12 正义制裁
 ---
 
-跳下房顶，将欺负队友的卫兵打退，然后和小队对话
+跳下房顶，将欺负女工的卫兵打退，然后和小队对话
 
 
-### Step 13 XXXX
+### Step 13 帮助女工
 ---
-
-:::danger
-没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完没写完
-
-:::
-
-
-
-
 
 
 将地上的背包拿起来，去附近收集有用的物品。
 
-一共有四种物品，每种拿一样即可：
+你需要帮这个BYD npc拿到四类物品，分别是用来睡觉的，用来娱乐的，用来穿的和用来回忆的
+
+每种物品限一个，不可多拿不可少拿。
+
+首先，你需要拿起背包：
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-19-11.png)
 
+然后，这里就不把所有的物品全列出来了，非常折磨人，你只需要去以下四个地方拿四样东西就可以了：
 
-去<CC>-2181 32 -622</CC>获取汤
 
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-22-01.png)
-
-<CC>-2178 32 -628</CC>拿个锅
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-22-12.png)
-
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-24-06.png)
+用于回忆的老照片<CC>-2173 38 -627</CC>：
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-26-14.png)
 
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-26-25.png)
+
+用来睡觉的床单<CC>-2168 33 -633</CC>：
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-00.png)
 
+用来穿的衣服<CC>-2163 35 -632</CC>：
+
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-14.png)
 
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-25.png)
+用来娱乐的书<CC>-2157 34 -623</CC>：
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-33-37.png)
 
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-35-29.png)
-
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-38-20.png)
-
-![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-38-52.png)
+四样拿完之后，回去找NPC即可
 
 
 
 
-### Step 14 XXXX
+### Step 14 离开现场
 ---
 
 跟着队友从梯子离开现场，从刚才的隧道入口离开<CC>-2126 50 -624</CC>，然后在基地和队友对话
@@ -164,12 +153,14 @@ icon: route
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-48-25.png)
 
-### Step 15 XXXX
+### Step 15 开始会议
+
+参与对话
 
 ![](/assets/img/level%20109%20-%20solidarity%20of%20steel.md-03-18-18-56-08.png)
 
 
-### Step 16 
+### Step 16 听取演讲
 
 会议结束后，和<NPC>Sui</NPC>对话，看完表演后和水池后面的队友对话，观看CG
 
