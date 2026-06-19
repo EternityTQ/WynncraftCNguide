@@ -767,9 +767,9 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 核心组件:<font color='AA00AA'> **Inner Peace** </font>
 
-可选组件:<font color='AA00AA'> **Porphyrophobia** </font> + <font color='AA00AA'> **Radiant Hunter** </font> + <font color='5555FF'> **Route Indigo** </font>
+可选组件:<font color='AA00AA'> **Porphyrophobia** </font> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='5555FF'> **Route Indigo** </font>
 
-可选任务:<font color='AA00AA'> **Equilibrium** </font> / <font color='5555FF'> **Orphion's Grace** </font> / <font color='AA00AA'> **Sacrificial Ritual** </font>
+可选任务:<font color='AA00AA'> **Equilibrium** </font> / <font color='5555FF'> **Orphion's Grace** </font> / <font color='AA00AA'> **Sacrificial Ritual** </font> / <font color='FFAA00'> **Beleza Pura** </font> / <font color='FFAA00'> **High Spirits** </font> 
 
 诅咒流顾名思义,就是通过紫信标刷取大量的pulls和诅咒,然后自身通过拿够多的boon和怪物数值对对碰
 
@@ -790,21 +790,23 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 <span style="font-size: 20px; border-bottom: 3px solid #5555FF; padding-bottom: 4px; font-weight: bold;">Opal流</span>
 
-核心组件: <font color='5555FF'> **Opal Offering** </font>
+核心组件: <font color='5555FF'> **Opal Offering** </font> + <font color='AA00AA'> **Equilibrium** </font>
 
-可选组件:<font color='AA00AA'> **Equilibrium** </font> / <font color='AA00AA'> **Sacrificial Ritual** </font> / <font color='AA00AA'> **Radiant Hunter** </font>
+可选组件: <font color='AA00AA'> **Sacrificial Ritual** </font> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='5555FF'> **Route Indigo** </font> / <rb><b>彩虹信标</b></rb>
 
-简单来说,就是通过提前积攒大量高效能boon,然后吃大量诅咒引爆获得大量pulls.
+简单来说,引爆高效能Boon，来换取大量Boon
 
-这种打法比较适合短途,但如果长途的话可能会比较吃运营.
+这种打法比较适合短途,长途极有可能吃不动
 
-短途如果有equilibrium,可尝试青蓝青紫的运营节奏,这样的话能多吃点pulls
+Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
+
+但！是！，有Equi就不一样了，你可以保持紫蓝的节奏，这样就是爆一个给21pulls，打到两轮26pulls的恐怖收益
 
 有ritual也许可以考虑跑长途,虽然用红绿也行. 长途opal的打法就是全程吃青蓝,到90轮后猛吃青紫爆掉boon
 
-需要注意的是,**途中任何吃boon的试炼/给诅咒的任务试炼都会影响你的运营**,特别是lights out会自动爆掉你的boon,需要小心.
+需要注意的是,**途中任何吃boon的试炼/给诅咒的任务试炼都会爆掉你的Boon**,特别是lights out会自动爆掉你的boon,需要小心.
 
-如果考虑配合radiant hunter跑长途,需要注意chance要提前吃,避免不小心把boon吃了.
+如果考虑配合radiant hunter跑长途并且不希望边跑边爆,需要注意chance要提前吃,避免不小心把boon吃了.
 
 总而言之是一个比较利好短途的任务组合
 
@@ -812,7 +814,9 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 核心组件:<mob> Chronotrigger </mob>
 
-燃料来源:<mob> Light Out </mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font>
+燃料来源:<mob> Light Out </mob> / <mob> Treasury bill</mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font> 
+
+可选任务：<font color='FF5555'> **King's Court** </font>  / <font color='FF5555'> **King's Court** </font>
 
 打法:首先完成chronotrigger,然后一直青紫循环,跑够100轮
 
@@ -830,7 +834,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 核心组件:<mob>Light Out</mob>
 
-可选组件:<font color='AA00AA'> **Inner Peace** </font>/ <mob> Treasury Bill </mob> / <font color='00BB00'> **Chronokinesis** </font>
+可选组件:<font color='AA00AA'> **Inner Peace** </font>/ <mob> Treasury Bill </mob> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font>
 
 非常简单粗暴的效果,只需要你拿了light out之后,专门找怪少的洞打,或者找能瞬秒的destroy,也可以找defend(最次选),但是只平A拉仇恨不打死怪.
 
@@ -841,6 +845,8 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 可以在任务完成前吃掉青暗灰信标来进一步提升你的radiant诅咒数量
 
 如果试炼二能听到Treasury Bill,也能获得大量的pulls,不要错过了.
+
+吃到打不动就可以跑路了
 
 <span style="font-size: 20px; border-bottom: 3px solid orange; padding-bottom: 4px; font-weight: bold;">爆rr流</span>
 
