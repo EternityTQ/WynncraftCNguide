@@ -714,7 +714,7 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  这个任务在IS出现之后变得神起来了，自带奖励和祝福两方面，这里主要讲奖励，Jester+IS能让你大幅提升pull数，平均一轮能多出4-6pull出来，非常丧心病狂的效果。  |
 |  <font color='AA00AA'> **Porphyrophobia** </font>  | 强度很高，诅咒流几乎必拿，大幅提升pulls，但小心诅咒塞过多导致内鬼。   |
 | <font color='AA00AA'> **Radiant Hunter** </font> | 卧槽！我爹来了！只需要你有一点radiant chance，这个任务就是每轮固定+5pulls，甚至打的还舒服，非常安逸。但是需要注意3轮吃掉一个chance，需要及时补燃料|
-|  <font color='00BB00'> **Chronokinesis** </font>  | 塞pull机，表现很可疑。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，配合ritual可以狂贪箱子 。**注意这个只计入路边野箱和洞穴宝箱**  |
+|  <font color='00BB00'> **Chronokinesis** </font>  | 塞pull机，表现很可以。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，配合ritual可以狂贪箱子 。**注意这个只计入路边野箱和洞穴宝箱**  |
 |  <font color='DDDDDD'> **High Roller** </font>  |  值得一拿，毕竟rr还是很缺的。  |
 | <font color='DDDDDD'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
 | <font color='DDDDDD'> **Complete Chaos** </font>  | 如果是跑长途的话还是值得一拿的，但是要非常小心狂塞红信标导致内鬼，运气好的话提升非常大。<br>需要注意的是，CC发的信标池是下一轮的信标池，并非全随机。 |
@@ -800,7 +800,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
-但！是！，有Equi就不一样了，你可以保持紫蓝的节奏，这样就是爆一个给21pulls，打到两轮26pulls的恐怖收益
+但！是！，有Equi就不一样了，你可以保持紫蓝的节奏，这样就是爆一个给21pulls，达到两轮26pulls的恐怖收益
 
 有ritual也许可以考虑跑长途,虽然用红绿也行. 长途opal的打法就是全程吃青蓝,到90轮后猛吃青紫爆掉boon
 
@@ -816,7 +816,7 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 燃料来源:<mob> Light Out </mob> / <mob> Treasury bill</mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font> 
 
-可选任务：<font color='FF5555'> **King's Court** </font>  / <font color='FF5555'> **King's Court** </font>
+可选任务：<font color='FF5555'> **King's Court** </font>  / <font color='FFAA00'> **Beleza Pura** </font>
 
 打法:首先完成chronotrigger,然后一直青紫循环,跑够100轮
 
