@@ -700,7 +700,9 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 | <font color='00BB00'> **Requiem** </font> | 如果你有彩虹和充足的信标选数的话，可以拿，但本身是没其他选择了才会拿。。能确保在15分钟内吃完暗灰和大量紫能让你获得大量收益的同时，避免怪物属性增长，是个不错的方法。但是在Fruma中，这个任务生效的轮次会变少，需要注意。 |
 | <font color='FFAA00'> **Beleza Pura** </font>         | 神，神中神，尤其是现在抓青信标会亏的情况这个直接帮你省去一个轮次，跟以前做到两轮抛出三轮的收益，特别神。|
 | <font color='FFAA00'> **High Spirits** </font>         | 小彩虹，神，拿了之后可以显著增加收益下限，避免拿不到彩虹。但是要注意和knife edge相性不佳。|
+
 **奖励类 - 飞箱**
+
 | 名称 | 简评 |
 | --- | --- | 
 |  <font color='FFCC00'> **Materialism** </font>  |  飞箱流组件之一，效果没IS好，但胜在稳定，每轮固定2飞箱，跑到最后保底150+飞箱，但无法通过配合提升飞箱数量，属于下限高上限低。  |
@@ -818,7 +820,7 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 可选任务：<font color='FF5555'> **King's Court** </font>  / <font color='FFAA00'> **Beleza Pura** </font>
 
-打法:首先完成chronotrigger,然后一直青紫循环,跑够100轮
+打法:首先完成chronotrigger,然后一直紫绿循环,跑够100轮
 
 因为chronotrigger是按当前pulls百分比算的,所以你需要大量的pulls来启动,这也是上面说的燃料来源
 
