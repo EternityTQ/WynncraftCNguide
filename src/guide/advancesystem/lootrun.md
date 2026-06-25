@@ -445,7 +445,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='FFCC00'> **Hoarder** </font>         | 每当你开启8个飞箱后，在下轮结束时，从2个300%效能的祝福中选择一个并获取。  |
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加50%的最终效果|
+| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的的最终效果，但不计入potency。|
 | <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标永远被遮蔽，但是它们永远被大幅增强(+2级效果)|
 | <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull (该祝福每有额外50%效能，则多+2 pull)|
 | <font color='5555FF'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (上限为6)；开始任意挑战后重置该效果|
@@ -466,7 +466,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
-| <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个随机信标效果|
+| <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，额外获得1个除了灰和绯红以外的随机信标效果|
 | <font color='DDDDDD'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数(挑战轮数达到上限后不再扣除pull)  |
 :::tip
 在完成`获得时间`的条件时，溢出15分钟的时间仍然作数，但如果通过绿信标获得了超过15分钟的时间，则之后溢出的时间不作数。
@@ -635,6 +635,34 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 ### 信标思路
 
 ---
+
+其实...现在真的没有什么信标思路可以说了。
+
+开局变得超级简单，因此怎么样你都可以跑下去。
+
+这里把游戏分为三个阶段：
+
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">0-20轮 起步阶段</span>
+
+这个阶段，你需要尽可能快地完成你的任务。
+
+前四轮中有橙就拿橙，没橙就拿粉，没粉就随便拿，不要拿暗灰和白就行。
+
+如果可以的话，等时间吃满了就可以吃一个红，避免浪费溢出时间。
+
+等任务开始刷新之后，尽可能快速做完任务，你的信标抓取都需要以任务为主。
+
+目前任务的完成条件普遍膨胀，一个任务基本需要5轮左右才能做完。
+
+彩虹信标如果有就拿，但是尽量不要强求，现在经常20多轮才能看到，吃不到彩虹信标是常态，不用担心。
+
+需要注意的是，尽可能在吃灰之前吃个青，毕竟3选想选到合适的任务还是太难了。
+
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">20-40轮 试炼阶段</span>
+
+这个阶段基本上已经做完任务了。
+
+
 
 
 
