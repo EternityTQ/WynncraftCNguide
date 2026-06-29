@@ -56,7 +56,7 @@ Deltas, Ragni, **Troms**, Nessak, Selchar, Rymek
 
 ### Step 7 寻找工匠
 ---
-找到痴迷于苦力怕的科学家 <NPC>Garull</NPC> <CC>-849 97 -1211</CC>（位于 Pigmen's Ravines，你需要戴着 Creeper Infiltration 任务中获得的 Creeper Mask 才能进入他的藏身处）。他需要四种稀有材料才能为你制作头盔。
+找到痴迷于苦力怕的科学家 <NPC>Garull</NPC> <CC>-849 97 -1211</CC>（位于 Pigmen's Ravines，你需要戴着 [Creeper Infiltration](/quests/lvl21-30/level%2025%20-%20creeper%20infiltration.html) 任务中获得的 Creeper Mask 才能进入他的藏身处，若不慎丢失，可以参考该任务页面的方法重新获取面具。）。他需要四种稀有材料才能为你制作头盔。
 
 ### Step 8 收集稀有材料
 ---
