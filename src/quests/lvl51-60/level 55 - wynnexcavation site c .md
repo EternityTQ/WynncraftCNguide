@@ -11,6 +11,8 @@ icon: bookmark
 
 :::tip
 此任务的开始NPC位于 Volcanic Isles 岛上，你可以在 Selchar 或者 Llevigar 购买船票前往。
+
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-12-25-49.png)
 :::
 
 ## 奖励清单 / Rewards
@@ -19,30 +21,45 @@ icon: bookmark
 
 ### Step 1 前往地点C
 ---
-带着前一个任务获得的 `Purple Crystal Shard`，与位于 Volcanic Isles 的 <NPC>Excavator Placardus</NPC> 交谈，坐标为 <CC>-1061 42 -3742</CC>。
+带着前一个任务获得的 `Purple Crystal Shard`，与位于 Volcanic Isles 的 <NPC>Excavator Placardus</NPC><CC>-1061 42 -3742</CC> 交谈。
+
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-12-34-54.png)
 
 ### Step 2 潜入会议
 ---
-在大型熔岩洞穴入口的左侧，找到有着钻石镐标志的房间（坐标 <CC>-1056 41 -3729</CC> 附近）。
-与门口的 <NPC>Guard Klerodor</NPC> 交谈，随后潜入内部会议室。
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-13-23-31.png)
+
+在大型熔岩洞穴入口的左侧，进入有着钻石镐标志的房间。
+
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-13-23-59.png)
+
+与门口的 <NPC>Guard Klerodor</NPC> 交谈，随后从右侧潜入。
 
 ### Step 3 窃听计划
 ---
-在会议室内四处走动，以触发并窃听 <NPC>Chief Excavator Dranfor</NPC> 的会议发言。
+
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-13-24-56.png)
+
+
+在会议室内沿着路线前进，触发并窃听 <NPC>Chief Excavator Dranfor</NPC> 的会议发言。
 
 ### Step 4 逃离追捕
 ---
 会议结束后，你的行踪暴露并触发了警报。
+
+
 逃离高等级的 <mob>WynnExcavation Guard</mob> 的追捕。
 
 :::tip
-最好准备能减速敌人或快速位移的法术，避免被守卫困住。
 在这一步，进入前方的洞穴后可以直接往前冲，别管途中的怪物，直到你被传送到一个新的区域。
 :::
 
 ### Step 5 寻找叛徒
 ---
-跟着火把探索该区域，在坐标 <CC>1577 19 -2573</CC> 处找到叛军领袖 <NPC>Amadel</NPC> 并与他交谈。
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-13-26-49.png)
+
+沿着路线探索该区域，在坐标 <CC>1577 19 -2573</CC> 处找到叛军领袖 <NPC>Amadel</NPC> 并与他交谈。
+
 对话结束后，进入他身后的地点以继续任务。
 
 :::tip
@@ -51,16 +68,20 @@ icon: bookmark
 
 ### Step 6 夺取红色水晶
 ---
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-13-28-22.png)
+
 深入火山底部，在坐标 <CC>3406 7 -2299</CC> 处拾取地上的 `Red Crystal Shard`，然后逃离该房间。
 
-:::tip
-进入洞穴后立刻右转，前往洞穴的最底端。
-有的路口被木头和火焰挡住了一半。
-你可以无视怪物直接往前冲，这里的怪物攻击力高但血量较薄。
-:::
+这段路比较长，总之一直往里走就可以了
+
+
+
 
 ### Step 7 返回报告
 ---
+
+![](/assets/img/level%2055%20-%20wynnexcavation%20site%20c%20.md-07-01-12-34-54.png)
+
 带着红色水晶碎片回到起点，与 <CC>-1061 42 -3742</CC> 的 <NPC>Excavator Placardus</NPC> 对峙并完成任务。
 
 ## 剧情省流 / Summary

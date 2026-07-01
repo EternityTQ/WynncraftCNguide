@@ -683,42 +683,47 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 开局变得超级简单，因此怎么样你都可以跑下去。
 
-这里把游戏分为四个阶段：
+这里把整局游戏分为若干目标，你可以对照着来完成：
 
-<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">0-10轮 起步阶段</span>
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">扩充信标选数</span>
 
-这个阶段，你需要开始运营。
+橙信标在开局的刷率会很高，优先吃橙信标来获取信标选数，吃到6选即可
 
-信标选择：橙>粉>=青>红>蓝
+需要注意记一下过期时间，在过期前记得及时续上橙信标
 
-如果可以的话，等时间吃满了就可以吃一个红，避免浪费溢出时间。
+信标选数的作用是让你更好获取你想获得的信标，非常重要。
 
-等任务开始刷新之后，尽可能快速做完任务，**你的信标抓取都需要以任务为主**。
+如果有<font color='FFAA00'> **High Spirits** </font>，也可以考虑吃两个vib青+vib橙来获得25轮的信标选数，比较划算。
 
-目前任务的完成条件普遍膨胀，一个任务基本需要5轮左右才能做完。
+等到10轮以后，就会有机会出现彩虹信标
 
+这里笔者其实不推荐强追彩虹，因为刚开始的出率实在太低了，很容易把所有的信标reroll次数给浪费掉。
 
-需要注意的是，尽可能在吃灰之前吃个青，毕竟3选想选到合适的任务还是太难了。
+建议保持信标选数，直到20-30轮，彩虹一般会自然出现，到时候直接吃即可
 
-记得及时续橙防止信标选数衰减。
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">扩充轮次数</span>
 
-<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">10-20轮 任务阶段</span>
+12轮肯定是不够跑的。
 
+除了<font color='FF5555'> **Knife Edge** </font>以外，建议时刻保持轮次数余量在10以上。
 
-彩虹信标如果有就拿，但是尽量不要强求，现在经常20多轮才能看到，吃不到彩虹信标是常态，不用担心。
+你需要通过吃红信标来扩充轮次数
 
+如果信标给的恰当，也可以考虑在吃红之前叠个青。
 
-
-<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">20-40轮 试炼阶段</span>
-
-这个阶段基本上已经做完任务了，需要盯着试炼开始做。
-
-试炼选择可以移步下方，尽可能快速做完试炼来快速拿到效果。
-
-切记切记，至少要吃个青再选试炼，不然2选试炼真的很容易死局。
+对于白信标，比较建议在给25轮或者30轮的时候吃，这样划算。
 
 
 
+
+
+
+
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">保持属性健康</span>
+
+
+
+<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">任务与试炼</span>
 
 
 
