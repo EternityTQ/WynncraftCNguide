@@ -1241,6 +1241,8 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 一般来说，局内pulls如果出现冲突的情况，则建议避免拿取冲突的任务；而局外pulls一般很少会有冲突的情况，但可能会有一定的负面效果。
 
+局内pulls和局外pulls的任务相结合，可能会有意想不到的好效果。
+
 **局外pulls**
 
 | 名称 | 轮均pulls |
@@ -1268,7 +1270,7 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 | <mob> Lights out </mob> | 40-250+ |
 | <mob> Treasury bill</mob> | 60-400+ |
 
-注意这里的总轮均pulls不参考rr，仅参考raw pulls。
+注意这里的总轮均pulls不考虑rr，仅考虑raw pulls。
 
 | 总轮均pulls | 简评 |
 | --------- | ---- |
