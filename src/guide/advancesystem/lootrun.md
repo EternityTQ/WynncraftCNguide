@@ -498,7 +498,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 |图标 | 名称 | 效果 | 奖励 |
 | --- | --- | --- | --- |
-|![](/assets/img/lootrun.md-06-12-02-22-32.png) | <mob>Light Out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予5 pull |
+|![](/assets/img/lootrun.md-06-12-02-22-32.png) | <mob>Lights out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予5 pull |
 | ![](/assets/img/lootrun.md-06-12-02-22-24.png)| <mob>Dying Light</mob> | 直到你共计获得800%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 完成彩虹信标将给予1次奖励献祭 |
 |![](/assets/img/lootrun.md-06-12-02-22-19.png) | <mob>Monochromokopia</mob> | 直到获得35 Pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 灰信标、白信标、深灰信标的数量上限+1 |
 |![](/assets/img/lootrun.md-06-12-02-22-14.png) | <mob>Adrenaline Junkie</mob> | 直到获得25 Pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
@@ -530,6 +530,75 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 另外，如果存在多个遮蔽信标，并且有些有Vibrant有些没有，那你也无法判断出哪个遮蔽信标有Vibrant
 
 你只有在挑战完成后，才能知道所完成的信标的效果。
+
+### /kill的作用
+
+在该模式中，善用/kill会帮助你节省很多事情，具体可以有这些场景：
+
++ 如果离下一个想去的挑战太远了，而路上恰好会经过营地，在时间充裕且没有接取<mob>Hubris</mob>的情况下，可以考虑使用`/kill`来快速回到营地，节省一半时间
++ 当前时间因为接取绿信标后大于15分钟时，你是无法通过轮次时间奖励正常完成时间条件的任务的。此时你可以使用`/kill`来快速缩减时间，以此来完成任务
++ 接取<mob>Side Hustle</mob>时，如果感觉诅咒太多，打的太吃力，本轮难以按时完成时，可以使用`/kill`来快速跳过这一轮，不会算你整局游戏失败。
+
+### 最后一轮能干什么？
+
+出于结算顺序的问题，轮次结算的顺序在大多数信标之前，因此最后一轮你可能无法正常获取部分信标的效果。
+
+可以正常获取的类型：
+
++ 红信标与白信标
++ 紫信标与暗灰信标获得的Pulls
++ Chronotrigger获得的Pulls
+
+不能正常获取的类型：
+
++ Sacrificial Ritual与Gambling Beast的效果
++ 紫信标与暗灰信标获得的Curses
++ Opal Offering的效果
++ 完成任何任务/试炼所获得的直接奖励
++ 任何飞箱的生成
+
+
+### 任务完成的时刻
+
+这里需要着重提一嘴，部分任务目标的完成瞬间视作下一轮开始时，例如：
+
+获取Curse的任务/见到信标的任务
+
+这些任务是算在下一轮开始时完成的，因此部分任务无法在下一轮开始时正常获得效果，例如Route Indigo(但信标刷新后可以起效)，并且在信标刷新前，也不会生成灰色信标。
+
+
+### LR Token
+
+很多人不知道这玩意啊
+
+在指南针→商城→右下角展开→底下的Consumables(炸弹图标)中，你可以使用购买到的LR token，左键一次就是使用一次。
+
+![笔者在截图时不小心用了一个，引以为戒 =400x](/assets/img/lootrun.md-07-02-15-42-05.png)
+
+使用之后，会为你**任何存档下一次结算LR**时，增加一层每日奖励的效果，也就是每层+1rr +10pulls
+
+最多同时使用三次，使用后即刻消耗，效果在下一次结算时生效后消失
+
+在拥有大量Pulls(600+)却缺少rr时，使用lr token是一个不错的选择。
+
+**强烈建议在当局临结算前，再使用token**
+
+LR token的价格如下：
+
++ 4银牛=6 lr token
++ 8银牛=15 lr token
++ 16银牛=32 lr token
+
+约等于15le换一次rr
+
+值得说的是，商店会随机刷新token折扣，最高6折，此时更加划算。
+
+
+:::warning
+这玩意在使用之后，无法撤销效果。
+
+而且非常容易误触到，非常闹麻。
+:::
 
 ### 奖励取舍
 
@@ -572,7 +641,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 在打开最终宝箱确认结算前，你仍可以使用任务、试炼途径以及每日奖励获取到的**End Reward Reroll**和**End Reward Sacrifice**对不满意的奖励进行调整
 
-<span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">End Reward Reroll</span>
+### <span style="font-size: 20px; border-bottom: 3px solid #FFCC00; padding-bottom: 4px; font-weight: bold;">End Reward Reroll</span>
 
 
 简称rr
@@ -581,9 +650,10 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 rr相当于重抽一次，且不会保留你重抽前的任何物品
 
-笔者更建议读者在出神话的时候不要问要不要留了,现在的爆率低的离谱,真的留下吧
 
-但是如果你执意要问,那我的建议就是**赌**
+rr的一般来源：
+
+
 
 
 <span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">End Reward Sacrifice</span>
@@ -798,23 +868,33 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 |  <font color='FFCC00'> **Materialism** </font>  |  飞箱流组件之一，效果没IS好，但胜在稳定，每轮固定2飞箱，跑到最后保底150+飞箱，但无法通过配合提升飞箱数量，属于下限高上限低。  |
 |  <font color='FFCC00'> **Interest Scheme** </font>  |  飞箱流组件之一，非常简单粗暴的能力，大幅提升飞箱数量，配合Jester更是能无脑过轮次，非常丧心病狂的效果，看到就拿，强烈推荐。  |
 
-**奖励类 - 结算**
+**奖励类 - 特殊**
+| 名称 | 简评 |
+| --- | --- | 
+|  <font color='DDDDDD'> **High Roller** </font>  |  值得一拿，毕竟rr还是很缺的。  |
+| <font color='DDDDDD'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
+| <font color='FF5555'> **King's Court** </font>         | 非常看脸的试炼，主要用途是能让你有机会凑出chronotrigger+Lights out+tb的组合，但...试炼太拖运营轮次了，如果有其他更好的选择的话，还是别选这个吧。|
+
+**奖励类 - 局内pull**
 
 | 名称 | 简评 |
 | --- | --- | 
 | <font color='5555FF'> **Opal Offering** </font>  | 非常适合短途的任务。在目前彩虹几乎不拿的版本中单走比较区，但是配合Equi非常有强度，一个吃满的boon能爆24pulls往上，相当夸张的收益|
 |  <font color='FFCC00'> **Jester's Trick** </font>  |  这个任务在IS出现之后变得神起来了，自带奖励和祝福两方面，这里主要讲奖励，Jester+IS能让你大幅提升pull数，平均一轮能多出4-6pull出来，非常丧心病狂的效果。  |
 |  <font color='AA00AA'> **Porphyrophobia** </font>  | 强度很高，诅咒流几乎必拿，大幅提升pulls，但小心诅咒塞过多导致内鬼。   |
+| <font color='5555FF'> **Ostinato** </font>     | 被连砍两刀之后，现在的收益是搞笑来的，急需rework。为了砍配合hoarder的收益，于是把ostinato的单走收益给砍废了，现在完全不值得拿，期望收益大约在拿满30个蓝信标+120pulls，但是是**拿满**，非常不值得拿了现在。除非你跑飞箱，有IS+hoarder可以顺手拿一个。|
+| <font color='5555FF'> **Route Indigo** </font>     | 很神，非常神，约等于直接给蓝紫补一个vib青。缺点是稍微影响运营，如果有要拿诅咒/祝福的任务试炼容易内鬼，要小心；以及单走较区，需配合equi+opal或者prophy。<br>需要注意的是该加成不能和Vibrant青共存。|
+
+**奖励类 - 局外pull**
+
+| 名称 | 简评 |
+| --- | --- | 
 | <font color='AA00AA'> **Radiant Hunter** </font> | 卧槽！我爹来了！只需要你有一点radiant chance，这个任务就是每轮固定+5pulls，甚至打的还舒服，非常安逸。但是需要注意3轮吃掉一个chance，需要及时补燃料|
 |  <font color='00BB00'> **Chronokinesis** </font>  | 塞pull机，表现很可以。需要稍微控制一下箱子开启的数量，否则可能会失控。加强了一波之后还算可以拿吧，控制得当的话每轮多出3Pull，也算有收益，配合ritual可以狂贪箱子 。**注意这个只计入路边野箱和洞穴宝箱**  |
-|  <font color='DDDDDD'> **High Roller** </font>  |  值得一拿，毕竟rr还是很缺的。  |
-| <font color='DDDDDD'> **Redemption** </font>  | 长途非飞箱流必拿，否则小心你的Pull全部木大  |
 | <font color='DDDDDD'> **Complete Chaos** </font>  | 如果是跑长途的话还是值得一拿的，但是要非常小心狂塞红信标导致内鬼，运气好的话提升非常大。<br>需要注意的是，CC发的信标池是下一轮的信标池，并非全随机。 |
 |  <font color='FF5555'> **Thrill Seeker** </font>  | 兄弟这改版后劲是真大。需要提高战斗和跑图速度，并且诅咒不能拿太多，以防打的慢。在开始暖机前需要先拿大量绿信标来当燃料，之后就最好不要中途再拿了。非常可以的任务，暖完机每轮+4pulls，特别爽。   |
 | <font color='FF5555'> **Knife Edge** </font>         |我草，神。注意这个任务不能拿彩虹。主要打法是到最后1-2轮的时候拿普通红信标，控制得当就是每轮3pulls的期望收益，非常可观。|
-| <font color='FF5555'> **King's Court** </font>         | 非常看脸的试炼，主要用途是能让你有机会凑出chronotrigger+light out+tb的组合，但...试炼太拖运营轮次了，如果有其他更好的选择的话，还是别选这个吧。|
-| <font color='5555FF'> **Ostinato** </font>     | 被连砍两刀之后，现在的收益是搞笑来的，急需rework。为了砍配合hoarder的收益，于是把ostinato的单走收益给砍废了，现在完全不值得拿，期望收益大约在拿满30个蓝信标+120pulls，但是是**拿满**，非常不值得拿了现在。除非你跑飞箱，有IS+hoarder可以顺手拿一个。|
-| <font color='5555FF'> **Route Indigo** </font>     | 很神，非常神，约等于直接给蓝紫补一个vib青。缺点是稍微影响运营，如果有要拿诅咒/祝福的任务试炼容易内鬼，要小心；以及单走较区，需配合equi+opal或者prophy。<br>需要注意的是该加成不能和Vibrant青共存。|
+
 
 **战斗类**
 
@@ -906,7 +986,7 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 核心组件:<mob> Chronotrigger </mob>
 
-燃料来源:<mob> Light Out </mob> / <mob> Treasury bill</mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font> 
+燃料来源:<mob> Lights out </mob> / <mob> Treasury bill</mob> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font> 
 
 可选任务：<font color='FF5555'> **King's Court** </font>  / <font color='FFAA00'> **Beleza Pura** </font>
 
@@ -924,11 +1004,11 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 <span style="font-size: 20px; border-bottom: 3px solid #18c7f0; padding-bottom: 4px; font-weight: bold;">爆pulls流--短途</span>
 
-核心组件:<mob>Light Out</mob>
+核心组件:<mob>Lights out</mob>
 
 可选组件:<font color='AA00AA'> **Inner Peace** </font>/ <mob> Treasury Bill </mob> / <font color='00BB00'> **Chronokinesis** </font> / <font color='AA00AA'> **Porphyrophobia** </font>
 
-非常简单粗暴的效果,只需要你拿了light out之后,专门找怪少的洞打,或者找能瞬秒的destroy,也可以找defend(最次选),但是只平A拉仇恨不打死怪.
+非常简单粗暴的效果,只需要你拿了Lights out之后,专门找怪少的洞打,或者找能瞬秒的destroy,也可以找defend(最次选),但是只平A拉仇恨不打死怪.
 
 通过这种方式来拼命拖回合数,你就可以获得大量的radiant chance,然后一口气转换为大量pulls
 
@@ -982,15 +1062,17 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 以下按照推荐度对各个试炼进行讲述
 
-<mob>Light Out</mob>：
+<mob>Lights out</mob>：
 
 无脑提供大量的pulls，在rr或sac充足的情况下可以拿
 
 一个小技巧是，专门挑怪少的挑战打，可以大幅延迟试炼完成的时间从而获取更多pulls
 
-另外，可以在此之前先自己吃诅咒来获得大量的辉光概率和辉光效果，这样也能大幅提升Light out的效率
+另外，可以在此之前先自己吃诅咒来获得大量的辉光概率和辉光效果，这样也能大幅提升Lights out的效率
 
-顺便一提，light out对opal offering的相性不佳，给予的诅咒同样会触发opal offering，尽量避免同时拿
+顺便一提，Lights out对opal offering的相性不佳，给予的诅咒同样会触发opal offering，尽量避免同时拿
+
+当chance达到上限(100% / 有IP时50%)时，不会再叠加chance
 
 综合给到夯
 
@@ -1145,6 +1227,60 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 这技能消耗甚至加的是最终消耗，直接干废warp，逼着玩家骑飞龙
 
 不解释，垃圾的要死。
+
+### 关于效率
+
+你也许在"任务选择"中，看到了"局内pulls"和"局外pulls"这两个说法
+
+下面让我来解释一下这两者的定义：
+
+局内pulls，指该任务提供的pulls依赖所完成的信标，且有极大可能非常依赖彩虹信标。只有你完成了对应的信标，才能获取任务所指示的pulls
+
+局外pulls，指该任务提供的pulls基本不依赖或很少依赖所完成的信标，例如knife edge提供的pulls大部分情况下只需要你每六轮续一次红，其他时间做其他信标就可以了。
+
+
+在分清这两者之后，你需要根据你的任务组来选择信标抓位。然后这里提供一个"轮均pulls"的概念。该指标越高，这把lr效率越高。一般来说，以最终结算为准，如果你觉得这把的轮均pulls不算很高，强烈建议及时退出止损时间。
+
+当然，你也可以用下面的轮均pulls来判断任务效率，但是这里的数值都是暖机后的数据，特别是局内pulls刚需彩虹。
+
+一般来说，局内pulls如果出现冲突的情况，则建议避免拿取冲突的任务；而局外pulls一般很少会有冲突的情况，但可能会有一定的负面效果。
+
+**局外pulls**
+
+| 名称 | 轮均pulls |
+| --- | --- | 
+| <font color='AA00AA'> **Radiant Hunter** </font> | 5|
+|  <font color='00BB00'> **Chronokinesis** </font>  | 3-4  |
+| <font color='DDDDDD'> **Complete Chaos** </font>  | 3(看发不发紫或者青) |
+|  <font color='FF5555'> **Thrill Seeker** </font>  | 3-4   |
+| <font color='FF5555'> **Knife Edge** </font>         |3 (6轮21pulls)|
+
+**局内pulls**
+| 名称 | 轮均pulls |
+| --- | --- | 
+| <font color='5555FF'> **Opal Offering** </font>  | 4(单走，理想情况) / 13(配合equi，有彩虹) |
+|  <font color='FFCC00'> **Jester's Trick** </font>  |  2-6(看飞箱数量)  |
+|  <font color='AA00AA'> **Porphyrophobia** </font>  | 8   |
+| <font color='5555FF'> **Ostinato** </font>     | 4-5(前后全程综合)|
+| <font color='5555FF'> **Route Indigo** </font>     | 4(无porphy) / 8(有porphy)|
+|<mob> Chronotrigger </mob> | 8-25 |
+
+**特殊 - 试炼**
+
+| 名称 | 单次给予pulls |
+| --- | ------ |
+| <mob> Lights out </mob> | 40-250+ |
+| <mob> Treasury bill</mob> | 60-400+ |
+
+注意这里的总轮均pulls不参考rr，仅参考raw pulls。
+
+| 总轮均pulls | 简评 |
+| --------- | ---- |
+| 2  | 效率非常低下，任务组接近白给，非常差劲，建议20轮不到就撤退，除非你还想留下来赌lights out来提升效率。|
+| 4 | 勉勉强强，作为20轮以内的短途可能还行，但是如果100轮的话稍微有点不太够看。不建议按这个效率跑满100轮，40轮左右撤退即可。|
+| 6 | 挺有效率，短途和长途都可以考虑。任务组发挥很好。|
+| 8 | 效率很高，大概率有特殊试炼加持，总之非常不错的收益。|
+| 10+ | 极高的效率。可以考虑使用token了 | 
 
 
 
