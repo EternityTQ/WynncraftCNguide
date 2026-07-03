@@ -1052,7 +1052,30 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 对于二号核心组件,强烈建议先听dying light,再听all in.这俩一起出的概率很小,如果先拿了all in,你这把就完全没有sac了,很蛋疼.
 
+<span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">红信标流</span>
 
+核心组件：<font color='FF5555'> **Knife Edge** </font> + <font color='FF5555'> **Thrill Seeker** </font>
+**尽量别选**：<font color='FFAA00'> **Beleza Pura** </font>、<font color='FFAA00'> **High Spirits** </font> 、<font color='DDDDDD'> **Sacrificial Ritual** </font>、<font color='DDDDDD'> **Complete Chaos** </font>
+
+简单粗暴的效果。
+
+有Knife Edge的跑法，就是最后1-2轮的时候吃**普通红信标**
+
+有Thrill Seeker的跑法，就是提前吃够大量绿信标(半小时往上，甚至一小时)，然后开始靠红信标撑轮次数
+
+两者基本不冲突。
+
+结合的难点主要在Knife Edge和彩虹相性不佳，但是Thrill Seeker又需要vib绿来提升时间，看读者取舍。
+
+<span style="font-size: 20px; border-bottom: 3px solid #00BB00; padding-bottom: 4px; font-weight: bold;">野箱流</span>
+
+核心组件：<font color='DDDDDD'> **Sacrificial Ritual** </font>+<font color='00BB00'> **Chronokinesis** </font>
+
+强烈建议先拿Chronokinesis，再拿Sacrificial Ritual.
+
+这个组合可以在野箱极多的地区，例如Sky、Corkus、火山，靠开箱获取3pull每轮的收益
+
+SR的作用是为了补时间，让你可以狂贪。
 
 <span style="font-size: 20px; border-bottom: 3px solid #FF5555; padding-bottom: 4px; font-weight: bold;">散件流</span>
 
@@ -1070,7 +1093,6 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 + <font color='00BB00'> <b>Chronokinesis</b> </font>
 
-+ <font color='FFAA00'> <b>Optimism</b> </font>
 
 ### 关于试炼
 
