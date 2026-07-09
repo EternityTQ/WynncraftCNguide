@@ -244,7 +244,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <font color=#BF40EB>300%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 30 |
 | <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** Pulls| 无上限 |
 | <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <font color=#BF40EB>4</font> / <rb>5</rb>** 个飞箱(相当于额外的战利品箱) | 无上限 |
-| <font color = 00CCFF>**青色信标**</font> |   **增强 /**  <font color = 00CCFF>**大幅增强**</font> 下一个信标的效果 | 无上限 |
+| <font color = 00CCFF>**青色信标**</font> |   **增强 /**  <font color = 00CCFF>**大幅增强**</font> 下一个非青信标的效果，可叠加 | 无上限 |
 | <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <font color=#BF40EB>20</font> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
 | <font color = 00BB00>**绿色信标**</font> | 获得 **210s / <font color = 00CCFF>330s</font> / <font color=#BF40EB>450s</font> / <rb>570s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
 | <font color = "555555">**暗灰色信标**</font> | 获得 **5 / <font color = 00CCFF>10</font> / <font color=#BF40EB>15</font> / <rb>20</rb>** 个随机诅咒，同时获得 **5 / <font color = 00CCFF>10</font> / <font color=#BF40EB>15</font> / <rb>20</rb>** Pulls | 1 |
@@ -259,11 +259,11 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 | 信标名称 | 特性 |
 | --- | --- |
-| <font color = 00CCFF>**青色信标**</font> | 只会连续出现1次；**死亡会导致已持有的青色信标状态清空** |
+| <font color = 00CCFF>**青色信标**</font> | 当叠加总等级到3级时消失；**死亡会导致已持有的青色信标状态清空** |
 | <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant祝福的是挑战轮数 |
 | <font color = "CCCCCC">**白色信标**</font> | 总轮数到达100轮时消失 |
 | <font color = 00BB00>**绿色信标**</font> | 只会连续出现1次；青信标会增幅`怪物不加属性`的轮次数而Vibrant不会 |
-| <font color = "grey">**灰色信标**</font> | 第5轮开始出现；<br>随着出现次数的增加逐渐消失；任务进行时不会出现 |
+| <font color = "grey">**灰色信标**</font> | 第4轮开始出现；<br>随着出现次数的增加逐渐消失；任务进行时不会出现 |
 | <font color = "red">**红色信标**</font> | 只会连续出现1次；优先结算没有时间补偿的轮次；<br>总轮数到达100轮时消失 |
 | <font color = AA0000>**绯红色信标**</font> | 第20轮后开始出现，之后随着出现次数的增加逐渐消失 |
 | <font color = "orange">**橙色信标**</font> |最多将信标选数扩充至6 | 
