@@ -919,7 +919,6 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 
 其次，<font color = FF55FF>**Bad Omen**</font>的数值也比较不错，可以拿。<font color = FF55FF>**Madman**</font>如果你的诅咒够，也是必拿。
 
-其他的就没什么值得讲的了。。个人比较推荐<font color = 00BB00>**Clockworker**</font>、<font color = FFAA00>**Picky Looter**</font>，这两个数值比较高，其他的就看个人吧..
 
 
 
