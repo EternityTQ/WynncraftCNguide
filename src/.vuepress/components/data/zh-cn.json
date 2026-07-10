@@ -153,7 +153,7 @@
     "Nimble String": {
         "name": "迅捷弓弦",
         "combo": "",
-        "desc": "_箭雨_的箭矢飞行速度加倍，同时每道箭流额外 ^ +6 ^ 根箭矢\n每根箭矢的伤害 ! -10% !",
+        "desc": "_箭雨_的箭矢飞行速度加倍，同时每道箭流额外 ^ +6 ^ 根箭矢\n每根箭矢的伤害 ! -10% !\n\n_幻影射线_的攻击频率翻倍，但持续时间折半",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -213,7 +213,7 @@
     "Frenzy": {
         "name": "极速狂热",
         "combo": "",
-        "desc": "每命中一次敌人，给自身叠加一层 ^ 3% ^ 移动速度(上限70%)，该加成效果每秒衰减! 10% !",
+        "desc": "每命中一次敌人，给自身叠加一层 ^ 1% ^ 移动速度(每秒叠加上限为^15%^，总加成上限为^ 60% ^)，该加成效果每秒衰减! 5% !",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -437,7 +437,7 @@
     "Divine Intervention": {
         "name": "神圣干涉",
         "combo": "",
-        "desc": "_守护天使_增加^ 8 ^发弹药上限，且每当你施法时，_守护天使_获得短暂强化。\n\n 施放_箭雨_使其射速加快 ^ 2.25x ^，持续时间 ^0.9s^ 。 \n\n施放_爆炸箭_使其射出爆炸射击，造成 ^ +20% ^ 伤害，持续时间 ^3s^",
+        "desc": "_守护天使_增加^ 8 ^发弹药上限，且每当你施法时，_守护天使_获得短暂强化。\n\n 施放_箭雨_使其射速加快 ^ 1.5x ^，持续至箭雨施放结束 。 \n\n施放_爆炸箭_使其射出爆炸射击，额外造成 ^ 20% ^ 伤害，持续时间 ^3s^",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -483,7 +483,7 @@
     "Bounding Stride": {
         "name": "闪击步伐",
         "combo": "",
-        "desc": "_飞跃_ 的冷却时间^ -2s ^。",
+        "desc": "增加 _飞跃_ 的水平移动距离",
         "properties": {
             "cooldown": -2
         },
@@ -541,7 +541,7 @@
         "stats_keys": [
             "range"
         ],
-        "note": "意思就是你在守护天使还在的时候再用一次LLR，你的箭盾转换为守护天使不代表你没箭盾技能了。"
+        "note": "意思就是你在守护天使还在的时候再用一次LLR就可以触发效果，你的箭盾转换为守护天使不代表你没箭盾技能了。"
     },
     "Parting Gift": {
         "name": "临别赠礼",
@@ -580,7 +580,7 @@
         "desc": "使用 _逃脱_ 后获得 ^缓降^ 效果。任何时候潜行将取消此效果。",
         "properties": {},
         "stats_keys": [],
-        "note": ""
+        "note": "着地后该效果才能重新触发"
     },
     "Phasing Beam": {
         "name": "相位光束",
@@ -593,7 +593,7 @@
     "Recycling": {
         "name": "箭矢回收",
         "combo": "",
-        "desc": "当你的投掷物未命中时，获得 ^+0.1^ 法力。",
+        "desc": "当你的投掷物未命中时，获得 ^0.08^ 法力。",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -979,7 +979,7 @@
     "Mantle of the Bovemists": {
         "name": "神圣披风",
         "combo": "",
-        "desc": "使用 _战吼_ 后，在自身周围生成一块神圣的披风，其可以为你接下来受到的 ^ 3 ^ 次攻击抵挡 ! -70% ! 的伤害。",
+        "desc": "使用 _战吼_ 后，在自身周围生成一块神圣的披风，其可以为你接下来受到的 ^ 3 ^ 次攻击抵消 ^ 50% ^ 的伤害。",
         "properties": {
             "cooldown": 20
         },
@@ -1273,7 +1273,7 @@
     "Luster Purge": {
         "name": "光辉净化",
         "combo": "",
-        "desc": "当你拥有 ^ 10 ^ 点 $神圣之力$ 时，你的 _普通攻击_ 获得强化，并给予你 ^ 5 ^ 点 $神圣之力$ 。",
+        "desc": "当你拥有 ^ 10 ^ 点 $神圣之力$ 时，你的 _普通攻击_ 获得强化，并在攻击时给予你 ^ 5 ^ 点 $神圣之力$ 。",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3713,7 +3713,7 @@
         "note": ""
     },
     "Mael's Quiver": {
-        "name": "箭袋扩容",
+        "name": "梅尔的箭袋",
         "combo": "",
         "desc": "增加_暮色流光_的伤害",
         "properties": {},
@@ -3778,66 +3778,99 @@
         "stats_keys": [],
         "note": ""
     },
-    "Ecstasy": {
-        "name": "狂喜",
+    "Final Crush": {
+        "name": "粉碎终结",
         "combo": "",
-        "desc": "_怒火强袭_的伤害加成上限增加^30%^.</br></br> 退出$腐化$时每^1%^的腐化，可为_血之渴望_再增加^2%^的伤害",
+        "desc": "Bash's last hit is delayed, but deals +100% damage and has +50% radius. _重击_ 的最后一击将延迟施放，但额外造成 ^100% ^的伤害并增加 ^50%^ 的攻击范围",
         "properties": {},
-        "stats_keys": [],
+        "stats_keys": [
+            "hits",
+            "crush_mult"
+        ],
+        "note": ""
+    },
+    "Flyby Slam": {
+        "name": "飞袭",
+        "combo": "",
+        "desc": "冲锋会对路径上的敌人造成伤害。</br> 冲锋结束后，猛烈撞击地面并造成伤害。 ",
+        "properties": {},
+        "stats_keys": [
+            "aoe"
+        ],
+        "note": ""
+    },
+    "Concussion": {
+        "name": "粉碎震荡",
+        "combo": "",
+        "desc": "_粉碎终结_ 将对 _重击_ 的倒数第二次攻击所攻击到的敌人造成额外伤害",
+        "properties": {},
+        "stats_keys": [
+            "crush_mult"
+        ],
+        "note": ""
+    },
+    "Ecstasy": {
+        "name": "血之狂喜",
+        "combo": "",
+        "desc": "Increase the cap of Enraged Blow by +25%. </br> Increase Bloodlust's bonus damage per 1% Corrupted by +2%. 增加 _怒火强袭_ 的 ^25%^ 伤害上限。腐化进度每增加 ^1%^ ，_血之渴望_ 的伤害增加 ^2%^ ",
+        "properties": {},
+        "stats_keys": [
+            "max_damage_bonus"
+        ],
         "note": ""
     },
     "Spectacle": {
-        "name": "奇观",
+        "name": "殉日奇观",
         "combo": "",
-        "desc": " _烟火爆破_的伤害增加[30%n/30%t]且_彗星强袭_的伤害增加[60%n/60%e]",
+        "desc": "Increase Fireworks' and Comet's damage. 增加 _烟火爆破_ 和 _彗星陨落_ 的伤害",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Tempestuous Winds": {
-        "name": "狂暴飓风",
+        "name": "狂风暴雨",
         "combo": "",
-        "desc": "_暴风战吼_每次造成伤害的间隔减少^0.15^秒",
+        "desc": "_气旋_ 的伤害间隔减少 ^0.15秒 ^\n\n增加_暴风战吼_的伤害 ",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Acceleration": {
-        "name": "加速冲击",
+        "name": "冲天加速",
         "combo": "",
-        "desc": "_飞踢_命中前，每经过一格，飞踢的伤害增加^10%^。</br>(最大 ^+150%^)",
+        "desc": "_飞踢_每移动1格，增加^10%^的伤害。*(最多增加150%)*",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Harmony": {
-        "name": "内在和谐",
+        "name": "谐律",
         "combo": "",
-        "desc": "激活$多面手$后,获得一层_和谐_. (最大^5^层)</br></br>每有一层_和谐_，造成的伤害增加4%。",
+        "desc": "每当触发一次 _多面手_ ，获得一层$和谐$，持续 ^10s^ 。*(最多叠加5层)* 每层 $和谐$ 增加 ^4%^ 的伤害",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Baffling Blows": {
-        "name": "分解打击",
+        "name": "混乱重击",
         "combo": "",
-        "desc": "可施加的最大_瓦解_层数增加^50^层。",
+        "desc": "$瓦解$的上限增加 ^50^ 层",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Shine": {
-        "name": "闪耀",
+        "name": "Shine",
         "combo": "",
-        "desc": "_光芒重击_额外增加^5%^的鉴定值。",
+        "desc": "Increase Radiance's effectiveness and Bash's area of effect. </br> </br>Effect: +5% ID Effectiveness to Allies </br>Area of Effect: +1 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Buried Light": {
-        "name": "深埋之光",
+        "name": "Buried Light",
         "combo": "",
-        "desc": "蹲下时释放_重击_ 会消耗25点$神圣能量$生成一个缓慢移动的光束,</br>每0.5秒造成一次伤害。</br></br>伤害: [200%n/50%t/50%f]",
+        "desc": "Casting Bash while sneaking will consume  25 Holy Power to summon a beam  of light which slowly moves forward, damaging enemies every 0.5s. </br> </br><span class='mc-white'>Total Damage</span>: 300% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 200%)   </br>&emsp;(<span class='fDam'>Fire</span>: 50%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 50%) </br>Area of Effect: 5 Blocks (Circle-Shaped) </br>Duration: 8s </br>Cooldown: 8s",
         "properties": {},
         "stats_keys": [
             "duration",
@@ -3848,15 +3881,15 @@
     "Devout Union": {
         "name": "Devout Union",
         "combo": "",
-        "desc": "你吸收周围盟友受到伤害的_15%_。.</br>增加_5%_的基础抗性。.</br>范围:8格",
+        "desc": "15% of damage taken by nearby allies is redirected to you. </br> Gain +5% Base Resistance. </br> </br>Area of Effect: 8 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Enlightenment": {
-        "name": "启蒙",
+        "name": "Enlightenment",
         "combo": "",
-        "desc": "$神圣披风$的充能数^+1^.</br></br>每通过_盾牌打击_发射两个破碎披风，周围的盟友获得一个神圣披风充能。</br>范围:8格",
+        "desc": "Add +1 additional charge to Mantle of the Bovemists. </br> Shield Strike will deal more damage and grant 1 charge of Mantle of the Bovemist to nearby allies for every 2 broken mantles used. (Max 4) </br> </br><span class='mc-white'>Total Damage</span>: +150% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +120%)   </br>&emsp;(<span class='fDam'>Fire</span>: +30%) </br>Area of Effect: 16 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [
             "charges"
@@ -3864,33 +3897,43 @@
         "note": ""
     },
     "Beyond Salvation": {
-        "name": "超越救赎",
+        "name": "Beyond Salvation",
         "combo": "",
-        "desc": "在你周围的地面生成6个尖刺,生成时造成伤害。</br></br>使用_普通攻击_或者_上挑斩_命中尖刺会引爆它们, 造成伤害并获得^10%^的过量治疗，此效果不会被腐化阻止。</br></br>伤害: [2000%n/1000%e] 生成时</br>范围：4格</br>半径:5-8格</br></br>伤害: [1000%n/500%e/500%f]引爆时</br>范围:10格",
+        "desc": "Click Combo: F </br> Summons 6 Corrupted Spikes that rise from the earth around you, dealing damage. </br> Casting Main Attack or Uppercut on a spike will detonate it, dealing damage and granting  10% Overhealth even while Corrupted. Bonus health decays over 20s. </br> </br><span class='mc-white'>Total Damage</span>: 1500% (of your DPS, summon)   </br>&emsp;(<span class='nDam'>Damage</span>: 1000%)   </br>&emsp;(<span class='eDam'>Earth</span>: 500%) </br>Area of Effect: 4 Blocks (Circle-Shaped) </br>Range: 5~8 Blocks </br> </br><span class='mc-white'>Total Damage</span>: 2000% (of your DPS, detonate)   </br>&emsp;(<span class='nDam'>Damage</span>: 1400%)   </br>&emsp;(<span class='eDam'>Earth</span>: 300%)   </br>&emsp;(<span class='fDam'>Fire</span>: 300%) </br>Area of Effect: 10 Blocks (Circle-Shaped) </br> Activate abilities or take damage to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Zenith Stance": {
-        "name": "天神姿态",
+        "name": "Zenith Stance",
         "combo": "",
-        "desc": "召唤两个受你控制的浮空拳套，展现你的战斗技能。</br></br>使用普通攻击时，拳套会进行打击。使用副手交换按钮会切换攻击伤害的类型。*普通攻击或法术*</br></br>伤害: [2100%n/300%a](法术)</br>伤害: [1400%n/200%a](普通攻击)</br>伤害范围: 5 Blocks</br>射程：7格</br>持续时间: 10s",
+        "desc": "Click Combo: F </br> Manifest your combat mastery as 2 floating fists that you freely command. </br> Casting Main Attack while active performs an attack, and casting F switches them  between dealing Spell and Main Attack damage. </br> </br><span class='mc-white'>Total Damage</span>: 2400% (of your DPS, spell)   </br>&emsp;(<span class='nDam'>Damage</span>: 2100%)   </br>&emsp;(<span class='aDam'>Air</span>: 300%) </br><span class='mc-white'>Total Damage</span>: 1600% (Main Attack Damage)   </br>&emsp;(<span class='nDam'>Damage</span>: 1400%)   </br>&emsp;(<span class='aDam'>Air</span>: 200%) </br>Area of Effect: 5 Blocks  </br>Range: 7 Blocks </br>Duration: 10s </br> Activate abilities or take damage to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Judgement": {
-        "name": "审判之刃",
+        "name": "Judgement",
         "combo": "",
-        "desc": "召唤一把从天而降的圣剑，在落地时造成伤害，并为周围友军提供增益。</br></br>伤害: [3500%n/1000%e/500%f]</br>范围：12格</br>效果: ^+20%^ 伤害</br>^+20%^ 抗性</br>^+40%^ 鉴定数值</br>持续时间: 15s",
+        "desc": "Click Combo: F </br> Call upon a blade from the heavens, that will deal damage upon impact and grant buffs to nearby allies. </br> </br><span class='mc-white'>Total Damage</span>: 5000% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 3500%)   </br>&emsp;(<span class='fDam'>Fire</span>: 1000%)   </br>&emsp;(<span class='eDam'>Earth</span>: 500%) </br>Area of Effect: 12 Blocks (Circle-Shaped) </br>Effect: +20% Damage Bonus to Players             +20% Resistance Bonus to Allies             +40% ID Effectiveness to Allies </br>Duration: 15s </br> Activate abilities or take damage to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
+        "note": ""
+    },
+    "Etheric Slash": {
+        "name": "Etheric Slash",
+        "combo": "",
+        "desc": "When using Teleport, slash through reality and deal damage to enemies you pierce. </br> </br><span class='mc-white'>Total Damage</span>: 200% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 150%)   </br>&emsp;(<span class='aDam'>Air</span>: 50%) </br>Area of Effect: 3 Blocks (Circle-Shaped)",
+        "properties": {},
+        "stats_keys": [
+            "blink_count"
+        ],
         "note": ""
     },
     "Astral Fragmentation": {
         "name": "Astral Fragmentation",
         "combo": "",
-        "desc": "Meteor scatters into debris upon landing, dealing additional damage.</br></br>Damage: [90%n/30%e]</br>Area of Effect: 6 Blocks",
+        "desc": "Meteor scatters into debris upon landing, dealing additional damage. </br> Ophanim draws light from the stars, dealing additional damage. </br> </br><span class='mc-white'>Total Damage</span>: +120% (of your DPS, for Meteor)   </br>&emsp;(<span class='nDam'>Damage</span>: +90%)   </br>&emsp;(<span class='eDam'>Earth</span>: +30%) </br><span class='mc-white'>Total Damage</span>: +40% (of your DPS, for Ophanim)   </br>&emsp;(<span class='nDam'>Damage</span>: +30%)   </br>&emsp;(<span class='eDam'>Earth</span>: +10%) </br>Meteor Area of Effect: 6 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3898,7 +3941,7 @@
     "Distortion": {
         "name": "Distortion",
         "combo": "",
-        "desc": "Hitting an enemy with Wind Slash grants up to +14 Distortion per 2s. (Max 100)</br></br>Each Distortion gives +1 Raw Damage and decays at a rate of -3 per second if none is added for 3s.",
+        "desc": "Hitting an enemy with Etheric Slash grants up to +20 Distortion per 4s </br> Each Distortion gives +1 Raw Damage and decays at a rate of -1 per second, increasing as you gain Distortion.",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3906,15 +3949,15 @@
     "Displacement": {
         "name": "Displacement",
         "combo": "",
-        "desc": "Casting Teleport while holding shift places an ethereal image of yourself at your location.</br></br>You're teleported to its location upon recasting it.",
+        "desc": "Casting Teleport while sneaking places an ethereal image of yourself at your location. </br> You're teleported to its location upon recasting it. </br> </br>Range: 50 Blocks </br>Cooldown: 5s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
-    "Time Vortex": {
-        "name": "Time Vortex",
+    "Frozen Tornado": {
+        "name": "Frozen Tornado",
         "combo": "",
-        "desc": "At +25 Distortion, Casting Ice Snake instead summons a Time Vortex that deals damage every 0.5s.</br></br>For every +1 Distortion above 25, the tornado gains +0.025 Area of Effect and +1.6% damage.</br></br>Damage: [70%n/15%w/15%a]</br>Area of Effect: 5 Blocks</br>Effect: 50% Slowness to enemies</br>Duration: 1s",
+        "desc": "Casting Ice Snake instead summons a frozen tornado that deals damage every 0.5s. </br> For every +1 Distortion, the tornado gains +0.025 </br>Area of Effect and +1.1% Damage. </br> </br><span class='mc-white'>Total Damage</span>: 80% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 60%)   </br>&emsp;(<span class='wDam'>Water</span>: 10%)   </br>&emsp;(<span class='aDam'>Air</span>: 10%) </br>Area of Effect: 6 Blocks (Circle-Shaped) </br>Effect: 50% Slowness to Enemies </br>Tornado Duration: 5s </br>Slow Duration: 1s",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3922,7 +3965,7 @@
     "Warp Blast": {
         "name": "Warp Blast",
         "combo": "",
-        "desc": "Main Attack builds up to +4 Distortion over 2s.</br></br>Hitting an enemy with it adds the Distortion to you.",
+        "desc": "Hitting an enemy with Main Attack grants up to +8 Distortion per 4s.",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3930,17 +3973,19 @@
     "Meteor Shower": {
         "name": "Meteor Shower",
         "combo": "",
-        "desc": "Casting Meteor summons an additional meteor near the target location for every 30 Distortion you have.</br>(Max 8 Meteors)</br></br>Meteor and Astral Fragmentation become smaller, dealing -25% damage and losing -30% Area of Effect.",
+        "desc": "Casting Meteor summons an additional meteor near the target location for every 20 Distortion you have. (Max 20 Meteors, only one Meteor Shower can be active at the same time.) </br> Meteor and Astral Fragmentation become smaller, dealing -20% Damage and losing -20% </br>Area of Effect. </br> </br>Target Radius: 1 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [
-            "meteorCount"
+            "meteorCount",
+            "meteorRate",
+            "meteor_attack_frequency"
         ],
         "note": ""
     },
     "Dimensional Tear": {
         "name": "Dimensional Tear",
         "combo": "",
-        "desc": "Hitting an enemy with Wind Slash tears open a dimensional rift between you and your destination.</br></br>The rift damages enemies every 0.4s, increases your Distortion gain by +25% and reduces the damage you take while standing inside it.</br></br>The rift's benefits linger for 4s upon leaving its area.</br></br>Damage: [60%n/20%e/20%a]</br>Effect: 15% Resistance Bonus</br>Area of Effect: 8 Blocks</br>Duration: 8s</br>Cooldown 8s",
+        "desc": "Hitting an enemy with Etheric Slash tears  open a dimensional rift between you  and your destination. </br> The rift damages enemies every 0.4s, increases your Distortion gain by +25% and reduces damage taken while standing in it. </br> The rift's benefits and damage linger for 3s upon leaving its area. </br> </br><span class='mc-white'>Total Damage</span>: 100% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 60%)   </br>&emsp;(<span class='eDam'>Earth</span>: 20%)   </br>&emsp;(<span class='aDam'>Air</span>: 20%) </br>Effect: 15% Resistance Bonus </br>Area of Effect: 8 Blocks (Circle-Shaped) </br>Duration: 8s </br>Cooldown: 8s",
         "properties": {},
         "stats_keys": [
             "aoe"
@@ -3950,7 +3995,7 @@
     "Vacuokinesis": {
         "name": "Vacuokinesis",
         "combo": "",
-        "desc": "At 40 Distortion, your Main Attack is imbued with vacuum, dealing additional damage.</br></br>For every +1 Distortion above 40, Vacuokinesis deals +1% damage.",
+        "desc": "Your Main Attack is imbued with vacuum, dealing additional damage. </br> For every +1 Distortion, Vacuokinesis deals +1% Damage. </br> </br><span class='mc-white'>Total Damage</span>: 80% (Main Attack Damage)   </br>&emsp;(<span class='nDam'>Damage</span>: 80%) </br>Area of Effect: 3 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3958,7 +4003,7 @@
     "Rift Rupture": {
         "name": "Rift Rupture",
         "combo": "",
-        "desc": "Dimensional Tear erupts violently when created, damaging enemies inside it.</br></br>While Riftbound, Wind Slash implodes your bound rift instead, damaging nearby enemies.</br></br>Damage: [800%n/100%e/100%a]</br>Area of Effect: 8 Blocks</br>Cooldown: 8s",
+        "desc": "Dimensional Tear erupts violently when created, damaging enemies inside it. </br> While Riftbound, Etheric Slash implodes your bound rift instead, damaging nearby enemies. </br> </br><span class='mc-white'>Total Damage</span>: 1000% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 800%)   </br>&emsp;(<span class='eDam'>Earth</span>: 100%)   </br>&emsp;(<span class='aDam'>Air</span>: 100%) </br>Area of Effect: 8 Blocks (Circle-Shaped) </br>Cooldown: 2s (Riftbound)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3966,7 +4011,7 @@
     "Frigid Grasp": {
         "name": "Frigid Grasp",
         "combo": "",
-        "desc": "Ice Snake and Time Vortex's slow is stronger and deals increased damage.</br></br>Damage: [15%n/15%w] for Ice Snake</br>Damage: [15%n/5%w] for Time Vortex",
+        "desc": "Ice Snake and Frozen Tornado now deal  increased damage and their slow is stronger. </br> </br><span class='mc-white'>Total Damage</span>: +30% (of your DPS, for Ice Snake)   </br>&emsp;(<span class='nDam'>Damage</span>: +15%)   </br>&emsp;(<span class='wDam'>Water</span>: +15%) </br><span class='mc-white'>Total Damage</span>: +20% (of your DPS, for Frozen Tornado)   </br>&emsp;(<span class='nDam'>Damage</span>: +15%)   </br>&emsp;(<span class='wDam'>Water</span>: +5%) </br>Effect: +10% Slowness to Enemies",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3974,7 +4019,7 @@
     "Accelerated Strike": {
         "name": "Accelerated Strike",
         "combo": "",
-        "desc": "Time Dilation increases your Main Attack damage for every 10% Walk Speed you gain from it.</br></br>Main Attack Damage: +4% (per 10% Walk Speed)</br></br>Hitting an enemy with your Main Attack stops Time Dilation from decaying for 4s.",
+        "desc": "Time Dilation increases your Main Attack damage for every 10% Walk Speed you gain from it. </br> Hitting an enemy with your Main Attack stops Time Dilation from decaying for 2s. </br> Main Attack Damage: +4% (per 10% Walk Speed)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3982,15 +4027,15 @@
     "Influx Shift": {
         "name": "Influx Shift",
         "combo": "",
-        "desc": "Increase the amount of Distortion generated by +20% and maximum Distortion by +30.",
+        "desc": "Increase the effects from Distortion by +25%.",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
-    "Mana Vortex": {
-        "name": "Mana Vortex",
+    "Void Acceleration": {
+        "name": "Void Acceleration",
         "combo": "",
-        "desc": "Dimensional Tear reduces the mana cost of your spells while inside it.</br></br>Mana Cost: -25%",
+        "desc": "Double Meteor's speed and increase its damage. </br> Meteor Shower summons meteors +25% faster. </br> </br><span class='mc-white'>Total Damage</span>: +110% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +75%)   </br>&emsp;(<span class='aDam'>Air</span>: +35%)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -3998,15 +4043,18 @@
     "Judrajim": {
         "name": "Judrajim",
         "combo": "",
-        "desc": "When your Mana Bank reaches 150, casting Arcane Transfer while sneaking will summon a ball lightning that deals damage to nearby enemies and drains 6 Mana every 0.25s, until you run out of Mana.</br></br>Mana cost and damage increase by 20% with every activation.</br></br>Damage: [30%n/5%t/5%w]</br>Range: 10 Blocks</br>Cooldown: 6s",
+        "desc": "When your Mana Bank reaches 140, casting Arcane Transfer while sneaking will summon a ball lightning that deals damage to nearby enemies and drains 2 Mana every 0.25s, until you run out of Mana. </br> Mana cost and damage increase by 20% every time it deals damage. </br> </br><span class='mc-white'>Total Damage</span>: 40% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 30%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 5%)   </br>&emsp;(<span class='wDam'>Water</span>: 5%) </br>Range: 10 Blocks </br>Cooldown: 6s",
         "properties": {},
-        "stats_keys": [],
+        "stats_keys": [
+            "linear_hits",
+            "ramp_hits"
+        ],
         "note": ""
     },
     "Riftbound": {
         "name": "Riftbound",
         "combo": "",
-        "desc": "Casting Heal while holding shift binds you to your rift, making you Riftbound.</br></br>While Riftbound, your rift follows you, reaches further, your Distortion stops decaying for 4s and gets increased by +100%, overflowing beyond the capacity but you can't gain Distortion and your Distortion decay is increased to -30 every second.</br></br>Riftbound ends when you run out of Distortion.</br></br>Cooldown: 25s</br>Range: +100% Blocks",
+        "desc": "Casting Heal while sneaking binds you to your Dimensional Tear, making you Riftbound. </br> While Riftbound, your Dimensional Tear follows you, reaches further and your Distortion stops decaying. </br> </br>Duration: 6s </br>Cooldown: 20s </br>Range: +50% Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4014,7 +4062,7 @@
     "Interweave": {
         "name": "Interweave",
         "combo": "",
-        "desc": "Hitting an ally with a Lightweaver orb consumes the orb and applies Shining.</br></br>Shining players can be healed from any distance, and they deal the orb's damage to nearby enemies.</br></br>Duration: 6s",
+        "desc": "Hitting an ally with a Lightweaver orb consumes the orb and applies Shining. </br> Shining players can be healed from any distance, and they deal the orb's damage to nearby enemies. </br> </br>Duration: 6s",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4022,7 +4070,7 @@
     "Gospel of Light": {
         "name": "Gospel of Light",
         "combo": "",
-        "desc": "Nearby players gain 20% of the Mana you gain from Mana Regen and Mana Steal.</br></br>Area of Effect: 8 Blocks",
+        "desc": "Nearby players gain 20% of the Mana you gain from Mana Regen and Mana Steal. </br> </br>Area of Effect: 8 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4030,7 +4078,7 @@
     "Crystallize": {
         "name": "Crystallize",
         "combo": "",
-        "desc": "Lightweaver applies +10 Crystallized to enemies it hits.</br></br>Casting Ice Snake while holding shift shatters enemies with 100 Crystallized, damaging and slowing them.</br></br>Crystallized starts decaying at a rate of -5 every second if none is applied for 5s.</br></br>Damage: [1500%n/250%w/250%a]</br>Effect: 80% Slowness to Enemies</br>Duration: 3s",
+        "desc": "Lightweaver applies +7 Crystallized to enemies it hits. </br> Casting Ice Snake shatters enemies with 100 Crystallized, damaging and slowing them. </br> Crystallized starts decaying at a rate of -5 every second if none is applied for 5s. </br> </br><span class='mc-white'>Total Damage</span>: 2000% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 1500%)   </br>&emsp;(<span class='wDam'>Water</span>: 250%)   </br>&emsp;(<span class='aDam'>Air</span>: 250%) </br>Effect: 80% Slowness to Enemies </br>Duration: 3s",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4038,7 +4086,7 @@
     "Diffraction": {
         "name": "Diffraction",
         "combo": "",
-        "desc": "When an enemy dies, leftover Crystallized is transferred to other nearby enemies.</br></br>Ophanim also applies +1 Crystallized.</br></br>Range: 8 Blocks",
+        "desc": "When an enemy dies, leftover Crystallized is transferred to other nearby enemies. </br> Ophanim also applies +2 Crystallized. </br> </br>Range: 8 Blocks",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4046,7 +4094,7 @@
     "Gleam": {
         "name": "Gleam",
         "combo": "",
-        "desc": "Increase the damage of Ophanim.</br></br>Damage: [20%n/10%w]",
+        "desc": "Increase the damage of Ophanim. </br> </br><span class='mc-white'>Total Damage</span>: +30% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +20%)   </br>&emsp;(<span class='wDam'>Water</span>: +10%)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4054,15 +4102,17 @@
     "Dawn": {
         "name": "Dawn",
         "combo": "",
-        "desc": "Channel the power of Orphion and summon the sun itself above you.</br></br>The Sun will summon solar wisps that move outwards, damaging all enemies and healing all allies in their path.</br></br>Damage: [200%n/100%f]</br>Area of Effect: 2.5 Blocks</br>Range: 24 Blocks</br>Duration:10s",
+        "desc": "Click Combo: F </br> Channel the power of Orphion and summon the sun itself above you. </br> The Sun will summon solar wisps that move outwards, damaging all enemies and healing all allies in their path. </br> </br><span class='mc-white'>Total Damage</span>: 300% (of your DPS, per Wisp)   </br>&emsp;(<span class='nDam'>Damage</span>: 200%)   </br>&emsp;(<span class='fDam'>Fire</span>: 100%) </br>Total Heal: 10% (of max health) </br>Area of Effect: 2.5 Blocks (Circle-Shaped) </br>Range: 24 Blocks </br>Duration: 10s </br> Activate abilities or heal to charge your Ultimate Meter to 100%",
         "properties": {},
-        "stats_keys": [],
+        "stats_keys": [
+            "wisp_count"
+        ],
         "note": ""
     },
     "Portal to the Beyond": {
         "name": "Portal to the Beyond",
         "combo": "",
-        "desc": "Dimensional Tear is now inhabited by Riftspawn while active.</br></br>The Riftspawn shoots homing distorting blasts to nearby enemies every 0.5s, dealing damage and increasing your Distortion by +1</br></br>Total Damage: [120%n/30%e/30%a]",
+        "desc": "Dimensional Tear is now inhabited by a Riftspawn while active. </br> The Riftspawn shoots homing distorting blasts to nearby enemies every 0.5s, dealing damage and increasing your Distortion by +1. </br> </br><span class='mc-white'>Total Damage</span>: 180% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 120%)   </br>&emsp;(<span class='eDam'>Earth</span>: 30%)   </br>&emsp;(<span class='aDam'>Air</span>: 30%) </br>Vision: 12 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4070,31 +4120,23 @@
     "Blitz": {
         "name": "Blitz",
         "combo": "",
-        "desc": "Increase the damage of Ice Snake and double its speed.</br></br>Increase the damage of Time Vortex.</br></br>Damage: [40%n/25%t] for Ice Snake</br>Damage: [20%n/5%w/5%a] for Time Vortex",
+        "desc": "Increase the damage of Ice Snake and double its speed. </br> Increase the damage of Frozen Tornado by an additional +3% every time the tornado damages an enemy. </br> </br><span class='mc-white'>Total Damage</span>: +65% (of your DPS, for Ice Snake)   </br>&emsp;(<span class='nDam'>Damage</span>: +40%)   </br>&emsp;(<span class='tDam'>Thunder</span>: +25%)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
-    "Stabilized Anomaly": {
-        "name": "Stabilized Anomaly",
+    "Time Vortex": {
+        "name": "Time Vortex",
         "combo": "",
-        "desc": "Effects gained from Distortion beyond the requirement are increased by +35%.</br></br>Meteor Shower requires -5 Distortion to gain additional meteors.",
+        "desc": "Casting Frozen Tornado inside your Dimensional Tear infuses it with otherworldly energies, turning it into a Time Vortex. </br> Time Vortex deals damage 25% faster, lasts longer and grants +1.25 Distortion every time it deals damage to an enemy. </br> </br>Tornado Duration: +3s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
-    "Unravelment": {
-        "name": "Unravelment",
+    "Paradox": {
+        "name": "Paradox",
         "combo": "",
-        "desc": "Dimensional Tear's damage effect now lingers on enemies and deals damage 60% faster.",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Rewind": {
-        "name": "Rewind",
-        "combo": "",
-        "desc": "At 70+ Distortion, casting Heal applies Rewind to healed targets.</br></br>Rewind delays 25% of the damage you take, dealing it over 10s.</br></br>For every +1 Distortion above 70, Rewind's duration is increased by +0.05",
+        "desc": "You send 15% of the damage you take to the future, dealing it over 6s and borrow mana from the past, refunding 25% of your spent mana over 10s. </br> For every +1 Distortion, the mana is refunded -0.02s faster.",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4102,7 +4144,7 @@
     "Gravitational Collapse": {
         "name": "Gravitational Collapse",
         "combo": "",
-        "desc": "Overload your Dimensional Rift.</br></br>It grows, pulls all nearby enemies towards it, and deals +300% damage.</br></br>While the Rift is overloaded and for 6s after, Teleport turns into a deadly piercing ray, provides flight, prevents mana drain, and grants the benefits of your Rift.</br></br>The overloaded Rift implodes when its duration expires, dealing massive damage and stunning enemies inside of it for 3s.</br></br>Damage: [475%n/125%a] for Teleport</br>Damage: [4500%n/750%e/750%a] for Collapse</br>Area of Effect: +100% Blocks</br>Duration 10s",
+        "desc": "Click Combo: F </br> Your Dimensional Tear overloads, growing in size and damage while pulling all enemies in. </br> While it is overloaded, it deals +400% increased damage, turns your Teleport into a deadly ray that fires off 5 times in quick succession, provides flight, and prevents mana drain. </br> The Dimensional Tear collapses when it expires, dealing massive damage to nearby enemies. </br> </br><span class='mc-white'>Total Damage</span>: 300% (of your DPS, Deadly Beam)   </br>&emsp;(<span class='nDam'>Damage</span>: 240%)   </br>&emsp;(<span class='aDam'>Air</span>: 60%) </br><span class='mc-white'>Total Damage</span>: 8000% (of your DPS, Collapse)   </br>&emsp;(<span class='nDam'>Damage</span>: 6000%)   </br>&emsp;(<span class='eDam'>Earth</span>: 1000%)   </br>&emsp;(<span class='aDam'>Air</span>: 1000%) </br>Area of Effect: +100% </br>Duration: 10s </br> Activate abilities to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4110,7 +4152,7 @@
     "Induced Instability": {
         "name": "Induced Instability",
         "combo": "",
-        "desc": "Judrajim makes enemies it hits Unstable.</br></br>Meteor and Pyrokinesis consume Unstable to deal +100% damage.",
+        "desc": "Judrajim applies Unstable to enemies. </br> Meteor, Pyrokinesis and Powder Specials consume Unstable to deal +100% damage.",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4118,47 +4160,47 @@
     "Tangled Origin": {
         "name": "Tangled Origin",
         "combo": "",
-        "desc": "Summons the Thunder Serpent and the Fire Serpent, who will attack nearby enemies.</br</br>The Thunder Serpent strikes up to 4 enemies with lightning every 1s, making them Unstable.</br></br>The Fire Serpent creates explosions at unstable targets every 3s.</br></br>Vision: 15 Blocks</br>Duration: 20</br></br>Damage: [600%n/300%t] for Thunder Serpent</br>Damage: [1300%n/700%f] for Fire Serpent",
+        "desc": "Click Combo: F </br> Summons a Thunder Serpent and a Fire Serpent, which will attack nearby enemies. </br> The Thunder Serpent strikes up to 4 enemies with arcing lightning every 1s, making them Unstable. </br> The Fire Serpent detonates Unstable targets every 3s, consuming the effect. </br> </br>Vision: 15 Blocks </br>Duration: 30s </br> </br><span class='mc-white'>Total Damage</span>: 900% (of your DPS, Thunder)   </br>&emsp;(<span class='nDam'>Damage</span>: 600%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 300%) </br> </br><span class='mc-white'>Total Damage</span>: 2000% (of your DPS, Fire)   </br>&emsp;(<span class='nDam'>Damage</span>: 1300%)   </br>&emsp;(<span class='fDam'>Fire</span>: 700%) </br>Area of Effect: 3 Blocks (Circle-Shaped) </br> Activate abilities to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Thrill": {
-        "name": "过度刺激",
+        "name": "Thrill",
         "combo": "",
-        "desc": "成功_背刺_后，获得^50%^的移动速度。</br>持续时间: ^2s^",
+        "desc": "Gain +50% Walk Speed after hitting a successful Backstab. </br> </br>Duration: 2s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Shadow Dance": {
-        "name": "暗影之舞",
+        "name": "Shadow Dance",
         "combo": "",
-        "desc": "退出$隐身$后，第二次攻击的伤害增加^50%^</br>冷却: ^3s^",
+        "desc": "Your second hit after casting Vanish will deal +50% damage. </br> </br>Duration: 2s </br>Cooldown: 3s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Billowing Death": {
-        "name": "死亡扩散",
+        "name": "Billowing Death",
         "combo": "",
-        "desc": "成功_背刺_一个拥有至少2点$标记$的敌人后, 生成一股烟雾，</br>烟雾会对周围敌人施加背刺目标50%的$标记$。</br></br>范围：5格</br>冷却: 3s",
+        "desc": "When you hit an enemy with 2+ Marks with a successful Backstab, send out a cloud of smoke which applies 50% of the enemy's Marks to other enemies. </br> </br>Area of Effect: 5 Blocks (Circle-Shaped) </br>Cooldown: 3s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Looming Presence": {
-        "name": "不详存在",
+        "name": "Looming Presence",
         "combo": "",
-        "desc": "增加_背刺_的距离。</br>距离: +2 格",
+        "desc": "Increases the range of Backstab. </br> </br>Range: +2 Blocks",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Doppelganger": {
-        "name": "替身",
+        "name": "Doppelganger",
         "combo": "",
-        "desc": "$镜像分身$的数量^+1^",
+        "desc": "Summon +1 additional Mirror Clone with Mirror Image.",
         "properties": {},
         "stats_keys": [
             "clone"
@@ -4166,33 +4208,33 @@
         "note": ""
     },
     "Paranoia": {
-        "name": "妄想症",
+        "name": "Paranoia",
         "combo": "",
-        "desc": "失去一个$镜像分身%后，获得一个暂时的^20%^移动速度增益。",
+        "desc": "Gain +20% Walk Speed after losing a Mirror Clone. </br> </br>Duration: 4s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Disappearing Act": {
-        "name": "遁形艺术",
+        "name": "Disappearing Act",
         "combo": "",
-        "desc": "失去所有$镜像分身$后，下一次进入隐身时产生一次爆炸。",
+        "desc": "After losing all of your Mirror Clones, create an explosion the next time you enter Vanish. </br> </br><span class='mc-white'>Total Damage</span>: 800% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 550%)   (</br>Damage: 250%) </br>Area of Effect: 5 Blocks (Circle-Shaped)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Choke Bomb": {
-        "name": "窒息炸弹",
+        "name": "Choke Bomb",
         "combo": "",
-        "desc": "_烟雾弹_每0.5秒释放一次粉尘，为敌人施加^2s^的窒息效果。</br>(最大10秒)</br></br>窒息的敌人获得^20%^缓慢，且你对窒息的敌人造成的气属性伤害增加^30%^。",
+        "desc": "Smoke Bomb releases a cloud of dust every 0.5s, applying Hypoxia for +2s. (Max 10s) </br> Enemies suffering from Hypoxia are slowed by 20% and take +30% more </br>Air damage from you.",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Celerity": {
-        "name": "敏捷",
+        "name": "Celerity",
         "combo": "",
-        "desc": "使用_天鹅坠落_时，每层$动量$额外增加^2%^的伤害。</br>突进的水平速度增加^10%^。",
+        "desc": "Each 1 Momentum grants +2% more damage to Swan Dive. </br> Dash's horizontal velocity is increased by 10%.",
         "properties": {},
         "stats_keys": [
             "momentum_scaling"
@@ -4200,17 +4242,17 @@
         "note": ""
     },
     "Dextrous Hands": {
-        "name": "迅捷之手",
+        "name": "Dextrous Hands",
         "combo": "",
-        "desc": "使用雀跃后，获得^3^个手里剑。</br>可持有的手里剑数量^+3^。",
+        "desc": "Hop will now prepare 3 shurikens. You can prepare +3 total shurikens. (Max 12)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Thermobaric Smoke": {
-        "name": "温压炸弹",
+        "name": "Thermobaric Smoke",
         "combo": "",
-        "desc": "向_烟雾弹_中注入不稳定的化合物。烟雾弹会更快的造成伤害，但持续时间和伤害降低。",
+        "desc": "Inject volatile chemicals into your Smoke Bomb, causing it to combust instantaneously upon landing, dealing its damage 0.3s faster. </br> Reduce Smoke Bomb's duration by 1s. </br> </br><span class='mc-white'>Total Damage</span>: -5% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: -5%) </br>Duration: -1s",
         "properties": {},
         "stats_keys": [
             "ticksPerSecond",
@@ -4219,25 +4261,33 @@
         "note": ""
     },
     "Braced Impact": {
-        "name": "加固落地",
+        "name": "Braced Impact",
         "combo": "",
-        "desc": "使用_天鹅坠落_后，获得2秒的^50%^抗性。",
+        "desc": "Landing with Swan Dive briefly grants you resistance. </br> </br>Effect: 50% Resistance Bonus to Self </br>Duration: 2s",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Pierce the Veil": {
-        "name": "超脱面纱",
+        "name": "Pierce the Veil",
         "combo": "",
-        "desc": "你被暗影庇护，获得来自$隐身$的所有增益。生命和魔力会持续回复，且此状态不可取消。</br></br>大招期间，周围的敌人每0.25秒获得1层$标记$。</br></br>范围：5格</br>持续时间: 10秒",
+        "desc": "Click Combo: F </br> Cloak yourself in shadow, gaining all benefits of Vanish for the duration. Health and mana will still generate, and this state cannot be canceled. </br> While cloaked, nearby enemies will gain +1 Mark every 0.25s. </br> </br>Area of Effect: 10 Blocks (Circle-Shaped) </br>Duration: 12s </br> Activate abilities to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Serpent's Garden": {
-        "name": "蛇之花园",
+        "name": "Serpent's Garden",
         "combo": "",
-        "desc": "飞向天空，随后砸向地面，在你脚下生成一片鲜花，每^0.25秒^造成一次伤害。.</br></br>在你的花园上方，你的$动量$不会衰减，获得双倍充能速度，且最大层数^+5^。</br></br>伤害: [200%n/100%e/100%a]</br>持续时间: 20s",
+        "desc": "Click Combo: F </br> Leap into the air before plummeting  back to earth, spurring a garden of flowers to grow at your feet, dealing damage to enemies every 0.25s. </br> While above your garden, your Momentum charges twice as fast and gains +5 maximum stacks. </br> </br><span class='mc-white'>Total Damage</span>: 400% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 200%)   </br>&emsp;(<span class='eDam'>Earth</span>: 100%)   </br>&emsp;(<span class='aDam'>Air</span>: 100%) </br>Area of Effect: 15 Blocks (Circle-Shaped) </br>Duration: 20s </br> Activate abilities to charge your Ultimate Meter to 100%",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Another Self": {
+        "name": "Another Self",
+        "combo": "",
+        "desc": "Click Combo: F </br> Create a perfect clone of yourself to work with as a united duet, it copying every spell you cast. </br> The clone's health is proportional to your  own effective health, and while it lives, the effectiveness of your debuffs is doubled. </br> Casting F again swaps your positions, detonates Tricks on nearby enemies, and makes  your clone cast all available Damage Spells. </br> If no enemy had more than 10 Tricks detonated in the swap, the clone loses -2000 health. However, for every Trick detonated over the threshold, those Damage Spells deal 3% more damage. </br> </br>Duration: 20s </br> Activate abilities or take damage to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4245,7 +4295,7 @@
     "Mystic Masks": {
         "name": "Mystic Masks",
         "combo": "",
-        "desc": "When casting Uproot, instead wear one of the Mystic Masks.</br></br>Lunatic: +15% Damage Bonus to Self, -15% Resistance Bonus to Self</br></br>Fanatic: +25% Resistance to Self, -25% Walk Speed to Self</br></br>Heretic: +50% Walk Speed to Self, -10% Damage Bonus to Self",
+        "desc": "When casting Uproot, instead wear one of the Mystic Masks. (Shift + Uproot to remove it) </br> Lunatic: +15% Damage Bonus to Self    -15% Resistance Bonus to Self </br> Fanatic: +25% Resistance to Self    -25% Walk Speed to Self </br> Heretic: +50% Walk Speed to Self    -10% Damage Bonus to Self",
         "properties": {},
         "stats_keys": [
             "lunatic_damage",
@@ -4260,23 +4310,51 @@
     "Tribal Chants": {
         "name": "Tribal Chants",
         "combo": "",
-        "desc": "When switching masks, cause an effect around yourself.</br></br>Lunatic: +15% Damage Bonus to Allies</br>Duration:6s</br</br>Fanatic: 45% Resistance Bonus to Allies</br>Duration: 3s</br></br>Heretic: +60% Walk Speed to Allies</br>(-10% of the bonus decays every second)</br></br>Area of Effect: 8 Blocks</br>Cooldown: 8s (per chant)",
+        "desc": "When switching masks, cause an effect around yourself. </br> Lunatic: +15% Damage Bonus to Allies </br>Duration: 6s </br> Fanatic: 45% Resistance Bonus to Allies </br>Duration: 3s </br> Heretic: +60% Walk Speed to Allies (-10% of the bonus decays every second) </br> </br>Area of Effect: 8 Blocks (Circle-Shaped) </br>Cooldown: 8s (per Chant)",
         "properties": {},
-        "stats_keys": [],
+        "stats_keys": [
+            "lunatic_chant_strength",
+            "fanatic_chant_resistance",
+            "heretic_chant_speed"
+        ],
+        "note": ""
+    },
+    "Bloody": {
+        "name": "Bloody",
+        "combo": "",
+        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
+        "properties": {},
+        "stats_keys": [
+            "blood_pool"
+        ],
         "note": ""
     },
     "Chorus of the Ancients": {
         "name": "Chorus of the Ancients",
         "combo": "",
-        "desc": "Increase the power of all Chants.</br></br>Lunatic: +15% Damage Bonus to Allies</br>Fanatic: +20% Resistance Bonus to Allies</br>Heretic: +60% Walk Speed to Allies",
+        "desc": "Increase the power of all Chants. </br> Lunatic: +15% Damage Bonus to Allies Fanatic: +20% Resistance Bonus to Allies Heretic: +60% Walk Speed to Allies",
         "properties": {},
-        "stats_keys": [],
+        "stats_keys": [
+            "lunatic_chant_strength",
+            "fanatic_chant_resistance",
+            "heretic_chant_speed"
+        ],
+        "note": ""
+    },
+    "Scourge": {
+        "name": "Scourge",
+        "combo": "",
+        "desc": "Flaming Tongue gains +1 hit and attacks +40% faster.",
+        "properties": {},
+        "stats_keys": [
+            "ftongue_rate"
+        ],
         "note": ""
     },
     "Meticulous Act": {
         "name": "Meticulous Act",
         "combo": "",
-        "desc": "Your Masks will give higher bonuses.</br></br>Lunatic: +25% Damage Bonus</br>Fanatic: +20% Resistance</br>Heretic: +40% Walk Speed",
+        "desc": "Your Masks will give higher bonuses. </br> Lunatic: +25% Damage Bonus Fanatic: +20% Resistance Heretic: +40% Walk Speed",
         "properties": {},
         "stats_keys": [
             "lunatic_damage",
@@ -4288,7 +4366,7 @@
     "Artist's Immersion": {
         "name": "Artist's Immersion",
         "combo": "",
-        "desc": "Your Masks reduce the cost of different abilities based on the active mask.</br></br>Lunatic: -30% Aura Cost</br>Fanatic: -65% Totem Cost</br>Heretic: -50% Haul Cost",
+        "desc": "Your Masks reduce the cost of different abilities based on the active mask. </br> Lunatic: -30% Aura Cost Fanatic: -65% Totem Cost Heretic: -50% Haul Cost",
         "properties": {},
         "stats_keys": [
             "lunatic_cost",
@@ -4297,10 +4375,20 @@
         ],
         "note": ""
     },
-    "Puppetry": {
-        "name": "魔偶之海",
+    "Bloodier": {
+        "name": "Bloodier",
         "combo": "",
-        "desc": "$魔偶$的召唤上限^+2^。</br></br>图腾召唤$魔偶$的速度增加^25%^。",
+        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
+        "properties": {},
+        "stats_keys": [
+            "blood_pool"
+        ],
+        "note": ""
+    },
+    "Puppetry": {
+        "name": "Puppetry",
+        "combo": "",
+        "desc": "Increase your maximum Puppets by +2. </br> Totem summons Puppets 25% faster.",
         "properties": {},
         "stats_keys": [
             "max_puppets"
@@ -4308,25 +4396,25 @@
         "note": ""
     },
     "Slingshot": {
-        "name": "弹弓突进",
+        "name": "Slingshot",
         "combo": "",
-        "desc": "_牵引_将使你垂直向上弹射，随后飞跃至_图腾_。",
+        "desc": "Haul slings you upwards before leaping towards Totem.",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Crystal Knives": {
-        "name": "水晶刀片",
+        "name": "Crystal Knives",
         "combo": "",
-        "desc": "$魔偶$的刀伤害增加，且可以穿透敌人和墙壁。</br>(最多^2^个敌人)",
+        "desc": "Your Puppet's knives become stronger, and can pass through walls and enemies. (Max 2 enemies) </br> </br><span class='mc-white'>Total Damage</span>: +5% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +3%)   </br>&emsp;(<span class='eDam'>Earth</span>: +2%)",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Fortified Formation": {
-        "name": "护驾队形",
+        "name": "Fortified Formation",
         "combo": "",
-        "desc": "生命值降低到^30%^以下后, 你的$绯红魔像$会保护你，直到你的生命值回复到^50%^以上。</br></br>被保护时，你获得伤害减免，且魔像每2s发动一次反击。",
+        "desc": "If your health drops to 50% or less, your Effigies protect you until you are above 70% health again. </br> While protected, you take reduced damage and your Effigies strike back at attackers every 2s. </br> </br><span class='mc-white'>Total Damage</span>: 300% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 180%)   </br>&emsp;(<span class='fDam'>Fire</span>: 80%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 40%) </br>Effects: 50% Resistance Bonus to Self </br>Duration: 10s </br>Cooldown: 15s",
         "properties": {},
         "stats_keys": [
             "resistance"
@@ -4334,9 +4422,9 @@
         "note": ""
     },
     "Freestyle": {
-        "name": "自由舞步",
+        "name": "Freestyle",
         "combo": "",
-        "desc": "_牵引_，_血肉链接_和_青蛙舞_将你发射的更远。",
+        "desc": "Haul, Blood Connection, and Frog Dance launch you further.",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4344,7 +4432,7 @@
     "Egomania": {
         "name": "Egomania",
         "combo": "",
-        "desc": "While wearing the Mask of the Fanatic, Aura radiate from yourself instead of your Totem.",
+        "desc": "When wearing the Mask of the Fanatic , Aura will radiate from yourself instead of your Totem. </br> Increase Aura's damage. </br> </br><span class='mc-white'>Total Damage</span>: +10% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +10%)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4352,7 +4440,7 @@
     "Totemic Hammer": {
         "name": "Totemic Hammer",
         "combo": "",
-        "desc": "When wearing the Mask of the Lunatic, Totem will smash down onto the ground.",
+        "desc": "When wearing the Mask of the Lunatic , Totem will smash down onto the ground. </br> Increase Totemic Smash's damage. </br> </br><span class='mc-white'>Total Damage</span>: +50% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +40%)   </br>&emsp;(<span class='fDam'>Fire</span>: +10%)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4368,7 +4456,7 @@
     "Corporeal Manifestation": {
         "name": "Corporeal Manifestation",
         "combo": "",
-        "desc": "While wearing the Mask of the Awakened, all of your other Masks will spin around you, dealing damage and applying Haunting Memory's effects.</br></br>Range: 3 Blocks",
+        "desc": "When wearing the Mask of the Awakened, all of your other Masks will spin around you, dealing damage and applying Haunting Memory's effects. </br> </br>Range: 3 Blocks",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4376,7 +4464,15 @@
     "Rupture": {
         "name": "Rupture",
         "combo": "",
-        "desc": "Sacrificial Shrine boosts Aura's damage by +15% and consumes up to 3s of Bleeding to instantly deal the damage it would have dealt.",
+        "desc": "Sacrificial Shrine boosts Aura's damage by +15% and consumes up to 2s of Bleeding , granting +2.2 Blood Pool for each second of Bleeding consumed.",
+        "properties": {},
+        "stats_keys": [],
+        "note": ""
+    },
+    "Eldritch Transfusion": {
+        "name": "Eldritch Transfusion",
+        "combo": "",
+        "desc": "Refreshing Eldritch Call while it is already active will imbue its attacks with blood, granting it +1 stack of Transfused (Max 3). </br> For every 1 stack of Transfused Eldritch Call has, its attacks deal more damage. All stacks are lost when Eldritch Call ends. </br> </br>Effect: +15% damage to Eldritch Call (Per stack)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4384,7 +4480,7 @@
     "Effuse": {
         "name": "Effuse",
         "combo": "",
-        "desc": "Flaming Tongue grants 1 Blood Pool per hit.",
+        "desc": "Flaming Tongue grants +2.5 Blood Pool per hit.",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4392,13 +4488,15 @@
     "Repulse": {
         "name": "Repulse",
         "combo": "",
-        "desc": "Once Aura rebounds, it will radiate back out and deal its effects a third time.</br></br>Sacrificial Shrine will heal 50% less health.",
+        "desc": "Once Aura rebounds, it will radiate back out and deal its effects a third time. </br> Sacrificial Shrine will heal 50% less health.",
         "properties": {},
-        "stats_keys": [],
+        "stats_keys": [
+            "waves"
+        ],
         "note": ""
     },
-    "Bloodier III": {
-        "name": "Bloodier III",
+    "Bloodiest": {
+        "name": "Bloodiest",
         "combo": "",
         "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
         "properties": {},
@@ -4410,7 +4508,7 @@
     "Haemomagnetic": {
         "name": "Haemomagnetic",
         "combo": "",
-        "desc": "Blood Sorrow will chain 50% further and deals increased damage.</br></br>Damage: [30%n/10%w]",
+        "desc": "Blood Sorrow will chain 50% further and deals increased damage. </br> </br><span class='mc-white'>Total Damage</span>: +40% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +30%)   </br>&emsp;(<span class='wDam'>Water</span>: +10%)",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4418,15 +4516,18 @@
     "Patchwork Abomination": {
         "name": "Patchwork Abomination",
         "combo": "",
-        "desc": "Summons the Patchwork Abomination, a highly unstable summon.</br></br>Hit the Abomination with Overseer to switch between close-ranged and long-range attack mode.</br></br>The Abomination will attack enemies every 1.25s in close-ranged mode, and every 1.75s in long-ranged mode.</br></br>Damage: [1600%n/500%e/300%t]</br>Duration: 20s</br>Vision: 32 Blocks",
+        "desc": "Click Combo: F </br> Summons the Patchwork Abomination, a highly unstable summon. </br> Hit the Abomination with Overseer to  switch between close-ranged and  long-range attack mode. </br> The Abomination will attack enemies  every 1.25s in close-ranged mode,  and every 1.75s in long-ranged mode. </br> Exploding Puppets will cause the Abomination to explode when it dies. </br> </br><span class='mc-white'>Total Damage</span>: 2400% (of your DPS, Attack)   </br>&emsp;(<span class='nDam'>Damage</span>: 1600%)   </br>&emsp;(<span class='eDam'>Earth</span>: 500%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 300%) </br><span class='mc-white'>Total Damage</span>: 5000% (of your DPS, Explosion)   </br>&emsp;(<span class='nDam'>Damage</span>: 4000%)   </br>&emsp;(<span class='fDam'>Fire</span>: 1000%) </br>Duration: 20s </br>Vision: 32 Blocks (Circle-Shaped) </br>Area of Effect: 12 Blocks (Circle-Shaped, Explosion) </br> Activate abilities to charge your Ultimate Meter to 100%.",
         "properties": {},
-        "stats_keys": [],
+        "stats_keys": [
+            "melee_speed",
+            "ranged_speed"
+        ],
         "note": ""
     },
     "Sundered Skies": {
         "name": "Sundered Skies",
         "combo": "",
-        "desc": "Your Totem massively grows in size, doubling all of its effects.</br></br>When your Totem lands, it summons a massive Thundercloud that zaps enemies every 1s, stunning them for 1.5s.</br>Damage is split between all enemies.</br></br>Damage: [1500%n/375%t/375%w]</br>Effect: Stun to Enemies</br>Area of Effect: 2 Blocks</br>Radius: 24 Blocks</br>Duration:18s",
+        "desc": "Click Combo: F </br> Your Totem massively grows in size, doubling all of its effects. </br> When your Totem lands, it summons a massive Thundercloud that zaps enemies every 1s, stunning them for 1.5s. </br> Damage is split between all enemies. </br> </br><span class='mc-white'>Total Damage</span>: 2400% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 1600%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 400%)   </br>&emsp;(<span class='wDam'>Water</span>: 400%) </br>Effect: 100% Slowness to Enemies </br>Radius: 24 Blocks </br>Duration: 18s </br> Activate abilities to charge your Ultimate Meter to 100%",
         "properties": {},
         "stats_keys": [],
         "note": ""
@@ -4434,105 +4535,9 @@
     "Monument to Gloom": {
         "name": "Monument to Gloom",
         "combo": "",
-        "desc": "Your Totem will be possessed by an eldritch demon, transforming into a statue and granting +5% Blood Pool to all players in Totem's range every 0.4s.</br></br>If a player cannot receive any Blood Pool, you instead gain +5% health.</br></br>Duration: 15s",
+        "desc": "Click Combo: F </br> Your Totem becomes possessed by an eldritch demon, granting +5% Blood Pool to nearby acolytes every 0.4s </br> Others receive +5% Health </br>every 0.4s </br> </br>Duration: 15s </br> Activate abilities or lose health to charge your Ultimate Meter to 100%.",
         "properties": {},
         "stats_keys": [],
-        "note": ""
-    },
-    "Etheric Slash": {
-        "name": "Etheric Slash",
-        "combo": "",
-        "desc": "When using Teleport, slash through reality and deal damage to enemies you pierce. </br> </br><span class='mc-white'>Total Damage</span>: 200% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 150%)   </br>&emsp;(<span class='aDam'>Air</span>: 50%) </br>Area of Effect: 3 Blocks (Circle-Shaped)",
-        "properties": {},
-        "stats_keys": [
-            "blink_count"
-        ],
-        "note": ""
-    },
-    "Frozen Tornado": {
-        "name": "Frozen Tornado",
-        "combo": "",
-        "desc": "Casting Ice Snake instead summons a frozen tornado that deals damage every 0.5s. </br> For every +1 Distortion, the tornado gains +0.025 </br>Area of Effect and +1.1% Damage. </br> </br><span class='mc-white'>Total Damage</span>: 80% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 60%)   </br>&emsp;(<span class='wDam'>Water</span>: 10%)   </br>&emsp;(<span class='aDam'>Air</span>: 10%) </br>Area of Effect: 6 Blocks (Circle-Shaped) </br>Effect: 50% Slowness to Enemies </br>Tornado Duration: 5s </br>Slow Duration: 1s",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Void Acceleration": {
-        "name": "Void Acceleration",
-        "combo": "",
-        "desc": "Double Meteor's speed and increase its damage. </br> Meteor Shower summons meteors +25% faster. </br> </br><span class='mc-white'>Total Damage</span>: +110% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +75%)   </br>&emsp;(<span class='aDam'>Air</span>: +35%)",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Mana Current": {
-        "name": "Mana Current",
-        "combo": "",
-        "desc": "Dimensional Tear reduces the mana cost of your spells while inside it. </br> Mana Cost: -25%",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Paradox": {
-        "name": "Paradox",
-        "combo": "",
-        "desc": "You send 25% of the damage you take to the future, dealing it over 10s and borrow mana from the past, refunding 25% of your spent mana over 10s. </br> For every +1 Distortion, the mana is refunded -0.02s faster.",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Another Self": {
-        "name": "Another Self",
-        "combo": "",
-        "desc": "Click Combo: F </br> Create a perfect clone of yourself to work with as a united duet, it copying every spell you cast. </br> The clone's health is proportional to your  own effective health, and while it lives, the effectiveness of your debuffs is doubled. </br> Casting F again swaps your positions, detonates Tricks on nearby enemies, and makes  your clone cast all available Damage Spells. </br> If no enemy had more than 10 Tricks detonated in the swap, the clone loses -2000 health. However, for every Trick detonated over the threshold, those Damage Spells deal 3% more damage. </br> </br>Duration: 20s </br> Activate abilities or take damage to charge your Ultimate Meter to 100%",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Bloody": {
-        "name": "Bloody",
-        "combo": "",
-        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
-        "properties": {},
-        "stats_keys": [
-            "blood_pool"
-        ],
-        "note": ""
-    },
-    "Scourge": {
-        "name": "Scourge",
-        "combo": "",
-        "desc": "Flaming Tongue gains +1 hit and attacks +40% faster.",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Bloodier": {
-        "name": "Bloodier",
-        "combo": "",
-        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
-        "properties": {},
-        "stats_keys": [
-            "blood_pool"
-        ],
-        "note": ""
-    },
-    "Eldritch Transfusion": {
-        "name": "Eldritch Transfusion",
-        "combo": "",
-        "desc": "Refreshing Eldritch Call while it is already active will imbue its attacks with blood, granting it +1 stack of Transfused (Max 3). </br> For every 1 stack of Transfused Eldritch Call has, its attacks deal more damage. All stacks are lost when Eldritch Call ends. </br> </br>Effect: +7% damage to Eldritch Call (Per stack)",
-        "properties": {},
-        "stats_keys": [],
-        "note": ""
-    },
-    "Bloodiest": {
-        "name": "Bloodiest",
-        "combo": "",
-        "desc": "Increase your maximum Blood Pool by +30 points. Increase your maximum Bleeding duration by +1.5s.",
-        "properties": {},
-        "stats_keys": [
-            "blood_pool"
-        ],
         "note": ""
     }
 }
