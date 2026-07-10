@@ -3862,15 +3862,15 @@
     "Shine": {
         "name": "Shine",
         "combo": "",
-        "desc": "Increase Radiance's effectiveness and Bash's area of effect. </br> </br>Effect: +5% ID Effectiveness to Allies </br>Area of Effect: +1 Blocks (Circle-Shaped)",
+        "desc": "增加 _光芒重击_ 的效果和 _重击_ 的攻击范围",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Buried Light": {
-        "name": "Buried Light",
+        "name": "埋藏之光",
         "combo": "",
-        "desc": "Casting Bash while sneaking will consume  25 Holy Power to summon a beam  of light which slowly moves forward, damaging enemies every 0.5s. </br> </br><span class='mc-white'>Total Damage</span>: 300% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: 200%)   </br>&emsp;(<span class='fDam'>Fire</span>: 50%)   </br>&emsp;(<span class='tDam'>Thunder</span>: 50%) </br>Area of Effect: 5 Blocks (Circle-Shaped) </br>Duration: 8s </br>Cooldown: 8s",
+        "desc": " 在潜行状态下施放 _重击_ 将会消耗 ^25^ 的$神圣之力$，召唤一道缓慢前进的光束，每 ^0.5s^ 对敌人造成伤害",
         "properties": {},
         "stats_keys": [
             "duration",
@@ -3879,15 +3879,15 @@
         "note": ""
     },
     "Devout Union": {
-        "name": "Devout Union",
+        "name": "虔诚之盟",
         "combo": "",
-        "desc": "15% of damage taken by nearby allies is redirected to you. </br> Gain +5% Base Resistance. </br> </br>Area of Effect: 8 Blocks (Circle-Shaped)",
+        "desc": "周围友军所受到伤害的15%会转移给你。\n\n增加 ^5%^ 的基础抗性 ",
         "properties": {},
         "stats_keys": [],
         "note": ""
     },
     "Enlightenment": {
-        "name": "Enlightenment",
+        "name": "启示",
         "combo": "",
         "desc": "Add +1 additional charge to Mantle of the Bovemists. </br> Shield Strike will deal more damage and grant 1 charge of Mantle of the Bovemist to nearby allies for every 2 broken mantles used. (Max 4) </br> </br><span class='mc-white'>Total Damage</span>: +150% (of your DPS)   </br>&emsp;(<span class='nDam'>Damage</span>: +120%)   </br>&emsp;(<span class='fDam'>Fire</span>: +30%) </br>Area of Effect: 16 Blocks (Circle-Shaped)",
         "properties": {},
