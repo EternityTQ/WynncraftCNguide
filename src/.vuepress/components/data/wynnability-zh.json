@@ -1,0 +1,38 @@
+{
+  "archer": {
+    "className": "弓箭手",
+    "archetypes": {
+      "Boltslinger": {
+        "name": "闪击射手"
+      },
+      "Sharpshooter": {
+        "name": "鹰眼射手"
+      },
+      "Trapper": {
+        "name": "陷阱射手"
+      }
+    },
+    "abilities": {
+    }
+  },
+  "warrior": {
+    "className": "战士",
+    "archetypes": {},
+    "abilities": {}
+  },
+  "assassin": {
+    "className": "刺客",
+    "archetypes": {},
+    "abilities": {}
+  },
+  "mage": {
+    "className": "法师",
+    "archetypes": {},
+    "abilities": {}
+  },
+  "shaman": {
+    "className": "萨满",
+    "archetypes": {},
+    "abilities": {}
+  }
+}
