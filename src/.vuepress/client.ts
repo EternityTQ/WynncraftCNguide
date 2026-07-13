@@ -15,6 +15,7 @@ import pc from "./components/ProfessionCard.vue"
 import rb from "./components/rb.vue"
 import MythicItem from "./components/MythicItem.vue"
 import ipb from "./components/ItemPanelBlock.vue"
+import SkillNodeSimple from "./components/SkillNodeSimple.vue"
 export default defineClientConfig({
   enhance: ({ app, router, siteData }) => {
     app.component("CC", CC);
@@ -27,6 +28,7 @@ export default defineClientConfig({
     app.component("sn", SkillNode);
     app.component("st", SkillTree);
     app.component("gt", gt);
+    app.component("SkillNodeSimple", SkillNodeSimple);
     app.component("jc", jc);
     app.component("ks", ks);
     app.component("pc", pc);

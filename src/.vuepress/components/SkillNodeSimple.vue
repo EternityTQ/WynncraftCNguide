@@ -18,7 +18,7 @@
             {{ transName }}
           </div>
           <div class="title-en" :style="{ color: nodeColor, opacity: 0.7 }">
-            ({{ skillPlainName }})
+            ({{ skill ? skill.display_name : name }})
           </div>
         </div>
 
@@ -47,12 +47,26 @@
 </template>
 
 <script>
-import transData from './data/wynnability-zh.json';
+import atreeData from './data/atree.json';
+import transArcherData from './data/zh-cn-archer.json';
+import transWarriorData from './data/zh-cn-warrior.json';
+import transMageData from './data/zh-cn-mage.json';
+import transAssassinData from './data/zh-cn-assassin.json';
+import transShamanData from './data/zh-cn-shaman.json';
 
 const MAIN_WIDTH = 300;
 const SIDE_WIDTH = 200;
 const GAP = 10;
 const OFFSET = 15;
+
+// 汉化数据映射
+const transDataMap = {
+  Archer: transArcherData,
+  Warrior: transWarriorData,
+  Mage: transMageData,
+  Assassin: transAssassinData,
+  Shaman: transShamanData
+};
 
 export default {
   props: ['name', 'currentClass'],
@@ -65,48 +79,34 @@ export default {
     };
   },
   computed: {
-    // wynnability 格式：abilities 对象的键就是 plainname
+    // 从 atree.json 获取技能基础数据（包含 icon 和 archetype）
     skill() {
-      const classData = transData[this.currentClass];
-      if (!classData || !classData.abilities) return null;
-      return classData.abilities[this.name];
+      const classSkills = atreeData[this.currentClass];
+      if (!classSkills) return null;
+      return classSkills.find(s => s.display_name === this.name);
     },
-    skillPlainName() {
-      // wynnability 格式中，主键就是 plainname（去除格式码的英文原名）
-      return this.name;
-    },
+    // 从对应职业的 zh-cn-{class}.json 获取翻译数据
     trans() {
-      // wynnability 格式中，skill 本身就包含翻译字段
-      return this.skill;
+      const transData = transDataMap[this.currentClass];
+      if (!transData || !transData.abilities) return null;
+      return transData.abilities[this.name];
     },
     transName() {
-      // 优先使用 customName（汉化名），如果没有则使用 name（带格式码的名字，去除格式码）
-      if (this.trans && this.trans.customName) {
+      // 优先使用 customName（汉化名），如果没有或为空则使用去格式码的 name
+      if (this.trans && this.trans.customName && this.trans.customName.trim() !== '') {
         return this.trans.customName;
       }
       if (this.trans && this.trans.name) {
         return this.stripMinecraftFormatting(this.trans.name);
       }
-      return this.name;
+      return this.skill ? this.skill.display_name : this.name;
     },
     archetypeInfo() {
-      if (!this.skill) return null;
+      if (!this.skill || !this.skill.archetype) return null;
 
-      const classData = transData[this.currentClass];
-      if (!classData || !classData.archetypes) return null;
-
-      // 从 skill 中获取分支信息（如果有）
-      // wynnability 格式可能没有直接的 archetype 字段，需要根据实际格式调整
-      // 这里假设有 archetype 字段
       const archKey = this.skill.archetype;
-      if (!archKey) return null;
+      const archName = this.archetypeMap[archKey] || archKey;
 
-      const archData = classData.archetypes[archKey];
-      if (!archData) return null;
-
-      const archName = archData.name || archKey;
-
-      // 颜色映射
       const colorMap = {
         "Boltslinger": "#FFFF55",
         "Sharpshooter": "#FF55FF",
@@ -126,7 +126,6 @@ export default {
       };
 
       const colorCode = colorMap[archKey] || '#FFFFFF';
-
       return { name: archName, color: colorCode };
     },
     isConnector() {
@@ -138,29 +137,46 @@ export default {
       if (this.isConnector) return `${basePath}${this.name}.png`;
       if (!this.skill) return '';
 
-      // wynnability 格式可能没有 display.icon，使用默认图标
-      // 根据实际数据格式调整
-      return `${basePath}small.png`;
+      const iconCode = this.skill.display.icon;
+      if (iconCode.startsWith('node_') && iconCode.length > 6) {
+        const className = iconCode.replace('node_', '');
+        return `${basePath}${className}_green.png`;
+      }
+      const map = {
+        'node_0': 'small.png', 'node_1': 'medium.png', 'node_2': 'large.png',
+        'node_3': 'special.png', 'node_4': 'blue.png'
+      };
+      return basePath + (map[iconCode] || 'small.png');
     },
     titleColorClass() {
-      // 从 name 字段中提取颜色代码
-      if (!this.skill || !this.skill.name) return 't-white';
-
-      const colorCode = this.extractColorCode(this.skill.name);
-      return this.getColorClass(colorCode);
+      if (!this.skill) return 't-white';
+      const icon = this.skill.display.icon;
+      if (icon.startsWith('node_') && icon.length > 6) return 't-green';
+      const colorMap = { 'node_0': 't-white', 'node_1': 't-yellow', 'node_2': 't-pink', 'node_3': 't-red', 'node_4': 't-blue' };
+      return colorMap[icon] || 't-white';
     },
     nodeColor() {
-      if (!this.skill || !this.skill.name) return '#FFFFFF';
-
-      const colorCode = this.extractColorCode(this.skill.name);
-      return this.getColorHex(colorCode);
+      if (!this.skill) return '#FFFFFF';
+      const icon = this.skill.display.icon;
+      if (icon.startsWith('node_') && icon.length > 6) return '#55FF55';
+      const map = { 'node_0': '#FFFFFF', 'node_1': '#FFFF55', 'node_2': '#FF55FF', 'node_3': '#FF5555', 'node_4': '#55FFFF' };
+      return map[icon] || '#FFFFFF';
+    },
+    archetypeMap() {
+      return {
+        "Boltslinger": "闪击射手", "Sharpshooter": "鹰眼射手", "Trapper": "陷阱射手",
+        "Ritualist": "圣祭司", "Summoner": "召唤师", "Acolyte": "血教徒",
+        "Fallen": "腐化者", "Battle Monk": "武道士", "Paladin": "圣骑士",
+        "Riftwalker": "时空行者", "Light Bender": "圣光使者", "Arcanist": "奥术法师",
+        "Shadestepper": "影步者", "Trickster": "诡术师", "Acrobat": "凌空客"
+      };
     },
     finalDesc() {
       let rawText = '';
       if (this.trans && this.trans.description) {
         rawText = this.trans.description;
-      } else if (this.skill && this.skill.description) {
-        rawText = this.skill.description;
+      } else if (this.skill && this.skill.desc) {
+        rawText = `<span class="t-red" style="font-size:12px; display:block; margin-bottom:8px;">(暂无中文翻译)</span>` + this.skill.desc;
       } else {
         return '<span style="color: #555555">暂无数据</span>';
       }
@@ -207,23 +223,18 @@ export default {
   methods: {
     stripMinecraftFormatting(text) {
       if (!text) return '';
-      return text.replace(/§[0-9a-fk-or]/gi, '');
-    },
-    extractColorCode(text) {
-      if (!text) return null;
-      // 提取第一个颜色代码 §x
-      const match = text.match(/§([0-9a-f])/i);
-      return match ? match[1] : null;
-    },
-    getColorClass(code) {
-      const map = {
-        '0': 't-black', '1': 't-dark-blue', '2': 't-dark-green', '3': 't-dark-aqua',
-        '4': 't-dark-red', '5': 't-dark-purple', '6': 't-gold', '7': 't-gray',
-        '8': 't-dark-gray', '9': 't-blue', 'a': 't-green', 'b': 't-aqua',
-        'c': 't-red', 'd': 't-pink', 'e': 't-yellow', 'f': 't-white',
-        'g': 't-green-alt'
-      };
-      return map[code?.toLowerCase()] || 't-white';
+      // 处理转义
+      const ESCAPED_SECTION = '{{__ESC_SECTION__}}';
+      const ESCAPED_AMP = '{{__ESC_AMP__}}';
+      text = text.replace(/\\§/g, ESCAPED_SECTION).replace(/\\&/g, ESCAPED_AMP);
+
+      // 将 & 统一替换为 §，然后移除所有格式码
+      text = text.replace(/&/g, '§');
+      text = text.replace(/§[0-9a-fk-or]/gi, '').replace(/§[ghijklmno]/gi, '');
+
+      // 还原转义字符
+      text = text.replace(new RegExp(ESCAPED_SECTION, 'g'), '§').replace(new RegExp(ESCAPED_AMP, 'g'), '&');
+      return text;
     },
     getColorHex(code) {
       const map = {
@@ -238,6 +249,14 @@ export default {
     formatMinecraftText(text) {
       if (!text) return '';
 
+      // 先处理转义：将 \§ 和 \& 替换为临时占位符
+      const ESCAPED_SECTION = '{{__ESC_SECTION__}}';
+      const ESCAPED_AMP = '{{__ESC_AMP__}}';
+      text = text.replace(/\\§/g, ESCAPED_SECTION).replace(/\\&/g, ESCAPED_AMP);
+
+      // 将 & 统一替换为 §
+      text = text.replace(/&/g, '§');
+
       let result = '';
       let currentColor = '#AAAAAA';
       let isBold = false;
@@ -250,17 +269,41 @@ export default {
         if (text[i] === '§' && i + 1 < text.length) {
           const code = text[i + 1].toLowerCase();
 
-          // 颜色代码
+          // 自定义十六进制颜色代码 §#RRGGBB
+          if (code === '#' && i + 8 <= text.length) {
+            const hexColor = text.substring(i + 2, i + 8);
+            if (/^[0-9a-f]{6}$/i.test(hexColor)) {
+              currentColor = '#' + hexColor.toUpperCase();
+              // 颜色代码会重置所有格式
+              isBold = false;
+              isItalic = false;
+              isUnderline = false;
+              isStrikethrough = false;
+              i += 8;
+              continue;
+            }
+          }
+
+          // 颜色代码 - 重置格式状态但保留颜色
           if ('0123456789abcdefg'.includes(code)) {
             currentColor = this.getColorHex(code);
+            // 颜色代码会重置所有格式
+            isBold = false;
+            isItalic = false;
+            isUnderline = false;
+            isStrikethrough = false;
           }
-          // 格式代码
+          // 跳过可视化编辑器的特殊格式码 (§h§i§j§k 用于标记技能类型)
+          else if ('hijk'.includes(code)) {
+            // 直接跳过，不做处理
+          }
+          // 格式代码 - 累加效果
           else if (code === 'l') isBold = true;
           else if (code === 'o') isItalic = true;
           else if (code === 'n') isUnderline = true;
           else if (code === 'm') isStrikethrough = true;
           else if (code === 'r') {
-            // 重置
+            // 重置所有
             currentColor = '#AAAAAA';
             isBold = false;
             isItalic = false;
@@ -291,6 +334,9 @@ export default {
         result += `<span style="${styles}">${text[i]}</span>`;
         i++;
       }
+
+      // 还原转义字符
+      result = result.replace(new RegExp(ESCAPED_SECTION, 'g'), '§').replace(new RegExp(ESCAPED_AMP, 'g'), '&');
 
       return result;
     },
@@ -409,6 +455,61 @@ export default {
 </script>
 
 <style scoped>
+/* 字体定义 */
+@font-face {
+  font-family: 'minecraft';
+  src: url('/fonts/minecraft.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'icons';
+  src: url('/fonts/icons.woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'minecraft';
+  src: url('/fonts/minecraft_bold.woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: block;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'mojangles';
+  src: url('/fonts/mojangles.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'unifont';
+  src: url('/fonts/unifont.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: 'unifontEmoji';
+  src: url('/fonts/unifontEmoji.otf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+  text-rendering: optimizeLegibility;
+}
+
 /* 颜色类 */
 .t-black { color: #000000; }
 .t-dark-blue { color: #0000AA; }
@@ -442,6 +543,14 @@ export default {
 
 .skill-container.connector-mode {
   cursor: default;
+}
+
+.icon-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .skill-icon {
@@ -487,7 +596,7 @@ export default {
   color: #AAAAAA;
   padding: 12px;
   width: 300px;
-  font-family: 'Minecraft', sans-serif;
+  font-family: minecraft, icons, mojangles, unifont, unifontEmoji, sans-serif;
   font-size: 14px;
   line-height: 1.5;
   text-align: left;
@@ -518,6 +627,7 @@ export default {
   padding: 12px;
   width: 200px;
   color: #AAAAAA;
+  font-family: minecraft, icons, mojangles, unifont, unifontEmoji, sans-serif;
   z-index: 2000;
 }
 

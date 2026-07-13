@@ -1,0 +1,3407 @@
+{
+    "properties": {
+        "classs": "mage",
+        "maxAbilityPoints": 50,
+        "pages": 9,
+        "horizontalPages": 1,
+        "rowsPerPage": 6,
+        "pagesDisplayed": 2,
+        "loopTree": false,
+        "bTravesableUp": false,
+        "useAlternativeAbilityIcons": true,
+        "strictAllocation": true
+    },
+    "archetypes": [
+        "§#60c5cd§l裂隙行者",
+        "§#b8b0b0§l光之扭曲者",
+        "§#eb3dfe§l秘法师"
+    ],
+    "abilities": {
+        "Meteor": {
+            "name": "§g§lMeteor",
+            "description": "§6技能连击: §d§l右键§7-§d§l左键§7-§d§l左键\n\n§7从天空召唤一颗缓慢但威力强大的陨石,在大范围内造成巨额伤害。\n\n§b✺ §7技能消耗: §f50点\n§c⚔ §7总伤害: §f400% §8(基于你的输出)\n   §8(§6✣ §8伤害: 330%)\n   §8(§2✤ §8地: 70%)\n§2➼ §7范围: §f18格\n§3☀ §7伤害/作用范围: §f5格 §7(圆形)",
+            "customName": "陨石术",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Wand Proficiency I": {
+            "name": "§f§lWand Proficiency I",
+            "description": "§7使用法杖时,提升你的_普通攻击_的伤害和范围。\n\n§c⚔ §7普通攻击伤害: §f+5%\n§2➼ §7普通攻击范围: §f+2格",
+            "customName": "法杖精通 I",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Cheaper Meteor": {
+            "name": "§f§lCheaper Meteor",
+            "description": "§7降低_陨石术_的技能消耗。\n\n§b✺ §7技能消耗: §f-10点",
+            "customName": "陨石术减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "1"
+            ]
+        },
+        "Shooting Star": {
+            "name": "§h§lShooting Star",
+            "description": "§7大幅提升你的_陨石术_的飞行速度。",
+            "customName": "流星",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Teleport": {
+            "name": "§g§lTeleport",
+            "description": "§6技能连击: §d§l右键§7-§d§l右键§7-§d§l右键\n\n§7瞬间传送到你面向的方向。\n\n§b✺ §7技能消耗: §f25点\n§2➼ §7范围: §f16格",
+            "customName": "传送",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Wand Proficiency II": {
+            "name": "§h§lWand Proficiency II",
+            "description": "§7使用法杖时,提升你的_普通攻击_的伤害和范围。\n\n§c⚔ §7普通攻击伤害: §f+5%\n§2➼ §7普通攻击范围: §f+2格",
+            "customName": "法杖精通 II",
+            "note": "",
+            "unlockingWillBlock": [
+                "7"
+            ],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Wisdom": {
+            "name": "§h§lWisdom",
+            "description": "§7你的装备鉴定词条上每有 ^ 2% ^ 或 ^ 2 ^ 点法术伤害,就获得 ^ +1/5s ^ 法力回复(上限 5/5s)",
+            "customName": "智慧",
+            "note": "",
+            "unlockingWillBlock": [
+                "6"
+            ],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Heal": {
+            "name": "§g§lHeal",
+            "description": "§6技能连击: §d§l右键§7-§d§l左键§7-§d§l右键\n\n§7治疗你和你周围大范围内的盟友。\n§8(当治疗其他玩家时,你无法治疗超过§n他们§8最大生命值30%的生命值)\n\n§b✺ §7技能消耗: §f35点\n§c❤ §7总治疗量: §f15% §8(你的最大生命值)\n§2➼ §7范围: §f5格\n§d⌛ §7持续时间: §f0.6秒",
+            "customName": "治疗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Ice Snake": {
+            "name": "§g§lIce Snake",
+            "description": "§6技能连击: §d§l右键§7-§d§l右键§7-§d§l左键\n\n§7召唤一条快速移动的冰蛇,对敌人造成伤害并减速。\n\n§b✺ §7技能消耗: §f30点\n§c⚔ §7总伤害: §f175% §8(基于你的输出)\n   §8(§6✣ §8伤害: 120%)\n   §8(§b❉ §8水: 55%)\n§2➼ §7范围: §f32格\n§3☀ §7伤害/作用范围: §f2格 §7(圆形)\n§e✧ §7减缓敌人: §f40%\n§d⌛ §7持续时间: §f3秒",
+            "customName": "寒冰之蛇",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Cheaper Teleport": {
+            "name": "§f§lCheaper Teleport",
+            "description": "§7降低_传送_的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+            "customName": "传送减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "5"
+            ]
+        },
+        "Air Mastery": {
+            "name": "§f§lAir Mastery",
+            "description": "§7增加所有气属性攻击的基础伤害。\n\n§f❋ §7气伤害: §f+3-4\n§f❋ §7气伤害: §f+15%",
+            "customName": "气元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Earth Mastery": {
+            "name": "§f§lEarth Mastery",
+            "description": "§7增加所有地属性攻击的基础伤害。\n\n§2✤ §7地伤害: §f+2-4\n§2✤ §7地伤害: §f+20%",
+            "customName": "地元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Fire Mastery": {
+            "name": "§f§lFire Mastery",
+            "description": "§7增加所有火属性攻击的基础伤害。\n\n§c✹ §7火伤害: §f+3-5\n§c✹ §7火伤害: §f+15%",
+            "customName": "火元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Thunder Mastery": {
+            "name": "§f§lThunder Mastery",
+            "description": "§7增加所有电属性攻击的基础伤害。\n\n§e✦ §7电伤害: §f+1-8\n§e✦ §7电伤害: §f+10%",
+            "customName": "电元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Water Mastery": {
+            "name": "§f§lWater Mastery",
+            "description": "§7增加所有水属性攻击的基础伤害。\n\n§b❉ §7水伤害: §f+2-4\n§b❉ §7水伤害: §f+15%",
+            "customName": "水元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Distortion": {
+            "name": "§k§lDistortion",
+            "description": "§7用_以太斩击_命中敌人时,每 ^ 4秒 ^ 获得至多 ^ +20 ^ 点 $扭曲$ 。\n\n每点 $扭曲$ 给予 ^ +1 ^ 点原始伤害,并以每秒 ! -1 ! 点的速度衰减,且当你获得 $扭曲$ 时衰减速度增加。",
+            "customName": "扭曲",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": [
+                "62"
+            ]
+        },
+        "Thunderstorm": {
+            "name": "§i§lThunderstorm",
+            "description": "§7施放_陨石术_后,在撞击点附近生成一道闪电,你每命中一个敌对生物就向你的 $法力储备$ 添加 ^ +8 ^ 点法力。\n\n§c⚔ §7总伤害: §f270% §8(基于你的输出,每道闪电)\n   §8(§6✣ §8伤害: 150%)\n   §8(§e✦ §8电: 120%)\n§3☀ §7伤害/作用范围: §f2.5格 §7(圆形)",
+            "customName": "雷暴",
+            "note": "",
+            "unlockingWillBlock": [
+                "43"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Sunshower": {
+            "name": "§i§lSunshower",
+            "description": "§7_治疗_发出强烈的光芒,对附近的敌人造成伤害。\n\n_秘法转移_在转移 ^ 30+ ^ 点法力时会对附近的敌人造成伤害。\n\n§c⚔ §7总伤害: §f100% §8(基于你的输出)\n   §8(§6✣ §8伤害: 70%)\n   §8(§b❉ §8水: 30%)",
+            "customName": "日光倾洒",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Burning Sigil": {
+            "name": "§i§lBurning Sigil",
+            "description": "§7_陨石术_和_光明圣轮_会在地面上留下火焰印记,每 ^ 0.4秒 ^ 对敌人造成伤害。\n\n§c⚔ §7总伤害: §f40% §8(基于你的输出)\n   §8(§6✣ §8伤害: 25%)\n   §8(§c✹ §8火: 15%)\n§3☀ §7伤害/作用范围: §f7格 §7(圆形)\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "燃烧印记",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Crashing Comet": {
+            "name": "§f§lCrashing Comet",
+            "description": "§7增加_陨石术_的伤害。\n\n§c⚔ §7总伤害: §f+90% §8(基于你的输出)\n   §8(§6✣ §8伤害: +70%)\n   §8(§c✹ §8火: +20%)",
+            "customName": "坠落彗星",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 2,
+            "requires": [
+                "1"
+            ]
+        },
+        "Astral Fragmentation": {
+            "name": "§i§lAstral Fragmentation",
+            "description": "§7_陨石术_在着陆时会碎裂成残骸,造成额外伤害。\n\n_光明圣轮_从星辰汲取光芒,造成额外伤害。\n\n§c⚔ §7总伤害: §f+120% §8(基于你的输出,陨石术)\n   §8(§6✣ §8伤害: +90%)\n   §8(§2✤ §8地: +30%)\n§c⚔ §7总伤害: §f+40% §8(基于你的输出,光明圣轮)\n   §8(§6✣ §8伤害: +30%)\n   §8(§2✤ §8地: +10%)\n§3☀ §7陨石术伤害范围: §f6格 §7(圆形)",
+            "customName": "星界碎裂",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Ophanim": {
+            "name": "§k§lOphanim",
+            "description": "§7施放_陨石术_时,改为召唤 ^ 2 ^ 个拥有 ^ 200 ^ 点生命值的光之宝珠,它们会在你使用_普通攻击_时进行攻击。\n\n当它们对敌人造成伤害时,会失去 ! 20% ! 的生命值。它们可以被治疗回复。\n\n§b✺ §7技能消耗: §c+30点\n§c⚔ §7总伤害: §f120% §8(基于你的输出)\n   §8(§6✣ §8伤害: 90%)\n   §8(§b❉ §8水: 15%)\n   §8(§e✦ §8电: 15%)\n§2➼ §7范围: §f22格",
+            "customName": "光明圣轮",
+            "note": "",
+            "unlockingWillBlock": [
+                "43",
+                "48",
+                "44"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": [
+                "1"
+            ]
+        },
+        "Arcane Transfer": {
+            "name": "§k§lArcane Transfer",
+            "description": "§7_陨石术_、_寒冰之蛇_和_风之斩_每命中一个敌对生物,就向你的 $法力储备$ 添加 ^ +13 ^ 点法力。\n使用_雷暴_时,_陨石术_获得的法力降低至 ^ 4 ^ 点。\n\n_治疗_现在会将你的 $法力储备$ 中的内容转化为可用法力,而不是治疗。",
+            "customName": "秘法转移",
+            "note": "",
+            "unlockingWillBlock": [
+                "40",
+                "28"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": [
+                "8"
+            ]
+        },
+        "Cheaper Heal": {
+            "name": "§f§lCheaper Heal",
+            "description": "§7降低_治疗_的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+            "customName": "治疗减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Interweave": {
+            "name": "§i§lInterweave",
+            "description": "§7用_光织者_的光球击中盟友会消耗该光球并施加 $光耀$ 状态。\n\n处于 $光耀$ 状态的玩家可以从任意距离被治疗,并且他们会对附近的敌人造成光球的伤害。\n\n§d⌛ §7持续时间: §f6秒",
+            "customName": "交织",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 10,
+            "requires": [
+                "45"
+            ]
+        },
+        "Displacement": {
+            "name": "§h§lDisplacement",
+            "description": "§7在潜行时施放_传送_会在你的位置留下一个虚幻的影像。\n\n再次施放时,你会被传送到影像的位置。\n\n§2➼ §7范围: §f50格\n§3⌚ §7冷却: §f5秒",
+            "customName": "位移",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "5"
+            ]
+        },
+        "Purification": {
+            "name": "§j§lPurification",
+            "description": "§7_治疗_和_秘法转移_会净化盟友身上的所有负面效果和燃烧状态。\n\n§3⌚ §7冷却: §f3秒",
+            "customName": "净化",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Larger Heal": {
+            "name": "§f§lLarger Heal",
+            "description": "§7增加你的_治疗_的范围。\n\n§2➼ §7范围: §f+2格",
+            "customName": "扩大治疗",
+            "note": "",
+            "unlockingWillBlock": [
+                "23"
+            ],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Larger Mana Bank": {
+            "name": "§f§lLarger Mana Bank",
+            "description": "§7增加你的 $法力储备$ 上限 ^ +30 ^ 点。",
+            "customName": "扩大法力储备",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "23"
+            ]
+        },
+        "Cheaper Ice Snake": {
+            "name": "§f§lCheaper Ice Snake",
+            "description": "§7降低_寒冰之蛇_的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+            "customName": "寒冰之蛇减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "9"
+            ]
+        },
+        "Cheaper Teleport II": {
+            "name": "§f§lCheaper Teleport II",
+            "description": "§7降低_传送_的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+            "customName": "传送减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "5"
+            ]
+        },
+        "Frozen Tornado": {
+            "name": "§j§lFrozen Tornado",
+            "description": "§7施放_寒冰之蛇_时,改为召唤一个冰冻龙卷风,每 ^ 0.5秒 ^ 造成一次伤害。\n\n每 ^ +1 ^ 点 $扭曲$ ,龙卷风获得 ^ +0.025 ^ 格伤害范围和 ^ +1.1% ^ 伤害。\n\n§c⚔ §7总伤害: §f80% §8(基于你的输出)\n   §8(§6✣ §8伤害: 60%)\n   §8(§b❉ §8水: 10%)\n   §8(§f❋ §8气: 10%)\n§3☀ §7伤害/作用范围: §f6格 §7(圆形)\n§e✧ §7减缓敌人: §f50%\n§d⌛ §7龙卷风持续时间: §f5秒\n§d⌛ §7减速持续时间: §f1秒",
+            "customName": "冰封龙卷",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "16"
+            ]
+        },
+        "Fortitude": {
+            "name": "§j§lFortitude",
+            "description": "§7在 ^ 10秒 ^ 内治疗 ^ 120% ^ 的最大生命值会对你治疗过的每个玩家施加伤害加成。\n\n§e✧ §7伤害加成: §f40%\n§d⌛ §7持续时间: §f7秒\n§3⌚ §7冷却: §f15秒",
+            "customName": "坚毅",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": []
+        },
+        "Pyrokinesis": {
+            "name": "§j§lPyrokinesis",
+            "description": "§7当你的 $法力储备$ 达到 ^ 30 ^ 点时,你的_普通攻击_在命中敌人时会爆炸。\n\n§c⚔ §7总伤害: §f200% §8(普通攻击伤害)\n   §8(§6✣ §8伤害: 200%)\n§3☀ §7伤害/作用范围: §f4格 §7(圆形)",
+            "customName": "火焰念力",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 4,
+            "requires": [
+                "23"
+            ]
+        },
+        "Resilient Light": {
+            "name": "§f§lResilient Light",
+            "description": "§7增加_光明圣轮_的光之宝珠 ^ +800 ^ 点生命值,并降低它们攻击时受到的伤害 ^ -5% ^ 。",
+            "customName": "坚韧之光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "22"
+            ]
+        },
+        "Snake Nest": {
+            "name": "§i§lSnake Nest",
+            "description": "§7_寒冰之蛇_将召唤 ^ 3 ^ 条蛇。\n\n_冰封龙卷_将召唤 ^ 3 ^ 个龙卷风。\n§8(敌人不能同时被多个龙卷风或蛇造成伤害。)\n\n§c⚔ §7总伤害: §f+50% §8(基于你的输出,寒冰之蛇)\n   §8(§6✣ §8伤害: +35%)\n   §8(§b❉ §8水: +15%)\n§c⚔ §7总伤害: §f+25% §8(基于你的输出,冰封龙卷)\n   §8(§6✣ §8伤害: +20%)\n   §8(§b❉ §8水: +5%)",
+            "customName": "蛇巢",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "9"
+            ]
+        },
+        "Seance": {
+            "name": "§f§lSeance",
+            "description": "§7你的装备鉴定词条上每有 ^ 5/3s ^ 生命窃取,就获得 ^ +1% ^ 法术伤害(上限 50%)",
+            "customName": "降灵",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Warp Blast": {
+            "name": "§h§lWarp Blast",
+            "description": "§7用_普通攻击_命中敌人时,每 ^ 4秒 ^ 获得至多 ^ +8 ^ 点 $扭曲$ 。",
+            "customName": "扭曲爆破",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "16"
+            ]
+        },
+        "Gospel of Light": {
+            "name": "§h§lGospel of Light",
+            "description": "§7附近的玩家获得你从法力回复和法力窃取获得的法力的 ^ 20% ^ 。\n\n§3☀ §7伤害/作用范围: §f8格 §7(圆形)",
+            "customName": "光之福音",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Orphion's Pulse": {
+            "name": "§j§lOrphion's Pulse",
+            "description": "§7_治疗_变得更慢但更强力,额外脉动 ^ 2 ^ 次以提供更强的治疗。\n\n§c❤ §7脉动自我治疗: §f20% §8(你的最大生命值)\n§d⌛ §7持续时间: §f1.2秒\n§3⌚ §7延迟: §f1.5秒 §8(每次脉动)",
+            "customName": "奥菲恩之脉",
+            "note": "",
+            "unlockingWillBlock": [
+                "23"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 5,
+            "requires": [
+                "8"
+            ]
+        },
+        "Incandescence": {
+            "name": "§f§lIncandescence",
+            "description": "§7增加_光明圣轮_的伤害。\n\n§c⚔ §7总伤害: §f+30% §8(基于你的输出)\n   §8(§6✣ §8伤害: +20%)\n   §8(§f❋ §8气: +10%)",
+            "customName": "白炽",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "22"
+            ]
+        },
+        "Arcane Restoration": {
+            "name": "§h§lArcane Restoration",
+            "description": "§7_火焰念力_在命中敌对生物时,每 ^ 0.25秒 ^ 向你的 $法力储备$ 添加 ^ +1 ^ 点法力。\n\n§d⌛ §7持续时间: §f2.5秒",
+            "customName": "秘法复原",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "34"
+            ]
+        },
+        "Meteor Shower": {
+            "name": "§j§lMeteor Shower",
+            "description": "§7施放_陨石术_时,每拥有 ^ 20 ^ 点 $扭曲$ 就在目标位置附近召唤一颗额外的陨石。\n§8(最多 20 颗陨石,同时只能有一个陨石雨处于激活状态。)\n\n_陨石术_和_星界碎裂_变得更小,造成 ! -20% ! 伤害并失去 ! -20% ! 伤害范围。\n\n§3☀ §7目标半径: §f1格 §7(圆形)",
+            "customName": "陨石雨",
+            "note": "",
+            "unlockingWillBlock": [
+                "22",
+                "17"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "16"
+            ]
+        },
+        "Void Acceleration": {
+            "name": "§h§lVoid Acceleration",
+            "description": "§7使_陨石术_速度翻倍并增加其伤害。\n\n_陨石雨_召唤陨石的速度 ^ +25% ^ 。\n\n§c⚔ §7总伤害: §f+110% §8(基于你的输出)\n   §8(§6✣ §8伤害: +75%)\n   §8(§f❋ §8气: +35%)",
+            "customName": "虚空加速",
+            "note": "",
+            "unlockingWillBlock": [
+                "22"
+            ],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "1"
+            ]
+        },
+        "Lightweaver": {
+            "name": "§k§lLightweaver",
+            "description": "§7在 ^ 10秒 ^ 内治疗 ^ 50% ^ 的最大生命值会召唤一个旋转的光球,接触时对敌人造成伤害。(最多 3 个光球)\n\n§c⚔ §7总伤害: §f150% §8(基于你的输出)\n   §8(§6✣ §8伤害: 120%)\n   §8(§c✹ §8火: 30%)\n§2➼ §7范围: §f7格\n§3☀ §7伤害/作用范围: §f1.5格 §7(圆形)\n§d⌛ §7持续时间: §f20秒",
+            "customName": "光织者",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 7,
+            "requires": []
+        },
+        "Arcane Speed": {
+            "name": "§i§lArcane Speed",
+            "description": "§7施放_治疗_或_秘法转移_后获得移动速度加成。\n\n§e✧ §7速度加成: §f+80%\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "秘法迅捷",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Larger Mana Bank II": {
+            "name": "§f§lLarger Mana Bank II",
+            "description": "§7增加你的 $法力储备$ 上限 ^ +30 ^ 点。",
+            "customName": "扩大法力储备 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "23"
+            ]
+        },
+        "Psychokinesis": {
+            "name": "§i§lPsychokinesis",
+            "description": "§7从你的位置发射_陨石术_,作为一个缓慢的投射物。\n\n§2➼ §7范围: §f18格",
+            "customName": "精神念力",
+            "note": "",
+            "unlockingWillBlock": [
+                "22"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 5,
+            "requires": [
+                "1"
+            ]
+        },
+        "Chaos Explosion": {
+            "name": "§k§lChaos Explosion",
+            "description": "§7当你的 $法力储备$ 达到 ^ 120 ^ 点时,施放_秘法转移_会快速按顺序释放你最后施放的 ^ 3 ^ 个法术。",
+            "customName": "混沌爆发",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 8,
+            "requires": []
+        },
+        "Cheaper Meteor II": {
+            "name": "§f§lCheaper Meteor II",
+            "description": "§7降低_陨石术_的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+            "customName": "陨石术减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "1"
+            ]
+        },
+        "Cheaper Ice Snake II": {
+            "name": "§f§lCheaper Ice Snake II",
+            "description": "§7降低_寒冰之蛇_的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+            "customName": "寒冰之蛇减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "9"
+            ]
+        },
+        "Crystallize": {
+            "name": "§j§lCrystallize",
+            "description": "§7_光织者_对其命中的敌人施加 ^ +7 ^ 点 $结晶$ 。\n\n施放_寒冰之蛇_会粉碎拥有 ^ 100 ^ 点 $结晶$ 的敌人,对其造成伤害并减速。\n\n如果 ^ 5秒 ^ 内没有施加 $结晶$ , $结晶$ 开始以每秒 ! -5 ! 点的速度衰减。\n\n§c⚔ §7总伤害: §f2000% §8(基于你的输出)\n   §8(§6✣ §8伤害: 1500%)\n   §8(§b❉ §8水: 250%)\n   §8(§f❋ §8气: 250%)\n§e✧ §7减缓敌人: §f80%\n§d⌛ §7持续时间: §f3秒",
+            "customName": "结晶",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 14,
+            "requires": [
+                "45"
+            ]
+        },
+        "Vacuokinesis": {
+            "name": "§i§lVacuokinesis",
+            "description": "§7你的_普通攻击_被注入真空之力,造成额外伤害。\n\n每 ^ +1 ^ 点 $扭曲$ , _真空念力_ 造成 ^ +1% ^ 伤害。\n\n§c⚔ §7总伤害: §f80% §8(普通攻击伤害)\n   §8(§6✣ §8伤害: 80%)\n§3☀ §7伤害/作用范围: §f3格 §7(圆形)",
+            "customName": "真空念力",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "16"
+            ]
+        },
+        "Dimensional Tear": {
+            "name": "§k§lDimensional Tear",
+            "description": "§7用_以太斩击_命中敌人时,在你和目的地之间撕开一道次元裂隙。\n\n裂隙每 ^ 0.4秒 ^ 对敌人造成伤害,使你的 $扭曲$ 获取量增加 ^ +25% ^ ,并在站立其中时降低受到的伤害。\n\n离开裂隙区域后,裂隙的增益和伤害会持续 ^ 3秒 ^ 。\n\n§c⚔ §7总伤害: §f100% §8(基于你的输出)\n   §8(§6✣ §8伤害: 60%)\n   §8(§2✤ §8地: 20%)\n   §8(§f❋ §8气: 20%)\n§e✧ §7抗性提升: §f15%\n§3☀ §7伤害/作用范围: §f8格 §7(圆形)\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "次元裂隙",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 7,
+            "requires": [
+                "16"
+            ]
+        },
+        "Sentient Snake": {
+            "name": "§i§lSentient Snake",
+            "description": "§7_寒冰之蛇_会跟随你面向的方向,允许你控制它。\n\n_冰封龙卷_会向附近的敌人漂移。\n\n§c⚔ §7总伤害: §f+40% §8(基于你的输出,寒冰之蛇)\n   §8(§6✣ §8伤害: +25%)\n   §8(§b❉ §8水: +15%)\n§c⚔ §7总伤害: §f+20% §8(基于你的输出,冰封龙卷)\n   §8(§6✣ §8伤害: +15%)\n   §8(§b❉ §8水: +5%)\n§2➼ §7漂移范围: §f10格",
+            "customName": "灵智之蛇",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "9"
+            ]
+        },
+        "Augury": {
+            "name": "§f§lAugury",
+            "description": "§7增加_光明圣轮_的最大光之宝珠数量 ^ +1 ^ 。",
+            "customName": "预兆",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "22"
+            ]
+        },
+        "Searing Light": {
+            "name": "§f§lSearing Light",
+            "description": "§7增加_日光倾洒_的伤害。\n\n§c⚔ §7总伤害: §f+80% §8(基于你的输出)\n   §8(§6✣ §8伤害: +50%)\n   §8(§b❉ §8水: +20%)\n   §8(§c✹ §8火: +10%)",
+            "customName": "灼光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "18"
+            ]
+        },
+        "Arcane Power": {
+            "name": "§h§lArcane Power",
+            "description": "§7_陨石术_、_寒冰之蛇_和_风之斩_每命中一个敌对生物,就向你的 $法力储备$ 添加 ^ +8 ^ 点法力。\n_冰封龙卷_和_陨石雨_会添加 ^ +4 ^ 点法力。\n\n_秘法复原_会更快 ^ 0.1秒 ^ 恢复法力。",
+            "customName": "秘法之力",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "23"
+            ]
+        },
+        "Rift Rupture": {
+            "name": "§h§lRift Rupture",
+            "description": "§7_次元裂隙_在创建时会剧烈爆发,对其内的敌人造成伤害。\n\n在_裂隙束缚_状态下,_以太斩击_会引爆你束缚的裂隙,对附近的敌人造成伤害。\n\n§c⚔ §7总伤害: §f1000% §8(基于你的输出)\n   §8(§6✣ §8伤害: 800%)\n   §8(§2✤ §8地: 100%)\n   §8(§f❋ §8气: 100%)\n§3☀ §7伤害/作用范围: §f8格 §7(圆形)\n§3⌚ §7冷却: §f2秒 §8(裂隙束缚)",
+            "customName": "裂隙爆裂",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "54"
+            ]
+        },
+        "Everlasting Light": {
+            "name": "§f§lEverlasting Light",
+            "description": "§7增加你的_光明圣轮_光之宝珠的生命值 ^ +3000 ^ 点。",
+            "customName": "永恒之光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "35"
+            ]
+        },
+        "Larger Mana Bank III": {
+            "name": "§f§lLarger Mana Bank III",
+            "description": "§7增加你的 $法力储备$ 上限 ^ +30 ^ 点。",
+            "customName": "扩大法力储备 III",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "23"
+            ]
+        },
+        "Etheric Slash": {
+            "name": "§i§lEtheric Slash",
+            "description": "§7使用_传送_时,穿透现实并对你穿过的敌人造成伤害。\n\n§c⚔ §7总伤害: §f200% §8(基于你的输出)\n   §8(§6✣ §8伤害: 150%)\n   §8(§f❋ §8气: 50%)\n§3☀ §7伤害/作用范围: §f3格 §7(圆形)",
+            "customName": "以太斩击",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "5"
+            ]
+        },
+        "Frigid Grasp": {
+            "name": "§f§lFrigid Grasp",
+            "description": "§7_寒冰之蛇_和_冰封龙卷_现在造成更多伤害,且它们的减速效果更强。\n\n§c⚔ §7总伤害: §f+30% §8(基于你的输出,寒冰之蛇)\n   §8(§6✣ §8伤害: +15%)\n   §8(§b❉ §8水: +15%)\n§c⚔ §7总伤害: §f+20% §8(基于你的输出,冰封龙卷)\n   §8(§6✣ §8伤害: +15%)\n   §8(§b❉ §8水: +5%)\n§e✧ §7减缓敌人: §f+10%",
+            "customName": "寒霜之握",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "9"
+            ]
+        },
+        "Time Dilation": {
+            "name": "§j§lTime Dilation",
+            "description": "§7在疾跑时创建一个区域效果,使所有盟友在其中奔跑的时间越长,移动速度就越快。\n§8(一旦你停止奔跑,你每秒失去 20% 的速度加成)§7\n\n§e✧ §7效果: §f+10%§7 移动速度 §8(每 1秒, 最多 +200%)\n§3☀ §7伤害/作用范围: §f2格 §7(圆形)",
+            "customName": "时间膨胀",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 5,
+            "requires": []
+        },
+        "Divination": {
+            "name": "§j§lDivination",
+            "description": "§7增加你的_光明圣轮_最大光球数量 §f+3§7,并降低它们的伤害。\n\n§c⚔ §7总伤害: §c-30% §8(基于你的输出)\n   §8(§6✣ §8伤害: -20%)\n   §8(§b❉ §8水: -5%)\n   §8(§e✦ §8电: -5%)",
+            "customName": "占卜",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "22"
+            ]
+        },
+        "Sunflare": {
+            "name": "§k§lSunflare",
+            "description": "§7在 §f10秒§7 内治疗 §f250%§7 你的最大生命值会使你的下一次_治疗_激活 §n日耀§7。\n\n当 §n日耀§7 激活时,你将恢复附近所有盟友的生命值和法力值,并且你的_光明圣轮_光球将持续攻击。\n\n§2➼ §7范围: §f12格\n§c❤ §7生命回复: §f5% 每秒 §8(你的最大生命值)\n§b✺ §7法力回复: §f5% 每秒 §8(你的最大法力值)\n§d⌛ §7持续时间: §f10秒\n§3⌚ §7冷却: §f20秒",
+            "customName": "日耀",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": []
+        },
+        "Halo": {
+            "name": "§f§lHalo",
+            "description": "§7增加你的_光织者_最大光球数量 §f+2§7。",
+            "customName": "光环",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "45"
+            ]
+        },
+        "Arcane Overflow": {
+            "name": "§j§lArcane Overflow",
+            "description": "§7_秘法转移_将允许你的法力超过其最大上限。(最多 300)",
+            "customName": "秘法溢流",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": [
+                "23"
+            ]
+        },
+        "Memory Recollection": {
+            "name": "§f§lMemory Recollection",
+            "description": "§7§n混沌爆发§7 将施放 §f+2§7 个法术。",
+            "customName": "记忆回溯",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "49"
+            ]
+        },
+        "Manastorm": {
+            "name": "§i§lManastorm",
+            "description": "§7如果你拥有超过 §f100§7 点法力,施放法术会在 §f2秒§7 内给予你 §f+5§7 点法力。",
+            "customName": "法力风暴",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 4,
+            "requires": []
+        },
+        "Cheaper Heal II": {
+            "name": "§f§lCheaper Heal II",
+            "description": "§7降低_治疗_的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+            "customName": "治疗减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Freezing Sigil": {
+            "name": "§j§lFreezing Sigil",
+            "description": "§7_寒冰之蛇_会在你脚下留下一个冰之印记,每 §f0.8秒§7 减速并伤害敌人。站在印记上的盟友将免疫击退。\n\n§c⚔ §7总伤害: §f20% §8(基于你的输出)\n   §8(§6✣ §8伤害: 15%)\n   §8(§b❉ §8水: 5%)\n§3☀ §7伤害/作用范围: §f7格 §7(圆形)\n§e✧ §7效果: §f15% §7减速 §8(每次命中, 最多 60%)\n                §7击退免疫 给盟友\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "冰封印记",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Arctic Snake": {
+            "name": "§i§lArctic Snake",
+            "description": "§7_寒冰之蛇_会冰冻敌人 §f2秒§7。\n\n§e✧ §7效果: §f100% §7减缓敌人\n§d⌛ §7持续时间: §f2秒",
+            "customName": "极寒之蛇",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "9"
+            ]
+        },
+        "Gleam": {
+            "name": "§f§lGleam",
+            "description": "§7增加_光明圣轮_的伤害。\n\n§c⚔ §7总伤害: §f+30% §8(基于你的输出)\n   §8(§6✣ §8伤害: +20%)\n   §8(§b❉ §8水: +10%)",
+            "customName": "微光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "22"
+            ]
+        },
+        "Accelerated Strike": {
+            "name": "§h§lAccelerated Strike",
+            "description": "§7_时间膨胀_使你的_普通攻击_伤害随着你从中获得的每 §f10%§7 移动速度而增加。\n\n用你的_普通攻击_命中敌人会使_时间膨胀_在 §f2秒§7 内停止衰减。\n\n§c⚔ §7普通攻击伤害: §f+4% §8(每 10% 移动速度)",
+            "customName": "加速打击",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "64"
+            ]
+        },
+        "Influx Shift": {
+            "name": "§f§lInflux Shift",
+            "description": "§7增加 $扭曲$ 的生成量 §f+20%§7,并使其获得的效果增加 §f+25%§7。",
+            "customName": "涌流转移",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 10,
+            "requires": [
+                "16"
+            ]
+        },
+        "Devitalize": {
+            "name": "§i§lDevitalize",
+            "description": "§7_治疗_和_秘法转移_削弱附近的敌人。\n\n你每削弱一个敌人就获得 §f+5 $扭曲$§7。\n(最多 +15)\n\n§e✧ §7效果: §f-15%§7 削弱攻击\n§d⌛ §7持续时间: §f6秒\n§3⌚ §7冷却: §f6秒",
+            "customName": "削弱",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 3,
+            "requires": [
+                "16"
+            ]
+        },
+        "Mana Current": {
+            "name": "§h§lMana Current",
+            "description": "§7_次元裂隙_降低你在其中时法术的技能消耗。\n\n§b✺ §7技能消耗: §f-25%",
+            "customName": "法力流",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 7,
+            "requires": [
+                "54"
+            ]
+        },
+        "Riftbound": {
+            "name": "§k§lRiftbound",
+            "description": "§7在潜行时施放_治疗_会将你绑定到你的_次元裂隙_,使你进入_裂隙束缚_状态。\n\n在_裂隙束缚_状态下,你的_次元裂隙_会跟随你移动,范围扩大,并且你的 $扭曲$ 停止衰减。\n\n§d⌛ §7持续时间: §f6秒\n§3⌚ §7冷却: §f20秒\n§3☀ §7范围: §f+50%格 §7(圆形)",
+            "customName": "裂隙束缚",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 11,
+            "requires": [
+                "54"
+            ]
+        },
+        "Judrajim": {
+            "name": "§k§lJudrajim",
+            "description": "§7当你的 $法力储备$ 达到 §f140§7 点时,在潜行时施放_秘法转移_将召唤一个球形闪电,对附近的敌人造成伤害,并每 §f0.25秒§7 消耗 §f2§7 点法力,直到你的法力耗尽。\n\n法力消耗和伤害每次造成伤害时增加 §f20%§7。\n\n§c⚔ §7总伤害: §f40% §8(基于你的输出)\n   §8(§6✣ §8伤害: 30%)\n   §8(§e✦ §8电: 5%)\n   §8(§b❉ §8水: 5%)\n§2➼ §7范围: §f10格\n§3⌚ §7冷却: §f6秒",
+            "customName": "尤德拉吉姆",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": [
+                "23"
+            ]
+        },
+        "Diffraction": {
+            "name": "§h§lDiffraction",
+            "description": "§7当敌人死亡时,剩余的 $结晶$ 会转移到附近的其他敌人身上。\n\n_光明圣轮_也会施加 §f+2 $结晶$§7。\n\n§2➼ §7范围: §f8格",
+            "customName": "衍射",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "52"
+            ]
+        },
+        "Time Vortex": {
+            "name": "§j§lTime Vortex",
+            "description": "§7在你的 §n次元裂隙§7 内施放_冰封龙卷_会注入异界能量,将其转化为_时间漩涡_。\n\n_时间漩涡_造成伤害速度提升 §f25%§7,持续时间更长,并且每次对敌人造成伤害时获得 §f+1.5 $扭曲$§7。\n\n§d⌛ §7持续时间: §f+3秒",
+            "customName": "时间漩涡",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": [
+                "54"
+            ]
+        },
+        "Portal to the Beyond": {
+            "name": "§j§lPortal to the Beyond",
+            "description": "§7_次元裂隙_激活时现在由 §b裂隙生物§7 居住。\n\n§b裂隙生物§7 每 §f0.5秒§7 向附近的敌人发射追踪扭曲弹,造成伤害并增加你的 $扭曲$ §f+1§7 点。\n\n§c⚔ §7总伤害: §f180% §8(基于你的输出)\n   §8(§6✣ §8伤害: 120%)\n   §8(§2✤ §8地: 30%)\n   §8(§f❋ §8气: 30%)\n§3☀ §7视野范围: §f12格 §7(圆形)",
+            "customName": "异界之门",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "54"
+            ]
+        },
+        "Paradox": {
+            "name": "§j§lParadox",
+            "description": "§7你将受到的伤害的 §f20%§7 送往未来,在 §f8秒§7 内承受,并从过去借用法力,在 §f10秒§7 内退还你消耗的法力的 §f25%§7。\n\n每 §f+1 $扭曲$§7,法力退还速度加快 §f-0.02秒§7。",
+            "customName": "悖论",
+            "note": "",
+            "unlockingWillBlock": [
+                "23"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "16"
+            ]
+        },
+        "Blitz": {
+            "name": "§f§lBlitz",
+            "description": "§7增加_寒冰之蛇_的伤害并使其速度翻倍。\n\n龙卷风每次对敌人造成伤害时,_冰封龙卷_的伤害额外增加 §f+3%§7。\n\n§c⚔ §7总伤害: §f+65% §8(基于你的输出, 寒冰之蛇)\n   §8(§6✣ §8伤害: +40%)\n   §8(§e✦ §8电: +25%)",
+            "customName": "闪电战",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "9"
+            ]
+        },
+        "Induced Instability": {
+            "name": "§j§lInduced Instability",
+            "description": "§7_尤德拉吉姆_对敌人施加 $不稳$ 状态。\n\n_陨石术_、_火焰念力_和元素特效消耗 $不稳$ 以造成 §f+100%§7 伤害。",
+            "customName": "诱发不稳",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "80"
+            ]
+        },
+        "Dawn": {
+            "name": "§5§lDawn",
+            "description": "§6技能连击: §d§lF§7\n\n引导奥菲恩之力,在你上方召唤太阳本身。\n\n太阳将召唤向外移动的太阳精灵,在其路径上伤害所有敌人并治疗所有盟友。\n\n§c⚔ §7总伤害: §f300% §8(基于你的输出, 每个太阳精灵)\n   §8(§6✣ §8伤害: 200%)\n   §8(§c✹ §8火: 100%)\n§c❤ §7总治疗量: §f10% §8(最大生命值)\n§3☀ §7伤害/作用范围: §f2.5格 §7(圆形)\n§2➼ §7范围: §f24格\n§d⌛ §7持续时间: §f10秒\n\n§7激活技能或治疗来充能你的 $终极能量槽$ 至 100%。",
+            "customName": "黎明",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 17,
+            "requires": []
+        },
+        "Gravitational Collapse": {
+            "name": "§5§lGravitational Collapse",
+            "description": "§6技能连击: §d§lF§7\n\n你的_次元裂隙_超载,体积和伤害增大,同时将所有敌人拉入。\n\n当它超载时,造成 §f+400%§7 伤害增幅,将你的_传送_变为致命光束,快速连续发射 §f5§7 次,提供飞行能力,并防止法力消耗。\n\n_次元裂隙_到期时坍塌,对附近的敌人造成巨额伤害。\n\n§c⚔ §7总伤害: §f300% §8(基于你的输出, 致命光束)\n   §8(§6✣ §8伤害: 240%)\n   §8(§f❋ §8气: 60%)\n§c⚔ §7总伤害: §f8000% §8(基于你的输出, 坍缩)\n   §8(§6✣ §8伤害: 6000%)\n   §8(§2✤ §8地: 1000%)\n   §8(§f❋ §8气: 1000%)\n§3☀ §7伤害/作用范围: §f+100%格 §7(圆形)\n§d⌛ §7持续时间: §f10秒\n\n§7激活技能来充能你的 $终极能量槽$ 至 100%。",
+            "customName": "引力坍缩",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 16,
+            "requires": []
+        },
+        "Tangled Origin": {
+            "name": "§5§lTangled Origin",
+            "description": "§6技能连击: §d§lF§7\n\n召唤一条 $雷霆巨蛇$ 和一条 $烈焰巨蛇$,它们将攻击附近的敌人。\n\n$雷霆巨蛇$ 每 §f1秒§7 用弧形闪电击中至多 §f4§7 个敌人,使其 $不稳$。\n\n$烈焰巨蛇$ 每 §f3秒§7 引爆 $不稳$ 目标,消耗该效果。\n\n§2➼ §7视野范围: §f15格\n§d⌛ §7持续时间: §f30秒\n\n§c⚔ §7总伤害: §f900% §8(基于你的输出, 雷霆)\n   §8(§6✣ §8伤害: 600%)\n   §8(§e✦ §8电: 300%)\n\n§c⚔ §7总伤害: §f2000% §8(基于你的输出, 烈焰)\n   §8(§6✣ §8伤害: 1300%)\n   §8(§c✹ §8火: 700%)\n§3☀ §7伤害/作用范围: §f3格 §7(圆形)\n\n§7激活技能来充能你的 $终极能量槽$ 至 100%。",
+            "customName": "纠缠起源",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 18,
+            "requires": []
+        }
+    },
+    "cellMap": {
+        "5": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Meteor"
+        },
+        "14": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "23": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Wand Proficiency I"
+        },
+        "24": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "25": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Cheaper Meteor"
+        },
+        "32": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "41": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Shooting Star"
+        },
+        "50": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "59": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "66": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Wand Proficiency II"
+        },
+        "67": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "68": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Teleport"
+        },
+        "69": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "70": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Wisdom"
+        },
+        "75": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "79": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "82": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "83": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "84": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Heal"
+        },
+        "85": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "86": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Cheaper Teleport"
+        },
+        "87": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "88": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Ice Snake"
+        },
+        "89": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "90": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "91": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "93": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "95": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "97": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "99": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "100": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "102": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "104": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "106": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "108": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "109": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "111": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "113": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "115": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "117": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "118": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Water Mastery"
+        },
+        "119": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "120": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Earth Mastery"
+        },
+        "121": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "122": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "124": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Fire Mastery"
+        },
+        "125": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "126": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Thunder Mastery"
+        },
+        "128": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "131": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Air Mastery"
+        },
+        "134": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "136": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "137": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Sunshower"
+        },
+        "140": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "142": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "143": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Burning Sigil"
+        },
+        "144": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "145": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "149": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Etheric Slash"
+        },
+        "151": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Crashing Comet"
+        },
+        "153": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "154": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "158": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "162": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "163": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "167": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "171": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "172": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Ophanim"
+        },
+        "176": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Distortion"
+        },
+        "177": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "178": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Displacement"
+        },
+        "179": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "180": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Arcane Transfer"
+        },
+        "181": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "185": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "186": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Astral Fragmentation"
+        },
+        "189": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "190": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Purification"
+        },
+        "191": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "192": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Cheaper Heal"
+        },
+        "193": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "194": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Frozen Tornado"
+        },
+        "195": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "196": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "197": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "198": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Sentient Snake"
+        },
+        "199": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "200": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Larger Heal"
+        },
+        "202": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Warp Blast"
+        },
+        "203": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "206": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Larger Mana Bank"
+        },
+        "207": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "208": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "212": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "216": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "217": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "221": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "225": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "226": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Cheaper Teleport II"
+        },
+        "227": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "228": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Fortitude"
+        },
+        "229": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "230": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Cheaper Ice Snake"
+        },
+        "231": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "232": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "233": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "234": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Pyrokinesis"
+        },
+        "235": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "236": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Freezing Sigil"
+        },
+        "238": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "239": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "241": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "243": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "244": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "247": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Vacuokinesis"
+        },
+        "248": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "249": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "250": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Snake Nest"
+        },
+        "251": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "252": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Seance"
+        },
+        "253": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Orphion's Pulse"
+        },
+        "254": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "255": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "256": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "257": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Meteor Shower"
+        },
+        "258": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "259": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "260": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Arcane Restoration"
+        },
+        "261": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "262": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "263": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Resilient Light"
+        },
+        "265": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Incandescence"
+        },
+        "266": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "270": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "271": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "275": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "279": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "280": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Lightweaver"
+        },
+        "281": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "284": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Dimensional Tear"
+        },
+        "285": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "286": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Arcane Speed"
+        },
+        "287": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "288": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Larger Mana Bank II"
+        },
+        "289": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "290": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Cheaper Meteor II"
+        },
+        "291": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "292": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Rift Rupture"
+        },
+        "293": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "294": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Cheaper Ice Snake II"
+        },
+        "296": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Psychokinesis"
+        },
+        "297": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "298": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "300": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "302": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "305": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "306": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Chaos Explosion"
+        },
+        "307": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Augury"
+        },
+        "308": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "309": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Frigid Grasp"
+        },
+        "310": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "311": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Time Dilation"
+        },
+        "313": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "314": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Arctic Snake"
+        },
+        "316": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "317": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Searing Light"
+        },
+        "319": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Accelerated Strike"
+        },
+        "320": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "322": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Arcane Power"
+        },
+        "323": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "325": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "329": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "332": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "334": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Everlasting Light"
+        },
+        "335": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "336": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Devitalize"
+        },
+        "337": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "338": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Influx Shift"
+        },
+        "339": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "341": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Larger Mana Bank III"
+        },
+        "343": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "344": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Divination"
+        },
+        "346": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Mana Current"
+        },
+        "347": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "348": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Void Acceleration"
+        },
+        "350": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "352": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "355": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "356": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Riftbound"
+        },
+        "357": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "359": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "361": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Sunflare"
+        },
+        "362": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "363": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "364": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Cheaper Heal II"
+        },
+        "365": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "366": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Manastorm"
+        },
+        "367": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "368": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Judrajim"
+        },
+        "369": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "370": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "372": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Halo"
+        },
+        "374": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "377": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "378": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Memory Recollection"
+        },
+        "379": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "383": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "386": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "388": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Interweave"
+        },
+        "389": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "390": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "391": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "392": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Time Vortex"
+        },
+        "393": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "394": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "395": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Arcane Overflow"
+        },
+        "396": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "397": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "399": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Gospel of Light"
+        },
+        "400": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "402": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "403": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Blitz"
+        },
+        "405": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "406": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Crystallize"
+        },
+        "407": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "409": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "411": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "414": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "415": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "416": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Gleam"
+        },
+        "418": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Portal to the Beyond"
+        },
+        "419": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "420": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Paradox"
+        },
+        "421": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "422": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "423": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Induced Instability"
+        },
+        "424": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Diffraction"
+        },
+        "425": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "428": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "430": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Thunderstorm"
+        },
+        "431": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "434": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "437": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "440": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "443": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "446": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "449": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "452": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Dawn"
+        },
+        "455": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "458": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Tangled Origin"
+        },
+        "464": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Gravitational Collapse"
+        }
+    }
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SkillNodeSimple 测试</title>
+</head>
+<body>
+  <div id="app">
+    <h1>SkillNodeSimple 测试页面</h1>
+    <div style="padding: 50px;">
+      <SkillNodeSimple name="Arrow Bomb" current-class="Archer" />
+      <SkillNodeSimple name="Escape" current-class="Archer" />
+    </div>
+  </div>
+
+  <script type="module">
+    import { createApp } from 'vue'
+    import SkillNodeSimple from './src/.vuepress/components/SkillNodeSimple.vue'
+
+    createApp({
+      components: {
+        SkillNodeSimple
+      }
+    }).mount('#app')
+  </script>
+</body>
+</html>

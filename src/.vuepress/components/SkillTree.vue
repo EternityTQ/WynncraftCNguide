@@ -14,7 +14,7 @@
         </svg>
 
         <div class="skill-grid" :style="gridStyle">
-          <SkillNode 
+          <SkillNodeSimple 
             v-for="(item, index) in combinedItems" 
             :key="`item-${index}`" 
             :name="item.display_name"
@@ -29,12 +29,12 @@
 </template>
 
 <script>
-import SkillNode from './SkillNode.vue'; 
+import SkillNodeSimple from './SkillNodeSimple.vue'; 
 import atreeData from './data/atree.json'; 
 import connectorData from './data/connectors.json'; 
 
 export default {
-  components: { SkillNode },
+  components: { SkillNodeSimple },
   props: {
     // 【修改】通过 Props 接收职业，不再自己管理
     currentClass: {

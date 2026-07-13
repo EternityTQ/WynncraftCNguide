@@ -1,0 +1,75 @@
+请你帮我完成翻译+格式化的任务，具体要求如下：
+目前这个项目下的\src\.vuepress\components\data文件夹中，zh-cn-mage.json是待翻译的法师技能树。请你参照zh-cn.json中【已经翻译好的部分】，帮我完成翻译，要求如下：
+description为唯一主要翻译的部分，该部分主要分为技能描述与技能数值。你需要把这部分逐句翻译出来，并保留所有格式符。
+唯一例外：在【技能描述】的部分，也就是数值之前，任何单独出现的换行符都剔除掉。成对的换行符无需剔除，在技能数值部分的任何换行符无需删除。
+需要注意的是，zh-cn.json中保留的格式符为旧版本的格式符，你需要参考zh-cn-mage.json中已有的新版本的格式符。
+然后，在技能描述的部分，任何出现技能名的部分，都保留先前已经翻译好的技能名。
+对于汉化后的技能名，填在customName字段中，该汉化技能名如果zh-cn.json中存在，则【严格遵循已有翻译】；如果该技能名尚未翻译，则由你进行翻译，注意尽可能避免直译，这是一个奇幻RPG游戏的技能树，技能名的翻译应当符合分支职业风格，然后要帅。
+对于【技能数值】的部分，可以参考文末的字典，虽然有些许出入但我相信你能理解，尽可能对着字典来翻译。
+对于zh-cn.json没有翻译的部分，你可以自行发挥，并在最后附上这部分的技能让我检查。
+对于zh-cn.json与目前待格式化的zh-cn2.json中出现描述的翻译与原文差别过大的部分，都遵循目前zh-cn2.json的英文原文作为最新版。
+只需要翻译abilities的部分即可。
+字典：
+const UNIT_MAP = {
+  range: '格',
+  aoe: '格',
+  duration: '秒',
+  damage: '%',
+  mana: '点',
+  shots: '发',
+  cooldown: '秒',
+  slowness: '%',
+  resistance: '%',
+  speed: '%',
+  charges: '层',
+  ray_duration: '秒',
+  vision: '格',
+  hits: '次',
+  defense_bonus: '%',
+  angle: '°',
+  attackRate: '次',
+  attack: '%',
+  orb_health: '点',
+  bank: '点',
+  weakness: '%',
+  damage_boost: '%',
+  blood_pool: '点',
+  cost: '点'
+
+};
+
+const STAT_LABEL_MAP = {
+  cost: '技能消耗',
+  range: '范围',
+  aoe: '伤害/作用范围',
+  damage: '伤害',
+  duration: '持续时间',
+  cooldown: '冷却',
+  shots: '弹量',
+  slowness: '减缓敌人',
+  trap: '陷阱上限',
+  manaRegen: '蓝量回复',
+  charges: '充能层数',
+  resistance: '抗性提升',
+  speed: '速度加成',
+  ray_duration: '射线持续时间',
+  vision: '索敌范围',
+  hits: '攻击次数',
+  defense_bonus: '抗性提升',
+  angle: '攻击角度',
+  attackRate: '攻击判定次数',
+  orb_health: '光之宝珠生命值',
+  bank: '法力储备上限',
+  attack: '伤害加成',
+  weakness: '削弱攻击',
+  damage_boost: '伤害加成',
+  blood_pool: '血池上限'
+  // ... 其他字段 ...
+};
+
+对于属性：
+earth:地
+thunder:电
+water:水
+fire:火
+air:气

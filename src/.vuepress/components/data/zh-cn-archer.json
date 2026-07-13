@@ -1,0 +1,3655 @@
+{
+    "properties": {
+        "classs": "archer",
+        "maxAbilityPoints": 50,
+        "pages": 9,
+        "horizontalPages": 1,
+        "rowsPerPage": 6,
+        "pagesDisplayed": 2,
+        "loopTree": false,
+        "bTravesableUp": false,
+        "useAlternativeAbilityIcons": true,
+        "strictAllocation": true
+    },
+    "archetypes": [
+        "§e§lBoltslinger",
+        "§g§lTrapper",
+        "§d§lSharpshooter"
+    ],
+    "abilities": {
+        "Arrow Bomb": {
+            "name": "",
+            "description": "§6连击方式：§d§l左键§7-§d§l右键§7-§d§l右键\n\n§7射出一支远距离的箭矢，其命中后会爆炸，造成大范围的伤害。\n§8(对自己造成主武器伤害倍率10%的伤害)\n\n§b✺ §7技能消耗：§f45点\n§c⚔ §7总伤害：§f160%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：140%)\n   §8(§c✹ §8火伤害：20%)\n§a➼ §7范围：§f±26格\n§3☀ §7伤害范围：§f4.5格§7(圆形)",
+            "customName": "爆炸箭",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Bow Proficiency": {
+            "name": "§f§lBow Proficiency",
+            "description": "§7使用弓时，提升你的§n普通攻击§7的伤害和范围。\n\n§c⚔ §7普通攻击伤害：§f+5%\n§a➼ §7普通攻击范围：§f+6格",
+            "customName": "弓箭精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Cheaper Arrow Bomb I": {
+            "name": "§f§lCheaper Arrow Bomb",
+            "description": "§7降低§n爆炸箭§7的技能消耗。\n\n§b✺ §7技能消耗：§f-10点",
+            "customName": "爆炸箭减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "1"
+            ]
+        },
+        "Heart Shatter": {
+            "name": "§h§lHeart Shatter",
+            "description": "§7用§n爆炸箭§7直接命中怪物时，会击碎其心脏并造成额外伤害。\n\n§c⚔ §7总伤害：§f+100%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：+100%)",
+            "customName": "碎心",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Escape": {
+            "name": "§g§lEscape",
+            "description": "§6连击方式：§d§l左键§7-§d§l左键§7-§d§l左键\n\n§7快速后跳来规避危险。\n§8(逃脱时按住Shift键可取消)\n\n§b✺ §7技能消耗：§f20点",
+            "customName": "逃脱",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Power Shots": {
+            "name": "§h§lPower Shots",
+            "description": "§7你的§n普通攻击§7射出的箭矢具有更高的飞行速度以及击退能力。",
+            "customName": "强力箭矢",
+            "note": "",
+            "unlockingWillBlock": [
+                "7"
+            ],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Double Shots": {
+            "name": "§h§lDouble Shots",
+            "description": "§7你的§n普通攻击§7将同时射出两发箭矢，但每支箭矢的伤害将会降低。\n§8(更难命中较远的敌人)\n\n§c⚔ §7普通攻击伤害：§c-40%§8(每箭)",
+            "customName": "双发箭矢",
+            "note": "",
+            "unlockingWillBlock": [
+                "6"
+            ],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Arrow Storm": {
+            "name": "§g§lArrow Storm",
+            "description": "§6连击方式：§d§l左键§7-§d§l右键§7-§d§l左键\n\n§7快速射出§f8§7支箭矢，对邻近的怪物造成大量伤害并将其推开。\n\n§b✺ §7技能消耗：§f35点\n§c⚔ §7总伤害：§f40%§8(主武器伤害倍率，每箭)\n   (§6✣ §8中性伤害：30%)\n   (§e✦ §8电伤害：10%)\n§a➼ §7范围：§f±16格",
+            "customName": "箭雨",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Cheaper Escape I": {
+            "name": "§f§lCheaper Escape",
+            "description": "§7降低§n逃脱§7的技能消耗。\n\n§b✺ §7技能消耗：§f-5点",
+            "customName": "逃脱减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "5"
+            ]
+        },
+        "Arrow Shield": {
+            "name": "§g§lArrow Shield",
+            "description": "§6连击方式：§d§l左键§7-§d§l左键§7-§d§l右键\n\n§7在你周围形成一个护盾，轻微减少你受到的伤害。被攻击时会消耗护盾的一层充能。过于接近的敌人会受到伤害并被击退。(3层充能)\n\n§b✺ §7技能消耗：§f30点\n§c⚔ §7总伤害：§f70%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：60%)\n   (§f❋ §8气伤害：10%)\n§e✧ §7效果：§f20%§7抗性提升(§a❁§7)\n§3☀ §7作用范围：§f2.3格§7(圆形)\n§d⌛ §7持续时间：§f60秒",
+            "customName": "箭盾",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Windy Feet": {
+            "name": "§h§lWindy Feet",
+            "description": "§7使用§n逃脱§7时给予你和附近玩家速度加成。\n\n§e✧ §7效果：§f+40%§7速度加成(§3➲§7)对友军\n§d⌛ §7持续时间：§f120秒\n§3☀ §7作用范围：§f8格§7(圆形)",
+            "customName": "疾风步伐",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Air Mastery": {
+            "name": "§f§lAir Mastery",
+            "description": "§7增加所有气属性攻击的基础伤害。\n\n§f❋ §7气伤害：§f+3-4\n§f❋ §7气伤害：§f+15%",
+            "customName": "气元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Thunder Mastery": {
+            "name": "§f§lThunder Mastery",
+            "description": "§7增加所有电属性攻击的基础伤害。\n\n§e✦ §7电伤害：§f+1-8\n§e✦ §7电伤害：§f+10%",
+            "customName": "电元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Earth Mastery": {
+            "name": "§f§lEarth Mastery",
+            "description": "§7增加所有地属性攻击的基础伤害。\n\n§2✤ §7地伤害：§f+2-4\n§2✤ §7地伤害：§f+20%",
+            "customName": "地元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Fire Mastery": {
+            "name": "§f§lFire Mastery",
+            "description": "§7增加所有火属性攻击的基础伤害。\n\n§c✹ §7火伤害：§f+3-5\n§c✹ §7火伤害：§f+15%",
+            "customName": "火元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Water Mastery": {
+            "name": "§f§lWater Mastery",
+            "description": "§7增加所有水属性攻击的基础伤害。\n\n§b❉ §7水伤害：§f+2-4\n§b❉ §7水伤害：§f+15%",
+            "customName": "水元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Buckshot": {
+            "name": "§h§lBuckshot",
+            "description": "§7当§n箭盾§7失去最后一层充能时，从你的弓中喷涌出§f75§7支穿透箭矢。\n\n§c⚔ §7总伤害：§f4%§8(主武器伤害倍率，每箭)\n   (§6✣ §8中性伤害：3%)\n   (§f❋ §8气伤害：1%)",
+            "customName": "散射",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "10"
+            ]
+        },
+        "Phantom Ray": {
+            "name": "§j§lPhantom Ray",
+            "description": "§7将§n箭雨§7浓缩为一条射线，每秒对敌人造成§f10§7次伤害。\n\n§b✺ §7技能消耗：§f-5点\n§c⚔ §7总伤害：§f30%§8(主武器伤害倍率，每次)\n   (§6✣ §8中性伤害：25%)\n   (§b❉ §8水伤害：5%)\n§a➼ §7范围：§f16格\n§d⌛ §7持续时间：§f1.2秒",
+            "customName": "幻影射线",
+            "note": "",
+            "unlockingWillBlock": [
+                "77",
+                "51",
+                "27",
+                "19"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Nimble String": {
+            "name": "§i§lNimble String",
+            "description": "§7使§n箭雨§7的速度加倍，每道箭流额外射出§f+6§7支箭矢。\n\n§c⚔ §7总伤害：§c-10%§8(主武器伤害倍率，每箭)\n   (§6✣ §8中性伤害：-5%)\n   (§e✦ §8电伤害：-5%)",
+            "customName": "迅捷弓弦",
+            "note": "",
+            "unlockingWillBlock": [
+                "18"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Fire Creep": {
+            "name": "§i§lFire Creep",
+            "description": "§7§n爆炸箭§7将会留下一道持续§f6秒§7的火焰轨迹。走入其中的敌人每§f0.4秒§7受到一次伤害。\n\n§c⚔ §7总伤害：§f50%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：30%)\n   (§c✹ §8火伤害：20%)\n§d⌛ §7持续时间：§f6秒\n§3⌚ §7冷却：§f3秒",
+            "customName": "烈火蔓延",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Bryophyte Roots": {
+            "name": "§i§lBryophyte Roots",
+            "description": "§7用§n箭雨§7击中敌人时会创建一个作用区域，减缓敌人速度并每§f0.4秒§7造成伤害。\n\n§c⚔ §7总伤害：§f40%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：30%)\n   (§2✤ §8地伤害：10%)\n§e✧ §7效果：§f40%§7减缓敌人(§c⬤§7)\n§d⌛ §7持续时间：§f5秒\n§3☀ §7作用范围：§f2格§7(圆形)",
+            "customName": "苔藓缠身",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 1,
+            "requires": [
+                "8"
+            ]
+        },
+        "Triple Shots": {
+            "name": "§h§lTriple Shots",
+            "description": "§7你的§n普通攻击§7同时射出三根箭矢，但每根箭矢相对正常§n普通攻击§7箭矢的伤害§f-10%§7。\n\n§c⚔ §7普通攻击伤害：§c-10%",
+            "customName": "三重射击",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "7"
+            ]
+        },
+        "Frenzy": {
+            "name": "§i§lFrenzy",
+            "description": "§7每命中一次敌人，给自身叠加§f+1%§7移动速度的短暂增益，每秒最多§f15%§7。(上限+60%)\n每秒衰减§f-5%§7的加成。",
+            "customName": "极速狂热",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Guardian Angels": {
+            "name": "§k§lGuardian Angels",
+            "description": "§7你的§n箭盾§7改为召唤§f2§7把有知觉的弓，每§f0.45秒§7向附近敌人射击，每把弓拥有§f10§7发弹药。§8(箭盾不再击退敌人或提供抗性)\n\n§c⚔ §7总伤害：§f40%§8(主武器伤害倍率，每发)\n   (§6✣ §8中性伤害：30%)\n   §8(§f❋ §8气伤害：10%)\n§a➼ §7范围：§f6格\n§d⌛ §7持续时间：§f60秒",
+            "customName": "守护天使",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 3,
+            "requires": [
+                "10"
+            ]
+        },
+        "Basaltic Trap": {
+            "name": "§k§lBasaltic Trap",
+            "description": "§7当用§n爆炸箭§7击中地面时，留下一个伤害敌人的§b陷阱§7。(上限2个)\n\n§c⚔ §7总伤害：§f250%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：210%)\n   (§2✤ §8地伤害：20%)\n   (§c✹ §8火伤害：20%)\n§a➼ §7范围：§f2格§7(圆形)\n§3☀ §7伤害范围：§f7格§7(圆形)",
+            "customName": "磐石陷阱",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": []
+        },
+        "Focus": {
+            "name": "§k§lFocus",
+            "description": "§7当命中§f5+§7格以外的敌对生物时，获得§b+1专注§e➽§7。(上限3)\n§8(如果失误一次，失去50%专注)\n\n§c⚔ §7伤害加成：§f+15%§8(每层专注)\n§3⌚ §7冷却：§f1秒",
+            "customName": "全神贯注",
+            "note": "",
+            "unlockingWillBlock": [
+                "66"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": []
+        },
+        "Windstorm": {
+            "name": "§j§lWindstorm",
+            "description": "§7§n箭雨§7将额外射出§f+1§7道箭流，每道箭流额外§f+2§7支箭矢。\n\n§n箭雨§7在空中时会产生后坐力。\n\n§c⚔ §7总伤害：§c-10%§8(主武器伤害倍率，每箭)\n   (§6✣ §8中性伤害：-9%)\n   (§e✦ §8电伤害：-3%)\n   (§f❋ §8气伤害：+2%)",
+            "customName": "风暴箭阵",
+            "note": "",
+            "unlockingWillBlock": [
+                "18"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Stormy Feet": {
+            "name": "§h§lStormy Feet",
+            "description": "§7§n疾风步伐§7的持续时间更长，并给予更强的速度加成。\n\n§e✧ §7效果：§f+60%§7速度加成(§3➲§7)对友军\n§d⌛ §7持续时间：§f+60秒",
+            "customName": "暴风步伐",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "11"
+            ]
+        },
+        "Cheaper Arrow Storm I": {
+            "name": "§f§lCheaper Arrow Storm",
+            "description": "§7降低§n箭雨§7的技能消耗。\n\n§b✺ §7技能消耗：§f-5点",
+            "customName": "箭雨减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Implosion": {
+            "name": "§h§lImplosion",
+            "description": "§7§n爆炸箭§7会将敌人拉向你。如果附近有§b陷阱§7，则会将敌人拉向陷阱。\n增加§n碎心§7的伤害。\n\n§c⚔ §7总伤害：§f+40%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：+40%)",
+            "customName": "聚爆",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Arrow Wall": {
+            "name": "§f§lArrow Wall",
+            "description": "§7给予§n箭盾§7§f+2§7层额外充能。\n§n守护天使§7造成的伤害降低§c-40%§7。",
+            "customName": "众矢成墙",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "10"
+            ]
+        },
+        "More Focus": {
+            "name": "§f§lMore Focus",
+            "description": "§7增加你的§b专注§e➽§7上限§f+2§7。",
+            "customName": "专心致志",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "26"
+            ]
+        },
+        "Grappling Hook": {
+            "name": "§h§lGrappling Hook",
+            "description": "§7使用§n逃脱§7时，投掷一个钩子，命中方块时将你拉向目标。\n§8(逃脱不再使你向后退)§7\n\n按住§nShift§7键施放时，命中敌人会将其拉向你。\n\n§a➼ §7范围：§f30格",
+            "customName": "抓钩",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Patient Hunter": {
+            "name": "§i§lPatient Hunter",
+            "description": "§7你的§b陷阱§7激活期间每秒伤害增加§f+20%§7。(上限+100%)\n\n增加你的§b陷阱§7上限§f+1§7。",
+            "customName": "韬光养晦",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "25"
+            ]
+        },
+        "Call of the Hound": {
+            "name": "§j§lCall of the Hound",
+            "description": "§7§n箭盾§7召唤一只§b猎犬§7，每§f0.25秒§7攻击一次敌对生物，并将其拖向你的陷阱。\n\n§c⚔ §7总伤害：§f40%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：40%)\n§3☀ §7索敌范围：§f18格§7(圆形)\n§d⌛ §7持续时间：§f60秒",
+            "customName": "猎犬呼啸",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "10"
+            ]
+        },
+        "Mana Trap": {
+            "name": "§k§lMana Trap",
+            "description": "§7你的§b陷阱§7每秒给予你§f0.5§7法力，并在爆炸时给予§f10§7法力。\n\n增加你的§b陷阱§7上限§f+1§7。\n\n§b✺ §7技能消耗：§c+10点\n§a➼ §7范围：§f16格",
+            "customName": "法力陷阱",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 6,
+            "requires": [
+                "25"
+            ]
+        },
+        "Bouncing Bomb": {
+            "name": "§i§lBouncing Bomb",
+            "description": "§7§n爆炸箭§7击中方块或敌人时会弹跳一次。",
+            "customName": "弹跳炸弹",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Spectral Hover": {
+            "name": "§h§lSpectral Hover",
+            "description": "§f缓降§7效果在使用§n逃脱§7后生效。\n任何时候蹲下将取消此效果。\n\n§d⌛ §7持续时间：§f5秒",
+            "customName": "灵态停浮",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Leap": {
+            "name": "§i§lLeap",
+            "description": "§7二段跳时向你移动的方向跃进。\n\n距离随你的移动速度增加。\n\n§3⌚ §7冷却：§f4秒",
+            "customName": "飞跃",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 4,
+            "requires": []
+        },
+        "Ivyroot Mamba": {
+            "name": "§j§lIvyroot Mamba",
+            "description": "§7§n苔藓缠身§7消失后召唤一条§b毒蛇§7，每§f1秒§7向敌对生物喷射虚弱毒液。(上限1)\n敌人将被虚弱§f1.5秒§7。\n\n§c⚔ §7总伤害：§f100%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：80%)\n   (§2✤ §8地伤害：20%)\n§e✧ §7效果：§f-15%§7伤害加成(§c⚔§7)对敌人\n§3☀ §7索敌范围：§f12格§7(圆形)\n§d⌛ §7持续时间：§f18秒",
+            "customName": "蔓生毒蝰",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 3,
+            "requires": [
+                "21"
+            ]
+        },
+        "Twain's Arc": {
+            "name": "§j§lTwain's Arc",
+            "description": "§7如果你拥有§b2+专注§e➽§7，按住Shift键将召唤吐温虹弧。充能后射出一道毁灭性的远距离光束。\n\n§c⚔ §7总伤害：§f300%§8(普通攻击伤害)\n   (§6✣ §8中性伤害：300%)\n§a➼ §7范围：§f48格",
+            "customName": "吐温虹弧",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 4,
+            "requires": [
+                "26"
+            ]
+        },
+        "Rocket Jump": {
+            "name": "§h§lRocket Jump",
+            "description": "§7§n爆炸箭§7的后坐力增加，其对自己造成的伤害降低至§f1%§7。",
+            "customName": "火箭飞跃",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "1"
+            ]
+        },
+        "Scorched Earth": {
+            "name": "§f§lScorched Earth",
+            "description": "§7§n烈火蔓延§7变得更加强力。\n\n§c⚔ §7总伤害：§f+15%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：10%)\n   (§c✹ §8火伤害：5%)\n§d⌛ §7持续时间：§f+2秒",
+            "customName": "炙热地表",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "20"
+            ]
+        },
+        "More Traps": {
+            "name": "§f§lMore Traps",
+            "description": "§7增加你的§b陷阱§7上限§f+3§7。",
+            "customName": "陷阱扩容",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "25"
+            ]
+        },
+        "Cheaper Arrow Shield": {
+            "name": "§f§lCheaper Arrow Shield",
+            "description": "§7降低§n箭盾§7的技能消耗。\n\n§b✺ §7技能消耗：§f-5点",
+            "customName": "箭盾减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "10"
+            ]
+        },
+        "Honed Shield": {
+            "name": "§f§lHoned Shield",
+            "description": "§7§n箭盾§7的半径、击退能力和伤害增加。\n\n§n守护天使§7的伤害增加。\n\n§c⚔ §7总伤害：§f+30%§8(主武器伤害倍率，对于§n箭盾§8)\n   (§6✣ §8中性伤害：+30%)\n§3☀ §7作用范围：§f+1格§7(圆形)\n\n§c⚔ §7总伤害：§f+15%§8(主武器伤害倍率，对于§n守护天使§8，每发)\n   (§6✣ §8中性伤害：+15%)",
+            "customName": "箭盾精制",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "10"
+            ]
+        },
+        "Shocking Bomb": {
+            "name": "§i§lShocking Bomb",
+            "description": "§7§n爆炸箭§7不再受到重力影响，并增加爆炸伤害。\n\n§c⚔ §7总伤害：§f+40%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：+20%)\n   §8(§e✦ §8电伤害：+20%)",
+            "customName": "震慑爆弹",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 4,
+            "requires": [
+                "1"
+            ]
+        },
+        "Homing Shots": {
+            "name": "§j§lHoming Shots",
+            "description": "§7你的§n普通攻击§7箭矢将追踪附近敌人，且不再受到重力影响。",
+            "customName": "导引箭矢",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": []
+        },
+        "Fierce Stomp": {
+            "name": "§h§lFierce Stomp",
+            "description": "§7使用§n逃脱§7时，按住Shift键快速下落，造成伤害并致盲敌人。\n\n§c⚔ §7总伤害：§f250%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：250%)\n§3☀ §7作用范围：§f6格§7(圆形)\n§e✧ §7效果：§f致盲§7(§c⬣§7)对敌人\n§d⌛ §7持续时间：§f0.5秒\n§3⌚ §7冷却：§f1秒",
+            "customName": "急速踹击",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Bounding Stride": {
+            "name": "§f§lBounding Stride",
+            "description": "§7降低§n飞跃§7的冷却时间§f2秒§7。",
+            "customName": "闪击步伐",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "39"
+            ]
+        },
+        "Transience": {
+            "name": "§j§lTransience",
+            "description": "§7§n箭雨§7将穿透敌人。",
+            "customName": "穿透箭雨",
+            "note": "",
+            "unlockingWillBlock": [
+                "18"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 13,
+            "requires": [
+                "8"
+            ]
+        },
+        "Cheaper Arrow Storm II": {
+            "name": "§f§lCheaper Arrow Storm II",
+            "description": "§7降低§n箭雨§7的技能消耗。\n\n§b✺ §7技能消耗：§f-5点",
+            "customName": "箭雨减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Initiator": {
+            "name": "§i§lInitiator",
+            "description": "§7如果连续§f4秒§7或更久没有对敌人造成伤害，你的下一次成功命中将造成§f+60%§7伤害并获得§b+1专注§e➽§7。",
+            "customName": "蓄势待发",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "26"
+            ]
+        },
+        "Phasing Beam": {
+            "name": "§i§lPhasing Beam",
+            "description": "§7§n吐温虹弧§7充能速度加快§f25%§7，现在可以穿透至多§f5§7个敌人，穿透后伤害降低。\n§8(伤害以§n普通攻击§8伤害计算)\n\n§c⚔ §7总伤害：§c-150%§8(穿透后)\n   §8(§6✣ §8中性伤害：-150%)",
+            "customName": "相位光束",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "41"
+            ]
+        },
+        "Decimator": {
+            "name": "§i§lDecimator",
+            "description": "§7§n幻影射线§7每次命中且未失误时，伤害增加§f15%§7。(上限90%)\n\n§n幻影射线§7获得额外的直线射程。\n\n§a➼ §7范围：§f+8格",
+            "customName": "聚能连击",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "18"
+            ]
+        },
+        "Murder Flock": {
+            "name": "§j§lMurder Flock",
+            "description": "§7§n磐石陷阱§7引爆时召唤一只§b乌鸦§7，每§f0.9秒§7啄击敌对生物。(上限2)\n受伤的敌人将被致盲§f0.2秒§7。\n\n§c⚔ §7总伤害：§f60%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：60%)\n§e✧ §7效果：§f致盲(§c⬣§f)对敌人§3\n§3☀ §7索敌范围：§f18格§7(圆形)\n§d⌛ §7持续时间：§f12秒",
+            "customName": "雾鸦群袭",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "25"
+            ]
+        },
+        "Parting Gift": {
+            "name": "§h§lParting Gift",
+            "description": "§7使用§n逃脱§7时，在半空中释放一枚集束炸弹，爆炸后向你之前的位置发射§f150§7支箭矢。\n§8(每个敌人只能被一支箭矢命中)\n\n§c⚔ §7总伤害：§f350%§8(主武器伤害倍率，每箭)\n   §8(§6✣ §8中性伤害：300%)\n   §8(§e✦ §8电伤害：50%)\n§3⌚ §7冷却：§f4秒",
+            "customName": "临别赠礼",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Vigilant Sentinels": {
+            "name": "§j§lVigilant Sentinels",
+            "description": "§7增加§n守护天使§7的范围和伤害。\n\n在§n守护天使§7激活期间施放§n箭盾§7将同时释放§n散射§7。增加§n散射§7的伤害。\n\n§c⚔ §7总伤害：§f+25%§8(主武器伤害倍率，对于§n守护天使§8，每发)\n   §8(§6✣ §8中性伤害：+20%)\n   §8(§c✹ §8火伤害：+5%)\n§2➼ §7范围：§f+3格\n\n§c⚔ §7总伤害：§f+3%§8(主武器伤害倍率，对于§n散射§8，每箭)\n   §8(§6✣ §8中性伤害：+3%)",
+            "customName": "警戒哨卫",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "24"
+            ]
+        },
+        "Recycling": {
+            "name": "§i§lRecycling",
+            "description": "§7当你的投掷物未命中时，获得§f+0.08§7法力。",
+            "customName": "箭矢回收",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 3,
+            "requires": []
+        },
+        "Shrapnel Bomb": {
+            "name": "§i§lShrapnel Bomb",
+            "description": "§7§n爆炸箭§7的爆炸将投掷§f25§7枚弹片，在大范围内造成伤害。\n§8(每个敌人最多被五枚弹片命中)\n\n§c⚔ §7总伤害：§f50%§8(主武器伤害倍率，每枚弹片)\n   §8(§6✣ §8中性伤害：40%)\n   §8(§2✤ §8地伤害：10%)",
+            "customName": "破片炸弹",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": []
+        },
+        "Cheaper Escape II": {
+            "name": "§f§lCheaper Escape II",
+            "description": "§7降低§n逃脱§7的技能消耗。\n\n§b✺ §7技能消耗：§f-5点",
+            "customName": "逃脱减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Hookshot": {
+            "name": "§f§lHookshot",
+            "description": "§7增加你的§n抓钩§7的范围、速度和力度。\n\n§a➼ §7范围：§f+8格",
+            "customName": "强力抓钩",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 2,
+            "requires": [
+                "33"
+            ]
+        },
+        "Cheaper Arrow Shield II": {
+            "name": "§f§lCheaper Arrow Shield II",
+            "description": "§7降低§n箭盾§7的技能消耗。\n\n§b✺ §7技能消耗：§f-5点",
+            "customName": "箭盾减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Coursing Restraints": {
+            "name": "§j§lCoursing Restraints",
+            "description": "§7§n震慑爆弹§7将暂时震慑敌人，降低他们的防御。\n\n§e✧ §7效果：§f-15%§7抗性提升(§c✃§7)对敌人\n§d⌛ §7持续时间：§f4秒\n§3⌚ §7冷却：§f10秒",
+            "customName": "震慑束缚",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "47"
+            ]
+        },
+        "Crepuscular Ray": {
+            "name": "§k§lCrepuscular Ray",
+            "description": "§7如果你拥有§b5+专注§e➽§7，在高于地面§f4+§7格的空中施放§n箭雨§7将会使你浮空并每秒射出§f20§7支导引箭矢，直到你的§b专注§e➽§7耗尽。\n\n在此状态下，每§f0.5秒§7失去§c1§b专注§e➽§7。\n\n§c⚔ §7总伤害：§f120%§8(主武器伤害倍率，每箭)\n   §8(§6✣ §8中性伤害：90%)\n   §8(§b❉ §8水伤害：30%)",
+            "customName": "暮色流光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 10,
+            "requires": [
+                "8"
+            ]
+        },
+        "Beast Lore": {
+            "name": "§f§lBeast Lore",
+            "description": "§7增加你的§b毒蛇§7上限§f+1§7。\n增加你的§b乌鸦§7上限§f+2§7。\n增加你的§b猎犬§7的伤害。\n\n§c⚔ §7总伤害：§f+40%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：+40%)",
+            "customName": "狩猎传说",
+            "note": "",
+            "unlockingWillBlock": [
+                "26"
+            ],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 7,
+            "requires": [
+                "35"
+            ]
+        },
+        "Tangled Traps": {
+            "name": "§i§lTangled Traps",
+            "description": "§7你的§b陷阱§7之间会有绳索连接，每§f0.2秒§7对敌人造成一次伤害。\n\n§n分裂炸弹§7获得§f+1§7个小炸弹。\n\n§c⚔ §7总伤害：§f40%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：20%)\n   §8(§f❋ §8气伤害：20%)",
+            "customName": "绊线陷阱",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "25"
+            ]
+        },
+        "Chilling Snare": {
+            "name": "§k§lChilling Snare",
+            "description": "§7对§n磐石陷阱§7施加寒冰陷阱，在引爆后每§f0.2秒§7大幅抑制并伤害附近敌人。\n\n增加你的§b陷阱§7上限§f+1§7。\n\n§c⚔ §7总伤害：§f50%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：40%)\n   §8(§b❉ §8水伤害：10%)\n§e✧ §7效果：§f10%§7减缓敌人(§c⬤§7)，每次命中§8(上限90%)\n§d⌛ §7持续时间：§f5秒\n§3☀ §7作用范围：§f7格§7(圆形)\n§3⌚ §7冷却：§f12秒",
+            "customName": "凛冬阵法",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 11,
+            "requires": [
+                "25"
+            ]
+        },
+        "More Focus II": {
+            "name": "§f§lMore Focus II",
+            "description": "§7增加你的§b专注§e➽§7上限§f+2§7。",
+            "customName": "聚精凝神",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "26"
+            ]
+        },
+        "Grape Bomb": {
+            "name": "§j§lGrape Bomb",
+            "description": "§7§n爆炸箭§7在爆炸时将额外投掷§f2§7个小型炸弹。\n\n§c⚔ §7总伤害：§f65%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：50%)\n   §8(§c✹ §8火伤害：15%)\n§3☀ §7伤害范围：§f2格§7(圆形)",
+            "customName": "分裂炸弹",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Cheaper Arrow Bomb II": {
+            "name": "§f§lCheaper Arrow Bomb II",
+            "description": "§7降低§n爆炸箭§7的技能消耗。\n\n§b✺ §7技能消耗：§f-5点",
+            "customName": "爆炸箭减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "1"
+            ]
+        },
+        "Swift Primer": {
+            "name": "§f§lSwift Primer",
+            "description": "§7§n韬光养晦§7每秒增加的伤害提升至§f+10%§7，并使其最大伤害上限提升§f+100%§7。\n\n增加你的§b陷阱§7上限§f+1§7。",
+            "customName": "猎人狩猎法则",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "34"
+            ]
+        },
+        "Snow Storm": {
+            "name": "§h§lSnow Storm",
+            "description": "§7在你附近的敌人将受到减速效果。\n\n§e✧ §7效果：§f30%§7减缓敌人(§c⬤§7)\n§a➼ §7范围：§f3格",
+            "customName": "寒霜风暴",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Refined Gunpowder": {
+            "name": "§f§lRefined Gunpowder",
+            "description": "§7增加§n爆炸箭§7的伤害。\n\n§c⚔ §7总伤害：§f+50%§8(主武器伤害倍率)\n   (§6✣ §8中性伤害：+50%)",
+            "customName": "精制火药",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Pyrotechnics": {
+            "name": "§h§lPyrotechnics",
+            "description": "§7§n爆炸箭§7和§n分裂炸弹§7变得更加炽热，增加其爆炸伤害。\n\n§c⚔ §7总伤害：§f65%§8(主武器伤害倍率，对于§n爆炸箭§8)\n   §8(§6✣ §8中性伤害：45%)\n   §8(§c✹ §8火伤害：20%)\n\n§c⚔ §7总伤害：§f25%§8(主武器伤害倍率，对于§n分裂炸弹§8)\n   §8(§6✣ §8中性伤害：15%)\n   §8(§c✹ §8火伤害：10%)",
+            "customName": "烟火术",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 5,
+            "requires": []
+        },
+        "Courier's Edict": {
+            "name": "§h§lCourier's Edict",
+            "description": "§7§n急速踹击§7在你前方发出一道圣光波动。\n\n§n飞跃§7落地后触发§n急速踹击§7。\n\n§c⚔ §7总伤害：§f200%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：100%)\n   §8(§e✦ §8电伤害：100%)",
+            "customName": "信使敕令",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "49"
+            ]
+        },
+        "Arrow Hurricane": {
+            "name": "§k§lArrow Hurricane",
+            "description": "§7§n箭雨§7将额外射出§f+2§7道箭流。\n\n§n箭雨§7的后坐力翻倍。",
+            "customName": "飓风箭阵",
+            "note": "",
+            "unlockingWillBlock": [
+                "18"
+            ],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 11,
+            "requires": [
+                "27"
+            ]
+        },
+        "Phantom Force": {
+            "name": "§h§lPhantom Force",
+            "description": "§7§n幻影射线§7获得额外的直线射程，并且变得更宽。\n\n§a➼ §7范围：§f+8格\n§3☀ §7作用范围：§f+0.2格",
+            "customName": "幻影之力",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "18"
+            ]
+        },
+        "Ghostly Trigger": {
+            "name": "§j§lGhostly Trigger",
+            "description": "§7使用逃脱后在空中时，你的下§f3§7次§n普通攻击§7可以无视攻速限制快速连射，并立即触发§n吐温虹弧§7。\n\n§3⌚ §7冷却：§f6秒",
+            "customName": "拟灵扳机",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "41"
+            ]
+        },
+        "Divine Intervention": {
+            "name": "§k§lDivine Intervention",
+            "description": "§7§n守护天使§7获得§f+8§7发额外弹药。\n每当你施放技能时，你的§n守护天使§7会获得短暂强化。\n\n施放§n箭雨§7将使其射速加快§f1.5倍§7。\n\n§d⌛ §7持续时间：§f1.35秒\n\n§7施放§n爆炸箭§7将使其射出爆炸射击，造成§f+20%§7伤害。\n\n§3☀ §7伤害范围：§f3格§7(圆形)\n§d⌛ §7持续时间：§f3秒",
+            "customName": "神圣干涉",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 6,
+            "requires": [
+                "24"
+            ]
+        },
+        "Arsenal Synergy": {
+            "name": "§h§lArsenal Synergy",
+            "description": "§7§n箭雨§7最近每射出16支箭矢，你的§n普通攻击§7将额外发射一支燧石箭来伤害敌人。\n§8(每次普通攻击最多5支燧石箭)\n\n§c⚔ §7总伤害：§f25%§8(普通攻击伤害，每箭)\n   (§6✣ §8中性伤害：25%)\n§d⌛ §7持续时间：§f6秒",
+            "customName": "武器协同",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Feedback Loop": {
+            "name": "§h§lFeedback Loop",
+            "description": "§7命中§f1§7支燧石箭将使你的下一个§n箭雨§7每道箭流额外射出§f+1§7支箭矢。",
+            "customName": "反馈回路",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "81"
+            ]
+        },
+        "Wild Light": {
+            "name": "§i§lWild Light",
+            "description": "§7你从§n极速狂热§7获得的每§f+1%§7移动速度，你的§n普通攻击§7伤害增加§f+0.8%§7。",
+            "customName": "野性之光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "23"
+            ]
+        },
+        "Elusive": {
+            "name": "§h§lElusive",
+            "description": "§7§n爆炸箭§7和§n箭雨§7不再产生后坐力，且你的§n爆炸箭§7不再造成自我伤害。",
+            "customName": "空灵",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Shrieking Arrows": {
+            "name": "§h§lShrieking Arrows",
+            "description": "§7§n箭雨§7和§n幻影射线§7将造成额外伤害。\n\n§c⚔ §7总伤害：§f+8%§8(主武器伤害倍率，每箭)\n   §8(§6✣ §8中性伤害：+6%)\n   §8(§e✦ §8电伤害：+1%)\n   §8(§f❋ §8气伤害：+1%)\n\n§c⚔ §7总伤害：§f+6%§8(主武器伤害倍率，每次)\n   §8(§6✣ §8中性伤害：+4%)\n   §8(§b❉ §8水伤害：+2%)",
+            "customName": "尖啸箭矢",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "8"
+            ]
+        },
+        "Fimbulwinter": {
+            "name": "§i§lFimbulwinter",
+            "description": "§7敌人在§n凛冬阵法§7中站立§f2秒§7后会受到额外伤害。\n\n增加你的§b陷阱§7上限§f+1§7。\n\n§c⚔ §7总伤害：§f+1200%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：+800%)\n   §8(§b❉ §8水伤害：+400%)",
+            "customName": "芬布尔之冬",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "68"
+            ]
+        },
+        "Sniffer Dog": {
+            "name": "§i§lSniffer Dog",
+            "description": "§7你的§b猎犬§7在攻击敌人时有§f15%§7的几率挖出一个§n陷阱§7。\n\n§3⌚ §7冷却：§f1秒",
+            "customName": "嗅探猎犬",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": [
+                "35"
+            ]
+        },
+        "Overgrowth": {
+            "name": "§f§lOvergrowth",
+            "description": "§7§n苔藓缠身§7的扩散范围更广，造成伤害的速度加快§f33%§7。\n\n§3☀ §7作用范围：§f1格§7(圆形)",
+            "customName": "增生",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "21"
+            ]
+        },
+        "Canine Colleague": {
+            "name": "§f§lCanine Colleague",
+            "description": "§7增加你的§b猎犬§7上限§f+1§7。",
+            "customName": "支援猎犬",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 12,
+            "requires": [
+                "35"
+            ]
+        },
+        "Warding Wisps": {
+            "name": "§j§lWarding Wisps",
+            "description": "§7当§n箭盾§7失去一层充能时，召唤一只§b鬼火§7跟随并保护你。(上限12)\n\n你的§b鬼火§7可以附身附近敌人§f3秒§7，每§f0.75秒§7造成伤害并减缓它们。\n\n§c⚔ §7总伤害：§f100%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：75%)\n   §8(§b❉ §8水伤害：25%)\n§e✧ §7效果：§f20%§7减缓敌人(§c⬤§7)\n§d⌛ §7持续时间：§f30秒",
+            "customName": "守护鬼火",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": [
+                "10"
+            ]
+        },
+        "Quick Draw": {
+            "name": "§i§lQuick Draw",
+            "description": "§7连续§f7§7次使用§n幻影射线§7且未失误将使你的下一次§n普通攻击§7转变为§n吐温虹弧§7光束。",
+            "customName": "快速上膛",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 7,
+            "requires": [
+                "41"
+            ]
+        },
+        "Repel": {
+            "name": "§h§lRepel",
+            "description": "§7施放§n箭盾§7将击退附近敌人并提供短暂的抗性爆发。\n\n§n箭盾§7每次失去一层充能，此技能的冷却时间减少§f1秒§7。\n\n§e✧ §7效果：§f60%§7抗性提升(§a❁§7)\n§d⌛ §7持续时间：§f1秒\n§3☀ §7作用范围：§f6格§7(圆形)\n§3⌚ §7冷却：§f10秒",
+            "customName": "斥退",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "10"
+            ]
+        },
+        "Repositioning": {
+            "name": "§h§lRepositioning",
+            "description": "§7射出§n吐温虹弧§7后获得短暂的速度提升。\n\n§e✧ §7效果：§f+80%§7移动速度(§3➲§7)对自己\n§d⌛ §7持续时间：§f1秒",
+            "customName": "战术转移",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "41"
+            ]
+        },
+        "Mael's Quiver": {
+            "name": "§f§lMael's Quiver",
+            "description": "§7增加§n暮色流光§7的伤害。\n\n§c⚔ §7总伤害：§f+40%§8(主武器伤害倍率，每箭)\n   §8(§6✣ §8中性伤害：+30%)\n   §8(§b❉ §8水伤害：+10%)",
+            "customName": "梅尔箭袋",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": [
+                "65"
+            ]
+        },
+        "Angelic Ascension": {
+            "name": "§5§lAngelic Ascension",
+            "description": "§6连击方式：§r §d§lF\n\n§7召唤光明之力强化你的攻击§f15秒§7，并使§n飞跃§7没有冷却时间。\n\n§n普通攻击§7将改为射出光明箭矢，在§f2秒§7内造成§f50%§7更多伤害。\n\n§n箭雨§7和§n神圣干涉§7的持续时间延长§f2.5§7倍。\n\n§n爆炸箭§7直接命中的敌人将被天堂之雷击中。\n\n§n守护天使§7将拥有无限弹药，并在射出§f14§7轮后触发§n散射§7。\n\n§c⚔ §7总伤害：§f550%§8(主武器伤害倍率，爆炸箭的天雷)\n   §8(§6✣ §8中性伤害：300%)\n   §8(§e✦ §8电伤害：150%)\n   §8(§f❋ §8气伤害：100%)\n\n§7施放技能充能你的§b大招槽⚡§7至100%。",
+            "customName": "天使化身",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 16,
+            "requires": []
+        },
+        "Extinction Event": {
+            "name": "§5§lExtinction Event",
+            "description": "§6连击方式：§r §d§lF\n\n§7召唤一群战术乌鸦，对你前方的大片区域进行地毯式轰炸。\n\n炸弹将留下§n磐石陷阱§7，偶尔留下§n凛冬阵法§7。\n\n§c⚔ §7总伤害：§f3000%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：2400%)\n   §8(§c✹ §8火伤害：600%)\n§2➼ §7范围：§f25格\n§3☀ §7伤害范围：§f15格§7(圆形)\n\n§7施放技能充能你的§b大招槽⚡§7至100%。",
+            "customName": "武装行动",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 16,
+            "requires": []
+        },
+        "The Twilight Zone": {
+            "name": "§5§lThe Twilight Zone",
+            "description": "§6连击方式：§r §d§lF\n\n§7进入专注状态§f8秒§7。\n\n在此状态下，你跳得更高、下落更慢，你视线内的所有敌人每§f0.05秒§7被§#5B88FC暮光⏾§7标记。§8(上限100)§7\n\n持续时间结束时，或通过施放§d§lF§7，向每个被标记的敌人发射一支技能箭矢和一支普通攻击箭矢。\n箭矢对每层§#5B88FC暮光⏾§7标记造成额外伤害。\n\n§c⚔ §7总伤害：§f2000%§8(主武器伤害倍率)\n   §8(§6✣ §8中性伤害：1500%)\n   §8(§b❉ §8水伤害：500%)\n§c⚔ §7总伤害：§f+100%§8(主武器伤害倍率，每层暮光)\n   §8(§6✣ §8中性伤害：+75%)\n   §8(§b❉ §8水伤害：+25%)\n§c⚔ §7总伤害：§f300%§8(普通攻击伤害)\n   §8(§6✣ §8中性伤害：300%)\n§c⚔ §7总伤害：§f+15%§8(普通攻击伤害，每层暮光)\n   §8(§6✣ §8中性伤害：+15%)\n§2➼ §7范围：§f64格\n\n§7施放技能充能你的§b大招槽⚡§7至100%。",
+            "customName": "暮光视域",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 16,
+            "requires": []
+        }
+    },
+    "cellMap": {
+        "5": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Arrow Bomb"
+        },
+        "14": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "23": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Bow Proficiency"
+        },
+        "24": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "25": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Cheaper Arrow Bomb"
+        },
+        "32": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "41": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Heart Shatter"
+        },
+        "50": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "59": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "66": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Double Shots"
+        },
+        "67": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "68": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Escape"
+        },
+        "69": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "70": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Power Shots"
+        },
+        "75": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "79": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "82": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "83": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "84": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Arrow Storm"
+        },
+        "85": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "86": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Cheaper Escape"
+        },
+        "87": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "88": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Arrow Shield"
+        },
+        "89": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "90": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "91": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "92": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Windy Feet"
+        },
+        "93": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "95": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "97": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "99": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "100": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "102": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "104": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "106": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "108": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "109": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "111": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "113": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "115": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "117": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "118": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Air Mastery"
+        },
+        "120": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Thunder Mastery"
+        },
+        "121": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "122": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "123": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "124": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Fire Mastery"
+        },
+        "126": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Water Mastery"
+        },
+        "127": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "129": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "131": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Earth Mastery"
+        },
+        "133": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "135": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "136": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Buckshot"
+        },
+        "137": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "138": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Nimble String"
+        },
+        "140": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "142": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "144": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "145": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "147": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "149": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Bryophyte Roots"
+        },
+        "150": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "151": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Fire Creep"
+        },
+        "152": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "153": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Phantom Ray"
+        },
+        "154": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Frenzy"
+        },
+        "155": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "156": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Triple Shots"
+        },
+        "158": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "162": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "164": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "167": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "171": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "173": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Guardian Angels"
+        },
+        "175": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "176": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Basaltic Trap"
+        },
+        "177": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "179": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "180": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Focus"
+        },
+        "182": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "184": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "186": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "188": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "190": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "191": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Windstorm"
+        },
+        "192": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "193": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Cheaper Arrow Storm"
+        },
+        "194": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "195": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Implosion"
+        },
+        "196": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "197": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Arrow Wall"
+        },
+        "198": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "199": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Stormy Feet"
+        },
+        "200": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "201": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Arsenal Synergy"
+        },
+        "202": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "203": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Patient Hunter"
+        },
+        "204": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "205": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Grappling Hook"
+        },
+        "206": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "207": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "More Focus"
+        },
+        "209": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "211": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Murder Flock"
+        },
+        "212": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "213": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Refined Gunpowder"
+        },
+        "214": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "215": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Phantom Force"
+        },
+        "216": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "218": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "221": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "225": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "226": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "227": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Leap"
+        },
+        "228": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "229": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "230": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Grape Bomb"
+        },
+        "231": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "232": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Ivyroot Mamba"
+        },
+        "233": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "234": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Twain's Arc"
+        },
+        "235": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Shrapnel Bomb"
+        },
+        "236": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "237": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Fierce Stomp"
+        },
+        "238": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "240": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Rocket Jump"
+        },
+        "241": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "242": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Scorched Earth"
+        },
+        "243": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "245": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "247": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "More Traps"
+        },
+        "248": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "250": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "252": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "254": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Divine Intervention"
+        },
+        "255": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "256": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "257": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Cheaper Arrow Shield"
+        },
+        "258": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "259": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Honed Shield"
+        },
+        "260": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "261": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Shocking Bomb"
+        },
+        "263": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "264": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Bounding Stride"
+        },
+        "265": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "267": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Homing Shots"
+        },
+        "269": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "272": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "274": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "278": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "280": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "281": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Recycling"
+        },
+        "282": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "283": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Mana Trap"
+        },
+        "284": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "285": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Cheaper Escape II"
+        },
+        "286": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "287": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Initiator"
+        },
+        "288": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "289": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Courier's Edict"
+        },
+        "291": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Vigilant Sentinels"
+        },
+        "293": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Call of the Hound"
+        },
+        "294": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "295": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Decimator"
+        },
+        "296": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "297": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Phasing Beam"
+        },
+        "298": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "300": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "302": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "303": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Spectral Hover"
+        },
+        "305": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "307": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Parting Gift"
+        },
+        "308": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "309": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Bouncing Bomb"
+        },
+        "310": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "311": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Cheaper Arrow Storm II"
+        },
+        "312": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "313": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "314": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Cheaper Arrow Shield II"
+        },
+        "315": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "317": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "319": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Hookshot"
+        },
+        "321": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "322": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Ghostly Trigger"
+        },
+        "323": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "324": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Coursing Restraints"
+        },
+        "326": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "330": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "332": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "334": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "335": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Arrow Hurricane"
+        },
+        "336": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "337": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Beast Lore"
+        },
+        "338": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "339": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Tangled Traps"
+        },
+        "341": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "343": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "344": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "345": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Elusive"
+        },
+        "346": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "347": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Chilling Snare"
+        },
+        "348": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "349": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "350": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "352": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Feedback Loop"
+        },
+        "353": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "355": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Swift Primer"
+        },
+        "356": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "358": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 4
+            }
+        },
+        "359": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Crepuscular Ray"
+        },
+        "360": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "361": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "362": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            },
+            "abilityID": "Transience"
+        },
+        "363": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "364": {
+            "travelNode": {
+                "up": 0,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "365": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Snow Storm"
+        },
+        "366": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "367": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Cheaper Arrow Bomb II"
+        },
+        "369": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "More Focus II"
+        },
+        "370": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "372": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "375": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "378": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "379": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "381": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "384": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "387": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "388": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Wild Light"
+        },
+        "389": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "390": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "392": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "393": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Fimbulwinter"
+        },
+        "394": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "395": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 3
+            }
+        },
+        "396": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Warding Wisps"
+        },
+        "398": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "399": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            },
+            "abilityID": "Shrieking Arrows"
+        },
+        "400": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "401": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 4
+            },
+            "abilityID": "Overgrowth"
+        },
+        "402": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "403": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 3
+            },
+            "abilityID": "Quick Draw"
+        },
+        "404": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "405": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "407": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "409": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "410": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "411": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Sniffer Dog"
+        },
+        "412": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            }
+        },
+        "413": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Repel"
+        },
+        "414": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "416": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Pyrotechnics"
+        },
+        "418": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Canine Colleague"
+        },
+        "419": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "421": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 1,
+                "variant": 1
+            },
+            "abilityID": "Mael's Quiver"
+        },
+        "422": {
+            "travelNode": {
+                "up": 0,
+                "down": 1,
+                "left": 1,
+                "right": 1,
+                "variant": 2
+            }
+        },
+        "423": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 1,
+                "right": 0,
+                "variant": 1
+            },
+            "abilityID": "Repositioning"
+        },
+        "425": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "428": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "431": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "434": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            }
+        },
+        "437": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "440": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "443": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 1
+            }
+        },
+        "446": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "449": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 3
+            }
+        },
+        "452": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "Angelic Ascension"
+        },
+        "455": {
+            "travelNode": {
+                "up": 1,
+                "down": 1,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            }
+        },
+        "458": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 4
+            },
+            "abilityID": "The Twilight Zone"
+        },
+        "464": {
+            "travelNode": {
+                "up": 1,
+                "down": 0,
+                "left": 0,
+                "right": 0,
+                "variant": 2
+            },
+            "abilityID": "Extinction Event"
+        }
+    },
+    "currentHorizontalPage": 1,
+    "bEditMode": true,
+    "startingAbilityID": "1",
+    "abilityTrees": {
+        "Default": []
+    },
+    "selectedTree": "Default"
+}
