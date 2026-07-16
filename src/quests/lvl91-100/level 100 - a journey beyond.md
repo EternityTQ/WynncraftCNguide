@@ -31,7 +31,11 @@ icon: star
 ---
 对话完后你和其他三位队友（在接下来都会协同作战）会被传送到 **The Silent Expanse** 的入口。
 
-跟着NPC继续进行对话，遭遇怪物 <mob>Black Geist</mob>。此时怪物拥有屏障，是打不死的。对话进行到一半时，<NPC>Aledar</NPC> 会叫你赶紧出门，出去后向洞口放个技能封锁洞口。等洞口倒塌一系列剧情结束后即可。
+跟着NPC继续进行对话，遭遇怪物 <mob>Black Geist</mob>。此时怪物拥有屏障，是打不死的。
+
+对话进行到一半时，<NPC>Aledar</NPC> 会叫你赶紧出门，出去后向洞口放个技能封锁洞口。等洞口倒塌一系列剧情结束后即可。
+
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-07-16-14-50-31.png)
 
 ![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-12-40.png)
 
@@ -39,7 +43,7 @@ icon: star
 ---
 前往Black Road的 <CC>730 61 -1434</CC> 寻找铁匠 <NPC>Dren</NPC>，并和他们继续对话。铁匠告知需要一明一暗两件物品来消除你们身上的黑暗元素，才能击败这只幽灵。
 
->此处NPC可能不刷新，此时尝试多/class几次
+>此处NPC可能不刷新，此时可依次尝试/class、/hub、重登
 
 ![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-04-29-23-15-07.png)
 
@@ -79,12 +83,15 @@ icon: star
 
 ### Step 7 寻找同伴 (Lucio)
 ---
+
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-07-16-15-07-54.png)
+
 前往陨落之城（Fallen City）的 <CC>489 85 -601</CC>。地上有一把镐子，你需要用镐子挖岩石开出一条向下的路（镐子只能用7次，请务必合理安排最短路线）。
 
 进入下方的房间后，你发现 <NPC>Lucio</NPC> 已经被彻底洗脑，变成了 <mob>Enraptured Obsessor</mob>。将其击杀，拿到 `Lucio's Skull` 后离开。
 
 :::tip
-按下图路线挖就好了
+按下图路线挖就好了，但需要一点移速或者跳跃提升
 
 ![=500x](/assets/img/lvl100-1.jpg)
 
@@ -93,6 +100,9 @@ icon: star
 
 ### Step 8 寻找同伴 (Elphaba)
 ---
+
+![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-07-16-15-09-37.png)
+
 前往 <CC>465 93 -399</CC> 的大教堂建筑物里面，直走进入下方的洞口。
 
 在红地毯房间内获得 `Sound Wave Emitter`。拿在手上右键可以听声辨位，找出哪扇传送门传出了Irtitack的叫声。通过迷宫到达顶层后，击杀 <mob>Mutated Irtitack</mob>，拾取地上留下的 `Elphaba's Chestplate` 后离开。
@@ -111,7 +121,7 @@ icon: star
 
 ### Step 9 寻找同伴 (Aledar)
 ---
-回到 <NPC>Aledar</NPC> 被抓走的地方 <CC>595 71 -680</CC>，你会被巨虫吞到胃里。
+回到 <NPC>Aledar</NPC> 被抓走的地方 <CC>595 71 -680</CC>，你会被巨虫吞到胃里。![](/assets/img/level%20100%20-%20a%20journey%20beyond.md-07-16-15-11-24.png)
 
 通过内部跑酷找到 <NPC>Aledar</NPC>，他把腿摔断了。对话结束后，沿着原路往回走一小段路，帮他找到治疗药水，交给他使用后一起逃离。
 

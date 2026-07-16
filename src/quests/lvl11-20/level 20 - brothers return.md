@@ -1,5 +1,5 @@
 ---
-title: Grave Digger(level 20)
+title: Brothers Return(level 20)
 icon: scroll
 ---
 

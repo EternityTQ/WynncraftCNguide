@@ -80,6 +80,28 @@ icon: skull
 
 <NPC>Aledar</NPC> 坦白了残酷的真相：必须在祭坛上献祭一个强大的灵魂才能开门。由于他已濒临死亡，他坚决要求你牺牲他。右键拿起祭坛上的利刃，并击杀 <NPC>Aledar</NPC>。
 
+
+:::tip 小趣事
+如果你的[Mushroom Man (level 6)](/quests/lvl1-10/level%206%20-%20mushroom%20man.html)任务尚未完成，你可以在最后前往Detlas的路上，把Tasim拐到这个任务中。
+
+你需要在本任务中做到最后阶段，也就是手刃<NPC>Aledar</NPC>的阶段，然后回去做[Mushroom Man (level 6)](/quests/lvl1-10/level%206%20-%20mushroom%20man.html)，在最后一步不去交任务，而是把Tasim一路带到这里来
+
+注意，你**不能触发任何传送**，只能用位移技能一路跑过来，否则Tasim会跟丢你
+
+建议提前在包内准备Detlas的传送卷轴，以防地雷男Aledar不让你走。
+
+在最后屏障前，你可以走这条路来避免虚空洞的传送。
+
+![](/assets/img/level%20101%20-%20a%20journey%20further.md-07-16-14-59-47.png)
+
+如果操作得当，你就可以在最后阶段拍到Tasim和满头血的Aledar的合影了。
+
+
+![](/assets/img/level%20101%20-%20a%20journey%20further.md-07-16-15-57-42.png)
+
+:::
+
+
 ## 剧情省流 / Summary
 冒险者与Aledar在Lutho稍作休整后，沿着道路继续他们的旅程。途中，他们遭到了寄生史莱姆的伏击。在冒险者击杀寄生史莱姆之王后，其余的怪物四散而逃。Aledar发现冒险者的伤口被周围的剧毒环境感染，急忙拿出随身携带的药水让冒险者喝下。
 
