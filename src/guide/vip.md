@@ -13,11 +13,13 @@ icon: gem
 **支持支付宝**
 
 ## Ranks
-相当于VIP
+Rank相当于付费会员。
 
 一共有五个等级：`VIP`、`VIP+`、`HERO`、`HERO+`、`CHAMPION`
 
-Rank均为永久，一次付费账号内
+Rank均为永久，一次付费账号内所有存档均享受权益
+
+需要提醒的是，Rank不包含任何能让你变强的功能，绝大部分功能均为舒适度相关。
 
 :::details rank的主要功能
 
