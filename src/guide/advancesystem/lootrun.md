@@ -1061,7 +1061,7 @@ cleansing greed本身不提供任何奖励,只有在任务烂完的情况下才�
 
 可选组件: <font color='AA00AA'> **Sacrificial Ritual** </font> / <font color='AA00AA'> **Radiant Hunter** </font> / <font color='5555FF'> **Route Indigo** </font> / <rb><b>彩虹信标</b></rb>
 
-简单来说,引爆高效能Boon，来换取大量Boon
+简单来说,引爆高效能Boon，来换取大量pulls
 
 这种打法比较适合短途,长途极有可能吃不动
 
@@ -1091,9 +1091,9 @@ Opal单走会比较区，有彩虹的情况下青蓝400%potency能给13pulls
 
 先获取大量的燃料(100-200,甚至更高)后,就可以开始循环了.
 
-同时,新版chronotrigger也要烧诅咒,你需要保持你的诅咒数量在一定数量,建议暗灰在70轮左右再获取.
+同时,新版chronotrigger也要烧诅咒,你需要保持你的诅咒数量在一定数量,最好有100左右的curse。
 
-如果有porphyrophobia,你的chronotrigger大概会在每个绿信标4%左右平衡下来;如果没有,就是2%.
+如果有porphyrophobia,你的chronotrigger大概会在每个绿信标5%左右平衡下来;如果没有,就是2-3%.
 
 如果没有reroll的话,可以考虑使用lr token氪金获取,虽然笔者只建议在1000+pulls的时候用
 
