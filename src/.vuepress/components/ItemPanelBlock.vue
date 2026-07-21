@@ -142,8 +142,8 @@ const formatMajorIdDesc = (desc) => {
   text-align: left; /* 保证全局居左 */
 }
 .item-icon {
-  width: 50px;
-  height: 50px;
+  width: 80px;
+  height: 80px;
   display: block;
   margin: 0 auto;
 }
