@@ -321,7 +321,6 @@ const handleMouseLeave = () => {
 .inline-text {
   text-decoration: underline dashed;
   cursor: help;
-  font-weight: bold;
   font-family: minecraft, icons, mojangles, unifont, unifontEmoji, sans-serif;
 }
 
