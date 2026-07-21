@@ -138,7 +138,7 @@ const formatMajorIdDesc = (desc) => {
   color: #fff;
   padding: 10px;
   width: 300px;
-  font-family: ui-sans-serif,system-ui,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+  font-family: minecraft, icons, mojangles, unifont, unifontEmoji, sans-serif;
   text-align: left; /* 保证全局居左 */
 }
 .item-icon {
@@ -148,7 +148,7 @@ const formatMajorIdDesc = (desc) => {
   margin: 0 auto;
 }
 .item-header { text-align: center; }
-.item-name { font-size: 20px; font-weight: bold; }
+.item-name { font-size: 20px;  }
 .item-attribute { font-size: 16px; margin-top: 5px; color: rgb(170, 170, 170); }
 .damage, .health { font-size: 16px; }
 .gray { color: rgb(170, 170, 170); }
