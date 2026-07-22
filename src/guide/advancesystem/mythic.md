@@ -158,6 +158,13 @@ Ascend版本：
 > 服务器苦不堪言
 > 光速被整改
 :::
+
+:::details 构筑介绍
+
+
+:::
+
+
 ### Hero
 
 <MythicItem name="Hero" />
@@ -206,6 +213,10 @@ Fallen本身数值没有很大的提升，Ultimate也很鬼畜，总之Hero如�
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ### Guardian
 
@@ -256,6 +267,10 @@ major相比之前稍微难受了一点，要在技能树多点一个节点。~~�
 + 父亲的安全感
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Alkatraz
 
 <MythicItem name="Alkatraz" />
@@ -329,6 +344,10 @@ bmonk挨了一刀导致输出略低，而属性导致不走etw就很难有伤害
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 
 :::details meme
 ![=300x](/assets/img/idol2.jpg)
@@ -387,6 +406,10 @@ super idol 的笑容，都没你的甜
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 
 ### Collapse
 
@@ -419,6 +442,10 @@ bmonk被削之前还行，现在就是查无此人。
 + 打团气氛组，只听人在响，没见人在输出
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Convergence
 
 <MythicItem name="Convergence" />
@@ -456,6 +483,10 @@ bmonk被削之前还行，现在就是查无此人。
 + 七自制fallen conv
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Bloodbath
 
 <MythicItem name="Bloodbath" />
@@ -501,6 +532,10 @@ bmonk被削之前还行，现在就是查无此人。
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Ascendancy
 
 <MythicItem name="Ascendancy" />
@@ -544,6 +579,10 @@ bmonk被削之前还行，现在就是查无此人。
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ### Resitution
 
@@ -573,6 +612,10 @@ bmonk被削之前还行，现在就是查无此人。
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 ## 法师
 
 ### Pure
@@ -627,6 +670,10 @@ Ascend之后面板加了一点，提升很大，跟自己比。
 + 他终于夺回了entropy
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Lament
 
 <MythicItem name="Lament" />
@@ -673,6 +720,10 @@ ascend的消息出来的时候，大家还在期待能否重铸拉面荣光
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 
 ### Gaia
 
@@ -726,6 +777,10 @@ rage gaia似乎伤害还不错，但qol是个很大的问题。
 
 
 
+:::details 构筑介绍
+
+
+:::
 ### Monster
 
 <MythicItem name="Monster" />
@@ -778,6 +833,10 @@ RW超级炮机，虫子pf摧毁者。
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 
 
 ### Fatal
@@ -819,6 +878,10 @@ ascend了之后还是挺区的，最大的问题是纯负面major，伤害全部
 + 感觉，不如羽蛇神
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 
 ### Singularity
@@ -856,6 +919,10 @@ ascend了之后还是挺区的，最大的问题是纯负面major，伤害全部
 + 最傻逼的major
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 
 ### Warp
@@ -925,6 +992,10 @@ raid其实你想打也可以打。
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 
 
 ###	Quetzalcoatl
@@ -958,6 +1029,10 @@ fruma出来后感觉还是很菜，高额负数he与RW相性不佳，结果人�
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 ### Trance
 
 
@@ -1004,6 +1079,10 @@ RiftWalker重做加入大量Melee节点，还顺带捆绑了几个新Melee asp�
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Riptide
 
 
@@ -1034,6 +1113,10 @@ QOL是个问题，缺少移速并且陨石还容易砸不中，法师还缺少�
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Halcyon
 
 <MythicItem name="Halcyon" />
@@ -1086,6 +1169,10 @@ BETA服最后几天出的这把武器，印象里刚开始还没意识到这把�
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 ## 弓手
 
 ### Az
@@ -1124,6 +1211,10 @@ ascend了之后还是挺垃圾的...没人用。
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ### Freedom
 
@@ -1156,6 +1247,10 @@ ascend了之后还是挺垃圾的...没人用。
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 
 ### Grandmother
 
@@ -1197,6 +1292,10 @@ ascend了之后还是挺垃圾的...没人用。
 + ct什么时候原谅sharpshooter
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ### Ignis
 
@@ -1241,6 +1340,10 @@ ascend了之后还是挺垃圾的...没人用。
 + 没有体验过ewf的Wynner人生是不完整的
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Divzer
 
 <MythicItem name="Divzer" />
@@ -1298,6 +1401,10 @@ ms削了降了下手感，倒是无伤大雅
 + 有没有人懂bolt加强第一天12格4.5倍速小飞机的DZ
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ### Spring
 
@@ -1341,6 +1448,10 @@ ms削了降了下手感，倒是无伤大雅
 + 年度溢价神话
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Stratiformis
 
 <MythicItem name="Stratiformis" />
@@ -1387,6 +1498,10 @@ Ascend版本：
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Epoch
 
 <MythicItem name="Epoch" />
@@ -1447,6 +1562,10 @@ ascend版本：
 + 有伤害的前提是队友全死
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Labyrinth
 <MythicItem name="Labyrinth" />
 
@@ -1488,6 +1607,10 @@ ascend版本：
 + 现在没啥存在感了，bolt王朝这一块。
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ### Revolution
 <MythicItem name="Revolution" />
@@ -1518,6 +1641,10 @@ BUG修复之后伤害低了一截，大家终于意识到这把武器是区了�
 + 炒作的王
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Eschaton
 
 <MythicItem name="Eschaton" />
@@ -1545,6 +1672,10 @@ BUG修复之后伤害低了一截，大家终于意识到这把武器是区了�
 + 末世拼尽全力做到了500k
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ## 刺客
 
@@ -1586,6 +1717,10 @@ slider以1ws的劣势惜败archangel
 + 走好自己的路就行了，为什么加了个melee range词条，你是其他武器的移速副手吗
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Nullification
 
 <MythicItem name="Nullification" />
@@ -1623,6 +1758,11 @@ slider以1ws的劣势惜败archangel
 + 专门为这把武器做了一套新套装
 
 + BYD评到这的时候冷场了
+:::
+
+:::details 构筑介绍
+
+
 :::
 ### Weathered
 
@@ -1662,6 +1802,13 @@ slider以1ws的劣势惜败archangel
 
 + 伤害前三的刺客武器
 :::
+
+
+:::details 构筑介绍
+
+
+:::
+
 ### Grimtrap
 
 <MythicItem name="Grimtrap" />
@@ -1694,6 +1841,10 @@ slider以1ws的劣势惜败archangel
 + ct为了Rebalance给绿拳加了很多毒伤来代替👍🏻
 
 + 摔炮流风光无限 结果被一刀砍完又躺回去了
+:::
+:::details 构筑介绍
+
+
 :::
 ### Cataclysm
 
@@ -1754,6 +1905,10 @@ ascend版本：
 
 + 硕果仅存的dps 武器
 :::
+:::details 构筑介绍
+
+
+:::
 ### Nirvana
 
 <MythicItem name="Nirvana" />
@@ -1792,6 +1947,10 @@ ascend版本：
 + 现代最弱
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Inferno
 
 <MythicItem name="Inferno" />
@@ -1827,6 +1986,10 @@ hm有发挥空间，但是真的有人玩hm吗
 + 扣1送地狱火
 
 + 玩着玩着你就会怀疑他的属性
+:::
+:::details 构筑介绍
+
+
 :::
 ### Oblivion
 
@@ -1868,6 +2031,10 @@ hm有发挥空间，但是真的有人玩hm吗
 + 还是猫爪的指定玩具
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Hanafubuki
 
 <MythicItem name="Hanafubuki" />
@@ -1915,6 +2082,10 @@ hana：别别别
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Vengeance
 
 <MythicItem name="Vengeance" />
@@ -1944,6 +2115,10 @@ hm的QOL比较堪忧，需要队友，但如果BOSS房能暴击就能让队友�
 
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Architect
 
 <MythicItem name="Architect" />
@@ -1969,6 +2144,10 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 + 名垂千古圣号巍巍神威赫赫win圣帝君都有人黑啊，nb。。。
 
 + ascended masterwork nullification
+:::
+:::details 构筑介绍
+
+
 :::
 ## 萨满
 
@@ -2006,6 +2185,10 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 + 萨满版本,但是查无此人
 :::
 
+:::details 构筑介绍
+
+
+:::
 ### Olympic
 
 <MythicItem name="Olympic" />
@@ -2050,6 +2233,10 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 + 我不知道啊 放个触手和bs他们就死光光了
 
 :::
+:::details 构筑介绍
+
+
+:::
 ### Hadal
 
 <MythicItem name="Hadal" />
@@ -2088,6 +2275,10 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 
 + 《abso是raid核心》《reson也很重要》《卧槽兄弟 hadal是谁》
 :::
+:::details 构筑介绍
+
+
+:::
 ### Sunstar
 
 <MythicItem name="Sunstar" />
@@ -2117,6 +2308,10 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 + 这是新神话吗？
 
 + 金发贫乳双马尾大姐姐
+:::
+:::details 构筑介绍
+
+
 :::
 ### Fantasia
 
@@ -2158,6 +2353,10 @@ aura spam享受者
 
 + 全游总点数需求最高的武器
 :::
+:::details 构筑介绍
+
+
+:::
 ### Toxoplasmosis
 
 <MythicItem name="Toxoplasmosis" />
@@ -2198,6 +2397,10 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
 :::
 
 
+:::details 构筑介绍
+
+
+:::
 ### Absolution
 
 <MythicItem name="Absolution" />
@@ -2237,6 +2440,10 @@ Abso的功能决定了它几乎与Acolyte强绑定，它就是为当奶妈而生
 + 我操你们妈怎么真有人在pf玩summoner abso
 
 + 所以abso是一个没有触手找不到家庭的玩意.json
+:::
+:::details 构筑介绍
+
+
 :::
 ### Immolation
 
@@ -2281,6 +2488,10 @@ Abso的功能决定了它几乎与Acolyte强绑定，它就是为当奶妈而生
 + 比SilverSound弱
 
 + 很好的设计+很蠢的树=用粪煮了只龙虾
+:::
+:::details 构筑介绍
+
+
 :::
 ### Resonance
 
@@ -2329,6 +2540,10 @@ reson的强度在血萨加强之前就有了，非常彪悍的major设计硬抬�
 + 唯一的作用是滋一管金血给队友
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ### Transfiguration
 
@@ -2357,6 +2572,10 @@ reson的强度在血萨加强之前就有了，非常彪悍的major设计硬抬�
 
 + 怪怪的mid 数值也很一般
 :::
+:::details 构筑介绍
+
+
+:::
 
 ### Fate
 
@@ -2382,6 +2601,10 @@ we removed ritualist. we gave up.
 + 命运的命运....是什么呢
 :::
 
+:::details 构筑介绍
+
+
+:::
 
 ## 装备
 
