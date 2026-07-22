@@ -220,6 +220,7 @@ const idMap = {
   damPct: {name: 'Damage', suffix: '%'},
   defPct: {name: 'Defence', suffix: '%'},
   rMdRaw: {name: 'Elemental Main Attack Damage', suffix: ''},
+  rDamRaw: {name :'Elemental Damage', suffix: ''},
 };
 
 // 计算装备的所有鉴定词条

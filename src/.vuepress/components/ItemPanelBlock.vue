@@ -59,7 +59,7 @@
         </template>
 
         <template v-for="(mid, index) in majorIds" :key="'major-'+index">
-          <span class="major-id-name">+{{ mid.name }}:</span> 
+          <span class="major-id-name">+{{ mid.name }}: </span> 
           <span class="major-id-desc" v-html="formatMajorIdDesc(mid.description)"></span><br>
         </template>
       </p>
