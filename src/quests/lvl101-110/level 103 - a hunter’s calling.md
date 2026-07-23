@@ -7,13 +7,17 @@ icon: star
 任务等级：Level 103 / 推荐等级： Level 103
 任务时长：长 / 任务难度：困难
 中文译名：猎人的呼唤
-前置任务：[Dwarves and Doguns Part II](/quests/dwarves-and-doguns-part-ii)、[An Iron Heart Part II](/quests/an-iron-heart-part-ii)
-前置地牢：[Eldritch Outlook](/guide/dungeon.html#eldritch-outlook) (当前角色必须至少通关一次)
 
+:::warning 关于前置
+游戏内没有提到，但是本任务存在前置：
+前置任务：[Dwarves and Doguns Part II](/quests/dwarves-and-doguns-part-ii)、[An Iron Heart Part II](/quests/an-iron-heart-part-ii)
+
+前置地牢：[Eldritch Outlook](/guide/dungeon.html#eldritch-outlook) (当前角色必须至少通关一次，如果不打就无法接取任务)
+:::
 :::tip
 为了提高任务效率，建议你在任务开始前在包内预留下列城市的传送卷轴：
 + Ragni (可选，可以通过快速通道从 Detlas 赶过去)
-+ Detlas (最好多几张)
++ Detlas
 + Almuj
 + Nesaak
 + Troms
@@ -44,14 +48,19 @@ icon: star
 ### Step 2 Ragni 幻境
 ---
 前往 **Ragni**。被传送进幻境后，<NPC>Bak'al</NPC> 命令你去屠杀平民。
+
 你需要击杀 10 个 <mob>Ragni Citizen</mob> 达成目标，导致 Ragni 彻底沦陷。
 
 ### Step 3 Almuj 幻境
 ---
 前往 **Almuj** 后面的沙漠 <CC>1087 73 -1824</CC> 触发剧情，然后沿着路走。
+
 找到城市内的 <NPC>Amadel</NPC> 并对话，接着去寻找旁边的 <NPC>Employee</NPC> <CC>11310 85 5086</CC> 并听取暗杀计划。
+
 从该 NPC 旁边的树叶过河，爬上带藤蔓的那棵最大的树并透过窗户看银行内部。
+
 前往银行北部，通过跑酷来到天花板上的吊灯 <CC>11342 111 5034</CC>，右键陷阱杀掉人类市长。
+
 回去和 <NPC>Amadel</NPC> 谈话。
 
 :::tip
@@ -61,12 +70,15 @@ icon: star
 ### Step 4 Nesaak 幻境
 ---
 前往 **Nesaak** 的 Ice Barrow 门口触发剧情，随后和 <NPC>Bak'al</NPC> 对话。
+
 沿着路进入过去的 Nesaak，听完市长 <NPC>Kotham</NPC> 和 <NPC>Theorick</NPC> 的对话后，击杀 <mob>Theorick</mob>。
 
 ### Step 5 Troms 幻境
 ---
 前往 **Troms** 附近的 Corrupter of Worlds 洞穴入口 <CC>-713 61 -965</CC> 触发剧情。
+
 进去并走到尽头，<NPC>Bak'al</NPC> 命令你释放这只怪物。
+
 回到大洞穴的中央，将周围的 <mob>Corrupted</mob> 引到绿光全息投影标识处，随后地面会升起一座塔。利用压力板爬上塔顶解除封印，释放怪物后离开。
 
 :::tip
