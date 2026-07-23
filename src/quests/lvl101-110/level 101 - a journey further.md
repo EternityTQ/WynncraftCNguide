@@ -65,6 +65,9 @@ icon: skull
 
 ### Step 6 破坏屏障
 ---
+
+![](/assets/img/level%20101%20-%20a%20journey%20further.md-07-24-01-32-02.png)
+
 通过跑酷到达屏障的对面后，沿着绿宝石路径拿到稿子。
 
 
@@ -84,9 +87,9 @@ icon: skull
 :::tip 小趣事
 如果你的[Mushroom Man (level 6)](/quests/lvl1-10/level%206%20-%20mushroom%20man.html)任务尚未完成，你可以在最后前往Detlas的路上，把Tasim拐到这个任务中。
 
-你需要在本任务中做到最后阶段，也就是手刃<NPC>Aledar</NPC>的阶段，然后回去做[Mushroom Man (level 6)](/quests/lvl1-10/level%206%20-%20mushroom%20man.html)，在最后一步不去交任务，而是把Tasim一路带到这里来
+你需要在本任务中做到最后阶段，也就是手刃<NPC>Aledar</NPC>的阶段，然后回去做[Mushroom Man (level 6)](/quests/lvl1-10/level%206%20-%20mushroom%20man.html)，在最后一步要去Detlas的时候不去交任务，而是把Tasim一路带到这里来
 
-注意，你**不能触发任何传送**，只能用位移技能一路跑过来，否则Tasim会跟丢你
+注意，你**不能触发任何传送，包括虚空洞**，只能用位移技能一路跑过来，否则Tasim有概率会跟丢你
 
 建议提前在包内准备Detlas的传送卷轴，以防地雷男Aledar不让你走。
 
