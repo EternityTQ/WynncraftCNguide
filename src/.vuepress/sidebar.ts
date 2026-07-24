@@ -143,6 +143,12 @@ export default sidebar({
         icon: "skull",
         collapsible: true,
         children: ["intro","newbie", "notg", "nol", "tcc", "tna","twp"],
+      },{
+        text: "Lootrun",
+        prefix: "lootrun/",
+        icon: "wheelchair-move",
+        collapsible: true,
+        children: ["intro","guide","location"],
       }, "grindspot", "earnle", "vip", "festival", "mod", "slang", "community", "qa", "support","rules"],
     },
   ],
