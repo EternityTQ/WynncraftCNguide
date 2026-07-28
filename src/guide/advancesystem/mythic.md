@@ -2187,6 +2187,13 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 
 :::details 构筑介绍
 
+Aftershock （Ritualist）
+优势：唯一的melee选手，操作少
+劣势：很依赖raid buff打输出，高输出的build比较极限
+https://wynnbuilder.github.io/builder/#CW083145uI4+QWw4CDI36om0ppRANtCn0VkztZTQjSkbNG0
+推荐副手：Tremorcaller（位移）、Silent Ballet（位移）等
+
+拿Lower切至黄面具，扔图腾（1技能）至觉醒条满后放4技能后进入觉醒状态，觉醒状态下一般切至蓝面具获得额外机动性，觉醒后面具旋转时可以贴近怪物来对其施加debuff
 
 :::
 ### Olympic
@@ -2235,6 +2242,26 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 :::
 :::details 构筑介绍
 
+Olympic（Acolyte、Summoner）
+优势：较高伤害，高机动，高回血，不太吃鉴定属性
+劣势：脆（agi moment），蓝量紧张
+https://wynnbuilder.github.io/builder/#CW0cFHxGOm3uQGgJ8uH15amWsqYSjpdJVme-tTwzuxfG0
+推荐副手：Narcissist（移动救护车）、The Watched（回血）、Tremorcaller（位移）、Silent Ballet（位移）、Fractal（1jh的ws副手）等
+
+必选Aspect包括：
+Acolyte神话（Acolyte's Embodiment of Unwavering Adherence）
+血池容量（Aspect of Exsanguination）
+Tether触发阈值（Aspect of Empathy）
+可选Aspect包括：
+图腾范围（Aspect of Emanant Force）
+Aura速度（Aspect of Surging Presence）
+火舌血池获取量（Aspect of Gushing Blood）
+
+技能循环基本以维持触手（Eldritch Call）和挂流血（Bleeding）为主，走位保持在图腾范围内稳定触发tether，大约两秒释放一次4技能脱手挂流血，约10秒放一次触手，约6/7/8秒释放一次blood sorrow，期间为了维持自身或队友血量可以释放aura，因为这个build比较缺蓝，一般不使用aura打输出而是回血保命，最好保持血池至少有70点以应急放血池或sorrow
+
+Olympic也可以玩Summoner，build、技能树和技能循环可参考下文Transfiguration的部分，可以用Astrolabe、Unravel等输出头替换Polyglot来最大化输出
+
+
 
 :::
 ### Hadal
@@ -2277,6 +2304,25 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 :::
 :::details 构筑介绍
 
+Hadal（Acolyte）
+优势：高伤害，高回转，raid中吃属性点buff收益高
+劣势：断腿，治疗量略小，吃鉴定属性
+https://wynnbuilder.github.io/builder/#CW0e100HGI4XQGbHgCI15OF2gcKSi10svpfFOqzxEzUy-K4
+也可选用Crusade Sabatons（鞋）牺牲一定的输出来换取大量ehp，或是使用Malocchio（项链）、Metamorphosis（项链）等输出装备补充输出
+推荐副手：Narcissist（移动救护车）、Twin Minds（回血）等
+
+必选Aspect包括：
+Acolyte神话（Acolyte's Embodiment of Unwavering Adherence）
+血池容量（Aspect of Exsanguination）
+Tether触发阈值（Aspect of Empathy）
+可选Aspect包括：
+图腾范围（Aspect of Emanant Force）
+Aura速度（Aspect of Surging Presence）
+火舌血池获取量（Aspect of Gushing Blood，注：树中点了Rupture，可以通过选择这个aspect来增加血池稳定获取来增幅aura提升dps）
+
+技能循环基本以维持触手（Eldritch Call）和挂流血（Bleeding）为主，走位保持在图腾范围内稳定触发tether，大约两秒释放一次4技能脱手挂流血，约10秒放一次触手，约6/7/8秒释放一次blood sorrow，期间为了维持自身或队友血量可以释放aura，如果选择火舌血池获取量aspect，可以向循环中适当添加aura增加输出，但最好保持血池至少有70点以应急放血池或sorrow
+
+Hadal也可以玩Summoner混Ritualist，配合Schadenfreude（Fabled胸甲）的傀儡快速自爆major id以及碎图腾（Totemic Shatter）快速召唤puppet等技能，可以在raid中打出高输出，但build本身ehp很低，需要队友支持，故不在此列出
 
 :::
 ### Sunstar
@@ -2310,6 +2356,12 @@ wintel一个视频直接让建筑师的价格翻了五倍(3stx→15stx)
 + 金发贫乳双马尾大姐姐
 :::
 :::details 构筑介绍
+Sunstar （Acolyte、Ritualist、Summoner）
+优势：hybrid选手，非常便宜
+劣势：build都很极限，输出和坦度难以双全
+结论：非单推人或是萨满狂热者一般不考虑使用这个武器
+
+https://wynnbuilder.github.io/builder/#CW0x2H3HiK4i5HgJwmG15amGkcDSv-q7vUyzK4
 
 
 :::
@@ -2354,7 +2406,25 @@ aura spam享受者
 + 全游总点数需求最高的武器
 :::
 :::details 构筑介绍
+Fantasia（Acolyte、Ritualist、Summoner）
+优势：较高的伤害，很低的cost可以随便甩技能
+劣势：略微断腿，治疗量很少，略脆
+https://wynnbuilder.github.io/builder/#CW01312EiK4lGHgJITI15amWecKwhT+Sw36T-kzzuxf12
+也可选用Unforeseen Ends（戒指）、Symbiont（戒指）等物品，提升伤害、HE、ws等
+推荐副手：The Watched（回血）、Tremorcaller（位移）、Silent Ballet（位移）等
 
+必选Aspect包括：
+Acolyte神话（Acolyte's Embodiment of Unwavering Adherence）
+血池容量（Aspect of Exsanguination）
+Tether触发阈值（Aspect of Empathy）
+可选Aspect包括：
+图腾范围（Aspect of Emanant Force）
+Aura速度（Aspect of Surging Presence）
+火舌血池获取量（Aspect of Gushing Blood，注：树中点了Rupture，可以通过选择这个aspect来增加血池稳定获取来增幅aura提升dps）
+
+技能循环基本以维持触手（Eldritch Call）和挂流血（Bleeding）为主，走位保持在图腾范围内稳定触发tether，大约两秒释放一次4技能脱手挂流血，约10秒放一次触手，约6/7/8秒释放一次blood sorrow，期间为了维持自身或队友血量可以释放aura，如果选择火舌血池获取量aspect，可以向循环中适当添加aura增加输出，但最好保持血池至少有70点以应急放血池或sorrow
+
+Fantasia也可以玩Ritualist和Summoner，Ritualist的技能树和技能循环可参考下文Fate的部分，在碎图腾打输出之外也可以选择刷aura打输出，Summoner的可参考下文Immolation的部分
 
 :::
 ### Toxoplasmosis
@@ -2399,6 +2469,23 @@ mob grinding之神，毒伤可以捏爆很多大蚂蚁 还有lb加成
 
 :::details 构筑介绍
 
+Toxoplasmosis （Summoner）
+优势：高爆发，操作少，懒人传统农具
+劣势：整体输出较低不适合raid
+https://wynnbuilder.github.io/builder/#CW0N1WZJ4L4t5XeH4DIpHQdGlcRkkPWj7zp-xWr3-Xv51
+至少携带一个Lower（Orange Wybel boss祭坛专属掉落）作为触发觉醒面具（Awaken Mask）的副手
+其他可选副手包括：Tremorcaller（位移）、Silent Ballet（位移）等
+
+必选Aspect包括
+Summoner神话（Summoner's Embodiment of the Omnipotent Overseer）
+Aura拉拽强度（Aspect of Summer Storm）
+可选aspect包括
+图腾范围（Aspect of Emanant Force）
+Aura速度（Aspect of Surging Presence）
+傀儡数量（Aspect of the Beckoned Legion）
+傀儡和猩红魔像移速（Aspect of Acceleration）等
+
+技能循环仅需3秒释放一个aura，通过aura命中其他图腾来增加major id的叠毒速度并依靠storm dance完成聚怪，在需要引爆毒时仅需放火舌穿怪穿图腾，不必把蜂鸟放出去追踪打人，蜂鸟提供的机动性可以提升生存，注意major id实际的生效范围往往小于图腾范围，请确保要击杀的目标在保持在图腾本体附近时再引爆图腾
 
 :::
 ### Absolution
@@ -2444,6 +2531,22 @@ Abso的功能决定了它几乎与Acolyte强绑定，它就是为当奶妈而生
 :::details 构筑介绍
 
 
+Absolution （Acolyte）
+优势：高坦度，极高的奶量
+劣势：伤害较低，机动性差，吃鉴定
+https://wynnbuilder.github.io/builder/#CW0h2H5GiK4lGngHMDI15amma6QdLdUqFtlxHl7VF52
+推荐副手：Silent Ballet（位移）等
+
+必选Aspect包括：
+Acolyte神话（Acolyte's Embodiment of Unwavering Adherence）
+血池容量（Aspect of Exsanguination）
+Tether触发阈值（Aspect of Empathy）
+可选Aspect包括：
+图腾范围（Aspect of Emanant Force）
+Aura速度（Aspect of Surging Presence）
+火舌血池获取量（Aspect of Gushing Blood）等
+
+技能循环基本以维持触手（Eldritch Call）和挂流血（Bleeding）为主，走位保持在图腾范围内稳定触发tether，大约两秒释放一次4技能脱手挂流血，约10秒放一次触手，约6/7/8秒释放一次blood sorrow，期间为了维持自身或队友血量可以释放aura，因为这个build比较缺蓝，一般不使用aura打输出而是回血保命，但最好保持血池至少有70点以应急放血池或sorrow
 :::
 ### Immolation
 
@@ -2490,7 +2593,26 @@ Abso的功能决定了它几乎与Acolyte强绑定，它就是为当奶妈而生
 + 很好的设计+很蠢的树=用粪煮了只龙虾
 :::
 :::details 构筑介绍
+Immolation （Summoner、Ritualist）
+优势：极高的坦度，高输出
+劣势：吃鉴定属性，机动性较差，刚需ascend
+https://wynnbuilder.github.io/builder/#CW013HuJiK4lGHgJITI15MbXwqRYhV6UpHlO-EODy7cNAK
+推荐副手：The Watched（回血）、Tremorcaller（位移）、Silent Ballet（位移）等
 
+必选Aspect包括
+Summoner神话（Summoner's Embodiment of the Omnipotent Overseer）
+牛鞭强度（Aspect of Motivation）
+可选aspect包括
+图腾范围（Aspect of Emanant Force）
+Aura速度（Aspect of Surging Presence）
+蜂鸟持续时间（Aspect of Occupation）
+傀儡数量（Aspect of the Beckoned Legion）
+傀儡和猩红魔像移速（Aspect of Acceleration）等
+
+技能循环一般为Aura-Aura-Aura-Uproot或Aura-Aura-Uproot，uproot可以对敌人释放标记他们来提升所有召唤物对该敌人的伤害，shift+aura可以让所有图腾站位固定于身后提升攻击精确度，shift+haul可以放出蜂鸟攻击敌人补充输出，也可选择收回提升玩家自身的机动性，看情况释放
+如果面对移动目标，可以转而使用Aura-Aura-Totem或Aura-Totem，来提升aura的命中率
+
+Immolation也可以玩Ritualist但同样刚需ascend，技能树和技能循环可参考下文Fate的部分
 
 :::
 ### Resonance
@@ -2542,6 +2664,12 @@ reson的强度在血萨加强之前就有了，非常彪悍的major设计硬抬�
 
 :::details 构筑介绍
 
+Resonance （Acolyte）
+优势：机制怪，输出很高
+劣势：操作量大、武器价格贵、需要自制释放完整潜力、需要队友卖血
+build：？
+技能循环主要是通过两秒释放一次4技能、平A挂流血等方式获得血池，一旦有60血池就立刻释放blood sorrow
+
 
 :::
 
@@ -2573,6 +2701,25 @@ reson的强度在血萨加强之前就有了，非常彪悍的major设计硬抬�
 + 怪怪的mid 数值也很一般
 :::
 :::details 构筑介绍
+Transfiguration （Summoner）
+优势：高输出，便宜，不吃属性
+劣势：机动性较差，操作量较大
+https://wynnbuilder.github.io/builder/#CW013HuJiK4lGHgJITI15amGLpRYhV6UpHlO-JrVOVfO50
+推荐副手：Tremorcaller（位移）、Silent Ballet（位移）等
+
+必选Aspect包括
+Summoner神话（Summoner's Embodiment of the Omnipotent Overseer）
+牛鞭强度（Aspect of Motivation）
+可选aspect包括
+图腾范围（Aspect of Emanant Force）
+Aura速度（Aspect of Surging Presence）
+蜂鸟持续时间（Aspect of Occupation）
+傀儡数量（Aspect of the Beckoned Legion）
+傀儡和猩红魔像移速（Aspect of Acceleration）等
+
+技能循环一般为Aura-Aura-Aura-Uproot或Aura-Aura-Uproot，uproot可以对敌人释放标记他们来提升所有召唤物对该敌人的伤害，shift+aura可以让所有图腾站位固定于身后提升攻击精确度，shift+haul可以放出蜂鸟攻击敌人补充输出，也可选择收回提升玩家自身的机动性，看情况释放
+可以通过平a傀儡触发friendly fire，在其剩余计时器归零自爆后会原地生成一个不移动的炮台召唤物
+如果面对移动目标，可以转而使用Aura-Aura-Totem或Aura-Totem，来提升aura的命中率
 
 
 :::
@@ -2603,6 +2750,14 @@ we removed ritualist. we gave up.
 
 :::details 构筑介绍
 
+Fate （Ritualist）
+优势：便宜，~~bug导致的高输出~~
+劣势：机动性较差，没开大的时候输出偏低
+https://wynnbuilder.github.io/builder/#CW013HyGiK4U-WfJITI15mln8qRghRcOWFtU-ifwTJv5O4
+
+拿Lower切至黄面具，扔图腾（1技能）至觉醒条满后放4技能后进入觉醒状态，觉醒状态下一般切至黄面具状态依靠鞋子的mid以及碎图腾（totemic shatter）打输出，觉醒后面具旋转时可以贴近怪物来对其施加debuff
+大招开启时尽量保证范围内只有一个目标，这样可以大大提升大招的有效dps
+--Fate目前存在bug，在仅将面具贴在一个目标上且周围有大量怪物时，可以让这个目标承受极高的伤害--
 
 :::
 
