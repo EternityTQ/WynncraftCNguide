@@ -2757,7 +2757,6 @@ https://wynnbuilder.github.io/builder/#CW013HyGiK4U-WfJITI15mln8qRghRcOWFtU-ifwT
 
 拿Lower切至黄面具，扔图腾（1技能）至觉醒条满后放4技能后进入觉醒状态，觉醒状态下一般切至黄面具状态依靠鞋子的mid以及碎图腾（totemic shatter）打输出，觉醒后面具旋转时可以贴近怪物来对其施加debuff
 大招开启时尽量保证范围内只有一个目标，这样可以大大提升大招的有效dps
---Fate目前存在bug，在仅将面具贴在一个目标上且周围有大量怪物时，可以让这个目标承受极高的伤害--
 
 :::
 
