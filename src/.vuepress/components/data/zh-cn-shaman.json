@@ -1,1 +1,3689 @@
-{"properties":{"classs":"shaman","maxAbilityPoints":50,"pages":9,"horizontalPages":1,"rowsPerPage":6,"pagesDisplayed":2,"loopTree":false,"bTravesableUp":false,"useAlternativeAbilityIcons":true,"strictAllocation":true},"archetypes":["§#f0c435§lSummoner","§#87dd47§lRitualist","§#ffa057§lAcolyte"],"abilities":{"Totem":{"name":"§g§lTotem","description":"§6Click Combo: §d§lRIGHT§7-§d§lLEFT§7-§d§lRIGHT\n\n§7Summon a Totem that damages \nenemies around it every §f0.4s§7.\n\n§b✺§7 Mana Cost: §f30\n§c⚔ §7Total Damage: §f12% §8(of your DPS)\n    §8(§6✣ §8Damage: 6%)\n    §8(§f❋ §8Air: 6%)\n§d⌛ §7Duration: §f30s\n§3☀ §7Area of Effect: §f8 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Relik Proficiency":{"name":"§f§lRelik Proficiency","description":"Double §7your §nMain Attack§r§7's beam speed and \nincrease your damage when using a relik.\n\n§c⚔§7 Main Attack Damage: §f+5%\n§8(Damage is split between beams)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Cheaper Totem":{"name":"§f§lCheaper Totem","description":"§7Reduce the mana cost of §nTotem§r§7.\n\n§b✺ §7Mana Cost: §f-10","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["1"]},"Totem Smash":{"name":"§h§lTotem Smash","description":"§7Your §nTotem§r§7 will deal damage where it lands.\n\n§c⚔ §7Total Damage: §f150%§8 (of your DPS)\n    §8(§6✣ §8Damage: 120%)\n    (§c✹ §8Fire: 30%)\n§3☀ §7Area of Effect: §f3.5 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Haul":{"name":"§g§lHaul","description":"§6Click Combo: §d§lRIGHT§7-§d§lRIGHT§7-§d§lRIGHT\n\n§7Leap towards your §bTotem§7.\n\n§b✺ §7Mana Cost: §f15","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Hand of the Shaman":{"name":"§h§lHand of the Shaman","description":"§7Your §nMain Attack§r§7 will emit §f+2 §7extra beam.\n§8(Increases your overall damage by +65%)","customName":"","note":"","unlockingWillBlock":["7"],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Distant Grasp":{"name":"§h§lDistant Grasp","description":"§7Reduce your §nMain Attack§r§7's spread,\nand increase its beam speed by §f+33%","customName":"","note":"","unlockingWillBlock":["6"],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Uproot":{"name":"§g§lUproot","description":"§6Click Combo: §d§lRIGHT§7-§d§lRIGHT§7-§d§lLEFT\n\n§7Emits a rapid projectile that will \nexplode and knock enemies away.\n§8(Hold shift to pull instead)\n\n§b✺ §7Mana Cost: §f30\n§c⚔ §7Total Damage: §f130%§8 (of your DPS)\n    (§6✣§8 Damage: 80%)\n    (§2✤§8 Earth: 30%)\n    (§e✦ §8Thunder: 20%)\n§2➼ §7Range: §f18 Blocks\n§3☀§7 Area of Effect: §f5 Blocks§7 (Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Cheaper Haul":{"name":"§f§lCheaper Haul","description":"§7Reduce the mana cost of §nHaul§r§7.\n\n§b✺ §7Mana Cost: §f-5","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["5"]},"Aura":{"name":"§g§lAura","description":"§6Click Combo: §d§lRIGHT§7-§d§lLEFT§7-§d§lLEFT\n\n§7Radiates an aura from your §nTotem§r§7\nthat damages enemies.\n\n§b✺§7 Mana Cost: §f40\n§c⚔ §7Total Damage: §f180% §8(of your DPS)\n    §8(§6✣ §8Damage: 150%)\n    §8(§b❉ §8Water: 30%)\n§2➼ §7Range: §f16 Blocks","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Thunder Mastery":{"name":"§f§lThunder Mastery","description":"§7Increase your base damage\nfrom all Thunder attacks.\n\n§e✦ §7Thunder Damage: §f+1-8\n§e✦ §7Thunder Damage: §f+10%","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Fire Mastery":{"name":"§f§lFire Mastery","description":"§7Increase your base damage\nfrom all Fire attacks.\n\n§c✹ §7Fire Damage: §f+3-5\n§c✹ §7Fire Damage: §f+15%","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Water Mastery":{"name":"§f§lWater Mastery","description":"§7Increase your base damage\nfrom all Water attacks.\n\n§b❉ §7Water Damage: §f+2-4\n§b❉ §7Water Damage: §f+15%","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Air Mastery":{"name":"§f§lAir Mastery","description":"§7Increase your base damage\nfrom all Air attacks.\n\n§f❋ §7Air Damage: §f+3-4\n§f❋ §7Air Damage: §f+15%","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Earth Mastery":{"name":"§f§lEarth Mastery","description":"§7Increase your base damage\nfrom all Earth attacks.\n\n§2✤ §7Earth Damage: §f+2-4\n§2✤ §7Earth Damage: §f+20%","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Nature's Jolt":{"name":"§i§lNature's Jolt","description":"§7Hitting the ground after using §nHaul§r§7\nwill deal damage around you.\n\n§c⚔ §7Total Damage: §f150%§8 (of your DPS)\n   §8(§6✣ §8Damage: 110%)\n   §8(§2✤ §8Earth: 40%)\n§3☀ §7Area of Effect: §f4.5 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["5"]},"Overseer":{"name":"§i§lOverseer","description":"§7Increases §nUproot§r§7 and \n§nHaunting Memory§r§7's range. \nHitting §nTotem§r§7 with either \nwill reset its duration.\n\n§2➼§7 Range: §f+6 Blocks","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["8"]},"Rain Dance":{"name":"§i§lRain Dance","description":"§7While mid-air, your §nTotem§r§7 will \nleave a streak of rain that damages\nenemies under it every §f0.4s§7.\n\n§c⚔ §7Total Damage: §f60%§8 (of your DPS)\n    §8(§6✣ §8Damage: 30%)\n    (§b❉ §8Water: 30%)\n§d⌛ §7Durations: §f6s\n§3☀ §7Area of Effect: §f3.5 Blocks §7(Line-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":[]},"Shocking Aura":{"name":"§i§lShocking Aura","description":"§7§nAura§r§7 will travel much faster and\ndeal additional damage.\n\n§c⚔ §7Total Damage: §f+20%§8 (of your DPS)\n    (§e✦ §8Thunder: +20%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["10"]},"Flaming Tongue":{"name":"§i§lFlaming Tongue","description":"§7§nUproot§r§7 becomes lashing flames, which hit\n§f3§7 times at §f3§7 hits per second, but it will not\nexplode or knockback enemies.\n\n§nHaunting Memory§7 will no longer\nattach §bMasks §7to enemies.\n\n§c⚔ §7Total Damage: §c-35%§8 (of your DPS, for §nUproot§r§8, per hit)\n    (§6✣ §8Damage: -5%)\n    (§2✤ §8Earth: -30%)\n    (§e✦ §8Thunder: -10%)\n    (§c✹ §8Fire: +10%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["8"]},"Puppet Master":{"name":"§k§lPuppet Master","description":"§7Your §nTotem§r§7 will summon §b1 Puppet§7 \nevery §f3s§7. (Max 3) They throw knives\nat nearby enemies every §f0.5s§7. \n\n§c⚔ §7Total Damage: §f20%§8 (of your DPS)\n    (§6✣ §8Damage: 16%)\n    (§f❋ §8Air: 2%)\n    (§2✤ §8Earth: 2%)\n§d⌛ §7Duration: §f30s\n§2➼ §7Range: §f16 Blocks","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":3,"requires":["1"]},"Puppetry":{"name":"§f§lPuppetry","description":"§7Increase your maximum §bPuppets §7by §f+2§7.\n\n§nTotem§7 summons Puppets §f25%§7 faster.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["21"]},"Sacrificial Shrine":{"name":"§k§lSacrificial Shrine","description":"§7Your §nTotem§r§7 will siphon §f2%§7 of your health\nevery §f0.4s §7and transfer it into a §bBlood Pool §4⚕§7.\n\n§nAura§r §7will spend §f15 §7points of §bBlood Pool §4⚕\n§7to deal §f+35% §7damage and heal all allies.\n\n§c❤ §7Total Heal: §f25% §8(of your max health)","customName":"","note":"","unlockingWillBlock":["41"],"pointsRequired":2,"archetypePointsRequired":3,"requires":["1"]},"Stagnation":{"name":"§h§lStagnation","description":"§7Enemies hit by §nNature's Jolt§r\n§7will be slowed down.\n\n§e✧ §7Effect: §f40% §7Slowness (§c⬤§7) to Enemies\n§d⌛ §7Duration: §f3s","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["16"]},"Cheaper Aura":{"name":"§f§lCheaper Aura","description":"§7Reduce the mana cost of §nAura§r§7.\n\n§b✺ §7Mana Cost: §f-5","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["10"]},"Cheaper Uproot I":{"name":"§f§lCheaper Uproot I","description":"§7Reduce the mana cost of §nUproot§r§7.\n\n§b✺ §7Mana Cost: §f-5","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["8"]},"More Puppets I":{"name":"§f§lMore Puppets I","description":"§7Increase your maximum §bPuppets §7by §f+1§7.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["21"]},"Haunting Memory":{"name":"§j§lHaunting Memory","description":"§7When you switch §bMasks§7, throw your previous one\nforwards. If it hits an enemy, it will attach for a\nshort time and debuff them. You will not receive\nthe effects of your §bMask §7until it returns.\n\n§c⚔ §7Total Damage: §f240% §8(of your DPS)\n   §8(§6✣ §8Damage: 240%)\n§2➼ §7Range: §f14 Blocks\n§e✧ §7Effects: \n   §#F1547C Lunatic§7: §f-15% §7Damage Bonus (§c⚔§7) to Enemies \n   §#FCC050☠ Fanatic§7: §f-15% §7Resistance Bonus (§c✃§7) to Enemies\n   §#97E6FC Heretic§7: §f+30% §7Slowness (§c⌛§7) to Enemies\n§d⌛ §7Duration: §f4s","customName":"","note":"","unlockingWillBlock":["44"],"pointsRequired":2,"archetypePointsRequired":3,"requires":[]},"Totemic Reach":{"name":"§f§lTotemic Reach","description":"§7Increase your §nTotem§r§7's area of effect.\n\n§3☀ §7Area of Effect: §f+4 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["1"]},"Blood Connection":{"name":"§h§lBlood Connection","description":"§7If you are outside of your §nTotem§r§7's \nrange, §nHaul§r§7 will teleport you to it.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["5"]},"Exploding Puppets":{"name":"§i§lExploding Puppets","description":"§7When your §bPuppets §7have §f3s§7 left,\nthey will charge towards enemies\nat high speed and explode.\n\n§c⚔ §7Total Damage: §f200%§8 (of your DPS)\n    §8(§6✣ §8Damage: 150%)\n    (§c✹ §8Fire: 50%)\n§3☀ §7Area of Effect: §f3 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["21"]},"Bullwhip":{"name":"§j§lBullwhip","description":"§7Hitting enemies with §nUproot§r§7 or \n§nHaunting Memory§r §7will inflict them\nwith §bWhipped §6⇶§7. Your §bSummons §7will\nfocus §bWhipped §6⇶§7 enemies and deal\nadditional damage to them.\n\n§e✧ §7Effect: §f+20% §7Damage Bonus to Summons\n§d⌛ §7Duration: §f10s","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["8"]},"More Puppets II":{"name":"§f§lMore Puppets II","description":"§7Increase your maximum §bPuppets §7by §f+2§7.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["27"]},"Double Totem":{"name":"§i§lDouble Totem","description":"§7Increase your maximum §nTotems§r §7by §f+1§7.\n§7§nTotem§r§7 and §nAura§r§7 will do §c40% §7less damage.\n\n§nRegeneration§r§7 and §nSacrificial Shrine§r§7 \nwill heal §c40% §7less health.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":2,"requires":["10"]},"Cheaper Totem II":{"name":"§f§lCheaper Totem II","description":"§7Reduce the mana cost of §nTotem§r§7.\n\n§b✺ §7Mana Cost: §f-5","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["1"]},"Hymn of Hate":{"name":"§h§lHymn of Hate","description":"§7When wearing the §#F1547CMask of the Lunatic §7, killing\nan enemy with §nAura§r§7 will cast a new §nAura§r§7\nat its location, dealing §f-50% §7of its damage.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["38"]},"Larger Blood Pool":{"name":"§f§lLarger Blood Pool","description":"§7Increase your maximum §bBlood Pool §4⚕ §7by §f+30 §7points.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["23"]},"Mystic Masks":{"name":"§k§lMystic Masks","description":"§7When casting §nUproot§r§7, instead\nwear one of the §bMystic Masks§7.\n§8(Shift + Uproot to remove it)§7\n\n§#F1547C Lunatic§7: §f+15%§7 Damage Bonus to Self\n              §c-15%§7 Resistance Bonus to Self\n\n§#FCC050☠ Fanatic§7: §f+25%§7 Resistance to Self\n              §c-25%§7 Walk Speed to Self\n\n§#97E6FC Heretic§7: §f+50%§7 Walk Speed to Self\n              §c-10%§7 Damage Bonus to Self","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":2,"requires":["8"]},"Vengeful Spirit":{"name":"§i§lVengeful Spirit","description":"§7Your §nTotem§r §7will give all players\nin its range a damage bonus.\n\n§e✧ §7Effect: §f+20% §7Damage Bonus (§a⚔§7) to Allies","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":[]},"Masquerade":{"name":"§h§lMasquerade","description":"§7Switching between §bMasks §f2 §7times\nwill give you §f30 §7Mana.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":4,"requires":[]},"Regeneration":{"name":"§i§lRegeneration","description":"§7Every §f0.4s§7, your §nTotem§r §7will heal\nevery player within its range.\n\n§c❤§7 Total Heal: §f1% §8(of your max health)","customName":"","note":"","unlockingWillBlock":["23"],"pointsRequired":2,"archetypePointsRequired":0,"requires":[]},"Storm Dance":{"name":"§i§lStorm Dance","description":"§7Enemies hit by §nAura§r§7 will be \npulled towards your totem.\n\n§c⚔ §7Total Damage: §f+30% §8(of your DPS)\n    (§f❋ §8Air: +30%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["10"]},"Cheaper Haul II":{"name":"§f§lCheaper Haul II","description":"§7Reduce the mana cost of §nHaul§r§7.\n\n§b✺ §7Mana Cost: §f-5","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["5"]},"Effuse":{"name":"§j§lEffuse","description":"§7§nFlaming Tongue§7 grants §f+2.5 §bBlood Pool §4⚕§7 per hit.","customName":"","note":"","unlockingWillBlock":["28"],"pointsRequired":2,"archetypePointsRequired":11,"requires":["20"]},"Cheaper Aura II":{"name":"§f§lCheaper Aura II","description":"§7Reduce the mana cost of §nAura§r§7.\n\n§b✺ §7Mana Cost: §f-5","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["10"]},"Totemic Shatter":{"name":"§j§lTotemic Shatter","description":"§7While wearing the §#FCC050Mask of the Fanatic ☠§7,\nyour §nTotem§r §7will shatter upon impacting\nthe ground, rapidly triggering §f8s\n§7worth of its effects.\n\n§nRegeneration§r §7will only heal\n§f50% §7of its usual amount.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["38"]},"Imbued Totem":{"name":"§f§lImbued Totem","description":"§7Increase §nTotem§r§7's damage.\n\n§c⚔ §7Total Damage: §f4% §8(of your DPS)\n    (§6✣ §8Damage: +4%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["1"]},"Depersonalization":{"name":"§h§lDepersonalization","description":"§7§nMasquerade§r§7 will trigger after §f-1\n§7less §bMask §7switch. Reduces mana\nbonus by §f-10§7.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":7,"requires":["40"]},"Twisted Tether":{"name":"§j§lTwisted Tether","description":"§7Nearby §bBleeding §c §7enemies will take\ndamage for every §f2% §7Health you lose.\n§8(Max 10 activations at once) \n\n§c⚔ §7Total Damage: §f65% §8(of your DPS, per 2% health)\n   §8(§6✣ §8Damage: 45%)\n   §8(§f❋ §8Air: 20%)\n§2➼ §7Range: §f20 Blocks","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":7,"requires":["71"]},"Crimson Effigy":{"name":"§k§lCrimson Effigy","description":"§7§nTotem§7 will summon an §bEffigy§7 that will\nattack enemies and push them towards\nthe nearest §nTotem§7 every §f0.5s§7.\nThe §bEffigy §7will live for as long as its\n§nTotem§7 does.\n\nEach §nTotem §7will summon its own §bEffigy§7.\nEach additional §bEffigy §7summoned will\ndecrease all §bEffigy §7damage by §c0.8x§7.\n\n§c⚔ §7Total Damage: §f100% §8(of your DPS)\n   §8(§6✣ §8Damage: 75%)\n   §8(§c✹ §8Fire: 25%)\n§3☀ §7Vision: §f18 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":6,"requires":["17"]},"Tribal Chants":{"name":"§k§lTribal Chants","description":"§7When switching masks, cause an\neffect around yourself.\n\n§#F1547C Lunatic§7: §f+15%§7 Damage Bonus (§a⚔§7) to Allies\n§d⌛ §7Duration: §f6s\n\n§#FCC050☠ Fanatic§7: §f45%§7 Resistance Bonus to Allies\n§d⌛ §7Duration: §f3s\n\n§#97E6FC Heretic§7: §f+60%§7 Walk Speed to Allies\n§8(-10% of the bonus decays every second)§7\n\n§3☀ §7Area of Effect: §f8 Blocks §7(Circle-Shaped)\n§3⌚ §7Cooldown: §f8s §8(per chant)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":8,"requires":["38"]},"Rupture":{"name":"§i§lRupture","description":"§7§nSacrifical Shrine§7 boosts §nAura§7's damage by §f+15%§7 and consumes\nup to §f2s§7 of §bBleeding §c§7 , granting §f+2.2 §bBlood Pool §4⚕§7 for each\nsecond of §bBleeding §c§7 consumed.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":6,"requires":["23"]},"Bloody":{"name":"§f§lBloody","description":"§7Increase your maximum §bBlood Pool §4⚕ §7by §f+30 §7points.\n§7Increase your maximum §bBleeding §c §7duration by §f+1.5s§7.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["23"]},"Maddening Roots":{"name":"§i§lMaddening Roots","description":"§7§nUproot§r§7 will slow down enemies. Additionally,\nincrease the damage bonus granted by §7Bullwhip§7.\n\n§e✧ §7Effect: §f40% §7Slowness (§c⌛§7) to Enemies\n§e✧ §7Effect: §f+15% §7Bullwhip Damage Bonus\n§d⌛ §7Duration: §f3s","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["8"]},"Chorus of the Ancients":{"name":"§i§lChorus of the Ancients","description":"§7Increase the power of all Chants.\n\n§#F1547C Lunatic§7: §f+15%§7 Damage Bonus (§a⚔§7) to Allies\n§#FCC050☠ Fanatic§7: §f+20%§7 Resistance Bonus to Allies\n§#97E6FC Heretic§7: §f+60%§7 Walk Speed to Allies","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":10,"requires":["51"]},"Blood Rite":{"name":"§j§lBlood Rite","description":"§7When any player takes damage within\nyour §nTotem§r§7's range, §f35%§7 of the damage\ntaken proportional to your maximum\nhealth is added to your §bBlood Pool §4⚕§7.\n§8(Max 15 Blood Pool per second)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":9,"requires":["23"]},"Meticulous Act":{"name":"§f§lMeticulous Act","description":"§7Your §bMasks§7 will give higher bonuses.\n\n§#F1547C Lunatic§7: §f+25%§7 Damage Bonus\n§#FCC050☠ Fanatic§7: §f+20%§7 Resistance\n§#97E6FC Heretic§7: §f+40%§7 Walk Speed","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":11,"requires":["38"]},"Triple Totem":{"name":"§i§lTriple Totem","description":"§7Increase your maximum §nTotems§r§7 by §f+1§7.\n§nTotem§r§7 and §nAura§r§7 will do §c50%§7 less damage.\n\n§nRegeneration§r§7 and §nSacrificial Shrine§r§7\nwill heal §c50%§7 less health.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":8,"requires":["34"]},"Invigorating Wave":{"name":"§j§lInvigorating Wave","description":"§7§nAura§r§7 will temporarily increase\nyour §bSummons§7' attack speed.\nPlayers hit will gain§f +3§7 mana.\n\n§e✧ §7Effect: §f+30%§7 Attack Speed to Summons\n§d⌛ §7Duration: §f2.5s","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":3,"requires":["10"]},"Seeking Totem":{"name":"§h§lSeeking Totem","description":"§7While wearing the §#97E6FCMask of the Heretic §7,\nyour §nTotem§r§7 will move towards you,\nunlss you are within its range.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["38"]},"Crystal Knives":{"name":"§i§lCrystal Knives","description":"§7Your §bPuppet§7's knives become stronger,\nand can pass through walls and enemies.\n§8(Max 2 enemies)§7\n\n§c⚔ §7Total Damage: §f+5% §8(of your DPS)\n   §8(§6✣ §8Damage: +3%)\n   §8(§2✤ §8Earth: +2%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":8,"requires":["21"]},"Bloodletting":{"name":"§f§lBloodletting","description":"§7Increase §nTwisted Tether§r§7's damage.\n\n§c⚔ §7Total Damage: §f+25% §8(of your DPS)\n    (§6✣ §8Damage: +25%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["49"]},"Shepherd":{"name":"§i§lShepherd","description":"§7When you or your §bSummons §7kill an enemy,\nor when you kill a §bPuppet§7 with §nFriendly Fire§7,\ngain §b+1 Max Puppets §6⚘ §7for §f15s. §7(Max +8)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["21"]},"Frog Dance":{"name":"§j§lFrog Dance","description":"§7When wearing the §#97E6FCMask of the Heretic §7,\n§nHaul§r§7 will instead bounce you off\nthe ground §f3§7 times at an increasing\nspeed and damage nearby enemies.\n§8(Hold shift to cancel)§7\n\n§nFrog Dance§7 does not require §nTotem§7 to be used.\n\n§c⚔§7 Total Damage: §f200%§8 (of your DPS)\n    (§6✣§8 Damage: 150%)\n    (§b❉ §8Water: 50%)\n§3☀ §7Area of Effect: §f4.5 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":4,"requires":["38"]},"Artist's Immersion":{"name":"§i§lArtist's Immersion","description":"§7Your §bMasks§7 reduce the cost of different\nabilities based on the active mask.\n\n§#F1547C Lunatic§7: §f-30% §b✺ §7Aura Cost\n§#FCC050☠ Fanatic§7: §f-65% §b✺ §7Totem Cost\n§#97E6FC Heretic§7: §f-50% §b✺ §7Haul Cost","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["38"]},"Awakened":{"name":"§k§lAwakened","description":"§7After saving §f150§7 mana from your §bMasks§7' \nmana reductions, switching §bMasks§7 will\ncause you to become §fAwakened ♚\n§7for §f25s§7, giving you the upsides of all\n§bMasks §7at once with no downsides.\n\nSwitching to an attached §bMask\n§7while §fAwakened ♚ §7will immediately\nrecall the §bMask§7 back to you.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":11,"requires":["65"]},"Bloodier":{"name":"§f§lBloodier","description":"§7Increase your maximum §bBlood Pool §4⚕ §7by §f+30 §7points.\n§7Increase your maximum §bBleeding §c §7duration by §f+1.5s§7.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["23"]},"Blood Sorrow":{"name":"§k§lBlood Sorrow","description":"§7Casting §nUproot§7 or §nHaunting Memory§7 while\nholding shift will spend §f60§7 points\nof §bBlood Pool §4⚕ §7to cast a destructive beam\nthat chains between enemies and allies,\nand damages enemies every §f0.2s§7.\n\nYou and any allies within the beam will\nreceive §f+2% §bOverhealth §6❤ §7per hit.\nBonus health decays over §f20s§7.\n\n§c⚔ §7Total Damage: §f120% §8(of your DPS)\n   §8(§6✣ §8Damage: 100%)\n   §8(§b❉ §8Water: 20%)\n§d⌛ §7Duration: §f5s\n§2➼ §7Range: §f24 Blocks","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":12,"requires":["8"]},"Totem Shove":{"name":"§h§lTotem Shove","description":"§7Casting §nTotem§7 while looking\nat an existing §nTotem§7 will instead\nshove it forwards, dealing damage\nto any enemy it crashes into.\n§8(Sneak to reverse its direction)\n\n§c⚔ §7Total Damage: §f120% §8(of your DPS)\n   §8(§6✣ §8Damage: 90%)\n   §8(§f❋ §8Air: 30%)\n§2➼ §7Range: §f~12 Blocks\n§3☀ §7Area of Effect: §f3.5 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Rebound":{"name":"§j§lRebound","description":"§7Once §nAura§7 reaches its maximum\nrange, it will bounce back and\ndeal its effects a second time.\n\n§nSacrificial Shrine§7 will\nheal §c35%§7 less health.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["10"]},"Lashing Lance":{"name":"§j§lLashing Lance","description":"§7§nFlaming Tongue§7 gains §f+2§7 hits, deals more damage,\nand now inflicts enemies with §bBleeding §c§7 for\n§f+1s§7 per hit. §8(Max 6s)\n\n§7§nHaunting Memory§7 will instead\ninflict §f+6s §7of §bBleeding §c§7.\n\n§bBleeding §c §7enemies take damage every §f0.5s§7.\n§bBleeding §c §7damage dealt within §nTotem§7's range\nalso adds §f+0.8 §7points to your §bBlood Pool §4⚕§7.\n\n§c⚔ §7Total Damage: §f+15% §8(of your DPS, for §nUproot§8, per hit)\n   §8(§6✣ §8Damage: +10%)\n   §8(§e✦ §8Thunder: +5%)\n\n§c⚔ §7Total Damage: §f60% §8(of your DPS, from Bleeding)\n   §8(§6✣ §8Damage: 60%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":4,"requires":["20"]},"Commander":{"name":"§j§lCommander","description":"§7Casting §nAura§7 while holding shift will\nrally all active §bPuppets§7 to your\nside, granting them increased\nattack speed and accuracy.\n\nYour §nMain Attack§7 deals §f5% §7more\ndamage for each rallied §bPuppet§7.\n\nWhile not rallied, your §bSummons§7' attacks\nwill build up the duration of this ability\nby §f+0.1s §7per attack. §8(Max 30s)\n\n§e✧ §7Effect: §f+25% §7Attack Speed to Puppets","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":4,"requires":["21"]},"Scourge":{"name":"§h§lScourge","description":"§7§nFlaming Tongue§7 gains §f+1§7 hit and attacks §f+40%§7 faster.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["20"]},"Hummingbird's Song":{"name":"§k§lHummingbird's Song","description":"§7Summon §f2 §bHummingbird Carvings\n§7which fly around you, passively\ngranting a walk speed buff.\n\nCasting §nHaul§7 while holding shift will\ntemporarily send your §bHummingbirds\n§7to attack nearby enemies, rapidly\npiercing through them every §f0.25s§7.\nCasting it again will call them back early.\n\nWhile they are attacking, your §bHummingbirds\n§7will not apply their passive effects to you.\n\n§c⚔ §7Total Damage: §f30% §8(of your DPS)\n   §8(§6✣ §8Damage: 20%)\n   §8(§f❋ §8Air: 5%)\n   §8(§e✦ §8Thunder: 5%)\n§d⌛ §7Duration: §f10s\n§2➼ §7Range: §f16 Blocks\n§e✧ §7Effect: §f+40% §7Walk Speed to Self","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":10,"requires":["5"]},"Sanguine Strike":{"name":"§h§lSanguine Strike","description":"§7Greatly reduce §nMain Attack§7 spread.\n\nYour §nMain Attack§7 will now inflict enemies\nwith §bBleeding §c §7for §f+2s§7.\n\n§bBleeding §c §7enemies take damage every §f0.5s§7.\n§bBleeding §c §7damage dealt within §nTotem§7's range\nalso adds §f+0.8 §7points to your §bBlood Pool §4⚕§7.\n\n§c⚔ §7Total Damage: §f60% §8(of your DPS, from Bleeding)\n   §8(§6✣ §8Damage: 60%)\n§3⌚ §7Cooldown: §f2s §7(per enemy)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":[]},"Soaring Wingbeats":{"name":"§h§lSoaring Wingbeats","description":"§7Your §bHummingbirds§7' passive\neffects are improved.\n\n§e✧ §7Effects: §f+20% §7Walk Speed to Self\n             §f+2 §7Jump Height to Self","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["74"]},"Cheaper Uproot II":{"name":"§f§lCheaper Uproot II","description":"§7Reduce the mana cost of §nUproot§r§7.\n\n§b✺ §7Mana Cost: §f-5","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["8"]},"Friendly Fire":{"name":"§h§lFriendly Fire","description":"§7Hitting your §bPuppets §7with §nMain Attack§7 will\ncause them to lose §f2s §7of their duration\nper beam and give them a damage boost.\n\n§e✧ §7Effect: §f+10% §7Damage Bonus (§a⚔§7) to Puppets\n§d⌛ §7Duration: §f2s","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["21"]},"Eldritch Call":{"name":"§k§lEldritch Call","description":"§7Casting §nTotem §7while holding shift will spend\n§f35§7 points of §bBlood Pool §4⚕§8 (per Totem)§7 to\ncall upon §f4§7 nightmarish tentacles that attack\nnearby enemies.\n\nTentacles will attack §bBleeding§7 §c§7 enemies from an\nadditional §f+6§7 blocks away.\n\n§nBlood Connection§7 turns into a teleport\nwhile §nEldritch Call§7 is active.\n\n§c⚔ §7Total Damage: §f700% §8(of your DPS, per strike)\n   §8(§6✣ §8Damage: 540%)\n   §8(§e✦ §8Thunder: 80%)\n   §8(§c✹ §8Fire: 80%)\n§3☀ §7Area of Effect: §f12 Blocks §7(Circle-Shaped)\n§d⌛ §7Duration: §f10s","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":7,"requires":["71"]},"Slingshot":{"name":"§h§lSlingshot","description":"§7§nHaul§7 slings you upwards\nbefore leaping towards §nTotem§7.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["74"]},"Fortified Formation":{"name":"§j§lFortified Formation","description":"§7If your health drops to §f30%§7 or less,\nyour §bEffigies§7 protect you until you\nare above §f50%§7 health again.\n\nWhile protected, you take reduced\ndamage and your §bEffigies§7 strike\nback at attackers every §f2s§7.\n\n§c⚔ §7Total Damage: §f300% §8(of your DPS)\n   §8(§6✣ §8Damage: 180%)\n   §8(§c✹ §8Fire: 80%)\n   §8(§e✦ §8Thunder: 40%)\n§e✧ §7Effect: §f50%§7 Resistance Bonus (§a❁§7) to Self\n§d⌛ §7Duration: §f10s\n§3⌚ §7Cooldown: §f15s","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":11,"requires":["50"]},"Totemic Hammer":{"name":"§h§lTotemic Hammer","description":"§7When wearing the §#F1547CMask of the Lunatic §7,\n§nTotem§7 will smash down onto the ground.\n\nIncrease §nTotemic Smash§7's damage.\n\n§c⚔ §7Total Damage: §f+50% §8(of your DPS)\n   §8(§6✣ §8Damage: +40%)\n   §8(§c✹ §8Fire: +10%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["38"]},"Freestyle":{"name":"§h§lFreestyle","description":"§7§nHaul§7, §nBlood Connection§7, and §nFrog Dance§7\nlaunch you further.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["5"]},"Egomania":{"name":"§h§lEgomania","description":"§7When wearing the §#FCC050Mask of the Fanatic ☠§7,\n§nAura§7 will radiate from yourself\ninstead of your §nTotem§7.\n\nIncrease §nAura§7's damage.\n\n§c⚔ §7Total Damage: §f+10% §8(of your DPS)\n   §8(§6✣ §8Damage: 10%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["38"]},"Pool of Rejuvenation":{"name":"§j§lPool of Rejuvenation","description":"§7When wearing the §#97E6FCMask of the Heretic §7,\n§nFrog Dance§7 will create a small pool\nwhen hitting the ground. (Max 3)\n\nGain §f+1§7 Mana every §f0.2s§7 while\ninside of at least one pool.\n\n§d⌛ §7Duration: §f8s\n§3☀ §7Area of Effect: §f5 Blocks §7(Circle-Shaped)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["38"]},"Corporeal Manifestation":{"name":"§i§lCorporeal Manifestation","description":"§7When wearing the §fMask of the Awakened ♚§7,\nall of your other Masks will spin around\nyou, dealing damage and applying\n§nHaunting Memory§7's effects.\n\n§2➼ §7Range: §f3 Blocks","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["28"]},"Eldritch Transfusion":{"name":"§j§lEldritch Transfusion","description":"§7Refreshing §nEldritch Call§7 while it is already active\nwill imbue its attacks with blood, granting it §f+1§7 stack\nof §bTransfused §4⚕ §8(Max 3)§7.\n\nFor every §f1§7 stack of §bTransfused §4⚕§7 §nEldritch Call§7 has,\nits attacks deal more damage. All stacks are lost\nwhen §nEldritch Call§7 ends.\n\n§e✧ §7Effect: §f+7%§7 damage to Eldritch Call §8(Per stack)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":0,"requires":["79"]},"Repulse":{"name":"§i§lRepulse","description":"§7Once §nAura§7 rebounds, it will radiate back out\nand deal its effects a third time.\n\n§nSacrificial Shrine§7 will heal §c50%§7 less health.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":5,"requires":["70"]},"Bloodiest":{"name":"§f§lBloodiest","description":"§7Increase your maximum §bBlood Pool §4⚕ §7by §f+30 §7points.\n§7Increase your maximum §bBleeding §c §7duration by §f+1.5s§7.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["23"]},"Haemomagnetic":{"name":"§h§lHaemomagnetic","description":"§7§nBlood Sorrow§7 will chain §f50%§7 further\nand deals increased damage.\n\n§c⚔ §7Total Damage: §f+40% §8(of your DPS)\n   §8(§6✣ §8Damage: +30%)\n   §8(§b❉ §8Water: +10%)","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":1,"archetypePointsRequired":0,"requires":["68"]},"Patchwork Abomination":{"name":"§5§lPatchwork Abomination","description":"§6Click Combo:§r §d§lF\n\n§7Summons the §bPatchwork Abomination§7,\na highly unstable summon.\n\nHit the §bAbomination§7 with §nOverseer§7 to\nswitch between close-ranged and\nlong-range attack mode.\n\nThe §bAbomination§7 will attack enemies\nevery §f1.25s§7 in close-ranged mode,\nand every §f1.75s§7 in long-ranged mode.\n\n§nExploding Puppets§7 will cause the\n§bAbomination§7 to explode when it dies.\n\n§c⚔ §7Total Damage: §f2400% §8(of your DPS, Attack)\n   §8(§6✣ §8Damage: 1600%)\n   §8(§2✤ §8Earth: 500%)\n   §8(§e✦ §8Thunder: 300%)\n§c⚔ §7Total Damage: §f5000% §8(of your DPS, Explosion)\n   §8(§6✣ §8Damage: 4000%)\n   §8(§c✹ §8Fire: 1000%)\n§d⌛ §7Duration: §f20s\n§3☀ §7Vision: §f32 Blocks §7(Circle-Shaped)\n§3☀ §7Area of Effect: §f12 Blocks §7(Circle-Shaped, Explosion)\n\n§7Activate abilities to charge\nyour §bUltimate Meter ⌛§7 to 100%.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":18,"requires":[]},"Sundered Skies":{"name":"§5§lSundered Skies","description":"§6Click Combo:§r §d§lF\n\n§7Your §nTotem§7 massively grows in size,\n§fdoubling§7 all of its effects.\n\nWhen your §nTotem§7 lands, it summons\na massive Thundercloud that zaps enemies\nevery §f1s§7, stunning them for §f1.5s§7.\n\nDamage is split between all enemies.\n\n§c⚔ §7Total Damage: §f2400% §8(of your DPS)\n   §8(§6✣ §8Damage: 1600%)\n   §8(§e✦ §8Thunder: 400%)\n   §8(§b❉ §8Water: 400%)\n§e✧ §7Effect: §f100%§7 Slowness (§c⬤§7) to Enemies\n§2➼ §7Radius: §f24 Blocks\n§d⌛ §7Duration: §f18s\n\n§7Activate abilities to charge\nyour §bUltimate Meter ⌛§7 to 100%.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":15,"requires":[]},"Monument to Gloom":{"name":"§5§lMonument to Gloom","description":"§6Click Combo:§r §d§lF\n\n§7Your §nTotem§7 becomes possessed by an eldritch\ndemon, granting §f+5%§7 §bBlood Pool §4⚕§7 to nearby\nacolytes every §f0.4s§7\n\nOthers recieve §f+5%§7 §bHealth §c❤§7 every §f0.4s§7\n\n§d⌛ §7Duration: §f15s\n\n§7Activate abilities or lose health to charge\nyour §bUltimate Meter ⌛§7 to 100%.","customName":"","note":"","unlockingWillBlock":[],"pointsRequired":2,"archetypePointsRequired":19,"requires":[]}},"cellMap":{"5":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":1},"abilityID":"Totem"},"14":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"23":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":1},"abilityID":"Relik Proficiency"},"24":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":2}},"25":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Cheaper Totem"},"32":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"41":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":1},"abilityID":"Totem Smash"},"50":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"59":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"66":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Distant Grasp"},"67":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":1}},"68":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Haul"},"69":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":3}},"70":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Hand of the Shaman"},"75":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"79":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"82":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"83":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"84":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Uproot"},"85":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":2}},"86":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":1},"abilityID":"Cheaper Haul"},"87":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":4}},"88":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Aura"},"89":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":2}},"90":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":2}},"91":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"92":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":2},"abilityID":"Totem Shove"},"93":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"95":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"97":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"99":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"100":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"102":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"104":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"106":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"108":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"109":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"111":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"113":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"115":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"117":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"118":{"travelNode":{"up":1,"down":1,"left":0,"right":1,"variant":1},"abilityID":"Earth Mastery"},"119":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":2}},"120":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":4},"abilityID":"Air Mastery"},"121":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":4}},"122":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":1}},"123":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":1}},"124":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Thunder Mastery"},"125":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":1}},"126":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":4},"abilityID":"Fire Mastery"},"127":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"129":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"131":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Water Mastery"},"133":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"135":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"136":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"138":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"140":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"142":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"144":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"145":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":1},"abilityID":"Nature's Jolt"},"146":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":3}},"147":{"travelNode":{"up":1,"down":0,"left":1,"right":0,"variant":4},"abilityID":"Overseer"},"148":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"149":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":4},"abilityID":"Rain Dance"},"150":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":2}},"151":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":4},"abilityID":"Shocking Aura"},"152":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":1}},"153":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":2},"abilityID":"Flaming Tongue"},"155":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"157":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"162":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"164":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"166":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"171":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"172":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":4}},"173":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Puppet Master"},"174":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":4}},"175":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":1},"abilityID":"Mystic Masks"},"176":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":4}},"177":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":3}},"178":{"travelNode":{"up":0,"down":0,"left":1,"right":0,"variant":4},"abilityID":"Hymn of Hate"},"179":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":4}},"180":{"travelNode":{"up":1,"down":0,"left":1,"right":0,"variant":2},"abilityID":"Sacrificial Shrine"},"181":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"183":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"185":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"188":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"190":{"travelNode":{"up":1,"down":1,"left":0,"right":1,"variant":3},"abilityID":"Stagnation"},"191":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":2}},"192":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":4},"abilityID":"Cheaper Aura"},"193":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"194":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Cheaper Uproot I"},"195":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":3}},"196":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":3}},"197":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":1},"abilityID":"Rebound"},"198":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":1}},"200":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":4},"abilityID":"More Puppets I"},"202":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":1},"abilityID":"Haunting Memory"},"203":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"204":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Totemic Reach"},"206":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"207":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":1},"abilityID":"Blood Connection"},"209":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"212":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"215":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"218":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"221":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"224":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"226":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"227":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":4},"abilityID":"Exploding Puppets"},"229":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":2}},"230":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":4},"abilityID":"Frog Dance"},"231":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":4}},"232":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":3}},"233":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Larger Blood Pool"},"234":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":1}},"235":{"travelNode":{"up":1,"down":1,"left":0,"right":1,"variant":2},"abilityID":"Bullwhip"},"236":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"238":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":2},"abilityID":"Totemic Shatter"},"239":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"240":{"travelNode":{"up":1,"down":1,"left":0,"right":1,"variant":1},"abilityID":"Masquerade"},"241":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":3}},"242":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":4}},"243":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":2},"abilityID":"Lashing Lance"},"244":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"245":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":3},"abilityID":"More Puppets II"},"246":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":3}},"248":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":1},"abilityID":"Artist's Immersion"},"249":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"251":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":4},"abilityID":"Vengeful Spirit"},"252":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"253":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":4},"abilityID":"Double Totem"},"254":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"255":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Cheaper Totem II"},"256":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"257":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":2}},"258":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":3},"abilityID":"Storm Dance"},"259":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"260":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":2}},"261":{"travelNode":{"up":1,"down":0,"left":1,"right":0,"variant":1},"abilityID":"Cheaper Haul II"},"263":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"265":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":1},"abilityID":"Regeneration"},"266":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"268":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":1},"abilityID":"Twisted Tether"},"269":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"272":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"275":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"278":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"280":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":1}},"281":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":4},"abilityID":"Crimson Effigy"},"282":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":3}},"283":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":3}},"284":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":3},"abilityID":"Tribal Chants"},"286":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"287":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":4},"abilityID":"Eldritch Call"},"288":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":2}},"289":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":2},"abilityID":"Maddening Roots"},"290":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"292":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":1},"abilityID":"Seeking Totem"},"293":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"295":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"297":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"298":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":2}},"299":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":3},"abilityID":"Cheaper Aura II"},"300":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":4}},"301":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":3}},"302":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":4},"abilityID":"Imbued Totem"},"303":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":2}},"304":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Rupture"},"305":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":3}},"306":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":1},"abilityID":"Bloody"},"307":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":3},"abilityID":"Commander"},"308":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":3}},"309":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":3},"abilityID":"Friendly Fire"},"310":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"311":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"312":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":2},"abilityID":"Depersonalization"},"314":{"travelNode":{"up":1,"down":1,"left":0,"right":1,"variant":2},"abilityID":"Scourge"},"315":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":3}},"317":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"319":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":2},"abilityID":"Meticulous Act"},"320":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"323":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"324":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":2},"abilityID":"Bloodletting"},"326":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"329":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"332":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"334":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"335":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":3},"abilityID":"Hummingbird's Song"},"336":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":1}},"338":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"340":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":2}},"341":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":4},"abilityID":"Blood Rite"},"342":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":2}},"343":{"travelNode":{"up":1,"down":1,"left":0,"right":1,"variant":4},"abilityID":"Triple Totem"},"344":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"345":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":2},"abilityID":"Invigorating Wave"},"346":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":1}},"347":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":4},"abilityID":"Chorus of the Ancients"},"348":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":4}},"349":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":4}},"351":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"353":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"357":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"358":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":4},"abilityID":"Sanguine Strike"},"359":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"360":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":2},"abilityID":"Bloodier"},"361":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"362":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Soaring Wingbeats"},"363":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":2}},"364":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":2},"abilityID":"Cheaper Uproot II"},"365":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":4}},"366":{"travelNode":{"up":1,"down":0,"left":1,"right":0,"variant":4},"abilityID":"Awakened"},"368":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":3},"abilityID":"Blood Sorrow"},"370":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":3},"abilityID":"Shepherd"},"371":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"374":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"377":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"380":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"383":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"386":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"388":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":3}},"389":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":3},"abilityID":"Puppetry"},"390":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":4}},"392":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"395":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":3},"abilityID":"Eldritch Transfusion"},"396":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":4}},"397":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"398":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":2}},"399":{"travelNode":{"up":1,"down":1,"left":1,"right":1,"variant":4},"abilityID":"Crystal Knives"},"400":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":4}},"401":{"travelNode":{"up":1,"down":0,"left":1,"right":1,"variant":3},"abilityID":"Freestyle"},"402":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"403":{"travelNode":{"up":0,"down":0,"left":1,"right":1,"variant":1},"abilityID":"Repulse"},"404":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"405":{"travelNode":{"up":1,"down":1,"left":1,"right":0,"variant":4},"abilityID":"Effuse"},"406":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":3},"abilityID":"Slingshot"},"407":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":1}},"408":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"409":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":4},"abilityID":"Egomania"},"410":{"travelNode":{"up":0,"down":1,"left":1,"right":1,"variant":1}},"411":{"travelNode":{"up":1,"down":0,"left":1,"right":0,"variant":1},"abilityID":"Totemic Hammer"},"413":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3},"abilityID":"Bloodiest"},"414":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"416":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"417":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":4},"abilityID":"Fortified Formation"},"419":{"travelNode":{"up":1,"down":0,"left":0,"right":1,"variant":2},"abilityID":"Pool of Rejuvenation"},"420":{"travelNode":{"up":0,"down":1,"left":1,"right":0,"variant":2}},"422":{"travelNode":{"up":1,"down":1,"left":0,"right":1,"variant":4}},"423":{"travelNode":{"up":1,"down":0,"left":1,"right":0,"variant":3},"abilityID":"Haemomagnetic"},"425":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"428":{"travelNode":{"up":0,"down":1,"left":0,"right":1,"variant":4}},"429":{"travelNode":{"up":1,"down":0,"left":1,"right":0,"variant":3},"abilityID":"Corporeal Manifestation"},"431":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"434":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":3}},"437":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"440":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"443":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"446":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"449":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":2}},"452":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":3},"abilityID":"Patchwork Abomination"},"455":{"travelNode":{"up":1,"down":1,"left":0,"right":0,"variant":4}},"458":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":3},"abilityID":"Monument to Gloom"},"464":{"travelNode":{"up":1,"down":0,"left":0,"right":0,"variant":4},"abilityID":"Sundered Skies"}},"currentHorizontalPage":1,"bEditMode":true,"startingAbilityID":"1","abilityTrees":{"Default":[]},"selectedTree":"Default","abilitiesByName":{"Arrow Bomb":1,"Bow Proficiency":2,"Cheaper Arrow Bomb":3,"Heart Shatter":4,"Escape":5,"Power Shots":6,"Double Shots":7,"Arrow Storm":8,"Cheaper Escape":9,"Arrow Shield":10,"Windy Feet":11,"Air Mastery":12,"Thunder Mastery":13,"Earth Mastery":14,"Fire Mastery":15,"Water Mastery":16,"Buckshot":17,"Phantom Ray":18,"Nimble String":19,"Fire Creep":20,"Bryophyte Roots":21,"Triple Shots":22,"Frenzy":23,"Guardian Angels":24,"Basaltic Trap":25,"Focus":26,"Windstorm":27,"Stormy Feet":28,"Cheaper Arrow Storm":29,"Implosion":30,"Arrow Wall":31,"More Focus":32,"Grappling Hook":33,"Patient Hunter":34,"Call of the Hound":35,"Mana Trap":36,"Bouncing Bomb":37,"Spectral Hover":38,"Leap":39,"Ivyroot Mamba":40,"Twain's Arc":41,"Rocket Jump":42,"Scorched Earth":43,"More Traps":44,"Cheaper Arrow Shield":45,"Honed Shield":46,"Shocking Bomb":47,"Homing Shots":48,"Fierce Stomp":49,"Bounding Stride":50,"Transience":51,"Cheaper Arrow Storm II":52,"Initiator":53,"Phasing Beam":54,"Decimator":55,"Murder Flock":56,"Parting Gift":57,"Vigilant Sentinels":58,"Recycling":59,"Shrapnel Bomb":60,"Cheaper Escape II":61,"Hookshot":62,"Cheaper Arrow Shield II":63,"Coursing Restraints":64,"Crepuscular Ray":65,"Beast Lore":66,"Tangled Traps":67,"Chilling Snare":68,"More Focus II":69,"Grape Bomb":70,"Cheaper Arrow Bomb II":71,"Swift Primer":72,"Snow Storm":73,"Refined Gunpowder":74,"Pyrotechnics":75,"Courier's Edict":76,"Arrow Hurricane":77,"Phantom Force":78,"Ghostly Trigger":79,"Divine Intervention":80,"Arsenal Synergy":81,"Feedback Loop":82,"Wild Light":83,"Elusive":84,"Shrieking Arrows":85,"Fimbulwinter":86,"Sniffer Dog":87,"Overgrowth":88,"Canine Colleague":89,"Warding Wisps":90,"Quick Draw":91,"Repel":92,"Repositioning":93,"Mael's Quiver":94,"Angelic Ascension":95,"Extinction Event":96,"The Twilight Zone":97}}
+{
+  "properties": {
+    "classs": "shaman",
+    "maxAbilityPoints": 50,
+    "pages": 9,
+    "horizontalPages": 1,
+    "rowsPerPage": 6,
+    "pagesDisplayed": 2,
+    "loopTree": false,
+    "bTravesableUp": false,
+    "useAlternativeAbilityIcons": true,
+    "strictAllocation": true
+  },
+  "archetypes": [
+    "§#f0c435§lSummoner",
+    "§#87dd47§lRitualist",
+    "§#ffa057§lAcolyte"
+  ],
+  "abilities": {
+    "Totem": {
+      "name": "§g§lTotem",
+      "description": "§6操作组合: §d§l右键§7-§d§l左键§7-§d§l右键\n\n§7召唤一个图腾，每 §f0.4 秒§7对周围的敌人造成一次伤害。\n\n§b✺§7 技能消耗: §f30\n§c⚔ §7总伤害: §f12% §8(相当于你的 DPS)\n    §8(§6✣ §8伤害: 6%)\n    §8(§f❋ §8气: 6%)\n§d⌛ §7持续时间: §f30 秒\n§3☀ §7作用范围: §f8 格 §7(圆形)",
+      "customName": "图腾",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Relik Proficiency": {
+      "name": "§f§lRelik Proficiency",
+      "description": "使§7你的§n普通攻击§r§7射线飞行速度翻倍，并提高使用图腾武器时的伤害。\n\n§c⚔§7 普通攻击伤害: §f+5%\n§8(伤害由所有射线均摊)",
+      "customName": "图腾精通",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Cheaper Totem": {
+      "name": "§f§lCheaper Totem",
+      "description": "§7降低§n图腾§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-10",
+      "customName": "图腾减耗",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "1"
+      ]
+    },
+    "Totem Smash": {
+      "name": "§h§lTotem Smash",
+      "description": "§7你的§n图腾§r§7将在落地处造成伤害。\n\n§c⚔ §7总伤害: §f150%§8 (相当于你的 DPS)\n    §8(§6✣ §8伤害: 120%)\n    (§c✹ §8火: 30%)\n§3☀ §7作用范围: §f3.5 格 §7(圆形)",
+      "customName": "图腾冲击",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Haul": {
+      "name": "§g§lHaul",
+      "description": "§6操作组合: §d§l右键§7-§d§l右键§7-§d§l右键\n\n§7飞跃至你的§b图腾§7处。\n\n§b✺ §7技能消耗: §f15",
+      "customName": "牵引",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Hand of the Shaman": {
+      "name": "§h§lHand of the Shaman",
+      "description": "§7你的§n普通攻击§r§7将额外发射 §f+2 §7束射线。§8(使总体伤害增加 +65%)",
+      "customName": "祭司之握",
+      "note": "",
+      "unlockingWillBlock": [
+        "7"
+      ],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Distant Grasp": {
+      "name": "§h§lDistant Grasp",
+      "description": "§7缩小§n普通攻击§r§7的散射角度，并使射线速度提高 §f+33%",
+      "customName": "收束之握",
+      "note": "",
+      "unlockingWillBlock": [
+        "6"
+      ],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Uproot": {
+      "name": "§g§lUproot",
+      "description": "§6操作组合: §d§l右键§7-§d§l右键§7-§d§l左键\n\n§7发射一道高速射流，命中后爆炸并击退敌人。§8(按住潜行键则改为拉扯敌人)\n\n§b✺ §7技能消耗: §f30\n§c⚔ §7总伤害: §f130%§8 (相当于你的 DPS)\n    (§6✣§8 伤害: 80%)\n    (§2✤§8 地: 30%)\n    (§e✦ §8电: 20%)\n§2➼ §7范围: §f18 格\n§3☀§7 作用范围: §f5 格§7 (圆形)",
+      "customName": "铲除",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Cheaper Haul": {
+      "name": "§f§lCheaper Haul",
+      "description": "§7降低§n牵引§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5",
+      "customName": "牵引减耗",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "5"
+      ]
+    },
+    "Aura": {
+      "name": "§g§lAura",
+      "description": "§6操作组合: §d§l右键§7-§d§l左键§7-§d§l左键\n\n§7令你的§n图腾§r§7释放一道光环，对敌人造成伤害。\n\n§b✺§7 技能消耗: §f40\n§c⚔ §7总伤害: §f180% §8(相当于你的 DPS)\n    §8(§6✣ §8伤害: 150%)\n    §8(§b❉ §8水: 30%)\n§2➼ §7范围: §f16 格",
+      "customName": "光环",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Thunder Mastery": {
+      "name": "§f§lThunder Mastery",
+      "description": "§7增加所有电属性攻击的基础伤害。\n\n§e✦ §7电属性伤害: §f+1-8\n§e✦ §7电属性伤害: §f+10%",
+      "customName": "电元素精通",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Fire Mastery": {
+      "name": "§f§lFire Mastery",
+      "description": "§7增加所有火属性攻击的基础伤害。\n\n§c✹ §7火属性伤害: §f+3-5\n§c✹ §7火属性伤害: §f+15%",
+      "customName": "火元素精通",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Water Mastery": {
+      "name": "§f§lWater Mastery",
+      "description": "§7增加所有水属性攻击的基础伤害。\n\n§b❉ §7水属性伤害: §f+2-4\n§b❉ §7水属性伤害: §f+15%",
+      "customName": "水元素精通",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Air Mastery": {
+      "name": "§f§lAir Mastery",
+      "description": "§7增加所有气属性攻击的基础伤害。\n\n§f❋ §7气属性伤害: §f+3-4\n§f❋ §7气属性伤害: §f+15%",
+      "customName": "气元素精通",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Earth Mastery": {
+      "name": "§f§lEarth Mastery",
+      "description": "§7增加所有地属性攻击的基础伤害。\n\n§2✤ §7地属性伤害: §f+2-4\n§2✤ §7地属性伤害: §f+20%",
+      "customName": "地元素精通",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Nature's Jolt": {
+      "name": "§i§lNature's Jolt",
+      "description": "§7使用§n牵引§r§7落地时，对你周围造成伤害。\n\n§c⚔ §7总伤害: §f150%§8 (相当于你的 DPS)\n   §8(§6✣ §8伤害: 110%)\n   §8(§2✤ §8地: 40%)\n§3☀ §7作用范围: §f4.5 格 §7(圆形)",
+      "customName": "惊蛰",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "5"
+      ]
+    },
+    "Overseer": {
+      "name": "§i§lOverseer",
+      "description": "§7增加§n铲除§r§7和§n灵界沟通§r§7的范围。使用其中任一技能命中§n图腾§r§7都会重置其持续时间。\n\n§2➼§7 范围: §f+6 格",
+      "customName": "先知洞察",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "8"
+      ]
+    },
+    "Rain Dance": {
+      "name": "§i§lRain Dance",
+      "description": "§7当你的§n图腾§r§7位于空中时，会留下一道雨幕，每 §f0.4 秒§7对下方的敌人造成一次伤害。\n\n§c⚔ §7总伤害: §f60%§8 (相当于你的 DPS)\n    §8(§6✣ §8伤害: 30%)\n    (§b❉ §8水: 30%)\n§d⌛ §7持续时间: §f6 秒\n§3☀ §7作用范围: §f3.5 格 §7(线形)",
+      "customName": "祈雨",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Shocking Aura": {
+      "name": "§i§lShocking Aura",
+      "description": "§7§n光环§r§7的扩散速度大幅提高，并造成额外伤害。\n\n§c⚔ §7总伤害: §f+20%§8 (相当于你的 DPS)\n    (§e✦ §8电: +20%)",
+      "customName": "震击光环",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "10"
+      ]
+    },
+    "Flaming Tongue": {
+      "name": "§i§lFlaming Tongue",
+      "description": "§7§n铲除§r§7变为火焰鞭挞，以每秒 §f3§7 次的频率命中§f3§7次，但不再引发爆炸或击退敌人。\n\n§n灵界沟通§7将不再把§b假面§7附着在敌人身上。\n\n§c⚔ §7总伤害: §c-35%§8 (相当于你的 DPS，§n铲除§r§8每次命中)\n    (§6✣ §8伤害: -5%)\n    (§2✤ §8地: -30%)\n    (§e✦ §8电: -10%)\n    (§c✹ §8火: +10%)",
+      "customName": "火舌",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "8"
+      ]
+    },
+    "Puppet Master": {
+      "name": "§k§lPuppet Master",
+      "description": "§7你的§n图腾§r§7会召唤 §b1 个魔偶§7，每 §f3 秒§7一次。（上限 3 个）它们每 §f0.5 秒§7会向附近的敌人投掷飞刀。\n\n§c⚔ §7总伤害: §f20%§8 (相当于你的 DPS)\n    (§6✣ §8伤害: 16%)\n    (§f❋ §8气: 2%)\n    (§2✤ §8地: 2%)\n§d⌛ §7持续时间: §f30 秒\n§2➼ §7范围: §f16 格",
+      "customName": "偶术大师",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 3,
+      "requires": [
+        "1"
+      ]
+    },
+    "Puppetry": {
+      "name": "§f§lPuppetry",
+      "description": "§7你的§b魔偶§7数量上限 §f+2§7。\n\n§n图腾§7召唤魔偶的速度提高 §f25%§7。",
+      "customName": "傀儡术",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "21"
+      ]
+    },
+    "Sacrificial Shrine": {
+      "name": "§k§lSacrificial Shrine",
+      "description": "§7你的§n图腾§r§7会汲取你 §f2%§7 的生命值，每 §f0.4 秒§7一次，并将其转移至§b血池§4⚕§7。\n\n§n光环§r §7将消耗 §f15 §7点§b血池§4⚕§7，造成 §f+35% §7伤害并治疗所有盟友。\n\n§c❤ §7总治疗量: §f25% §8(你的最大生命值)",
+      "customName": "鲜血圣坛",
+      "note": "",
+      "unlockingWillBlock": [
+        "41"
+      ],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 3,
+      "requires": [
+        "1"
+      ]
+    },
+    "Stagnation": {
+      "name": "§h§lStagnation",
+      "description": "§7被§n惊蛰§r§7命中的敌人将被减速。\n\n§e✧ §7效果: §f40% §7减缓敌人 (§c⬤§7)\n§d⌛ §7持续时间: §f3 秒",
+      "customName": "踵击",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "16"
+      ]
+    },
+    "Cheaper Aura": {
+      "name": "§f§lCheaper Aura",
+      "description": "§7降低§n光环§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5",
+      "customName": "光环减耗",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "10"
+      ]
+    },
+    "Cheaper Uproot I": {
+      "name": "§f§lCheaper Uproot I",
+      "description": "§7降低§n铲除§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5",
+      "customName": "铲除减耗 I",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "8"
+      ]
+    },
+    "More Puppets I": {
+      "name": "§f§lMore Puppets I",
+      "description": "§7你的§b魔偶§7数量上限 §f+1§7。",
+      "customName": "魔偶军团 I",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "21"
+      ]
+    },
+    "Haunting Memory": {
+      "name": "§j§lHaunting Memory",
+      "description": "§7切换§b假面§7时，将先前的假面向前掷出。若命中敌人，假面会短暂附着并对其施加减益。在假面返回之前，你无法获得该§b假面§7的效果。\n\n§c⚔ §7总伤害: §f240% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 240%)\n§2➼ §7范围: §f14 格\n§e✧ §7效果: \n   §#F1547C 荒诞假面§7: §f-15% §7敌人伤害加成 (§c⚔§7)\n   §#FCC050☠ 狂热假面§7: §f-15% §7敌人抗性加成 (§c✃§7)\n   §#97E6FC 异端假面§7: §f+30% §7减缓敌人 (§c⌛§7)\n§d⌛ §7持续时间: §f4 秒",
+      "customName": "灵界沟通",
+      "note": "",
+      "unlockingWillBlock": [
+        "44"
+      ],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 3,
+      "requires": []
+    },
+    "Totemic Reach": {
+      "name": "§f§lTotemic Reach",
+      "description": "§7增加§n图腾§r§7的作用范围。\n\n§3☀ §7作用范围: §f+4 格 §7(圆形)",
+      "customName": "崇高图腾",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "1"
+      ]
+    },
+    "Blood Connection": {
+      "name": "§h§lBlood Connection",
+      "description": "§7若你处于§n图腾§r§7的范围之外，§n牵引§r§7会将你传送至图腾处。",
+      "customName": "血肉链接",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "5"
+      ]
+    },
+    "Exploding Puppets": {
+      "name": "§i§lExploding Puppets",
+      "description": "§7当§b魔偶§7的剩余时间为 §f3 秒§7时，它们会高速冲向敌人并爆炸。\n\n§c⚔ §7总伤害: §f200%§8 (相当于你的 DPS)\n    §8(§6✣ §8伤害: 150%)\n    (§c✹ §8火: 50%)\n§3☀ §7作用范围: §f3 格 §7(圆形)",
+      "customName": "自爆魔偶",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "21"
+      ]
+    },
+    "Bullwhip": {
+      "name": "§j§lBullwhip",
+      "description": "§7使用§n铲除§r§7或§n灵界沟通§r §7命中敌人会对其施加§b鞭挞§6⇶§7。你的§b召唤物§7会优先攻击§b鞭挞§6⇶§7的敌人，并对其造成额外伤害。\n\n§e✧ §7效果: §f+20% §7召唤物伤害加成\n§d⌛ §7持续时间: §f10 秒",
+      "customName": "鞭笞",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "8"
+      ]
+    },
+    "More Puppets II": {
+      "name": "§f§lMore Puppets II",
+      "description": "§7你的§b魔偶§7数量上限 §f+2§7。",
+      "customName": "魔偶军团 II",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "27"
+      ]
+    },
+    "Double Totem": {
+      "name": "§i§lDouble Totem",
+      "description": "§7你的§n图腾§r §7数量上限 §f+1§7。§7§n图腾§r§7和§n光环§r§7造成的伤害降低 §c40%§7。\n\n§n治愈图腾§r§7和§n鲜血圣坛§r§7的治疗量降低 §c40%§7。",
+      "customName": "图腾之林",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 2,
+      "requires": [
+        "10"
+      ]
+    },
+    "Cheaper Totem II": {
+      "name": "§f§lCheaper Totem II",
+      "description": "§7降低§n图腾§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5",
+      "customName": "图腾减耗 II",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "1"
+      ]
+    },
+    "Hymn of Hate": {
+      "name": "§h§lHymn of Hate",
+      "description": "§7佩戴§#F1547C荒诞假面 §7时，若使用§n光环§r§7击杀敌人，将在该位置施放一道新的§n光环§r§7，造成其 §f-50% §7的伤害。",
+      "customName": "憎恶之诗",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "38"
+      ]
+    },
+    "Larger Blood Pool": {
+      "name": "§f§lLarger Blood Pool",
+      "description": "§7你的§b血池§4⚕ §7容量上限增加 §f+30 §7点。",
+      "customName": "无底血池",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "23"
+      ]
+    },
+    "Mystic Masks": {
+      "name": "§k§lMystic Masks",
+      "description": "§7施放§n铲除§r§7时，改为佩戴一副§b神秘假面§7。§8(潜行 + 铲除即可取下)§7\n\n§#F1547C 荒诞假面§7: §f+15%§7 自身伤害加成\n              §c-15%§7 自身抗性加成\n\n§#FCC050☠ 狂热假面§7: §f+25%§7 自身抗性加成\n              §c-25%§7 自身移动速度加成\n\n§#97E6FC 异端假面§7: §f+50%§7 自身移动速度加成\n              §c-10%§7 自身伤害加成",
+      "customName": "神秘假面",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 2,
+      "requires": [
+        "8"
+      ]
+    },
+    "Vengeful Spirit": {
+      "name": "§i§lVengeful Spirit",
+      "description": "§7你的§n图腾§r §7会给予范围内所有玩家伤害加成。\n\n§e✧ §7效果: §f+20% §7盟友伤害加成 (§a⚔§7)",
+      "customName": "复仇之灵",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Masquerade": {
+      "name": "§h§lMasquerade",
+      "description": "§7切换§b假面§f2§7次后，你将获得 §f30 §7点法力。",
+      "customName": "假面狂欢",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 4,
+      "requires": []
+    },
+    "Regeneration": {
+      "name": "§i§lRegeneration",
+      "description": "§7每 §f0.4 秒§7，你的§n图腾§r §7会治疗范围内的所有玩家。\n\n§c❤§7 总治疗量: §f1% §8(你的最大生命值)",
+      "customName": "治愈图腾",
+      "note": "",
+      "unlockingWillBlock": [
+        "23"
+      ],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Storm Dance": {
+      "name": "§i§lStorm Dance",
+      "description": "§7被§n光环§r§7命中的敌人将被拉向你的图腾。\n\n§c⚔ §7总伤害: §f+30% §8(相当于你的 DPS)\n    (§f❋ §8气: +30%)",
+      "customName": "唤风",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "10"
+      ]
+    },
+    "Cheaper Haul II": {
+      "name": "§f§lCheaper Haul II",
+      "description": "§7降低§n牵引§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5",
+      "customName": "牵引减耗 II",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "5"
+      ]
+    },
+    "Effuse": {
+      "name": "§j§lEffuse",
+      "description": "§7§n火舌§7每次命中都会获得 §f+2.5 §b血池§4⚕§7。",
+      "customName": "血涌",
+      "note": "",
+      "unlockingWillBlock": [
+        "28"
+      ],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 11,
+      "requires": [
+        "20"
+      ]
+    },
+    "Cheaper Aura II": {
+      "name": "§f§lCheaper Aura II",
+      "description": "§7降低§n光环§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5",
+      "customName": "光环减耗 II",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "10"
+      ]
+    },
+    "Totemic Shatter": {
+      "name": "§j§lTotemic Shatter",
+      "description": "§7佩戴§#FCC050狂热假面 ☠§7时，你的§n图腾§r §7将在撞击地面时碎裂，并迅速触发相当于 §f8 秒§7持续时间的效果。\n\n§n治愈图腾§r §7的治疗量仅为通常的 §f50%§7。",
+      "customName": "狂怒图腾",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "38"
+      ]
+    },
+    "Imbued Totem": {
+      "name": "§f§lImbued Totem",
+      "description": "§7增加§n图腾§r§7的伤害。\n\n§c⚔ §7总伤害: §f4% §8(相当于你的 DPS)\n    (§6✣ §8伤害: +4%)",
+      "customName": "致伤图腾",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "1"
+      ]
+    },
+    "Depersonalization": {
+      "name": "§h§lDepersonalization",
+      "description": "§7§n假面狂欢§r§7所需的切换次数 §f-1§7 次§b假面§7切换，但获得的法力值 §f-10§7。",
+      "customName": "自我陶醉",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 7,
+      "requires": [
+        "40"
+      ]
+    },
+    "Twisted Tether": {
+      "name": "§j§lTwisted Tether",
+      "description": "§7附近处于§b流血§c §7状态的敌人会在你每失去 §f2% §7生命值时受到一次伤害。§8(同时最多触发 10 次) \n\n§c⚔ §7总伤害: §f65% §8(相当于你的 DPS，每失去 2% 生命值)\n   §8(§6✣ §8伤害: 45%)\n   §8(§f❋ §8气: 20%)\n§2➼ §7范围: §f20 格",
+      "customName": "索命夺魂",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 7,
+      "requires": [
+        "71"
+      ]
+    },
+    "Crimson Effigy": {
+      "name": "§k§lCrimson Effigy",
+      "description": "§7§n图腾§7会召唤一个§b魔像§7，攻击敌人并将其推向最近的§n图腾§7，每 §f0.5 秒§7一次。§b魔像§7的存在时间与其§n图腾§7相同。\n\n每个§n图腾§7都会召唤自己的§b魔像§7。每额外召唤一个§b魔像§7，所有§b魔像§7造成的伤害都会降至 §c0.8x§7。\n\n§c⚔ §7总伤害: §f100% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 75%)\n   §8(§c✹ §8火: 25%)\n§3☀ §7索敌范围: §f18 格 §7(圆形)",
+      "customName": "绯红魔像",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 6,
+      "requires": [
+        "17"
+      ]
+    },
+    "Tribal Chants": {
+      "name": "§k§lTribal Chants",
+      "description": "§7切换假面时，在自身周围触发对应效果。\n\n§#F1547C 荒诞假面§7: §f+15%§7 盟友伤害加成 (§a⚔§7)\n§d⌛ §7持续时间: §f6 秒\n\n§#FCC050☠ 狂热假面§7: §f45%§7 盟友抗性加成\n§d⌛ §7持续时间: §f3 秒\n\n§#97E6FC 异端假面§7: §f+60%§7 盟友移动速度加成\n§8(加成每秒衰减 -10%)§7\n\n§3☀ §7作用范围: §f8 格 §7(圆形)\n§3⌚ §7冷却: §f8 秒 §8(每种颂歌独立计算)",
+      "customName": "部族颂歌",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 8,
+      "requires": [
+        "38"
+      ]
+    },
+    "Rupture": {
+      "name": "§i§lRupture",
+      "description": "§7§n鲜血圣坛§7使§n光环§7的伤害提高 §f+15%§7，并消耗至多 §f2 秒§7的§b流血§c§7；每消耗一秒§b流血§c§7，获得 §f+2.2 §b血池§4⚕§7。",
+      "customName": "创口迸裂",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 6,
+      "requires": [
+        "23"
+      ]
+    },
+    "Bloody": {
+      "name": "§f§lBloody",
+      "description": "§7你的§b血池§4⚕ §7容量上限增加 §f+30 §7点。§7你的§b流血§c §7持续时间上限增加 §f+1.5 秒§7。",
+      "customName": "鲜血淋漓 I",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "23"
+      ]
+    },
+    "Maddening Roots": {
+      "name": "§i§lMaddening Roots",
+      "description": "§7§n铲除§r§7会减速敌人，并提高§7鞭笞§7提供的伤害加成。\n\n§e✧ §7效果: §f40% §7减缓敌人 (§c⌛§7)\n§e✧ §7效果: §f+15% §7鞭笞伤害加成\n§d⌛ §7持续时间: §f3 秒",
+      "customName": "怨念缠身",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "8"
+      ]
+    },
+    "Chorus of the Ancients": {
+      "name": "§i§lChorus of the Ancients",
+      "description": "§7提高所有颂歌的效果。\n\n§#F1547C 荒诞假面§7: §f+15%§7 盟友伤害加成 (§a⚔§7)\n§#FCC050☠ 狂热假面§7: §f+20%§7 盟友抗性加成\n§#97E6FC 异端假面§7: §f+60%§7 盟友移动速度加成",
+      "customName": "先祖合颂",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 10,
+      "requires": [
+        "51"
+      ]
+    },
+    "Blood Rite": {
+      "name": "§j§lBlood Rite",
+      "description": "§7任何玩家在你的§n图腾§r§7范围内受到伤害时，按照该伤害占你最大生命值的比例，将其中 §f35%§7转化为§b血池§4⚕§7。§8(每秒最多获得 15 点血池)",
+      "customName": "血之祭礼",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 9,
+      "requires": [
+        "23"
+      ]
+    },
+    "Meticulous Act": {
+      "name": "§f§lMeticulous Act",
+      "description": "§7你的§b假面§7将提供更高的加成。\n\n§#F1547C 荒诞假面§7: §f+25%§7 伤害加成\n§#FCC050☠ 狂热假面§7: §f+20%§7 抗性提升\n§#97E6FC 异端假面§7: §f+40%§7 移动速度加成",
+      "customName": "精益求精",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 11,
+      "requires": [
+        "38"
+      ]
+    },
+    "Triple Totem": {
+      "name": "§i§lTriple Totem",
+      "description": "§7你的§n图腾§r§7数量上限 §f+1§7。§n图腾§r§7和§n光环§r§7造成的伤害降低 §c50%§7。\n\n§n治愈图腾§r§7和§n鲜血圣坛§r§7的治疗量降低 §c50%§7。",
+      "customName": "图腾之森",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 8,
+      "requires": [
+        "34"
+      ]
+    },
+    "Invigorating Wave": {
+      "name": "§j§lInvigorating Wave",
+      "description": "§7§n光环§r§7会暂时提高你的§b召唤物§7的攻击速度。被命中的玩家获得§f +3§7点法力。\n\n§e✧ §7效果: §f+30%§7 召唤物攻击速度\n§d⌛ §7持续时间: §f2.5 秒",
+      "customName": "活力之潮",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 3,
+      "requires": [
+        "10"
+      ]
+    },
+    "Seeking Totem": {
+      "name": "§h§lSeeking Totem",
+      "description": "§7佩戴§#97E6FC异端假面 §7时，你的§n图腾§r§7会向你移动，直到你进入其范围。",
+      "customName": "图腾随行",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "38"
+      ]
+    },
+    "Crystal Knives": {
+      "name": "§i§lCrystal Knives",
+      "description": "§7你的§b魔偶§7飞刀会变得更强，并可以穿过墙壁和敌人。§8(最多穿过 2 个敌人)§7\n\n§c⚔ §7总伤害: §f+5% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: +3%)\n   §8(§2✤ §8地: +2%)",
+      "customName": "水晶飞刀",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 8,
+      "requires": [
+        "21"
+      ]
+    },
+    "Bloodletting": {
+      "name": "§f§lBloodletting",
+      "description": "§7增加§n索命夺魂§r§7的伤害。\n\n§c⚔ §7总伤害: §f+25% §8(相当于你的 DPS)\n    (§6✣ §8伤害: +25%)",
+      "customName": "血手夺魄",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "49"
+      ]
+    },
+    "Shepherd": {
+      "name": "§i§lShepherd",
+      "description": "§7当你或你的§b召唤物§7击杀敌人，或你击杀一个§b魔偶§7（通过§n残酷鞭策§7）时，获得§b+1 魔偶数量上限§6⚘ §7，持续 §f15 秒。§7（上限 +8）",
+      "customName": "倏忽傀影",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "21"
+      ]
+    },
+    "Frog Dance": {
+      "name": "§j§lFrog Dance",
+      "description": "§7佩戴§#97E6FC异端假面 §7时，§n牵引§r§7将改为让你在地面弹跳 §f3§7 次，速度逐次提高，并对附近的敌人造成伤害。§8(按住潜行键即可取消)§7\n\n§n蛙之舞§7无需§n图腾§7也能使用。\n\n§c⚔§7 总伤害: §f200%§8 (相当于你的 DPS)\n    (§6✣§8 伤害: 150%)\n    (§b❉ §8水: 50%)\n§3☀ §7作用范围: §f4.5 格 §7(圆形)",
+      "customName": "蛙之舞",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 4,
+      "requires": [
+        "38"
+      ]
+    },
+    "Artist's Immersion": {
+      "name": "§i§lArtist's Immersion",
+      "description": "§7你的§b假面§7会根据当前佩戴的假面降低不同技能的消耗。\n\n§#F1547C 荒诞假面§7: §f-30% §b✺ §7光环消耗\n§#FCC050☠ 狂热假面§7: §f-65% §b✺ §7图腾消耗\n§#97E6FC 异端假面§7: §f-50% §b✺ §7牵引消耗",
+      "customName": "艺术沉浸",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "38"
+      ]
+    },
+    "Awakened": {
+      "name": "§k§lAwakened",
+      "description": "§7累计通过减耗节省 §f150§7 点§b假面§7法力后，切换§b假面§7会使你进入§f觉醒形态 ♚§7，持续 §f25 秒§7，同时获得所有§b假面§7的正面效果且不受负面效果影响。\n\n切换至已附着的§b假面§7时，若正处于§f觉醒形态 ♚§7，则会立即将该§b假面§7召回身边。",
+      "customName": "觉醒形态",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 11,
+      "requires": [
+        "65"
+      ]
+    },
+    "Bloodier": {
+      "name": "§f§lBloodier",
+      "description": "§7你的§b血池§4⚕ §7容量上限增加 §f+30 §7点。§7你的§b流血§c §7持续时间上限增加 §f+1.5 秒§7。",
+      "customName": "鲜血淋漓 II",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "23"
+      ]
+    },
+    "Blood Sorrow": {
+      "name": "§k§lBlood Sorrow",
+      "description": "§7按住潜行键施放§n铲除§7或§n灵界沟通§7时，会消耗 §f60§7 点§b血池§4⚕ §7，释放一道毁灭性的光束，在敌人和盟友之间产生连锁，并每 §f0.2 秒§7对敌人造成一次伤害。\n\n你和光束内的所有盟友每次命中都会获得 §f+2% §b超量生命§6❤ §7。额外生命值会在 §f20 秒§7内逐渐衰减。\n\n§c⚔ §7总伤害: §f120% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 100%)\n   §8(§b❉ §8水: 20%)\n§d⌛ §7持续时间: §f5 秒\n§2➼ §7范围: §f24 格",
+      "customName": "猩红挽歌",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 12,
+      "requires": [
+        "8"
+      ]
+    },
+    "Totem Shove": {
+      "name": "§h§lTotem Shove",
+      "description": "§7看向现存的§n图腾§7施放§n图腾§7时，改为将其向前推射，对撞到的任何敌人造成伤害。§8(潜行可反转推射方向)\n\n§c⚔ §7总伤害: §f120% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 90%)\n   §8(§f❋ §8气: 30%)\n§2➼ §7范围: §f~12 格\n§3☀ §7作用范围: §f3.5 格 §7(圆形)",
+      "customName": "图腾推射",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Rebound": {
+      "name": "§j§lRebound",
+      "description": "§7§n光环§7达到最大范围后将折返，并再次施加其效果。\n\n§n鲜血圣坛§7的治疗量降低 §c35%§7。",
+      "customName": "回响之环",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "10"
+      ]
+    },
+    "Lashing Lance": {
+      "name": "§j§lLashing Lance",
+      "description": "§7§n火舌§7攻击次数 §f+2§7，造成更高伤害，并对敌人施加§b流血§c§7，每次命中增加 §f+1 秒§7。§8(上限 6 秒)\n\n§7§n灵界沟通§7将改为施加 §f+6 秒§7的§b流血§c§7。\n\n§b流血§c §7状态下的敌人每 §f0.5 秒§7受到一次伤害。§b流血§c §7伤害若发生在§n图腾§7范围内，还会增加 §f+0.8 §7点§b血池§4⚕§7。\n\n§c⚔ §7总伤害: §f+15% §8(相当于你的 DPS，§n铲除§8每次命中)\n   §8(§6✣ §8伤害: +10%)\n   §8(§e✦ §8电: +5%)\n\n§c⚔ §7总伤害: §f60% §8(相当于你的 DPS，来自流血)\n   §8(§6✣ §8伤害: 60%)",
+      "customName": "穿刺火舌",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 4,
+      "requires": [
+        "20"
+      ]
+    },
+    "Commander": {
+      "name": "§j§lCommander",
+      "description": "§7按住潜行键施放§n光环§7会将所有活跃的§b魔偶§7召集到你身边，提高它们的攻击速度与命中精度。\n\n你的§n普通攻击§7造成的伤害提高 §f5% §7，数值按每个被召集的§b魔偶§7计算。\n\n未被召集时，你的§b召唤物§7每次攻击会使该技能的持续时间增加 §f+0.1 秒§7。§8(上限 30 秒)\n\n§e✧ §7效果: §f+25% §7魔偶攻击速度",
+      "customName": "傀儡号令",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 4,
+      "requires": [
+        "21"
+      ]
+    },
+    "Scourge": {
+      "name": "§h§lScourge",
+      "description": "§7§n火舌§7攻击次数 §f+1§7，且攻击速度提高 §f+40%§7。",
+      "customName": "灾祸",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "20"
+      ]
+    },
+    "Hummingbirds' Song": {
+      "name": "§k§lHummingbird's Song",
+      "description": "§7召唤 §f2 §b只蜂鸟木雕§7环绕着你，被动提供移动速度加成。\n\n按住潜行键施放§n牵引§7会暂时派遣§b蜂鸟§7攻击附近的敌人，每 §f0.25 秒§7快速穿透它们。再次施放可提前召回蜂鸟。\n\n攻击期间，你的§b蜂鸟§7不会向你提供被动效果。\n\n§c⚔ §7总伤害: §f30% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 20%)\n   §8(§f❋ §8气: 5%)\n   §8(§e✦ §8电: 5%)\n§d⌛ §7持续时间: §f10 秒\n§2➼ §7范围: §f16 格\n§e✧ §7效果: §f+40% §7自身移动速度加成",
+      "customName": "蜂鸟之歌",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 10,
+      "requires": [
+        "5"
+      ]
+    },
+    "Sanguine Strike": {
+      "name": "§h§lSanguine Strike",
+      "description": "§7大幅缩小§n普通攻击§7的散射角度。\n\n你的§n普通攻击§7会对敌人施加§b流血§c §7，持续 §f+2 秒§7。\n\n§b流血§c §7状态下的敌人每 §f0.5 秒§7受到一次伤害。§b流血§c §7伤害若发生在§n图腾§7范围内，还会增加 §f+0.8 §7点§b血池§4⚕§7。\n\n§c⚔ §7总伤害: §f60% §8(相当于你的 DPS，来自流血)\n   §8(§6✣ §8伤害: 60%)\n§3⌚ §7冷却: §f2 秒 §7(每个敌人独立计算)",
+      "customName": "嗜血打击",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": []
+    },
+    "Soaring Wingbeats": {
+      "name": "§h§lSoaring Wingbeats",
+      "description": "§7你的§b蜂鸟§7被动效果获得增强。\n\n§e✧ §7效果: §f+20% §7自身移动速度加成\n             §f+2 §7自身跳跃高度加成",
+      "customName": "凌空振翅",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "74"
+      ]
+    },
+    "Cheaper Uproot II": {
+      "name": "§f§lCheaper Uproot II",
+      "description": "§7降低§n铲除§r§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5",
+      "customName": "铲除减耗 II",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "8"
+      ]
+    },
+    "Friendly Fire": {
+      "name": "§h§lFriendly Fire",
+      "description": "§7你的§b魔偶§7被§n普通攻击§7命中时，每束射线会使其持续时间减少 §f2 秒§7，但会给予伤害加成。\n\n§e✧ §7效果: §f+10% §7魔偶伤害加成 (§a⚔§7)\n§d⌛ §7持续时间: §f2 秒",
+      "customName": "残酷鞭策",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "21"
+      ]
+    },
+    "Eldritch Call": {
+      "name": "§k§lEldritch Call",
+      "description": "§7按住潜行键施放§n图腾§7时，会消耗 §f35§7 点§b血池§4⚕§8（每根图腾）§7，召唤 §f4§7 条梦魇触须攻击附近的敌人。\n\n触须会攻击§b流血§7§c§7状态的敌人，索敌距离额外增加 §f+6§7 格。\n\n§n古神呼唤§7激活期间，§n血肉链接§7会变为传送技能。\n\n§c⚔ §7总伤害: §f700% §8(相当于你的 DPS，每次攻击)\n   §8(§6✣ §8伤害: 540%)\n   §8(§e✦ §8电: 80%)\n   §8(§c✹ §8火: 80%)\n§3☀ §7作用范围: §f12 格 §7(圆形)\n§d⌛ §7持续时间: §f10 秒",
+      "customName": "古神呼唤",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 7,
+      "requires": [
+        "71"
+      ]
+    },
+    "Slingshot": {
+      "name": "§h§lSlingshot",
+      "description": "§7§n牵引§7会先将你向上弹射，再使你飞跃至§n图腾§7处。",
+      "customName": "弹射起步",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "74"
+      ]
+    },
+    "Fortified Formation": {
+      "name": "§j§lFortified Formation",
+      "description": "§7当你的生命值降至 §f30%§7 或更低时，你的§b魔像§7会保护你，直到生命值重新高于 §f50%§7。\n\n受保护时，你承受的伤害降低，§b魔像§7每 §f2 秒§7会反击攻击者一次。\n\n§c⚔ §7总伤害: §f300% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 180%)\n   §8(§c✹ §8火: 80%)\n   §8(§e✦ §8电: 40%)\n§e✧ §7效果: §f50%§7 自身抗性加成 (§a❁§7)\n§d⌛ §7持续时间: §f10 秒\n§3⌚ §7冷却: §f15 秒",
+      "customName": "铁壁阵型",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 11,
+      "requires": [
+        "50"
+      ]
+    },
+    "Totemic Hammer": {
+      "name": "§h§lTotemic Hammer",
+      "description": "§7佩戴§#F1547C荒诞假面 §7时，§n图腾§7会猛砸地面。\n\n提高§n图腾冲击§7的伤害。\n\n§c⚔ §7总伤害: §f+50% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: +40%)\n   §8(§c✹ §8火: +10%)",
+      "customName": "图腾重锤",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "38"
+      ]
+    },
+    "Freestyle": {
+      "name": "§h§lFreestyle",
+      "description": "§7§n牵引§7、§n血肉链接§7与§n蛙之舞§7会将你发射得更远。",
+      "customName": "自由式",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "5"
+      ]
+    },
+    "Egomania": {
+      "name": "§h§lEgomania",
+      "description": "§7佩戴§#FCC050狂热假面 ☠§7时，§n光环§7将改为从你自身而非§n图腾§7处扩散。\n\n提高§n光环§7的伤害。\n\n§c⚔ §7总伤害: §f+10% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 10%)",
+      "customName": "唯我独尊",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "38"
+      ]
+    },
+    "Pool of Rejuvenation": {
+      "name": "§j§lPool of Rejuvenation",
+      "description": "§7佩戴§#97E6FC异端假面 §7时，§n蛙之舞§7每次落地都会生成一个小型水池。（上限 3 个）\n\n处于至少一个水池中时，获得 §f+1§7 点法力，每 §f0.2 秒§7一次。\n\n§d⌛ §7持续时间: §f8 秒\n§3☀ §7作用范围: §f5 格 §7(圆形)",
+      "customName": "回春之池",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "38"
+      ]
+    },
+    "Corporeal Manifestation": {
+      "name": "§i§lCorporeal Manifestation",
+      "description": "§7佩戴§f觉醒假面 ♚§7时，其他所有假面都会环绕你旋转，造成伤害并施加§n灵界沟通§7的效果。\n\n§2➼ §7范围: §f3 格",
+      "customName": "具象化身",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "28"
+      ]
+    },
+    "Eldritch Transfusion": {
+      "name": "§j§lEldritch Transfusion",
+      "description": "§7在§n古神呼唤§7已激活时刷新其持续时间，会以鲜血灌注其攻击，使其获得 §f+1§7 层§b输血§4⚕ §8(上限 3 层)§7。\n\n每拥有 §f1§7 层§b输血§4⚕§7，§n古神呼唤§7的攻击伤害就会提高。§n古神呼唤§7结束时失去所有层数。\n\n§e✧ §7效果: §f+7%§7 古神呼唤伤害 §8(每层)",
+      "customName": "异界输血",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "79"
+      ]
+    },
+    "Repulse": {
+      "name": "§i§lRepulse",
+      "description": "§7§n光环§7折返后会再次向外扩散，第三次施加其效果。\n\n§n鲜血圣坛§7的治疗量降低 §c50%§7。",
+      "customName": "斥退",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 5,
+      "requires": [
+        "70"
+      ]
+    },
+    "Bloodiest": {
+      "name": "§f§lBloodiest",
+      "description": "§7你的§b血池§4⚕ §7容量上限增加 §f+30 §7点。§7你的§b流血§c §7持续时间上限增加 §f+1.5 秒§7。",
+      "customName": "鲜血淋漓 III",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "23"
+      ]
+    },
+    "Haemomagnetic": {
+      "name": "§h§lHaemomagnetic",
+      "description": "§7§n猩红挽歌§7的连锁距离提高 §f50%§7，并造成更高伤害。\n\n§c⚔ §7总伤害: §f+40% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: +30%)\n   §8(§b❉ §8水: +10%)",
+      "customName": "血磁牵引",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 1,
+      "archetypePointsRequired": 0,
+      "requires": [
+        "68"
+      ]
+    },
+    "Patchwork Abomination": {
+      "name": "§5§lPatchwork Abomination",
+      "description": "§6操作组合:§r §d§lF\n\n§7召唤极不稳定的§b拼接憎恶§7。\n\n让§b憎恶§7被§n先知洞察§7命中，即可在近程与远程攻击模式之间切换。\n\n§b憎恶§7在近程模式下每 §f1.25 秒§7攻击一次敌人，在远程模式下则每 §f1.75 秒§7攻击一次。\n\n§n自爆魔偶§7会使§b憎恶§7在死亡时爆炸。\n\n§c⚔ §7总伤害: §f2400% §8(相当于你的 DPS，攻击)\n   §8(§6✣ §8伤害: 1600%)\n   §8(§2✤ §8地: 500%)\n   §8(§e✦ §8电: 300%)\n§c⚔ §7总伤害: §f5000% §8(相当于你的 DPS，爆炸)\n   §8(§6✣ §8伤害: 4000%)\n   §8(§c✹ §8火: 1000%)\n§d⌛ §7持续时间: §f20 秒\n§3☀ §7索敌范围: §f32 格 §7(圆形)\n§3☀ §7作用范围: §f12 格 §7(圆形，爆炸)\n\n§7施放技能，将你的\n§b终极技能计量槽 ⌛§7充能至 100%。",
+      "customName": "拼接憎恶",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 18,
+      "requires": []
+    },
+    "Sundered Skies": {
+      "name": "§5§lSundered Skies",
+      "description": "§6操作组合:§r §d§lF\n\n§7你的§n图腾§7体型大幅增长，所有效果§f翻倍§7。\n\n§n图腾§7落地时会召唤一片巨型雷云，每 §f1 秒§7电击一次敌人，并使其眩晕 §f1.5 秒§7。\n\n伤害由所有敌人均摊。\n\n§c⚔ §7总伤害: §f2400% §8(相当于你的 DPS)\n   §8(§6✣ §8伤害: 1600%)\n   §8(§e✦ §8电: 400%)\n   §8(§b❉ §8水: 400%)\n§e✧ §7效果: §f100%§7 减缓敌人 (§c⬤§7)\n§2➼ §7半径: §f24 格\n§d⌛ §7持续时间: §f18 秒\n\n§7施放技能，将你的\n§b终极技能计量槽 ⌛§7充能至 100%。",
+      "customName": "天穹崩裂",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 15,
+      "requires": []
+    },
+    "Monument to Gloom": {
+      "name": "§5§lMonument to Gloom",
+      "description": "§6操作组合:§r §d§lF\n\n§7你的§n图腾§7会被异界恶魔附体，给予附近的血教徒填充 §f+5%§7 §b血池§4⚕§7，每 §f0.4 秒§7一次。\n\n其他人获得 §f+5%§7 §b生命值§c❤§7，每 §f0.4 秒§7一次。\n\n§d⌛ §7持续时间: §f15 秒\n\n§7施放技能或损失生命值，将你的\n§b终极技能计量槽 ⌛§7充能至 100%。",
+      "customName": "幽暗丰碑",
+      "note": "",
+      "unlockingWillBlock": [],
+      "pointsRequired": 2,
+      "archetypePointsRequired": 19,
+      "requires": []
+    }
+  },
+  "cellMap": {
+    "5": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Totem"
+    },
+    "14": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "23": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Relik Proficiency"
+    },
+    "24": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "25": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Cheaper Totem"
+    },
+    "32": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "41": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Totem Smash"
+    },
+    "50": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "59": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "66": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Distant Grasp"
+    },
+    "67": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "68": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Haul"
+    },
+    "69": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "70": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Hand of the Shaman"
+    },
+    "75": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "79": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "82": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "83": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "84": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Uproot"
+    },
+    "85": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "86": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Cheaper Haul"
+    },
+    "87": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "88": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Aura"
+    },
+    "89": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "90": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "91": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "92": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Totem Shove"
+    },
+    "93": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "95": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "97": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "99": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "100": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "102": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "104": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "106": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "108": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "109": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "111": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "113": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "115": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "117": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "118": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Earth Mastery"
+    },
+    "119": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "120": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Air Mastery"
+    },
+    "121": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "122": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "123": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "124": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Thunder Mastery"
+    },
+    "125": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "126": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Fire Mastery"
+    },
+    "127": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "129": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "131": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Water Mastery"
+    },
+    "133": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "135": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "136": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "138": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "140": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "142": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "144": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "145": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Nature's Jolt"
+    },
+    "146": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "147": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Overseer"
+    },
+    "148": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "149": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Rain Dance"
+    },
+    "150": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "151": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Shocking Aura"
+    },
+    "152": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "153": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Flaming Tongue"
+    },
+    "155": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "157": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "162": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "164": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "166": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "171": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "172": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "173": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Puppet Master"
+    },
+    "174": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "175": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Mystic Masks"
+    },
+    "176": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "177": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "178": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Hymn of Hate"
+    },
+    "179": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "180": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Sacrificial Shrine"
+    },
+    "181": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "183": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "185": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "188": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "190": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Stagnation"
+    },
+    "191": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "192": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Cheaper Aura"
+    },
+    "193": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "194": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Cheaper Uproot I"
+    },
+    "195": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "196": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "197": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Rebound"
+    },
+    "198": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "200": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "More Puppets I"
+    },
+    "202": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Haunting Memory"
+    },
+    "203": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "204": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Totemic Reach"
+    },
+    "206": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "207": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Blood Connection"
+    },
+    "209": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "212": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "215": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "218": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "221": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "224": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "226": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "227": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Exploding Puppets"
+    },
+    "229": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "230": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Frog Dance"
+    },
+    "231": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "232": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "233": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Larger Blood Pool"
+    },
+    "234": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "235": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Bullwhip"
+    },
+    "236": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "238": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Totemic Shatter"
+    },
+    "239": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "240": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Masquerade"
+    },
+    "241": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "242": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "243": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Lashing Lance"
+    },
+    "244": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "245": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "More Puppets II"
+    },
+    "246": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "248": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Artist's Immersion"
+    },
+    "249": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "251": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Vengeful Spirit"
+    },
+    "252": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "253": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Double Totem"
+    },
+    "254": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "255": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Cheaper Totem II"
+    },
+    "256": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "257": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "258": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Storm Dance"
+    },
+    "259": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "260": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "261": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Cheaper Haul II"
+    },
+    "263": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "265": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Regeneration"
+    },
+    "266": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "268": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Twisted Tether"
+    },
+    "269": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "272": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "275": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "278": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "280": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "281": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Crimson Effigy"
+    },
+    "282": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "283": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "284": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Tribal Chants"
+    },
+    "286": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "287": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Eldritch Call"
+    },
+    "288": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "289": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Maddening Roots"
+    },
+    "290": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "292": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Seeking Totem"
+    },
+    "293": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "295": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "297": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "298": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "299": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Cheaper Aura II"
+    },
+    "300": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "301": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "302": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Imbued Totem"
+    },
+    "303": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "304": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Rupture"
+    },
+    "305": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "306": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Bloody"
+    },
+    "307": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Commander"
+    },
+    "308": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "309": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Friendly Fire"
+    },
+    "310": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "311": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "312": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Depersonalization"
+    },
+    "314": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Scourge"
+    },
+    "315": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "317": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "319": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Meticulous Act"
+    },
+    "320": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "323": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "324": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Bloodletting"
+    },
+    "326": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "329": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "332": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "334": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "335": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Hummingbird's Song"
+    },
+    "336": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "338": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "340": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "341": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Blood Rite"
+    },
+    "342": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "343": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Triple Totem"
+    },
+    "344": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "345": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Invigorating Wave"
+    },
+    "346": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "347": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Chorus of the Ancients"
+    },
+    "348": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "349": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "351": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "353": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "357": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "358": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Sanguine Strike"
+    },
+    "359": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "360": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      },
+      "abilityID": "Bloodier"
+    },
+    "361": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "362": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Soaring Wingbeats"
+    },
+    "363": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "364": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Cheaper Uproot II"
+    },
+    "365": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "366": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Awakened"
+    },
+    "368": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Blood Sorrow"
+    },
+    "370": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Shepherd"
+    },
+    "371": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "374": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "377": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "380": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "383": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "386": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "388": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      }
+    },
+    "389": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Puppetry"
+    },
+    "390": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "392": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "395": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Eldritch Transfusion"
+    },
+    "396": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "397": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "398": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 2
+      }
+    },
+    "399": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Crystal Knives"
+    },
+    "400": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "401": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 3
+      },
+      "abilityID": "Freestyle"
+    },
+    "402": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "403": {
+      "travelNode": {
+        "up": 0,
+        "down": 0,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      },
+      "abilityID": "Repulse"
+    },
+    "404": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "405": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Effuse"
+    },
+    "406": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Slingshot"
+    },
+    "407": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 1
+      }
+    },
+    "408": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "409": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 4
+      },
+      "abilityID": "Egomania"
+    },
+    "410": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 1,
+        "variant": 1
+      }
+    },
+    "411": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 1
+      },
+      "abilityID": "Totemic Hammer"
+    },
+    "413": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Bloodiest"
+    },
+    "414": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "416": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "417": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Fortified Formation"
+    },
+    "419": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 1,
+        "variant": 2
+      },
+      "abilityID": "Pool of Rejuvenation"
+    },
+    "420": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 1,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "422": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "423": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Haemomagnetic"
+    },
+    "425": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "428": {
+      "travelNode": {
+        "up": 0,
+        "down": 1,
+        "left": 0,
+        "right": 1,
+        "variant": 4
+      }
+    },
+    "429": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 1,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Corporeal Manifestation"
+    },
+    "431": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "434": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      }
+    },
+    "437": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "440": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "443": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "446": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "449": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 2
+      }
+    },
+    "452": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Patchwork Abomination"
+    },
+    "455": {
+      "travelNode": {
+        "up": 1,
+        "down": 1,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      }
+    },
+    "458": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 3
+      },
+      "abilityID": "Monument to Gloom"
+    },
+    "464": {
+      "travelNode": {
+        "up": 1,
+        "down": 0,
+        "left": 0,
+        "right": 0,
+        "variant": 4
+      },
+      "abilityID": "Sundered Skies"
+    }
+  },
+  "currentHorizontalPage": 1,
+  "bEditMode": true,
+  "startingAbilityID": "1",
+  "abilityTrees": {
+    "Default": []
+  },
+  "selectedTree": "Default",
+  "abilitiesByName": {
+    "Arrow Bomb": 1,
+    "Bow Proficiency": 2,
+    "Cheaper Arrow Bomb": 3,
+    "Heart Shatter": 4,
+    "Escape": 5,
+    "Power Shots": 6,
+    "Double Shots": 7,
+    "Arrow Storm": 8,
+    "Cheaper Escape": 9,
+    "Arrow Shield": 10,
+    "Windy Feet": 11,
+    "Air Mastery": 12,
+    "Thunder Mastery": 13,
+    "Earth Mastery": 14,
+    "Fire Mastery": 15,
+    "Water Mastery": 16,
+    "Buckshot": 17,
+    "Phantom Ray": 18,
+    "Nimble String": 19,
+    "Fire Creep": 20,
+    "Bryophyte Roots": 21,
+    "Triple Shots": 22,
+    "Frenzy": 23,
+    "Guardian Angels": 24,
+    "Basaltic Trap": 25,
+    "Focus": 26,
+    "Windstorm": 27,
+    "Stormy Feet": 28,
+    "Cheaper Arrow Storm": 29,
+    "Implosion": 30,
+    "Arrow Wall": 31,
+    "More Focus": 32,
+    "Grappling Hook": 33,
+    "Patient Hunter": 34,
+    "Call of the Hound": 35,
+    "Mana Trap": 36,
+    "Bouncing Bomb": 37,
+    "Spectral Hover": 38,
+    "Leap": 39,
+    "Ivyroot Mamba": 40,
+    "Twain's Arc": 41,
+    "Rocket Jump": 42,
+    "Scorched Earth": 43,
+    "More Traps": 44,
+    "Cheaper Arrow Shield": 45,
+    "Honed Shield": 46,
+    "Shocking Bomb": 47,
+    "Homing Shots": 48,
+    "Fierce Stomp": 49,
+    "Bounding Stride": 50,
+    "Transience": 51,
+    "Cheaper Arrow Storm II": 52,
+    "Initiator": 53,
+    "Phasing Beam": 54,
+    "Decimator": 55,
+    "Murder Flock": 56,
+    "Parting Gift": 57,
+    "Vigilant Sentinels": 58,
+    "Recycling": 59,
+    "Shrapnel Bomb": 60,
+    "Cheaper Escape II": 61,
+    "Hookshot": 62,
+    "Cheaper Arrow Shield II": 63,
+    "Coursing Restraints": 64,
+    "Crepuscular Ray": 65,
+    "Beast Lore": 66,
+    "Tangled Traps": 67,
+    "Chilling Snare": 68,
+    "More Focus II": 69,
+    "Grape Bomb": 70,
+    "Cheaper Arrow Bomb II": 71,
+    "Swift Primer": 72,
+    "Snow Storm": 73,
+    "Refined Gunpowder": 74,
+    "Pyrotechnics": 75,
+    "Courier's Edict": 76,
+    "Arrow Hurricane": 77,
+    "Phantom Force": 78,
+    "Ghostly Trigger": 79,
+    "Divine Intervention": 80,
+    "Arsenal Synergy": 81,
+    "Feedback Loop": 82,
+    "Wild Light": 83,
+    "Elusive": 84,
+    "Shrieking Arrows": 85,
+    "Fimbulwinter": 86,
+    "Sniffer Dog": 87,
+    "Overgrowth": 88,
+    "Canine Colleague": 89,
+    "Warding Wisps": 90,
+    "Quick Draw": 91,
+    "Repel": 92,
+    "Repositioning": 93,
+    "Mael's Quiver": 94,
+    "Angelic Ascension": 95,
+    "Extinction Event": 96,
+    "The Twilight Zone": 97
+  }
+}
