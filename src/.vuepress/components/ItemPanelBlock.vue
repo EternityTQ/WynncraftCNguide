@@ -136,8 +136,8 @@ const formatMajorIdDesc = (desc) => {
   border: 2px solid #9400D3;
   background-color: #1a1a1a;
   color: #fff;
-  padding: 10px;
-  width: 300px;
+  padding: 12px;
+  width: 350px;
   font-family: minecraft, icons, mojangles, unifont, unifontEmoji, sans-serif;
   text-align: left; /* 保证全局居左 */
 }
@@ -150,7 +150,7 @@ const formatMajorIdDesc = (desc) => {
 .item-header { text-align: center; }
 .name { font-size: 20px;  }
 .item-attribute { font-size: 16px; margin-top: 5px; color: rgb(170, 170, 170); }
-.damage, .health { font-size: 16px; }
+.damage, .health { font-size: 14px; }
 .gray { color: rgb(170, 170, 170); }
 .average-dps { color: rgb(85, 85, 85); }
 .requirements, .attribute-bonus, .bonuses, .powder-rarity { font-size: 14px; color: rgb(170, 170, 170); }
