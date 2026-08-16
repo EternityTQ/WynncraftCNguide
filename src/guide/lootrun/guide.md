@@ -42,6 +42,8 @@ RiftWalker Singularity
 
 https://wynnbuilder.github.io/builder/#CW013HxGiK4h51wEGtH15YF2jcD630mPG0v1o3mxv5PYMRzg1
 
+~~我靠写这个的时候singularity还挺便宜的，现在真他妈贵啊~~
+
 Warp配装：
 
 极致QOL(伤害低、够肉)
@@ -86,6 +88,8 @@ TP蹭怪，开出裂缝(dimention tear)
 palamonk Golden Staff:
 
 https://wynnbuilder.github.io/builder/#CW0p2HxGiK4C6HgJITI15aFINoKQdt0n1C8OGGyQF+eD6RQMe7
+
+
 
 
 
