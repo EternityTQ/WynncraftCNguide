@@ -1,0 +1,3682 @@
+{
+"properties": {
+"classs": "assassin",
+"maxAbilityPoints": 50,
+"pages": 9,
+"horizontalPages": 1,
+"rowsPerPage": 6,
+"pagesDisplayed": 2,
+"loopTree": false,
+"bTravesableUp": false,
+"useAlternativeAbilityIcons": true,
+"strictAllocation": true
+},
+"archetypes": [
+"§#ffa057§lShadestepper",
+"§#eb3dfe§lTrickster",
+"§#b8b0b0§lAcrobat"
+],
+"abilities": {
+"Spin Attack": {
+"name": "§g§lSpin Attack",
+"description": "§6连击:§r §d§l右键§f-§d§l左键§f-§d§l右键\n\n§7快速旋转攻击周围敌人，在大范围内造成伤害。\n\n§b✺ §7技能消耗: §f40点\n§c⚔ §7总伤害: §f150% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 120%)\n   §8(§e✦ §8电: 30%)\n§3☀ §7伤害/作用范围: §f4.5格 §7(圆形)",
+"customName": "旋风斩",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Dagger Proficiency I": {
+"name": "§f§lDagger Proficiency I",
+"description": "§7增加你的移动速度，并增加§n普通攻击§7的伤害§f+5%§7。",
+"customName": "匕首精通 I",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Cheaper Spin Attack I": {
+"name": "§f§lCheaper Spin Attack I",
+"description": "§7降低§n旋风斩§7的技能消耗。\n\n§b✺ §7技能消耗:§r -10点",
+"customName": "旋风斩减耗 I",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"1"
+]
+},
+"Double Spin": {
+"name": "§h§lDouble Spin",
+"description": "§7§n旋风斩§7将触发两次，第二次命中的作用范围更大。\n\n§c⚔ §7总伤害: §c-40% §8(基于你的DPS)\n   §8(§6✣ §8伤害: -40%)\n§3☀ §7伤害/作用范围: §f+2格 §7(圆形)",
+"customName": "双重旋风",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Dash": {
+"name": "§g§lDash",
+"description": "§6连击:§r §d§l右键§f-§d§l右键§f-§d§l右键\n\n§7向你面对的方向冲刺。\n\n§b✺ §7技能消耗: §f20点",
+"customName": "突进",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Multihit": {
+"name": "§g§lMultihit",
+"description": "§6连击:§r §d§l右键§f-§d§l左键§f-§d§l左键\n\n§7对面前的敌人施放快速连击，造成§f8§7次重击伤害。\n\n§b✺ §7技能消耗: §f40点\n§c⚔ §7总伤害: §f40% §8(基于你的DPS，每次攻击)\n   §8(§6✣ §8伤害: 30%)\n   §8(§b❉ §8水: 10%)\n§2➼ §7范围: §f3格 §7(锥形)",
+"customName": "多重击",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Smoke Bomb": {
+"name": "§g§lSmoke Bomb",
+"description": "§6连击:§r §d§l右键§f-§d§l右键§f-§d§l左键\n\n§7投掷一颗炸弹，缓慢释放烟雾，每§f0.5秒§7对范围内的所有敌人造成伤害。\n\n§b✺ §7技能消耗: §f35点\n§c⚔ §7总伤害: §f35% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 25%)\n   §8(§f❋ §8气: 5%)\n   §8(§2✤ §8地: 5%)\n§2➼ §7范围: §f10格\n§d⌛ §7持续时间: §f5秒\n§3☀ §7伤害/作用范围: §f3格 §7(圆形)",
+"customName": "烟雾弹",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Cheaper Dash I": {
+"name": "§f§lCheaper Dash I",
+"description": "§7降低§n闪现§7的技能消耗。\n\n§b✺ §7技能消耗:§r -5点",
+"customName": "突进减耗 I",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"5"
+]
+},
+"Double Slice": {
+"name": "§h§lDouble Slice",
+"description": "§7你的§n普通攻击§7将命中两次，但每次造成§f-40%§7伤害。",
+"customName": "双重切割",
+"note": "",
+"unlockingWillBlock": [
+"10"
+],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Poisoned Blade": {
+"name": "§h§lPoisoned Blade",
+"description": "§7你的装备鉴定词条上每有§f2%§7或§f2§7点原始普攻伤害，获得§f+5/3秒§7毒伤。(上限50/3秒)\n\n你的§n普通攻击§7获得额外范围。\n\n§2➼ §7范围: §f+1格",
+"customName": "剧毒利刃",
+"note": "",
+"unlockingWillBlock": [
+"9"
+],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Air Mastery": {
+"name": "§f§lAir Mastery",
+"description": "§7增加所有气属性攻击的基础伤害。\n\n§f❋§7 气伤害: §f+3-4\n§f❋§7 气伤害:§f +15%",
+"customName": "气元素精通",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Earth Mastery": {
+"name": "§f§lEarth Mastery",
+"description": "§7增加所有地属性攻击的基础伤害。\n\n§2✤§7 地伤害: §r+2-4\n§2✤§7 地伤害: §r+20%",
+"customName": "地元素精通",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Fire Mastery": {
+"name": "§f§lFire Mastery",
+"description": "§7增加所有火属性攻击的基础伤害。\n\n§c✹ §7火伤害:§f +3-5\n§c✹§7 火伤害:§f +15%",
+"customName": "火元素精通",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Thunder Mastery": {
+"name": "§f§lThunder Mastery",
+"description": "§7增加所有电属性攻击的基础伤害。\n\n§e✦§7 电伤害:§r +1-8\n§e✦§7 电伤害:§r +10%",
+"customName": "电元素精通",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Water Mastery": {
+"name": "§f§lWater Mastery",
+"description": "§7增加所有水属性攻击的基础伤害。\n\n§b❉§7 水伤害:§r +2-4\n§b❉§7 水伤害:§r +15%",
+"customName": "水元素精通",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Backstab": {
+"name": "§i§lBackstab",
+"description": "§7将§n多重打击§7变为单次毁灭性的打击。如果从背后攻击敌人，造成§f双倍§7伤害。\n\n§b✺ §7技能消耗: §f-5点\n§c⚔ §7总伤害: §f300% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 250%)\n   §8(§2✤ §8地: 50%)",
+"customName": "背刺",
+"note": "",
+"unlockingWillBlock": [
+"81",
+"84"
+],
+"pointsRequired": 2,
+"archetypePointsRequired": 2,
+"requires": [
+"6"
+]
+},
+"Vanish": {
+"name": "§j§lVanish",
+"description": "§7§n闪现§7将使你隐身于阴影中。在此状态下你无法治疗或获得法力。\n§8(攻击或受到伤害以取消)\n\n§e✧ §7效果: §f对自己隐身\n§d⌛ §7持续时间: §f5秒\n§3⌚ §7冷却: §f5秒",
+"customName": "隐身",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"5"
+]
+},
+"Sticky Bomb": {
+"name": "§h§lSticky Bomb",
+"description": "§7§n烟雾弹§7将粘附在敌人身上并造成额外伤害。\n\n§c⚔ §7总伤害: §f+10% §8(基于你的DPS)\n   §8(§c✹ §8火: +10%)",
+"customName": "黏性炸弹",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"7"
+]
+},
+"Petal Storm": {
+"name": "§h§lPetal Storm",
+"description": "§7满层§n茉莉绽放§7将使§n天鹅俯冲§7转变为巨大的花瓣风暴，消耗你的花朵来增加伤害和范围。\n\n§c⚔ §7爆炸伤害: §f+200%\n§3☀ §7伤害/作用范围: §f3格",
+"customName": "落樱风暴",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"82"
+]
+},
+"Righting Reflex": {
+"name": "§h§lRighting Reflex",
+"description": "§7在空中按住Shift键时，缓慢滑翔并免疫坠落伤害。(最多10秒)",
+"customName": "平衡反射",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Surprise Strike": {
+"name": "§k§lSurprise Strike",
+"description": "§7施放§n消失§7后的第一次攻击将造成§f+80%§7伤害。",
+"customName": "奇袭",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 3,
+"requires": [
+"17"
+]
+},
+"Mirror Image": {
+"name": "§k§lMirror Image",
+"description": "§7从§n消失§7中现身后，召唤§b3个镜像分身§#c267f7§7跟随并保护你。\n\n受到攻击时，失去一个§b镜像分身§#c267f7§7，减免§f-25%§7受到的伤害，并在§f3秒§7内获得伤害加成。(1秒冷却)\n\n§e✧ §7效果: §f30%§7伤害加成(§a⚔§7)对自己\n§3⌚ §7冷却: §f15秒",
+"customName": "镜影幻术",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 2,
+"requires": [
+"17"
+]
+},
+"Lacerate": {
+"name": "§k§lLacerate",
+"description": "§7§n旋风斩§7将使你向前突进，进行§f3§7次斩击，然后向上跃起。\n\n使用§n跳跃§7时，若§n撕裂§7激活将跳得更远。\n\n§c⚔ §7总伤害: §f90% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 60%)\n   §8(§f❋ §8气: 20%)\n   §8(§b❉ §8水: 10%)",
+"customName": "撕裂",
+"note": "",
+"unlockingWillBlock": [
+"87"
+],
+"pointsRequired": 2,
+"archetypePointsRequired": 3,
+"requires": []
+},
+"Last Laugh": {
+"name": "§h§lLast Laugh",
+"description": "§7当失去任何§b分身§#c267f7§#f5cfff§#d84c4c§7时，它将在消失前施放你的一个技能。\n\n§b镜像分身§#c267f7§7将在消失前施放§n多重打击§7。",
+"customName": "谢幕一击",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 3,
+"requires": []
+},
+"Silent Killer": {
+"name": "§h§lSilent Killer",
+"description": "§7击杀敌人后重置§n消失§7的冷却时间。",
+"customName": "冷面杀手",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"17"
+]
+},
+"Wall of Smoke": {
+"name": "§i§lWall of Smoke",
+"description": "§7§n烟雾弹§7将投掷§f+2§7颗炸弹。\n\n§c⚔ §7总伤害: §c-10% §8(基于你的DPS)\n   §8(§6✣ §8伤害: -10%)",
+"customName": "烟幕之墙",
+"note": "",
+"unlockingWillBlock": [
+"87"
+],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"7"
+]
+},
+"Doppleganger": {
+"name": "§f§lDoppleganger",
+"description": "§7使用§n镜像§7时额外召唤§f+1§7个§b镜像分身§#c267f7§7。",
+"customName": "分身术",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"22"
+]
+},
+"Psithurism": {
+"name": "§f§lPsithurism",
+"description": "§7增加§f+20%§7移动速度和§f+1§7跳跃高度。",
+"customName": "风语",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Paranoia": {
+"name": "§h§lParanoia",
+"description": "§7失去一个§b镜像分身 §#c267f7§7后，获得§f+20%§7移动速度(§3➲§7)。\n\n§d⌛ §7持续时间: §f4秒",
+"customName": "疑心生暗",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"22"
+]
+},
+"Cheaper Multihit I": {
+"name": "§f§lCheaper Multihit I",
+"description": "§7降低§n多重打击§7的技能消耗。\n\n§b✺ §7技能消耗:§r -5点",
+"customName": "多重击减耗 I",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"6"
+]
+},
+"Rolling Fog": {
+"name": "§f§lRolling Fog",
+"description": "§7增加§n烟雾弹§7的范围和伤害/作用范围。\n\n§2➼ §7范围: §f+10格\n§3☀ §7伤害/作用范围: §f+1格 §7(圆形)",
+"customName": "流雾",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"7"
+]
+},
+"Shadow Travel": {
+"name": "§i§lShadow Travel",
+"description": "§7在§n消失§7状态下获得§f+120%§7速度加成(§3➲§7)。",
+"customName": "暗影穿梭",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"17"
+]
+},
+"Distraction": {
+"name": "§h§lDistraction",
+"description": "§7引爆§f15+§7个§b诡计 §#6afa65§7将暂时降低敌人的伤害。\n\n使用§b诡计 §#6afa65§7施加的减益效果，每超过要求引爆一个§b诡计 §#6afa65§7，持续时间额外延长§f+0.4秒§7。\n\n§e✧ §7效果: §f-15%§7伤害加成(§c⚔§7) 对敌人\n§d⌛ §7持续时间: §f10秒",
+"customName": "声东击西",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"88"
+]
+},
+"Bamboozle": {
+"name": "§j§lBamboozle",
+"description": "§7§n多重击§7将改为向前传送并施放一次狂暴的火焰斩击。\n\n§c⚔ §7总伤害: §f350% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 300%)\n   §8(§c✹ §8火: 50%)\n§2➼ §7范围: §f6格\n§3☀ §7伤害/作用范围: §f5格 §7(圆形)\n§3⌚ §7冷却: §f5秒",
+"customName": "瞬身斩",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"6"
+]
+},
+"Cheaper Smoke Bomb I": {
+"name": "§f§lCheaper Smoke Bomb I",
+"description": "§7降低§n烟雾弹§7的技能消耗。\n\n§b✺ §7技能消耗:§r -5点",
+"customName": "烟雾弹减耗 I",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"7"
+]
+},
+"Blazing Powder": {
+"name": "§f§lBlazing Powder",
+"description": "§7§n旋风斩§7和§n撕裂§7造成额外伤害。\n\n§c⚔ §7总伤害: §f+20% §8(基于你的DPS)\n   §8(§c✹ §8火: +20%)",
+"customName": "烈火附刃",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Weightless": {
+"name": "§j§lWeightless",
+"description": "§7在空中击中敌人时获得§f+1§7点法力。\n§8(离地1.25+格视为空中)",
+"customName": "身轻如燕",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 3,
+"requires": []
+},
+"Disappearing Act": {
+"name": "§h§lDisappearing Act",
+"description": "§7召唤§b镜像分身 §#c267f7§7时制造爆炸。\n\n§c⚔ §7总伤害: §f800% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 550%)\n   §8(§c✹ §8火: 250%)\n§3☀ §7伤害/作用范围: §f5格 §7(圆形)",
+"customName": "遁影幻灭",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"22"
+]
+},
+"Hop": {
+"name": "§i§lHop",
+"description": "§7二段跳时向前跳跃。\n\n§3⌚ §7冷却: §f2秒",
+"customName": "雀跃",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Sandbagging": {
+"name": "§i§lSandbagging",
+"description": "§7每当你受到低于最大生命值§f10%§7的伤害时，所有技能冷却降低§f30%§7。\n\n§3⌚ §7冷却: §f1秒",
+"customName": "以己之长",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 3,
+"requires": []
+},
+"Black Hole": {
+"name": "§h§lBlack Hole",
+"description": "§7§n烟雾弹§7会拉扯附近的敌人。\n\n§2➼ §7范围: §f6格",
+"customName": "黑洞",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Choke Bomb": {
+"name": "§h§lChoke Bomb",
+"description": "§7§n烟雾弹§7每§f0.5秒§7释放一次尘埃云，施加§b缺氧 §#727f7b§7状态持续§f+2秒§7。\n§8(最多10秒)§7\n\n遭受§b缺氧 §#727f7b§7的敌人被减速§f20%§7，从你这里受到§f+30%§7的§f❋ 气§7伤害。",
+"customName": "窒息烟雾",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 5,
+"requires": [
+"7"
+]
+},
+"Noxious Haze": {
+"name": "§k§lNoxious Haze",
+"description": "§7§n烟雾弹§7使你和站在其中的盟友变为§b剧毒 §#eb3dfe§7状态，离开区域后效果会短暂延续。\n\n处于§b剧毒 §#eb3dfe§7状态时，敌人每有一个减益效果，你对其造成§f+10%§7伤害。§8(最多5个)\n§7盟友仅获得§c30%§7的加成。\n\n§d⌛ §7持续时间: §f2秒",
+"customName": "剧毒烟岚",
+"note": "",
+"unlockingWillBlock": [
+"44"
+],
+"pointsRequired": 2,
+"archetypePointsRequired": 11,
+"requires": [
+"7"
+]
+},
+"Marked": {
+"name": "§k§lMarked",
+"description": "§7§n烟雾弹§7会给它击中的敌人添加§b+1§7个§b标记 §c✜§7。(最多4个，0.1秒冷却)\n\n§b标记 §c✜§7的敌人每有一个标记，受到的攻击伤害增加§f+7%§7。\n\n§b标记 §c✜§7每§f10秒§7衰减一次。",
+"customName": "死亡标记",
+"note": "",
+"unlockingWillBlock": [
+"43"
+],
+"pointsRequired": 2,
+"archetypePointsRequired": 5,
+"requires": []
+},
+"Violent Vortex": {
+"name": "§i§lViolent Vortex",
+"description": "§7单次伤害超过你最大生命值§f1.5倍§7时，将造成§f45%§7的伤害扩散至附近其他敌人。\n\n§3☀ §7伤害/作用范围: §f10格 §7(圆形)\n§3⌚ §7冷却: §f2秒",
+"customName": "暴戾漩涡",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Echo": {
+"name": "§j§lEcho",
+"description": "§7失去一个§b镜像分身 §#c267f7§7后，你的下一个§n旋风斩§7或§n烟雾弹§7将被所有活跃的§b分身 §#c267f7§#f5cfff§#d84c4c§7复制，但造成§c-25%§7伤害。",
+"customName": "镜中回响",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 5,
+"requires": [
+"22"
+]
+},
+"Shurikens": {
+"name": "§j§lShurikens",
+"description": "§7使用§n突进§7后，准备§f+3§7枚手里剑§8(最多9枚)§7。\n\n你的下一次§n普通攻击§7将投掷所有准备好的手里剑。\n\n§c⚔ §7总伤害: §f120% §8(基于你的DPS，每枚手里剑)\n   §8(§6✣ §8伤害: 100%)\n   §8(§c✹ §8火: 20%)\n§2➼ §7范围: §f50格",
+"customName": "手里剑",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Far Reach": {
+"name": "§f§lFar Reach",
+"description": "§7Increase the range of §nMultihit§7.\n\n§2➼ §7范围: §f+2 格s",
+"customName": "长斩",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"6"
+]
+},
+"Dancing Blade": {
+"name": "§h§lDancing Blade",
+"description": "§7在拥有§f3+§7层§b动能 §f➲§7时使用§n天鹅俯冲§7，着陆后§f0.25秒§7会再次跃起。",
+"customName": "剑舞",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"5"
+]
+},
+"Cheaper Dash II": {
+"name": "§f§lCheaper Dash II",
+"description": "§7Reduce the Mana cost of §nDash§7.\n\n§b✺ §7 技能消耗:§r -5",
+"customName": "突进减耗 II",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"5"
+]
+},
+"Cheaper Multihit II": {
+"name": "§f§lCheaper Multihit II",
+"description": "§7Reduce the Mana cost of §nMultihit§7.\n\n§b✺ §7 技能消耗:§r -5",
+"customName": "多重击减耗 II",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"6"
+]
+},
+"Cheaper Smoke Bomb II": {
+"name": "§f§lCheaper Smoke Bomb II",
+"description": "§7降低§n烟雾弹§7的技能消耗。\n\n§b✺ §7技能消耗:§r -5点",
+"customName": "烟雾弹减耗 II",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"7"
+]
+},
+"Cheaper Spin Attack II": {
+"name": "§f§lCheaper Spin Attack II",
+"description": "§7降低§n旋风斩§7的技能消耗。\n\n§b✺ §7技能消耗:§r -5点",
+"customName": "旋风斩减耗 II",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"1"
+]
+},
+"Ambush": {
+"name": "§f§lAmbush",
+"description": "§7Increases §nSurprise Strike§7's\ndamage by §f+40%§7.",
+"customName": "伏击",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"21"
+]
+},
+"Death Magnet": {
+"name": "§h§lDeath Magnet",
+"description": "§7退出§n隐身§7时，将所有附近§b标记 §c✜§7的怪物拉向你进入§n隐身§7的位置。\n\n§2➼ §7范围: §f20格",
+"customName": "死亡牵引",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"44"
+]
+},
+"Celerity": {
+"name": "§f§lCelerity",
+"description": "§7每§f1§7层§b动能 §f➲§7使§n天鹅俯冲§7造成§f+2%§7伤害。\n\n§n突进§7的水平速度增加§f10%§7。",
+"customName": "迅捷",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"5"
+]
+},
+"Nightcloak Knife": {
+"name": "§j§lNightcloak Knife",
+"description": "§7如果在§n隐身§7中施放§n旋风斩§7，将消耗附近敌人身上的所有§b标记 §c✜§7。每消耗§b2个标记 §c✜§7，召唤一把§b飞刃§7。(最多5把飞刃)\n\n造成伤害时，你的§b飞刃§7将飞向目标，造成你所造成伤害的§f13%§7的额外伤害，每把§b飞刃§7都如此。\n\n§2➼ §7范围: §f6格 §7(圆形)\n§d⌛ §7持续时间: §f40秒",
+"customName": "夜刃",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"44"
+]
+},
+"Hoodwink": {
+"name": "§h§lHoodwink",
+"description": "§7击杀敌人后，回收其§f50%§7的§b诡计 §#6afa65§7。(每个怪物最多10个，总共40个)\n\n\n潜行时施放§n旋风斩§7将把回收的§b诡计 §#6afa65§7转移到敌人身上并立即引爆。",
+"customName": "偷天换日",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"88"
+]
+},
+"Braced Impact": {
+"name": "§h§lBraced Impact",
+"description": "§7用§n天鹅俯冲§7着陆时短暂获得抗性。\n\n§e✧ §7效果: §f50%§7抗性加成(§a❁§7) 对自己\n§d⌛ §7持续时间: §f2秒",
+"customName": "稳固着陆",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 14,
+"requires": [
+"82"
+]
+},
+"Wall Jump": {
+"name": "§i§lWall Jump",
+"description": "§7降低§n雀跃§7的冷却§f-1秒§7。使用§n雀跃§7撞到墙壁会将你向后弹开。\n§8(按住Shift键取消)",
+"customName": "蹬墙跳",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 5,
+"requires": [
+"39"
+]
+},
+"Eviscerate": {
+"name": "§f§lEviscerate",
+"description": "§7§n撕裂§7造成更多伤害，并额外斩击§f+1§7次。\n\n§c⚔ §7总伤害: §f+10% §8(基于你的DPS)\n   §8(§e✦ §8电: +10%)",
+"customName": "剔骨",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"23"
+]
+},
+"Dextrous Hands": {
+"name": "§i§lDextrous Hands",
+"description": "§7§n雀跃§7现在也会准备§f3§7枚手里剑。你可以额外准备§f+3§7枚手里剑。§8(最多12枚)§7",
+"customName": "灵巧双手",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"47"
+]
+},
+"Dissolution": {
+"name": "§h§lDissolution",
+"description": "§7进入和退出§n隐身§7时，短暂免疫击退并获得抗性。\n\n§e✧ §7效果: §f+60%§7抗性加成(§8✾§7) 对自己\n§d⌛ §7持续时间: §f0.5秒",
+"customName": "消散无踪",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 2,
+"requires": [
+"17"
+]
+},
+"Fatal Spin": {
+"name": "§i§lFatal Spin",
+"description": "§7增加§n旋风斩§7和§n撕裂§7的范围和伤害，并给被击中的敌人添加§b+1§7个§b标记 §c✜§7。\n\n§c⚔ §7总伤害: §f+20% §8(基于你的DPS)\n   §8(§6✣ §8伤害: +20%)\n§3☀ §7伤害/作用范围: §f+1格 §7(圆形)",
+"customName": "致命旋风",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 8,
+"requires": [
+"44"
+]
+},
+"Bladestorm": {
+"name": "§f§lBladestorm",
+"description": "§7增加§n暴戾漩涡§7的伤害§f+55%§7，并将伤害要求提高至最大生命值的§f2.5倍§7。",
+"customName": "剑刃风暴",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"45"
+]
+},
+"Harvester": {
+"name": "§j§lHarvester",
+"description": "§7击杀敌人时，每剩余一个§b标记 §c✜§7获得§f+2§7点法力，消耗§b标记 §c✜§7时同样获得§f+2§7点法力。",
+"customName": "影逝收割",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"44"
+]
+},
+"More Marks": {
+"name": "§f§lMore Marks",
+"description": "§7Increase your maximum §bMarks §c✜ §7by §f+2§7.",
+"customName": "标记扩容",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"44"
+]
+},
+"Blade Fury": {
+"name": "§h§lBlade Fury",
+"description": "§7§n多重击§7造成额外伤害，并可以向所有方向瞄准。\n\n§c⚔ §7总伤害: §f+10% §8(基于你的DPS，每次攻击)\n   §8(§e✦ §8电: +10%)",
+"customName": "刀刃狂怒",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"6"
+]
+},
+"Ricochets": {
+"name": "§h§lRicochets",
+"description": "§7你的§n手里剑§7在命中时会在敌人之间弹射§f2§7次。\n\n§2➼ §7范围: §f12格",
+"customName": "弹射飞镖",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 8,
+"requires": [
+"47"
+]
+},
+"Deflagate": {
+"name": "§i§lDeflagate",
+"description": "§7§n瞬身斩§7使被击中的敌人涂上易燃催化剂，每当你攻击他们时使其§f+1%§7§b点燃 §#ff8e8e§7。\n\n催化剂在达到§f100%§7或持续时间结束时爆发，根据目标被§b点燃§#ff8e8e§7的程度造成伤害。\n\n§b点燃§#ff8e8e§7的敌人从你这里受到§f+30%§7的§c✹ 火§7伤害。\n\n\n§c⚔ §7总伤害: §f15% §8(基于你的DPS，每1%点燃值)\n   §8(§6✣ §8伤害: 12%)\n   §8(§c✹ §8火: 3%)\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+"customName": "燃尽之焰",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 8,
+"requires": [
+"34"
+]
+},
+"Satsujin": {
+"name": "§k§lSatsujin",
+"description": "§7如果敌人有§b4+§7个§b标记 §c✜§7，你的下一次§n背刺§7造成§f+200%§7伤害，或你的下一次§n粉末主动§7造成§f+100%§7伤害。\n\n两者都会消耗敌人身上的所有§b标记 §c✜§7。\n\n§3⌚ §7冷却: §f15秒 §7(每个敌人)",
+"customName": "杀阵",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 12,
+"requires": []
+},
+"Thermobaric Smoke": {
+"name": "§j§lThermobaric Smoke",
+"description": "§7向§n烟雾弹§7注入挥发性化学物质，使其在落地时瞬间燃烧，伤害触发快§f0.3秒§7。\n\n降低§n烟雾弹§7的持续时间§f1秒§7。\n\n§c⚔ §7总伤害: §c-5% §8(基于你的DPS)\n   §8(§6✣ §8伤害: -5%)\n§d⌛ §7持续时间: §f-1秒",
+"customName": "温压烟雾",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"7"
+]
+},
+"Jasmine Bloom": {
+"name": "§k§lJasmine Bloom",
+"description": "§6连击顺序:§r §d§lF\n\n§7消耗§f40§7点法力或获得§b4§7层动能§f➲§7后，你脚下的区域将绽放花朵，每§f0.3秒§7对下方的敌人造成伤害。\n\n每次绽放后，持续时间将重置且半径增加。(最多5次绽放)\n\n在§n茉莉绽放§7达到最大尺寸时使用§n天鹅俯冲§7将触发巨大的爆炸并重置§n茉莉绽放§7的半径。§7(最少§f3§7层§b动能§f➲§7)\n\n§c⚔ §7总伤害: §f120% §8(基于你的DPS，来自绽放)\n   §8(§6✣ §8伤害: 75%)\n   §8(§2✤ §8地: 15%)\n   §8(§b❉ §8水: 15%)\n   §8(§f❋ §8气: 15%)\n§d⌛ §7持续时间: §f5秒\n§3☀ §7伤害/作用范围: §f+1.5格 §7§8(每次绽放)\n\n§c⚔ §7总伤害: §f1500% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 1250%)\n   §8(§2✤ §8地: 125%)\n   §8(§f❋ §8气: 125%)\n§3☀ §7伤害/作用范围: §f12格 §7(圆形)",
+"customName": "茉莉绽放",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 12,
+"requires": []
+},
+"Another Self": {
+"name": "§5§lAnother Self",
+"description": "§6连击顺序:§r §d§lF\n\n§7创造一个你自己的完美分身，与你协同作战，它会复制你施放的每个技能。\n\n分身的生命值与你的有效生命值成正比，当它存活时，你的减益效果有效性§f翻倍§7。\n\n再次施放§r§d§lF§7交换你们的位置，引爆附近敌人身上的§b诡计 §#6afa65§7，并使你的分身施放所有可用的§n伤害技能§7。\n\n如果没有敌人被引爆超过§f10§7个§b诡计 §#6afa65§7，分身将失去§c-2000§7生命值。但每超过阈值引爆一个§b诡计 §#6afa65§7，那些§n伤害技能§7造成§f3%§7额外伤害。\n\n§d⌛ §7持续时间: §f20秒\n\n§7激活技能或受到伤害来充能你的§b终极技能槽 ⌛§7至100%。",
+"customName": "另一个自我",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 19,
+"requires": []
+},
+"Serpent's Garden": {
+"name": "§5§lSerpent's Garden",
+"description": "§6连击顺序:§r §d§lF\n\n§7跃入空中后俯冲回地面，在你脚下催生花园，每§f0.25秒§7对敌人造成伤害。\n\n在你的花园上方时，你的§b动能 §f➲§7充能速度§f翻倍§7且获得§f+5§7最大层数。\n\n§c⚔ §7总伤害: §f400% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 200%)\n   §8(§2✤ §8地: 100%)\n   §8(§f❋ §8气: 100%)\n§3☀ §7伤害/作用范围: §f15格 §7(圆形)\n§d⌛ §7持续时间: §f20秒\n\n§7激活技能来充能你的§b终极技能槽 ⌛§7至100%。",
+"customName": "蛇影花园",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 18,
+"requires": []
+},
+"Thrill": {
+"name": "§h§lThrill",
+"description": "§7成功施放§n背刺§7后获得§f+50%§7移动速度(§3➲§7)。\n\n§d⌛ §7持续时间: §f2秒",
+"customName": "亢奋",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"16"
+]
+},
+"Marked for Death": {
+"name": "§f§lMarked for Death",
+"description": "§7Increases §nMarked§7's damage\nbonus by §f+4%§7.",
+"customName": "死亡印记",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Devour": {
+"name": "§f§lDevour",
+"description": "§7§nHarvester§7 will give §f+2 §7Mana.",
+"customName": "吞噬",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"66"
+]
+},
+"Shadow Siphon": {
+"name": "§h§lShadow Siphon",
+"description": "§7从背后用§n背刺§7击中敌人后，降低§n隐身§7的冷却§f-1.75秒§7。",
+"customName": "暗影虹吸",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"16"
+]
+},
+"Ripple": {
+"name": "§i§lRipple",
+"description": "§7从§f5格§7或更高处坠落时，着陆时对周围造成伤害。\n\n此伤害随后续每多坠落一格增加§f+12%§7，最多额外§f+10格§7。\n\n§c⚔ §7总伤害: §f120% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 100%)\n   §8(§b❉ §8水: 20%)\n§3☀ §7伤害/作用范围: §f8格 §7(圆形)",
+"customName": "狂乱震荡",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Finality": {
+"name": "§i§lFinality",
+"description": "§7§n多重击§7的伤害逐击递增，造成额外伤害。伤害加成上限为§f8§7次命中。\n\n§c⚔ §7总伤害: §f+6% §8(基于你的DPS)\n   §8(§6✣ §8伤害: +4%)\n   §8(§f❋ §8气: +2%)",
+"customName": "终焉狂热",
+"note": "",
+"unlockingWillBlock": [
+"16"
+],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"6"
+]
+},
+"Swan Dive": {
+"name": "§k§lSwan Dive",
+"description": "§7在空中对敌人命中§f15§7次可获得§b+1§7层动能§f➲§7。§8(最多10层)§7\n\n§n狂乱震荡§7消耗你的§b动能§f➲§7，释放强大的爆炸，造成巨额伤害并短暂致盲敌人。每层§b动能§f➲§7使此爆炸造成§f+10%§7伤害。\n\n在空中时，按住Shift键快速下坠。\n\n§c⚔ §7总伤害: §f480% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 400%)\n   §8(§2✤ §8地: 40%)\n   §8(§f❋ §8气: 40%)\n§3☀ §7伤害/作用范围: §f12格 §7(圆形)\n§e✧ §7效果: §f致盲 §7(§c⬣§7) 对敌人\n§d⌛ §7持续时间: §f1秒",
+"customName": "天鹅俯冲",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 6,
+"requires": [
+"80"
+]
+},
+"Aerial Ace": {
+"name": "§j§lAerial Ace",
+"description": "§7用§n天鹅俯冲§7击中敌人时获得伤害加成。\n\n§e✧ §7效果: §f+35%§7伤害加成(§c⚔§7) 对自己\n§d⌛ §7持续时间: §f7.5秒",
+"customName": "燕返",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"82"
+]
+},
+"Mutilate": {
+"name": "§f§lMutilate",
+"description": "§7增加§n多重击§7的命中次数§f+3§7次。\n\n增加§n终焉狂热§7的伤害上限§f+3§7次命中。",
+"customName": "肢解",
+"note": "",
+"unlockingWillBlock": [
+"16"
+],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"6"
+]
+},
+"Foul Play": {
+"name": "§h§lFoul Play",
+"description": "§7§n镜像幻术§7激活时，§n瞬身斩§7将杀死一个§b镜像分身 §#c267f7§7而不是进入冷却。\n\n降低§n多重击§7的技能消耗。\n\n§b✺ §7技能消耗: §f-5点",
+"customName": "恶意欺诈",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 2,
+"requires": [
+"22"
+]
+},
+"Mirage": {
+"name": "§h§lMirage",
+"description": "§7使用§n瞬身斩§7或§n暗影投射§7传送后，留下一个§b幻影分身 §#f5cfff§7，将§f8格§7内的怪物吸引至它。\n\n§b幻影分身 §#f5cfff §7在敌人距离§f0.75格§7内或过期时消失，并通过§n谢幕一击§7施放§n烟雾弹§7。\n\n§d⌛ §7持续时间: §f5秒\n§3⌚ §7冷却: §f2秒",
+"customName": "幻象分身",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"34"
+]
+},
+"Duplicity": {
+"name": "§f§lDuplicity",
+"description": "§7§n镜像幻术§7额外召唤§f+2§7个§b镜像分身 §#c267f7§7。\n\n§3⌚ §7冷却: §f+5秒",
+"customName": "重影",
+"note": "",
+"unlockingWillBlock": [
+"23",
+"26"
+],
+"pointsRequired": 1,
+"archetypePointsRequired": 3,
+"requires": [
+"22"
+]
+},
+"Malicious Mockery": {
+"name": "§k§lMalicious Mockery",
+"description": "§7§n谢幕一击§7根据§b分身 §#c267f7§#f5cfff§#d84c4c§7的类型在敌人身上存储一定数量的§b诡计 §#6afa65§7。(最多25)\n\n潜行时施放§n突进§7将引爆附近所有存储的§b诡计 §#6afa65§7，根据消耗的层数造成伤害。\n\n\n§b镜像分身 §#c267f7 §7每次攻击施加§f+1§7个§b诡计 §#6afa65§7。\n§b幻影分身 §#f5cfff §7每次攻击施加§f+2§7个§b诡计 §#6afa65§7。\n§b暗影分身 §#d84c4c §7每次攻击施加§f+8§7个§b诡计 §#6afa65§7。\n\n§c⚔ §7总伤害: §f10% §8(基于你的DPS，每个诡计)\n   §8(§6✣ §8伤害: 10%)\n§2➼ §7范围: §f32格\n§3☀ §7伤害/作用范围: §f2格 §7(圆形)",
+"customName": "恶毒嘲讽",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 5,
+"requires": [
+"24"
+]
+},
+"Misdirection": {
+"name": "§h§lMisdirection",
+"description": "§7引爆§f25+§7个§b诡计 §#6afa65§7将使敌人§b困惑 §#e1dca4§7。\n\n§b困惑 §#e1dca4§7的敌人从你这里受到§f+30%§7的§e✦ 电§7伤害，并在攻击时受到伤害。\n\n你可以在敌人身上额外存储§f+15§7个§b诡计 §#6afa65§7。\n\n§c⚔ §7总伤害: §f160% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 130%)\n   §8(§e✦ §8电: 30%)\n§3⌚ §7冷却: §f0.5秒\n§d⌛ §7持续时间: §f15秒",
+"customName": "迷惑诡计",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"88"
+]
+},
+"Shadow Projection": {
+"name": "§i§lShadow Projection",
+"description": "§7当你二段跳时，向你面对的方向投掷一个§b暗影分身 §#d84c4c§7。\n\n潜行时再次二段跳可传送到分身处，引爆它。\n\n§b暗影分身 §#d84c4c§7会通过§n谢幕一击§7施放§n旋风斩§7。\n\n§c⚔ §7总伤害: §f300% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 250%)\n   §8(§c✹ §8火: 50%)\n§2➼ §7范围: §f32格\n§3☀ §7伤害/作用范围: §f5格 §7(圆形)\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+"customName": "暗影投射",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": []
+},
+"Toxic Sludge": {
+"name": "§h§lToxic Sludge",
+"description": "§7引爆§f20+§7个§b诡计 §#6afa65§7将使敌人被§b污染 §#94a771§7，沾上毒性淤泥。\n\n§b污染 §#94a771§7的敌人从你这里受到§f+30%§7的§2✤ 地§7伤害，死亡时会爆炸，伤害附近的敌人。\n\n你可以在敌人身上额外存储§f+15§7个§b诡计 §#6afa65§7。\n\n§c⚔ §7总伤害: §f400% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 350%)\n   §8(§2✤ §8地: 50%)\n§3☀ §7伤害/作用范围: §f5格 §7(圆形)\n§d⌛ §7持续时间: §f25秒",
+"customName": "剧毒泥潭",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"88"
+]
+},
+"Soul Siphon": {
+"name": "§j§lSoul Siphon",
+"description": "§7引爆§f30+§7个§b诡计 §#6afa65§7将使敌人§f200%§7§b耗竭 §#a1fad9§7，并从你这里受到§f+30%§7的§b❉ 水§7伤害。\n\n当你或盟友攻击§b耗竭 §#a1fad9§7的敌人时，虹吸其§f7.5%§7，转化为§f7.5%§7的§b超额生命 §6❤\n§7，在§f20秒§7内衰减。(最多25%)\n\n你可以在敌人身上额外存储§f+20§7个§b诡计 §#6afa65§7。\n\n§3⌚ §7冷却: §f2秒\n§d⌛ §7持续时间: §f25秒",
+"customName": "灵魂虹吸",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"88"
+]
+},
+"Shadow Dance": {
+"name": "§i§lShadow Dance",
+"description": "§7施放§n隐身§7后的第二次攻击造成§f+50%§7伤害。\n\n§d⌛ §7持续时间: §f2秒\n§3⌚ §7冷却: §f3秒",
+"customName": "影之舞",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 0,
+"requires": [
+"21"
+]
+},
+"Looming Presence": {
+"name": "§f§lLooming Presence",
+"description": "§7增加§n背刺§7的范围。\n\n§2➼ §7范围: §f+2格",
+"customName": "迫近威胁",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 1,
+"archetypePointsRequired": 0,
+"requires": [
+"16"
+]
+},
+"Billowing Death": {
+"name": "§j§lBillowing Death",
+"description": "§7用成功的§n背刺§7击中拥有§f2+§7个§b标记 §c✜§7的敌人时，释放一团烟雾，将该敌人§f50%§7的§b标记 §c✜§7施加到其他敌人身上。\n\n§3☀ §7伤害/作用范围: §f5格 §7(圆形)\n§3⌚ §7冷却: §f3秒",
+"customName": "死亡涌潮",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 11,
+"requires": [
+"44"
+]
+},
+"Pierce the Veil": {
+"name": "§5§lPierce the Veil",
+"description": "§6连击顺序:§r §d§lF\n\n§7用阴影笼罩自己，在持续时间内获得§n隐身§7的所有效果。生命和法力仍会恢复，且此状态无法取消。\n\n被笼罩时，附近的敌人每§f0.25秒§7获得§f+1§7个§b标记 §c✜§7。\n\n§3☀ §7伤害/作用范围: §f10格 §7(圆形)\n§d⌛ §7持续时间: §f12秒\n\n§7激活技能来充能你的§b终极技能槽 ⌛§7至100%。",
+"customName": "刺破幽纱",
+"note": "",
+"unlockingWillBlock": [],
+"pointsRequired": 2,
+"archetypePointsRequired": 16,
+"requires": []
+}
+},
+"cellMap": {
+"5": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Spin Attack"
+},
+"14": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"21": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Cheaper Spin Attack I"
+},
+"22": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"23": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Dagger Proficiency I"
+},
+"32": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"41": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Double Spin"
+},
+"50": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"59": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"66": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Poisoned Blade"
+},
+"67": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"68": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Dash"
+},
+"69": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 4
+}
+},
+"70": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Double Slice"
+},
+"75": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"79": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"82": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"83": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"84": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Smoke Bomb"
+},
+"85": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"86": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Cheaper Dash I"
+},
+"87": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"88": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Multihit"
+},
+"89": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"90": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 2
+}
+},
+"91": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"92": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Sticky Bomb"
+},
+"93": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"95": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"97": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"99": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"100": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"102": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"104": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"106": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"108": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"109": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"111": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"113": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"115": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"117": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"118": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Earth Mastery"
+},
+"119": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"120": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Thunder Mastery"
+},
+"122": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"123": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"124": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 4
+},
+"abilityID": "Water Mastery"
+},
+"125": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"126": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Air Mastery"
+},
+"128": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"131": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Fire Mastery"
+},
+"134": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Ripple"
+},
+"137": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Backstab"
+},
+"138": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 3
+}
+},
+"140": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"143": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"147": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Vanish"
+},
+"148": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"149": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Bamboozle"
+},
+"152": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Hop"
+},
+"156": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"158": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"161": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"165": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"167": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"170": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"173": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"174": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Surprise Strike"
+},
+"176": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Mirror Image"
+},
+"177": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 3
+}
+},
+"179": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Lacerate"
+},
+"180": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 3
+}
+},
+"181": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 2
+}
+},
+"182": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Silent Killer"
+},
+"183": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 4
+}
+},
+"185": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"186": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Foul Play"
+},
+"187": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"188": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"189": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Wall of Smoke"
+},
+"190": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"192": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"194": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Last Laugh"
+},
+"195": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"196": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"197": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Psithurism"
+},
+"198": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"199": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Rolling Fog"
+},
+"200": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"201": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Shadow Travel"
+},
+"202": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"203": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 4
+}
+},
+"204": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Cheaper Multihit I"
+},
+"205": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"206": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"207": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Finality"
+},
+"208": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"209": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Shadow Siphon"
+},
+"211": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"212": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Mirage"
+},
+"215": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"217": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"220": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"224": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"226": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Cheaper Smoke Bomb I"
+},
+"227": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"228": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"229": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Blazing Powder"
+},
+"230": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 2
+}
+},
+"232": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"233": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Weightless"
+},
+"234": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 4
+}
+},
+"235": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"236": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Black Hole"
+},
+"238": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"239": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Sandbagging"
+},
+"240": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"241": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Mutilate"
+},
+"243": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Swan Dive"
+},
+"244": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Violent Vortex"
+},
+"245": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 4
+}
+},
+"246": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 4
+}
+},
+"247": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Duplicity"
+},
+"248": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"249": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Righting Reflex"
+},
+"252": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"253": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 2
+}
+},
+"254": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Marked"
+},
+"255": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 4
+}
+},
+"256": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 1
+}
+},
+"257": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 4
+},
+"abilityID": "Malicious Mockery"
+},
+"258": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"259": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Shurikens"
+},
+"260": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 4
+}
+},
+"261": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Blade Fury"
+},
+"262": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"264": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"265": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Hoodwink"
+},
+"266": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"269": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Dancing Blade"
+},
+"270": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"271": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"273": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"275": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"279": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"280": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Ambush"
+},
+"282": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Death Magnet"
+},
+"283": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"284": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Distraction"
+},
+"285": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 1
+}
+},
+"286": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Wall Jump"
+},
+"287": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"288": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Cheaper Dash II"
+},
+"289": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"291": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"293": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"294": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Misdirection"
+},
+"295": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"297": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"298": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Nightcloak Knife"
+},
+"299": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"300": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Cheaper Multihit II"
+},
+"301": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"302": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Shadow Projection"
+},
+"303": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"304": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Cheaper Spin Attack II"
+},
+"305": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"306": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Aerial Ace"
+},
+"307": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"308": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Fatal Spin"
+},
+"309": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 1
+}
+},
+"310": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Toxic Sludge"
+},
+"311": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"312": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Echo"
+},
+"314": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+},
+"abilityID": "Eviscerate"
+},
+"316": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Bladestorm"
+},
+"317": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"318": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Dissolution"
+},
+"320": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"323": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"326": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"329": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"332": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"335": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Harvester"
+},
+"336": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"337": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"338": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Cheaper Smoke Bomb II"
+},
+"339": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"340": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"341": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 4
+},
+"abilityID": "Far Reach"
+},
+"342": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 4
+}
+},
+"344": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"345": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 1
+},
+"abilityID": "More Marks"
+},
+"347": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"348": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Deflagate"
+},
+"350": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"351": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Ricochets"
+},
+"352": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 1
+}
+},
+"353": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Satsujin"
+},
+"354": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 2
+}
+},
+"355": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"356": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Noxious Haze"
+},
+"358": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 4
+}
+},
+"359": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Jasmine Bloom"
+},
+"360": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 2
+}
+},
+"361": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"363": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"364": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Soul Siphon"
+},
+"365": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"367": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Braced Impact"
+},
+"369": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"370": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 4
+},
+"abilityID": "Devour"
+},
+"371": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"372": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Marked for Death"
+},
+"374": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"378": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"380": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"383": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"387": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"388": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 2
+}
+},
+"389": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Thrill"
+},
+"390": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"391": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 1
+}
+},
+"392": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Doppleganger"
+},
+"393": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 3
+}
+},
+"395": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 3
+}
+},
+"396": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Celerity"
+},
+"397": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"399": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"400": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Shadow Dance"
+},
+"401": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 0,
+"right": 1,
+"variant": 2
+}
+},
+"402": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 4
+},
+"abilityID": "Paranoia"
+},
+"403": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 2
+}
+},
+"404": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 2
+},
+"abilityID": "Petal Storm"
+},
+"405": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 3
+}
+},
+"406": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Billowing Death"
+},
+"407": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 4
+}
+},
+"408": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+},
+"abilityID": "Looming Presence"
+},
+"409": {
+"travelNode": {
+"up": 0,
+"down": 0,
+"left": 1,
+"right": 1,
+"variant": 3
+}
+},
+"410": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 1,
+"right": 0,
+"variant": 3
+},
+"abilityID": "Choke Bomb"
+},
+"411": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"412": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 1,
+"variant": 1
+},
+"abilityID": "Dextrous Hands"
+},
+"413": {
+"travelNode": {
+"up": 0,
+"down": 1,
+"left": 1,
+"right": 1,
+"variant": 1
+}
+},
+"414": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 1,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Thermobaric Smoke"
+},
+"416": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 1
+}
+},
+"419": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"420": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Disappearing Act"
+},
+"422": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"425": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"428": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"431": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"434": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 2
+}
+},
+"437": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"440": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"443": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"446": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"449": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 4
+}
+},
+"452": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 1
+},
+"abilityID": "Pierce the Veil"
+},
+"455": {
+"travelNode": {
+"up": 1,
+"down": 1,
+"left": 0,
+"right": 0,
+"variant": 3
+}
+},
+"458": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Serpent's Garden"
+},
+"464": {
+"travelNode": {
+"up": 1,
+"down": 0,
+"left": 0,
+"right": 0,
+"variant": 2
+},
+"abilityID": "Another Self"
+}
+},
+"currentHorizontalPage": 1,
+"bEditMode": true,
+"startingAbilityID": "1",
+"abilityTrees": {
+"Default": []
+},
+"selectedTree": "Default",
+"abilitiesByName": {
+"Arrow Bomb": 1,
+"Bow Proficiency": 2,
+"Cheaper Arrow Bomb": 3,
+"Heart Shatter": 4,
+"Escape": 5,
+"Power Shots": 6,
+"Double Shots": 7,
+"Arrow Storm": 8,
+"Cheaper Escape": 9,
+"Arrow Shield": 10,
+"Windy Feet": 11,
+"Air Mastery": 12,
+"Thunder Mastery": 13,
+"Earth Mastery": 14,
+"Fire Mastery": 15,
+"Water Mastery": 16,
+"Buckshot": 17,
+"Phantom Ray": 18,
+"Nimble String": 19,
+"Fire Creep": 20,
+"Bryophyte Roots": 21,
+"Triple Shots": 22,
+"Frenzy": 23,
+"Guardian Angels": 24,
+"Basaltic Trap": 25,
+"Focus": 26,
+"Windstorm": 27,
+"Stormy Feet": 28,
+"Cheaper Arrow Storm": 29,
+"Implosion": 30,
+"Arrow Wall": 31,
+"More Focus": 32,
+"Grappling Hook": 33,
+"Patient Hunter": 34,
+"Call of the Hound": 35,
+"Mana Trap": 36,
+"Bouncing Bomb": 37,
+"Spectral Hover": 38,
+"Leap": 39,
+"Ivyroot Mamba": 40,
+"Twain's Arc": 41,
+"Rocket Jump": 42,
+"Scorched Earth": 43,
+"More Traps": 44,
+"Cheaper Arrow Shield": 45,
+"Honed Shield": 46,
+"Shocking Bomb": 47,
+"Homing Shots": 48,
+"Fierce Stomp": 49,
+"Bounding Stride": 50,
+"Transience": 51,
+"Cheaper Arrow Storm II": 52,
+"Initiator": 53,
+"Phasing Beam": 54,
+"Decimator": 55,
+"Murder Flock": 56,
+"Parting Gift": 57,
+"Vigilant Sentinels": 58,
+"Recycling": 59,
+"Shrapnel Bomb": 60,
+"Cheaper Escape II": 61,
+"Hookshot": 62,
+"Cheaper Arrow Shield II": 63,
+"Coursing Restraints": 64,
+"Crepuscular Ray": 65,
+"Beast Lore": 66,
+"Tangled Traps": 67,
+"Chilling Snare": 68,
+"More Focus II": 69,
+"Grape Bomb": 70,
+"Cheaper Arrow Bomb II": 71,
+"Swift Primer": 72,
+"Snow Storm": 73,
+"Refined Gunpowder": 74,
+"Pyrotechnics": 75,
+"Courier's Edict": 76,
+"Arrow Hurricane": 77,
+"Phantom Force": 78,
+"Ghostly Trigger": 79,
+"Divine Intervention": 80,
+"Arsenal Synergy": 81,
+"Feedback Loop": 82,
+"Wild Light": 83,
+"Elusive": 84,
+"Shrieking Arrows": 85,
+"Fimbulwinter": 86,
+"Sniffer Dog": 87,
+"Overgrowth": 88,
+"Canine Colleague": 89,
+"Warding Wisps": 90,
+"Quick Draw": 91,
+"Repel": 92,
+"Repositioning": 93,
+"Mael's Quiver": 94,
+"Angelic Ascension": 95,
+"Extinction Event": 96,
+"The Twilight Zone": 97
+}
+}

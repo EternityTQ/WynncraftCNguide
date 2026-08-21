@@ -1,0 +1,895 @@
+{
+    "abilities": {
+        "Meteor": {
+            "name": "§g§lMeteor",
+            "description": "§6连招: §d§l右键§7-§d§l左键§7-§d§l左键\n\n§7召唤一颗缓慢但威力巨大的陨石从天而降，对大范围内的敌人造成巨量伤害。\n\n§b✺ §7法力消耗: §f50\n§c⚔ §7总伤害: §f400% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 330%)\n   §8(§2✤ §8地: 70%)\n§2➼ §7范围: §f18 格\n§3☀ §7作用范围: §f5 格 §7(圆形)",
+            "customName": "陨石",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Wand Proficiency I": {
+            "name": "§f§lWand Proficiency I",
+            "description": "§7使用法杖时，提升你的§n普通攻击§7的伤害与范围。\n\n§c⚔ §7普通攻击伤害: §f+5%\n§2➼ §7普通攻击范围: §f+2 格",
+            "customName": "法杖精通 I",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Cheaper Meteor": {
+            "name": "§f§lCheaper Meteor",
+            "description": "§7降低§n陨石§7的法力消耗。\n\n§b✺ §7法力消耗: §f-10",
+            "customName": "陨石减耗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["1"]
+        },
+        "Shooting Star": {
+            "name": "§h§lShooting Star",
+            "description": "§7大幅提升你的§n陨石§7技能的下落速度。",
+            "customName": "流星",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Teleport": {
+            "name": "§g§lTeleport",
+            "description": "§6连招: §d§l右键§7-§d§l右键§7-§d§l右键\n\n§7朝你面对的方向瞬间传送。\n\n§b✺ §7法力消耗: §f25\n§2➼ §7范围: §f16 格",
+            "customName": "传送",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Wand Proficiency II": {
+            "name": "§h§lWand Proficiency II",
+            "description": "§7使用法杖时，提升你的§n普通攻击§7的伤害与范围。\n\n§c⚔ §7普通攻击伤害: §f+5%\n§2➼ §7普通攻击范围: §f+2 格",
+            "customName": "法杖精通 II",
+            "note": "",
+            "unlockingWillBlock": ["7"],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Wisdom": {
+            "name": "§h§lWisdom",
+            "description": "§7你装备上每拥有 §f2% §7或 §f2点 §7法术伤害，就获得 §f+1/5s §7法力回复 (上限 5/5s)",
+            "customName": "智慧",
+            "note": "",
+            "unlockingWillBlock": ["6"],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Heal": {
+            "name": "§g§lHeal",
+            "description": "§6连招: §d§l右键§7-§d§l左键§7-§d§l右键\n\n§7治疗你自己以及你周围大范围内的友军。§8(治疗他人时，无法治疗超过§n其§8最大生命值的30%)\n\n§b✺ §7法力消耗: §f35\n§c❤ §7总治疗量: §f15% §8(基于你的最大生命值)\n§2➼ §7范围: §f5 格\n§d⌛ §7持续时间: §f0.6秒",
+            "customName": "治疗",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Ice Snake": {
+            "name": "§g§lIce Snake",
+            "description": "§6连招: §d§l右键§7-§d§l右键§7-§d§l左键\n\n§7召唤一条快速移动的冰蛇，对敌人造成伤害并使其减速。\n\n§b✺ §7法力消耗: §f30\n§c⚔ §7总伤害: §f175% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 120%)\n   §8(§b❉ §8水: 55%)\n§2➼ §7范围: §f32 格\n§3☀ §7作用范围: §f2 格 §7(圆形)\n§e✧ §7效果: §f40% §7减速 (§c⬤§7) （对敌人）\n§d⌛ §7持续时间: §f3秒",
+            "customName": "冰蛇",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Cheaper Teleport": {
+            "name": "§f§lCheaper Teleport",
+            "description": "§7降低§n传送§7的法力消耗。\n\n§b✺ §7法力消耗: §f-5",
+            "customName": "传送减耗 I",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["5"]
+        },
+        "Air Mastery": {
+            "name": "§f§lAir Mastery",
+            "description": "§7增加你所有气属性攻击的基础伤害。\n\n§f❋ §7气属性伤害: §f+3-4\n§f❋ §7气属性伤害: §f+15%",
+            "customName": "气元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Earth Mastery": {
+            "name": "§f§lEarth Mastery",
+            "description": "§7增加你所有地属性攻击的基础伤害。\n\n§2✤ §7地属性伤害: §f+2-4\n§2✤ §7地属性伤害: §f+20%",
+            "customName": "地元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Fire Mastery": {
+            "name": "§f§lFire Mastery",
+            "description": "§7增加你所有火属性攻击的基础伤害。\n\n§c✹ §7火属性伤害: §f+3-5\n§c✹ §7火属性伤害: §f+15%",
+            "customName": "火元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Thunder Mastery": {
+            "name": "§f§lThunder Mastery",
+            "description": "§7增加你所有电属性攻击的基础伤害。\n\n§e✦ §7电属性伤害: §f+1-8\n§e✦ §7电属性伤害: §f+10%",
+            "customName": "电元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Water Mastery": {
+            "name": "§f§lWater Mastery",
+            "description": "§7增加你所有水属性攻击的基础伤害。\n\n§b❉ §7水属性伤害: §f+2-4\n§b❉ §7水属性伤害: §f+15%",
+            "customName": "水元素精通",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Distortion": {
+            "name": "§k§lDistortion",
+            "description": "§7用§n以太裂斩§7命中敌人时，每 §f4s§7 至多获得 §f+20 §b空间扭曲 §#c267f7≈§7。\n\n每层 §b空间扭曲 §#c267f7≈§7 提供 §f+1§7 点原始伤害，并以每秒 §f-1§7 的速度衰减，且衰减速度随你获得的 §b空间扭曲 §#c267f7≈§7 越多而越快。",
+            "customName": "空间扭曲",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": ["62"]
+        },
+        "Thunderstorm": {
+            "name": "§i§lThunderstorm",
+            "description": "§7施放§n陨石§7后，在落点附近生成一道闪电，每命中一个敌对生物，就为你的§b法力储备 §b✺§7增加 §f+8§7 点法力。\n\n§c⚔ §7总伤害: §f270% §8(基于你的DPS, 每次打击)\n   §8(§6✣ §8伤害: 150%)\n   §8(§e✦ §8电: 120%)\n§3☀ §7作用范围: §f2.5 格 §7(圆形)",
+            "customName": "雷暴",
+            "note": "",
+            "unlockingWillBlock": ["43"],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Sunshower": {
+            "name": "§i§lSunshower",
+            "description": "§7§n治疗§7会散发出强光，对附近的敌人造成伤害。\n\n§n奥术转换§7在转移 §f30点以上 §7法力时，会对附近的敌人造成伤害。\n\n§c⚔ §7总伤害: §f100% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 70%)\n   §8(§b❉ §8水: 30%)",
+            "customName": "太阳雨",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["8"]
+        },
+        "Burning Sigil": {
+            "name": "§i§lBurning Sigil",
+            "description": "§7§n陨石§7和§n座天使§7会在地面留下一个火焰纹章，每 §f0.4s§7 对敌人造成一次伤害。\n\n§c⚔ §7总伤害: §f40% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 25%)\n   §8(§c✹ §8火: 15%)\n§3☀ §7作用范围: §f7 格 §7(圆形)\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "灼热纹章",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Crashing Comet": {
+            "name": "§f§lCrashing Comet",
+            "description": "§7增加§n陨石§7的伤害。\n\n§c⚔ §7总伤害: §f+90% §8(基于你的DPS)\n   §8(§6✣ §8伤害: +70%)\n   §8(§c✹ §8火: +20%)",
+            "customName": "天煞星",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 2,
+            "requires": ["1"]
+        },
+        "Astral Fragmentation": {
+            "name": "§i§lAstral Fragmentation",
+            "description": "§7§n陨石§7落地时会碎裂成岩屑，造成额外伤害。\n\n§n座天使§7从星辰汲取光芒，造成额外伤害。\n\n§c⚔ §7总伤害: §f+120% §8(基于你的DPS, 陨石)\n   §8(§6✣ §8伤害: +90%)\n   §8(§2✤ §8地: +30%)\n§c⚔ §7总伤害: §f+40% §8(基于你的DPS, 座天使)\n   §8(§6✣ §8伤害: +30%)\n   §8(§2✤ §8地: +10%)\n§3☀ §7陨石作用范围: §f6 格 §7(圆形)",
+            "customName": "星陨崩裂",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Ophanim": {
+            "name": "§k§lOphanim",
+            "description": "§7施放§n陨石§7时，改为召唤 §f2 §7个拥有 §f200 §7点生命值的光之宝珠，它们会在你使用§n普通攻击§7时一同攻击。\n\n当它们对敌人造成伤害时，会损失 §f20% §7的生命值。它们可以被治疗回复。\n\n§b✺ §7法力消耗: §c+30\n§c⚔ §7总伤害: §f120% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 90%)\n   §8(§b❉ §8水: 15%)\n   §8(§e✦ §8电: 15%)\n§2➼ §7范围: §f22 格",
+            "customName": "座天使",
+            "note": "",
+            "unlockingWillBlock": ["43", "48", "44"],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": ["1"]
+        },
+        "Arcane Transfer": {
+            "name": "§k§lArcane Transfer",
+            "description": "§7§n陨石§7、§n冰蛇§7和§n以太裂斩§7每命中一个敌对生物，就会为§b法力储备 ✺ §7增加 §f+13 §7点法力。拥有§n雷暴§7时，§n陨石§7获得的法力降低为 §f4§7 点。\n\n§n治疗§7现在不再治疗，而是将你§b法力储备 ✺ §7中的内容转化为可用的法力。",
+            "customName": "奥术转换",
+            "note": "",
+            "unlockingWillBlock": ["40", "28"],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": ["8"]
+        },
+        "Cheaper Heal": {
+            "name": "§f§lCheaper Heal",
+            "description": "§7降低§n治疗§7的法力消耗。\n\n§b✺ §7法力消耗: §f-5",
+            "customName": "治疗减耗 I",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["8"]
+        },
+        "Interweave": {
+            "name": "§i§lInterweave",
+            "description": "§7用§n织光者§7的光球命中友军时，会消耗该光球并施加§b闪耀 §#e1dca4✨§7。\n\n处于§b闪耀 §#e1dca4✨§7状态的玩家可以被任意距离治疗，并会对附近的敌人造成该光球的伤害。\n\n§d⌛ §7持续时间: §f6秒",
+            "customName": "光织交融",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 10,
+            "requires": ["45"]
+        },
+        "Displacement": {
+            "name": "§h§lDisplacement",
+            "description": "§7潜行时施放§n传送§7，会在你当前位置留下一个自身的虚影。\n\n再次施放时，你将被传送至虚影所在的位置。\n\n§2➼ §7范围: §f50 格\n§3⌚ §7冷却: §f5秒",
+            "customName": "空间置换",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["5"]
+        },
+        "Purification": {
+            "name": "§j§lPurification",
+            "description": "§7§n治疗§7和§n奥术转换§7会净化友军身上的所有负面效果和着火状态。\n\n§3⌚ §7冷却: §f3秒",
+            "customName": "净化",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Larger Heal": {
+            "name": "§f§lLarger Heal",
+            "description": "§7增加你§n治疗§7的范围。\n\n§2➼ §7范围: §f2 格",
+            "customName": "治疗范围",
+            "note": "",
+            "unlockingWillBlock": ["23"],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["8"]
+        },
+        "Larger Mana Bank": {
+            "name": "§f§lLarger Mana Bank",
+            "description": "§7增加你的§b法力储备 ✺ §7上限 §f+30§7。",
+            "customName": "法力扩容 I",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["23"]
+        },
+        "Cheaper Ice Snake": {
+            "name": "§f§lCheaper Ice Snake",
+            "description": "§7降低§n冰蛇§7的法力消耗。\n\n§b✺ §7法力消耗: §f-5",
+            "customName": "冰蛇减耗 I",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["9"]
+        },
+        "Cheaper Teleport II": {
+            "name": "§f§lCheaper Teleport II",
+            "description": "§7降低§n传送§7的法力消耗。\n\n§b✺ §7法力消耗: §f-5",
+            "customName": "传送减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["5"]
+        },
+        "Frozen Tornado": {
+            "name": "§j§lFrozen Tornado",
+            "description": "§7施放§n冰蛇§7会改为召唤一个冰霜龙卷，每 §f0.5s§7 造成一次伤害。\n\n每 §f+1 §b空间扭曲 §#c267f7≈§7，龙卷就获得 §f+0.025 §3☀ §7作用范围与 §f+1.1% §c⚔ §7伤害。\n\n§c⚔ §7总伤害: §f80% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 60%)\n   §8(§b❉ §8水: 10%)\n   §8(§f❋ §8气: 10%)\n§3☀ §7作用范围: §f6 格 §7(圆形)\n§e✧ §7效果: §f50%§7 减速 (§c⬤§7) （对敌人）\n§d⌛ §7龙卷持续时间: §f5秒\n§d⌛ §7减速持续时间: §f1秒",
+            "customName": "冰霜龙卷",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["16"]
+        },
+        "Fortitude": {
+            "name": "§j§lFortitude",
+            "description": "§7在 §f10s§7 内治疗相当于你 §f120% §7最大生命值的量后，会给予每一个你治疗过的玩家伤害加成。\n\n§e✧ §7效果: §f40% §7伤害加成 (§a⚔§7) （对友军）\n§d⌛ §7持续时间: §f7秒\n§3⌚ §7冷却: §f15秒",
+            "customName": "强韧意志",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 2,
+            "requires": []
+        },
+        "Pyrokinesis": {
+            "name": "§j§lPyrokinesis",
+            "description": "§7当你的§b法力储备 ✺ §7达到 §f30§7 时，你的§n普通攻击§7命中敌人时会发生爆炸。\n\n§c⚔ §7总伤害: §f200% §8(普通攻击伤害)\n   §8(§6✣ §8伤害: 200%)\n§3☀ §7作用范围: §f4 格 §7(圆形)",
+            "customName": "驭火术",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 4,
+            "requires": ["23"]
+        },
+        "Resilient Light": {
+            "name": "§f§lResilient Light",
+            "description": "§7将§n座天使§7光球的生命值提升 §f+800§7，并将它们攻击时受到的伤害降低 §f-5%§7。",
+            "customName": "韧性之光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["22"]
+        },
+        "Snake Nest": {
+            "name": "§i§lSnake Nest",
+            "description": "§7§n冰蛇§7会召唤 §f3 §7条蛇。\n\n§n冰霜龙卷§7会召唤 §f3§7 个龙卷。§8(敌人无法同时受到多个龙卷或多条蛇的伤害。)§7\n\n§c⚔ §7总伤害: §f+50% §8(基于你的DPS, 冰蛇)\n   §8(§6✣ §8伤害: +35%)\n   §8(§b❉ §8水: +15%)\n§c⚔ §7总伤害: §f+25% §8(基于你的DPS, 冰霜龙卷)\n   §8(§6✣ §8伤害: +20%)\n   §8(§b❉ §8水: +5%)",
+            "customName": "蛇巢",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["9"]
+        },
+        "Seance": {
+            "name": "§f§lSeance",
+            "description": "§7你装备上每拥有 §f5/3s §7生命偷取，就获得 §f+1% §7法术伤害 (上限 50%)",
+            "customName": "通灵",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Warp Blast": {
+            "name": "§h§lWarp Blast",
+            "description": "§7用§n普通攻击§7命中敌人时，每 §f4s§7 至多获得 §f+8 §b空间扭曲 §#c267f7≈§7。",
+            "customName": "曲空冲击",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["16"]
+        },
+        "Gospel of Light": {
+            "name": "§h§lGospel of Light",
+            "description": "§7附近的玩家会获得你通过法力回复和法力偷取所获得法力的 §f20%§7。\n\n§3☀ §7作用范围: §f8 格 §7(圆形)",
+            "customName": "光之福音",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Orphion's Pulse": {
+            "name": "§j§lOrphion's Pulse",
+            "description": "§7§n治疗§7变得更慢但更强，额外脉冲 §f2 §7次以提供更高的治疗量。\n\n§c❤ §7脉冲自我治疗: §f20% §8(基于你的最大生命值)\n§d⌛ §7持续时间: §f1.2秒\n§3⌚ §7延迟: §f1.5秒 §8(每次脉冲)",
+            "customName": "治疗脉冲",
+            "note": "",
+            "unlockingWillBlock": ["23"],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 5,
+            "requires": ["8"]
+        },
+        "Incandescence": {
+            "name": "§f§lIncandescence",
+            "description": "§7增加§n座天使§7的伤害。\n\n§c⚔ §7总伤害: §f+30% §8(基于你的DPS)\n   §8(§6✣ §8伤害: +20%)\n   §8(§f❋ §8气: +10%)",
+            "customName": "白热化",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["22"]
+        },
+        "Arcane Restoration": {
+            "name": "§h§lArcane Restoration",
+            "description": "§7§n驭火术§7在命中敌对生物时，会每 §f0.25s§7 为你的§b法力储备 ✺ §7增加 §f+1 §7点法力。\n\n§d⌛ §7持续时间: §f2.5秒",
+            "customName": "奥术恢复",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["34"]
+        },
+        "Meteor Shower": {
+            "name": "§j§lMeteor Shower",
+            "description": "§7施放§n陨石§7时，你每拥有 §f20 §b空间扭曲 §#c267f7≈§7，就会在目标位置附近额外召唤一颗陨石。§8(最多20颗陨石，同一时间只能有一个流星雨生效。)§7\n\n§n陨石§7和§n星陨崩裂§7会变小，造成 §c-20% §c⚔ §7伤害，并损失 §c-20% §3☀ §7作用范围。\n\n§3☀ §7目标半径: §f1 格 §7(圆形)",
+            "customName": "流星雨",
+            "note": "",
+            "unlockingWillBlock": ["22", "17"],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["16"]
+        },
+        "Void Acceleration": {
+            "name": "§h§lVoid Acceleration",
+            "description": "§7使§n陨石§7的速度翻倍，并增加其伤害。\n\n§n流星雨§7召唤陨石的速度加快 §f+25%§7。\n\n§c⚔ §7总伤害: §f+110% §8(基于你的DPS)\n   §8(§6✣ §8伤害: +75%)\n   §8(§f❋ §8气: +35%)",
+            "customName": "虚空加速",
+            "note": "",
+            "unlockingWillBlock": ["22"],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["1"]
+        },
+        "Lightweaver": {
+            "name": "§k§lLightweaver",
+            "description": "§7在 §f10s§7 内治疗相当于你 §f50% §7最大生命值的量后，会召唤一个旋转的光球，接触敌人时造成伤害。(最多3个光球)\n\n§c⚔ §7总伤害: §f150% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 120%)\n   §8(§c✹ §8火: 30%)\n§2➼ §7范围: §f7 格\n§3☀ §7作用范围: §f1.5 格 §7(圆形)\n§d⌛ §7持续时间: §f20秒",
+            "customName": "织光者",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 7,
+            "requires": []
+        },
+        "Arcane Speed": {
+            "name": "§i§lArcane Speed",
+            "description": "§7施放§n治疗§7或§n奥术转换§7后，你会获得移动速度加成。\n\n§e✧ §7效果: §f+80% §7移动速度\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "奥术加速",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["8"]
+        },
+        "Larger Mana Bank II": {
+            "name": "§f§lLarger Mana Bank II",
+            "description": "§7增加你的§b法力储备 ✺ §7上限 §f+30§7。",
+            "customName": "法力扩容 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["23"]
+        },
+        "Psychokinesis": {
+            "name": "§i§lPsychokinesis",
+            "description": "§7§n陨石§7改为从你身上射出的一枚缓慢飞行物。\n\n§2➼ §7范围: §f18 格",
+            "customName": "意念陨石",
+            "note": "",
+            "unlockingWillBlock": ["22"],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 5,
+            "requires": ["1"]
+        },
+        "Chaos Explosion": {
+            "name": "§k§lChaos Explosion",
+            "description": "§7当你的§b法力储备 ✺ §7达到 §f120§7 时，施放§n奥术转换§7会按顺序快速释放你最后施放的 §f3 §7个法术。",
+            "customName": "混沌爆发",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 8,
+            "requires": []
+        },
+        "Cheaper Meteor II": {
+            "name": "§f§lCheaper Meteor II",
+            "description": "§7降低§n陨石§7的法力消耗。\n\n§b✺ §7法力消耗: §f-5",
+            "customName": "陨石减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["1"]
+        },
+        "Cheaper Ice Snake II": {
+            "name": "§f§lCheaper Ice Snake II",
+            "description": "§7降低§n冰蛇§7的法力消耗。\n\n§b✺ §7法力消耗: §f-5",
+            "customName": "冰蛇减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["9"]
+        },
+        "Crystallize": {
+            "name": "§j§lCrystallize",
+            "description": "§7§n织光者§7会对命中的敌人施加 §f+7 §b冰晶 §j💎§7。\n\n施放§n冰蛇§7会击碎拥有 §f100 §b冰晶 §j💎§7 的敌人，对其造成伤害并减速。\n\n§b冰晶 §j💎§7 若 §f5s§7 内没有被施加任何层数，将以每秒 §f-5§7 的速度开始衰减。\n\n§c⚔ §7总伤害: §f2000% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 1500%)\n   §8(§b❉ §8水: 250%)\n   §8(§f❋ §8气: 250%)\n§e✧ §7效果: §f80%§7 减速 (§c⬤§7) （对敌人）\n§d⌛ §7持续时间: §f3秒",
+            "customName": "冰晶凝结",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 14,
+            "requires": ["45"]
+        },
+        "Vacuokinesis": {
+            "name": "§i§lVacuokinesis",
+            "description": "§7你的§n普通攻击§7被真空之力灌注，造成额外伤害。\n\n每 §f+1§7 §b空间扭曲 §#c267f7≈§7，§n驭虚术§7就造成 §f+1% §c⚔ §7伤害。\n\n§c⚔ §7总伤害: §f80% §8(普通攻击伤害)\n   §8(§6✣ §8伤害: 80%)\n§3☀ §7作用范围: §f3 格 §7(圆形)",
+            "customName": "驭虚术",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["16"]
+        },
+        "Dimensional Tear": {
+            "name": "§k§lDimensional Tear",
+            "description": "§7用§n以太裂斩§7命中敌人时，会在你与目的地之间撕开一道次元裂隙。\n\n裂隙每 §f0.4s§7 对敌人造成一次伤害，站在其中时，你获得的§b空间扭曲 §#c267f7≈§7提升 §f+25%§7，并降低受到的伤害。\n\n离开裂隙区域后，其增益与伤害会持续 §f3s§7。\n\n§c⚔ §7总伤害: §f100% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 60%)\n   §8(§2✤ §8地: 20%)\n   §8(§f❋ §8气: 20%)\n§e✧ §7效果: §f15%§7 抗性加成 (§a❁§7)\n§3☀ §7作用范围: §f8 格 §7(圆形)\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "次元裂隙",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 7,
+            "requires": ["16"]
+        },
+        "Sentient Snake": {
+            "name": "§i§lSentient Snake",
+            "description": "§7§n冰蛇§7会跟随你面对的方向移动，让你能够操控它。\n\n§n冰霜龙卷§7会向附近的敌人漂移。\n\n§c⚔ §7总伤害: §f+40% §8(基于你的DPS, 冰蛇)\n   §8(§6✣ §8伤害: +25%)\n   §8(§b❉ §8水: +15%)\n§c⚔ §7总伤害: §f+20% §8(基于你的DPS, 冰霜龙卷)\n   §8(§6✣ §8伤害: +15%)\n   §8(§b❉ §8水: +5%)\n§2➼ §7漂移范围: §f10 格",
+            "customName": "灵蛇",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["9"]
+        },
+        "Augury": {
+            "name": "§f§lAugury",
+            "description": "§7将你§n座天使§7的光球上限增加 §f+1§7。",
+            "customName": "先兆",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["22"]
+        },
+        "Searing Light": {
+            "name": "§f§lSearing Light",
+            "description": "§7增加§n太阳雨§7的伤害。\n\n§c⚔ §7总伤害: §f+80% §8(基于你的DPS)\n   §8(§6✣ §8伤害: +50%)\n   §8(§b❉ §8水: +20%)\n   §8(§c✹ §8火: +10%)",
+            "customName": "灼热之光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["18"]
+        },
+        "Arcane Power": {
+            "name": "§h§lArcane Power",
+            "description": "§7§n陨石§7、§n冰蛇§7和§n以太裂斩§7每命中一个敌对生物，就会为你的§b法力储备 ✺ §7增加 §f+8 §7点法力。§n冰霜龙卷§7和§n流星雨§7则增加 §f+4 §7点法力。\n\n§n奥术恢复§7回复法力的速度加快 §f0.1s§7。",
+            "customName": "奥术之力",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["23"]
+        },
+        "Rift Rupture": {
+            "name": "§h§lRift Rupture",
+            "description": "§7§n次元裂隙§7在生成时会剧烈爆发，对其中的敌人造成伤害。\n\n处于§n裂隙束缚§7状态时，§n以太裂斩§7会改为向内引爆你绑定的裂隙，对附近的敌人造成伤害。\n\n§c⚔ §7总伤害: §f1000% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 800%)\n   §8(§2✤ §8地: 100%)\n   §8(§f❋ §8气: 100%)\n§3☀ §7作用范围: §f8 格 §7(圆形)\n§3⌚ §7冷却: §f2秒 §8(裂隙束缚)",
+            "customName": "裂隙迸发",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["54"]
+        },
+        "Everlasting Light": {
+            "name": "§f§lEverlasting Light",
+            "description": "§7将你§n座天使§7光球的生命值提升 §f+3000§7。",
+            "customName": "永恒之光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["35"]
+        },
+        "Larger Mana Bank III": {
+            "name": "§f§lLarger Mana Bank III",
+            "description": "§7增加你的§b法力储备 ✺ §7上限 §f+30§7。",
+            "customName": "法力扩容 III",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["23"]
+        },
+        "Etheric Slash": {
+            "name": "§i§lEtheric Slash",
+            "description": "§7使用§n传送§7时，斩裂现实，对你穿过的敌人造成伤害。\n\n§c⚔ §7总伤害: §f200% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 150%)\n   §8(§f❋ §8气: 50%)\n§3☀ §7作用范围: §f3 格 §7(圆形)",
+            "customName": "以太裂斩",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["5"]
+        },
+        "Frigid Grasp": {
+            "name": "§f§lFrigid Grasp",
+            "description": "§7§n冰蛇§7和§n冰霜龙卷§7现在造成更高的伤害，且它们的减速效果更强。\n\n§c⚔ §7总伤害: §f+30% §8(基于你的DPS, 冰蛇)\n   §8(§6✣ §8伤害: +15%)\n   §8(§b❉ §8水: +15%)\n§c⚔ §7总伤害: §f+20% §8(基于你的DPS, 冰霜龙卷)\n   §8(§6✣ §8伤害: +15%)\n   §8(§b❉ §8水: +5%)\n§e✧ §7效果: §f+10%§7 减速 (§c⬤§7) （对敌人）",
+            "customName": "严寒之握",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["9"]
+        },
+        "Time Dilation": {
+            "name": "§j§lTime Dilation",
+            "description": "§7冲刺时创造一个区域，友军在其中奔跑的时间越长，移动速度提升得越多。§8(一旦你停止奔跑，每秒会损失20%的速度加成)§7\n\n§e✧ §7效果: §f+10%§7 移动速度（对友军） §8(每1秒, 上限+200%)\n§3☀ §7作用范围: §f2 格 §7(圆形)",
+            "customName": "时空扩张",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 5,
+            "requires": []
+        },
+        "Divination": {
+            "name": "§j§lDivination",
+            "description": "§7将你§n座天使§7的光球上限增加 §f+3§7，但降低它们的伤害。\n\n§c⚔ §7总伤害: §c-30% §8(基于你的DPS)\n   §8(§6✣ §8伤害: -20%)\n   §8(§b❉ §8水: -5%)\n   §8(§e✦ §8电: -5%)",
+            "customName": "天使预言",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["22"]
+        },
+        "Sunflare": {
+            "name": "§k§lSunflare",
+            "description": "§7在 §f10s§7 内治疗相当于你 §f250% §7最大生命值的量后，你的下一次§n治疗§7将激活§n太阳耀斑§7。\n\n§n太阳耀斑§7激活期间，你会恢复附近所有友军的生命值和法力，且你的§n座天使§7光球会持续攻击。\n\n§2➼ §7范围: §f12 格\n§c❤ §7生命回复: §f每秒5% §8(基于你的最大生命值)\n§b✺ §7法力回复: §f每秒5% §8(基于你的最大法力值)\n§d⌛ §7持续时间: §f10秒\n§3⌚ §7冷却: §f20秒",
+            "customName": "太阳耀斑",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": []
+        },
+        "Halo": {
+            "name": "§f§lHalo",
+            "description": "§7将你§n织光者§7的光球上限增加 §f+2§7。",
+            "customName": "圣环",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["45"]
+        },
+        "Arcane Overflow": {
+            "name": "§j§lArcane Overflow",
+            "description": "§7§n奥术转换§7允许你的法力溢出其上限。(上限 300)",
+            "customName": "奥术过载",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": ["23"]
+        },
+        "Memory Recollection": {
+            "name": "§f§lMemory Recollection",
+            "description": "§7§n混沌爆发§7会额外施放 §f+2 §7个法术。",
+            "customName": "记忆回溯",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["49"]
+        },
+        "Manastorm": {
+            "name": "§i§lManastorm",
+            "description": "§7当你拥有超过 §f100 §7点法力时，施放法术会在 §f2s§7 内给予你 §f+5 §7点法力。",
+            "customName": "法力风暴",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 4,
+            "requires": []
+        },
+        "Cheaper Heal II": {
+            "name": "§f§lCheaper Heal II",
+            "description": "§7降低§n治疗§7的法力消耗。\n\n§b✺ §7法力消耗: §f-5",
+            "customName": "治疗减耗 II",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["8"]
+        },
+         "Freezing Sigil": {
+            "name": "§j§lFreezing Sigil",
+            "description": "§7§n冰蛇§7会在你脚下留下一个冰霜纹章，每 §f0.8s§7 对敌人造成减速和伤害。站在纹章上的友军将免疫击退。\n\n§c⚔ §7总伤害: §f20% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 15%)\n   §8(§b❉ §8水: 5%)\n§3☀ §7作用范围: §f7 格 §7(圆形)\n§e✧ §7效果: §f15% §7减速 (§c⬤§7) （对敌人）, 每次命中 §8(上限 60%)\n                §7击退免疫（对友军）\n§d⌛ §7持续时间: §f8秒\n§3⌚ §7冷却: §f8秒",
+            "customName": "寒冰纹章",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": []
+        },
+        "Arctic Snake": {
+            "name": "§i§lArctic Snake",
+            "description": "§7§n冰蛇§7会冻结敌人 §f2s§7。\n\n§e✧ §7效果: §f100% §7减速 (§c⬤§7) （对敌人）\n§d⌛ §7持续时间: §f2秒",
+            "customName": "极寒冰蛇",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["9"]
+        },
+        "Gleam": {
+            "name": "§f§lGleam",
+            "description": "§7增加§n座天使§7的伤害。\n\n§c⚔ §7总伤害: §f+30% §8(基于你的DPS)\n   §8(§6✣ §8伤害: +20%)\n   §8(§b❉ §8水: +10%)",
+            "customName": "辉光",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["22"]
+        },
+        "Accelerated Strike": {
+            "name": "§h§lAccelerated Strike",
+            "description": "§7§n时空扩张§7会根据你从中获得的每 §f10%§7 移动速度，增加你的§n普通攻击§7伤害。\n\n用你的§n普通攻击§7命中敌人时，会使§n时空扩张§7停止衰减 §f2s§7。\n\n§c⚔ §7普通攻击伤害: §f+4% §8(每10%移动速度)",
+            "customName": "疾速打击",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["64"]
+        },
+        "Influx Shift": {
+            "name": "§f§lInflux Shift",
+            "description": "§7将§b空间扭曲 §#c267f7≈§7的生成量提升 §f+20%§7，并将从中获得的效果提升 §f+25%§7。",
+            "customName": "涌流激变",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 10,
+            "requires": ["16"]
+        },
+        "Devitalize": {
+            "name": "§i§lDevitalize",
+            "description": "§7§n治疗§7和§n奥术转换§7会削弱附近的敌人。\n\n每削弱一个敌人，你就获得 §f+5 §b空间扭曲 §#c267f7≈§7。(上限 +15)\n\n§e✧ §7效果: §f-15%§7 伤害加成 (§c⚔§7) （对敌人）\n§d⌛ §7持续时间: §f6秒\n§3⌚ §7冷却: §f6秒",
+            "customName": "凋亡",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 3,
+            "requires": ["16"]
+        },
+        "Mana Current": {
+            "name": "§h§lMana Current",
+            "description": "§7§n次元裂隙§7会在你处于其中时降低你法术的法力消耗。\n\n§b✺ §7法力消耗: §f-25%",
+            "customName": "法力涌流",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 7,
+            "requires": ["54"]
+        },
+        "Riftbound": {
+            "name": "§k§lRiftbound",
+            "description": "§7潜行时施放§n治疗§7会将你绑定至你的§n次元裂隙§7，使你进入§n裂隙束缚§7状态。\n\n处于§n裂隙束缚§7状态时，你的§n次元裂隙§7会跟随你、触及更远，且你的§b空间扭曲 §#c267f7≈§7停止衰减。\n\n§d⌛ §7持续时间: §f6秒\n§3⌚ §7冷却: §f20秒\n§3☀ §7范围: §f+50% 格 §7(圆形)",
+            "customName": "裂隙束缚",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 11,
+            "requires": ["54"]
+        },
+        "Judrajim": {
+            "name": "§k§lJudrajim",
+            "description": "§7当你的§b法力储备 §b✺§7 达到 §f140§7 时，潜行时施放§n奥术转换§7会召唤一颗球状闪电，对附近的敌人造成伤害，并每 §f0.25s§7 汲取 §f2§7 点法力，直到你的法力耗尽。\n\n每次造成伤害时，法力消耗和伤害都会增加 §f20%§7。\n\n§c⚔ §7总伤害: §f40% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 30%)\n   §8(§e✦ §8电:5%)\n   §8(§b❉ §8水: 5%)\n§2➼ §7范围: §f10 格\n§3⌚ §7冷却: §f6秒",
+            "customName": "尤德拉基姆",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": ["23"]
+        },
+        "Diffraction": {
+            "name": "§h§lDiffraction",
+            "description": "§7当一个敌人死亡时，剩余的§b冰晶 §j💎§7会转移给附近的其他敌人。\n\n§n座天使§7也会施加 §f+2 §b冰晶 §j💎§7。\n\n§2➼ §7范围: §f8 格",
+            "customName": "光之衍射",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["52"]
+        },
+        "Time Vortex": {
+            "name": "§j§lTime Vortex",
+            "description": "§7在你的§n次元裂隙§7内施放§n冰霜龙卷§7，会为其灌注异界能量，将其转化为§n时空涡流§7。\n\n§n时空涡流§7造成伤害的速度加快 §f25%§7，持续时间更长，且每次对敌人造成伤害时都会给予你 §f+1.5 §b空间扭曲 §#c267f7≈§7。\n\n§d⌛ §7持续时间: §f+3秒",
+            "customName": "时空涡流",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 12,
+            "requires": ["54"]
+        },
+        "Portal to the Beyond": {
+            "name": "§j§lPortal to the Beyond",
+            "description": "§7§n次元裂隙§7在激活期间，现在被一个§b裂隙生物§7所栖居。\n\n§b裂隙生物§7每 §f0.5s§7 向附近的敌人射出追踪式的扭曲冲击波，造成伤害并将你的§b空间扭曲 §#c267f7≈§7增加 §f+1§7。\n\n§c⚔ §7总伤害: §f180% §8(基于你的DPS)\n   §8(§6✣ §8伤害: 120%)\n   §8(§2✤ §8地: 30%)\n   §8(§f❋ §8气: 30%)\n§3☀ §7索敌范围: §f12 格 §7(圆形)",
+            "customName": "彼界之门",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["54"]
+        },
+        "Paradox": {
+            "name": "§j§lParadox",
+            "description": "§7你将受到伤害的 §f20%§7 送往未来，在 §f8s§7 内分摊承受，并从过去借取法力，在 §f10s§7 内返还你所消耗法力的 §f25%§7。\n\n每 §f+1 §b空间扭曲 §#c267f7≈§7，法力返还速度就加快 §f-0.02s§7。",
+            "customName": "时空悖论",
+            "note": "",
+            "unlockingWillBlock": ["23"],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["16"]
+        },
+        "Blitz": {
+            "name": "§f§lBlitz",
+            "description": "§7增加§n冰蛇§7的伤害，并使其速度§f翻倍§7。\n\n§n冰霜龙卷§7每次对敌人造成伤害时，其伤害都会额外增加 §f+3%§7。\n\n§c⚔ §7总伤害: §f+65% §8(基于你的DPS, 冰蛇)\n   §8(§6✣ §8伤害: +40%)\n   §8(§e✦ §8电: +25%)",
+            "customName": "迅袭",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 1,
+            "archetypePointsRequired": 0,
+            "requires": ["9"]
+        },
+        "Induced Instability": {
+            "name": "§j§lInduced Instability",
+            "description": "§7§n尤德拉基姆§7会对敌人施加§b失稳 §9⚡§7。\n\n§n陨石§7、§n驭火术§7和粉末主动会消耗§b失稳 §9⚡§7以造成 §f+100%§7 伤害。",
+            "customName": "诱导失稳",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 0,
+            "requires": ["80"]
+        },
+        "Dawn": {
+            "name": "§5§lDawn",
+            "description": "§6连招: §d§lF§7\n\n引导欧菲翁之力，在你头顶召唤太阳本身。\n\n太阳会召唤向外移动的太阳精灵，对路径上的所有敌人造成伤害，并治疗所有友军。\n\n§c⚔ §7总伤害: §f300% §8(基于你的DPS, 每个精灵)\n   §8(§6✣ §8伤害: 200%)\n   §8(§c✹ §8火: 100%)\n§c❤ §7总治疗量: §f10% §8(基于最大生命值)\n§3☀ §7作用范围: §f2.5 格 §7(圆形)\n§2➼ §7范围: §f24 格\n§d⌛ §7持续时间: §f10秒\n\n§7激活技能或进行治疗以将你的§b终极技能槽 ⚡§7充能至100%。",
+            "customName": "破晓",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 17,
+            "requires": []
+        },
+        "Gravitational Collapse": {
+            "name": "§5§lGravitational Collapse",
+            "description": "§6连招: §d§lF§7\n\n你的§n次元裂隙§7过载，体积与伤害不断增长，同时将所有敌人吸入其中。\n\n过载期间，它造成 §f+400%§7 的额外伤害，将你的§n传送§7变为一道快速连续射出 §f5§7 次的致命射线，提供飞行能力，并阻止法力流失。\n\n§n次元裂隙§7在到期时坍缩，对附近的敌人造成巨量伤害。\n\n§c⚔ §7总伤害: §f300% §8(基于你的DPS, 致命光束)\n   §8(§6✣ §8伤害: 240%)\n   §8(§f❋ §8气: 60%)\n§c⚔ §7总伤害: §f8000% §8(基于你的DPS, 坍缩)\n   §8(§6✣ §8伤害: 6000%)\n   §8(§2✤ §8地: 1000%)\n   §8(§f❋ §8气: 1000%)\n§3☀ §7作用范围: §f+100% 格 §7(圆形)\n§d⌛ §7持续时间: §f10秒\n\n§7激活技能以将你的§b终极技能槽 ⚡§7充能至100%。",
+            "customName": "引力坍缩",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 16,
+            "requires": []
+        },
+        "Tangled Origin": {
+            "name": "§5§lTangled Origin",
+            "description": "§6连招: §d§lF§7\n\n召唤一条§b雷霆之蛇§7和一条§b烈焰之蛇§7，它们会攻击附近的敌人。\n\n§b雷霆之蛇§7每 §f1s§7 用弧光闪电击中至多 §f4§7 个敌人，使其陷入§b失稳 §9⚡§7。\n\n§b烈焰之蛇§7每 §f3s§7 引爆§b失稳 §9⚡§7的目标，并消耗该效果。\n\n§2➼ §7索敌范围: §f15 格\n§d⌛ §7持续时间: §f30秒\n\n§c⚔ §7总伤害: §f900% §8(基于你的DPS, 电)\n   §8(§6✣ §8伤害: 600%)\n   §8(§e✦ §8电: 300%)\n\n§c⚔ §7总伤害: §f2000% §8(基于你的DPS, 火)\n   §8(§6✣ §8伤害: 1300%)\n   §8(§c✹ §8火: 700%)\n§3☀ §7作用范围: §f3 格 §7(圆形)\n\n§7激活技能以将你的§b终极技能槽 ⚡§7充能至100%。",
+            "customName": "纠缠本源",
+            "note": "",
+            "unlockingWillBlock": [],
+            "pointsRequired": 2,
+            "archetypePointsRequired": 18,
+            "requires": []
+        }
+    }
+}
+
