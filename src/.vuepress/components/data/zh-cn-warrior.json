@@ -725,7 +725,7 @@
         },
         "Discombobulate": {
             "name": "§i§lDiscombobulate",
-            "description": "§7对敌人造成伤害时施加§f+2 §b层瓦解 §e⚙§7（上限 150 层）。\n\n对敌人造成的伤害增加§f+3§7点，敌人每拥有§b一层瓦解 §e⚙§7便叠加一次；瓦解层数每秒按§f-4 §7层衰减。",
+            "description": "§7对敌人造成伤害时施加§f+2 §b层瓦解 §e⚙§7（上限 150 层）。\n\n§7敌人每拥有§b一层瓦解 §e⚙§7，对其造成的伤害增加§f+3§7点；瓦解层数每秒按§f-4 §7层衰减。",
             "customName": "瓦解",
             "note": "",
             "unlockingWillBlock": [],
