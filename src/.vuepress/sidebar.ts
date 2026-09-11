@@ -148,7 +148,7 @@ export default sidebar({
         prefix: "lootrun/",
         icon: "wheelchair-move",
         collapsible: true,
-        children: ["intro","guide","location"],
+        children: ["new_intro","guide","location"],
       }, "grindspot", "earnle", "vip", "festival", "mod", "slang", "community", "qa", "support","rules"],
     },
   ],
