@@ -21,16 +21,17 @@
         <div class="header-section">
             <div class="level-slider-container">
                 <div class="slider-track">
-                    <div class="segment white" style="width: 9.09%"></div>
-                    <div class="segment yellow" style="width: 18.18%"></div>
-                    <div class="segment pink" style="width: 18.18%"></div>
-                    <div class="segment blue" style="width: 18.18%"></div>
-                    <div class="segment light-red" style="width: 18.18%"></div>
-                    <div class="segment purple" style="width: 18.18%"></div>
+                    <div class="segment white" style="flex: 9"></div>
+                    <div class="segment yellow" style="flex: 20"></div>
+                    <div class="segment pink" style="flex: 20"></div>
+                    <div class="segment blue" style="flex: 20"></div>
+                    <div class="segment light-red" style="flex: 20"></div>
+                    <div class="segment purple" style="flex: 20"></div>
+                    <div class="segment green" style="flex: 10"></div>
                 </div>
 
-                <input type="range" v-model.number="currentLevel" min="1" max="110" class="slider-input"
-                    :style="{ backgroundSize: ((currentLevel - 1) * 100 / 109) + '% 100%' }" />
+                <input type="range" v-model.number="currentLevel" min="1" max="120" class="slider-input"
+                    :style="{ backgroundSize: ((currentLevel - 1) * 100 / 119) + '% 100%' }" />
 
                 <div class="level-display">
                     <span>Current Level: <b>{{ currentLevel }}</b></span>
@@ -91,18 +92,20 @@ const SHEET_INFO = {
 // ================= 原料名称字典 =================
 // 经过工程化重构，这里仅保留纯粹的字符串用于复制和显示
 const MATERIAL_NAMES = {
-    1: { wood: 'Oak Wood', paper: 'Oak Paper', ingot: 'Copper Ingot', gem: 'Copper Gem', string: 'Wheat String', grain: 'Wheat Grain', meat: 'Gudgeon Meat', oil: 'Gudgeon Oil' },
-    10: { wood: 'Birch Wood', paper: 'Birch Paper', ingot: 'Granite Ingot', gem: 'Granite Gem', string: 'Barley String', grain: 'Barley Grain', meat: 'Trout Meat', oil: 'Trout Oil' },
-    20: { wood: 'Willow Wood', paper: 'Willow Paper', ingot: 'Gold Ingot', gem: 'Gold Gem', string: 'Oat String', grain: 'Oat Grain', meat: 'Salmon Meat', oil: 'Salmon Oil' },
-    30: { wood: 'Acacia Wood', paper: 'Acacia Paper', ingot: 'Sandstone Ingot', gem: 'Sandstone Gem', string: 'Malt String', grain: 'Malt Grain', meat: 'Carp Meat', oil: 'Carp Oil' },
-    40: { wood: 'Spruce Wood', paper: 'Spruce Paper', ingot: 'Iron Ingot', gem: 'Iron Gem', string: 'Hops String', grain: 'Hops Grain', meat: 'Icefish Meat', oil: 'Icefish Oil' },
-    50: { wood: 'Jungle Wood', paper: 'Jungle Paper', ingot: 'Silver Ingot', gem: 'Silver Gem', string: 'Rye String', grain: 'Rye Grain', meat: 'Piranha Meat', oil: 'Piranha Oil' },
-    60: { wood: 'Dark Wood', paper: 'Dark Paper', ingot: 'Cobalt Ingot', gem: 'Cobalt Gem', string: 'Millet String', grain: 'Millet Grain', meat: 'Koi Meat', oil: 'Koi Oil' },
-    70: { wood: 'Light Wood', paper: 'Light Paper', ingot: 'Kanderstone Ingot', gem: 'Kanderstone Gem', string: 'Decay String', grain: 'Decay Grain', meat: 'Gylia Meat', oil: 'Gylia Oil' },
-    80: { wood: 'Pine Wood', paper: 'Pine Paper', ingot: 'Diamond Ingot', gem: 'Diamond Gem', string: 'Rice String', grain: 'Rice Grain', meat: 'Bass Meat', oil: 'Bass Oil' },
-    90: { wood: 'Avo Wood', paper: 'Avo Paper', ingot: 'Molten Ingot', gem: 'Molten Gem', string: 'Sorghum String', grain: 'Sorghum Grain', meat: 'Molten Meat', oil: 'Molten Oil' },
-    100: { wood: 'Sky Wood', paper: 'Sky Paper', ingot: 'Voidstone Ingot', gem: 'Voidstone Gem', string: 'Hemp String', grain: 'Hemp Grain', meat: 'Starfish Meat', oil: 'Starfish Oil' },
-    110: { wood: 'Dernic Wood', paper: 'Dernic Paper', ingot: 'Dernic Ingot', gem: 'Dernic Gem', string: 'Dernic String', grain: 'Dernic Grain', meat: 'Dernic Meat', oil: 'Dernic Oil' }
+    1: { wood: 'Oak Plank', paper: 'Oak Paper', ingot: 'Copper Ingot', gem: 'Copper Gem', string: 'Wheat String', grain: 'Wheat Grain', meat: 'Gudgeon Meat', oil: 'Gudgeon Oil' },
+    10: { wood: 'Birch Plank', paper: 'Birch Paper', ingot: 'Granite Ingot', gem: 'Granite Gem', string: 'Barley String', grain: 'Barley Grain', meat: 'Trout Meat', oil: 'Trout Oil' },
+    20: { wood: 'Willow Plank', paper: 'Willow Paper', ingot: 'Gold Ingot', gem: 'Gold Gem', string: 'Oat String', grain: 'Oat Grain', meat: 'Salmon Meat', oil: 'Salmon Oil' },
+    30: { wood: 'Acacia Plank', paper: 'Acacia Paper', ingot: 'Sandstone Ingot', gem: 'Sandstone Gem', string: 'Malt String', grain: 'Malt Grain', meat: 'Carp Meat', oil: 'Carp Oil' },
+    40: { wood: 'Spruce Plank', paper: 'Spruce Paper', ingot: 'Iron Ingot', gem: 'Iron Gem', string: 'Hops String', grain: 'Hops Grain', meat: 'Icefish Meat', oil: 'Icefish Oil' },
+    50: { wood: 'Jungle Plank', paper: 'Jungle Paper', ingot: 'Silver Ingot', gem: 'Silver Gem', string: 'Rye String', grain: 'Rye Grain', meat: 'Piranha Meat', oil: 'Piranha Oil' },
+    60: { wood: 'Dark Plank', paper: 'Dark Paper', ingot: 'Cobalt Ingot', gem: 'Cobalt Gem', string: 'Millet String', grain: 'Millet Grain', meat: 'Koi Meat', oil: 'Koi Oil' },
+    70: { wood: 'Light Plank', paper: 'Light Paper', ingot: 'Kanderstone Ingot', gem: 'Kanderstone Gem', string: 'Decay String', grain: 'Decay Grain', meat: 'Gylia Meat', oil: 'Gylia Oil' },
+    80: { wood: 'Pine Plank', paper: 'Pine Paper', ingot: 'Diamond Ingot', gem: 'Diamond Gem', string: 'Rice String', grain: 'Rice Grain', meat: 'Bass Meat', oil: 'Bass Oil' },
+    90: { wood: 'Avo Plank', paper: 'Avo Paper', ingot: 'Molten Ingot', gem: 'Molten Gem', string: 'Sorghum String', grain: 'Sorghum Grain', meat: 'Molten Meat', oil: 'Molten Oil' },
+    100: { wood: 'Sky Plank', paper: 'Sky Paper', ingot: 'Voidstone Ingot', gem: 'Voidstone Gem', string: 'Hemp String', grain: 'Hemp Grain', meat: 'Starfish Meat', oil: 'Starfish Oil' },
+    105: { wood: 'Dernic Plank', paper: 'Dernic Paper', ingot: 'Dernic Ingot', gem: 'Dernic Gem', string: 'Dernic String', grain: 'Dernic Grains', meat: 'Dernic Meat', oil: 'Dernic Oil' },
+    110: { wood: 'Maple Plank', paper: 'Maple Paper', ingot: 'Titanium Ingot', gem: 'Titanium Gem', string: 'Jute String', grain: 'Jute Grains', meat: 'Sturgeon Meat', oil: 'Sturgeon Oil' },
+    115: { wood: 'Redwood Plank', paper: 'Redwood Paper', ingot: 'Cinnabar Ingot', gem: 'Cinnabar Gem', string: 'Heather String', grain: 'Heather Grains', meat: 'Mahseer Meat', oil: 'Mahseer Oil' }
 };
 
 // 职业配方数据 (保持不变)
@@ -181,10 +184,14 @@ export default {
         currentProfData() { return this.professions[this.currentProfIndex]; },
         currentTierKey() {
             if (this.currentLevel < 10) return 1;
+            if (this.currentLevel >= 115) return 115;
+            if (this.currentLevel >= 110) return 110;
+            if (this.currentLevel >= 105) return 105;
             return Math.floor(this.currentLevel / 10) * 10;
         },
         currentMultiplier() {
             const lv = this.currentLevel;
+            if (lv >= 110) return 7;
             if (lv >= 90) return 6;
             if (lv >= 70) return 5;
             if (lv >= 50) return 4;
@@ -372,7 +379,6 @@ export default {
 
 .level-slider-container {
     width: 100%;
-    max-width: 500px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -397,6 +403,7 @@ export default {
 .segment.blue { background-color: #e0ffff; }
 .segment.light-red { background-color: #ffcccb; }
 .segment.purple { background-color: #e6e6fa; }
+.segment.green { background-color: #d9f2dc; }
 
 .slider-input {
     -webkit-appearance: none;
