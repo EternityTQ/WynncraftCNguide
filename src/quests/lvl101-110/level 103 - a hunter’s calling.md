@@ -69,6 +69,9 @@ icon: star
 
 ### Step 4 Nesaak 幻境
 ---
+
+![](/assets/img/level%20103%20-%20a%20hunter’s%20calling.md-09-17-02-28-10.png)
+
 前往 **Nesaak** 的 Ice Barrow 门口触发剧情，随后和 <NPC>Bak'al</NPC> 对话。
 
 沿着路进入过去的 Nesaak，听完市长 <NPC>Kotham</NPC> 和 <NPC>Theorick</NPC> 的对话后，击杀 <mob>Theorick</mob>。
