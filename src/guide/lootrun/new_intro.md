@@ -461,37 +461,54 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='FFCC00'> **Hoarder** </font>         | 每当你开启8个飞箱后，在下轮结束时，从2个300%效能的祝福中选择一个并获取。  |
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的的最终效果，但不计入potency。|
-| <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标永远被遮蔽，但是它们永远被大幅增强(+2级效果)|
-| <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull (该祝福每有额外50%效能，则多+2 pull)|
+| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的最终效果^1^|
+| <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标被遮蔽，但是它们将被大幅增强(+2级效果)^2^|
+| <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull；该祝福每有额外50%效能，则额外+2 pull。|
 | <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+1 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
-| <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍|
-| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得15 Pulls，就清除一个辉光概率的诅咒。  |
+| <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍^3^|
+| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得15 Pulls，就清除一个辉光概率的诅咒。^4^  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
-| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
-| <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒|
+| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半^10^|
+| <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒^5^|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
-| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
-| <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你的信标池没有信标可以出现了，否则被刷新的信标将不再出现|
+| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个野外宝箱后，在下轮完成时获得1 Pull，且扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
+| <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你的信标池没有信标可以出现了，否则被刷新的信标将不再出现^6^|
 | <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到普通青色信标的效果(一级增幅)|
-| <font color='FFAA00'> **High Spirits** </font>         | 基础Vibrant信标转换概率 +50% |
-| <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
+| <font color='FFAA00'> **High Spirits** </font>         | 基础Vibrant信标转换概率 +50%^7^ |
+| <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会^8^|
 | <font color='FFAA00'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (总信标选数上限为6)；开始任意挑战后重置该效果|
-| <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
-| <font color='FF5555'> **Knife Edge** </font>         | 完成挑战给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
+| <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限为+3),拾取绿信标后重置该叠层|
+| <font color='FF5555'> **Knife Edge** </font>         | 在每轮开始时^9^给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
 | <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
-| <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，从下一轮的信标池中随机选择一个信标，提前获得其效果(无法选择灰、绯红信标)；该效果视作已获取该信标，但不计入已获取数量。|
-| <font color='DDDDDD'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数(挑战轮数达到上限后不再扣除pull)  |
+| <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，随机获得一个信标效果^11^|
+| <font color='DDDDDD'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数^12^  |
 
-:::tip
-在完成`获得时间`的条件时，若此时计时器还未到15分钟，则部分溢出15分钟的时间仍然作数；但如果通过绿信标获得了超过15分钟的时间，则之后完全溢出的时间不作数。
+^1^不计入最终Potency，相当于最终乘算+50%
+^2^加强效果仅对主动选择的信标生效，例如由<font color='DDDDDD'> **Complete Chaos** </font>给予的信标将不适用加强效果。
+^3^<font color='DDDDDD'> **Complete Chaos** </font>提供的紫色信标也会触发给予额外诅咒的效果。
+^4^当前该任务显示存在BUG，每轮完成后会显示所有扣除过的概率诅咒，但实际效果符合原文。
+^5^也包括特殊途径获得的诅咒，例如Lights out给予的概率诅咒。
+^6^当信标池中的剩余信标小于信标选数时，此时只会显示信标池中剩余的信标。
+^7^即，实际Vibrant转换概率变为65%
+^8^规则与下文"关于获得时间的任务条件"一致。
+^9^原文为"在挑战完成后(	After completing a challenge)"，但实际生效节点位于选择信标阶段前，即最后一轮无法生效，以及拾取红/白信标会先结算信标，再结算任务。
+^10^与All in共同生效时，为加算关系，即最终效果为诅咒效果+50%
+^11^该任务的实质是从下一轮的信标池中随机选择一个信标，提前获得其效果；该效果视作已获取该信标，但不计入已获取数量，例如获取了绿信标会导致下一轮不会再刷新绿信标；能获取的信标效果不包含灰色信标和绯红信标。
+^12^挑战轮数达到上限后不再扣除pull
+
+
+:::tip 关于获得时间的任务条件
+在完成`获得时间`的条件时，若此时计时器还未到15分钟，则溢出15分钟的部分时间仍然作数；但如果已经通过绿信标获得了超过15分钟的时间，那么之后完全溢出的时间不作数。
 :::
 
 :::danger
 请绝对不要尝试在最后一轮完成时同时把任务条件完成，轮次结算在任务条件结算前，这会导致你的任务无法正常结算！
 :::
+
+
+
 
 ### 试炼 / Trials
 

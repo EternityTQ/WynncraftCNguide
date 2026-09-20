@@ -470,7 +470,7 @@ radiant power高了之后，radiant怪经常出现秒人攻击。
 | <font color='FFCC00'> **Hoarder** </font>         | 每当你开启8个飞箱后，在下轮结束时，从2个300%效能的祝福中选择一个并获取。  |
 | <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
 | <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的的最终效果，但不计入potency。|
+| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的的最终效果|
 | <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标永远被遮蔽，但是它们永远被大幅增强(+2级效果)|
 | <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull (该祝福每有额外50%效能，则多+2 pull)|
 | <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+1 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
@@ -480,14 +480,14 @@ radiant power高了之后，radiant怪经常出现秒人攻击。
 | <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半|
 | <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
-| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个非飞箱的宝箱会获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
+| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个野外宝箱后，在下一轮完成时获得1 Pull，但会扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
 | <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你的信标池没有信标可以出现了，否则被刷新的信标将不再出现|
 | <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到普通青色信标的效果(一级增幅)|
 | <font color='FFAA00'> **High Spirits** </font>         | 基础Vibrant信标转换概率 +50% |
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会|
 | <font color='FFAA00'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (总信标选数上限为6)；开始任意挑战后重置该效果|
 | <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限额外+3),拾取绿信标后重置该奖励|
-| <font color='FF5555'> **Knife Edge** </font>         | 完成挑战给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
+| <font color='FF5555'> **Knife Edge** </font>         | 在下一轮开始时，获得7pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
 | <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
 | <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
