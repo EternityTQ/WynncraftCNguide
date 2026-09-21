@@ -19,6 +19,8 @@ Aspects可以直接加强技能树中指定的技能点，包括但不限于：�
 
 下方为你的Aspects库，该仓库为全账号共享，不必担心。
 
+Aspect 不会作为实体物品进入背包或银行，获得后会直接记录在账号的 Aspect 库中，并在所有角色之间共享。
+
 (下文中，Aspects会简称为asp)
 
 ## Asp品质
@@ -35,7 +37,7 @@ Asp分为三个等级：<font color=aqua>Legendary</font>、<font color=FF5555>F
 
 Asp仅在Raid中产出。
 
-每周五凌晨，所有Raid将会刷新奖励池，每次将会刷新3个<font color=purple>Mythic</font>，6个<font color=FF5555>Fabled</font>和9个<font color=aqua>Legendary</font>。
+每周六凌晨，所有Raid将会刷新奖励池，每次将会刷新3个<font color=purple>Mythic</font>，5-6个<font color=FF5555>Fabled</font>和9个<font color=aqua>Legendary</font>。
 
 不同Raid的奖池可重复
 
