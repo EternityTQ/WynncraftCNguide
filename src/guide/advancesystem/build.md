@@ -386,7 +386,7 @@ Requirement 告诉你的主要是：
 
 为什么？
 
-首先，它能够提供额外的 Dexterity 和 Agility，缓解当前非常紧张的技能点需求。
+首先，它能够提供额外的 Dexterity 和 Agility，虽然不一定能缓解技能点需求，但也能提供可观的技能点数量。
 
 其次，它拥有较高的 Spell Damage，并提供 Raw Thunder Damage。
 
