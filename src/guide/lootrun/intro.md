@@ -439,8 +439,8 @@ radiant power高了之后，radiant怪经常出现秒人攻击。
 其中，部分祝福种类有一些需要注意的特性：
 | 名称 | 特性 |
 | --- | --- |
-| <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小，且没有下限，低于0层时不生效 |
-| <font color = 5555FF>**Midas Touch**</font> | 消除祝福同样会导致叠加层数减小，且没有下限，低于0层时不生效 |
+| <font color = FF55FF>**Bad Omen**</font> | 消除诅咒同样会导致叠加层数减小，且没有下限 |
+| <font color = 5555FF>**Midas Touch**</font> | 消除祝福同样会导致叠加层数减小，且没有下限 |
 
 :::tip 关于虚弱效果
 
