@@ -2805,11 +2805,17 @@ https://wynnbuilder.github.io/builder/#CW013HyGiK4U-WfJITI15mln8qRghRcOWFtU-ifwT
 
 而缺点却只有小许的负移速
 
-是目前最为昂贵的神话鞋子~~之一~~
-
 如果你不知道如何提高你build的ehp，往里塞一件十字军，一切都会好起来的.jpg
 
+但目前被版本爆了。
 
+Fruma版本有一堆比十字军更值得塞的大肉鞋子，而且它们还有伤害。
+
+反观你十字军，一点伤害都不加，只有20str，有点整蛊...
+
+可惜装备很可能不会有ascend
+
+目前已光荣加入臭鞋帮。
 
 :::details 评论区
 + 安全感
