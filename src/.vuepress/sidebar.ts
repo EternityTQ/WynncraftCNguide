@@ -144,6 +144,12 @@ export default sidebar({
         collapsible: true,
         children: ["intro","newbie", "notg", "nol", "tcc", "tna","twp"],
       },{
+        text: "世界BOSS",
+        prefix: "worldboss/",
+        icon: "skull",
+        collapsible: true,
+        children: "structure",
+      },{
         text: "Lootrun",
         prefix: "lootrun/",
         icon: "wheelchair-move",
