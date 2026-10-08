@@ -97,7 +97,7 @@ anni作为游戏最终局的战斗，对队伍配置有着相当高的要求。
 
 [卷轴——Raw Spell Damage](https://wynnbuilder.github.io//crafter/#4iPCqCqiPiPiPKg00)
 
-[卷轴——Mana Regen](https://wynnbuilder.github.io//crafter/#4mRmRmRmRmRmRKg00)
+[卷轴——Mana Regen](https://wynnbuilder.github.io//crafter/#44uCqCq4u4uCqKg00)
 
 [卷轴——Rainbow Damage(二星原料注意)](https://wynnbuilder.github.io//crafter/#4KdCqCqKdKdCqKgW0)
 
@@ -105,9 +105,9 @@ anni作为游戏最终局的战斗，对队伍配置有着相当高的要求。
 
 [卷轴——Elemental Defense](https://wynnbuilder.github.io//crafter/#40uCqCq0u0u0uKg00)
 
-[药水——Spell Damage](https://wynnbuilder.github.io/crafter/#4mWCqCqmWmWmWqc00)
+[药水——Spell Damage](https://wynnbuilder.github.io/crafter/#4mWCqCqmWmWmWig00)
 
-[药水——Rainbow Damage](https://wynnbuilder.github.io/crafter/#44eCqCq4e4eCqqc00)
+[药水——Rainbow Damage](https://wynnbuilder.github.io/crafter/#44eCqCq4e4eCqig00)
 
 [药水——HP Bonus](https://wynnbuilder.github.io//crafter/#4aoCqCqaoaoaoig00)
 
