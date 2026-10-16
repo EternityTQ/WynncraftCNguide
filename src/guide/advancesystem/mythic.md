@@ -84,19 +84,11 @@ Shiny Mythic是比普通神话物品还要高级的神话。
 
 七种不同颜色的Ward，它们分别来自：
 
-绿Ward:LR限定Ward
+绿橙粉为LR限定Ward
 
-橙Ward:LR限定Ward
+红蓝黄紫为Raid限定Ward
 
-粉Ward:LR限定Ward，在Fruma东部池子必刷
-
-红Ward:Raid限定Ward
-
-蓝Ward:Raid限定Ward
-
-黄Ward:Raid限定Ward
-
-紫Ward:Raid限定Ward
+他们都会在各个池子中随机刷新。
 
 同时，你还需要一把对应神话作为燃料来确保你的晋升概率为100%，如果不添加燃料则晋升概率只有30%，非常扯淡。
 
