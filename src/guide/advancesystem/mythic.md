@@ -2291,7 +2291,7 @@ Olympic也可以玩Summoner，build、技能树和技能循环可参考下文Tra
 <MythicItem name="Hadal" />
 
 
-别名：哈达尔
+别名：深渊，~~渊深~~
 
 幽默req，曾经有高达150的int需求
 
