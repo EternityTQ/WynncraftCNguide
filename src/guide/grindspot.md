@@ -259,7 +259,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 当然，低等级其实也不一定要用消耗品，可以考虑只做药水，到50+之后就可以开始猛灌药了。
 
-另外，善用https://wynnbuilder.github.io//crafter/，能直接看你做出来了什么东西。
+另外，善用[Wynnbuilder的自制页面](https://wynnbuilder.github.io//crafter/)，能直接看你做出来了什么东西。
 
 药水：
 
