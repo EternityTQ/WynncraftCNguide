@@ -1304,6 +1304,11 @@ ascend了之后还是挺垃圾的...没人用。
 
 :::details 构筑介绍
 
+奶奶一般是只玩sharpshooter的。
+
+配装链接(彩虹)：https://wynnbuilder.github.io//builder/#CZ0MX0wGiK4dQm28M0H15aG2Kr6SDq3lkx1VV6VMsLUxK0
+
+手法：箭雨滋到满focus后起飞即可，起飞前补炸弹减抗性，记得射准了。
 
 :::
 
