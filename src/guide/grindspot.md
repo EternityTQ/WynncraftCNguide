@@ -404,6 +404,8 @@ Seven-League Boots靴子非常可以，但是点数需求非常高，容易因�
 
 注意**头盔非常贵**，可以使用下位替代<font color=EC4791>**Speaker**</font>，这个很便宜
 
+胸甲可以在市场买到
+
 裤子来源是[The Qira Hive (level 80 - 100)](/quests/lvl71-80/level%2080%20-%20the%20qira%20hive.html)，打完水层就可以下去换了，非常快，其余均可以在市场购买到
 
 
@@ -424,7 +426,7 @@ Seven-League Boots靴子非常可以，但是点数需求非常高，容易因�
 
 头盔可以在市场买，胸甲是在Fort Torann的盔甲商店买的
 
-`Diaspora`的点数需求极高，如果武器无法使用的话，可以考虑换成自制，配方为6个`Lucky Rabbit's Foot`，roll到40xp以上就可以了，非常便宜。
+`Diaspora`的点数需求极高，如果武器无法使用的话，可以考虑将鞋子换成自制，配方为6个`Lucky Rabbit's Foot`，roll到40xp以上就可以了，非常便宜。
 
 手镯看情况换，戒指其实也可以不用换，只要你够懒。
 
