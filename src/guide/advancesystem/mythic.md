@@ -3292,7 +3292,6 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Resitution
 + Pure
 + Lament
-+ Trance
 + Freedom
 + Nullification
 + Grimtrap
