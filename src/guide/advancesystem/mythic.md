@@ -588,7 +588,7 @@ bmonk被削之前还行，现在就是查无此人。
 
 :::
 
-### Resitution
+### Restitution
 
 <MythicItem name="Restitution" />
 
@@ -3239,19 +3239,31 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Singularity
 + Warp
 
+为什么T0全是你们法师武器卧槽？
+
+但很遗憾，这一档符合能打能抗能摇轮椅的真的就是这仨位了...至于warp，raid的表现其实不是很好，但奈何是最优秀的LR农具，只能说这个位置是为它设计的。
+
 ### T0.5 - 轮椅，但没这么轮椅
 
-+ Apocalypse
+
 + Guardian
 + Idol
 + Grandmother
 + Divzer
-+ Architect
-  
+
+各有千秋，非常强力，但比起T0那仨位还是稍显火候。
+
+噶点主要还是辅助，混子里面能混的最舒服的轮椅
+
+Idol其实也算不错，奈何操作量实在是有点高
+
+奶奶我其实觉得值得一个T0.5，输出非常亮眼的同时QOL也算不错，彩虹肉的一批
+
+至于Dz...原本其实是想挪到T1的，但毕竟人家是archer dps #1，还是尊重一下吧！
 
 ### T1 - 能见到很多出场机会
 
-+ Alkatraz
+
 + Thrundacrack
 + Ascendancy
 + Monster
@@ -3268,14 +3280,24 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Hadal
 + Immolation
 + Resonance
++ Architect
++ Apocalypse
+
+这一栏就没什么好说的了，跟标题一样，你能在raid里见到很多这些武器的身影。
+
+属于使用率偏高，本身也好用的类型。
+
+ascendancy本来还是T0的，唉。
+
+
 
 ### T2 - 有出场空间，但不多
 
++ Alkatraz
 + Bloodbath
 + Gaia
 + Quetzalcoatl
 + Trance
-+ Az
 + Spring
 + Labyrinth
 + Eschaton
@@ -3285,11 +3307,15 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Transfiguration
 + Fate
 
+其实这一档就已经算是偏小众变态的了，raid打好几把才会遇上一次，而且遇上了直接就截图丢群里属于是。
+
+可惜了trance。
+
 
 ### T3 - 小众变态武器
 
 + Hero
-+ Resitution
++ Restitution
 + Pure
 + Lament
 + Freedom
@@ -3299,6 +3325,9 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Inferno
 + Toxoplasmosis
 + Absolution
++ Az
+
+这一档属于是在raid里八竿子见不着一次的，真正的小众变态，不知道什么人会玩。
 
 
 
@@ -3309,4 +3338,4 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Archangel
 + Aftershock
 
-
+难绷。
