@@ -3225,3 +3225,89 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 :::
 
 
+## 排行榜
+
+:::danger 野榜警告
+这个部分是出于编者自己强烈的主观理解为了找乐子写出来的野榜，切勿当真
+
+该野榜为综合考虑环境，结合使用率、强度、价格等因素~~但归根到底还是瞎几把写的~~
+:::
+
+### T0 - 版本轮椅
+
++ Halcyon
++ Singularity
++ Warp
+
+### T0.5 - 轮椅，但没这么轮椅
+
++ Apocalypse
++ Guardian
++ Idol
++ Grandmother
++ Divzer
++ Architect
+  
+
+### T1 - 能见到很多出场机会
+
++ Alkatraz
++ Thrundacrack
++ Ascendancy
++ Monster
++ Fatal
++ Riptide
++ Stratiformis
++ Epoch
++ Revolution
++ Cataclysm
++ Nirvana
++ Vengeance
++ Hanafubuki
++ Olympic
++ Hadal
++ Immolation
++ Resonance
+
+### T2 - 有出场空间，但不多
+
++ Bloodbath
++ Gaia
++ Quetzalcoatl
++ Trance
++ Az
++ Spring
++ Labyrinth
++ Eschaton
++ Weathered
++ Oblivion
++ Sunstar
++ Transfiguration
++ Fate
+
+
+### T3 - 小众变态武器
+
++ Hero
++ Resitution
++ Pure
++ Lament
++ Trance
++ Freedom
++ Nullification
++ Grimtrap
++ Fantasia
++ Inferno
++ Toxoplasmosis
++ Absolution
+
+
+
+### T4 - 你谁？
+
++ Collapse
++ Convergence
++ Archangel
++ Aftershock
+
+
