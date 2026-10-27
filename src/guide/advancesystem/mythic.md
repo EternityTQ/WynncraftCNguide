@@ -3266,6 +3266,7 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Divzer ::skull::
 + Architect ::skull:: ::earth-americas:: ::sun::
 + Hanafubuki ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Stratiformis ::skull:: ::wheelchair-move:: ::sun::
 
 各有千秋，非常强力，但比起T0那仨位还是稍显火候。
 
@@ -3279,6 +3280,8 @@ Idol其实也算不错，奈何操作量实在是有点高
 
 至于建筑师和操钱刀...刺客里面唯二qol比较好的，那也尊重一下吧！
 
+对strati...我承认是内部爱了，但人家确实是archer里面QOL最好的一位，机动性和EHP几乎暴杀完了，个人认为也值得一个T0.5
+
 ### T1 - 能见到很多出场机会
 
 
@@ -3287,7 +3290,6 @@ Idol其实也算不错，奈何操作量实在是有点高
 + Monster ::skull:: ::earth-americas:: ::sun::
 + Fatal ::skull::
 + Riptide ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
-+ Stratiformis ::skull:: ::wheelchair-move:: ::sun::
 + Epoch ::skull:: 
 + Revolution ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
 + Cataclysm ::skull::
