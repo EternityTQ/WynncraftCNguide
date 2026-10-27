@@ -3262,6 +3262,8 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 + Idol ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
 + Grandmother ::skull:: ::sun::
 + Divzer ::skull::
++ Architect ::skull:: ::earth-americas:: ::sun::
++ Hanafubuki ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
 
 各有千秋，非常强力，但比起T0那仨位还是稍显火候。
 
@@ -3272,6 +3274,8 @@ Idol其实也算不错，奈何操作量实在是有点高
 奶奶我其实觉得值得一个T0.5，输出非常亮眼的同时QOL也算不错，彩虹肉的一批
 
 至于Dz...原本其实是想挪到T1的，因为太脆了不是很轮椅，但毕竟人家是archer dps #1，还是尊重一下吧！
+
+至于建筑师和操钱刀...刺客里面唯二qol比较好的，那也尊重一下吧！
 
 ### T1 - 能见到很多出场机会
 
@@ -3285,14 +3289,11 @@ Idol其实也算不错，奈何操作量实在是有点高
 + Epoch ::skull:: 
 + Revolution ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
 + Cataclysm ::skull::
-+ Nirvana ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
 + Vengeance ::skull::
-+ Hanafubuki ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
 + Olympic ::skull:: ::earth-americas::
 + Hadal ::skull:: ::earth-americas::
 + Immolation ::skull::
 + Resonance ::skull::
-+ Architect ::skull:: ::earth-americas:: ::sun::
 + Apocalypse ::skull:: ::wheelchair-move::
 
 这一栏就没什么好说的了，跟标题一样，你能在raid里见到很多这些武器的身影。
@@ -3306,6 +3307,7 @@ ascendancy本来还是T0的，唉。
 ### T2 - 有出场空间，但不多
 
 + Alkatraz ::skull::
++ Nirvana ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
 + Bloodbath ::skull::
 + Gaia ::skull::
 + Quetzalcoatl ::sun::
