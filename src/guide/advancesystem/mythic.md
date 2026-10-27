@@ -3233,11 +3233,21 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 该野榜为综合考虑环境，结合使用率、强度、价格等因素~~但归根到底还是瞎几把写的~~
 :::
 
+:::tip 标签分类
+
+::skull:: 表明该武器在raid中有上场空间
+::wheelchair-move:: 表明该武器在lr有上场空间
+::earth-americas:: 表明该武器在we中有上场空间
+::sun:: 表明该武器适合其他日常内容
+
+
+:::
+
 ### T0 - 版本轮椅
 
-+ Halcyon
-+ Singularity
-+ Warp
++ Halcyon ::skull:: ::earth-americas:: ::sun::
++ Singularity ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Warp ::wheelchair-move:: ::earth-americas:: ::sun::
 
 为什么T0全是你们法师武器卧槽？
 
@@ -3246,10 +3256,10 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 ### T0.5 - 轮椅，但没这么轮椅
 
 
-+ Guardian
-+ Idol
-+ Grandmother
-+ Divzer
++ Guardian ::skull:: 
++ Idol ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Grandmother ::skull:: ::sun::
++ Divzer ::skull::
 
 各有千秋，非常强力，但比起T0那仨位还是稍显火候。
 
@@ -3264,24 +3274,24 @@ Idol其实也算不错，奈何操作量实在是有点高
 ### T1 - 能见到很多出场机会
 
 
-+ Thrundacrack
-+ Ascendancy
-+ Monster
-+ Fatal
-+ Riptide
-+ Stratiformis
-+ Epoch
-+ Revolution
-+ Cataclysm
-+ Nirvana
-+ Vengeance
-+ Hanafubuki
-+ Olympic
-+ Hadal
-+ Immolation
-+ Resonance
-+ Architect
-+ Apocalypse
++ Thrundacrack ::skull:: ::earth-americas::
++ Ascendancy ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Monster ::skull:: ::earth-americas:: ::sun::
++ Fatal ::skull::
++ Riptide ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Stratiformis ::skull:: ::wheelchair-move:: ::sun::
++ Epoch ::skull:: 
++ Revolution ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Cataclysm ::skull::
++ Nirvana ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Vengeance ::skull::
++ Hanafubuki ::skull:: ::wheelchair-move:: ::earth-americas:: ::sun::
++ Olympic ::skull:: ::earth-americas::
++ Hadal ::skull:: ::earth-americas::
++ Immolation ::skull::
++ Resonance ::skull::
++ Architect ::skull:: ::earth-americas:: ::sun::
++ Apocalypse ::skull:: ::wheelchair-move::
 
 这一栏就没什么好说的了，跟标题一样，你能在raid里见到很多这些武器的身影。
 
@@ -3293,19 +3303,19 @@ ascendancy本来还是T0的，唉。
 
 ### T2 - 有出场空间，但不多
 
-+ Alkatraz
-+ Bloodbath
-+ Gaia
-+ Quetzalcoatl
-+ Trance
-+ Spring
-+ Labyrinth
-+ Eschaton
-+ Weathered
-+ Oblivion
-+ Sunstar
-+ Transfiguration
-+ Fate
++ Alkatraz ::skull::
++ Bloodbath ::skull::
++ Gaia ::skull::
++ Quetzalcoatl ::sun::
++ Trance ::skull::
++ Spring ::sun::
++ Labyrinth ::skull:: ::earth-americas:: ::sun::
++ Eschaton ::skull::
++ Weathered ::skull::
++ Oblivion ::earth-americas::
++ Sunstar ::skull::
++ Transfiguration ::skull::
++ Fate ::earth-americas::
 
 其实这一档就已经算是偏小众变态的了，raid打好几把才会遇上一次，而且遇上了直接就截图丢群里属于是。
 
@@ -3314,17 +3324,17 @@ ascendancy本来还是T0的，唉。
 
 ### T3 - 小众变态武器
 
-+ Hero
-+ Restitution
-+ Pure
-+ Lament
-+ Freedom
++ Hero ::skull::
++ Restitution ::skull::
++ Pure ::earth-americas::
++ Lament ::sun::
++ Freedom ::sun::
 + Nullification
 + Grimtrap
-+ Fantasia
++ Fantasia ::sun::
 + Inferno
-+ Toxoplasmosis
-+ Absolution
++ Toxoplasmosis ::sun::
++ Absolution ::sun::
 + Az
 
 这一档属于是在raid里八竿子见不着一次的，真正的小众变态，不知道什么人会玩。
@@ -3336,6 +3346,7 @@ ascendancy本来还是T0的，唉。
 + Collapse
 + Convergence
 + Archangel
++ Ignis
 + Aftershock
 
 难绷。
