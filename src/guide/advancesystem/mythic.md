@@ -3255,6 +3255,8 @@ revenant的属性也不错，有移速有减cost伤害也客观，qol不错
 
 但很遗憾，这一档符合能打能抗能摇轮椅的真的就是这仨位了...至于warp，raid的表现其实不是很好，但奈何是最优秀的LR农具，只能说这个位置是为它设计的。
 
+~~致敬没落轮椅ascendancy~~
+
 ### T0.5 - 轮椅，但没这么轮椅
 
 
@@ -3319,7 +3321,6 @@ ascendancy本来还是T0的，唉。
 + Oblivion ::earth-americas::
 + Sunstar ::skull::
 + Transfiguration ::skull::
-+ Fate ::earth-americas::
 
 其实这一档就已经算是偏小众变态的了，raid打好几把才会遇上一次，而且遇上了直接就截图丢群里属于是。
 
@@ -3340,6 +3341,7 @@ ascendancy本来还是T0的，唉。
 + Toxoplasmosis ::sun::
 + Absolution ::sun::
 + Az
++ Fate ::earth-americas::
 
 这一档属于是在raid里八竿子见不着一次的，真正的小众变态，不知道什么人会玩。
 
