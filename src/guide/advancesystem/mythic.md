@@ -900,7 +900,7 @@ ascend版本：
 
 <MythicItem name="Masterwork Singularity" />
 
-曾经的神，如今似乎打赢复活赛了
+曾经的神，如今打赢复活赛了
 
 专门新加了一个Major，后面还翻了五倍，简直是数值为王
 
@@ -1050,7 +1050,7 @@ fruma出来后感觉还是很菜，高额负数he与RW相性不佳，结果人�
 
 <MythicItem name="Trance" />
 
-别名：无
+别名：恍惚
 
 ![](/assets/img/mythic.md-05-04-23-46-18.png)
 
@@ -1060,11 +1060,11 @@ fruma出来后感觉还是很菜，高额负数he与RW相性不佳，结果人�
 
 RiftWalker重做加入大量Melee节点，还顺带捆绑了几个新Melee asp，直接让Trance喝到汤了。
 
-鼠标左键点点就有800k dps的小朋友你们好呀。
+这major非常搞笑，大部分是负面效果
 
-但是这major真的很搞笑，大部分是负面效果。
+并且随着屡次针对性削弱，trance小姐终于也是成功化区了。
 
-目前也算挨了一刀有点狠的，希望未来继续削弱。
+目前非常死了。
 
 
 
@@ -2655,7 +2655,7 @@ Immolation也可以玩Ritualist但同样刚需ascend，技能树和技能循环�
 
 <MythicItem name="Resonance" />
 
-别名：reson
+别名：reson/共振
 
 ![年度最冲击波奖](/assets/img/mythic.md-03-06-21-34-00.png)
 
@@ -2712,6 +2712,8 @@ build：？
 ### Transfiguration
 
 <MythicItem name="Transfiguration" />
+
+别名：变形
 
 非常小众变态的武器
 
@@ -2873,7 +2875,7 @@ Fruma版本有一堆比十字军更值得塞的大肉鞋子，而且它们还有
 <MythicItem name="Galleon" />
 
 
-别名：噶冷
+别名：噶冷/大帆船
 
 小众地水鞋子，和reson一起辉煌过，现在只能当数值很高的小众地水组件
 
@@ -3152,7 +3154,7 @@ hmbuild指定组件，但是hm现在真的还有人玩吗？
 <MythicItem name="Revenant" />
 
 
-别名：reve
+别名：reve/亡灵
 
 强度在线，但是玩法不多
 
@@ -3269,7 +3271,7 @@ Idol其实也算不错，奈何操作量实在是有点高
 
 奶奶我其实觉得值得一个T0.5，输出非常亮眼的同时QOL也算不错，彩虹肉的一批
 
-至于Dz...原本其实是想挪到T1的，但毕竟人家是archer dps #1，还是尊重一下吧！
+至于Dz...原本其实是想挪到T1的，因为太脆了不是很轮椅，但毕竟人家是archer dps #1，还是尊重一下吧！
 
 ### T1 - 能见到很多出场机会
 
@@ -3349,4 +3351,4 @@ ascendancy本来还是T0的，唉。
 + Ignis
 + Aftershock
 
-难绷。
+毫无存在感的武器，几乎任何模式似乎都没有上场空间，非常诡异。
