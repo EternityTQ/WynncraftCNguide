@@ -3,7 +3,7 @@ title: The Wartorn Palace
 icon: place-of-worship
 ---
 
-<span style="font-size: 25px;">**战祸宫阙**</span>
+<span style="font-size: 25px;">**战祸王宫**</span>
 
 名称：The Wartorn Palace
 简称：TWP / WTP(官方简称)
