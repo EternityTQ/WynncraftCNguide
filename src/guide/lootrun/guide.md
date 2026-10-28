@@ -40,7 +40,7 @@ https://wynnbuilder.github.io/builder/#CW0x211HiK4h5HgJITI15YFIZoKkyUUHcerMlQ0
 
 RiftWalker Singularity
 
-https://wynnbuilder.github.io/builder/#CW013HxGiK4h51wEGtH15YF2jcD630mPG0v1o3mxv5PYMRzg1
+https://wynnbuilder.github.io/builder/#CZ0131OJiK4VJ1wEGtH15YF2jcD630mbtpBo4jswL3
 
 ~~我靠写这个的时候singularity还挺便宜的，现在真他妈贵啊~~
 
@@ -53,6 +53,9 @@ https://wynnbuilder.github.io/builder/#CW0u111HiK4h51-32nG15amWmcYSvzyYCHhjUr0
 平衡配装(中等伤害、略肉)
 
 https://wynnbuilder.github.io/builder/#CW013HxGiK4c5HgJITI15amWmcYSvzyYCHhjUr0
+
+追伤害配装(**需要大量hpr tome补齐hpr**)
+https://wynnbuilder.github.io/builder/#CZ0cFH2EiK4c5HgJYXI15amWDrYSvzyYCHhjUr0
 
 
 :::info RiftWalker手法简单教学
@@ -89,7 +92,11 @@ palamonk Golden Staff:
 
 https://wynnbuilder.github.io/builder/#CW0p2HxGiK4C6HgJITI15aFINoKQdt0n1C8OGGyQF+eD6RQMe7
 
+毕业套装：
 
+resu idol
+
+https://wynnbuilder.github.io/builder/#CZ0t0nwGWi3sQG56gmG15ammwqKSfzuJJCPpSBO3
 
 
 

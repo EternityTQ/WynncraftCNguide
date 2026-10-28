@@ -1268,6 +1268,10 @@ ascend了之后还是挺垃圾的...没人用。
 
 <MythicItem name="Grandmother" />
 
+Ascend版本：
+
+<MythicItem name="Masterwork Grandmother" />
+
 别名：奶奶/gma
 
 > gma的来源是Grandma
@@ -1331,6 +1335,8 @@ ascend了之后还是挺垃圾的...没人用。
 之前有一次削弱莫名其妙把Ignis小的可怜的火伤词条给删了，还顺便削了血量，CT你要几把干啥？？？
 
 目前版本还是有点区，缺少就业空间，玩bolt我为什么不去玩隔壁eschaton
+
+然后major还改版了，来你告诉我这是什么玩意。。
 
 :::details 评论区
 
@@ -1522,6 +1528,11 @@ Ascend版本：
 :::details 构筑介绍
 
 
+
+strati虽说三条线都能玩，但现在主要推荐的还是bolt:
+
+
+https://wynnbuilder.github.io//builder/#CZ0X600C8t2uQ41TCTCn7n7n7n7JAI0gJOvO4qnqn4V4V4V4Vyf81uDj8N-4+7VVuXxfS8
 :::
 ### Epoch
 
