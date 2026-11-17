@@ -263,7 +263,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | --- | --- | :---: |
 | <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <font color=#BF40EB>300%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 30 |
 | <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** Pulls| 无上限 |
-| <font color = "#8A2BE2">**紫罗兰信标(Violet)**</font> | 获得 **10 / <font color = 00CCFF>8</font> / <font color=#BF40EB>6</font> / <rb>4</rb>** 个随机诅咒，同时固定获得 **10** Pulls | 无上限 |
+| <font color = "#8A2BE2">**紫罗兰信标**</font> | 获得 **10 / <font color = 00CCFF>8</font> / <font color=#BF40EB>6</font> / <rb>4</rb>** 个随机诅咒，同时固定获得 **10** Pulls | 无上限 |
 | <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <font color=#BF40EB>4</font> / <rb>5</rb>** 个飞箱(相当于额外的战利品箱) | 无上限 |
 | <font color = 00CCFF>**青色信标**</font> |   **增强 /**  <font color = 00CCFF>**大幅增强**</font> 下一个非青信标的效果，可叠加 | 无上限 |
 | <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <font color=#BF40EB>20</font> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
@@ -280,7 +280,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 | 信标名称 | 特性 |
 | --- | --- |
-| <font color = "#8A2BE2">**紫罗兰信标(Violet)**</font> | 属于Uncommon信标(同橙/粉)；信标等级越高，获得的诅咒越少 |
+| <font color = "#8A2BE2">**紫罗兰信标**</font> | 稀有度与橙色信标和粉色信标相当；信标等级越高，获得的诅咒越少 |
 | <font color = 00CCFF>**青色信标**</font> | 在叠加等级达到上限后仍然不会消失；**死亡会导致已持有的青色信标状态清空** |
 | <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant祝福的是挑战轮数；在游戏开始时刷新权重较高，随着游戏的进行逐渐降低刷新权重；最多将信标选数扩充至6 |
 | <font color = #FA71AF>**粉色信标**</font> | 在游戏开始时刷新权重较高，随着游戏的进行逐渐降低刷新权重 |
