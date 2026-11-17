@@ -87,9 +87,9 @@ T1-T2宝箱的刷新时间一般在一天，T3-T4会在三天，通常来说三�
 
 一样的操作即可！
 :::
-截止至2.2版本，一共有7处**Lootrun Camp**
+截止至2.2.6版本，一共有8处**Lootrun Camp**
 
-它们分别位于**Canyon Of The Lost**、**Molten Heights**(火山)、**Sky Islands**(Sky)、**Corkus**、**Silent Expanse**(se)、**Fruma West**、**Fruma East**
+它们分别位于**Canyon Of The Lost (South)**、**Canyon Of The Lost (North)**、**Molten Heights**(火山)、**Sky Islands**(Sky)、**Corkus**、**Silent Expanse**(se)、**Fruma West**、**Fruma East**
 
 你可以找到**Lootrun Camp**中的<font color=FF55FF>**Lootrun Master**</font>来开始lr
 
@@ -116,6 +116,9 @@ T1-T2宝箱的刷新时间一般在一天，T3-T4会在三天，通常来说三�
 LR副职等级为账号通用
 
 :::details 升级解锁内容一览
+
+> **2.2.6 待核对**：2.2.6 版本调整了部分信标在各 Silverbull Rank 的解锁顺序并新增了紫罗兰信标(Violet)，以下等级解锁表将在实装后更新。
+
 | 等级 | 名称 | 所需经验 | 总计经验 | 效果 |
 | --- | --- | --- | --- | --- |
 | 1 | Rookie I | 0 | 0 | 无 |
@@ -260,11 +263,12 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | --- | --- | :---: |
 | <font color = "blue">**蓝色信标**</font> | 从4个 **100% / <font color = 00CCFF>200%</font> / <font color=#BF40EB>300%</font> / <rb>400%</rb>** 效能的祝福中选择1个并获取 | 30 |
 | <font color = "purple">**紫色信标**</font> | 获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** 个随机诅咒，同时获得 **2 / <font color = 00CCFF>4</font> / <font color=#BF40EB>6</font> / <rb>8</rb>** Pulls| 无上限 |
+| <font color = "#8A2BE2">**紫罗兰信标(Violet)**</font> | 获得 **10 / <font color = 00CCFF>8</font> / <font color=#BF40EB>6</font> / <rb>4</rb>** 个随机诅咒，同时固定获得 **10** Pulls | 无上限 |
 | <font color = FFCC00>**黄色信标**</font> | 生成 **2 / <font color = 00CCFF>3</font> / <font color=#BF40EB>4</font> / <rb>5</rb>** 个飞箱(相当于额外的战利品箱) | 无上限 |
 | <font color = 00CCFF>**青色信标**</font> |   **增强 /**  <font color = 00CCFF>**大幅增强**</font> 下一个非青信标的效果，可叠加 | 无上限 |
 | <font color = "orange">**橙色信标**</font> | 在接下来的 **10 / <font color = 00CCFF>15</font> / <font color=#BF40EB>20</font> / <rb>25</rb>** 轮挑战中，信标选数 +1 | 无上限 | 
-| <font color = 00BB00>**绿色信标**</font> | 获得 **210s / <font color = 00CCFF>330s</font> / <font color=#BF40EB>450s</font> / <rb>570s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
-| <font color = "555555">**暗灰色信标**</font> | 获得 **5 / <font color = 00CCFF>10</font> / <font color=#BF40EB>15</font> / <rb>20</rb>** 个随机诅咒，同时获得 **5 / <font color = 00CCFF>10</font> / <font color=#BF40EB>15</font> / <rb>20</rb>** Pulls | 1 |
+| <font color = 00BB00>**绿色信标**</font> | 获得 **240s / <font color = 00CCFF>360s</font> / <font color=#BF40EB>480s</font> / <rb>600s</rb>** 的时间，且本轮怪物不会增加属性 | 无上限 |
+| <font color = "555555">**暗灰色信标**</font> | 从 **2 / <font color = 00CCFF>3</font> / <font color=#BF40EB>4</font> / <rb>5</rb>** 个已完成的任务中移除1个，并将1个灰色信标加入至你的信标池中 | 2 |
 | <font color = "CCCCCC">**白色信标**</font> |  获得 **15 / <font color = 00CCFF>20</font> / <font color=#BF40EB>25</font> / <rb>30</rb>** 个挑战轮数 | 1 |
 | <font color = "grey">**灰色信标**</font> | 从 **3 / <font color = 00CCFF>4</font> / <font color=#BF40EB>5</font> / <rb>5</rb>** 个任务中选择1个接取 | 3 |
 | <font color = "red">**红色信标**</font> | 获得 **6 / <font color = 00CCFF>9</font> / <font color=#BF40EB>12 </font>/ <rb>15</rb>** 轮没有时间补偿的挑战轮数| 无上限 |
@@ -276,9 +280,11 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 | 信标名称 | 特性 |
 | --- | --- |
+| <font color = "#8A2BE2">**紫罗兰信标(Violet)**</font> | 属于Uncommon信标(同橙/粉)；信标等级越高，获得的诅咒越少 |
 | <font color = 00CCFF>**青色信标**</font> | 在叠加等级达到上限后仍然不会消失；**死亡会导致已持有的青色信标状态清空** |
 | <font color = "orange">**橙色信标**</font> | 青色信标和Vibrant祝福的是挑战轮数；在游戏开始时刷新权重较高，随着游戏的进行逐渐降低刷新权重；最多将信标选数扩充至6 |
 | <font color = #FA71AF>**粉色信标**</font> | 在游戏开始时刷新权重较高，随着游戏的进行逐渐降低刷新权重 |
+| <font color = "555555">**暗灰色信标**</font> | 仅从第15轮挑战开始出现 |
 | <font color = "CCCCCC">**白色信标**</font> | 总轮数到达100轮时不刷新 |
 | <font color = 00BB00>**绿色信标**</font> | 只会连续出现1次；青信标会增幅`怪物不加属性`的轮次数而Vibrant不会 |
 | <font color = "grey">**灰色信标**</font> | 第4轮开始出现；<br>随着出现次数的增加逐渐消失，意味着跳过的次数越多，刷新的权重越低；任务进行时不会出现 |
@@ -318,7 +324,9 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 当挑战成功后，都会获得1.5min的挑战补偿时间
 
-在Fruma地区，你将会获得1.5min/3.5min的补偿时间。
+在Silent Expanse地区，你将会获得1.5min/2min(90s/120s)的补偿时间；在Fruma地区，你将会获得1.5min/3.5min的补偿时间。
+
+>Molten Heights与Silent Expanse的初始起始时间均为5分钟(2.2.6起由4分钟上调)。
 
 大部分情况下，死亡或挑战失败均会扣除1min的惩罚时间
 
@@ -339,7 +347,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 ## 祝福 / Boons
 
-在吃到蓝信标或者有任务加成的紫信标、暗灰信标后，你会受到祝福(boon)
+在吃到蓝信标或者有任务加成的紫信标后，你会受到祝福(boon)
 
 祝福会给你带来不同属性的提升以帮助你更好完成接下来的挑战
 
@@ -402,7 +410,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 ## 诅咒 / Curses
 
-在吃到紫信标或暗灰信标后，你会受到随机诅咒(Curses)
+在吃到紫信标或紫罗兰信标(Violet)后，你会受到随机诅咒(Curses)
 
 诅咒会给怪物带来加成以提高挑战难度，通常情况下没有上限。
 
@@ -458,17 +466,18 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 |---------------------|-------------------------------------------------------------------------------------------|
 | <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
 | <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  |
-| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启8个飞箱后，在下轮结束时，从2个300%效能的祝福中选择一个并获取。  |
-| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull，1个祝福，1-2个诅咒，60s时间中随机获取一个  |
-| <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得2 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限12个)  |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启1个非飞箱(普通宝箱)后，在下一轮挑战结束时生成1个飞箱 (上限4个)  |
+| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull、+1挑战轮数、1-2个诅咒、60s时间中随机获取一个  |
+| <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得3 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限15个)  |
 | <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的最终效果^1^|
 | <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标被遮蔽，但是它们将被大幅增强(+2级效果)^2^|
 | <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull；该祝福每有额外50%效能，则额外+2 pull。|
-| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+1 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
-| <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫色信标会获得1个诅咒；紫色信标提供的Pull翻倍^3^|
+| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+2 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
+| <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫罗兰信标(Violet)会获得7个诅咒；紫色信标提供的Pull翻倍^3^|
 | <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得15 Pulls，就清除一个辉光概率的诅咒。^4^  |
 | <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
-| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果和上限折半^10^|
+| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果降低33%^10^|
+| <font color='AA00AA'>**Balancing Act**</font>  | 每轮结束时,清除2个诅咒. |
 | <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒^5^|
 | <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
 | <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个野外宝箱后，在下轮完成时获得1 Pull，且扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
@@ -476,26 +485,30 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 | <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到普通青色信标的效果(一级增幅)|
 | <font color='FFAA00'> **High Spirits** </font>         | 基础Vibrant信标转换概率 +50%^7^ |
 | <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会^8^|
-| <font color='FFAA00'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+2 (总信标选数上限为6)；开始任意挑战后重置该效果|
+| <font color='FFAA00'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+3 (总信标选数上限为6)；开始任意挑战后重置该效果|
 | <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限为+3),拾取绿信标后重置该叠层|
 | <font color='FF5555'> **Knife Edge** </font>         | 在每轮开始时^9^给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
 | <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
-| <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会和10 Pull|
+| <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会|
 | <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
 | <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，随机获得一个信标效果^11^|
 | <font color='DDDDDD'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数^12^  |
 
+:::warning 2.2.6 版本待补充
+2.2.6 版本新增了 4 个全新任务，待实装后补充进上表。
+:::
+
 ^1^不计入最终Potency，相当于最终乘算+50%
 ^2^加强效果仅对主动选择的信标生效，例如由<font color='DDDDDD'> **Complete Chaos** </font>给予的信标将不适用加强效果。
-^3^<font color='DDDDDD'> **Complete Chaos** </font>提供的紫色信标也会触发给予额外诅咒的效果。
+^3^<font color='DDDDDD'> **Complete Chaos** </font>提供的紫罗兰信标也会触发该效果.
 ^4^当前该任务显示存在BUG，每轮完成后会显示所有扣除过的概率诅咒，但实际效果符合原文。
 ^5^也包括特殊途径获得的诅咒，例如Lights out给予的概率诅咒。
 ^6^当信标池中的剩余信标小于信标选数时，此时只会显示信标池中剩余的信标。
 ^7^即，实际Vibrant转换概率变为65%
 ^8^规则与下文"关于获得时间的任务条件"一致。
 ^9^原文为"在挑战完成后(	After completing a challenge)"，但实际生效节点位于选择信标阶段前，即最后一轮无法生效，以及拾取红/白信标会先结算信标，再结算任务。
-^10^与All in共同生效时，为加算关系，即最终效果为诅咒效果+50%
-^11^该任务的实质是从下一轮的信标池中随机选择一个信标，提前获得其效果；该效果视作已获取该信标，但不计入已获取数量，例如获取了绿信标会导致下一轮不会再刷新绿信标；能获取的信标效果不包含灰色信标和绯红信标。
+^10^与All in共同生效时为加算,即最终诅咒效果为66%
+^11^该任务的实质是从下一轮的信标池中随机选择一个信标，提前获得其效果；该效果视作已获取该信标，但不计入已获取数量，例如获取了绿信标会导致下一轮不会再刷新绿信标；能获取的信标效果不包含灰色信标、暗灰色信标和绯红信标。
 ^12^挑战轮数达到上限后不再扣除pull
 
 
@@ -522,19 +535,22 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 |图标 | 名称 | 效果 | 奖励 |
 | --- | --- | --- | --- |
-|![](/assets/img/lootrun.md-06-12-02-22-32.png) | <mob>Lights out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予4 pulls |
+|![](/assets/img/lootrun.md-06-12-02-22-32.png) | <mob>Lights out</mob> | 直到击杀25只辉光怪物之前，每轮结束后都会获得2个辉光概率的诅咒 | 试炼完成后，清除所有辉光概率和辉光效果的诅咒；每清除1个辉光概率或辉光效果，给予3 pulls |
 | ![](/assets/img/lootrun.md-06-12-02-22-24.png)| <mob>Dying Light</mob> | 直到你共计获得800%的祝福效能之前，你的祝福将以每2.5秒5%的速度逐个衰减。 | 完成彩虹信标将给予1次奖励献祭 |
 |![](/assets/img/lootrun.md-06-12-02-22-19.png) | <mob>Monochromokopia</mob> | 直到获得35 Pulls之前，被完成的信标将会被遮蔽7轮挑战，被遮蔽的信标不会显示具体的种类。 | 将一个灰信标、白信标、深灰信标加入到信标池中 |
 |![](/assets/img/lootrun.md-06-12-02-22-14.png) | <mob>Adrenaline Junkie</mob> | 直到获得25 Pulls之前，在跑图阶段每15秒对一个boon衰减100%效能 | 获得2次奖励重掷 |
-| ![](/assets/img/lootrun.md-06-12-02-22-50.png)| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间。 | 完成绿信标将会净化7.5%的诅咒数量;每清除1个诅咒,获得当前pulls总量的1%(每轮最高5%,向上取整) |
+| ![](/assets/img/lootrun.md-06-12-02-22-50.png)| <mob>Chronotrigger</mob> | 在接下来12轮内，你无法从任何途径获取时间 | 试炼完成后返还期间损失的所有时间；绿信标改为扣除与原数值等量的时间,通过绿信标每损失120秒时间，获得当前pulls总量的1.5%(向上取整) |
 | ![](/assets/img/lootrun.md-06-12-02-22-59.png)|  <mob>Warmth Devourer</mob> | 直到你获得20 Pulls之前，每轮挑战完成后扣除3个挑战轮数 | 获得1次奖励重掷和1次奖励献祭 |
-|![](/assets/img/lootrun.md-06-12-02-23-03.png) |  <mob>Hubris</mob> | 接下来10轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
+|![](/assets/img/lootrun.md-06-12-02-23-03.png) |  <mob>Hubris</mob> | 接下来12轮中，死亡将会直接结束本局lr |获得1次奖励重掷和1次奖励献祭 |
 |![](/assets/img/lootrun.md-06-12-02-23-07.png) |  <mob>All In</mob> | 接下来12轮中，诅咒的效果翻倍 |在本局lr结算后，将每次奖励献祭转换为3次奖励重掷 |
 | ![](/assets/img/lootrun.md-06-12-02-23-14.png)|  <mob>Gambling Beast</mob> |每轮结束后，扣除300秒时间，每次扣除后下次扣除额外扣除90秒 | 每次扣除时间时获得1次奖励重掷 |
 |![](/assets/img/lootrun.md-06-12-02-23-19.png) |  <mob>Side Hustle</mob> |直到你开启30个箱子之前，你开始挑战、挑战完成、挑战失败时，都会把计时器重置至75秒，在挑战期间死亡不会扣除时间 |获得2次奖励重掷 |
-| ![](/assets/img/lootrun.md-06-12-02-23-24.png)|  <mob>Treasury Bill </mob> |直到你获得20 Pulls之前，每60秒扣除1 pull |额外获得完成试炼时的pulls的75% |
-|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Ultimate Sacrifice</mob> | 接下来10轮中，所有祝福失效| 获得2次奖励献祭|
-|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Imperitia</mob> | 直到你获得30 Pulls之前，每完成一轮挑战，技能最终消耗+5 Mana| 获得2次奖励献祭|
+| ![](/assets/img/lootrun.md-06-12-02-23-24.png)|  <mob>Treasury Bill </mob> |直到你获得20 Pulls之前，每40秒扣除1 pull |额外获得完成试炼时的pulls的60% |
+|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Ultimate Sacrifice</mob> | 接下来12轮中，所有祝福失效| 获得2次奖励献祭|
+|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Imperitia</mob> | 直到你获得25 Pulls之前，每完成一轮挑战，技能最终消耗+5 Mana| 获得2次奖励献祭|
+|![](/assets/img/lootrun.md-06-12-02-23-30.png) |  <mob>Sprezzatura</mob> | 直到你获得10个诅咒之前,所受的伤害都至少为总血量的5%,每轮+1%;至多每0.1秒触发1次| 试炼持续期间,每成功完成5轮,获得1次奖励重掷;每死亡一次,扣除1次奖励重掷|
+
+
 
 
 ## 最终结算
@@ -580,7 +596,7 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 你可以理解为重新抽卡。
 
-你可以从任务、试炼、每日奖励和Token中获取rr次数
+你可以从任务、试炼、每日奖励和Token中获取rr次数，也可以在 Lootrun Inspect 界面中查看当前已获得的 rr 次数。
 
 如果你觉得抽出来的物品不够满意，你可以消耗一次rr次数，重新开启一次宝箱
 
@@ -641,13 +657,13 @@ sac所保存的pulls一样可以被下一局的sac一起继承
 可以正常获取的类型：
 
 + 红信标与白信标
-+ 紫信标与暗灰信标获得的Pulls
++ 紫信标与紫罗兰信标(Violet)获得的Pulls
 + Chronotrigger获得的Pulls
 
 不能正常获取的类型：
 
 + Sacrificial Ritual与Gambling Beast的效果
-+ 紫信标与暗灰信标获得的Curses
++ 紫信标与紫罗兰信标(Violet)获得的Curses
 + Opal Offering的效果
 + 完成任何任务/试炼所获得的直接奖励
 + 任何飞箱的生成
