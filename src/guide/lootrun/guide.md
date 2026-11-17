@@ -366,7 +366,6 @@ https://wynnbuilder.github.io/builder/#CZ0t0nwGWi3sQG56gmG15ammwqKSfzuJJCPpSBO3
 | --- | --- | 
 | <font color='FFCC00'> **Cleansing Greed** </font>   | 飞箱+诅咒流可以拿，但是本身不提供任何增益手段，因此还是需要其他战斗类任务的帮助   |
 |   <font color='FFCC00'> **Hoarder** </font>  |  飞箱流能拿了，配合其他任务也有一点收益。  |
-|  <font color='FFCC00'> **Jester's Trick** </font>  |  **有IS的情况下是最高优先级**，这里主要讲战斗，Jester在有IS的情况下能提供大量的祝福和时间，可以让你安稳打过100轮；给予的时间还能避免红信标轮次内吃不到时间的窘境，总之是飞箱流核心组件  |
 |  <font color='5555FF'> **Orphion's Grace** </font>  |  现在稍微略区，因为蓝信标最多就400%，而且还不是很好搞，彩虹出现的更少了。但总之如果没别的任务可以拿了，还是值得拿的  |
 | <font color='AA00AA'> **Equilibrium** </font>   |  可以拿，目前诅咒获取多了外加蓝信标半削弱，导致equi地位有所提升，配合opal更是超神。  |
 |   <font color='AA00AA'> **Inner Peace** </font>  |   **诅咒流优先级极高**，IP主要是可以使对面诅咒抗性折半，这样更好应对数值了。另外，在有All in的情况下，IP还能避免怪物出现抗性超过100%的死局。 |
