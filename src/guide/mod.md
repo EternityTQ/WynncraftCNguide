@@ -21,11 +21,13 @@ icon: handshake-angle
 ### Wynntils是什么？
 Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD
 
-目前除1.21.11版本以外**均已停更**
+版本推荐 `1.21.11`（目前除 `1.21.11` 版本以外**均已停更**）
 
 下载地址：<https://modrinth.com/mod/wynntils/>
 
-准确来说，你的客户端只需要安装Wynntils即可大幅度提升你的游戏体验
+同时需要下载必要的 **`Fabric API`**：<https://modrinth.com/mod/fabric-api>
+
+准确来说，你的客户端仅需安装 `Wynntils`（配合必要的 `Fabric API`）即可大幅度提升你的游戏体验
 
 但是，由于功能实在太过强大，导致很多人会很容易忽略掉其中的部分实用功能
 
@@ -71,15 +73,11 @@ Wynntils是一个功能强大的，专注于Wynncraft服务器的MOD
 :::
 
 :::tip 如何修复小地图黑屏的BUG？
-这个问题是因为中国玩家无法正常下载到Wynntils的资源
+这个问题通常是因为Wynntils的本地资源或缓存加载失败
 
-你只需要同时下载[这个MOD](https://modrinth.com/mod/wynntils-url-redirector)即可
+如果出现黑屏或地图加载不完全，可以在游戏内输入`/wynntils reloadcaches`来刷新缓存
 
-正常情况下，安装完后即可使用
-
-如果还是有问题，例如地图加载不完全，可以在游戏内输入`/wynntils reloadcaches`来刷新缓存
-
-如果还是无效的话，尝试多次使用，但每次使用请间隔1-2分钟
+如果还是无效的话，可以检查Wynntils版本或切换网络环境后再次尝试刷新，但每次使用请间隔1-2分钟
 
 关键词：小地图 / 地图 / 黑屏 / MOD / 地图黑屏 / 小地图黑屏
 :::

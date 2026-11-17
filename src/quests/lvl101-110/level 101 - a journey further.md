@@ -7,7 +7,7 @@ icon: skull
 任务等级：Level 101 / 推荐等级： Level 101
 任务时长：长 / 任务难度：困难
 中文译名：深堕之旅
-前置任务：[A Journey Beyond](/quests/a-journey-beyond)
+前置任务：[A Journey Beyond](/quests/lvl91-100/level%20100%20-%20a%20journey%20beyond.html)
 
 :::tip 重要任务
 完成该任务将解锁：

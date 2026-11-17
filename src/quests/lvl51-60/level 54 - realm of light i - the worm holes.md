@@ -92,7 +92,7 @@ RAID副本为团本，为3-4人才能开启的副本，需要对应的Runes作�
 
 可以在Party Finder中匹野队，但是一般不建议刚做完任务的等级进行Raid
 
-同时无论什么等级，强烈建议先翻阅[wiki](https://wynncraft.fandom.com/wiki/Raids)或[这一章](/guide/raid.html)来查询raid相应的机制，避免因为不会处理机制导致队伍团灭
+同时无论什么等级，强烈建议先翻阅[wiki](https://wynncraft.wiki.gg/wiki/Raids)或[这一章](/guide/raid/intro.html)来查询raid相应的机制，避免因为不会处理机制导致队伍团灭
 :::
 
 :::tip

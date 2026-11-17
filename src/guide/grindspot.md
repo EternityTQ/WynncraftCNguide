@@ -104,7 +104,7 @@ Grind Spot的怪物强度往往高于其他怪物
 
 ![](/assets/img/grindspot4.jpg)
 
-大爹级刷怪点，但是有[前置任务](/quests/lvl11-20/level%2020%20-%20grave%20digger.html)
+大爹级刷怪点，但是有[前置任务](/quests/lvl11-20/level%2020%20-%20brothers%20return.html)
 
 怪的质量挺高的，有大量远程
 
@@ -374,7 +374,7 @@ Seven-League Boots靴子非常可以，但是点数需求非常高，容易因�
 
 这一阶段基本在蜘蛛洞里面刷，刷到吃力了就去下一个阶段。
 
-以上装备基本可以在市场买到，胸甲有一个推荐的是`Matryoshka Shell`，但是这个用钱不能解决问题，必须得去boss祭坛刷，位置在<CC>-698 83 -630</CC>，详细[参考这里](https://wynncraft.fandom.com/wiki/Matryoshka_Shell)
+以上装备基本可以在市场买到，胸甲有一个推荐的是`Matryoshka Shell`，但是这个用钱不能解决问题，必须得去boss祭坛刷，位置在<CC>-698 83 -630</CC>，详细[参考这里](https://wynncraft.wiki.gg/wiki/Matryoshka_Shell)
 
 ### 第四阶段：Lv55+~Lv75+
 

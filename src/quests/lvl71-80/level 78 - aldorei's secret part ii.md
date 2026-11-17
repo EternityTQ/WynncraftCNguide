@@ -7,7 +7,7 @@ icon: route
 任务等级：Level 78 / 推荐等级： Level 78
 任务时长：长 / 任务难度：中等
 中文译名：精灵们的秘密 下篇
-前置任务：[Aldorei's Secret Part I]()
+前置任务：[Aldorei's Secret Part I](/quests/lvl71-80/level%2074%20-%20aldorei's%20secret%20part%20i.html)
 
 :::tip 重要任务
 解锁Aldorei - Cinfras的快速旅行

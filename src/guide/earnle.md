@@ -129,7 +129,7 @@ Ratity是1级的Legendary戒指
 
 但是要注意的是，lr也是后期内容，对你的装备要求是极高的！
 
-对于lootrun，可以看看[这一章](/guide/advancesystem/lootrun.md)
+对于lootrun，可以看看[这一章](/guide/lootrun/new_intro.html)
 
 ## 赌博（特指鉴定游戏中的装备）
 
@@ -150,7 +150,7 @@ Ratity是1级的Legendary戒指
 但是一般来说，想鉴定出能卖到超过未鉴定的价格的装备是比较难的。
 
 :::tip
-对于提升鉴定值，你可以看看[这里](/guide/npcs.html#提升鉴定值)
+对于提升鉴定值，你可以看看[这里](/guide/basesystem/identify.html#使用鉴定增幅道具)
 :::
 
 ## 交易市场倒卖

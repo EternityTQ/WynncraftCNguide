@@ -17,7 +17,7 @@ Wynntils是一款专门用于Wynncraft的第三方MOD，其集成了非常多的
 
 下载地址：https://modrinth.com/mod/wynntils
 
-另外，如果你需要了解Wynntils的功能，可以来看看[这篇文章](http://localhost:8080/guide/mod.html)
+另外，如果你需要了解Wynntils的功能，可以来看看[这篇文章](/guide/mod.html)
 
 本网站部分功能不可避免地会使用到Wynntils，强烈推荐读者进行安装。
 
@@ -95,7 +95,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 然后你就可以开始进行你的第一个任务了
 
-[Enzan's Brother (level 1)](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)
+[Enzan's Brother (level 1)](/quests/lvl1-10/level%201%20-%20zenzan's%20brother.html)
 
 
 
@@ -115,13 +115,13 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 当然，采集副职可以用于前期解决货币不足的问题，这些是后话
 
-等你做到[Cook Assistant (level 3)](/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html)任务后，你将会第一次体验到采集系统
+等你做到[Cook Assistant (level 3)](/quests/lvl1-10/level%203%20-%20cook%20assistant.html)任务后，你将会第一次体验到采集系统
 
 稍微知道怎么采集就行了，不需要过多涉足！
 
 ### 秘密发现
 
-在做完[Enzan's Brother](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)后，<font color=00AA00>**Therck**</font>会跟你说楼梯上有一把钥匙
+在做完[Enzan's Brother](/quests/lvl1-10/level%201%20-%20zenzan's%20brother.html)后，<font color=00AA00>**Therck**</font>会跟你说楼梯上有一把钥匙
 
 你可以在左侧的屋子发现可以用钥匙打开的门
 
@@ -177,7 +177,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 ![](/assets/img/questbook4.jpg)
 
-和洞穴系统有关的lootrun，具体可以看看[这一章](/guide/lootrun.html#传统lootrun)
+和洞穴系统有关的lootrun，具体可以看看[这一章](/guide/lootrun/new_intro.html#传统lr方式)
 
 ### 记得完成任务！
 
@@ -432,7 +432,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 ### 获得你的第一只马匹！
 当你到达13级时，你就要注意啦！
 
-你要停下手中的一切工作，去完成[Stable Story (level 13)](/quests/lvl11-20/level%2013%20-%20Stable%20Story.html)任务！
+你要停下手中的一切工作，去完成[Stable Story (level 13)](/quests/lvl11-20/level%2013%20-%20stable%20story.html)任务！
 
 ![](/assets/img/earlygame.md-02-27-21-15-15.png)
 
@@ -519,7 +519,7 @@ Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，�
 
 ### 墓地的秘密与超级刷怪点
 
-任务[Grave Digger](/quests/lvl11-20/level%2020%20-%20grave%20digger.html)讲述了一个关于墓地的故事
+任务[Brothers Return](/quests/lvl11-20/level%2020%20-%20brothers%20return.html)讲述了一个关于墓地的故事
 
 可以来了解一下，而且这个任务还会引导你前往Nemract。
 
@@ -537,7 +537,7 @@ Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，�
 
 在此之前，也许你的等级不是很够，你可以先看看上面那个超级刷怪点？
 
-首先，你要先做好[前置任务](/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html)
+首先，你要先做好[前置任务](/quests/lvl21-30/level%2021%20-%20the%20dark%20descent.html)
 
 非常短，很快就能做好！
 
@@ -551,7 +551,7 @@ Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，�
 
 这个非常重要啦！
 
-当你打到25级后，可以直接去做[这个任务](/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html)了
+当你打到25级后，可以直接去做[这个任务](/quests/lvl21-30/level%2025%20-%20recover%20the%20past.html)了
 
 当做完后，你的所有存档都可以直接解锁技能树洗点功能
 
@@ -563,7 +563,7 @@ Nemract同样是一个非常重要的城镇，只不过缺少了交易市场，�
 
 ![](/assets/img/earlygame.md-02-27-21-52-34.png)
 
-[Tempo Town Trouble(level 25)](/quests/lvl21-30/level%2025%20-%20Tempo%20Town%20Trouble.html)
+[Tempo Town Trouble(level 25)](/quests/lvl21-30/level%2025%20-%20tempo%20town%20trouble.html)
 
 一个算是比较重要的任务
 

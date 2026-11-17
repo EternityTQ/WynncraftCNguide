@@ -6,7 +6,7 @@ pageview: true
 
 
 
-本攻略重在流程，若想了解细节和剧情，请翻阅[wiki](https://wynncraft.fandom.com/wiki/Quests)
+本攻略重在流程，若想了解细节和剧情，请翻阅[wiki](https://wynncraft.wiki.gg/wiki/Quests)
 
 非常感谢各位前人制作的攻略，本网站仅仅只是将大家的成果整理及更新以便查阅，以及后续bot对接等工作
    
@@ -70,7 +70,7 @@ tils自带的信标能帮助你找到目标地点
 如果你使用本攻略的过程中出现了任何问题，请先按照下列步骤尝试自己解决：
 1.  使用`/class`原地重置机关/怪物，重新开始这一步
 2.  使用`/kill`或者传送卷轴离开任务场地，从头开始进行一遍任务
-3.  使用[wiki](https://wynncraft.fandom.com/wiki/Wynncraft_Wiki)和自己当前的步骤对照，确保没有遗漏任何机关、物品，或是出现步骤错误的情况
+3.  使用[wiki](https://wynncraft.wiki.gg/wiki/Wynncraft_Wiki)和自己当前的步骤对照，确保没有遗漏任何机关、物品，或是出现步骤错误的情况
 
 在尝试以上步骤后，若还没有解决
 1.  如果你确定是本攻略的问题，可以交流群内反馈问题
