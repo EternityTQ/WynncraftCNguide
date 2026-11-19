@@ -6,7 +6,7 @@ icon: book-open
 
 ![](/assets/img/tome1.jpg)
 
-Mastery Tome系统会在做完[Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20Realm%20of%20Light%20I%20-%20The%20Worm%20Holes.html)任务后解锁
+Mastery Tome系统会在做完[Realm of Light I - The Worm Holes (level 54)](/quests/lvl51-60/level%2054%20-%20realm%20of%20light%20i%20-%20the%20worm%20holes.html)任务后解锁
 
 使用指南针后，在上图的入口处进入
 

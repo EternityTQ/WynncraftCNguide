@@ -43,7 +43,7 @@ Qira Hive中可以获得非常多的常用装备，请务必完成！
 
 该突袭前置任务有一系列前置(禁止套娃???),最终将带领你解锁峡谷巨像(The Canyon Colossus)突袭。
 
-[任务跳转点我]
+[任务跳转点我](/quests/lvl91-100/level%2097%20-%20the%20breaking%20point.html)
 
 ## 前往传说岛(Legendary Island/LI)！
 
@@ -65,7 +65,7 @@ Qira Hive中可以获得非常多的常用装备，请务必完成！
 
 但是每个地区的LR都有不同的前置要求。
 
-详情可以看[这篇](/guide/advancesystem/lootrun.html)
+详情可以看[这篇](/guide/lootrun/new_intro.html)
 
 ## 使用当前版本强势分支与配装！
 

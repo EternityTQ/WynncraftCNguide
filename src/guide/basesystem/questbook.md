@@ -204,7 +204,7 @@ BOSS祭坛通常较为隐蔽，在这之前如果没有wiki的话
 
 一般都会在附近掉落
 
-关于BOSS祭坛，你可以看看[这里](/guide/basesystem/bossaltar.html)？
+关于BOSS祭坛，你可以看看[这里](/guide/advancesystem/bossaltar.html)
 
 ## Lootrun Camp
 
@@ -216,7 +216,7 @@ BOSS祭坛通常较为隐蔽，在这之前如果没有wiki的话
 
 如果你不识路，强烈建议使用这个功能来找到camp
 
-关于lootrun，你可以看[这一章](/guide/lootrun.html)
+关于lootrun，你可以看[这一章](/guide/lootrun/new_intro.html)
 
 
 

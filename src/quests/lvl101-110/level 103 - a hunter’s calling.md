@@ -10,7 +10,7 @@ icon: star
 
 :::warning 关于前置
 游戏内没有提到，但是本任务存在前置：
-前置任务：[Dwarves and Doguns Part II](/quests/dwarves-and-doguns-part-ii)、[An Iron Heart Part II](/quests/an-iron-heart-part-ii)
+前置任务：[Dwarves and Doguns Part II](/quests/lvl91-100/level%2092%20-%20dwarves%20and%20doguns%20part%20ii.html)、[An Iron Heart Part II](/quests/lvl51-60/level%2058%20-%20an%20iron%20heart%20part%20ii.html)
 
 前置地牢：[Eldritch Outlook](/guide/dungeon.html#eldritch-outlook) (当前角色必须至少通关一次，如果不打就无法接取任务)
 :::

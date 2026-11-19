@@ -40,7 +40,7 @@ https://wynnbuilder.github.io/builder/#CW0x211HiK4h5HgJITI15YFIZoKkyUUHcerMlQ0
 
 RiftWalker Singularity
 
-https://wynnbuilder.github.io/builder/#CW013HxGiK4h51wEGtH15YF2jcD630mPG0v1o3mxv5PYMRzg1
+https://wynnbuilder.github.io/builder/#CZ0131OJiK4VJ1wEGtH15YF2jcD630mbtpBo4jswL3
 
 ~~我靠写这个的时候singularity还挺便宜的，现在真他妈贵啊~~
 
@@ -53,6 +53,9 @@ https://wynnbuilder.github.io/builder/#CW0u111HiK4h51-32nG15amWmcYSvzyYCHhjUr0
 平衡配装(中等伤害、略肉)
 
 https://wynnbuilder.github.io/builder/#CW013HxGiK4c5HgJITI15amWmcYSvzyYCHhjUr0
+
+追伤害配装(**需要大量hpr tome补齐hpr**)
+https://wynnbuilder.github.io/builder/#CZ0cFH2EiK4c5HgJYXI15amWDrYSvzyYCHhjUr0
 
 
 :::info RiftWalker手法简单教学
@@ -89,7 +92,11 @@ palamonk Golden Staff:
 
 https://wynnbuilder.github.io/builder/#CW0p2HxGiK4C6HgJITI15aFINoKQdt0n1C8OGGyQF+eD6RQMe7
 
+毕业套装：
 
+resu idol
+
+https://wynnbuilder.github.io/builder/#CZ0t0nwGWi3sQG56gmG15ammwqKSfzuJJCPpSBO3
 
 
 
@@ -359,7 +366,6 @@ https://wynnbuilder.github.io/builder/#CW0p2HxGiK4C6HgJITI15aFINoKQdt0n1C8OGGyQF
 | --- | --- | 
 | <font color='FFCC00'> **Cleansing Greed** </font>   | 飞箱+诅咒流可以拿，但是本身不提供任何增益手段，因此还是需要其他战斗类任务的帮助   |
 |   <font color='FFCC00'> **Hoarder** </font>  |  飞箱流能拿了，配合其他任务也有一点收益。  |
-|  <font color='FFCC00'> **Jester's Trick** </font>  |  **有IS的情况下是最高优先级**，这里主要讲战斗，Jester在有IS的情况下能提供大量的祝福和时间，可以让你安稳打过100轮；给予的时间还能避免红信标轮次内吃不到时间的窘境，总之是飞箱流核心组件  |
 |  <font color='5555FF'> **Orphion's Grace** </font>  |  现在稍微略区，因为蓝信标最多就400%，而且还不是很好搞，彩虹出现的更少了。但总之如果没别的任务可以拿了，还是值得拿的  |
 | <font color='AA00AA'> **Equilibrium** </font>   |  可以拿，目前诅咒获取多了外加蓝信标半削弱，导致equi地位有所提升，配合opal更是超神。  |
 |   <font color='AA00AA'> **Inner Peace** </font>  |   **诅咒流优先级极高**，IP主要是可以使对面诅咒抗性折半，这样更好应对数值了。另外，在有All in的情况下，IP还能避免怪物出现抗性超过100%的死局。 |

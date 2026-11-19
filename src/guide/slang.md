@@ -97,7 +97,7 @@ unidentified，未鉴定的装备，加在装备名前通常特指未鉴定的XX
 一般也指未鉴定的装备，但是尚不知道是什么装备，即仍然为盒子形态
 
 ### **lr**
-Lootrun，详情请移步[这个页面](/guide/lootrun.html)
+Lootrun，详情请移步[这个页面](/guide/lootrun/new_intro.html)
 
 ### **咸牛**
 Salted，为服务器的服主
@@ -109,7 +109,7 @@ Salted，为服务器的服主
 ### **SB/银牛/淫牛**
 Silverbull，指的是Silverbull系统，你可以理解为wynncraft月卡
 
-详情可以看看[这里](/guide/VIP.html#sliverbull-share)
+详情可以看看[这里](/guide/vip.html#sliverbull-share)
 
 ### **shout**
 指大喇叭，需要花费1个shout bomb来发送
@@ -127,7 +127,7 @@ lb是增加战利品的数量，lq是增加质量
 ### **三问**
 指80级的任务`???`
 
-具体可以看看[这篇文章](/quests/lvl71-80/level%2080%20-%20Z？？？.html)
+具体可以看看[这篇文章](/quests/lvl71-80/level%2080%20-%20z？？？.html)
 
 ### **垃圾场 / 教堂**
 
@@ -192,7 +192,7 @@ double loot，双倍掉落物炸弹
 wynn在输入法拼出来就是这个:(
 
 ### **海底捞**
-指一种前期赚钱途经，你可以看看[这里](/guide/earnle.html#海底捞)
+指一种前期赚钱途经，你可以看看[这里](/guide/earnle.html)
 
 ### **锁**
 指鉴定道具——`Corkian Insulator`

@@ -22,15 +22,11 @@ icon: face-tired
 ---
 与 **Haunted Mansion** 后方的 <NPC>Alem</NPC><CC>158 79 -373</CC> 对话。他会警告你远离此地。
 
-[](/assets/img/lv50-1.png)
-
 ### Step 2 探索一号宅邸
 ---
 进入教堂<CC>272 82 -331</CC>，沿路走下楼梯，在岩浆池<CC>272 67 -321</CC>前触发剧情。
 
 进入雕像后打开的秘密通道，观看剧情。
-
-[](/assets/img/lv50-2.png)
 
 ### Step 3 探索二号宅邸
 ---
@@ -42,8 +38,6 @@ icon: face-tired
 
 原路返回，上梯子，将阁楼钥匙丢进门里，进入阁楼触发剧情。
 
-[](/assets/img/lv50-3.png)
-
 ### Step 4 探索三号宅邸
 ---
 进入宅邸<CC>280 78 -473</CC>，直接左拐上二楼。
@@ -51,8 +45,6 @@ icon: face-tired
 一直走到走廊尽头的门<CC>291 84 -471</CC>前，地板会塌陷，你将落入地道。
 
 在地道内走到尽头触发剧情。
-
-[](/assets/img/lv50-4.png)
 
 ### Step 5 探索四号宅邸
 ---
@@ -62,8 +54,6 @@ icon: face-tired
 
 进入通道，靠近凋零骷髅头触发剧情。
 
-[](/assets/img/lv50-5.png)
-
 ### Step 6 揭示真相
 ---
 完成四个宅邸的探索后，墓园主干道尽头的大门将会打开。
@@ -72,13 +62,9 @@ icon: face-tired
 
 进入最后的房间，这里是 Mael Twain 的陵墓，一段过场动画将揭示墓园的真相。
 
-[](/assets/img/lv50-6.png)
-
 ### Step 7 交付任务
 ---
 返回与 <NPC>Alem</NPC><CC>158 79 -373</CC> 对话完成任务。
-
-[](/assets/img/lv50-1.png)
 
 ## 剧情省流 / Summary
 冒险者在Twain家族的墓园外遇到了一位名叫Alem的神秘人，他警告冒险者立刻离开。

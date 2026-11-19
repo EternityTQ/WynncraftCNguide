@@ -49,7 +49,7 @@ BOSS的技能分为两个：[撼地]和[冲锋]
 
 
 :::tip
-关于马匹，可以看看[这一章](/guide/basesystem/horse.html)
+关于马匹，可以看看[这一章](/guide/commonfunction/horse.html)
 :::
 
 

@@ -27,7 +27,6 @@ Wynncraft中，目前老外群体基本以Discord为主要交流平台
 
 [F3 Mythic Item]为在游戏中使用Wynntils对准物品F3复制得到的加密装备代码
 
-+ /soul：查看所有世界的灵魂点恢复时间
 + /build search [Mythic Item]：查看指定**神话武器**的构筑
 + /item weigh [F3 Mythic Item]：查看指定**神话物品**的权重价值
 + /item pricecheck [F3 Mythic Item]：给指定**神话物品**自动估价
@@ -77,7 +76,7 @@ Wynncraft第三方网页工具 Nori
 
 - [在线玩家](https://nori.fish/wynn/online)
 
-- [服务器在线时长+灵魂点倒计](https://nori.fish/wynn/uptime)
+- [服务器在线时长](https://nori.fish/wynn/uptime)
 
 ### [论坛贴子地址](https://forums.wynncraft.com/threads/308524)
 

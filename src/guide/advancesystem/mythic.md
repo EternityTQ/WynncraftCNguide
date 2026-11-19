@@ -1135,6 +1135,9 @@ QOL是个问题，缺少移速并且陨石还容易砸不中，法师还缺少�
 
 ![ =300x](/assets/img/mythic.md-05-05-00-02-02.png)
 
+
+别名：翡翠鸟/翠鸟/翡翠鸡
+
 我说永利创造没有完爆。
 
 BETA服最后几天出的这把武器，印象里刚开始还没意识到这把武器的问题(至少笔者是这样)
@@ -1268,6 +1271,10 @@ ascend了之后还是挺垃圾的...没人用。
 
 <MythicItem name="Grandmother" />
 
+Ascend版本：
+
+<MythicItem name="Masterwork Grandmother" />
+
 别名：奶奶/gma
 
 > gma的来源是Grandma
@@ -1280,6 +1287,11 @@ ascend了之后还是挺垃圾的...没人用。
 
 目前借着Sharpshooter的增强吃上了东风，玩Sharp有点爆。
 
+ascend也是偏向QOL性质的升级，加了惊天15agi，还有半血大概率无敌的神必major
+
+面板其实没加多少，但已经够了。
+
+还是很期待奶奶做大做强的。
 
 
 
@@ -1331,6 +1343,8 @@ ascend了之后还是挺垃圾的...没人用。
 之前有一次削弱莫名其妙把Ignis小的可怜的火伤词条给删了，还顺便削了血量，CT你要几把干啥？？？
 
 目前版本还是有点区，缺少就业空间，玩bolt我为什么不去玩隔壁eschaton
+
+然后major还改版了，来你告诉我这是什么玩意。。
 
 :::details 评论区
 
@@ -1414,8 +1428,6 @@ ms削了降了下手感，倒是无伤大雅
 + 跟cata同病相怜的武器 !!但是cata比dz还肉!!
 
 + 死亡后聊天栏自动发送lag
-
-+ dz的最大加强：灵魂点系统删了
 
 + 削弱完依旧是世界第一中单，神九门
 
@@ -1520,6 +1532,11 @@ Ascend版本：
 :::details 构筑介绍
 
 
+
+strati虽说三条线都能玩，但现在主要推荐的还是bolt:
+
+
+https://wynnbuilder.github.io//builder/#CZ0X600C8t2uQ41TCTCn7n7n7n7JAI0gJOvO4qnqn4V4V4V4Vyf81uDj8N-4+7VVuXxfS8
 :::
 ### Epoch
 

@@ -104,7 +104,7 @@ icon: gem
 
 ### 任务攻略
 
-基础格式均存放在src\quests\blank.md中，可以查阅。
+基础格式均存放在drafts\quests\blank.md中，可以查阅。
 
 ### 文件结构
 

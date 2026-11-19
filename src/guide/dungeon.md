@@ -100,7 +100,7 @@ pageview: true
 ### Decrepit Sewers
 建议等级: lvl 9
 入场等级: lvl 5
-前置任务:[Sewers of Ragni (level 5)](/quests/lvl1-10/level%205%20-%20Sewers%20of%20Ragni.html)
+前置任务:[Sewers of Ragni (level 5)](/quests/lvl1-10/level%205%20-%20sewers%20of%20ragni.html)
 坐标：`[-909 62 -1885]`
 简称：DS
 
@@ -114,7 +114,7 @@ DS一般都是玩家第一个会遇到的地牢
 ### Infested Pit
 建议等级：lvl 18
 入场等级：lvl 14
-前置任务：[Arachnids' Ascent ( level 14 )](/quests/lvl11-20/level%2014%20-%20Arachnids'%20Ascent.html)
+前置任务：[Arachnids' Ascent ( level 14 )](/quests/lvl11-20/level%2014%20-%20arachnids'%20ascent.html)
 坐标：`[-189 46 -1819]`
 简称：IP
 
@@ -126,7 +126,7 @@ DS一般都是玩家第一个会遇到的地牢
 ### Underworld Crypt
 建议等级：lvl 24
 入场等级：lvl 21
-前置任务：[The Dark Descent (level 21)](/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html)
+前置任务：[The Dark Descent (level 21)](/quests/lvl21-30/level%2021%20-%20the%20dark%20descent.html)
 坐标：`[230 44 -1953]`
 简称：UC
 
@@ -162,7 +162,7 @@ BOSS注意不要掉下去了，会拆地板
 ### Sand-Swept Tomb
 建议等级：lvl 36
 入场等级：lvl 33
-前置任务：[Kingdom of Sand (level 33)](/quests/lvl31-40/level%2033%20-%20Kingdom%20of%20Sand.html)
+前置任务：[Kingdom of Sand (level 33)](/quests/lvl31-40/level%2033%20-%20kingdom%20of%20sand.html)
 坐标：`[1412 95 -1931]`
 简称：SST
 
@@ -180,7 +180,7 @@ BOSS内含多阶段
 ### Ice Barrows
 建议等级：lvl 45
 入场等级：lvl 43
-前置任务：[Fate of the Fallen (level 43)](/quests/lvl41-50/level%2043%20-%20Fate%20of%20the%20Fallen.html)
+前置任务：[Fate of the Fallen (level 43)](/quests/lvl41-50/level%2043%20-%20fate%20of%20the%20fallen.html)
 坐标：`[131 86 -664]`
 简称：IB
 
@@ -199,7 +199,7 @@ BOSS内含多阶段
 ### Undergrowth Ruins
 建议等级：lvl 54
 入场等级：lvl 52
-前置任务：[Corrupted Betrayal (level 52)](/quests/lvl51-60/level%2052%20-%20Corrupted%20Betrayal.html)
+前置任务：[Corrupted Betrayal (level 52)](/quests/lvl51-60/level%2052%20-%20corrupted%20betrayal.html)
 坐标：`[-638 59 -869]`
 简称：UR
 
@@ -217,7 +217,7 @@ UR的跑酷部分全部由史莱姆踏板组成，当你贴到墙面的史莱姆
 ### Galleon's Graveyard
 建议等级：lvl 63
 入场等级：lvl 61
-前置任务：[Redbeard's Booty (level 61)](/quests/lvl61-70/level%2061%20-%20Redbeard's%20Booty.html)
+前置任务：[Redbeard's Booty (level 61)](/quests/lvl61-70/level%2061%20-%20redbeard's%20booty.html)
 坐标：`[-587 39 -3535]`
 简称：GG
 
@@ -238,7 +238,7 @@ UR的跑酷部分全部由史莱姆踏板组成，当你贴到墙面的史莱姆
 ### Fallen Factory
 建议等级：lvl 90
 入场等级：lvl 89
-前置任务：[The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20The%20Envoy%20Part%20II.html)
+前置任务：[The Envoy Part II (Level 89)](/quests/lvl81-90/level%2089%20-%20the%20envoy%20part%20ii.html)
 坐标：`[-1676 80 -2604]`
 简称：FF
 
@@ -258,7 +258,7 @@ FF的时长非常长，法师、弓手可能会比较舒服(因为可以靠位�
 ### Eldritch Outlook
 建议等级：lvl 101
 入场等级：lvl 101
-前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20A%20Journey%20Further.html)
+前置任务：[A Journey Further (level 101)](/quests/lvl101-110/level%20101%20-%20a%20journey%20further.html)
 坐标：`[1291 87 -758]`
 简称：EO
 

@@ -81,7 +81,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 然后你就可以开始进行你的第一个任务了
 
-[Enzan's Brother (level 1)](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)
+[Enzan's Brother (level 1)](/quests/lvl1-10/level%201%20-%20zenzan's%20brother.html)
 
 
 
@@ -101,13 +101,13 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 当然，采集副职可以用于前期解决货币不足的问题，这些是后话
 
-等你做到[Cook Assistant (level 3)](/quests/lvl1-10/level%203%20-%20Cook%20Assistant.html)任务后，你将会第一次体验到采集系统
+等你做到[Cook Assistant (level 3)](/quests/lvl1-10/level%203%20-%20cook%20assistant.html)任务后，你将会第一次体验到采集系统
 
 稍微知道怎么采集就行了，不需要过多涉足！
 
 ### 秘密发现
 
-在做完[Enzan's Brother](/quests/lvl1-10/level%201%20-%20ZEnzan's%20Brother.html)后，<font color=00AA00>**Therck**</font>会跟你说楼梯上有一把钥匙
+在做完[Enzan's Brother](/quests/lvl1-10/level%201%20-%20zenzan's%20brother.html)后，<font color=00AA00>**Therck**</font>会跟你说楼梯上有一把钥匙
 
 你可以在左侧的屋子发现可以用钥匙打开的门
 
@@ -163,7 +163,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 ![](/assets/img/questbook4.jpg)
 
-和洞穴系统有关的lootrun，具体可以看看[这一章](/guide/lootrun.html#传统lootrun)
+和洞穴系统有关的lootrun，具体可以看看[这一章](/guide/lootrun/new_intro.html#传统lr方式)
 
 ### 记得完成任务！
 
@@ -352,7 +352,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 在此之前，也许你的等级不是很够，你可以先看看上面那个超级刷怪点？
 
-首先，你要先做好[前置任务](/quests/lvl21-30/level%2021%20-%20The%20Dark%20Descent.html)
+首先，你要先做好[前置任务](/quests/lvl21-30/level%2021%20-%20the%20dark%20descent.html)
 
 非常短，很快就能做好！
 
@@ -364,7 +364,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 这个非常重要啦！
 
-当你打到25级后，可以直接去做[这个任务](/quests/lvl21-30/level%2025%20-%20Recover%20The%20Past.html)了
+当你打到25级后，可以直接去做[这个任务](/quests/lvl21-30/level%2025%20-%20recover%20the%20past.html)了
 
 当做完后，你的所有存档都可以直接解锁技能树洗点功能
 
@@ -374,7 +374,7 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 ### 去解决Tempo镇的麻烦！
 
-[Tempo Town Trouble(level 25)](/quests/lvl21-30/level%2025%20-%20Tempo%20Town%20Trouble.html)
+[Tempo Town Trouble(level 25)](/quests/lvl21-30/level%2025%20-%20tempo%20town%20trouble.html)
 
 一个算是比较重要的任务
 
@@ -426,9 +426,9 @@ Ragni城里面就只有这些需要注意的NPC了！
 
 不妨试一下海底捞吧！
 
-具体可以看看[这里](/guide/earnle.html#海底捞-非常推荐)
+具体可以看看[这里](/guide/earnle.html)
 
-当然，在这里赚钱的时候，比较建议游到`[250 -3200]`这个坐标，拿到一个叫`Coral of Nelfors`的物品，之后在[Temple of the Legends (level 68)](/quests/lvl61-70/level%2068%20-%20Temple%20of%20the%20Legends.html)任务中是会用上的！省的再过来跑一趟！
+当然，在这里赚钱的时候，比较建议游到`[250 -3200]`这个坐标，拿到一个叫`Coral of Nelfors`的物品，之后在[Temple of the Legends (level 68)](/quests/lvl61-70/level%2068%20-%20temple%20of%20the%20legends.html)任务中是会用上的！省的再过来跑一趟！
 
 ## lv 30
 
