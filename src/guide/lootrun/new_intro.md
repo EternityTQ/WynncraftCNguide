@@ -462,40 +462,46 @@ vibrant效果和普通青信标会给信标+1级，vibrant青信标会给信标+
 
 任务在完成对应目标后会提供非常强力的效果
 
-| 名称               | 效果     |
-|---------------------|-------------------------------------------------------------------------------------------|
-| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒|
-| <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  |
-| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启1个非飞箱(普通宝箱)后，在下一轮挑战结束时生成1个飞箱 (上限4个)  |
-| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull、+1挑战轮数、1-2个诅咒、60s时间中随机获取一个  |
-| <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得3 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限15个)  |
-| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的最终效果^1^|
-| <font color='5555FF'> **Route Indigo** </font>     | 蓝信标与紫信标被遮蔽，但是它们将被大幅增强(+2级效果)^2^|
-| <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull；该祝福每有额外50%效能，则额外+2 pull。|
-| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+2 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%|
-| <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫罗兰信标(Violet)会获得7个诅咒；紫色信标提供的Pull翻倍^3^|
-| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得15 Pulls，就清除一个辉光概率的诅咒。^4^  |
-| <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)|
-| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果降低33%^10^|
-| <font color='AA00AA'>**Balancing Act**</font>  | 每轮结束时,清除2个诅咒. |
-| <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒^5^|
-| <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)|
-| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个野外宝箱后，在下轮完成时获得1 Pull，且扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s|
-| <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你的信标池没有信标可以出现了，否则被刷新的信标将不再出现^6^|
-| <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到普通青色信标的效果(一级增幅)|
-| <font color='FFAA00'> **High Spirits** </font>         | 基础Vibrant信标转换概率 +50%^7^ |
-| <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会^8^|
-| <font color='FFAA00'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+3 (总信标选数上限为6)；开始任意挑战后重置该效果|
-| <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限为+3),拾取绿信标后重置该叠层|
-| <font color='FF5555'> **Knife Edge** </font>         | 在每轮开始时^9^给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0|
-| <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中|
-| <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会|
-| <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会|
-| <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，随机获得一个信标效果^11^|
-| <font color='DDDDDD'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数^12^  |
+| 名称               | 效果     | 标记 | 
+|---------------------|-------------------------------------------------------------------------------------------| -- |
+| <font color='FFCC00'> **Cleansing Greed** </font>     | 每次开启飞箱后，随机清除1个诅咒| |
+| <font color='FFCC00'> **Materialism** </font>         | 每次完成挑战后，额外生成2个飞箱  | |
+| <font color='FFCC00'> **Hoarder** </font>         | 每当你开启1个非飞箱(普通宝箱)后，在下一轮挑战结束时生成1个飞箱 (上限4个)  | <font color = "orange"> **REWORK** </font> |
+| <font color='FFCC00'> **Jester's Trick** </font>         | 每当你从飞箱中累计开出25件物品时，从3 pull、+1挑战轮数、1-2个诅咒、60s时间中随机获取一个  | |
+| <font color='FFCC00'> **Interest Scheme** </font>         | 每当你获得3 pull时，都会为你下一次完成黄色信标时额外奖励1个飞箱 (上限15个)  | <font color='FFCC00'> **REBALANCE** </font> |
+| <font color='5555FF'> **Orphion's Grace** </font>     | 每个祝福额外增加一半的最终效果^1^| |
+| <font color='5555FF'> **Opal Offering** </font>     | 每获得1个诅咒，消耗1个100%效能的祝福并+1 pull；该祝福每有额外50%效能，则额外+2 pull。| |
+| <font color='5555FF'> **Ostinato** </font>     | 每当获得一个祝福，该祝福所属种类下每持有一个祝福，+2 Pulls；每存在一种不同的存在重复持有的祝福种类，所有的祝福效能-50%| <font color='FFCC00'> **REBALANCE** </font> |
+| <font color='AA00AA'> **Porphyrophobia** </font>     | 每次出现紫罗兰信标(Violet)会获得7个诅咒；紫色信标提供的Pull翻倍^3^| <font color = "orange"> **REWORK** </font> |
+| <font color='AA00AA'> **Radiant Hunter** </font>    | 处于挑战期间时,每次击杀辉光怪物时，获得1 pull (每轮上限 5 pull);你每通过此途径获得15 Pulls，就清除一个辉光概率的诅咒。^4^  | |
+| <font color='AA00AA'> **Equilibrium** </font>         | 每获得1个诅咒，会使下次获取的祝福效能+100% (上限+600%)| |
+| <font color='AA00AA'> **Inner Peace** </font>         | 诅咒效果降低33%^10^| <font color='FFCC00'> **REBALANCE** </font> |
+| <font color='AA00AA'>**Balancing Act**</font>  | 每轮结束时,清除2个诅咒. | <font color='FFCC00'> **REBALANCE** </font> |
+| <font color='AA00AA'> **Route Indigo** </font>     | 蓝信标与紫信标被遮蔽，但是它们将被大幅增强(+2级效果)^2^| |
+| <font color='AA00AA'>**Exorcist**</font>  | 紫罗兰信标不再给予诅咒，而是转为清除等量诅咒 | <rb>NEW</rb> |
+| <font color='AA00AA'>**Brass Tacks**</font>  | 在获取橙信标的效果后，每拥有1个信标选数，清除2个诅咒 | <rb>NEW</rb> |
+| <font color='00BB00'> **Requiem** </font>              | 接下来15分钟内，怪物将不再增加属性，包括轮次属性和诅咒^5^| |
+| <font color='00BB00'> **Training Arc** </font>              | 每获得90秒时间，下次获取紫罗兰信标将会额外获得 1 pull(至多累计+15)| <rb>NEW</rb> |
+| <font color='00BB00'> **Stasis** </font>              | 在信标选择阶段，计时器不会减少时间(持续上限5min)| |
+| <font color='00BB00'> **Chronokinesis** </font>         | 每开启一个野外宝箱后，在下轮完成时获得1 Pull，且扣除10秒时间，每多开一个宝箱会使该惩罚时间额外+5s；完成任意挑战可使该惩罚时间-15s| |
+| <font color='FFAA00'> **Optimism** </font>         | 刷新信标时，除非你的信标池没有信标可以出现了，否则被刷新的信标将不再出现^6^| |
+| <font color='FFAA00'> **Beleza Pura** </font>         | 如果当前出现了青色信标，则当前其他所有信标都会受到普通青色信标的效果(一级增幅)| |
+| <font color='FFAA00'> **High Spirits** </font>         | 基础Vibrant信标转换概率 +50%^7^ | |
+| <font color='FFAA00'> **Backup Beat** </font>         | 每累计获得300s的时间后，增加一次信标刷新机会^8^| |
+| <font color='FFAA00'> **Gourmand** </font>     | 每次使用1次信标刷新次数后，信标选数+3 (总信标选数上限为6)；开始任意挑战后重置该效果| |
+| <font color='FF5555'> **Thrill Seeker** </font>         | 每完成红信标给予的挑战将获得1 pull;该数量每连续完成6轮挑战将会+1(上限为+3),拾取绿信标后重置该叠层| |
+| <font color='FF5555'> **Knife Edge** </font>         | 在每轮开始时^9^给予7 Pulls，但你每有1个尚未完成的轮次数，则该奖励-1 Pull，最低减至0| |
+| <font color='FF5555'> **Temporal Spur** </font>         | 每完成一轮挑战，扣除120秒时间，从以下奖励中随机获取一类：3pulls、1轮挑战、2-3个飞箱| <rb>NEW</rb> |
+| <font color='FF5555'> **King's Court** </font>         | 将一个绯红信标加入至你的信标池中| |
+| <font color='DDDDDD'> **High Roller** </font>         | 获得1次结算重掷机会| |
+| <font color='DDDDDD'> **Redemption** </font>          | 获得1次奖励献祭机会| |
+| <font color='DDDDDD'> **Complete Chaos** </font>         | 每次完成挑战后，随机获得一个信标效果^11^| |
+| <font color='DDDDDD'> **Sacrificial Ritual** </font>    | 每次完成挑战后，消费1 pull，并增加3个挑战轮数^12^  | |
 
-:::warning 2.2.6 版本待补充
-2.2.6 版本新增了 4 个全新任务，待实装后补充进上表。
+:::tip 标记含义
++ <rb>NEW</rb> 在本次更新后，新加入的任务。
++ <font color='FFCC00'> **REBALANCE** </font> 在本次更新后，通过平衡性改动增加/减少了数值。
++ <font color = "orange"> **REWORK** </font> 在本次更新后，任务效果重做。
 :::
 
 ^1^不计入最终Potency，相当于最终乘算+50%
