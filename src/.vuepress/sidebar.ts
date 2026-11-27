@@ -155,7 +155,7 @@ export default sidebar({
         icon: "wheelchair-move",
         collapsible: true,
         children: ["new_intro","guide","location"],
-      }, "grindspot", "earnle", "vip", "festival", "mod", "slang", "community", "qa", "support","rules"],
+      }, "grindspot", "earnle", "vip", "festival", "mod", "slang", "community", "qa", "support","rules","rhzhr"],
     },
   ],
   "/newbie/": [
